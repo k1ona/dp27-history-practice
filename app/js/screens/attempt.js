@@ -6,6 +6,8 @@ import { sentences } from "../checks/text.js";
 import { enqueue } from "../sync.js";
 import { modelBlock, sourcesBlock } from "./task.js";
 import { P1_PARTS } from "./section.js";
+import { teacherCard } from "./inbox.js";
+import { updateInboxBadge } from "../sync.js";
 
 /** The fields of dp27.submission.v1 that leave the device. */
 export function contractView(a) {
@@ -79,6 +81,7 @@ function selfCheckView(root, a, criteria) {
     a.local = { ...a.local, selfTaps: taps, scored, points, redraftInstruction: redraftInstruction(points), stage: "done" };
     await db.put("attempts", a);
     await enqueue("submit", contractView(a));
+    window.dispatchEvent(new Event("dp27-progress"));
     location.hash = `#/attempt/${a.submissionId}/feedback`;
   });
   root.append(list, el("h2", {}, "Your answer"), answer, el("div", { class: "row", style: "margin-top:.8rem" }, done));
@@ -108,9 +111,13 @@ async function feedbackView(root, a, found, criteria) {
     p.quote ? el("p", {}, el("q", {}, p.quote)) : null, el("p", {}, el("strong", {}, "Missing: "), p.missing), el("p", {}, el("strong", {}, "Do this: "), p.action))));
   root.append(el("div", { class: "callout", "data-redraft-instruction": "" }, el("strong", {}, "Redraft instruction: "), a.local.redraftInstruction));
   const teacher = await db.get("feedback", a.submissionId);
-  if (teacher) root.append(el("div", { class: "card" }, el("h2", {}, "Teacher feedback"), el("p", {}, teacher.redraftInstruction || "")));
+  if (teacher) {
+    root.insertBefore(teacherCard(teacher), root.children[2] || null);
+    if (!teacher.readAt) { teacher.readAt = new Date().toISOString(); await db.put("feedback", teacher, a.submissionId); updateInboxBadge(); }
+  }
   root.append(el("div", { class: "row" },
-    el("a", { class: "btn", id: "redraft", href: `#/s/${a.sectionId}/task/${a.questionId}/${nextMode}/redraft/${a.submissionId}` }, "Redraft"),
+    el("a", { class: "btn", id: "redraft", href: `#/s/${a.sectionId}/task/${a.questionId}/${nextMode}/redraft/${a.submissionId}` },
+      teacher ? "Redraft after teacher feedback" : "Redraft"),
     el("a", { class: "btn secondary", id: "see-model", href: `#/attempt/${a.submissionId}/model` }, "See the model"),
     el("a", { class: "btn secondary", href: `#/s/${a.sectionId}` }, "Try another question")));
   return root;

@@ -70,5 +70,6 @@ export async function recordItem(itemId, score, response) {
   const entry = { score, response, at: new Date().toISOString() };
   const next = { best: Math.max(prev.best, score), last: score, history: [...prev.history, entry].slice(-20) };
   await db.put("itemResults", next, itemId);
+  window.dispatchEvent(new Event("dp27-progress"));
   return next;
 }

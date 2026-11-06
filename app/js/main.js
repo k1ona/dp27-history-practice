@@ -2,7 +2,7 @@
 import { db, requestPersistence } from "./db.js";
 import { route } from "./router.js";
 import { toast } from "./util.js";
-import { updateSyncStatus } from "./sync.js";
+import { updateSyncStatus, updateInboxBadge, flush } from "./sync.js";
 
 function applyTheme() {
   let t = null;
@@ -41,6 +41,8 @@ async function boot() {
   if (!profile && !location.hash.startsWith("#/setup")) location.hash = "#/setup";
   await route();
   updateSyncStatus();
+  updateInboxBadge();
+  flush({ force: true });
 }
 
 boot();

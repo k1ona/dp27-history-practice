@@ -133,6 +133,7 @@ export async function writtenTask(id, questionId, taskType, parentId) {
       appVersion: cfg.appVersion,
       counted: !copy.tooClose,
       afterFeedback: !!parent,
+      afterTeacherFeedback: !!(parent && (await db.get("feedback", parent.submissionId))),
       local: { checks, copy, fixed: parent ? fixedSince(parent.local?.checks, checks) : [], stage: "selfcheck" },
     };
     await db.put("attempts", attempt);

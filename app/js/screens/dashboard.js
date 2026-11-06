@@ -2,6 +2,7 @@ import { el, pct } from "../util.js";
 import { db } from "../db.js";
 import { content } from "../content.js";
 import { sectionProgress } from "../progress.js";
+import { syncEnabled } from "../sync.js";
 
 export function visibleForLevel(record, level) {
   return level === "SL" ? record.papers.some((p) => p !== "P3") : true;
@@ -18,6 +19,10 @@ export async function dashboard() {
   const map = await content.map();
   const avail = new Set((await content.available()).sections);
   const root = el("div", {});
+  if ((await syncEnabled()) && (!profile.token || profile.needsSignIn)) {
+    root.append(el("div", { class: "callout", "data-signin-needed": "" }, "Your work is saved on this device but cannot reach your teacher yet. ",
+      el("a", { href: "#/setup" }, "Sign in"), " while you are online."));
+  }
   root.append(el("h1", {}, "Your sections"),
     el("p", { class: "muted" }, `Level: ${profile.level}${profile.studentId ? ` · ${profile.studentId}` : ""}. Read the context, pass the checkpoints, then practise until each section is complete.`));
 

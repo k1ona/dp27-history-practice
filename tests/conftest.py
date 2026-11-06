@@ -1,5 +1,6 @@
 """Shared fixtures: build the site once, serve it on a free local port, and helpers for common steps."""
 import json
+import re
 import subprocess
 import sys
 import threading
@@ -127,3 +128,69 @@ def finish_selfcheck(page, tap_first=False):
             crit.locator("[data-none]").click()
     page.click("#finish-selfcheck")
     page.wait_for_selector("[data-status]")
+
+
+ENDPOINT = "https://sync.example.test/exec"
+
+
+class FakeServer:
+    """Answers like apps_script/Code.gs: login, submit, progress, feedback, restore (same JSON protocol)."""
+
+    def __init__(self, fail_submits=0, backup=None):
+        self.pins = {"S99": "4821"}
+        self.calls, self.submissions, self.progress, self.feedback = [], {}, [], []
+        self.fail_submits, self.backup = fail_submits, backup
+
+    def token(self, sid):
+        return f"{sid}.1.signed"
+
+    def handle(self, route):
+        body = json.loads(route.request.post_data or "{}")
+        self.calls.append(body)
+        sid = body.get("studentId")
+        authed = (body.get("pin") and self.pins.get(sid) == body.get("pin")) or (body.get("token") == self.token(sid))
+        if not authed:
+            return self.reply(route, {"ok": False, "error": "bad_credentials"})
+        a = body.get("action")
+        if a == "login":
+            return self.reply(route, {"ok": True, "studentId": sid, "level": "HL", "token": self.token(sid),
+                                      "hasBackup": self.backup is not None, "backupAt": "2026-11-05T10:00:00Z"})
+        if a == "submit":
+            if self.fail_submits > 0:
+                self.fail_submits -= 1
+                return route.fulfill(status=500, body="error")
+            self.submissions[body["payload"]["submissionId"]] = body["payload"]
+            return self.reply(route, {"ok": True})
+        if a == "progress":
+            self.progress.append(body["payload"])
+            return self.reply(route, {"ok": True})
+        if a == "feedback":
+            return self.reply(route, {"ok": True, "feedback": [f for f in self.feedback if f["studentId"] == sid]})
+        if a == "restore":
+            return self.reply(route, {"ok": True, "backup": self.backup})
+        return self.reply(route, {"ok": False, "error": "bad_action"})
+
+    @staticmethod
+    def reply(route, obj):
+        route.fulfill(status=200, content_type="application/json", body=json.dumps(obj))
+
+
+def connect(context, server):
+    """Point the app at the fake endpoint (service workers must be blocked so config.json can be intercepted)."""
+    def cfg(route):
+        body = json.loads(route.fetch().text())
+        body["syncEndpoint"] = ENDPOINT
+        route.fulfill(status=200, content_type="application/json", body=json.dumps(body))
+    context.route(re.compile(r".*/config\.json$"), cfg)
+    context.route(ENDPOINT + "*", server.handle)
+
+
+def sign_in(page, site_url, code="12A", sid="S99", pin="4821", expect_dashboard=True):
+    page.goto(site_url + "#/setup")
+    page.wait_for_selector("#sign-in")
+    page.fill("#class-code", code)
+    page.fill("#student-id", sid)
+    page.fill("#pin", pin)
+    page.click("#sign-in")
+    if expect_dashboard:
+        page.wait_for_selector("[data-section]")

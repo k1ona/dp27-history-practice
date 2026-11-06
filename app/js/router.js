@@ -7,11 +7,13 @@ import { itemSet } from "./screens/itemset.js";
 import { writtenTask } from "./screens/task.js";
 import { attemptScreen } from "./screens/attempt.js";
 import { settings, setup } from "./screens/settings.js";
+import { inbox } from "./screens/inbox.js";
 
 const routes = [
   [/^#\/?$/, () => dashboard()],
   [/^#\/setup$/, () => setup()],
   [/^#\/settings$/, () => settings()],
+  [/^#\/inbox$/, () => inbox()],
   [/^#\/s\/([^/]+)$/, (m) => sectionHome(m[1])],
   [/^#\/s\/([^/]+)\/read(?:\/(\d+))?$/, (m) => reader(m[1], Number(m[2] || 0))],
   [/^#\/s\/([^/]+)\/recall$/, (m) => recallSheet(m[1])],

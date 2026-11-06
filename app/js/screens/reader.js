@@ -11,7 +11,7 @@ const ANGLES = { causes: "Causes", nature_methods: "Nature and methods", impact_
 async function getReading(id) {
   return (await db.get("reading", id)) || { chunksRead: [], prediction: "", revisit: "" };
 }
-async function saveReading(id, r) { await db.put("reading", r, id); }
+async function saveReading(id, r) { await db.put("reading", r, id); window.dispatchEvent(new Event("dp27-progress")); }
 
 export async function reader(id, step) {
   const rec = await content.record(id);

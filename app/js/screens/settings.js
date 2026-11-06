@@ -1,10 +1,78 @@
 import { el, toast, download, escapeHtml, fmtDate } from "../util.js";
 import { db } from "../db.js";
 import { content } from "../content.js";
-import { updateSyncStatus } from "../sync.js";
+import { updateSyncStatus, api, flush, restoreFromServer, syncEnabled } from "../sync.js";
+
+const SIGN_IN_ERRORS = {
+  bad_credentials: "That student ID and PIN do not match. Check them with your teacher.",
+  bad_student: "Your student ID looks like S01.",
+  locked: "Too many wrong PINs. Wait an hour, then try again.",
+  network: "The class server could not be reached. Check the internet connection and try again.",
+  not_set_up: "The class server is not set up yet. Tell your teacher.",
+};
 
 export async function setup() {
+  const cfg = await content.config();
   const existing = await db.get("profile", "me");
+  if (!cfg.syncEndpoint) return localSetup(existing);
+  const code = el("input", { type: "text", id: "class-code", autocomplete: "off", autocapitalize: "characters", value: existing ? cfg.classCode : "" });
+  const id = el("input", { type: "text", id: "student-id", placeholder: "for example S01", autocomplete: "username", autocapitalize: "characters", value: existing?.studentId || "" });
+  const pin = el("input", { type: "password", id: "pin", inputmode: "numeric", autocomplete: "current-password" });
+  const msg = el("p", { class: "bad", id: "signin-error", "aria-live": "polite" });
+  const go = el("button", { type: "button", id: "sign-in" }, "Sign in");
+  const box = el("div", { class: "card" }, el("h1", {}, "Sign in"),
+    el("p", {}, "Sign in once while you are online. After that the app works offline, and your work is sent to your teacher whenever you are connected."),
+    el("label", { for: "class-code" }, "Class code"), code,
+    el("label", { for: "student-id", style: "margin-top:.6rem" }, "Student ID"), id,
+    el("p", { class: "small muted" }, "Your teacher gives you your student ID and PIN. Never type your name here."),
+    el("label", { for: "pin", style: "margin-top:.6rem" }, "PIN"), pin,
+    msg, el("div", { class: "row", style: "margin-top:1rem" }, go));
+  go.addEventListener("click", async () => {
+    msg.textContent = "";
+    const sid = id.value.trim().toUpperCase();
+    if (code.value.trim().toUpperCase() !== String(cfg.classCode).toUpperCase()) { msg.textContent = "That class code is not right."; return; }
+    if (!/^S\d{2}$/.test(sid)) { msg.textContent = SIGN_IN_ERRORS.bad_student; return; }
+    if (!pin.value.trim()) { msg.textContent = "Type your PIN."; return; }
+    if (!navigator.onLine) { msg.textContent = "The first sign-in needs the internet. Connect, then try again."; return; }
+    go.disabled = true;
+    try {
+      const r = await api("login", { studentId: sid, pin: pin.value.trim() });
+      const profile = { ...(existing || {}), studentId: r.studentId, level: r.level, token: r.token, signedInAt: new Date().toISOString(),
+        needsSignIn: false, createdAt: existing?.createdAt || new Date().toISOString() };
+      await db.put("profile", profile, "me");
+      pin.value = "";
+      const localAttempts = (await db.all("attempts")).length;
+      if (r.hasBackup && localAttempts === 0) { box.replaceWith(restorePrompt(r.backupAt)); return; }
+      updateSyncStatus();
+      flush({ force: true });
+      location.hash = "#/";
+    } catch (e) {
+      msg.textContent = SIGN_IN_ERRORS[e.message] || "Sign-in did not work. Try again in a moment.";
+    } finally {
+      go.disabled = false;
+    }
+  });
+  return box;
+}
+
+function restorePrompt(backupAt) {
+  const yes = el("button", { type: "button", id: "restore-yes" }, "Restore my work");
+  const no = el("button", { type: "button", class: "secondary", id: "restore-no" }, "Not now");
+  const card = el("div", { class: "card" }, el("h1", {}, "Your saved work"),
+    el("p", {}, `Work you saved on another device was found on the class drive${backupAt ? ` (last saved ${fmtDate(backupAt)})` : ""}. Restore it to this device?`),
+    el("div", { class: "row" }, yes, no));
+  yes.addEventListener("click", async () => {
+    yes.disabled = true;
+    try { await restoreFromServer(); toast("Your work has been restored."); } catch { toast("The backup could not be restored. Try again from Settings."); }
+    updateSyncStatus();
+    location.hash = "#/";
+  });
+  no.addEventListener("click", () => { location.hash = "#/"; });
+  return card;
+}
+
+/** Before the class server is set up, the app can still be used on this device alone. */
+function localSetup(existing) {
   const id = el("input", { type: "text", id: "student-id", placeholder: "for example S01", value: existing?.studentId || "", autocomplete: "off",
     pattern: "S[0-9]{2}", "aria-describedby": "id-help" });
   const level = el("select", { id: "level" }, el("option", { value: "HL" }, "HL (Papers 1, 2 and 3)"), el("option", { value: "SL" }, "SL (Papers 1 and 2)"));
@@ -28,6 +96,7 @@ export async function settings() {
   const profile = (await db.get("profile", "me")) || { level: "HL" };
   const cfg = await content.config();
   const persist = await db.get("meta", "persist");
+  const sync = await syncEnabled();
   let est = null;
   try { est = await navigator.storage.estimate(); } catch { /* unsupported */ }
   const level = el("select", { id: "settings-level" }, el("option", { value: "HL" }, "HL"), el("option", { value: "SL" }, "SL"));
@@ -55,13 +124,23 @@ export async function settings() {
   });
   return el("div", {}, el("h1", {}, "Settings"),
     el("div", { class: "card" }, el("h2", { style: "margin-top:0" }, "Profile"),
-      el("p", {}, `Student ID: ${profile.studentId || "not set"}`), el("label", { for: "settings-level" }, "Level"), level,
-      el("p", { class: "small" }, el("a", { href: "#/setup" }, "Change student ID"))),
+      el("p", {}, `Student ID: ${profile.studentId || "not set"}`),
+      sync ? el("p", { class: "small" }, profile.token && !profile.needsSignIn ? "Signed in to the class server." : "Not signed in: your work is kept on this device until you sign in.") : null,
+      sync ? null : el("label", { for: "settings-level" }, "Level"), sync ? el("p", {}, `Level: ${profile.level}`) : level,
+      el("p", { class: "small" }, el("a", { href: "#/setup" }, sync ? "Sign in again" : "Change student ID"))),
     el("div", { class: "card" }, el("h2", { style: "margin-top:0" }, "Appearance"), el("label", { for: "theme" }, "Theme"), themeSel),
     el("div", { class: "card" }, el("h2", { style: "margin-top:0" }, "Back up your work"),
       el("p", {}, "Export a backup file (to restore your work) and a readable report. Keep the file somewhere safe, such as your school drive."),
       el("div", { class: "row" }, el("button", { type: "button", id: "export-work", onclick: exportWork }, "Export my work")),
-      el("h3", {}, "Restore from a backup file"), file),
+      el("h3", {}, "Restore from a backup file"), file,
+      sync && profile.token ? el("div", {}, el("h3", {}, "Restore from the class drive"),
+        el("p", { class: "small" }, "Brings back the work you last sent from any device."),
+        el("button", { type: "button", class: "secondary", id: "restore-server", onclick: async (ev) => {
+          ev.target.disabled = true;
+          try { (await restoreFromServer()) ? toast("Your work has been restored.") : toast("No saved work was found on the class drive."); }
+          catch { toast("Restore needs the internet and a signed-in account."); }
+          ev.target.disabled = false; updateSyncStatus();
+        } }, "Restore from the class drive")) : null),
     el("div", { class: "card" }, el("h2", { style: "margin-top:0" }, "Storage"),
       el("p", {}, persist?.granted ? "This device has agreed to keep your work (persistent storage is on)." :
         "Persistent storage is not confirmed on this device. Export your work regularly."),
@@ -71,6 +150,8 @@ export async function settings() {
 
 export async function exportWork() {
   const stores = await db.dumpAll();
+  stores.profile = (stores.profile || []).map(({ k, v }) => ({ k, v: { ...v, token: undefined, needsSignIn: undefined } }));
+  stores.syncQueue = [];
   const profile = (await db.get("profile", "me")) || {};
   const stamp = new Date().toISOString().slice(0, 10);
   const who = profile.studentId || "student";

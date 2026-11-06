@@ -8,8 +8,8 @@ import re
 import pytest
 from playwright.sync_api import expect
 
-from conftest import (GLASNOST, P1, answer_item, finish_selfcheck, read_store, seed, seed_gate, setup_profile,
-                      submit_answer)
+from conftest import (GLASNOST, P1, FakeServer, answer_item, connect, finish_selfcheck, read_store, seed, seed_gate, setup_profile,
+                      sign_in, submit_answer)
 
 WEAK_PARAGRAPH = (
     "Gorbachev became the leader of the Soviet Union in 1985. In 1986 there was the disaster at Chernobyl. "
@@ -218,29 +218,43 @@ def test_coming_up_badge_is_shown(page, site_url):
     expect(card.locator(".badge.coming")).to_have_text("Coming up in class")
 
 
-# ---------------------------------------------------------------- sync queue
-def test_sync_queue_offline_then_retry(browser, site_url, content):
+# ---------------------------------------------------------------- sync, sign-in, inbox, restore
+def synced_page(browser, server):
     ctx = browser.new_context(service_workers="block", viewport={"width": 1024, "height": 1180})
-    calls = []
+    connect(ctx, server)
+    return ctx, ctx.new_page()
 
-    def cfg(route):
-        body = json.loads(route.fetch().text())
-        body["syncEndpoint"] = "https://sync.example.test/exec"
-        route.fulfill(status=200, content_type="application/json", body=json.dumps(body))
 
-    def endpoint(route):
-        calls.append(route.request.post_data)
-        if len(calls) == 1:
-            route.fulfill(status=500, body="error")
-        else:
-            route.fulfill(status=200, content_type="application/json", body='{"ok": true}')
+def test_sign_in_rules(browser, site_url):
+    server = FakeServer()
+    ctx, page = synced_page(browser, server)
+    page.goto(site_url)
+    page.wait_for_selector("#sign-in")  # with sync on, a new device must sign in
+    sign_in(page, site_url, code="11B", expect_dashboard=False)
+    expect(page.locator("#signin-error")).to_have_text("That class code is not right.")
+    sign_in(page, site_url, pin="0000", expect_dashboard=False)
+    expect(page.locator("#signin-error")).to_contain_text("do not match")
+    ctx.set_offline(True)  # stay on the sign-in screen that is already open
+    page.fill("#class-code", "12A")
+    page.fill("#student-id", "S99")
+    page.fill("#pin", "4821")
+    page.click("#sign-in")
+    expect(page.locator("#signin-error")).to_contain_text("first sign-in needs the internet")
+    ctx.set_offline(False)
+    sign_in(page, site_url)
+    profile = read_store(page, "profile")[0]
+    assert profile["studentId"] == "S99" and profile["token"] == "S99.1.signed" and "pin" not in profile, "the PIN is not stored"
+    # After the first sign-in the app opens offline (the service worker is tested separately).
+    expect(page.locator("#sync-status")).to_have_text("All work sent")
+    ctx.close()
 
-    ctx.route(re.compile(r".*/config\.json$"), cfg)
-    ctx.route("https://sync.example.test/**", endpoint)
-    page = ctx.new_page()
+
+def test_sync_queue_offline_then_retry(browser, site_url, content):
+    server = FakeServer(fail_submits=1)
+    ctx, page = synced_page(browser, server)
     sec = content[GLASNOST]
     q = sec["essayQuestions"][0]
-    setup_profile(page, site_url)
+    sign_in(page, site_url)
     seed_gate(page, sec)
     page.goto(site_url + f"#/s/{GLASNOST}/task/{q['questionId']}/plan")
     page.wait_for_selector("#answer")
@@ -248,23 +262,112 @@ def test_sync_queue_offline_then_retry(browser, site_url, content):
     submit_answer(page, WEAK_PARAGRAPH)
     finish_selfcheck(page)
     expect(page.locator("#sync-status")).to_have_text("Offline · 1 answer waiting to send")
-    assert calls == []
+    assert not [c for c in server.calls if c["action"] == "submit"]
     ctx.set_offline(False)
-    page.wait_for_function("() => true")
     expect(page.locator("#sync-status")).to_have_text("1 answer waiting to send", timeout=10000)
-    assert len(calls) == 1
-    q_items = read_store(page, "syncQueue")
+    q_items = [x for x in read_store(page, "syncQueue") if x["kind"] == "submit"]
     assert len(q_items) == 1 and q_items[0]["tries"] == 1
     assert q_items[0]["nextAt"] > page.evaluate("Date.now()"), "a failed send waits for its backoff delay"
     page.evaluate("window.dispatchEvent(new Event('online'))")
     expect(page.locator("#sync-status")).to_have_text("All work sent", timeout=10000)
-    assert len(calls) == 2
-    sent = json.loads(calls[1])
-    assert sent["action"] == "submit" and sent["studentId"] == "S99"
-    assert sent["payload"]["schema"] == "dp27.submission.v1"
-    assert sent["payload"]["taskType"] == "plan" and sent["payload"]["draft"] == 1
-    assert "local" not in sent["payload"] and "counted" not in sent["payload"]
-    assert read_store(page, "syncQueue") == []
+    sent = [c for c in server.calls if c["action"] == "submit"]
+    assert len(sent) == 2 and len(server.submissions) == 1
+    body = sent[1]
+    assert body["studentId"] == "S99" and body["token"] == "S99.1.signed" and "pin" not in body
+    payload = body["payload"]
+    assert payload["schema"] == "dp27.submission.v1" and payload["taskType"] == "plan" and payload["draft"] == 1
+    assert set(payload) == {"schema", "submissionId", "parentSubmissionId", "studentId", "level", "sectionId", "questionId", "paper",
+                            "taskType", "draft", "questionText", "commandTerm", "namedFactor", "timeframe", "sourceSetId",
+                            "responseText", "responses", "wordCount", "minutesSpent", "timed", "autoCheck", "selfCheck",
+                            "createdAt", "appVersion"}, "exactly the contract fields"
+    ctx.close()
+
+
+def test_progress_snapshot_carries_a_backup(browser, site_url, content):
+    server = FakeServer()
+    ctx, page = synced_page(browser, server)
+    sec = content[GLASNOST]
+    q = sec["essayQuestions"][0]
+    sign_in(page, site_url)
+    seed_gate(page, sec)
+    page.goto(site_url + f"#/s/{GLASNOST}/task/{q['questionId']}/plan")
+    page.wait_for_selector("#answer")
+    submit_answer(page, WEAK_PARAGRAPH)
+    finish_selfcheck(page)
+    page.wait_for_function("() => true")
+    for _ in range(60):
+        if server.progress:
+            break
+        page.wait_for_timeout(100)
+    assert server.progress, "a progress snapshot is sent after work is saved"
+    snap = server.progress[-1]
+    assert snap["schema"] == "dp27.progress.v1" and snap["studentId"] == "S99"
+    row = next(x for x in snap["sections"] if x["sectionId"] == GLASNOST)
+    assert row["checkpoint"] == 1 and row["tasksTotal"] == 3
+    stores = snap["backup"]["stores"]
+    assert len(stores["attempts"]) == 1 and "profile" not in stores and "syncQueue" not in stores, "no token in the backup"
+    ctx.close()
+
+
+def test_teacher_feedback_inbox_and_redraft(browser, site_url, content):
+    server = FakeServer()
+    ctx, page = synced_page(browser, server)
+    sec = content[GLASNOST]
+    q = sec["essayQuestions"][0]
+    sign_in(page, site_url)
+    seed_gate(page, sec)
+    page.goto(site_url + f"#/s/{GLASNOST}/task/{q['questionId']}/paragraph")
+    page.wait_for_selector("#answer")
+    submit_answer(page, WEAK_PARAGRAPH)
+    finish_selfcheck(page)
+    for _ in range(60):
+        if server.submissions:
+            break
+        page.wait_for_timeout(100)
+    sub_id = next(iter(server.submissions))
+    # The feedback system writes feedback; the endpoint releases it (without the teacher-only mark).
+    server.feedback.append({"schema": "dp27.feedback.v1", "submissionId": sub_id, "studentId": "S99",
+        "placement": {"type": "band", "value": "7–9 quality", "outOf": 15},
+        "points": [{"quote": "The party collapsed in the end.", "missing": "a judgement that weighs glasnost", "action": "End with a sentence that says how far glasnost was responsible."}],
+        "redraftInstruction": "Rewrite your last sentence so it weighs glasnost against democratisation.",
+        "improved": None, "forwardTarget": "Name the factor in every topic sentence.", "writtenAt": "2026-11-06T15:00:00Z"})
+    page.goto(site_url + "#/inbox")
+    item = page.locator(f'[data-inbox-item="{sub_id}"]')
+    expect(item).to_contain_text("7–9 quality")
+    expect(page.locator("#inbox-count")).to_have_text("1")
+    item.locator("a.btn").click()
+    card = page.locator(f'[data-teacher-feedback="{sub_id}"]')
+    expect(card).to_contain_text("Rewrite your last sentence so it weighs glasnost")
+    expect(card).to_contain_text("The party collapsed in the end.")
+    expect(page.locator("#inbox-count")).to_be_hidden()
+    assert "markForPrediction" not in json.dumps(read_store(page, "feedback"))
+    expect(page.locator("#redraft")).to_have_text("Redraft after teacher feedback")
+    page.click("#redraft")
+    page.wait_for_selector("#answer")
+    submit_answer(page, STRONG_PARAGRAPH)
+    finish_selfcheck(page)
+    d2 = next(a for a in read_store(page, "attempts") if a["draft"] == 2)
+    assert d2["afterTeacherFeedback"] is True and d2["counted"] is True
+    page.goto(site_url + f"#/s/{GLASNOST}")
+    expect(page.locator('[data-task="paragraph"]')).to_contain_text("Done")
+    ctx.close()
+
+
+def test_restore_on_a_new_device(browser, site_url):
+    backup = {"schema": "dp27.export.v1", "stores": {
+        "attempts": [{"k": "11111111-1111-4111-8111-111111111111", "v": {"submissionId": "11111111-1111-4111-8111-111111111111",
+            "sectionId": GLASNOST, "questionId": "P3-16-B4-GLASNOST-Q01", "taskType": "plan", "draft": 1, "createdAt": "2026-11-05T09:00:00Z",
+            "responseText": "Saved on the old iPad.", "questionText": "q", "wordCount": 4, "local": {"stage": "done", "checks": [], "points": [], "scored": {"met": 0, "total": 7, "results": []}}}}],
+        "reading": [{"k": GLASNOST, "v": {"chunksRead": ["K1", "K2"], "prediction": "Partly.", "revisit": ""}}]}}
+    server = FakeServer(backup=backup)
+    ctx, page = synced_page(browser, server)
+    sign_in(page, site_url, expect_dashboard=False)
+    page.wait_for_selector("#restore-yes")
+    page.click("#restore-yes")
+    page.wait_for_selector("[data-section]")
+    attempts = read_store(page, "attempts")
+    assert [a["responseText"] for a in attempts] == ["Saved on the old iPad."]
+    expect(page.locator(f'[data-section="{GLASNOST}"]')).to_contain_text("2/4")
     ctx.close()
 
 

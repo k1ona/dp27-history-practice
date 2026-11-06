@@ -1,0 +1,15 @@
+{
+  "schema": "dp27.feedback.v1",
+  "submissionId": "PUT-THE-SUBMISSION-ID-HERE",
+  "studentId": "S99",
+  "placement": {"type": "band", "value": "7–9 quality", "outOf": 15},
+  "points": [
+    {"quote": "The party collapsed in the end.", "missing": "a judgement that weighs glasnost against other factors", "action": "End with a sentence that says how far glasnost was responsible, and why."}
+  ],
+  "redraftInstruction": "Rewrite your last sentence so it weighs glasnost against democratisation.",
+  "improved": null,
+  "forwardTarget": "Name the factor in every topic sentence.",
+  "markForPrediction": 8,
+  "markOutOf": 15,
+  "writtenAt": "2026-11-06T15:00:00Z"
+}
