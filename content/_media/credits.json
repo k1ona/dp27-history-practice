@@ -1,0 +1,189 @@
+{
+  "schema": "dp27.media.v1",
+  "media": [
+    {
+      "mediaId": "M-gorbachev-un-1988",
+      "file": "content/_media/gorbachev-un-1988.webp",
+      "kind": "archival",
+      "title": "Mikhail Gorbachev addressing the UN General Assembly",
+      "creator": "Yuryi Abramochkin",
+      "date": "December 1988",
+      "repository": "RIA Novosti archive via Wikimedia Commons",
+      "recordId": "RIA Novosti #828797",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_828797_Mikhail_Gorbachev_addressing_UN_General_Assembly_session.jpg",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "licenceCheckedOn": "2026-11-06",
+      "creditLine": "Photo: Yuryi Abramochkin, RIA Novosti archive #828797, via Wikimedia Commons",
+      "altText": "Gorbachev speaking at a lectern in the UN General Assembly hall, December 1988.",
+      "widthPx": 1600,
+      "bytes": 191830,
+      "usedIn": [
+        "P3-16-B4-GLASNOST"
+      ]
+    },
+    {
+      "mediaId": "M-congress-peoples-deputies-1989",
+      "file": "content/_media/congress-peoples-deputies-1989.webp",
+      "kind": "archival",
+      "title": "1st Congress of People's Deputies of the USSR, Kremlin Palace of Congresses",
+      "creator": "Sergey Subbotin",
+      "date": "1989",
+      "repository": "RIA Novosti archive via Wikimedia Commons",
+      "recordId": "RIA Novosti #821412",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_821412_1st_Congress_of_People%27s_Deputies_of_USSR.jpg",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "licenceCheckedOn": "2026-11-06",
+      "creditLine": "Photo: Sergey Subbotin, RIA Novosti archive #821412, via Wikimedia Commons",
+      "altText": "Black-and-white photograph of deputies at the 1st Congress of People's Deputies in 1989; the archive caption names Procurator General Alexander Sukharev and investigator Telman Gdlyan.",
+      "widthPx": 1024,
+      "bytes": 65090,
+      "usedIn": [
+        "P3-16-B4-GLASNOST"
+      ]
+    },
+    {
+      "mediaId": "M-baltic-way-vilnius-1989",
+      "file": "content/_media/baltic-way-vilnius-1989.webp",
+      "kind": "archival",
+      "title": "A segment of the Baltic Way at the Green Bridge in Vilnius",
+      "creator": "Jonas Kernagis",
+      "date": "23 August 1989",
+      "repository": "Lithuanian State Central Archives via Wikimedia Commons",
+      "recordId": "archive file P-22490",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_segment_of_the_Baltic_Way_at_the_Green_Bridge_in_Vilnius.jpg",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "licenceCheckedOn": "2026-11-06",
+      "creditLine": "Photo: Jonas Kernagis, Lithuanian State Central Archives (P-22490), via Wikimedia Commons",
+      "altText": "People holding hands in a long human chain across the Green Bridge in Vilnius, 23 August 1989.",
+      "widthPx": 1338,
+      "bytes": 202842,
+      "usedIn": [
+        "P3-16-B4-GLASNOST"
+      ]
+    },
+    {
+      "mediaId": "M-vilnius-press-house-1991",
+      "file": "content/_media/vilnius-press-house-1991.webp",
+      "kind": "archival",
+      "title": "Unarmed civilians defend the Lithuanian Press House from Soviet army paratroopers, Vilnius",
+      "creator": "Paulius Lileikis",
+      "date": "January 1991",
+      "repository": "Lithuanian Central State Archives via Wikimedia Commons",
+      "recordId": "archive file 0-108094",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unarmed_civilians_defend_the_Lithuanian_Press_House_from_Soviet_army_paratroopers,_January_1991,_Vilnius,_Lithuania.jpg",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "licenceCheckedOn": "2026-11-06",
+      "creditLine": "Photo: Paulius Lileikis, Lithuanian Central State Archives (0-108094), via Wikimedia Commons",
+      "altText": "Black-and-white photograph of a crowd of civilians facing Soviet paratroopers outside the Press House in Vilnius, January 1991.",
+      "widthPx": 1600,
+      "bytes": 195222,
+      "usedIn": [
+        "P3-16-B4-GLASNOST"
+      ]
+    },
+    {
+      "mediaId": "M-nuremberg-rally-wehrmacht-1936",
+      "file": "content/_media/nuremberg-rally-wehrmacht-1936.webp",
+      "kind": "archival",
+      "title": "Nuremberg party rally: parade of the Wehrmacht on the Zeppelin Field",
+      "creator": "Unknown (Scherl)",
+      "date": "September 1936",
+      "repository": "Bundesarchiv (German Federal Archives) via Wikimedia Commons",
+      "recordId": "Bild 183-1987-0410-503",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1987-0410-503,_N%C3%BCrnberg,_Reichsparteitag,_Wehrmachts-Aufmarsch.jpg",
+      "licence": {
+        "name": "CC BY-SA 3.0 DE",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      "licenceCheckedOn": "2026-11-06",
+      "creditLine": "Bundesarchiv, Bild 183-1987-0410-503 / CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "altText": "Black-and-white photograph: ranks of soldiers and military vehicles on a vast parade ground, with a crowd giving the Nazi salute in the foreground and swastika flags along the stands.",
+      "widthPx": 800,
+      "bytes": 82456,
+      "usedIn": [
+        "P1-CS2-CAUSES"
+      ]
+    },
+    {
+      "mediaId": "M-autobahn-groundbreaking-1933",
+      "file": "content/_media/autobahn-groundbreaking-1933.webp",
+      "kind": "archival",
+      "title": "Hitler at the ground-breaking for the Reichsautobahn near Frankfurt",
+      "creator": "Unknown",
+      "date": "23 September 1933",
+      "repository": "Bundesarchiv (German Federal Archives) via Wikimedia Commons",
+      "recordId": "Bild 183-R27373",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R27373,_Reichsautobahn,_Adolf_Hitler_beim_1._Spatenstich,_bei_Frankfurt.jpg",
+      "licence": {
+        "name": "CC BY-SA 3.0 DE",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      "licenceCheckedOn": "2026-11-06",
+      "creditLine": "Bundesarchiv, Bild 183-R27373 / CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "altText": "Black-and-white photograph: Hitler bends to dig with a spade, surrounded by a crowd of men in uniform; a man with a swastika armband shovels earth beside him.",
+      "widthPx": 800,
+      "bytes": 56754,
+      "usedIn": [
+        "P1-CS2-CAUSES"
+      ]
+    },
+    {
+      "mediaId": "M-munich-conference-1938",
+      "file": "content/_media/munich-conference-1938.webp",
+      "kind": "archival",
+      "title": "Munich agreement: heads of government",
+      "creator": "Unknown (Scherl Bilderdienst)",
+      "date": "29 September 1938",
+      "repository": "Bundesarchiv (German Federal Archives) via Wikimedia Commons",
+      "recordId": "Bild 183-R69173",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg",
+      "licence": {
+        "name": "CC BY-SA 3.0 DE",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      "licenceCheckedOn": "2026-11-06",
+      "creditLine": "Bundesarchiv, Bild 183-R69173 / CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "altText": "Black-and-white photograph of five men standing in a formal room: from left, Chamberlain, Daladier, Hitler and Mussolini in uniform, and Ciano; officials stand behind them.",
+      "widthPx": 800,
+      "bytes": 51260,
+      "usedIn": [
+        "P1-CS2-CAUSES"
+      ]
+    },
+    {
+      "mediaId": "M-al-musawwar-cartoon-1935",
+      "file": "content/_media/al-musawwar-cartoon-1935.webp",
+      "kind": "archival",
+      "title": "“With his foot, Mussolini is crushing the dove of peace”",
+      "creator": "al-Musawwar (Egyptian weekly)",
+      "date": "6 September 1935",
+      "repository": "Wikimedia Commons (scan of the al-Musawwar front page)",
+      "recordId": "File: Anti-Mussolini political cartoon.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anti-Mussolini_political_cartoon.png",
+      "licence": {
+        "name": "Public domain (PD-Egypt)",
+        "url": "https://commons.wikimedia.org/wiki/Template:PD-Egypt"
+      },
+      "licenceCheckedOn": "2026-11-06",
+      "creditLine": "al-Musawwar, 6 September 1935, front page. Public domain in Egypt; via Wikimedia Commons",
+      "altText": "Cartoon: a huge, snarling Mussolini with clenched fists; his leg, drawn as the boot of Italy on a globe, crushes a dove.",
+      "widthPx": 521,
+      "bytes": 35580,
+      "usedIn": [
+        "P1-CS2-CAUSES"
+      ]
+    }
+  ]
+}

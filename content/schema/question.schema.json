@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dp27.local/schema/question.schema.json",
+  "title": "Paper 2 / Paper 3 essay question with decode key, model plan, model paragraph and auto-check configuration",
+  "type": "object",
+  "required": ["questionId", "paper", "label", "text", "commandTerm", "namedFactor", "features", "timeframe", "scope",
+               "decodeKey", "modelPlan", "modelParagraph", "selfCheck", "autoCheck"],
+  "properties": {
+    "questionId": { "$ref": "common.schema.json#/$defs/questionId" },
+    "paper": { "enum": ["P2", "P3"] },
+    "label": { "$ref": "common.schema.json#/$defs/label" },
+    "text": { "type": "string", "description": "Original IB-style wording; never past-paper wording" },
+    "commandTerm": { "$ref": "common.schema.json#/$defs/commandTerm" },
+    "namedFactor": { "type": ["string", "null"] },
+    "features": {
+      "type": "array", "uniqueItems": true,
+      "items": { "enum": ["named_factor", "proposition", "two_part", "comparative", "two_region", "two_state", "leader"] }
+    },
+    "timeframe": { "$ref": "common.schema.json#/$defs/timeframe" },
+    "scope": { "type": "string", "description": "Cases or regions the question requires" },
+    "requiresTwoRegions": { "type": "boolean", "default": false, "description": "If true, the question text must say so" },
+    "decodeKey": {
+      "type": "object", "required": ["verb", "factorOrTask", "timeframe", "scope", "judgement"],
+      "properties": {
+        "verb": { "type": "string" }, "factorOrTask": { "type": "string" }, "timeframe": { "type": "string" },
+        "scope": { "type": "string" }, "judgement": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "modelPlan": {
+      "type": "object", "required": ["thesis", "arguments", "counter", "judgementCriterion"],
+      "properties": {
+        "thesis": { "type": "string" },
+        "arguments": { "type": "array", "minItems": 3, "maxItems": 4, "items": {
+          "type": "object", "required": ["claim", "evidence"],
+          "properties": {
+            "claim": { "type": "string" },
+            "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "common.schema.json#/$defs/factId" } },
+            "isNamedFactor": { "type": "boolean" },
+            "part": { "enum": ["causes", "effects", "successes", "failures", "similarities", "differences"] }
+          },
+          "additionalProperties": false } },
+        "counter": { "type": "string" },
+        "judgementCriterion": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "modelParagraph": {
+      "type": "object", "required": ["segments"],
+      "properties": {
+        "segments": { "type": "array", "minItems": 4, "items": {
+          "type": "object", "required": ["text", "tags"],
+          "properties": {
+            "text": { "type": "string" },
+            "tags": { "type": "array", "minItems": 1, "items": { "enum": ["ARGUMENT", "EVIDENCE", "ANALYSIS", "COUNTER", "JUDGEMENT", "QUESTION WORDS"] } }
+          },
+          "additionalProperties": false } }
+      },
+      "additionalProperties": false
+    },
+    "selfCheck": {
+      "type": "array", "minItems": 7,
+      "items": { "enum": ["exact_question", "decoded", "precise_evidence", "mechanism", "counter", "judgement_criterion", "question_words", "explicit_comparison"] },
+      "description": "explicit_comparison is required when features include comparative, two_state or two_region"
+    },
+    "autoCheck": { "$ref": "#/$defs/autoCheck" },
+    "taskMinutes": {
+      "type": "object",
+      "properties": { "plan": { "const": 7 }, "paragraph": { "type": "array", "prefixItems": [{ "const": 12 }, { "const": 15 }] },
+                      "essay": { "enum": [45, 50] } },
+      "description": "Defaults: plan 7, paragraph 12–15, essay 45 (P2) or 50 (P3)"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "autoCheck": {
+      "type": "object",
+      "required": ["factorTerms"],
+      "properties": {
+        "factorTerms": { "type": "array", "minItems": 1, "items": { "type": "string" }, "description": "Key terms of the named factor or task" },
+        "synonyms": { "type": "array", "items": { "type": "string" } },
+        "evidenceLexicon": { "type": "string", "enum": ["section"], "default": "section", "description": "Use the section's evidence-bank lexicon" },
+        "extraLexicon": { "type": "array", "items": { "type": "string" } },
+        "judgementLexicon": { "type": "array", "items": { "type": "string" }, "description": "Overrides the default list for the command term" },
+        "comparisonRequired": { "type": "boolean" },
+        "parts": { "type": "array", "items": { "type": "object", "required": ["name", "terms"],
+          "properties": { "name": { "type": "string" }, "terms": { "type": "array", "items": { "type": "string" } } },
+          "additionalProperties": false }, "description": "Two-part questions: each part must be addressed" },
+        "historians": { "type": "array", "items": { "type": "string" } },
+        "lengthWords": { "type": "object", "properties": {
+          "plan": { "type": "array", "items": { "type": "integer" } },
+          "paragraph": { "type": "array", "items": { "type": "integer" } },
+          "essay": { "type": "array", "items": { "type": "integer" } } } },
+        "copyGuard": { "type": "object", "properties": {
+          "ngram": { "type": "integer", "default": 5 }, "threshold": { "type": "number", "default": 0.3 } } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

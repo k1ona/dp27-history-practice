@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dp27.local/schema/section.schema.json",
+  "title": "content/sections/<sectionId>.json: one section's context builder and practice",
+  "type": "object",
+  "required": ["schema", "sectionId", "contentVersion", "context", "retrieval", "drills"],
+  "properties": {
+    "schema": { "const": "dp27.section.v1" },
+    "sectionId": { "$ref": "common.schema.json#/$defs/sectionId" },
+    "contentVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "context": { "$ref": "#/$defs/context" },
+    "retrieval": { "type": "array", "items": { "$ref": "item.schema.json" }, "description": "Minimum 20 (P1 parts and P2/P3 sections)" },
+    "drills": { "type": "array", "items": { "$ref": "item.schema.json" }, "description": "P2/P3 minimum 10; P1 minimum 15 single-question drills" },
+    "essayQuestions": { "type": "array", "items": { "$ref": "question.schema.json" }, "description": "P2/P3 only; minimum 6" },
+    "sourceSets": { "type": "array", "items": { "$ref": "sourceset.schema.json" }, "description": "P1 only; minimum 4" }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "context": {
+      "type": "object",
+      "required": ["openingProblem", "chunks", "visuals", "evidenceBank", "misconceptions", "recallSheet"],
+      "properties": {
+        "readingMinutes": { "type": "integer", "minimum": 12, "maximum": 22 },
+        "openingProblem": {
+          "type": "object",
+          "required": ["problem", "predictionPrompt", "revisitPrompt"],
+          "properties": {
+            "problem": { "$ref": "common.schema.json#/$defs/richText", "description": "A contradiction, puzzle or disputed question. Never 'In this section we will learn'." },
+            "predictionPrompt": { "type": "string" },
+            "revisitPrompt": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "chunks": { "type": "array", "minItems": 3, "maxItems": 5, "items": { "$ref": "#/$defs/chunk" } },
+        "visuals": { "$ref": "#/$defs/visuals" },
+        "evidenceBank": { "type": "array", "minItems": 5, "maxItems": 8, "items": { "$ref": "#/$defs/fact" } },
+        "historiography": { "type": "array", "maxItems": 2, "items": { "$ref": "#/$defs/debate" } },
+        "misconceptions": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "required": ["wrong", "right"],
+            "properties": { "wrong": { "type": "string" }, "right": { "$ref": "common.schema.json#/$defs/richText" } },
+            "additionalProperties": false
+          }
+        },
+        "recallSheet": {
+          "type": "object", "required": ["chronology", "keyArguments"],
+          "properties": {
+            "chronology": { "type": "array", "items": { "$ref": "#/$defs/datedLine" } },
+            "keyArguments": { "type": "array", "minItems": 2, "items": { "type": "string" } }
+          },
+          "additionalProperties": false
+        },
+        "gate": {
+          "type": "object",
+          "properties": { "minCheckpointScore": { "type": "number", "minimum": 0.8, "maximum": 1 } },
+          "description": "Defaults to 0.8 across all checkpoints, best attempt per checkpoint"
+        }
+      },
+      "additionalProperties": false
+    },
+    "chunk": {
+      "type": "object",
+      "required": ["chunkId", "angle", "title", "body", "argumentsThatWork", "howItGetsAsked", "useItInAnEssay", "checkpoint"],
+      "properties": {
+        "chunkId": { "type": "string", "pattern": "^K[0-9]$" },
+        "angle": { "enum": ["causes", "nature_methods", "impact_consequences", "success_failure", "role_of_leader", "named_factor", "comparison"] },
+        "title": { "type": "string", "description": "Phrased as the question angle, e.g. 'Why did glasnost escape Gorbachev's control?'" },
+        "body": { "$ref": "common.schema.json#/$defs/richText", "description": "About 300–450 words; every causal link stated ('X led to Y because…')" },
+        "argumentsThatWork": {
+          "type": "array", "minItems": 2, "maxItems": 3,
+          "items": {
+            "type": "object", "required": ["claim", "evidence", "strongestCounter"],
+            "properties": {
+              "claim": { "type": "string" },
+              "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "common.schema.json#/$defs/factId" } },
+              "strongestCounter": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "howItGetsAsked": {
+          "type": "array", "minItems": 2, "maxItems": 3,
+          "items": { "type": "string" },
+          "description": "Original stems in IB style; never past-paper wording"
+        },
+        "useItInAnEssay": {
+          "type": "object",
+          "required": ["claim", "prove", "explain", "test", "judge"],
+          "properties": {
+            "claim": { "type": "string" }, "prove": { "type": "string" }, "explain": { "type": "string" },
+            "test": { "type": "string" }, "judge": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "checkpoint": { "type": "array", "minItems": 3, "maxItems": 4, "items": { "$ref": "item.schema.json" } },
+        "media": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/mediaId" } }
+      },
+      "additionalProperties": false
+    },
+    "datedLine": {
+      "type": "object", "required": ["year", "text"],
+      "properties": {
+        "year": { "$ref": "common.schema.json#/$defs/year" },
+        "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+        "day": { "type": "integer", "minimum": 1, "maximum": 31 },
+        "text": { "type": "string" },
+        "factId": { "$ref": "common.schema.json#/$defs/factId" }
+      },
+      "additionalProperties": false
+    },
+    "visuals": {
+      "type": "object",
+      "required": ["timeline", "causalChain", "actorCards"],
+      "properties": {
+        "timeline": {
+          "type": "object", "required": ["kind", "events"],
+          "properties": {
+            "kind": { "const": "diagram" },
+            "events": { "type": "array", "minItems": 6, "maxItems": 12, "items": { "$ref": "#/$defs/datedLine" } }
+          },
+          "description": "Every event year must fall inside the section timeframe (validator check)"
+        },
+        "causalChain": {
+          "type": "object", "required": ["kind", "nodes", "links"],
+          "properties": {
+            "kind": { "const": "diagram" },
+            "nodes": { "type": "array", "minItems": 3, "items": {
+              "type": "object", "required": ["id", "text"],
+              "properties": { "id": { "type": "string" }, "text": { "type": "string" }, "factId": { "$ref": "common.schema.json#/$defs/factId" } },
+              "additionalProperties": false } },
+            "links": { "type": "array", "items": {
+              "type": "object", "required": ["from", "to", "because"],
+              "properties": { "from": { "type": "string" }, "to": { "type": "string" }, "because": { "type": "string" } },
+              "additionalProperties": false } }
+          },
+          "additionalProperties": false
+        },
+        "actorCards": {
+          "type": "array", "minItems": 3, "maxItems": 8,
+          "items": {
+            "type": "object", "required": ["name", "role", "whyItMatters"],
+            "properties": {
+              "name": { "type": "string" }, "role": { "type": "string" },
+              "whyItMatters": { "type": "string", "description": "Why the actor matters for this bullet" },
+              "mediaId": { "$ref": "common.schema.json#/$defs/mediaId" },
+              "factIds": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/factId" } }
+            },
+            "additionalProperties": false
+          }
+        },
+        "comparisonGrid": {
+          "type": "object", "required": ["kind", "columns", "rows"],
+          "properties": {
+            "kind": { "const": "diagram" },
+            "columns": { "type": "array", "minItems": 2, "items": { "type": "string" } },
+            "rows": { "type": "array", "items": {
+              "type": "object", "required": ["criterion", "cells"],
+              "properties": { "criterion": { "type": "string" }, "cells": { "type": "array", "items": { "type": "string" } },
+                              "factIds": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/factId" } } },
+              "additionalProperties": false } }
+          },
+          "additionalProperties": false
+        },
+        "schematicMaps": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["kind", "mediaId", "caption"],
+            "properties": { "kind": { "const": "schematic diagram" }, "mediaId": { "$ref": "common.schema.json#/$defs/mediaId" }, "caption": { "type": "string" } },
+            "additionalProperties": false
+          }
+        },
+        "archival": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/mediaId" }, "description": "Each id must exist in content/_media/credits.json" }
+      },
+      "additionalProperties": false
+    },
+    "fact": {
+      "type": "object",
+      "required": ["factId", "text", "supports"],
+      "properties": {
+        "factId": { "$ref": "common.schema.json#/$defs/factId" },
+        "text": { "type": "string" },
+        "year": { "$ref": "common.schema.json#/$defs/year" },
+        "supports": { "type": "array", "minItems": 1, "items": { "type": "string" }, "description": "The argument(s) this fact supports" },
+        "alsoWorksFor": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/sectionId" } },
+        "lexicon": { "type": "array", "items": { "type": "string" }, "description": "Terms the evidence-density check counts (names, laws, figures)" }
+      },
+      "additionalProperties": false
+    },
+    "debate": {
+      "type": "object",
+      "required": ["historian", "argument", "useItLikeThis", "factId"],
+      "properties": {
+        "historian": { "type": "string" },
+        "argument": { "type": "string", "description": "One sentence, paraphrased" },
+        "useItLikeThis": { "type": "string" },
+        "factId": { "$ref": "common.schema.json#/$defs/factId", "description": "Verification row for the historian's argument" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

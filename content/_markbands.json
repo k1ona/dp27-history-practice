@@ -1,0 +1,93 @@
+{
+  "schema": "dp27.markbands.v1",
+  "label": "Plain-language paraphrase of the IB markbands",
+  "basis": "Teacher's paraphrase (DP27 Assessment, Marking and Feedback §1). Not IB wording.",
+  "bands": {
+    "p1q1": {
+      "title": "Paper 1 · Q1(a) 3 marks, Q1(b) 2 marks · points-based",
+      "rows": [
+        {
+          "marks": "1(a) · 3",
+          "descriptor": "One mark per distinct valid point taken from the source. Own knowledge earns nothing."
+        },
+        {
+          "marks": "1(b) · 2",
+          "descriptor": "One mark per distinct valid point, often from a visual source."
+        }
+      ]
+    },
+    "p1q2": {
+      "title": "Paper 1 · Q2 · 4 marks · points-based",
+      "rows": [
+        {
+          "marks": "4",
+          "descriptor": "Value and limitations analysed with reference to origin, purpose and content. Balance is ideal but not required for 4. For 4 there must be at least one reference to each of origin, purpose and content, in either the value or the limitations. Description of OPC alone earns little."
+        }
+      ]
+    },
+    "p1q3": {
+      "title": "Paper 1 · Q3 · 6 marks · bands",
+      "rows": [
+        {
+          "marks": "5–6",
+          "descriptor": "Clear, valid points of both comparison and contrast."
+        },
+        {
+          "marks": "3–4",
+          "descriptor": "Some valid points of comparison and/or contrast, possibly unclear."
+        },
+        {
+          "marks": "1–2",
+          "descriptor": "Description or general comment on the sources rather than real linkage."
+        }
+      ]
+    },
+    "p1q4": {
+      "title": "Paper 1 · Q4 · 9 marks · bands",
+      "rows": [
+        {
+          "marks": "7–9",
+          "descriptor": "Focused on the question; sources clearly referenced and used effectively as evidence; accurate, relevant own knowledge; sources and own knowledge synthesised."
+        },
+        {
+          "marks": "4–6",
+          "descriptor": "Generally focused; sources used as evidence; some own knowledge, which may lack accuracy or relevance; limited synthesis."
+        },
+        {
+          "marks": "1–3",
+          "descriptor": "Little focus; sources mentioned or described rather than used; own knowledge absent, inaccurate or irrelevant."
+        }
+      ]
+    },
+    "essay": {
+      "title": "Paper 2 and Paper 3 essays · 15 marks · generic bands",
+      "rows": [
+        {
+          "marks": "13–15",
+          "descriptor": "Clearly focused on the exact demands. Well structured. Accurate, relevant knowledge placed in context. Effective examples, compared where relevant. Critical analysis throughout. Different perspectives evaluated. Nearly every point substantiated. Conclusion consistent with the argument."
+        },
+        {
+          "marks": "10–12",
+          "descriptor": "Demands understood and addressed. Mostly well structured. Knowledge mostly accurate and relevant. Mainly analytical, with most points substantiated. Some evaluation of perspectives. Consistent conclusion."
+        },
+        {
+          "marks": "7–9",
+          "descriptor": "Demands generally understood, but some aspects underdeveloped. Some organisation. Mostly accurate knowledge. Some analysis, but more descriptive than analytical."
+        },
+        {
+          "marks": "4–6",
+          "descriptor": "Some awareness of the demands. Weak structure. Knowledge partly inaccurate or irrelevant. Mainly narrative, with limited analysis."
+        },
+        {
+          "marks": "1–3",
+          "descriptor": "Little understanding of the question. Little relevant knowledge. Generalisations. No analysis."
+        },
+        {
+          "marks": "0",
+          "descriptor": "Does not reach the 1–3 band."
+        }
+      ],
+      "note": "Paper 2: where a question asks for examples from two regions, two from the same region badly limits the mark. Paragraphs and plans are placed as “band quality”, not given a mark out of 15."
+    }
+  }
+}

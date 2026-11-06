@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dp27.local/schema/sections.schema.json",
+  "title": "content/sections.json: the section map",
+  "type": "object",
+  "required": ["schema", "specification", "papers", "sections", "crossLinks"],
+  "properties": {
+    "schema": { "const": "dp27.sections.v1" },
+    "label": { "type": "string" },
+    "specification": { "type": "string" },
+    "updated": { "type": "string", "format": "date" },
+    "papers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["paper", "title", "levels", "minutes"],
+        "properties": {
+          "paper": { "$ref": "common.schema.json#/$defs/paper" },
+          "title": { "type": "string" },
+          "levels": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/level" } },
+          "minutes": { "enum": [60, 90, 150] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sections": { "type": "array", "items": { "$ref": "#/$defs/sectionRecord" } },
+    "crossLinks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "theme", "sectionIds", "note", "source"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^X-[A-Z0-9-]+$" },
+          "theme": { "type": "string" },
+          "sectionIds": { "type": "array", "minItems": 2, "items": { "$ref": "common.schema.json#/$defs/sectionId" } },
+          "note": { "type": "string" },
+          "source": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sectionRecord": {
+      "type": "object",
+      "required": ["sectionId", "title", "papers", "topic", "guideBullet", "planCodes", "timeframe", "timeframeBasis",
+                   "timeframeProvisional", "status", "levels", "contentFile"],
+      "properties": {
+        "sectionId": { "$ref": "common.schema.json#/$defs/sectionId" },
+        "title": { "type": "string" },
+        "papers": { "type": "array", "minItems": 1, "items": { "$ref": "common.schema.json#/$defs/paper" } },
+        "topic": {
+          "type": "object", "required": ["code", "title"],
+          "properties": { "code": { "type": "string" }, "title": { "type": "string" } },
+          "additionalProperties": false
+        },
+        "guideBullet": {
+          "type": "object",
+          "required": ["ref", "text", "source", "wordingStatus", "flag", "basis"],
+          "properties": {
+            "ref": { "type": "string" },
+            "text": { "type": "string" },
+            "source": { "$ref": "common.schema.json#/$defs/sourceRef" },
+            "wordingStatus": { "enum": ["verified_guide", "verified_secondary", "unverified"] },
+            "flag": { "enum": [null, "WORDING UNVERIFIED"] },
+            "basis": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "planCodes": { "type": "array", "items": { "type": "string", "pattern": "^(P[123]\\.[0-9]+\\.[A-Z0-9]+|P2\\.12\\.R[0-9])$" } },
+        "timeframe": { "$ref": "common.schema.json#/$defs/timeframe" },
+        "timeframeBasis": { "type": "string" },
+        "timeframeProvisional": { "type": "boolean" },
+        "contextWindow": {
+          "type": "object", "required": ["timeframe", "note"],
+          "properties": { "timeframe": { "$ref": "common.schema.json#/$defs/timeframe" }, "note": { "type": "string" } },
+          "description": "Optional labelled background years allowed in context chunks only, never in timelines or answers checked against the question timeframe"
+        },
+        "status": { "enum": ["taught", "coming_up"] },
+        "yearTaught": { "enum": [1, 2] },
+        "levels": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/level" } },
+        "contentFile": { "type": "string", "pattern": "^content/sections/.+\\.json$" },
+        "stage3Batch": { "type": "integer", "minimum": 1, "maximum": 8 },
+        "pilot": { "type": "boolean" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

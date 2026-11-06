@@ -1,0 +1,382 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dp27.local/schema/item.schema.json",
+  "title": "Auto-marked item: retrieval, checkpoint or skill drill",
+  "type": "object",
+  "required": [
+    "itemId",
+    "kind",
+    "type",
+    "label",
+    "prompt"
+  ],
+  "properties": {
+    "itemId": {
+      "$ref": "common.schema.json#/$defs/itemId"
+    },
+    "kind": {
+      "enum": [
+        "retrieval",
+        "checkpoint",
+        "drill"
+      ]
+    },
+    "type": {
+      "enum": [
+        "mcq",
+        "multi_select",
+        "chronology",
+        "match",
+        "cloze",
+        "which_argument",
+        "spot_error",
+        "in_timeframe",
+        "decode",
+        "pick_thesis",
+        "narrative_or_analysis",
+        "evidence_to_claim",
+        "upgrade_sentence",
+        "strongest_counter",
+        "judgement_criterion",
+        "two_part_balance",
+        "p1_point_harvest",
+        "p1_purpose",
+        "p1_value_limitation",
+        "p1_pair_statements"
+      ]
+    },
+    "label": {
+      "$ref": "common.schema.json#/$defs/label"
+    },
+    "prompt": {
+      "$ref": "common.schema.json#/$defs/richText"
+    },
+    "skill": {
+      "$ref": "common.schema.json#/$defs/skill"
+    },
+    "factIds": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/factId"
+      }
+    },
+    "reviewDeck": {
+      "type": "boolean",
+      "default": true,
+      "description": "Eligible for the spaced Daily Review queue"
+    },
+    "sourceText": {
+      "type": "string",
+      "description": "Stimulus for decode / sentence / Paper 1 drills"
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/option"
+      }
+    },
+    "sequence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "text",
+          "year"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "year": {
+            "$ref": "common.schema.json#/$defs/year"
+          },
+          "factId": {
+            "$ref": "common.schema.json#/$defs/factId"
+          },
+          "month": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "left",
+          "right",
+          "explanation"
+        ],
+        "properties": {
+          "left": {
+            "type": "string"
+          },
+          "right": {
+            "type": "string"
+          },
+          "explanation": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "blanks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "answer",
+          "explanation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "answer": {
+            "type": [
+              "string",
+              "number"
+            ]
+          },
+          "accept": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tolerance": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Numeric tolerance (years or figures)"
+          },
+          "explanation": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "segments": {
+      "type": "array",
+      "description": "Sentences or spans to tag / sort / tap",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "text",
+          "answer",
+          "explanation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string",
+            "description": "e.g. verb|factor|timeframe|scope|judgement; narrative|analysis; causes|effects; point|not_point; A|B pair key"
+          },
+          "explanation": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "timeframe": {
+      "$ref": "common.schema.json#/$defs/timeframe",
+      "description": "For in_timeframe items"
+    },
+    "explanation": {
+      "type": "string",
+      "description": "General explanation shown after answering"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "Optional labels for categorise-type drills"
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "enum": [
+              "mcq",
+              "which_argument",
+              "spot_error",
+              "pick_thesis",
+              "upgrade_sentence",
+              "strongest_counter",
+              "judgement_criterion",
+              "p1_purpose",
+              "p1_value_limitation"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "options"
+        ],
+        "properties": {
+          "options": {
+            "minItems": 4
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "multi_select"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "options"
+        ],
+        "properties": {
+          "options": {
+            "minItems": 4
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "chronology"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "sequence"
+        ],
+        "properties": {
+          "sequence": {
+            "minItems": 4
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "enum": [
+              "match",
+              "evidence_to_claim"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "pairs"
+        ],
+        "properties": {
+          "pairs": {
+            "minItems": 3
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "cloze"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "blanks"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "enum": [
+              "decode",
+              "narrative_or_analysis",
+              "two_part_balance",
+              "p1_point_harvest",
+              "p1_pair_statements"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "segments"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "in_timeframe"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "timeframe",
+          "options"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "drill"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "skill"
+        ]
+      }
+    }
+  ]
+}

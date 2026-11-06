@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dp27.local/schema/media-credits.schema.json",
+  "title": "content/_media/credits.json: every image, map and diagram shipped in the app",
+  "type": "object",
+  "required": ["schema", "media"],
+  "properties": {
+    "schema": { "const": "dp27.media.v1" },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["mediaId", "file", "kind", "title", "creditLine", "usedIn"],
+        "properties": {
+          "mediaId": { "$ref": "common.schema.json#/$defs/mediaId" },
+          "file": { "type": "string", "pattern": "^content/_media/.+\\.(webp|svg)$" },
+          "kind": { "enum": ["archival", "diagram", "schematic diagram"] },
+          "title": { "type": "string" },
+          "creator": { "type": "string" },
+          "date": { "type": "string" },
+          "repository": { "type": "string", "description": "e.g. Bundesarchiv via Wikimedia Commons; US National Archives; Library of Congress" },
+          "recordId": { "type": "string" },
+          "sourceUrl": { "type": "string", "format": "uri", "description": "The file page where the licence was checked" },
+          "licence": {
+            "type": "object", "required": ["name"],
+            "properties": { "name": { "type": "string" }, "url": { "type": "string", "format": "uri" } },
+            "additionalProperties": false
+          },
+          "licenceCheckedOn": { "type": "string", "format": "date" },
+          "creditLine": { "type": "string", "description": "Shown under the image in the app" },
+          "altText": { "type": "string" },
+          "dataFrom": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/factId" }, "description": "Diagrams: verified facts the diagram is built from" },
+          "widthPx": { "type": "integer", "maximum": 1600 },
+          "bytes": { "type": "integer", "maximum": 260000 },
+          "usedIn": { "type": "array", "minItems": 1, "items": { "$ref": "common.schema.json#/$defs/sectionId" } }
+        },
+        "additionalProperties": false,
+        "if": { "properties": { "kind": { "const": "archival" } } },
+        "then": { "required": ["repository", "recordId", "sourceUrl", "licence", "licenceCheckedOn", "altText"] },
+        "else": { "required": ["dataFrom"] }
+      }
+    }
+  },
+  "additionalProperties": false
+}

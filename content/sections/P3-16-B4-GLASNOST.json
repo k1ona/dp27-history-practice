@@ -1,0 +1,895 @@
+{
+  "schema": "dp27.section.v1",
+  "sectionId": "P3-16-B4-GLASNOST",
+  "contentVersion": "1.0.0",
+  "context": {
+    "readingMinutes": 18,
+    "openingProblem": {
+      "problem": "Gorbachev introduced glasnost to save the Soviet system. He wanted open discussion to push a stubborn party into reform. Six years later the party had lost its monopoly of power, Lithuania had declared independence, and the leader who started it all had the support of about one Soviet citizen in five.\n\nSo was glasnost a tool that slipped out of his hands, or did it simply do what openness does to any one-party state?",
+      "predictionPrompt": "Your prediction in one line: did glasnost destroy the system it was meant to save? Answer yes, no or partly, and give one reason.",
+      "revisitPrompt": "Look back at your prediction. Has your judgement changed? Name the piece of evidence that changed it, or that confirmed it."
+    },
+    "chunks": [
+      {
+        "chunkId": "K1",
+        "angle": "causes",
+        "title": "Why did Gorbachev turn to glasnost?",
+        "body": "Gorbachev became General Secretary on 11 March 1985. His first problem was not the economy itself but the party machine that ran it. The *apparat* resisted economic restructuring, and he could not purge it in the old way. Tony Judt argues that he therefore used glasnost as a lever: open discussion of a carefully limited range of topics would raise public expectations, and that public pressure would force reluctant officials to accept change. Glasnost began, in other words, as a method of control from above, not as a gift of freedom.\n\nThe word itself was not new. It already appeared in Article 9 of the 1977 Soviet constitution, and Gorbachev named glasnost and perestroika as key themes in a speech of December 1984, before he took power. What changed the slogan into a policy was the explosion at the Chernobyl nuclear plant on 26 April 1986. The leadership's first instinct was secrecy: Moscow's first acknowledgement came four days later, in a two-sentence communiqué. The cover-up failed because radiation crossed borders and the damage could not be contained. This mattered because it showed Gorbachev that secrecy itself was part of the system's failure, which meant that openness became a necessity rather than a tactic.\n\nFrom late 1986 the change accelerated. Andrei Sakharov, the best-known dissident, was released from internal exile in Gorky in December 1986. In 1987 Vasily Grossman's long-delayed novel *Life and Fate* was published and the jamming of foreign radio stopped. In January 1987 Gorbachev used a televised speech to the Central Committee to argue for a more inclusive democracy, speaking over the heads of party conservatives. Because more than nine in ten Soviet households owned a television by 1987, this created a national audience for reform that the party could not ignore. In October 1987 he spoke publicly about Stalin's crimes for the first time.\n\nThe causal chain is therefore clear: a resistant apparatus led Gorbachev to seek outside pressure; Chernobyl discredited secrecy; and television turned his appeals into a public sphere. Each step widened glasnost beyond the narrow limits he first set.",
+        "argumentsThatWork": [
+          {
+            "claim": "Glasnost began as a tactic: Gorbachev needed public pressure to overcome the party apparatus.",
+            "evidence": ["F-GLASNOST-09", "F-GLASNOST-06", "F-GLASNOST-07"],
+            "strongestCounter": "The term was already in his December 1984 speech, so openness was part of his programme before any tactical need arose."
+          },
+          {
+            "claim": "Chernobyl turned glasnost from a slogan into a policy.",
+            "evidence": ["F-GLASNOST-02", "F-GLASNOST-03"],
+            "strongestCounter": "The first response to Chernobyl was a cover-up, so the disaster shows the old reflex of secrecy as much as a new commitment to openness."
+          },
+          {
+            "claim": "Releasing Sakharov and publishing banned works showed that openness was real, not only rhetorical.",
+            "evidence": ["F-GLASNOST-04", "F-GLASNOST-05"],
+            "strongestCounter": "These were controlled concessions chosen by the leadership; they did not yet give citizens a right to criticise the party."
+          }
+        ],
+        "howItGetsAsked": [
+          "Examine the reasons why Gorbachev introduced glasnost.",
+          "To what extent was glasnost a response to the Chernobyl disaster?",
+          "“Glasnost was introduced to strengthen, not to change, the Soviet system.” Discuss."
+        ],
+        "useItInAnEssay": {
+          "claim": "Glasnost began as a tactic to strengthen Gorbachev's hand against the party apparatus.",
+          "prove": "In January 1987 he used a televised Central Committee speech to argue for wider democracy, at a time when more than nine in ten households owned a television.",
+          "explain": "This meant that the debate moved out of the party's closed rooms and into a national audience, which put conservatives under public pressure.",
+          "test": "However, the term was already in his December 1984 speech, so openness was also a goal in itself.",
+          "judge": "Glasnost was therefore largely instrumental at first, a means to economic reform rather than an end."
+        },
+        "checkpoint": [
+          {
+            "itemId": "P3-16-B4-GLASNOST-C01",
+            "kind": "checkpoint",
+            "type": "mcq",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "According to Tony Judt, why did Gorbachev first turn to glasnost?",
+            "factIds": ["F-GLASNOST-09"],
+            "options": [
+              { "id": "a", "text": "To create public pressure that would break the apparatus's resistance to economic restructuring", "correct": true, "explanation": "Correct. Judt describes glasnost as a lever to pry loose official opposition to reform." },
+              { "id": "b", "text": "To prepare the Soviet Union for multi-party elections", "correct": false, "explanation": "Multi-party elections were not on the agenda in 1985–86; even the 1989 elections were not multi-party." },
+              { "id": "c", "text": "To allow the republics to leave the Union peacefully", "correct": false, "explanation": "Gorbachev was committed to preserving the Union; independence movements were an unintended consequence." },
+              { "id": "d", "text": "To end the Cold War with the United States", "correct": false, "explanation": "Foreign policy changed too, but this is not the reason Judt gives for glasnost at home." }
+            ]
+          },
+          {
+            "itemId": "P3-16-B4-GLASNOST-C02",
+            "kind": "checkpoint",
+            "type": "cloze",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "The Chernobyl reactor exploded on 26 April 1986. Moscow's first acknowledgement came how many days later? (number)",
+            "factIds": ["F-GLASNOST-02"],
+            "blanks": [ { "id": "1", "answer": 4, "tolerance": 0, "explanation": "Four days later, in a two-sentence communiqué: secrecy was the first reflex." } ]
+          },
+          {
+            "itemId": "P3-16-B4-GLASNOST-C03",
+            "kind": "checkpoint",
+            "type": "which_argument",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Fact: “By 1987 more than nine in ten Soviet households owned a television.” Which argument does this fact support best?",
+            "factIds": ["F-GLASNOST-07"],
+            "options": [
+              { "id": "a", "text": "Gorbachev's televised appeals could reach the whole nation, over the heads of party conservatives", "correct": true, "explanation": "Correct. Mass television ownership is what made the January 1987 speech a national event." },
+              { "id": "b", "text": "Chernobyl was covered up because the media were weak", "correct": false, "explanation": "Television ownership says nothing about why Chernobyl was hidden; the cover-up was a political decision." },
+              { "id": "c", "text": "Soviet living standards rose quickly under Gorbachev", "correct": false, "explanation": "A statistic about televisions is weak evidence for living standards, and the bullet is about political openness." },
+              { "id": "d", "text": "Nationalist movements began in Kazakhstan", "correct": false, "explanation": "Unrelated: the fact concerns the reach of the media, not the origins of national protest." }
+            ]
+          }
+        ],
+        "media": []
+      },
+      {
+        "chunkId": "K2",
+        "angle": "nature_methods",
+        "title": "Democratisation: how far did power move away from the party?",
+        "body": "By 1988 Gorbachev had decided that openness alone could not beat the conservatives, so he changed the institutions. At the Nineteenth Party Conference in June 1988, the first such conference since 1941, he called for contested elections. In December 1988 the Supreme Soviet approved a new legislature, the Congress of People's Deputies, with 2,250 members. The design was cautious: one-third of the seats were reserved for the Communist Party and other official organisations, which was meant to guarantee a communist majority.\n\nThe March 1989 election was still the first time Soviet voters had chosen the members of a national legislature. Where only one official candidate stood, many voters crossed the name off the ballot, and prominent party officials were humiliated. The results show the two faces of democratisation: 87 per cent of the deputies were still party members, and genuine reformers won only about 300 seats, yet the old certainty that the party could not lose had gone.\n\nWhat happened next mattered more than the arithmetic. When the Congress met in May 1989, its debates were shown live on television for two weeks; Judt estimates the audience at about 100 million. Deputies attacked the KGB, the military and Gorbachev himself. This broke the party's monopoly of information, because criticism now came from inside an official institution. In the summer of 1989 the first opposition bloc, the Interregional Group, formed; its co-chairs included Boris Yeltsin and Andrei Sakharov.\n\nThe last pillar to fall was Article 6 of the constitution, which gave the party its leading role. Under pressure from the opposition, and needing allies against hard-liners, Gorbachev secured the party's agreement to repeal it at the Central Committee plenum of February 1990. In March 1990 the Congress elected him to a new post of President of the USSR. He was chosen by the Congress, not by the voters, which left him with less democratic legitimacy than rivals who later won popular elections. Democratisation thus moved power out of the party, but it did not move it securely to Gorbachev.",
+        "argumentsThatWork": [
+          {
+            "claim": "Democratisation was real: for the first time Soviet voters chose a national legislature.",
+            "evidence": ["F-GLASNOST-13", "F-GLASNOST-14"],
+            "strongestCounter": "One-third of the seats were reserved and 87 per cent of deputies were party members, so the outcome was managed from above."
+          },
+          {
+            "claim": "Democratisation created rival centres of authority that Gorbachev could not control.",
+            "evidence": ["F-GLASNOST-15", "F-GLASNOST-16"],
+            "strongestCounter": "A conservative majority still controlled the first Congress, so in 1989 the system was challenged rather than replaced."
+          },
+          {
+            "claim": "Ending Article 6 removed the legal basis of one-party rule.",
+            "evidence": ["F-GLASNOST-16", "F-GLASNOST-12"],
+            "strongestCounter": "The change followed opposition pressure rather than leading it, so it registered the party's decline more than it caused it."
+          }
+        ],
+        "howItGetsAsked": [
+          "To what extent did Gorbachev's political reforms democratise the Soviet Union between 1987 and 1991?",
+          "Evaluate the success of Gorbachev's attempts to democratise the Soviet political system.",
+          "Examine the consequences of the 1989 elections to the Congress of People's Deputies."
+        ],
+        "useItInAnEssay": {
+          "claim": "Democratisation weakened the party's control more than it strengthened Gorbachev's.",
+          "prove": "In the March 1989 elections voters crossed out unopposed officials, and when the Congress met in May its debates ran live on television for two weeks.",
+          "explain": "This meant that criticism of the party now came from inside an official institution, so the party lost its monopoly of information as well as some of its seats.",
+          "test": "However, 87 per cent of the deputies were still party members, and a conservative majority controlled the Congress.",
+          "judge": "Democratisation was therefore only partly a transfer of power, but it decisively broke the party's monopoly of authority."
+        },
+        "checkpoint": [
+          {
+            "itemId": "P3-16-B4-GLASNOST-C04",
+            "kind": "checkpoint",
+            "type": "mcq",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Which statement about the March 1989 elections to the Congress of People's Deputies is accurate?",
+            "factIds": ["F-GLASNOST-12", "F-GLASNOST-13"],
+            "options": [
+              { "id": "a", "text": "They were the first time Soviet voters chose a national legislature, but one-third of seats were reserved for the party and official bodies", "correct": true, "explanation": "Correct: a real choice, inside a design meant to keep a communist majority." },
+              { "id": "b", "text": "They were the first multi-party elections in Soviet history", "correct": false, "explanation": "They were not multi-party; opposition parties were not yet legal." },
+              { "id": "c", "text": "The Communist Party lost its majority", "correct": false, "explanation": "87 per cent of deputies were still party members." },
+              { "id": "d", "text": "Gorbachev was elected President by popular vote", "correct": false, "explanation": "He became President in March 1990, elected by the Congress, not by voters." }
+            ]
+          },
+          {
+            "itemId": "P3-16-B4-GLASNOST-C05",
+            "kind": "checkpoint",
+            "type": "cloze",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "The Congress of People's Deputies had how many members? (number)",
+            "factIds": ["F-GLASNOST-12"],
+            "blanks": [ { "id": "1", "answer": 2250, "tolerance": 0, "explanation": "2,250 members, from which a smaller working Supreme Soviet was chosen." } ]
+          },
+          {
+            "itemId": "P3-16-B4-GLASNOST-C06",
+            "kind": "checkpoint",
+            "type": "mcq",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Why did the televised first session of the Congress (May 1989) matter so much?",
+            "factIds": ["F-GLASNOST-14"],
+            "options": [
+              { "id": "a", "text": "Criticism of the party, the KGB and Gorbachev came from inside an official institution, in front of a national audience", "correct": true, "explanation": "Correct: the party lost its monopoly of information." },
+              { "id": "b", "text": "It voted to dissolve the Soviet Union", "correct": false, "explanation": "No: the Union ended in December 1991, and not by this Congress session." },
+              { "id": "c", "text": "It elected Yeltsin President of Russia", "correct": false, "explanation": "Yeltsin was elected President of the RSFSR by popular vote in June 1991." },
+              { "id": "d", "text": "It abolished censorship in a single vote", "correct": false, "explanation": "The point is the effect of live broadcast debate, not a single law." }
+            ]
+          }
+        ],
+        "media": ["M-congress-peoples-deputies-1989"]
+      },
+      {
+        "chunkId": "K3",
+        "angle": "impact_consequences",
+        "title": "The nationalities question: why did openness turn into secession?",
+        "body": "In 1987 Gorbachev told the party that the nationalities issue had been resolved. Judt calls his belief that a little loosening would satisfy long-standing grievances a serious miscalculation. The Soviet state itself had created national republics, capitals and local elites, and when central control loosened, those elites were drawn to their own nations. Glasnost supplied the missing ingredient: permission to speak.\n\nThe first serious national conflict came in Alma-Ata in December 1986, when Gorbachev replaced the Kazakh party leader Dinmukhamed Kunaev with an ethnic Russian, Gennadii Kolbin. The protests were severely repressed. In February 1988 Armenians in the Karabakh enclave inside Azerbaijan demonstrated for union with Armenia, and the violence at Sumgait followed. In April 1988 activists in the Baltic republics began to form popular fronts, at first to defend language and culture.\n\nThe Baltic case shows the mechanism most clearly. Glasnost allowed people to discuss the 1939 Nazi–Soviet Pact, through which the three states had been absorbed into the USSR; the popular fronts demanded publication of its secret protocols. Because the history of annexation could now be discussed openly, cultural demands turned into political ones. On 9 July 1988 about 100,000 people rallied in Vilnius in support of Sajudis, the Lithuanian movement. In the March 1989 elections Sajudis won 36 of Lithuania's 42 seats, which meant that democratisation handed the national movement a democratic mandate. On 23 August 1989, the fiftieth anniversary of the pact, an estimated 1.8 million people formed a human chain of about 650 kilometres from Vilnius to Tallinn.\n\nMoscow's responses swung between force and retreat, which weakened it either way. Soldiers shot twenty demonstrators in Tbilisi in April 1989. When Lithuania's Supreme Soviet voted 124–0 to restore independence on 11 March 1990, Moscow answered with an economic boycott and then dropped it. In January 1991 troops killed fourteen civilians in Vilnius. Yet nationalism was not irresistible everywhere: in the referendum of 17 March 1991, 76.4 per cent of those who voted backed a renewed Union, although six republics refused to take part.",
+        "argumentsThatWork": [
+          {
+            "claim": "Glasnost turned national grievances into organised movements by allowing open discussion of history.",
+            "evidence": ["F-GLASNOST-20", "F-GLASNOST-23", "F-GLASNOST-21"],
+            "strongestCounter": "The republics, their capitals and their local elites were Soviet creations that predated glasnost, so the structure of the state made national politics likely anyway."
+          },
+          {
+            "claim": "Democratisation gave national movements a democratic mandate that Moscow could not easily dismiss.",
+            "evidence": ["F-GLASNOST-22", "F-GLASNOST-25"],
+            "strongestCounter": "The March 1991 referendum showed most participating voters still wanted a renewed Union, so secession was strongest in particular republics, not universal."
+          },
+          {
+            "claim": "Gorbachev misjudged the national question and then used force inconsistently, losing both nationalists and hard-liners.",
+            "evidence": ["F-GLASNOST-17", "F-GLASNOST-24", "F-GLASNOST-27"],
+            "strongestCounter": "His refusal to use force systematically also kept violence far lower than a full crackdown would have caused."
+          }
+        ],
+        "howItGetsAsked": [
+          "Evaluate the reasons for the growth of nationalist movements in the Soviet Union between 1985 and 1991.",
+          "To what extent was glasnost the main cause of the rise of nationalism in the Soviet republics?",
+          "Examine the impact of nationalist movements on the Soviet Union between 1987 and 1991."
+        ],
+        "useItInAnEssay": {
+          "claim": "Glasnost was the decisive cause of Baltic nationalism because it made the history of annexation discussable.",
+          "prove": "On 23 August 1989, the fiftieth anniversary of the Nazi–Soviet Pact, an estimated 1.8 million people formed a human chain from Vilnius to Tallinn.",
+          "explain": "This meant that a protest about the past became a mass claim to independence, organised by popular fronts that glasnost had allowed to exist.",
+          "test": "However, the republics and their national elites were created by the Soviet state itself, so the structure of the Union made national politics likely.",
+          "judge": "Glasnost therefore did not create Baltic nationalism, but it largely explains why it became a mass movement by 1989."
+        },
+        "checkpoint": [
+          {
+            "itemId": "P3-16-B4-GLASNOST-C07",
+            "kind": "checkpoint",
+            "type": "mcq",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "What triggered the Alma-Ata protests of December 1986?",
+            "factIds": ["F-GLASNOST-18"],
+            "options": [
+              { "id": "a", "text": "Gorbachev replaced the Kazakh party leader Kunaev with an ethnic Russian, Kolbin", "correct": true, "explanation": "Correct: it broke the custom of appointing a leader from the republic's own nationality." },
+              { "id": "b", "text": "The Chernobyl fallout reached Kazakhstan", "correct": false, "explanation": "Chernobyl is in Ukraine; it is not linked to the Alma-Ata protests." },
+              { "id": "c", "text": "Kazakhstan declared independence", "correct": false, "explanation": "No independence declaration was made in 1986." },
+              { "id": "d", "text": "The 1989 elections excluded Kazakh candidates", "correct": false, "explanation": "Wrong date: the protests were in 1986, before the elections." }
+            ]
+          },
+          {
+            "itemId": "P3-16-B4-GLASNOST-C08",
+            "kind": "checkpoint",
+            "type": "cloze",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "In March 1989 Sajudis won how many of Lithuania's 42 seats in the Congress of People's Deputies? (number)",
+            "factIds": ["F-GLASNOST-22"],
+            "blanks": [ { "id": "1", "answer": 36, "tolerance": 0, "explanation": "36 of 42: democratisation gave the national movement a democratic mandate." } ]
+          },
+          {
+            "itemId": "P3-16-B4-GLASNOST-C09",
+            "kind": "checkpoint",
+            "type": "which_argument",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Fact: “In March 1991, 76.4 per cent of those who voted backed a renewed Union; six republics did not take part.” Which argument does it support?",
+            "factIds": ["F-GLASNOST-28"],
+            "options": [
+              { "id": "a", "text": "Secession was strongest in particular republics rather than across the whole Union", "correct": true, "explanation": "Correct: most participating voters backed the Union, while the boycotting republics were the secessionist ones." },
+              { "id": "b", "text": "Glasnost had no effect on national feeling", "correct": false, "explanation": "Too strong: six republics refused to take part, which shows national movements were powerful there." },
+              { "id": "c", "text": "The Baltic republics wanted a renewed Union", "correct": false, "explanation": "The Baltic republics were among the six that did not take part." },
+              { "id": "d", "text": "Gorbachev won a popular presidential election", "correct": false, "explanation": "This was a referendum on the Union, not a presidential election." }
+            ]
+          }
+        ],
+        "media": ["M-baltic-way-vilnius-1989", "M-vilnius-press-house-1991"]
+      },
+      {
+        "chunkId": "K4",
+        "angle": "role_of_leader",
+        "title": "Did Gorbachev lose control, or let go?",
+        "body": "Abroad, Gorbachev let go on purpose. In his speech to the United Nations on 7 December 1988 he announced unilateral cuts in Soviet conventional forces and declared that freedom of choice was a universal principle with no exceptions. Judt reads this as more than a renunciation of the Brezhnev Doctrine: the satellite states were now free to choose their own path. The US Library of Congress study is more cautious, noting that a July 1989 speech to the Council of Europe on each people's right to choose its own social system fell just short of repudiating the doctrine. Either way, the signal mattered, because it removed the threat of Soviet force behind the Brezhnev Doctrine, which had kept communist governments in power in the bloc. This is the causal link to the collapse of Soviet control in central and eastern Europe in 1989.\n\nAt home the picture is of control slipping away. Party hard-liners hated the reforms: in a letter published in *Sovetskaya Rossiya* on 13 March 1988, the Leningrad teacher Nina Andreyeva warned that they would lead back to capitalism. Radical reformers such as Yakovlev and Yeltsin, meanwhile, thought he moved too slowly. Gorbachev tried to hold the centre ground, encouraging new ideas and then retreating towards the conservatives. Judt argues that by giving up the party's monopoly he also gave up his own main source of power, so he had to bargain like a democratic politician in a country used to dictatorship. The result was that he looked weak to both sides: by the autumn of 1990 only 21 per cent of the public supported him.\n\nThe decision to be elected President by the Congress rather than by the people sharpened the problem. When Yeltsin won a popular election as President of the Russian republic in June 1991, many saw him as more legitimate than Gorbachev. The leader who had opened the system now had no independent base inside it.\n\nThe judgement turns on intention. Abroad, Gorbachev chose not to use force and accepted the consequences. At home he wanted a reformed, united, socialist Union and did not intend its break-up, so there the outcome was a loss of control rather than a decision to let go.",
+        "argumentsThatWork": [
+          {
+            "claim": "In foreign policy Gorbachev deliberately gave up the threat of force.",
+            "evidence": ["F-GLASNOST-29", "F-GLASNOST-30"],
+            "strongestCounter": "The Library of Congress study notes that his 1989 formulation fell just short of repudiating the Brezhnev Doctrine, and at home he still used force in Vilnius in January 1991."
+          },
+          {
+            "claim": "Holding the centre ground made Gorbachev look weak to conservatives and radicals alike.",
+            "evidence": ["F-GLASNOST-10", "F-GLASNOST-31"],
+            "strongestCounter": "Once the party's monopoly had gone, any leader would have struggled to hold the centre; the problem was structural, not only personal."
+          },
+          {
+            "claim": "Choosing indirect election left Gorbachev without a popular mandate.",
+            "evidence": ["F-GLASNOST-16", "F-GLASNOST-37"],
+            "strongestCounter": "A popular election in 1990 carried the risk of defeat, so the indirect route was a rational choice at the time."
+          }
+        ],
+        "howItGetsAsked": [
+          "Evaluate the role of Gorbachev in the decline of Communist Party authority between 1985 and 1991.",
+          "“Gorbachev lost control of the reforms he began.” To what extent do you agree?",
+          "Examine the impact of Gorbachev's foreign policy on Soviet control of eastern Europe."
+        ],
+        "useItInAnEssay": {
+          "claim": "Gorbachev deliberately ended the threat of Soviet force in eastern Europe.",
+          "prove": "In his speech to the United Nations on 7 December 1988 he announced unilateral troop cuts and called freedom of choice a universal principle.",
+          "explain": "This meant that the governments of the bloc could no longer rely on Soviet tanks, which removed the guarantee behind communist rule in the satellite states.",
+          "test": "However, the Library of Congress study notes that his July 1989 statement still fell just short of repudiating the Brezhnev Doctrine.",
+          "judge": "Gorbachev's role was therefore decisive abroad, where he chose to let go, but at home he lost control rather than chose to give it up."
+        },
+        "checkpoint": [
+          {
+            "itemId": "P3-16-B4-GLASNOST-C10",
+            "kind": "checkpoint",
+            "type": "mcq",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Why does Gorbachev's UN speech of December 1988 matter for this bullet?",
+            "factIds": ["F-GLASNOST-29"],
+            "options": [
+              { "id": "a", "text": "It signalled that Moscow would not use force to keep communist governments in power in eastern Europe", "correct": true, "explanation": "Correct: Judt reads it as more than a renunciation of the Brezhnev Doctrine." },
+              { "id": "b", "text": "It announced the dissolution of the Warsaw Pact", "correct": false, "explanation": "The Warsaw Pact dissolved in 1991; the speech announced troop cuts and a principle." },
+              { "id": "c", "text": "It introduced glasnost for the first time", "correct": false, "explanation": "Glasnost was already a theme by December 1984 and a policy from 1986." },
+              { "id": "d", "text": "It apologised for the Chernobyl disaster", "correct": false, "explanation": "Unrelated to the speech." }
+            ]
+          },
+          {
+            "itemId": "P3-16-B4-GLASNOST-C11",
+            "kind": "checkpoint",
+            "type": "mcq",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "What did Nina Andreyeva's letter of March 1988 show?",
+            "factIds": ["F-GLASNOST-10"],
+            "options": [
+              { "id": "a", "text": "Hard-line opposition to reform inside the party: she warned it would lead back to capitalism", "correct": true, "explanation": "Correct: many party hard-liners endorsed it." },
+              { "id": "b", "text": "Radical reformers' frustration with Gorbachev's slowness", "correct": false, "explanation": "That was Yeltsin's and Yakovlev's position, not Andreyeva's." },
+              { "id": "c", "text": "Baltic demands for independence", "correct": false, "explanation": "She was a Leningrad teacher defending orthodoxy, not a national activist." },
+              { "id": "d", "text": "Support for Chernobyl victims", "correct": false, "explanation": "Unrelated." }
+            ]
+          },
+          {
+            "itemId": "P3-16-B4-GLASNOST-C12",
+            "kind": "checkpoint",
+            "type": "cloze",
+            "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "By the autumn of 1990, what percentage of the Soviet public supported Gorbachev? (number)",
+            "factIds": ["F-GLASNOST-31"],
+            "blanks": [ { "id": "1", "answer": 21, "tolerance": 0, "explanation": "21 per cent (Judt): he looked weak to both conservatives and radicals." } ]
+          }
+        ],
+        "media": ["M-gorbachev-un-1988"]
+      }
+    ],
+    "visuals": {
+      "timeline": {
+        "kind": "diagram",
+        "events": [
+          { "year": 1985, "month": 3, "day": 11, "text": "Gorbachev becomes General Secretary", "factId": "F-GLASNOST-01" },
+          { "year": 1986, "month": 4, "day": 26, "text": "Chernobyl explosion; first acknowledgement four days later", "factId": "F-GLASNOST-02" },
+          { "year": 1986, "month": 12, "text": "Sakharov released from exile in Gorky", "factId": "F-GLASNOST-04" },
+          { "year": 1988, "month": 3, "day": 13, "text": "Nina Andreyeva letter attacks the reforms", "factId": "F-GLASNOST-10" },
+          { "year": 1988, "month": 6, "text": "Nineteenth Party Conference calls for contested elections", "factId": "F-GLASNOST-11" },
+          { "year": 1988, "month": 12, "day": 7, "text": "UN speech: freedom of choice “a universal principle”", "factId": "F-GLASNOST-29" },
+          { "year": 1989, "month": 3, "text": "Elections to the Congress of People's Deputies", "factId": "F-GLASNOST-13" },
+          { "year": 1989, "month": 4, "text": "Twenty demonstrators shot in Tbilisi", "factId": "F-GLASNOST-24" },
+          { "year": 1989, "month": 8, "day": 23, "text": "Baltic human chain, about 1.8 million people", "factId": "F-GLASNOST-23" },
+          { "year": 1990, "month": 2, "text": "Central Committee agrees to repeal Article 6", "factId": "F-GLASNOST-16" },
+          { "year": 1990, "month": 3, "day": 11, "text": "Lithuania votes 124–0 to restore independence", "factId": "F-GLASNOST-25" },
+          { "year": 1991, "month": 1, "text": "Troops kill fourteen civilians in Vilnius", "factId": "F-GLASNOST-27" }
+        ]
+      },
+      "causalChain": {
+        "kind": "diagram",
+        "nodes": [
+          { "id": "n1", "text": "Party apparatus resists economic restructuring", "factId": "F-GLASNOST-09" },
+          { "id": "n2", "text": "Glasnost: limited open discussion to build pressure (1986–87)", "factId": "F-GLASNOST-06" },
+          { "id": "n3", "text": "Contested elections and a televised Congress (1989)", "factId": "F-GLASNOST-14" },
+          { "id": "n4", "text": "Party monopoly ends: Article 6 repealed (1990)", "factId": "F-GLASNOST-16" },
+          { "id": "n5", "text": "National movements win mandates and demand independence", "factId": "F-GLASNOST-22" },
+          { "id": "n6", "text": "Gorbachev loses authority on both sides", "factId": "F-GLASNOST-31" }
+        ],
+        "links": [
+          { "from": "n1", "to": "n2", "because": "Gorbachev needed public pressure he could not get from inside the party" },
+          { "from": "n2", "to": "n3", "because": "openness alone did not beat the conservatives, so he changed the institutions" },
+          { "from": "n3", "to": "n4", "because": "criticism from inside an elected body made the leading role indefensible" },
+          { "from": "n4", "to": "n5", "because": "without the party, nothing held the republics to the centre" },
+          { "from": "n5", "to": "n6", "because": "force alienated reformers and restraint alienated hard-liners" }
+        ]
+      },
+      "actorCards": [
+        { "name": "Mikhail Gorbachev", "role": "General Secretary from March 1985; President of the USSR from March 1990", "whyItMatters": "Started glasnost as a tool against the apparatus; his choices on force decided how far openness went.", "factIds": ["F-GLASNOST-01", "F-GLASNOST-16"] },
+        { "name": "Andrei Sakharov", "role": "Physicist and dissident; deputy in the 1989 Congress", "whyItMatters": "His release in December 1986 showed glasnost was real; in 1989 he co-chaired the first opposition bloc.", "factIds": ["F-GLASNOST-04", "F-GLASNOST-15"] },
+        { "name": "Boris Yeltsin", "role": "Radical reformer; co-chair of the Interregional Group; elected President of the RSFSR in June 1991", "whyItMatters": "Turned democratisation against Gorbachev and gained the popular mandate Gorbachev lacked.", "factIds": ["F-GLASNOST-15", "F-GLASNOST-37"] },
+        { "name": "Nina Andreyeva", "role": "Leningrad teacher; author of the March 1988 letter in Sovetskaya Rossiya", "whyItMatters": "Her letter, endorsed by many hard-liners, showed the conservative backlash inside the party.", "factIds": ["F-GLASNOST-10"] },
+        { "name": "Aleksandr Yakovlev", "role": "Liberal-minded deputy to Gorbachev", "whyItMatters": "Pressed for faster reform; shows that the radicals, too, were pulling away from the centre.", "factIds": ["F-GLASNOST-33"] },
+        { "name": "Sajudis", "role": "Lithuanian national movement, formed 1988", "whyItMatters": "Won 36 of Lithuania's 42 seats in 1989, turning glasnost-era protest into a democratic mandate for independence.", "factIds": ["F-GLASNOST-21", "F-GLASNOST-22"] }
+      ],
+      "comparisonGrid": {
+        "kind": "diagram",
+        "columns": ["Intended (aim)", "What happened (result)"],
+        "rows": [
+          { "criterion": "Glasnost", "cells": ["Limited open discussion to push the apparatus into reform", "Became a right claimed from below; the past and the party's record came under attack"], "factIds": ["F-GLASNOST-09", "F-GLASNOST-33"] },
+          { "criterion": "Democratisation", "cells": ["Contested elections with a guaranteed communist majority", "A televised Congress, an opposition bloc and the end of Article 6"], "factIds": ["F-GLASNOST-12", "F-GLASNOST-15", "F-GLASNOST-16"] },
+          { "criterion": "Nationalities", "cells": ["Loosen control enough to satisfy grievances and keep the Union", "Popular fronts, declarations of independence and bloodshed in Tbilisi and Vilnius"], "factIds": ["F-GLASNOST-17", "F-GLASNOST-25", "F-GLASNOST-27"] }
+        ]
+      },
+      "archival": []
+    },
+    "evidenceBank": [
+      { "factId": "F-GLASNOST-02", "year": 1986, "text": "26 April 1986: the Chernobyl reactor exploded; Moscow's first acknowledgement came four days later, in a two-sentence communiqué.", "supports": ["Chernobyl turned glasnost from a slogan into a policy", "Secrecy was itself part of the system's failure"], "alsoWorksFor": ["P3-16-B4-INHERITANCE"], "lexicon": ["Chernobyl", "communiqué"] },
+      { "factId": "F-GLASNOST-04", "year": 1986, "text": "December 1986: Andrei Sakharov was released from internal exile in Gorky; in 1987 Grossman's Life and Fate was published.", "supports": ["Glasnost was real, not only rhetorical", "Openness was granted from above"], "lexicon": ["Sakharov", "Gorky", "Life and Fate", "Grossman"] },
+      { "factId": "F-GLASNOST-11", "year": 1988, "text": "June 1988: the Nineteenth Party Conference, the first since 1941, called for contested elections.", "supports": ["Gorbachev moved from openness to institutional change"], "lexicon": ["Nineteenth Party Conference", "19th Party Conference", "contested elections"] },
+      { "factId": "F-GLASNOST-13", "year": 1989, "text": "March 1989: the first time Soviet voters chose a national legislature; one-third of the 2,250 seats were reserved, and 87 per cent of deputies were party members.", "supports": ["Democratisation was real", "Democratisation was managed from above"], "alsoWorksFor": ["P2-12-LEADERS", "P2-12-END"], "lexicon": ["Congress of People's Deputies", "2,250", "87 per cent", "87%"] },
+      { "factId": "F-GLASNOST-14", "year": 1989, "text": "May 1989: the Congress's first session ran live on television for two weeks, to an audience Judt estimates at about 100 million.", "supports": ["The party lost its monopoly of information"], "lexicon": ["live television", "100 million"] },
+      { "factId": "F-GLASNOST-16", "year": 1990, "text": "February 1990: the Central Committee agreed to repeal Article 6 (the party's leading role); in March 1990 the Congress, not the voters, elected Gorbachev President.", "supports": ["Democratisation ended one-party rule", "Gorbachev lacked a popular mandate"], "alsoWorksFor": ["P3-16-B5-COLLAPSE"], "lexicon": ["Article 6", "Article Six", "leading role", "President of the USSR"] },
+      { "factId": "F-GLASNOST-23", "year": 1989, "text": "23 August 1989: on the fiftieth anniversary of the Nazi–Soviet Pact, an estimated 1.8 million people formed a human chain of about 650 km from Vilnius to Tallinn.", "supports": ["Glasnost turned history into a national movement"], "alsoWorksFor": ["P3-18-B4-COLLAPSE"], "lexicon": ["Baltic", "human chain", "Nazi–Soviet Pact", "Nazi-Soviet Pact", "Molotov-Ribbentrop", "1.8 million"] },
+      { "factId": "F-GLASNOST-29", "year": 1988, "text": "7 December 1988: at the UN, Gorbachev announced unilateral cuts in conventional forces and called freedom of choice a universal principle.", "supports": ["Gorbachev renounced the Brezhnev Doctrine", "Gorbachev chose to let go abroad"], "alsoWorksFor": ["P3-18-B4-COLLAPSE", "P2-12-LEADERS", "P2-12-END"], "lexicon": ["United Nations", "UN speech", "freedom of choice", "Brezhnev Doctrine"] }
+    ],
+    "historiography": [
+      { "historian": "Tony Judt", "argument": "Glasnost began as a tactic: open discussion of a restricted range of topics, used to pry loose the party apparatus's opposition to reform, and Gorbachev's belief that loosening control would satisfy the nationalities was a serious miscalculation.", "useItLikeThis": "Judt's view that glasnost was a lever against the apparatus supports the claim that its destructive effects were unintended, which suggests the collapse of party authority was a loss of control rather than a plan.", "factId": "F-GLASNOST-09" },
+      { "historian": "Archie Brown", "argument": "Glasnost was a “facilitating concept” that writers and journalists pushed beyond the limits Gorbachev intended, so in practice it became a right asserted from below.", "useItLikeThis": "Brown's argument challenges a purely top-down reading, which suggests that glasnost's impact depended as much on society's response as on Gorbachev's aims.", "factId": "F-GLASNOST-33" }
+    ],
+    "misconceptions": [
+      { "wrong": "Glasnost meant full freedom of speech from 1985.", "right": "It began as official encouragement to discuss a **restricted** range of topics and widened from late 1986, partly because society pushed beyond the limits." },
+      { "wrong": "The 1989 elections were multi-party.", "right": "They were contested but **not multi-party**; one-third of the seats were reserved for the party and official organisations." },
+      { "wrong": "Gorbachev wanted to break up the Soviet Union.", "right": "He was committed to preserving the Union; the break-up was an unintended consequence. The March 1991 referendum was his attempt to keep it." },
+      { "wrong": "Using events after December 1991 (for example Yeltsin's later reforms) as evidence about glasnost.", "right": "This bullet runs from **1985 to 1991**. Later events belong to the Yeltsin section, so keep evidence inside the timeframe." }
+    ],
+    "recallSheet": {
+      "chronology": [
+        { "year": 1985, "month": 3, "day": 11, "text": "Gorbachev becomes General Secretary" },
+        { "year": 1986, "month": 4, "day": 26, "text": "Chernobyl; acknowledged after four days" },
+        { "year": 1986, "month": 12, "text": "Alma-Ata protests; Sakharov released" },
+        { "year": 1987, "month": 1, "text": "Televised Central Committee speech for wider democracy" },
+        { "year": 1988, "month": 3, "day": 13, "text": "Andreyeva letter" },
+        { "year": 1988, "month": 6, "text": "Nineteenth Party Conference" },
+        { "year": 1988, "month": 12, "day": 7, "text": "UN speech" },
+        { "year": 1989, "month": 3, "text": "Congress elections; Sajudis wins 36 of 42" },
+        { "year": 1989, "month": 8, "day": 23, "text": "Baltic human chain" },
+        { "year": 1990, "month": 2, "text": "Article 6 repeal agreed" },
+        { "year": 1990, "month": 3, "day": 11, "text": "Lithuania votes for independence" },
+        { "year": 1991, "month": 3, "day": 17, "text": "Union referendum: 76.4% yes; six republics abstain" }
+      ],
+      "keyArguments": [
+        "Glasnost began as a tactic against the apparatus (Judt) but became a right claimed from below (Brown).",
+        "Chernobyl discredited secrecy and turned the slogan into a policy.",
+        "Democratisation broke the party's monopoly of information and power, but did not give Gorbachev a popular base.",
+        "Openness turned national grievances into movements with democratic mandates; force used inconsistently weakened Moscow either way.",
+        "Abroad Gorbachev chose to let go; at home he lost control."
+      ]
+    }
+  },
+  "retrieval": [
+    {
+      "itemId": "P3-16-B4-GLASNOST-R01", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did Gorbachev become General Secretary?", "factIds": ["F-GLASNOST-01"],
+      "options": [
+        { "id": "a", "text": "11 March 1985", "correct": true, "explanation": "Correct: he succeeded Chernenko." },
+        { "id": "b", "text": "November 1982", "correct": false, "explanation": "That is when Brezhnev died and Andropov succeeded him." },
+        { "id": "c", "text": "June 1988", "correct": false, "explanation": "That is the Nineteenth Party Conference." },
+        { "id": "d", "text": "March 1990", "correct": false, "explanation": "That is when the Congress elected him President of the USSR." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R02", "kind": "retrieval", "type": "chronology", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Put these events in order.",
+      "sequence": [
+        { "id": "a", "text": "Chernobyl explosion", "year": 1986, "factId": "F-GLASNOST-02" },
+        { "id": "b", "text": "Nineteenth Party Conference", "year": 1988, "factId": "F-GLASNOST-11" },
+        { "id": "c", "text": "Elections to the Congress of People's Deputies", "year": 1989, "factId": "F-GLASNOST-13" },
+        { "id": "d", "text": "Central Committee agrees to repeal Article 6", "year": 1990, "factId": "F-GLASNOST-16" },
+        { "id": "e", "text": "Union referendum", "year": 1991, "factId": "F-GLASNOST-28" }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R03", "kind": "retrieval", "type": "chronology", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Put these national events in order.",
+      "sequence": [
+        { "id": "a", "text": "Alma-Ata protests", "year": 1986, "month": 12, "factId": "F-GLASNOST-18" },
+        { "id": "b", "text": "Karabakh demonstrations begin", "year": 1988, "month": 2, "factId": "F-GLASNOST-19" },
+        { "id": "c", "text": "Tbilisi shootings", "year": 1989, "month": 4, "factId": "F-GLASNOST-24" },
+        { "id": "d", "text": "Baltic human chain", "year": 1989, "month": 8, "factId": "F-GLASNOST-23" },
+        { "id": "e", "text": "Lithuania votes to restore independence", "year": 1990, "month": 3, "factId": "F-GLASNOST-25" }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R04", "kind": "retrieval", "type": "match", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Match each person to their role.",
+      "pairs": [
+        { "left": "Andrei Sakharov", "right": "Dissident released from Gorky in December 1986", "explanation": "Later a deputy and co-chair of the Interregional Group." },
+        { "left": "Nina Andreyeva", "right": "Author of the March 1988 letter attacking the reforms", "explanation": "Published in Sovetskaya Rossiya; endorsed by many hard-liners." },
+        { "left": "Gennadii Kolbin", "right": "Russian appointed to lead the Kazakh party in 1986", "explanation": "His appointment triggered the Alma-Ata protests." },
+        { "left": "Boris Yeltsin", "right": "Co-chair of the Interregional Group", "explanation": "The first opposition bloc in the Congress, formed in summer 1989." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R05", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "The Nineteenth Party Conference (June 1988) was the first party conference since which year?",
+      "factIds": ["F-GLASNOST-11"],
+      "blanks": [ { "id": "1", "answer": 1941, "tolerance": 0, "explanation": "1941: the conference itself was a signal that Gorbachev wanted change through the party's own institutions." } ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R06", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In 1990 the Lithuanian Supreme Soviet voted ___ to restore independence. (Type the vote, for example 100–5.)",
+      "factIds": ["F-GLASNOST-25"],
+      "blanks": [ { "id": "1", "answer": "124–0", "accept": ["124-0", "124 to 0", "124 0"], "explanation": "124–0, on 11 March 1990." } ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R07", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In the March 1991 referendum, what percentage of those who voted backed a renewed Union? (number, one decimal place)",
+      "factIds": ["F-GLASNOST-28"],
+      "blanks": [ { "id": "1", "answer": 76.4, "tolerance": 0.5, "explanation": "76.4 per cent, although six republics did not take part." } ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R08", "kind": "retrieval", "type": "multi_select", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which of these limited democratisation in the 1989 elections? Choose all that apply.",
+      "factIds": ["F-GLASNOST-12", "F-GLASNOST-13"],
+      "options": [
+        { "id": "a", "text": "One-third of seats were reserved for the party and official organisations", "correct": true, "explanation": "Yes: this was designed to guarantee a communist majority." },
+        { "id": "b", "text": "The elections were not multi-party", "correct": true, "explanation": "Yes: opposition parties were not yet legal." },
+        { "id": "c", "text": "Voters could not cross out unopposed candidates", "correct": false, "explanation": "Wrong: voters did cross out unopposed officials, which stunned the elite." },
+        { "id": "d", "text": "The Congress's debates were kept secret", "correct": false, "explanation": "Wrong: the first session ran live on television for two weeks." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R09", "kind": "retrieval", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Sajudis won 36 of Lithuania's 42 seats in March 1989.” Which argument does it support?",
+      "factIds": ["F-GLASNOST-22"],
+      "options": [
+        { "id": "a", "text": "Democratisation gave national movements a democratic mandate", "correct": true, "explanation": "Correct: an election Gorbachev created became a vote for the national movement." },
+        { "id": "b", "text": "The Communist Party controlled every republic's elections", "correct": false, "explanation": "The fact shows the opposite in Lithuania." },
+        { "id": "c", "text": "Glasnost was a response to Chernobyl", "correct": false, "explanation": "Unrelated to the Lithuanian election result." },
+        { "id": "d", "text": "The Union referendum was a success for Gorbachev", "correct": false, "explanation": "Different event (1991) and a different argument." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R10", "kind": "retrieval", "type": "spot_error", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: “In March 1990 Soviet voters elected Gorbachev President of the USSR in the first popular presidential election.”",
+      "factIds": ["F-GLASNOST-16"],
+      "options": [
+        { "id": "a", "text": "He was elected by the Congress of People's Deputies, not by the voters", "correct": true, "explanation": "Correct: this left him without a popular mandate." },
+        { "id": "b", "text": "The date should be March 1985", "correct": false, "explanation": "March 1985 is when he became General Secretary, a party post." },
+        { "id": "c", "text": "The post was President of Russia", "correct": false, "explanation": "No: the new post in 1990 was President of the USSR; Yeltsin became President of the RSFSR in 1991." },
+        { "id": "d", "text": "There is no error", "correct": false, "explanation": "There is one: the method of election." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R11", "kind": "retrieval", "type": "spot_error", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: “The Kremlin announced the Chernobyl explosion within hours, which showed how far glasnost had already gone.”",
+      "factIds": ["F-GLASNOST-02"],
+      "options": [
+        { "id": "a", "text": "The first acknowledgement came four days later, in a two-sentence communiqué", "correct": true, "explanation": "Correct: the first reflex was secrecy." },
+        { "id": "b", "text": "Chernobyl was in Kazakhstan", "correct": false, "explanation": "Chernobyl is in Ukraine; the place is not the error here." },
+        { "id": "c", "text": "The explosion was in 1988", "correct": false, "explanation": "It was in April 1986; the sentence gives no date." },
+        { "id": "d", "text": "There is no error", "correct": false, "explanation": "There is one: the speed of the announcement." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R12", "kind": "retrieval", "type": "in_timeframe", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "A question asks about glasnost between 1985 and 1991. Is Yeltsin's privatisation programme of the 1990s inside or outside the timeframe?",
+      "timeframe": [1985, 1991],
+      "options": [
+        { "id": "a", "text": "Outside", "correct": true, "explanation": "Correct: Yeltsin's privatisation belongs to post-Soviet Russia (the Yeltsin section)." },
+        { "id": "b", "text": "Inside", "correct": false, "explanation": "No: it comes after the end of the USSR in 1991." },
+        { "id": "c", "text": "Inside, if it is used as background", "correct": false, "explanation": "Background must come before the period, not after it." },
+        { "id": "d", "text": "It depends on the command term", "correct": false, "explanation": "The command term does not change the timeframe." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R13", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Article 6 of the Soviet constitution establish?",
+      "factIds": ["F-GLASNOST-16"],
+      "options": [
+        { "id": "a", "text": "The leading role of the Communist Party", "correct": true, "explanation": "Correct: its repeal removed the legal basis of one-party rule." },
+        { "id": "b", "text": "The right of republics to secede", "correct": false, "explanation": "That is a different issue; Article 6 concerned the party." },
+        { "id": "c", "text": "Freedom of the press", "correct": false, "explanation": "Glasnost appeared in Article 9 of the 1977 constitution, but Article 6 was about the party." },
+        { "id": "d", "text": "The office of President of the USSR", "correct": false, "explanation": "The presidency was created in 1990, separately." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R14", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Baltic human chain of 23 August 1989 commemorate?",
+      "factIds": ["F-GLASNOST-23"],
+      "options": [
+        { "id": "a", "text": "The fiftieth anniversary of the Nazi–Soviet Pact", "correct": true, "explanation": "Correct: the pact led to the absorption of the Baltic states." },
+        { "id": "b", "text": "The end of the Second World War", "correct": false, "explanation": "No: the date was chosen for the 1939 pact." },
+        { "id": "c", "text": "Lithuania's declaration of independence", "correct": false, "explanation": "That came later, in March 1990." },
+        { "id": "d", "text": "The Chernobyl disaster", "correct": false, "explanation": "Unrelated." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R15", "kind": "retrieval", "type": "match", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Match each event to its date.",
+      "pairs": [
+        { "left": "UN speech on freedom of choice", "right": "7 December 1988", "explanation": "Also announced unilateral conventional force cuts." },
+        { "left": "Andreyeva letter", "right": "13 March 1988", "explanation": "Published in Sovetskaya Rossiya." },
+        { "left": "Lithuanian independence vote", "right": "11 March 1990", "explanation": "124–0 in the Supreme Soviet." },
+        { "left": "Union referendum", "right": "17 March 1991", "explanation": "76.4 per cent yes among participants." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R16", "kind": "retrieval", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “By the autumn of 1990 only 21 per cent of the public supported Gorbachev.” Which argument does it support best?",
+      "factIds": ["F-GLASNOST-31"],
+      "options": [
+        { "id": "a", "text": "By holding the centre ground Gorbachev lost support on both sides", "correct": true, "explanation": "Correct: conservatives and radicals both turned against him." },
+        { "id": "b", "text": "Glasnost was popular with hard-liners", "correct": false, "explanation": "Hard-liners opposed reform; the figure measures Gorbachev's support, not theirs." },
+        { "id": "c", "text": "The 1989 Congress was controlled by reformers", "correct": false, "explanation": "A conservative majority controlled it; and the figure is about 1990." },
+        { "id": "d", "text": "Nationalism was weak in 1990", "correct": false, "explanation": "The fact does not measure nationalism." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R17", "kind": "retrieval", "type": "multi_select", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which of these happened in 1986–87, as glasnost widened? Choose all that apply.",
+      "factIds": ["F-GLASNOST-04", "F-GLASNOST-05", "F-GLASNOST-06"],
+      "options": [
+        { "id": "a", "text": "Sakharov was released from Gorky", "correct": true, "explanation": "December 1986." },
+        { "id": "b", "text": "Grossman's Life and Fate was published", "correct": true, "explanation": "Yes: published in 1987, after a long delay." },
+        { "id": "c", "text": "Gorbachev made a televised case for wider democracy to the Central Committee", "correct": true, "explanation": "January 1987." },
+        { "id": "d", "text": "Article 6 was repealed", "correct": false, "explanation": "No: the repeal was agreed in February 1990." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R18", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many civilians did Soviet troops kill in Vilnius in January 1991? (number)",
+      "factIds": ["F-GLASNOST-27"],
+      "blanks": [ { "id": "1", "answer": 14, "tolerance": 0, "explanation": "Fourteen: force alienated reformers without stopping the Baltic movements." } ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R19", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which body formed in summer 1989 as the first opposition bloc in the Congress?",
+      "factIds": ["F-GLASNOST-15"],
+      "options": [
+        { "id": "a", "text": "The Interregional Group", "correct": true, "explanation": "Correct: co-chaired by Yeltsin and Sakharov among others." },
+        { "id": "b", "text": "Sajudis", "correct": false, "explanation": "Sajudis was the Lithuanian national movement, not a bloc in the Congress." },
+        { "id": "c", "text": "Memorial", "correct": false, "explanation": "Memorial was a society devoted to the victims of Stalinism." },
+        { "id": "d", "text": "Democratic Platform", "correct": false, "explanation": "That was a reformist faction inside the party, announced in January 1990." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R20", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Where did soldiers shoot twenty demonstrators in April 1989?",
+      "factIds": ["F-GLASNOST-24"],
+      "options": [
+        { "id": "a", "text": "Tbilisi, Georgia", "correct": true, "explanation": "Correct: soldiers shot twenty demonstrators in Tbilisi in April 1989." },
+        { "id": "b", "text": "Vilnius, Lithuania", "correct": false, "explanation": "The Vilnius killings were in January 1991." },
+        { "id": "c", "text": "Alma-Ata, Kazakhstan", "correct": false, "explanation": "The Alma-Ata protests were in December 1986." },
+        { "id": "d", "text": "Riga, Latvia", "correct": false, "explanation": "The violence in Riga came in January 1991." }
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "itemId": "P3-16-B4-GLASNOST-D01", "kind": "drill", "type": "decode", "skill": "S1", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Decode this question: tag each part.",
+      "sourceText": "“To what extent was democratisation responsible for the decline of Communist Party authority in the Soviet Union between 1987 and 1991?”",
+      "segments": [
+        { "id": "s1", "text": "To what extent", "answer": "verb", "explanation": "The command term: you must judge how far, with degree language." },
+        { "id": "s2", "text": "democratisation", "answer": "factor", "explanation": "The named factor: it must be weighed first and seriously." },
+        { "id": "s3", "text": "the decline of Communist Party authority", "answer": "scope", "explanation": "What the factor must explain: the scope of the question." },
+        { "id": "s4", "text": "between 1987 and 1991", "answer": "timeframe", "explanation": "Evidence outside 1987–1991 is wasted." },
+        { "id": "s5", "text": "responsible for", "answer": "judgement", "explanation": "The judgement required: how far democratisation, compared with other factors, caused the decline." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D02", "kind": "drill", "type": "decode", "skill": "S1", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Decode this question: tag each part.",
+      "sourceText": "“Evaluate the impact of glasnost on the Baltic republics between 1987 and 1991.”",
+      "segments": [
+        { "id": "s1", "text": "Evaluate", "answer": "verb", "explanation": "Weigh strengths and limits and reach a judgement with a criterion." },
+        { "id": "s2", "text": "the impact of glasnost", "answer": "factor", "explanation": "The named factor and the task: its effects." },
+        { "id": "s3", "text": "the Baltic republics", "answer": "scope", "explanation": "Only Estonia, Latvia and Lithuania; other republics are not the focus." },
+        { "id": "s4", "text": "between 1987 and 1991", "answer": "timeframe", "explanation": "The first Baltic demonstrations of 1987 to independence in 1991." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D03", "kind": "drill", "type": "pick_thesis", "skill": "S11", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Question: “To what extent was glasnost responsible for the collapse of Communist Party authority between 1985 and 1991?” Pick the thesis that answers it.",
+      "options": [
+        { "id": "a", "text": "Glasnost was largely responsible, because it broke the party's monopoly of information, but it became decisive only when democratisation turned public criticism into elected opposition.", "correct": true, "explanation": "Correct: it names the factor, gives a degree (largely), a reason and the strongest alternative." },
+        { "id": "b", "text": "Gorbachev introduced glasnost in 1986, and then held elections in 1989 and ended Article 6 in 1990.", "correct": false, "explanation": "Narrative: it lists events but makes no judgement about responsibility." },
+        { "id": "c", "text": "The collapse of party authority had many causes, including glasnost, economics and nationalism.", "correct": false, "explanation": "No judgement: it lists factors without saying how far glasnost was responsible." },
+        { "id": "d", "text": "Glasnost was responsible because Yeltsin's reforms after 1992 showed how weak the party had become.", "correct": false, "explanation": "Wrong timeframe: evidence after 1991 is outside the question." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D04", "kind": "drill", "type": "pick_thesis", "skill": "S11", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Question: “Evaluate the success of Gorbachev's attempts to democratise the Soviet political system.” Pick the best thesis.",
+      "options": [
+        { "id": "a", "text": "Measured by whether power moved to elected bodies, democratisation succeeded; measured by Gorbachev's aim of a reformed party in control, it failed, because the institutions he created became platforms against him.", "correct": true, "explanation": "Correct: it states a criterion and weighs success against the stated aims." },
+        { "id": "b", "text": "Democratisation was a success because the Nineteenth Party Conference met in 1988.", "correct": false, "explanation": "Ignores the factor's results: a conference meeting is not evidence of success." },
+        { "id": "c", "text": "Gorbachev wanted democracy and he was a great reformer.", "correct": false, "explanation": "No evidence, no criterion, no weighing." },
+        { "id": "d", "text": "Nationalism was the main reason the Soviet Union collapsed.", "correct": false, "explanation": "Ignores the named factor: the question is about democratisation." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D05", "kind": "drill", "type": "narrative_or_analysis", "skill": "S2", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Sort each sentence: narrative or analysis?",
+      "segments": [
+        { "id": "s1", "text": "In March 1989 elections were held to the Congress of People's Deputies.", "answer": "narrative", "explanation": "States what happened, with no link to a question." },
+        { "id": "s2", "text": "Because voters could now cross out unopposed officials, the party lost its aura of inevitability.", "answer": "analysis", "explanation": "Explains a consequence with a causal link." },
+        { "id": "s3", "text": "In May 1989 the Congress met and its debates were shown on television.", "answer": "narrative", "explanation": "A date-led statement of events." },
+        { "id": "s4", "text": "This meant that criticism of the party came from inside an official institution, which made it far harder to dismiss.", "answer": "analysis", "explanation": "Explains why the event mattered." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D06", "kind": "drill", "type": "evidence_to_claim", "skill": "S3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Match each piece of evidence to the claim it supports.",
+      "pairs": [
+        { "left": "Moscow acknowledged Chernobyl only after four days", "right": "Secrecy was the first reflex of the system", "explanation": "The delay shows the old habit before glasnost became policy." },
+        { "left": "87 per cent of deputies were party members in 1989", "right": "Democratisation was managed from above", "explanation": "The design kept a communist majority." },
+        { "left": "Sajudis won 36 of 42 Lithuanian seats", "right": "Democratisation gave national movements a mandate", "explanation": "An election Gorbachev created became a vote for the national movement." },
+        { "left": "The 1991 referendum showed 76.4 per cent yes among voters", "right": "Secession was not supported everywhere", "explanation": "Most participating voters backed a renewed Union." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D07", "kind": "drill", "type": "upgrade_sentence", "skill": "S4", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Vague sentence: “Glasnost was very important for nationalism.” Choose the best analytical upgrade.",
+      "options": [
+        { "id": "a", "text": "Glasnost largely explains the growth of Baltic nationalism, because open discussion of the 1939 Nazi–Soviet Pact turned cultural grievances into demands for independence.", "correct": true, "explanation": "Correct: degree, named case, precise evidence and the mechanism." },
+        { "id": "b", "text": "Glasnost was extremely important for nationalism in many places.", "correct": false, "explanation": "Still vague: no evidence, no mechanism." },
+        { "id": "c", "text": "On 23 August 1989 there was a human chain in the Baltic.", "correct": false, "explanation": "Evidence without a claim or an explanation: narrative." },
+        { "id": "d", "text": "Nationalism existed before glasnost, so glasnost was not important.", "correct": false, "explanation": "A counter, but it overstates and gives no evidence." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D08", "kind": "drill", "type": "strongest_counter", "skill": "S12", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Claim: “Glasnost destroyed the Soviet system it was meant to save.” Pick the strongest counter-argument.",
+      "options": [
+        { "id": "a", "text": "Glasnost exposed weaknesses that already existed: the national republics and their elites were Soviet creations, and secrecy had already failed at Chernobyl before glasnost became policy.", "correct": true, "explanation": "Correct: it offers an alternative causal account with evidence." },
+        { "id": "b", "text": "Gorbachev was a good man who meant well.", "correct": false, "explanation": "Intentions are not a counter to a claim about effects." },
+        { "id": "c", "text": "Some historians disagree.", "correct": false, "explanation": "Name-dropping with no argument." },
+        { "id": "d", "text": "The Soviet Union lasted until December 1991.", "correct": false, "explanation": "A fact, not an argument against the claim." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D09", "kind": "drill", "type": "judgement_criterion", "skill": "S13", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Question: “Evaluate the role of Gorbachev in the decline of party authority, 1985–1991.” Which conclusion weighs rather than recaps?",
+      "options": [
+        { "id": "a", "text": "Judged by whether outcomes followed from his decisions, Gorbachev's role was decisive in ending the party's monopoly, but the speed of the decline after 1989 came from forces his reforms released and he could not control.", "correct": true, "explanation": "Correct: a criterion, a judgement and a limit." },
+        { "id": "b", "text": "In conclusion, Gorbachev introduced glasnost, democratisation and new elections, and the party declined.", "correct": false, "explanation": "A recap of the essay with no weighing." },
+        { "id": "c", "text": "In conclusion, there were many factors and all were important.", "correct": false, "explanation": "Avoids the judgement the command term requires." },
+        { "id": "d", "text": "In conclusion, Gorbachev was the worst leader in Soviet history.", "correct": false, "explanation": "A judgement without a criterion or evidence." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D10", "kind": "drill", "type": "two_part_balance", "skill": "S1", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Question: “Evaluate the reasons for, and the consequences of, the growth of national movements, 1985–1991.” Sort each plan point into REASONS or CONSEQUENCES.",
+      "categories": [ { "id": "causes", "label": "Reasons (causes)" }, { "id": "effects", "label": "Consequences (effects)" } ],
+      "segments": [
+        { "id": "s1", "text": "Glasnost allowed open discussion of the Nazi–Soviet Pact", "answer": "causes", "explanation": "A reason the movements grew." },
+        { "id": "s2", "text": "Replacement of Kunaev by Kolbin in Kazakhstan (1986)", "answer": "causes", "explanation": "A trigger of national protest." },
+        { "id": "s3", "text": "Lithuania voted 124–0 to restore independence (1990)", "answer": "effects", "explanation": "A consequence of the movement's growth." },
+        { "id": "s4", "text": "Six republics refused to take part in the March 1991 referendum", "answer": "effects", "explanation": "A consequence: the Union's authority had collapsed there." },
+        { "id": "s5", "text": "Democratisation gave Sajudis 36 of 42 seats (1989)", "answer": "causes", "explanation": "A reason the movement gained strength (it also shows its growth)." }
+      ]
+    }
+  ],
+  "essayQuestions": [
+    {
+      "questionId": "P3-16-B4-GLASNOST-Q01", "paper": "P3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "text": "To what extent was glasnost responsible for the collapse of Communist Party authority in the Soviet Union between 1985 and 1991?",
+      "commandTerm": "to what extent", "namedFactor": "glasnost", "features": ["named_factor"], "timeframe": [1985, 1991],
+      "scope": "Soviet Union; authority of the Communist Party",
+      "decodeKey": { "verb": "To what extent: judge how far, using degree language", "factorOrTask": "Glasnost, weighed first", "timeframe": "1985–1991", "scope": "The party's authority in the Soviet Union", "judgement": "How far glasnost, compared with democratisation, nationalism and Gorbachev's choices, caused the collapse" },
+      "modelPlan": {
+        "thesis": "Glasnost was largely responsible because it broke the party's monopoly of information, but it became decisive only in combination with democratisation, which turned public criticism into organised, elected opposition.",
+        "arguments": [
+          { "claim": "Glasnost broke the party's monopoly of information (named factor first).", "evidence": ["F-GLASNOST-02", "F-GLASNOST-07", "F-GLASNOST-14"], "isNamedFactor": true },
+          { "claim": "Democratisation turned criticism into institutions: the Congress, the Interregional Group and the end of Article 6.", "evidence": ["F-GLASNOST-13", "F-GLASNOST-15", "F-GLASNOST-16"] },
+          { "claim": "National movements removed the party's authority in the republics.", "evidence": ["F-GLASNOST-22", "F-GLASNOST-25"] },
+          { "claim": "Gorbachev's centrism cost him support on both sides.", "evidence": ["F-GLASNOST-10", "F-GLASNOST-31"] }
+        ],
+        "counter": "Glasnost only exposed failures that already existed: secrecy had failed at Chernobyl, and the national republics were Soviet creations.",
+        "judgementCriterion": "Which factor, if removed, would most have slowed the collapse? Without glasnost the other factors lose their voice, so it is the necessary condition, but democratisation was the sufficient one."
+      },
+      "modelParagraph": {
+        "segments": [
+          { "text": "Glasnost was largely responsible for the collapse of party authority because it ended the party's monopoly of information.", "tags": ["ARGUMENT", "QUESTION WORDS"] },
+          { "text": "When the Congress of People's Deputies met in May 1989, its debates ran live on television for two weeks, to an audience Judt estimates at about 100 million.", "tags": ["EVIDENCE"] },
+          { "text": "This meant that attacks on the KGB, the military and Gorbachev came from inside an official institution, so the party could no longer present criticism as the work of isolated dissidents.", "tags": ["ANALYSIS"] },
+          { "text": "However, the broadcasts mattered only because democratisation had created the Congress; glasnost alone, in 1986–87, had produced debate but not opposition.", "tags": ["COUNTER"] },
+          { "text": "Glasnost was therefore the necessary condition of the collapse of party authority, but not on its own a sufficient one.", "tags": ["JUDGEMENT", "QUESTION WORDS"] }
+        ]
+      },
+      "selfCheck": ["exact_question", "decoded", "precise_evidence", "mechanism", "counter", "judgement_criterion", "question_words"],
+      "autoCheck": { "factorTerms": ["glasnost"], "synonyms": ["openness"], "historians": ["Judt", "Brown"], "extraLexicon": ["Interregional Group", "Andreyeva", "Sajudis"] }
+    },
+    {
+      "questionId": "P3-16-B4-GLASNOST-Q02", "paper": "P3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "text": "“Gorbachev's democratisation weakened rather than strengthened the Soviet state between 1987 and 1990.” Discuss.",
+      "commandTerm": "discuss", "namedFactor": "democratisation", "features": ["proposition", "named_factor"], "timeframe": [1987, 1990],
+      "scope": "The Soviet state",
+      "decodeKey": { "verb": "Discuss: consider the case for and against the proposition, then reach a balanced conclusion", "factorOrTask": "Democratisation and whether it weakened or strengthened the state", "timeframe": "1987–1990", "scope": "The Soviet state as a whole, not only the party", "judgement": "On balance, did democratisation weaken the state more than it strengthened it?" },
+      "modelPlan": {
+        "thesis": "Democratisation strengthened the state's legitimacy in the short term, but on balance it weakened the state, because the institutions it created became platforms for opposition that the centre could not control.",
+        "arguments": [
+          { "claim": "For the proposition: democratisation created rival centres of authority (named factor first).", "evidence": ["F-GLASNOST-15", "F-GLASNOST-16"], "isNamedFactor": true },
+          { "claim": "For the proposition: elections gave national movements a mandate.", "evidence": ["F-GLASNOST-22"] },
+          { "claim": "Against: the first contested elections gave Soviet institutions a new legitimacy and drew reformers into the system.", "evidence": ["F-GLASNOST-13"] },
+          { "claim": "Against: the design kept a communist majority, so in 1989 the state was challenged rather than broken.", "evidence": ["F-GLASNOST-12"] }
+        ],
+        "counter": "The state was already weakened by economic failure and by the national structure of the Union; democratisation exposed this rather than causing it.",
+        "judgementCriterion": "Judge by the state's ability to enforce its decisions: by 1990 it could not stop Lithuania's declaration, which shows weakness."
+      },
+      "modelParagraph": {
+        "segments": [
+          { "text": "Democratisation weakened the Soviet state because the institutions it created soon became platforms for opposition.", "tags": ["ARGUMENT", "QUESTION WORDS"] },
+          { "text": "In the summer of 1989 the Interregional Group formed inside the new Congress, with Yeltsin and Sakharov among its co-chairs, and in February 1990 the Central Committee agreed to repeal Article 6.", "tags": ["EVIDENCE"] },
+          { "text": "This meant that the state's legal centre, the party, lost its leading role at the moment when organised critics had gained a national stage.", "tags": ["ANALYSIS"] },
+          { "text": "On the other hand, the first contested elections in March 1989 gave Soviet institutions a legitimacy they had never had, which in the short term strengthened the state.", "tags": ["COUNTER"] },
+          { "text": "On balance, democratisation weakened the state more than it strengthened it, because the new legitimacy flowed to its critics rather than to the centre.", "tags": ["JUDGEMENT", "QUESTION WORDS"] }
+        ]
+      },
+      "selfCheck": ["exact_question", "decoded", "precise_evidence", "mechanism", "counter", "judgement_criterion", "question_words"],
+      "autoCheck": { "factorTerms": ["democratisation", "democratization"], "synonyms": ["democratise", "democratize", "elections", "Congress of People's Deputies"], "historians": ["Judt", "Brown"] }
+    },
+    {
+      "questionId": "P3-16-B4-GLASNOST-Q03", "paper": "P3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "text": "Evaluate the reasons for, and the consequences of, the growth of national movements in the Soviet Union between 1985 and 1991.",
+      "commandTerm": "evaluate", "namedFactor": null, "features": ["two_part"], "timeframe": [1985, 1991],
+      "scope": "National movements in the Soviet republics",
+      "decodeKey": { "verb": "Evaluate: weigh the relative importance of reasons and the significance of consequences, with a criterion", "factorOrTask": "Two parts: reasons for growth; consequences", "timeframe": "1985–1991", "scope": "The Soviet republics (Baltic, Caucasus, Central Asia)", "judgement": "Which reason mattered most, and which consequence was most significant" },
+      "modelPlan": {
+        "thesis": "The growth of national movements was caused above all by glasnost's permission to discuss the past, made potent by democratisation, and its most significant consequence was that the Union's authority collapsed in the republics before it collapsed in Moscow.",
+        "arguments": [
+          { "claim": "Reason: glasnost allowed open discussion of grievances and history.", "evidence": ["F-GLASNOST-23", "F-GLASNOST-20"], "part": "causes" },
+          { "claim": "Reason: democratisation gave national movements mandates.", "evidence": ["F-GLASNOST-22"], "part": "causes" },
+          { "claim": "Consequence: declarations of independence that Moscow could not reverse.", "evidence": ["F-GLASNOST-25", "F-GLASNOST-27"], "part": "effects" },
+          { "claim": "Consequence: the March 1991 referendum exposed a divided Union.", "evidence": ["F-GLASNOST-28"], "part": "effects" }
+        ],
+        "counter": "Some movements were triggered by Moscow's own clumsiness, such as Kolbin's appointment in 1986, rather than by glasnost.",
+        "judgementCriterion": "Judge reasons by whether the movement could have grown without them; judge consequences by their effect on the Union's survival."
+      },
+      "modelParagraph": {
+        "segments": [
+          { "text": "The most important reason for the growth of national movements was glasnost, because it made the history of annexation discussable.", "tags": ["ARGUMENT", "QUESTION WORDS"] },
+          { "text": "On 23 August 1989, the fiftieth anniversary of the Nazi–Soviet Pact, an estimated 1.8 million people formed a human chain from Vilnius to Tallinn.", "tags": ["EVIDENCE"] },
+          { "text": "This meant that cultural grievances became a claim to independence, organised by popular fronts that could only exist under glasnost.", "tags": ["ANALYSIS"] },
+          { "text": "However, the Alma-Ata protests of December 1986 were triggered by Moscow's appointment of Kolbin, which shows that clumsy central decisions also caused national protest.", "tags": ["COUNTER"] },
+          { "text": "Glasnost was therefore the more significant reason, because it turned scattered protest into lasting movements.", "tags": ["JUDGEMENT"] }
+        ]
+      },
+      "selfCheck": ["exact_question", "decoded", "precise_evidence", "mechanism", "counter", "judgement_criterion", "question_words"],
+      "autoCheck": { "factorTerms": ["national", "nationalist", "nationalism"], "synonyms": ["popular front", "independence", "Sajudis"],
+        "parts": [ { "name": "reasons", "terms": ["because", "reason", "cause", "caused", "led to"] }, { "name": "consequences", "terms": ["consequence", "as a result", "result", "led to", "effect", "meant that"] } ],
+        "historians": ["Judt", "Brown"] }
+    },
+    {
+      "questionId": "P3-16-B4-GLASNOST-Q04", "paper": "P3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "text": "Compare and contrast the aims and results of glasnost and democratisation in the Soviet Union between 1985 and 1991.",
+      "commandTerm": "compare and contrast", "namedFactor": null, "features": ["comparative"], "timeframe": [1985, 1991],
+      "scope": "Two policies: glasnost and democratisation",
+      "decodeKey": { "verb": "Compare and contrast: similarities and differences, point by point", "factorOrTask": "Aims and results of two policies", "timeframe": "1985–1991", "scope": "Glasnost and democratisation only", "judgement": "Were the two policies more alike or more different in aims and results?" },
+      "modelPlan": {
+        "thesis": "Both policies aimed to force the party to reform from outside its apparatus, but they differed in method and result: glasnost changed what could be said, whereas democratisation changed who held power, and so it did more damage to the party.",
+        "arguments": [
+          { "claim": "Similar aims: both were tools to overcome the apparatus.", "evidence": ["F-GLASNOST-09", "F-GLASNOST-11"], "part": "similarities" },
+          { "claim": "Similar results: both escaped Gorbachev's limits.", "evidence": ["F-GLASNOST-33", "F-GLASNOST-15"], "part": "similarities" },
+          { "claim": "Different methods: glasnost relied on discussion and media, democratisation on elections and institutions.", "evidence": ["F-GLASNOST-06", "F-GLASNOST-13"], "part": "differences" },
+          { "claim": "Different results: democratisation ended the leading role of the party.", "evidence": ["F-GLASNOST-16"], "part": "differences" }
+        ],
+        "counter": "The two cannot be fully separated: the televised Congress was both glasnost and democratisation.",
+        "judgementCriterion": "Judge by impact on the party's power: democratisation's result was more radical than glasnost's."
+      },
+      "modelParagraph": {
+        "segments": [
+          { "text": "Both glasnost and democratisation aimed to push the party into reform from outside its apparatus.", "tags": ["ARGUMENT", "QUESTION WORDS"] },
+          { "text": "Glasnost worked through public discussion, such as the televised Central Committee speech of January 1987, whereas democratisation worked through elections, beginning with the contested elections of March 1989.", "tags": ["EVIDENCE"] },
+          { "text": "This difference in method meant that glasnost changed what could be said, while democratisation changed who held office, so the second struck directly at the party's power.", "tags": ["ANALYSIS"] },
+          { "text": "However, the two overlapped: the televised first session of the Congress in May 1989 was the product of both policies.", "tags": ["COUNTER"] },
+          { "text": "The policies were therefore similar in aim but different in result, and democratisation did more to end the party's monopoly.", "tags": ["JUDGEMENT", "QUESTION WORDS"] }
+        ]
+      },
+      "selfCheck": ["exact_question", "decoded", "precise_evidence", "mechanism", "counter", "judgement_criterion", "question_words", "explicit_comparison"],
+      "autoCheck": { "factorTerms": ["glasnost", "democratisation", "democratization"], "synonyms": ["openness", "elections"], "comparisonRequired": true, "historians": ["Judt", "Brown"] }
+    },
+    {
+      "questionId": "P3-16-B4-GLASNOST-Q05", "paper": "P3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "text": "Examine the role of Gorbachev in the rise of nationalist movements in the Baltic republics between 1987 and 1991.",
+      "commandTerm": "examine", "namedFactor": "Gorbachev", "features": ["leader", "named_factor"], "timeframe": [1987, 1991],
+      "scope": "Estonia, Latvia and Lithuania",
+      "decodeKey": { "verb": "Examine: consider the evidence and the assumptions behind Gorbachev's role", "factorOrTask": "Gorbachev's role", "timeframe": "1987–1991", "scope": "The Baltic republics only", "judgement": "How central was Gorbachev's role, compared with long-standing national grievances?" },
+      "modelPlan": {
+        "thesis": "Gorbachev's role was central but unintended: his reforms gave Baltic movements the freedom and the mandate to organise, while his inconsistent use of force strengthened rather than stopped them.",
+        "arguments": [
+          { "claim": "Gorbachev's glasnost allowed open discussion of the Nazi–Soviet Pact (named factor first).", "evidence": ["F-GLASNOST-23"], "isNamedFactor": true },
+          { "claim": "His democratisation gave Sajudis an electoral mandate.", "evidence": ["F-GLASNOST-22"] },
+          { "claim": "His responses to the 1990 declaration and the 1991 violence weakened Moscow's position.", "evidence": ["F-GLASNOST-25", "F-GLASNOST-27"] }
+        ],
+        "counter": "Baltic grievances about annexation long predated Gorbachev; he released them rather than created them.",
+        "judgementCriterion": "Judge by timing: the movements became mass movements only after his reforms."
+      },
+      "modelParagraph": {
+        "segments": [
+          { "text": "Gorbachev's role in the rise of Baltic nationalism was central, because his democratisation turned protest into a democratic mandate.", "tags": ["ARGUMENT", "QUESTION WORDS"] },
+          { "text": "In the March 1989 elections Sajudis won 36 of Lithuania's 42 seats.", "tags": ["EVIDENCE"] },
+          { "text": "This meant that Lithuanian demands now came from elected deputies, which made them much harder for Moscow to dismiss as the work of agitators.", "tags": ["ANALYSIS"] },
+          { "text": "However, the grievance itself, the annexation that followed the 1939 Nazi–Soviet Pact, long predated Gorbachev.", "tags": ["COUNTER"] },
+          { "text": "Gorbachev's role was therefore decisive in the timing and strength of Baltic nationalism, though not in its origins.", "tags": ["JUDGEMENT", "QUESTION WORDS"] }
+        ]
+      },
+      "selfCheck": ["exact_question", "decoded", "precise_evidence", "mechanism", "counter", "judgement_criterion", "question_words"],
+      "autoCheck": { "factorTerms": ["Gorbachev"], "synonyms": ["Gorbachev's"], "historians": ["Judt", "Brown"], "extraLexicon": ["Sajudis", "Lithuania", "Estonia", "Latvia"] }
+    },
+    {
+      "questionId": "P3-16-B4-GLASNOST-Q06", "paper": "P3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "text": "Analyse the impact of the Chernobyl disaster on Soviet policy towards openness between 1986 and 1989.",
+      "commandTerm": "analyse", "namedFactor": "the Chernobyl disaster", "features": ["named_factor"], "timeframe": [1986, 1989],
+      "scope": "Soviet information policy (glasnost)",
+      "decodeKey": { "verb": "Analyse: break the impact into parts and explain the links", "factorOrTask": "The Chernobyl disaster and its impact", "timeframe": "1986–1989", "scope": "Policy towards openness", "judgement": "How far, and how, Chernobyl changed policy" },
+      "modelPlan": {
+        "thesis": "Chernobyl changed glasnost from a slogan into a policy, because the failed cover-up showed that secrecy itself endangered the state, but the disaster accelerated a commitment that already existed rather than creating it.",
+        "arguments": [
+          { "claim": "The failed cover-up discredited secrecy (named factor first).", "evidence": ["F-GLASNOST-02", "F-GLASNOST-03"], "isNamedFactor": true },
+          { "claim": "After Chernobyl the media began investigative reporting and openness widened.", "evidence": ["F-GLASNOST-03", "F-GLASNOST-04", "F-GLASNOST-05"] },
+          { "claim": "Openness spread from environmental issues to politics and history.", "evidence": ["F-GLASNOST-08", "F-GLASNOST-14"] }
+        ],
+        "counter": "Gorbachev had named glasnost as a key theme in December 1984, so the policy predated the disaster.",
+        "judgementCriterion": "Judge by change over time: before April 1986 glasnost was little more than a slogan; after it, it shaped policy."
+      },
+      "modelParagraph": {
+        "segments": [
+          { "text": "The Chernobyl disaster turned glasnost from a slogan into a policy.", "tags": ["ARGUMENT", "QUESTION WORDS"] },
+          { "text": "After the explosion on 26 April 1986, Moscow's first acknowledgement came only four days later, in a two-sentence communiqué.", "tags": ["EVIDENCE"] },
+          { "text": "This meant that the leadership saw secrecy fail in public, because radiation crossed borders and could not be hidden, which made openness a necessity rather than a choice.", "tags": ["ANALYSIS"] },
+          { "text": "However, Gorbachev had already named glasnost as a key theme in December 1984, so the disaster accelerated a commitment rather than creating it.", "tags": ["COUNTER"] },
+          { "text": "Chernobyl's impact on policy towards openness was therefore decisive in timing and urgency, though not in origin.", "tags": ["JUDGEMENT", "QUESTION WORDS"] }
+        ]
+      },
+      "selfCheck": ["exact_question", "decoded", "precise_evidence", "mechanism", "counter", "judgement_criterion", "question_words"],
+      "autoCheck": { "factorTerms": ["Chernobyl"], "synonyms": ["the disaster", "the accident", "nuclear"], "historians": ["Judt", "Brown"] }
+    }
+  ]
+}

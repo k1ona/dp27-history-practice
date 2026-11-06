@@ -1,0 +1,835 @@
+{
+  "schema": "dp27.section.v1",
+  "sectionId": "P1-CS2-CAUSES",
+  "contentVersion": "1.0.0",
+  "context": {
+    "readingMinutes": 17,
+    "openingProblem": {
+      "problem": "In 1935 Italy was still aligned with Britain and France. By May 1939 Italy and Germany had signed a military alliance. In the same years Hitler told his commanders that Germany's future depended on winning “living space”, while Britain's Prime Minister described his policy as a long road to appeasement.\n\nSo what drove German and Italian expansion: the ideas of the dictators, economic pressure at home, or the choices of the other powers?",
+      "predictionPrompt": "Your prediction in one line: which mattered most — ideology, economics or the reactions of other powers? Give one reason.",
+      "revisitPrompt": "Look back at your prediction. Has your judgement changed? Which source or fact changed it, or confirmed it?"
+    },
+    "chunks": [
+      {
+        "chunkId": "K1",
+        "angle": "named_factor",
+        "title": "How far did fascist and Nazi ideology drive expansion?",
+        "body": "Hitler became Chancellor on 30 January 1933. Within months, American diplomats in Berlin were warning Washington that Nazi ideology pointed towards war. In April 1934 Douglas Miller, a commercial attaché at the US Embassy, reported that the Nazis' fundamental purpose was the expansion of German territory and the growth of the German race until it became the most powerful nation in the world. He added that the Nazis wanted several years of peace only so that they could rearm. In February 1935 George Messersmith, now US Minister in Vienna, listed their targets: Memel, Alsace-Lorraine, the eastern frontier, Austria and the fertile lands of Ukraine.\n\nThe clearest statement of Hitler's own thinking comes from the minutes of a conference at the Reich Chancellery on 5 November 1937, recorded by Colonel Hossbach. Hitler told the war minister, the heads of the three armed services and the foreign minister that Germany's future depended on solving its need for “space”, and that history showed expansion could only come by breaking down resistance and taking risks. This matters because it links racial ideology directly to a plan for war, which meant expansion was a goal and not only a reaction to events.\n\nItalian fascism also glorified expansion, but the sources show it differently. US reports from Rome in 1934–35 describe secret, large-scale preparations for a colonial war in Ethiopia, which Italy invaded on 3 October 1935. Interestingly, Hitler himself, in the Hossbach minutes, explained Italian expansion by economic motives rather than by ideology.\n\nIdeology therefore explains the aims, especially in Germany. It explains less about timing: the decisions of 1935–39 also depended on rearmament, economic strain and the reactions of other states, which the next chunks examine.",
+        "argumentsThatWork": [
+          {
+            "claim": "Nazi ideology set the goal of expansion: living space for a racial community.",
+            "evidence": ["F-CS2C-11", "F-CS2C-20"],
+            "strongestCounter": "The Hossbach minutes also stress economic need and opportunity, so ideology was combined with calculation rather than acting alone."
+          },
+          {
+            "claim": "Observers saw the ideological drive to war as early as 1934–35.",
+            "evidence": ["F-CS2C-20", "F-CS2C-21"],
+            "strongestCounter": "These were private reports by US diplomats who disliked the regime; they show what observers feared, not what Hitler had decided."
+          },
+          {
+            "claim": "Fascist ideology mattered less than strategic and economic motives in Italy's case.",
+            "evidence": ["F-CS2C-11", "F-CS2C-22"],
+            "strongestCounter": "The secrecy and scale of the preparations, and the press campaign, show a regime that saw war as proof of national greatness."
+          }
+        ],
+        "howItGetsAsked": [
+          "Using the sources and your own knowledge, examine the impact of Nazi ideology on German foreign policy, 1933–1939.",
+          "To what extent was Italian expansion in 1935–1936 driven by fascist ideology?",
+          "Compare and contrast what two sources reveal about the aims of Nazi Germany."
+        ],
+        "useItInAnEssay": {
+          "claim": "Nazi ideology set the goal of German expansion.",
+          "prove": "At the conference of 5 November 1937 recorded by Hossbach, Hitler said Germany's future depended on solving its need for space.",
+          "explain": "This meant that expansion was planned as a solution to a racial and economic problem, so it was a goal rather than a reaction to events.",
+          "test": "However, the same minutes also discuss opportunities and risks, which suggests that timing depended on circumstances abroad.",
+          "judge": "Ideology was therefore the main cause of the aim of expansion, but only a partial explanation of when it happened."
+        },
+        "checkpoint": [
+          {
+            "itemId": "P1-CS2-CAUSES-C01", "kind": "checkpoint", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "What did Hitler tell the conference recorded by Hossbach on 5 November 1937?",
+            "factIds": ["F-CS2C-10", "F-CS2C-11"],
+            "options": [
+              { "id": "a", "text": "Germany's future depended on solving its need for space, which meant taking risks", "correct": true, "explanation": "Correct: the minutes link the racial community's need for space to expansion." },
+              { "id": "b", "text": "Germany would accept its existing frontiers if colonies were returned", "correct": false, "explanation": "No: the minutes say space must be sought in Europe, not in colonies." },
+              { "id": "c", "text": "Germany would leave the League of Nations", "correct": false, "explanation": "Germany had already given notice of leaving the League in October 1933." },
+              { "id": "d", "text": "Germany would ally with the Soviet Union", "correct": false, "explanation": "The Nazi–Soviet agreement came in August 1939 and is not in these minutes." }
+            ]
+          },
+          {
+            "itemId": "P1-CS2-CAUSES-C02", "kind": "checkpoint", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "In which year did Italy invade Ethiopia? (year)",
+            "factIds": ["F-CS2C-04"],
+            "blanks": [ { "id": "1", "answer": 1935, "tolerance": 0, "explanation": "3 October 1935." } ]
+          },
+          {
+            "itemId": "P1-CS2-CAUSES-C03", "kind": "checkpoint", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Fact: “In the Hossbach minutes, Hitler explained Italian expansion by economic motives.” Which argument does it support?",
+            "factIds": ["F-CS2C-11"],
+            "options": [
+              { "id": "a", "text": "Ideology alone does not explain Italian expansion", "correct": true, "explanation": "Correct: even Hitler explained Italy's expansion economically." },
+              { "id": "b", "text": "Mussolini had no interest in empire", "correct": false, "explanation": "Too strong: the invasion of Ethiopia shows he did." },
+              { "id": "c", "text": "Italy and Germany were allies from 1933", "correct": false, "explanation": "They moved closer only in 1936." },
+              { "id": "d", "text": "Appeasement caused the Ethiopian war", "correct": false, "explanation": "The fact concerns motives, not the response of other powers." }
+            ]
+          }
+        ],
+        "media": []
+      },
+      {
+        "chunkId": "K2",
+        "angle": "causes",
+        "title": "Did economic problems push the dictators to expand?",
+        "body": "Unemployment was the new regime's first economic problem, and it presented public works as action against it. On 23 September 1933 Hitler broke the first ground for the motorway from Frankfurt towards Darmstadt and Mannheim, a project the archive's caption describes as a means of ending unemployment. Public works helped, but the larger programme was rearmament: in March 1935 Germany announced an air force and reintroduced conscription, which the US State Department later described as sweeping away the disarmament clauses of the Versailles treaty.\n\nRearmament created its own economic logic. Douglas Miller reported in April 1934 that the Nazis aimed to make Germany the centre of a self-sufficient economic bloc in central and eastern Europe, large enough to defy a wartime blockade, with an agricultural self-sufficiency programme at home. This is the idea of autarky. In the Hossbach minutes of November 1937, Hitler argued that autarky could not be achieved within Germany's borders: food production could not rise much further, and imports used scarce foreign exchange. Because self-sufficiency was impossible at home, he concluded that the only remedy was greater living space in Europe. Economic weakness was thus turned into an argument for conquest.\n\nItaly's preparations show a similar link between economic resources and war. In September 1934 the US Ambassador in Rome reported rumours that the government had set aside two billion lire for an East African campaign; in February 1935 he reported factories around Milan working day and night on trucks, tanks and artillery.\n\nThe economic argument is strong but has limits. It explains why expansion seemed attractive and why the pace of rearmament became hard to sustain, but the direction of expansion came from ideology, and the opportunity came from the weakness of others.",
+        "argumentsThatWork": [
+          {
+            "claim": "Autarky turned economic weakness into an argument for conquest.",
+            "evidence": ["F-CS2C-11", "F-CS2C-20"],
+            "strongestCounter": "The same documents show that the goal of living space existed before the economic argument, which suggests economics justified rather than caused the aim."
+          },
+          {
+            "claim": "Rearmament was both a cure for unemployment and a preparation for war.",
+            "evidence": ["F-CS2C-03", "F-CS2C-28"],
+            "strongestCounter": "Public works and rearmament could have been domestic policies; they explain capacity for war, not the decision to use it."
+          },
+          {
+            "claim": "Italy's colonial war was prepared through a major mobilisation of economic resources.",
+            "evidence": ["F-CS2C-22", "F-CS2C-23"],
+            "strongestCounter": "The figures in the 1934 report were rumours, so they show the scale observers feared rather than verified spending."
+          }
+        ],
+        "howItGetsAsked": [
+          "Using the sources and your own knowledge, examine the importance of economic factors in German expansion, 1933–1939.",
+          "To what extent did domestic economic problems cause Italian and German expansion?",
+          "Compare and contrast what two sources reveal about the Nazi aim of self-sufficiency."
+        ],
+        "useItInAnEssay": {
+          "claim": "Economic problems turned the Nazi goal of space into an urgent policy.",
+          "prove": "In November 1937 Hitler argued that autarky was untenable within Germany's borders because food production could not rise further.",
+          "explain": "This meant that conquest was presented as the only remedy for an economic weakness that rearmament was making worse.",
+          "test": "However, Miller's report of 1934 shows that the aim of a German-led bloc existed before these pressures became acute.",
+          "judge": "Economics was therefore a significant accelerating cause, but not the origin of the aim."
+        },
+        "checkpoint": [
+          {
+            "itemId": "P1-CS2-CAUSES-C04", "kind": "checkpoint", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "What is autarky?",
+            "factIds": ["F-CS2C-20"],
+            "options": [
+              { "id": "a", "text": "Economic self-sufficiency, so that a country can survive a blockade", "correct": true, "explanation": "Correct: Miller describes a bloc able to defy wartime blockade." },
+              { "id": "b", "text": "Rule by a single dictator", "correct": false, "explanation": "That is autocracy, a different word." },
+              { "id": "c", "text": "Free trade with all countries", "correct": false, "explanation": "The opposite: autarky reduces dependence on trade." },
+              { "id": "d", "text": "A policy of appeasement", "correct": false, "explanation": "Unrelated: appeasement is a foreign-policy response by other states." }
+            ]
+          },
+          {
+            "itemId": "P1-CS2-CAUSES-C05", "kind": "checkpoint", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "In which year did Germany reintroduce conscription? (year)",
+            "factIds": ["F-CS2C-03"],
+            "blanks": [ { "id": "1", "answer": 1935, "tolerance": 0, "explanation": "16 March 1935." } ]
+          },
+          {
+            "itemId": "P1-CS2-CAUSES-C06", "kind": "checkpoint", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Fact: “Hitler argued in 1937 that autarky was untenable within Germany's borders.” Which argument does it support?",
+            "factIds": ["F-CS2C-11"],
+            "options": [
+              { "id": "a", "text": "Economic weakness was used to justify conquest of living space", "correct": true, "explanation": "Correct: if self-sufficiency is impossible at home, he argued, it must be won abroad." },
+              { "id": "b", "text": "Germany's economy was fully recovered by 1937", "correct": false, "explanation": "He argued the opposite about the food position." },
+              { "id": "c", "text": "Germany planned to rely on colonies overseas", "correct": false, "explanation": "The minutes reject overseas colonies in favour of space in Europe." },
+              { "id": "d", "text": "Britain's appeasement encouraged Hitler", "correct": false, "explanation": "The fact is about economic motives, not British policy." }
+            ]
+          }
+        ],
+        "media": ["M-autobahn-groundbreaking-1933"]
+      },
+      {
+        "chunkId": "K3",
+        "angle": "impact_consequences",
+        "title": "Changing alignments: why did collective security collapse?",
+        "body": "Collective security depended on the League of Nations and on the great powers acting together. Germany broke away first: on 14 October 1933 it left the Disarmament Conference and gave notice of leaving the League. In March 1936 German troops marched unopposed into the demilitarised Rhineland, in breach of the Locarno treaty.\n\nItaly's war in Ethiopia was the decisive test. After Italy invaded on 3 October 1935, the League decided that Italy had broken the Covenant and recommended commercial and financial sanctions. The sanctions did not stop the conquest: Addis Ababa fell on 5 May 1936. They did, however, change Italy's alignment. Italy and Germany drew closer in 1936, after the sanctions and after Italy's alliance with Britain and France had ended. On 25 October 1936 they signed a treaty of friendship, which Mussolini soon called the Rome–Berlin Axis. Germany and Japan signed the Anti-Comintern Pact on 25 November 1936, and Italy joined it on 6 November 1937. This is a causal chain: half-hearted sanctions angered Italy without stopping it, which pushed Mussolini towards Hitler and took Italy away from the side of Britain and France.\n\nThe new alignments mattered because they changed the balance of risk. A US diplomat reported in November 1935 that European states had no real fear of Italy but were “profoundly afraid of Germany”, and in January 1936 that German rearmament seemed designed only for aggression. Once Italy stood with Germany, Britain and France faced two revisionist powers instead of one.\n\nThe Pact of Steel of 22 May 1939 turned the political alignment into a military alliance. Then the Nazi–Soviet agreement of 23 August 1939, with its secret protocol, removed the danger of a war on two fronts. Each realignment made German expansion less risky, which is why the collapse of collective security is a cause as well as a consequence.",
+        "argumentsThatWork": [
+          {
+            "claim": "The failure of sanctions over Ethiopia pushed Italy towards Germany.",
+            "evidence": ["F-CS2C-05", "F-CS2C-08"],
+            "strongestCounter": "Italy's alignment also reflected Mussolini's own ambitions in the Mediterranean, so sanctions accelerated a choice rather than forcing it."
+          },
+          {
+            "claim": "The Axis and the Anti-Comintern Pact reduced the risks of German expansion.",
+            "evidence": ["F-CS2C-08", "F-CS2C-09"],
+            "strongestCounter": "These were political agreements; Italy did not join the war in September 1939, so their military value was limited."
+          },
+          {
+            "claim": "The Nazi–Soviet agreement removed the last obstacle to war over Poland.",
+            "evidence": ["F-CS2C-18", "F-CS2C-19"],
+            "strongestCounter": "Hitler's aims in the east existed long before 1939; the pact changed timing, not purpose."
+          }
+        ],
+        "howItGetsAsked": [
+          "Using the sources and your own knowledge, examine the importance of changing diplomatic alignments in German and Italian expansion.",
+          "To what extent did the failure of collective security cause expansion between 1935 and 1939?",
+          "Compare and contrast what two sources reveal about European fears of Germany and Italy."
+        ],
+        "useItInAnEssay": {
+          "claim": "The failure of collective security over Ethiopia made German expansion less risky.",
+          "prove": "After League sanctions in 1935–36, Italy signed a treaty of friendship with Germany on 25 October 1936, the Rome–Berlin Axis.",
+          "explain": "This meant that Italy no longer stood with Britain and France as a barrier to German moves in central Europe.",
+          "test": "However, the Axis was political rather than military until the Pact of Steel of May 1939.",
+          "judge": "Changing alignments were therefore a major permissive cause: they did not create Hitler's aims, but they removed the obstacles to them."
+        },
+        "checkpoint": [
+          {
+            "itemId": "P1-CS2-CAUSES-C07", "kind": "checkpoint", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "What did the League of Nations do after Italy invaded Ethiopia?",
+            "factIds": ["F-CS2C-05"],
+            "options": [
+              { "id": "a", "text": "It found that Italy had broken the Covenant and recommended commercial and financial sanctions", "correct": true, "explanation": "Correct: the sanctions did not stop the conquest." },
+              { "id": "b", "text": "It sent an army to defend Ethiopia", "correct": false, "explanation": "The League had no army and sent none." },
+              { "id": "c", "text": "It expelled Germany", "correct": false, "explanation": "Germany had already given notice of leaving in 1933." },
+              { "id": "d", "text": "It approved Italy's annexation", "correct": false, "explanation": "No: it condemned the invasion." }
+            ]
+          },
+          {
+            "itemId": "P1-CS2-CAUSES-C08", "kind": "checkpoint", "type": "chronology", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Put these alignments in order.",
+            "sequence": [
+              { "id": "a", "text": "German–Italian treaty of friendship (Axis)", "year": 1936, "month": 10, "factId": "F-CS2C-08" },
+              { "id": "b", "text": "Anti-Comintern Pact (Germany and Japan)", "year": 1936, "month": 11, "factId": "F-CS2C-09" },
+              { "id": "c", "text": "Italy joins the Anti-Comintern Pact", "year": 1937, "month": 11, "factId": "F-CS2C-09" },
+              { "id": "d", "text": "Pact of Steel", "year": 1939, "month": 5, "factId": "F-CS2C-15" },
+              { "id": "e", "text": "Nazi–Soviet agreement", "year": 1939, "month": 8, "factId": "F-CS2C-18" }
+            ]
+          },
+          {
+            "itemId": "P1-CS2-CAUSES-C09", "kind": "checkpoint", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Fact: “European states had no real fear of Italy but were ‘profoundly afraid of Germany’ (US report, November 1935).” Which argument does it support?",
+            "factIds": ["F-CS2C-24"],
+            "options": [
+              { "id": "a", "text": "Britain and France were reluctant to break with Italy because they needed it against Germany", "correct": true, "explanation": "Correct: fear of Germany explains why sanctions on Italy were half-hearted." },
+              { "id": "b", "text": "Italy was the main threat to European peace", "correct": false, "explanation": "The report says the opposite." },
+              { "id": "c", "text": "Germany had stopped rearming", "correct": false, "explanation": "The later report (January 1936) stresses the intensity of German rearmament." },
+              { "id": "d", "text": "The League's sanctions stopped Italy", "correct": false, "explanation": "Addis Ababa fell in May 1936." }
+            ]
+          }
+        ],
+        "media": []
+      },
+      {
+        "chunkId": "K4",
+        "angle": "success_failure",
+        "title": "Appeasement: a cause of expansion, or a response to it?",
+        "body": "Appeasement means satisfying a rival's grievances by negotiation in the hope of preventing war. On 3 October 1938, defending the Munich agreement in the House of Commons, Neville Chamberlain said his main purpose since taking office had been the pacification of Europe, and that “the path which leads to appeasement is long and bristles with obstacles”. He also stressed that Britain was engaged in a great programme of rearmament. At Munich on 29 September 1938, Germany, Britain, France and Italy agreed that Czechoslovakia would cede its Sudeten German territory, with German occupation beginning on 1 October.\n\nCritics answered him in the same debate. Clement Attlee, who spoke after him, called the result one of the greatest diplomatic defeats Britain and France had ever suffered, a victory won by Hitler without firing a shot. On 5 October Winston Churchill said Britain had “sustained a total and unmitigated defeat”, and that Hitler, instead of snatching his food from the table, was content to have it served course by course. Their argument is that each concession taught Hitler that threats worked, which meant appeasement encouraged further expansion.\n\nThe evidence supports them in one sense: the Rhineland was reoccupied unopposed in March 1936, Austria was incorporated in March 1938, and in March 1939 Germany occupied the Czech lands in violation of the Munich agreement. Each success was followed by a larger demand.\n\nYet appeasement responded to German aims rather than creating them. Chamberlain's own speech shows that he linked negotiation with rearmament, buying time as well as hoping for peace. The strongest judgement is therefore that appeasement was a permissive cause: it lowered the cost of expansion, but the drive to expand came from Berlin and Rome.",
+        "argumentsThatWork": [
+          {
+            "claim": "Appeasement encouraged expansion by showing that threats succeeded.",
+            "evidence": ["F-CS2C-26", "F-CS2C-27", "F-CS2C-17"],
+            "strongestCounter": "Hitler's aims were set long before Munich (Hossbach, 1937), so appeasement did not create them."
+          },
+          {
+            "claim": "Appeasement was linked to rearmament and was partly a policy of buying time.",
+            "evidence": ["F-CS2C-25"],
+            "strongestCounter": "Germany was rearming faster, so time bought did not necessarily favour Britain."
+          },
+          {
+            "claim": "The unopposed reoccupation of the Rhineland was an early sign that the powers would not resist.",
+            "evidence": ["F-CS2C-07"],
+            "strongestCounter": "The Rhineland was German territory, so many saw it as Germany entering its own back yard rather than as aggression."
+          }
+        ],
+        "howItGetsAsked": [
+          "Using the sources and your own knowledge, to what extent was appeasement a cause of German expansion between 1936 and 1939?",
+          "Compare and contrast the views of the Munich agreement in two sources.",
+          "With reference to its origin, purpose and content, analyse the value and limitations of a parliamentary speech for a historian studying appeasement."
+        ],
+        "useItInAnEssay": {
+          "claim": "Appeasement was a permissive cause of German expansion.",
+          "prove": "At Munich on 29 September 1938 Britain and France agreed that Czechoslovakia would cede the Sudeten territory, and in March 1939 Germany occupied the rest of the Czech lands.",
+          "explain": "This meant that concessions were followed by larger demands, which suggests that Hitler drew the lesson that threats worked.",
+          "test": "However, Hitler had set out the aim of space in November 1937, before Munich, so appeasement did not create the aim.",
+          "judge": "Appeasement therefore lowered the cost of expansion but did not cause the drive to expand."
+        },
+        "checkpoint": [
+          {
+            "itemId": "P1-CS2-CAUSES-C10", "kind": "checkpoint", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "Which four powers signed the Munich agreement of 29 September 1938?",
+            "factIds": ["F-CS2C-13"],
+            "options": [
+              { "id": "a", "text": "Germany, Britain, France and Italy", "correct": true, "explanation": "Correct: Czechoslovakia was not a signatory." },
+              { "id": "b", "text": "Germany, Britain, France and Czechoslovakia", "correct": false, "explanation": "Czechoslovakia was not a party to the agreement." },
+              { "id": "c", "text": "Germany, Italy, Japan and the USSR", "correct": false, "explanation": "Japan and the USSR were not at Munich." },
+              { "id": "d", "text": "Germany, Britain, the USA and Italy", "correct": false, "explanation": "The USA was not a signatory." }
+            ]
+          },
+          {
+            "itemId": "P1-CS2-CAUSES-C11", "kind": "checkpoint", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "What did Churchill say in the Commons on 5 October 1938?",
+            "factIds": ["F-CS2C-27"],
+            "options": [
+              { "id": "a", "text": "That Britain had sustained a total and unmitigated defeat", "correct": true, "explanation": "Correct: he attacked the Munich agreement." },
+              { "id": "b", "text": "That Munich had brought peace for a generation", "correct": false, "explanation": "That phrase is associated with Chamberlain, quoted critically by Attlee." },
+              { "id": "c", "text": "That Britain should stop rearming", "correct": false, "explanation": "Churchill attacked the deficiencies in Britain's defences." },
+              { "id": "d", "text": "That Czechoslovakia had betrayed Britain", "correct": false, "explanation": "No: critics argued Czechoslovakia had been sacrificed." }
+            ]
+          },
+          {
+            "itemId": "P1-CS2-CAUSES-C12", "kind": "checkpoint", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+            "prompt": "In which month of 1936 did German troops march into the Rhineland? (month name)",
+            "factIds": ["F-CS2C-07"],
+            "blanks": [ { "id": "1", "answer": "March", "accept": ["mar", "march 1936"], "explanation": "7 March 1936, unopposed." } ]
+          }
+        ],
+        "media": ["M-munich-conference-1938"]
+      }
+    ],
+    "visuals": {
+      "timeline": {
+        "kind": "diagram",
+        "events": [
+          { "year": 1933, "month": 1, "day": 30, "text": "Hitler appointed Chancellor", "factId": "F-CS2C-01" },
+          { "year": 1933, "month": 10, "day": 14, "text": "Germany leaves the Disarmament Conference and gives notice to leave the League", "factId": "F-CS2C-02" },
+          { "year": 1935, "month": 3, "day": 16, "text": "Germany reintroduces conscription", "factId": "F-CS2C-03" },
+          { "year": 1935, "month": 10, "day": 3, "text": "Italy invades Ethiopia", "factId": "F-CS2C-04" },
+          { "year": 1936, "month": 3, "day": 7, "text": "German troops enter the Rhineland unopposed", "factId": "F-CS2C-07" },
+          { "year": 1936, "month": 10, "day": 25, "text": "German–Italian treaty of friendship (Rome–Berlin Axis)", "factId": "F-CS2C-08" },
+          { "year": 1936, "month": 11, "day": 25, "text": "Anti-Comintern Pact (Germany and Japan)", "factId": "F-CS2C-09" },
+          { "year": 1937, "month": 11, "day": 5, "text": "Hossbach conference on living space", "factId": "F-CS2C-10" },
+          { "year": 1938, "month": 3, "text": "Anschluss with Austria", "factId": "F-CS2C-12" },
+          { "year": 1938, "month": 9, "day": 29, "text": "Munich agreement", "factId": "F-CS2C-13" },
+          { "year": 1939, "month": 5, "day": 22, "text": "Pact of Steel", "factId": "F-CS2C-15" },
+          { "year": 1939, "month": 8, "day": 23, "text": "Nazi–Soviet agreement", "factId": "F-CS2C-18" }
+        ]
+      },
+      "causalChain": {
+        "kind": "diagram",
+        "nodes": [
+          { "id": "n1", "text": "Nazi ideology: living space for a racial community", "factId": "F-CS2C-11" },
+          { "id": "n2", "text": "Rearmament and the search for autarky (from 1933–35)", "factId": "F-CS2C-03" },
+          { "id": "n3", "text": "Italy's war in Ethiopia and League sanctions (1935–36)", "factId": "F-CS2C-05" },
+          { "id": "n4", "text": "Italy moves to Germany: Axis and Anti-Comintern (1936–37)", "factId": "F-CS2C-08" },
+          { "id": "n5", "text": "Appeasement: Rhineland, Austria, Munich (1936–38)", "factId": "F-CS2C-13" },
+          { "id": "n6", "text": "Expansion becomes less risky; war over Poland (1939)", "factId": "F-CS2C-19" }
+        ],
+        "links": [
+          { "from": "n1", "to": "n2", "because": "the goal of space required military power" },
+          { "from": "n2", "to": "n3", "because": "rising German power made Britain and France cautious with Italy" },
+          { "from": "n3", "to": "n4", "because": "sanctions angered Italy without stopping it" },
+          { "from": "n4", "to": "n5", "because": "facing two revisionist powers, Britain and France chose concession" },
+          { "from": "n5", "to": "n6", "because": "each success taught that threats worked" }
+        ]
+      },
+      "actorCards": [
+        { "name": "Adolf Hitler", "role": "German Chancellor from 30 January 1933", "whyItMatters": "Set the ideological aim of living space and decided the timing of expansion.", "factIds": ["F-CS2C-01", "F-CS2C-11"] },
+        { "name": "Benito Mussolini", "role": "Head of the Italian government", "whyItMatters": "Launched the war in Ethiopia and moved Italy into alignment with Germany.", "factIds": ["F-CS2C-04", "F-CS2C-08"] },
+        { "name": "Neville Chamberlain", "role": "British Prime Minister; signed the Munich agreement", "whyItMatters": "His appeasement policy, combined with rearmament, shaped the response to German demands.", "factIds": ["F-CS2C-25"] },
+        { "name": "Winston Churchill", "role": "MP for Epping; a former minister, outside the government in 1938", "whyItMatters": "Argued that Munich was a defeat that would encourage further demands.", "factIds": ["F-CS2C-27"] },
+        { "name": "League of Nations", "role": "The system of collective security", "whyItMatters": "Its sanctions against Italy failed and pushed Italy towards Germany.", "factIds": ["F-CS2C-05"] }
+      ],
+      "comparisonGrid": {
+        "kind": "diagram",
+        "columns": ["Germany", "Italy"],
+        "rows": [
+          { "criterion": "Ideological aim", "cells": ["Living space in Europe for a racial community (Hossbach, 1937)", "Colonial empire; war as proof of national greatness (Ethiopia, 1935)"], "factIds": ["F-CS2C-11", "F-CS2C-04"] },
+          { "criterion": "Economic pressure", "cells": ["Autarky judged untenable within existing borders", "Large-scale war production reported in 1935"], "factIds": ["F-CS2C-11", "F-CS2C-22"] },
+          { "criterion": "Effect of other powers", "cells": ["Rhineland unopposed (1936); Munich (1938)", "League sanctions failed (1935–36); Italy drawn to Germany"], "factIds": ["F-CS2C-07", "F-CS2C-13", "F-CS2C-05"] }
+        ]
+      },
+      "archival": ["M-nuremberg-rally-wehrmacht-1936"]
+    },
+    "evidenceBank": [
+      { "factId": "F-CS2C-11", "year": 1937, "text": "5 November 1937 (Hossbach minutes): Hitler told his commanders and foreign minister that Germany's future depended on solving its need for space, and that autarky was untenable within its borders.", "supports": ["Ideology set the aim of expansion", "Economic weakness was used to justify conquest"], "lexicon": ["Hossbach", "living space", "Lebensraum", "autarky", "autarchy"] },
+      { "factId": "F-CS2C-03", "year": 1935, "text": "16 March 1935: Germany reintroduced conscription and announced an air force, in breach of the Versailles disarmament clauses.", "supports": ["Rearmament prepared for expansion", "Collective security was already failing"], "lexicon": ["conscription", "Versailles", "Luftwaffe"] },
+      { "factId": "F-CS2C-05", "year": 1935, "text": "October 1935: after Italy invaded Ethiopia, the League found Italy had broken the Covenant and recommended commercial and financial sanctions; Addis Ababa still fell on 5 May 1936.", "supports": ["Collective security failed", "Sanctions pushed Italy towards Germany"], "lexicon": ["League of Nations", "sanctions", "Ethiopia", "Abyssinia", "Addis Ababa"] },
+      { "factId": "F-CS2C-07", "year": 1936, "text": "7 March 1936: German troops marched unopposed into the demilitarised Rhineland, in breach of the Locarno treaty.", "supports": ["Appeasement encouraged expansion"], "lexicon": ["Rhineland", "Locarno"] },
+      { "factId": "F-CS2C-08", "year": 1936, "text": "25 October 1936: Germany and Italy signed a treaty of friendship, soon called the Rome–Berlin Axis, after League sanctions and the end of Italy's alliance with Britain and France.", "supports": ["Changing alignments reduced the risks of expansion"], "lexicon": ["Rome–Berlin Axis", "Rome-Berlin Axis", "Axis"] },
+      { "factId": "F-CS2C-13", "year": 1938, "text": "29 September 1938: Germany, Britain, France and Italy agreed at Munich that Czechoslovakia would cede its Sudeten territory; German occupation began on 1 October.", "supports": ["Appeasement lowered the cost of expansion"], "lexicon": ["Munich", "Sudeten", "Sudetenland", "Czechoslovakia"] },
+      { "factId": "F-CS2C-15", "year": 1939, "text": "22 May 1939: the Pact of Steel turned the German–Italian alignment into a military alliance.", "supports": ["Changing alignments reduced the risks of expansion"], "lexicon": ["Pact of Steel"] },
+      { "factId": "F-CS2C-18", "year": 1939, "text": "23 August 1939: the Nazi–Soviet non-aggression agreement and secret protocol removed the danger of a two-front war.", "supports": ["Changing alignments made war over Poland possible"], "lexicon": ["Nazi–Soviet", "Nazi-Soviet", "Molotov-Ribbentrop", "non-aggression"] }
+    ],
+    "historiography": [],
+    "misconceptions": [
+      { "wrong": "Italy was Germany's ally from the start.", "right": "Italy and Germany moved closer only in **1936**, after League sanctions and the end of Italy's alliance with Britain and France. The military alliance (Pact of Steel) came in **May 1939**." },
+      { "wrong": "Appeasement began at Munich.", "right": "The powers had already let the Rhineland be reoccupied **unopposed in March 1936**; Chamberlain himself spoke of a long road to appeasement." },
+      { "wrong": "Adding own knowledge earns marks in Q1.", "right": "Q1 rewards only distinct points taken **from the source**. Own knowledge belongs in Q4." },
+      { "wrong": "Using Pearl Harbor (1941) or the invasion of the USSR (1941) as evidence for this case study.", "right": "Case Study 2 runs from **1933 to 1940**. Keep evidence inside the timeframe." }
+    ],
+    "recallSheet": {
+      "chronology": [
+        { "year": 1933, "month": 1, "day": 30, "text": "Hitler Chancellor" },
+        { "year": 1933, "month": 10, "day": 14, "text": "Germany leaves the Disarmament Conference; notice to leave the League" },
+        { "year": 1935, "month": 3, "day": 16, "text": "Conscription" },
+        { "year": 1935, "month": 10, "day": 3, "text": "Italy invades Ethiopia; League sanctions follow" },
+        { "year": 1936, "month": 3, "day": 7, "text": "Rhineland" },
+        { "year": 1936, "month": 10, "day": 25, "text": "Rome–Berlin Axis" },
+        { "year": 1937, "month": 11, "day": 5, "text": "Hossbach conference" },
+        { "year": 1938, "month": 9, "day": 29, "text": "Munich" },
+        { "year": 1939, "month": 3, "text": "Germany occupies the Czech lands" },
+        { "year": 1939, "month": 5, "day": 22, "text": "Pact of Steel" },
+        { "year": 1939, "month": 8, "day": 23, "text": "Nazi–Soviet agreement" },
+        { "year": 1939, "month": 9, "day": 1, "text": "Germany invades Poland" }
+      ],
+      "keyArguments": [
+        "Ideology set the aim: living space in Europe (Hossbach, 1937).",
+        "Economics accelerated it: autarky was judged impossible within existing borders.",
+        "Alignments made it less risky: sanctions pushed Italy to Germany (1936); the Nazi–Soviet agreement removed the two-front danger (1939).",
+        "Appeasement lowered the cost: each concession was followed by a larger demand."
+      ]
+    }
+  },
+  "retrieval": [
+    { "itemId": "P1-CS2-CAUSES-R01", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "When was Hitler appointed Chancellor?", "factIds": ["F-CS2C-01"],
+      "options": [
+        { "id": "a", "text": "30 January 1933", "correct": true, "explanation": "Correct: appointed by President Hindenburg." },
+        { "id": "b", "text": "14 October 1933", "correct": false, "explanation": "That is when Germany left the Disarmament Conference." },
+        { "id": "c", "text": "16 March 1935", "correct": false, "explanation": "That is when conscription was reintroduced." },
+        { "id": "d", "text": "5 November 1937", "correct": false, "explanation": "That is the date of the Hossbach conference." } ] },
+    { "itemId": "P1-CS2-CAUSES-R02", "kind": "retrieval", "type": "chronology", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Put these German actions in order.",
+      "sequence": [
+        { "id": "a", "text": "Germany gives notice to leave the League", "year": 1933, "factId": "F-CS2C-02" },
+        { "id": "b", "text": "Conscription reintroduced", "year": 1935, "factId": "F-CS2C-03" },
+        { "id": "c", "text": "Rhineland reoccupied", "year": 1936, "factId": "F-CS2C-07" },
+        { "id": "d", "text": "Hossbach conference", "year": 1937, "factId": "F-CS2C-10" },
+        { "id": "e", "text": "Munich agreement", "year": 1938, "factId": "F-CS2C-13" } ] },
+    { "itemId": "P1-CS2-CAUSES-R03", "kind": "retrieval", "type": "match", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Match each person to their role.",
+      "pairs": [
+        { "left": "Douglas Miller", "right": "US commercial attaché in Berlin who reported on Nazi aims in 1934", "explanation": "His memorandum of 17 April 1934 described the aim of territorial expansion." },
+        { "left": "George Messersmith", "right": "US Minister in Vienna who listed Nazi targets in 1935", "explanation": "His letter of 8 February 1935 named Memel, Alsace-Lorraine, Austria and Ukraine." },
+        { "left": "Breckinridge Long", "right": "US Ambassador in Rome who reported Italian war preparations", "explanation": "His reports of 1934–35 described the build-up for the Ethiopian war." },
+        { "left": "Colonel Hossbach", "right": "Recorded the minutes of Hitler's conference of 5 November 1937", "explanation": "The Hossbach memorandum is dated 10 November 1937." } ] },
+    { "itemId": "P1-CS2-CAUSES-R04", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "On what date in 1936 did Germany and Italy sign their treaty of friendship? (day and month, for example 1 May)", "factIds": ["F-CS2C-08"],
+      "blanks": [ { "id": "1", "answer": "25 October", "accept": ["25 oct", "october 25", "25th october", "25/10"], "explanation": "25 October 1936: Mussolini soon called it the Rome–Berlin Axis." } ] },
+    { "itemId": "P1-CS2-CAUSES-R05", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "In which year did Italy join the Anti-Comintern Pact? (year)", "factIds": ["F-CS2C-09"],
+      "blanks": [ { "id": "1", "answer": 1937, "tolerance": 0, "explanation": "6 November 1937; Germany and Japan had signed it on 25 November 1936." } ] },
+    { "itemId": "P1-CS2-CAUSES-R06", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Which treaty did the reoccupation of the Rhineland in March 1936 break?", "factIds": ["F-CS2C-07"],
+      "options": [
+        { "id": "a", "text": "The Locarno treaty", "correct": true, "explanation": "Correct: the US State Department described it as a flagrant violation of the Locarno Pact." },
+        { "id": "b", "text": "The Pact of Steel", "correct": false, "explanation": "The Pact of Steel was signed in 1939, between Germany and Italy." },
+        { "id": "c", "text": "The Munich agreement", "correct": false, "explanation": "Munich was in 1938." },
+        { "id": "d", "text": "The Anti-Comintern Pact", "correct": false, "explanation": "That pact was signed later in 1936 and was directed against communism." } ] },
+    { "itemId": "P1-CS2-CAUSES-R07", "kind": "retrieval", "type": "multi_select", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Which of these did the Hossbach minutes record Hitler saying? Choose all that apply.", "factIds": ["F-CS2C-11"],
+      "options": [
+        { "id": "a", "text": "Germany's future depended on solving the need for space", "correct": true, "explanation": "Yes: this is the central argument." },
+        { "id": "b", "text": "Autarky was untenable in food and in the economy as a whole", "correct": true, "explanation": "Yes: he said self-sufficiency could not be achieved within the existing borders." },
+        { "id": "c", "text": "Space should be sought in overseas colonies", "correct": false, "explanation": "No: he said it could only be sought in Europe." },
+        { "id": "d", "text": "Expansion could be achieved without risk", "correct": false, "explanation": "No: he said expansion meant breaking resistance and taking risks." } ] },
+    { "itemId": "P1-CS2-CAUSES-R08", "kind": "retrieval", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Fact: “In March 1939 Germany occupied the Czech lands in violation of the Munich agreement.” Which argument does it support?", "factIds": ["F-CS2C-17"],
+      "options": [
+        { "id": "a", "text": "Appeasement did not satisfy Hitler; concessions were followed by larger demands", "correct": true, "explanation": "Correct: it broke the agreement six months after it was signed." },
+        { "id": "b", "text": "Munich secured lasting peace", "correct": false, "explanation": "The fact shows the opposite." },
+        { "id": "c", "text": "Italy led German expansion", "correct": false, "explanation": "This was a German action." },
+        { "id": "d", "text": "Economic motives were irrelevant", "correct": false, "explanation": "The fact concerns the failure of appeasement, not motives." } ] },
+    { "itemId": "P1-CS2-CAUSES-R09", "kind": "retrieval", "type": "spot_error", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Find the error: “Czechoslovakia signed the Munich agreement with Germany, Britain and France on 29 September 1938.”", "factIds": ["F-CS2C-13"],
+      "options": [
+        { "id": "a", "text": "The fourth signatory was Italy, not Czechoslovakia", "correct": true, "explanation": "Correct: Czechoslovakia was not a party to the agreement." },
+        { "id": "b", "text": "The date should be March 1938", "correct": false, "explanation": "March 1938 is the Anschluss; the date given for Munich is right." },
+        { "id": "c", "text": "Britain did not sign", "correct": false, "explanation": "Britain did sign." },
+        { "id": "d", "text": "There is no error", "correct": false, "explanation": "There is one: the list of signatories." } ] },
+    { "itemId": "P1-CS2-CAUSES-R10", "kind": "retrieval", "type": "spot_error", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Find the error: “The League's sanctions forced Italy to withdraw from Ethiopia in 1936.”", "factIds": ["F-CS2C-05", "F-CS2C-06"],
+      "options": [
+        { "id": "a", "text": "Sanctions did not stop the conquest: Addis Ababa fell on 5 May 1936", "correct": true, "explanation": "Correct: the failure of sanctions is the point." },
+        { "id": "b", "text": "The League did not impose any sanctions", "correct": false, "explanation": "It did recommend commercial and financial sanctions." },
+        { "id": "c", "text": "Italy invaded in 1938", "correct": false, "explanation": "Italy invaded on 3 October 1935." },
+        { "id": "d", "text": "There is no error", "correct": false, "explanation": "There is one: the outcome." } ] },
+    { "itemId": "P1-CS2-CAUSES-R11", "kind": "retrieval", "type": "in_timeframe", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Case Study 2 runs from 1933 to 1940. Is the attack on Pearl Harbor (December 1941) inside or outside the timeframe?", "timeframe": [1933, 1940],
+      "options": [
+        { "id": "a", "text": "Outside", "correct": true, "explanation": "Correct: December 1941 is after the case study ends, and it belongs to Case Study 1." },
+        { "id": "b", "text": "Inside", "correct": false, "explanation": "No: it is after 1940." },
+        { "id": "c", "text": "Inside, because it involved the Axis", "correct": false, "explanation": "The timeframe, not the actors, decides." },
+        { "id": "d", "text": "It depends on the question", "correct": false, "explanation": "The case-study timeframe is fixed." } ] },
+    { "itemId": "P1-CS2-CAUSES-R12", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "According to a US report of November 1935, what did European states fear most?", "factIds": ["F-CS2C-24"],
+      "options": [
+        { "id": "a", "text": "Germany", "correct": true, "explanation": "Correct: they were “profoundly afraid of Germany” and had no real fear of Italy." },
+        { "id": "b", "text": "Italy", "correct": false, "explanation": "The report says they had no real fear of Italy." },
+        { "id": "c", "text": "Japan", "correct": false, "explanation": "Not mentioned in this report." },
+        { "id": "d", "text": "The United States", "correct": false, "explanation": "Not mentioned in this report." } ] },
+    { "itemId": "P1-CS2-CAUSES-R13", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "German occupation of the Sudeten territory under the Munich agreement began on which day of October 1938? (number)", "factIds": ["F-CS2C-14"],
+      "blanks": [ { "id": "1", "answer": 1, "tolerance": 0, "explanation": "1 October 1938, by stages; evacuation was to be completed by 10 October." } ] },
+    { "itemId": "P1-CS2-CAUSES-R14", "kind": "retrieval", "type": "match", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Match each event to its date.",
+      "pairs": [
+        { "left": "Italy invades Ethiopia", "right": "3 October 1935", "explanation": "The start of the Ethiopian war." },
+        { "left": "Rhineland reoccupied", "right": "7 March 1936", "explanation": "Unopposed." },
+        { "left": "Pact of Steel", "right": "22 May 1939", "explanation": "Military alliance of Germany and Italy." },
+        { "left": "Nazi–Soviet agreement", "right": "23 August 1939", "explanation": "With a secret protocol on spheres of influence." } ] },
+    { "itemId": "P1-CS2-CAUSES-R15", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Which US diplomat reported in February 1935 that factories around Milan were working day and night?", "factIds": ["F-CS2C-22"],
+      "options": [
+        { "id": "a", "text": "Breckinridge Long, Ambassador in Rome", "correct": true, "explanation": "Correct: telegram of 14 February 1935." },
+        { "id": "b", "text": "George Messersmith, Minister in Vienna", "correct": false, "explanation": "Messersmith reported on German aims." },
+        { "id": "c", "text": "Douglas Miller, attaché in Berlin", "correct": false, "explanation": "Miller reported on Nazi aims in 1934." },
+        { "id": "d", "text": "Hugh Wilson, Minister to Switzerland", "correct": false, "explanation": "Wilson reported on European fears of Germany." } ] },
+    { "itemId": "P1-CS2-CAUSES-R16", "kind": "retrieval", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Fact: “On 23 September 1933 Hitler broke ground for a new motorway; the archive caption calls it a means of ending unemployment.” Which argument does it support?", "factIds": ["F-CS2C-28"],
+      "options": [
+        { "id": "a", "text": "The regime used public works to show economic recovery", "correct": true, "explanation": "Correct: the event was staged as proof of action against unemployment." },
+        { "id": "b", "text": "Germany had no economic problems in 1933", "correct": false, "explanation": "The event responded to unemployment, so problems existed." },
+        { "id": "c", "text": "Appeasement began in 1933", "correct": false, "explanation": "Unrelated to the fact." },
+        { "id": "d", "text": "Italy financed German rearmament", "correct": false, "explanation": "Unrelated to the fact." } ] },
+    { "itemId": "P1-CS2-CAUSES-R17", "kind": "retrieval", "type": "multi_select", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Which of these changed Italy's alignment towards Germany? Choose all that apply.", "factIds": ["F-CS2C-08", "F-CS2C-09"],
+      "options": [
+        { "id": "a", "text": "League sanctions over Ethiopia", "correct": true, "explanation": "Yes: relations grew closer after the sanctions." },
+        { "id": "b", "text": "The end of Italy's alliance with Britain and France", "correct": true, "explanation": "Yes: this removed the alternative alignment." },
+        { "id": "c", "text": "Italy's entry into the Anti-Comintern Pact in 1937", "correct": true, "explanation": "Yes: it extended the Axis." },
+        { "id": "d", "text": "The Nazi–Soviet agreement of 1939", "correct": false, "explanation": "That changed Germany's relations with the USSR, not Italy's alignment." } ] },
+    { "itemId": "P1-CS2-CAUSES-R18", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "In Q1 of Paper 1, what earns marks?", "factIds": [],
+      "options": [
+        { "id": "a", "text": "Distinct valid points taken from the source", "correct": true, "explanation": "Correct: one mark per distinct point; own knowledge earns nothing (plain-language paraphrase of the IB markbands)." },
+        { "id": "b", "text": "Own knowledge about the context", "correct": false, "explanation": "Own knowledge earns nothing in Q1." },
+        { "id": "c", "text": "Value and limitations of the source", "correct": false, "explanation": "That is Q2." },
+        { "id": "d", "text": "A comparison with another source", "correct": false, "explanation": "That is Q3." } ] },
+    { "itemId": "P1-CS2-CAUSES-R19", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "In which year did Italy invade Albania? (year)", "factIds": ["F-CS2C-16"],
+      "blanks": [ { "id": "1", "answer": 1939, "tolerance": 0, "explanation": "7 April 1939 (Good Friday)." } ] },
+    { "itemId": "P1-CS2-CAUSES-R20", "kind": "retrieval", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Fact: “Chamberlain told the Commons on 3 October 1938 that Britain was engaged in a great programme of rearmament.” Which argument does it support?", "factIds": ["F-CS2C-25"],
+      "options": [
+        { "id": "a", "text": "Appeasement was combined with rearmament, partly to buy time", "correct": true, "explanation": "Correct: negotiation and rearmament ran together." },
+        { "id": "b", "text": "Chamberlain trusted Hitler completely", "correct": false, "explanation": "Rearmament suggests he did not." },
+        { "id": "c", "text": "Britain was disarming in 1938", "correct": false, "explanation": "The fact says the opposite." },
+        { "id": "d", "text": "Munich was a military alliance", "correct": false, "explanation": "Munich was a settlement over the Sudeten territory." } ] }
+  ],
+  "drills": [
+    { "itemId": "P1-CS2-CAUSES-D01", "kind": "drill", "type": "p1_point_harvest", "skill": "S3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q1 practice: tap every part of this extract that gives a distinct point about Nazi aims (US attaché Douglas Miller, 17 April 1934).",
+      "segments": [
+        { "id": "s1", "text": "The fundamental purpose is to secure a greater share of the world's future for the Germans,", "answer": "point", "explanation": "Point 1: a greater share of the world's future." },
+        { "id": "s2", "text": "the expansion of German territory", "answer": "point", "explanation": "Point 2: territorial expansion." },
+        { "id": "s3", "text": "and growth of the German race until it constitutes the largest and most powerful nation in the world,", "answer": "point", "explanation": "Point 3: to become the most powerful nation." },
+        { "id": "s4", "text": "and ultimately, according to some Nazi leaders, until it dominates the entire globe.", "answer": "point", "explanation": "Point 4: global domination (some leaders)." },
+        { "id": "s5", "text": "In accordance with this purpose,", "answer": "not_point", "explanation": "A linking phrase, not a point." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D02", "kind": "drill", "type": "p1_point_harvest", "skill": "S3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q1 practice: tap every distinct point about Nazi targets (George Messersmith, letter of 8 February 1935).",
+      "segments": [
+        { "id": "s1", "text": "They have their eyes on Memel, Alsace-Lorraine and the Eastern frontier.", "answer": "point", "explanation": "Point: specific border targets." },
+        { "id": "s2", "text": "They nourish just as strongly the hope to get the Ukraine for the surplus German population", "answer": "point", "explanation": "Point: Ukraine for settlement." },
+        { "id": "s3", "text": "Austria is a definite objective,", "answer": "point", "explanation": "Point: Austria." },
+        { "id": "s4", "text": "with absorption or hegemony over the whole of Southeastern Europe definite policy.", "answer": "point", "explanation": "Point: dominance of south-eastern Europe." },
+        { "id": "s5", "text": "Cordially and sincerely yours,", "answer": "not_point", "explanation": "The sign-off is not a point." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D03", "kind": "drill", "type": "p1_point_harvest", "skill": "S3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q1 practice: tap every distinct sign of Italian war preparations (Ambassador Long, telegram of 14 February 1935).",
+      "segments": [
+        { "id": "s1", "text": "Supplies and military forces are moving clandestinely.", "answer": "point", "explanation": "Point: secret movement of forces." },
+        { "id": "s2", "text": "Movements are being made by night", "answer": "point", "explanation": "Point: night movements to avoid detection." },
+        { "id": "s3", "text": "30,000 troops have left the port of Naples;", "answer": "point", "explanation": "Point: troop departures." },
+        { "id": "s4", "text": "Factories for the manufacture of trucks, tanks and artillery at and around Milan are working day and night shifts.", "answer": "point", "explanation": "Point: war production." },
+        { "id": "s5", "text": "My 69, February 13.", "answer": "not_point", "explanation": "A file reference, not a point." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D04", "kind": "drill", "type": "p1_point_harvest", "skill": "S3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q1 practice: tap every distinct point Churchill makes about Munich (House of Commons, 5 October 1938).",
+      "segments": [
+        { "id": "s1", "text": "we have sustained a total and unmitigated defeat,", "answer": "point", "explanation": "Point: Munich was a defeat for Britain." },
+        { "id": "s2", "text": "and that France has suffered even more than we have.", "answer": "point", "explanation": "Point: France lost even more." },
+        { "id": "s3", "text": "there has been gross neglect and deficiency in our defences;", "answer": "point", "explanation": "Point: British defences were inadequate." },
+        { "id": "s4", "text": "And do not suppose that this is the end.", "answer": "point", "explanation": "Point: more demands will follow." },
+        { "id": "s5", "text": "If I do not begin this afternoon by paying the usual", "answer": "not_point", "explanation": "An opening courtesy, not a point about Munich." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D05", "kind": "drill", "type": "p1_purpose", "skill": "S5", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Purpose practice: what was the purpose of Chamberlain's Commons speech of 3 October 1938? Choose AUDIENCE + ACTION + MOMENT.",
+      "options": [
+        { "id": "a", "text": "To persuade MPs to approve the Munich agreement at a moment when critics called it a defeat", "correct": true, "explanation": "Correct: audience (MPs), action (persuade to approve), moment (the post-Munich debate)." },
+        { "id": "b", "text": "To inform people about Czechoslovakia", "correct": false, "explanation": "Too vague: “to inform” names no audience, action or moment." },
+        { "id": "c", "text": "The purpose is about Munich", "correct": false, "explanation": "That is the topic, not the purpose." },
+        { "id": "d", "text": "To declare war on Germany", "correct": false, "explanation": "Wrong: Britain declared war in September 1939, not in this speech." } ] },
+    { "itemId": "P1-CS2-CAUSES-D06", "kind": "drill", "type": "p1_purpose", "skill": "S5", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Purpose practice: what was the purpose of Ambassador Long's telegram of 14 February 1935?",
+      "options": [
+        { "id": "a", "text": "To warn the Secretary of State that Italy was secretly preparing a large war in Ethiopia, while Italy's own announcements played it down", "correct": true, "explanation": "Correct: audience (Secretary of State), action (warn), moment (early 1935, before the invasion)." },
+        { "id": "b", "text": "To persuade Mussolini to stop the war", "correct": false, "explanation": "The telegram was sent to Washington, not to Mussolini." },
+        { "id": "c", "text": "To describe Italy", "correct": false, "explanation": "Too vague to count as purpose." },
+        { "id": "d", "text": "To announce US sanctions on Italy", "correct": false, "explanation": "A report from an ambassador cannot announce policy." } ] },
+    { "itemId": "P1-CS2-CAUSES-D07", "kind": "drill", "type": "p1_purpose", "skill": "S5", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Purpose practice: the photograph of the Wehrmacht parade at the 1936 Nuremberg rally was taken by a German picture agency. What was its likely purpose?",
+      "options": [
+        { "id": "a", "text": "To show Germans and the world the power of the rearmed forces and their unity with the Nazi Party at the 1936 rally", "correct": true, "explanation": "Correct: audience (public at home and abroad), action (impress), moment (the year after conscription)." },
+        { "id": "b", "text": "To record the weather in Nuremberg", "correct": false, "explanation": "Not a plausible purpose for a rally photograph." },
+        { "id": "c", "text": "To criticise German rearmament", "correct": false, "explanation": "A German agency photograph of a party rally was not critical." },
+        { "id": "d", "text": "The purpose is the Nuremberg rally", "correct": false, "explanation": "That is the topic, not the purpose." } ] },
+    { "itemId": "P1-CS2-CAUSES-D08", "kind": "drill", "type": "p1_purpose", "skill": "S5", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Purpose practice: the cartoon on the front page of the Egyptian weekly al-Musawwar, 6 September 1935, shows Mussolini crushing the dove of peace. What was its likely purpose?",
+      "options": [
+        { "id": "a", "text": "To turn Egyptian readers against Mussolini's coming attack on Ethiopia, a neighbouring African state, weeks before the invasion", "correct": true, "explanation": "Correct: audience (Egyptian readers), action (condemn), moment (September 1935)." },
+        { "id": "b", "text": "To celebrate Italy's empire", "correct": false, "explanation": "The image is hostile to Mussolini." },
+        { "id": "c", "text": "To inform readers about Italian geography", "correct": false, "explanation": "The map is a device; the purpose is political." },
+        { "id": "d", "text": "To report League of Nations sanctions", "correct": false, "explanation": "Sanctions came after the invasion in October 1935." } ] },
+    { "itemId": "P1-CS2-CAUSES-D09", "kind": "drill", "type": "p1_value_limitation", "skill": "S7", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q2 practice (Hossbach minutes, 1937): which sentence moves from a feature of the source to a specific value?",
+      "options": [
+        { "id": "a", "text": "Because the minutes record what Hitler told his commanders in a closed meeting, they are valuable for showing the aims he expressed in private rather than in propaganda.", "correct": true, "explanation": "Correct: feature (closed meeting) → consequence (private aims) → value for this inquiry." },
+        { "id": "b", "text": "The origin is Colonel Hossbach in 1937.", "correct": false, "explanation": "A label: it names the origin but says nothing about value." },
+        { "id": "c", "text": "The source is useful because it is a primary source.", "correct": false, "explanation": "Generic: being primary does not in itself make a source valuable." },
+        { "id": "d", "text": "The content is about living space.", "correct": false, "explanation": "A topic label, not an evaluation." } ] },
+    { "itemId": "P1-CS2-CAUSES-D10", "kind": "drill", "type": "p1_value_limitation", "skill": "S7", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q2 practice (Miller memorandum, 1934): which sentence gives the strongest limitation?",
+      "options": [
+        { "id": "a", "text": "Because Miller was an American observer outside the Nazi leadership, he can report what Nazis said and did but cannot establish what Hitler had actually decided.", "correct": true, "explanation": "Correct: feature (outside observer) → consequence → specific limitation." },
+        { "id": "b", "text": "It is biased because it is American.", "correct": false, "explanation": "Generic “bias” without saying what it cannot establish." },
+        { "id": "c", "text": "It is limited because it is short.", "correct": false, "explanation": "Length is not in itself a limitation." },
+        { "id": "d", "text": "The purpose is to inform.", "correct": false, "explanation": "A vague purpose label, not a limitation." } ] },
+    { "itemId": "P1-CS2-CAUSES-D11", "kind": "drill", "type": "p1_value_limitation", "skill": "S7", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q2 practice (Churchill, Commons, 5 October 1938): which sentence uses purpose to explain a limitation?",
+      "options": [
+        { "id": "a", "text": "Because Churchill was attacking the government's policy in a parliamentary debate, he had reason to stress the losses of Munich and may understate the case for buying time.", "correct": true, "explanation": "Correct: purpose → consequence for what the source can reliably show." },
+        { "id": "b", "text": "The purpose of the source is to talk about Munich.", "correct": false, "explanation": "Topic, not purpose." },
+        { "id": "c", "text": "Churchill later became Prime Minister, so the source is reliable.", "correct": false, "explanation": "Hindsight about his career does not make this speech reliable." },
+        { "id": "d", "text": "The source is limited because it is a speech.", "correct": false, "explanation": "A label without a consequence." } ] },
+    { "itemId": "P1-CS2-CAUSES-D12", "kind": "drill", "type": "p1_value_limitation", "skill": "S7", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q2 practice (Long's telegram, February 1935): which sentence uses content to explain value?",
+      "options": [
+        { "id": "a", "text": "Because Long reports precise details such as factories working day and night and troops leaving Naples, the source is valuable for showing the scale of Italian preparations before the invasion.", "correct": true, "explanation": "Correct: content feature → consequence → value." },
+        { "id": "b", "text": "The content of the source is about Italy.", "correct": false, "explanation": "A topic label." },
+        { "id": "c", "text": "It is valuable because ambassadors always tell the truth.", "correct": false, "explanation": "An assumption, not an evaluation." },
+        { "id": "d", "text": "It is limited because it is old.", "correct": false, "explanation": "Age is not a limitation in itself." } ] },
+    { "itemId": "P1-CS2-CAUSES-D13", "kind": "drill", "type": "p1_pair_statements", "skill": "S8", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q3 practice: assign each statement to the issue it addresses, so that you compare Sources A (Miller, 1934) and D (Messersmith, 1935) on the same issue.",
+      "categories": [ { "id": "territory", "label": "Issue 1: territorial aims" }, { "id": "peace", "label": "Issue 2: peace as a temporary tactic" } ],
+      "segments": [
+        { "id": "s1", "text": "A: the expansion of German territory", "answer": "territory", "explanation": "Territorial aim in A." },
+        { "id": "s2", "text": "D: they have their eyes on Memel, Alsace-Lorraine and the Eastern frontier", "answer": "territory", "explanation": "Territorial aim in D: more specific than A." },
+        { "id": "s3", "text": "A: they desire a period of peace in which to re-arm", "answer": "peace", "explanation": "Peace as preparation in A." },
+        { "id": "s4", "text": "D: Europe will have to deal with these aspirations, pacts or no pacts", "answer": "peace", "explanation": "Agreements will not restrain them, in D." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D14", "kind": "drill", "type": "p1_pair_statements", "skill": "S8", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q3 practice: assign each statement about Munich to its issue (A: Chamberlain, 3 October 1938; C: Churchill, 5 October 1938).",
+      "categories": [ { "id": "result", "label": "Issue 1: was Munich a success?" }, { "id": "future", "label": "Issue 2: what comes next?" } ],
+      "segments": [
+        { "id": "s1", "text": "A: now that we have got past it, further progress along the road to sanity", "answer": "result", "explanation": "Chamberlain presents Munich as an obstacle overcome." },
+        { "id": "s2", "text": "C: a total and unmitigated defeat", "answer": "result", "explanation": "Churchill calls it a defeat: a direct contrast on the same issue." },
+        { "id": "s3", "text": "A: we have only laid the foundations of peace", "answer": "future", "explanation": "Chamberlain looks to further negotiation." },
+        { "id": "s4", "text": "C: this is only the beginning of the reckoning", "answer": "future", "explanation": "Churchill expects more demands." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D15", "kind": "drill", "type": "p1_pair_statements", "skill": "S8", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q3 practice: assign each statement to its issue (A: Miller, economic aims, 1934; C: Hossbach minutes, 1937).",
+      "categories": [ { "id": "selfsuff", "label": "Issue 1: self-sufficiency" }, { "id": "remedy", "label": "Issue 2: where the remedy lies" } ],
+      "segments": [
+        { "id": "s1", "text": "A: an agricultural self-sufficiency program has been adopted", "answer": "selfsuff", "explanation": "A presents self-sufficiency as policy." },
+        { "id": "s2", "text": "C: autarchy was untenable in regard both to food and to the economy as a whole", "answer": "selfsuff", "explanation": "C says it cannot work: a contrast on the same issue." },
+        { "id": "s3", "text": "A: a self-sustaining territorial block whose dependent nations in Central and Eastern Europe will look to Berlin", "answer": "remedy", "explanation": "A: a German-led bloc." },
+        { "id": "s4", "text": "C: the only remedy lay in the acquisition of greater living space", "answer": "remedy", "explanation": "C: conquest of space, a harsher version of A's bloc." }
+      ] }
+  ],
+  "sourceSets": [
+    {
+      "sourceSetId": "P1-CS2-CAUSES-SS01", "label": "Teacher-constructed practice material. Not an IB publication.", "caseStudy": "CS2", "part": "causes",
+      "focus": "The impact of Nazi ideology on the aims of German foreign policy",
+      "sources": [
+        { "letter": "A", "type": "text", "verificationRef": "SRC-SS01-A",
+          "provenance": { "creator": "Douglas Miller, Acting Commercial Attaché at the US Embassy in Berlin", "sourceType": "memorandum to the Embassy, forwarded to the US State Department", "date": "17 April 1934" },
+          "text": "The fundamental purpose is to secure a greater share of the world's future for the Germans, the expansion of German territory and growth of the German race until it constitutes the largest and most powerful nation in the world, and ultimately, according to some Nazi leaders, until it dominates the entire globe. The German people suffering from a traditional inferiority complex, smarting from their defeat in the war and the indignities of the post-war period … have to a large measure adopted the National Socialist point of view for the time being.\n…\nThe Nazis are not satisfied with the existing map of Europe. They are at heart belligerent and aggressive. True, they desire nothing more than a period of peace for several years in which they can gradually re-arm and discipline their people." },
+        { "letter": "B", "type": "photograph", "verificationRef": "SRC-SS01-B", "mediaId": "M-nuremberg-rally-wehrmacht-1936",
+          "provenance": { "creator": "Scherl picture agency, Germany", "sourceType": "photograph", "date": "September 1936", "contextNote": "The parade of the armed forces (Wehrmacht) on the Zeppelin Field at the Nazi Party rally in Nuremberg." } },
+        { "letter": "C", "type": "text", "verificationRef": "SRC-SS01-C",
+          "provenance": { "creator": "Colonel Hossbach", "sourceType": "minutes of a conference held by Hitler at the Reich Chancellery, Berlin, with the War Minister, the commanders-in-chief of the army, navy and air force, and the Foreign Minister", "date": "conference 5 November 1937; minutes dated 10 November 1937" },
+          "text": "The German racial community comprised over 85 million people and, because of their number and the narrow limits of habitable space in Europe, constituted a tightly packed racial core such as was not to be met in any other country and such as implied the right to a greater living space than in the case of other peoples. … Germany's future was therefore wholly conditional upon the solving of the need for space …\n…\nThe history of all ages—the Roman Empire and the British Empire—had proved that expansion could only be carried out by breaking down resistance and taking risks; setbacks were inevitable." },
+        { "letter": "D", "type": "text", "verificationRef": "SRC-SS01-D",
+          "provenance": { "creator": "George S. Messersmith, US Minister to Austria (formerly US Consul General in Berlin)", "sourceType": "private letter to the Under Secretary of State, Phillips", "date": "8 February 1935" },
+          "text": "There is no use in having any illusions as to what Hitler and the Party want. They have their eyes on Memel, Alsace-Lorraine and the Eastern frontier. They nourish just as strongly the hope to get the Ukraine for the surplus German population and to get the fertile lands which Germany \"must have\". Austria is a definite objective, with absorption or hegemony over the whole of Southeastern Europe definite policy. As long as Hitler and National Socialism remain in power in Germany, Europe will have to deal with these aspirations, pacts or no pacts." }
+      ],
+      "questions": [
+        { "questionId": "P1-CS2-CAUSES-SS01-Q1A", "part": "p1q1a", "marks": 3, "sources": ["A"],
+          "text": "According to Source A, what were the aims of the Nazis?",
+          "model": { "type": "points", "points": ["To secure a greater share of the world's future for the Germans.", "To expand German territory.", "To make the German race the largest and most powerful nation in the world (and, for some leaders, to dominate the globe).", "To use a period of peace to rearm and discipline the people (they were not satisfied with the map of Europe)."] },
+          "selfCheck": ["q1_points", "q1_source", "q1_no_ok"],
+          "autoCheck": { "expectedPoints": 3, "sourceTerms": ["territory", "race", "powerful", "globe", "peace", "re-arm", "rearm", "map of Europe", "world"] } },
+        { "questionId": "P1-CS2-CAUSES-SS01-Q1B", "part": "p1q1b", "marks": 2, "sources": ["B"],
+          "text": "What does Source B suggest about Germany in 1936?",
+          "model": { "type": "points", "points": ["The armed forces were large and well equipped, with ranks of soldiers and many military vehicles, suggesting rapid rearmament.", "The army was displayed at a Nazi Party rally, before a saluting crowd under swastika flags, suggesting the regime linked military power with Nazi ideology and popular support."] },
+          "selfCheck": ["q1_points", "q1_source", "q1_no_ok"],
+          "autoCheck": { "expectedPoints": 2, "sourceTerms": ["soldiers", "vehicles", "crowd", "salute", "flags", "rally", "army", "armed forces", "Wehrmacht"] } },
+        { "questionId": "P1-CS2-CAUSES-SS01-Q2", "part": "p1q2", "marks": 4, "sources": ["C"],
+          "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the aims of Hitler's foreign policy.",
+          "model": { "type": "points", "points": ["Value (origin): the minutes record a closed meeting of Hitler with his War Minister, service chiefs and Foreign Minister, so they show the aims he expressed in private rather than in public propaganda.", "Value (purpose): the meeting was called to explain long-term foreign-policy requirements to the men who would carry them out, so the aims stated are meant to guide action.", "Value (content): it links racial ideas (a “racial core”) directly to the demand for space and to the acceptance of risk, which is precise evidence of how ideology shaped aims.", "Limitation (origin/purpose): these are minutes written by one officer, not a verbatim record, and Hitler may have overstated his aims to persuade or test his listeners, so they cannot establish a fixed plan or timetable."] },
+          "selfCheck": ["q2_value", "q2_limitation", "q2_opc", "q2_feature"],
+          "autoCheck": {} },
+        { "questionId": "P1-CS2-CAUSES-SS01-Q3", "part": "p1q3", "marks": 6, "sources": ["A", "D"],
+          "text": "Compare and contrast what Sources A and D reveal about the aims of Nazi Germany.",
+          "model": { "type": "band", "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+            "segments": [
+              { "text": "Both Source A and Source D show that the Nazis aimed at territorial expansion: A refers to “the expansion of German territory”, while D names specific targets.", "tags": ["COMPARE", "SOURCE"] },
+              { "text": "Both sources also suggest that agreements would not restrain these aims: A says the Nazis wanted peace only to rearm, and D says Europe would face these aspirations “pacts or no pacts”.", "tags": ["COMPARE", "SOURCE"] },
+              { "text": "However, Source D is much more specific than Source A, naming Memel, Alsace-Lorraine, Austria and Ukraine, whereas A speaks of territory and the world in general terms.", "tags": ["CONTRAST", "SOURCE"] },
+              { "text": "Source A stresses racial and global ambitions and the German people's support, whereas Source D presents the aims as those of Hitler and the Party, which could change if the regime fell.", "tags": ["CONTRAST", "SOURCE"] }
+            ] },
+          "selfCheck": ["q3_linked", "q3_compare", "q3_contrast"],
+          "autoCheck": { "issueKeys": ["territory", "peace", "specific", "race", "regime"] } },
+        { "questionId": "P1-CS2-CAUSES-SS01-Q4", "part": "p1q4", "marks": 9, "sources": ["A", "B", "C", "D"],
+          "text": "Using the sources and your own knowledge, examine the view that Nazi ideology was the main cause of German expansion between 1933 and 1939.",
+          "model": { "type": "band", "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, sources used as evidence, accurate own knowledge, synthesis.",
+            "segments": [
+              { "text": "Nazi ideology was the main cause of the aim of expansion, because it defined Germany's needs in racial terms.", "tags": ["SOURCE"] },
+              { "text": "Source C shows Hitler arguing in November 1937 that a “racial core” of over 85 million people had the right to greater living space, and Source A shows that observers had seen the same racial ambitions as early as 1934.", "tags": ["SOURCE"] },
+              { "text": "This was soon turned into action: Germany reoccupied the Rhineland in March 1936 and incorporated Austria in March 1938, one of the objectives Source D had listed in 1935.", "tags": ["OWN KNOWLEDGE", "SOURCE"] },
+              { "text": "However, ideology needed military power and opportunity. Source B shows the rearmed Wehrmacht on display in 1936, after conscription was reintroduced in March 1935, and the Munich agreement of September 1938 showed that the other powers would make concessions.", "tags": ["SOURCE", "OWN KNOWLEDGE"] },
+              { "text": "Overall, ideology was the main cause of the aim of expansion, while rearmament and the weakness of the other powers largely explain its timing.", "tags": ["SOURCE"] }
+            ] },
+          "selfCheck": ["q4_focus", "q4_sources", "q4_ok", "q4_argument", "q4_judgement"],
+          "autoCheck": { "ownKnowledgeLexicon": ["Rhineland", "Austria", "Anschluss", "conscription", "Munich", "1935", "1936", "1938", "Versailles", "Locarno", "Sudeten", "Pact of Steel", "Nazi-Soviet", "Poland"] } }
+      ]
+    },
+    {
+      "sourceSetId": "P1-CS2-CAUSES-SS02", "label": "Teacher-constructed practice material. Not an IB publication.", "caseStudy": "CS2", "part": "causes",
+      "focus": "Mussolini and the causes of Italian expansion in Ethiopia",
+      "sources": [
+        { "letter": "A", "type": "text", "verificationRef": "SRC-SS02-A",
+          "provenance": { "creator": "Breckinridge Long, US Ambassador in Rome", "sourceType": "telegram to the US Secretary of State (State Department paraphrase)", "date": "14 February 1935" },
+          "text": "All information recently obtained points to a more general preparation for an extensive campaign in Abyssinia than has been indicated by the Italian Government in its various announcements. Supplies and military forces are moving clandestinely. Concerted effort is being made to prevent any information getting out as to the size or general nature of shipments. Movements are being made by night … I have been informed today from sources deemed to be reliable that 30,000 troops have left the port of Naples; that the movement now under way contemplates the use in Ethiopia of some 200,000 or 300,000 troops … Factories for the manufacture of trucks, tanks and artillery at and around Milan are working day and night shifts." },
+        { "letter": "B", "type": "cartoon", "verificationRef": "SRC-SS02-B", "mediaId": "M-al-musawwar-cartoon-1935",
+          "provenance": { "creator": "al-Musawwar, an Egyptian weekly magazine", "sourceType": "front-page cartoon", "date": "6 September 1935", "contextNote": "The caption reads: “With his foot, Mussolini is crushing the dove of peace.”" } },
+        { "letter": "C", "type": "text", "verificationRef": "SRC-SS02-C",
+          "provenance": { "creator": "Breckinridge Long, US Ambassador in Rome", "sourceType": "despatch to the US Secretary of State", "date": "28 September 1934" },
+          "text": "There have been current in Italy—in all parts of Italy—for some time rumors to the effect that Italy contemplated warlike activity there. These rumors are generally to the following effect: that the Ministries of War, Air, Marine, Finance and Colonies were cooperating; that they had agreed upon an expenditure of two billion lire; that the Treasury had made provision for it in its budget; that military reinforcements specifically and variously stated to amount to 100,000 men, 200,000 men, and 250,000 men had been allocated for transfer there; that large and varying quantities of supplies, equipment, had been or were being or were about to be sent …" },
+        { "letter": "D", "type": "text", "verificationRef": "SRC-SS02-D",
+          "provenance": { "creator": "Colonel Hossbach", "sourceType": "minutes of Hitler's conference with his military chiefs and Foreign Minister, Reich Chancellery, Berlin", "date": "conference 5 November 1937" },
+          "text": "We were living in an age of economic empires in which the primitive urge to colonization was again manifesting itself; in the cases of Japan and Italy economic motives underlay the urge for expansion, and with Germany, too, economic need would supply the stimulus. For countries outside the great economic empires, opportunities for economic expansion were severely impeded." }
+      ],
+      "questions": [
+        { "questionId": "P1-CS2-CAUSES-SS02-Q1A", "part": "p1q1a", "marks": 3, "sources": ["A"],
+          "text": "According to Source A, what evidence was there that Italy was preparing for war in Abyssinia?",
+          "model": { "type": "points", "points": ["Supplies and forces were being moved secretly, by night, and information about shipments was suppressed.", "30,000 troops had left Naples, and the plan envisaged 200,000–300,000 troops in Ethiopia.", "Factories around Milan were producing trucks, tanks and artillery day and night.", "The preparations were larger than the Italian government's announcements admitted."] },
+          "selfCheck": ["q1_points", "q1_source", "q1_no_ok"],
+          "autoCheck": { "expectedPoints": 3, "sourceTerms": ["clandestinely", "secret", "night", "30,000", "Naples", "200,000", "300,000", "factories", "Milan", "tanks", "artillery", "trucks", "announcements"] } },
+        { "questionId": "P1-CS2-CAUSES-SS02-Q1B", "part": "p1q1b", "marks": 2, "sources": ["B"],
+          "text": "What is the message of Source B?",
+          "model": { "type": "points", "points": ["Mussolini is an aggressive, violent figure: he is drawn huge and snarling, with clenched fists.", "Italy's expansion is destroying peace: his leg, shaped like the Italian boot on a globe, crushes the dove of peace."] },
+          "selfCheck": ["q1_points", "q1_source", "q1_no_ok"],
+          "autoCheck": { "expectedPoints": 2, "sourceTerms": ["Mussolini", "dove", "peace", "boot", "foot", "globe", "fists", "Italy", "crush"] } },
+        { "questionId": "P1-CS2-CAUSES-SS02-Q2", "part": "p1q2", "marks": 4, "sources": ["A"],
+          "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source A for a historian studying Italian preparations for war in Ethiopia.",
+          "model": { "type": "points", "points": ["Value (origin): it was written by the US Ambassador in Rome in February 1935, about eight months before the invasion, so it shows what a well-placed foreign observer could detect at the time, without hindsight.", "Value (purpose): it was a report to his own government, meant to inform the Secretary of State, so Long had little reason to exaggerate for public effect.", "Value (content): it gives precise details (30,000 troops from Naples, factories in Milan working day and night) that show the scale and secrecy of the preparations.", "Limitation: Long relied partly on informants “deemed to be reliable” and could not observe Italian decision-making, so the source cannot establish Mussolini's motives or confirm the figures."] },
+          "selfCheck": ["q2_value", "q2_limitation", "q2_opc", "q2_feature"],
+          "autoCheck": {} },
+        { "questionId": "P1-CS2-CAUSES-SS02-Q3", "part": "p1q3", "marks": 6, "sources": ["A", "C"],
+          "text": "Compare and contrast what Sources A and C reveal about Italian preparations for war.",
+          "model": { "type": "band", "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands.",
+            "segments": [
+              { "text": "Both Source A and Source C suggest that Italy was preparing a large campaign in East Africa: A reports 200,000–300,000 troops planned, and C reports rumours of 100,000 to 250,000 men.", "tags": ["COMPARE", "SOURCE"] },
+              { "text": "Both sources also describe supplies and equipment being sent, which shows that preparations were material as well as military.", "tags": ["COMPARE", "SOURCE"] },
+              { "text": "However, Source C presents these claims as rumours, whereas Source A reports information from sources “deemed to be reliable”, so A is more confident.", "tags": ["CONTRAST", "SOURCE"] },
+              { "text": "Source C focuses on the government's financial planning (two billion lire in the budget), whereas Source A stresses the secrecy of the movements and the gap between Italy's announcements and its actions.", "tags": ["CONTRAST", "SOURCE"] }
+            ] },
+          "selfCheck": ["q3_linked", "q3_compare", "q3_contrast"],
+          "autoCheck": { "issueKeys": ["troops", "supplies", "rumours", "secrecy", "budget"] } },
+        { "questionId": "P1-CS2-CAUSES-SS02-Q4", "part": "p1q4", "marks": 9, "sources": ["A", "B", "C", "D"],
+          "text": "Using the sources and your own knowledge, to what extent was Italian expansion in 1935–1936 caused by economic motives rather than fascist ideology?",
+          "model": { "type": "band", "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands.",
+            "segments": [
+              { "text": "Economic motives were part of the explanation, but they do not fully explain why Italy chose war in Ethiopia in 1935.", "tags": ["SOURCE"] },
+              { "text": "Source D shows that Hitler himself saw economic motives behind Italian expansion, and Source C shows a major commitment of state resources, with rumours of two billion lire in the budget.", "tags": ["SOURCE"] },
+              { "text": "However, the scale and secrecy of the preparations in Source A, and the decision to invade on 3 October 1935 despite the risk of League sanctions, suggest a regime that wanted a war of conquest for prestige as well as profit.", "tags": ["SOURCE", "OWN KNOWLEDGE"] },
+              { "text": "Source B, an Egyptian cartoon, shows how the war was seen abroad: as aggression that crushed peace rather than as economic necessity.", "tags": ["SOURCE"] },
+              { "text": "Italy continued the conquest after the League recommended sanctions, and Addis Ababa fell on 5 May 1936, which suggests that the goal of empire mattered more than economic cost. Overall, economic motives were a contributing cause, but fascist ambition was the stronger one.", "tags": ["OWN KNOWLEDGE"] }
+            ] },
+          "selfCheck": ["q4_focus", "q4_sources", "q4_ok", "q4_argument", "q4_judgement"],
+          "autoCheck": { "ownKnowledgeLexicon": ["3 October 1935", "October 1935", "League", "sanctions", "Addis Ababa", "May 1936", "Axis", "1936", "Covenant"] } }
+      ]
+    },
+    {
+      "sourceSetId": "P1-CS2-CAUSES-SS03", "label": "Teacher-constructed practice material. Not an IB publication.", "caseStudy": "CS2", "part": "causes",
+      "focus": "Domestic economic issues, autarky and rearmament in Nazi Germany",
+      "sources": [
+        { "letter": "A", "type": "text", "verificationRef": "SRC-SS03-A",
+          "provenance": { "creator": "Douglas Miller, Acting Commercial Attaché at the US Embassy in Berlin", "sourceType": "memorandum to the Embassy, section headed “Economic aims”", "date": "17 April 1934" },
+          "text": "Germany is to be made the economic center of a self-sustaining territorial block whose dependent nations in Central and Eastern Europe will look to Berlin for leadership. This block is to be so constituted that it can defy wartime blockade and be large enough to give the peoples in it the benefits of free trade now enjoyed by the 48 American States. In accordance with this purpose, an agricultural self-sufficiency program has been adopted, foreign foodstuffs are being rigorously excluded or the imported supply secured in increasing quantities from Central and Southeastern Europe." },
+        { "letter": "B", "type": "photograph", "verificationRef": "SRC-SS03-B", "mediaId": "M-autobahn-groundbreaking-1933",
+          "provenance": { "creator": "German press photograph", "sourceType": "photograph", "date": "23 September 1933", "contextNote": "Hitler at the ground-breaking for the motorway from Frankfurt towards Darmstadt and Mannheim. The archive caption describes the project as a means of ending unemployment." } },
+        { "letter": "C", "type": "text", "verificationRef": "SRC-SS03-C",
+          "provenance": { "creator": "Colonel Hossbach", "sourceType": "minutes of Hitler's conference with his military chiefs and Foreign Minister, Reich Chancellery, Berlin", "date": "conference 5 November 1937" },
+          "text": "Since, with the solving of the unemployment problem, the maximum consumption level had been reached, some minor modifications in our home agricultural production might still, no doubt, be possible, but no fundamental alteration was possible in our basic food position. Thus autarchy was untenable in regard both to food and to the economy as a whole.\n…\nThe only remedy, and one which might appear to us as visionary, lay in the acquisition of greater living space." },
+        { "letter": "D", "type": "text", "verificationRef": "SRC-SS03-D",
+          "provenance": { "creator": "US Department of State", "sourceType": "Peace and War: United States Foreign Policy, 1931–1941, an official account summarising reports from the US Minister to Switzerland, Hugh Wilson", "date": "published 1943; the reports date from November 1935 and January 1936" },
+          "text": "The United States Minister to Switzerland, Hugh Wilson, had reported to Secretary Hull in November 1935 that the states of Europe, while fully realizing and apprehensive of the dangers inherent in Italy's course in Ethiopia, had no real fear of Italy; that, however, they were \"profoundly afraid of Germany\". In a letter of January 1936 Mr. Wilson reported to the Secretary that … there was indisputable evidence of the magnitude and intensity of German military preparations … The idea was becoming prevalent, he said, \"that German rearmament on this scale and in this tempo can be designed only for the purposes of aggression\"." }
+      ],
+      "questions": [
+        { "questionId": "P1-CS2-CAUSES-SS03-Q1A", "part": "p1q1a", "marks": 3, "sources": ["A"],
+          "text": "According to Source A, what were the economic aims of the Nazi regime?",
+          "model": { "type": "points", "points": ["To make Germany the economic centre of a self-sustaining bloc, with central and eastern European states dependent on Berlin.", "To build a bloc able to defy a wartime blockade.", "To achieve agricultural self-sufficiency at home.", "To exclude foreign foodstuffs or obtain them increasingly from central and south-eastern Europe."] },
+          "selfCheck": ["q1_points", "q1_source", "q1_no_ok"],
+          "autoCheck": { "expectedPoints": 3, "sourceTerms": ["economic center", "centre", "bloc", "block", "blockade", "self-sufficiency", "self-sustaining", "foodstuffs", "Central", "Eastern Europe", "Berlin"] } },
+        { "questionId": "P1-CS2-CAUSES-SS03-Q1B", "part": "p1q1b", "marks": 2, "sources": ["B"],
+          "text": "What does Source B suggest about the Nazi regime's economic policy in 1933?",
+          "model": { "type": "points", "points": ["Hitler personally took part in a public works project (digging the first ground for a motorway), suggesting the regime wanted to be seen acting against unemployment.", "The event was staged with many uniformed officials around him and a photographer present, suggesting that economic policy was also used as propaganda for the regime."] },
+          "selfCheck": ["q1_points", "q1_source", "q1_no_ok"],
+          "autoCheck": { "expectedPoints": 2, "sourceTerms": ["Hitler", "dig", "digging", "spade", "shovel", "uniform", "motorway", "Autobahn", "unemployment", "crowd", "officials"] } },
+        { "questionId": "P1-CS2-CAUSES-SS03-Q2", "part": "p1q2", "marks": 4, "sources": ["D"],
+          "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source D for a historian studying European fears of German rearmament in 1935–1936.",
+          "model": { "type": "points", "points": ["Value (origin): it is an official State Department account based on reports by the US Minister to Switzerland, so it records what a US diplomat in Europe was hearing from European statesmen at the time.", "Value (content): it contrasts European attitudes to Italy and Germany and quotes Wilson's own words, which shows how fear of German rearmament overtook concern about Ethiopia.", "Limitation (origin/date): it was published in 1943, during the war, and summarises rather than reproduces the reports, so it is shaped by hindsight.", "Limitation (purpose): as an official account of US foreign policy since 1931, published in wartime, it may select reports that show the US government had recognised the danger early."] },
+          "selfCheck": ["q2_value", "q2_limitation", "q2_opc", "q2_feature"],
+          "autoCheck": {} },
+        { "questionId": "P1-CS2-CAUSES-SS03-Q3", "part": "p1q3", "marks": 6, "sources": ["A", "C"],
+          "text": "Compare and contrast what Sources A and C reveal about the Nazi aim of economic self-sufficiency.",
+          "model": { "type": "band", "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands.",
+            "segments": [
+              { "text": "Both Source A and Source C show that self-sufficiency, especially in food, was a central economic concern of the Nazi regime.", "tags": ["COMPARE", "SOURCE"] },
+              { "text": "Both sources also look beyond Germany's borders for the solution: A describes a bloc of dependent states in central and eastern Europe, and C concludes that the remedy is greater living space.", "tags": ["COMPARE", "SOURCE"] },
+              { "text": "However, Source A presents self-sufficiency as a policy already being pursued, whereas Source C argues that autarky is untenable within the existing borders.", "tags": ["CONTRAST", "SOURCE"] },
+              { "text": "Source A describes economic dominance over dependent nations, whereas Source C points to the acquisition of space, a more radical and territorial solution.", "tags": ["CONTRAST", "SOURCE"] }
+            ] },
+          "selfCheck": ["q3_linked", "q3_compare", "q3_contrast"],
+          "autoCheck": { "issueKeys": ["self-sufficiency", "food", "bloc", "space"] } },
+        { "questionId": "P1-CS2-CAUSES-SS03-Q4", "part": "p1q4", "marks": 9, "sources": ["A", "B", "C", "D"],
+          "text": "Using the sources and your own knowledge, examine the importance of domestic economic issues as a cause of German expansion between 1933 and 1939.",
+          "model": { "type": "band", "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands.",
+            "segments": [
+              { "text": "Domestic economic issues were an important cause of German expansion because they were used to argue that Germany could not survive within its borders.", "tags": ["SOURCE"] },
+              { "text": "Source C shows Hitler claiming in 1937 that autarky was untenable once unemployment had been solved, and that living space was the only remedy, while Source A shows the aim of a German-led economic bloc as early as 1934.", "tags": ["SOURCE"] },
+              { "text": "Rearmament linked economics and expansion: conscription was reintroduced in March 1935, and Source D shows that by January 1936 European observers saw German rearmament as designed for aggression.", "tags": ["OWN KNOWLEDGE", "SOURCE"] },
+              { "text": "However, Source B shows the regime presenting public works in 1933 as a cure for unemployment, which suggests the early economic policy was domestic recovery rather than conquest.", "tags": ["SOURCE"] },
+              { "text": "Overall, economic issues largely explain the urgency of expansion after 1936, but the aim itself, as the Hossbach minutes also show, came from Nazi ideas of space.", "tags": ["SOURCE"] }
+            ] },
+          "selfCheck": ["q4_focus", "q4_sources", "q4_ok", "q4_argument", "q4_judgement"],
+          "autoCheck": { "ownKnowledgeLexicon": ["conscription", "March 1935", "1935", "1936", "Rhineland", "Versailles", "Austria", "Anschluss", "Munich", "Poland", "1939"] } }
+      ]
+    },
+    {
+      "sourceSetId": "P1-CS2-CAUSES-SS04", "label": "Teacher-constructed practice material. Not an IB publication.", "caseStudy": "CS2", "part": "causes",
+      "focus": "Appeasement and the end of collective security: the Munich agreement, 1938",
+      "sources": [
+        { "letter": "A", "type": "text", "verificationRef": "SRC-SS04-A",
+          "provenance": { "creator": "Neville Chamberlain, British Prime Minister", "sourceType": "speech in the House of Commons defending the Munich agreement", "date": "3 October 1938" },
+          "text": "Ever since I assumed my present office my main purpose has been to work for the pacification of Europe, for the removal of those suspicions and those animosities which have so long poisoned the air. The path which leads to appeasement is long and bristles with obstacles. The question of Czechoslovakia is the latest and perhaps the most dangerous. Now that we have got past it, I feel that it may be possible to make further progress along the road to sanity.\n…\nWe have only laid the foundations of peace. The superstructure is not even begun. For a long period now we have been engaged in this country in a great programme of rearmament, which is daily increasing in pace and in volume." },
+        { "letter": "B", "type": "photograph", "verificationRef": "SRC-SS04-B", "mediaId": "M-munich-conference-1938",
+          "provenance": { "creator": "German picture agency (Scherl Bilderdienst)", "sourceType": "photograph", "date": "29 September 1938", "contextNote": "Munich. From left: Chamberlain, Daladier, Hitler, Mussolini and the Italian Foreign Minister, Ciano." } },
+        { "letter": "C", "type": "text", "verificationRef": "SRC-SS04-C",
+          "provenance": { "creator": "Winston Churchill, Member of Parliament for Epping and a former minister", "sourceType": "speech in the House of Commons debate on the Munich agreement", "date": "5 October 1938" },
+          "text": "I will begin by saying what everybody would like to ignore or forget but which must nevertheless be stated, namely, that we have sustained a total and unmitigated defeat, and that France has suffered even more than we have.\n…\nThey should know that there has been gross neglect and deficiency in our defences; they should know that we have sustained a defeat without a war, the consequences of which will travel far with us along our road … And do not suppose that this is the end. This is only the beginning of the reckoning." },
+        { "letter": "D", "type": "text", "verificationRef": "SRC-SS04-D",
+          "provenance": { "creator": "Clement Attlee, Member of Parliament for Limehouse (Stepney)", "sourceType": "speech in the House of Commons", "date": "3 October 1938" },
+          "text": "We all feel relief that war has not come this time. Every one of us has been passing through days of anxiety; we cannot, however, feel that peace has been established, but that we have nothing but an armistice in a state of war.\n…\nThe events of these last few days constitute one of the greatest diplomatic defeats that this country and France have ever sustained. There can be no doubt that it is a tremendous victory for Herr Hitler. Without firing a shot, by the mere display of military force, he has achieved a dominating position in Europe which Germany failed to win after four years of war." }
+      ],
+      "questions": [
+        { "questionId": "P1-CS2-CAUSES-SS04-Q1A", "part": "p1q1a", "marks": 3, "sources": ["A"],
+          "text": "According to Source A, how did Chamberlain justify his policy?",
+          "model": { "type": "points", "points": ["His main purpose was the pacification of Europe and the removal of suspicion and hostility.", "Appeasement was a long, difficult road, and Czechoslovakia had been its most dangerous obstacle.", "Getting past the Czech question made further progress towards peace possible.", "Britain was rearming at an increasing pace, so peace efforts were combined with preparation."] },
+          "selfCheck": ["q1_points", "q1_source", "q1_no_ok"],
+          "autoCheck": { "expectedPoints": 3, "sourceTerms": ["pacification", "suspicions", "animosities", "appeasement", "Czechoslovakia", "obstacles", "sanity", "foundations", "peace", "rearmament"] } },
+        { "questionId": "P1-CS2-CAUSES-SS04-Q1B", "part": "p1q1b", "marks": 2, "sources": ["B"],
+          "text": "What does Source B suggest about the Munich Conference?",
+          "model": { "type": "points", "points": ["The settlement was made by the leaders of four great powers, Britain, France, Germany and Italy, standing together for an official photograph.", "Hitler and Mussolini, in uniform at the centre, appear as equals of the democratic leaders, suggesting the dictators' strengthened position."] },
+          "selfCheck": ["q1_points", "q1_source", "q1_no_ok"],
+          "autoCheck": { "expectedPoints": 2, "sourceTerms": ["Chamberlain", "Daladier", "Hitler", "Mussolini", "Ciano", "uniform", "four", "leaders", "photograph", "powers"] } },
+        { "questionId": "P1-CS2-CAUSES-SS04-Q2", "part": "p1q2", "marks": 4, "sources": ["C"],
+          "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying British reactions to the Munich agreement.",
+          "model": { "type": "points", "points": ["Value (origin): it is a speech by a former minister in the Commons debate days after Munich, so it shows that appeasement was attacked by experienced politicians, not only by the government's opponents.", "Value (content): it links Munich to the state of British defences, showing that critics connected appeasement with military weakness.", "Limitation (purpose): Churchill was trying to persuade MPs that the policy was wrong, so he had reason to stress the defeat and ignore the argument that time was being bought for rearmament.", "Limitation (origin): it gives one politician's view, so it cannot show how far the public or most MPs shared it."] },
+          "selfCheck": ["q2_value", "q2_limitation", "q2_opc", "q2_feature"],
+          "autoCheck": {} },
+        { "questionId": "P1-CS2-CAUSES-SS04-Q3", "part": "p1q3", "marks": 6, "sources": ["A", "C"],
+          "text": "Compare and contrast the views of the Munich agreement expressed in Sources A and C.",
+          "model": { "type": "band", "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands.",
+            "segments": [
+              { "text": "Both Source A and Source C agree that the crisis is not over: Chamberlain says only the foundations of peace have been laid, and Churchill says this is only the beginning of the reckoning.", "tags": ["COMPARE", "SOURCE"] },
+              { "text": "Both sources also connect the crisis with British armaments: A stresses a great programme of rearmament, and C attacks gross deficiency in defences.", "tags": ["COMPARE", "SOURCE"] },
+              { "text": "However, Source A presents Munich as an obstacle overcome on the road to peace, whereas Source C calls it a total and unmitigated defeat.", "tags": ["CONTRAST", "SOURCE"] },
+              { "text": "Source A presents rearmament as progressing well, whereas Source C claims that defences have been neglected, so they disagree about whether Britain was ready.", "tags": ["CONTRAST", "SOURCE"] }
+            ] },
+          "selfCheck": ["q3_linked", "q3_compare", "q3_contrast"],
+          "autoCheck": { "issueKeys": ["success", "defeat", "rearmament", "defences", "future"] } },
+        { "questionId": "P1-CS2-CAUSES-SS04-Q4", "part": "p1q4", "marks": 9, "sources": ["A", "B", "C", "D"],
+          "text": "Using the sources and your own knowledge, to what extent was appeasement a cause of German expansion between 1936 and 1939?",
+          "model": { "type": "band", "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands.",
+            "segments": [
+              { "text": "Appeasement was a significant cause of German expansion because it reduced the cost of each step, but it did not create the aim.", "tags": ["SOURCE"] },
+              { "text": "Source D shows Attlee arguing that Hitler had won a dominating position without firing a shot, and Source C shows Churchill warning that further demands would follow.", "tags": ["SOURCE"] },
+              { "text": "Their warnings were borne out: the Rhineland had been reoccupied unopposed in March 1936, and in March 1939 Germany occupied the rest of the Czech lands in violation of the Munich agreement.", "tags": ["OWN KNOWLEDGE"] },
+              { "text": "However, Source A shows that Chamberlain combined appeasement with rearmament, and Source B shows that Italy stood with Germany at Munich, so Britain and France faced two dictators rather than one.", "tags": ["SOURCE"] },
+              { "text": "Overall, appeasement was a permissive cause: Hitler's aims were set before Munich, but each concession made the next step less risky.", "tags": ["SOURCE"] }
+            ] },
+          "selfCheck": ["q4_focus", "q4_sources", "q4_ok", "q4_argument", "q4_judgement"],
+          "autoCheck": { "ownKnowledgeLexicon": ["Rhineland", "March 1936", "1936", "Austria", "Anschluss", "March 1939", "Prague", "Czech lands", "Hossbach", "Pact of Steel", "Nazi-Soviet", "Poland"] } }
+      ]
+    }
+  ]
+}

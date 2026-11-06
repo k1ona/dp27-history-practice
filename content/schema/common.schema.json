@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dp27.local/schema/common.schema.json",
+  "title": "Shared definitions",
+  "$defs": {
+    "label": { "const": "Teacher-constructed practice material. Not an IB publication." },
+    "sectionId": { "type": "string", "pattern": "^P[123]-[A-Z0-9]+(-[A-Z0-9]+)+$" },
+    "itemId": { "type": "string", "pattern": "^P[123]-[A-Z0-9-]+-(R|C|D)[0-9]{2,3}$", "description": "R = retrieval, C = checkpoint, D = skill drill" },
+    "questionId": { "type": "string", "pattern": "^P[123]-[A-Z0-9-]+-Q[0-9]{2}$" },
+    "factId": { "type": "string", "pattern": "^F-[A-Z0-9-]+-[0-9]{2,3}$", "description": "Every factId must have a row in content/_verification/<sectionId>.md" },
+    "mediaId": { "type": "string", "pattern": "^M-[a-z0-9-]+$" },
+    "paper": { "enum": ["P1", "P2", "P3"] },
+    "level": { "enum": ["HL", "SL"] },
+    "year": { "type": "integer", "minimum": 1848, "maximum": 2000 },
+    "timeframe": {
+      "type": "array", "prefixItems": [{ "$ref": "#/$defs/year" }, { "$ref": "#/$defs/year" }],
+      "minItems": 2, "maxItems": 2,
+      "description": "[startYear, endYear] inclusive; the validator also checks start <= end"
+    },
+    "commandTerm": { "enum": ["analyse", "compare and contrast", "discuss", "evaluate", "examine", "to what extent"] },
+    "skill": { "enum": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10", "S11", "S12", "S13", "S14"] },
+    "sourceRef": {
+      "type": "object",
+      "required": ["accessed"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "file": { "type": "string" },
+        "location": { "type": "string" },
+        "accessed": { "type": "string", "format": "date" },
+        "kind": { "type": "string" }
+      },
+      "anyOf": [{ "required": ["url"] }, { "required": ["file"] }],
+      "additionalProperties": false
+    },
+    "richText": {
+      "type": "string",
+      "description": "Plain text with a minimal inline markup: *italic*, **bold**, [[F-…]] fact reference, [[M-…]] media reference. No HTML."
+    },
+    "option": {
+      "type": "object",
+      "required": ["id", "text", "correct", "explanation"],
+      "properties": {
+        "id": { "type": "string" },
+        "text": { "type": "string" },
+        "correct": { "type": "boolean" },
+        "explanation": { "type": "string", "minLength": 10, "description": "Why this option is right, or why it is weaker. Required for every option." }
+      },
+      "additionalProperties": false
+    }
+  }
+}

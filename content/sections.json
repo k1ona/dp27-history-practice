@@ -1,0 +1,2405 @@
+{
+  "schema": "dp27.sections.v1",
+  "label": "Section map for the DP27 History practice app. Edit 'status' to release a section.",
+  "specification": "Legacy IB History guide (first assessment 2017). Never 2028-specification structures.",
+  "updated": "2026-11-06",
+  "papers": [
+    {
+      "paper": "P1",
+      "title": "Paper 1 · Prescribed subject 3: The move to global war",
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "minutes": 60
+    },
+    {
+      "paper": "P2",
+      "title": "Paper 2 · Topic 9 and Topic 12 (two essays, different topics)",
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "minutes": 90
+    },
+    {
+      "paper": "P3",
+      "title": "Paper 3 · HL History of Europe, §16–§18 (three essays)",
+      "levels": [
+        "HL"
+      ],
+      "minutes": 150
+    }
+  ],
+  "sections": [
+    {
+      "sectionId": "P1-CS1-CAUSES",
+      "title": "Japanese expansion: causes",
+      "papers": [
+        "P1"
+      ],
+      "topic": {
+        "code": "P1-PS3-CS1",
+        "title": "P1 · Prescribed subject 3: The move to global war · Case study 1: Japanese expansion in East Asia (1931–1941)"
+      },
+      "guideBullet": {
+        "ref": "CS1 · Causes of expansion",
+        "text": "Causes of expansion: The impact of Japanese nationalism and militarism on foreign policy; Japanese domestic issues: political and economic issues, and their impact on foreign relations; Political instability in China",
+        "source": {
+          "url": "https://grudichistory.weebly.com/uploads/4/9/4/3/49437683/grudic_japan_move_to_global_war__japan_1.1.pdf",
+          "location": "PDF page 2 (text extracted locally with pypdf)",
+          "accessed": "2026-11-06",
+          "kind": "secondary reproduction (teacher handout)"
+        },
+        "wordingStatus": "verified_secondary",
+        "flag": null,
+        "basis": "fetched page"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1931,
+        1941
+      ],
+      "timeframeBasis": "Case-study dates in the verified case-study title",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P1-CS1-CAUSES.json",
+      "stage3Batch": 7,
+      "pilot": false,
+      "notes": [
+        "Background before 1931 is allowed only as labelled context (contextWindow decided in Stage 3)."
+      ]
+    },
+    {
+      "sectionId": "P1-CS1-EVENTS",
+      "title": "Japanese expansion: events",
+      "papers": [
+        "P1"
+      ],
+      "topic": {
+        "code": "P1-PS3-CS1",
+        "title": "P1 · Prescribed subject 3: The move to global war · Case study 1: Japanese expansion in East Asia (1931–1941)"
+      },
+      "guideBullet": {
+        "ref": "CS1 · Events",
+        "text": "Events: Japanese invasion of Manchuria and northern China (1931); Sino-Japanese War (1937–1941); The Three Power/Tripartite Pact; the outbreak of war; Pearl Harbour (1941)",
+        "source": {
+          "url": "https://grudichistory.weebly.com/uploads/4/9/4/3/49437683/grudic_japan_move_to_global_war__japan_1.1.pdf",
+          "location": "PDF page 2 (text extracted locally with pypdf)",
+          "accessed": "2026-11-06",
+          "kind": "secondary reproduction (teacher handout)"
+        },
+        "wordingStatus": "verified_secondary",
+        "flag": null,
+        "basis": "fetched page"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1931,
+        1941
+      ],
+      "timeframeBasis": "Case-study dates in the verified case-study title",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P1-CS1-EVENTS.json",
+      "stage3Batch": 7,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P1-CS1-RESPONSES",
+      "title": "Japanese expansion: responses",
+      "papers": [
+        "P1"
+      ],
+      "topic": {
+        "code": "P1-PS3-CS1",
+        "title": "P1 · Prescribed subject 3: The move to global war · Case study 1: Japanese expansion in East Asia (1931–1941)"
+      },
+      "guideBullet": {
+        "ref": "CS1 · Responses",
+        "text": "Responses: League of Nations and the Lytton report; Political developments within China—the Second United Front; International response, including US initiatives and increasing tensions between the US and Japan",
+        "source": {
+          "url": "https://grudichistory.weebly.com/uploads/4/9/4/3/49437683/grudic_japan_move_to_global_war__japan_1.1.pdf",
+          "location": "PDF page 2 (text extracted locally with pypdf)",
+          "accessed": "2026-11-06",
+          "kind": "secondary reproduction (teacher handout)"
+        },
+        "wordingStatus": "verified_secondary",
+        "flag": null,
+        "basis": "fetched page"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1931,
+        1941
+      ],
+      "timeframeBasis": "Case-study dates in the verified case-study title",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P1-CS1-RESPONSES.json",
+      "stage3Batch": 7,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P1-CS2-CAUSES",
+      "title": "German and Italian expansion: causes",
+      "papers": [
+        "P1"
+      ],
+      "topic": {
+        "code": "P1-PS3-CS2",
+        "title": "P1 · Prescribed subject 3: The move to global war · Case study 2: German and Italian expansion (1933–1940)"
+      },
+      "guideBullet": {
+        "ref": "CS2 · Causes of expansion",
+        "text": "Impact of fascism and Nazism on foreign policies of Italy and Germany; Domestic economic issues and their impact on foreign policy; Changing diplomatic alignments; end of collective security; appeasement",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1 Course Outline, Year 1 Semester 1, Case Study 2 row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1933,
+        1940
+      ],
+      "timeframeBasis": "Case-study dates in the case-study title (title verified on Parkside PDF; bullets not)",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P1-CS2-CAUSES.json",
+      "stage3Batch": 8,
+      "pilot": true,
+      "notes": [
+        "Stage 1 pilot section, with 4 full source sets.",
+        "A fetched page shows 'Causes of expansion: Appeasement' as a past-paper syllabus label: partial corroboration only."
+      ]
+    },
+    {
+      "sectionId": "P1-CS2-EVENTS",
+      "title": "German and Italian expansion: events",
+      "papers": [
+        "P1"
+      ],
+      "topic": {
+        "code": "P1-PS3-CS2",
+        "title": "P1 · Prescribed subject 3: The move to global war · Case study 2: German and Italian expansion (1933–1940)"
+      },
+      "guideBullet": {
+        "ref": "CS2 · Events",
+        "text": "German challenges to post-war settlements (1933–38), Italian expansion in Abyssinia (1935–36) and Albania, Pact of Steel, Nazi–Soviet Pact, outbreak of war",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1 Course Outline, Year 1 Semester 1, Case Study 2 row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1933,
+        1940
+      ],
+      "timeframeBasis": "Case-study dates in the case-study title",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P1-CS2-EVENTS.json",
+      "stage3Batch": 8,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P1-CS2-RESPONSES",
+      "title": "German and Italian expansion: responses",
+      "papers": [
+        "P1"
+      ],
+      "topic": {
+        "code": "P1-PS3-CS2",
+        "title": "P1 · Prescribed subject 3: The move to global war · Case study 2: German and Italian expansion (1933–1940)"
+      },
+      "guideBullet": {
+        "ref": "CS2 · Responses",
+        "text": "International reactions to German (1933–38), Italian (1935–36), and combined aggression (1940)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1 Course Outline, Year 1 Semester 1, Case Study 2 row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1933,
+        1940
+      ],
+      "timeframeBasis": "Case-study dates in the case-study title",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P1-CS2-RESPONSES.json",
+      "stage3Batch": 8,
+      "pilot": false,
+      "notes": [
+        "A fetched page shows 'Responses: international response to German aggression (1933–1938)' as a past-paper syllabus label: partial corroboration only."
+      ]
+    },
+    {
+      "sectionId": "P2-12-GRAND-ALLIANCE",
+      "title": "Breakdown of the Grand Alliance, 1943–1949",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Rivalry, mistrust and accord · bullet 1",
+        "text": "The breakdown of the Grand Alliance and the emergence of superpower rivalry in Europe and Asia (1943-1949): role of ideology; fear and aggression; economic interests; a comparison of the roles of the US and the USSR",
+        "source": {
+          "url": "https://www.internationalschoolhistory.com/cold-war---1943-49---rivalry-mistrust-and-accord.html",
+          "location": "bold heading 'Theme 1 -'",
+          "accessed": "2026-11-06",
+          "kind": "secondary reproduction (teacher site)"
+        },
+        "wordingStatus": "verified_secondary",
+        "flag": null,
+        "basis": "fetched page"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1943,
+        1949
+      ],
+      "timeframeBasis": "Dates in the verified bullet",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-GRAND-ALLIANCE.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-12-CONTAINMENT",
+      "title": "Containment and peaceful co-existence, 1947–1979",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Rivalry, mistrust and accord · bullet 2 (sub-bullet: containment, peaceful co-existence)",
+        "text": "The US, USSR and China - superpower relations (1947-1979): containment- peaceful co-existence; Sino-Soviet and Sino-US relations; detente",
+        "source": {
+          "url": "https://www.internationalschoolhistory.com/cold-war---1947-79---rivalry-mistrust-and-accord.html",
+          "location": "bold heading 'Theme 2 -'",
+          "accessed": "2026-11-06",
+          "kind": "secondary reproduction (teacher site)"
+        },
+        "wordingStatus": "verified_secondary",
+        "flag": null,
+        "basis": "fetched page"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1947,
+        1979
+      ],
+      "timeframeBasis": "Dates in the verified bullet",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-CONTAINMENT.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": [
+        "Not listed separately in the Year 1 outline; plan §6.5 says only Sino relations and détente were missed. Confirm it was taught."
+      ]
+    },
+    {
+      "sectionId": "P2-12-SINO",
+      "title": "Sino-Soviet and Sino-US relations",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Rivalry, mistrust and accord · bullet 2 (sub-bullet: Sino-Soviet and Sino-US relations)",
+        "text": "The US, USSR and China - superpower relations (1947-1979): containment- peaceful co-existence; Sino-Soviet and Sino-US relations; detente",
+        "source": {
+          "url": "https://www.internationalschoolhistory.com/cold-war---1947-79---rivalry-mistrust-and-accord.html",
+          "location": "bold heading 'Theme 2 -'",
+          "accessed": "2026-11-06",
+          "kind": "secondary reproduction (teacher site)"
+        },
+        "wordingStatus": "verified_secondary",
+        "flag": null,
+        "basis": "fetched page"
+      },
+      "planCodes": [
+        "P2.12.R1"
+      ],
+      "timeframe": [
+        1947,
+        1979
+      ],
+      "timeframeBasis": "Dates in the verified bullet (plan lesson R1 concentrates on 1956–1979)",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-SINO.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-12-DETENTE",
+      "title": "Détente",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Rivalry, mistrust and accord · bullet 2 (sub-bullet: détente)",
+        "text": "The US, USSR and China - superpower relations (1947-1979): containment- peaceful co-existence; Sino-Soviet and Sino-US relations; detente",
+        "source": {
+          "url": "https://www.internationalschoolhistory.com/cold-war---1947-79---rivalry-mistrust-and-accord.html",
+          "location": "bold heading 'Theme 2 -'",
+          "accessed": "2026-11-06",
+          "kind": "secondary reproduction (teacher site)"
+        },
+        "wordingStatus": "verified_secondary",
+        "flag": null,
+        "basis": "fetched page"
+      },
+      "planCodes": [
+        "P2.12.R2"
+      ],
+      "timeframe": [
+        1947,
+        1979
+      ],
+      "timeframeBasis": "Dates in the verified bullet",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-DETENTE.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-12-END",
+      "title": "The end of the Cold War, 1980–1991",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Rivalry, mistrust and accord · bullet 3",
+        "text": "Confrontation and reconciliation; reasons for the end of the Cold War (1980- 1991): ideological challenges and dissent; economic problems; arms race",
+        "source": {
+          "url": "https://www.internationalschoolhistory.com/cold-war---1980-91---rivalry-mistrust-and-accord.html",
+          "location": "bold heading 'Theme 3 -'",
+          "accessed": "2026-11-06",
+          "kind": "secondary reproduction (teacher site)"
+        },
+        "wordingStatus": "verified_secondary",
+        "flag": null,
+        "basis": "fetched page"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1980,
+        1991
+      ],
+      "timeframeBasis": "Dates in the verified bullet",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-END.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-12-LEADERS",
+      "title": "Leaders: Reagan, Gorbachev, Brandt",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Leaders and nations · bullet 1",
+        "text": "Leaders and nations: the impact of leaders on the Cold War (taught: Reagan, Gorbachev, Brandt)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Semester 2, Topic 12 row: 'Leaders: Reagan (1981–89), Gorbachev (1985–91), Brandt (1969–74)'"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording + teacher brief"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1969,
+        1991
+      ],
+      "timeframeBasis": "Span of the outline's leader dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-LEADERS.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": [
+        "Gorbachev and Brandt are both European leaders. If the guide requires two leaders from different regions, Reagan must be one of the pair. Confirm against the guide."
+      ]
+    },
+    {
+      "sectionId": "P2-12-IMPACT",
+      "title": "Impact of Cold War tensions on two countries: the GDR and China",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Leaders and nations · bullet 2",
+        "text": "The impact of Cold War tensions on two countries (excluding the USSR and the US)",
+        "source": {
+          "file": "teacher build brief (held privately, not in the repository)",
+          "accessed": "2026-11-06",
+          "kind": "teacher's build brief (not guide wording)",
+          "location": "§1 Decisions already made, Topic 12"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "teacher brief wording"
+      },
+      "planCodes": [
+        "P2.12.R3"
+      ],
+      "timeframe": [
+        1945,
+        1991
+      ],
+      "timeframeBasis": "Cold War span as given in the topic description (Parkside PDF p.1: end of the Second World War to the early 1990s)",
+      "timeframeProvisional": true,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-IMPACT.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": [
+        "Plan §6.5 R3 picks the USA and USSR. That choice is wrong and is replaced by the GDR and China (teacher decision)."
+      ]
+    },
+    {
+      "sectionId": "P2-12-CRISIS-BERLIN-BLOCKADE",
+      "title": "Berlin Blockade (1948–1949)",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Cold War crises",
+        "text": "Cold War crises: detailed study of crises from two different regions — Berlin Blockade (1948–1949)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Semester 2, Topic 12 row: 'Crises (each studied for: background, causes, nature, consequences, significance)'"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1948,
+        1949
+      ],
+      "timeframeBasis": "Outline dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-CRISIS-BERLIN-BLOCKADE.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
+      "title": "Berlin (1958–1961)",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Cold War crises",
+        "text": "Cold War crises: detailed study of crises from two different regions — Berlin (1958–1961)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Semester 2, Topic 12 row: 'Crises (each studied for: background, causes, nature, consequences, significance)'"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1958,
+        1961
+      ],
+      "timeframeBasis": "Outline dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-CRISIS-BERLIN-1958-61.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-12-CRISIS-KOREA",
+      "title": "Korean War (1950–1953)",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Cold War crises",
+        "text": "Cold War crises: detailed study of crises from two different regions — Korean War (1950–1953)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Semester 2, Topic 12 row: 'Crises (each studied for: background, causes, nature, consequences, significance)'"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1950,
+        1953
+      ],
+      "timeframeBasis": "Outline dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-CRISIS-KOREA.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-12-CRISIS-CUBA",
+      "title": "Cuban Missile Crisis and its context",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Cold War crises",
+        "text": "Cold War crises: detailed study of crises from two different regions — Cuban Missile Crisis and its context",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Semester 2, Topic 12 row: 'Crises (each studied for: background, causes, nature, consequences, significance)'"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1959,
+        1962
+      ],
+      "timeframeBasis": "Outline: 'Cuban Revolution context and Bay of Pigs (1961)', 'Cuban Missile Crisis (1962)'. 1959 start provisional until the revolution date is verified",
+      "timeframeProvisional": true,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-CRISIS-CUBA.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-12-CRISIS-NICARAGUA",
+      "title": "Nicaragua and the Contra War (1979–1990)",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Cold War crises",
+        "text": "Cold War crises: detailed study of crises from two different regions — Nicaragua and the Contra War (1979–1990)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Semester 2, Topic 12 row: 'Crises (each studied for: background, causes, nature, consequences, significance)'"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1979,
+        1990
+      ],
+      "timeframeBasis": "Outline dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-CRISIS-NICARAGUA.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-12-CRISIS-EASTERN-EUROPE",
+      "title": "USSR and Eastern Europe (1981–1989)",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T12",
+        "title": "P2 · World history topic 12: The Cold War: Superpower tensions and rivalries (20th century)"
+      },
+      "guideBullet": {
+        "ref": "Cold War crises",
+        "text": "Cold War crises: detailed study of crises from two different regions — USSR and Eastern Europe (1981–1989)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Semester 2, Topic 12 row: 'Crises (each studied for: background, causes, nature, consequences, significance)'"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1981,
+        1989
+      ],
+      "timeframeBasis": "Outline dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-12-CRISIS-EASTERN-EUROPE.json",
+      "stage3Batch": 4,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-9-SA-CONDITIONS",
+      "title": "South Africa: apartheid and the conditions for democratic demand",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "Emergence of democratic states",
+        "text": "Emergence of democratic states (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.4 P2.9.02–03"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P2.9.02",
+        "P2.9.03"
+      ],
+      "timeframe": [
+        1948,
+        1990
+      ],
+      "timeframeBasis": "Plan P2.9.02 (1948–1990) and P2.9.03 (1976–1990)",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-SA-CONDITIONS.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-9-SA-TRANSITION",
+      "title": "South Africa: leaders, negotiation and the new constitution",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "Emergence of democratic states",
+        "text": "Emergence of democratic states (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.4 P2.9.04–05"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P2.9.04",
+        "P2.9.05"
+      ],
+      "timeframe": [
+        1990,
+        2000
+      ],
+      "timeframeBasis": "Plan P2.9.04 (1990–1994) and P2.9.05 (after 1994); topic ends 2000",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-SA-TRANSITION.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-9-SA-POLICIES",
+      "title": "South Africa: aims and results of policies, and the TRC",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "Aims and results of policies",
+        "text": "Aims and results of policies (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.4 P2.9.06"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P2.9.06"
+      ],
+      "timeframe": [
+        1994,
+        2000
+      ],
+      "timeframeBasis": "Plan P2.9.06 (post-1994 policies); topic ends 2000",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-SA-POLICIES.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-9-DE-EMERGENCE",
+      "title": "Germany (FRG): emergence, 1945–1949",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "Emergence of democratic states",
+        "text": "Emergence of democratic states (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.4 P2.9.07"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P2.9.07"
+      ],
+      "timeframe": [
+        1945,
+        1949
+      ],
+      "timeframeBasis": "Plan P2.9.07 (1945–1949). 1990 is extension, never emergence",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-DE-EMERGENCE.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-9-DE-DEVELOPMENT",
+      "title": "Germany (FRG): development, crises and extension to 1990",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "Development of democratic states",
+        "text": "Development of democratic states (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.4 P2.9.08"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P2.9.08"
+      ],
+      "timeframe": [
+        1949,
+        1990
+      ],
+      "timeframeBasis": "Plan P2.9.08 (to 1990)",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-DE-DEVELOPMENT.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-9-DE-POLICIES",
+      "title": "Germany (FRG): aims and results of policies",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "Aims and results of policies",
+        "text": "Aims and results of policies (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.4 P2.9.09"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P2.9.09"
+      ],
+      "timeframe": [
+        1949,
+        1990
+      ],
+      "timeframeBasis": "Plan P2.9.09, drawing on P3.17.08 (1949–1990)",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-DE-POLICIES.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-9-AR-EMERGENCE",
+      "title": "Argentina: the Proceso, Alfonsín and CONADEP",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "Emergence of democratic states",
+        "text": "Emergence of democratic states (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.4 P2.9.10–11"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P2.9.10",
+        "P2.9.11"
+      ],
+      "timeframe": [
+        1976,
+        1984
+      ],
+      "timeframeBasis": "Plan P2.9.10 (1976–1983); P2.9.11 (1983 election; CONADEP report of 1984 per routing doc R18). End year provisional until the Trial of the Juntas date is verified",
+      "timeframeProvisional": true,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-AR-EMERGENCE.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-9-AR-DEVELOPMENT",
+      "title": "Argentina: development and policies to 1999",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "Development of democratic states; aims and results of policies",
+        "text": "Development of democratic states; aims and results of policies (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.4 P2.9.12"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P2.9.12"
+      ],
+      "timeframe": [
+        1983,
+        1999
+      ],
+      "timeframeBasis": "Plan P2.9.12 (to 1999)",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-AR-DEVELOPMENT.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P2-9-ES",
+      "title": "Spain: emergence and development (fourth comparative case)",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "Emergence and development of democratic states",
+        "text": "Emergence and development of democratic states (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.1 P3.17.10–11; §6.4 intro"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P3.17.10",
+        "P3.17.11"
+      ],
+      "timeframe": [
+        1939,
+        2000
+      ],
+      "timeframeBasis": "Plan P3.17.10 (1939–1978) and P3.17.11 (1978–2000)",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-ES.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": [
+        "Harvested from §17 b4. A separate section, because Topic 9 uses the emergence/development/policies framing and runs to 2000."
+      ]
+    },
+    {
+      "sectionId": "P2-9-COMPARATIVE",
+      "title": "Comparative: four states, three regions",
+      "papers": [
+        "P2"
+      ],
+      "topic": {
+        "code": "P2-T9",
+        "title": "P2 · World history topic 9: Emergence and development of democratic states (1848–2000)"
+      },
+      "guideBullet": {
+        "ref": "All strands (comparative)",
+        "text": "All strands (comparative) (strand named in plan P2.9.01; exact guide bullet wording not obtained)",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.4 P2.9.01, P2.9.13"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P2.9.01",
+        "P2.9.13"
+      ],
+      "timeframe": [
+        1939,
+        2000
+      ],
+      "timeframeBasis": "Earliest pre-existing situation among the four cases (Spain, 1939) to topic end 2000",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL",
+        "SL"
+      ],
+      "contentFile": "content/sections/P2-9-COMPARATIVE.json",
+      "stage3Batch": 5,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-Y1-STALIN-POWER",
+      "title": "Stalin's struggle for power",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b1–b3 (exact bullet mapping unverified)",
+        "text": "Stalin and the struggle for power (1924–1929); defeat of Trotsky",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Paper 3 rows (Sem 1 and Sem 2)"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1924,
+        1929
+      ],
+      "timeframeBasis": "Outline dates; Todd ch.2 title 1924–29",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-Y1-STALIN-POWER.json",
+      "stage3Batch": 6,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-Y1-STALIN-ECONOMY",
+      "title": "Stalin's economic policies",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b1–b3 (exact bullet mapping unverified)",
+        "text": "Collectivisation and Five-Year Plans",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Paper 3 rows (Sem 1 and Sem 2)"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1929,
+        1941
+      ],
+      "timeframeBasis": "Todd ch.3 'Stalin's Revolution, 1929–41'. Start year provisional until the first Five-Year Plan date is verified",
+      "timeframeProvisional": true,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-Y1-STALIN-ECONOMY.json",
+      "stage3Batch": 6,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-Y1-STALIN-CONTROL",
+      "title": "Stalin's political control, propaganda and terror",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b1–b3 (exact bullet mapping unverified)",
+        "text": "Government and propaganda under Stalin; The purges and the Great Terror",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Paper 3 rows (Sem 1 and Sem 2)"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1929,
+        1953
+      ],
+      "timeframeBasis": "Todd ch.3.3 (1929–41) and ch.4.2 (1945–53)",
+      "timeframeProvisional": true,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-Y1-STALIN-CONTROL.json",
+      "stage3Batch": 6,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-Y1-GPW-POSTWAR",
+      "title": "The Great Patriotic War and post-war Stalinism",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b1–b3 (exact bullet mapping unverified)",
+        "text": "Impact of the Great Patriotic War (1941–1945); Political and economic developments in the USSR (1945–1953)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Paper 3 rows (Sem 1 and Sem 2)"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1941,
+        1953
+      ],
+      "timeframeBasis": "Outline dates; Todd ch.4 1941–53",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-Y1-GPW-POSTWAR.json",
+      "stage3Batch": 6,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-Y1-KHRUSHCHEV",
+      "title": "Khrushchev",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b1–b3 (exact bullet mapping unverified)",
+        "text": "Khrushchev: domestic policies and foreign relations; De-Stalinisation and its limits",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Paper 3 rows (Sem 1 and Sem 2)"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1953,
+        1964
+      ],
+      "timeframeBasis": "Todd ch.5 1953–64",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-Y1-KHRUSHCHEV.json",
+      "stage3Batch": 6,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-Y1-BREZHNEV",
+      "title": "Brezhnev",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b1–b3 (exact bullet mapping unverified)",
+        "text": "Brezhnev: domestic policies and foreign relations",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 1 Paper 3 rows (Sem 1 and Sem 2)"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [],
+      "timeframe": [
+        1964,
+        1982
+      ],
+      "timeframeBasis": "Todd introduction: 'Brezhnev's rule from 1964 to 1982'",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 1,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-Y1-BREZHNEV.json",
+      "stage3Batch": 6,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-B4-INHERITANCE",
+      "title": "The inheritance: the Soviet Union in 1985",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b4 (bridge) (bullet number from plan; guide wording not obtained)",
+        "text": "The inheritance: the Soviet Union in 1985",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.3 P3.16.C01"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P3.16.C01"
+      ],
+      "timeframe": [
+        1982,
+        1985
+      ],
+      "timeframeBasis": "Todd introduction: 'developments in the USSR between 1982 and 1985'",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-B4-INHERITANCE.json",
+      "stage3Batch": 1,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-B4-ECONOMICS",
+      "title": "Gorbachev I: aims and the economics of perestroika",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b4 (bullet number from plan; guide wording not obtained)",
+        "text": "Gorbachev I: aims and the economics of perestroika",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.3 P3.16.C02"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P3.16.C02"
+      ],
+      "timeframe": [
+        1985,
+        1991
+      ],
+      "timeframeBasis": "Todd ch.7 (1985–89) and ch.8.1 (1990–91)",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-B4-ECONOMICS.json",
+      "stage3Batch": 1,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-B4-GLASNOST",
+      "title": "Gorbachev II: glasnost, democratisation and the nationalities question",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b4 (bullet number from plan; guide wording not obtained)",
+        "text": "Gorbachev II: glasnost, democratisation and the nationalities question",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.3 P3.16.C03"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P3.16.C03"
+      ],
+      "timeframe": [
+        1985,
+        1991
+      ],
+      "timeframeBasis": "Todd ch.7.2 and ch.8.2; matches the data-contract example",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-B4-GLASNOST.json",
+      "stage3Batch": 1,
+      "pilot": true,
+      "notes": [
+        "Stage 1 pilot section."
+      ]
+    },
+    {
+      "sectionId": "P3-16-B5-COLLAPSE",
+      "title": "Collapse: 1990–1991, the August coup and dissolution",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b5 (bullet number from plan; guide wording not obtained)",
+        "text": "Collapse: 1990–1991, the August coup and dissolution",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.3 P3.16.C04"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P3.16.C04"
+      ],
+      "timeframe": [
+        1990,
+        1991
+      ],
+      "timeframeBasis": "Plan title; Todd ch.8 1990–91",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-B5-COLLAPSE.json",
+      "stage3Batch": 1,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-16-B5-YELTSIN",
+      "title": "Yeltsin's Russia: political and economic developments to 2000",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-16",
+        "title": "P3 · HL Europe · Section 16: The Soviet Union and post-Soviet Russia (1924–2000)"
+      },
+      "guideBullet": {
+        "ref": "§16 b5 (bullet number from plan; guide wording not obtained)",
+        "text": "Yeltsin's Russia: political and economic developments to 2000",
+        "source": {
+          "file": "project_docs/History2027plan.md",
+          "accessed": "2026-11-06",
+          "kind": "project plan (not guide wording)",
+          "location": "§6.3 P3.16.C05"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "plan wording"
+      },
+      "planCodes": [
+        "P3.16.C05"
+      ],
+      "timeframe": [
+        1992,
+        2000
+      ],
+      "timeframeBasis": "Todd ch.9 1992–2000",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-16-B5-YELTSIN.json",
+      "stage3Batch": 1,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-17-B1-GERMAN-QUESTION",
+      "title": "The German question and division, 1945–1955",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-17",
+        "title": "P3 · HL Europe · Section 17: Post-war western and northern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§17 b1",
+        "text": "Breakdown of wartime alliance; emergence of the Cold War and impact on Germany; division of Germany",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 western and northern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.17.01",
+        "P3.17.02"
+      ],
+      "timeframe": [
+        1945,
+        1955
+      ],
+      "timeframeBasis": "Plan P3.17.01 (1945–1949) and P3.17.02 (1948–1955)",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-17-B1-GERMAN-QUESTION.json",
+      "stage3Batch": 3,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-17-B2-RECOVERY",
+      "title": "Post-war recovery: Marshall Plan, Adenauer, de Gaulle",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-17",
+        "title": "P3 · HL Europe · Section 17: Post-war western and northern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§17 b2",
+        "text": "Post-war problems and political/economic recovery in western Europe",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 western and northern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.17.03",
+        "P3.17.04",
+        "P3.17.05"
+      ],
+      "timeframe": [
+        1945,
+        1963
+      ],
+      "timeframeBasis": "Plan P3.17.05 (1945–1963)",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-17-B2-RECOVERY.json",
+      "stage3Batch": 3,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-17-B3-WEST-GERMANY",
+      "title": "West Germany: politics, terrorism, society and reunification",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-17",
+        "title": "P3 · HL Europe · Section 17: Post-war western and northern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§17 b3",
+        "text": "West Germany (1963–1990): domestic policies; Baader-Meinhof/Red Army Faction",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 western and northern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.17.06",
+        "P3.17.07",
+        "P3.17.08",
+        "P3.17.09"
+      ],
+      "timeframe": [
+        1949,
+        1990
+      ],
+      "timeframeBasis": "Politics strand 1963–1990 (outline); society and culture strand 1949–1990 (plan P3.17.08)",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-17-B3-WEST-GERMANY.json",
+      "stage3Batch": 3,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-17-B4-SPAIN",
+      "title": "Spain: Francoism and the transition to democracy",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-17",
+        "title": "P3 · HL Europe · Section 17: Post-war western and northern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§17 b4",
+        "text": "Spain: Franco's regime and transition to democracy under Juan Carlos (to 1982)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 western and northern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.17.10",
+        "P3.17.11"
+      ],
+      "timeframe": [
+        1939,
+        1982
+      ],
+      "timeframeBasis": "Outline 'to 1982'. The plan's P3.17.11 runs to 2000; that later material is used in P2-9-ES",
+      "timeframeProvisional": true,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-17-B4-SPAIN.json",
+      "stage3Batch": 3,
+      "pilot": false,
+      "notes": [
+        "CONFLICT: the plan (higher authority) teaches Spain to 2000, but the outline bullet ends in 1982. The safer end year (1982) is set for Paper 3 until the guide wording is checked."
+      ]
+    },
+    {
+      "sectionId": "P3-17-B5-ITALY",
+      "title": "Case study: Italy, 1945–2000",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-17",
+        "title": "P3 · HL Europe · Section 17: Post-war western and northern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§17 b5",
+        "text": "Case study: political, social, and economic changes in one western/northern European country (1945–2000, excluding France, FRG, and Spain)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 western and northern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.17.12"
+      ],
+      "timeframe": [
+        1945,
+        2000
+      ],
+      "timeframeBasis": "Outline and plan dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-17-B5-ITALY.json",
+      "stage3Batch": 3,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-18-B1-SOVIET-CONTROL",
+      "title": "Soviet domination: motives, extent and nature of control",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-18",
+        "title": "P3 · HL Europe · Section 18: Post-war central and eastern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§18 b1",
+        "text": "Soviet domination: motives, extent, and nature of control (1945–1955)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 central and eastern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.18.01",
+        "P3.18.02",
+        "P3.18.03"
+      ],
+      "timeframe": [
+        1945,
+        1955
+      ],
+      "timeframeBasis": "Outline dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-18-B1-SOVIET-CONTROL.json",
+      "stage3Batch": 2,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-18-B2-PROTEST-TO-1968",
+      "title": "Support, repression and protest to 1968: GDR, Poland, Hungary",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-18",
+        "title": "P3 · HL Europe · Section 18: Post-war central and eastern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§18 b2",
+        "text": "Support, cooperation, repression, and protest (1945–1968): East Germany, Poland, Hungary",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 central and eastern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.18.04",
+        "P3.18.05"
+      ],
+      "timeframe": [
+        1945,
+        1968
+      ],
+      "timeframeBasis": "Outline dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-18-B2-PROTEST-TO-1968.json",
+      "stage3Batch": 2,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+      "title": "Acceptance and opposition, 1968–1989",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-18",
+        "title": "P3 · HL Europe · Section 18: Post-war central and eastern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§18 b3",
+        "text": "Acceptance of and opposition to Soviet control (1968–1989): Bulgaria, Czechoslovakia, East Germany, Hungary, Romania, Poland; role of Wałęsa and Havel",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 central and eastern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.18.06",
+        "P3.18.07",
+        "P3.18.08"
+      ],
+      "timeframe": [
+        1968,
+        1989
+      ],
+      "timeframeBasis": "Outline dates",
+      "timeframeProvisional": false,
+      "status": "taught",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-18-B3-ACCEPTANCE-OPPOSITION.json",
+      "stage3Batch": 2,
+      "pilot": false,
+      "notes": [
+        "P3.18.06 (Prague Spring) is the plan's b2→b3 hinge. It is placed here because Czechoslovakia is a b3 state and 1968 opens the b3 timeframe."
+      ]
+    },
+    {
+      "sectionId": "P3-18-B4-COLLAPSE",
+      "title": "Collapse of Soviet control: causes, developments, consequences",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-18",
+        "title": "P3 · HL Europe · Section 18: Post-war central and eastern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§18 b4",
+        "text": "Collapse of Soviet control in central and eastern Europe: causes, developments, consequences",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 central and eastern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.18.09",
+        "P3.18.10"
+      ],
+      "timeframe": [
+        1985,
+        1993
+      ],
+      "timeframeBasis": "Bullet undated. Plan: causes argued from Moscow outward (P3.16.C01–C05, from 1985); consequences 1990–93 (P3.18.10)",
+      "timeframeProvisional": true,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-18-B4-COLLAPSE.json",
+      "stage3Batch": 2,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-18-B5-BALKANS",
+      "title": "The Balkan conflicts of the 1990s and Milošević",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-18",
+        "title": "P3 · HL Europe · Section 18: Post-war central and eastern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§18 b5",
+        "text": "Balkan conflicts in the 1990s: reasons, consequences, role of Milošević",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 central and eastern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.18.11"
+      ],
+      "timeframe": [
+        1990,
+        1999
+      ],
+      "timeframeBasis": "Outline '1990s'",
+      "timeframeProvisional": true,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-18-B5-BALKANS.json",
+      "stage3Batch": 2,
+      "pilot": false,
+      "notes": []
+    },
+    {
+      "sectionId": "P3-18-B6-POLAND",
+      "title": "Case study: Poland, 1989–2000",
+      "papers": [
+        "P3"
+      ],
+      "topic": {
+        "code": "P3-18",
+        "title": "P3 · HL Europe · Section 18: Post-war central and eastern Europe (1945–2000)"
+      },
+      "guideBullet": {
+        "ref": "§18 b6",
+        "text": "Case study: economic, social, and political challenges of post-communist era in one CEE country (1989–2000)",
+        "source": {
+          "file": "project_docs/DP_History_Curriculum_Outline_2025-2027.md",
+          "accessed": "2026-11-06",
+          "kind": "school outline (not guide wording; lowest authority)",
+          "location": "§1, Year 2 Semester 1, Paper 3 central and eastern Europe row"
+        },
+        "wordingStatus": "unverified",
+        "flag": "WORDING UNVERIFIED",
+        "basis": "school outline wording"
+      },
+      "planCodes": [
+        "P3.18.12"
+      ],
+      "timeframe": [
+        1989,
+        2000
+      ],
+      "timeframeBasis": "Outline and plan dates",
+      "timeframeProvisional": false,
+      "status": "coming_up",
+      "yearTaught": 2,
+      "levels": [
+        "HL"
+      ],
+      "contentFile": "content/sections/P3-18-B6-POLAND.json",
+      "stage3Batch": 2,
+      "pilot": false,
+      "notes": []
+    }
+  ],
+  "crossLinks": [
+    {
+      "id": "X-GORBACHEV",
+      "theme": "Gorbachev",
+      "sectionIds": [
+        "P3-16-B4-ECONOMICS",
+        "P3-16-B4-GLASNOST",
+        "P3-16-B5-COLLAPSE",
+        "P3-18-B4-COLLAPSE",
+        "P2-12-LEADERS",
+        "P2-12-END"
+      ],
+      "note": "Gorbachev's reforms and decisions are the causes argued in §18 b4 and the leader studied in Topic 12.",
+      "source": "Teacher brief §4; plan §3, P3.16.C03, P3.18.09"
+    },
+    {
+      "id": "X-BREZHNEV-DOCTRINE",
+      "theme": "The Brezhnev Doctrine: asserted and abandoned",
+      "sectionIds": [
+        "P3-18-B3-ACCEPTANCE-OPPOSITION",
+        "P3-16-B4-GLASNOST",
+        "P3-18-B4-COLLAPSE"
+      ],
+      "note": "Formalised after 1968 and renounced under Gorbachev: the causal link to 1989.",
+      "source": "Plan P3.18.06, P3.16.C03"
+    },
+    {
+      "id": "X-BRANDT",
+      "theme": "Brandt and Ostpolitik",
+      "sectionIds": [
+        "P3-17-B3-WEST-GERMANY",
+        "P2-12-LEADERS",
+        "P2-9-DE-DEVELOPMENT",
+        "P2-12-DETENTE"
+      ],
+      "note": "The same figure does two analytical jobs: domestic politics in §17 and Cold War leadership in Topic 12.",
+      "source": "Plan P3.17.06, P2.9.08"
+    },
+    {
+      "id": "X-BERLIN-1948",
+      "theme": "Berlin 1948–49 and German division",
+      "sectionIds": [
+        "P2-12-CRISIS-BERLIN-BLOCKADE",
+        "P3-17-B1-GERMAN-QUESTION",
+        "P2-12-GRAND-ALLIANCE"
+      ],
+      "note": "A superpower crisis in Topic 12; an event in German history in §17.",
+      "source": "Plan P3.17.01"
+    },
+    {
+      "id": "X-BASIC-LAW",
+      "theme": "The Basic Law and FRG emergence",
+      "sectionIds": [
+        "P3-17-B1-GERMAN-QUESTION",
+        "P2-9-DE-EMERGENCE"
+      ],
+      "note": "The constitutional evidence Topic 9 needs for emergence, 1945–49.",
+      "source": "Plan P3.17.02, P2.9.07"
+    },
+    {
+      "id": "X-REUNIFICATION",
+      "theme": "Kohl and reunification",
+      "sectionIds": [
+        "P3-17-B3-WEST-GERMANY",
+        "P2-9-DE-DEVELOPMENT",
+        "P2-12-END"
+      ],
+      "note": "Read as the extension of an existing democracy, never its emergence.",
+      "source": "Plan P3.17.09, P2.9.08"
+    },
+    {
+      "id": "X-WEST-GERMAN-SOCIETY",
+      "theme": "West German society and culture",
+      "sectionIds": [
+        "P3-17-B3-WEST-GERMANY",
+        "P2-9-DE-POLICIES"
+      ],
+      "note": "Feeds Topic 9's cultural-impact strand.",
+      "source": "Plan P3.17.08, P2.9.09"
+    },
+    {
+      "id": "X-SPAIN",
+      "theme": "Spain's transition",
+      "sectionIds": [
+        "P3-17-B4-SPAIN",
+        "P2-9-ES",
+        "P2-9-COMPARATIVE"
+      ],
+      "note": "§17 b4 content supplies the fourth Topic 9 case.",
+      "source": "Plan P3.17.10–11, §6.4"
+    },
+    {
+      "id": "X-MARSHALL",
+      "theme": "The Marshall Plan",
+      "sectionIds": [
+        "P3-17-B2-RECOVERY",
+        "P2-12-GRAND-ALLIANCE"
+      ],
+      "note": "Recovery evidence in §17; a cause of superpower rivalry in Topic 12.",
+      "source": "Outline Topic 12 row ('Origins: … Marshall Plan'); plan P3.17.03"
+    },
+    {
+      "id": "X-SOVIETISATION",
+      "theme": "Soviet control of eastern Europe after 1945",
+      "sectionIds": [
+        "P3-18-B1-SOVIET-CONTROL",
+        "P3-16-Y1-GPW-POSTWAR",
+        "P2-12-GRAND-ALLIANCE"
+      ],
+      "note": "The same expansion seen from Moscow (§16), from the region (§18) and as superpower rivalry (Topic 12).",
+      "source": "Plan P3.18.01; outline §16 Year 1 rows"
+    },
+    {
+      "id": "X-GDR",
+      "theme": "The GDR",
+      "sectionIds": [
+        "P2-12-IMPACT",
+        "P3-18-B2-PROTEST-TO-1968",
+        "P3-17-B1-GERMAN-QUESTION",
+        "P3-18-B4-COLLAPSE"
+      ],
+      "note": "GDR evidence serves the Topic 12 'impact on two countries' bullet and §17/§18.",
+      "source": "Teacher brief §2 (GDR chosen); plan P3.18.04"
+    },
+    {
+      "id": "X-CHINA",
+      "theme": "China in the Cold War",
+      "sectionIds": [
+        "P2-12-IMPACT",
+        "P2-12-SINO",
+        "P2-12-CRISIS-KOREA"
+      ],
+      "note": "China's relations with both superpowers explain the impact of Cold War tensions on China.",
+      "source": "Teacher brief §2 (China chosen); plan P2.12.R1"
+    },
+    {
+      "id": "X-POLAND-1980S",
+      "theme": "Poland and Solidarity in the 1980s",
+      "sectionIds": [
+        "P3-18-B3-ACCEPTANCE-OPPOSITION",
+        "P2-12-CRISIS-EASTERN-EUROPE",
+        "P3-18-B4-COLLAPSE",
+        "P3-18-B6-POLAND"
+      ],
+      "note": "Solidarity and martial law are §18 b3 content and part of the Year 1 'USSR and Eastern Europe' crisis.",
+      "source": "Plan P3.18.08; outline Topic 12 row"
+    },
+    {
+      "id": "X-SHOCK-THERAPY",
+      "theme": "Shock therapy after communism",
+      "sectionIds": [
+        "P3-16-B5-YELTSIN",
+        "P3-18-B6-POLAND",
+        "P3-18-B4-COLLAPSE"
+      ],
+      "note": "Russian and Polish market transitions can be compared directly.",
+      "source": "Plan P3.16.C05, P3.18.10, P3.18.12"
+    },
+    {
+      "id": "X-YELTSIN",
+      "theme": "Yeltsin",
+      "sectionIds": [
+        "P3-16-B5-COLLAPSE",
+        "P3-16-B5-YELTSIN"
+      ],
+      "note": "Yeltsin's role in the collapse and after it.",
+      "source": "Plan P3.16.C04–C05"
+    },
+    {
+      "id": "X-DETENTE-BREZHNEV",
+      "theme": "Détente and the Brezhnev years",
+      "sectionIds": [
+        "P2-12-DETENTE",
+        "P3-16-Y1-BREZHNEV"
+      ],
+      "note": "Soviet foreign policy under Brezhnev is Topic 12 détente evidence.",
+      "source": "Outline §16 Year 1 row ('Brezhnev: … foreign relations')"
+    },
+    {
+      "id": "X-KHRUSHCHEV-CRISES",
+      "theme": "Khrushchev's foreign policy and the crises",
+      "sectionIds": [
+        "P3-16-Y1-KHRUSHCHEV",
+        "P2-12-CRISIS-BERLIN-1958-61",
+        "P2-12-CRISIS-CUBA",
+        "P2-12-CONTAINMENT"
+      ],
+      "note": "Khrushchev's foreign relations are §16 content and Topic 12 crisis evidence.",
+      "source": "Outline §16 Year 1 row; outline reflection on Khrushchev-era overlap"
+    },
+    {
+      "id": "X-P1-COMPARE",
+      "theme": "Comparing the two Paper 1 case studies",
+      "sectionIds": [
+        "P1-CS1-CAUSES",
+        "P1-CS2-CAUSES",
+        "P1-CS1-RESPONSES",
+        "P1-CS2-RESPONSES"
+      ],
+      "note": "Causes and responses can be compared across Japan and Germany/Italy.",
+      "source": "Outline Year 1 Paper 1 rows"
+    }
+  ]
+}
