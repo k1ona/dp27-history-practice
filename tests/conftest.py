@@ -19,6 +19,11 @@ P1 = "P1-CS2-CAUSES"
 @pytest.fixture(scope="session")
 def site_url():
     subprocess.run([sys.executable, str(ROOT / "scripts" / "build.py")], check=True, capture_output=True)
+    # Tests never talk to the real class server: device-only mode by default, a fake server where a test connects one.
+    cfg_path = ROOT / "site" / "config.json"
+    cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
+    cfg["syncEndpoint"] = ""
+    cfg_path.write_text(json.dumps(cfg, indent=2), encoding="utf-8")
     httpd = serve.make_server(0)
     port = httpd.server_address[1]
     t = threading.Thread(target=httpd.serve_forever, daemon=True)
