@@ -32,12 +32,13 @@ var HEADERS = {
   Submissions: ['receivedAt', 'submissionId', 'parentSubmissionId', 'studentId', 'level', 'sectionId', 'questionId', 'paper',
     'taskType', 'draft', 'questionText', 'commandTerm', 'namedFactor', 'timeframe', 'sourceSetId', 'responseText', 'responses',
     'wordCount', 'minutesSpent', 'timed', 'autoCheckMet', 'autoCheckNotMet', 'autoCheckDetails', 'selfCheckMet', 'selfCheckNotMet',
-    'createdAt', 'appVersion', 'schema', 'fileId', 'feedbackStatus'],
+    'createdAt', 'appVersion', 'schema', 'fileId', 'feedbackStatus', 'autoFeedback'],
   Feedback: ['ingestedAt', 'submissionId', 'studentId', 'placementType', 'placementValue', 'placementOutOf', 'markForPrediction',
-    'markOutOf', 'writtenAt', 'fileId', 'fileName', 'feedbackJson'],
+    'markOutOf', 'writtenAt', 'fileId', 'fileName', 'feedbackJson', 'source'],
   Progress: ['updatedAt', 'studentId', 'level', 'sectionId', 'chunksRead', 'checkpoint', 'drills', 'tasksDone', 'tasksTotal', 'complete'],
   Predicted: ['studentId', 'name', 'level', 'P1 mean (last 5)', 'P1 %', 'P1 n', 'P2 mean (last 5)', 'P2 %', 'P2 n',
-    'P3 mean (last 5)', 'P3 %', 'P3 n', 'IA mark (/25, entered by teacher)', 'Weighted total %', 'Predicted grade', 'Updated'],
+    'P3 mean (last 5)', 'P3 %', 'P3 n', 'IA mark (/25, entered by teacher)', 'Weighted total %', 'Predicted grade', 'Updated',
+    'Automatic marks among those counted'],
   Settings: ['key', 'value', 'note']
 };
 
@@ -65,6 +66,7 @@ var DEFAULT_SETTINGS = [
 var TASK_TYPES = ['plan', 'paragraph', 'essay', 'p1q1a', 'p1q1b', 'p1q2', 'p1q3', 'p1q4', 'timed_p1', 'timed_p2', 'timed_p3'];
 var PREDICTION_TASKS = ['essay', 'p1q1a', 'p1q1b', 'p1q2', 'p1q3', 'p1q4', 'timed_p1', 'timed_p2', 'timed_p3'];
 var CELL_LIMIT = 45000;
+var AUTO_FEEDBACK_TAG = 'dp27-automatic-feedback';
 
 /* ------------------------------------------------------------------ set-up (run once) */
 
@@ -261,7 +263,7 @@ function submit_(student, s, size) {
       cut_(JSON.stringify(s.responses || [])), s.wordCount || 0, s.minutesSpent || 0, !!s.timed,
       (ac.met || []).join(', '), (ac.notMet || []).join(', '), cut_(JSON.stringify(ac.details || [])),
       (sc.met || []).join(', '), (sc.notMet || []).join(', '), s.createdAt || '', s.appVersion || '', s.schema,
-      file.getId(), 'pending'
+      file.getId(), 'pending', ''
     ]);
   } finally {
     lock.releaseLock();
@@ -336,9 +338,21 @@ function feedbackFor_(studentId) {
 /* ------------------------------------------------------------------ hourly trigger */
 
 function hourly() {
+  syncHeaders_();
   hashNewPins();
+  // Optional: if another file in this project defines writeAutomaticFeedback(), it writes feedback files for new answers here.
+  if (typeof writeAutomaticFeedback === 'function') {
+    try { writeAutomaticFeedback(); } catch (e) { Logger.log('Automatic feedback step failed: ' + e); }
+  }
   ingestFeedback();
   updatePredicted();
+}
+
+/** Keeps each tab's header row in step with this version of the script (new columns are only ever added at the end). */
+function syncHeaders_() {
+  ['Submissions', 'Feedback', 'Predicted'].forEach(function (name) {
+    sheet_(name).getRange(1, 1, 1, HEADERS[name].length).setValues([HEADERS[name]]);
+  });
 }
 
 /** Reads new Feedback/*.feedback.json files into the Feedback tab and releases them (unless the row is on hold). */
@@ -367,9 +381,11 @@ function ingestFeedback() {
     var stripped = JSON.parse(JSON.stringify(fb));
     delete stripped.markForPrediction;
     delete stripped.markOutOf;
+    var source = (file.getDescription && file.getDescription() === AUTO_FEEDBACK_TAG) ? 'automatic' : 'teacher';
     fbSheet.appendRow([new Date().toISOString(), fb.submissionId, sub.studentId, placement.type || '', placement.value || '',
-      placement.outOf || '', fb.markForPrediction === undefined ? '' : fb.markForPrediction,
-      fb.markOutOf === undefined ? '' : fb.markOutOf, fb.writtenAt || '', file.getId(), name, cut_(JSON.stringify(stripped))]);
+      placement.outOf || '', fb.markForPrediction === undefined || fb.markForPrediction === null ? '' : fb.markForPrediction,
+      fb.markOutOf === undefined || fb.markOutOf === null ? '' : fb.markOutOf, fb.writtenAt || '', file.getId(), name,
+      cut_(JSON.stringify(stripped)), source]);
     if (sub.status.toLowerCase() !== 'hold') subSheet.getRange(sub.row, h.indexOf('feedbackStatus') + 1).setValue('ready');
     ingested++;
   }
@@ -392,22 +408,26 @@ function updatePredicted() {
   for (var r = 1; r < subs.length; r++) subInfo[subs[r][h.indexOf('submissionId')]] = { paper: subs[r][h.indexOf('paper')], taskType: subs[r][h.indexOf('taskType')] };
   var fbRows = sheet_('Feedback').getDataRange().getValues().slice(1);
   var F = HEADERS.Feedback;
-  var marks = {}; // studentId → paper → [{at, mark, outOf}]
-  fbRows.forEach(function (row) {
+  var marks = {}; // studentId → paper → [{at, mark, outOf, auto}]
+  var latestRow = {}; // only the newest feedback for each submission counts
+  fbRows.forEach(function (row) { latestRow[row[F.indexOf('submissionId')]] = row; });
+  Object.keys(latestRow).map(function (k) { return latestRow[k]; }).forEach(function (row) {
     var info = subInfo[row[F.indexOf('submissionId')]];
     var mark = row[F.indexOf('markForPrediction')], outOf = row[F.indexOf('markOutOf')];
     if (!info || PREDICTION_TASKS.indexOf(info.taskType) < 0 || mark === '' || outOf === '' || Number(outOf) <= 0) return;
     var sid = String(row[F.indexOf('studentId')]).toUpperCase();
     marks[sid] = marks[sid] || {};
-    (marks[sid][info.paper] = marks[sid][info.paper] || []).push({ at: String(row[F.indexOf('writtenAt')] || row[0]), mark: Number(mark), outOf: Number(outOf) });
+    (marks[sid][info.paper] = marks[sid][info.paper] || []).push({ at: String(row[F.indexOf('writtenAt')] || row[0]), mark: Number(mark), outOf: Number(outOf),
+      auto: row[F.indexOf('source')] === 'automatic' });
   });
   var students = sheet_('Students').getDataRange().getValues().slice(1).filter(function (row) { return row[0]; });
   var out = students.map(function (row) {
     var sid = String(row[0]).toUpperCase(), level = String(row[2] || 'HL').toUpperCase() === 'SL' ? 'SL' : 'HL';
     var line = [sid, row[1], level];
-    var pct = {};
+    var pct = {}, counted = 0, autoCounted = 0;
     ['P1', 'P2', 'P3'].forEach(function (paper) {
       var list = ((marks[sid] || {})[paper] || []).sort(function (a, b) { return a.at < b.at ? -1 : 1; }).slice(-5);
+      if (!(level === 'SL' && paper === 'P3')) list.forEach(function (x) { counted++; if (x.auto) autoCounted++; });
       if (level === 'SL' && paper === 'P3') { line.push('—', '—', 0); return; }
       if (list.length < 2) { line.push('insufficient data', '', list.length); return; }
       var sum = 0, sumOut = 0;
@@ -429,7 +449,7 @@ function updatePredicted() {
       total = 'insufficient data';
       grade = 'insufficient data';
     }
-    line.push(total, grade, new Date().toISOString());
+    line.push(total, grade, new Date().toISOString(), autoCounted + ' of ' + counted);
     return line;
   });
   var last = pred.getLastRow();

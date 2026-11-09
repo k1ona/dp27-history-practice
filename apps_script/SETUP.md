@@ -84,6 +84,10 @@ That's all.
 - **A student forgets their PIN:** type a new PIN in their **newPin** cell. It is hashed within the hour (or run **hashNewPins**). Their old sign-in on any device stops working, and they sign in again with the new PIN.
 - **Ten wrong PINs** within an hour lock that student ID for an hour.
 
+## Automatic feedback (optional)
+
+An extra file can be added to the script project to write feedback on new answers automatically every hour. Follow the separate instructions you were given for it. When it is on, the **autoFeedback** column of the Submissions tab shows its progress, and the Feedback tab's **source** column says whether each piece of feedback was written automatically or by you.
+
 ## Changing the script later
 
 Edit the code, save, then **Deploy → Manage deployments → ✏️ (edit) → Version: New version → Deploy**. The web app address stays the same. (A *new deployment* would create a different address.)

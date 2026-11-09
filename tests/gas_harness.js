@@ -49,6 +49,7 @@
       getBlob: () => ({ getDataAsString: () => f.content }),
       setContent: (s) => { f.content = String(s); f.updated = new Date(); },
       getLastUpdated: () => f.updated,
+      setDescription: (d) => { f.description = String(d); }, getDescription: () => f.description || '',
       moveTo: (folder) => { f.folder = folder.getId(); },
     };
   }
