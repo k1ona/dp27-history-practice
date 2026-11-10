@@ -1,0 +1,2794 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-17-B4-SPAIN",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 20,
+  "openingProblem": {
+   "problem": "In 1975 Spain had been ruled by one dictator for thirty-six years. By 1982 the party of his former opponents governed after free elections. How did a dictatorship become a democracy without a revolution?",
+   "predictionPrompt": "Your prediction in one line: who made Spanish democracy?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "Franco's Spain: Church, army and control, 1939–1975",
+    "body": "General Franco came to power by a military coup in 1936 and, after victory in the Civil War, ruled Spain unchallenged from 1939 until his death in 1975. His regime rested on three supports: the Catholic Church, the army and the police.\n\nThe Church gave the regime its ideas. In a **concordat of 1953** Franco granted the Church exemption from taxation and from all state interference, and even a right to demand the censorship of any writing or speech it disliked. In return the bishops taught that to be Catholic was to be Spanish. The leading primary-school history book, *Yo soy español* ('I am Spanish', first published in 1943), told the nation's story as a single line from the Garden of Eden to the Generalissimo. Tony Judt argues that Franco needed the Church even more than it needed him, because Catholicism was his link to the West.\n\nThe army was flattered rather than used. Its Civil War victory was celebrated every year, and its dead were honoured in the vast Valley of the Fallen, completed in 1959. By the end of the regime there were 300 generals and one officer for every eleven men, the highest ratio in Europe; a law of 1967 made the armed forces responsible for defending \"the institutional system\". Yet Franco kept the army out of wars, and it became largely ceremonial. Its conservatism showed itself in enthusiasm for the return of the monarchy.\n\nControl was tight. Independent political parties were banned, and until 1967 Spain had no constitution at all. Censorship was rigid, the police were everywhere and the penal laws for political critics were draconian. As late as 1963 Franco had a captured Communist, Juan Grimau, executed despite international protests. Everything distinctively Basque (language, customs, politics) was repressed, and by the early 1970s a quarter of Spain's armed police were stationed in the Basque country. In December 1958 Basque radicals formed ETA to fight for independence, a direct response, Judt says, to Franco's policies.\n\nBy its last years, however, the regime relied less on open violence than on what Judt calls \"enforced passive acceptance\", a long de-politicisation of public life. Officially Franco was a \"regent\" for a suspended monarchy, and he chose the young Juan Carlos, grandson of Spain's last king, to succeed him. This mattered because Francoism had no political life of its own beyond Franco, which meant that when he died its institutions could be dismantled by the very men he had appointed.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Church gave the regime legitimacy and its link to the West.",
+      "evidence": [
+       "F-SPAIN-03"
+      ],
+      "strongestCounter": "By the late 1960s religion itself was in decline and the hierarchy was kept away from power."
+     },
+     {
+      "claim": "The army was cosseted but kept out of politics and wars.",
+      "evidence": [
+       "F-SPAIN-06",
+       "F-SPAIN-07"
+      ],
+      "strongestCounter": "Its legal duty to defend 'the institutional system' made it a potential threat to change."
+     },
+     {
+      "claim": "Repression was real, especially against Basques and Communists.",
+      "evidence": [
+       "F-SPAIN-02",
+       "F-SPAIN-04",
+       "F-SPAIN-08"
+      ],
+      "strongestCounter": "In the last years the regime relied more on passive acceptance than open violence."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the methods Franco used to maintain his rule in Spain between 1939 and 1975.",
+     "To what extent was the economic opening of 1959 responsible for the transition to democracy in Spain between 1959 and 1978?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Franco maintained his rule above all by binding the Church and the army to the regime.",
+     "prove": "The concordat of 1953 freed the Church from taxation and gave it a right to demand censorship, while the army was flattered with 300 generals and a legal duty to defend 'the institutional system'.",
+     "explain": "This meant that the two most powerful institutions in Spain had a stake in the regime, so neither became a centre of opposition.",
+     "test": "However, repression also mattered: parties were banned, Grimau was executed in 1963 and Basque culture was suppressed.",
+     "judge": "Franco's rule therefore rested on institutional loyalty first and repression second, which is why, by its last years, passive acceptance was enough."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B4-SPAIN-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the concordat of 1953 give the Catholic Church?",
+      "factIds": [
+       "F-SPAIN-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Exemption from taxation and a right to request censorship",
+        "correct": true,
+        "explanation": "Correct: in return the Church linked religion to national identity."
+       },
+       {
+        "id": "b",
+        "text": "Control of the army",
+        "correct": false,
+        "explanation": "The army was kept separate."
+       },
+       {
+        "id": "c",
+        "text": "The right to choose Franco's successor",
+        "correct": false,
+        "explanation": "Franco chose Juan Carlos himself."
+       },
+       {
+        "id": "d",
+        "text": "Nothing, because Franco was anti-clerical",
+        "correct": false,
+        "explanation": "The opposite: he needed the Church."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B4-SPAIN-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many generals did Spain have by the time the Franco regime fell, according to Judt? (number)",
+      "factIds": [
+       "F-SPAIN-06"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 300,
+        "tolerance": 0,
+        "explanation": "300, with one officer to every eleven men."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B4-SPAIN-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “By its last years Franco's regime depended on enforced passive acceptance rather than open, violent repression.” Which argument does it support best?",
+      "factIds": [
+       "F-SPAIN-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Late Francoism relied on de-politicising Spaniards more than on terror",
+        "correct": true,
+        "explanation": "Correct: Judt compares it to Kádár's Hungary."
+       },
+       {
+        "id": "b",
+        "text": "Franco faced no opposition at all",
+        "correct": false,
+        "explanation": "Strikes and ETA show there was opposition."
+       },
+       {
+        "id": "c",
+        "text": "Spain was a democracy by 1970",
+        "correct": false,
+        "explanation": "Parties were still banned."
+       },
+       {
+        "id": "d",
+        "text": "The army ran the government",
+        "correct": false,
+        "explanation": "The army was kept at a distance."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "impact_consequences",
+    "title": "The economic opening and social change, 1959–1975",
+    "body": "Franco was a rigid, reactionary dictator, Judt writes, but also an economic realist. For two decades Spain had tried to live by **autarky**, protected from foreign competition. In 1959, at the urging of a group of ministers from the Catholic organisation Opus Dei, the regime changed course and adopted a **National Stabilization Plan** to curb inflation and open Spain to trade and investment. The first effects were harsh: devaluation, budget cuts, a credit freeze and wage restrictions. Tens of thousands of Spaniards had to look for work abroad.\n\nThen growth came. Tariffs were cut and Spain joined the World Bank, the IMF and GATT; in 1962 Franco even applied, without success, to join the EEC. From 1961 national output rose steadily. In 1950 one Spanish worker in two had worked on the land; by 1971 it was one in five, as labourers from the south and west moved north into factories and the booming tourist trade. Tourism exploded: French visitors rose from a few thousand in 1955 to seven million in 1964, and the total number of foreign visitors rose from 17.3 million in 1966 to 34 million in the year before Franco's death. By the mid-1960s Spain no longer counted as a \"developing nation\" under UN criteria.\n\nJudt warns against overstating this \"economic miracle\". Most foreign money came not from Spanish exports but from emigrants' remittances and holiday-makers, so modernisation was \"largely a by-product of other nations' prosperity\". In 1973 income per head was still below Ireland's and less than half the EEC average.\n\nBut the social effects were large. From the later 1960s strikes, lockouts and demonstrations became a fixture of Spanish life. With millions of foreigners watching, the regime could not afford to look too repressive, and it needed the skills of the new urban workforce, so it had to tolerate an unofficial labour movement in Catalonia and the Basque heavy industries. By 1975 this network had nearly a decade of experience. Religion declined too. In June 1968 Franco conceded the principle of religious freedom; the number of seminarists fell from over 8,000 at the start of the 1960s to under 2,000 twelve years later.\n\nThis mattered because, as Judt argues, by 1975 it was the political state, not Spanish society, that had fallen behind, which meant that democracy, when it came, fitted a society that had already changed.",
+    "argumentsThatWork": [
+     {
+      "claim": "The 1959 Plan opened Spain and produced rapid growth.",
+      "evidence": [
+       "F-SPAIN-10",
+       "F-SPAIN-11"
+      ],
+      "strongestCounter": "Its first effects were harsh and forced many to emigrate."
+     },
+     {
+      "claim": "Growth depended on other nations' prosperity, through tourism and remittances.",
+      "evidence": [
+       "F-SPAIN-12",
+       "F-SPAIN-13"
+      ],
+      "strongestCounter": "It still transformed the structure of the workforce."
+     },
+     {
+      "claim": "Economic change created a labour movement and weakened the Church's hold.",
+      "evidence": [
+       "F-SPAIN-14",
+       "F-SPAIN-15"
+      ],
+      "strongestCounter": "Labour protest was confined to bread-and-butter issues, not politics."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the economic opening of 1959 responsible for the transition to democracy in Spain between 1959 and 1978?",
+     "Examine the methods Franco used to maintain his rule in Spain between 1939 and 1975."
+    ],
+    "useItInAnEssay": {
+     "claim": "The economic opening of 1959 made democracy possible by changing Spanish society faster than the Spanish state.",
+     "prove": "Between 1950 and 1971 the share of workers on the land fell from one in two to one in five, and foreign visitors rose to 34 million a year by 1974.",
+     "explain": "This meant that a modern, urban workforce with its own unofficial unions existed before Franco died, so the regime could no longer rely on repression alone.",
+     "test": "However, labour protest stayed confined to bread-and-butter issues, and the transition itself was managed from within the regime's own ranks.",
+     "judge": "The economic opening was therefore a necessary condition of democracy, but political choices after 1975 decided how it came."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B4-SPAIN-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who pressed for the National Stabilization Plan of 1959?",
+      "factIds": [
+       "F-SPAIN-10"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A group of Opus Dei ministers",
+        "correct": true,
+        "explanation": "Correct: modernising technocrats inside the regime."
+       },
+       {
+        "id": "b",
+        "text": "The Spanish Communist Party",
+        "correct": false,
+        "explanation": "The Communists were banned."
+       },
+       {
+        "id": "c",
+        "text": "The army",
+        "correct": false,
+        "explanation": "The army was kept at a distance from policy."
+       },
+       {
+        "id": "d",
+        "text": "The trade unions",
+        "correct": false,
+        "explanation": "Independent unions were not legal."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B4-SPAIN-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many million foreign visitors came to Spain in 1966, according to Judt? (number, one decimal place)",
+      "factIds": [
+       "F-SPAIN-13"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 17.3,
+        "tolerance": 0,
+        "explanation": "17.3 million, rising to 34 million in the year before Franco's death."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B4-SPAIN-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Most foreign cash came from emigrants' remittances and northern European holiday-makers.” Which argument does it support best?",
+      "factIds": [
+       "F-SPAIN-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Spain's modernisation depended on the prosperity of other nations",
+        "correct": true,
+        "explanation": "Correct: Judt calls it a by-product of others' prosperity."
+       },
+       {
+        "id": "b",
+        "text": "Spanish exports led the boom",
+        "correct": false,
+        "explanation": "The fact says the opposite."
+       },
+       {
+        "id": "c",
+        "text": "Spain stayed autarkic after 1959",
+        "correct": false,
+        "explanation": "The Plan ended autarky."
+       },
+       {
+        "id": "d",
+        "text": "Tourism harmed the economy",
+        "correct": false,
+        "explanation": "Tourism brought in foreign money."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "role_of_leader",
+    "title": "The transition from above, 1975–1978",
+    "body": "Even before Franco died, Americans were asking what would follow. In May 1975 a secret US intelligence memorandum, \"Spain: Problems of the Succession\", put the dilemma in one sentence: \"the regime must change in order to survive but any real change carries threats to its existence.\" It judged a radical upheaval unlikely, but its forecast depended heavily on the army's role as a deterrent.\n\nFranco died on 20 November 1975, aged 82. Two days later **Juan Carlos** was crowned king. At first he kept Franco's last Prime Minister, Carlos Arias Navarro, to reassure the army that there would be no sudden break. But in April 1976 Arias arrested the leaders of the Democratic Coordination, a coalition of still-illegal left-wing parties, and within two months the king replaced him with **Adolfo Suárez**. Judt stresses that the transition was managed \"from within the ranks of Franco's own ministers and appointees\", which helps explain its speed and success; the opposition at first played a subordinate role.\n\nSuárez seemed an unlikely reformer. Aged 44, he was a late-Franco technocrat who had headed the regime's own National Movement for a year. He formed a new party, the Centre Democratic Union (UCD), and persuaded the Francoist assembly to accept a referendum on political reform, introducing universal suffrage and a two-chamber parliament. Wrong-footed by a man they took for one of their own, the old guard agreed, and on 15 December 1976 the reform passed with over 94 per cent of the vote. In 1977 the pace quickened. In February the Socialist Party (PSOE), led by the young Felipe González, was allowed back and trade unions won the right to strike. On 1 April Suárez dismantled the National Movement; a week later he legalised the Communist Party of Santiago Carrillo.\n\nIn June 1977 Spain held its first elections since 1936. The UCD won 165 seats, the Socialists 121 and all others 67. Judt calls this the best possible outcome: conservatives were reassured, while Suárez, without a majority, had to share responsibility for the new constitution with the left. The **Constitution**, approved by referendum in December 1978, made Spain a parliamentary monarchy with no official religion, lowered the voting age to eighteen, abolished the death penalty and gave the historic regions, above all Catalonia and the Basque country, a right to autonomy.\n\nJudt's judgement is ironic: democracy was made possible \"not by cultural or political radicals\" but by conservative men of the old regime, whose reassurance to their own side allowed them to dismantle the institutions they had served. This mattered because a transition from above avoided a violent break, which meant that Spain changed its system without reopening the Civil War.",
+    "argumentsThatWork": [
+     {
+      "claim": "The king chose a reformer and protected the process.",
+      "evidence": [
+       "F-SPAIN-18"
+      ],
+      "strongestCounter": "He first kept Franco's Prime Minister, Arias."
+     },
+     {
+      "claim": "Suárez used Francoist institutions to vote Francoism away.",
+      "evidence": [
+       "F-SPAIN-19",
+       "F-SPAIN-20"
+      ],
+      "strongestCounter": "The opposition's pressure and strikes also pushed the pace."
+     },
+     {
+      "claim": "Elections and a negotiated constitution built consensus with the left.",
+      "evidence": [
+       "F-SPAIN-21",
+       "F-SPAIN-22"
+      ],
+      "strongestCounter": "Regional autonomy left Basque nationalists dissatisfied."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that the transition to democracy in Spain was made from above with reference to the period 1975 to 1978.",
+     "Compare and contrast the roles of Suárez and Juan Carlos in Spain's transition to democracy between 1975 and 1981."
+    ],
+    "useItInAnEssay": {
+     "claim": "The transition was made from above, by men the dictatorship had itself appointed.",
+     "prove": "Juan Carlos, chosen by Franco, appointed Suárez, a former head of the National Movement, who persuaded the Francoist assembly to accept a referendum that passed on 15 December 1976 with over 94 per cent.",
+     "explain": "This meant that the old regime's own institutions voted for reform, so its supporters were reassured and the army had no grounds to intervene.",
+     "test": "However, once parties were legal the opposition shaped the result: the Socialists won 121 seats in 1977 and helped write the constitution.",
+     "judge": "The transition was therefore begun from above but completed by negotiation with the opposition."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B4-SPAIN-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What had Adolfo Suárez been before he became Prime Minister?",
+      "factIds": [
+       "F-SPAIN-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Head of the regime's own National Movement for a year",
+        "correct": true,
+        "explanation": "Correct: a late-Franco technocrat."
+       },
+       {
+        "id": "b",
+        "text": "Leader of the Socialist Party",
+        "correct": false,
+        "explanation": "That was Felipe González."
+       },
+       {
+        "id": "c",
+        "text": "Leader of the Communist Party",
+        "correct": false,
+        "explanation": "That was Santiago Carrillo."
+       },
+       {
+        "id": "d",
+        "text": "An exiled opponent of Franco",
+        "correct": false,
+        "explanation": "He was an insider."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B4-SPAIN-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many seats did Suárez's UCD win in the elections of June 1977? (number)",
+      "factIds": [
+       "F-SPAIN-21"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 165,
+        "tolerance": 0,
+        "explanation": "165, against the Socialists' 121."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B4-SPAIN-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1977 the UCD won 165 seats but no overall majority.” Which argument does it support best?",
+      "factIds": [
+       "F-SPAIN-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The result forced Suárez to share the writing of the constitution with the left",
+        "correct": true,
+        "explanation": "Correct: Judt calls it the best possible outcome."
+       },
+       {
+        "id": "b",
+        "text": "The left won the 1977 election",
+        "correct": false,
+        "explanation": "The UCD came first."
+       },
+       {
+        "id": "c",
+        "text": "Spain returned to dictatorship",
+        "correct": false,
+        "explanation": "The election was free."
+       },
+       {
+        "id": "d",
+        "text": "Suárez ruled without opposition",
+        "correct": false,
+        "explanation": "He lacked a majority."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Threats and consolidation, 1977–1982",
+    "body": "The new democracy faced three dangers: the economy, terrorism and the army.\n\nThe economy was in crisis. The last Franco governments had bought popularity with public spending and subsidies, and by June 1977 inflation was running at 26 per cent a year. Spain lost an estimated 1.8 million jobs between 1973 and 1982. The **Moncloa Pacts** of October 1977, agreed by politicians, labour leaders and employers, brought devaluation, an incomes policy and controls on spending. Judt says they \"worked no miracles\", but without them the divisions would almost certainly have been worse.\n\nTerrorism grew. ETA had already assassinated Franco's Prime Minister, Admiral Carrero Blanco, in Madrid in December 1973. It wanted full independence, and when the Basque country was given a Statute of Autonomy, approved by referendum in 1979, it stepped up its campaign: in 1979–80 it killed 181 people. It aimed to provoke a backlash that would bring down democracy.\n\nIn 1981 it nearly did. On 29 January Suárez was forced out by his own party, and a general strike broke out in the Basque provinces. To the right, Spain looked leaderless and close to breaking up. On **23 February 1981** Lieutenant Colonel Antonio Tejero of the Civil Guard seized the Cortes at gunpoint, while General Jaime Milans del Bosch declared a state of emergency in Valencia and called on the king to dissolve parliament and install a military government. Judt notes that the parties could have done little to stop a military coup, and the army's sympathies were uncertain.\n\nWhat decided the outcome was **King Juan Carlos**. He rejected the conspirators' demands and, in a televised speech, defended the Constitution and identified the monarchy with the democratic majority. With no institution to rally around, most of those nostalgic for the old regime turned instead to Manuel Fraga's Popular Alliance, within the law. Afterwards the Cortes cut the military budget and legalised divorce.\n\nDemocracy then passed its final test. In October 1982 the Socialists won an absolute majority and Felipe González became Prime Minister. Suárez's UCD, which had led the transition, won just two seats. Power had passed peacefully to the party of the former opposition. This mattered because alternation in power showed that democracy no longer depended on the men of the old regime, which meant that Spanish politics now looked like the rest of western Europe.",
+    "argumentsThatWork": [
+     {
+      "claim": "Consensus measures such as the Moncloa Pacts limited the economic damage.",
+      "evidence": [
+       "F-SPAIN-24",
+       "F-SPAIN-25"
+      ],
+      "strongestCounter": "Unemployment and inflation still rose, provoking strikes."
+     },
+     {
+      "claim": "ETA's violence failed to destroy democracy.",
+      "evidence": [
+       "F-SPAIN-26"
+      ],
+      "strongestCounter": "Its violence helped create the mood in which the coup was attempted."
+     },
+     {
+      "claim": "The king's stand in 1981 and the peaceful change of government in 1982 consolidated democracy.",
+      "evidence": [
+       "F-SPAIN-29",
+       "F-SPAIN-31"
+      ],
+      "strongestCounter": "The coup showed how fragile democracy still was."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the causes and consequences of political instability in Spain between 1979 and 1982.",
+     "Evaluate the success of the transition to democracy in Spain between 1975 and 1982."
+    ],
+    "useItInAnEssay": {
+     "claim": "The coup attempt of February 1981 was defeated above all by the king's decision to defend the Constitution.",
+     "prove": "On 23 February Tejero seized the Cortes and Milans del Bosch called on Juan Carlos to install a military government, but the king rejected their demands and defended the Constitution on television.",
+     "explain": "This meant that the conspirators had no institution around which to rally, so most of the old regime's supporters turned to legal politics in Fraga's Popular Alliance.",
+     "test": "However, the coup also showed how fragile democracy was, since the parties could have done little to stop it and the army's sympathies were uncertain.",
+     "judge": "The king's stand was therefore decisive, and it turned a moment of danger into a lasting strengthening of democracy."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B4-SPAIN-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who seized the Cortes at gunpoint on 23 February 1981?",
+      "factIds": [
+       "F-SPAIN-28"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Lieutenant Colonel Antonio Tejero of the Civil Guard",
+        "correct": true,
+        "explanation": "Correct: supported by Milans del Bosch in Valencia."
+       },
+       {
+        "id": "b",
+        "text": "Adolfo Suárez",
+        "correct": false,
+        "explanation": "Suárez had just been forced to resign."
+       },
+       {
+        "id": "c",
+        "text": "Felipe González",
+        "correct": false,
+        "explanation": "González led the Socialists."
+       },
+       {
+        "id": "d",
+        "text": "ETA",
+        "correct": false,
+        "explanation": "ETA did not carry out the coup attempt."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B4-SPAIN-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people did ETA kill in 1979–80, according to Judt? (number)",
+      "factIds": [
+       "F-SPAIN-26"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 181,
+        "tolerance": 0,
+        "explanation": "181."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B4-SPAIN-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “After the king's televised speech, those nostalgic for the old regime turned to Fraga's Popular Alliance, within the law.” Which argument does it support best?",
+      "factIds": [
+       "F-SPAIN-29"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The king's stand drew the old right into democratic politics",
+        "correct": true,
+        "explanation": "Correct: they lacked a symbol to rally around."
+       },
+       {
+        "id": "b",
+        "text": "The coup succeeded",
+        "correct": false,
+        "explanation": "It failed."
+       },
+       {
+        "id": "c",
+        "text": "The Popular Alliance supported the coup",
+        "correct": false,
+        "explanation": "It worked within the law."
+       },
+       {
+        "id": "d",
+        "text": "The army ruled after 1981",
+        "correct": false,
+        "explanation": "The Cortes cut the military budget."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1939,
+      "text": "Franco rules Spain after the Civil War",
+      "factId": "F-SPAIN-01"
+     },
+     {
+      "year": 1953,
+      "text": "Concordat with the Catholic Church",
+      "factId": "F-SPAIN-03"
+     },
+     {
+      "year": 1958,
+      "month": 12,
+      "text": "ETA formed",
+      "factId": "F-SPAIN-08"
+     },
+     {
+      "year": 1959,
+      "text": "National Stabilization Plan",
+      "factId": "F-SPAIN-10"
+     },
+     {
+      "year": 1968,
+      "month": 6,
+      "text": "Principle of religious freedom conceded",
+      "factId": "F-SPAIN-15"
+     },
+     {
+      "year": 1973,
+      "month": 12,
+      "day": 20,
+      "text": "ETA assassinates Carrero Blanco",
+      "factId": "F-SPAIN-09"
+     },
+     {
+      "year": 1975,
+      "month": 11,
+      "day": 20,
+      "text": "Franco dies; Juan Carlos crowned two days later",
+      "factId": "F-SPAIN-17"
+     },
+     {
+      "year": 1976,
+      "month": 12,
+      "day": 15,
+      "text": "Referendum on political reform",
+      "factId": "F-SPAIN-19"
+     },
+     {
+      "year": 1977,
+      "month": 6,
+      "text": "First free elections since 1936",
+      "factId": "F-SPAIN-21"
+     },
+     {
+      "year": 1978,
+      "month": 12,
+      "text": "Constitution approved by referendum",
+      "factId": "F-SPAIN-22"
+     },
+     {
+      "year": 1981,
+      "month": 2,
+      "day": 23,
+      "text": "Tejero's coup attempt fails",
+      "factId": "F-SPAIN-28"
+     },
+     {
+      "year": 1982,
+      "month": 10,
+      "text": "Socialists win an absolute majority",
+      "factId": "F-SPAIN-31"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Franco's regime rests on Church, army and passive acceptance",
+      "factId": "F-SPAIN-05"
+     },
+     {
+      "id": "n2",
+      "text": "The 1959 opening changes society faster than the state",
+      "factId": "F-SPAIN-11"
+     },
+     {
+      "id": "n3",
+      "text": "Franco dies; the king appoints Suárez",
+      "factId": "F-SPAIN-18"
+     },
+     {
+      "id": "n4",
+      "text": "Francoist institutions vote for reform; parties legalised",
+      "factId": "F-SPAIN-19"
+     },
+     {
+      "id": "n5",
+      "text": "Elections and a consensual constitution",
+      "factId": "F-SPAIN-22"
+     },
+     {
+      "id": "n6",
+      "text": "The king defeats the 1981 coup; the Socialists win in 1982",
+      "factId": "F-SPAIN-31"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "An economic realist, Franco let technocrats open the economy"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "A modern society made the regime's survival without Franco unlikely"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "An insider reassured the old guard"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "No party had a majority, so the constitution was negotiated"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "The monarchy tied itself to the Constitution, which survived its test"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "General Franco",
+     "role": "Dictator, 1939–1975",
+     "whyItMatters": "Built a regime on Church and army; opened the economy in 1959.",
+     "factIds": [
+      "F-SPAIN-01",
+      "F-SPAIN-03",
+      "F-SPAIN-10"
+     ]
+    },
+    {
+     "name": "Juan Carlos I",
+     "role": "King from 1975",
+     "whyItMatters": "Appointed Suárez and defeated the 1981 coup.",
+     "factIds": [
+      "F-SPAIN-18",
+      "F-SPAIN-29"
+     ]
+    },
+    {
+     "name": "Adolfo Suárez",
+     "role": "Prime Minister, 1976–1981",
+     "whyItMatters": "Former head of the National Movement who dismantled it.",
+     "factIds": [
+      "F-SPAIN-19",
+      "F-SPAIN-20"
+     ]
+    },
+    {
+     "name": "Felipe González",
+     "role": "Socialist leader; Prime Minister from 1982",
+     "whyItMatters": "Led the former opposition to power peacefully.",
+     "factIds": [
+      "F-SPAIN-20",
+      "F-SPAIN-31"
+     ]
+    },
+    {
+     "name": "Santiago Carrillo",
+     "role": "Communist Party leader",
+     "whyItMatters": "Committed the PCE to parliamentary democracy.",
+     "factIds": [
+      "F-SPAIN-20"
+     ]
+    },
+    {
+     "name": "Antonio Tejero",
+     "role": "Civil Guard officer",
+     "whyItMatters": "Seized the Cortes in February 1981.",
+     "factIds": [
+      "F-SPAIN-28"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Franco's Spain (1939–1975)",
+     "Democratic Spain (1978–1982)"
+    ],
+    "rows": [
+     {
+      "criterion": "Head of state",
+      "cells": [
+       "Franco as 'regent' for a suspended monarchy",
+       "A parliamentary monarchy"
+      ],
+      "factIds": [
+       "F-SPAIN-05",
+       "F-SPAIN-22"
+      ]
+     },
+     {
+      "criterion": "Religion",
+      "cells": [
+       "Concordat: Church exempt from tax, with a right to request censorship",
+       "No official religion; Catholicism a 'social fact'"
+      ],
+      "factIds": [
+       "F-SPAIN-03",
+       "F-SPAIN-22"
+      ]
+     },
+     {
+      "criterion": "Regions",
+      "cells": [
+       "Basque language and politics repressed",
+       "A right to autonomy; seventeen regions"
+      ],
+      "factIds": [
+       "F-SPAIN-08",
+       "F-SPAIN-23"
+      ]
+     },
+     {
+      "criterion": "Parties and unions",
+      "cells": [
+       "Independent parties banned",
+       "PSOE and PCE legal; unions with the right to strike"
+      ],
+      "factIds": [
+       "F-SPAIN-05",
+       "F-SPAIN-20"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-SPAIN-03",
+    "year": 1953,
+    "text": "Concordat of 1953: the Church was freed from tax and state interference and could request censorship.",
+    "supports": [
+     "The Church was a pillar of Francoism"
+    ],
+    "alsoWorksFor": [
+     "P2-9-ES"
+    ],
+    "lexicon": [
+     "concordat",
+     "National Catholicism"
+    ]
+   },
+   {
+    "factId": "F-SPAIN-10",
+    "year": 1959,
+    "text": "National Stabilization Plan (1959), pressed by Opus Dei ministers, ended two decades of autarky.",
+    "supports": [
+     "Economic opening transformed Spanish society"
+    ],
+    "alsoWorksFor": [
+     "P2-9-ES"
+    ],
+    "lexicon": [
+     "Stabilization Plan",
+     "Opus Dei",
+     "autarky"
+    ]
+   },
+   {
+    "factId": "F-SPAIN-13",
+    "year": 1974,
+    "text": "Foreign visitors: 17.3 million in 1966, 34 million in the year before Franco's death.",
+    "supports": [
+     "Tourism limited how repressive the regime could look"
+    ],
+    "alsoWorksFor": [
+     "P2-9-ES"
+    ],
+    "lexicon": [
+     "tourism"
+    ]
+   },
+   {
+    "factId": "F-SPAIN-19",
+    "year": 1976,
+    "text": "Referendum on political reform, 15 December 1976: over 94 per cent in favour.",
+    "supports": [
+     "The transition was made from above"
+    ],
+    "alsoWorksFor": [
+     "P2-9-ES"
+    ],
+    "lexicon": [
+     "Suárez",
+     "political reform"
+    ]
+   },
+   {
+    "factId": "F-SPAIN-21",
+    "year": 1977,
+    "text": "June 1977 elections: UCD 165 seats, PSOE 121, others 67.",
+    "supports": [
+     "The lack of a majority forced consensus"
+    ],
+    "alsoWorksFor": [
+     "P2-9-ES"
+    ],
+    "lexicon": [
+     "UCD",
+     "PSOE",
+     "elections"
+    ]
+   },
+   {
+    "factId": "F-SPAIN-22",
+    "year": 1978,
+    "text": "Constitution of December 1978: parliamentary monarchy, no official religion, regional autonomy, death penalty abolished.",
+    "supports": [
+     "Democracy was built by consensus"
+    ],
+    "alsoWorksFor": [
+     "P2-9-ES"
+    ],
+    "lexicon": [
+     "Constitution",
+     "autonomy"
+    ]
+   },
+   {
+    "factId": "F-SPAIN-29",
+    "year": 1981,
+    "text": "23 February 1981: the king rejected the coup and defended the Constitution on television.",
+    "supports": [
+     "The monarchy tied itself to democracy"
+    ],
+    "alsoWorksFor": [
+     "P2-9-ES"
+    ],
+    "lexicon": [
+     "Tejero",
+     "23-F",
+     "Juan Carlos"
+    ]
+   },
+   {
+    "factId": "F-SPAIN-31",
+    "year": 1982,
+    "text": "October 1982: Socialist absolute majority; the UCD reduced to two seats.",
+    "supports": [
+     "Peaceful alternation consolidated democracy"
+    ],
+    "alsoWorksFor": [
+     "P2-9-ES"
+    ],
+    "lexicon": [
+     "González",
+     "alternation"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Democracy in Spain was made possible 'not by cultural or political radicals and innovators but by conservative statesmen from the old regime itself': Suárez, like Gorbachev, was a product of the system he dismantled, and his reassurance to his own side allowed him to dismantle it.",
+    "useItLikeThis": "Judt's view supports the claim that the transition was made from above, which suggests that continuity of personnel was the price of a peaceful change of system.",
+    "factId": "F-SPAIN-17"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Spanish democracy was won by a popular revolution against Franco's regime.",
+    "right": "The transition was **managed from within** the regime by Franco's own appointees."
+   },
+   {
+    "wrong": "Franco's Spain was economically stagnant until his death.",
+    "right": "From **1959** the economy opened and grew rapidly, transforming society."
+   },
+   {
+    "wrong": "The 1978 Constitution made Catholicism the state religion.",
+    "right": "It set **no official religion**, recognising Catholicism only as a 'social fact'."
+   },
+   {
+    "wrong": "The 1981 coup attempt was stopped by the political parties.",
+    "right": "Judt says the parties could have done little; the **king's** stand decided it."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1953,
+     "text": "Concordat"
+    },
+    {
+     "year": 1959,
+     "text": "Stabilization Plan"
+    },
+    {
+     "year": 1973,
+     "month": 12,
+     "day": 20,
+     "text": "Carrero Blanco killed"
+    },
+    {
+     "year": 1975,
+     "month": 11,
+     "day": 20,
+     "text": "Franco dies"
+    },
+    {
+     "year": 1976,
+     "month": 12,
+     "day": 15,
+     "text": "Reform referendum"
+    },
+    {
+     "year": 1977,
+     "month": 6,
+     "text": "First free elections"
+    },
+    {
+     "year": 1981,
+     "month": 2,
+     "day": 23,
+     "text": "Coup attempt"
+    },
+    {
+     "year": 1982,
+     "month": 10,
+     "text": "Socialist victory"
+    }
+   ],
+   "keyArguments": [
+    "Francoism rested on Church, army and repression, later on passive acceptance.",
+    "The 1959 opening changed society faster than the state (Judt).",
+    "The transition was made from above: the king chose Suárez, who used Francoist institutions to end Francoism.",
+    "The 1977 result and the 1978 Constitution were built by consensus with the left.",
+    "The king's stand in 1981 and the Socialist victory of 1982 consolidated democracy."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-17-B4-SPAIN-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of the Franco era in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Concordat with the Church",
+     "year": 1953,
+     "factId": "F-SPAIN-03"
+    },
+    {
+     "id": "b",
+     "text": "ETA formed",
+     "year": 1958,
+     "month": 12,
+     "factId": "F-SPAIN-08"
+    },
+    {
+     "id": "c",
+     "text": "National Stabilization Plan",
+     "year": 1959,
+     "factId": "F-SPAIN-10"
+    },
+    {
+     "id": "d",
+     "text": "Religious freedom conceded",
+     "year": 1968,
+     "month": 6,
+     "factId": "F-SPAIN-15"
+    },
+    {
+     "id": "e",
+     "text": "Carrero Blanco assassinated",
+     "year": 1973,
+     "month": 12,
+     "factId": "F-SPAIN-09"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of the transition in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Franco dies",
+     "year": 1975,
+     "month": 11,
+     "factId": "F-SPAIN-17"
+    },
+    {
+     "id": "b",
+     "text": "Referendum on political reform",
+     "year": 1976,
+     "month": 12,
+     "factId": "F-SPAIN-19"
+    },
+    {
+     "id": "c",
+     "text": "Communist Party legalised",
+     "year": 1977,
+     "month": 4,
+     "factId": "F-SPAIN-20"
+    },
+    {
+     "id": "d",
+     "text": "First free elections",
+     "year": 1977,
+     "month": 6,
+     "factId": "F-SPAIN-21"
+    },
+    {
+     "id": "e",
+     "text": "Constitution approved by referendum",
+     "year": 1978,
+     "month": 12,
+     "factId": "F-SPAIN-22"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Basque Statute of Autonomy approved",
+     "year": 1979,
+     "factId": "F-SPAIN-26"
+    },
+    {
+     "id": "b",
+     "text": "Suárez forced to resign",
+     "year": 1981,
+     "month": 1,
+     "factId": "F-SPAIN-27"
+    },
+    {
+     "id": "c",
+     "text": "Tejero seizes the Cortes",
+     "year": 1981,
+     "month": 2,
+     "factId": "F-SPAIN-28"
+    },
+    {
+     "id": "d",
+     "text": "Socialists win an absolute majority",
+     "year": 1982,
+     "month": 10,
+     "factId": "F-SPAIN-31"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Luis Carrero Blanco",
+     "right": "Franco's Prime Minister, assassinated by ETA in 1973",
+     "explanation": "Killed in Madrid."
+    },
+    {
+     "left": "Santiago Carrillo",
+     "right": "Leader of the Communist Party, legalised in 1977",
+     "explanation": "Resigned after 1982."
+    },
+    {
+     "left": "Manuel Fraga",
+     "right": "Leader of the Popular Alliance",
+     "explanation": "26.5 per cent in 1982."
+    },
+    {
+     "left": "Jaime Milans del Bosch",
+     "right": "General who declared a state of emergency in Valencia in 1981",
+     "explanation": "Part of the coup attempt."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the annual rate of inflation in Spain in June 1977? (per cent)",
+   "factIds": [
+    "F-SPAIN-24"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 26,
+     "tolerance": 0,
+     "explanation": "26 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many million jobs did Spain lose between 1973 and 1982, according to Judt? (number, one decimal place)",
+   "factIds": [
+    "F-SPAIN-24"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1.8,
+     "tolerance": 0,
+     "explanation": "About 1.8 million."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Into how many self-administering regions was Spain divided within four years of the 1978 Constitution? (number)",
+   "factIds": [
+    "F-SPAIN-23"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 17,
+     "tolerance": 0,
+     "explanation": "Seventeen, each with its own flag and capital."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many seats did the UCD win in the elections of October 1982? (number)",
+   "factIds": [
+    "F-SPAIN-31"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 2,
+     "tolerance": 0,
+     "explanation": "Two: the party of the transition was all but eliminated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the 1978 Constitution? Choose all that apply.",
+   "factIds": [
+    "F-SPAIN-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Spain became a parliamentary monarchy",
+     "correct": true,
+     "explanation": "Yes: the king as constitutional head of state."
+    },
+    {
+     "id": "b",
+     "text": "There was no official religion",
+     "correct": true,
+     "explanation": "Yes: Catholicism was a 'social fact'."
+    },
+    {
+     "id": "c",
+     "text": "The death penalty was abolished",
+     "correct": true,
+     "explanation": "Yes: along with a voting age of eighteen."
+    },
+    {
+     "id": "d",
+     "text": "Catholicism became the state religion",
+     "correct": false,
+     "explanation": "No: Catholicism was recognised only as a 'social fact'."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were first effects of the 1959 Stabilization Plan? Choose all that apply.",
+   "factIds": [
+    "F-SPAIN-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Devaluation",
+     "correct": true,
+     "explanation": "Yes: part of a harsh package."
+    },
+    {
+     "id": "b",
+     "text": "Budget cuts and a credit freeze",
+     "correct": true,
+     "explanation": "Yes: firmly enforced."
+    },
+    {
+     "id": "c",
+     "text": "Tens of thousands seeking work abroad",
+     "correct": true,
+     "explanation": "Yes: emigration rose."
+    },
+    {
+     "id": "d",
+     "text": "A return to autarky",
+     "correct": false,
+     "explanation": "No: the Plan ended autarky."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “With 34 million foreign visitors a year, the regime could not present too repressive a face.” Which argument does it support?",
+   "factIds": [
+    "F-SPAIN-13",
+    "F-SPAIN-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic opening limited the regime's freedom to repress",
+     "correct": true,
+     "explanation": "Correct: it had to tolerate a labour movement."
+    },
+    {
+     "id": "b",
+     "text": "Tourists supported Franco",
+     "correct": false,
+     "explanation": "The fact concerns the regime's image."
+    },
+    {
+     "id": "c",
+     "text": "Repression increased after 1966",
+     "correct": false,
+     "explanation": "The fact suggests restraint."
+    },
+    {
+     "id": "d",
+     "text": "Tourism had no political effect",
+     "correct": false,
+     "explanation": "It constrained the regime."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Between 1966 and 1975 one third of Spain's Jesuits left the Order.” Which argument does it support?",
+   "factIds": [
+    "F-SPAIN-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Church's hold on Spanish society was weakening",
+     "correct": true,
+     "explanation": "Correct: seminarists also fell sharply."
+    },
+    {
+     "id": "b",
+     "text": "The Church grew stronger under late Francoism",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Franco expelled the Jesuits",
+     "correct": false,
+     "explanation": "The fact says they left."
+    },
+    {
+     "id": "d",
+     "text": "Religion was banned in 1966",
+     "correct": false,
+     "explanation": "Religious freedom was conceded in 1968."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Immediately after Franco's death, Juan Carlos appointed Suárez as Prime Minister.”",
+   "factIds": [
+    "F-SPAIN-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The king first kept Arias; he appointed Suárez only in mid-1976",
+     "correct": true,
+     "explanation": "Correct: after Arias's crackdown in April 1976."
+    },
+    {
+     "id": "b",
+     "text": "Suárez was a Socialist",
+     "correct": false,
+     "explanation": "He was a Francoist insider."
+    },
+    {
+     "id": "c",
+     "text": "Juan Carlos was never crowned",
+     "correct": false,
+     "explanation": "He was crowned two days after Franco died."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the order of events is wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The 1978 Constitution made Spain a republic with Catholicism as the state religion.”",
+   "factIds": [
+    "F-SPAIN-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Spain became a parliamentary monarchy with no official religion",
+     "correct": true,
+     "explanation": "Correct: both claims are wrong."
+    },
+    {
+     "id": "b",
+     "text": "The Constitution was approved in 1975",
+     "correct": false,
+     "explanation": "It was approved in December 1978."
+    },
+    {
+     "id": "c",
+     "text": "The Constitution banned regional autonomy",
+     "correct": false,
+     "explanation": "It granted a right to autonomy."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There are two errors."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Spain between 1939 and 1982. Is Spain's entry into the European Community on 1 January 1986 inside or outside the timeframe?",
+   "factIds": [
+    "F-SPAIN-34"
+   ],
+   "timeframe": [
+    1939,
+    1982
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later outcome",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1982."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1986 is after 1982."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Franco applied to the EEC in 1962",
+     "correct": false,
+     "explanation": "The 1962 application is inside; entry in 1986 is not."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Arias lose the king's favour in 1976?",
+   "factIds": [
+    "F-SPAIN-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He arrested the leaders of the Democratic Coordination",
+     "correct": true,
+     "explanation": "Correct: a coalition of still-illegal left-wing parties."
+    },
+    {
+     "id": "b",
+     "text": "He legalised the Communist Party",
+     "correct": false,
+     "explanation": "Suárez did that in 1977."
+    },
+    {
+     "id": "c",
+     "text": "He supported the 1981 coup",
+     "correct": false,
+     "explanation": "The coup came five years later."
+    },
+    {
+     "id": "d",
+     "text": "He joined ETA",
+     "correct": false,
+     "explanation": "Not the case."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the referendum of 15 December 1976 approve?",
+   "factIds": [
+    "F-SPAIN-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Political reform: universal suffrage and a two-chamber parliament",
+     "correct": true,
+     "explanation": "Correct: over 94 per cent in favour."
+    },
+    {
+     "id": "b",
+     "text": "The 1978 Constitution",
+     "correct": false,
+     "explanation": "That was approved by a second referendum in 1978."
+    },
+    {
+     "id": "c",
+     "text": "Basque independence",
+     "correct": false,
+     "explanation": "Not on the ballot."
+    },
+    {
+     "id": "d",
+     "text": "The return of Franco's family",
+     "correct": false,
+     "explanation": "Not on the ballot."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were the Moncloa Pacts of October 1977?",
+   "factIds": [
+    "F-SPAIN-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Agreements between politicians, unions and employers on devaluation, incomes and spending",
+     "correct": true,
+     "explanation": "Correct: they limited the economic crisis."
+    },
+    {
+     "id": "b",
+     "text": "A treaty joining NATO",
+     "correct": false,
+     "explanation": "Not what the Pacts were."
+    },
+    {
+     "id": "c",
+     "text": "Peace talks with ETA",
+     "correct": false,
+     "explanation": "Not what the Pacts were."
+    },
+    {
+     "id": "d",
+     "text": "The terms of Franco's succession",
+     "correct": false,
+     "explanation": "Franco was already dead."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "When was ETA formed?",
+   "factIds": [
+    "F-SPAIN-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "December 1958",
+     "correct": true,
+     "explanation": "Correct: a direct response to Franco's policies, says Judt."
+    },
+    {
+     "id": "b",
+     "text": "June 1968",
+     "correct": false,
+     "explanation": "That is when it killed its first victim."
+    },
+    {
+     "id": "c",
+     "text": "December 1973",
+     "correct": false,
+     "explanation": "That is when it killed Carrero Blanco."
+    },
+    {
+     "id": "d",
+     "text": "1979",
+     "correct": false,
+     "explanation": "That is the Basque Statute of Autonomy."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-R20",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Source: a secret US intelligence memorandum of 15 May 1975 judged that “the regime must change in order to survive but any real change carries threats to its existence.” Which argument does it support best?",
+   "factIds": [
+    "F-SPAIN-33"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Late Francoism faced a dilemma: reform was necessary but dangerous",
+     "correct": true,
+     "explanation": "Correct: written for US policy-makers six months before Franco died."
+    },
+    {
+     "id": "b",
+     "text": "The US wanted Franco to stay in power for ever",
+     "correct": false,
+     "explanation": "The source analyses the succession, not US wishes."
+    },
+    {
+     "id": "c",
+     "text": "Spain was already a democracy in 1975",
+     "correct": false,
+     "explanation": "The source says the regime still had to change."
+    },
+    {
+     "id": "d",
+     "text": "The army planned a coup in 1975",
+     "correct": false,
+     "explanation": "The source says the army accepted political change."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-17-B4-SPAIN-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the economic opening of 1959 responsible for the transition to democracy in Spain between 1959 and 1978?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the economic opening of 1959",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "responsible for the transition to democracy",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1959 and 1978",
+     "answer": "timeframe",
+     "explanation": "From the Plan to the Constitution."
+    },
+    {
+     "id": "s5",
+     "text": "responsible",
+     "answer": "judgement",
+     "explanation": "How far the economy, rather than political choices, caused democracy."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘The transition to democracy in Spain was made from above.’ Discuss with reference to the period 1975 to 1978.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "made from above",
+     "answer": "factor",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s3",
+     "text": "the transition to democracy in Spain",
+     "answer": "scope",
+     "explanation": "What the claim is about."
+    },
+    {
+     "id": "s4",
+     "text": "1975 to 1978",
+     "answer": "timeframe",
+     "explanation": "From Franco's death to the Constitution."
+    },
+    {
+     "id": "s5",
+     "text": "from above",
+     "answer": "judgement",
+     "explanation": "How far the old regime's men, rather than the opposition, made democracy."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The transition to democracy in Spain was made from above.’ Discuss with reference to the period 1975 to 1978.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The transition was begun from above, by the king and Suárez using Francoist institutions, but it was completed by negotiation with a legalised opposition that helped write the Constitution.",
+     "correct": true,
+     "explanation": "Correct: a judgement with a qualification."
+    },
+    {
+     "id": "b",
+     "text": "Franco died in 1975.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The transition was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The transition was made by a popular revolution.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the success of the transition to democracy in Spain between 1975 and 1982.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The transition largely succeeded: it built a consensual constitution and ended in a peaceful change of government in 1982, though ETA's violence and the 1981 coup attempt showed how fragile it remained.",
+     "correct": true,
+     "explanation": "Correct: judgement, criteria and limits."
+    },
+    {
+     "id": "b",
+     "text": "The Constitution was approved in 1978.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The transition was a total failure.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    },
+    {
+     "id": "d",
+     "text": "Spain had a transition.",
+     "correct": false,
+     "explanation": "No judgement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1959 Spain adopted a National Stabilization Plan.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because tourists and emigrants brought in foreign money, growth depended on other nations' prosperity.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "On 15 December 1976 the reform referendum passed.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the Francoist assembly voted away its own power, so the old guard could not claim the reform was illegal.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "The 1953 concordat",
+     "right": "The Church was a pillar of Francoism",
+     "explanation": "Tax exemption and censorship rights."
+    },
+    {
+     "left": "One worker in five on the land by 1971",
+     "right": "The economy transformed society",
+     "explanation": "Down from one in two in 1950."
+    },
+    {
+     "left": "Suárez had headed the National Movement",
+     "right": "The transition was made from above",
+     "explanation": "An insider dismantled the regime."
+    },
+    {
+     "left": "The king's televised speech in 1981",
+     "right": "The monarchy tied itself to democracy",
+     "explanation": "The coup failed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The king was important in the transition.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The king was decisive at two moments, appointing Suárez in 1976 and rejecting the coup in 1981, because as Franco's chosen successor he could reassure the army while tying the monarchy to the Constitution.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and judgement."
+    },
+    {
+     "id": "b",
+     "text": "The king was very important in the transition.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The king was crowned in 1975.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The king did everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Spanish democracy was the work of King Juan Carlos alone.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Suárez built the transition's institutions, from the reform referendum to the legalisation of parties, and the Moncloa Pacts and the Constitution were negotiated with the left, so democracy rested on consensus, not on one man.",
+     "correct": true,
+     "explanation": "Correct: specific evidence of other actors."
+    },
+    {
+     "id": "b",
+     "text": "The king was young.",
+     "correct": false,
+     "explanation": "Not an argument about who made democracy."
+    },
+    {
+     "id": "c",
+     "text": "Some people disliked the king.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "Franco died in 1975.",
+     "correct": false,
+     "explanation": "A fact, not a counter."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the economic opening of 1959 responsible for the transition to democracy in Spain between 1959 and 1978?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether democracy could have taken root without it, the economic opening was a necessary condition, because it created a modern society; but it was not sufficient, since the form and speed of change were decided by political choices after 1975.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the economy grew and then there was democracy.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the economy was important.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, money always causes democracy.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B4-SPAIN-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the causes and consequences of political instability in Spain between 1979 and 1982.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "ETA killed 181 people in 1979–80",
+     "answer": "causes",
+     "explanation": "Terror aimed at provoking a backlash."
+    },
+    {
+     "id": "s2",
+     "text": "Inflation and the loss of 1.8 million jobs",
+     "answer": "causes",
+     "explanation": "The economic crisis."
+    },
+    {
+     "id": "s3",
+     "text": "Suárez forced out by his own party",
+     "answer": "causes",
+     "explanation": "A leaderless government."
+    },
+    {
+     "id": "s4",
+     "text": "The military budget was cut and divorce legalised",
+     "answer": "effects",
+     "explanation": "After the coup attempt failed."
+    },
+    {
+     "id": "s5",
+     "text": "The Socialists won an absolute majority in 1982",
+     "answer": "effects",
+     "explanation": "Peaceful alternation."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-17-B4-SPAIN-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the economic opening of 1959 responsible for the transition to democracy in Spain between 1959 and 1978?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the economic opening",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1959,
+    1978
+   ],
+   "scope": "Spain",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The economic opening, weighed first",
+    "timeframe": "1959–1978",
+    "scope": "The transition to democracy",
+    "judgement": "How far the economy, rather than political choices, caused democracy"
+   },
+   "modelPlan": {
+    "thesis": "The economic opening was a necessary condition of democracy, because it created a modern, urban society with its own labour movement; but political choices after 1975 decided the form and speed of the transition.",
+    "arguments": [
+     {
+      "claim": "Economic opening transformed society (named factor first).",
+      "evidence": [
+       "F-SPAIN-10",
+       "F-SPAIN-11"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "A labour movement and the decline of the Church.",
+      "evidence": [
+       "F-SPAIN-14",
+       "F-SPAIN-15"
+      ]
+     },
+     {
+      "claim": "Political choices: the king and Suárez.",
+      "evidence": [
+       "F-SPAIN-18",
+       "F-SPAIN-19"
+      ]
+     },
+     {
+      "claim": "Negotiation with the opposition.",
+      "evidence": [
+       "F-SPAIN-21",
+       "F-SPAIN-22"
+      ]
+     }
+    ],
+    "counter": "The transition was managed from within the regime, so political leadership, not the economy, explains how it happened.",
+    "judgementCriterion": "Could democracy have taken root without the changes of 1959–1975? Judt suggests not, because society had already moved ahead of the state."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The economic opening of 1959 made democracy possible by changing Spanish society faster than the Spanish state.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The share of workers on the land fell from one in two in 1950 to one in five in 1971, and by 1975 an unofficial labour movement had nearly a decade of experience.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the regime faced a modern society it could not simply repress, so its survival without Franco became unlikely.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the transition itself was managed by Franco's own appointees, and the king's choice of Suárez decided its course.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The economic opening was therefore necessary but not sufficient: it explains why democracy came, while political choices explain how.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic opening",
+     "Stabilization Plan"
+    ],
+    "synonyms": [
+     "economy",
+     "1959",
+     "growth"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Opus Dei",
+     "tourism",
+     "autarky"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B4-SPAIN-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The transition to democracy in Spain was made from above.” Discuss with reference to the period 1975 to 1978.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1975,
+    1978
+   ],
+   "scope": "Spain",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: 'made from above'",
+    "timeframe": "1975–1978",
+    "scope": "The transition to democracy",
+    "judgement": "How far the old regime's men, rather than the opposition, made democracy"
+   },
+   "modelPlan": {
+    "thesis": "The transition was begun from above, by the king and Suárez using Francoist institutions, but it was completed by negotiation with a legalised opposition that helped write the Constitution.",
+    "arguments": [
+     {
+      "claim": "For: the king appointed an insider.",
+      "evidence": [
+       "F-SPAIN-18",
+       "F-SPAIN-19"
+      ]
+     },
+     {
+      "claim": "For: Francoist institutions voted for reform.",
+      "evidence": [
+       "F-SPAIN-19",
+       "F-SPAIN-17"
+      ]
+     },
+     {
+      "claim": "Against: the opposition shaped the elections and Constitution.",
+      "evidence": [
+       "F-SPAIN-20",
+       "F-SPAIN-21"
+      ]
+     },
+     {
+      "claim": "Against: consensus with the left in the Constitution.",
+      "evidence": [
+       "F-SPAIN-22"
+      ]
+     }
+    ],
+    "counter": "Strikes from the later 1960s, and demonstrations in 1975 demanding freedom of the press and of political association, show pressure from below.",
+    "judgementCriterion": "Who decided the content of democracy? The Constitution was negotiated with the left, so 'from above' describes the start more than the finish."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The transition was begun from above, by men the dictatorship had itself appointed.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Juan Carlos appointed Suárez, a former head of the National Movement, who persuaded the Francoist assembly to accept a reform referendum that passed with over 94 per cent on 15 December 1976.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the old regime's institutions voted for their own reform, so its supporters were reassured and the army had no grounds to act.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, once legalised, the Socialists won 121 seats in 1977 and shared in writing the Constitution, so the opposition shaped the final settlement.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid for how the transition began, but not for how it ended.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "from above"
+    ],
+    "synonyms": [
+     "Suárez",
+     "the king",
+     "reform"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "referendum",
+     "National Movement",
+     "consensus"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B4-SPAIN-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the success of the transition to democracy in Spain between 1975 and 1982.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1975,
+    1982
+   ],
+   "scope": "Spain",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The success of the transition",
+    "timeframe": "1975–1982",
+    "scope": "Spain",
+    "judgement": "By what criterion: institutions, survival, or alternation in power"
+   },
+   "modelPlan": {
+    "thesis": "The transition largely succeeded: it built a consensual constitution and ended in a peaceful change of government in 1982, though ETA's violence and the 1981 coup attempt showed how fragile it remained.",
+    "arguments": [
+     {
+      "claim": "A consensual Constitution.",
+      "evidence": [
+       "F-SPAIN-21",
+       "F-SPAIN-22"
+      ]
+     },
+     {
+      "claim": "Surviving the coup attempt.",
+      "evidence": [
+       "F-SPAIN-28",
+       "F-SPAIN-29"
+      ]
+     },
+     {
+      "claim": "Peaceful alternation in 1982.",
+      "evidence": [
+       "F-SPAIN-31"
+      ]
+     },
+     {
+      "claim": "Limits: ETA and the economy.",
+      "evidence": [
+       "F-SPAIN-26",
+       "F-SPAIN-24"
+      ]
+     }
+    ],
+    "counter": "The coup attempt of 1981 showed that democracy survived only because of one man's decision.",
+    "judgementCriterion": "By the test of alternation in power, the transition succeeded, because the former opposition took office peacefully in 1982."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The transition largely succeeded, because by 1982 power had passed peacefully to the former opposition.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The 1978 Constitution was approved by referendum, the coup of February 1981 failed, and in October 1982 the Socialists won an absolute majority.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that democracy no longer depended on the men of the old regime, so it had become a normal western European system.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, ETA killed 181 people in 1979–80 and inflation reached 26 per cent in 1977, so the new democracy was fragile.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The transition was therefore a success by the decisive test of alternation, despite the dangers it survived.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "transition"
+    ],
+    "synonyms": [
+     "democracy",
+     "success"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Constitution",
+     "alternation",
+     "coup"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B4-SPAIN-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the methods Franco used to maintain his rule in Spain between 1939 and 1975.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1939,
+    1975
+   ],
+   "scope": "Spain",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Franco's methods of rule",
+    "timeframe": "1939–1975",
+    "scope": "Spain",
+    "judgement": "Which method mattered most, and how the methods changed over time"
+   },
+   "modelPlan": {
+    "thesis": "Franco ruled above all by binding the Church and the army to the regime, backed by repression; in his last years enforced passive acceptance and economic growth replaced open violence.",
+    "arguments": [
+     {
+      "claim": "The Church and the concordat.",
+      "evidence": [
+       "F-SPAIN-03"
+      ]
+     },
+     {
+      "claim": "Flattering the army.",
+      "evidence": [
+       "F-SPAIN-06",
+       "F-SPAIN-07"
+      ]
+     },
+     {
+      "claim": "Repression and censorship.",
+      "evidence": [
+       "F-SPAIN-02",
+       "F-SPAIN-04",
+       "F-SPAIN-08"
+      ]
+     },
+     {
+      "claim": "De-politicisation and growth.",
+      "evidence": [
+       "F-SPAIN-05",
+       "F-SPAIN-11"
+      ]
+     }
+    ],
+    "counter": "Economic growth after 1959 created the social forces that the regime could no longer fully control.",
+    "judgementCriterion": "Which method lasted? Institutional loyalty, since repression gave way to passive acceptance in the last years."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Franco maintained his rule above all by binding the Church and the army to the regime.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The 1953 concordat freed the Church from taxation and gave it a right to request censorship, while the army had 300 generals and a legal duty to defend 'the institutional system'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Spain's most powerful institutions had a stake in the regime, so neither became a centre of opposition.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, repression also mattered: parties were banned, Grimau was executed in 1963 and Basque culture was suppressed.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Institutional loyalty was therefore Franco's main method, with repression its support and, later, passive acceptance its result.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "methods"
+    ],
+    "synonyms": [
+     "Church",
+     "army",
+     "repression"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "concordat",
+     "censorship",
+     "passive acceptance"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B4-SPAIN-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the causes and consequences of political instability in Spain between 1979 and 1982.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1979,
+    1982
+   ],
+   "scope": "Spain",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1979–1982",
+    "scope": "Political instability",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "Instability was caused mainly by ETA's terror and the economic crisis, which left the government looking leaderless; its most significant consequence was paradoxical: the failed coup of 1981 strengthened democracy.",
+    "arguments": [
+     {
+      "claim": "Cause: ETA's campaign.",
+      "evidence": [
+       "F-SPAIN-26",
+       "F-SPAIN-23"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: the economic crisis and Suárez's fall.",
+      "evidence": [
+       "F-SPAIN-24",
+       "F-SPAIN-27"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: the coup attempt and the king's stand.",
+      "evidence": [
+       "F-SPAIN-28",
+       "F-SPAIN-29",
+       "F-SPAIN-30"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: the Socialist victory of 1982.",
+      "evidence": [
+       "F-SPAIN-31"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "The coup showed how close democracy came to failure, since the parties could have done little to stop it.",
+    "judgementCriterion": "Which consequence lasted? The king's identification with the Constitution, which removed the old right's rallying point."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Instability was caused above all by ETA's terror, which aimed to provoke a backlash.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "ETA killed 181 people in 1979–80, while Spain lost 1.8 million jobs between 1973 and 1982 and Suárez was forced out in January 1981.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that to the right democratic Spain looked leaderless and close to breaking up, so Tejero and Milans del Bosch acted in February 1981.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the coup failed when the king defended the Constitution, and the Cortes then cut the military budget.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Instability therefore had a paradoxical consequence: it ended in the defeat of the old right and a peaceful Socialist victory in 1982.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "instability"
+    ],
+    "synonyms": [
+     "ETA",
+     "coup",
+     "crisis"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Tejero",
+     "Moncloa Pacts",
+     "Basque"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B4-SPAIN-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the roles of Suárez and Juan Carlos in Spain's transition to democracy between 1975 and 1981.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "leader"
+   ],
+   "timeframe": [
+    1975,
+    1981
+   ],
+   "scope": "Spain",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The roles of Suárez and Juan Carlos",
+    "timeframe": "1975–1981",
+    "scope": "Spain's transition",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both were products of Franco's system who used the old regime's trust to dismantle it, but they played different roles: Suárez built democracy's institutions, while the king chose the builder and defended the result in 1981.",
+    "arguments": [
+     {
+      "claim": "Similarity: both were Franco's men.",
+      "evidence": [
+       "F-SPAIN-05",
+       "F-SPAIN-19"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both reassured the old guard.",
+      "evidence": [
+       "F-SPAIN-18",
+       "F-SPAIN-19"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: Suárez built the institutions.",
+      "evidence": [
+       "F-SPAIN-19",
+       "F-SPAIN-20",
+       "F-SPAIN-21"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: the king intervened at decisive moments.",
+      "evidence": [
+       "F-SPAIN-18",
+       "F-SPAIN-29"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Suárez fell in January 1981 while the king's authority grew, suggesting the king's role mattered more in the long run.",
+    "judgementCriterion": "Which difference mattered most? The king's stand in 1981, because without it Suárez's institutions might not have survived."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Suárez and Juan Carlos were both Franco's men, but they played different parts in dismantling his regime.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Franco chose Juan Carlos as his successor and Suárez had headed the National Movement, yet Suárez legalised parties and unions in 1977, whereas the king appointed him in 1976 and rejected the coup in 1981.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Suárez built the institutions of democracy, while the king supplied the authority that protected them.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Suárez was forced out by his own party in January 1981, while the king's authority grew, so their roles were not equal over time.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore the king's defence of the Constitution in 1981, which secured what Suárez had built.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Suárez",
+     "Juan Carlos"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "National Movement",
+     "coup",
+     "Constitution"
+    ]
+   }
+  }
+ ]
+}

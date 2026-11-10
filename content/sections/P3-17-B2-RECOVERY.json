@@ -1,0 +1,2809 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-17-B2-RECOVERY",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 20,
+  "openingProblem": {
+   "problem": "In 1947 western Europe was close to economic collapse. By 1963 West Germany was an export giant and France had a stable new republic. Was recovery made in Washington, in Bonn and Paris, or simply by the boom of the times?",
+   "predictionPrompt": "Your prediction in one line: what mattered most for recovery?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Europe in 1947 and the Marshall Plan",
+    "body": "Two years after the war, western Europe was close to choking. The United States had already lent large sums: $4.4 billion to Britain and $1.9 billion to France. But Tony Judt explains that these loans plugged holes rather than rebuilt economies, and they came with conditions Europe could not meet. When Truman cancelled wartime Lend-Lease, the economist John Maynard Keynes warned the British Cabinet of an \"economic Dunkirk\". By the spring of 1947 the bilateral approach had failed. Europe's trade deficit with the United States would reach $4,742 million in 1947, more than double the year before. Europe could not pay for the food, fuel and raw materials it needed.\n\nOn 5 June 1947, at Harvard University, Secretary of State George Marshall announced a **European Recovery Program**. The British Foreign Secretary, Ernest Bevin, called it \"one of the greatest speeches in world history\". It broke with past practice. Europeans themselves would decide whether to accept American aid and how to use it. The aid would be spread over several years, a strategic programme of recovery rather than a disaster fund. And it was huge: by 1952 the United States had spent about $13 billion, more than all its previous overseas aid combined, about half of one per cent of its GDP each year from 1948 to 1951.\n\nThe offer was made to all European countries. Soviet Foreign Minister Molotov came to Paris to discuss it, but on 2 July 1947 he walked out: the conditions were incompatible with the closed Soviet economy. From 12 July sixteen western European states took part; despite early interest from Poland, Czechoslovakia and others, no future Communist state received a dollar. Within a year, Congress was persuaded that Marshall aid was \"an economic barrier to Soviet expansion\".\n\nThis mattered because Europe's division now had an economic form, which meant that the Marshall Plan became both a programme of recovery and a dividing line of the Cold War. In Germany, as the German question section shows, it also helped turn the western zones into a separate economy.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Marshall Plan answered a dollar crisis that threatened Europe's recovery.",
+      "evidence": [
+       "F-RECOV-01",
+       "F-RECOV-06"
+      ],
+      "strongestCounter": "Some historians see a 'temporary' shortfall that would have eased anyway; Judt replies that no one could know that in 1947."
+     },
+     {
+      "claim": "Its design, European control and multi-year funding, made it different from earlier aid.",
+      "evidence": [
+       "F-RECOV-02",
+       "F-RECOV-03"
+      ],
+      "strongestCounter": "American advisers still played a prominent role in administering it."
+     },
+     {
+      "claim": "The Soviet refusal turned the Plan into a dividing line of the Cold War.",
+      "evidence": [
+       "F-RECOV-04"
+      ],
+      "strongestCounter": "The offer was genuinely open in June 1947; division followed from Soviet choice."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the Marshall Plan responsible for the economic recovery of western Europe between 1947 and 1952?",
+     "Compare and contrast the recovery of West Germany and France between 1945 and 1963."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Marshall Plan was a response to a dollar crisis that threatened to stop western Europe's recovery.",
+     "prove": "Europe's trade deficit with the United States reached $4,742 million in 1947, and earlier American loans, such as $4.4 billion to Britain, had been spent within months.",
+     "explain": "This meant that governments could not import the food and raw materials they needed without cutting living standards, so recovery itself was at risk.",
+     "test": "However, some argue that the shortfall was temporary and that European economies were already growing.",
+     "judge": "The Plan was therefore crucial less because Europe could not grow without it than because no government could be sure of that in 1947."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B2-RECOVERY-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When and where did Marshall announce the European Recovery Program?",
+      "factIds": [
+       "F-RECOV-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "5 June 1947, at Harvard University",
+        "correct": true,
+        "explanation": "Correct: Bevin called it one of the greatest speeches in history."
+       },
+       {
+        "id": "b",
+        "text": "July 1945, at Potsdam",
+        "correct": false,
+        "explanation": "Potsdam was a conference on Germany."
+       },
+       {
+        "id": "c",
+        "text": "March 1947, before Congress",
+        "correct": false,
+        "explanation": "That was the Truman Doctrine."
+       },
+       {
+        "id": "d",
+        "text": "May 1950, in Paris",
+        "correct": false,
+        "explanation": "That was the Schuman Plan."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B2-RECOVERY-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many billion dollars had the US spent on Marshall aid by 1952? (number)",
+      "factIds": [
+       "F-RECOV-03"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 13,
+        "tolerance": 0,
+        "explanation": "About $13 billion, more than all previous US overseas aid combined."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B2-RECOVERY-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Molotov walked out of the Paris talks on 2 July 1947, and no future Communist state received Marshall aid.” Which argument does it support best?",
+      "factIds": [
+       "F-RECOV-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Marshall Plan became a dividing line in Europe",
+        "correct": true,
+        "explanation": "Correct: aid went only to the West."
+       },
+       {
+        "id": "b",
+        "text": "The US refused to offer aid to eastern Europe",
+        "correct": false,
+        "explanation": "The offer in June 1947 was open to all."
+       },
+       {
+        "id": "c",
+        "text": "Molotov supported the Plan",
+        "correct": false,
+        "explanation": "He walked out."
+       },
+       {
+        "id": "d",
+        "text": "The Plan was a military alliance",
+        "correct": false,
+        "explanation": "It was an economic programme."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "impact_consequences",
+    "title": "What did the Marshall Plan achieve?",
+    "body": "Western Europe recovered precisely during the Marshall years. French industrial and agricultural output passed 1938 levels for the first time in 1949; West Germany and Greece reached that point in 1950. Between 1947 and 1951 the combined GNP of western Europe rose by 30 per cent. In the short term, Judt argues, the Plan's main contribution was dollars: they paid for imports such as wheat, four-fifths of which came from the dollar zone in 1949–51.\n\nCould Europe have recovered without it? Judt accepts that it probably could have grown, but only by squeezing domestic demand, cutting the new social services and lowering living standards. That was a risk elected governments could not afford. His verdict: \"The Marshall Plan was an economic program but the crisis it averted was political.\" By buying time, it protected fragile democracies.\n\nEach country used the money in its own way. In **France**, Marshall dollars financed almost half of public investment under the **Monnet Plan** for modernisation. One of Jean Monnet's colleagues admitted, \"we used the Americans to impose on the French government what we deemed necessary.\" Yet the Plan was unpopular there: in 1950 only one French adult in three had even heard of it, and 64 per cent of those thought it bad for France. In Austria, by contrast, Marshall aid provided 14 per cent of national income in its first full year.\n\nJudt believes the deepest benefits were psychological. The Plan obliged suspicious European governments to sit down together and coordinate their policies, and it made the beggar-your-neighbour trade and currency practices of the 1930s look \"first imprudent, then unnecessary and finally absurd\". Cooperation soon took a European form. France's own recovery depended on German coal, and on 9 May 1950 the French Foreign Minister, Robert Schuman, proposed pooling French and German coal and steel. Konrad Adenauer welcomed it as \"our breakthrough\": for the first time West Germany would join an international body as an equal. In April 1951 six states founded the **European Coal and Steel Community**; Britain stayed out.\n\nThis mattered because recovery and reconciliation came together, which meant that western Europe's economic revival also bound West Germany to its neighbours.",
+    "argumentsThatWork": [
+     {
+      "claim": "Marshall dollars were decisive in the short term because they paid for essential imports.",
+      "evidence": [
+       "F-RECOV-06",
+       "F-RECOV-03"
+      ],
+      "strongestCounter": "Recovery had begun before the aid arrived in several countries."
+     },
+     {
+      "claim": "The Plan's greatest effect was political: it bought time for fragile democracies.",
+      "evidence": [
+       "F-RECOV-07"
+      ],
+      "strongestCounter": "Its impact on European integration was only indirect, as Judt admits."
+     },
+     {
+      "claim": "France used the aid for its own planned modernisation, not American-style liberalisation.",
+      "evidence": [
+       "F-RECOV-05",
+       "F-RECOV-08"
+      ],
+      "strongestCounter": "The Plan was unpopular in France, so its political gains there were limited."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the Marshall Plan responsible for the economic recovery of western Europe between 1947 and 1952?",
+     "Compare and contrast the recovery of West Germany and France between 1945 and 1963."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Marshall Plan's most important achievement was political: it bought time for western Europe's democracies.",
+     "prove": "Between 1947 and 1951 western Europe's combined GNP rose by 30 per cent, and four-fifths of the wheat eaten in 1949–51 came from the dollar zone, paid for largely by Marshall aid.",
+     "explain": "This meant that governments did not have to choose between cutting living standards and failing to rebuild, so they avoided the political crises that austerity might have caused.",
+     "test": "However, Judt admits that Europe could probably have grown without the aid, at the price of lower living standards.",
+     "judge": "The Plan was therefore decisive not because recovery was impossible without it, but because it made recovery politically survivable."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B2-RECOVERY-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What proportion of French public investment under the Monnet Plan did Marshall dollars finance?",
+      "factIds": [
+       "F-RECOV-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Almost half",
+        "correct": true,
+        "explanation": "Correct: France used the aid for its own planning."
+       },
+       {
+        "id": "b",
+        "text": "About 5 per cent",
+        "correct": false,
+        "explanation": "Far too low."
+       },
+       {
+        "id": "c",
+        "text": "All of it",
+        "correct": false,
+        "explanation": "Too high: almost fifty per cent."
+       },
+       {
+        "id": "d",
+        "text": "None: France refused aid",
+        "correct": false,
+        "explanation": "France was a major recipient."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B2-RECOVERY-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Judt say about the crisis the Marshall Plan averted?",
+      "factIds": [
+       "F-RECOV-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It was political, although the Plan was an economic programme",
+        "correct": true,
+        "explanation": "Correct: it bought time for fragile democracies."
+       },
+       {
+        "id": "b",
+        "text": "It was military",
+        "correct": false,
+        "explanation": "Not Judt's argument."
+       },
+       {
+        "id": "c",
+        "text": "It was purely financial",
+        "correct": false,
+        "explanation": "He stresses the political danger."
+       },
+       {
+        "id": "d",
+        "text": "There was no crisis",
+        "correct": false,
+        "explanation": "He argues the danger was real in 1947."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B2-RECOVERY-C06",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "By what percentage did western Europe's combined GNP rise between 1947 and 1951? (number)",
+      "factIds": [
+       "F-RECOV-06"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 30,
+        "tolerance": 0,
+        "explanation": "30 per cent, during the Marshall years."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B2-RECOVERY-C07",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Adenauer called the Schuman Plan 'our breakthrough'.” Which argument does it support best?",
+      "factIds": [
+       "F-RECOV-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "European cooperation gave West Germany equality and bound it to the West",
+        "correct": true,
+        "explanation": "Correct: it joined as an equal."
+       },
+       {
+        "id": "b",
+        "text": "Adenauer opposed European integration",
+        "correct": false,
+        "explanation": "He welcomed it."
+       },
+       {
+        "id": "c",
+        "text": "Britain led the Schuman Plan",
+        "correct": false,
+        "explanation": "Britain declined to join."
+       },
+       {
+        "id": "d",
+        "text": "The Schuman Plan was an American programme",
+        "correct": false,
+        "explanation": "It was French."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "nature_methods",
+    "title": "Adenauer and the Wirtschaftswunder",
+    "body": "West Germany's recovery became the most famous of all, the *Wirtschaftswunder* or economic miracle. In the 1950s output per head grew by an average of 6.5 per cent a year, against 0.4 per cent a year between 1913 and 1950. Between 1950 and 1973 German GDP per head more than tripled. West Germany's share of the world's exports of manufactured goods rose from 7.3 per cent in 1950 to 19.3 per cent in 1960.\n\nWhy? Part of the answer lay in what survived the war. At Volkswagen 91 per cent of the machinery had survived bombing and looting, and by 1948 the factory could make one in every two cars produced in western Germany. Part lay in the currency reform of 1948 and the Marshall years, and in the growth of world trade. And part lay in labour: of some 13 million Germans expelled from eastern Europe, nearly 9 million settled in the western zones, and more arrived through Berlin.\n\nJudt stresses the political framework. The institutions of the Federal Republic were designed to avoid a second Weimar. Power was shared with the regional *Länder*, and the Bundestag could only remove a Chancellor if it already had a successor with a majority, which gave strong Chancellors long tenure. The \"social market\" economy aimed to prevent class conflict. Under the Co-Determination Law of 1951, workers sat on the supervisory boards of large coal, iron and steel firms. The state was far from absent: it controlled 40 per cent of coal and iron production and most banks. Judt notes that this regulated, cooperative economy was not what Ludwig Erhard, Adenauer's economics minister and champion of the free market, would have chosen. But a fast-growing economy let unions and employers settle disputes without conflict.\n\n**Konrad Adenauer** presided over it all. His Christian Democrats governed without interruption from 1949 until 1966; he himself led until he resigned in 1963 at the age of 87. He built a Christian rather than a narrowly Catholic party, allied with Bavaria's CSU. Judt credits him with steering the Federal Republic between neo-Nazism and pro-Soviet neutralism and anchoring it firmly in the West. His last years were less certain: a Franco-German friendship treaty signed with de Gaulle in January 1963 alarmed his own party, which feared for the American alliance, and his colleagues removed him later that year.\n\nThis mattered because prosperity gave the new democracy legitimacy, which meant that West Germans, unlike the citizens of Weimar, associated democracy with success.",
+    "argumentsThatWork": [
+     {
+      "claim": "The economic miracle rested on surviving industrial capacity, labour from the expellees and booming world trade.",
+      "evidence": [
+       "F-RECOV-12",
+       "F-RECOV-16",
+       "F-RECOV-11"
+      ],
+      "strongestCounter": "Policy also mattered: the currency reform and the social market."
+     },
+     {
+      "claim": "Bonn's institutions and the social market reduced conflict and gave strong, stable government.",
+      "evidence": [
+       "F-RECOV-13",
+       "F-RECOV-14"
+      ],
+      "strongestCounter": "The economy was more regulated and cartel-like than free-market rhetoric suggested."
+     },
+     {
+      "claim": "Adenauer anchored West Germany in the West and gave it stable leadership.",
+      "evidence": [
+       "F-RECOV-15",
+       "F-RECOV-17"
+      ],
+      "strongestCounter": "His own party removed him in 1963, partly over his closeness to de Gaulle."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the reasons for the West German economic miracle between 1948 and 1963.",
+     "Discuss the view that Adenauer's leadership was the main reason for West Germany's success between 1949 and 1963."
+    ],
+    "useItInAnEssay": {
+     "claim": "The West German economic miracle rested above all on the rapid growth of exports in an expanding world economy.",
+     "prove": "West Germany's share of world exports of manufactured goods rose from 7.3 per cent in 1950 to 19.3 per cent in 1960, helped by industrial capacity such as Volkswagen's, 91 per cent of which survived the war.",
+     "explain": "This meant that surviving factories and millions of expellee workers could be put to work selling into booming markets, so growth reached 6.5 per cent a year per head.",
+     "test": "However, the social market and Co-Determination kept industrial peace, which Judt argues mattered as much as markets.",
+     "judge": "Exports were therefore the engine of the miracle, while the political framework kept it running smoothly."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B2-RECOVERY-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was West Germany's average annual growth of output per head in the 1950s, according to Judt? (number, one decimal place)",
+      "factIds": [
+       "F-RECOV-10"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 6.5,
+        "tolerance": 0,
+        "explanation": "6.5 per cent, against 0.4 per cent in 1913–1950."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B2-RECOVERY-C09",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Co-Determination Law of 1951 require?",
+      "factIds": [
+       "F-RECOV-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Workers' representatives on the boards of large coal, iron and steel firms",
+        "correct": true,
+        "explanation": "Correct: part of the social market."
+       },
+       {
+        "id": "b",
+        "text": "The nationalisation of all industry",
+        "correct": false,
+        "explanation": "Industry stayed largely private."
+       },
+       {
+        "id": "c",
+        "text": "A ban on trade unions",
+        "correct": false,
+        "explanation": "Unions cooperated with employers."
+       },
+       {
+        "id": "d",
+        "text": "Free trade with the Soviet bloc",
+        "correct": false,
+        "explanation": "Unrelated."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B2-RECOVERY-C10",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Bundestag could remove a Chancellor only if it already had a successor with a majority.” Which argument does it support best?",
+      "factIds": [
+       "F-RECOV-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Bonn's institutions were designed to avoid Weimar's instability",
+        "correct": true,
+        "explanation": "Correct: it gave strong Chancellors long tenure."
+       },
+       {
+        "id": "b",
+        "text": "West Germany had no parliament",
+        "correct": false,
+        "explanation": "The Bundestag was elected."
+       },
+       {
+        "id": "c",
+        "text": "Chancellors were chosen by the Allies",
+        "correct": false,
+        "explanation": "Not after 1949."
+       },
+       {
+        "id": "d",
+        "text": "Adenauer ruled as a dictator",
+        "correct": false,
+        "explanation": "He governed through elections."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "role_of_leader",
+    "title": "De Gaulle: from the Fourth to the Fifth Republic",
+    "body": "France recovered economically while its politics failed. The **Fourth Republic** lasted just twelve years. Judt lists its weaknesses: no effective executive, because memories of Vichy made legislators wary of a strong president; an electoral system that produced many parties and unstable coalitions; a social backlash, seen in Pierre Poujade's protest movement, which won 52 seats in 1956; and above all, the cost of colonial wars, fought almost continuously from 1947 and, after 1955, in Algeria. Between December 1955 and December 1957 France lost two-thirds of its currency reserves, even though the economy was growing.\n\nAlgeria brought it down. In April 1958 the government fell again, the third in eleven months, and European settlers in Algiers, fearing Paris would abandon them, formed a \"Committee of Public Safety\" demanding de Gaulle's return. On 15 May General Salan, the army commander in Algeria, called out de Gaulle's name to a cheering crowd. Rebels seized Corsica and Paris feared a paratroop landing. On 28 May the prime minister resigned, and on 1 June Charles de Gaulle took office; the Assembly gave him full powers the next day. In Algiers he told the crowd, in a deliberately ambiguous phrase: \"I have understood you\".\n\nDe Gaulle's **Fifth Republic** was designed to avoid the old faults. The Assembly and the parties lost power; the President gained control of policy and the right to appoint and dismiss prime ministers. The new constitution won 80 per cent of the vote in France in September 1958. A new franc in December 1958 launched a radical economic reform. In 1962 a referendum approved the direct election of the President, giving him, Judt writes, more power than any other freely elected head of state in the world.\n\nDe Gaulle then did what the settlers had not expected. In September 1959 he proposed self-determination for Algeria. Settlers and officers rebelled: barricades in Algiers in January 1960, a failed generals' putsch in April 1961, and the terrorism of the OAS, whose bombs killed 553 people in February 1962 alone. De Gaulle negotiated with the Algerian nationalists at Evian; a ceasefire came on 19 March 1962, and after a referendum on 1 July, Algeria became independent two days later.\n\nThis mattered because de Gaulle used a crisis created by Algeria to build a stronger state, which meant that France could end its colonial war and continue its economic growth with stable government. In January 1963 he signed a friendship treaty with Adenauer, a symbol of the reconciliation on which western Europe's recovery rested.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Fourth Republic fell because colonial war exposed its weak executive.",
+      "evidence": [
+       "F-RECOV-19",
+       "F-RECOV-20"
+      ],
+      "strongestCounter": "Its economic record was strong, so its failure was political, not economic."
+     },
+     {
+      "claim": "De Gaulle used the 1958 crisis to build a strong presidential state.",
+      "evidence": [
+       "F-RECOV-21",
+       "F-RECOV-22"
+      ],
+      "strongestCounter": "His return came through army pressure, which raises questions about its legitimacy."
+     },
+     {
+      "claim": "De Gaulle ended the Algerian war against the wishes of those who had brought him to power.",
+      "evidence": [
+       "F-RECOV-23",
+       "F-RECOV-24"
+      ],
+      "strongestCounter": "Independence was increasingly accepted internationally and by French opinion, so he followed as well as led."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the reasons for, and the consequences of, the collapse of the Fourth Republic in 1958.",
+     "Examine the role of de Gaulle in ending the Algerian war between 1958 and 1962."
+    ],
+    "useItInAnEssay": {
+     "claim": "De Gaulle ended the Algerian war by using the authority of the new presidency against those who had brought him to power.",
+     "prove": "Settlers and soldiers had demanded his return in May 1958, yet in September 1959 he proposed self-determination and faced down the April 1961 putsch.",
+     "explain": "This meant that only a leader with his prestige and a strong executive could override the army and the settlers, so the Fifth Republic made independence possible.",
+     "test": "However, French opinion had turned decisively against the war after the putsch, so de Gaulle followed as well as led the country.",
+     "judge": "De Gaulle's role was therefore decisive in the timing and manner of the settlement, though not in the direction of opinion."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B2-RECOVERY-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did de Gaulle take office in 1958?",
+      "factIds": [
+       "F-RECOV-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "1 June 1958",
+        "correct": true,
+        "explanation": "Correct: with full powers the next day."
+       },
+       {
+        "id": "b",
+        "text": "15 May 1958",
+        "correct": false,
+        "explanation": "That is when Salan called out his name in Algiers."
+       },
+       {
+        "id": "c",
+        "text": "28 October 1962",
+        "correct": false,
+        "explanation": "That is the referendum on direct election of the President."
+       },
+       {
+        "id": "d",
+        "text": "19 March 1962",
+        "correct": false,
+        "explanation": "That is the Algerian ceasefire."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B2-RECOVERY-C12",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What share of the vote in France did de Gaulle win in the referendum of September 1958? (per cent)",
+      "factIds": [
+       "F-RECOV-21"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 80,
+        "tolerance": 0,
+        "explanation": "80 per cent in France; 96 per cent in Algeria."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B2-RECOVERY-C13",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “France lost two-thirds of its currency reserves between December 1955 and December 1957 despite economic growth.” Which argument does it support best?",
+      "factIds": [
+       "F-RECOV-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Colonial war, not the economy, undermined the Fourth Republic",
+        "correct": true,
+        "explanation": "Correct: the costs of war crippled it."
+       },
+       {
+        "id": "b",
+        "text": "France's economy collapsed in the 1950s",
+        "correct": false,
+        "explanation": "The economy was growing."
+       },
+       {
+        "id": "c",
+        "text": "The Marshall Plan failed in France",
+        "correct": false,
+        "explanation": "Unrelated to this fact."
+       },
+       {
+        "id": "d",
+        "text": "De Gaulle caused the currency crisis",
+        "correct": false,
+        "explanation": "He was out of power until 1958."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1947,
+      "month": 6,
+      "day": 5,
+      "text": "Marshall's Harvard speech",
+      "factId": "F-RECOV-02"
+     },
+     {
+      "year": 1947,
+      "month": 7,
+      "day": 12,
+      "text": "Sixteen states begin the Marshall talks",
+      "factId": "F-RECOV-04"
+     },
+     {
+      "year": 1949,
+      "month": 9,
+      "day": 15,
+      "text": "Adenauer becomes Chancellor",
+      "factId": "F-RECOV-15"
+     },
+     {
+      "year": 1950,
+      "month": 5,
+      "day": 9,
+      "text": "Schuman Plan announced",
+      "factId": "F-RECOV-09"
+     },
+     {
+      "year": 1951,
+      "month": 4,
+      "text": "European Coal and Steel Community founded",
+      "factId": "F-RECOV-09"
+     },
+     {
+      "year": 1951,
+      "text": "Co-Determination Law in West Germany",
+      "factId": "F-RECOV-14"
+     },
+     {
+      "year": 1958,
+      "month": 6,
+      "day": 1,
+      "text": "De Gaulle takes office",
+      "factId": "F-RECOV-20"
+     },
+     {
+      "year": 1958,
+      "month": 9,
+      "text": "Fifth Republic constitution approved by referendum",
+      "factId": "F-RECOV-21"
+     },
+     {
+      "year": 1959,
+      "month": 9,
+      "text": "De Gaulle proposes self-determination for Algeria",
+      "factId": "F-RECOV-23"
+     },
+     {
+      "year": 1962,
+      "month": 3,
+      "day": 19,
+      "text": "Algerian ceasefire",
+      "factId": "F-RECOV-23"
+     },
+     {
+      "year": 1962,
+      "month": 10,
+      "day": 28,
+      "text": "Referendum on direct election of the President",
+      "factId": "F-RECOV-22"
+     },
+     {
+      "year": 1963,
+      "month": 1,
+      "text": "Franco-German friendship treaty",
+      "factId": "F-RECOV-18"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "1947 dollar crisis: Europe cannot pay for imports",
+      "factId": "F-RECOV-01"
+     },
+     {
+      "id": "n2",
+      "text": "Marshall aid funds imports and investment",
+      "factId": "F-RECOV-03"
+     },
+     {
+      "id": "n3",
+      "text": "Recovery buys time for democracy; cooperation through the ECSC",
+      "factId": "F-RECOV-07"
+     },
+     {
+      "id": "n4",
+      "text": "West Germany: social market, exports and stable government",
+      "factId": "F-RECOV-10"
+     },
+     {
+      "id": "n5",
+      "text": "France: growth but colonial war breaks the Fourth Republic",
+      "factId": "F-RECOV-19"
+     },
+     {
+      "id": "n6",
+      "text": "De Gaulle's Fifth Republic and the end of the Algerian war",
+      "factId": "F-RECOV-22"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Bilateral loans had failed"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Dollars avoided the choice between austerity and political crisis"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "West Germany entered Europe as an equal and boomed"
+     },
+     {
+      "from": "n3",
+      "to": "n5",
+      "because": "France's growth was undermined by the cost of empire"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "The Algerian crisis brought de Gaulle back with a stronger state"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "George Marshall",
+     "role": "US Secretary of State",
+     "whyItMatters": "Launched the European Recovery Program on 5 June 1947.",
+     "factIds": [
+      "F-RECOV-02"
+     ]
+    },
+    {
+     "name": "Jean Monnet",
+     "role": "Architect of French economic planning",
+     "whyItMatters": "His Plan for modernisation was financed largely by Marshall dollars.",
+     "factIds": [
+      "F-RECOV-05"
+     ]
+    },
+    {
+     "name": "Robert Schuman",
+     "role": "French Foreign Minister",
+     "whyItMatters": "Proposed the coal and steel pool on 9 May 1950.",
+     "factIds": [
+      "F-RECOV-09"
+     ]
+    },
+    {
+     "name": "Konrad Adenauer",
+     "role": "West German Chancellor, 1949–1963",
+     "whyItMatters": "Anchored West Germany in the West and presided over the economic miracle.",
+     "factIds": [
+      "F-RECOV-15",
+      "F-RECOV-17"
+     ]
+    },
+    {
+     "name": "Ludwig Erhard",
+     "role": "Adenauer's economics minister",
+     "whyItMatters": "Champion of the free market, though the economy was more regulated than he wished.",
+     "factIds": [
+      "F-RECOV-14"
+     ]
+    },
+    {
+     "name": "Charles de Gaulle",
+     "role": "French leader from 1 June 1958",
+     "whyItMatters": "Founded the Fifth Republic and ended the Algerian war.",
+     "factIds": [
+      "F-RECOV-20",
+      "F-RECOV-22",
+      "F-RECOV-23"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "West Germany",
+     "France"
+    ],
+    "rows": [
+     {
+      "criterion": "Growth in the 1950s (per head, per year)",
+      "cells": [
+       "6.5 per cent",
+       "3.5 per cent"
+      ],
+      "factIds": [
+       "F-RECOV-10"
+      ]
+     },
+     {
+      "criterion": "Use of Marshall aid",
+      "cells": [
+       "Part of currency reform and the end of occupation economics",
+       "Almost half of public investment under the Monnet Plan"
+      ],
+      "factIds": [
+       "F-RECOV-05",
+       "F-RECOV-06"
+      ]
+     },
+     {
+      "criterion": "Political stability",
+      "cells": [
+       "CDU in power 1949–1966; strong Chancellors",
+       "Unstable coalitions until 1958; then the Fifth Republic"
+      ],
+      "factIds": [
+       "F-RECOV-13",
+       "F-RECOV-15",
+       "F-RECOV-19",
+       "F-RECOV-22"
+      ]
+     },
+     {
+      "criterion": "Main obstacle",
+      "cells": [
+       "Division and millions of expellees",
+       "Colonial wars, above all Algeria"
+      ],
+      "factIds": [
+       "F-RECOV-16",
+       "F-RECOV-19"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-RECOV-01",
+    "year": 1947,
+    "text": "1947: Europe's trade deficit with the US reached $4,742 million; earlier bilateral loans had failed.",
+    "supports": [
+     "A dollar crisis threatened recovery"
+    ],
+    "alsoWorksFor": [
+     "P2-12-GRAND-ALLIANCE"
+    ],
+    "lexicon": [
+     "dollar gap",
+     "Lend-Lease"
+    ]
+   },
+   {
+    "factId": "F-RECOV-03",
+    "year": 1952,
+    "text": "By 1952 Marshall aid totalled about $13 billion, about 0.5 per cent of US GDP a year in 1948–51.",
+    "supports": [
+     "The Plan was large and strategic"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "Marshall Plan",
+     "European Recovery Program"
+    ]
+   },
+   {
+    "factId": "F-RECOV-06",
+    "year": 1951,
+    "text": "Western Europe's GNP rose 30 per cent in 1947–51; France passed 1938 output in 1949.",
+    "supports": [
+     "Recovery coincided with the Marshall years"
+    ],
+    "lexicon": [
+     "recovery",
+     "GNP"
+    ]
+   },
+   {
+    "factId": "F-RECOV-07",
+    "year": 1948,
+    "text": "Judt: 'The Marshall Plan was an economic program but the crisis it averted was political.'",
+    "supports": [
+     "The Plan bought time for democracy"
+    ],
+    "lexicon": [
+     "political crisis",
+     "time"
+    ]
+   },
+   {
+    "factId": "F-RECOV-10",
+    "year": 1960,
+    "text": "1950s growth per head: West Germany 6.5, Italy 5.3, France 3.5 per cent a year.",
+    "supports": [
+     "West Germany's miracle outpaced its neighbours"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B5-ITALY"
+    ],
+    "lexicon": [
+     "Wirtschaftswunder"
+    ]
+   },
+   {
+    "factId": "F-RECOV-14",
+    "year": 1951,
+    "text": "Co-Determination Law (1951): workers on the boards of large coal, iron and steel firms.",
+    "supports": [
+     "The social market kept industrial peace"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-POLICIES"
+    ],
+    "lexicon": [
+     "social market",
+     "Mitbestimmung"
+    ]
+   },
+   {
+    "factId": "F-RECOV-19",
+    "year": 1957,
+    "text": "France lost two-thirds of its currency reserves in 1955–57 because of colonial war.",
+    "supports": [
+     "Empire, not economics, broke the Fourth Republic"
+    ],
+    "lexicon": [
+     "Fourth Republic",
+     "Algeria"
+    ]
+   },
+   {
+    "factId": "F-RECOV-22",
+    "year": 1962,
+    "text": "Fifth Republic: a strong presidency; direct election approved by referendum on 28 October 1962.",
+    "supports": [
+     "De Gaulle built a stable state"
+    ],
+    "lexicon": [
+     "Fifth Republic",
+     "presidency"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Europe could perhaps have grown without Marshall aid, but only by cutting living standards; 'The Marshall Plan was an economic program but the crisis it averted was political', and its real benefits were psychological, breaking the habits of the 1930s.",
+    "useItLikeThis": "Judt's view supports a judgement that the Marshall Plan mattered more for what it prevented than for what it built, which suggests western recovery depended on political confidence as much as on dollars.",
+    "factId": "F-RECOV-07"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Marshall Plan was offered only to western Europe.",
+    "right": "It was offered to **all** European countries; the Soviet Union walked out and stopped its satellites joining."
+   },
+   {
+    "wrong": "West Germany's economy was a pure free market.",
+    "right": "It was a **social market**: Co-Determination, state control of 40 per cent of coal and iron, and close links between banks and industry."
+   },
+   {
+    "wrong": "The Fourth Republic failed because France's economy failed.",
+    "right": "The economy **grew**; colonial wars and a weak executive brought the Republic down."
+   },
+   {
+    "wrong": "De Gaulle returned in 1958 to keep Algeria French.",
+    "right": "The settlers expected that, but he proposed **self-determination** in 1959 and Algeria was independent in 1962."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1947,
+     "month": 6,
+     "day": 5,
+     "text": "Marshall's speech"
+    },
+    {
+     "year": 1950,
+     "month": 5,
+     "day": 9,
+     "text": "Schuman Plan"
+    },
+    {
+     "year": 1951,
+     "month": 4,
+     "text": "ECSC"
+    },
+    {
+     "year": 1958,
+     "month": 6,
+     "day": 1,
+     "text": "De Gaulle in office"
+    },
+    {
+     "year": 1958,
+     "month": 9,
+     "text": "Fifth Republic approved"
+    },
+    {
+     "year": 1962,
+     "month": 3,
+     "day": 19,
+     "text": "Algerian ceasefire"
+    },
+    {
+     "year": 1963,
+     "month": 1,
+     "text": "Franco-German treaty"
+    }
+   ],
+   "keyArguments": [
+    "1947 was a dollar crisis; bilateral loans had failed.",
+    "Marshall aid paid for imports and bought time: the crisis averted was political (Judt).",
+    "West Germany's miracle: surviving industry, expellee labour, exports and the social market.",
+    "Adenauer anchored West Germany in the West; strong Chancellors gave stability.",
+    "France grew but colonial war broke the Fourth Republic; de Gaulle built a strong state and ended the Algerian war."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-17-B2-RECOVERY-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Marshall's Harvard speech",
+     "year": 1947,
+     "month": 6,
+     "factId": "F-RECOV-02"
+    },
+    {
+     "id": "b",
+     "text": "Schuman Plan announced",
+     "year": 1950,
+     "month": 5,
+     "factId": "F-RECOV-09"
+    },
+    {
+     "id": "c",
+     "text": "De Gaulle takes office",
+     "year": 1958,
+     "month": 6,
+     "factId": "F-RECOV-20"
+    },
+    {
+     "id": "d",
+     "text": "Algerian ceasefire",
+     "year": 1962,
+     "month": 3,
+     "factId": "F-RECOV-23"
+    },
+    {
+     "id": "e",
+     "text": "Franco-German friendship treaty",
+     "year": 1963,
+     "month": 1,
+     "factId": "F-RECOV-18"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these French events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Gaillard government falls",
+     "year": 1958,
+     "month": 4,
+     "factId": "F-RECOV-20"
+    },
+    {
+     "id": "b",
+     "text": "Salan calls out de Gaulle's name in Algiers",
+     "year": 1958,
+     "month": 5,
+     "factId": "F-RECOV-20"
+    },
+    {
+     "id": "c",
+     "text": "Referendum on the new constitution",
+     "year": 1958,
+     "month": 9,
+     "factId": "F-RECOV-21"
+    },
+    {
+     "id": "d",
+     "text": "New franc introduced",
+     "year": 1958,
+     "month": 12,
+     "factId": "F-RECOV-25"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R03",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "George Marshall",
+     "right": "Announced the European Recovery Program",
+     "explanation": "At Harvard, 5 June 1947."
+    },
+    {
+     "left": "Jean Monnet",
+     "right": "Planner whose modernisation plan used Marshall dollars",
+     "explanation": "Almost half of French public investment."
+    },
+    {
+     "left": "Robert Schuman",
+     "right": "Proposed pooling French and German coal and steel",
+     "explanation": "9 May 1950."
+    },
+    {
+     "left": "Raoul Salan",
+     "right": "Army commander in Algeria who called for de Gaulle",
+     "explanation": "15 May 1958."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R04",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many states took part in the Marshall talks from 12 July 1947? (number)",
+   "factIds": [
+    "F-RECOV-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 16,
+     "tolerance": 0,
+     "explanation": "Sixteen western European states."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of Austria's national income came from Marshall aid in the first full year? (number)",
+   "factIds": [
+    "F-RECOV-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 14,
+     "tolerance": 0,
+     "explanation": "14 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How old was Adenauer when he resigned in 1963? (number)",
+   "factIds": [
+    "F-RECOV-15"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 87,
+     "tolerance": 0,
+     "explanation": "87."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people did OAS attacks kill in February 1962 alone? (number)",
+   "factIds": [
+    "F-RECOV-24"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 553,
+     "tolerance": 0,
+     "explanation": "553."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R08",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these weakened the Fourth Republic? Choose all that apply.",
+   "factIds": [
+    "F-RECOV-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A weak executive",
+     "correct": true,
+     "explanation": "Yes: a legacy of Vichy."
+    },
+    {
+     "id": "b",
+     "text": "Unstable coalition governments",
+     "correct": true,
+     "explanation": "Yes: many parties, short-lived cabinets."
+    },
+    {
+     "id": "c",
+     "text": "The cost of colonial wars",
+     "correct": true,
+     "explanation": "Yes: above all."
+    },
+    {
+     "id": "d",
+     "text": "Economic decline",
+     "correct": false,
+     "explanation": "No: the economy grew."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these helped the West German economic miracle? Choose all that apply.",
+   "factIds": [
+    "F-RECOV-11",
+    "F-RECOV-12",
+    "F-RECOV-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Industrial capacity that survived the war",
+     "correct": true,
+     "explanation": "Yes: 91 per cent of Volkswagen's machinery."
+    },
+    {
+     "id": "b",
+     "text": "Millions of expellees as workers",
+     "correct": true,
+     "explanation": "Yes: nearly 9 million settled in the western zones."
+    },
+    {
+     "id": "c",
+     "text": "Booming world trade",
+     "correct": true,
+     "explanation": "Yes: exports of manufactures rose to 19.3 per cent of the world total."
+    },
+    {
+     "id": "d",
+     "text": "Soviet reparations payments to the West",
+     "correct": false,
+     "explanation": "No: reparations flowed the other way."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R10",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In 1950 only one French adult in three had heard of the Marshall Plan, and 64 per cent of those thought it bad.” Which argument does it support?",
+   "factIds": [
+    "F-RECOV-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Plan's economic success did not bring political popularity in France",
+     "correct": true,
+     "explanation": "Correct: a public relations success for the Communists."
+    },
+    {
+     "id": "b",
+     "text": "The Plan was not used in France",
+     "correct": false,
+     "explanation": "It financed almost half of public investment."
+    },
+    {
+     "id": "c",
+     "text": "France rejected Marshall aid",
+     "correct": false,
+     "explanation": "France was a major recipient."
+    },
+    {
+     "id": "d",
+     "text": "Most French people supported the Plan",
+     "correct": false,
+     "explanation": "The opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Settlers in Algiers formed a Committee of Public Safety and demanded de Gaulle's return in 1958.” Which argument does it support?",
+   "factIds": [
+    "F-RECOV-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Fourth Republic fell under pressure from Algeria",
+     "correct": true,
+     "explanation": "Correct: the army and settlers forced the crisis."
+    },
+    {
+     "id": "b",
+     "text": "De Gaulle seized power in a coup",
+     "correct": false,
+     "explanation": "He was appointed by President Coty and voted full powers."
+    },
+    {
+     "id": "c",
+     "text": "Algeria wanted independence in 1958",
+     "correct": false,
+     "explanation": "The settlers wanted French Algeria."
+    },
+    {
+     "id": "d",
+     "text": "The settlers opposed de Gaulle",
+     "correct": false,
+     "explanation": "They demanded his return."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R12",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Soviet Union accepted Marshall aid and shared it with its satellites.”",
+   "factIds": [
+    "F-RECOV-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Molotov walked out, and no future Communist state received Marshall aid",
+     "correct": true,
+     "explanation": "Correct: the Plan divided Europe."
+    },
+    {
+     "id": "b",
+     "text": "The Plan began in 1960",
+     "correct": false,
+     "explanation": "It was announced in 1947."
+    },
+    {
+     "id": "c",
+     "text": "The Plan was a loan from Britain",
+     "correct": false,
+     "explanation": "It was American."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the USSR refused."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “De Gaulle returned in 1958 and kept Algeria French until 1970.”",
+   "factIds": [
+    "F-RECOV-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Algeria became independent in July 1962",
+     "correct": true,
+     "explanation": "Correct: after the Evian talks and a referendum."
+    },
+    {
+     "id": "b",
+     "text": "De Gaulle returned in 1945",
+     "correct": false,
+     "explanation": "He took office in June 1958."
+    },
+    {
+     "id": "c",
+     "text": "Algeria was British",
+     "correct": false,
+     "explanation": "It was French."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Algeria was independent in 1962."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R14",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about recovery between 1945 and 1963. Are the student protests of May 1968 in France inside or outside the timeframe?",
+   "timeframe": [
+    1945,
+    1963
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: 1968 is after 1963."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1968 is outside."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because de Gaulle was still President",
+     "correct": false,
+     "explanation": "A person's continuity does not bring a later event into the period."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R15",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Bevin call Marshall's Harvard speech?",
+   "factIds": [
+    "F-RECOV-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'One of the greatest speeches in world history'",
+     "correct": true,
+     "explanation": "Correct: Britain responded at once."
+    },
+    {
+     "id": "b",
+     "text": "'An economic Dunkirk'",
+     "correct": false,
+     "explanation": "That was Keynes on the end of Lend-Lease."
+    },
+    {
+     "id": "c",
+     "text": "'Our breakthrough'",
+     "correct": false,
+     "explanation": "That was Adenauer on the Schuman Plan."
+    },
+    {
+     "id": "d",
+     "text": "'I have understood you'",
+     "correct": false,
+     "explanation": "That was de Gaulle in Algiers in June 1958."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which body did six states found in April 1951?",
+   "factIds": [
+    "F-RECOV-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The European Coal and Steel Community",
+     "correct": true,
+     "explanation": "Correct: Britain declined to join."
+    },
+    {
+     "id": "b",
+     "text": "NATO",
+     "correct": false,
+     "explanation": "NATO was founded in 1949 and included the US."
+    },
+    {
+     "id": "c",
+     "text": "The OEEC",
+     "correct": false,
+     "explanation": "That was set up in 1948 for Marshall aid."
+    },
+    {
+     "id": "d",
+     "text": "The EEC",
+     "correct": false,
+     "explanation": "That came later."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Bonn's constitution give Chancellors long tenure?",
+   "factIds": [
+    "F-RECOV-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Bundestag could remove a Chancellor only with a successor already chosen",
+     "correct": true,
+     "explanation": "Correct: to avoid Weimar's instability."
+    },
+    {
+     "id": "b",
+     "text": "Chancellors were appointed for life",
+     "correct": false,
+     "explanation": "They were elected."
+    },
+    {
+     "id": "c",
+     "text": "The Allies chose the Chancellor",
+     "correct": false,
+     "explanation": "Not after 1949."
+    },
+    {
+     "id": "d",
+     "text": "Elections were banned",
+     "correct": false,
+     "explanation": "Elections were regular."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What constitutional change did the referendum of 28 October 1962 approve?",
+   "factIds": [
+    "F-RECOV-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Direct election of the French President",
+     "correct": true,
+     "explanation": "Correct: making the President exceptionally powerful."
+    },
+    {
+     "id": "b",
+     "text": "Algerian independence",
+     "correct": false,
+     "explanation": "That referendum was on 1 July 1962."
+    },
+    {
+     "id": "c",
+     "text": "The Fourth Republic",
+     "correct": false,
+     "explanation": "That was founded in 1946."
+    },
+    {
+     "id": "d",
+     "text": "Membership of the ECSC",
+     "correct": false,
+     "explanation": "France joined in 1951."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did the Monnet Plan need German coal?",
+   "factIds": [
+    "F-RECOV-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "France's steel industry depended on imported coal",
+     "correct": true,
+     "explanation": "Correct: France imported about 40 per cent of its coal in 1938."
+    },
+    {
+     "id": "b",
+     "text": "France had no steel industry",
+     "correct": false,
+     "explanation": "It did; it needed coal for it."
+    },
+    {
+     "id": "c",
+     "text": "Germany demanded it",
+     "correct": false,
+     "explanation": "Not the reason."
+    },
+    {
+     "id": "d",
+     "text": "The US required it",
+     "correct": false,
+     "explanation": "Not the reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Judt describe the Franco-German friendship treaty of January 1963?",
+   "factIds": [
+    "F-RECOV-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "As hollow",
+     "correct": true,
+     "explanation": "Correct: Adenauer's party reaffirmed loyalty to NATO and removed him."
+    },
+    {
+     "id": "b",
+     "text": "As the founding of the EEC",
+     "correct": false,
+     "explanation": "Not the same thing."
+    },
+    {
+     "id": "c",
+     "text": "As a military alliance against the US",
+     "correct": false,
+     "explanation": "Not Judt's description."
+    },
+    {
+     "id": "d",
+     "text": "As the end of the Cold War",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-17-B2-RECOVERY-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the Marshall Plan responsible for the economic recovery of western Europe between 1947 and 1952?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the Marshall Plan",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the economic recovery of western Europe",
+     "answer": "scope",
+     "explanation": "What must be explained."
+    },
+    {
+     "id": "s4",
+     "text": "between 1947 and 1952",
+     "answer": "timeframe",
+     "explanation": "The years of Marshall aid."
+    },
+    {
+     "id": "s5",
+     "text": "responsible for",
+     "answer": "judgement",
+     "explanation": "How far the Plan, compared with national policies and world trade, caused recovery."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the recovery of West Germany and France between 1945 and 1963.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "the recovery",
+     "answer": "factor",
+     "explanation": "What is compared."
+    },
+    {
+     "id": "s3",
+     "text": "of West Germany and France",
+     "answer": "scope",
+     "explanation": "Two states: both in every paragraph."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1963",
+     "answer": "timeframe",
+     "explanation": "From the war to Adenauer's resignation."
+    },
+    {
+     "id": "s5",
+     "text": "Compare and contrast",
+     "answer": "judgement",
+     "explanation": "Which differences mattered most?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Marshall Plan responsible for the economic recovery of western Europe between 1947 and 1952?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Marshall Plan was largely responsible for the speed and political safety of recovery, because it paid for essential imports and bought time; but national planning and the boom in world trade drove long-term growth.",
+     "correct": true,
+     "explanation": "Correct: degree, mechanism and qualification."
+    },
+    {
+     "id": "b",
+     "text": "The Marshall Plan was announced in June 1947.",
+     "correct": false,
+     "explanation": "A fact, not a thesis: no judgement of responsibility."
+    },
+    {
+     "id": "c",
+     "text": "Recovery had many causes.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Marshall Plan caused recovery because de Gaulle returned in 1958.",
+     "correct": false,
+     "explanation": "Wrong timeframe and illogical."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons for, and the consequences of, the collapse of the Fourth Republic in 1958.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Fourth Republic collapsed mainly because the Algerian war exposed its weak executive; its main consequence was a strong presidential republic that could end the war.",
+     "correct": true,
+     "explanation": "Correct: a ranked cause and a weighed consequence."
+    },
+    {
+     "id": "b",
+     "text": "The Fourth Republic lasted twelve years.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Fourth Republic collapsed because the economy failed.",
+     "correct": false,
+     "explanation": "Inaccurate: the economy grew."
+    },
+    {
+     "id": "d",
+     "text": "De Gaulle was a great man.",
+     "correct": false,
+     "explanation": "Not an answer to the question."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 5 June 1947 Marshall spoke at Harvard.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the aid paid for imports, governments did not have to cut living standards to recover.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 1 June 1958 de Gaulle took office.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that a strong executive could override the army and settlers, so the war could be ended.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Europe's 1947 trade deficit with the US: $4,742 million",
+     "right": "A dollar crisis threatened recovery",
+     "explanation": "Europe could not pay for imports."
+    },
+    {
+     "left": "Marshall dollars funded almost half of French public investment",
+     "right": "France used aid for its own planning",
+     "explanation": "The Monnet Plan."
+    },
+    {
+     "left": "West German exports rose to 19.3 per cent of world manufactures",
+     "right": "Exports drove the miracle",
+     "explanation": "From 7.3 per cent in 1950."
+    },
+    {
+     "left": "France lost two-thirds of its reserves in 1955–57",
+     "right": "Colonial war broke the Fourth Republic",
+     "explanation": "Despite growth."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Marshall Plan helped Europe a lot.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Marshall aid paid for essential imports, four-fifths of Europe's wheat in 1949–51 came from the dollar zone, so governments could rebuild without cutting living standards, which Judt argues averted a political crisis.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and historian."
+    },
+    {
+     "id": "b",
+     "text": "The Marshall Plan helped Europe very much.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The Marshall Plan gave $13 billion.",
+     "correct": false,
+     "explanation": "A fact without explanation."
+    },
+    {
+     "id": "d",
+     "text": "The Marshall Plan saved Europe completely.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Adenauer alone created West Germany's success.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The miracle rested on surviving industry, nearly 9 million expellee workers and booming world trade, and the institutions limiting Chancellors' removal were designed by others to avoid Weimar.",
+     "correct": true,
+     "explanation": "Correct: alternative causes with evidence."
+    },
+    {
+     "id": "b",
+     "text": "Adenauer was old.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "Some historians disagree.",
+     "correct": false,
+     "explanation": "Name-dropping."
+    },
+    {
+     "id": "d",
+     "text": "Adenauer resigned in 1963.",
+     "correct": false,
+     "explanation": "A fact, not a counter-argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the recovery of West Germany and France between 1945 and 1963.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by political stability, West Germany recovered faster: both economies grew, but France's colonial wars broke its republic until 1958, while Bonn's institutions gave stable government from 1949.",
+     "correct": true,
+     "explanation": "Correct: a criterion and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, both countries recovered after the war.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, they were similar and different.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Germany was better.",
+     "correct": false,
+     "explanation": "A judgement without criterion or evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B2-RECOVERY-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons for, and the consequences of, the collapse of the Fourth Republic in 1958.” Sort each plan point into REASONS or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons (causes)"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences (effects)"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "A weak executive and unstable coalitions",
+     "answer": "causes",
+     "explanation": "Structural weakness."
+    },
+    {
+     "id": "s2",
+     "text": "The cost of colonial wars",
+     "answer": "causes",
+     "explanation": "Two-thirds of reserves lost in 1955–57."
+    },
+    {
+     "id": "s3",
+     "text": "The Algiers Committee of Public Safety",
+     "answer": "causes",
+     "explanation": "The immediate crisis."
+    },
+    {
+     "id": "s4",
+     "text": "A strong presidential constitution",
+     "answer": "effects",
+     "explanation": "The Fifth Republic."
+    },
+    {
+     "id": "s5",
+     "text": "Algerian independence in 1962",
+     "answer": "effects",
+     "explanation": "De Gaulle ended the war."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-17-B2-RECOVERY-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the Marshall Plan responsible for the economic recovery of western Europe between 1947 and 1952?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the Marshall Plan",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1947,
+    1952
+   ],
+   "scope": "Western Europe; recovery",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The Marshall Plan, weighed first",
+    "timeframe": "1947–1952",
+    "scope": "Western Europe's economic recovery",
+    "judgement": "How far the Plan, compared with national policies and world trade, caused recovery"
+   },
+   "modelPlan": {
+    "thesis": "The Marshall Plan was largely responsible for the speed and political safety of recovery, because it paid for essential imports and bought time; but national planning and world trade drove long-term growth.",
+    "arguments": [
+     {
+      "claim": "Marshall dollars paid for imports and investment (named factor first).",
+      "evidence": [
+       "F-RECOV-03",
+       "F-RECOV-06",
+       "F-RECOV-05"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "It bought time for fragile democracies.",
+      "evidence": [
+       "F-RECOV-07",
+       "F-RECOV-01"
+      ]
+     },
+     {
+      "claim": "National policies: Monnet planning, German currency reform.",
+      "evidence": [
+       "F-RECOV-05",
+       "F-RECOV-08"
+      ]
+     },
+     {
+      "claim": "European cooperation and world trade.",
+      "evidence": [
+       "F-RECOV-09",
+       "F-RECOV-11"
+      ]
+     }
+    ],
+    "counter": "Judt accepts Europe could have grown without the aid, at the cost of lower living standards.",
+    "judgementCriterion": "Would recovery have been politically survivable without it? Probably not in 1947, so the Plan was decisive for timing and stability."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Marshall Plan was largely responsible for the speed and political safety of western Europe's recovery.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "By 1952 the US had spent about $13 billion, and western Europe's combined GNP rose 30 per cent between 1947 and 1951.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that governments could import food and raw materials without cutting living standards, so they avoided the political crises austerity might have caused.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt accepts that Europe could probably have grown without the aid, and national plans such as Monnet's shaped how it was used.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Plan was therefore decisive for how safely Europe recovered, more than for whether it recovered at all.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Marshall"
+    ],
+    "synonyms": [
+     "European Recovery Program",
+     "aid"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "dollar gap",
+     "Monnet Plan",
+     "ECSC"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B2-RECOVERY-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Adenauer's leadership was the main reason for West Germany's success between 1949 and 1963.” Discuss.",
+   "commandTerm": "discuss",
+   "namedFactor": "Adenauer's leadership",
+   "features": [
+    "proposition",
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1949,
+    1963
+   ],
+   "scope": "West Germany",
+   "decodeKey": {
+    "verb": "Discuss: test the claim for and against, then judge",
+    "factorOrTask": "Adenauer's leadership, weighed first",
+    "timeframe": "1949–1963",
+    "scope": "West Germany's success",
+    "judgement": "How far Adenauer, rather than economics and institutions, explains success"
+   },
+   "modelPlan": {
+    "thesis": "The claim is partly right: Adenauer anchored West Germany in the West and gave stable leadership, but the economic miracle rested on surviving industry, expellee labour, world trade and institutions designed by others.",
+    "arguments": [
+     {
+      "claim": "Adenauer's Western anchoring and stable leadership (named factor first).",
+      "evidence": [
+       "F-RECOV-17",
+       "F-RECOV-15",
+       "F-RECOV-09"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Institutions designed to avoid Weimar.",
+      "evidence": [
+       "F-RECOV-13"
+      ]
+     },
+     {
+      "claim": "The social market and economic foundations.",
+      "evidence": [
+       "F-RECOV-14",
+       "F-RECOV-12",
+       "F-RECOV-16"
+      ]
+     },
+     {
+      "claim": "World trade and exports.",
+      "evidence": [
+       "F-RECOV-11",
+       "F-RECOV-10"
+      ]
+     }
+    ],
+    "counter": "His own party removed him in 1963, suggesting his authority depended on circumstances.",
+    "judgementCriterion": "Which factor could West Germany least have done without? Economic growth, which gave the new democracy legitimacy; Adenauer made the most of it."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Adenauer's leadership was important, but West Germany's success rested more on its economic foundations.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In the 1950s output per head grew 6.5 per cent a year, and West Germany's share of world manufactured exports rose from 7.3 to 19.3 per cent.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that prosperity gave the new democracy legitimacy, so Adenauer governed a country whose citizens associated democracy with success.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt credits Adenauer with steering between neo-Nazism and neutralism and anchoring West Germany in the West, which made that growth secure.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore only partly valid: Adenauer secured the framework, but the economy delivered the success.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Adenauer"
+    ],
+    "synonyms": [
+     "Chancellor",
+     "CDU"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Wirtschaftswunder",
+     "social market",
+     "Schuman Plan"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B2-RECOVERY-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the reasons for, and the consequences of, the collapse of the Fourth Republic in 1958.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1958,
+    1958
+   ],
+   "scope": "France",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: reasons AND consequences",
+    "timeframe": "1958 (with background from 1946)",
+    "scope": "The collapse of the Fourth Republic",
+    "judgement": "Which reason mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The Fourth Republic collapsed mainly because the Algerian war exposed its weak executive; its main consequence was a strong presidential republic that could end the war.",
+    "arguments": [
+     {
+      "claim": "Reason: a weak executive and unstable coalitions.",
+      "evidence": [
+       "F-RECOV-19"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: the cost and politics of the Algerian war.",
+      "evidence": [
+       "F-RECOV-19",
+       "F-RECOV-20"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: the Fifth Republic and a strong presidency.",
+      "evidence": [
+       "F-RECOV-21",
+       "F-RECOV-22"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: the end of the Algerian war.",
+      "evidence": [
+       "F-RECOV-23"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Judt says the wonder is that the Fourth Republic lasted as long as it did, which suggests its collapse was structural rather than caused by Algeria alone.",
+    "judgementCriterion": "Which consequence mattered most? The strong presidency, which made the end of the war possible."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Fourth Republic collapsed mainly because the Algerian war exposed its lack of an effective executive.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "France lost two-thirds of its currency reserves in 1955–57, and in May 1958 settlers and soldiers in Algiers demanded de Gaulle's return while rebels seized Corsica.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that short-lived coalition governments could neither control the army nor end the war, so the crisis could only be resolved by changing the regime.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Republic's economy was growing, so its failure was political rather than economic.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The main consequence was therefore a strong presidential state, which in turn allowed de Gaulle to end the war.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Fourth Republic"
+    ],
+    "synonyms": [
+     "1958",
+     "collapse"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Algeria",
+     "Committee of Public Safety",
+     "Fifth Republic"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B2-RECOVERY-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the recovery of West Germany and France between 1945 and 1963.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1945,
+    1963
+   ],
+   "scope": "West Germany and France",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The recovery of the two states",
+    "timeframe": "1945–1963",
+    "scope": "West Germany and France",
+    "judgement": "Which differences mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both recovered fast with Marshall aid and European cooperation, but they differed in method and stability: West Germany grew faster under stable government and a social market, while France planned its modernisation but was destabilised by colonial war until 1958.",
+    "arguments": [
+     {
+      "claim": "Similarity: Marshall aid and European cooperation.",
+      "evidence": [
+       "F-RECOV-05",
+       "F-RECOV-06",
+       "F-RECOV-09"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: historically high growth in the 1950s.",
+      "evidence": [
+       "F-RECOV-10"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: social market versus state planning.",
+      "evidence": [
+       "F-RECOV-14",
+       "F-RECOV-05"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: stable Bonn versus the unstable Fourth Republic.",
+      "evidence": [
+       "F-RECOV-13",
+       "F-RECOV-19",
+       "F-RECOV-22"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "By 1963 France also had stable government, so the political gap closed.",
+    "judgementCriterion": "Which difference mattered most? Political stability, which shaped how growth was used."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "West Germany and France both recovered quickly, but under very different political conditions.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "West German output per head grew 6.5 per cent a year in the 1950s, against 3.5 per cent in France, whereas the Fourth Republic lost two-thirds of its reserves in 1955–57 to colonial war.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that West Germany's stable institutions let growth translate into legitimacy, while France's growth was undermined by the cost of empire.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both relied on Marshall aid and European cooperation, and by 1963 de Gaulle's Fifth Republic had given France stable government too.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference before 1958 was therefore political stability, not economic capacity.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "West Germany",
+     "France"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Monnet Plan",
+     "social market",
+     "Fourth Republic"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B2-RECOVERY-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the role of de Gaulle in ending the Algerian war between 1958 and 1962.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1958,
+    1962
+   ],
+   "scope": "France and Algeria",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "De Gaulle's role",
+    "timeframe": "1958–1962",
+    "scope": "The end of the Algerian war",
+    "judgement": "How far de Gaulle, compared with opinion and international pressure, ended the war"
+   },
+   "modelPlan": {
+    "thesis": "De Gaulle's role was decisive: he used the authority of the new presidency to override the army and settlers who had brought him to power; but international pressure and French weariness made independence inevitable.",
+    "arguments": [
+     {
+      "claim": "The strong presidency of the Fifth Republic.",
+      "evidence": [
+       "F-RECOV-21",
+       "F-RECOV-22"
+      ]
+     },
+     {
+      "claim": "Self-determination proposed in 1959 against settler wishes.",
+      "evidence": [
+       "F-RECOV-23"
+      ]
+     },
+     {
+      "claim": "Facing down the barricades, the putsch and the OAS.",
+      "evidence": [
+       "F-RECOV-23",
+       "F-RECOV-24"
+      ]
+     },
+     {
+      "claim": "International opinion and French weariness.",
+      "evidence": [
+       "F-RECOV-23"
+      ]
+     }
+    ],
+    "counter": "Opinion in France had turned against the war after the 1961 putsch, so de Gaulle followed as well as led.",
+    "judgementCriterion": "Could anyone else have ended the war in 1962? Probably not without civil conflict, so his role was decisive in its manner."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "De Gaulle played the decisive role in ending the Algerian war, because only he could override those who had brought him to power.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Brought back by settlers and soldiers in 1958, he proposed self-determination in September 1959 and faced down the putsch of April 1961.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the army and settlers lost their claim to speak for France, so negotiations at Evian could produce a ceasefire on 19 March 1962.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, international opinion favoured independence and most French people concluded after the putsch that Algeria should go, so de Gaulle also followed opinion.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "His role was therefore decisive for how and when the war ended, though not for whether Algeria would become independent.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "de Gaulle"
+    ],
+    "synonyms": [
+     "President",
+     "Fifth Republic"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Evian",
+     "OAS",
+     "self-determination"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B2-RECOVERY-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons for the West German economic miracle between 1948 and 1963.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1948,
+    1963
+   ],
+   "scope": "West Germany",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The reasons for the miracle",
+    "timeframe": "1948–1963",
+    "scope": "West Germany's economy",
+    "judgement": "Which reason was decisive and how they combined"
+   },
+   "modelPlan": {
+    "thesis": "The miracle rested mainly on exports in a booming world economy, made possible by surviving industry, expellee labour and the currency reform, and kept stable by the social market and Bonn's institutions.",
+    "arguments": [
+     {
+      "claim": "Surviving industry and expellee labour.",
+      "evidence": [
+       "F-RECOV-12",
+       "F-RECOV-16"
+      ]
+     },
+     {
+      "claim": "Exports in a booming world economy.",
+      "evidence": [
+       "F-RECOV-11"
+      ]
+     },
+     {
+      "claim": "Marshall aid and European cooperation.",
+      "evidence": [
+       "F-RECOV-06",
+       "F-RECOV-09"
+      ]
+     },
+     {
+      "claim": "The social market and stable institutions.",
+      "evidence": [
+       "F-RECOV-14",
+       "F-RECOV-13"
+      ]
+     }
+    ],
+    "counter": "The regulated, cartel-like economy suggests policy shaped growth more than free markets did.",
+    "judgementCriterion": "Which reason was decisive? Exports, since they turned capacity and labour into growth."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The West German economic miracle rested above all on exports in a booming world economy.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "West Germany's share of world manufactured exports rose from 7.3 per cent in 1950 to 19.3 per cent in 1960, while output per head grew 6.5 per cent a year.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that surviving factories, such as Volkswagen's, and millions of expellee workers could be put to work selling abroad, so growth fed on itself.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the social market and Co-Determination kept industrial peace, which Judt argues let the economic cake grow without conflict.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Exports were therefore the decisive reason, with stable institutions as the condition that let them work.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic miracle"
+    ],
+    "synonyms": [
+     "Wirtschaftswunder",
+     "growth"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "exports",
+     "social market",
+     "Volkswagen"
+    ]
+   }
+  }
+ ]
+}

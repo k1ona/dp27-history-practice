@@ -1,0 +1,2741 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-17-B5-ITALY",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "The same parties ran Italy for two generations, the country suffered years of terror from left and right, and in 1994 its leading parties were virtually wiped out. Yet the Republic survived. Was Italian democracy weak or strong?",
+   "predictionPrompt": "Your prediction in one line: what kept the Italian Republic going?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "The Republic and Christian Democrat rule, 1945–1963",
+    "body": "In June 1946 Italians voted to abolish the monarchy and become a Republic. The margin was narrow: 12.7 million votes for a republic, 10.7 million for the king. The vote also deepened the country's divisions, because the South, except Basilicata, voted overwhelmingly for the king, by four to one in Naples. In the same post-war reforms Italian women finally won the vote. The Communist Party (PCI) took 19 per cent in the elections of 1946.\n\nThe PCI's leader, **Palmiro Togliatti**, had committed his party to parliamentary democracy on his return from Moscow in 1944, preferring the ballot box to civil war; as Minister of Justice he even drafted the amnesty of June 1946. In March 1947 the PCI voted, at his insistence, for Article 7 of the new Constitution, which confirmed Mussolini's 1929 Concordat with the Church. It did not help: the Vatican excommunicated Italians who voted Communist the following year. In the elections of 1948, after what Tony Judt calls America's \"brazen but successful intervention\" on their behalf, the **Christian Democrats** (DC) won, and Italy was later brought into NATO partly to shore up the support of their leader, **Alcide De Gasperi**.\n\nPolitics in post-war Italy, Judt argues, was above all \"a struggle to occupy the state\", and the Christian Democrats were masters of it. The Republic inherited most of its bureaucrats from Fascism, and through holding agencies such as IRI (which employed 216,000 people in the early 1950s) and ENI the state controlled much of the economy. By the mid-1950s nearly three civil servants in five came from the South. De Gasperi made sure the DC held the Interior Ministry. In the South, voters backed the DC not out of faith but for services: electricity, plumbing, roads, schools and jobs, which the party's monopoly of power let it deliver. The DC won over 40 per cent in 1953 and 1958. This **clientelism** spread to every party: the Communists ran 'Red' Bologna for their own clients, though they stressed honest administration, while in the 1950s large-scale corruption was a near-monopoly of the DC.\n\nIn 1963 the DC switched from its partnership with small centre parties to a coalition with the non-Communist Left. With most of the political space occupied by government, radical opposition was pushed out of parliament altogether.\n\nThis mattered because the DC system gave Italy stability without alternation in power, which meant that the Communists, Italy's main opposition, were excluded from government and that patronage, not policy, held the governing coalition together.",
+    "argumentsThatWork": [
+     {
+      "claim": "The 1946 referendum founded a Republic but deepened North–South divisions.",
+      "evidence": [
+       "F-ITALY-01"
+      ],
+      "strongestCounter": "The Republic still won a clear majority nationally."
+     },
+     {
+      "claim": "Anti-communism and American support gave the DC power after 1948.",
+      "evidence": [
+       "F-ITALY-05",
+       "F-ITALY-06"
+      ],
+      "strongestCounter": "The PCI had committed itself to democracy, so the threat may have been overstated."
+     },
+     {
+      "claim": "The DC held power by occupying the state and distributing patronage.",
+      "evidence": [
+       "F-ITALY-07",
+       "F-ITALY-08",
+       "F-ITALY-09"
+      ],
+      "strongestCounter": "Judt says the Church's political role was smaller than both critics and defenders claimed."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was patronage the main reason for Christian Democrat dominance in Italy between 1948 and 1963?",
+     "Compare and contrast the strategies of the Italian Communist Party under Togliatti and Berlinguer between 1945 and 1984."
+    ],
+    "useItInAnEssay": {
+     "claim": "Patronage was the main reason for Christian Democrat dominance, because it turned control of the state into votes.",
+     "prove": "By the mid-1950s nearly three civil servants in five came from the South, and southern voters backed the DC for electricity, roads, schools and jobs rather than faith.",
+     "explain": "This meant that each DC victory gave the party more to distribute, so its support became self-renewing and it won over 40 per cent in 1953 and 1958.",
+     "test": "However, anti-communism also mattered: America intervened for the DC in 1948 and the Vatican excommunicated Communist voters.",
+     "judge": "Patronage was therefore the engine of DC dominance, with anti-communism its original cause."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B5-ITALY-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How narrow was the vote for a Republic in June 1946?",
+      "factIds": [
+       "F-ITALY-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "12.7 million for a republic against 10.7 million for the king",
+        "correct": true,
+        "explanation": "Correct: and the South voted for the king."
+       },
+       {
+        "id": "b",
+        "text": "Unanimous",
+        "correct": false,
+        "explanation": "Over 10 million voted for the monarchy."
+       },
+       {
+        "id": "c",
+        "text": "The monarchy won",
+        "correct": false,
+        "explanation": "The Republic won."
+       },
+       {
+        "id": "d",
+        "text": "The vote was cancelled",
+        "correct": false,
+        "explanation": "The result stood."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B5-ITALY-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people did IRI employ at the beginning of the 1950s, according to Judt? (number)",
+      "factIds": [
+       "F-ITALY-07"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 216000,
+        "tolerance": 1000,
+        "explanation": "216,000, with other agencies employing hundreds of thousands more."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B5-ITALY-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In the South voters backed the DC for electricity, plumbing, roads, schools and jobs rather than faith.” Which argument does it support best?",
+      "factIds": [
+       "F-ITALY-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "DC dominance rested on patronage as much as on religion",
+        "correct": true,
+        "explanation": "Correct: the party's monopoly of power let it deliver."
+       },
+       {
+        "id": "b",
+        "text": "The South was more religious than the North",
+        "correct": false,
+        "explanation": "The fact says faith was not the draw."
+       },
+       {
+        "id": "c",
+        "text": "The DC refused to spend money in the South",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "The PCI controlled the South",
+        "correct": false,
+        "explanation": "The DC's strongest support was in the South."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "impact_consequences",
+    "title": "The economic miracle and the Southern Question, 1950–1975",
+    "body": "Post-war Italy was two countries. A parliamentary enquiry of 1954 found that 85 per cent of the country's poorest families lived south of Rome. A labourer in Apulia earned at best half the wage of one in Lombardy. With the national average income per head set at 100, Piedmont in the north-west stood at 174 and Calabria in the far south at 52.\n\nTo close the gap, parliament set up the **Cassa per il Mezzogiorno** (Southern Fund) in August 1950. Backed by a large World Bank loan, it first paid for land reclamation, roads and drainage, and later for new industry. State-owned firms were directed to place up to 60 per cent of their new investment in the South, and after 1957 the Cassa created twelve \"growth areas\" and thirty \"growth nuclei\". Judt calls it inefficient and \"more than a little corrupt\": most benefits went to the favoured coastal regions, and its capital-intensive factories created few jobs. Yet by the mid-1970s consumption per head in the South had doubled, incomes had risen by about 4 per cent a year and infant mortality had halved.\n\nMeanwhile the North boomed. Between 1950 and 1973 GDP per head in France grew by 150 per cent, and the Italian economy, starting from a lower base, did even better. But the miracle came later in Italy than elsewhere, and the move out of an agrarian society was more abrupt. Large numbers moved from south to north, and in Milan, Turin and other industrial towns governments never met the demand for housing, transport and schools. Unskilled workers from the South, many of them women, were not absorbed into the unions of skilled northern men at firms like FIAT and Pirelli.\n\nThe tensions exploded at the end of the 1960s. Disputes at Pirelli's Milan factories ran from September 1968 to November 1969, and the strike movement of 1969 was the largest in Italian history. The \"hot autumn\" of wildcat strikes and factory occupations convinced many student radicals that reform was impossible and compromise was defeat.\n\nJudt's verdict is double-edged. The \"economic miracle\" happened \"in spite of\" the wasteful party system rather than because of it; yet post-war stability was \"the crucial permissive condition\" of Italy's economic success. This mattered because rapid growth without reform of the state left the North–South gap and the grievances of the new urban workers unresolved, which meant that prosperity itself bred the protest of the late 1960s.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Cassa raised living standards in the South.",
+      "evidence": [
+       "F-ITALY-12",
+       "F-ITALY-13"
+      ],
+      "strongestCounter": "It was inefficient and corrupt, and created few jobs."
+     },
+     {
+      "claim": "Italian growth outpaced France's, but came later and more abruptly.",
+      "evidence": [
+       "F-ITALY-14",
+       "F-ITALY-15"
+      ],
+      "strongestCounter": "The North–South gap persisted."
+     },
+     {
+      "claim": "Rapid change without reform produced the 1969 strike wave.",
+      "evidence": [
+       "F-ITALY-15",
+       "F-ITALY-17"
+      ],
+      "strongestCounter": "Strikes also drew on worker–employer tensions found everywhere."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that the Italian economic miracle happened in spite of the political system with reference to the period 1950 to 1975.",
+     "To what extent was patronage the main reason for Christian Democrat dominance in Italy between 1948 and 1963?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The Cassa per il Mezzogiorno raised southern living standards but did not close the gap with the North.",
+     "prove": "By the mid-1970s consumption per head in the South had doubled and infant mortality had halved, yet by the late 1980s Lombardy's product per head was 132 per cent of the national average and Calabria's 56 per cent.",
+     "explain": "This meant that state transfers improved southern lives without creating a self-sustaining economy, so the South became, in Judt's words, a semi-permanent welfare region.",
+     "test": "However, the Cassa's failures also reflected the DC's use of it for patronage, since its benefits went to favoured coastal regions.",
+     "judge": "The Cassa was therefore a social success and an economic failure."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B5-ITALY-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the Cassa per il Mezzogiorno?",
+      "factIds": [
+       "F-ITALY-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A Southern Fund, set up in 1950, to channel national wealth to the South",
+        "correct": true,
+        "explanation": "Correct: backed by a World Bank loan."
+       },
+       {
+        "id": "b",
+        "text": "A northern trade union",
+        "correct": false,
+        "explanation": "It was a state fund."
+       },
+       {
+        "id": "c",
+        "text": "A Communist party newspaper",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "d",
+        "text": "A bank owned by the Vatican",
+        "correct": false,
+        "explanation": "It was set up by parliament."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B5-ITALY-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to the 1954 parliamentary enquiry, what percentage of Italy's poorest families lived south of Rome? (number)",
+      "factIds": [
+       "F-ITALY-11"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 85,
+        "tolerance": 0,
+        "explanation": "85 per cent."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B5-ITALY-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Italy's strike movement of 1969 was the largest in Italian history.” Which argument does it support best?",
+      "factIds": [
+       "F-ITALY-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Rapid growth had created grievances the political system did not address",
+        "correct": true,
+        "explanation": "Correct: the 'hot autumn' followed the miracle."
+       },
+       {
+        "id": "b",
+        "text": "Italian workers were content",
+        "correct": false,
+        "explanation": "The fact shows the opposite."
+       },
+       {
+        "id": "c",
+        "text": "The economy collapsed in 1969",
+        "correct": false,
+        "explanation": "The strikes followed growth, not collapse."
+       },
+       {
+        "id": "d",
+        "text": "The DC had banned strikes",
+        "correct": false,
+        "explanation": "No: the government pressed Pirelli to concede."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "causes",
+    "title": "The Years of Lead, 1969–1981",
+    "body": "Italy's \"lead years\" (*anni di piombo*) began in 1969. On 24 April bombs were planted at the Milan Trade Fair and the central railway station. Eight months later, after the strikes had been settled, the Agricultural Bank in Milan's Piazza Fontana was blown up. Judt dates the \"strategy of tension\" from this moment.\n\nThe best-known left-wing group, the **Red Brigades**, first came to public attention in October 1970. Like the German RAF, its leaders were young former students; Renato Curcio was 29 in 1970. But there was a difference: in some northern industrial towns, Milan especially, the Italian ultra-Left had a small popular following, and it ranged from legal parties to armed micro-sects with overlapping members. Between 1970 and 1981 not a year passed without murders, kidnappings and assaults; in the 1970s three politicians, nine magistrates, 65 policemen and some 300 others were assassinated. The terrorists' strategy was to \"strip away the mask\" of bourgeois legality, force the state into violent repression and polarise opinion.\n\nTheir most spectacular act came on 16 March 1978, when they kidnapped **Aldo Moro**, a Christian Democrat leader and former Prime Minister. Backed by the Communists and most of his own party, Prime Minister Giulio Andreotti refused to bargain. On 10 May Moro's body was found in a car in the centre of Rome. The affair exposed the state's incompetence (the Interior Minister resigned the next day), but the scale of the challenge also \"began to extract a price\". The PCI threw its weight firmly behind the Republic and treated the terrorists as criminals, and in April 1979 Toni Negri and other leaders of *Autonomia Operaia* were arrested.\n\nTerror came from the right too. The anti-republican right carried out the single worst crime of the period, the bombing of Bologna railway station in August 1980, which killed 85 people and wounded 200. In the South the Mafia waged its own war on magistrates and police, and shadowy right-wing networks reaching into the police, the banks and the DC itself authorised the murder of judges and journalists.\n\nWhy was Italy so badly affected? Judt's account suggests three reasons: the radicals' belief, after the \"hot autumn\", that reform was impossible; to a system that excluded the Communists and pushed radical opposition out of parliament; and to a weak state partly penetrated by those who sought to subvert it. This mattered because terror came from both extremes at once, which meant that the Republic survived only when its main parties, Communists included, united in its defence.",
+    "argumentsThatWork": [
+     {
+      "claim": "The exclusion of radical opposition from parliament fed extremism.",
+      "evidence": [
+       "F-ITALY-16",
+       "F-ITALY-17"
+      ],
+      "strongestCounter": "Most protesters never turned to violence."
+     },
+     {
+      "claim": "Left terrorism had a small popular base in Italy, unlike Germany.",
+      "evidence": [
+       "F-ITALY-19",
+       "F-ITALY-20"
+      ],
+      "strongestCounter": "It was still the work of a few thousand people."
+     },
+     {
+      "claim": "Right-wing terror, protected by parts of the state, made the crisis worse.",
+      "evidence": [
+       "F-ITALY-23"
+      ],
+      "strongestCounter": "The Moro murder was the work of the left."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the causes of political violence in Italy between 1969 and 1981.",
+     "Evaluate the response of the Italian state and parties to terrorism between 1970 and 1981."
+    ],
+    "useItInAnEssay": {
+     "claim": "Political violence in Italy was caused above all by radicals' conviction that the Republic could not be reformed.",
+     "prove": "After the strike movement of 1969, the largest in Italian history, student theorists concluded that compromise was defeat, and the Red Brigades emerged in October 1970.",
+     "explain": "This meant that a minority came to see violence as the only path, so by the 1970s three politicians, nine magistrates and 65 policemen had been assassinated.",
+     "test": "However, the worst single crime, the Bologna bombing of 1980, came from the anti-republican right, protected in part by networks within the state.",
+     "judge": "Violence therefore had two causes, a left that rejected reform and a right that sought to subvert democracy, and their combination made Italy's crisis so severe."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B5-ITALY-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who was kidnapped by the Red Brigades on 16 March 1978?",
+      "factIds": [
+       "F-ITALY-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Aldo Moro, Christian Democrat leader and former Prime Minister",
+        "correct": true,
+        "explanation": "Correct: his body was found on 10 May."
+       },
+       {
+        "id": "b",
+        "text": "Giulio Andreotti",
+        "correct": false,
+        "explanation": "Andreotti was Prime Minister and refused to negotiate."
+       },
+       {
+        "id": "c",
+        "text": "Enrico Berlinguer",
+        "correct": false,
+        "explanation": "Berlinguer led the PCI."
+       },
+       {
+        "id": "d",
+        "text": "Bettino Craxi",
+        "correct": false,
+        "explanation": "Craxi fell in the 1990s scandals."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B5-ITALY-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people were killed in the bombing of Bologna station in August 1980? (number)",
+      "factIds": [
+       "F-ITALY-23"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 85,
+        "tolerance": 0,
+        "explanation": "85, with 200 wounded."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B5-ITALY-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “After Moro's murder the PCI threw its weight firmly behind the institutions of the Republic.” Which argument does it support best?",
+      "factIds": [
+       "F-ITALY-22"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Terror united the main parties in defence of democracy",
+        "correct": true,
+        "explanation": "Correct: the terrorists were isolated as criminals."
+       },
+       {
+        "id": "b",
+        "text": "The PCI supported the Red Brigades",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The state collapsed in 1978",
+        "correct": false,
+        "explanation": "It survived."
+       },
+       {
+        "id": "d",
+        "text": "The DC refused PCI support",
+        "correct": false,
+        "explanation": "Andreotti was backed by the Communists."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Communists, reform and the collapse of the old parties, 1973–2000",
+    "body": "The Communists drew their own lesson from the 1970s. **Enrico Berlinguer**, PCI Secretary from 1972 until his death in 1984, decided in 1973 to commit his party to the defence of Italian democracy, even if that meant giving up outright opposition to the Christian Democrats: the \"historic compromise\". Judt explains two motives: the military coup in Chile in 1973, which convinced Berlinguer that a Communist majority would never be allowed to govern, and the real threat from terrorists of left and right who saw the PCI as an enemy. The party still took Soviet money ($47 million between 1971 and 1990), but it had publicly criticised the invasion of Czechoslovakia. Its vote rose to a peak in June 1976 of 12.6 million, 34.4 per cent, just four points behind the DC, an unprecedented result for a western Communist party that alarmed Henry Kissinger.\n\nSociety also changed. Against the Church's opposition, the laws on divorce and abortion were rewritten. A new family code replaced the Fascist one in 1975, and after a petition of 800,000 signatures and a march of 50,000 women on Rome in 1976, parliament legalised abortion on 29 May 1978, three weeks after Moro's body was found.\n\nThe old divide persisted. By the end of the 1980s product per head in Lombardy was 132 per cent of the national average and in Calabria 56 per cent, and southern poverty was three times northern. In the 1980s Umberto Bossi's **Northern League** grew by claiming that the South was living off northern wealth.\n\nThen the system fell. A new generation of young magistrates began to break decades of public silence. The Socialist Party fell first, in the **tangentopoli** (\"bribe city\") scandal of 1992 over its management of Milan, and its leader, the former Prime Minister Bettino Craxi, fled to Tunisia. The Christian Democrats, the Socialists' long-time partners, were dragged down with them. In the elections of 1994 all the leading parties except the former Communists and the ex-Fascists were virtually wiped out. The only lasting winner was the media magnate **Silvio Berlusconi**, who, Judt writes, entered politics less to clean house than to protect his own business interests. Yet even with the Northern League in government alongside Berlusconi's Forza Italia and the ex-Fascists of the National Alliance, there was never any serious question of Italy breaking apart.\n\nThis mattered because the party system built on patronage after 1948 collapsed while the Republic itself survived, which meant that Italy's democracy proved stronger than the parties that had run it for two generations.",
+    "argumentsThatWork": [
+     {
+      "claim": "The historic compromise tied the PCI to democracy and won it record support.",
+      "evidence": [
+       "F-ITALY-24",
+       "F-ITALY-25"
+      ],
+      "strongestCounter": "The PCI still took Soviet money and never governed nationally on its own."
+     },
+     {
+      "claim": "Social reforms passed despite the Church's opposition.",
+      "evidence": [
+       "F-ITALY-26",
+       "F-ITALY-27"
+      ],
+      "strongestCounter": "Reforms came late compared with Britain or Scandinavia."
+     },
+     {
+      "claim": "Tangentopoli destroyed the patronage parties but not the Republic.",
+      "evidence": [
+       "F-ITALY-30",
+       "F-ITALY-31",
+       "F-ITALY-29"
+      ],
+      "strongestCounter": "Berlusconi's rise suggests the old problems persisted in new forms."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the causes and consequences of the collapse of the Italian party system between 1992 and 1994.",
+     "Compare and contrast the strategies of the Italian Communist Party under Togliatti and Berlinguer between 1945 and 1984."
+    ],
+    "useItInAnEssay": {
+     "claim": "The party system collapsed in 1992–94 because decades of patronage were finally exposed by independent magistrates.",
+     "prove": "The tangentopoli scandal of 1992 brought down the Socialists and forced Craxi into exile, and in 1994 all the leading parties except the former Communists and ex-Fascists were virtually wiped out.",
+     "explain": "This meant that the web of arrangements that had held governing coalitions together since 1948 unravelled, so voters turned to new forces such as Berlusconi and the Northern League.",
+     "test": "However, the Republic itself survived, and there was never any serious question of Italy breaking apart.",
+     "judge": "The collapse was therefore of a party system, not of democracy."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B5-ITALY-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the 'historic compromise' of 1973?",
+      "factIds": [
+       "F-ITALY-24"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Berlinguer's commitment of the PCI to defend Italian democracy, giving up outright opposition to the DC",
+        "correct": true,
+        "explanation": "Correct: prompted partly by the coup in Chile."
+       },
+       {
+        "id": "b",
+        "text": "A pact between the DC and the Mafia",
+        "correct": false,
+        "explanation": "Not what the term means."
+       },
+       {
+        "id": "c",
+        "text": "The 1946 referendum",
+        "correct": false,
+        "explanation": "That abolished the monarchy."
+       },
+       {
+        "id": "d",
+        "text": "The PCI's break with democracy",
+        "correct": false,
+        "explanation": "The opposite."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B5-ITALY-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What share of the vote did the PCI win in June 1976? (per cent, one decimal place)",
+      "factIds": [
+       "F-ITALY-25"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 34.4,
+        "tolerance": 0,
+        "explanation": "34.4 per cent, just four points behind the DC."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B5-ITALY-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1994 all the leading parties except the former Communists and ex-Fascists were virtually wiped out.” Which argument does it support best?",
+      "factIds": [
+       "F-ITALY-31"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Tangentopoli destroyed the post-war party system",
+        "correct": true,
+        "explanation": "Correct: the DC and Socialists collapsed."
+       },
+       {
+        "id": "b",
+        "text": "The DC won the 1994 election",
+        "correct": false,
+        "explanation": "It was virtually wiped out."
+       },
+       {
+        "id": "c",
+        "text": "Italian democracy ended in 1994",
+        "correct": false,
+        "explanation": "Elections continued."
+       },
+       {
+        "id": "d",
+        "text": "Voters rewarded the Socialists",
+        "correct": false,
+        "explanation": "The Socialists had collapsed in 1992."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1946,
+      "month": 6,
+      "text": "Referendum: Italy becomes a Republic",
+      "factId": "F-ITALY-01"
+     },
+     {
+      "year": 1948,
+      "text": "Christian Democrats win with American support",
+      "factId": "F-ITALY-05"
+     },
+     {
+      "year": 1950,
+      "month": 8,
+      "text": "Cassa per il Mezzogiorno set up",
+      "factId": "F-ITALY-12"
+     },
+     {
+      "year": 1963,
+      "text": "DC turns to the non-Communist Left",
+      "factId": "F-ITALY-16"
+     },
+     {
+      "year": 1969,
+      "text": "Largest strike movement in Italian history; Piazza Fontana",
+      "factId": "F-ITALY-17"
+     },
+     {
+      "year": 1973,
+      "text": "Berlinguer's 'historic compromise'",
+      "factId": "F-ITALY-24"
+     },
+     {
+      "year": 1976,
+      "month": 6,
+      "text": "PCI wins 34.4 per cent",
+      "factId": "F-ITALY-25"
+     },
+     {
+      "year": 1978,
+      "month": 5,
+      "day": 10,
+      "text": "Aldo Moro's body found",
+      "factId": "F-ITALY-21"
+     },
+     {
+      "year": 1980,
+      "month": 8,
+      "text": "Bologna station bombing",
+      "factId": "F-ITALY-23"
+     },
+     {
+      "year": 1992,
+      "text": "Tangentopoli scandal",
+      "factId": "F-ITALY-30"
+     },
+     {
+      "year": 1994,
+      "text": "Old parties wiped out; Berlusconi",
+      "factId": "F-ITALY-31"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "A narrow Republic; the DC wins in 1948 with US support",
+      "factId": "F-ITALY-05"
+     },
+     {
+      "id": "n2",
+      "text": "The DC occupies the state and governs through patronage",
+      "factId": "F-ITALY-08"
+     },
+     {
+      "id": "n3",
+      "text": "Growth without reform: migration, the Southern gap, the 1969 strikes",
+      "factId": "F-ITALY-17"
+     },
+     {
+      "id": "n4",
+      "text": "Terror from left and right; the Moro affair",
+      "factId": "F-ITALY-21"
+     },
+     {
+      "id": "n5",
+      "text": "The PCI defends democracy; the historic compromise",
+      "factId": "F-ITALY-24"
+     },
+     {
+      "id": "n6",
+      "text": "Tangentopoli destroys the old parties, but the Republic survives",
+      "factId": "F-ITALY-31"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Excluding the Communists left the DC permanently in power"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Patronage politics did not address the costs of the miracle"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Radicals concluded reform was impossible"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "The threat drove the PCI to defend the state"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Without the Communist threat, patronage could be exposed"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Alcide De Gasperi",
+     "role": "Christian Democrat leader",
+     "whyItMatters": "Built the DC's hold on the state; kept the Interior Ministry.",
+     "factIds": [
+      "F-ITALY-06",
+      "F-ITALY-08",
+      "F-ITALY-09"
+     ]
+    },
+    {
+     "name": "Palmiro Togliatti",
+     "role": "PCI leader",
+     "whyItMatters": "Committed the PCI to parliamentary democracy; 'half Croce and half Stalin'.",
+     "factIds": [
+      "F-ITALY-03",
+      "F-ITALY-04",
+      "F-ITALY-05"
+     ]
+    },
+    {
+     "name": "Enrico Berlinguer",
+     "role": "PCI Secretary, 1972–1984",
+     "whyItMatters": "The historic compromise; 34.4 per cent in 1976.",
+     "factIds": [
+      "F-ITALY-24",
+      "F-ITALY-25"
+     ]
+    },
+    {
+     "name": "Aldo Moro",
+     "role": "DC leader and former Prime Minister",
+     "whyItMatters": "Kidnapped and killed by the Red Brigades in 1978.",
+     "factIds": [
+      "F-ITALY-21"
+     ]
+    },
+    {
+     "name": "Bettino Craxi",
+     "role": "Socialist leader and former Prime Minister",
+     "whyItMatters": "Fled to Tunisia after tangentopoli.",
+     "factIds": [
+      "F-ITALY-30"
+     ]
+    },
+    {
+     "name": "Silvio Berlusconi",
+     "role": "Media magnate; Forza Italia",
+     "whyItMatters": "The lasting beneficiary of the 1994 collapse.",
+     "factIds": [
+      "F-ITALY-31",
+      "F-ITALY-29"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "PCI under Togliatti",
+     "PCI under Berlinguer (1972–1984)"
+    ],
+    "rows": [
+     {
+      "criterion": "Attitude to democracy",
+      "cells": [
+       "Committed to parliamentary democracy and the ballot box",
+       "Historic compromise: defend democracy, end outright opposition to the DC"
+      ],
+      "factIds": [
+       "F-ITALY-03",
+       "F-ITALY-24"
+      ]
+     },
+     {
+      "criterion": "Relations with the Church and DC",
+      "cells": [
+       "Voted for Article 7, confirming the Concordat",
+       "Backed Andreotti's DC government against the Red Brigades"
+      ],
+      "factIds": [
+       "F-ITALY-04",
+       "F-ITALY-21"
+      ]
+     },
+     {
+      "criterion": "Relations with Moscow",
+      "cells": [
+       "Imposed Stalinist norms after 1948",
+       "Soviet funding continued ($47 million, 1971–90)"
+      ],
+      "factIds": [
+       "F-ITALY-05",
+       "F-ITALY-24"
+      ]
+     },
+     {
+      "criterion": "Electoral result",
+      "cells": [
+       "19 per cent in 1946",
+       "34.4 per cent in 1976"
+      ],
+      "factIds": [
+       "F-ITALY-02",
+       "F-ITALY-25"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-ITALY-01",
+    "year": 1946,
+    "text": "June 1946 referendum: 12.7 million for a republic, 10.7 million for the monarchy; the South voted for the king.",
+    "supports": [
+     "The Republic was born divided"
+    ],
+    "alsoWorksFor": [
+     "P2-9-COMPARATIVE"
+    ],
+    "lexicon": [
+     "referendum",
+     "Republic",
+     "Mezzogiorno"
+    ]
+   },
+   {
+    "factId": "F-ITALY-08",
+    "year": 1958,
+    "text": "DC won over 40 per cent in 1953 and 1958; southern voters backed it for services rather than faith.",
+    "supports": [
+     "DC dominance rested on patronage"
+    ],
+    "alsoWorksFor": [
+     "P2-9-COMPARATIVE"
+    ],
+    "lexicon": [
+     "Christian Democrats",
+     "clientelism"
+    ]
+   },
+   {
+    "factId": "F-ITALY-13",
+    "year": 1975,
+    "text": "By the mid-1970s southern consumption per head had doubled and infant mortality halved.",
+    "supports": [
+     "State transfers raised southern living standards"
+    ],
+    "lexicon": [
+     "Cassa per il Mezzogiorno"
+    ]
+   },
+   {
+    "factId": "F-ITALY-17",
+    "year": 1969,
+    "text": "1969: the largest strike movement in Italian history (the 'hot autumn').",
+    "supports": [
+     "Growth without reform bred protest"
+    ],
+    "lexicon": [
+     "hot autumn",
+     "Pirelli"
+    ]
+   },
+   {
+    "factId": "F-ITALY-20",
+    "year": 1978,
+    "text": "1970s: three politicians, nine magistrates, 65 policemen and some 300 others assassinated.",
+    "supports": [
+     "Terror was a real challenge to the Republic"
+    ],
+    "lexicon": [
+     "Years of Lead",
+     "Red Brigades"
+    ]
+   },
+   {
+    "factId": "F-ITALY-25",
+    "year": 1976,
+    "text": "June 1976: PCI 12.6 million votes, 34.4 per cent, 228 seats.",
+    "supports": [
+     "The historic compromise brought record support"
+    ],
+    "alsoWorksFor": [
+     "P2-12-DETENTE"
+    ],
+    "lexicon": [
+     "PCI",
+     "Berlinguer",
+     "Eurocommunism"
+    ]
+   },
+   {
+    "factId": "F-ITALY-31",
+    "year": 1994,
+    "text": "1994: all leading parties except the former Communists and ex-Fascists virtually wiped out.",
+    "supports": [
+     "Tangentopoli destroyed the party system, not the Republic"
+    ],
+    "lexicon": [
+     "tangentopoli",
+     "Berlusconi"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Politics in post-war Italy was 'a struggle to occupy the state'; the resulting system was grossly wasteful and the 'economic miracle' happened 'in spite of it rather than because of it', yet post-war stability was 'the crucial permissive condition' for Italy's economic performance.",
+    "useItLikeThis": "Judt's view supports a balanced judgement on the DC system, which suggests that its stability mattered more to growth than its efficiency.",
+    "factId": "F-ITALY-10"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Italians voted overwhelmingly for a republic in 1946.",
+    "right": "The margin was **narrow** (12.7 million to 10.7 million), and the South voted for the king."
+   },
+   {
+    "wrong": "The Church ran Italian politics through the DC.",
+    "right": "Judt says the Church's role was **smaller than claimed**; the DC ruled through the ministries and patronage."
+   },
+   {
+    "wrong": "Italy's terrorism came only from the Red Brigades.",
+    "right": "The **anti-republican right** committed the worst crime, the Bologna bombing of 1980."
+   },
+   {
+    "wrong": "The Northern League nearly broke Italy apart in the 1990s.",
+    "right": "Judt: there was **never any serious question** of Italy breaking apart."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1946,
+     "month": 6,
+     "text": "Republic by referendum"
+    },
+    {
+     "year": 1948,
+     "text": "DC victory"
+    },
+    {
+     "year": 1950,
+     "month": 8,
+     "text": "Cassa founded"
+    },
+    {
+     "year": 1969,
+     "text": "Hot autumn"
+    },
+    {
+     "year": 1973,
+     "text": "Historic compromise"
+    },
+    {
+     "year": 1978,
+     "month": 3,
+     "day": 16,
+     "text": "Moro kidnapped"
+    },
+    {
+     "year": 1980,
+     "month": 8,
+     "text": "Bologna bombing"
+    },
+    {
+     "year": 1992,
+     "text": "Tangentopoli"
+    }
+   ],
+   "keyArguments": [
+    "The Republic began narrowly and divided North from South.",
+    "The DC ruled by occupying the state: patronage, not faith, won the South.",
+    "The miracle happened in spite of the system, but stability made it possible (Judt).",
+    "Terror from left and right peaked in 1978–80; the PCI's support for the state helped defeat it.",
+    "Tangentopoli destroyed the old parties in 1992–94, but the Republic survived."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-17-B5-ITALY-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Referendum on the monarchy",
+     "year": 1946,
+     "month": 6,
+     "factId": "F-ITALY-01"
+    },
+    {
+     "id": "b",
+     "text": "Christian Democrat election victory",
+     "year": 1948,
+     "factId": "F-ITALY-05"
+    },
+    {
+     "id": "c",
+     "text": "Cassa per il Mezzogiorno founded",
+     "year": 1950,
+     "month": 8,
+     "factId": "F-ITALY-12"
+    },
+    {
+     "id": "d",
+     "text": "DC coalition with the non-Communist Left",
+     "year": 1963,
+     "factId": "F-ITALY-16"
+    },
+    {
+     "id": "e",
+     "text": "Largest strike movement in Italian history",
+     "year": 1969,
+     "factId": "F-ITALY-17"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of the 1970s in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Red Brigades come to public attention",
+     "year": 1970,
+     "month": 10,
+     "factId": "F-ITALY-19"
+    },
+    {
+     "id": "b",
+     "text": "Berlinguer's historic compromise",
+     "year": 1973,
+     "factId": "F-ITALY-24"
+    },
+    {
+     "id": "c",
+     "text": "PCI wins 34.4 per cent",
+     "year": 1976,
+     "month": 6,
+     "factId": "F-ITALY-25"
+    },
+    {
+     "id": "d",
+     "text": "Moro kidnapped",
+     "year": 1978,
+     "month": 3,
+     "factId": "F-ITALY-21"
+    },
+    {
+     "id": "e",
+     "text": "Bologna station bombed",
+     "year": 1980,
+     "month": 8,
+     "factId": "F-ITALY-23"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "New family code replaces the Fascist one",
+     "year": 1975,
+     "factId": "F-ITALY-27"
+    },
+    {
+     "id": "b",
+     "text": "Abortion legalised",
+     "year": 1978,
+     "month": 5,
+     "factId": "F-ITALY-27"
+    },
+    {
+     "id": "c",
+     "text": "Tangentopoli brings down the Socialists",
+     "year": 1992,
+     "factId": "F-ITALY-30"
+    },
+    {
+     "id": "d",
+     "text": "Old parties wiped out in elections",
+     "year": 1994,
+     "factId": "F-ITALY-31"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Alcide De Gasperi",
+     "right": "Christian Democrat leader who kept the Interior Ministry under DC control",
+     "explanation": "The DC's founding leader."
+    },
+    {
+     "left": "Enrico Berlinguer",
+     "right": "PCI Secretary who proposed the historic compromise",
+     "explanation": "1972–1984."
+    },
+    {
+     "left": "Bettino Craxi",
+     "right": "Socialist leader who fled to Tunisia",
+     "explanation": "After tangentopoli."
+    },
+    {
+     "left": "Umberto Bossi",
+     "right": "Founder of the Lombard (later Northern) League",
+     "explanation": "Claimed the South lived off the North."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many million votes were cast for abolishing the monarchy in June 1946? (number, one decimal place)",
+   "factIds": [
+    "F-ITALY-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 12.7,
+     "tolerance": 0,
+     "explanation": "12.7 million, against 10.7 million."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of the vote did the PCI win in the elections of 1946? (per cent)",
+   "factIds": [
+    "F-ITALY-02"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 19,
+     "tolerance": 0,
+     "explanation": "19 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By the end of the 1980s, what was Lombardy's regional product per head as a percentage of the national average? (number)",
+   "factIds": [
+    "F-ITALY-28"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 132,
+     "tolerance": 0,
+     "explanation": "132 per cent, against 56 in Calabria."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many policemen were assassinated in Italy during the 1970s, according to Judt? (number)",
+   "factIds": [
+    "F-ITALY-20"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 65,
+     "tolerance": 0,
+     "explanation": "65, with three politicians, nine magistrates and some 300 others."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of Christian Democrat rule? Choose all that apply.",
+   "factIds": [
+    "F-ITALY-08",
+    "F-ITALY-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Control of the Interior Ministry",
+     "correct": true,
+     "explanation": "Yes: De Gasperi made sure of it."
+    },
+    {
+     "id": "b",
+     "text": "Jobs and services in return for votes",
+     "correct": true,
+     "explanation": "Yes: especially in the South."
+    },
+    {
+     "id": "c",
+     "text": "Never supporting laws the Vatican disapproved of",
+     "correct": true,
+     "explanation": "Yes: under De Gasperi and his successors."
+    },
+    {
+     "id": "d",
+     "text": "Coalition with the PCI from 1948",
+     "correct": false,
+     "explanation": "No: the DC governed with centre parties, then the non-Communist Left."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What had the South gained by the mid-1970s? Choose all that apply.",
+   "factIds": [
+    "F-ITALY-13",
+    "F-ITALY-28"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Consumption per head had doubled",
+     "correct": true,
+     "explanation": "Yes: a real improvement."
+    },
+    {
+     "id": "b",
+     "text": "Infant mortality had halved",
+     "correct": true,
+     "explanation": "Yes: a social success."
+    },
+    {
+     "id": "c",
+     "text": "Incomes had risen by about 4 per cent a year",
+     "correct": true,
+     "explanation": "Yes: on average."
+    },
+    {
+     "id": "d",
+     "text": "The gap with the North had closed",
+     "correct": false,
+     "explanation": "No: by the late 1980s the gap was growing."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By the mid-1950s nearly three civil servants in five came from the South.” Which argument does it support?",
+   "factIds": [
+    "F-ITALY-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "State employment was used as a source of jobs and patronage",
+     "correct": true,
+     "explanation": "Correct: the South had little more than a third of the population."
+    },
+    {
+     "id": "b",
+     "text": "The South was over-represented because it was richer",
+     "correct": false,
+     "explanation": "The South was poorer."
+    },
+    {
+     "id": "c",
+     "text": "Civil servants were chosen by exam alone",
+     "correct": false,
+     "explanation": "The fact points to patronage."
+    },
+    {
+     "id": "d",
+     "text": "The North ran the state",
+     "correct": false,
+     "explanation": "The fact shows the opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Andreotti, backed by the Communists and most of his own party, refused to negotiate for Moro's life.” Which argument does it support?",
+   "factIds": [
+    "F-ITALY-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The main parties united against terror",
+     "correct": true,
+     "explanation": "Correct: the terrorists' demand was refused."
+    },
+    {
+     "id": "b",
+     "text": "The PCI sympathised with the Red Brigades",
+     "correct": false,
+     "explanation": "The PCI backed the government."
+    },
+    {
+     "id": "c",
+     "text": "Andreotti was a Communist",
+     "correct": false,
+     "explanation": "He was a Christian Democrat."
+    },
+    {
+     "id": "d",
+     "text": "The state negotiated with terrorists",
+     "correct": false,
+     "explanation": "It refused."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In 1946 Italians voted by a huge majority, North and South alike, to keep the monarchy.”",
+   "factIds": [
+    "F-ITALY-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They voted narrowly for a republic, and the South voted for the king",
+     "correct": true,
+     "explanation": "Correct: 12.7 million to 10.7 million."
+    },
+    {
+     "id": "b",
+     "text": "The vote was in 1956",
+     "correct": false,
+     "explanation": "It was in June 1946."
+    },
+    {
+     "id": "c",
+     "text": "Women could not vote",
+     "correct": false,
+     "explanation": "Women had just gained the vote."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the result is reversed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Red Brigades, a neo-Fascist group, bombed Bologna station in 1980.”",
+   "factIds": [
+    "F-ITALY-19",
+    "F-ITALY-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Red Brigades were far left; the Bologna bombing came from the anti-republican right",
+     "correct": true,
+     "explanation": "Correct: two different extremes."
+    },
+    {
+     "id": "b",
+     "text": "The bombing was in 1990",
+     "correct": false,
+     "explanation": "It was in August 1980."
+    },
+    {
+     "id": "c",
+     "text": "Bologna has no railway station",
+     "correct": false,
+     "explanation": "The station was the target."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the groups are confused."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Italy between 1945 and 2000. Is Mussolini's Concordat with the Church of 1929 inside or outside the timeframe?",
+   "factIds": [
+    "F-ITALY-04"
+   ],
+   "timeframe": [
+    1945,
+    2000
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside, but Article 7 of the 1947 Constitution, which confirmed it, is inside",
+     "correct": true,
+     "explanation": "Correct: use the 1947 decision, not the 1929 treaty."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1929 is before 1945."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because the Church still existed",
+     "correct": false,
+     "explanation": "The date of the event is what counts."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Berlinguer propose the historic compromise in 1973?",
+   "factIds": [
+    "F-ITALY-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Chilean coup and the terrorist threat to Italian democracy",
+     "correct": true,
+     "explanation": "Correct: both drove the shift."
+    },
+    {
+     "id": "b",
+     "text": "Moscow ordered it",
+     "correct": false,
+     "explanation": "The PCI showed relative autonomy from Moscow."
+    },
+    {
+     "id": "c",
+     "text": "The PCI had won a majority",
+     "correct": false,
+     "explanation": "It never won a majority."
+    },
+    {
+     "id": "d",
+     "text": "The DC asked the PCI to join NATO",
+     "correct": false,
+     "explanation": "Not the reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What brought down the Socialist Party in 1992?",
+   "factIds": [
+    "F-ITALY-30"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The tangentopoli scandal over its management of Milan",
+     "correct": true,
+     "explanation": "Correct: Craxi fled to Tunisia."
+    },
+    {
+     "id": "b",
+     "text": "Defeat by the Red Brigades",
+     "correct": false,
+     "explanation": "No: the scandal concerned corruption, not terrorism."
+    },
+    {
+     "id": "c",
+     "text": "A merger with the DC",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "The Northern League's victory",
+     "correct": false,
+     "explanation": "No: the fall followed magistrates' investigations in Milan."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who was the only lasting beneficiary of the 1994 'political earthquake', according to Judt?",
+   "factIds": [
+    "F-ITALY-31"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Silvio Berlusconi",
+     "correct": true,
+     "explanation": "Correct: the media magnate."
+    },
+    {
+     "id": "b",
+     "text": "Bettino Craxi",
+     "correct": false,
+     "explanation": "Craxi was in exile."
+    },
+    {
+     "id": "c",
+     "text": "Aldo Moro",
+     "correct": false,
+     "explanation": "Moro was killed in 1978."
+    },
+    {
+     "id": "d",
+     "text": "Enrico Berlinguer",
+     "correct": false,
+     "explanation": "Berlinguer died in 1984."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Togliatti describe the PCI's appeal to intellectuals?",
+   "factIds": [
+    "F-ITALY-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'Half Croce and half Stalin'",
+     "correct": true,
+     "explanation": "Correct: liberal anti-Fascism with Marxism."
+    },
+    {
+     "id": "b",
+     "text": "'Historic compromise'",
+     "correct": false,
+     "explanation": "That was Berlinguer's policy in 1973."
+    },
+    {
+     "id": "c",
+     "text": "'Strategy of tension'",
+     "correct": false,
+     "explanation": "That describes the terror of the lead years."
+    },
+    {
+     "id": "d",
+     "text": "'Bribe city'",
+     "correct": false,
+     "explanation": "That is tangentopoli."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R20",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By the end of the 1980s Lombardy's product per head was 132 per cent of the national average and Calabria's 56 per cent.” Which argument does it support?",
+   "factIds": [
+    "F-ITALY-28"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The North–South divide persisted despite decades of transfers",
+     "correct": true,
+     "explanation": "Correct: the gap was growing."
+    },
+    {
+     "id": "b",
+     "text": "The Cassa closed the gap",
+     "correct": false,
+     "explanation": "The gap remained."
+    },
+    {
+     "id": "c",
+     "text": "Calabria was richer than Lombardy",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "Italy had no regional inequality",
+     "correct": false,
+     "explanation": "The fact shows large inequality."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-17-B5-ITALY-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was patronage the main reason for Christian Democrat dominance in Italy between 1948 and 1963?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "patronage",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for Christian Democrat dominance",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1948 and 1963",
+     "answer": "timeframe",
+     "explanation": "From the 1948 victory to the opening to the Left."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Whether patronage outweighed anti-communism and the Church."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘The Italian economic miracle happened in spite of the political system, not because of it.’ Discuss with reference to the period 1950 to 1975.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "in spite of the political system",
+     "answer": "factor",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s3",
+     "text": "the Italian economic miracle",
+     "answer": "scope",
+     "explanation": "What the claim is about."
+    },
+    {
+     "id": "s4",
+     "text": "1950 to 1975",
+     "answer": "timeframe",
+     "explanation": "From the Cassa to the mid-1970s."
+    },
+    {
+     "id": "s5",
+     "text": "in spite of",
+     "answer": "judgement",
+     "explanation": "Whether the system hindered growth, enabled it, or both."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was patronage the main reason for Christian Democrat dominance in Italy between 1948 and 1963?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Patronage was the engine of DC dominance, turning control of the state into votes, but anti-communism, backed by America and the Vatican, explains how the DC first won power in 1948.",
+     "correct": true,
+     "explanation": "Correct: a weighed judgement."
+    },
+    {
+     "id": "b",
+     "text": "The DC won in 1948.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Patronage was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Church controlled every vote.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the response of the Italian state and parties to terrorism between 1970 and 1981.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The state itself responded weakly, as the Moro affair showed, but the parties' united refusal to bargain and the PCI's defence of the Republic isolated the terrorists and defeated their strategy.",
+     "correct": true,
+     "explanation": "Correct: distinguishes state from parties."
+    },
+    {
+     "id": "b",
+     "text": "Moro was killed in 1978.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The response was good.",
+     "correct": false,
+     "explanation": "No criterion or evidence."
+    },
+    {
+     "id": "d",
+     "text": "The state did nothing.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In August 1950 parliament set up the Cassa per il Mezzogiorno.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because its factories were capital-intensive, the Cassa created few jobs, so the South stayed dependent on transfers.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "On 16 March 1978 the Red Brigades kidnapped Aldo Moro.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that terror had struck the heart of the state, so the parties had to choose between bargaining and resistance.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Three civil servants in five from the South",
+     "right": "The DC used the state for patronage",
+     "explanation": "The South had a third of the population."
+    },
+    {
+     "left": "Southern consumption doubled by the mid-1970s",
+     "right": "The Cassa raised living standards",
+     "explanation": "Despite its inefficiency."
+    },
+    {
+     "left": "The 1969 strike movement",
+     "right": "Growth without reform bred protest",
+     "explanation": "The largest in Italian history."
+    },
+    {
+     "left": "The 1994 election results",
+     "right": "Tangentopoli destroyed the party system",
+     "explanation": "The old parties were wiped out."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The DC stayed in power for a long time because it was popular.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The DC won over 40 per cent in 1953 and 1958 because, as Judt argues, it occupied the state and delivered jobs and services, so southern voters backed it for what it provided rather than for its faith.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and historian."
+    },
+    {
+     "id": "b",
+     "text": "The DC was very popular for a very long time.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The DC won in 1948.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Everyone loved the DC.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Italian state defeated terrorism through its own strength.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Moro affair exposed the state's incompetence (the Interior Minister resigned), and right-wing networks reached into the police; terror was defeated mainly because the parties, the PCI included, united behind the Republic.",
+     "correct": true,
+     "explanation": "Correct: specific evidence against the claim."
+    },
+    {
+     "id": "b",
+     "text": "Terrorism is always defeated.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "c",
+     "text": "Some police were brave.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "Moro was a Christian Democrat.",
+     "correct": false,
+     "explanation": "A fact, not a counter."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The Italian economic miracle happened in spite of the political system, not because of it.’ Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by efficiency the claim is right, because the system was wasteful; judged by the conditions for growth it is only half right, because the DC's stability, as Judt says, was the crucial permissive condition.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Italy grew and the DC ruled.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the economy was good.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, politics never matters to economics.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the causes and consequences of the collapse of the Italian party system between 1992 and 1994.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Young magistrates' corruption investigations",
+     "answer": "causes",
+     "explanation": "Breaking decades of silence."
+    },
+    {
+     "id": "s2",
+     "text": "The Socialists' and DC's intertwined affairs",
+     "answer": "causes",
+     "explanation": "Partners in patronage."
+    },
+    {
+     "id": "s3",
+     "text": "Northern resentment fed by the Northern League",
+     "answer": "causes",
+     "explanation": "The South as 'freeloader'."
+    },
+    {
+     "id": "s4",
+     "text": "The old parties virtually wiped out in 1994",
+     "answer": "effects",
+     "explanation": "A political earthquake."
+    },
+    {
+     "id": "s5",
+     "text": "Berlusconi's rise",
+     "answer": "effects",
+     "explanation": "The only lasting beneficiary."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-17-B5-ITALY-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was patronage the main reason for Christian Democrat dominance in Italy between 1948 and 1963?",
+   "commandTerm": "to what extent",
+   "namedFactor": "patronage",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1948,
+    1963
+   ],
+   "scope": "Italy",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Patronage, weighed first",
+    "timeframe": "1948–1963",
+    "scope": "Christian Democrat dominance",
+    "judgement": "Whether patronage outweighed anti-communism and the Church"
+   },
+   "modelPlan": {
+    "thesis": "Patronage was the engine of DC dominance, turning control of the state into votes, but anti-communism, backed by America and the Vatican, explains how the DC first won power in 1948.",
+    "arguments": [
+     {
+      "claim": "Patronage: occupying the state (named factor first).",
+      "evidence": [
+       "F-ITALY-07",
+       "F-ITALY-08"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Clientelism across the system.",
+      "evidence": [
+       "F-ITALY-09",
+       "F-ITALY-10"
+      ]
+     },
+     {
+      "claim": "Anti-communism and American support in 1948.",
+      "evidence": [
+       "F-ITALY-05",
+       "F-ITALY-06"
+      ]
+     },
+     {
+      "claim": "The Church and the Vatican.",
+      "evidence": [
+       "F-ITALY-04",
+       "F-ITALY-09"
+      ]
+     }
+    ],
+    "counter": "The 1948 victory came from anti-communism and American intervention before the patronage system was fully built.",
+    "judgementCriterion": "What kept the DC in power after 1948? Patronage, because southern voters backed it for services rather than faith."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Patronage was the main reason for DC dominance, because it turned control of the state into votes.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "By the mid-1950s nearly three civil servants in five came from the South, and southern voters backed the DC for electricity, roads, schools and jobs.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that each victory gave the party more to distribute, so its support renewed itself and it won over 40 per cent in 1953 and 1958.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the DC first won in 1948 through anti-communism, aided by America's intervention and the Vatican's excommunication of Communist voters.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Patronage was therefore the main reason the DC stayed in power, while anti-communism explains how it got there.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "patronage",
+     "clientelism"
+    ],
+    "synonyms": [
+     "jobs",
+     "services",
+     "the state"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "De Gasperi",
+     "anti-communism",
+     "Vatican"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B5-ITALY-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Italian economic miracle happened in spite of the political system, not because of it.” Discuss with reference to the period 1950 to 1975.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1950,
+    1975
+   ],
+   "scope": "Italy",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: growth 'in spite of' the system",
+    "timeframe": "1950–1975",
+    "scope": "The economic miracle",
+    "judgement": "Whether the system hindered growth, enabled it, or both"
+   },
+   "modelPlan": {
+    "thesis": "The claim is half right: the patronage system was wasteful and left the costs of growth unaddressed, but its stability, and state investment through bodies like the Cassa, made the miracle possible.",
+    "arguments": [
+     {
+      "claim": "For: a wasteful, colonised system.",
+      "evidence": [
+       "F-ITALY-10",
+       "F-ITALY-09"
+      ]
+     },
+     {
+      "claim": "For: the costs of growth were never met.",
+      "evidence": [
+       "F-ITALY-15",
+       "F-ITALY-17"
+      ]
+     },
+     {
+      "claim": "Against: stability as the permissive condition.",
+      "evidence": [
+       "F-ITALY-10"
+      ]
+     },
+     {
+      "claim": "Against: state investment raised southern living standards.",
+      "evidence": [
+       "F-ITALY-12",
+       "F-ITALY-13"
+      ]
+     }
+    ],
+    "counter": "The Cassa's benefits went to favoured regions, so even state investment was shaped by patronage.",
+    "judgementCriterion": "Would Italy have grown without political stability? Judt suggests not, so the system enabled growth even as it wasted resources."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The claim is half right: the miracle happened despite the system's waste but because of its stability.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Judt calls the system grossly wasteful, yet between 1950 and 1973 the Italian economy grew even faster than France's, and southern consumption doubled by the mid-1970s.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the DC's unbroken rule gave investors a stable setting, so growth could proceed even while patronage diverted resources.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, governments never met the demand for housing and services in the northern cities, which led to the strike wave of 1969.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The system therefore enabled the miracle but failed to manage its consequences.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "in spite of"
+    ],
+    "synonyms": [
+     "political system",
+     "economic miracle",
+     "stability"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Cassa per il Mezzogiorno",
+     "patronage",
+     "growth"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B5-ITALY-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the causes of political violence in Italy between 1969 and 1981.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1969,
+    1981
+   ],
+   "scope": "Italy",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "The causes of political violence",
+    "timeframe": "1969–1981",
+    "scope": "Italy",
+    "judgement": "Which causes mattered most, and how left and right violence fed each other"
+   },
+   "modelPlan": {
+    "thesis": "Violence had two linked causes: a radical left that concluded after 1969 that reform was impossible, and an anti-republican right partly protected by networks within the state; the exclusion of radical opposition from parliament fed both.",
+    "arguments": [
+     {
+      "claim": "The 'hot autumn' and the rejection of reform.",
+      "evidence": [
+       "F-ITALY-17"
+      ]
+     },
+     {
+      "claim": "Exclusion of opposition from parliament.",
+      "evidence": [
+       "F-ITALY-16"
+      ]
+     },
+     {
+      "claim": "The Red Brigades' strategy of provoking repression.",
+      "evidence": [
+       "F-ITALY-19",
+       "F-ITALY-20"
+      ]
+     },
+     {
+      "claim": "Right-wing terror and complicity within the state.",
+      "evidence": [
+       "F-ITALY-23",
+       "F-ITALY-18"
+      ]
+     }
+    ],
+    "counter": "Terrorism was the work of a few thousand people, so structural explanations may overstate its roots.",
+    "judgementCriterion": "Which cause mattered most? The radicals' rejection of reform, because it turned protest into violence."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Political violence was caused above all by radicals' conviction, after 1969, that the Republic could not be reformed.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After the largest strike movement in Italian history, student theorists concluded that compromise was defeat; the Red Brigades appeared in October 1970.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that a minority came to see violence as the only path, so in the 1970s three politicians, nine magistrates and 65 policemen were assassinated.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the worst crime, the Bologna bombing of August 1980, came from the anti-republican right, protected by networks reaching into the police and the DC.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Violence therefore came from both extremes, and their combination explains why Italy's crisis was so severe.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "violence",
+     "terrorism"
+    ],
+    "synonyms": [
+     "Red Brigades",
+     "lead years"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "strategy of tension",
+     "hot autumn",
+     "Bologna"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B5-ITALY-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the response of the Italian state and parties to terrorism between 1970 and 1981.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1970,
+    1981
+   ],
+   "scope": "Italy",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The response of state and parties",
+    "timeframe": "1970–1981",
+    "scope": "Terrorism in Italy",
+    "judgement": "By what criterion: protecting lives, or defeating the terrorists' strategy"
+   },
+   "modelPlan": {
+    "thesis": "The state itself responded weakly, as the Moro affair showed, but the parties' united refusal to bargain and the PCI's defence of the Republic isolated the terrorists and defeated their strategy.",
+    "arguments": [
+     {
+      "claim": "Weakness: the Moro affair.",
+      "evidence": [
+       "F-ITALY-21"
+      ]
+     },
+     {
+      "claim": "Weakness: complicity of right-wing networks.",
+      "evidence": [
+       "F-ITALY-23"
+      ]
+     },
+     {
+      "claim": "Strength: refusal to bargain.",
+      "evidence": [
+       "F-ITALY-21"
+      ]
+     },
+     {
+      "claim": "Strength: the PCI's defence of the Republic and the arrests of 1979.",
+      "evidence": [
+       "F-ITALY-22"
+      ]
+     }
+    ],
+    "counter": "Eight years of anti-terrorist laws and manhunts had failed to break the underground by 1978.",
+    "judgementCriterion": "Judged by whether the terrorists achieved their aim of forcing repression and polarisation, the response succeeded."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The state's own response was weak, but the parties' united stand defeated the terrorists' strategy.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Interior Minister resigned the day after Moro's body was found, yet Andreotti, backed by the Communists, refused to bargain, and in April 1979 Negri was arrested.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the terrorists failed to polarise opinion, because the PCI treated them as criminals rather than as part of the left.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, right-wing networks within the police and the DC authorised murders, so the state was partly complicit in the violence.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The response was therefore politically successful but institutionally weak.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "response"
+    ],
+    "synonyms": [
+     "state",
+     "parties",
+     "terrorism"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Moro",
+     "Andreotti",
+     "PCI"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B5-ITALY-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the causes and consequences of the collapse of the Italian party system between 1992 and 1994.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1992,
+    1994
+   ],
+   "scope": "Italy",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1992–1994",
+    "scope": "The collapse of the party system",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The collapse was caused mainly by magistrates' exposure of decades of patronage, made possible by northern resentment; its main consequence was the destruction of the old parties and the rise of Berlusconi, while the Republic survived.",
+    "arguments": [
+     {
+      "claim": "Cause: the magistrates and tangentopoli.",
+      "evidence": [
+       "F-ITALY-30"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: patronage and northern resentment.",
+      "evidence": [
+       "F-ITALY-09",
+       "F-ITALY-29"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: the 1994 elections.",
+      "evidence": [
+       "F-ITALY-31"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: new coalitions, but no break-up.",
+      "evidence": [
+       "F-ITALY-29"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "The magistrates' work alone does not explain why voters abandoned parties they had backed for two generations.",
+    "judgementCriterion": "Which consequence lasted longest? Berlusconi's rise, which Judt calls the only lasting result."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The party system collapsed mainly because magistrates exposed decades of patronage.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The tangentopoli scandal of 1992 brought down the Socialists and forced Craxi into exile in Tunisia, and the DC was dragged down with them.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the web of arrangements that had held coalitions together since 1948 unravelled, so voters deserted the old parties.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the main beneficiary was Berlusconi, who entered politics, Judt argues, to protect his own business rather than to clean house.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The collapse therefore ended the old parties but not the habits of Italian politics.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "collapse"
+    ],
+    "synonyms": [
+     "tangentopoli",
+     "party system"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Craxi",
+     "Berlusconi",
+     "magistrates"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B5-ITALY-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the strategies of the Italian Communist Party under Togliatti and Berlinguer between 1945 and 1984.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "leader"
+   ],
+   "timeframe": [
+    1945,
+    1984
+   ],
+   "scope": "Italy",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The PCI's strategies under two leaders",
+    "timeframe": "1945–1984",
+    "scope": "Italy",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both leaders committed the PCI to working within Italian democracy, but they differed in context and relationship with Moscow: Togliatti tightened Stalinist control after 1948, while Berlinguer offered the DC a historic compromise and won the party's best result.",
+    "arguments": [
+     {
+      "claim": "Similarity: both worked within parliamentary democracy.",
+      "evidence": [
+       "F-ITALY-03",
+       "F-ITALY-24"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both compromised with Catholic Italy.",
+      "evidence": [
+       "F-ITALY-04",
+       "F-ITALY-24"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: Stalinist norms against relative autonomy.",
+      "evidence": [
+       "F-ITALY-05",
+       "F-ITALY-24"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: 19 per cent against 34.4 per cent.",
+      "evidence": [
+       "F-ITALY-02",
+       "F-ITALY-25"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Berlinguer's PCI still took Soviet money, so its autonomy from Moscow was only relative.",
+    "judgementCriterion": "Which difference mattered most? Electoral success: the historic compromise made the PCI a 'system' party."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Togliatti and Berlinguer both tied the PCI to Italian democracy, but in very different circumstances.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Togliatti committed the party to parliamentary democracy and voted for Article 7 in 1947, whereas Berlinguer in 1973 offered to end outright opposition to the DC.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that both accepted compromise with Catholic Italy, but Berlinguer went further by offering to defend the DC-led state against terror.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, after 1948 Togliatti imposed Stalinist norms, while the PCI had publicly criticised Moscow's invasion of Czechoslovakia, though under Berlinguer it still received Soviet funds.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore the result: 19 per cent in 1946 against 34.4 per cent in 1976.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Togliatti",
+     "Berlinguer"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "historic compromise",
+     "Article 7",
+     "Moscow"
+    ]
+   }
+  }
+ ]
+}

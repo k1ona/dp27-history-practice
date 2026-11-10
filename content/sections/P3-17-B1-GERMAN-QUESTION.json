@@ -1,0 +1,2805 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-17-B1-GERMAN-QUESTION",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 19,
+  "openingProblem": {
+   "problem": "In 1945 all four occupying powers said they wanted a single Germany. By 1949 there were two German states, and by 1955 each was armed and in a rival alliance. Who divided Germany: Moscow, the West, or the Germans themselves?",
+   "predictionPrompt": "Your prediction in one line: who was most responsible for dividing Germany?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Potsdam and the occupation, 1945–1946",
+    "body": "At Potsdam, between 17 July and 2 August 1945, Stalin, Truman and Churchill (replaced midway by Attlee) agreed what to do with defeated Germany, but only in general terms. Germany would be divided into zones of occupation; Germans would be expelled from eastern Europe; and the occupiers would pursue \"democratization\", \"denazification\" and \"decartelization\". Tony Judt points out the contradiction at the heart of the deal. Germany was to be treated as a single economic unit, yet the Soviet Union was allowed to take goods and equipment from its own zone and 10 per cent of reparations from the Western zones. Reparations, as after 1918, divided the victors from the start.\n\nThe early American aim was to punish and weaken. Policy rested on demilitarisation, denazification and deindustrialisation: the Wehrmacht was formally dissolved on 20 August 1946, and a plan of March 1946 strictly limited German industry, especially steel.\n\nThat approach soon looked absurd to the Western occupiers. Germany could not feed itself. By July 1946 Britain had imported 112,000 tons of wheat and 50,000 tons of potatoes for its zone, paid for with an American loan; the occupation cost Britain $80 million a year against at most $29 million in reparations, while bread was rationed at home for the first time. Chancellor Hugh Dalton complained that Britain was \"paying reparations to the Germans\". The Americans and British also feared that hungry, hopeless Germans would turn back to Nazism or to Communism, so they began handing Germans responsibility for their own affairs.\n\nThe Soviet zone went the other way. From the outset the Soviets set up a Communist-led administration and dismantled factories for shipment east. Communism had little appeal: in the Berlin elections of 20 October 1946 the Communists came far behind both the Social Democrats and the Christian Democrats.\n\nThe first parting came in 1946. In May the US military governor, General Lucius Clay, suspended reparations from the American zone, saying the Soviets had broken their Potsdam undertakings; Britain followed two months later. On 6 September 1946, in a speech at Stuttgart, Secretary of State James Byrnes promised that the US Army would stay in Germany as long as an occupation was needed. This mattered because the Western powers now saw German recovery as their interest, which meant that the Potsdam idea of a single, weakened Germany was already breaking down.",
+    "argumentsThatWork": [
+     {
+      "claim": "Potsdam's contradictions over reparations divided the victors from the start.",
+      "evidence": [
+       "F-GERMQ-02",
+       "F-GERMQ-06"
+      ],
+      "strongestCounter": "All four powers still formally accepted a single Germany in 1946, so division was not yet decided."
+     },
+     {
+      "claim": "The cost of occupation pushed Britain and the US towards German recovery.",
+      "evidence": [
+       "F-GERMQ-05",
+       "F-GERMQ-23"
+      ],
+      "strongestCounter": "Fear of Communism and Nazism, not only cost, shaped the change."
+     },
+     {
+      "claim": "Soviet policy in its zone made Communism unattractive to Germans.",
+      "evidence": [
+       "F-GERMQ-04"
+      ],
+      "strongestCounter": "Stalin had little choice: Communists could not win by votes."
+     }
+    ],
+    "howItGetsAsked": [
+     "Compare and contrast Soviet and Western policies towards Germany between 1945 and 1949.",
+     "Discuss the view that the Western powers, not the Soviet Union, were responsible for the division of Germany."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Western powers abandoned the Potsdam aim of a weakened Germany because occupation was ruinously expensive.",
+     "prove": "By July 1946 Britain was importing wheat and potatoes for its zone and paying $80 million a year against at most $29 million in reparations, while rationing bread at home.",
+     "explain": "This meant that a weak Germany was a burden on its occupiers, so in May 1946 Clay suspended reparations and the Western zones moved towards recovery.",
+     "test": "However, Soviet dismantling and the Communist-led administration in the East also broke the Potsdam framework.",
+     "judge": "Cost was therefore the main reason for the Western shift, while Soviet policy made it easier to justify."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which goals did the Allies agree at Potsdam in 1945?",
+      "factIds": [
+       "F-GERMQ-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Democratisation, denazification and decartelisation",
+        "correct": true,
+        "explanation": "Correct: plus occupation zones and expulsions."
+       },
+       {
+        "id": "b",
+        "text": "Immediate German unification",
+        "correct": false,
+        "explanation": "Germany was divided into zones."
+       },
+       {
+        "id": "c",
+        "text": "A West German state",
+        "correct": false,
+        "explanation": "That came in 1949."
+       },
+       {
+        "id": "d",
+        "text": "German rearmament",
+        "correct": false,
+        "explanation": "That was raised only in 1950."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did General Clay suspend reparations from the American zone in May 1946?",
+      "factIds": [
+       "F-GERMQ-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "He said the Soviets had failed to keep their Potsdam undertakings",
+        "correct": true,
+        "explanation": "Correct: Britain followed two months later."
+       },
+       {
+        "id": "b",
+        "text": "Because Germany had paid in full",
+        "correct": false,
+        "explanation": "Not the reason."
+       },
+       {
+        "id": "c",
+        "text": "Because the Berlin blockade had begun",
+        "correct": false,
+        "explanation": "The blockade began in June 1948."
+       },
+       {
+        "id": "d",
+        "text": "Because France demanded it",
+        "correct": false,
+        "explanation": "France still wanted reparations."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “By July 1946 Britain was importing food for its zone while rationing bread at home.” Which argument does it support best?",
+      "factIds": [
+       "F-GERMQ-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A weakened Germany was a burden on the Western occupiers",
+        "correct": true,
+        "explanation": "Correct: Dalton said Britain was paying reparations to the Germans."
+       },
+       {
+        "id": "b",
+        "text": "Britain profited from occupation",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The Soviet zone fed western Germany",
+        "correct": false,
+        "explanation": "Not what the fact shows."
+       },
+       {
+        "id": "d",
+        "text": "Britain wanted to leave Germany at once",
+        "correct": false,
+        "explanation": "Britain stayed."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "The road to division, 1947–1948",
+    "body": "The Western zones began to merge. At the end of 1946 Britain and the United States agreed to combine the economies of their zones in a \"Bizone\". This did not yet mean a divided Germany: in February 1947 Britain and France signed the Dunkirk Treaty, pledging mutual support against any future *German* aggression, and US Secretary of State George Marshall still hoped for a united German economy.\n\nThe real break came at the Moscow conference of Foreign Ministers, from 10 March to 24 April 1947. Britain and the US were now determined to rebuild the western German economy so that Germans could support themselves and help European recovery. The Soviet Union wanted reparations from the Western zones and a united German administration. But a single German administration, Judt explains, would have meant in practice handing the country to the Soviet sphere, given the Red Army's military superiority. Robert Murphy, the American political adviser in Germany, said it was the Moscow conference \"which really rang down the Iron Curtain\".\n\nEvents then moved fast. On 23 May 1947 the Bizone gained a German Economic Council, the embryo of a West German government. The US directive JCS 1067, with its punitive aims, was replaced by JCS 1779, which aimed at the economic unification of the western zones and German self-government. \"For the Americans especially,\" Judt writes, \"Germans were rapidly ceasing to be the enemy.\" The last meeting of the four Foreign Ministers, in London in November and December 1947, broke up without agreement and without setting another date.\n\nFrom 23 February 1948 Britain, France and the US met in London to plan Germany's future. They agreed to extend the Marshall Plan to western Germany and to prepare a West German government, with France's agreement bought by the temporary separation of the Saar and international oversight of the Ruhr. The Soviet representative, Marshal Sokolovsky, protested. On 20 March 1948 he walked out of the Allied Control Council in Berlin; no further meeting was ever held. On 1 April Soviet authorities began to interfere with traffic between the Western zones and Berlin.\n\nThe final step was money. On 18 June 1948 the Western powers announced a new currency, the **Deutsche Mark**; three days later it was in circulation. Each German could exchange 40 old Reichsmarks at 1:1 and the rest at 10:1. The reform wiped out savings, but goods quickly reappeared in the shops. This mattered because a separate currency created a separate economy, which meant that the western zones were now, in practice, a separate state in the making.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Moscow conference of 1947 showed that East and West wanted incompatible Germanies.",
+      "evidence": [
+       "F-GERMQ-09"
+      ],
+      "strongestCounter": "Both sides still talked of unity for years afterwards."
+     },
+     {
+      "claim": "Western economic decisions, the Bizone, Marshall aid and the Deutsche Mark, created a separate western Germany.",
+      "evidence": [
+       "F-GERMQ-08",
+       "F-GERMQ-11",
+       "F-GERMQ-12"
+      ],
+      "strongestCounter": "Soviet dismantling and a Communist-led zone had already divided the economy."
+     },
+     {
+      "claim": "For the US, Germans were ceasing to be the enemy by 1947.",
+      "evidence": [
+       "F-GERMQ-09",
+       "F-GERMQ-07"
+      ],
+      "strongestCounter": "France still feared Germany and had to be bought off with the Saar and the Ruhr."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that the Western powers, not the Soviet Union, were responsible for the division of Germany.",
+     "To what extent was the Berlin blockade responsible for the division of Germany between 1945 and 1949?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The currency reform of June 1948 was the decisive economic step towards a separate West German state.",
+     "prove": "On 18 June the Western powers announced the Deutsche Mark, and three days later it was in circulation, with savings exchanged at 1:1 for the first 40 Reichsmarks and 10:1 thereafter.",
+     "explain": "This meant that the western zones now had their own economy and currency, so Germany could no longer be run as the single economic unit Potsdam had promised.",
+     "test": "However, Soviet dismantling and the Communist-led administration in the East had already broken that unity in practice.",
+     "judge": "The currency reform therefore made division official, rather than creating it from nothing."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which meeting did Robert Murphy say 'really rang down the Iron Curtain'?",
+      "factIds": [
+       "F-GERMQ-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Moscow conference of Foreign Ministers, March–April 1947",
+        "correct": true,
+        "explanation": "Correct: East and West wanted incompatible Germanies."
+       },
+       {
+        "id": "b",
+        "text": "Potsdam, 1945",
+        "correct": false,
+        "explanation": "Potsdam still produced agreement on general aims."
+       },
+       {
+        "id": "c",
+        "text": "The London conference of 1948",
+        "correct": false,
+        "explanation": "That came after the break."
+       },
+       {
+        "id": "d",
+        "text": "Yalta",
+        "correct": false,
+        "explanation": "Not the meeting Murphy named."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many Reichsmarks could each German exchange at 1:1 in the June 1948 currency reform? (number)",
+      "factIds": [
+       "F-GERMQ-12"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 40,
+        "tolerance": 0,
+        "explanation": "40; the rest were exchanged at 10:1."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “On 20 March 1948 Sokolovsky walked out of the Allied Control Council, and no further meeting was held.” Which argument does it support best?",
+      "factIds": [
+       "F-GERMQ-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Joint four-power government of Germany had ended",
+        "correct": true,
+        "explanation": "Correct: Judt says the joint occupation was over."
+       },
+       {
+        "id": "b",
+        "text": "The Allies agreed on a united Germany",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The Western powers left Berlin",
+        "correct": false,
+        "explanation": "They stayed."
+       },
+       {
+        "id": "d",
+        "text": "Sokolovsky supported the West German state",
+        "correct": false,
+        "explanation": "He protested against it."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Blockade, airlift and two German states, 1948–1949",
+    "body": "The Soviet response came at once. On 23 June 1948 the Soviets issued their own East German mark and cut the railway lines linking Berlin to western Germany; later they closed the canals too. West Berlin, deep inside the Soviet zone, was cut off. The Western commanders refused to let the new Eastern currency circulate in their sectors, and on 26 June the first American transport plane landed at Tempelhof airfield.\n\nThe **Berlin airlift** lasted until 12 May 1949. In eleven months the Western allies flew in some 2.3 million tons of food on 277,500 flights; 73 Allied airmen died. Judt explains Stalin's aim: to force the West either to leave Berlin, since the Potsdam agreements gave no written guarantee of road or rail access, or to abandon the plan for a West German state. Berlin was always a bargaining chip for him. He got neither.\n\nThe blockade backfired. Coming soon after the Communist coup in Prague, it made the Western powers more determined to create a West German state and made division more acceptable to Germans themselves. In April 1949 France joined the Bizone, creating a western economic unit of 49 million people against 17 million in the Soviet zone. Judt argues that the blockade was an improvisation rather than a plan for aggression: Stalin was not going to war for Berlin. When it failed he changed tack, and on 12 May 1949 he lifted the blockade in return for nothing more than a conference of Foreign Ministers.\n\nThat conference achieved nothing. While it met, the Parliamentary Council in Bonn put the **Basic Law** into effect in May 1949, creating the Federal Republic of Germany. The Allies kept some powers, but military government gave way to civilian High Commissioners. After the Christian Democrats' election success, Konrad Adenauer became the first Chancellor on 15 September 1949. Stalin answered by creating the **German Democratic Republic** on 7 October 1949.\n\nJudt's judgement is that the Berlin crisis \"led directly to the creation of two German states, an outcome none of the Allies had sought four years earlier\". This mattered because a temporary occupation had become a permanent division, which meant that for forty years the German question would be a question of two states, each tied to a bloc.",
+    "argumentsThatWork": [
+     {
+      "claim": "The blockade failed and accelerated the division it was meant to prevent.",
+      "evidence": [
+       "F-GERMQ-13",
+       "F-GERMQ-14"
+      ],
+      "strongestCounter": "Plans for a West German state existed before the blockade; it confirmed rather than created them."
+     },
+     {
+      "claim": "The airlift showed Western commitment to Berlin and won German opinion.",
+      "evidence": [
+       "F-GERMQ-13",
+       "F-GERMQ-14"
+      ],
+      "strongestCounter": "Stalin was not willing to go to war, so the risk was smaller than it seemed."
+     },
+     {
+      "claim": "By 1949 two German states existed, an outcome no Ally had planned in 1945.",
+      "evidence": [
+       "F-GERMQ-15",
+       "F-GERMQ-16"
+      ],
+      "strongestCounter": "Both sides continued to claim they wanted unity."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the causes and consequences of the Berlin blockade of 1948–1949.",
+     "To what extent was the Berlin blockade responsible for the division of Germany between 1945 and 1949?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The Berlin blockade backfired because it made the division of Germany more acceptable to the West and to Germans.",
+     "prove": "The airlift supplied West Berlin for eleven months with 2.3 million tons of food, and in April 1949 France joined the Bizone, creating a western unit of 49 million people.",
+     "explain": "This meant that Stalin's attempt to stop a West German state instead strengthened Western unity, so the Federal Republic was created in May 1949.",
+     "test": "However, the plans for a West German state had been agreed in London before the blockade began.",
+     "judge": "The blockade therefore accelerated division rather than causing it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many tons of food did the Berlin airlift carry, according to Judt? (millions)",
+      "factIds": [
+       "F-GERMQ-13"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 2.3,
+        "tolerance": 0,
+        "explanation": "About 2.3 million tons on 277,500 flights."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When was the German Democratic Republic created?",
+      "factIds": [
+       "F-GERMQ-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "7 October 1949",
+        "correct": true,
+        "explanation": "Correct: Stalin's answer to the Federal Republic."
+       },
+       {
+        "id": "b",
+        "text": "12 May 1949",
+        "correct": false,
+        "explanation": "That is when the blockade ended."
+       },
+       {
+        "id": "c",
+        "text": "15 September 1949",
+        "correct": false,
+        "explanation": "That is when Adenauer became Chancellor."
+       },
+       {
+        "id": "d",
+        "text": "June 1948",
+        "correct": false,
+        "explanation": "That is the currency reform."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C09",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Judt, what did Stalin want from the blockade?",
+      "factIds": [
+       "F-GERMQ-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To make the West leave Berlin or abandon the West German state",
+        "correct": true,
+        "explanation": "Correct: Berlin was a bargaining chip."
+       },
+       {
+        "id": "b",
+        "text": "To start a war with the West",
+        "correct": false,
+        "explanation": "Judt says Stalin would not go to war for Berlin."
+       },
+       {
+        "id": "c",
+        "text": "To join the Marshall Plan",
+        "correct": false,
+        "explanation": "Moscow rejected it."
+       },
+       {
+        "id": "d",
+        "text": "To create the Bizone",
+        "correct": false,
+        "explanation": "The Bizone was British and American."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Rearmament and sovereignty, 1950–1955",
+    "body": "The Korean War changed the German question. To persuade Congress to fund the defence of Europe, the Americans needed Europeans, including Germans, to contribute. In September 1950 Secretary of State Dean Acheson raised West German rearmament with Britain and France. The French were appalled; NATO, they suspected, was becoming a cover for remilitarising their old enemy. Konrad Adenauer played his hand carefully. Rather than leap at rearmament, he held back and set a price: full international recognition of the Federal Republic and an amnesty for Germans held as war criminals.\n\nTo head off a German army, the French Prime Minister René Pleven proposed in October 1950 a **European Defence Community** (EDC), with a European army in which German units would be mixed with others. The treaty was signed on 27 May 1952, and the Bundestag ratified it in March 1953.\n\nThe Soviet Union tried to stop it. In a series of **Notes** in the spring of 1952, Stalin proposed a peace treaty creating a united Germany, neutral and demilitarised, with all occupying forces withdrawn and a government chosen in free all-German elections. Some historians have criticised the West for ignoring this \"missed opportunity\". Judt disagrees: Western leaders were right not to take the Notes seriously, because Moscow itself attached little importance to them. Its aim was to derail the EDC and prevent West German rearmament. The Soviet leaders were in fact not unhappy to see American troops in West Germany as a guarantee against German revival.\n\nThe EDC then collapsed in Paris. On 30 August 1954 the French National Assembly rejected it by 319 votes to 264. Prime Minister Pierre Mendès-France explained: \"In the EDC there was too much integration and too little England.\" The answer came within weeks. Britain committed four divisions to the Continent permanently; the Brussels Treaty became the Western European Union; and West Germany could have an army of up to 500,000 and join **NATO** as a sovereign state. In May 1955 the occupation ended and the Federal Republic entered NATO. Ten days later the Soviet Union announced the Warsaw Pact and incorporated the GDR, whose own regime had needed Soviet tanks to crush a workers' rising in June 1953.\n\nThis mattered because each German state was now built into a military alliance, which meant that the German question, in Judt's words, \"had not exactly been answered\", but it would be set aside for a generation.",
+    "argumentsThatWork": [
+     {
+      "claim": "Rearmament came from the Korean War and American pressure, not German demand.",
+      "evidence": [
+       "F-GERMQ-18"
+      ],
+      "strongestCounter": "Adenauer used the demand to win sovereignty, so he shaped the outcome."
+     },
+     {
+      "claim": "The Stalin Notes aimed to stop rearmament, not to unite Germany.",
+      "evidence": [
+       "F-GERMQ-17",
+       "F-GERMQ-24"
+      ],
+      "strongestCounter": "Some historians see a missed opportunity, so the case is debated."
+     },
+     {
+      "claim": "By 1955 both German states were built into opposing alliances.",
+      "evidence": [
+       "F-GERMQ-20",
+       "F-GERMQ-21"
+      ],
+      "strongestCounter": "Allied troops remained in West Germany, so sovereignty was limited."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons why West Germany was rearmed and admitted to NATO between 1950 and 1955.",
+     "Analyse the significance of the Stalin Notes of 1952 for the German question."
+    ],
+    "useItInAnEssay": {
+     "claim": "West Germany was rearmed mainly because the Korean War made the United States demand a German contribution to Western defence.",
+     "prove": "In September 1950 Acheson raised rearmament with Britain and France, and after the EDC failed in August 1954 the Paris agreements let West Germany join NATO with an army of up to 500,000.",
+     "explain": "This meant that American pressure turned the defeated enemy of 1945 into an ally, so Adenauer could demand sovereignty in return.",
+     "test": "However, French resistance shaped the form: the EDC was rejected, and Britain had to commit four divisions before France would accept a German army.",
+     "judge": "Rearmament was therefore driven by Washington, but its terms were set by French fears and Adenauer's bargaining."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Stalin Notes of 1952 propose?",
+      "factIds": [
+       "F-GERMQ-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A united, neutral, demilitarised Germany chosen by free elections",
+        "correct": true,
+        "explanation": "Correct: Judt argues the aim was to stop rearmament."
+       },
+       {
+        "id": "b",
+        "text": "A West German army inside NATO",
+        "correct": false,
+        "explanation": "The Notes aimed to prevent this."
+       },
+       {
+        "id": "c",
+        "text": "The division of Germany into four states",
+        "correct": false,
+        "explanation": "They proposed unity."
+       },
+       {
+        "id": "d",
+        "text": "Soviet withdrawal from eastern Europe",
+        "correct": false,
+        "explanation": "Not part of the Notes."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "By how many votes did the French National Assembly reject the EDC on 30 August 1954? Give the number voting against the treaty. (number)",
+      "factIds": [
+       "F-GERMQ-19"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 319,
+        "tolerance": 0,
+        "explanation": "319 against, 264 for."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B1-GERMAN-QUESTION-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Adenauer held back on rearmament until he was promised recognition of the Federal Republic.” Which argument does it support best?",
+      "factIds": [
+       "F-GERMQ-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Adenauer used rearmament as a bargaining chip to win sovereignty",
+        "correct": true,
+        "explanation": "Correct: and an amnesty for war criminals."
+       },
+       {
+        "id": "b",
+        "text": "Adenauer opposed any German army",
+        "correct": false,
+        "explanation": "He wanted a price, not a refusal."
+       },
+       {
+        "id": "c",
+        "text": "West Germany demanded to rearm in 1945",
+        "correct": false,
+        "explanation": "The issue arose in 1950."
+       },
+       {
+        "id": "d",
+        "text": "The US opposed rearmament",
+        "correct": false,
+        "explanation": "The US proposed it."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1945,
+      "month": 7,
+      "day": 17,
+      "text": "Potsdam Conference opens",
+      "factId": "F-GERMQ-01"
+     },
+     {
+      "year": 1946,
+      "month": 5,
+      "text": "Clay suspends reparations from the American zone",
+      "factId": "F-GERMQ-06"
+     },
+     {
+      "year": 1946,
+      "month": 9,
+      "day": 6,
+      "text": "Byrnes's Stuttgart speech",
+      "factId": "F-GERMQ-07"
+     },
+     {
+      "year": 1947,
+      "month": 3,
+      "day": 10,
+      "text": "Moscow Foreign Ministers' conference opens",
+      "factId": "F-GERMQ-09"
+     },
+     {
+      "year": 1948,
+      "month": 6,
+      "day": 21,
+      "text": "Deutsche Mark in circulation",
+      "factId": "F-GERMQ-12"
+     },
+     {
+      "year": 1948,
+      "month": 6,
+      "day": 26,
+      "text": "Berlin airlift begins",
+      "factId": "F-GERMQ-13"
+     },
+     {
+      "year": 1949,
+      "month": 5,
+      "day": 12,
+      "text": "Blockade lifted",
+      "factId": "F-GERMQ-13"
+     },
+     {
+      "year": 1949,
+      "month": 9,
+      "day": 15,
+      "text": "Adenauer becomes Chancellor",
+      "factId": "F-GERMQ-15"
+     },
+     {
+      "year": 1949,
+      "month": 10,
+      "day": 7,
+      "text": "GDR founded",
+      "factId": "F-GERMQ-15"
+     },
+     {
+      "year": 1952,
+      "month": 5,
+      "day": 27,
+      "text": "EDC Treaty signed",
+      "factId": "F-GERMQ-19"
+     },
+     {
+      "year": 1954,
+      "month": 8,
+      "day": 30,
+      "text": "French Assembly rejects the EDC",
+      "factId": "F-GERMQ-19"
+     },
+     {
+      "year": 1955,
+      "month": 5,
+      "text": "West Germany joins NATO; Warsaw Pact formed",
+      "factId": "F-GERMQ-21"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Potsdam: one economy in theory, separate reparations in practice",
+      "factId": "F-GERMQ-02"
+     },
+     {
+      "id": "n2",
+      "text": "Occupation costs push Britain and the US towards German recovery",
+      "factId": "F-GERMQ-05"
+     },
+     {
+      "id": "n3",
+      "text": "Moscow conference fails; Bizone and Marshall aid build a western economy",
+      "factId": "F-GERMQ-09"
+     },
+     {
+      "id": "n4",
+      "text": "Currency reform; Stalin blockades Berlin",
+      "factId": "F-GERMQ-12"
+     },
+     {
+      "id": "n5",
+      "text": "Blockade fails; two German states (1949)",
+      "factId": "F-GERMQ-15"
+     },
+     {
+      "id": "n6",
+      "text": "Korean War, rearmament, NATO and the Warsaw Pact (1955)",
+      "factId": "F-GERMQ-21"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Reparations divided the victors from the start"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "A weak Germany was too costly for the West"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "A separate economy needed a separate currency"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "The blockade made division acceptable to the West and to Germans"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "The Cold War turned each state into an armed ally"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Konrad Adenauer",
+     "role": "First Chancellor of the Federal Republic from 15 September 1949",
+     "whyItMatters": "Traded rearmament for sovereignty and tied West Germany to the West.",
+     "factIds": [
+      "F-GERMQ-15",
+      "F-GERMQ-18"
+     ]
+    },
+    {
+     "name": "Josef Stalin",
+     "role": "Soviet leader until 1953",
+     "whyItMatters": "Blockaded Berlin in 1948 and offered a neutral Germany in 1952, but achieved neither aim.",
+     "factIds": [
+      "F-GERMQ-13",
+      "F-GERMQ-17"
+     ]
+    },
+    {
+     "name": "Lucius Clay",
+     "role": "US military governor in Germany",
+     "whyItMatters": "Suspended reparations from the American zone in May 1946.",
+     "factIds": [
+      "F-GERMQ-06"
+     ]
+    },
+    {
+     "name": "James Byrnes",
+     "role": "US Secretary of State",
+     "whyItMatters": "Promised at Stuttgart in 1946 that the US Army would stay.",
+     "factIds": [
+      "F-GERMQ-07"
+     ]
+    },
+    {
+     "name": "René Pleven",
+     "role": "French Prime Minister",
+     "whyItMatters": "Proposed the European Defence Community to avoid a German national army.",
+     "factIds": [
+      "F-GERMQ-19"
+     ]
+    },
+    {
+     "name": "Pierre Mendès-France",
+     "role": "French Prime Minister, 1954",
+     "whyItMatters": "Let the EDC fall: 'too much integration and too little England'.",
+     "factIds": [
+      "F-GERMQ-19"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Western powers",
+     "Soviet Union"
+    ],
+    "rows": [
+     {
+      "criterion": "Economic policy",
+      "cells": [
+       "Reparations stopped (1946); Bizone; Marshall aid; Deutsche Mark",
+       "Dismantling and removal of plant; East German mark"
+      ],
+      "factIds": [
+       "F-GERMQ-06",
+       "F-GERMQ-12",
+       "F-GERMQ-04"
+      ]
+     },
+     {
+      "criterion": "Political policy",
+      "cells": [
+       "German self-government; Basic Law (1949)",
+       "Communist-led administration; GDR (1949)"
+      ],
+      "factIds": [
+       "F-GERMQ-15",
+       "F-GERMQ-04"
+      ]
+     },
+     {
+      "criterion": "Berlin",
+      "cells": [
+       "Airlift, 1948–49",
+       "Blockade, 1948–49"
+      ],
+      "factIds": [
+       "F-GERMQ-13"
+      ]
+     },
+     {
+      "criterion": "1950–1955",
+      "cells": [
+       "Rearmament; NATO membership",
+       "Stalin Notes; Warsaw Pact"
+      ],
+      "factIds": [
+       "F-GERMQ-20",
+       "F-GERMQ-17",
+       "F-GERMQ-21"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-GERMQ-02",
+    "year": 1945,
+    "text": "Potsdam: one German economy in principle, but the Soviets could take reparations from their zone plus 10 per cent from the West.",
+    "supports": [
+     "Reparations divided the victors from the start"
+    ],
+    "alsoWorksFor": [
+     "P2-12-GRAND-ALLIANCE"
+    ],
+    "lexicon": [
+     "Potsdam",
+     "reparations"
+    ]
+   },
+   {
+    "factId": "F-GERMQ-05",
+    "year": 1946,
+    "text": "By July 1946 Britain was importing food for its zone and spending $80 million a year against at most $29 million in reparations.",
+    "supports": [
+     "Occupation costs drove Western policy towards recovery"
+    ],
+    "lexicon": [
+     "occupation costs"
+    ]
+   },
+   {
+    "factId": "F-GERMQ-09",
+    "year": 1947,
+    "text": "Moscow conference, March–April 1947: 'which really rang down the Iron Curtain' (Murphy).",
+    "supports": [
+     "East and West wanted incompatible Germanies"
+    ],
+    "lexicon": [
+     "Moscow conference",
+     "Bizone"
+    ]
+   },
+   {
+    "factId": "F-GERMQ-12",
+    "year": 1948,
+    "text": "June 1948: the Deutsche Mark replaced the Reichsmark in the western zones.",
+    "supports": [
+     "A separate currency created a separate economy"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B2-RECOVERY"
+    ],
+    "lexicon": [
+     "currency reform",
+     "Deutsche Mark"
+    ]
+   },
+   {
+    "factId": "F-GERMQ-13",
+    "year": 1948,
+    "text": "Berlin airlift, 26 June 1948 – 12 May 1949: 2.3 million tons on 277,500 flights; 73 airmen died.",
+    "supports": [
+     "The blockade failed and strengthened Western resolve"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-BERLIN-BLOCKADE"
+    ],
+    "lexicon": [
+     "Berlin blockade",
+     "airlift"
+    ]
+   },
+   {
+    "factId": "F-GERMQ-15",
+    "year": 1949,
+    "text": "1949: Basic Law (May), Adenauer Chancellor (15 September), GDR founded (7 October).",
+    "supports": [
+     "Two German states emerged within months"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-EMERGENCE",
+     "P3-17-B3-WEST-GERMANY"
+    ],
+    "lexicon": [
+     "Basic Law",
+     "Federal Republic",
+     "GDR"
+    ]
+   },
+   {
+    "factId": "F-GERMQ-17",
+    "year": 1952,
+    "text": "Spring 1952: Stalin's Notes offered a united, neutral, demilitarised Germany; Judt sees them as an attempt to stop rearmament.",
+    "supports": [
+     "The Soviet Union preferred division to a rearmed West Germany"
+    ],
+    "lexicon": [
+     "Stalin Notes",
+     "neutrality"
+    ]
+   },
+   {
+    "factId": "F-GERMQ-21",
+    "year": 1955,
+    "text": "May 1955: West Germany joined NATO; ten days later the Warsaw Pact incorporated the GDR.",
+    "supports": [
+     "Each German state was built into a rival alliance"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B1-SOVIET-CONTROL"
+    ],
+    "lexicon": [
+     "NATO",
+     "Warsaw Pact"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "The division of Germany was an outcome no Ally sought in 1945; the Berlin crisis 'led directly to the creation of two German states'; and the West was right to dismiss Stalin's 1952 Notes, which aimed to stop rearmament, against historians who call them a 'missed opportunity'.",
+    "useItLikeThis": "Judt's view supports the claim that division resulted from the Cold War's dynamics rather than from either side's plan, which suggests that responsibility was shared and incremental.",
+    "factId": "F-GERMQ-16"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Germany was divided at Potsdam in 1945.",
+    "right": "Potsdam created **zones of occupation**, not states; two German states appeared only in **1949**."
+   },
+   {
+    "wrong": "The Berlin blockade was a Soviet attempt to start a war.",
+    "right": "Judt calls it an **improvisation**: Stalin wanted the West to leave Berlin or drop the West German state, and would not go to war."
+   },
+   {
+    "wrong": "West Germany demanded rearmament after the war.",
+    "right": "The **United States** raised it in 1950 because of the Korean War; Adenauer held back to win sovereignty."
+   },
+   {
+    "wrong": "The Stalin Notes were a genuine offer the West foolishly rejected.",
+    "right": "That is debated; **Judt** argues Moscow's real aim was to stop West German rearmament."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1945,
+     "month": 7,
+     "day": 17,
+     "text": "Potsdam"
+    },
+    {
+     "year": 1947,
+     "month": 3,
+     "day": 10,
+     "text": "Moscow conference"
+    },
+    {
+     "year": 1948,
+     "month": 6,
+     "day": 21,
+     "text": "Deutsche Mark"
+    },
+    {
+     "year": 1948,
+     "month": 6,
+     "day": 26,
+     "text": "Airlift begins"
+    },
+    {
+     "year": 1949,
+     "month": 5,
+     "day": 12,
+     "text": "Blockade lifted"
+    },
+    {
+     "year": 1949,
+     "month": 10,
+     "day": 7,
+     "text": "GDR founded"
+    },
+    {
+     "year": 1954,
+     "month": 8,
+     "day": 30,
+     "text": "EDC rejected"
+    },
+    {
+     "year": 1955,
+     "month": 5,
+     "text": "West Germany in NATO"
+    }
+   ],
+   "keyArguments": [
+    "Potsdam's contradiction over reparations divided the victors from the start.",
+    "Occupation costs and fear of Communism turned the West towards German recovery.",
+    "The Moscow conference of 1947 'rang down the Iron Curtain'; the Deutsche Mark made division concrete.",
+    "The blockade backfired: two German states by 1949, an outcome no Ally had sought (Judt).",
+    "The Korean War brought rearmament; the Stalin Notes failed to stop it; 1955 tied each state to an alliance."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Potsdam Conference",
+     "year": 1945,
+     "month": 7,
+     "factId": "F-GERMQ-01"
+    },
+    {
+     "id": "b",
+     "text": "Moscow Foreign Ministers' conference",
+     "year": 1947,
+     "month": 3,
+     "factId": "F-GERMQ-09"
+    },
+    {
+     "id": "c",
+     "text": "Berlin airlift begins",
+     "year": 1948,
+     "month": 6,
+     "factId": "F-GERMQ-13"
+    },
+    {
+     "id": "d",
+     "text": "GDR founded",
+     "year": 1949,
+     "month": 10,
+     "factId": "F-GERMQ-15"
+    },
+    {
+     "id": "e",
+     "text": "West Germany joins NATO",
+     "year": 1955,
+     "month": 5,
+     "factId": "F-GERMQ-21"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1948–1949 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Sokolovsky walks out of the Allied Control Council",
+     "year": 1948,
+     "month": 3,
+     "factId": "F-GERMQ-11"
+    },
+    {
+     "id": "b",
+     "text": "Deutsche Mark introduced",
+     "year": 1948,
+     "month": 6,
+     "factId": "F-GERMQ-12"
+    },
+    {
+     "id": "c",
+     "text": "France joins the Bizone",
+     "year": 1949,
+     "month": 4,
+     "factId": "F-GERMQ-14"
+    },
+    {
+     "id": "d",
+     "text": "Blockade lifted",
+     "year": 1949,
+     "month": 5,
+     "factId": "F-GERMQ-13"
+    },
+    {
+     "id": "e",
+     "text": "Adenauer becomes Chancellor",
+     "year": 1949,
+     "month": 9,
+     "factId": "F-GERMQ-15"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R03",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Lucius Clay",
+     "right": "US military governor who stopped reparations in 1946",
+     "explanation": "He said the Soviets had broken Potsdam."
+    },
+    {
+     "left": "Vassily Sokolovsky",
+     "right": "Soviet representative who walked out of the Allied Control Council",
+     "explanation": "20 March 1948."
+    },
+    {
+     "left": "René Pleven",
+     "right": "French Prime Minister who proposed the EDC",
+     "explanation": "October 1950."
+    },
+    {
+     "left": "Dean Acheson",
+     "right": "US Secretary of State who raised German rearmament",
+     "explanation": "September 1950."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R04",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many flights did the Berlin airlift make, according to Judt? (number)",
+   "factIds": [
+    "F-GERMQ-13"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 277500,
+     "tolerance": 500,
+     "explanation": "277,500 flights."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Allied airmen died during the Berlin airlift? (number)",
+   "factIds": [
+    "F-GERMQ-13"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 73,
+     "tolerance": 0,
+     "explanation": "73 airmen."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of reparations from the Western zones was the USSR promised at Potsdam? (number)",
+   "factIds": [
+    "F-GERMQ-02"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 10,
+     "tolerance": 0,
+     "explanation": "10 per cent, in exchange for food and raw materials."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How large an army could West Germany have under the Paris agreements? (number of men)",
+   "factIds": [
+    "F-GERMQ-20"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 500000,
+     "tolerance": 10000,
+     "explanation": "No more than half a million men."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R08",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these steps moved the western zones towards a separate state? Choose all that apply.",
+   "factIds": [
+    "F-GERMQ-08",
+    "F-GERMQ-09",
+    "F-GERMQ-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Bizone (end of 1946)",
+     "correct": true,
+     "explanation": "Yes: Britain and the US merged their zones' economies."
+    },
+    {
+     "id": "b",
+     "text": "The Bizone Economic Council (May 1947)",
+     "correct": true,
+     "explanation": "Yes: the embryo of a West German government."
+    },
+    {
+     "id": "c",
+     "text": "The Deutsche Mark (June 1948)",
+     "correct": true,
+     "explanation": "Yes: a separate currency."
+    },
+    {
+     "id": "d",
+     "text": "The Dunkirk Treaty (February 1947)",
+     "correct": false,
+     "explanation": "No: it was an Anglo-French pact against German aggression."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the London and Paris agreements of 1954 provide? Choose all that apply.",
+   "factIds": [
+    "F-GERMQ-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Four British divisions permanently on the Continent",
+     "correct": true,
+     "explanation": "Yes: Eden's offer."
+    },
+    {
+     "id": "b",
+     "text": "A Western European Union including West Germany and Italy",
+     "correct": true,
+     "explanation": "Yes: the Brussels Treaty extended."
+    },
+    {
+     "id": "c",
+     "text": "West German membership of NATO as a sovereign state",
+     "correct": true,
+     "explanation": "Yes: in May 1955."
+    },
+    {
+     "id": "d",
+     "text": "A united, neutral Germany",
+     "correct": false,
+     "explanation": "No: that was Stalin's 1952 proposal."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R10",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In the Berlin elections of October 1946 the Communists came far behind the Social Democrats and Christian Democrats.” Which argument does it support?",
+   "factIds": [
+    "F-GERMQ-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Communism had little popular appeal in Germany",
+     "correct": true,
+     "explanation": "Correct: Soviet policy hardened afterwards."
+    },
+    {
+     "id": "b",
+     "text": "Berlin wanted to join the Soviet zone",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The Western powers rigged the elections",
+     "correct": false,
+     "explanation": "No evidence for this."
+    },
+    {
+     "id": "d",
+     "text": "Germany was united in 1946",
+     "correct": false,
+     "explanation": "It was under four-power occupation."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “France joined the Bizone in April 1949, creating a unit of 49 million people against 17 million in the Soviet zone.” Which argument does it support?",
+   "factIds": [
+    "F-GERMQ-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The blockade strengthened Western unity over Germany",
+     "correct": true,
+     "explanation": "Correct: it made the West more determined."
+    },
+    {
+     "id": "b",
+     "text": "France opposed a West German state to the end",
+     "correct": false,
+     "explanation": "France joined, at a price."
+    },
+    {
+     "id": "c",
+     "text": "The Soviet zone was larger",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "The blockade succeeded",
+     "correct": false,
+     "explanation": "It failed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R12",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Berlin blockade succeeded in forcing the Western powers to abandon the plan for a West German state.”",
+   "factIds": [
+    "F-GERMQ-13",
+    "F-GERMQ-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It failed: the Federal Republic was created in May 1949",
+     "correct": true,
+     "explanation": "Correct: the blockade accelerated division."
+    },
+    {
+     "id": "b",
+     "text": "The blockade happened in 1961",
+     "correct": false,
+     "explanation": "1961 is the Berlin Wall."
+    },
+    {
+     "id": "c",
+     "text": "The blockade was imposed by the Americans",
+     "correct": false,
+     "explanation": "The Soviets imposed it."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it failed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The French National Assembly ratified the EDC in 1954, creating a European army.”",
+   "factIds": [
+    "F-GERMQ-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It rejected the EDC on 30 August 1954, by 319 to 264",
+     "correct": true,
+     "explanation": "Correct: 'too much integration and too little England'."
+    },
+    {
+     "id": "b",
+     "text": "The EDC was proposed by the Americans",
+     "correct": false,
+     "explanation": "Pleven, a Frenchman, proposed it."
+    },
+    {
+     "id": "c",
+     "text": "The year should be 1945",
+     "correct": false,
+     "explanation": "It was 1954."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: France rejected it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R14",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the German question between 1945 and 1955. Is the building of the Berlin Wall inside or outside the timeframe?",
+   "timeframe": [
+    1945,
+    1955
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: the Wall was built in 1961."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1961 is after 1955."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Berlin was divided after 1945",
+     "correct": false,
+     "explanation": "A link to Berlin does not bring a later event into the period."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R15",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Byrnes promise in his Stuttgart speech of 6 September 1946?",
+   "factIds": [
+    "F-GERMQ-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That the US Army would stay in Germany as long as an occupation was needed",
+     "correct": true,
+     "explanation": "Correct: a sign of growing frustration with the USSR."
+    },
+    {
+     "id": "b",
+     "text": "That Germany would be reunified in 1947",
+     "correct": false,
+     "explanation": "Not what he promised."
+    },
+    {
+     "id": "c",
+     "text": "That the US would leave Europe",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "That Germany would join NATO",
+     "correct": false,
+     "explanation": "NATO did not yet exist."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which US directive replaced the punitive JCS 1067 in 1947?",
+   "factIds": [
+    "F-GERMQ-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "JCS 1779, aiming at economic unification of the western zones and German self-government",
+     "correct": true,
+     "explanation": "Correct: Germans were ceasing to be the enemy."
+    },
+    {
+     "id": "b",
+     "text": "NSC 68",
+     "correct": false,
+     "explanation": "Not the directive Judt names."
+    },
+    {
+     "id": "c",
+     "text": "The Truman Doctrine",
+     "correct": false,
+     "explanation": "That concerned Greece and Turkey."
+    },
+    {
+     "id": "d",
+     "text": "The Marshall Plan",
+     "correct": false,
+     "explanation": "That was aid, not an occupation directive."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was Stalin's main aim in the Notes of 1952, according to Judt?",
+   "factIds": [
+    "F-GERMQ-17",
+    "F-GERMQ-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To head off West German rearmament",
+     "correct": true,
+     "explanation": "Correct: and to derail the EDC."
+    },
+    {
+     "id": "b",
+     "text": "To unite Germany under Communism immediately",
+     "correct": false,
+     "explanation": "The Notes proposed free elections and neutrality."
+    },
+    {
+     "id": "c",
+     "text": "To join the EDC",
+     "correct": false,
+     "explanation": "He opposed it."
+    },
+    {
+     "id": "d",
+     "text": "To end the Korean War",
+     "correct": false,
+     "explanation": "Not the aim Judt identifies."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Adenauer demand in return for a German contribution to Western defence?",
+   "factIds": [
+    "F-GERMQ-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Full recognition of the Federal Republic and an amnesty for German war criminals",
+     "correct": true,
+     "explanation": "Correct: he held back to raise the price."
+    },
+    {
+     "id": "b",
+     "text": "German unification",
+     "correct": false,
+     "explanation": "Not his price for rearmament."
+    },
+    {
+     "id": "c",
+     "text": "A nuclear weapon",
+     "correct": false,
+     "explanation": "Not in the source."
+    },
+    {
+     "id": "d",
+     "text": "Withdrawal of all Allied troops",
+     "correct": false,
+     "explanation": "Allied troops stayed by agreement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Mendès-France say was wrong with the EDC?",
+   "factIds": [
+    "F-GERMQ-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'Too much integration and too little England'",
+     "correct": true,
+     "explanation": "Correct: Britain then committed four divisions."
+    },
+    {
+     "id": "b",
+     "text": "It gave Germany too few troops",
+     "correct": false,
+     "explanation": "France feared any German army."
+    },
+    {
+     "id": "c",
+     "text": "It excluded Italy",
+     "correct": false,
+     "explanation": "Not his explanation."
+    },
+    {
+     "id": "d",
+     "text": "It was proposed by the Soviets",
+     "correct": false,
+     "explanation": "It was Pleven's French proposal."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened ten days after West Germany entered NATO in May 1955?",
+   "factIds": [
+    "F-GERMQ-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The USSR announced the Warsaw Pact and incorporated the GDR",
+     "correct": true,
+     "explanation": "Correct: the German question was set aside."
+    },
+    {
+     "id": "b",
+     "text": "Germany was reunified",
+     "correct": false,
+     "explanation": "That happened in 1990."
+    },
+    {
+     "id": "c",
+     "text": "The Berlin blockade began",
+     "correct": false,
+     "explanation": "That was 1948."
+    },
+    {
+     "id": "d",
+     "text": "The EDC was ratified",
+     "correct": false,
+     "explanation": "It was rejected in 1954."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the Berlin blockade responsible for the division of Germany between 1945 and 1949?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the Berlin blockade",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the division of Germany",
+     "answer": "scope",
+     "explanation": "What must be explained."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1949",
+     "answer": "timeframe",
+     "explanation": "From Potsdam to the two states."
+    },
+    {
+     "id": "s5",
+     "text": "responsible for",
+     "answer": "judgement",
+     "explanation": "How far the blockade, compared with reparations, currency reform and Cold War, caused division."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast Soviet and Western policies towards Germany between 1945 and 1949.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "Soviet and Western policies",
+     "answer": "factor",
+     "explanation": "The two sides compared."
+    },
+    {
+     "id": "s3",
+     "text": "towards Germany",
+     "answer": "scope",
+     "explanation": "Their German policy."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1949",
+     "answer": "timeframe",
+     "explanation": "The occupation years."
+    },
+    {
+     "id": "s5",
+     "text": "Compare and contrast",
+     "answer": "judgement",
+     "explanation": "Which differences explain division?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Berlin blockade responsible for the division of Germany between 1945 and 1949?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The blockade accelerated division rather than causing it: the decisive steps, the Bizone, Marshall aid and the Deutsche Mark, came first, but the blockade's failure made a West German state acceptable to the West and to Germans.",
+     "correct": true,
+     "explanation": "Correct: degree and mechanism."
+    },
+    {
+     "id": "b",
+     "text": "The blockade lasted from June 1948 to May 1949.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "c",
+     "text": "There were many causes of division.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The blockade divided Germany because of the Berlin Wall.",
+     "correct": false,
+     "explanation": "Wrong timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons why West Germany was rearmed and admitted to NATO between 1950 and 1955.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "West Germany was rearmed mainly because the Korean War made the US demand a German contribution; French resistance and Adenauer's bargaining decided the form, inside NATO and in exchange for sovereignty.",
+     "correct": true,
+     "explanation": "Correct: ranked reasons."
+    },
+    {
+     "id": "b",
+     "text": "West Germany joined NATO in May 1955.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "West Germany wanted to rearm.",
+     "correct": false,
+     "explanation": "Inaccurate: Adenauer held back."
+    },
+    {
+     "id": "d",
+     "text": "West Germany was rearmed because of the Berlin airlift.",
+     "correct": false,
+     "explanation": "Not the cause."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 18 June 1948 the Deutsche Mark was announced.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the western zones now had their own currency, Germany could no longer be run as one economy.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 30 August 1954 the French Assembly rejected the EDC.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that a German army would have to be created inside NATO instead, with British troops reassuring France.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Britain spent $80 million a year on its zone",
+     "right": "Occupation costs pushed the West towards recovery",
+     "explanation": "A weak Germany was a burden."
+    },
+    {
+     "left": "Sokolovsky walked out on 20 March 1948",
+     "right": "Four-power government had ended",
+     "explanation": "No further meeting was held."
+    },
+    {
+     "left": "France joined the Bizone in April 1949",
+     "right": "The blockade strengthened Western unity",
+     "explanation": "49 million against 17 million."
+    },
+    {
+     "left": "The Stalin Notes came just before the EDC was signed",
+     "right": "Moscow wanted to stop rearmament",
+     "explanation": "Judt's reading."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The blockade was important for Germany.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The blockade backfired: the airlift kept West Berlin supplied for eleven months, and France joined the Bizone in April 1949, so Stalin's attempt to stop a West German state hastened its creation.",
+     "correct": true,
+     "explanation": "Correct: evidence and mechanism."
+    },
+    {
+     "id": "b",
+     "text": "The blockade was very important.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The blockade began in June 1948.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The blockade was Stalin's fault.",
+     "correct": false,
+     "explanation": "A judgement without mechanism."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Soviet Union alone divided Germany.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Western powers stopped reparations in 1946, merged their zones, extended Marshall aid to western Germany and introduced the Deutsche Mark before the blockade, so division was driven by Western choices too.",
+     "correct": true,
+     "explanation": "Correct: evidence of Western agency."
+    },
+    {
+     "id": "b",
+     "text": "Stalin was a dictator.",
+     "correct": false,
+     "explanation": "Not an argument about division."
+    },
+    {
+     "id": "c",
+     "text": "Some historians disagree.",
+     "correct": false,
+     "explanation": "Name-dropping."
+    },
+    {
+     "id": "d",
+     "text": "Germany was reunified in 1990.",
+     "correct": false,
+     "explanation": "Outside the period and irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that the Western powers, not the Soviet Union, were responsible for the division of Germany.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by who took the decisive steps, the West built the separate state, but it did so because Soviet policy made a united Germany a Soviet one; responsibility was shared, as Judt suggests that division was an outcome none had sought.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and historian."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there was Potsdam, the Bizone and the blockade.",
+     "correct": false,
+     "explanation": "A recap of events with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, both sides were involved.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, the Americans were to blame.",
+     "correct": false,
+     "explanation": "No criterion or evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the causes and consequences of the Berlin blockade of 1948–1949.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The introduction of the Deutsche Mark",
+     "answer": "causes",
+     "explanation": "The immediate trigger."
+    },
+    {
+     "id": "s2",
+     "text": "Western plans for a West German state",
+     "answer": "causes",
+     "explanation": "What Stalin wanted to stop."
+    },
+    {
+     "id": "s3",
+     "text": "France joined the Bizone",
+     "answer": "effects",
+     "explanation": "Western unity grew."
+    },
+    {
+     "id": "s4",
+     "text": "The Basic Law and the GDR in 1949",
+     "answer": "effects",
+     "explanation": "Two German states."
+    },
+    {
+     "id": "s5",
+     "text": "No written guarantee of access to Berlin at Potsdam",
+     "answer": "causes",
+     "explanation": "The opening Stalin used."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-17-B1-GERMAN-QUESTION-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the Berlin blockade responsible for the division of Germany between 1945 and 1949?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the Berlin blockade",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "Germany; division",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The Berlin blockade, weighed first",
+    "timeframe": "1945–1949",
+    "scope": "The division of Germany",
+    "judgement": "How far the blockade, compared with earlier decisions, caused division"
+   },
+   "modelPlan": {
+    "thesis": "The blockade accelerated division rather than causing it: the decisive steps came earlier, but its failure made a West German state acceptable to the West and to Germans.",
+    "arguments": [
+     {
+      "claim": "The blockade backfired and hardened Western resolve (named factor first).",
+      "evidence": [
+       "F-GERMQ-13",
+       "F-GERMQ-14"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Potsdam's contradictions and reparations.",
+      "evidence": [
+       "F-GERMQ-02",
+       "F-GERMQ-06"
+      ]
+     },
+     {
+      "claim": "The Moscow conference, the Bizone and Marshall aid.",
+      "evidence": [
+       "F-GERMQ-08",
+       "F-GERMQ-09",
+       "F-GERMQ-11"
+      ]
+     },
+     {
+      "claim": "The Deutsche Mark created a separate economy.",
+      "evidence": [
+       "F-GERMQ-12"
+      ]
+     }
+    ],
+    "counter": "The London plans for a West German state predated the blockade, so it was a response, not a cause.",
+    "judgementCriterion": "Would two states have emerged without the blockade? Very probably, since the London plans already existed; so its role was to accelerate."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Berlin blockade accelerated the division of Germany rather than causing it.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The London conference had already agreed in early 1948 to prepare a West German government, and the Deutsche Mark was introduced in June, before the blockade began.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the blockade was Stalin's response to a division already under way, but its failure made that division more acceptable to the West and to Germans.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, by uniting the Western powers and bringing France into the Bizone in April 1949, it turned plans into a state within months.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The blockade was therefore a decisive accelerant of division, though not its origin.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "blockade"
+    ],
+    "synonyms": [
+     "airlift",
+     "Berlin crisis"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Bizone",
+     "Deutsche Mark",
+     "Basic Law"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B1-GERMAN-QUESTION-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Western powers, not the Soviet Union, were responsible for the division of Germany.” Discuss with reference to the period 1945 to 1949.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "Germany; responsibility for division",
+   "decodeKey": {
+    "verb": "Discuss: test the claim for and against, then judge",
+    "factorOrTask": "The claim about Western responsibility",
+    "timeframe": "1945–1949",
+    "scope": "The division of Germany",
+    "judgement": "How far the West, rather than the USSR, caused division"
+   },
+   "modelPlan": {
+    "thesis": "The claim is partly right: the West took the decisive steps to build a separate state, but it did so because Soviet policy made a united Germany either unworkable or Soviet-dominated.",
+    "arguments": [
+     {
+      "claim": "For: the West stopped reparations and built the Bizone.",
+      "evidence": [
+       "F-GERMQ-06",
+       "F-GERMQ-08"
+      ]
+     },
+     {
+      "claim": "For: the London plans and the Deutsche Mark.",
+      "evidence": [
+       "F-GERMQ-11",
+       "F-GERMQ-12"
+      ]
+     },
+     {
+      "claim": "Against: Soviet dismantling and a Communist-led zone.",
+      "evidence": [
+       "F-GERMQ-04",
+       "F-GERMQ-02"
+      ]
+     },
+     {
+      "claim": "Against: the blockade and the GDR.",
+      "evidence": [
+       "F-GERMQ-13",
+       "F-GERMQ-15"
+      ]
+     }
+    ],
+    "counter": "Judt argues a single German administration would have meant handing Germany to the Soviet sphere, so the West's choice was defensive.",
+    "judgementCriterion": "Who could have kept Germany united on acceptable terms? Neither, so responsibility was shared."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Western powers took the decisive steps towards division, but responsibility was shared.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1946 Clay stopped reparations, Britain and the US created the Bizone, and in June 1948 they introduced the Deutsche Mark.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the western zones became a separate economy, so a West German state followed naturally.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Soviets had set up a Communist-led administration in their zone from the outset, and Judt argues that a single administration would have handed Germany to the Soviet sphere.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore only partly valid: the West built division, but in response to Soviet policy.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Western"
+    ],
+    "synonyms": [
+     "Britain",
+     "United States",
+     "the West"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Bizone",
+     "reparations",
+     "Deutsche Mark"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B1-GERMAN-QUESTION-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the causes and consequences of the Berlin blockade of 1948–1949.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1948,
+    1949
+   ],
+   "scope": "Berlin and Germany",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1948–1949",
+    "scope": "The Berlin blockade",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The blockade was caused mainly by Western plans for a West German state, crystallised by the currency reform; its main consequence was to accelerate the creation of two German states.",
+    "arguments": [
+     {
+      "claim": "Cause: the London plans for a West German state.",
+      "evidence": [
+       "F-GERMQ-11"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: the Deutsche Mark.",
+      "evidence": [
+       "F-GERMQ-12"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: the airlift and Western unity.",
+      "evidence": [
+       "F-GERMQ-13",
+       "F-GERMQ-14"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: two German states in 1949.",
+      "evidence": [
+       "F-GERMQ-15",
+       "F-GERMQ-16"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Judt calls the blockade an improvisation, so its causes lay in Stalin's opportunism as much as in Western plans.",
+    "judgementCriterion": "Which consequence lasted longest? Two German states, which survived until 1990."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The blockade was caused mainly by Western plans for a separate West German state.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In early 1948 the London conference agreed to prepare a West German government, and on 18 June the Deutsche Mark was announced; on 23 June the Soviets cut the rail links to Berlin.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Stalin used Berlin as a bargaining chip to force the West to drop its plans or leave the city.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues the blockade was an improvisation rather than a planned aggression, since Stalin would not go to war for Berlin.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The blockade's main consequence was therefore the opposite of its aim: it hastened two German states.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "blockade"
+    ],
+    "synonyms": [
+     "airlift",
+     "Berlin"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Deutsche Mark",
+     "Tempelhof",
+     "Basic Law"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B1-GERMAN-QUESTION-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast Soviet and Western policies towards Germany between 1945 and 1949.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "Soviet and Western policies",
+    "timeframe": "1945–1949",
+    "scope": "Germany",
+    "judgement": "Which differences explain division"
+   },
+   "modelPlan": {
+    "thesis": "Both sides claimed to want a united Germany and both built a state in their own image, but they differed fundamentally: the West moved from punishment to recovery, while the Soviets extracted reparations and imposed Communist control.",
+    "arguments": [
+     {
+      "claim": "Similarity: both proclaimed unity but built separate institutions.",
+      "evidence": [
+       "F-GERMQ-15",
+       "F-GERMQ-04"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both initially sought to punish and weaken Germany.",
+      "evidence": [
+       "F-GERMQ-03",
+       "F-GERMQ-02"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: Western recovery against Soviet extraction.",
+      "evidence": [
+       "F-GERMQ-05",
+       "F-GERMQ-06",
+       "F-GERMQ-02"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: Western self-government against Communist control.",
+      "evidence": [
+       "F-GERMQ-23",
+       "F-GERMQ-04"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Both acted defensively: each feared the other would control a united Germany.",
+    "judgementCriterion": "Which difference mattered most? Recovery versus extraction, which made two economies and then two states."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Soviet and Western policies both proclaimed unity, but they pulled Germany in opposite directions.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The West stopped reparations in 1946 and built up its zones' economy, whereas the Soviets dismantled factories and set up a Communist-led administration in their zone.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant the two halves developed different economies and political systems, so each side's idea of unity became unacceptable to the other.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both began with punitive aims at Potsdam, and both claimed until 1949 that they wanted a single Germany.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore recovery against extraction, which turned zones into states.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Soviet",
+     "Western"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "reparations",
+     "Bizone",
+     "denazification"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B1-GERMAN-QUESTION-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons why West Germany was rearmed and admitted to NATO between 1950 and 1955.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1950,
+    1955
+   ],
+   "scope": "West Germany",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "The reasons for rearmament and NATO entry",
+    "timeframe": "1950–1955",
+    "scope": "West Germany",
+    "judgement": "Which reason was decisive"
+   },
+   "modelPlan": {
+    "thesis": "West Germany was rearmed mainly because the Korean War made the US demand a German contribution to Western defence; French resistance and Adenauer's bargaining decided the form.",
+    "arguments": [
+     {
+      "claim": "The Korean War and American pressure.",
+      "evidence": [
+       "F-GERMQ-18"
+      ]
+     },
+     {
+      "claim": "Adenauer's price: recognition and sovereignty.",
+      "evidence": [
+       "F-GERMQ-18"
+      ]
+     },
+     {
+      "claim": "The failure of the EDC.",
+      "evidence": [
+       "F-GERMQ-19"
+      ]
+     },
+     {
+      "claim": "British commitment and the Paris agreements.",
+      "evidence": [
+       "F-GERMQ-20",
+       "F-GERMQ-21"
+      ]
+     }
+    ],
+    "counter": "The Stalin Notes offered an alternative, but Judt argues it was not serious.",
+    "judgementCriterion": "Without which reason would there have been no rearmament? American pressure, since neither France nor Adenauer sought it."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "West Germany was rearmed mainly because the Korean War made the US demand a German contribution to defence.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In September 1950 Acheson raised rearmament with Britain and France, and after the EDC failed in August 1954, the Paris agreements let West Germany join NATO in May 1955.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the former enemy became an ally within ten years, because the US needed European troops to justify its own commitment.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, France rejected the EDC and accepted a German army only after Britain promised four divisions, so French fears shaped the outcome.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "American pressure was therefore the decisive reason, while French conditions and Adenauer's bargaining set the terms.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "rearmament"
+    ],
+    "synonyms": [
+     "NATO",
+     "EDC"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Korean War",
+     "Pleven",
+     "Paris agreements"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B1-GERMAN-QUESTION-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the significance of the Stalin Notes of 1952 for the German question.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1952,
+    1952
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The significance of the Stalin Notes",
+    "timeframe": "1952",
+    "scope": "The German question",
+    "judgement": "How much the Notes mattered, and why"
+   },
+   "modelPlan": {
+    "thesis": "The Notes were significant mainly as evidence of Soviet priorities: Moscow preferred a divided Germany with US troops to a rearmed West Germany, and the West's refusal confirmed that division would continue.",
+    "arguments": [
+     {
+      "claim": "What the Notes offered.",
+      "evidence": [
+       "F-GERMQ-17"
+      ]
+     },
+     {
+      "claim": "Their real aim: stopping rearmament and the EDC.",
+      "evidence": [
+       "F-GERMQ-17",
+       "F-GERMQ-24"
+      ]
+     },
+     {
+      "claim": "Western rejection and the EDC's signature.",
+      "evidence": [
+       "F-GERMQ-19"
+      ]
+     },
+     {
+      "claim": "The 'missed opportunity' debate.",
+      "evidence": [
+       "F-GERMQ-17"
+      ]
+     }
+    ],
+    "counter": "Some historians see a genuine missed opportunity to end the Cold War's most dangerous confrontation.",
+    "judgementCriterion": "Did the Notes change the German question? No, which is itself their significance: they show neither side wanted unity on the other's terms."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Stalin Notes were significant less as an offer than as evidence of what Moscow feared.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In spring 1952 Stalin proposed a united, neutral, demilitarised Germany, just as the EDC Treaty was about to be signed on 27 May 1952.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant the Notes were aimed at stopping West German rearmament, and Judt argues Moscow attached little importance to unity itself.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, some historians criticise the West for missing a chance to remove the most dangerous point of confrontation.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Notes therefore mattered mainly by confirming that both sides preferred division to the other's version of unity.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Stalin Notes"
+    ],
+    "synonyms": [
+     "Notes",
+     "neutral Germany"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "EDC",
+     "rearmament",
+     "missed opportunity"
+    ]
+   }
+  }
+ ]
+}

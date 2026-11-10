@@ -1,0 +1,2775 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-17-B3-WEST-GERMANY",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 20,
+  "openingProblem": {
+   "problem": "In 1968 some feared the Bonn Republic was going the way of Weimar. By 1990 it had absorbed East Germany. How did a democracy that critics called 'decreed' by the occupiers become strong enough to unite the country?",
+   "predictionPrompt": "Your prediction in one line: what made West German democracy strong?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "Bonn democracy and its critics, 1949–1969",
+    "body": "The Federal Republic was built for stability. Its institutions were designed to avoid a second Weimar, and the Christian Democrats governed without a break from 1949 until 1966, Konrad Adenauer leading until he resigned in 1963 at the age of 87. The social market, with employee representatives on company boards and close cooperation between unions and employers, aimed to reduce labour conflict, and the economy grew fast enough for most demands to be met without conflict. But Tony Judt shows that it rested on a silence about the Nazi past.\n\nThat silence broke in the 1960s. The trial of Adolf Eichmann in Jerusalem in 1961 and the \"Auschwitz trials\" in Frankfurt from 1963 to 1965, where 273 witnesses described the crimes of 23 defendants, brought the full horror of Nazism to public attention. In 1967 the psychoanalysts Alexander and Margarete Mitscherlich argued that West Germans had never truly accepted personal responsibility. A generation born during or just after the war, whose parents refused to talk about \"it\", turned on the Republic itself. To radicals such as the student leader Rudi Dutschke, Bonn's comfortable, consumerist, American-protected democracy was \"not the solution; it was the problem\". Rainer Werner Fassbinder, born in 1945, put it this way: \"Our democracy was decreed for the Western occupation zone, we didn't fight for it ourselves.\"\n\nThe government gave them evidence. In the **Spiegel Affair** of 1962, after the news magazine *Der Spiegel* published articles embarrassing Defence Minister Franz-Josef Strauss, the government, with Adenauer's authorisation, arrested its publisher and searched its offices. Even the conservative *Frankfurter Allgemeine Zeitung* called it \"an embarrassment to our democracy\". In December 1966 the Christian Democrats chose as Chancellor Kurt-Georg Kiesinger, who had been a Nazi Party member for twelve years, at the head of a **Grand Coalition** with the Social Democrats. With the main parties together dominating the Bundestag, radical opposition was pushed out of parliament altogether: the Extra-Parliamentary Left, as it called itself, moved into the universities, while neo-Nazis revived at the fringe.\n\nProtest peaked in 1968. On 11 April the student leader Rudi Dutschke was shot in Berlin by a neo-Nazi sympathiser; in the weeks that followed two people were killed and 400 wounded in Berlin alone. The government passed Emergency Laws allowing rule by decree, by 384 votes to 100, and some feared Bonn was going the way of Weimar.\n\nThis mattered because the generation of 1968 forced West Germany to confront its past, which meant that the Republic's legitimacy came to depend not only on prosperity but on honesty about what had come before. The fear of collapse proved wrong: in 1969 power passed peacefully to the Social Democrats.",
+    "argumentsThatWork": [
+     {
+      "claim": "Prosperity and stable institutions made Bonn democracy work, but at the price of silence about Nazism.",
+      "evidence": [
+       "F-WGER-01",
+       "F-WGER-02",
+       "F-WGER-05"
+      ],
+      "strongestCounter": "The post-war generation was taught that Nazism caused war and defeat, so the silence was partial rather than total."
+     },
+     {
+      "claim": "The trials of the 1960s turned the past into a political issue.",
+      "evidence": [
+       "F-WGER-03"
+      ],
+      "strongestCounter": "The radicals' anger was directed more at the Bonn Republic than at Nazism itself."
+     },
+     {
+      "claim": "The Spiegel Affair and Kiesinger's appointment gave the radicals evidence of hypocrisy.",
+      "evidence": [
+       "F-WGER-06",
+       "F-WGER-07"
+      ],
+      "strongestCounter": "The public outcry over Spiegel showed that a free press had wide support, a sign of democratic health."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the causes and consequences of student protest in West Germany between 1962 and 1969.",
+     "Compare and contrast the foreign policies of Adenauer and Brandt between 1949 and 1974."
+    ],
+    "useItInAnEssay": {
+     "claim": "Student protest in West Germany was fuelled above all by the belief that the Bonn Republic was covering up the Nazi past.",
+     "prove": "The Auschwitz trials of 1963–65 heard 273 witnesses, and in 1966 a former Nazi Party member, Kiesinger, became Chancellor.",
+     "explain": "This meant that young Germans who had been told nothing at home or at school saw the Republic itself as tainted, so their protest became a revolt against their parents' generation.",
+     "test": "However, protest also drew on causes shared across western Europe, such as overcrowded universities and remote professors.",
+     "judge": "The past was therefore the distinctive cause of West German protest, which explains why it was so bitter."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened in the Spiegel Affair of 1962?",
+      "factIds": [
+       "F-WGER-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The government arrested the magazine's publisher and searched its offices after it embarrassed Strauss",
+        "correct": true,
+        "explanation": "Correct: widely condemned as an abuse of police power."
+       },
+       {
+        "id": "b",
+        "text": "Der Spiegel was banned for supporting the RAF",
+        "correct": false,
+        "explanation": "The RAF did not exist until 1970."
+       },
+       {
+        "id": "c",
+        "text": "Adenauer resigned over corruption",
+        "correct": false,
+        "explanation": "No: the articles concerned Strauss and defence policy."
+       },
+       {
+        "id": "d",
+        "text": "Strauss became Chancellor",
+        "correct": false,
+        "explanation": "He was defence minister."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many witnesses gave evidence at the Frankfurt Auschwitz trials of 1963–65? (number)",
+      "factIds": [
+       "F-WGER-03"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 273,
+        "tolerance": 0,
+        "explanation": "273, against 23 defendants."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1966 the CDU chose Kiesinger, a Nazi Party member for twelve years, as Chancellor.” Which argument does it support best?",
+      "factIds": [
+       "F-WGER-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Young radicals saw the Bonn Republic as unrepentant about the Nazi past",
+        "correct": true,
+        "explanation": "Correct: Grass wrote him an open letter."
+       },
+       {
+        "id": "b",
+        "text": "West Germany had become a Nazi state",
+        "correct": false,
+        "explanation": "Overstated: it remained a democracy."
+       },
+       {
+        "id": "c",
+        "text": "The SPD refused to work with him",
+        "correct": false,
+        "explanation": "The SPD joined his Grand Coalition."
+       },
+       {
+        "id": "d",
+        "text": "Kiesinger led the student movement",
+        "correct": false,
+        "explanation": "The students opposed him."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "impact_consequences",
+    "title": "Terror and the state: the Red Army Faction",
+    "body": "A small part of the 1968 movement turned to violence. In April 1968 four young radicals, among them Andreas Baader and Gudrun Ensslin, were arrested for setting fire to two department stores in Frankfurt. In 1970 Ulrike Meinhof led an armed raid that freed Baader from prison. They announced the **Red Army Fraction** (RAF), whose goal was to dismantle the Federal Republic by force. The name was deliberate: just as Britain's Royal Air Force had bombed Nazi Germany, so the \"Baader-Meinhof Group\" would bomb its successor.\n\nBetween 1970 and 1978, Judt records, the RAF and its offshoots killed 28 people, wounded 93, took 162 hostages and carried out over 30 bank robberies. They attacked American bases and murdered soldiers, policemen and businessmen. Their peak year was 1977. They assassinated the Attorney General, Siegfried Buback, and the banker Jürgen Ponto, and kidnapped and killed Hans Martin Schleyer, chairman of Daimler Benz and President of the West German Federation of Industries. Meinhof had been found dead in her cell in May 1976, apparently by her own hand, though rumours persisted that the state had killed her; on 18 October 1977 Baader and Ensslin were found dead in their cells.\n\nHow did democracy respond? The most repressive measure, Judt argues, was the *Berufsverbot* of 1972, passed by Willy Brandt's Social Democratic government, which excluded people engaged in activities against the constitution from state employment. It aroused fears of censorship, but it was \"hardly the prelude to dictatorship that its critics feared and—at the outer extreme—hoped\". Violence came from the far right too: a neo-Nazi bomb at Munich's Oktoberfest in 1980 killed 13 people.\n\nJudt's judgement is that the terrorists failed. Because they had no defined goals, their success could only be measured by how far they disrupted public life and undermined the Republic's institutions, and \"in this it clearly failed\". Neither the terrorist left nor the neo-Nazi right succeeded in destabilising the Republic, although they did provoke careless talk in conservative circles of the need to curb civil liberties.\n\nThis mattered because the Federal Republic survived its sternest internal test without abandoning democracy, which meant that West Germans, unlike their Weimar grandparents, could trust their institutions under pressure.",
+    "argumentsThatWork": [
+     {
+      "claim": "The RAF caused real violence but never threatened the Republic's survival.",
+      "evidence": [
+       "F-WGER-10",
+       "F-WGER-11",
+       "F-WGER-12"
+      ],
+      "strongestCounter": "In 1977, its peak year, the RAF killed the Attorney General and two of the country's leading businessmen."
+     },
+     {
+      "claim": "The state's response stayed within the law, which defeated the terrorists' strategy.",
+      "evidence": [
+       "F-WGER-12"
+      ],
+      "strongestCounter": "The Berufsverbot raised real fears for civil liberties."
+     },
+     {
+      "claim": "Terrorism grew out of the 1968 revolt against Bonn's legitimacy.",
+      "evidence": [
+       "F-WGER-09",
+       "F-WGER-04"
+      ],
+      "strongestCounter": "Leading intellectuals such as Habermas and Grass had urged students to respect republican legality."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that the Red Army Faction posed a serious threat to West German democracy.",
+     "Evaluate the causes and consequences of student protest in West Germany between 1962 and 1969."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Red Army Faction caused serious violence but never seriously threatened West German democracy.",
+     "prove": "Between 1970 and 1978 it killed 28 people and took 162 hostages, and in 1977 it murdered Schleyer, Buback and Ponto.",
+     "explain": "This meant that it could spread fear, but because it had no defined goals and no popular base, it could not undermine the institutions of the Republic.",
+     "test": "However, the Berufsverbot of 1972 showed that the state's response could itself threaten civil liberties.",
+     "judge": "The RAF's real danger was therefore to provoke the state into abandoning its principles, which, as Judt argues, it did not do."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people did the RAF and its offshoots kill between 1970 and 1978, according to Judt? (number)",
+      "factIds": [
+       "F-WGER-10"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 28,
+        "tolerance": 0,
+        "explanation": "28, with 93 wounded and 162 hostages."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which businessman did the RAF kidnap and kill in 1977?",
+      "factIds": [
+       "F-WGER-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Hans Martin Schleyer",
+        "correct": true,
+        "explanation": "Correct: chairman of Daimler Benz and President of the Federation of Industries."
+       },
+       {
+        "id": "b",
+        "text": "Willy Brandt",
+        "correct": false,
+        "explanation": "Brandt was not a victim of the RAF."
+       },
+       {
+        "id": "c",
+        "text": "Franz-Josef Strauss",
+        "correct": false,
+        "explanation": "Not an RAF victim."
+       },
+       {
+        "id": "d",
+        "text": "Rudi Dutschke",
+        "correct": false,
+        "explanation": "Dutschke was shot by a neo-Nazi sympathiser in 1968."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt says the Berufsverbot of 1972 was hardly the prelude to dictatorship its critics feared.” Which argument does it support best?",
+      "factIds": [
+       "F-WGER-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West German democracy responded to terror without abandoning its principles",
+        "correct": true,
+        "explanation": "Correct: the RAF failed to provoke dictatorship."
+       },
+       {
+        "id": "b",
+        "text": "The Berufsverbot created a police state",
+        "correct": false,
+        "explanation": "Judt rejects this."
+       },
+       {
+        "id": "c",
+        "text": "The RAF won public support",
+        "correct": false,
+        "explanation": "It did not."
+       },
+       {
+        "id": "d",
+        "text": "Brandt supported the RAF",
+        "correct": false,
+        "explanation": "His government passed the Berufsverbot."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "Brandt and Ostpolitik, 1969–1974",
+    "body": "In 1969 the Social Democrats under **Willy Brandt** formed a coalition with the Free Democrats, putting the Christian Democrats into opposition for the first time. As foreign minister in the Grand Coalition, Brandt and his adviser Egon Bahr had already designed a new policy towards the East: ***Ostpolitik***.\n\nAdenauer's policy had been firm: West Germany alone represented Germany, the GDR would not be recognised, and Bonn would not even recognise states that recognised it (except the Soviet Union). The division of Germany had to be resolved before any détente. Judt explains why this no longer worked. By refusing to contest the Berlin Wall in 1961, the United States had shown it would not risk war over Germany, and in October 1966 President Johnson made clear that American policy would no longer be held hostage to reunification. Brandt's experience as Mayor of West Berlin led him to the conclusion that if West Germans wanted to ease the division, they would have to deal with the East themselves.\n\nBahr called the strategy *Wandel durch Annäherung*, \"change through rapprochement\": many small contacts, diplomatic and human, would gradually ease the division. Brandt dropped the claim that the GDR was illegitimate: there would be \"one German nation, two German states\". Between 1970 and 1974 his government signed treaties with Moscow and Warsaw (1970) accepting the post-war frontiers; a four-power agreement on Berlin (1971) easing movement; a **Basic Treaty** with the GDR, ratified in 1973, in which Bonn gave up its claim to represent all Germans; and a treaty with Prague (1973). In May 1974 the two German states exchanged permanent representatives.\n\nThe policy was popular. In Warsaw Brandt knelt at the memorial to the Ghetto, and he won the Nobel Peace Prize. In 1972 the SPD became the largest party in the Bundestag for the first time; in 1970 crowds in Erfurt cheered him on the first visit by a West German leader to the GDR. In 1974 he was forced out by a spy scandal, but his successors, Helmut Schmidt and the Christian Democrat Helmut Kohl, never departed from the line of *Ostpolitik*.\n\nWas it a success? It could be argued that it accepted the division of Germany and lent the GDR's regime legitimacy. But it brought real gains in human contact, eased fears of West German revanchism in the East and 'normalised' Bonn's relations with its eastern neighbours. This mattered because Bonn now pursued its own national interest in the East, which meant that West Germany, the occupied state of 1949, had become an independent actor in European diplomacy.",
+    "argumentsThatWork": [
+     {
+      "claim": "Ostpolitik was a realistic response to America's refusal to fight for German unity.",
+      "evidence": [
+       "F-WGER-15",
+       "F-WGER-16"
+      ],
+      "strongestCounter": "Accepting the GDR's existence could be said to strengthen its regime."
+     },
+     {
+      "claim": "Its treaties accepted the post-war borders and eased human contact.",
+      "evidence": [
+       "F-WGER-17",
+       "F-WGER-18"
+      ],
+      "strongestCounter": "Reunification was not achieved; division was formalised."
+     },
+     {
+      "claim": "Ostpolitik became a consensus: Schmidt and Kohl continued it.",
+      "evidence": [
+       "F-WGER-19",
+       "F-WGER-23"
+      ],
+      "strongestCounter": "Bonn's subsidies to the GDR may have propped up the regime."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent did Ostpolitik change West Germany's relations with eastern Europe between 1969 and 1974?",
+     "Compare and contrast the foreign policies of Adenauer and Brandt between 1949 and 1974."
+    ],
+    "useItInAnEssay": {
+     "claim": "Ostpolitik transformed West Germany's relations with eastern Europe by accepting the reality of the post-war settlement.",
+     "prove": "Between 1970 and 1974 Brandt signed treaties with Moscow, Warsaw and Prague, a four-power agreement on Berlin and a Basic Treaty with the GDR, and exchanged permanent representatives with East Berlin.",
+     "explain": "This meant that Bonn abandoned Adenauer's refusal to deal with the East, so contacts and trust could grow, as Bahr's 'change through rapprochement' intended.",
+     "test": "However, the policy also formalised the division of Germany, and critics argued it strengthened the GDR's regime.",
+     "judge": "Ostpolitik therefore changed relations profoundly, at the price of accepting division for the time being."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Bahr call the strategy behind Ostpolitik?",
+      "factIds": [
+       "F-WGER-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "'Change through rapprochement'",
+        "correct": true,
+        "explanation": "Correct: Wandel durch Annäherung."
+       },
+       {
+        "id": "b",
+        "text": "'Roll-back'",
+        "correct": false,
+        "explanation": "Not Bahr's phrase."
+       },
+       {
+        "id": "c",
+        "text": "'Peaceful coexistence'",
+        "correct": false,
+        "explanation": "No: Bahr's phrase was 'change through rapprochement'."
+       },
+       {
+        "id": "d",
+        "text": "'Containment'",
+        "correct": false,
+        "explanation": "No: not the phrase Bahr used for Ostpolitik."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Bonn give up in the Basic Treaty with the GDR (ratified 1973)?",
+      "factIds": [
+       "F-WGER-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Its claim to be the sole legitimate representative of all Germans",
+        "correct": true,
+        "explanation": "Correct: but East Germans who reached the West still got citizenship."
+       },
+       {
+        "id": "b",
+        "text": "West Berlin",
+        "correct": false,
+        "explanation": "West Berlin stayed part of the West."
+       },
+       {
+        "id": "c",
+        "text": "Membership of NATO",
+        "correct": false,
+        "explanation": "Not part of the treaty."
+       },
+       {
+        "id": "d",
+        "text": "Its army",
+        "correct": false,
+        "explanation": "Not part of the treaty."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The US had refused to contest the Berlin Wall in 1961, and in 1966 Johnson said reunification would not block détente.” Which argument does it support best?",
+      "factIds": [
+       "F-WGER-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West Germany had to deal with the East itself if it wanted to ease division",
+        "correct": true,
+        "explanation": "Correct: the conclusion Brandt drew."
+       },
+       {
+        "id": "b",
+        "text": "The US wanted to reunify Germany by force",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Adenauer's policy succeeded",
+        "correct": false,
+        "explanation": "It had reached a dead end."
+       },
+       {
+        "id": "d",
+        "text": "The USSR supported reunification",
+        "correct": false,
+        "explanation": "Not what the fact shows."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "Society and reunification, 1960s–1990",
+    "body": "West German prosperity was built partly by foreigners. By 1973 there were nearly half a million Italians, 535,000 Yugoslavs and 605,000 Turks working in West Germany. These **guest workers** (*Gastarbeiter*) had no permanent right to stay and were left out of the agreements that protected German workers; well into the 1980s they were held at entry-level jobs and wages. When recession came, they went first: four out of five BMW workers who lost their jobs in 1974–75 were not German citizens, which helped keep official unemployment figures down. In 1975 the government closed its recruiting offices abroad. A federal report of 1977 declared that \"Germany is not an immigrant country\", and in 1983 parliament passed an Act to encourage foreign workers to return home.\n\nNew movements also changed politics. The environmental protest of the 1970s produced the **Greens**, backed by farmers, environmentalists, pacifists and squatters. In the federal election of 1983 they won 5.6 per cent of the vote and 27 seats, and in 1985 they joined the government of Hesse.\n\n**Helmut Kohl**, Chancellor from 1982, continued *Ostpolitik*. In September 1987 Erich Honecker became the first East German leader to visit the Federal Republic; Bonn kept subsidising the GDR, though it gave no support to East German dissidents. Then, in 1989, the GDR collapsed. Kohl at first proposed, on 28 November, a cautious five-year programme towards unity. But with 2,000 East Germans a day moving west, he decided that the only way to keep them at home was to bring West Germany east. In March 1990 the Alliance for Germany, standing for rapid unification, won 48 per cent of the vote in East Germany; monetary union followed on 1 July, and on **3 October 1990** the GDR joined the Federal Republic.\n\nUnification needed others' consent. Britain and France were uneasy: Margaret Thatcher hoped with President Mitterrand to \"check the German juggernaut\", but Britain had no alternative and acquiesced, while Mitterrand was harder to appease. Gorbachev settled for about $8 billion plus $2 billion in credits, and Kohl accepted Germany's eastern borders as permanent.\n\nThe costs were enormous. The East's housing was decrepit: more than 60 per cent of dwellings had no central heating. By the end of 2003 absorbing the GDR had cost 1.2 trillion euros. Kohl chose not to raise taxes, so the Federal Republic went into deficit, and the Bundesbank raised interest rates from 1991, slowing growth across Europe. This mattered because unification extended West Germany's democracy to the East rather than creating a new state, which meant that the democracy built in 1949 was the one that unified Germany in 1990.",
+    "argumentsThatWork": [
+     {
+      "claim": "Guest workers fuelled growth but were treated as temporary, and were laid off first in recession.",
+      "evidence": [
+       "F-WGER-20",
+       "F-WGER-21"
+      ],
+      "strongestCounter": "Their pay was worth many times what they could earn at home, which is why they came."
+     },
+     {
+      "claim": "New movements such as the Greens showed the Republic could absorb protest into politics.",
+      "evidence": [
+       "F-WGER-22"
+      ],
+      "strongestCounter": "The Greens' radicalism alarmed many voters."
+     },
+     {
+      "claim": "Kohl seized the chance of rapid unification, which extended Bonn's democracy east.",
+      "evidence": [
+       "F-WGER-24",
+       "F-WGER-26"
+      ],
+      "strongestCounter": "Unification depended on Gorbachev and the Allies, and its costs were high."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the role of Kohl in the reunification of Germany between 1989 and 1990.",
+     "Analyse the treatment of guest workers in West Germany between 1973 and 1983."
+    ],
+    "useItInAnEssay": {
+     "claim": "Kohl's decisive contribution to reunification was to see that rapid unity was the only way to stop the flight from the East.",
+     "prove": "His cautious five-year programme of 28 November 1989 gave way to rapid union as 2,000 people a day came west, and the GDR joined the Federal Republic on 3 October 1990.",
+     "explain": "This meant that Kohl turned a refugee crisis into a political opportunity, using monetary union on 1 July 1990 to keep East Germans at home.",
+     "test": "However, unification needed Gorbachev's consent, which cost about $8 billion, and Britain acquiesced only because it had no alternative.",
+     "judge": "Kohl's role was therefore decisive in the speed and form of unification, though not in making it possible."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did the GDR join the Federal Republic?",
+      "factIds": [
+       "F-WGER-24"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "3 October 1990",
+        "correct": true,
+        "explanation": "Correct: the GDR ceased to exist."
+       },
+       {
+        "id": "b",
+        "text": "1 January 1991",
+        "correct": false,
+        "explanation": "No: the GDR had already ceased to exist by then."
+       },
+       {
+        "id": "c",
+        "text": "1 July 1990",
+        "correct": false,
+        "explanation": "That is monetary union."
+       },
+       {
+        "id": "d",
+        "text": "28 November 1989",
+        "correct": false,
+        "explanation": "That is Kohl's five-year programme."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many Turkish workers were in West Germany by 1973, according to Judt? (number)",
+      "factIds": [
+       "F-WGER-20"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 605000,
+        "tolerance": 5000,
+        "explanation": "605,000, with 535,000 Yugoslavs and nearly half a million Italians."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-17-B3-WEST-GERMANY-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “A 1977 federal report declared that 'Germany is not an immigrant country'.” Which argument does it support best?",
+      "factIds": [
+       "F-WGER-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West Germany treated guest workers as temporary rather than as citizens",
+        "correct": true,
+        "explanation": "Correct: recruitment had stopped in 1975."
+       },
+       {
+        "id": "b",
+        "text": "West Germany welcomed permanent immigration",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Guest workers had full rights",
+        "correct": false,
+        "explanation": "They lacked permanent residence."
+       },
+       {
+        "id": "d",
+        "text": "No foreigners lived in Germany",
+        "correct": false,
+        "explanation": "Millions did."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1962,
+      "text": "Spiegel Affair",
+      "factId": "F-WGER-06"
+     },
+     {
+      "year": 1963,
+      "text": "Auschwitz trials begin in Frankfurt; Adenauer resigns",
+      "factId": "F-WGER-03"
+     },
+     {
+      "year": 1966,
+      "month": 12,
+      "text": "Kiesinger heads a Grand Coalition",
+      "factId": "F-WGER-07"
+     },
+     {
+      "year": 1968,
+      "month": 4,
+      "day": 11,
+      "text": "Dutschke shot in Berlin",
+      "factId": "F-WGER-08"
+     },
+     {
+      "year": 1969,
+      "text": "Brandt's SPD–FDP coalition takes office",
+      "factId": "F-WGER-13"
+     },
+     {
+      "year": 1970,
+      "text": "Treaties with Moscow and Warsaw",
+      "factId": "F-WGER-17"
+     },
+     {
+      "year": 1972,
+      "text": "Berufsverbot; SPD largest party",
+      "factId": "F-WGER-12"
+     },
+     {
+      "year": 1973,
+      "text": "Basic Treaty with the GDR ratified",
+      "factId": "F-WGER-17"
+     },
+     {
+      "year": 1974,
+      "text": "Brandt resigns after a spy scandal",
+      "factId": "F-WGER-19"
+     },
+     {
+      "year": 1977,
+      "month": 10,
+      "day": 18,
+      "text": "Baader and Ensslin found dead in prison",
+      "factId": "F-WGER-11"
+     },
+     {
+      "year": 1983,
+      "text": "Greens enter the Bundestag",
+      "factId": "F-WGER-22"
+     },
+     {
+      "year": 1990,
+      "month": 10,
+      "day": 3,
+      "text": "Germany reunified",
+      "factId": "F-WGER-24"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Stable institutions and prosperity, with silence about the Nazi past",
+      "factId": "F-WGER-01"
+     },
+     {
+      "id": "n2",
+      "text": "Trials of the 1960s and the Spiegel Affair provoke a generational revolt",
+      "factId": "F-WGER-03"
+     },
+     {
+      "id": "n3",
+      "text": "A violent fringe becomes the RAF; the state holds to the law",
+      "factId": "F-WGER-12"
+     },
+     {
+      "id": "n4",
+      "text": "Power passes peacefully to Brandt; Ostpolitik",
+      "factId": "F-WGER-13"
+     },
+     {
+      "id": "n5",
+      "text": "New movements and guest workers reshape society",
+      "factId": "F-WGER-22"
+     },
+     {
+      "id": "n6",
+      "text": "Kohl turns the GDR's collapse into unification (1990)",
+      "factId": "F-WGER-24"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "The young rejected their parents' silence and the Republic's hypocrisy"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "A small minority turned from protest to terror"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Democracy survived its test and alternated in power"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Politics absorbed new causes"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "A confident democracy could absorb the East"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Konrad Adenauer",
+     "role": "Chancellor, 1949–1963",
+     "whyItMatters": "Built stability but authorised the Spiegel raid; refused to recognise the GDR.",
+     "factIds": [
+      "F-WGER-01",
+      "F-WGER-06",
+      "F-WGER-14"
+     ]
+    },
+    {
+     "name": "Kurt-Georg Kiesinger",
+     "role": "Chancellor of the Grand Coalition, 1966–1969",
+     "whyItMatters": "A former Nazi Party member whose appointment fuelled protest.",
+     "factIds": [
+      "F-WGER-07"
+     ]
+    },
+    {
+     "name": "Rudi Dutschke",
+     "role": "Student leader",
+     "whyItMatters": "Shot in April 1968; symbol of the 1968 revolt.",
+     "factIds": [
+      "F-WGER-04",
+      "F-WGER-08"
+     ]
+    },
+    {
+     "name": "Ulrike Meinhof",
+     "role": "Co-founder of the RAF",
+     "whyItMatters": "Freed Baader in 1970; died in prison in 1976.",
+     "factIds": [
+      "F-WGER-09",
+      "F-WGER-11"
+     ]
+    },
+    {
+     "name": "Willy Brandt",
+     "role": "Chancellor, 1969–1974",
+     "whyItMatters": "Architect of Ostpolitik; Nobel Peace Prize.",
+     "factIds": [
+      "F-WGER-13",
+      "F-WGER-17",
+      "F-WGER-18"
+     ]
+    },
+    {
+     "name": "Helmut Kohl",
+     "role": "Chancellor from 1982",
+     "whyItMatters": "Continued Ostpolitik and drove rapid unification in 1990.",
+     "factIds": [
+      "F-WGER-23",
+      "F-WGER-24"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Adenauer (1949–1963)",
+     "Brandt (1969–1974)"
+    ],
+    "rows": [
+     {
+      "criterion": "Attitude to the GDR",
+      "cells": [
+       "Refused recognition; Bonn alone represented Germany",
+       "'One German nation, two German states'"
+      ],
+      "factIds": [
+       "F-WGER-14",
+       "F-WGER-16"
+      ]
+     },
+     {
+      "criterion": "Priority",
+      "cells": [
+       "Anchoring West Germany in the West",
+       "Normalising relations with the East"
+      ],
+      "factIds": [
+       "F-WGER-14",
+       "F-WGER-17"
+      ]
+     },
+     {
+      "criterion": "Unity",
+      "cells": [
+       "Unity first, détente later",
+       "Détente first; change through rapprochement"
+      ],
+      "factIds": [
+       "F-WGER-15",
+       "F-WGER-16"
+      ]
+     },
+     {
+      "criterion": "Outcome",
+      "cells": [
+       "Ties to the West through NATO and the EEC",
+       "Treaties with Moscow, Warsaw, Prague and the GDR"
+      ],
+      "factIds": [
+       "F-WGER-14",
+       "F-WGER-17"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-WGER-03",
+    "year": 1963,
+    "text": "Frankfurt Auschwitz trials (1963–65): 273 witnesses, 23 accused.",
+    "supports": [
+     "The 1960s forced West Germany to confront the Nazi past"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-DEVELOPMENT"
+    ],
+    "lexicon": [
+     "Auschwitz trials",
+     "Vergangenheitsbewältigung"
+    ]
+   },
+   {
+    "factId": "F-WGER-06",
+    "year": 1962,
+    "text": "Spiegel Affair (1962): the government arrested the magazine's publisher and searched its offices.",
+    "supports": [
+     "Critics saw the Republic as authoritarian"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-POLICIES"
+    ],
+    "lexicon": [
+     "Spiegel Affair",
+     "press freedom"
+    ]
+   },
+   {
+    "factId": "F-WGER-08",
+    "year": 1968,
+    "text": "11 April 1968: Dutschke shot; Emergency Laws passed by 384 to 100.",
+    "supports": [
+     "Some feared Bonn was going the way of Weimar"
+    ],
+    "lexicon": [
+     "1968",
+     "Emergency Laws"
+    ]
+   },
+   {
+    "factId": "F-WGER-10",
+    "year": 1978,
+    "text": "RAF, 1970–78: 28 killed, 93 wounded, 162 hostages, over 30 bank robberies.",
+    "supports": [
+     "Terror caused real violence"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-DEVELOPMENT"
+    ],
+    "lexicon": [
+     "Red Army Faction",
+     "Baader-Meinhof"
+    ]
+   },
+   {
+    "factId": "F-WGER-12",
+    "year": 1972,
+    "text": "The Berufsverbot (1972) was 'hardly the prelude to dictatorship' (Judt); the terrorists failed.",
+    "supports": [
+     "Democracy survived terror within the law"
+    ],
+    "lexicon": [
+     "Berufsverbot"
+    ]
+   },
+   {
+    "factId": "F-WGER-17",
+    "year": 1973,
+    "text": "Ostpolitik treaties: Moscow and Warsaw (1970), Berlin (1971), Basic Treaty with the GDR (ratified 1973), Prague (1973).",
+    "supports": [
+     "Bonn accepted the post-war settlement"
+    ],
+    "alsoWorksFor": [
+     "P2-12-DETENTE"
+    ],
+    "lexicon": [
+     "Ostpolitik",
+     "Basic Treaty"
+    ]
+   },
+   {
+    "factId": "F-WGER-20",
+    "year": 1973,
+    "text": "By 1973: 605,000 Turkish, 535,000 Yugoslav and nearly 500,000 Italian workers in West Germany.",
+    "supports": [
+     "Guest workers built prosperity but were treated as temporary"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-POLICIES"
+    ],
+    "lexicon": [
+     "Gastarbeiter",
+     "guest workers"
+    ]
+   },
+   {
+    "factId": "F-WGER-24",
+    "year": 1990,
+    "text": "3 October 1990: the GDR joined the Federal Republic after monetary union on 1 July.",
+    "supports": [
+     "Unification extended Bonn's democracy east"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B4-COLLAPSE",
+     "P2-9-DE-DEVELOPMENT"
+    ],
+    "lexicon": [
+     "reunification",
+     "Kohl"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "The radicals of the 1960s rejected the Bonn Republic as amnesiac and hypocritical, yet the Republic proved resilient: the terrorists 'clearly failed', the state's response was 'hardly the prelude to dictatorship', and power passed peacefully to Brandt.",
+    "useItLikeThis": "Judt's view supports the claim that West German democracy was stronger than its critics believed, which suggests its legitimacy rested on surviving crises within the law.",
+    "factId": "F-WGER-12"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "German democracy emerged in 1990.",
+    "right": "It emerged in **1949**; 1990 extended an existing democratic order to the East."
+   },
+   {
+    "wrong": "The RAF nearly overthrew the Federal Republic.",
+    "right": "Judt says it **clearly failed** to undermine the Republic's institutions."
+   },
+   {
+    "wrong": "Ostpolitik meant giving up on German unity.",
+    "right": "Bonn kept affirming 'one German nation' while accepting **two German states**."
+   },
+   {
+    "wrong": "Guest workers were welcomed as permanent immigrants.",
+    "right": "They were treated as **temporary**: 'Germany is not an immigrant country' (1977)."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1962,
+     "text": "Spiegel Affair"
+    },
+    {
+     "year": 1966,
+     "month": 12,
+     "text": "Grand Coalition"
+    },
+    {
+     "year": 1968,
+     "month": 4,
+     "day": 11,
+     "text": "Dutschke shot"
+    },
+    {
+     "year": 1969,
+     "text": "Brandt Chancellor"
+    },
+    {
+     "year": 1973,
+     "text": "Basic Treaty"
+    },
+    {
+     "year": 1977,
+     "month": 10,
+     "day": 18,
+     "text": "Stammheim deaths"
+    },
+    {
+     "year": 1983,
+     "text": "Greens in Bundestag"
+    },
+    {
+     "year": 1990,
+     "month": 10,
+     "day": 3,
+     "text": "Reunification"
+    }
+   ],
+   "keyArguments": [
+    "Bonn's stability rested on prosperity and silence about Nazism; the 1960s broke the silence.",
+    "1968 radicals saw Bonn as the problem; the Spiegel Affair and Kiesinger gave them evidence.",
+    "The RAF caused real violence but failed; the state held to the law (Judt).",
+    "Ostpolitik accepted the post-war settlement: 'one German nation, two German states'.",
+    "Guest workers were treated as temporary; Kohl turned 1989 into unification, extending Bonn's democracy."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Spiegel Affair",
+     "year": 1962,
+     "factId": "F-WGER-06"
+    },
+    {
+     "id": "b",
+     "text": "Grand Coalition formed",
+     "year": 1966,
+     "month": 12,
+     "factId": "F-WGER-07"
+    },
+    {
+     "id": "c",
+     "text": "Brandt becomes Chancellor",
+     "year": 1969,
+     "factId": "F-WGER-13"
+    },
+    {
+     "id": "d",
+     "text": "Brandt resigns",
+     "year": 1974,
+     "factId": "F-WGER-19"
+    },
+    {
+     "id": "e",
+     "text": "Reunification",
+     "year": 1990,
+     "month": 10,
+     "factId": "F-WGER-24"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in the history of the RAF in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Frankfurt department store arson",
+     "year": 1968,
+     "month": 4,
+     "factId": "F-WGER-09"
+    },
+    {
+     "id": "b",
+     "text": "Meinhof frees Baader",
+     "year": 1970,
+     "factId": "F-WGER-09"
+    },
+    {
+     "id": "c",
+     "text": "Meinhof found dead in prison",
+     "year": 1976,
+     "month": 5,
+     "factId": "F-WGER-11"
+    },
+    {
+     "id": "d",
+     "text": "Baader and Ensslin found dead",
+     "year": 1977,
+     "month": 10,
+     "factId": "F-WGER-11"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R03",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Egon Bahr",
+     "right": "Brandt's adviser who coined 'change through rapprochement'",
+     "explanation": "The strategy of Ostpolitik."
+    },
+    {
+     "left": "Franz-Josef Strauss",
+     "right": "Defence minister at the centre of the Spiegel Affair",
+     "explanation": "1962."
+    },
+    {
+     "left": "Hans Martin Schleyer",
+     "right": "Industry leader kidnapped and killed by the RAF",
+     "explanation": "1977."
+    },
+    {
+     "left": "Erich Honecker",
+     "right": "East German leader who visited the Federal Republic in 1987",
+     "explanation": "The first to do so."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R04",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By how many votes to 100 did the Bundestag pass the Emergency Laws in 1968? (number)",
+   "factIds": [
+    "F-WGER-08"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 384,
+     "tolerance": 0,
+     "explanation": "384 to 100."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many hostages did the RAF and its offshoots take between 1970 and 1978? (number)",
+   "factIds": [
+    "F-WGER-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 162,
+     "tolerance": 0,
+     "explanation": "162."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of the vote did the Greens win in the federal election of 1983? (per cent, one decimal place)",
+   "factIds": [
+    "F-WGER-22"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 5.6,
+     "tolerance": 0,
+     "explanation": "5.6 per cent, and 27 seats."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By the end of 2003, how many trillion euros had absorbing the former GDR cost? (number, one decimal place)",
+   "factIds": [
+    "F-WGER-27"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1.2,
+     "tolerance": 0,
+     "explanation": "1.2 trillion euros."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R08",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were Ostpolitik agreements of 1970–74? Choose all that apply.",
+   "factIds": [
+    "F-WGER-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Treaties with Moscow and Warsaw",
+     "correct": true,
+     "explanation": "Yes: 1970."
+    },
+    {
+     "id": "b",
+     "text": "The four-power agreement on Berlin",
+     "correct": true,
+     "explanation": "Yes: 1971."
+    },
+    {
+     "id": "c",
+     "text": "The Basic Treaty with the GDR",
+     "correct": true,
+     "explanation": "Yes: ratified 1973."
+    },
+    {
+     "id": "d",
+     "text": "West German entry into NATO",
+     "correct": false,
+     "explanation": "No: Adenauer had tied Bonn to NATO long before."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these fuelled student protest in the 1960s? Choose all that apply.",
+   "factIds": [
+    "F-WGER-03",
+    "F-WGER-06",
+    "F-WGER-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Auschwitz trials",
+     "correct": true,
+     "explanation": "Yes: they revealed the scale of Nazi crimes."
+    },
+    {
+     "id": "b",
+     "text": "The Spiegel Affair",
+     "correct": true,
+     "explanation": "Yes: an abuse of police power."
+    },
+    {
+     "id": "c",
+     "text": "A former Nazi as Chancellor",
+     "correct": true,
+     "explanation": "Yes: Kiesinger, 1966–69."
+    },
+    {
+     "id": "d",
+     "text": "Reunification",
+     "correct": false,
+     "explanation": "No: that was 1990."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R10",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Four out of five BMW workers laid off in 1974–75 were not German citizens.” Which argument does it support?",
+   "factIds": [
+    "F-WGER-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Guest workers bore the cost of recession",
+     "correct": true,
+     "explanation": "Correct: they went first."
+    },
+    {
+     "id": "b",
+     "text": "Guest workers had the most secure jobs",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "BMW employed only Germans",
+     "correct": false,
+     "explanation": "It employed many foreigners."
+    },
+    {
+     "id": "d",
+     "text": "Unemployment rose sharply among Germans",
+     "correct": false,
+     "explanation": "Official unemployment stayed low partly for this reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In 1972 the SPD became the largest party in the Bundestag for the first time.” Which argument does it support?",
+   "factIds": [
+    "F-WGER-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ostpolitik was popular with West German voters",
+     "correct": true,
+     "explanation": "Correct: Brandt triumphed at home."
+    },
+    {
+     "id": "b",
+     "text": "Ostpolitik was rejected by voters",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The CDU won the 1972 election",
+     "correct": false,
+     "explanation": "The SPD became the largest party."
+    },
+    {
+     "id": "d",
+     "text": "Brandt was forced out in 1972",
+     "correct": false,
+     "explanation": "He was forced out in 1974."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R12",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Willy Brandt refused to recognise the GDR and broke off relations with all states that did.”",
+   "factIds": [
+    "F-WGER-14",
+    "F-WGER-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That was Adenauer's policy; Brandt accepted 'two German states'",
+     "correct": true,
+     "explanation": "Correct: Brandt reversed it."
+    },
+    {
+     "id": "b",
+     "text": "Brandt was a Christian Democrat",
+     "correct": false,
+     "explanation": "He led the SPD."
+    },
+    {
+     "id": "c",
+     "text": "Brandt never visited the GDR",
+     "correct": false,
+     "explanation": "He visited Erfurt in 1970."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the policy belongs to Adenauer."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The RAF's campaign forced West Germany to abandon democracy in 1977.”",
+   "factIds": [
+    "F-WGER-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Democracy survived; Judt says the terrorists clearly failed",
+     "correct": true,
+     "explanation": "Correct: the state held to the law."
+    },
+    {
+     "id": "b",
+     "text": "The RAF was a right-wing group",
+     "correct": false,
+     "explanation": "It was far left."
+    },
+    {
+     "id": "c",
+     "text": "The RAF was founded in 1990",
+     "correct": false,
+     "explanation": "It was founded in 1970."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: democracy survived."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R14",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about West Germany between 1949 and 1990. Are the Berlin blockade and airlift of 1948–49 inside or outside the timeframe?",
+   "timeframe": [
+    1949,
+    1990
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside, except as background to the founding of the Federal Republic",
+     "correct": true,
+     "explanation": "Correct: the blockade belongs to the German question section."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: it began in 1948, before the Federal Republic existed."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Berlin was part of West Germany",
+     "correct": false,
+     "explanation": "Berlin's status does not change the date."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R15",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Brandt kneel in Warsaw?",
+   "factIds": [
+    "F-WGER-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "In homage to the memory of the Warsaw Ghetto",
+     "correct": true,
+     "explanation": "Correct: a moving gesture of reconciliation."
+    },
+    {
+     "id": "b",
+     "text": "To sign the Basic Treaty",
+     "correct": false,
+     "explanation": "That was with the GDR."
+    },
+    {
+     "id": "c",
+     "text": "To apologise for the Berlin Wall",
+     "correct": false,
+     "explanation": "Not the reason."
+    },
+    {
+     "id": "d",
+     "text": "To meet the Pope",
+     "correct": false,
+     "explanation": "Not the reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Berufsverbot of 1972 do?",
+   "factIds": [
+    "F-WGER-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Excluded people acting against the constitution from state employment",
+     "correct": true,
+     "explanation": "Correct: aimed at left and right extremists."
+    },
+    {
+     "id": "b",
+     "text": "Banned the SPD",
+     "correct": false,
+     "explanation": "The SPD government passed it."
+    },
+    {
+     "id": "c",
+     "text": "Abolished the Bundestag",
+     "correct": false,
+     "explanation": "No: parliament continued to sit."
+    },
+    {
+     "id": "d",
+     "text": "Expelled guest workers",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Kohl move to rapid unification in 1990?",
+   "factIds": [
+    "F-WGER-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Only bringing West Germany east could stop 2,000 people a day moving west",
+     "correct": true,
+     "explanation": "Correct: his first plan was for five years."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev demanded it",
+     "correct": false,
+     "explanation": "Gorbachev set a price but did not demand it."
+    },
+    {
+     "id": "c",
+     "text": "Thatcher insisted",
+     "correct": false,
+     "explanation": "Thatcher was uneasy."
+    },
+    {
+     "id": "d",
+     "text": "The GDR was prosperous",
+     "correct": false,
+     "explanation": "Its infrastructure was decrepit."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Kohl pay for unification?",
+   "factIds": [
+    "F-WGER-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "By borrowing rather than raising taxes, so the Bundesbank raised interest rates",
+     "correct": true,
+     "explanation": "Correct: the costs spread across Europe."
+    },
+    {
+     "id": "b",
+     "text": "By raising taxes sharply",
+     "correct": false,
+     "explanation": "He chose not to."
+    },
+    {
+     "id": "c",
+     "text": "By selling West Berlin",
+     "correct": false,
+     "explanation": "No: West Berlin was never for sale."
+    },
+    {
+     "id": "d",
+     "text": "Through Marshall aid",
+     "correct": false,
+     "explanation": "No: Bonn met the cost by going into deficit."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who said 'Our democracy was decreed for the Western occupation zone, we didn't fight for it ourselves'?",
+   "factIds": [
+    "F-WGER-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rainer Werner Fassbinder",
+     "correct": true,
+     "explanation": "Correct: born in 1945, quoted by Judt."
+    },
+    {
+     "id": "b",
+     "text": "Willy Brandt",
+     "correct": false,
+     "explanation": "Brandt was not the speaker."
+    },
+    {
+     "id": "c",
+     "text": "Konrad Adenauer",
+     "correct": false,
+     "explanation": "Not his words."
+    },
+    {
+     "id": "d",
+     "text": "Helmut Kohl",
+     "correct": false,
+     "explanation": "Not his words."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened in September 1987?",
+   "factIds": [
+    "F-WGER-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Honecker became the first East German leader to visit the Federal Republic",
+     "correct": true,
+     "explanation": "Correct: Kohl continued Ostpolitik."
+    },
+    {
+     "id": "b",
+     "text": "Brandt visited Erfurt",
+     "correct": false,
+     "explanation": "No: Brandt's Erfurt visit was in 1970."
+    },
+    {
+     "id": "c",
+     "text": "The Basic Treaty was ratified",
+     "correct": false,
+     "explanation": "No: it was ratified in 1973."
+    },
+    {
+     "id": "d",
+     "text": "The Greens entered the Bundestag",
+     "correct": false,
+     "explanation": "No: that happened in 1983."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent did Ostpolitik change West Germany's relations with eastern Europe between 1969 and 1974?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Ostpolitik",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "change West Germany's relations with eastern Europe",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1969 and 1974",
+     "answer": "timeframe",
+     "explanation": "Brandt's chancellorship."
+    },
+    {
+     "id": "s5",
+     "text": "change",
+     "answer": "judgement",
+     "explanation": "How far relations changed, and in what ways."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘The Red Army Faction posed a serious threat to West German democracy.’ Discuss with reference to the period 1970 to 1977.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "the Red Army Faction",
+     "answer": "factor",
+     "explanation": "The subject of the claim."
+    },
+    {
+     "id": "s3",
+     "text": "posed a serious threat to West German democracy",
+     "answer": "scope",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s4",
+     "text": "1970 to 1977",
+     "answer": "timeframe",
+     "explanation": "From the RAF's founding to the German Autumn."
+    },
+    {
+     "id": "s5",
+     "text": "serious",
+     "answer": "judgement",
+     "explanation": "How serious, and to what: lives, or institutions?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did Ostpolitik change West Germany's relations with eastern Europe between 1969 and 1974?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ostpolitik transformed relations by accepting the post-war frontiers and the GDR's existence, replacing Adenauer's refusal to deal with the East; but it formalised division rather than ending it.",
+     "correct": true,
+     "explanation": "Correct: degree and qualification."
+    },
+    {
+     "id": "b",
+     "text": "Brandt became Chancellor in 1969.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Ostpolitik was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Ostpolitik reunified Germany in 1974.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the role of Kohl in the reunification of Germany between 1989 and 1990.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kohl's role was decisive in the speed and form of unification, because he saw that rapid union was the only way to stop the flight from the East; but it depended on Gorbachev's consent and the GDR's collapse.",
+     "correct": true,
+     "explanation": "Correct: role, mechanism and limits."
+    },
+    {
+     "id": "b",
+     "text": "Kohl was Chancellor from 1982.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Kohl did everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    },
+    {
+     "id": "d",
+     "text": "Kohl caused the Wall to fall.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1962 the government raided the offices of Der Spiegel.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the raid looked like an abuse of power, it convinced young critics that Bonn was hypocritical.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In 1970 Brandt signed a treaty with Moscow.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that Bonn accepted the post-war frontiers, so trust in the East could grow.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Kiesinger, a former Nazi, became Chancellor in 1966",
+     "right": "Radicals saw Bonn as unrepentant",
+     "explanation": "Grass's open letter."
+    },
+    {
+     "left": "The RAF killed 28 people in 1970–78",
+     "right": "Terror caused real violence",
+     "explanation": "But did not topple the state."
+    },
+    {
+     "left": "'One German nation, two German states'",
+     "right": "Brandt accepted the GDR's existence",
+     "explanation": "Ostpolitik."
+    },
+    {
+     "left": "605,000 Turkish workers by 1973",
+     "right": "Guest workers built prosperity",
+     "explanation": "But were treated as temporary."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The RAF was a big problem for West Germany.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The RAF killed 28 people and took 162 hostages in 1970–78, but because it had no popular base and the state responded within the law, it failed, as Judt argues, to undermine the Republic.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and historian."
+    },
+    {
+     "id": "b",
+     "text": "The RAF was a very big problem.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The RAF was founded in 1970.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The RAF destroyed democracy.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Ostpolitik was a betrayal of German unity.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Bonn still affirmed 'one German nation' and granted citizenship to East Germans who reached the West; by easing contacts, Ostpolitik kept the nation together, and Kohl, who pursued it, achieved unification in 1990.",
+     "correct": true,
+     "explanation": "Correct: evidence and long-term outcome."
+    },
+    {
+     "id": "b",
+     "text": "Brandt won the Nobel Prize.",
+     "correct": false,
+     "explanation": "Not an argument about unity."
+    },
+    {
+     "id": "c",
+     "text": "Some people liked Brandt.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "The GDR existed.",
+     "correct": false,
+     "explanation": "A fact, not a counter."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that the Red Army Faction posed a serious threat to West German democracy.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether democratic institutions were weakened, the RAF was a serious threat to life but not to democracy: the state kept to the law and the public rallied to it.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the RAF killed people and was defeated.",
+     "correct": false,
+     "explanation": "A recap of events with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the RAF was bad.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, terrorism is always a threat.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the causes and consequences of student protest in West Germany between 1962 and 1969.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The Auschwitz trials of 1963–65",
+     "answer": "causes",
+     "explanation": "Revealed the scale of Nazi crimes."
+    },
+    {
+     "id": "s2",
+     "text": "Kiesinger's appointment in 1966",
+     "answer": "causes",
+     "explanation": "A former Nazi as Chancellor."
+    },
+    {
+     "id": "s3",
+     "text": "The Emergency Laws of 1968",
+     "answer": "effects",
+     "explanation": "The state's response."
+    },
+    {
+     "id": "s4",
+     "text": "A violent fringe that became the RAF",
+     "answer": "effects",
+     "explanation": "From protest to terror."
+    },
+    {
+     "id": "s5",
+     "text": "Parents' silence about the past",
+     "answer": "causes",
+     "explanation": "The generational divide."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-17-B3-WEST-GERMANY-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent did Ostpolitik change West Germany's relations with eastern Europe between 1969 and 1974?",
+   "commandTerm": "to what extent",
+   "namedFactor": "Ostpolitik",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1969,
+    1974
+   ],
+   "scope": "West Germany and eastern Europe",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Ostpolitik, weighed first",
+    "timeframe": "1969–1974",
+    "scope": "Relations with eastern Europe",
+    "judgement": "How far relations changed, and in what ways"
+   },
+   "modelPlan": {
+    "thesis": "Ostpolitik transformed relations by accepting the post-war frontiers and the GDR's existence, replacing Adenauer's refusal to deal with the East; but it formalised division rather than ending it.",
+    "arguments": [
+     {
+      "claim": "The treaties of 1970–74 (named factor first).",
+      "evidence": [
+       "F-WGER-17"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "From non-recognition to 'two German states'.",
+      "evidence": [
+       "F-WGER-14",
+       "F-WGER-16"
+      ]
+     },
+     {
+      "claim": "Human contact and popular support.",
+      "evidence": [
+       "F-WGER-18"
+      ]
+     },
+     {
+      "claim": "Continuity: successors kept the policy.",
+      "evidence": [
+       "F-WGER-19",
+       "F-WGER-23"
+      ]
+     }
+    ],
+    "counter": "Ostpolitik accepted division and may have strengthened the GDR's regime.",
+    "judgementCriterion": "Did relations change in kind, not just degree? Yes: Bonn moved from refusing to deal with the East to treaties with every neighbour."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Ostpolitik transformed West Germany's relations with eastern Europe, because it accepted the post-war settlement Adenauer had refused.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Between 1970 and 1974 Brandt signed treaties with Moscow, Warsaw and Prague and a Basic Treaty with the GDR, ratified in 1973.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Bonn now dealt with the East directly, so the frontiers were accepted and trust and contacts could grow.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the treaties formalised the division of Germany, and critics argued they gave the GDR legitimacy.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Ostpolitik therefore changed relations profoundly, though it managed division rather than ending it.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Ostpolitik"
+    ],
+    "synonyms": [
+     "Brandt",
+     "rapprochement"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Basic Treaty",
+     "Bahr",
+     "two German states"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B3-WEST-GERMANY-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Red Army Faction posed a serious threat to West German democracy.” Discuss with reference to the period 1970 to 1977.",
+   "commandTerm": "discuss",
+   "namedFactor": "the Red Army Faction",
+   "features": [
+    "proposition",
+    "named_factor"
+   ],
+   "timeframe": [
+    1970,
+    1977
+   ],
+   "scope": "West Germany",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The RAF, weighed first",
+    "timeframe": "1970–1977",
+    "scope": "West German democracy",
+    "judgement": "How serious a threat, and to what"
+   },
+   "modelPlan": {
+    "thesis": "The claim is largely wrong: the RAF caused real violence and fear, but it never threatened democratic institutions, and the state's lawful response defeated its strategy.",
+    "arguments": [
+     {
+      "claim": "For: the scale of violence (named factor first).",
+      "evidence": [
+       "F-WGER-10",
+       "F-WGER-11"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "For: the risk of provoking repression, as the Berufsverbot suggested.",
+      "evidence": [
+       "F-WGER-12"
+      ]
+     },
+     {
+      "claim": "Against: no popular base or defined goals.",
+      "evidence": [
+       "F-WGER-12",
+       "F-WGER-09"
+      ]
+     },
+     {
+      "claim": "Against: the state held to the law; democracy alternated in power.",
+      "evidence": [
+       "F-WGER-12",
+       "F-WGER-13"
+      ]
+     }
+    ],
+    "counter": "In 1977, its peak year, the RAF killed the Attorney General and two of the country's leading businessmen.",
+    "judgementCriterion": "Were democratic institutions weakened? No, so the threat was to lives, not to democracy."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The RAF posed a serious threat to life but not to West German democracy.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Between 1970 and 1978 it killed 28 people and took 162 hostages, and in 1977 it murdered Schleyer, Buback and Ponto.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant it could spread fear, but without popular support or defined goals it could not undermine the institutions of the Republic.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Berufsverbot of 1972 showed the state could be tempted to curb civil liberties, which was the RAF's real hope.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore largely invalid: the RAF failed, as Judt argues, because democracy held to its principles.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "RAF"
+    ],
+    "synonyms": [
+     "Red Army Faction",
+     "Baader-Meinhof"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Berufsverbot",
+     "Schleyer",
+     "terrorism"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B3-WEST-GERMANY-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the causes and consequences of student protest in West Germany between 1962 and 1969.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1962,
+    1969
+   ],
+   "scope": "West Germany",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1962–1969",
+    "scope": "Student protest",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "Protest was caused mainly by the young generation's revolt against the Nazi past and Bonn's apparent hypocrisy; its main consequence was a lasting confrontation with the past, though a violent fringe turned to terror.",
+    "arguments": [
+     {
+      "claim": "Cause: the trials and the parents' silence.",
+      "evidence": [
+       "F-WGER-03",
+       "F-WGER-05"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: the Spiegel Affair and Kiesinger.",
+      "evidence": [
+       "F-WGER-06",
+       "F-WGER-07"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: Emergency Laws and fear for democracy.",
+      "evidence": [
+       "F-WGER-08"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: a violent fringe and the RAF.",
+      "evidence": [
+       "F-WGER-09"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Protest also drew on causes shared across Europe, such as overcrowded universities.",
+    "judgementCriterion": "Which consequence lasted longest? The confrontation with the Nazi past, which shaped German politics for decades."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Student protest was caused above all by a generation's revolt against the silence about the Nazi past.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Auschwitz trials of 1963–65 heard 273 witnesses, while at home parents refused to talk about 'it', and in 1966 a former Nazi became Chancellor.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the young saw the Bonn Republic itself as tainted, so they rejected everything their parents stood for.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, causes such as overcrowded universities were common across western Europe, so not all protest was about the past.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The past was therefore the distinctive cause, and its lasting consequence was a society forced to confront what had come before.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "protest"
+    ],
+    "synonyms": [
+     "students",
+     "1968"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Auschwitz trials",
+     "Spiegel Affair",
+     "Dutschke"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B3-WEST-GERMANY-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the foreign policies of Adenauer and Brandt between 1949 and 1974.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "leader"
+   ],
+   "timeframe": [
+    1949,
+    1974
+   ],
+   "scope": "West Germany",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The two Chancellors' foreign policies",
+    "timeframe": "1949–1974",
+    "scope": "West Germany",
+    "judgement": "Which differences mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both kept West Germany firmly in the Western alliance and affirmed German unity, but they differed fundamentally on the East: Adenauer refused to recognise the GDR, while Brandt accepted 'two German states' to ease the division.",
+    "arguments": [
+     {
+      "claim": "Similarity: both kept West Germany in the West.",
+      "evidence": [
+       "F-WGER-14",
+       "F-WGER-13"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both affirmed the unity of the German nation.",
+      "evidence": [
+       "F-WGER-15",
+       "F-WGER-16"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: non-recognition against acceptance of the GDR.",
+      "evidence": [
+       "F-WGER-14",
+       "F-WGER-16"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: unity before détente against détente first.",
+      "evidence": [
+       "F-WGER-15",
+       "F-WGER-17"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Brandt's policy was possible only because Adenauer had anchored West Germany so firmly in the West.",
+    "judgementCriterion": "Which difference mattered most? The attitude to the GDR, which shaped relations with the whole bloc."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Adenauer and Brandt both kept West Germany in the West, but they took opposite approaches to the East.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Adenauer refused to recognise the GDR or states that recognised it, whereas Brandt signed the Basic Treaty and spoke of 'one German nation, two German states'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Adenauer made unity a precondition of détente, while Brandt made détente the path to easing division.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Brandt's policy depended on the Western anchoring Adenauer had achieved, so the two were complementary.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore over the GDR, reflecting America's refusal after 1961 to fight for unity.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Adenauer",
+     "Brandt"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Ostpolitik",
+     "Basic Treaty",
+     "recognition"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B3-WEST-GERMANY-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the role of Kohl in the reunification of Germany between 1989 and 1990.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1989,
+    1990
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Kohl's role",
+    "timeframe": "1989–1990",
+    "scope": "Reunification",
+    "judgement": "How far Kohl, compared with others, made unification happen"
+   },
+   "modelPlan": {
+    "thesis": "Kohl's role was decisive in the speed and form of unification, because he saw that rapid union was the only way to stop the flight from the East; but it depended on Gorbachev's consent and the GDR's collapse.",
+    "arguments": [
+     {
+      "claim": "From a five-year plan to rapid union.",
+      "evidence": [
+       "F-WGER-24"
+      ]
+     },
+     {
+      "claim": "Monetary union and the March 1990 election.",
+      "evidence": [
+       "F-WGER-24"
+      ]
+     },
+     {
+      "claim": "Winning Gorbachev's consent and accepting the borders.",
+      "evidence": [
+       "F-WGER-26"
+      ]
+     },
+     {
+      "claim": "Paying the cost without raising taxes.",
+      "evidence": [
+       "F-WGER-27"
+      ]
+     }
+    ],
+    "counter": "Unification depended on the GDR's collapse and on Gorbachev, so Kohl seized rather than created the opportunity.",
+    "judgementCriterion": "Would unification have come as fast without Kohl? Probably not, so his role was decisive for its timing and form."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Kohl's decisive role was to turn the GDR's collapse into rapid unification.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "His cautious five-year plan of 28 November 1989 gave way to monetary union on 1 July 1990 as 2,000 people a day came west.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that he used the Deutschmark to keep East Germans at home, so unity became the answer to a refugee crisis.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, unification needed Gorbachev's consent, bought for about $8 billion, and the acquiescence of uneasy allies in London and Paris.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Kohl's role was therefore decisive for how and when unification happened, though not for whether it was possible.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Kohl"
+    ],
+    "synonyms": [
+     "Chancellor",
+     "unification"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "monetary union",
+     "Gorbachev",
+     "Alliance for Germany"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-17-B3-WEST-GERMANY-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the treatment of guest workers in West Germany between 1973 and 1983.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1973,
+    1983
+   ],
+   "scope": "West Germany",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The treatment of guest workers",
+    "timeframe": "1973–1983",
+    "scope": "West Germany",
+    "judgement": "What their treatment reveals about West German society"
+   },
+   "modelPlan": {
+    "thesis": "Guest workers were treated as temporary labour: essential to prosperity but denied permanent rights, laid off first in recession and encouraged to leave, which shows West Germany's refusal to see itself as a country of immigration.",
+    "arguments": [
+     {
+      "claim": "Numbers and conditions by 1973.",
+      "evidence": [
+       "F-WGER-20"
+      ]
+     },
+     {
+      "claim": "First to lose jobs in 1974–75.",
+      "evidence": [
+       "F-WGER-21"
+      ]
+     },
+     {
+      "claim": "Recruitment stopped; 'not an immigrant country'.",
+      "evidence": [
+       "F-WGER-21"
+      ]
+     },
+     {
+      "claim": "Encouraged to return (1983).",
+      "evidence": [
+       "F-WGER-21"
+      ]
+     }
+    ],
+    "counter": "Their pay was worth many times what they could earn in their villages of origin.",
+    "judgementCriterion": "What does their treatment reveal? That prosperity was shared with workers but not citizenship."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "West Germany treated guest workers as temporary labour rather than as future citizens.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "By 1973 there were 605,000 Turkish and 535,000 Yugoslav workers, yet in 1974–75 four out of five BMW workers laid off were not German citizens, and a 1977 report declared 'Germany is not an immigrant country'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that foreign workers absorbed the shock of recession, so official unemployment stayed low while their position stayed insecure.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, their pay was worth many times what they could earn in their villages of origin, which is why they came.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Their treatment therefore reveals a society that welcomed foreign labour but not foreign citizens.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "guest workers"
+    ],
+    "synonyms": [
+     "Gastarbeiter",
+     "foreign workers"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "immigrant country",
+     "recession",
+     "Turkish workers"
+    ]
+   }
+  }
+ ]
+}
