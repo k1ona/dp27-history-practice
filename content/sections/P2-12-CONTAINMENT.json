@@ -1,0 +1,2828 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-CONTAINMENT",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In 1947 Kennan proposed a 'patient' policy of containment. By 1965 the US was bombing North Vietnam. How did a policy of patience become a policy of war, and what did the Soviet idea of 'peaceful co-existence' change?",
+   "predictionPrompt": "Your prediction in one line: did containment change in its aims or only in its methods?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "Containment defined and militarised, 1947–1953",
+    "body": "**Containment** was the basic American strategy of the Cold War. Its author, the diplomat George Kennan, wrote in his anonymous \"X-Article\" of 1947 that US policy must be \"a long-term, patient but firm and vigilant containment of Russian expansive tendencies\". Soviet pressure was to be met by \"counter-force at a series of constantly shifting geographical and political points\". Kennan predicted that, held in check, Soviet power would eventually either break up or \"mellow\".\n\nWhat did containment mean in practice? From the start it was disputed. The columnist Walter Lippmann attacked Kennan for failing to separate vital interests from peripheral ones, as if the US must resist everywhere. In fact Kennan wanted above all to protect the world's great industrial centres (Western Europe, Japan and the US) and saw the Soviet threat as mainly political, to be met with economic aid such as the Marshall Plan and with propaganda and covert action. His successor at the State Department, Paul Nitze, saw the threat in military terms.\n\nNitze won. In April 1950, shaken by the Communist victory in China and the first Soviet atomic test, his team completed **NSC-68**. It described a Soviet Union \"animated by a new fanatic faith\" and called for a massive build-up of conventional and nuclear arms. It also widened containment to the whole globe: \"a defeat of free institutions anywhere is a defeat everywhere.\" Kennan and others objected that the US already had a large military lead, but the North Korean invasion of South Korea in June 1950 settled the argument. Between 1950 and 1953 US defence spending almost tripled as a share of national output, from 5 to 14.2 per cent.\n\nUnder Eisenhower, containment rested heavily on nuclear threat. NATO's doctrine of \"massive retaliation\" promised a large-scale American nuclear response to an attack on any member. John Foster Dulles had called in 1952 for the \"rollback\" of Soviet power and the \"liberation\" of Eastern Europe, but no administration acted on it.\n\nThis mattered because containment changed from a mainly political and economic strategy into a global military one, which meant that after 1950 any Communist advance anywhere could be treated as a threat to the United States.",
+    "argumentsThatWork": [
+     {
+      "claim": "Kennan's containment was limited and mainly political.",
+      "evidence": [
+       "F-CONT-01",
+       "F-CONT-02"
+      ],
+      "strongestCounter": "Lippmann thought the X-Article implied resisting everywhere."
+     },
+     {
+      "claim": "NSC-68 militarised and globalised containment.",
+      "evidence": [
+       "F-CONT-03",
+       "F-CONT-04"
+      ],
+      "strongestCounter": "It only became policy because of the Korean War."
+     },
+     {
+      "claim": "Containment remained the core strategy throughout.",
+      "evidence": [
+       "F-CONT-05",
+       "F-CONT-06"
+      ],
+      "strongestCounter": "Dulles's 'rollback' showed pressure for a more aggressive line."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was NSC-68 a turning point in the policy of containment between 1947 and 1953?",
+     "Compare and contrast containment in Europe and in Asia between 1947 and 1975."
+    ],
+    "useItInAnEssay": {
+     "claim": "NSC-68 was a turning point because it turned containment from a selective, mainly economic strategy into a global military one.",
+     "prove": "Kennan had favoured economic aid to protect key industrial centres, but NSC-68 called for a massive arms build-up and declared that 'a defeat of free institutions anywhere is a defeat everywhere'.",
+     "explain": "This meant that the US now treated every Communist advance as a threat, so defence spending almost tripled as a share of GDP between 1950 and 1953.",
+     "test": "However, NSC-68 became policy only because North Korea invaded the South in June 1950, so events rather than the document made the change.",
+     "judge": "NSC-68 was therefore the blueprint of the turning point, and Korea its trigger."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CONTAINMENT-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How did Kennan see the Soviet threat, according to the Office of the Historian?",
+      "factIds": [
+       "F-CONT-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Mainly political, to be met by economic aid and psychological warfare",
+        "correct": true,
+        "explanation": "Correct: unlike Nitze, who saw it in military terms."
+       },
+       {
+        "id": "b",
+        "text": "Mainly military, to be met by nuclear attack",
+        "correct": false,
+        "explanation": "That was closer to Nitze's view."
+       },
+       {
+        "id": "c",
+        "text": "As no threat at all",
+        "correct": false,
+        "explanation": "He called for firm containment."
+       },
+       {
+        "id": "d",
+        "text": "As a threat only to China",
+        "correct": false,
+        "explanation": "He focused on Western Europe and Japan."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CONTAINMENT-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What share of GDP did US defence spending reach in 1953, up from 5 per cent in 1950? (per cent, one decimal place)",
+      "factIds": [
+       "F-CONT-04"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 14.2,
+        "tolerance": 0,
+        "explanation": "14.2 per cent: almost triple."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CONTAINMENT-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “NSC-68 declared that 'a defeat of free institutions anywhere is a defeat everywhere'.” Which argument does it support best?",
+      "factIds": [
+       "F-CONT-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Containment became global after 1950",
+        "correct": true,
+        "explanation": "Correct: no longer limited to key industrial centres."
+       },
+       {
+        "id": "b",
+        "text": "The US withdrew into isolationism",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Kennan's view prevailed",
+        "correct": false,
+        "explanation": "Nitze's view prevailed."
+       },
+       {
+        "id": "d",
+        "text": "Containment was abandoned in 1950",
+        "correct": false,
+        "explanation": "It was expanded."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "Peaceful co-existence and its limits, 1953–1960",
+    "body": "Stalin's death in 1953 opened the door to change. His successor as Premier, Georgi Malenkov, made the first overtures to the West, a \"peace offensive\". By 1955 **Nikita Khrushchev** had emerged as sole leader. In his \"secret speech\" to the Twentieth Party Congress in February 1956 he denounced Stalin's crimes and, in foreign policy, abandoned Stalin's assumption that war with the capitalist West was inevitable. In its place he advocated **peaceful co-existence**: competition between the systems without war.\n\nPeaceful co-existence had clear limits. The Soviet bloc was formalised as a military alliance: the **Warsaw Pact** was founded on 14 May 1955, days after West Germany joined NATO, and the USSR used it to keep its satellites in line. When Khrushchev's speech encouraged demands for reform in Eastern Europe, Soviet forces crushed the Hungarian uprising of 1956, at the cost of thousands of casualties. The Eisenhower administration watched but did not intervene; \"rollback\" proved to be a slogan.\n\nThe arms race continued too. At Geneva in 1955 Eisenhower proposed \"open skies\" mutual aerial inspection; Khrushchev refused. On 4 October 1957 the USSR launched **Sputnik**, the first artificial satellite, and in the same year tested the first intercontinental ballistic missile. Americans feared they had fallen behind, the arms and space races accelerated, and Kennedy later campaigned on a supposed \"missile gap\".\n\nYet there were early signs of détente in the late 1950s, and a summit was planned in Paris for May 1960. On 1 May an American U-2 spy plane piloted by Francis Gary Powers was shot down over the Soviet Union. Eisenhower refused to apologise and admitted the programme; the Soviet delegation left Paris as the summit was about to begin. Khrushchev, publicly committed to peaceful co-existence, gave up on Eisenhower and waited for his successor.\n\nThis mattered because peaceful co-existence changed the language of Soviet policy without ending the rivalry, which meant that relaxation and confrontation alternated: Geneva and détente on the one hand, Hungary, Sputnik and the U-2 on the other.",
+    "argumentsThatWork": [
+     {
+      "claim": "Khrushchev's peaceful co-existence was a real change from Stalin's view of inevitable war.",
+      "evidence": [
+       "F-CONT-07",
+       "F-CONT-09"
+      ],
+      "strongestCounter": "It did not stop Soviet repression in Hungary."
+     },
+     {
+      "claim": "Soviet control of Eastern Europe remained non-negotiable.",
+      "evidence": [
+       "F-CONT-08",
+       "F-CONT-10"
+      ],
+      "strongestCounter": "The West, too, accepted it by not intervening."
+     },
+     {
+      "claim": "The arms race and espionage limited co-existence.",
+      "evidence": [
+       "F-CONT-11",
+       "F-CONT-12",
+       "F-CONT-13"
+      ],
+      "strongestCounter": "Both sides still sought summits and arms control."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that peaceful co-existence was a propaganda slogan rather than a real change in Soviet policy with reference to the period 1956 to 1962.",
+     "Examine the causes and consequences of the arms race between 1949 and 1963."
+    ],
+    "useItInAnEssay": {
+     "claim": "Peaceful co-existence was a real change in Soviet doctrine, but it did not change Soviet behaviour in its own sphere.",
+     "prove": "In February 1956 Khrushchev abandoned Stalin's belief that war with the West was inevitable, yet later that year Soviet forces crushed the Hungarian uprising.",
+     "explain": "This meant that co-existence applied to relations with the West but not to the satellites, so the USSR could seek détente while holding its bloc by force.",
+     "test": "However, Khrushchev's pursuit of a summit in 1960 shows the change was more than propaganda, since the U-2 incident, not Soviet policy, wrecked it.",
+     "judge": "Peaceful co-existence was therefore a genuine but limited change."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CONTAINMENT-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Khrushchev reverse in his speech of February 1956?",
+      "factIds": [
+       "F-CONT-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Stalin's assumption that war with the capitalist West was inevitable",
+        "correct": true,
+        "explanation": "Correct: replaced by peaceful co-existence."
+       },
+       {
+        "id": "b",
+        "text": "Soviet membership of the Warsaw Pact",
+        "correct": false,
+        "explanation": "The Pact had just been founded."
+       },
+       {
+        "id": "c",
+        "text": "The Communist Party's rule",
+        "correct": false,
+        "explanation": "He sought to revitalise the Party."
+       },
+       {
+        "id": "d",
+        "text": "Soviet control of Hungary",
+        "correct": false,
+        "explanation": "Soviet forces crushed Hungary later that year."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CONTAINMENT-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What wrecked the Paris summit of May 1960?",
+      "factIds": [
+       "F-CONT-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The shooting down of an American U-2 spy plane over the USSR",
+        "correct": true,
+        "explanation": "Correct: Eisenhower refused to apologise."
+       },
+       {
+        "id": "b",
+        "text": "The Cuban Missile Crisis",
+        "correct": false,
+        "explanation": "That came in 1962."
+       },
+       {
+        "id": "c",
+        "text": "The launch of Sputnik",
+        "correct": false,
+        "explanation": "That was in 1957."
+       },
+       {
+        "id": "d",
+        "text": "The Hungarian uprising",
+        "correct": false,
+        "explanation": "That was in 1956."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CONTAINMENT-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Warsaw Pact was used to contain dissent in Hungary (1956), Czechoslovakia (1968) and Poland (1981).” Which argument does it support best?",
+      "factIds": [
+       "F-CONT-10"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Peaceful co-existence did not extend to the Soviet satellites",
+        "correct": true,
+        "explanation": "Correct: the bloc was held by force."
+       },
+       {
+        "id": "b",
+        "text": "The Warsaw Pact was a purely defensive alliance against NATO",
+        "correct": false,
+        "explanation": "It was also used against members."
+       },
+       {
+        "id": "c",
+        "text": "Eastern Europe was free to leave",
+        "correct": false,
+        "explanation": "The fact shows the opposite."
+       },
+       {
+        "id": "d",
+        "text": "The US controlled the Warsaw Pact",
+        "correct": false,
+        "explanation": "The USSR controlled it."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Containment in Asia and the Middle East, 1950–1968",
+    "body": "After 1950 containment became global. In Asia it meant drawing lines around Communist China. When the Korean War began in June 1950, the US sent its Seventh Fleet into the Taiwan Strait, protecting Chiang Kai-shek's government on Taiwan. In 1954 the US led the creation of the **Southeast Asia Treaty Organization** (SEATO). When the People's Republic bombarded the offshore islands of Jinmen and Mazu from September 1954, Washington signed a Mutual Defense Treaty with Taiwan, and in January 1955 Congress gave Eisenhower authority to defend Taiwan and the islands. The administration considered options up to nuclear weapons before Beijing offered talks. When the shelling resumed in 1958, the US re-supplied the island garrisons and the bombardment ended.\n\nIn the Middle East, the **Eisenhower Doctrine** of 1957 promised American aid, including troops, to any country threatened by \"any nation controlled by international communism\". Eisenhower feared that the decline of British and French prestige after the Suez Crisis had left a vacuum the Soviets might fill. In 1958 US troops landed in Lebanon.\n\nThe heaviest commitment was in **Vietnam**. In May 1954 the French garrison at Dien Bien Phu fell to Ho Chi Minh's forces after a four-month siege, and France withdrew from Indochina. The Geneva Conference divided Vietnam and called for elections to reunite it. The Communists seemed likely to win, so the US, citing SEATO, backed the South Vietnamese leader Ngo Dinh Diem when he refused to hold them. American officials also valued Southeast Asia as a market and source of raw materials for Japan. By 1959 a Communist insurgency had begun in the South. After reported attacks on US destroyers in August 1964 (doubts later arose about the second), Congress passed the Gulf of Tonkin Resolution, with only two senators voting against. In February 1965 the bombing campaign Operation Rolling Thunder began, and American ground troops followed.\n\nThis mattered because global containment drew the US into conflicts where the enemy was as much local nationalism as Soviet expansion, which meant that by the mid-1960s the strategy Kennan had designed for Europe was being tested in the jungles of Vietnam.",
+    "argumentsThatWork": [
+     {
+      "claim": "Containment in Asia meant defending Taiwan and building alliances.",
+      "evidence": [
+       "F-CONT-14",
+       "F-CONT-15"
+      ],
+      "strongestCounter": "The US was careful not to commit itself to defending every island."
+     },
+     {
+      "claim": "The Eisenhower Doctrine extended containment to the Middle East.",
+      "evidence": [
+       "F-CONT-16"
+      ],
+      "strongestCounter": "The Lebanon intervention dealt with a local rivalry, not Soviet aggression."
+     },
+     {
+      "claim": "Vietnam showed containment colliding with nationalism.",
+      "evidence": [
+       "F-CONT-17",
+       "F-CONT-18",
+       "F-CONT-19"
+      ],
+      "strongestCounter": "The US saw Vietnam as part of a global Communist threat."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the success of containment in Asia between 1950 and 1975.",
+     "Compare and contrast containment in Europe and in Asia between 1947 and 1975."
+    ],
+    "useItInAnEssay": {
+     "claim": "Containment in Asia succeeded in protecting Taiwan but failed in Vietnam, because it misread nationalism as Soviet expansion.",
+     "prove": "The US defended Jinmen and Mazu in 1954–55 and 1958, but in Vietnam it backed Diem's refusal to hold elections the Communists seemed likely to win.",
+     "explain": "This meant that the US tied itself to an unpopular government, so the insurgency that began in 1959 drew it into a war it could not win.",
+     "test": "However, from Washington's point of view each step followed the logic of NSC-68, under which a defeat anywhere was a defeat everywhere.",
+     "judge": "Containment in Asia therefore worked where the US defended a stable ally and failed where it tried to create one."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CONTAINMENT-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the US do when the PRC bombarded Jinmen and Mazu in 1954–55?",
+      "factIds": [
+       "F-CONT-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It signed a Mutual Defense Treaty with Taiwan and Congress passed the Formosa Resolution",
+        "correct": true,
+        "explanation": "Correct: giving Eisenhower authority to defend Taiwan."
+       },
+       {
+        "id": "b",
+        "text": "It recognised the PRC",
+        "correct": false,
+        "explanation": "Not until 1979."
+       },
+       {
+        "id": "c",
+        "text": "It withdrew from Asia",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "It invaded mainland China",
+        "correct": false,
+        "explanation": "It did not."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CONTAINMENT-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did the US support Diem's refusal to hold the elections planned at Geneva?",
+      "factIds": [
+       "F-CONT-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Communists seemed likely to win them",
+        "correct": true,
+        "explanation": "Correct: the US was committed to containment."
+       },
+       {
+        "id": "b",
+        "text": "The French asked the US to cancel them",
+        "correct": false,
+        "explanation": "France had withdrawn."
+       },
+       {
+        "id": "c",
+        "text": "The USSR refused to take part",
+        "correct": false,
+        "explanation": "Not the reason given."
+       },
+       {
+        "id": "d",
+        "text": "Diem was a Communist",
+        "correct": false,
+        "explanation": "Diem was anti-Communist."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CONTAINMENT-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Eisenhower Doctrine offered aid against 'any nation controlled by international communism'.” Which argument does it support best?",
+      "factIds": [
+       "F-CONT-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Containment was extended beyond Europe and East Asia to the Middle East",
+        "correct": true,
+        "explanation": "Correct: after the Suez Crisis."
+       },
+       {
+        "id": "b",
+        "text": "The US withdrew from the Middle East",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Eisenhower ended containment",
+        "correct": false,
+        "explanation": "He extended it."
+       },
+       {
+        "id": "d",
+        "text": "The doctrine was aimed at Britain and France",
+        "correct": false,
+        "explanation": "It was aimed at Communism."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Limits and adjustments, 1962–1979",
+    "body": "By the 1960s the costs of confrontation were clear. The rapid escalation of the Cuban Missile Crisis in October 1962 pushed both superpowers to seek an agreement that could help them avoid nuclear destruction. The **Limited Test Ban Treaty** of 1963, signed by the US, the USSR and Britain, banned nuclear tests in the atmosphere, in space and underwater. It did little to stop the spread of nuclear weapons, but it set a precedent for the Non-Proliferation Treaty of 1968 and SALT I in 1972. By the mid-1960s the two sides had reached approximate nuclear parity, and security rested on \"mutually assured destruction\": neither could strike first without being destroyed in return. Threatening nuclear war to win diplomatic advantage lost its credibility.\n\nVietnam exposed the limits of containment by force. When Richard Nixon took office in January 1969 he set out to end American involvement \"honorably\". He began withdrawing troops and building up South Vietnam's army (\"Vietnamization\"), while negotiating in secret and using heavy bombing to pressure Hanoi. He also sought to reshape the war's international setting by improving relations with Moscow and Beijing, giving them \"bigger fish to fry\" than support for North Vietnam. A peace agreement was signed on 27 January 1973 and American troops came home. But the war went on, and on 30 April 1975 North Vietnamese tanks rolled into the Presidential Palace in Saigon.\n\nDid containment fail? In Vietnam, plainly. Yet the Office of the Historian concludes that every administration after Truman's, until the collapse of communism in 1989, adopted \"a variation of Kennan's containment policy\". The US never withdrew into isolation, but it never tried to roll back Soviet power either. What changed was the method: from the massive retaliation of the 1950s, through the war in Vietnam, to the arms control and détente of the 1970s.\n\nThis mattered because the failure in Vietnam pushed the US towards negotiation with its rivals, which meant that containment survived as a goal while détente became its new method.",
+    "argumentsThatWork": [
+     {
+      "claim": "Arms control reflected the dangers of nuclear parity.",
+      "evidence": [
+       "F-CONT-21",
+       "F-CONT-22"
+      ],
+      "strongestCounter": "The Test Ban Treaty had little practical effect on proliferation."
+     },
+     {
+      "claim": "Vietnam exposed the limits of military containment.",
+      "evidence": [
+       "F-CONT-20"
+      ],
+      "strongestCounter": "Nixon's diplomacy with Moscow and Beijing kept containment's aims."
+     },
+     {
+      "claim": "Containment survived as a goal while its methods changed.",
+      "evidence": [
+       "F-CONT-05"
+      ],
+      "strongestCounter": "Critics argued that détente was a retreat from containment."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the impact of the Vietnam War on United States containment policy between 1964 and 1975.",
+     "Evaluate the success of containment in Asia between 1950 and 1975."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Vietnam War forced the US to change the methods of containment, though not its goal.",
+     "prove": "From 1969 Nixon withdrew troops through Vietnamization and sought better relations with Moscow and Beijing, and the peace agreement was signed on 27 January 1973.",
+     "explain": "This meant that containment by direct military intervention gave way to containment by diplomacy, so negotiation with the Communist powers became part of US strategy.",
+     "test": "However, the fall of Saigon on 30 April 1975 showed that the war itself had been lost.",
+     "judge": "Vietnam therefore ended containment by ground war but not containment itself."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CONTAINMENT-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Limited Test Ban Treaty of 1963 ban?",
+      "factIds": [
+       "F-CONT-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Nuclear tests in the atmosphere, in space and underwater",
+        "correct": true,
+        "explanation": "Correct: underground tests were not included."
+       },
+       {
+        "id": "b",
+        "text": "All nuclear weapons",
+        "correct": false,
+        "explanation": "It banned only certain tests."
+       },
+       {
+        "id": "c",
+        "text": "Underground tests only",
+        "correct": false,
+        "explanation": "Underground tests were left out."
+       },
+       {
+        "id": "d",
+        "text": "Intercontinental missiles",
+        "correct": false,
+        "explanation": "Not covered."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CONTAINMENT-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was 'Vietnamization'?",
+      "factIds": [
+       "F-CONT-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Withdrawing US troops while building up South Vietnam's own forces",
+        "correct": true,
+        "explanation": "Correct: Nixon's policy from 1969."
+       },
+       {
+        "id": "b",
+        "text": "Sending more US ground troops",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Uniting Vietnam under the North",
+        "correct": false,
+        "explanation": "That came in 1975 by conquest."
+       },
+       {
+        "id": "d",
+        "text": "Bombing China",
+        "correct": false,
+        "explanation": "Not part of the policy."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CONTAINMENT-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “By the mid-1960s the superpowers had reached nuclear parity and security rested on mutually assured destruction.” Which argument does it support best?",
+      "factIds": [
+       "F-CONT-22"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Nuclear threats lost their usefulness, which encouraged arms control",
+        "correct": true,
+        "explanation": "Correct: atomic diplomacy lost credibility."
+       },
+       {
+        "id": "b",
+        "text": "The US had a large nuclear lead in 1965",
+        "correct": false,
+        "explanation": "The fact says parity."
+       },
+       {
+        "id": "c",
+        "text": "Nuclear war became more likely",
+        "correct": false,
+        "explanation": "MAD made first strikes suicidal."
+       },
+       {
+        "id": "d",
+        "text": "Arms control was impossible",
+        "correct": false,
+        "explanation": "Treaties followed in 1963, 1968 and 1972."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1947,
+      "text": "Kennan's 'X-Article'",
+      "factId": "F-CONT-01"
+     },
+     {
+      "year": 1950,
+      "month": 4,
+      "day": 7,
+      "text": "NSC-68 completed",
+      "factId": "F-CONT-03"
+     },
+     {
+      "year": 1954,
+      "month": 5,
+      "day": 7,
+      "text": "Dien Bien Phu falls",
+      "factId": "F-CONT-17"
+     },
+     {
+      "year": 1955,
+      "month": 5,
+      "day": 14,
+      "text": "Warsaw Pact founded",
+      "factId": "F-CONT-10"
+     },
+     {
+      "year": 1956,
+      "month": 2,
+      "text": "Khrushchev's secret speech",
+      "factId": "F-CONT-07"
+     },
+     {
+      "year": 1957,
+      "month": 10,
+      "day": 4,
+      "text": "Sputnik launched",
+      "factId": "F-CONT-12"
+     },
+     {
+      "year": 1958,
+      "text": "Second Taiwan Strait crisis; US troops in Lebanon",
+      "factId": "F-CONT-15"
+     },
+     {
+      "year": 1960,
+      "month": 5,
+      "day": 1,
+      "text": "U-2 shot down",
+      "factId": "F-CONT-13"
+     },
+     {
+      "year": 1963,
+      "text": "Limited Test Ban Treaty",
+      "factId": "F-CONT-21"
+     },
+     {
+      "year": 1964,
+      "month": 8,
+      "day": 7,
+      "text": "Gulf of Tonkin Resolution",
+      "factId": "F-CONT-19"
+     },
+     {
+      "year": 1973,
+      "month": 1,
+      "day": 27,
+      "text": "Vietnam peace agreement signed",
+      "factId": "F-CONT-20"
+     },
+     {
+      "year": 1975,
+      "month": 4,
+      "day": 30,
+      "text": "Fall of Saigon",
+      "factId": "F-CONT-20"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Kennan's political containment",
+      "factId": "F-CONT-01"
+     },
+     {
+      "id": "n2",
+      "text": "China, the Soviet bomb and Korea: NSC-68 militarises containment",
+      "factId": "F-CONT-04"
+     },
+     {
+      "id": "n3",
+      "text": "Khrushchev offers peaceful co-existence but holds the bloc by force",
+      "factId": "F-CONT-08"
+     },
+     {
+      "id": "n4",
+      "text": "Arms race: Sputnik and the U-2",
+      "factId": "F-CONT-13"
+     },
+     {
+      "id": "n5",
+      "text": "Global containment leads to war in Vietnam",
+      "factId": "F-CONT-19"
+     },
+     {
+      "id": "n6",
+      "text": "Parity and defeat push the US towards arms control",
+      "factId": "F-CONT-21"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Events in 1949–50 convinced Washington the threat was military"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "After Stalin's death Moscow sought to lower the risk of war"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Co-existence did not stop the competition in arms"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Fear of falling behind fed a global commitment"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "The costs of confrontation became clear"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "George Kennan",
+     "role": "US diplomat",
+     "whyItMatters": "Formulated containment; opposed its militarisation.",
+     "factIds": [
+      "F-CONT-01",
+      "F-CONT-02"
+     ]
+    },
+    {
+     "name": "Paul Nitze",
+     "role": "Director of Policy Planning",
+     "whyItMatters": "Led the drafting of NSC-68.",
+     "factIds": [
+      "F-CONT-03"
+     ]
+    },
+    {
+     "name": "Nikita Khrushchev",
+     "role": "Soviet leader from 1955",
+     "whyItMatters": "Proclaimed peaceful co-existence; crushed Hungary.",
+     "factIds": [
+      "F-CONT-07",
+      "F-CONT-08"
+     ]
+    },
+    {
+     "name": "Dwight D. Eisenhower",
+     "role": "US President, 1953–1961",
+     "whyItMatters": "Massive retaliation, the Eisenhower Doctrine, the U-2.",
+     "factIds": [
+      "F-CONT-06",
+      "F-CONT-16",
+      "F-CONT-13"
+     ]
+    },
+    {
+     "name": "Lyndon B. Johnson",
+     "role": "US President, 1963–1969",
+     "whyItMatters": "Escalated in Vietnam after the Gulf of Tonkin Resolution.",
+     "factIds": [
+      "F-CONT-19"
+     ]
+    },
+    {
+     "name": "Richard Nixon",
+     "role": "US President, 1969–1974",
+     "whyItMatters": "Vietnamization and diplomacy with Moscow and Beijing.",
+     "factIds": [
+      "F-CONT-20"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Containment in Europe",
+     "Containment in Asia"
+    ],
+    "rows": [
+     {
+      "criterion": "Main alliance",
+      "cells": [
+       "NATO and massive retaliation",
+       "SEATO and the Mutual Defense Treaty with Taiwan"
+      ],
+      "factIds": [
+       "F-CONT-06",
+       "F-CONT-14"
+      ]
+     },
+     {
+      "criterion": "Nature of the opponent",
+      "cells": [
+       "The Warsaw Pact under Soviet control",
+       "Communist nationalism (Ho Chi Minh) and the PRC"
+      ],
+      "factIds": [
+       "F-CONT-10",
+       "F-CONT-17"
+      ]
+     },
+     {
+      "criterion": "US response to a crisis",
+      "cells": [
+       "Watched but did not interfere in Hungary (1956)",
+       "Escalated in Vietnam after the Gulf of Tonkin (1964)"
+      ],
+      "factIds": [
+       "F-CONT-08",
+       "F-CONT-19"
+      ]
+     },
+     {
+      "criterion": "Outcome by 1975",
+      "cells": [
+       "The Pact still used against dissent in its members",
+       "Taiwan protected; South Vietnam fell"
+      ],
+      "factIds": [
+       "F-CONT-10",
+       "F-CONT-15",
+       "F-CONT-20"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-CONT-01",
+    "year": 1947,
+    "text": "Kennan (1947): 'long-term, patient but firm and vigilant containment of Russian expansive tendencies'.",
+    "supports": [
+     "Containment began as a patient, limited strategy"
+    ],
+    "alsoWorksFor": [
+     "P2-12-GRAND-ALLIANCE"
+    ],
+    "lexicon": [
+     "containment",
+     "X-Article"
+    ]
+   },
+   {
+    "factId": "F-CONT-04",
+    "year": 1953,
+    "text": "US defence spending rose from 5 to 14.2 per cent of GDP, 1950–53.",
+    "supports": [
+     "NSC-68 militarised containment"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-KOREA"
+    ],
+    "lexicon": [
+     "NSC-68",
+     "militarisation"
+    ]
+   },
+   {
+    "factId": "F-CONT-07",
+    "year": 1956,
+    "text": "February 1956: Khrushchev rejected the inevitability of war with the West: 'peaceful coexistence'.",
+    "supports": [
+     "Soviet doctrine changed after Stalin"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B2-PROTEST-TO-1968"
+    ],
+    "lexicon": [
+     "peaceful co-existence",
+     "secret speech"
+    ]
+   },
+   {
+    "factId": "F-CONT-10",
+    "year": 1955,
+    "text": "Warsaw Pact (14 May 1955), used against Hungary (1956), Czechoslovakia (1968) and Poland (1981).",
+    "supports": [
+     "Co-existence did not extend to the satellites"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B1-SOVIET-CONTROL"
+    ],
+    "lexicon": [
+     "Warsaw Pact"
+    ]
+   },
+   {
+    "factId": "F-CONT-12",
+    "year": 1957,
+    "text": "Sputnik (4 October 1957) and the first Soviet ICBM fed fears of a 'missile gap'.",
+    "supports": [
+     "The arms race limited co-existence"
+    ],
+    "lexicon": [
+     "Sputnik",
+     "missile gap"
+    ]
+   },
+   {
+    "factId": "F-CONT-13",
+    "year": 1960,
+    "text": "U-2 shot down on 1 May 1960; the Paris summit collapsed.",
+    "supports": [
+     "Espionage wrecked early détente"
+    ],
+    "lexicon": [
+     "U-2",
+     "Paris summit"
+    ]
+   },
+   {
+    "factId": "F-CONT-19",
+    "year": 1964,
+    "text": "Gulf of Tonkin Resolution (7 August 1964); Rolling Thunder from 13 February 1965.",
+    "supports": [
+     "Global containment led to war in Vietnam"
+    ],
+    "lexicon": [
+     "Vietnam",
+     "Gulf of Tonkin"
+    ]
+   },
+   {
+    "factId": "F-CONT-20",
+    "year": 1975,
+    "text": "Vietnam: peace agreement on 27 January 1973; Saigon fell on 30 April 1975.",
+    "supports": [
+     "Military containment failed in Vietnam"
+    ],
+    "alsoWorksFor": [
+     "P2-12-DETENTE"
+    ],
+    "lexicon": [
+     "Vietnamization",
+     "Nixon"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Walter Lippmann",
+    "argument": "Lippmann attacked Kennan's X-Article for failing to differentiate between vital and peripheral interests, implying that the US must confront Soviet influence everywhere (as summarised by the Office of the Historian).",
+    "useItLikeThis": "Lippmann's critique supports the claim that containment was open-ended from the start, which suggests NSC-68 and Vietnam followed from its logic.",
+    "factId": "F-CONT-02"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Containment always meant military force.",
+    "right": "Kennan saw the threat as **mainly political** and favoured economic aid; NSC-68 militarised it in 1950."
+   },
+   {
+    "wrong": "Peaceful co-existence meant the end of the Cold War.",
+    "right": "It meant **competition without war**; Hungary, Sputnik and the U-2 followed."
+   },
+   {
+    "wrong": "The US tried to roll back Soviet power in Eastern Europe.",
+    "right": "It **watched but did not interfere** in Hungary in 1956."
+   },
+   {
+    "wrong": "The Vietnam War ended with the 1973 peace agreement.",
+    "right": "The war continued until Saigon fell on **30 April 1975**."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1947,
+     "text": "X-Article"
+    },
+    {
+     "year": 1950,
+     "month": 4,
+     "day": 7,
+     "text": "NSC-68"
+    },
+    {
+     "year": 1955,
+     "month": 5,
+     "day": 14,
+     "text": "Warsaw Pact"
+    },
+    {
+     "year": 1956,
+     "month": 2,
+     "text": "Peaceful co-existence"
+    },
+    {
+     "year": 1957,
+     "month": 10,
+     "day": 4,
+     "text": "Sputnik"
+    },
+    {
+     "year": 1960,
+     "month": 5,
+     "day": 1,
+     "text": "U-2"
+    },
+    {
+     "year": 1964,
+     "month": 8,
+     "day": 7,
+     "text": "Gulf of Tonkin"
+    },
+    {
+     "year": 1975,
+     "month": 4,
+     "day": 30,
+     "text": "Fall of Saigon"
+    }
+   ],
+   "keyArguments": [
+    "Kennan's containment was patient and mainly political.",
+    "NSC-68 and Korea militarised and globalised it.",
+    "Peaceful co-existence changed Soviet doctrine, not control of the bloc.",
+    "Global containment led to Vietnam, where it met nationalism.",
+    "Parity and defeat in Vietnam turned containment towards arms control and détente."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-CONTAINMENT-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Kennan's X-Article",
+     "year": 1947,
+     "factId": "F-CONT-01"
+    },
+    {
+     "id": "b",
+     "text": "NSC-68 completed",
+     "year": 1950,
+     "month": 4,
+     "factId": "F-CONT-03"
+    },
+    {
+     "id": "c",
+     "text": "Warsaw Pact founded",
+     "year": 1955,
+     "month": 5,
+     "factId": "F-CONT-10"
+    },
+    {
+     "id": "d",
+     "text": "Khrushchev's secret speech",
+     "year": 1956,
+     "month": 2,
+     "factId": "F-CONT-07"
+    },
+    {
+     "id": "e",
+     "text": "Sputnik launched",
+     "year": 1957,
+     "month": 10,
+     "factId": "F-CONT-12"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in Asia in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Seventh Fleet sent into the Taiwan Strait",
+     "year": 1950,
+     "month": 6,
+     "factId": "F-CONT-14"
+    },
+    {
+     "id": "b",
+     "text": "Dien Bien Phu falls",
+     "year": 1954,
+     "month": 5,
+     "factId": "F-CONT-17"
+    },
+    {
+     "id": "c",
+     "text": "Gulf of Tonkin Resolution",
+     "year": 1964,
+     "month": 8,
+     "factId": "F-CONT-19"
+    },
+    {
+     "id": "d",
+     "text": "Vietnam peace agreement signed",
+     "year": 1973,
+     "month": 1,
+     "factId": "F-CONT-20"
+    },
+    {
+     "id": "e",
+     "text": "Fall of Saigon",
+     "year": 1975,
+     "month": 4,
+     "factId": "F-CONT-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Eisenhower Doctrine announced",
+     "year": 1957,
+     "month": 1,
+     "factId": "F-CONT-16"
+    },
+    {
+     "id": "b",
+     "text": "U-2 shot down",
+     "year": 1960,
+     "month": 5,
+     "factId": "F-CONT-13"
+    },
+    {
+     "id": "c",
+     "text": "Rolling Thunder begins",
+     "year": 1965,
+     "month": 2,
+     "factId": "F-CONT-19"
+    },
+    {
+     "id": "d",
+     "text": "Nixon takes office",
+     "year": 1969,
+     "month": 1,
+     "factId": "F-CONT-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Paul Nitze",
+     "right": "Led the drafting of NSC-68",
+     "explanation": "1950."
+    },
+    {
+     "left": "John Foster Dulles",
+     "right": "Called for 'rollback' and 'liberation' in 1952",
+     "explanation": "Secretary of State under Eisenhower."
+    },
+    {
+     "left": "Francis Gary Powers",
+     "right": "U-2 pilot shot down over the USSR",
+     "explanation": "1 May 1960."
+    },
+    {
+     "left": "Ngo Dinh Diem",
+     "right": "South Vietnamese leader who refused the Geneva elections",
+     "explanation": "Overthrown in 1963."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of GDP did US defence spending represent in 1950, before NSC-68 was implemented? (per cent)",
+   "factIds": [
+    "F-CONT-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 5,
+     "tolerance": 0,
+     "explanation": "5 per cent, rising to 14.2 per cent by 1953."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year was the Warsaw Treaty Organization founded? (year)",
+   "factIds": [
+    "F-CONT-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1955,
+     "tolerance": 0,
+     "explanation": "1955, on 14 May."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many senators voted against the Gulf of Tonkin Resolution? (number)",
+   "factIds": [
+    "F-CONT-19"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 2,
+     "tolerance": 0,
+     "explanation": "Two; the House passed it unanimously."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How long did the siege of Dien Bien Phu last? (months)",
+   "factIds": [
+    "F-CONT-17"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 4,
+     "tolerance": 0,
+     "explanation": "Four months, ending on 7 May 1954."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these limited peaceful co-existence? Choose all that apply.",
+   "factIds": [
+    "F-CONT-08",
+    "F-CONT-11",
+    "F-CONT-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Soviet crushing of the Hungarian uprising",
+     "correct": true,
+     "explanation": "Yes: 1956."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev's rejection of 'open skies'",
+     "correct": true,
+     "explanation": "Yes: 1955."
+    },
+    {
+     "id": "c",
+     "text": "The U-2 incident",
+     "correct": true,
+     "explanation": "Yes: it wrecked the Paris summit."
+    },
+    {
+     "id": "d",
+     "text": "The Limited Test Ban Treaty",
+     "correct": false,
+     "explanation": "No: that was a step towards cooperation."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were consequences of Sputnik? Choose all that apply.",
+   "factIds": [
+    "F-CONT-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Fears of a 'missile gap'",
+     "correct": true,
+     "explanation": "Yes: exploited in the 1960 election."
+    },
+    {
+     "id": "b",
+     "text": "An acceleration of US space and weapons programmes",
+     "correct": true,
+     "explanation": "Yes: to catch up."
+    },
+    {
+     "id": "c",
+     "text": "Talk of a test ban faded for several years",
+     "correct": true,
+     "explanation": "Yes: both sides kept researching."
+    },
+    {
+     "id": "d",
+     "text": "The immediate end of the arms race",
+     "correct": false,
+     "explanation": "No: it intensified the arms race."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Kennan, Bohlen and Defense Secretary Johnson at first opposed NSC-68.” Which argument does it support?",
+   "factIds": [
+    "F-CONT-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The militarisation of containment was contested inside the US government",
+     "correct": true,
+     "explanation": "Correct: Korea settled the debate."
+    },
+    {
+     "id": "b",
+     "text": "NSC-68 was accepted at once",
+     "correct": false,
+     "explanation": "It was opposed at first."
+    },
+    {
+     "id": "c",
+     "text": "Kennan wrote NSC-68",
+     "correct": false,
+     "explanation": "Nitze's team wrote it."
+    },
+    {
+     "id": "d",
+     "text": "The US cut defence spending",
+     "correct": false,
+     "explanation": "Spending almost tripled."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Eisenhower administration watched, but did not interfere, in Hungary in 1956.” Which argument does it support?",
+   "factIds": [
+    "F-CONT-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'Rollback' was rhetoric, not policy",
+     "correct": true,
+     "explanation": "Correct: the US accepted the Soviet sphere."
+    },
+    {
+     "id": "b",
+     "text": "The US liberated Eastern Europe in 1956",
+     "correct": false,
+     "explanation": "It did not intervene."
+    },
+    {
+     "id": "c",
+     "text": "Hungary joined NATO",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "The USSR withdrew from Hungary",
+     "correct": false,
+     "explanation": "Soviet forces crushed the uprising."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “NSC-68 recommended cutting US military spending and relying on economic aid.”",
+   "factIds": [
+    "F-CONT-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "NSC-68 called for a massive build-up of conventional and nuclear arms",
+     "correct": true,
+     "explanation": "Correct: economic aid was Kennan's emphasis."
+    },
+    {
+     "id": "b",
+     "text": "NSC-68 was written in 1960",
+     "correct": false,
+     "explanation": "It was completed in April 1950."
+    },
+    {
+     "id": "c",
+     "text": "NSC-68 was a Soviet document",
+     "correct": false,
+     "explanation": "It was American."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it called for a build-up."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “After the 1973 peace agreement South Vietnam survived as an independent state.”",
+   "factIds": [
+    "F-CONT-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The war continued and Saigon fell on 30 April 1975",
+     "correct": true,
+     "explanation": "Correct: neither side kept the settlement."
+    },
+    {
+     "id": "b",
+     "text": "The agreement was signed in 1953",
+     "correct": false,
+     "explanation": "It was signed on 27 January 1973."
+    },
+    {
+     "id": "c",
+     "text": "The US never fought in Vietnam",
+     "correct": false,
+     "explanation": "It fought from 1965."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the South fell in 1975."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about containment between 1947 and 1979. Is the US-Soviet relationship under Reagan in the 1980s inside or outside the timeframe?",
+   "factIds": [
+    "F-CONT-05"
+   ],
+   "timeframe": [
+    1947,
+    1979
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later development",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1979."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: the 1980s come after 1979."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because containment continued until 1989",
+     "correct": false,
+     "explanation": "The question's dates still apply."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was NATO's doctrine of 'massive retaliation' in the 1950s?",
+   "factIds": [
+    "F-CONT-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "An attack on any member would be met by a large-scale US nuclear attack",
+     "correct": true,
+     "explanation": "Correct: the 'nuclear umbrella'."
+    },
+    {
+     "id": "b",
+     "text": "Retaliation only with conventional forces",
+     "correct": false,
+     "explanation": "It was nuclear."
+    },
+    {
+     "id": "c",
+     "text": "A promise never to use nuclear weapons",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "An alliance with the USSR",
+     "correct": false,
+     "explanation": "It was aimed at the USSR."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Eisenhower announce his doctrine in 1957?",
+   "factIds": [
+    "F-CONT-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He feared the Soviets would fill a vacuum left by Britain and France after Suez",
+     "correct": true,
+     "explanation": "Correct: and growing Soviet influence in Egypt and Syria."
+    },
+    {
+     "id": "b",
+     "text": "He wanted to leave the Middle East",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The USSR had invaded Lebanon",
+     "correct": false,
+     "explanation": "The Lebanon crisis was internal."
+    },
+    {
+     "id": "d",
+     "text": "To end the Vietnam War",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Eisenhower propose at Geneva in 1955?",
+   "factIds": [
+    "F-CONT-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'Open skies': mutual aerial inspection of nuclear facilities",
+     "correct": true,
+     "explanation": "Correct: Khrushchev refused."
+    },
+    {
+     "id": "b",
+     "text": "A Warsaw Pact",
+     "correct": false,
+     "explanation": "That was the Soviet alliance."
+    },
+    {
+     "id": "c",
+     "text": "Rollback in Eastern Europe",
+     "correct": false,
+     "explanation": "Not proposed at Geneva."
+    },
+    {
+     "id": "d",
+     "text": "A ban on all satellites",
+     "correct": false,
+     "explanation": "Not proposed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Nixon mean by giving Moscow and Beijing 'bigger fish to fry'?",
+   "factIds": [
+    "F-CONT-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Making better relations with the US more valuable to them than support for North Vietnam",
+     "correct": true,
+     "explanation": "Correct: the 1972 summits reflected this."
+    },
+    {
+     "id": "b",
+     "text": "Encouraging a Sino-Soviet war",
+     "correct": false,
+     "explanation": "Not what the phrase meant."
+    },
+    {
+     "id": "c",
+     "text": "Offering them fishing rights",
+     "correct": false,
+     "explanation": "A metaphor."
+    },
+    {
+     "id": "d",
+     "text": "Withdrawing from NATO",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Khrushchev do after the U-2 incident?",
+   "factIds": [
+    "F-CONT-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He abandoned cooperation with Eisenhower and waited for the next president",
+     "correct": true,
+     "explanation": "Correct: the Soviet delegation left Paris."
+    },
+    {
+     "id": "b",
+     "text": "He declared war on the US",
+     "correct": false,
+     "explanation": "He did not."
+    },
+    {
+     "id": "c",
+     "text": "He apologised to Eisenhower",
+     "correct": false,
+     "explanation": "He demanded an apology."
+    },
+    {
+     "id": "d",
+     "text": "He accepted 'open skies'",
+     "correct": false,
+     "explanation": "He had rejected it."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-CONTAINMENT-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was NSC-68 a turning point in the policy of containment between 1947 and 1953?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "NSC-68",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "a turning point in the policy of containment",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1947 and 1953",
+     "answer": "timeframe",
+     "explanation": "From Kennan to the end of the Korean War."
+    },
+    {
+     "id": "s5",
+     "text": "turning point",
+     "answer": "judgement",
+     "explanation": "How far containment changed, and whether NSC-68 or events caused the change."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘Peaceful co-existence was a propaganda slogan rather than a real change in Soviet policy.’ Discuss with reference to the period 1956 to 1962.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "a propaganda slogan rather than a real change",
+     "answer": "factor",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s3",
+     "text": "peaceful co-existence",
+     "answer": "scope",
+     "explanation": "What the claim is about."
+    },
+    {
+     "id": "s4",
+     "text": "1956 to 1962",
+     "answer": "timeframe",
+     "explanation": "From the secret speech to Cuba."
+    },
+    {
+     "id": "s5",
+     "text": "real change",
+     "answer": "judgement",
+     "explanation": "Whether Soviet doctrine and behaviour changed, and towards whom."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was NSC-68 a turning point in the policy of containment between 1947 and 1953?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "NSC-68 was the blueprint of a turning point, transforming containment from a selective, mainly economic strategy into a global military one; but the Korean War, not the document itself, made that change policy.",
+     "correct": true,
+     "explanation": "Correct: judgement with qualification."
+    },
+    {
+     "id": "b",
+     "text": "NSC-68 was written in 1950.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "NSC-68 was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "NSC-68 ended containment.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the success of containment in Asia between 1950 and 1975.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Containment in Asia succeeded where the US defended a stable ally such as Taiwan, but failed in Vietnam, where it tied itself to an unpopular regime against a nationalist movement.",
+     "correct": true,
+     "explanation": "Correct: criteria and contrast."
+    },
+    {
+     "id": "b",
+     "text": "The US fought in Vietnam.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Containment in Asia was good and bad.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "Containment in Asia was a total success.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In April 1950 Nitze's team completed NSC-68.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because NSC-68 treated a defeat anywhere as a defeat everywhere, the US could no longer choose where to resist.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 1 May 1960 a U-2 was shot down over the USSR.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that Khrushchev could not attend the summit without appearing to accept American spying, so détente stalled.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Defence spending tripled as a share of GDP, 1950–53",
+     "right": "NSC-68 militarised containment",
+     "explanation": "From 5 to 14.2 per cent."
+    },
+    {
+     "left": "The crushing of the Hungarian uprising",
+     "right": "Co-existence did not extend to the satellites",
+     "explanation": "1956."
+    },
+    {
+     "left": "Diem's refusal of the Geneva elections",
+     "right": "The US backed unpopular allies to contain Communism",
+     "explanation": "With US support."
+    },
+    {
+     "left": "Nuclear parity by the mid-1960s",
+     "right": "Nuclear threats lost credibility",
+     "explanation": "Mutually assured destruction."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Containment got bigger after 1950.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "After the North Korean invasion of June 1950, NSC-68's call for a massive arms build-up became policy, so containment widened from protecting key industrial centres to resisting Communism everywhere.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and consequence."
+    },
+    {
+     "id": "b",
+     "text": "Containment got much bigger after 1950.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "NSC-68 was written in 1950.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Containment covered the whole universe.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Peaceful co-existence was only propaganda.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Khrushchev abandoned Stalin's doctrine that war with the West was inevitable and pursued a summit in 1960; it was the U-2 incident and Eisenhower's refusal to apologise that wrecked the planned talks.",
+     "correct": true,
+     "explanation": "Correct: specific evidence of real intent."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev was popular.",
+     "correct": false,
+     "explanation": "Not an argument about policy."
+    },
+    {
+     "id": "c",
+     "text": "Propaganda is always bad.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "d",
+     "text": "The USSR had satellites.",
+     "correct": false,
+     "explanation": "Not a counter-argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the success of containment in Asia between 1950 and 1975.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether Communist control spread, containment held the line in Taiwan but failed in Vietnam, because force could defend a stable ally but could not create one.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the US fought in Asia for many years.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Asia was difficult.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, wars are always failures.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes and consequences of the arms race between 1949 and 1963.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The first Soviet atomic test in 1949",
+     "answer": "causes",
+     "explanation": "It ended the US monopoly."
+    },
+    {
+     "id": "s2",
+     "text": "NSC-68's call for a massive build-up",
+     "answer": "causes",
+     "explanation": "1950."
+    },
+    {
+     "id": "s3",
+     "text": "Sputnik and the fear of a missile gap",
+     "answer": "causes",
+     "explanation": "1957."
+    },
+    {
+     "id": "s4",
+     "text": "The collapse of the Paris summit after the U-2",
+     "answer": "effects",
+     "explanation": "Espionage to monitor the race."
+    },
+    {
+     "id": "s5",
+     "text": "The Limited Test Ban Treaty",
+     "answer": "effects",
+     "explanation": "1963, after Cuba."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-CONTAINMENT-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was NSC-68 a turning point in the policy of containment between 1947 and 1953?",
+   "commandTerm": "to what extent",
+   "namedFactor": "NSC-68",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1947,
+    1953
+   ],
+   "scope": "the United States",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "NSC-68, weighed first",
+    "timeframe": "1947–1953",
+    "scope": "The policy of containment",
+    "judgement": "How far containment changed, and whether NSC-68 or events caused the change"
+   },
+   "modelPlan": {
+    "thesis": "NSC-68 was the blueprint of a turning point, transforming containment from a selective, mainly economic strategy into a global military one; but the Korean War, not the document itself, made that change policy.",
+    "arguments": [
+     {
+      "claim": "NSC-68's arms build-up and global scope (named factor first).",
+      "evidence": [
+       "F-CONT-03"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Kennan's original, limited containment.",
+      "evidence": [
+       "F-CONT-01",
+       "F-CONT-02"
+      ]
+     },
+     {
+      "claim": "Korea turns NSC-68 into policy.",
+      "evidence": [
+       "F-CONT-04"
+      ]
+     },
+     {
+      "claim": "Continuity: containment's basic aim survived.",
+      "evidence": [
+       "F-CONT-05"
+      ]
+     }
+    ],
+    "counter": "Lippmann argued that Kennan's X-Article was already open-ended, so the global scope was implicit from 1947.",
+    "judgementCriterion": "Did containment change in kind? Yes: from economic aid for key centres to a global arms build-up."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "NSC-68 was the blueprint of a turning point in containment.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Kennan had favoured economic aid to protect key industrial centres, but NSC-68 called for a massive arms build-up and declared that 'a defeat of free institutions anywhere is a defeat everywhere'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that containment became global and military, so defence spending rose from 5 to 14.2 per cent of GDP between 1950 and 1953.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Kennan and others opposed NSC-68, and only the North Korean invasion of June 1950 made its recommendations policy.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "NSC-68 was therefore the turning point in ideas, and Korea the turning point in practice.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "NSC-68"
+    ],
+    "synonyms": [
+     "Nitze",
+     "militarisation",
+     "build-up"
+    ],
+    "historians": [
+     "Lippmann"
+    ],
+    "extraLexicon": [
+     "Kennan",
+     "containment",
+     "Korea"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CONTAINMENT-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Peaceful co-existence was a propaganda slogan rather than a real change in Soviet policy.” Discuss with reference to the period 1956 to 1962.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1956,
+    1962
+   ],
+   "scope": "the USSR",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: propaganda, not real change",
+    "timeframe": "1956–1962",
+    "scope": "Peaceful co-existence",
+    "judgement": "Whether Soviet doctrine and behaviour changed, and towards whom"
+   },
+   "modelPlan": {
+    "thesis": "Peaceful co-existence was a real change in Soviet doctrine towards the West, shown by Khrushchev's pursuit of summits, but it did not extend to the satellites or end the arms race, so the claim is only partly valid.",
+    "arguments": [
+     {
+      "claim": "Against the claim: rejection of inevitable war.",
+      "evidence": [
+       "F-CONT-07"
+      ]
+     },
+     {
+      "claim": "Against the claim: early détente and the planned summit.",
+      "evidence": [
+       "F-CONT-09",
+       "F-CONT-13"
+      ]
+     },
+     {
+      "claim": "For the claim: Hungary and the Warsaw Pact.",
+      "evidence": [
+       "F-CONT-08",
+       "F-CONT-10"
+      ]
+     },
+     {
+      "claim": "For the claim: the arms race and refusal of inspection.",
+      "evidence": [
+       "F-CONT-11",
+       "F-CONT-12"
+      ]
+     }
+    ],
+    "counter": "Khrushchev also boasted of Soviet missile superiority, using co-existence alongside pressure.",
+    "judgementCriterion": "Did Soviet behaviour towards the West change? Partly: summits were sought, but the arms race continued."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Peaceful co-existence was a real change in Soviet doctrine, not merely propaganda.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In February 1956 Khrushchev abandoned Stalin's assumption that war with the West was inevitable, and in 1960 he prepared for a summit in Paris.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the USSR now sought to compete without war, so it was the U-2 incident, not Soviet policy, that wrecked the summit.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Soviet forces crushed Hungary in 1956 and Khrushchev refused 'open skies', so co-existence did not reach the satellites or the arms race.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore only partly valid: co-existence was real but limited.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "peaceful co-existence",
+     "peaceful coexistence"
+    ],
+    "synonyms": [
+     "Khrushchev",
+     "détente"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "secret speech",
+     "Hungary",
+     "U-2"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CONTAINMENT-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the success of containment in Asia between 1950 and 1975.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1950,
+    1975
+   ],
+   "scope": "Asia",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The success of containment",
+    "timeframe": "1950–1975",
+    "scope": "Asia",
+    "judgement": "By what criterion: whether Communist control spread"
+   },
+   "modelPlan": {
+    "thesis": "Containment in Asia succeeded where the US defended a stable ally such as Taiwan, but failed in Vietnam, where it tied itself to an unpopular regime against a nationalist movement.",
+    "arguments": [
+     {
+      "claim": "Success: defending Taiwan, 1950–58.",
+      "evidence": [
+       "F-CONT-14",
+       "F-CONT-15"
+      ]
+     },
+     {
+      "claim": "Success: alliances such as SEATO.",
+      "evidence": [
+       "F-CONT-14"
+      ]
+     },
+     {
+      "claim": "Failure: Diem and the Geneva elections.",
+      "evidence": [
+       "F-CONT-17",
+       "F-CONT-18"
+      ]
+     },
+     {
+      "claim": "Failure: escalation and the fall of Saigon.",
+      "evidence": [
+       "F-CONT-19",
+       "F-CONT-20"
+      ]
+     }
+    ],
+    "counter": "By 1972 Nixon's diplomacy with Beijing and Moscow had achieved containment's aims by other means.",
+    "judgementCriterion": "Judged by whether Communist control spread, containment held in Taiwan but failed in Vietnam."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Containment in Asia had mixed results: it held the line in Taiwan but failed in Vietnam.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The US defended Jinmen and Mazu in 1954–55 and 1958, but in Vietnam it backed Diem's refusal to hold elections, and Saigon fell on 30 April 1975.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that US power could protect an established ally, but could not create a stable state where the Communists had stronger popular support.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the US kept its key Asian interests, such as Japan and Taiwan, which Kennan had seen as what mattered.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Containment in Asia therefore succeeded in its core and failed at its edges.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "containment"
+    ],
+    "synonyms": [
+     "Asia",
+     "Vietnam",
+     "Taiwan"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "SEATO",
+     "Diem",
+     "Vietnamization"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CONTAINMENT-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast containment in Europe and in Asia between 1947 and 1975.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1947,
+    1975
+   ],
+   "scope": "Europe and Asia",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "Containment in two regions",
+    "timeframe": "1947–1975",
+    "scope": "Europe and Asia",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "In both regions the US contained Communism through alliances and aid, but in Europe containment kept the rivalry cold, whereas in Asia it led to two hot wars, because there the opponent was Communist nationalism as well as Soviet power.",
+    "arguments": [
+     {
+      "claim": "Similarity: alliances in both regions.",
+      "evidence": [
+       "F-CONT-06",
+       "F-CONT-14"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: commitment to defend allies.",
+      "evidence": [
+       "F-CONT-10",
+       "F-CONT-15"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: no war in Europe, war in Asia.",
+      "evidence": [
+       "F-CONT-04",
+       "F-CONT-19"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: the nature of the opponent.",
+      "evidence": [
+       "F-CONT-10",
+       "F-CONT-17"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Kennan's original containment focused on Europe and Japan, so Asian wars were an extension he opposed.",
+    "judgementCriterion": "Which difference mattered most? The nature of the opponent: nationalism in Vietnam made military containment fail."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Containment used similar tools in Europe and Asia, but with very different results.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In Europe NATO and massive retaliation kept the rivalry cold, whereas in Asia the US fought in Korea and, from 1965, in Vietnam.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that in Europe the US faced Soviet power across a stable line, while in Asia it faced Communist nationalists such as Ho Chi Minh.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in both regions the US built alliances and defended its allies, as NATO in Europe and the defence of Taiwan in 1958 show.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore the opponent, which explains why containment held in Europe and failed in Vietnam.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Europe",
+     "Asia"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Lippmann"
+    ],
+    "extraLexicon": [
+     "NATO",
+     "SEATO",
+     "Vietnam"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CONTAINMENT-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the causes and consequences of the arms race between 1949 and 1963.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1949,
+    1963
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1949–1963",
+    "scope": "The arms race",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The arms race was driven by mutual fear of falling behind, sharpened by the Soviet bomb, NSC-68 and Sputnik; its consequences were espionage, crises and, after Cuba, the first arms control agreement.",
+    "arguments": [
+     {
+      "claim": "Cause: the Soviet bomb and NSC-68.",
+      "evidence": [
+       "F-CONT-03",
+       "F-CONT-04"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: Sputnik and the missile gap.",
+      "evidence": [
+       "F-CONT-12"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: espionage and the U-2 crisis.",
+      "evidence": [
+       "F-CONT-11",
+       "F-CONT-13"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: the Limited Test Ban Treaty.",
+      "evidence": [
+       "F-CONT-21"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "The 'missile gap' was largely imaginary: Kennedy's administration found the balance still favoured the US.",
+    "judgementCriterion": "Which consequence lasted longest? Arms control, which began with the Test Ban Treaty and led to SALT."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The arms race was driven above all by mutual fear of falling behind.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After the Soviet bomb NSC-68 called for a massive build-up, and Sputnik in 1957 created fears of a 'missile gap'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that each side's progress drove the other to accelerate, so both turned to espionage, as the U-2 flights show.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the race also produced its own brake: after the Cuban crisis the Limited Test Ban Treaty of 1963 began arms control.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Fear therefore caused the arms race, and the danger it created led to the first steps to limit it.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "arms race"
+    ],
+    "synonyms": [
+     "nuclear",
+     "missiles",
+     "Sputnik"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "missile gap",
+     "U-2",
+     "Test Ban"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CONTAINMENT-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the impact of the Vietnam War on United States containment policy between 1964 and 1975.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1964,
+    1975
+   ],
+   "scope": "the United States",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The impact of the Vietnam War",
+    "timeframe": "1964–1975",
+    "scope": "US containment policy",
+    "judgement": "How far Vietnam changed the methods and aims of containment"
+   },
+   "modelPlan": {
+    "thesis": "Vietnam forced the US to abandon containment by ground war and turn to Vietnamization, negotiation and diplomacy with Moscow and Beijing, though the goal of containing Communism remained.",
+    "arguments": [
+     {
+      "claim": "Escalation after Tonkin.",
+      "evidence": [
+       "F-CONT-19"
+      ]
+     },
+     {
+      "claim": "Vietnamization and withdrawal.",
+      "evidence": [
+       "F-CONT-20"
+      ]
+     },
+     {
+      "claim": "Diplomacy with Moscow and Beijing.",
+      "evidence": [
+       "F-CONT-20"
+      ]
+     },
+     {
+      "claim": "Containment's goal survived.",
+      "evidence": [
+       "F-CONT-05"
+      ]
+     }
+    ],
+    "counter": "The war's outcome in 1975 suggests the policy had failed rather than adapted.",
+    "judgementCriterion": "Did Vietnam change containment's aims or methods? Methods: the goal survived until 1989."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Vietnam changed the methods of containment rather than its aims.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After the Gulf of Tonkin Resolution of August 1964 the US escalated, but from 1969 Nixon withdrew troops and sought better relations with Moscow and Beijing.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that containment by ground war gave way to containment by diplomacy, so the 1972 summits became part of the strategy.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the fall of Saigon on 30 April 1975 showed that in Vietnam itself containment had failed.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Vietnam therefore transformed how the US contained Communism, not whether it did.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Vietnam"
+    ],
+    "synonyms": [
+     "Vietnam War",
+     "Vietnamization"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Gulf of Tonkin",
+     "Nixon",
+     "détente"
+    ]
+   }
+  }
+ ]
+}

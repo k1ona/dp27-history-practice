@@ -1,0 +1,2837 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-LEADERS",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "Willy Brandt knelt in Warsaw in 1970. Ronald Reagan called the Soviet Union an 'evil empire' in 1983. Mikhail Gorbachev let Eastern Europe go in 1989. How much can a single leader change a global conflict?",
+   "predictionPrompt": "Your prediction in one line: which of the three leaders mattered most, and why?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "role_of_leader",
+    "title": "Willy Brandt and Ostpolitik, 1969–1974",
+    "body": "**Willy Brandt** shows that a leader who was not a superpower head of state could still change the Cold War. When his Social Democrats came to power in West Germany in 1969, Bonn's policy towards the East was frozen. Under Adenauer, West Germany had refused to recognise East Germany (the GDR) or any state that did, except the USSR, and had insisted that the division of Germany must be settled before any détente.\n\nBrandt concluded that this policy had failed. America's refusal to contest the building of the Berlin Wall in 1961 had shown that the US would not risk war over the city, and his own experience as Mayor of West Berlin shaped his conclusions; in 1966 President Johnson made clear that American policy would not be held hostage to German reunification. The West's passive acceptance of the Warsaw Pact invasion of Czechoslovakia in 1968 confirmed the lesson: if West Germans wanted to ease the division of Europe, they would have to deal with the East themselves. With his adviser Egon Bahr he devised **Ostpolitik**, based on \"change through rapprochement\": many small contacts that would gradually \"overcome Yalta\". Brandt dropped the claim that the GDR was illegitimate: there would be \"one German nation, two German states\".\n\nThe results came quickly. In 1970 West Germany signed treaties with Moscow and Warsaw accepting the post-war frontiers. In 1971 the four occupying powers agreed on Berlin, Moscow promising to make no unilateral changes and to ease movement. A Basic Treaty with the GDR was ratified in 1973, a treaty with Prague followed, and in 1974 the two German states exchanged permanent representatives. Brandt knelt at the memorial to the Warsaw Ghetto and won the Nobel Peace Prize.\n\nBrandt's impact went beyond Germany. Judt argues that between the treaties with West Germany and the Helsinki Accords of 1975, which gave \"retrospective confirmation and acceptance of Potsdam\", the Soviet Union had achieved its objectives in Europe. Ostpolitik thus helped prepare the ground for the European security conference that NATO accepted in 1971. Brandt was forced out by a spy scandal in 1974, but his successors Schmidt and Kohl never abandoned his policy.\n\nThis mattered because Brandt reduced Cold War tension in its most dangerous place, Central Europe, which meant that détente in Europe had its own momentum, independent of the superpowers.",
+    "argumentsThatWork": [
+     {
+      "claim": "Brandt replaced Adenauer's refusal with engagement.",
+      "evidence": [
+       "F-LEAD-02",
+       "F-LEAD-04"
+      ],
+      "strongestCounter": "Engagement accepted the division of Germany for the time being."
+     },
+     {
+      "claim": "Ostpolitik produced treaties that eased tension in Central Europe.",
+      "evidence": [
+       "F-LEAD-05",
+       "F-LEAD-06"
+      ],
+      "strongestCounter": "It also gave the USSR what it wanted: recognition of the borders."
+     },
+     {
+      "claim": "Ostpolitik prepared the ground for Helsinki and outlasted Brandt.",
+      "evidence": [
+       "F-LEAD-07",
+       "F-LEAD-08",
+       "F-LEAD-09"
+      ],
+      "strongestCounter": "Brandt himself fell in 1974."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the aims and achievements of Brandt's Ostpolitik between 1969 and 1974.",
+     "Discuss the view that Brandt's Ostpolitik did more to reduce Cold War tension in Europe than any superpower agreement with reference to the period 1969 to 1975."
+    ],
+    "useItInAnEssay": {
+     "claim": "Brandt's main aim was to ease the human costs of division by dealing directly with the East.",
+     "prove": "He accepted 'one German nation, two German states', and between 1970 and 1974 signed treaties with Moscow, Warsaw and Prague and a Basic Treaty with the GDR.",
+     "explain": "This meant that the borders that had divided Europe since 1945 were accepted, so fears of West German revanchism in the East were eased.",
+     "test": "However, Ostpolitik also gave the USSR the recognition it had long sought, which Judt sees as a Soviet gain confirmed at Helsinki.",
+     "judge": "Brandt therefore achieved his aim of easing tension, at the price of accepting the division for the time being."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-LEADERS-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Brandt mean by 'one German nation, two German states'?",
+      "factIds": [
+       "F-LEAD-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "He accepted the GDR as a state while affirming the unity of the German people",
+        "correct": true,
+        "explanation": "Correct: dropping the claim that the GDR was illegitimate."
+       },
+       {
+        "id": "b",
+        "text": "He wanted to annex the GDR",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "He wanted Germany split into three",
+        "correct": false,
+        "explanation": "Not what he meant."
+       },
+       {
+        "id": "d",
+        "text": "He rejected all contact with the East",
+        "correct": false,
+        "explanation": "That was closer to Adenauer's policy."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-LEADERS-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Moscow agree in the quadripartite agreement on Berlin of 1971?",
+      "factIds": [
+       "F-LEAD-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To make no unilateral changes and to ease movement",
+        "correct": true,
+        "explanation": "Correct: easing the Berlin problem."
+       },
+       {
+        "id": "b",
+        "text": "To demolish the Wall",
+        "correct": false,
+        "explanation": "Not until 1989."
+       },
+       {
+        "id": "c",
+        "text": "To leave the Warsaw Pact",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "d",
+        "text": "To give Berlin to the GDR",
+        "correct": false,
+        "explanation": "The opposite."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-LEADERS-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The West passively accepted the Warsaw Pact invasion of Czechoslovakia.” Which argument does it support best?",
+      "factIds": [
+       "F-LEAD-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West Germans concluded they had to deal with the East themselves",
+        "correct": true,
+        "explanation": "Correct: the lesson Brandt drew."
+       },
+       {
+        "id": "b",
+        "text": "NATO was about to liberate Eastern Europe",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Brandt supported the invasion",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       },
+       {
+        "id": "d",
+        "text": "The US recognised the GDR in 1968",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "role_of_leader",
+    "title": "Ronald Reagan: confrontation, 1981–1985",
+    "body": "**Ronald Reagan** became US President in January 1981 determined to restore American strength. He pursued a comprehensive modernisation of US nuclear and conventional forces and tried to roll back Communism in South America, Africa and South Asia. His language was deliberately harsh. He spoke of leaving \"Marxism-Leninism on the ash-heap of history\" and called the Soviet Union an \"evil empire\". In 1983 he announced the **Strategic Defense Initiative** (SDI, \"Star Wars\"), a missile defence programme that Soviet leaders found highly threatening. In 1985 US defence spending rose by 6 per cent, an unprecedented peacetime increase.\n\nBut Reagan's record in these years was not simply one of confrontation. He wrote to three Soviet leaders in turn, Brezhnev, Andropov and Chernenko, urging them to ease tensions and negotiate arms reductions, and he lifted Carter's grain embargo as a gesture of good faith. Judt argues that much of the belligerence was rhetoric for a domestic audience: the same president was offering to withdraw American intermediate-range missiles if the Soviets dismantled theirs. Inside his government, Defence Secretary Weinberger distrusted arms control while Secretary of State Shultz favoured it; Reagan shared Shultz's wish to put human rights at the centre of negotiations.\n\nWhat effect did Reagan's confrontation have? Admirers argue that it raised the cost of the arms race beyond what the Soviet Union could pay. Judt accepts that the American build-up came to be seen as \"the cunningly crafted lever that bankrupted and ultimately broke the Soviet system\", but adds: \"This, however, is not quite accurate.\" In the short run, he argues, Reagan's hard line, and SDI in particular, made the ageing Soviet leadership \"even less disposed to compromise\". The low point came in the autumn of 1983, when Soviet negotiators walked out of the arms talks in Geneva.\n\nThis mattered because Reagan's first term increased both the pressure on the Soviet Union and the danger of the Cold War, which meant that his influence depended on whether a Soviet leader emerged who would respond to pressure with reform rather than resistance.",
+    "argumentsThatWork": [
+     {
+      "claim": "Reagan rearmed and used confrontational rhetoric.",
+      "evidence": [
+       "F-LEAD-11",
+       "F-LEAD-12",
+       "F-LEAD-13"
+      ],
+      "strongestCounter": "Much of the rhetoric was for a domestic audience."
+     },
+     {
+      "claim": "Reagan also sought negotiation from the start.",
+      "evidence": [
+       "F-LEAD-11",
+       "F-LEAD-13",
+       "F-LEAD-16"
+      ],
+      "strongestCounter": "No major agreement was reached before 1985."
+     },
+     {
+      "claim": "Confrontation hardened the old Soviet leadership in the short run.",
+      "evidence": [
+       "F-LEAD-14",
+       "F-LEAD-15"
+      ],
+      "strongestCounter": "It raised the long-term cost of the arms race for the USSR."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the impact of Reagan on the Cold War between 1981 and 1989.",
+     "Compare and contrast the impact of Reagan and Gorbachev on the Cold War between 1981 and 1991."
+    ],
+    "useItInAnEssay": {
+     "claim": "Reagan's impact in his first term was to raise the pressure on the USSR without producing agreement.",
+     "prove": "He modernised US forces, called the USSR an 'evil empire', announced SDI in 1983 and raised defence spending by 6 per cent in 1985.",
+     "explain": "This meant that the arms race grew more costly for Moscow, so a future Soviet leader would have strong reasons to negotiate.",
+     "test": "However, Judt argues that in the short run Reagan's hard line made the old Soviet leaders 'even less disposed to compromise', and talks collapsed in 1983.",
+     "judge": "Reagan's early impact was therefore to increase pressure, while its results depended on the arrival of Gorbachev."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-LEADERS-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the Strategic Defense Initiative (SDI)?",
+      "factIds": [
+       "F-LEAD-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A US missile defence programme announced in 1983 that Soviet leaders found highly threatening",
+        "correct": true,
+        "explanation": "Correct: known as 'Star Wars'."
+       },
+       {
+        "id": "b",
+        "text": "A Soviet missile programme",
+        "correct": false,
+        "explanation": "It was American."
+       },
+       {
+        "id": "c",
+        "text": "A peace treaty",
+        "correct": false,
+        "explanation": "It was a weapons programme."
+       },
+       {
+        "id": "d",
+        "text": "A NATO summit",
+        "correct": false,
+        "explanation": "Not what it was."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-LEADERS-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which Soviet leaders did Reagan write to in his first term, urging arms reductions?",
+      "factIds": [
+       "F-LEAD-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Brezhnev, Andropov and Chernenko",
+        "correct": true,
+        "explanation": "Correct: three leaders in turn."
+       },
+       {
+        "id": "b",
+        "text": "Stalin and Khrushchev",
+        "correct": false,
+        "explanation": "They were long dead."
+       },
+       {
+        "id": "c",
+        "text": "Gorbachev only",
+        "correct": false,
+        "explanation": "Gorbachev came in 1985."
+       },
+       {
+        "id": "d",
+        "text": "Yeltsin",
+        "correct": false,
+        "explanation": "Yeltsin rose later."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-LEADERS-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt says Reagan's hard line made the old Soviet leadership 'even less disposed to compromise'.” Which argument does it support best?",
+      "factIds": [
+       "F-LEAD-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Confrontation alone did not produce reconciliation",
+        "correct": true,
+        "explanation": "Correct: change needed a new Soviet leader."
+       },
+       {
+        "id": "b",
+        "text": "Reagan's pressure produced immediate Soviet concessions",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The Soviets welcomed SDI",
+        "correct": false,
+        "explanation": "They found it threatening."
+       },
+       {
+        "id": "d",
+        "text": "Reagan never negotiated",
+        "correct": false,
+        "explanation": "He wrote to Soviet leaders."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "role_of_leader",
+    "title": "Mikhail Gorbachev: new thinking, 1985–1989",
+    "body": "**Mikhail Gorbachev** became leader of the Soviet Communist Party in March 1985. Within a month he had halted Soviet missile deployments and offered to negotiate, proposing that both superpowers halve their strategic arsenals. Over the next four years he transformed Soviet foreign policy.\n\nWhy? Judt stresses that Gorbachev's priorities were domestic. A calmer international environment would buy time and support for his reforms at home, **perestroika** (restructuring) and **glasnost** (openness). Advised by Aleksandr Yakovlev, he concluded that the USSR could gain more control over its foreign relations \"by well-calculated concessions than by fruitless confrontation\". In October 1986 he declared that \"ideology\" was not an appropriate basis for foreign policy, a remarkable statement for a Soviet leader. He saw himself above all as a European statesman, speaking of a \"European home\", and built good relations with Western European leaders: Margaret Thatcher famously regarded him as a man she \"could do business\" with.\n\nHis decisions changed the Cold War. He met Reagan at five summits. In December 1987 they signed the INF Treaty, eliminating an entire class of nuclear missiles; by accepting Reagan's \"zero option\", Judt argues, Moscow conceded that a nuclear war in Europe could not be won. Gorbachev withdrew the Red Army from Afghanistan, the \"bleeding wound\": the last troops left on 15 February 1989. Above all, he made clear that the Soviet Union had abandoned the **Brezhnev Doctrine**, the policy of using force to keep Communist regimes in power. When Eastern Europeans rose in 1989, no Soviet tanks came.\n\nAt home his reforms opened the system too: from 1986 he freed the dissident Andrei Sakharov, relaxed censorship and stopped the jamming of foreign radio, and in 1989 the Soviet Union held its first more or less free elections since 1918.\n\nThis mattered because Gorbachev chose not to defend the Soviet empire by force, which meant that the Cold War in Europe could end peacefully.",
+    "argumentsThatWork": [
+     {
+      "claim": "Gorbachev's domestic priorities drove his foreign policy.",
+      "evidence": [
+       "F-LEAD-18",
+       "F-LEAD-19"
+      ],
+      "strongestCounter": "Seen from Washington his concessions looked like a Reagan victory."
+     },
+     {
+      "claim": "He reversed the arms race and left Afghanistan.",
+      "evidence": [
+       "F-LEAD-18",
+       "F-LEAD-20"
+      ],
+      "strongestCounter": "Reagan's 'zero option' shaped the INF Treaty."
+     },
+     {
+      "claim": "Abandoning the Brezhnev Doctrine let Eastern Europe go.",
+      "evidence": [
+       "F-LEAD-21"
+      ],
+      "strongestCounter": "The revolutions were made by Eastern Europeans themselves."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was Gorbachev the main reason for the end of the Cold War between 1985 and 1991?",
+     "Analyse the impact of Gorbachev's foreign policy on Eastern Europe between 1985 and 1989."
+    ],
+    "useItInAnEssay": {
+     "claim": "Gorbachev was the main reason for the end of the Cold War because only he could decide not to defend the Soviet empire by force.",
+     "prove": "He signed the INF Treaty in 1987, withdrew from Afghanistan by February 1989 and abandoned the Brezhnev Doctrine.",
+     "explain": "This meant that when Eastern Europeans rose in 1989 no Soviet tanks intervened, so the regimes fell peacefully.",
+     "test": "However, Reagan's 'zero option' shaped the INF Treaty, and Soviet economic strain gave Gorbachev little choice but to reduce his burdens.",
+     "judge": "Gorbachev was therefore the decisive individual, acting in circumstances that made change necessary."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-LEADERS-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Gorbachev say about ideology in October 1986?",
+      "factIds": [
+       "F-LEAD-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It was not an appropriate basis for foreign policy",
+        "correct": true,
+        "explanation": "Correct: a break with Soviet tradition."
+       },
+       {
+        "id": "b",
+        "text": "It required war with the West",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "It should be spread to Western Europe",
+        "correct": false,
+        "explanation": "Not what he said."
+       },
+       {
+        "id": "d",
+        "text": "It justified the invasion of Afghanistan",
+        "correct": false,
+        "explanation": "He withdrew from Afghanistan."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-LEADERS-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the Brezhnev Doctrine that Gorbachev abandoned?",
+      "factIds": [
+       "F-LEAD-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The policy of military intervention to keep Communist regimes in power",
+        "correct": true,
+        "explanation": "Correct: used in 1968 in Czechoslovakia."
+       },
+       {
+        "id": "b",
+        "text": "A plan for nuclear disarmament",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "c",
+        "text": "The Soviet space programme",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "d",
+        "text": "A trade agreement with the US",
+        "correct": false,
+        "explanation": "Not what it was."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-LEADERS-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Gorbachev saw that the USSR could gain more control by well-calculated concessions than by fruitless confrontation.” Which argument does it support best?",
+      "factIds": [
+       "F-LEAD-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Gorbachev's concessions were a deliberate strategy, not just a sign of defeat",
+        "correct": true,
+        "explanation": "Correct: Judt's interpretation."
+       },
+       {
+        "id": "b",
+        "text": "Gorbachev was forced by Reagan into every concession",
+        "correct": false,
+        "explanation": "Judt stresses his own calculation."
+       },
+       {
+        "id": "c",
+        "text": "Gorbachev wanted more confrontation",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "Gorbachev ignored foreign policy",
+        "correct": false,
+        "explanation": "He took direct control of it."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "comparison",
+    "title": "Comparing the leaders: who changed the Cold War?",
+    "body": "The three leaders worked in different regions and at different times, but each changed the Cold War.\n\n**Reagan and Gorbachev together.** From 1985 the two men built a working relationship. At Reykjavik in October 1986 they discussed abolishing all nuclear weapons; they did not agree, but laid the basis for the INF Treaty of December 1987. In May 1988, standing in Red Square, Reagan declared that his phrase \"evil empire\" belonged to \"another era\". Reagan himself had moved: he had kept within SALT II's limits until 1985 while pursuing a reduction treaty (START), and with Shultz he made human rights central to US-Soviet talks. Reagan's successor, President George Bush, met Gorbachev at Malta in December 1989, where the two sides \"buried the Cold War at the bottom of the Mediterranean\". Gorbachev then accepted the reunification of Germany within NATO.\n\n**Who mattered most?** The Office of the Historian concludes that the Cold War ended \"nearly entirely peacefully, and on U.S. terms\", a verdict that favours Reagan. Judt gives more weight to Gorbachev: his choices were driven by domestic priorities, and \"the US played a remarkably small part in the dramas of 1989, at least until after the fact\". Reagan raised the pressure, but it took a Soviet leader willing to respond with reform rather than resistance.\n\n**Brandt's place.** Brandt worked earlier and on a smaller stage, but his Ostpolitik eased tension in Central Europe a decade and a half before Gorbachev. Like Gorbachev, he thought of the Cold War as a European problem to be solved by contacts rather than confrontation. In 1983 he even stood against Reagan's policy, urging 300,000 people in Bonn to reject new NATO missiles. His policy of accepting borders in order to ease human contact helped create the Helsinki framework, whose human rights clauses later aided the dissidents of 1989.\n\n**Comparing types of leadership.** Reagan and Gorbachev were superpower leaders whose decisions could change the military balance. Brandt was the leader of a front-line state who changed the political climate in Europe. Each shows a different way in which an individual can shape a global conflict.\n\nThis mattered because the end of the Cold War required both pressure and reform, which meant that the roles of the leaders were complementary rather than rival explanations.",
+    "argumentsThatWork": [
+     {
+      "claim": "Reagan and Gorbachev moved from confrontation to partnership.",
+      "evidence": [
+       "F-LEAD-17",
+       "F-LEAD-22"
+      ],
+      "strongestCounter": "Bush, not Reagan, was President when the Cold War ended."
+     },
+     {
+      "claim": "Historians differ on whose role was decisive.",
+      "evidence": [
+       "F-LEAD-23",
+       "F-LEAD-24"
+      ],
+      "strongestCounter": "Both leaders' roles were shaped by circumstances."
+     },
+     {
+      "claim": "Brandt changed the European climate earlier.",
+      "evidence": [
+       "F-LEAD-05",
+       "F-LEAD-08",
+       "F-LEAD-10",
+       "F-LEAD-27"
+      ],
+      "strongestCounter": "His policy accepted division rather than ending it."
+     }
+    ],
+    "howItGetsAsked": [
+     "Compare and contrast the impact of Reagan and Gorbachev on the Cold War between 1981 and 1991.",
+     "To what extent was Gorbachev the main reason for the end of the Cold War between 1985 and 1991?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Reagan and Gorbachev both changed the Cold War, but in different ways: Reagan by pressure, Gorbachev by choice.",
+     "prove": "Reagan rearmed and announced SDI, while Gorbachev signed the INF Treaty in 1987 and abandoned the Brezhnev Doctrine.",
+     "explain": "This meant that Reagan raised the cost of the Cold War, whereas Gorbachev decided to stop paying it, so the INF Treaty combined Reagan's 'zero option' with Gorbachev's acceptance.",
+     "test": "However, the Office of the Historian sees the end as 'on U.S. terms', while Judt argues the US played 'a remarkably small part' in 1989.",
+     "judge": "Gorbachev's role was therefore decisive, while Reagan's pressure and later partnership made the outcome easier."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-LEADERS-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Reagan say in Red Square in May 1988?",
+      "factIds": [
+       "F-LEAD-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That 'evil empire' belonged to 'another era'",
+        "correct": true,
+        "explanation": "Correct: a sign of reconciliation."
+       },
+       {
+        "id": "b",
+        "text": "'Tear down this wall'",
+        "correct": false,
+        "explanation": "That was in Berlin in 1987."
+       },
+       {
+        "id": "c",
+        "text": "That the USSR was an evil empire",
+        "correct": false,
+        "explanation": "He said the phrase was out of date."
+       },
+       {
+        "id": "d",
+        "text": "That SDI would be abandoned",
+        "correct": false,
+        "explanation": "Not what he said."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-LEADERS-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people did Brandt address in Bonn in October 1983 against new NATO missiles? (number)",
+      "factIds": [
+       "F-LEAD-10"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 300000,
+        "tolerance": 10000,
+        "explanation": "300,000."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-LEADERS-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Office of the Historian says the Cold War ended 'on U.S. terms'.” Which argument does it support best?",
+      "factIds": [
+       "F-LEAD-24"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "American policy shaped the outcome of the Cold War",
+        "correct": true,
+        "explanation": "Correct: though Judt disagrees about 1989."
+       },
+       {
+        "id": "b",
+        "text": "The USSR won the Cold War",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Brandt ended the Cold War alone",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       },
+       {
+        "id": "d",
+        "text": "The Cold War ended in war",
+        "correct": false,
+        "explanation": "It ended nearly peacefully."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1969,
+      "text": "Brandt becomes Chancellor",
+      "factId": "F-LEAD-01"
+     },
+     {
+      "year": 1970,
+      "text": "Treaties with Moscow and Warsaw",
+      "factId": "F-LEAD-05"
+     },
+     {
+      "year": 1971,
+      "text": "Quadripartite agreement on Berlin",
+      "factId": "F-LEAD-05"
+     },
+     {
+      "year": 1973,
+      "text": "Basic Treaty ratified",
+      "factId": "F-LEAD-05"
+     },
+     {
+      "year": 1974,
+      "text": "Brandt resigns after a spy scandal",
+      "factId": "F-LEAD-07"
+     },
+     {
+      "year": 1981,
+      "month": 1,
+      "text": "Reagan becomes President",
+      "factId": "F-LEAD-11"
+     },
+     {
+      "year": 1983,
+      "text": "'Evil empire'; SDI; Brandt addresses 300,000 in Bonn",
+      "factId": "F-LEAD-12"
+     },
+     {
+      "year": 1985,
+      "month": 3,
+      "text": "Gorbachev comes to power",
+      "factId": "F-LEAD-17"
+     },
+     {
+      "year": 1987,
+      "month": 12,
+      "text": "INF Treaty",
+      "factId": "F-LEAD-17"
+     },
+     {
+      "year": 1988,
+      "month": 5,
+      "text": "Reagan in Red Square",
+      "factId": "F-LEAD-17"
+     },
+     {
+      "year": 1989,
+      "month": 2,
+      "day": 15,
+      "text": "Last Soviet troops leave Afghanistan",
+      "factId": "F-LEAD-20"
+     },
+     {
+      "year": 1989,
+      "month": 12,
+      "text": "Malta summit",
+      "factId": "F-LEAD-22"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Brandt accepts borders to ease division (Ostpolitik)",
+      "factId": "F-LEAD-04"
+     },
+     {
+      "id": "n2",
+      "text": "Treaties and Helsinki ease tension in Europe",
+      "factId": "F-LEAD-08"
+     },
+     {
+      "id": "n3",
+      "text": "Reagan rearms and confronts the USSR",
+      "factId": "F-LEAD-13"
+     },
+     {
+      "id": "n4",
+      "text": "Gorbachev seeks calm abroad to reform at home",
+      "factId": "F-LEAD-19"
+     },
+     {
+      "id": "n5",
+      "text": "INF Treaty and withdrawal from Afghanistan",
+      "factId": "F-LEAD-18"
+     },
+     {
+      "id": "n6",
+      "text": "Brezhnev Doctrine abandoned; Malta ends the Cold War",
+      "factId": "F-LEAD-22"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Recognition of borders opened the way to a European conference"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Détente collapsed after 1979"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Pressure raised the cost of the arms race"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Concessions gave Moscow more control than confrontation"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Gorbachev chose not to defend the empire by force"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Willy Brandt",
+     "role": "West German Chancellor, 1969–1974",
+     "whyItMatters": "Ostpolitik eased tension in Central Europe; Nobel Peace Prize.",
+     "factIds": [
+      "F-LEAD-04",
+      "F-LEAD-05",
+      "F-LEAD-06"
+     ]
+    },
+    {
+     "name": "Egon Bahr",
+     "role": "Brandt's adviser",
+     "whyItMatters": "Coined 'change through rapprochement'.",
+     "factIds": [
+      "F-LEAD-04"
+     ]
+    },
+    {
+     "name": "Ronald Reagan",
+     "role": "US President, 1981–1989",
+     "whyItMatters": "Rearmament and SDI, then the INF Treaty.",
+     "factIds": [
+      "F-LEAD-12",
+      "F-LEAD-17"
+     ]
+    },
+    {
+     "name": "George Shultz",
+     "role": "US Secretary of State",
+     "whyItMatters": "Favoured agreements and human rights dialogue.",
+     "factIds": [
+      "F-LEAD-16"
+     ]
+    },
+    {
+     "name": "Mikhail Gorbachev",
+     "role": "Soviet leader, 1985–1991",
+     "whyItMatters": "Ended the arms race and abandoned the Brezhnev Doctrine.",
+     "factIds": [
+      "F-LEAD-18",
+      "F-LEAD-21"
+     ]
+    },
+    {
+     "name": "Aleksandr Yakovlev",
+     "role": "Gorbachev's adviser",
+     "whyItMatters": "Argued concessions gave more control than confrontation.",
+     "factIds": [
+      "F-LEAD-19"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Brandt",
+     "Reagan",
+     "Gorbachev"
+    ],
+    "rows": [
+     {
+      "criterion": "Region and role",
+      "cells": [
+       "Europe: front-line state",
+       "Americas: superpower",
+       "Europe: superpower"
+      ],
+      "factIds": [
+       "F-LEAD-01",
+       "F-LEAD-11",
+       "F-LEAD-17"
+      ]
+     },
+     {
+      "criterion": "Method",
+      "cells": [
+       "Change through rapprochement",
+       "Strength first, then negotiation",
+       "Concessions and new thinking"
+      ],
+      "factIds": [
+       "F-LEAD-04",
+       "F-LEAD-13",
+       "F-LEAD-19"
+      ]
+     },
+     {
+      "criterion": "Key achievement",
+      "cells": [
+       "Treaties of 1970–74",
+       "INF Treaty (zero option)",
+       "INF Treaty; end of the Brezhnev Doctrine"
+      ],
+      "factIds": [
+       "F-LEAD-05",
+       "F-LEAD-18",
+       "F-LEAD-21"
+      ]
+     },
+     {
+      "criterion": "Historians' judgement",
+      "cells": [
+       "Prepared Helsinki (Judt)",
+       "'Not quite accurate' to say he broke the USSR (Judt)",
+       "Decisive: the US played 'a remarkably small part' in 1989 (Judt)"
+      ],
+      "factIds": [
+       "F-LEAD-08",
+       "F-LEAD-14",
+       "F-LEAD-23"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-LEAD-04",
+    "year": 1969,
+    "text": "Brandt: 'one German nation, two German states'; Bahr's 'change through rapprochement'.",
+    "supports": [
+     "Brandt changed the approach to the East"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B3-WEST-GERMANY"
+    ],
+    "lexicon": [
+     "Ostpolitik"
+    ]
+   },
+   {
+    "factId": "F-LEAD-05",
+    "year": 1973,
+    "text": "Treaties 1970–74: Moscow, Warsaw, Berlin, Basic Treaty, Prague.",
+    "supports": [
+     "Ostpolitik eased tension in Central Europe"
+    ],
+    "alsoWorksFor": [
+     "P2-12-DETENTE",
+     "P3-17-B3-WEST-GERMANY"
+    ],
+    "lexicon": [
+     "Basic Treaty"
+    ]
+   },
+   {
+    "factId": "F-LEAD-12",
+    "year": 1983,
+    "text": "Reagan: 'evil empire' and SDI.",
+    "supports": [
+     "Reagan confronted the USSR"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "evil empire",
+     "SDI"
+    ]
+   },
+   {
+    "factId": "F-LEAD-14",
+    "year": 1985,
+    "text": "Judt: to say Reagan's build-up broke the USSR is 'not quite accurate'.",
+    "supports": [
+     "Reagan's role is often overstated"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "Reagan"
+    ]
+   },
+   {
+    "factId": "F-LEAD-17",
+    "year": 1987,
+    "text": "INF Treaty (December 1987): an entire class of missiles eliminated.",
+    "supports": [
+     "Reagan and Gorbachev reversed the arms race"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "INF Treaty"
+    ]
+   },
+   {
+    "factId": "F-LEAD-19",
+    "year": 1986,
+    "text": "Judt: Gorbachev's priorities were domestic; concessions gave more control than confrontation.",
+    "supports": [
+     "Gorbachev's choices were deliberate"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B4-GLASNOST"
+    ],
+    "lexicon": [
+     "new thinking",
+     "perestroika"
+    ]
+   },
+   {
+    "factId": "F-LEAD-21",
+    "year": 1989,
+    "text": "Gorbachev abandoned the Brezhnev Doctrine.",
+    "supports": [
+     "Gorbachev let Eastern Europe go"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END",
+     "P3-18-B4-COLLAPSE"
+    ],
+    "lexicon": [
+     "Brezhnev Doctrine"
+    ]
+   },
+   {
+    "factId": "F-LEAD-23",
+    "year": 1989,
+    "text": "Judt: the US played 'a remarkably small part in the dramas of 1989'.",
+    "supports": [
+     "Gorbachev's role was decisive"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "1989"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Reagan's build-up is often seen as the lever that broke the Soviet system, but 'this, however, is not quite accurate'; Gorbachev's priorities were domestic, and 'the US played a remarkably small part in the dramas of 1989, at least until after the fact'.",
+    "useItLikeThis": "Judt's view supports the claim that Gorbachev, not Reagan, was the decisive leader, which suggests US pressure mattered less than Soviet choices.",
+    "factId": "F-LEAD-23"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Reagan only confronted the USSR.",
+    "right": "From his first term he also **wrote to Soviet leaders** urging arms reductions."
+   },
+   {
+    "wrong": "Gorbachev's concessions were simply defeats forced by Reagan.",
+    "right": "Judt: his priorities were **domestic**; concessions bought time for reform."
+   },
+   {
+    "wrong": "Brandt's Ostpolitik aimed to reunify Germany quickly.",
+    "right": "It accepted **'two German states'** in order to ease contacts."
+   },
+   {
+    "wrong": "Reagan was President when the Cold War ended.",
+    "right": "**Bush** met Gorbachev at Malta in December 1989."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1969,
+     "text": "Brandt Chancellor"
+    },
+    {
+     "year": 1970,
+     "text": "Moscow and Warsaw treaties"
+    },
+    {
+     "year": 1973,
+     "text": "Basic Treaty"
+    },
+    {
+     "year": 1983,
+     "text": "Evil empire; SDI"
+    },
+    {
+     "year": 1985,
+     "month": 3,
+     "text": "Gorbachev"
+    },
+    {
+     "year": 1987,
+     "month": 12,
+     "text": "INF Treaty"
+    },
+    {
+     "year": 1989,
+     "month": 2,
+     "day": 15,
+     "text": "Afghanistan exit"
+    },
+    {
+     "year": 1989,
+     "month": 12,
+     "text": "Malta"
+    }
+   ],
+   "keyArguments": [
+    "Brandt eased tension in Central Europe by accepting borders: 'one German nation, two German states'.",
+    "Reagan raised the pressure but also sought talks; Judt says his build-up did not by itself break the USSR.",
+    "Gorbachev's domestic priorities led to concessions, the INF Treaty and withdrawal from Afghanistan.",
+    "Abandoning the Brezhnev Doctrine was Gorbachev's decisive act.",
+    "Pressure and reform were complementary: the leaders' roles fit together."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-LEADERS-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Brandt becomes Chancellor",
+     "year": 1969,
+     "factId": "F-LEAD-01"
+    },
+    {
+     "id": "b",
+     "text": "Treaties with Moscow and Warsaw",
+     "year": 1970,
+     "factId": "F-LEAD-05"
+    },
+    {
+     "id": "c",
+     "text": "Quadripartite agreement on Berlin",
+     "year": 1971,
+     "factId": "F-LEAD-05"
+    },
+    {
+     "id": "d",
+     "text": "Basic Treaty ratified",
+     "year": 1973,
+     "factId": "F-LEAD-05"
+    },
+    {
+     "id": "e",
+     "text": "Permanent Representatives exchanged",
+     "year": 1974,
+     "month": 5,
+     "factId": "F-LEAD-05"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Martial law in Poland and Reagan's sanctions",
+     "year": 1981,
+     "month": 12,
+     "factId": "F-LEAD-11"
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev comes to power",
+     "year": 1985,
+     "month": 3,
+     "factId": "F-LEAD-17"
+    },
+    {
+     "id": "c",
+     "text": "Reykjavik summit",
+     "year": 1986,
+     "month": 10,
+     "factId": "F-LEAD-17"
+    },
+    {
+     "id": "d",
+     "text": "INF Treaty",
+     "year": 1987,
+     "month": 12,
+     "factId": "F-LEAD-17"
+    },
+    {
+     "id": "e",
+     "text": "Reagan in Red Square",
+     "year": 1988,
+     "month": 5,
+     "factId": "F-LEAD-17"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Gorbachev calls Afghanistan the 'bleeding wound'",
+     "year": 1986,
+     "month": 2,
+     "factId": "F-LEAD-20"
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev says ideology is no basis for foreign policy",
+     "year": 1986,
+     "month": 10,
+     "factId": "F-LEAD-18"
+    },
+    {
+     "id": "c",
+     "text": "Last Soviet troops leave Afghanistan",
+     "year": 1989,
+     "month": 2,
+     "factId": "F-LEAD-20"
+    },
+    {
+     "id": "d",
+     "text": "Malta summit",
+     "year": 1989,
+     "month": 12,
+     "factId": "F-LEAD-22"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Egon Bahr",
+     "right": "Brandt's adviser who coined 'change through rapprochement'",
+     "explanation": "Ostpolitik."
+    },
+    {
+     "left": "Caspar Weinberger",
+     "right": "Reagan's Defence Secretary, sceptical of arms control",
+     "explanation": "First term."
+    },
+    {
+     "left": "Aleksandr Yakovlev",
+     "right": "Gorbachev's adviser on concessions over confrontation",
+     "explanation": "New thinking."
+    },
+    {
+     "left": "Margaret Thatcher",
+     "right": "British leader who found Gorbachev a man she 'could do business' with",
+     "explanation": "Western Europe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By what percentage did US defence spending rise in 1985? (number)",
+   "factIds": [
+    "F-LEAD-13"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 6,
+     "tolerance": 0,
+     "explanation": "6 per cent, an unprecedented peacetime increase."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many summits did Reagan and Gorbachev hold, according to Judt? (number)",
+   "factIds": [
+    "F-LEAD-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 5,
+     "tolerance": 0,
+     "explanation": "Five, starting at Geneva."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the SPD become the leading party in the Bundestag for the first time? (year)",
+   "factIds": [
+    "F-LEAD-06"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1972,
+     "tolerance": 0,
+     "explanation": "1972, a triumph for Ostpolitik."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Until what year did Reagan agree to abide by SALT II? (year)",
+   "factIds": [
+    "F-LEAD-25"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1985,
+     "tolerance": 0,
+     "explanation": "Its expiry on 31 December 1985."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were achievements of Brandt's Ostpolitik? Choose all that apply.",
+   "factIds": [
+    "F-LEAD-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Treaties with Moscow and Warsaw accepting post-war frontiers",
+     "correct": true,
+     "explanation": "Yes: 1970."
+    },
+    {
+     "id": "b",
+     "text": "A quadripartite agreement on Berlin",
+     "correct": true,
+     "explanation": "Yes: 1971."
+    },
+    {
+     "id": "c",
+     "text": "A Basic Treaty with the GDR",
+     "correct": true,
+     "explanation": "Yes: ratified 1973."
+    },
+    {
+     "id": "d",
+     "text": "German reunification",
+     "correct": false,
+     "explanation": "No: that came in 1990."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these did Gorbachev do in foreign policy? Choose all that apply.",
+   "factIds": [
+    "F-LEAD-18",
+    "F-LEAD-20",
+    "F-LEAD-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Halted Soviet missile deployments within a month of taking power",
+     "correct": true,
+     "explanation": "Yes: 1985."
+    },
+    {
+     "id": "b",
+     "text": "Withdrew Soviet troops from Afghanistan",
+     "correct": true,
+     "explanation": "Yes: completed in February 1989."
+    },
+    {
+     "id": "c",
+     "text": "Abandoned the Brezhnev Doctrine",
+     "correct": true,
+     "explanation": "Yes: no tanks in 1989."
+    },
+    {
+     "id": "d",
+     "text": "Invaded Poland to crush Solidarity",
+     "correct": false,
+     "explanation": "No: he did not intervene."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Reagan was offering to withdraw American intermediate-range missiles if the Soviets dismantled theirs.” Which argument does it support?",
+   "factIds": [
+    "F-LEAD-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Reagan combined pressure with an offer to negotiate",
+     "correct": true,
+     "explanation": "Correct: the 'zero option' later shaped the INF Treaty."
+    },
+    {
+     "id": "b",
+     "text": "Reagan refused all negotiation",
+     "correct": false,
+     "explanation": "The fact shows the opposite."
+    },
+    {
+     "id": "c",
+     "text": "Reagan wanted more missiles in Europe for ever",
+     "correct": false,
+     "explanation": "He offered to remove them."
+    },
+    {
+     "id": "d",
+     "text": "The USSR rejected the INF Treaty",
+     "correct": false,
+     "explanation": "It signed it in 1987."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Gorbachev placed at least as much importance on relations with Western Europe as with the US.” Which argument does it support?",
+   "factIds": [
+    "F-LEAD-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev saw the Cold War as a European as well as a superpower problem",
+     "correct": true,
+     "explanation": "Correct: the 'European home'."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev ignored Western Europe",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev only cared about the US",
+     "correct": false,
+     "explanation": "Not what the fact says."
+    },
+    {
+     "id": "d",
+     "text": "Western Europe opposed Gorbachev",
+     "correct": false,
+     "explanation": "Thatcher could 'do business' with him."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Brandt's Ostpolitik insisted that the GDR was illegitimate and must be absorbed at once.”",
+   "factIds": [
+    "F-LEAD-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Brandt abandoned that insistence: 'one German nation, two German states'",
+     "correct": true,
+     "explanation": "Correct: that was Adenauer's line."
+    },
+    {
+     "id": "b",
+     "text": "Brandt was Chancellor in 1990",
+     "correct": false,
+     "explanation": "He was Chancellor 1969–1974."
+    },
+    {
+     "id": "c",
+     "text": "Brandt never visited the GDR",
+     "correct": false,
+     "explanation": "He went to Erfurt in 1970."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Brandt accepted the GDR."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Reagan was President when Bush and Gorbachev met at Malta in December 1989.”",
+   "factIds": [
+    "F-LEAD-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bush was President at Malta",
+     "correct": true,
+     "explanation": "Correct: Reagan's term ended in January 1989."
+    },
+    {
+     "id": "b",
+     "text": "Malta was in 1979",
+     "correct": false,
+     "explanation": "It was in December 1989."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev was not at Malta",
+     "correct": false,
+     "explanation": "He met Bush there."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Bush, not Reagan, was President."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the impact of leaders on the Cold War between 1969 and 1991. Is Brandt's period as Mayor of West Berlin in 1961 inside or outside the timeframe?",
+   "factIds": [
+    "F-LEAD-03"
+   ],
+   "timeframe": [
+    1969,
+    1991
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: use it briefly to explain where his ideas came from",
+     "correct": true,
+     "explanation": "Correct: the question begins in 1969."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1961 is before 1969."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Brandt was a leader",
+     "correct": false,
+     "explanation": "The date decides the timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Brandt kneel in Warsaw?",
+   "factIds": [
+    "F-LEAD-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "In homage to the memory of the Warsaw Ghetto",
+     "correct": true,
+     "explanation": "Correct: a gesture of reconciliation."
+    },
+    {
+     "id": "b",
+     "text": "To sign the INF Treaty",
+     "correct": false,
+     "explanation": "That was Reagan and Gorbachev in 1987."
+    },
+    {
+     "id": "c",
+     "text": "To meet Gorbachev",
+     "correct": false,
+     "explanation": "Gorbachev came to power in 1985."
+    },
+    {
+     "id": "d",
+     "text": "To protest NATO missiles",
+     "correct": false,
+     "explanation": "That was Bonn in 1983."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the INF Treaty of December 1987 endorse, according to Judt?",
+   "factIds": [
+    "F-LEAD-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Reagan's earlier 'zero option' proposal",
+     "correct": true,
+     "explanation": "Correct: an entire class of missiles was removed."
+    },
+    {
+     "id": "b",
+     "text": "SDI",
+     "correct": false,
+     "explanation": "SDI was not part of the treaty."
+    },
+    {
+     "id": "c",
+     "text": "The Brezhnev Doctrine",
+     "correct": false,
+     "explanation": "Gorbachev abandoned it."
+    },
+    {
+     "id": "d",
+     "text": "Ostpolitik",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What forced Brandt out of office in 1974?",
+   "factIds": [
+    "F-LEAD-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A spy scandal",
+     "correct": true,
+     "explanation": "Correct: his successors kept Ostpolitik."
+    },
+    {
+     "id": "b",
+     "text": "Defeat in the 1972 election",
+     "correct": false,
+     "explanation": "The SPD won in 1972."
+    },
+    {
+     "id": "c",
+     "text": "The fall of the Berlin Wall",
+     "correct": false,
+     "explanation": "That was in 1989."
+    },
+    {
+     "id": "d",
+     "text": "Soviet pressure",
+     "correct": false,
+     "explanation": "Not the reason given."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which reform did Gorbachev begin in the autumn of 1986?",
+   "factIds": [
+    "F-LEAD-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Freeing Sakharov, relaxing censorship and stopping the jamming of foreign radio",
+     "correct": true,
+     "explanation": "Correct: glasnost in practice."
+    },
+    {
+     "id": "b",
+     "text": "Invading Afghanistan",
+     "correct": false,
+     "explanation": "That was 1979, under Brezhnev."
+    },
+    {
+     "id": "c",
+     "text": "Building the Berlin Wall",
+     "correct": false,
+     "explanation": "That was 1961."
+    },
+    {
+     "id": "d",
+     "text": "Abolishing the Soviet Union",
+     "correct": false,
+     "explanation": "That came in 1991."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which Reagan adviser favoured arms control agreements?",
+   "factIds": [
+    "F-LEAD-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "George Shultz",
+     "correct": true,
+     "explanation": "Correct: Weinberger was sceptical."
+    },
+    {
+     "id": "b",
+     "text": "Caspar Weinberger",
+     "correct": false,
+     "explanation": "He was sceptical of arms control."
+    },
+    {
+     "id": "c",
+     "text": "Egon Bahr",
+     "correct": false,
+     "explanation": "He was Brandt's adviser."
+    },
+    {
+     "id": "d",
+     "text": "Aleksandr Yakovlev",
+     "correct": false,
+     "explanation": "He advised Gorbachev."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-LEADERS-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was Gorbachev the main reason for the end of the Cold War between 1985 and 1991?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Gorbachev",
+     "answer": "factor",
+     "explanation": "The named factor: a leader."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for the end of the Cold War",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1985 and 1991",
+     "answer": "timeframe",
+     "explanation": "From his appointment to the Soviet collapse."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Whether Gorbachev outweighed Reagan, economics and popular movements."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the impact of Reagan and Gorbachev on the Cold War between 1981 and 1991.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "Reagan and Gorbachev",
+     "answer": "factor",
+     "explanation": "Two leaders from two regions."
+    },
+    {
+     "id": "s3",
+     "text": "the impact … on the Cold War",
+     "answer": "scope",
+     "explanation": "What must be compared."
+    },
+    {
+     "id": "s4",
+     "text": "between 1981 and 1991",
+     "answer": "timeframe",
+     "explanation": "Reagan's presidency to the Soviet collapse."
+    },
+    {
+     "id": "s5",
+     "text": "impact",
+     "answer": "judgement",
+     "explanation": "Whose actions changed the Cold War more, and how."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Gorbachev the main reason for the end of the Cold War between 1985 and 1991?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev was the decisive individual, because only he could choose not to defend the Soviet empire by force; but he acted under economic strain and Reagan's pressure, and Eastern Europeans made the revolutions themselves.",
+     "correct": true,
+     "explanation": "Correct: weighs the named leader."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev became leader in 1985.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev ended the Cold War alone.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the aims and achievements of Brandt's Ostpolitik between 1969 and 1974.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Brandt aimed to ease the human costs of division by dealing directly with the East, and he achieved treaties accepting the post-war borders; but the price was accepting division for the time being.",
+     "correct": true,
+     "explanation": "Correct: aims, achievements and limits."
+    },
+    {
+     "id": "b",
+     "text": "Brandt was Chancellor from 1969.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Ostpolitik was about the East.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "Ostpolitik reunified Germany.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1983 Reagan announced the Strategic Defense Initiative.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the old Soviet leaders found SDI threatening, it made them less willing to compromise in the short run.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In 1970 Brandt signed a treaty with Moscow.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that Bonn accepted the post-war frontiers, so fears of German revanchism in the East were eased.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "'One German nation, two German states'",
+     "right": "Brandt accepted the GDR to ease division",
+     "explanation": "Ostpolitik."
+    },
+    {
+     "left": "US defence spending up 6 per cent in 1985",
+     "right": "Reagan raised the cost of the arms race",
+     "explanation": "Unprecedented in peacetime."
+    },
+    {
+     "left": "'Ideology' no basis for foreign policy (1986)",
+     "right": "Gorbachev broke with Soviet tradition",
+     "explanation": "New thinking."
+    },
+    {
+     "left": "The US's 'remarkably small part' in 1989",
+     "right": "Gorbachev's choices were decisive",
+     "explanation": "Judt."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Reagan won the Cold War.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Reagan's rearmament, including SDI, raised the cost of the arms race for the USSR, but, as Judt argues, it did not by itself break the Soviet system; it took Gorbachev's decision to respond with reform for the Cold War to end.",
+     "correct": true,
+     "explanation": "Correct: evidence, qualification and historian."
+    },
+    {
+     "id": "b",
+     "text": "Reagan definitely won the Cold War.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Reagan was President from 1981.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Reagan did everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Brandt's Ostpolitik was a surrender to the Soviet Union.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ostpolitik eased human contacts and fears of revanchism, and the Helsinki framework it helped create contained human rights clauses that later aided dissidents; Bonn also kept affirming 'one German nation'.",
+     "correct": true,
+     "explanation": "Correct: long-term effects and evidence."
+    },
+    {
+     "id": "b",
+     "text": "Brandt won a Nobel Prize.",
+     "correct": false,
+     "explanation": "Not an argument about surrender."
+    },
+    {
+     "id": "c",
+     "text": "Brandt was popular.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "Germany was divided.",
+     "correct": false,
+     "explanation": "A fact, not a counter."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the impact of Reagan and Gorbachev on the Cold War between 1981 and 1991.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by who decided whether the Cold War ended, Gorbachev's impact was greater, because only he could abandon the Brezhnev Doctrine; Reagan's impact lay in raising the pressure and accepting partnership when it was offered.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Reagan and Gorbachev both did many things.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, leaders are important.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, both were equally important in every way.",
+     "correct": false,
+     "explanation": "No criterion."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the aims and achievements of Brandt's Ostpolitik between 1969 and 1974.” Sort each plan point into AIMS or ACHIEVEMENTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Aims"
+    },
+    {
+     "id": "effects",
+     "label": "Achievements"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To 'overcome Yalta' through many contacts",
+     "answer": "causes",
+     "explanation": "Bahr's strategy."
+    },
+    {
+     "id": "s2",
+     "text": "To ease fears of West German revanchism",
+     "answer": "causes",
+     "explanation": "Normalising relations."
+    },
+    {
+     "id": "s3",
+     "text": "Treaties with Moscow and Warsaw (1970)",
+     "answer": "effects",
+     "explanation": "Frontiers accepted."
+    },
+    {
+     "id": "s4",
+     "text": "The Basic Treaty with the GDR (1973)",
+     "answer": "effects",
+     "explanation": "Two German states."
+    },
+    {
+     "id": "s5",
+     "text": "The Nobel Peace Prize",
+     "answer": "effects",
+     "explanation": "International recognition."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-LEADERS-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was Gorbachev the main reason for the end of the Cold War between 1985 and 1991?",
+   "commandTerm": "to what extent",
+   "namedFactor": "Gorbachev",
+   "features": [
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1985,
+    1991
+   ],
+   "scope": "the USSR",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Gorbachev, weighed first",
+    "timeframe": "1985–1991",
+    "scope": "The end of the Cold War",
+    "judgement": "Whether Gorbachev outweighed Reagan, economics and popular movements"
+   },
+   "modelPlan": {
+    "thesis": "Gorbachev was the decisive individual, because only he could choose not to defend the Soviet empire by force; but he acted under economic strain and Reagan's pressure, and Eastern Europeans made the revolutions themselves.",
+    "arguments": [
+     {
+      "claim": "Gorbachev's new thinking and concessions (named factor first).",
+      "evidence": [
+       "F-LEAD-18",
+       "F-LEAD-19"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Abandoning the Brezhnev Doctrine.",
+      "evidence": [
+       "F-LEAD-21"
+      ]
+     },
+     {
+      "claim": "Reagan's pressure and the zero option.",
+      "evidence": [
+       "F-LEAD-13",
+       "F-LEAD-18"
+      ]
+     },
+     {
+      "claim": "Judt on the US role in 1989.",
+      "evidence": [
+       "F-LEAD-23"
+      ]
+     }
+    ],
+    "counter": "The Office of the Historian says the Cold War ended 'on U.S. terms'.",
+    "judgementCriterion": "Who decided whether the Cold War ended? Gorbachev, because only Moscow could let Eastern Europe go."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Gorbachev was the main reason for the end of the Cold War, because only he could decide not to defend the Soviet empire by force.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He signed the INF Treaty in 1987, withdrew from Afghanistan by February 1989 and abandoned the Brezhnev Doctrine, so no Soviet tanks stopped the revolutions of 1989.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the Cold War in Europe could end peacefully, since its central military guarantee had been withdrawn.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Reagan's 'zero option' shaped the INF Treaty, and the Office of the Historian argues the Cold War ended 'on U.S. terms'.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Gorbachev was therefore the decisive individual, though he acted in circumstances others had helped create.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Gorbachev"
+    ],
+    "synonyms": [
+     "new thinking",
+     "perestroika",
+     "glasnost"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Brezhnev Doctrine",
+     "INF",
+     "Afghanistan"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-LEADERS-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Brandt's Ostpolitik did more to reduce Cold War tension in Europe than any superpower agreement.” Discuss with reference to the period 1969 to 1975.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition",
+    "leader"
+   ],
+   "timeframe": [
+    1969,
+    1975
+   ],
+   "scope": "Europe",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: Ostpolitik did more than superpower agreements",
+    "timeframe": "1969–1975",
+    "scope": "Cold War tension in Europe",
+    "judgement": "Whether Brandt's treaties mattered more than SALT and Helsinki"
+   },
+   "modelPlan": {
+    "thesis": "The claim is largely valid for Central Europe: Brandt's treaties accepted the borders that had caused most tension and prepared the ground for Helsinki; but superpower agreements such as the Berlin accord and SALT were needed to secure them.",
+    "arguments": [
+     {
+      "claim": "For: treaties accepting the frontiers.",
+      "evidence": [
+       "F-LEAD-05"
+      ]
+     },
+     {
+      "claim": "For: Ostpolitik prepared Helsinki (Judt).",
+      "evidence": [
+       "F-LEAD-08",
+       "F-LEAD-09"
+      ]
+     },
+     {
+      "claim": "Against: the four-power Berlin agreement depended on the superpowers.",
+      "evidence": [
+       "F-LEAD-05"
+      ]
+     },
+     {
+      "claim": "Against: Ostpolitik needed US-Soviet détente as its setting.",
+      "evidence": [
+       "F-LEAD-03"
+      ]
+     }
+    ],
+    "counter": "Brandt acted only because the US had shown it would not fight for German unity, so the superpowers set the limits.",
+    "judgementCriterion": "Where was tension greatest? In Central Europe, where Brandt's treaties addressed it directly."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Brandt's Ostpolitik did more than any superpower agreement to reduce tension in Central Europe.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Between 1970 and 1974 Bonn signed treaties with Moscow, Warsaw and Prague accepting the post-war frontiers and a Basic Treaty with the GDR.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the borders that had fuelled fears of German revanchism were accepted, so, as Judt argues, the USSR achieved its objectives and Helsinki became possible.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the four-power agreement on Berlin in 1971 needed the superpowers, and Brandt acted only because the US had shown it would not fight for German unity.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid for Central Europe, though Ostpolitik worked within limits set by the superpowers.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Ostpolitik",
+     "Brandt"
+    ],
+    "synonyms": [
+     "rapprochement",
+     "two German states"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Basic Treaty",
+     "Helsinki",
+     "frontiers"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-LEADERS-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the impact of Reagan on the Cold War between 1981 and 1989.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1981,
+    1989
+   ],
+   "scope": "the US",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "Reagan's impact",
+    "timeframe": "1981–1989",
+    "scope": "The Cold War",
+    "judgement": "How far his policies, rather than Soviet choices, changed the Cold War"
+   },
+   "modelPlan": {
+    "thesis": "Reagan's impact was significant but double-edged: his rearmament raised the cost of the Cold War and his later partnership with Gorbachev produced the INF Treaty, but his early hard line hardened Soviet attitudes, and Soviet choices proved decisive.",
+    "arguments": [
+     {
+      "claim": "Rearmament and SDI.",
+      "evidence": [
+       "F-LEAD-12",
+       "F-LEAD-13"
+      ]
+     },
+     {
+      "claim": "Negotiation and human rights.",
+      "evidence": [
+       "F-LEAD-11",
+       "F-LEAD-16"
+      ]
+     },
+     {
+      "claim": "Partnership with Gorbachev: INF.",
+      "evidence": [
+       "F-LEAD-17"
+      ]
+     },
+     {
+      "claim": "Limits: Judt's verdict.",
+      "evidence": [
+       "F-LEAD-14",
+       "F-LEAD-15"
+      ]
+     }
+    ],
+    "counter": "Judt argues that it is 'not quite accurate' to say Reagan's build-up broke the USSR.",
+    "judgementCriterion": "By what criterion? Change in the relationship: the decisive change came after 1985, when Gorbachev responded."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Reagan's impact on the Cold War was significant but depended on Gorbachev's response.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Reagan announced SDI in 1983 and raised defence spending by 6 per cent in 1985, yet in December 1987 he signed the INF Treaty with Gorbachev.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that he raised the pressure on the Soviet Union and then accepted partnership when it was offered, so the arms race was reversed.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues his hard line made the old Soviet leaders 'even less disposed to compromise', and that it is 'not quite accurate' to say his build-up broke the USSR.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Reagan's impact was therefore real but secondary to Gorbachev's decisions.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Reagan"
+    ],
+    "synonyms": [
+     "SDI",
+     "rearmament",
+     "evil empire"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "INF",
+     "Shultz",
+     "zero option"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-LEADERS-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the impact of Reagan and Gorbachev on the Cold War between 1981 and 1991.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "leader"
+   ],
+   "timeframe": [
+    1981,
+    1991
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "Two leaders from two regions",
+    "timeframe": "1981–1991",
+    "scope": "The Cold War",
+    "judgement": "Whose impact was greater, and how they differed"
+   },
+   "modelPlan": {
+    "thesis": "Both leaders moved from confrontation to partnership and together reversed the arms race, but Reagan's impact lay in raising the pressure, whereas Gorbachev's lay in choosing not to defend the Soviet empire, which made his role decisive.",
+    "arguments": [
+     {
+      "claim": "Similarity: both moved to partnership.",
+      "evidence": [
+       "F-LEAD-17",
+       "F-LEAD-18"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both negotiated the INF Treaty.",
+      "evidence": [
+       "F-LEAD-17"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: pressure against concession.",
+      "evidence": [
+       "F-LEAD-13",
+       "F-LEAD-19"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: only Gorbachev could let Eastern Europe go.",
+      "evidence": [
+       "F-LEAD-21",
+       "F-LEAD-23"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "The Office of the Historian's verdict that the Cold War ended 'on U.S. terms' favours Reagan.",
+    "judgementCriterion": "Which difference mattered most? Gorbachev's abandonment of the Brezhnev Doctrine, which no American could have decided."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Reagan and Gorbachev both changed the Cold War, but in different ways.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Both signed the INF Treaty in 1987, but Reagan had first raised defence spending and announced SDI, whereas Gorbachev halted Soviet deployments and offered concessions.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Reagan raised the cost of the Cold War, while Gorbachev decided to stop paying it, so their policies were complementary.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Office of the Historian argues the Cold War ended 'on U.S. terms', which gives Reagan's pressure more weight.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore Gorbachev's choice not to defend the Soviet empire, which Judt sees as more important than American pressure.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Reagan",
+     "Gorbachev"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "INF",
+     "SDI",
+     "Brezhnev Doctrine"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-LEADERS-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the aims and achievements of Brandt's Ostpolitik between 1969 and 1974.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part",
+    "leader"
+   ],
+   "timeframe": [
+    1969,
+    1974
+   ],
+   "scope": "West Germany",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: aims AND achievements",
+    "timeframe": "1969–1974",
+    "scope": "Brandt's Ostpolitik",
+    "judgement": "Which aim mattered most, and which achievement lasted"
+   },
+   "modelPlan": {
+    "thesis": "Brandt aimed to ease the human costs of division by dealing directly with the East, and he achieved treaties accepting the post-war borders; but the price was accepting division for the time being.",
+    "arguments": [
+     {
+      "claim": "Aim: change through rapprochement.",
+      "evidence": [
+       "F-LEAD-04"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Aim: ease fears of revanchism and human contacts.",
+      "evidence": [
+       "F-LEAD-07"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Achievement: the treaties of 1970–74.",
+      "evidence": [
+       "F-LEAD-05"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Achievement: popularity, Nobel Prize and continuity.",
+      "evidence": [
+       "F-LEAD-06",
+       "F-LEAD-07"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Judt sees the treaties as a Soviet gain, completing Moscow's objectives with Helsinki.",
+    "judgementCriterion": "Which achievement lasted? The policy itself: Schmidt and Kohl never deviated from it."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Brandt's main aim was to ease the division of Europe by dealing directly with the East.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Bahr's 'change through rapprochement' led to treaties with Moscow and Warsaw in 1970, the Berlin agreement of 1971 and the Basic Treaty ratified in 1973.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that West Germany accepted the post-war borders, so human contacts grew and fears of revanchism eased.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues these treaties, with Helsinki, gave the USSR what it had long sought.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Ostpolitik therefore achieved its aim of easing tension, at the price of accepting division for the time being.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Ostpolitik"
+    ],
+    "synonyms": [
+     "Brandt",
+     "rapprochement"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Basic Treaty",
+     "Bahr",
+     "two German states"
+    ],
+    "parts": [
+     {
+      "name": "aims",
+      "terms": [
+       "aim",
+       "intended",
+       "wanted"
+      ]
+     },
+     {
+      "name": "achievements",
+      "terms": [
+       "achieved",
+       "result",
+       "success"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-LEADERS-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the impact of Gorbachev's foreign policy on Eastern Europe between 1985 and 1989.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1985,
+    1989
+   ],
+   "scope": "Eastern Europe",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Gorbachev's foreign policy",
+    "timeframe": "1985–1989",
+    "scope": "Eastern Europe",
+    "judgement": "How his choices connected to the revolutions of 1989"
+   },
+   "modelPlan": {
+    "thesis": "Gorbachev's foreign policy removed the threat of Soviet intervention and legitimised calls for reform, which allowed the peoples of Eastern Europe to overthrow their regimes peacefully in 1989.",
+    "arguments": [
+     {
+      "claim": "New thinking: ideology no basis for policy.",
+      "evidence": [
+       "F-LEAD-18"
+      ]
+     },
+     {
+      "claim": "Withdrawal from Afghanistan.",
+      "evidence": [
+       "F-LEAD-20"
+      ]
+     },
+     {
+      "claim": "Abandoning the Brezhnev Doctrine.",
+      "evidence": [
+       "F-LEAD-21"
+      ]
+     },
+     {
+      "claim": "Malta and German unity.",
+      "evidence": [
+       "F-LEAD-22"
+      ]
+     }
+    ],
+    "counter": "The revolutions were made by Eastern Europeans; Gorbachev permitted rather than caused them.",
+    "judgementCriterion": "How did his choices connect to 1989? By removing the Soviet guarantee that had crushed protest in 1953, 1956 and 1968."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Gorbachev's foreign policy made the revolutions of 1989 possible by removing the threat of Soviet intervention.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He declared in 1986 that ideology was no basis for foreign policy, withdrew from Afghanistan by February 1989 and abandoned the Brezhnev Doctrine.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Eastern European regimes could no longer rely on Soviet tanks, so when popular protest came, they fell.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the revolutions were made by Eastern Europeans themselves; Gorbachev permitted change rather than causing it.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Gorbachev's impact was therefore decisive as a permissive condition of 1989.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Gorbachev"
+    ],
+    "synonyms": [
+     "foreign policy",
+     "new thinking"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Brezhnev Doctrine",
+     "Eastern Europe",
+     "1989"
+    ]
+   }
+  }
+ ]
+}

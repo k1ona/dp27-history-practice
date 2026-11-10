@@ -1,0 +1,2780 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 20,
+  "openingProblem": {
+   "problem": "In 1958 Khrushchev demanded that the West leave Berlin. In 1961, instead of war, a wall went up across the city, and Western leaders were privately relieved. How did the most dangerous crisis in Europe end with a wall instead of a war?",
+   "predictionPrompt": "Your prediction in one line: who gained most from the Berlin Wall?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Why Berlin again? The ultimatum of 1958",
+    "body": "Ten years after the blockade, Berlin was again at the centre of the Cold War. On 10 November 1958 Nikita Khrushchev demanded that the United States, Britain and France withdraw their forces from West Berlin; soon afterwards he gave them six months to do so. The West treated this as an ultimatum, and a three-year crisis began.\n\nWhy did Khrushchev act? The first reason was the **exodus**. West Berlin lay deep inside East Germany, and movement between the sectors of the city was still free. East Germans who wanted to leave could simply cross into West Berlin and fly to West Germany. The flow drained the GDR of workers and showed the world that people were voting with their feet against Communism. The divided city also highlighted the contrast between the two systems: the US held up prosperous West Berlin as a symbol of capitalist success.\n\nThe second reason was **West Germany's strength**. Khrushchev wanted to check the growing military power of the Federal Republic, and Judt argues that he hoped to use Berlin as a lever. If the Western powers left and Berlin became a \"free city\", American credibility in Europe would be damaged and neutralist, anti-nuclear feeling in West Germany would grow. If they stayed, the Soviet Union might trade its consent for a Western promise never to give Bonn nuclear weapons.\n\nThe timing reflected Soviet confidence. After the launch of Sputnik in 1957 Khrushchev boasted of Soviet technological superiority and growing stockpiles of intercontinental missiles. Unlike in 1948, West Berlin could no longer be supplied by air: it was too large and too prosperous. Any new blockade would force a far more dangerous confrontation.\n\nThe Western powers refused to leave. They argued that the Soviet Union had itself broken the Potsdam agreements by making East Berlin part of the East German state. Eisenhower believed that the freedom of West Berlin required a continuing American presence.\n\nThis mattered because Khrushchev's real problem, the flight of East Germans, could not be solved by pressure on the West, which meant that if the West stood firm, the Soviets would have to find another solution.",
+    "argumentsThatWork": [
+     {
+      "claim": "The exodus of East Germans was the underlying cause.",
+      "evidence": [
+       "F-B61-02",
+       "F-B61-04"
+      ],
+      "strongestCounter": "Khrushchev also had wider aims over West Germany."
+     },
+     {
+      "claim": "Khrushchev wanted to weaken West Germany and US credibility.",
+      "evidence": [
+       "F-B61-03"
+      ],
+      "strongestCounter": "Judt calls the 'free city' aim 'ostensible'."
+     },
+     {
+      "claim": "Soviet confidence after Sputnik encouraged pressure.",
+      "evidence": [
+       "F-B61-18"
+      ],
+      "strongestCounter": "Soviet missile strength was less than Khrushchev claimed."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the emigration of East Germans the main cause of the Berlin crisis of 1958–1961?",
+     "Analyse the reasons why the Berlin crisis of 1958–1961 did not lead to war."
+    ],
+    "useItInAnEssay": {
+     "claim": "The emigration of East Germans was the underlying cause of the crisis, because it threatened the GDR's survival.",
+     "prove": "Free movement between the sectors of Berlin had produced a mass exodus, which grew to a flood after November 1958.",
+     "explain": "This meant that the GDR was losing its workforce and its credibility, so Khrushchev needed to close the Berlin escape route.",
+     "test": "However, Judt argues that Khrushchev also hoped to dent American credibility and stop West Germany obtaining nuclear weapons.",
+     "judge": "Emigration was therefore the main cause, while the struggle over West Germany's power explains Khrushchev's methods."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Khrushchev demand in November 1958?",
+      "factIds": [
+       "F-B61-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That the Western powers withdraw their forces from West Berlin within six months",
+        "correct": true,
+        "explanation": "Correct: the West treated it as an ultimatum."
+       },
+       {
+        "id": "b",
+        "text": "That the Berlin Wall be demolished",
+        "correct": false,
+        "explanation": "The Wall did not exist until 1961."
+       },
+       {
+        "id": "c",
+        "text": "That the GDR join NATO",
+        "correct": false,
+        "explanation": "Not possible."
+       },
+       {
+        "id": "d",
+        "text": "That the US leave Cuba",
+        "correct": false,
+        "explanation": "Unrelated."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Judt, what might Khrushchev trade for accepting the Western presence in Berlin?",
+      "factIds": [
+       "F-B61-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A firm Western commitment to deny West Germany nuclear weapons",
+        "correct": true,
+        "explanation": "Correct: a key Soviet fear."
+       },
+       {
+        "id": "b",
+        "text": "Withdrawal of US troops from Japan",
+        "correct": false,
+        "explanation": "Not mentioned."
+       },
+       {
+        "id": "c",
+        "text": "Marshall aid for the GDR",
+        "correct": false,
+        "explanation": "Not mentioned."
+       },
+       {
+        "id": "d",
+        "text": "Recognition of the PRC",
+        "correct": false,
+        "explanation": "Not mentioned."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “By 1958 West Berlin was too populous and prosperous to be supplied by air.” Which argument does it support best?",
+      "factIds": [
+       "F-B61-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A new blockade would be far more dangerous than in 1948",
+        "correct": true,
+        "explanation": "Correct: an airlift was no longer possible."
+       },
+       {
+        "id": "b",
+        "text": "The West would easily repeat the airlift",
+        "correct": false,
+        "explanation": "The fact says it could not."
+       },
+       {
+        "id": "c",
+        "text": "West Berlin was poor in 1958",
+        "correct": false,
+        "explanation": "It was prosperous."
+       },
+       {
+        "id": "d",
+        "text": "The Soviets planned another airlift",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "Diplomacy and deadlock, 1959–1961",
+    "body": "The crisis simmered for nearly three years. Foreign ministers met in Geneva in the summer of 1959 without agreement. Khrushchev and Eisenhower made some progress at Camp David later that year, and a summit was planned for Paris in May 1960. But on 1 May 1960 the Soviets shot down an American U-2 spy plane, and the Paris summit collapsed. Khrushchev decided to wait for the next American president.\n\nKhrushchev repeated his demands in 1960 and again in June 1961, at a summit in Vienna with the new president, **John F. Kennedy**. The threat was always the same: if the Western powers did not leave, the Soviet Union would sign a separate peace treaty with the GDR, hand over its rights in Berlin, and leave the West to negotiate access with an East German state it did not recognise. At Vienna Khrushchev threatened to \"liquidate\" Western rights in Berlin if there was no settlement by the end of the year.\n\nKennedy's response combined toughness with restraint. In public he took a hard line: he activated 150,000 reservists and increased defence spending, preparing for a possible conflict. In private, Judt shows, the Americans were more accommodating. Unlike the West Germans, they accepted the reality of an East German state. Eisenhower had told the British Prime Minister in March 1960 that the West could not \"stand on a dime for the next fifty years\". At Vienna Kennedy assured Khrushchev that the US did not wish to deprive the Soviet Union of its ties in Eastern Europe, a veiled acknowledgement that what the Soviets held, they could keep.\n\nWhen East Germany began restricting travel, Kennedy publicly reaffirmed the Western commitment to **West** Berlin. By stressing the western half, he implicitly conceded that East Berlin lay in the Soviet sphere. Meanwhile the exodus became a flood: 30,415 people left for the West in July 1961, and 21,828 more in the first week of August, half of them under 25. At this rate, Judt writes, the GDR \"would soon be empty\".\n\nThis mattered because each side made clear what it would not give up (West Berlin for the US, East Berlin for the USSR), which meant that a solution that left both halves in place became possible.",
+    "argumentsThatWork": [
+     {
+      "claim": "The U-2 incident and Vienna showed diplomacy had failed.",
+      "evidence": [
+       "F-B61-05",
+       "F-B61-06"
+      ],
+      "strongestCounter": "Camp David showed progress was possible."
+     },
+     {
+      "claim": "Kennedy combined public firmness with private restraint.",
+      "evidence": [
+       "F-B61-07",
+       "F-B61-08"
+      ],
+      "strongestCounter": "His hard line raised the risk of war."
+     },
+     {
+      "claim": "The accelerating exodus forced the Soviets to act.",
+      "evidence": [
+       "F-B61-09"
+      ],
+      "strongestCounter": "Khrushchev's threats had made the flight worse."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate Kennedy's handling of the Berlin crisis in 1961.",
+     "Compare and contrast the aims of Khrushchev and Kennedy in the Berlin crisis of 1961."
+    ],
+    "useItInAnEssay": {
+     "claim": "Kennedy handled the Berlin crisis well because he combined public firmness with a private signal of what he would accept.",
+     "prove": "He activated 150,000 reservists, but at Vienna told Khrushchev the US did not wish to deprive the USSR of its ties in Eastern Europe, and he publicly reaffirmed the commitment only to West Berlin.",
+     "explain": "This meant that Khrushchev could close the border in the East without challenging the West, so a solution short of war became possible.",
+     "test": "However, his firmness at Vienna also raised the risk of war, and East Germans paid the price when the Wall went up.",
+     "judge": "Kennedy's handling was therefore effective in avoiding war, at the cost of accepting a divided city."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many reservists did Kennedy activate in 1961? (number)",
+      "factIds": [
+       "F-B61-07"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 150000,
+        "tolerance": 1000,
+        "explanation": "150,000."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What wrecked the planned Paris summit of May 1960?",
+      "factIds": [
+       "F-B61-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The shooting down of a U-2 spy plane",
+        "correct": true,
+        "explanation": "Correct: talks ceased."
+       },
+       {
+        "id": "b",
+        "text": "The building of the Wall",
+        "correct": false,
+        "explanation": "That was in 1961."
+       },
+       {
+        "id": "c",
+        "text": "The Cuban Missile Crisis",
+        "correct": false,
+        "explanation": "That was in 1962."
+       },
+       {
+        "id": "d",
+        "text": "Kennedy's election",
+        "correct": false,
+        "explanation": "That was in November 1960."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Kennedy publicly reasserted the commitment to West Berlin, implicitly conceding that East Berlin was in the Soviet sphere.” Which argument does it support best?",
+      "factIds": [
+       "F-B61-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Kennedy signalled what the US would and would not defend",
+        "correct": true,
+        "explanation": "Correct: West Berlin only."
+       },
+       {
+        "id": "b",
+        "text": "Kennedy demanded control of East Berlin",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Kennedy planned to abandon West Berlin",
+        "correct": false,
+        "explanation": "He reaffirmed it."
+       },
+       {
+        "id": "d",
+        "text": "Kennedy refused to discuss Berlin",
+        "correct": false,
+        "explanation": "He met Khrushchev at Vienna."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "The Wall, August–October 1961",
+    "body": "Khrushchev cut the knot. On 6 August 1961 the Allied foreign ministers, meeting in Paris, rejected yet another Soviet note. Moscow then authorised the East Germans to close the border. On the morning of **13 August 1961**, on the orders of the East German leader Walter Ulbricht, Berliners woke to find that a barbed-wire fence had gone up overnight between East and West Berlin. Within days it was being replaced by concrete walls and guard towers. Doors and windows of buildings on the border were blocked and then bricked up, and streets and squares were cut in half.\n\nThe **Berlin Wall** had three purposes: to stop the flow of migrants, to cut East Germany off from Western influence and to stabilise the GDR. It divided families overnight. The United States quickly condemned it, but did nothing to remove it, because it lay inside the Soviet sector.\n\nThe most dangerous moment came in October 1961. A dispute arose over whether East German guards, rather than Soviet ones, could inspect the papers of American diplomats crossing into East Berlin. For the Americans, accepting East German control would mean recognising the GDR. The US stationed tanks at the checkpoint, and the Soviets brought up their own tanks on the other side. For three days, Judt writes, Soviet and American tanks faced each other across the line. A wrong move could have led to war between two nuclear powers. Kennedy used back channels to suggest that if Khrushchev withdrew his tanks, the US would do the same. The standoff ended peacefully, and the Soviets reluctantly accepted the Allied right of access.\n\nThe Wall would stand for 28 years, until 9 November 1989, the most famous image of the Cold War in Europe.\n\nThis mattered because the Wall solved Khrushchev's problem without forcing the West to retreat, which meant that both sides could accept it, however much they condemned it in public.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Wall stopped the exodus and stabilised the GDR.",
+      "evidence": [
+       "F-B61-10",
+       "F-B61-11"
+      ],
+      "strongestCounter": "It was a confession that the GDR could not keep its people by consent."
+     },
+     {
+      "claim": "The checkpoint standoff showed the risk of war.",
+      "evidence": [
+       "F-B61-12"
+      ],
+      "strongestCounter": "Both sides used it to test rights, not to start a war."
+     },
+     {
+      "claim": "The Wall became the symbol of Cold War division.",
+      "evidence": [
+       "F-B61-10",
+       "F-B61-17"
+      ],
+      "strongestCounter": "In practice it reduced the danger over Berlin."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the causes and consequences of the building of the Berlin Wall in 1961.",
+     "Discuss the view that the building of the Berlin Wall was a defeat for the Soviet Union with reference to the period 1958 to 1961."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Berlin Wall was built because the flood of emigrants threatened to empty the GDR.",
+     "prove": "In July 1961 30,415 people left for the West, and in the first week of August 21,828 more, half of them under 25.",
+     "explain": "This meant that the GDR could not survive with an open border, so on 13 August 1961 Ulbricht closed it with barbed wire, soon replaced by concrete.",
+     "test": "However, the Wall was also a political solution: it ended the crisis without forcing the West out of West Berlin, which is why many Western leaders were privately relieved.",
+     "judge": "The Wall was therefore caused by the GDR's weakness and became the solution both superpowers could accept."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did the US not remove the Wall in 1961?",
+      "factIds": [
+       "F-B61-10",
+       "F-B61-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It lay in the Soviet sector, and a wall was better than war",
+        "correct": true,
+        "explanation": "Correct: the US condemned it but did not act."
+       },
+       {
+        "id": "b",
+        "text": "The US built it",
+        "correct": false,
+        "explanation": "It was built on Ulbricht's orders."
+       },
+       {
+        "id": "c",
+        "text": "The US was not in Berlin",
+        "correct": false,
+        "explanation": "US forces were in West Berlin."
+       },
+       {
+        "id": "d",
+        "text": "The UN ordered it to stay",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What caused the tank standoff at the checkpoint in October 1961?",
+      "factIds": [
+       "F-B61-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A dispute over whether East German guards could check US diplomats' papers",
+        "correct": true,
+        "explanation": "Correct: recognition of the GDR was at stake."
+       },
+       {
+        "id": "b",
+        "text": "A Soviet invasion of West Berlin",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "c",
+        "text": "The U-2 incident",
+        "correct": false,
+        "explanation": "That was in 1960."
+       },
+       {
+        "id": "d",
+        "text": "Kennedy's 'Ich bin ein Berliner' speech",
+        "correct": false,
+        "explanation": "That was in 1963."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Kennedy used back channels to propose that both sides withdraw their tanks.” Which argument does it support best?",
+      "factIds": [
+       "F-B61-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Both leaders wanted to avoid war over Berlin",
+        "correct": true,
+        "explanation": "Correct: the standoff ended peacefully."
+       },
+       {
+        "id": "b",
+        "text": "Kennedy wanted to start a war",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The tanks fought a battle",
+        "correct": false,
+        "explanation": "They withdrew."
+       },
+       {
+        "id": "d",
+        "text": "Khrushchev refused all contact",
+        "correct": false,
+        "explanation": "The back channel worked."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Outcome: a wall instead of a war",
+    "body": "Who won the Berlin crisis? In public, the Wall was a propaganda disaster for the Soviet bloc: a Communist state had to imprison its own people. But in private, Judt shows, many Western leaders were \"secretly relieved\". For three years Berlin had threatened to become the flashpoint of an international war. Kennedy and other Western leaders agreed that a wall was \"a far better outcome than a war\"; few could imagine asking their soldiers to \"die for Berlin\". Kennedy's Secretary of State, Dean Rusk, observed that the Wall \"would make a Berlin settlement easier\".\n\nJudt argues that the crisis revealed how much the two superpowers had in common. Moscow stopped raising the question of the Allies' status in Berlin; Washington accepted the reality of the East German government there and resisted West German pressure for nuclear weapons. Both had grown tired of their German clients. In the first decade of the Cold War, Adenauer in Bonn and Ulbricht in East Berlin had used their patrons' fear of losing credibility to \"blackmail them into 'hanging tough'\". Now both superpowers chose stability.\n\nThe Germans felt the change. The East German Communists were reassured that Moscow would not sell them out, though disappointed that Khrushchev stopped pressing for a peace treaty. West Germans, seeing the Americans acquiesce in the Wall, grew anxious that they might be abandoned, which is why Washington later repeated its promises, culminating in Kennedy's \"Ich bin ein Berliner\" speech of June 1963. By then the US had 250,000 troops in Europe.\n\nThe Wall ended Berlin's career as the crisis zone of world affairs, Judt concludes, although it took ten years to reach formal agreement on access. Yet the lessons of 1948 had been learned so well that during the Cuban Missile Crisis of 1962 Kennedy's advisers suspected that Khrushchev's real objective was still Berlin.\n\nThis mattered because the Wall stabilised the division of Europe for a generation, which meant that after 1961 the most dangerous confrontations of the Cold War moved away from Europe.",
+    "argumentsThatWork": [
+     {
+      "claim": "Western leaders were privately relieved: a wall was better than war.",
+      "evidence": [
+       "F-B61-13"
+      ],
+      "strongestCounter": "In public the West condemned the Wall."
+     },
+     {
+      "claim": "Both superpowers chose stability over their German clients' demands.",
+      "evidence": [
+       "F-B61-14",
+       "F-B61-15"
+      ],
+      "strongestCounter": "West Germans feared being abandoned."
+     },
+     {
+      "claim": "The Wall ended Berlin's role as the main flashpoint.",
+      "evidence": [
+       "F-B61-16"
+      ],
+      "strongestCounter": "Kennedy's advisers still feared a Berlin ploy in 1962."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that the building of the Berlin Wall was a defeat for the Soviet Union with reference to the period 1958 to 1961.",
+     "Analyse the reasons why the Berlin crisis of 1958–1961 did not lead to war."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Berlin crisis did not lead to war mainly because both superpowers preferred a divided city to a fight.",
+     "prove": "Kennedy reaffirmed only West Berlin, and Judt shows that Western leaders were 'secretly relieved' at the Wall, which they saw as 'a far better outcome than a war'.",
+     "explain": "This meant that Khrushchev could close the border without challenging the West's position, so neither side's vital interest was touched.",
+     "test": "However, the October tank standoff shows that war could have come by accident, and was avoided only through Kennedy's back channel.",
+     "judge": "The crisis therefore ended peacefully because the superpowers' interests, unlike their Germans clients' demands, could be reconciled."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Dean Rusk say about the Wall?",
+      "factIds": [
+       "F-B61-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That it would make a Berlin settlement easier",
+        "correct": true,
+        "explanation": "Correct: a private view."
+       },
+       {
+        "id": "b",
+        "text": "That it must be torn down at once",
+        "correct": false,
+        "explanation": "Not his view."
+       },
+       {
+        "id": "c",
+        "text": "That it meant war",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "That the US had built it",
+        "correct": false,
+        "explanation": "Not his view."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many US troops were in Europe by 1963, according to Judt? (number)",
+      "factIds": [
+       "F-B61-15"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 250000,
+        "tolerance": 1000,
+        "explanation": "250,000."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-BERLIN-1958-61-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt says the superpowers had allowed Adenauer and Ulbricht to blackmail them into 'hanging tough'.” Which argument does it support best?",
+      "factIds": [
+       "F-B61-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The German clients, not only the superpowers, drove the confrontation over Berlin",
+        "correct": true,
+        "explanation": "Correct: after 1961 both patrons chose stability."
+       },
+       {
+        "id": "b",
+        "text": "The superpowers controlled their clients completely",
+        "correct": false,
+        "explanation": "The fact suggests the opposite."
+       },
+       {
+        "id": "c",
+        "text": "Adenauer and Ulbricht wanted a compromise",
+        "correct": false,
+        "explanation": "They pushed for toughness."
+       },
+       {
+        "id": "d",
+        "text": "The Wall was built by Adenauer",
+        "correct": false,
+        "explanation": "It was built on Ulbricht's orders."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1958,
+      "month": 11,
+      "day": 10,
+      "text": "Khrushchev's Berlin ultimatum",
+      "factId": "F-B61-01"
+     },
+     {
+      "year": 1959,
+      "text": "Geneva talks; Camp David meeting",
+      "factId": "F-B61-05"
+     },
+     {
+      "year": 1960,
+      "month": 5,
+      "text": "U-2 shot down; Paris summit collapses",
+      "factId": "F-B61-05"
+     },
+     {
+      "year": 1961,
+      "month": 6,
+      "text": "Vienna summit: Khrushchev's new ultimatum",
+      "factId": "F-B61-06"
+     },
+     {
+      "year": 1961,
+      "month": 7,
+      "text": "30,415 East Germans leave for the West",
+      "factId": "F-B61-09"
+     },
+     {
+      "year": 1961,
+      "month": 8,
+      "day": 13,
+      "text": "Barbed wire divides Berlin",
+      "factId": "F-B61-10"
+     },
+     {
+      "year": 1961,
+      "month": 10,
+      "text": "Tank standoff at the checkpoint",
+      "factId": "F-B61-12"
+     },
+     {
+      "year": 1960,
+      "month": 3,
+      "text": "Eisenhower: the West cannot 'stand on a dime'",
+      "factId": "F-B61-08"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Mass exodus through Berlin threatens the GDR",
+      "factId": "F-B61-02"
+     },
+     {
+      "id": "n2",
+      "text": "Khrushchev's ultimatum: the West must leave",
+      "factId": "F-B61-01"
+     },
+     {
+      "id": "n3",
+      "text": "Deadlock: Geneva, U-2, Vienna",
+      "factId": "F-B61-06"
+     },
+     {
+      "id": "n4",
+      "text": "Kennedy defends only West Berlin; the exodus becomes a flood",
+      "factId": "F-B61-09"
+     },
+     {
+      "id": "n5",
+      "text": "The Wall closes the border",
+      "factId": "F-B61-10"
+     },
+     {
+      "id": "n6",
+      "text": "Relief on both sides; Berlin ceases to be the flashpoint",
+      "factId": "F-B61-16"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Khrushchev tried to solve the GDR's problem by pressuring the West"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "The West refused to leave"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Each side showed what it would not give up"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "The Soviets solved the exodus without touching West Berlin"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "A wall was better than a war for both"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Nikita Khrushchev",
+     "role": "Soviet leader",
+     "whyItMatters": "Issued the 1958 ultimatum; authorised the Wall.",
+     "factIds": [
+      "F-B61-01",
+      "F-B61-11"
+     ]
+    },
+    {
+     "name": "John F. Kennedy",
+     "role": "US President from 1961",
+     "whyItMatters": "Firm in public, restrained in private; defended West Berlin.",
+     "factIds": [
+      "F-B61-07",
+      "F-B61-08",
+      "F-B61-09"
+     ]
+    },
+    {
+     "name": "Walter Ulbricht",
+     "role": "East German leader",
+     "whyItMatters": "Ordered the barbed wire on 13 August 1961.",
+     "factIds": [
+      "F-B61-10"
+     ]
+    },
+    {
+     "name": "Dwight D. Eisenhower",
+     "role": "US President to January 1961",
+     "whyItMatters": "Refused to leave Berlin; met Khrushchev at Camp David.",
+     "factIds": [
+      "F-B61-05",
+      "F-B61-08"
+     ]
+    },
+    {
+     "name": "Konrad Adenauer",
+     "role": "West German Chancellor",
+     "whyItMatters": "Pressed the US to 'hang tough' (Judt).",
+     "factIds": [
+      "F-B61-14"
+     ]
+    },
+    {
+     "name": "Dean Rusk",
+     "role": "US Secretary of State",
+     "whyItMatters": "Said the Wall would make a settlement easier.",
+     "factIds": [
+      "F-B61-13"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Berlin blockade, 1948–1949",
+     "Berlin crisis, 1958–1961"
+    ],
+    "rows": [
+     {
+      "criterion": "Soviet aim",
+      "cells": [
+       "Stop a West German state",
+       "Get the West out of Berlin; stop the exodus; deny Bonn nuclear weapons"
+      ],
+      "factIds": [
+       "F-B61-19",
+       "F-B61-03"
+      ]
+     },
+     {
+      "criterion": "Soviet method",
+      "cells": [
+       "Land blockade",
+       "Ultimatums, then a wall"
+      ],
+      "factIds": [
+       "F-B61-19",
+       "F-B61-01",
+       "F-B61-10"
+      ]
+     },
+     {
+      "criterion": "Western response",
+      "cells": [
+       "Airlift",
+       "Reservists and firmness on West Berlin only"
+      ],
+      "factIds": [
+       "F-B61-19",
+       "F-B61-07",
+       "F-B61-09"
+      ]
+     },
+     {
+      "criterion": "Outcome",
+      "cells": [
+       "Two German states",
+       "A divided city; Berlin ceases to be the flashpoint"
+      ],
+      "factIds": [
+       "F-B61-19",
+       "F-B61-16"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-B61-01",
+    "year": 1958,
+    "text": "10 November 1958: Khrushchev demanded the West leave West Berlin within six months.",
+    "supports": [
+     "Khrushchev opened the crisis"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "ultimatum",
+     "free city"
+    ]
+   },
+   {
+    "factId": "F-B61-03",
+    "year": 1958,
+    "text": "Judt: Khrushchev hoped to dent US credibility or win a promise to deny Bonn nuclear weapons.",
+    "supports": [
+     "The crisis was about West Germany's power as well as Berlin"
+    ],
+    "lexicon": [
+     "West Germany",
+     "nuclear weapons"
+    ]
+   },
+   {
+    "factId": "F-B61-07",
+    "year": 1961,
+    "text": "Kennedy activated 150,000 reservists and raised defence spending.",
+    "supports": [
+     "Kennedy was firm in public"
+    ],
+    "alsoWorksFor": [
+     "P2-12-LEADERS"
+    ],
+    "lexicon": [
+     "Kennedy",
+     "reservists"
+    ]
+   },
+   {
+    "factId": "F-B61-09",
+    "year": 1961,
+    "text": "July 1961: 30,415 left for the West; first week of August: 21,828, half under 25.",
+    "supports": [
+     "The exodus threatened to empty the GDR"
+    ],
+    "alsoWorksFor": [
+     "P2-12-IMPACT"
+    ],
+    "lexicon": [
+     "exodus",
+     "emigration"
+    ]
+   },
+   {
+    "factId": "F-B61-10",
+    "year": 1961,
+    "text": "13 August 1961: barbed wire across Berlin on Ulbricht's orders.",
+    "supports": [
+     "The Wall stopped the exodus"
+    ],
+    "alsoWorksFor": [
+     "P2-12-IMPACT",
+     "P3-18-B2-PROTEST-TO-1968"
+    ],
+    "lexicon": [
+     "Berlin Wall",
+     "Ulbricht"
+    ]
+   },
+   {
+    "factId": "F-B61-12",
+    "year": 1961,
+    "text": "October 1961: US and Soviet tanks faced each other for three days at the checkpoint.",
+    "supports": [
+     "The crisis risked war by accident"
+    ],
+    "lexicon": [
+     "checkpoint",
+     "standoff"
+    ]
+   },
+   {
+    "factId": "F-B61-13",
+    "year": 1961,
+    "text": "Judt: Western leaders were 'secretly relieved'; a wall was 'a far better outcome than a war'.",
+    "supports": [
+     "Both sides could accept the Wall"
+    ],
+    "lexicon": [
+     "Rusk",
+     "relief"
+    ]
+   },
+   {
+    "factId": "F-B61-16",
+    "year": 1961,
+    "text": "Judt: the Wall ended Berlin's career as the crisis zone of world affairs.",
+    "supports": [
+     "The Wall stabilised Europe"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-CUBA"
+    ],
+    "lexicon": [
+     "stability"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Behind the scenes many Western leaders were 'secretly relieved' at the Wall, 'a far better outcome than a war'; the crisis showed the superpowers 'had more in common than they sometimes appreciated', both being tired of German clients who had blackmailed them into 'hanging tough'.",
+    "useItLikeThis": "Judt's view supports the claim that the Wall was a shared solution rather than a Soviet defeat, which suggests stability mattered more to both superpowers than victory.",
+    "factId": "F-B61-13"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Wall was built to keep Westerners out of East Germany.",
+    "right": "It was built to **stop East Germans leaving**: 30,415 left in July 1961 alone."
+   },
+   {
+    "wrong": "The US tried to stop the Wall being built.",
+    "right": "It **condemned** the Wall but did not act; many leaders were privately relieved."
+   },
+   {
+    "wrong": "The crisis began and ended in 1961.",
+    "right": "It began with Khrushchev's ultimatum of **November 1958**."
+   },
+   {
+    "wrong": "The Berlin crisis was solved by a peace treaty.",
+    "right": "It ended with a **wall**, and formal agreement on access took ten more years."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1958,
+     "month": 11,
+     "day": 10,
+     "text": "Ultimatum"
+    },
+    {
+     "year": 1959,
+     "text": "Geneva; Camp David"
+    },
+    {
+     "year": 1960,
+     "month": 5,
+     "text": "U-2; Paris summit collapses"
+    },
+    {
+     "year": 1961,
+     "month": 6,
+     "text": "Vienna"
+    },
+    {
+     "year": 1961,
+     "month": 7,
+     "text": "30,415 leave"
+    },
+    {
+     "year": 1961,
+     "month": 8,
+     "day": 13,
+     "text": "Wall"
+    },
+    {
+     "year": 1961,
+     "month": 10,
+     "text": "Tank standoff"
+    },
+    {
+     "year": 1960,
+     "month": 3,
+     "text": "'Stand on a dime'"
+    }
+   ],
+   "keyArguments": [
+    "The exodus of East Germans through Berlin was the underlying cause.",
+    "Khrushchev also hoped to weaken US credibility and deny Bonn nuclear weapons (Judt).",
+    "Kennedy was firm in public but signalled he would defend only West Berlin.",
+    "The Wall stopped the exodus without forcing the West out.",
+    "Both sides were privately relieved: a wall was better than a war (Judt)."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Khrushchev's ultimatum",
+     "year": 1958,
+     "month": 11,
+     "factId": "F-B61-01"
+    },
+    {
+     "id": "b",
+     "text": "U-2 shot down",
+     "year": 1960,
+     "month": 5,
+     "factId": "F-B61-05"
+    },
+    {
+     "id": "c",
+     "text": "Vienna summit",
+     "year": 1961,
+     "month": 6,
+     "factId": "F-B61-06"
+    },
+    {
+     "id": "d",
+     "text": "Barbed wire divides Berlin",
+     "year": 1961,
+     "month": 8,
+     "factId": "F-B61-10"
+    },
+    {
+     "id": "e",
+     "text": "Tank standoff at the checkpoint",
+     "year": 1961,
+     "month": 10,
+     "factId": "F-B61-12"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1961 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Khrushchev threatens to 'liquidate' Western rights at Vienna",
+     "year": 1961,
+     "month": 6,
+     "factId": "F-B61-06"
+    },
+    {
+     "id": "b",
+     "text": "30,415 people leave for the West",
+     "year": 1961,
+     "month": 7,
+     "factId": "F-B61-09"
+    },
+    {
+     "id": "c",
+     "text": "Barbed wire goes up across Berlin",
+     "year": 1961,
+     "month": 8,
+     "factId": "F-B61-10"
+    },
+    {
+     "id": "d",
+     "text": "Soviet and US tanks face each other",
+     "year": 1961,
+     "month": 10,
+     "factId": "F-B61-12"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Khrushchev's ultimatum",
+     "year": 1958,
+     "month": 11,
+     "factId": "F-B61-01"
+    },
+    {
+     "id": "b",
+     "text": "Camp David meeting",
+     "year": 1959,
+     "factId": "F-B61-05"
+    },
+    {
+     "id": "c",
+     "text": "Paris summit collapses",
+     "year": 1960,
+     "month": 5,
+     "factId": "F-B61-05"
+    },
+    {
+     "id": "d",
+     "text": "The Wall goes up",
+     "year": 1961,
+     "month": 8,
+     "factId": "F-B61-10"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Walter Ulbricht",
+     "right": "East German leader who ordered the barbed wire",
+     "explanation": "13 August 1961."
+    },
+    {
+     "left": "Dean Rusk",
+     "right": "US Secretary of State who said the Wall would make a settlement easier",
+     "explanation": "Judt."
+    },
+    {
+     "left": "Dwight D. Eisenhower",
+     "right": "US President who met Khrushchev at Camp David",
+     "explanation": "1959."
+    },
+    {
+     "left": "Harold Macmillan",
+     "right": "British Prime Minister told the West could not 'stand on a dime'",
+     "explanation": "By Eisenhower, March 1960."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many East Germans left for the West in the first week of August 1961, according to Judt? (number)",
+   "factIds": [
+    "F-B61-09"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 21828,
+     "tolerance": 100,
+     "explanation": "21,828, half of them under 25."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Within how many months did Khrushchev demand the West leave Berlin in 1958? (number)",
+   "factIds": [
+    "F-B61-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 6,
+     "tolerance": 0,
+     "explanation": "Six months."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "For how many days did US and Soviet tanks face each other in October 1961, according to Judt? (number)",
+   "factIds": [
+    "F-B61-12"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 3,
+     "tolerance": 0,
+     "explanation": "Three days."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Until what year did the Berlin Wall stand? (year)",
+   "factIds": [
+    "F-B61-17"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1989,
+     "tolerance": 0,
+     "explanation": "Until 9 November 1989."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were Khrushchev's aims in the Berlin crisis, according to Judt? Choose all that apply.",
+   "factIds": [
+    "F-B61-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To make Berlin a 'free city'",
+     "correct": true,
+     "explanation": "Yes: his ostensible aim."
+    },
+    {
+     "id": "b",
+     "text": "To damage US credibility in Europe",
+     "correct": true,
+     "explanation": "Yes: if the West left."
+    },
+    {
+     "id": "c",
+     "text": "To stop West Germany getting nuclear weapons",
+     "correct": true,
+     "explanation": "Yes: a possible trade."
+    },
+    {
+     "id": "d",
+     "text": "To join NATO",
+     "correct": false,
+     "explanation": "No: not a Soviet aim."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were Kennedy's responses in 1961? Choose all that apply.",
+   "factIds": [
+    "F-B61-07",
+    "F-B61-08",
+    "F-B61-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Activating 150,000 reservists",
+     "correct": true,
+     "explanation": "Yes: and raising defence spending."
+    },
+    {
+     "id": "b",
+     "text": "Reaffirming the commitment to West Berlin",
+     "correct": true,
+     "explanation": "Yes: implicitly conceding East Berlin."
+    },
+    {
+     "id": "c",
+     "text": "Assuring Khrushchev the US did not want to deprive the USSR of its ties in Eastern Europe",
+     "correct": true,
+     "explanation": "Yes: at Vienna."
+    },
+    {
+     "id": "d",
+     "text": "Ordering US troops to tear down the Wall",
+     "correct": false,
+     "explanation": "No: the US did not act."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Half of the 21,828 who left in the first week of August 1961 were under 25.” Which argument does it support?",
+   "factIds": [
+    "F-B61-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The GDR was losing its young workforce, which threatened its survival",
+     "correct": true,
+     "explanation": "Correct: it 'would soon be empty'."
+    },
+    {
+     "id": "b",
+     "text": "Only old people left the GDR",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The exodus was slowing down",
+     "correct": false,
+     "explanation": "It was accelerating."
+    },
+    {
+     "id": "d",
+     "text": "East Germans were content",
+     "correct": false,
+     "explanation": "They were leaving in large numbers."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Western leaders privately agreed that a wall was 'a far better outcome than a war'.” Which argument does it support?",
+   "factIds": [
+    "F-B61-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Wall was a solution both sides could accept",
+     "correct": true,
+     "explanation": "Correct: whatever was said in public."
+    },
+    {
+     "id": "b",
+     "text": "The West planned to destroy the Wall",
+     "correct": false,
+     "explanation": "Not what the fact says."
+    },
+    {
+     "id": "c",
+     "text": "The West wanted war over Berlin",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "The Wall was a Western idea",
+     "correct": false,
+     "explanation": "It was built on Ulbricht's orders."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Berlin Wall was built in 1958, immediately after Khrushchev's ultimatum.”",
+   "factIds": [
+    "F-B61-01",
+    "F-B61-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The ultimatum came in 1958 but the Wall went up in August 1961",
+     "correct": true,
+     "explanation": "Correct: three years of crisis came between."
+    },
+    {
+     "id": "b",
+     "text": "The Wall was built by the US",
+     "correct": false,
+     "explanation": "It was built on Ulbricht's orders."
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev never issued an ultimatum",
+     "correct": false,
+     "explanation": "He did, on 10 November 1958."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the date of the Wall."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In October 1961 US and Soviet tanks fought a battle at the Berlin checkpoint.”",
+   "factIds": [
+    "F-B61-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They faced each other but withdrew peacefully after Kennedy used back channels",
+     "correct": true,
+     "explanation": "Correct: no shots were fired."
+    },
+    {
+     "id": "b",
+     "text": "The standoff was in 1948",
+     "correct": false,
+     "explanation": "It was in October 1961."
+    },
+    {
+     "id": "c",
+     "text": "Only British tanks were there",
+     "correct": false,
+     "explanation": "US and Soviet tanks faced each other."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: there was no battle."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Berlin crisis of 1958–1961. Is Kennedy's 'Ich bin ein Berliner' speech of June 1963 inside or outside the timeframe?",
+   "factIds": [
+    "F-B61-15"
+   ],
+   "timeframe": [
+    1958,
+    1961
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1961."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1963 is after 1961."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it concerns Berlin",
+     "correct": false,
+     "explanation": "The topic does not change the timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Khrushchev threaten if the West did not leave Berlin?",
+   "factIds": [
+    "F-B61-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A separate peace treaty with the GDR, leaving the West to deal with East Germany",
+     "correct": true,
+     "explanation": "Correct: repeated in 1960 and 1961."
+    },
+    {
+     "id": "b",
+     "text": "An immediate nuclear strike on Washington",
+     "correct": false,
+     "explanation": "Not his threat."
+    },
+    {
+     "id": "c",
+     "text": "A new airlift",
+     "correct": false,
+     "explanation": "Not his threat."
+    },
+    {
+     "id": "d",
+     "text": "Withdrawal from the Warsaw Pact",
+     "correct": false,
+     "explanation": "Not his threat."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why could West Berlin not be supplied by air in 1958, as in 1948?",
+   "factIds": [
+    "F-B61-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It had become too populous and too prosperous",
+     "correct": true,
+     "explanation": "Correct: a blockade would be far more dangerous."
+    },
+    {
+     "id": "b",
+     "text": "There were no airports",
+     "correct": false,
+     "explanation": "Tempelhof still existed."
+    },
+    {
+     "id": "c",
+     "text": "The US had no planes",
+     "correct": false,
+     "explanation": "Not the reason."
+    },
+    {
+     "id": "d",
+     "text": "The Soviets had banned flights by treaty",
+     "correct": false,
+     "explanation": "Not the reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did West Germans react to American acceptance of the Wall, according to Judt?",
+   "factIds": [
+    "F-B61-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Their fear of being abandoned increased",
+     "correct": true,
+     "explanation": "Correct: hence Kennedy's 1963 promises."
+    },
+    {
+     "id": "b",
+     "text": "They celebrated",
+     "correct": false,
+     "explanation": "Not what Judt says."
+    },
+    {
+     "id": "c",
+     "text": "They left NATO",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "They built their own wall",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Kennedy's advisers suspect during the Cuban crisis of 1962, according to Judt?",
+   "factIds": [
+    "F-B61-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That Khrushchev was really pursuing his German objectives",
+     "correct": true,
+     "explanation": "Correct: 'the lessons of 1948–50 had been learned too well'."
+    },
+    {
+     "id": "b",
+     "text": "That Berlin had been reunified",
+     "correct": false,
+     "explanation": "Not what they suspected."
+    },
+    {
+     "id": "c",
+     "text": "That the Wall would fall",
+     "correct": false,
+     "explanation": "Not what they suspected."
+    },
+    {
+     "id": "d",
+     "text": "That Castro controlled Berlin",
+     "correct": false,
+     "explanation": "Not what they suspected."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Eisenhower tell Macmillan in March 1960, according to Judt?",
+   "factIds": [
+    "F-B61-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That the West could not 'stand on a dime for the next fifty years'",
+     "correct": true,
+     "explanation": "Correct: something had to move in Germany."
+    },
+    {
+     "id": "b",
+     "text": "That the US would leave Berlin at once",
+     "correct": false,
+     "explanation": "Not what he said."
+    },
+    {
+     "id": "c",
+     "text": "That a war over Berlin was inevitable",
+     "correct": false,
+     "explanation": "Not what he said."
+    },
+    {
+     "id": "d",
+     "text": "That Germany should be reunified by force",
+     "correct": false,
+     "explanation": "Not what he said."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the emigration of East Germans the main cause of the Berlin crisis of 1958–1961?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the emigration of East Germans",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main cause of the Berlin crisis",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "1958–1961",
+     "answer": "timeframe",
+     "explanation": "From the ultimatum to the Wall."
+    },
+    {
+     "id": "s5",
+     "text": "main cause",
+     "answer": "judgement",
+     "explanation": "Whether emigration outweighed Soviet aims over West Germany."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘The building of the Berlin Wall was a defeat for the Soviet Union.’ Discuss with reference to the period 1958 to 1961.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "a defeat for the Soviet Union",
+     "answer": "factor",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s3",
+     "text": "the building of the Berlin Wall",
+     "answer": "scope",
+     "explanation": "What the claim is about."
+    },
+    {
+     "id": "s4",
+     "text": "1958 to 1961",
+     "answer": "timeframe",
+     "explanation": "The whole crisis."
+    },
+    {
+     "id": "s5",
+     "text": "defeat",
+     "answer": "judgement",
+     "explanation": "By what criterion: propaganda, or Soviet aims?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the emigration of East Germans the main cause of the Berlin crisis of 1958–1961?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Emigration was the main cause, because it threatened the GDR's survival; but Khrushchev also used Berlin to try to weaken American credibility and stop West Germany obtaining nuclear weapons.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor."
+    },
+    {
+     "id": "b",
+     "text": "East Germans left for the West.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Emigration was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Emigration was the only cause.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The building of the Berlin Wall was a defeat for the Soviet Union.’ Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Wall was a propaganda defeat, admitting that the GDR could not keep its people, but a practical success: it stopped the exodus and stabilised the GDR without war, which is why the West was privately relieved.",
+     "correct": true,
+     "explanation": "Correct: two criteria."
+    },
+    {
+     "id": "b",
+     "text": "The Wall was built in 1961.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Wall was bad.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Wall was a total Soviet victory.",
+     "correct": false,
+     "explanation": "Ignores the propaganda cost."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 13 August 1961 barbed wire went up across Berlin.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the Wall closed only the eastern side, it solved the exodus without challenging the West's position in West Berlin.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "In June 1961 Kennedy met Khrushchev in Vienna.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that Kennedy's signal to defend only West Berlin left Khrushchev a way out, so war was avoided.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "30,415 left in July 1961",
+     "right": "The exodus threatened the GDR",
+     "explanation": "Judt."
+    },
+    {
+     "left": "Khrushchev's demand for a 'free city'",
+     "right": "Khrushchev tried to weaken US credibility",
+     "explanation": "1958."
+    },
+    {
+     "left": "Kennedy's commitment to West Berlin only",
+     "right": "Kennedy signalled what he would accept",
+     "explanation": "1961."
+    },
+    {
+     "left": "Western leaders 'secretly relieved'",
+     "right": "Both sides could accept the Wall",
+     "explanation": "Judt."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Wall ended the crisis.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the Wall stopped the exodus of East Germans without forcing the Western powers out of West Berlin, it removed Khrushchev's main problem while leaving the West's vital interest intact, so both sides could accept it.",
+     "correct": true,
+     "explanation": "Correct: mechanism and consequence."
+    },
+    {
+     "id": "b",
+     "text": "The Wall really ended the crisis.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The Wall was built on 13 August 1961.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The Wall ended the Cold War.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Berlin Wall was a victory for the Soviet Union.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Wall was an admission that the GDR could only keep its people by force, a propaganda disaster; and Khrushchev failed in his stated aim of driving the West out of West Berlin.",
+     "correct": true,
+     "explanation": "Correct: specific failures."
+    },
+    {
+     "id": "b",
+     "text": "The Wall was ugly.",
+     "correct": false,
+     "explanation": "Not a historical argument."
+    },
+    {
+     "id": "c",
+     "text": "Berlin is in Germany.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Kennedy was young.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The building of the Berlin Wall was a defeat for the Soviet Union.’ Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by propaganda, the Wall was a Soviet defeat; judged by Khrushchev's practical problem, the exodus, it was a success, and since both superpowers preferred it to war, stability rather than victory was the real outcome.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the Wall was built and stayed until 1989.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, walls are bad.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, the USSR lost.",
+     "correct": false,
+     "explanation": "No criterion."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes and consequences of the building of the Berlin Wall in 1961.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The flood of emigrants in July and August 1961",
+     "answer": "causes",
+     "explanation": "The GDR was emptying."
+    },
+    {
+     "id": "s2",
+     "text": "The failure of Vienna and Khrushchev's ultimatums",
+     "answer": "causes",
+     "explanation": "Diplomacy had failed."
+    },
+    {
+     "id": "s3",
+     "text": "Kennedy's commitment to West Berlin only",
+     "answer": "causes",
+     "explanation": "It left East Berlin to the Soviets."
+    },
+    {
+     "id": "s4",
+     "text": "The checkpoint tank standoff",
+     "answer": "effects",
+     "explanation": "October 1961."
+    },
+    {
+     "id": "s5",
+     "text": "Berlin ceased to be the main flashpoint",
+     "answer": "effects",
+     "explanation": "Judt."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the emigration of East Germans the main cause of the Berlin crisis of 1958–1961?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the emigration of East Germans",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1958,
+    1961
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Emigration, weighed first",
+    "timeframe": "1958–1961",
+    "scope": "The Berlin crisis",
+    "judgement": "Whether emigration outweighed Soviet aims over West Germany"
+   },
+   "modelPlan": {
+    "thesis": "Emigration was the main cause, because it threatened the GDR's survival; but Khrushchev also used Berlin to try to weaken American credibility and stop West Germany obtaining nuclear weapons.",
+    "arguments": [
+     {
+      "claim": "The exodus (named factor first).",
+      "evidence": [
+       "F-B61-02",
+       "F-B61-09"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Soviet aims over West Germany.",
+      "evidence": [
+       "F-B61-03"
+      ]
+     },
+     {
+      "claim": "Soviet confidence after Sputnik.",
+      "evidence": [
+       "F-B61-18"
+      ]
+     },
+     {
+      "claim": "The Western refusal to leave.",
+      "evidence": [
+       "F-B61-04"
+      ]
+     }
+    ],
+    "counter": "Judt calls Khrushchev's 'free city' aim 'ostensible', suggesting his wider aims mattered more to him.",
+    "judgementCriterion": "What did the Wall solve? The exodus, which suggests it was the problem that had to be solved."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The emigration of East Germans was the main cause of the Berlin crisis.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Free movement through Berlin had produced a mass exodus, and in July 1961 alone 30,415 people left for the West.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the GDR was losing its workforce, so Khrushchev had to close the Berlin escape route, by forcing the West out or, failing that, by building a wall.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues that Khrushchev also hoped to dent American credibility and stop West Germany obtaining nuclear weapons.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Emigration was therefore the main cause, since the Wall, which solved it, also ended the crisis.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "emigration",
+     "exodus"
+    ],
+    "synonyms": [
+     "East Germans",
+     "refugees",
+     "flight"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "ultimatum",
+     "free city",
+     "Wall"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The building of the Berlin Wall was a defeat for the Soviet Union.” Discuss with reference to the period 1958 to 1961.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1958,
+    1961
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: a Soviet defeat",
+    "timeframe": "1958–1961",
+    "scope": "The Berlin Wall",
+    "judgement": "By what criterion: propaganda, or Soviet aims?"
+   },
+   "modelPlan": {
+    "thesis": "The Wall was a propaganda defeat, admitting that the GDR could not keep its people, but a practical success: it stopped the exodus and stabilised the GDR without war, which is why the West was privately relieved.",
+    "arguments": [
+     {
+      "claim": "For: Khrushchev failed to drive the West out.",
+      "evidence": [
+       "F-B61-01",
+       "F-B61-04"
+      ]
+     },
+     {
+      "claim": "For: the Wall exposed the GDR's weakness.",
+      "evidence": [
+       "F-B61-09",
+       "F-B61-10"
+      ]
+     },
+     {
+      "claim": "Against: the exodus stopped and the GDR was stabilised.",
+      "evidence": [
+       "F-B61-15"
+      ]
+     },
+     {
+      "claim": "Against: Western leaders were privately relieved.",
+      "evidence": [
+       "F-B61-13",
+       "F-B61-14"
+      ]
+     }
+    ],
+    "counter": "West German anxiety after 1961 suggests the West also lost something.",
+    "judgementCriterion": "By propaganda, a defeat; by Khrushchev's practical problem, a success."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Wall was a propaganda defeat for the Soviet Union but a practical success.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Khrushchev failed to drive the West out of West Berlin, but the barbed wire of 13 August 1961 stopped an exodus that had reached 30,415 in July.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the GDR survived, and the East German Communists were reassured that Moscow would not abandon them.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, a Communist state had to imprison its own people, which, in public, was a humiliation for the Soviet bloc.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid only in propaganda terms; in practice, as Judt shows, both sides preferred the Wall to war.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "defeat"
+    ],
+    "synonyms": [
+     "Wall",
+     "Soviet Union"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "exodus",
+     "propaganda",
+     "relief"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the causes and consequences of the building of the Berlin Wall in 1961.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1961,
+    1961
+   ],
+   "scope": "Berlin",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1961",
+    "scope": "The Berlin Wall",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The Wall was built because the flood of emigrants threatened to empty the GDR and diplomacy had failed; its main consequence was to end Berlin's role as the flashpoint of the Cold War.",
+    "arguments": [
+     {
+      "claim": "Cause: the flood of emigrants.",
+      "evidence": [
+       "F-B61-09"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: the failure of Vienna and Kennedy's signal.",
+      "evidence": [
+       "F-B61-06",
+       "F-B61-09"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: the checkpoint standoff.",
+      "evidence": [
+       "F-B61-12"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: stability and relief.",
+      "evidence": [
+       "F-B61-13",
+       "F-B61-16"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "The Wall also deepened West German fears of abandonment, a consequence that troubled the alliance.",
+    "judgementCriterion": "Which consequence lasted longest? The stabilisation of divided Berlin, until 1989."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Wall was built mainly because the flood of emigrants threatened to empty the GDR.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In July 1961 30,415 people left, and in the first week of August 21,828 more, half under 25, while at Vienna diplomacy had failed.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the GDR could not survive with an open border, so on 13 August barbed wire went up, soon replaced by concrete.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Wall also brought a dangerous standoff of tanks in October 1961 before both sides withdrew.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Its most significant consequence was therefore to end Berlin's role as the crisis zone, as Judt argues.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Berlin Wall"
+    ],
+    "synonyms": [
+     "Wall",
+     "barbed wire"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "exodus",
+     "checkpoint",
+     "Ulbricht"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate Kennedy's handling of the Berlin crisis in 1961.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1961,
+    1961
+   ],
+   "scope": "Berlin",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "Kennedy's handling",
+    "timeframe": "1961",
+    "scope": "The Berlin crisis",
+    "judgement": "By what criterion: avoiding war, or defending freedom?"
+   },
+   "modelPlan": {
+    "thesis": "Kennedy handled the crisis effectively by combining public firmness with private signals of what he would accept, which avoided war; but the price was a divided city and trapped East Germans.",
+    "arguments": [
+     {
+      "claim": "Firmness: reservists and spending.",
+      "evidence": [
+       "F-B61-07"
+      ]
+     },
+     {
+      "claim": "Signals: West Berlin only; Vienna assurances.",
+      "evidence": [
+       "F-B61-08",
+       "F-B61-09"
+      ]
+     },
+     {
+      "claim": "Crisis management: the checkpoint.",
+      "evidence": [
+       "F-B61-12"
+      ]
+     },
+     {
+      "claim": "Cost: the Wall and West German anxiety.",
+      "evidence": [
+       "F-B61-10",
+       "F-B61-15"
+      ]
+     }
+    ],
+    "counter": "His firmness at Vienna may have increased the risk of war and accelerated the exodus.",
+    "judgementCriterion": "By the criterion of avoiding war, Kennedy succeeded; by the criterion of freedom for East Germans, he did not try."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Kennedy handled the Berlin crisis effectively, judged by the aim of avoiding war.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He activated 150,000 reservists, yet reaffirmed only West Berlin and told Khrushchev at Vienna he did not wish to deprive the USSR of its ties in Eastern Europe.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Khrushchev could close the border in the East without a war, and in October Kennedy used back channels to end the tank standoff.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the price was a divided city and trapped East Germans, and West Germans feared they might be abandoned.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Kennedy's handling was therefore successful in avoiding war, though it accepted division.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Kennedy"
+    ],
+    "synonyms": [
+     "handling",
+     "response"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Vienna",
+     "reservists",
+     "West Berlin"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the aims of Khrushchev and Kennedy in the Berlin crisis of 1961.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "leader"
+   ],
+   "timeframe": [
+    1961,
+    1961
+   ],
+   "scope": "Berlin",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The aims of Khrushchev and Kennedy",
+    "timeframe": "1961",
+    "scope": "The Berlin crisis",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both wanted to avoid war and to protect their own side's position, but Khrushchev wanted to stop the exodus and push the West out, while Kennedy wanted to keep West Berlin without challenging the East, so their aims could be reconciled by a wall.",
+    "arguments": [
+     {
+      "claim": "Similarity: both wanted to avoid war.",
+      "evidence": [
+       "F-B61-12",
+       "F-B61-13"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both protected their own half.",
+      "evidence": [
+       "F-B61-09",
+       "F-B61-11"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: Khrushchev wanted the West out.",
+      "evidence": [
+       "F-B61-01",
+       "F-B61-06"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: Kennedy wanted only West Berlin secured.",
+      "evidence": [
+       "F-B61-09",
+       "F-B61-08"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Both had to manage German clients pressing them to 'hang tough'.",
+    "judgementCriterion": "Which difference mattered most? It turned out to be smaller than it looked: each could keep its half."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Khrushchev and Kennedy both wanted to avoid war over Berlin, but their stated aims were opposed.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "At Vienna Khrushchev threatened to 'liquidate' Western rights, whereas Kennedy, while activating 150,000 reservists, reaffirmed the commitment only to West Berlin.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Khrushchev's real need, stopping the exodus, could be met in the East without touching Kennedy's real need, West Berlin.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both faced German clients, Adenauer and Ulbricht, who pressed them to stand firm.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive point was therefore that their real aims were compatible, which is why the crisis ended with a wall.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Khrushchev",
+     "Kennedy"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Vienna",
+     "West Berlin",
+     "exodus"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons why the Berlin crisis of 1958–1961 did not lead to war.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1958,
+    1961
+   ],
+   "scope": "Berlin",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Reasons war was avoided",
+    "timeframe": "1958–1961",
+    "scope": "The Berlin crisis",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "The crisis did not lead to war because both superpowers preferred a divided city to a fight: Kennedy signalled he would defend only West Berlin, Khrushchev solved the exodus with a wall, and back channels defused the October standoff.",
+    "arguments": [
+     {
+      "claim": "Both preferred stability to war.",
+      "evidence": [
+       "F-B61-13",
+       "F-B61-14"
+      ]
+     },
+     {
+      "claim": "Kennedy's limited commitment.",
+      "evidence": [
+       "F-B61-08",
+       "F-B61-09"
+      ]
+     },
+     {
+      "claim": "The Wall as a solution.",
+      "evidence": [
+       "F-B61-10"
+      ]
+     },
+     {
+      "claim": "Crisis management at the checkpoint.",
+      "evidence": [
+       "F-B61-12"
+      ]
+     }
+    ],
+    "counter": "The October standoff shows that war could still have come by accident.",
+    "judgementCriterion": "Which reason mattered most? The compatibility of the two sides' real interests."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Berlin crisis did not lead to war mainly because both superpowers preferred a divided city to a fight.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Kennedy reaffirmed only West Berlin, and Judt shows that Western leaders were 'secretly relieved' at the Wall.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Khrushchev could close the border in the East without challenging the West, so neither side's vital interest was threatened.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the October tank standoff shows that war could have come by accident, and was avoided only through Kennedy's back channel.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "War was therefore avoided because the two sides' real interests were compatible, and careful crisis management kept it so.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "war"
+    ],
+    "synonyms": [
+     "avoided",
+     "peace",
+     "stability"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Wall",
+     "checkpoint",
+     "relief"
+    ]
+   }
+  }
+ ]
+}

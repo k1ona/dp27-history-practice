@@ -1,0 +1,2787 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-DETENTE",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In 1972 Nixon and Brezhnev signed the first treaty limiting nuclear missiles. In 1979 the USSR invaded Afghanistan and the next arms treaty was shelved. Was détente a real change in the Cold War, or only a pause?",
+   "predictionPrompt": "Your prediction in one line: what did each superpower want from détente?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Why détente? 1963–1972",
+    "body": "**Détente**, a French word meaning a relaxation of tension, describes the thaw in US-Soviet relations from the late 1960s to the late 1970s. Its roots lay in the fear of the early 1960s. The Cuban Missile Crisis of 1962 brought nuclear fear to its peak and produced the first arms control agreement, the Limited Test Ban Treaty of 1963. Further progress was derailed by the American escalation in Vietnam, but the Nuclear Non-Proliferation Treaty of 1968 was a clear sign that détente was emerging.\n\nBy the late 1960s both superpowers had concrete reasons to talk. The arms race was \"incredibly expensive\", and both faced economic difficulties at home as resources were diverted to weapons. The Soviet Union had embarked on a massive build-up of intercontinental missiles to reach parity with the US, and in January 1967 President Johnson revealed that Moscow was building an anti-ballistic missile (ABM) defence around its capital. Such defences were dangerous because a side that could shoot down incoming missiles might be tempted to strike first. Johnson's Defence Secretary, Robert McNamara, called the cycle of action and reaction \"an insane road to follow\".\n\nEach side also had strategic motives. The Sino-Soviet split made better relations with Washington more attractive to Moscow. The United States, bogged down in Vietnam, hoped that better relations with the USSR would help limit future conflicts, and Nixon wanted to give Moscow and Beijing \"bigger fish to fry\" than helping North Vietnam. Nixon's opening to China in 1972 changed the context of the Cold War and encouraged the move towards détente with the Soviet Union. In Europe, West Germany's *Ostpolitik* contributed: between 1970 and 1973 Bonn signed treaties with Moscow, Warsaw and Prague accepting the post-war frontiers, a four-power agreement on Berlin was reached, and the two German states signed a Basic Treaty.\n\nDétente also reflected a choice about values. Henry Kissinger, Nixon's National Security Adviser, told the Senate in 1974 that détente \"should not be made to wait upon Soviet domestic reforms\": the US would deal with the USSR as it was.\n\nThis mattered because détente was built on shared interests rather than shared values, which meant that it would last only as long as those interests outweighed the rivalry.",
+    "argumentsThatWork": [
+     {
+      "claim": "The cost and danger of the arms race pushed both sides to talk.",
+      "evidence": [
+       "F-DET-01",
+       "F-DET-03"
+      ],
+      "strongestCounter": "Both continued to build weapons during détente."
+     },
+     {
+      "claim": "The Sino-Soviet split and Vietnam gave each side strategic motives.",
+      "evidence": [
+       "F-DET-01",
+       "F-DET-13"
+      ],
+      "strongestCounter": "Moscow and Beijing kept supplying Hanoi."
+     },
+     {
+      "claim": "Ostpolitik and the China opening changed the context.",
+      "evidence": [
+       "F-DET-13",
+       "F-DET-14"
+      ],
+      "strongestCounter": "These were regional moves, not superpower agreements."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the cost of the arms race the main reason for détente between 1969 and 1975?",
+     "Compare and contrast the aims of the United States and the Soviet Union in pursuing détente between 1969 and 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "The cost of the arms race was an important reason for détente, but strategic calculations mattered more.",
+     "prove": "The arms race was 'incredibly expensive' for both sides, yet Moscow was also drawn by the Sino-Soviet split and Washington by its need to limit the conflict in Vietnam.",
+     "explain": "This meant that each side sought détente to gain a strategic advantage elsewhere, so cost made talks attractive while strategy made them urgent.",
+     "test": "However, the Soviet drive for nuclear parity also meant that by the late 1960s only agreement could stop an endless and dangerous build-up.",
+     "judge": "Cost was therefore a necessary condition, while strategy explains why détente came when it did."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-DETENTE-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why was an anti-ballistic missile (ABM) system dangerous, according to the Office of the Historian?",
+      "factIds": [
+       "F-DET-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It could allow one side to strike first and then shoot down the other's retaliation",
+        "correct": true,
+        "explanation": "Correct: it undermined deterrence."
+       },
+       {
+        "id": "b",
+        "text": "It was too cheap",
+        "correct": false,
+        "explanation": "The arms race was very expensive."
+       },
+       {
+        "id": "c",
+        "text": "It could only be used in space",
+        "correct": false,
+        "explanation": "Not the reason."
+       },
+       {
+        "id": "d",
+        "text": "It ended the arms race",
+        "correct": false,
+        "explanation": "It accelerated it."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-DETENTE-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Kissinger tell the Senate in September 1974?",
+      "factIds": [
+       "F-DET-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Détente should not be made to wait upon Soviet domestic reforms",
+        "correct": true,
+        "explanation": "Correct: interests before values."
+       },
+       {
+        "id": "b",
+        "text": "Détente required the USSR to become a democracy",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The US would leave NATO",
+        "correct": false,
+        "explanation": "Not what he said."
+       },
+       {
+        "id": "d",
+        "text": "The Cold War had ended",
+        "correct": false,
+        "explanation": "Not what he said."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-DETENTE-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The emergence of the Sino-Soviet split made improving relations with the United States more appealing to the USSR.” Which argument does it support best?",
+      "factIds": [
+       "F-DET-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Strategic rivalry with China helped push Moscow towards détente",
+        "correct": true,
+        "explanation": "Correct: the triangle shaped Soviet policy."
+       },
+       {
+        "id": "b",
+        "text": "The USSR and China were allies in 1970",
+        "correct": false,
+        "explanation": "They were rivals."
+       },
+       {
+        "id": "c",
+        "text": "Détente was only about money",
+        "correct": false,
+        "explanation": "The fact shows a strategic motive."
+       },
+       {
+        "id": "d",
+        "text": "The US opposed détente",
+        "correct": false,
+        "explanation": "Nixon pursued it."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "Arms control: SALT I and SALT II, 1969–1979",
+    "body": "The core of détente was arms control. Formal **Strategic Arms Limitation Talks** (SALT) opened in Helsinki on 17 November 1969. For two and a half years the two sides bargained over missile defences, verification and American concern about new Soviet submarine-launched missiles. On 26 May 1972, in Moscow, President Nixon and the Soviet leader **Leonid Brezhnev** signed the **ABM Treaty** and an interim agreement capping the number of intercontinental missiles. For the first time in the Cold War, the superpowers had agreed to limit the number of nuclear missiles in their arsenals. The ABM Treaty allowed each side only 200 interceptors at two sites. The Office of the Historian calls SALT I \"the crowning achievement of the Nixon-Kissinger strategy of détente\".\n\nSALT I had a major gap. It did not stop either side fitting several independently targeted warheads (MIRVs) onto a single missile, so each could still multiply its striking power. A second round, SALT II, began in late 1972 and ran through three presidencies. At Vladivostok in November 1974, President Ford and Brezhnev agreed a framework: 2,400 strategic delivery vehicles and 1,320 MIRV systems for each side. But disputes over bombers, cruise missiles and verification dragged on.\n\nPresident Carter and Brezhnev finally signed **SALT II** in Vienna on 17 June 1979, limiting each side to 2,250 delivery vehicles. By then the political climate had turned. A coalition of Republicans and conservative Democrats in the Senate distrusted the treaty because of the Soviet crackdown on dissent at home, its interventions abroad and doubts about verification. When the USSR invaded Afghanistan on 25 December 1979, Carter asked the Senate not to consider the treaty, and it was never ratified. Both sides nonetheless promised to observe its terms.\n\nWas arms control a success? It slowed the race in some areas, and it established that the superpowers could negotiate limits. But it limited numbers of launchers rather than warheads, and its fate depended on the wider political relationship.\n\nThis mattered because SALT showed both the promise and the limits of détente: agreement was possible on managing the nuclear balance, which meant that arms control survived even when the political relationship broke down.",
+    "argumentsThatWork": [
+     {
+      "claim": "SALT I was the first agreement to limit nuclear missiles.",
+      "evidence": [
+       "F-DET-04"
+      ],
+      "strongestCounter": "It did not cover MIRVs, so warhead numbers could still grow."
+     },
+     {
+      "claim": "SALT II showed how slow and technical arms control had become.",
+      "evidence": [
+       "F-DET-05",
+       "F-DET-06"
+      ],
+      "strongestCounter": "The Vladivostok framework was agreed in 1974."
+     },
+     {
+      "claim": "Political distrust, not technical failure, killed SALT II.",
+      "evidence": [
+       "F-DET-06"
+      ],
+      "strongestCounter": "Both sides still observed its terms."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for, and the results of, the SALT negotiations between 1969 and 1979.",
+     "Discuss the view that détente was a tactical pause rather than a genuine change in superpower relations with reference to the period 1969 to 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "SALT I was a genuine breakthrough, but it limited launchers rather than warheads.",
+     "prove": "On 26 May 1972 Nixon and Brezhnev signed the ABM Treaty and an interim agreement, the first time the superpowers had limited the number of their nuclear missiles.",
+     "explain": "This meant that each side accepted the other's capacity to retaliate, so deterrence was stabilised.",
+     "test": "However, SALT I did not cover MIRVs, so each side could still multiply its warheads.",
+     "judge": "SALT I therefore changed the rules of the arms race without ending it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-DETENTE-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When and where did Nixon and Brezhnev sign the ABM Treaty?",
+      "factIds": [
+       "F-DET-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "26 May 1972, in Moscow",
+        "correct": true,
+        "explanation": "Correct: with the interim SALT agreement."
+       },
+       {
+        "id": "b",
+        "text": "17 June 1979, in Vienna",
+        "correct": false,
+        "explanation": "That was SALT II."
+       },
+       {
+        "id": "c",
+        "text": "1 August 1975, in Helsinki",
+        "correct": false,
+        "explanation": "That was the Final Act."
+       },
+       {
+        "id": "d",
+        "text": "November 1974, at Vladivostok",
+        "correct": false,
+        "explanation": "That was the SALT II framework."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-DETENTE-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many delivery vehicles did SALT II allow each side? (number)",
+      "factIds": [
+       "F-DET-06"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 2250,
+        "tolerance": 0,
+        "explanation": "2,250."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-DETENTE-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “SALT I did not prevent each side from enlarging their forces through the deployment of MIRVs.” Which argument does it support best?",
+      "factIds": [
+       "F-DET-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "SALT I limited launchers but not the growth of warheads",
+        "correct": true,
+        "explanation": "Correct: SALT II tried to fill the gap."
+       },
+       {
+        "id": "b",
+        "text": "SALT I ended the arms race",
+        "correct": false,
+        "explanation": "It did not."
+       },
+       {
+        "id": "c",
+        "text": "SALT I abolished nuclear weapons",
+        "correct": false,
+        "explanation": "It limited some."
+       },
+       {
+        "id": "d",
+        "text": "MIRVs were banned in 1972",
+        "correct": false,
+        "explanation": "They were not covered."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Helsinki, 1975: who gained?",
+    "body": "Since 1954 the Soviet Union had wanted a European security conference that would formally recognise the borders drawn after the Second World War. During détente the West agreed. NATO ministers accepted the idea in December 1971, the **Conference on Security and Cooperation in Europe** opened in Helsinki in July 1973, and on 1 August 1975 thirty-five states signed the **Helsinki Final Act**: every European country except Albania, plus the US and Canada.\n\nThe Act was divided into four \"baskets\". The first dealt with security: borders, territorial integrity, peaceful settlement of disputes and confidence-building measures between armed forces. The second covered trade and scientific cooperation. The third concerned human rights: freedom of emigration, the reunification of divided families, cultural exchanges and freedom of the press. The fourth arranged follow-up meetings.\n\nAt first the Soviets seemed the clear winners. Tony Judt argues that Brezhnev \"could not have wished for more\": the post-war division of Europe was officially accepted, the sovereignty of East Germany and the other satellites was conceded, and the Western powers renounced any armed intervention. Together with West Germany's treaties of the early 1970s, Helsinki amounted to a \"retrospective confirmation and acceptance of Potsdam\". Some Western activists condemned the agreement for accepting the Soviet annexation of the Baltic states.\n\nBut the third basket had unexpected consequences. Most signatories treated the human rights clauses as window dressing. Yet from them, Judt writes, \"was born the Helsinki Rights movement\". Dissidents in the Soviet Union and across Eastern Europe formed Helsinki monitoring groups, demanding only that their governments keep the promises they had signed. Repression continued (in 1977 leaders of a Ukrainian Helsinki group were sentenced to three to fifteen years), but every arrest could now be publicised as a breach of Moscow's own commitments. The follow-up meeting in Belgrade in 1977–78 introduced a review of violations. Judt concludes that Brezhnev had \"inadvertently opened a breach in their own defenses\", and that it \"was to prove mortal\".\n\nThis mattered because the Soviets won the borders they wanted but gave their critics a weapon, which meant that Helsinki strengthened Soviet control in the short run and weakened it in the long run.",
+    "argumentsThatWork": [
+     {
+      "claim": "The USSR gained formal acceptance of Europe's post-war borders.",
+      "evidence": [
+       "F-DET-07",
+       "F-DET-10"
+      ],
+      "strongestCounter": "The West had never seriously threatened those borders anyway."
+     },
+     {
+      "claim": "The third basket gave dissidents a legal basis for protest.",
+      "evidence": [
+       "F-DET-08",
+       "F-DET-09",
+       "F-DET-11"
+      ],
+      "strongestCounter": "Signatories at first treated it as window dressing."
+     },
+     {
+      "claim": "Helsinki's long-term effect undermined Soviet rule.",
+      "evidence": [
+       "F-DET-11"
+      ],
+      "strongestCounter": "In the short run repression continued."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the significance of the Helsinki Final Act for superpower relations between 1975 and 1979.",
+     "Discuss the view that détente was a tactical pause rather than a genuine change in superpower relations with reference to the period 1969 to 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Helsinki Final Act seemed a Soviet victory in 1975, but its human rights clauses made it a long-term defeat for Moscow.",
+     "prove": "Judt argues that the Act gave a 'retrospective confirmation and acceptance of Potsdam', yet its third basket inspired Helsinki monitoring groups across the Soviet bloc.",
+     "explain": "This meant that dissidents could demand that their governments keep their own international promises, so repression became, in Judt's words, 'self-defeating'.",
+     "test": "However, in the short run the Soviet authorities could suppress the groups easily, as the sentences of 1977 show.",
+     "judge": "Helsinki was therefore a short-term gain and a long-term danger for the Soviet Union."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-DETENTE-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the third 'basket' of the Helsinki Final Act cover?",
+      "factIds": [
+       "F-DET-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Human rights, including emigration, family reunification and press freedom",
+        "correct": true,
+        "explanation": "Correct: the basis of the Helsinki groups."
+       },
+       {
+        "id": "b",
+        "text": "Nuclear missiles",
+        "correct": false,
+        "explanation": "That was SALT."
+       },
+       {
+        "id": "c",
+        "text": "Trade and science",
+        "correct": false,
+        "explanation": "That was the second basket."
+       },
+       {
+        "id": "d",
+        "text": "Follow-up meetings",
+        "correct": false,
+        "explanation": "That was the fourth basket."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-DETENTE-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many nations signed the Helsinki Final Act in 1975? (number)",
+      "factIds": [
+       "F-DET-07"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 35,
+        "tolerance": 0,
+        "explanation": "35: every European country except Albania, plus the US and Canada."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-DETENTE-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt writes that the breach Brezhnev opened at Helsinki 'was to prove mortal'.” Which argument does it support best?",
+      "factIds": [
+       "F-DET-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Helsinki's human rights clauses eventually undermined Soviet rule",
+        "correct": true,
+        "explanation": "Correct: dissidents used them."
+       },
+       {
+        "id": "b",
+        "text": "Helsinki strengthened the USSR for ever",
+        "correct": false,
+        "explanation": "Judt argues the opposite in the long run."
+       },
+       {
+        "id": "c",
+        "text": "Helsinki was ignored by everyone",
+        "correct": false,
+        "explanation": "Dissidents took it seriously."
+       },
+       {
+        "id": "d",
+        "text": "Helsinki ended the Cold War in 1975",
+        "correct": false,
+        "explanation": "Not what Judt says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "The collapse of détente, 1975–1979",
+    "body": "By the end of the 1970s détente had collapsed. The Office of the Historian identifies a basic problem: the United States and the Soviet Union \"had different visions of what détente meant\". Many Americans had expected it to end the Cold War, and were disillusioned when competition continued, especially in the Third World.\n\n**Angola** was an early test. When Portugal withdrew from its colonies after the 1974 revolution, Angola's independence movements fought for power. The US aided the FNLA and UNITA, the USSR the Marxist MPLA, and Cuba sent troops to halt a South African advance. The crisis of 1974–75 helped strain US-Soviet relations.\n\nValues returned to American policy. **Jimmy Carter**, inaugurated in January 1977, made human rights \"the cornerstone\" of his foreign policy, and in his first weeks his administration criticised violations in the Soviet Union and Czechoslovakia. This sat uneasily beside Helsinki's promise of non-intervention in each state's internal affairs. Meanwhile the Soviet crackdown on dissent turned Senate opinion against SALT II.\n\nThe final blow came at the end of December 1979, when thousands of Soviet troops entered **Afghanistan** to save a friendly socialist regime from Islamic insurgents. It was the only time the USSR invaded a country outside the Eastern bloc. Carter responded with what became the Carter Doctrine, a pledge to protect Middle Eastern oil from Soviet power, and with sanctions, trade embargoes, a boycott of the 1980 Moscow Olympics and more aid to the Afghan rebels. He asked the Senate to shelve SALT II, and arms control talks stopped until Gorbachev came to power.\n\nWas détente a genuine change or a tactical pause? For the US it was a way of managing a rival while competing elsewhere; for the USSR it confirmed parity and the post-war borders. Neither side gave up the competition. Yet détente left lasting results: SALT's limits were still observed, and Helsinki gave dissidents a weapon that would matter in the 1980s.\n\nThis mattered because détente failed to change the rivalry but did change its rules, which meant that when the Cold War ended, the arms control and human rights frameworks of the 1970s were ready to be used.",
+    "argumentsThatWork": [
+     {
+      "claim": "Different visions of détente doomed it.",
+      "evidence": [
+       "F-DET-17"
+      ],
+      "strongestCounter": "Both sides gained from it for several years."
+     },
+     {
+      "claim": "Third World conflicts such as Angola undermined trust.",
+      "evidence": [
+       "F-DET-15"
+      ],
+      "strongestCounter": "These were local conflicts with their own causes."
+     },
+     {
+      "claim": "Afghanistan ended détente in 1979.",
+      "evidence": [
+       "F-DET-18",
+       "F-DET-06"
+      ],
+      "strongestCounter": "Détente was already in trouble before the invasion."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the reasons for the collapse of détente between 1975 and 1979.",
+     "Compare and contrast the aims of the United States and the Soviet Union in pursuing détente between 1969 and 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "Détente collapsed mainly because the two superpowers had different visions of what it meant.",
+     "prove": "The US expected restraint in the Third World, yet in Angola in 1974–75 the USSR and Cuba backed the MPLA, while Carter's human rights policy from 1977 looked to Moscow like interference.",
+     "explain": "This meant that each side saw the other breaking the spirit of détente, so trust collapsed even before the invasion of Afghanistan.",
+     "test": "However, the invasion of December 1979 was the decisive blow, since it led Carter to shelve SALT II.",
+     "judge": "Détente therefore died of contradictions that Afghanistan exposed rather than created."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-DETENTE-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why was the Soviet invasion of Afghanistan unusual, according to the Office of the Historian?",
+      "factIds": [
+       "F-DET-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It was the only time the USSR invaded a country outside the Eastern Bloc",
+        "correct": true,
+        "explanation": "Correct: met by near-worldwide condemnation."
+       },
+       {
+        "id": "b",
+        "text": "It was the first Soviet use of nuclear weapons",
+        "correct": false,
+        "explanation": "No nuclear weapons were used."
+       },
+       {
+        "id": "c",
+        "text": "It was approved by the US",
+        "correct": false,
+        "explanation": "The US condemned it."
+       },
+       {
+        "id": "d",
+        "text": "It lasted only a week",
+        "correct": false,
+        "explanation": "It lasted a decade."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-DETENTE-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which of these was part of Carter's response to the invasion of Afghanistan?",
+      "factIds": [
+       "F-DET-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A boycott of the 1980 Moscow Olympics",
+        "correct": true,
+        "explanation": "Correct: with sanctions and aid to the insurgents."
+       },
+       {
+        "id": "b",
+        "text": "Ratifying SALT II at once",
+        "correct": false,
+        "explanation": "He asked the Senate to shelve it."
+       },
+       {
+        "id": "c",
+        "text": "Sending US troops into Afghanistan",
+        "correct": false,
+        "explanation": "He aided the insurgents instead."
+       },
+       {
+        "id": "d",
+        "text": "Recognising the Soviet-installed government",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-DETENTE-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The United States and the Soviet Union had different visions of what détente meant.” Which argument does it support best?",
+      "factIds": [
+       "F-DET-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Détente rested on misunderstandings that made collapse likely",
+        "correct": true,
+        "explanation": "Correct: expectations diverged."
+       },
+       {
+        "id": "b",
+        "text": "Détente ended the Cold War",
+        "correct": false,
+        "explanation": "It did not."
+       },
+       {
+        "id": "c",
+        "text": "Both sides wanted exactly the same from détente",
+        "correct": false,
+        "explanation": "The fact says the opposite."
+       },
+       {
+        "id": "d",
+        "text": "Détente never began",
+        "correct": false,
+        "explanation": "It produced SALT and Helsinki."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1963,
+      "text": "Limited Test Ban Treaty",
+      "factId": "F-DET-02"
+     },
+     {
+      "year": 1968,
+      "text": "Nuclear Non-Proliferation Treaty",
+      "factId": "F-DET-02"
+     },
+     {
+      "year": 1969,
+      "month": 11,
+      "day": 17,
+      "text": "SALT talks open in Helsinki",
+      "factId": "F-DET-04"
+     },
+     {
+      "year": 1970,
+      "text": "Bonn's treaties with Moscow and Warsaw",
+      "factId": "F-DET-14"
+     },
+     {
+      "year": 1972,
+      "month": 5,
+      "day": 26,
+      "text": "SALT I and the ABM Treaty signed",
+      "factId": "F-DET-04"
+     },
+     {
+      "year": 1973,
+      "month": 7,
+      "text": "CSCE opens",
+      "factId": "F-DET-07"
+     },
+     {
+      "year": 1974,
+      "month": 11,
+      "text": "Vladivostok framework for SALT II",
+      "factId": "F-DET-05"
+     },
+     {
+      "year": 1975,
+      "month": 8,
+      "day": 1,
+      "text": "Helsinki Final Act signed",
+      "factId": "F-DET-07"
+     },
+     {
+      "year": 1977,
+      "month": 1,
+      "day": 20,
+      "text": "Carter's inaugural: human rights",
+      "factId": "F-DET-16"
+     },
+     {
+      "year": 1979,
+      "month": 6,
+      "day": 17,
+      "text": "SALT II signed in Vienna",
+      "factId": "F-DET-06"
+     },
+     {
+      "year": 1979,
+      "month": 12,
+      "day": 25,
+      "text": "Soviet invasion of Afghanistan",
+      "factId": "F-DET-06"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Cuba, cost and parity make arms control attractive",
+      "factId": "F-DET-03"
+     },
+     {
+      "id": "n2",
+      "text": "The Sino-Soviet split, Vietnam and Ostpolitik change the context",
+      "factId": "F-DET-13"
+     },
+     {
+      "id": "n3",
+      "text": "SALT I and the ABM Treaty (1972)",
+      "factId": "F-DET-04"
+     },
+     {
+      "id": "n4",
+      "text": "Helsinki (1975): borders for Moscow, rights for dissidents",
+      "factId": "F-DET-10"
+     },
+     {
+      "id": "n5",
+      "text": "Angola, human rights and dissent erode trust",
+      "factId": "F-DET-15"
+     },
+     {
+      "id": "n6",
+      "text": "Afghanistan (1979): SALT II shelved, détente ends",
+      "factId": "F-DET-18"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Each side also had strategic motives to talk"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "A warmer climate made agreement possible"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Détente extended from arms to European security"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Each side read the agreements differently"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "The invasion confirmed American suspicions"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Richard Nixon",
+     "role": "US President, 1969–1974",
+     "whyItMatters": "Signed SALT I; opened relations with China.",
+     "factIds": [
+      "F-DET-04",
+      "F-DET-13"
+     ]
+    },
+    {
+     "name": "Leonid Brezhnev",
+     "role": "Soviet leader",
+     "whyItMatters": "Signed SALT I and II; Helsinki recognised his borders.",
+     "factIds": [
+      "F-DET-04",
+      "F-DET-06",
+      "F-DET-10"
+     ]
+    },
+    {
+     "name": "Henry Kissinger",
+     "role": "National Security Adviser and Secretary of State",
+     "whyItMatters": "Architect of détente: interests before Soviet domestic reform.",
+     "factIds": [
+      "F-DET-04",
+      "F-DET-12"
+     ]
+    },
+    {
+     "name": "Gerald Ford",
+     "role": "US President, 1974–1977",
+     "whyItMatters": "Agreed the Vladivostok framework in 1974.",
+     "factIds": [
+      "F-DET-05"
+     ]
+    },
+    {
+     "name": "Jimmy Carter",
+     "role": "US President, 1977–1981",
+     "whyItMatters": "Human rights policy; signed then shelved SALT II.",
+     "factIds": [
+      "F-DET-16",
+      "F-DET-06",
+      "F-DET-18"
+     ]
+    },
+    {
+     "name": "Helsinki groups",
+     "role": "Dissidents in the Soviet bloc",
+     "whyItMatters": "Used the third basket to hold governments to account.",
+     "factIds": [
+      "F-DET-09",
+      "F-DET-11"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "United States",
+     "Soviet Union"
+    ],
+    "rows": [
+     {
+      "criterion": "Main aims",
+      "cells": [
+       "Limit conflicts, exit Vietnam, leverage over Moscow and Beijing",
+       "Parity, recognition of post-war borders, relief from the China threat"
+      ],
+      "factIds": [
+       "F-DET-01",
+       "F-DET-10"
+      ]
+     },
+     {
+      "criterion": "Arms control",
+      "cells": [
+       "Stop Soviet ABM and missile growth",
+       "Reach and keep parity"
+      ],
+      "factIds": [
+       "F-DET-03",
+       "F-DET-04"
+      ]
+     },
+     {
+      "criterion": "Helsinki",
+      "cells": [
+       "Human rights clauses (third basket)",
+       "Borders and non-intervention (first basket)"
+      ],
+      "factIds": [
+       "F-DET-08",
+       "F-DET-10"
+      ]
+     },
+     {
+      "criterion": "View of competition",
+      "cells": [
+       "Expected restraint in the Third World",
+       "Continued support for allies such as the MPLA"
+      ],
+      "factIds": [
+       "F-DET-17",
+       "F-DET-15"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-DET-01",
+    "year": 1969,
+    "text": "Détente motives: the 'incredibly expensive' arms race, the Sino-Soviet split, Vietnam.",
+    "supports": [
+     "Shared interests drove détente"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "détente"
+    ]
+   },
+   {
+    "factId": "F-DET-04",
+    "year": 1972,
+    "text": "SALT I and the ABM Treaty (26 May 1972): first limit on nuclear missiles.",
+    "supports": [
+     "Arms control was détente's core achievement"
+    ],
+    "alsoWorksFor": [
+     "P2-12-LEADERS"
+    ],
+    "lexicon": [
+     "SALT I",
+     "ABM Treaty"
+    ]
+   },
+   {
+    "factId": "F-DET-06",
+    "year": 1979,
+    "text": "SALT II signed 17 June 1979; shelved after the invasion of Afghanistan; never ratified.",
+    "supports": [
+     "Politics killed arms control"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "SALT II"
+    ]
+   },
+   {
+    "factId": "F-DET-07",
+    "year": 1975,
+    "text": "Helsinki Final Act (1 August 1975): 35 signatories.",
+    "supports": [
+     "Détente extended to European security"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B3-ACCEPTANCE-OPPOSITION"
+    ],
+    "lexicon": [
+     "Helsinki",
+     "CSCE"
+    ]
+   },
+   {
+    "factId": "F-DET-10",
+    "year": 1975,
+    "text": "Judt: Helsinki was 'retrospective confirmation and acceptance of Potsdam'.",
+    "supports": [
+     "The USSR gained recognition of its borders"
+    ],
+    "lexicon": [
+     "Helsinki",
+     "borders"
+    ]
+   },
+   {
+    "factId": "F-DET-11",
+    "year": 1977,
+    "text": "Judt: the Helsinki Rights movement; repression became self-defeating; the breach 'was to prove mortal'.",
+    "supports": [
+     "The third basket undermined Soviet rule"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B3-ACCEPTANCE-OPPOSITION",
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "Helsinki groups",
+     "dissidents"
+    ]
+   },
+   {
+    "factId": "F-DET-15",
+    "year": 1975,
+    "text": "Angola 1974–75: US backed FNLA and UNITA, USSR the MPLA; Cuban troops.",
+    "supports": [
+     "Third World rivalry undermined détente"
+    ],
+    "lexicon": [
+     "Angola"
+    ]
+   },
+   {
+    "factId": "F-DET-18",
+    "year": 1979,
+    "text": "Afghanistan (December 1979): the only Soviet invasion outside the Eastern Bloc; Olympic boycott.",
+    "supports": [
+     "Afghanistan ended détente"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "Afghanistan",
+     "Carter Doctrine"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "At Helsinki the Soviet Union seemed the major beneficiary, winning 'retrospective confirmation and acceptance of Potsdam'; but the human rights principles gave birth to the Helsinki Rights movement, and the breach Brezhnev had opened 'was to prove mortal'.",
+    "useItLikeThis": "Judt's view supports the claim that détente changed the Cold War more than either side intended, which suggests the West's real gain came in the long run.",
+    "factId": "F-DET-11"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "SALT I ended the arms race.",
+    "right": "It limited launchers and ABMs but **not MIRVs**, so warheads could still multiply."
+   },
+   {
+    "wrong": "SALT II was ratified and enforced.",
+    "right": "It was signed in 1979 but **never ratified**; both sides chose to observe it."
+   },
+   {
+    "wrong": "Helsinki was a simple Western victory.",
+    "right": "In 1975 it looked like a **Soviet** gain; its human rights effects came later."
+   },
+   {
+    "wrong": "Détente meant the end of competition.",
+    "right": "Competition continued, for example in **Angola**; the two sides had different visions of détente."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1969,
+     "month": 11,
+     "day": 17,
+     "text": "SALT talks open"
+    },
+    {
+     "year": 1972,
+     "month": 5,
+     "day": 26,
+     "text": "SALT I and ABM"
+    },
+    {
+     "year": 1974,
+     "month": 11,
+     "text": "Vladivostok"
+    },
+    {
+     "year": 1975,
+     "month": 8,
+     "day": 1,
+     "text": "Helsinki"
+    },
+    {
+     "year": 1975,
+     "month": 11,
+     "text": "Angolan independence"
+    },
+    {
+     "year": 1977,
+     "month": 1,
+     "day": 20,
+     "text": "Carter: human rights"
+    },
+    {
+     "year": 1979,
+     "month": 6,
+     "day": 17,
+     "text": "SALT II signed"
+    },
+    {
+     "year": 1979,
+     "month": 12,
+     "day": 25,
+     "text": "Afghanistan"
+    }
+   ],
+   "keyArguments": [
+    "Cost, parity and fear of ABMs pushed both sides to arms control.",
+    "The China opening, Vietnam and Ostpolitik changed the strategic context.",
+    "SALT I was the first limit on nuclear missiles, but it ignored MIRVs.",
+    "Helsinki gave Moscow its borders and dissidents their weapon (Judt).",
+    "Different visions, Angola, human rights and Afghanistan ended détente."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-DETENTE-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps in arms control in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Limited Test Ban Treaty",
+     "year": 1963,
+     "factId": "F-DET-02"
+    },
+    {
+     "id": "b",
+     "text": "Glassboro meeting of Johnson and Kosygin",
+     "year": 1967,
+     "factId": "F-DET-03"
+    },
+    {
+     "id": "c",
+     "text": "SALT talks open in Helsinki",
+     "year": 1969,
+     "month": 11,
+     "factId": "F-DET-04"
+    },
+    {
+     "id": "d",
+     "text": "SALT I signed",
+     "year": 1972,
+     "month": 5,
+     "factId": "F-DET-04"
+    },
+    {
+     "id": "e",
+     "text": "Vladivostok framework",
+     "year": 1974,
+     "month": 11,
+     "factId": "F-DET-05"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "NATO agrees to a European Security Conference",
+     "year": 1971,
+     "month": 12,
+     "factId": "F-DET-12"
+    },
+    {
+     "id": "b",
+     "text": "CSCE opens",
+     "year": 1973,
+     "month": 7,
+     "factId": "F-DET-07"
+    },
+    {
+     "id": "c",
+     "text": "Helsinki Final Act signed",
+     "year": 1975,
+     "month": 8,
+     "factId": "F-DET-07"
+    },
+    {
+     "id": "d",
+     "text": "Carter's inaugural address",
+     "year": 1977,
+     "month": 1,
+     "factId": "F-DET-16"
+    },
+    {
+     "id": "e",
+     "text": "SALT II signed",
+     "year": 1979,
+     "month": 6,
+     "factId": "F-DET-06"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of the collapse of détente in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Angolan civil war becomes a Cold War contest",
+     "year": 1975,
+     "factId": "F-DET-15"
+    },
+    {
+     "id": "b",
+     "text": "Soviet invasion of Afghanistan",
+     "year": 1979,
+     "month": 12,
+     "factId": "F-DET-06"
+    },
+    {
+     "id": "c",
+     "text": "SALT II signed in Vienna",
+     "year": 1979,
+     "month": 6,
+     "factId": "F-DET-06"
+    },
+    {
+     "id": "d",
+     "text": "Ukrainian Helsinki group leaders sentenced",
+     "year": 1977,
+     "factId": "F-DET-11"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R04",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what day of November 1969 did the formal SALT talks open in Helsinki? (number)",
+   "factIds": [
+    "F-DET-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 17,
+     "tolerance": 0,
+     "explanation": "17 November 1969."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R05",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Robert McNamara",
+     "right": "US Defense Secretary who called the action-reaction cycle 'an insane road'",
+     "explanation": "Under Johnson."
+    },
+    {
+     "left": "Alexei Kosygin",
+     "right": "Soviet Premier who met Johnson at Glassboro in 1967",
+     "explanation": "Early arms talks."
+    },
+    {
+     "left": "Leonid Brezhnev",
+     "right": "Soviet leader who signed both SALT I and SALT II",
+     "explanation": "1972 and 1979."
+    },
+    {
+     "left": "Gerald Ford",
+     "right": "US President who agreed the Vladivostok framework",
+     "explanation": "November 1974."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many interceptors did the ABM Treaty allow each side? (number)",
+   "factIds": [
+    "F-DET-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 200,
+     "tolerance": 0,
+     "explanation": "200, at two sites."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many MIRV systems did the Vladivostok framework of 1974 allow each side? (number)",
+   "factIds": [
+    "F-DET-05"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1320,
+     "tolerance": 0,
+     "explanation": "1,320, with 2,400 delivery vehicles."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the Soviet Union first seek a European security conference to recognise post-war borders? (year)",
+   "factIds": [
+    "F-DET-07"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1954,
+     "tolerance": 0,
+     "explanation": "1954, at the Geneva Conference."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R09",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many senators wrote to Carter on 17 December 1979 opposing SALT II, according to the Office of the Historian? (number)",
+   "factIds": [
+    "F-DET-06"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 19,
+     "tolerance": 0,
+     "explanation": "Nineteen."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were in the Helsinki Final Act? Choose all that apply.",
+   "factIds": [
+    "F-DET-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Recognition of borders and territorial integrity",
+     "correct": true,
+     "explanation": "Yes: the first basket."
+    },
+    {
+     "id": "b",
+     "text": "Economic and scientific cooperation",
+     "correct": true,
+     "explanation": "Yes: the second basket."
+    },
+    {
+     "id": "c",
+     "text": "Freedom of emigration and family reunification",
+     "correct": true,
+     "explanation": "Yes: the third basket."
+    },
+    {
+     "id": "d",
+     "text": "A ban on all nuclear weapons",
+     "correct": false,
+     "explanation": "No: Helsinki was not an arms treaty."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R11",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these turned US opinion against SALT II? Choose all that apply.",
+   "factIds": [
+    "F-DET-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Soviet crackdown on internal dissent",
+     "correct": true,
+     "explanation": "Yes: a concern for the Senate."
+    },
+    {
+     "id": "b",
+     "text": "Soviet interventions abroad",
+     "correct": true,
+     "explanation": "Yes: an increasingly interventionist foreign policy."
+    },
+    {
+     "id": "c",
+     "text": "Doubts about verification",
+     "correct": true,
+     "explanation": "Yes: a long-running issue."
+    },
+    {
+     "id": "d",
+     "text": "Soviet withdrawal from Eastern Europe",
+     "correct": false,
+     "explanation": "No: that did not happen in the 1970s."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Some activists opposed the Western concession on boundaries that formally accepted the Soviet annexation of the Baltic states.” Which argument does it support?",
+   "factIds": [
+    "F-DET-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "In 1975 Helsinki looked like a concession to Moscow",
+     "correct": true,
+     "explanation": "Correct: the West accepted the post-war borders."
+    },
+    {
+     "id": "b",
+     "text": "Helsinki freed the Baltic states",
+     "correct": false,
+     "explanation": "It accepted their annexation."
+    },
+    {
+     "id": "c",
+     "text": "Helsinki was popular with every Western activist",
+     "correct": false,
+     "explanation": "Some opposed it."
+    },
+    {
+     "id": "d",
+     "text": "The USSR gained nothing at Helsinki",
+     "correct": false,
+     "explanation": "It gained recognition of borders."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R13",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Both Washington and Moscow pledged to adhere to SALT II despite its failure to enter into force.” Which argument does it support?",
+   "factIds": [
+    "F-DET-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Arms control outlived the political collapse of détente",
+     "correct": true,
+     "explanation": "Correct: limits were still observed."
+    },
+    {
+     "id": "b",
+     "text": "SALT II was ratified",
+     "correct": false,
+     "explanation": "It was never ratified."
+    },
+    {
+     "id": "c",
+     "text": "The arms race ended in 1979",
+     "correct": false,
+     "explanation": "It did not."
+    },
+    {
+     "id": "d",
+     "text": "Both sides immediately broke SALT II",
+     "correct": false,
+     "explanation": "They pledged to observe it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “SALT I limited the number of warheads each side could fit on its missiles.”",
+   "factIds": [
+    "F-DET-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "SALT I did not cover MIRVs, so warhead numbers could still grow",
+     "correct": true,
+     "explanation": "Correct: SALT II tried to address MIRVs."
+    },
+    {
+     "id": "b",
+     "text": "SALT I was signed in 1982",
+     "correct": false,
+     "explanation": "It was signed in 1972."
+    },
+    {
+     "id": "c",
+     "text": "SALT I was signed by Carter",
+     "correct": false,
+     "explanation": "It was signed by Nixon."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: MIRVs were not limited."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R15",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Helsinki Final Act was signed in 1975 by the US and the USSR only.”",
+   "factIds": [
+    "F-DET-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was signed by 35 nations: every European country except Albania, plus the US and Canada",
+     "correct": true,
+     "explanation": "Correct: a multilateral agreement."
+    },
+    {
+     "id": "b",
+     "text": "It was signed in 1985",
+     "correct": false,
+     "explanation": "It was signed on 1 August 1975."
+    },
+    {
+     "id": "c",
+     "text": "It was signed in Vienna",
+     "correct": false,
+     "explanation": "It was signed in Helsinki."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the signatories are wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R16",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about détente between 1969 and 1979. Is Reagan's 1980 election campaign against SALT II inside or outside the timeframe?",
+   "factIds": [
+    "F-DET-06"
+   ],
+   "timeframe": [
+    1969,
+    1979
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1979."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1980 is after 1979."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because SALT II was signed in 1979",
+     "correct": false,
+     "explanation": "The signing is inside; the campaign is not."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the USSR hope to gain from a European security conference?",
+   "factIds": [
+    "F-DET-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Formal recognition of the post-war borders in Eastern Europe",
+     "correct": true,
+     "explanation": "Correct: sought since 1954."
+    },
+    {
+     "id": "b",
+     "text": "Membership of NATO",
+     "correct": false,
+     "explanation": "Not its aim."
+    },
+    {
+     "id": "c",
+     "text": "Withdrawal from East Germany",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "Marshall aid",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were Helsinki Monitoring Groups?",
+   "factIds": [
+    "F-DET-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Groups of activists that tracked violations of the Final Act's human rights clauses",
+     "correct": true,
+     "explanation": "Correct: in the USSR and across Europe."
+    },
+    {
+     "id": "b",
+     "text": "NATO military units",
+     "correct": false,
+     "explanation": "Not what they were."
+    },
+    {
+     "id": "c",
+     "text": "Soviet secret police",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "UN peacekeepers",
+     "correct": false,
+     "explanation": "Not what they were."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Carter make 'the cornerstone' of his foreign policy?",
+   "factIds": [
+    "F-DET-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Human rights",
+     "correct": true,
+     "explanation": "Correct: from his inaugural address of January 1977."
+    },
+    {
+     "id": "b",
+     "text": "Rollback",
+     "correct": false,
+     "explanation": "Not Carter's policy."
+    },
+    {
+     "id": "c",
+     "text": "Massive retaliation",
+     "correct": false,
+     "explanation": "A 1950s doctrine."
+    },
+    {
+     "id": "d",
+     "text": "Isolationism",
+     "correct": false,
+     "explanation": "Not his policy."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Cuba send troops to Angola in 1975?",
+   "factIds": [
+    "F-DET-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To halt a South African advance against the MPLA",
+     "correct": true,
+     "explanation": "Correct: the MPLA had long ties with Castro."
+    },
+    {
+     "id": "b",
+     "text": "To support UNITA",
+     "correct": false,
+     "explanation": "UNITA was backed by the US and South Africa."
+    },
+    {
+     "id": "c",
+     "text": "To fight the US Army",
+     "correct": false,
+     "explanation": "US troops were not deployed."
+    },
+    {
+     "id": "d",
+     "text": "To restore Portuguese rule",
+     "correct": false,
+     "explanation": "Portugal was leaving."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-DETENTE-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the cost of the arms race the main reason for détente between 1969 and 1975?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the cost of the arms race",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for détente",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1969 and 1975",
+     "answer": "timeframe",
+     "explanation": "From SALT to Helsinki."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Whether cost outweighed strategic motives."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘Détente was a tactical pause rather than a genuine change in superpower relations.’ Discuss with reference to the period 1969 to 1979.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "a tactical pause rather than a genuine change",
+     "answer": "factor",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s3",
+     "text": "détente",
+     "answer": "scope",
+     "explanation": "What the claim is about."
+    },
+    {
+     "id": "s4",
+     "text": "1969 to 1979",
+     "answer": "timeframe",
+     "explanation": "From SALT to Afghanistan."
+    },
+    {
+     "id": "s5",
+     "text": "genuine change",
+     "answer": "judgement",
+     "explanation": "Whether détente changed the rivalry or only its rules."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘Détente was a tactical pause rather than a genuine change in superpower relations.’ Discuss.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Détente did not end the rivalry, since both sides kept competing in the Third World; but it genuinely changed the rules, through arms control and Helsinki, in ways that outlasted its collapse.",
+     "correct": true,
+     "explanation": "Correct: a judgement with a distinction."
+    },
+    {
+     "id": "b",
+     "text": "Détente happened in the 1970s.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Détente was a pause.",
+     "correct": false,
+     "explanation": "No reasoning."
+    },
+    {
+     "id": "d",
+     "text": "Détente ended the Cold War.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the significance of the Helsinki Final Act for superpower relations between 1975 and 1979.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "In the short term Helsinki confirmed Soviet borders and was seen as a Soviet gain, but its human rights basket gave dissidents a weapon and, under Carter, became a source of US-Soviet friction.",
+     "correct": true,
+     "explanation": "Correct: short-term and long-term."
+    },
+    {
+     "id": "b",
+     "text": "Helsinki was signed in 1975.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Helsinki was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Helsinki had no effect.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 26 May 1972 Nixon and Brezhnev signed the ABM Treaty.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because each side kept its capacity to retaliate, the ABM Treaty stabilised deterrence.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "On 1 August 1975 thirty-five states signed the Helsinki Final Act.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that dissidents could hold their governments to their own promises, so repression became self-defeating.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "The 'incredibly expensive' arms race",
+     "right": "Cost pushed both sides towards détente",
+     "explanation": "Economic difficulties at home."
+    },
+    {
+     "left": "The first limit on nuclear missiles in 1972",
+     "right": "Arms control was détente's core achievement",
+     "explanation": "SALT I."
+    },
+    {
+     "left": "Helsinki Monitoring Groups",
+     "right": "The third basket gave dissidents a weapon",
+     "explanation": "After 1975."
+    },
+    {
+     "left": "Carter shelving SALT II in January 1980",
+     "right": "Afghanistan ended détente",
+     "explanation": "Never ratified."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Helsinki was good for the West.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Although the USSR won recognition of its borders in 1975, the third basket's human rights clauses let dissidents form Helsinki monitoring groups, so, as Judt argues, Helsinki opened a breach in Soviet defences.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and historian."
+    },
+    {
+     "id": "b",
+     "text": "Helsinki was very good for the West.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Helsinki was signed in Finland.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Helsinki won the Cold War for the West in 1975.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Afghanistan alone destroyed détente.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Détente was already failing before December 1979: the two sides had different visions of it, Angola in 1974–75 strained relations, and the Senate was sceptical of SALT II because of the Soviet crackdown on dissent.",
+     "correct": true,
+     "explanation": "Correct: specific earlier causes."
+    },
+    {
+     "id": "b",
+     "text": "Afghanistan is far away.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "c",
+     "text": "Some people liked détente.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "Carter was President.",
+     "correct": false,
+     "explanation": "A fact, not a counter."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘Détente was a tactical pause rather than a genuine change in superpower relations.’ Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether the rivalry ended, détente was a pause; judged by whether the rules of the rivalry changed, it was genuine, because SALT limits and Helsinki's human rights clauses outlived it.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, détente happened and then ended.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, détente was complicated.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, peace is always good.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-DETENTE-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the SALT negotiations between 1969 and 1979.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The cost of the arms race",
+     "answer": "causes",
+     "explanation": "Both faced economic difficulties."
+    },
+    {
+     "id": "s2",
+     "text": "Soviet ABM defences around Moscow",
+     "answer": "causes",
+     "explanation": "Announced in January 1967."
+    },
+    {
+     "id": "s3",
+     "text": "The ABM Treaty and interim agreement of 1972",
+     "answer": "effects",
+     "explanation": "The first limit on missiles."
+    },
+    {
+     "id": "s4",
+     "text": "The Vladivostok framework of 1974",
+     "answer": "effects",
+     "explanation": "2,400 delivery vehicles."
+    },
+    {
+     "id": "s5",
+     "text": "SALT II signed but never ratified",
+     "answer": "effects",
+     "explanation": "Shelved in January 1980."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-DETENTE-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the cost of the arms race the main reason for détente between 1969 and 1975?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the cost of the arms race",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1969,
+    1975
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The cost of the arms race, weighed first",
+    "timeframe": "1969–1975",
+    "scope": "Détente",
+    "judgement": "Whether cost outweighed strategic motives"
+   },
+   "modelPlan": {
+    "thesis": "The cost of the arms race made détente attractive to both sides, but strategic motives (the Sino-Soviet split for Moscow, Vietnam for Washington) explain why it came when it did.",
+    "arguments": [
+     {
+      "claim": "Cost and the danger of ABMs (named factor first).",
+      "evidence": [
+       "F-DET-01",
+       "F-DET-03"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "The Sino-Soviet split and the China opening.",
+      "evidence": [
+       "F-DET-01",
+       "F-DET-13"
+      ]
+     },
+     {
+      "claim": "Vietnam and 'bigger fish to fry'.",
+      "evidence": [
+       "F-DET-13"
+      ]
+     },
+     {
+      "claim": "Europe: Ostpolitik and the Soviet wish for recognised borders.",
+      "evidence": [
+       "F-DET-14",
+       "F-DET-07"
+      ]
+     }
+    ],
+    "counter": "Both sides kept modernising their arsenals during détente, which suggests cost was not decisive.",
+    "judgementCriterion": "Would détente have happened without the triangle with China? Probably not so quickly, so strategy explains its timing."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The cost of the arms race was an important reason for détente, but not the main one.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The arms race was 'incredibly expensive' and both sides faced economic difficulties, yet the Sino-Soviet split drew Moscow towards the US and Vietnam drew Washington towards Moscow.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that cost made agreement desirable, while strategy made it urgent, so SALT I followed the China opening in the same year.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the danger of Soviet ABM defences and the drive to parity meant that, by the late 1960s, only agreement could stop an endless build-up.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Cost was therefore a necessary condition of détente, but strategic calculation was its main driver.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "cost",
+     "arms race"
+    ],
+    "synonyms": [
+     "expensive",
+     "economic"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "SALT",
+     "ABM",
+     "Sino-Soviet split"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-DETENTE-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Détente was a tactical pause rather than a genuine change in superpower relations.” Discuss with reference to the period 1969 to 1979.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1969,
+    1979
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: a tactical pause",
+    "timeframe": "1969–1979",
+    "scope": "Détente",
+    "judgement": "Whether détente changed the rivalry or only its rules"
+   },
+   "modelPlan": {
+    "thesis": "Détente did not end the rivalry, since both sides kept competing in the Third World; but it genuinely changed the rules, through arms control and Helsinki, in ways that outlasted its collapse.",
+    "arguments": [
+     {
+      "claim": "For: different visions and continued competition.",
+      "evidence": [
+       "F-DET-17",
+       "F-DET-15"
+      ]
+     },
+     {
+      "claim": "For: collapse after Afghanistan.",
+      "evidence": [
+       "F-DET-18",
+       "F-DET-06"
+      ]
+     },
+     {
+      "claim": "Against: the first limits on nuclear missiles.",
+      "evidence": [
+       "F-DET-04"
+      ]
+     },
+     {
+      "claim": "Against: Helsinki's lasting human rights effect.",
+      "evidence": [
+       "F-DET-11"
+      ]
+     }
+    ],
+    "counter": "Kissinger's view that détente need not wait on Soviet reform shows it was a pragmatic arrangement from the start.",
+    "judgementCriterion": "Did détente change the rules of the rivalry? Yes: arms limits were observed even after SALT II was shelved."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Détente was more than a tactical pause, although it did not end the rivalry.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The superpowers kept competing in Angola in 1974–75 and Afghanistan in 1979, yet SALT I in 1972 was the first limit on nuclear missiles and both sides observed SALT II even unratified.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that détente changed how the rivalry was managed, so arms control survived the political collapse.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the two sides had different visions of détente, and by 1979 cooperation had given way to renewed competition.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore only partly valid: détente paused the confrontation but genuinely changed its rules.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "détente",
+     "detente"
+    ],
+    "synonyms": [
+     "pause",
+     "relaxation"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "SALT",
+     "Helsinki",
+     "Afghanistan"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-DETENTE-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of the Helsinki Final Act for superpower relations between 1975 and 1979.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1975,
+    1979
+   ],
+   "scope": "Europe",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The significance of the Helsinki Final Act",
+    "timeframe": "1975–1979",
+    "scope": "Superpower relations",
+    "judgement": "Short-term gains against long-term effects"
+   },
+   "modelPlan": {
+    "thesis": "In the short term Helsinki confirmed Soviet borders and was seen as a Soviet gain, but its human rights basket gave dissidents a weapon and, under Carter, became a source of US-Soviet friction.",
+    "arguments": [
+     {
+      "claim": "Soviet gains: borders and non-intervention.",
+      "evidence": [
+       "F-DET-10"
+      ]
+     },
+     {
+      "claim": "Western criticism of the concession.",
+      "evidence": [
+       "F-DET-09"
+      ]
+     },
+     {
+      "claim": "The third basket and the Helsinki groups.",
+      "evidence": [
+       "F-DET-08",
+       "F-DET-11"
+      ]
+     },
+     {
+      "claim": "Human rights and friction under Carter.",
+      "evidence": [
+       "F-DET-16",
+       "F-DET-06"
+      ]
+     }
+    ],
+    "counter": "In the short run repression continued, as the 1977 sentences show, so the impact took time.",
+    "judgementCriterion": "By what criterion? Effect on the relationship: by 1979 human rights, the issue Helsinki made legitimate, was dividing the superpowers."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Helsinki was significant because it turned human rights into an issue between the superpowers.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Act gave the USSR 'retrospective confirmation and acceptance of Potsdam', yet its third basket inspired Helsinki monitoring groups, and Carter's administration criticised Soviet violations from 1977.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the West could challenge Soviet conduct by appealing to Moscow's own commitments, so the Act became a source of friction.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in 1975 it looked like a Soviet victory, and in the short run the Soviets could suppress the groups.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Helsinki's significance therefore lay less in what was agreed than in what it allowed others to demand.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Helsinki"
+    ],
+    "synonyms": [
+     "Final Act",
+     "CSCE",
+     "third basket"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "human rights",
+     "dissidents",
+     "borders"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-DETENTE-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the SALT negotiations between 1969 and 1979.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1969,
+    1979
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1969–1979",
+    "scope": "The SALT negotiations",
+    "judgement": "Which reason mattered most, and which result lasted"
+   },
+   "modelPlan": {
+    "thesis": "SALT was driven by the cost and danger of the arms race, especially Soviet parity and missile defences; it produced the first limits on nuclear weapons, but SALT II fell victim to the collapse of détente.",
+    "arguments": [
+     {
+      "claim": "Reason: cost and parity.",
+      "evidence": [
+       "F-DET-01",
+       "F-DET-03"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: the danger of ABM defences.",
+      "evidence": [
+       "F-DET-03"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: SALT I and the ABM Treaty.",
+      "evidence": [
+       "F-DET-04"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: SALT II signed but never ratified.",
+      "evidence": [
+       "F-DET-05",
+       "F-DET-06"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "SALT left MIRVs uncontrolled until late in the decade, so warheads kept multiplying.",
+    "judgementCriterion": "Which result lasted? The habit of observing agreed limits, which both sides kept even without ratification."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "SALT was driven above all by the danger that missile defences and parity posed to deterrence.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1967 Johnson revealed Soviet ABM defences around Moscow, and McNamara called the action-reaction cycle 'an insane road to follow'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that both sides had a reason to cap defences and missiles, so in May 1972 they signed the ABM Treaty and the interim agreement.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, SALT I left MIRVs uncontrolled, and SALT II, signed in June 1979, was never ratified after the invasion of Afghanistan.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "SALT therefore achieved the first limits on nuclear arms, but its later success depended on the political climate.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "SALT"
+    ],
+    "synonyms": [
+     "arms control",
+     "ABM Treaty"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "MIRV",
+     "Vladivostok",
+     "parity"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-DETENTE-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons for the collapse of détente between 1975 and 1979.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1975,
+    1979
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Reasons for the collapse",
+    "timeframe": "1975–1979",
+    "scope": "Détente",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "Détente collapsed because the superpowers had different visions of it: continued Soviet involvement in the Third World and the US turn to human rights eroded trust, and the invasion of Afghanistan in 1979 completed the breakdown.",
+    "arguments": [
+     {
+      "claim": "Different visions and overblown expectations.",
+      "evidence": [
+       "F-DET-17"
+      ]
+     },
+     {
+      "claim": "Angola and the Third World.",
+      "evidence": [
+       "F-DET-15"
+      ]
+     },
+     {
+      "claim": "Human rights and dissent.",
+      "evidence": [
+       "F-DET-16",
+       "F-DET-11"
+      ]
+     },
+     {
+      "claim": "Afghanistan and SALT II.",
+      "evidence": [
+       "F-DET-18",
+       "F-DET-06"
+      ]
+     }
+    ],
+    "counter": "Arms control survived the collapse, since both sides observed SALT II.",
+    "judgementCriterion": "Which reason mattered most? The different visions, because they made every later dispute look like a betrayal."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Détente collapsed mainly because the two superpowers had different visions of what it meant.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The US expected restraint, yet in 1974–75 the USSR backed the MPLA in Angola, and from 1977 Carter's human rights policy criticised Soviet abuses.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that each side saw the other breaking the spirit of détente, so trust collapsed before the invasion of Afghanistan.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the invasion of December 1979 was the decisive event, since it led Carter to shelve SALT II.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Détente therefore collapsed from contradictions that Afghanistan exposed rather than created.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "collapse"
+    ],
+    "synonyms": [
+     "breakdown",
+     "end of détente"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Angola",
+     "human rights",
+     "Afghanistan"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-DETENTE-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the aims of the United States and the Soviet Union in pursuing détente between 1969 and 1979.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1969,
+    1979
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The aims of the two superpowers",
+    "timeframe": "1969–1979",
+    "scope": "Détente",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both sought to reduce the cost and danger of the arms race, but the US wanted Soviet restraint and leverage in Vietnam and against China, while the USSR wanted parity and recognition of its post-war gains.",
+    "arguments": [
+     {
+      "claim": "Similarity: reducing the cost and risk of the arms race.",
+      "evidence": [
+       "F-DET-01",
+       "F-DET-03"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both used China as a factor.",
+      "evidence": [
+       "F-DET-01",
+       "F-DET-13"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: Soviet aim of recognised borders.",
+      "evidence": [
+       "F-DET-07",
+       "F-DET-10"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: US expectation of restraint.",
+      "evidence": [
+       "F-DET-17",
+       "F-DET-15"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Both continued to compete in the Third World, which suggests their aims were similar: advantage without war.",
+    "judgementCriterion": "Which difference mattered most? The view of competition: the US expected restraint, the USSR did not."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Both superpowers sought to limit the arms race, but they wanted different things from détente.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Both faced an 'incredibly expensive' arms race, yet the USSR had sought recognition of its post-war borders since 1954, whereas the US hoped détente would bring restraint and help in Vietnam.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the USSR saw détente as confirming its gains, while the US saw it as a way of limiting Soviet expansion.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both sides kept competing, as Angola shows, so neither expected détente to end the rivalry.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore over competition, which explains why each accused the other of betraying détente.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "United States",
+     "Soviet Union"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "parity",
+     "Helsinki",
+     "Vietnam"
+    ]
+   }
+  }
+ ]
+}

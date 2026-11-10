@@ -1,0 +1,2812 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-CRISIS-EASTERN-EUROPE",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In December 1981 the Polish army crushed Solidarity with Soviet encouragement. In 1989 Solidarity won an election and every Communist regime in Eastern Europe fell, while the Soviet army stayed in its barracks. What changed between 1981 and 1989?",
+   "predictionPrompt": "Your prediction in one line: why did Moscow use force in 1981 but not in 1989?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Living on borrowed time: debt and decline",
+    "body": "By 1981 Eastern Europe's Communist regimes were in deep economic trouble. In the 1970s Western banks had lent freely to the Soviet bloc, reassured by the stability that the Red Army seemed to guarantee. Governments used the money to buy Western goods and to subsidise food and consumer prices, avoiding the unpopular reforms their economists recommended. Tony Judt's figures show the scale. Eastern Europe's hard-currency debt rose from $6.1 billion in 1971 to $66.1 billion in 1980, and would reach $95.6 billion by 1988. Poland's debt rose from $1 billion to $20.5 billion between 1971 and 1980. In its last years East Germany spent over 60 per cent of its export earnings just on interest. The system, Judt writes, was \"living not just on loans but on borrowed time\".\n\nPoland showed what happened when the bills came due. When the government raised food prices in 1976, riots forced it to back down. When it raised meat prices again on 1 July 1980, strikes spread across the country to the Lenin Shipyard in Gdańsk, where workers led by **Lech Wałęsa** formed an independent union, **Solidarity**. The regime gave way: on 10 November 1980 Solidarity became the first officially registered independent trade union in a Communist country, with an estimated ten million members.\n\nSolidarity's leaders knew the history of 1956 and 1968. Soviet tanks had crushed protest in East Berlin, Hungary and Czechoslovakia. Their advisers therefore called for a \"self-limiting revolution\": the union accepted the Party's \"leading role\" and avoided foreign policy, to give Warsaw and Moscow no excuse to send in the tanks.\n\nBut the crisis deepened in 1981. Industrial productivity collapsed as newly unionised workers held meetings, protests and strikes. Seen from Moscow, Judt writes, the Polish regime was losing control and setting a dangerous example to its neighbours.\n\nThis mattered because economic failure created opposition that Communist regimes could neither satisfy nor easily repress, which meant that the Soviet Union faced a crisis in its most important satellite at the start of the 1980s.",
+    "argumentsThatWork": [
+     {
+      "claim": "Debt made the bloc's economies unsustainable.",
+      "evidence": [
+       "F-EEU-01",
+       "F-EEU-03",
+       "F-EEU-04"
+      ],
+      "strongestCounter": "Regimes chose debt to avoid unrest, which bought them time."
+     },
+     {
+      "claim": "Price rises in Poland produced mass opposition.",
+      "evidence": [
+       "F-EEU-02",
+       "F-EEU-05"
+      ],
+      "strongestCounter": "Earlier protests in 1970 and 1976 had been contained."
+     },
+     {
+      "claim": "Solidarity's self-limitation reflected fear of Soviet intervention.",
+      "evidence": [
+       "F-EEU-06",
+       "F-EEU-15"
+      ],
+      "strongestCounter": "It still alarmed Moscow by 1981."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent were economic problems the main cause of the crisis in Soviet control of Eastern Europe between 1981 and 1989?",
+     "Examine the causes and consequences of the declaration of martial law in Poland in 1981."
+    ],
+    "useItInAnEssay": {
+     "claim": "Economic problems were the root of the crisis in Eastern Europe because they produced opposition the regimes could not satisfy.",
+     "prove": "Eastern Europe's hard-currency debt rose from $6.1 billion in 1971 to $66.1 billion in 1980, and when Poland raised meat prices in July 1980 strikes produced Solidarity, with ten million members.",
+     "explain": "This meant that regimes that had bought peace with Western loans now faced organised workers, so by 1981 Poland's government was losing control.",
+     "test": "However, economic failure alone had not brought down Communist regimes before, because Soviet force had always been the final guarantee.",
+     "judge": "Economic problems were therefore the root of the crisis, while Soviet willingness to use force decided its outcome."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was Eastern Europe's hard-currency debt in 1980, according to Judt? (billion dollars, one decimal place)",
+      "factIds": [
+       "F-EEU-04"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 66.1,
+        "tolerance": 0,
+        "explanation": "$66.1 billion, up from $6.1 billion in 1971."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was Solidarity?",
+      "factIds": [
+       "F-EEU-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The first officially registered independent trade union in a Communist country",
+        "correct": true,
+        "explanation": "Correct: registered on 10 November 1980."
+       },
+       {
+        "id": "b",
+        "text": "The Polish Communist Party",
+        "correct": false,
+        "explanation": "It opposed the Party."
+       },
+       {
+        "id": "c",
+        "text": "A Soviet army unit",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "d",
+        "text": "A Western bank",
+        "correct": false,
+        "explanation": "Not what it was."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Solidarity accepted the Party's 'leading role' so as not to give Warsaw or Moscow an excuse to send in the tanks.” Which argument does it support best?",
+      "factIds": [
+       "F-EEU-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Fear of Soviet intervention shaped opposition in Eastern Europe",
+        "correct": true,
+        "explanation": "Correct: the memory of 1956 and 1968."
+       },
+       {
+        "id": "b",
+        "text": "Solidarity wanted to overthrow Communism by force",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Moscow welcomed Solidarity",
+        "correct": false,
+        "explanation": "Moscow was alarmed."
+       },
+       {
+        "id": "d",
+        "text": "Solidarity was a Soviet creation",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "Martial law and stalemate, 1981–1985",
+    "body": "In 1981 the Polish army took charge. General **Wojciech Jaruzelski** became Prime Minister in February and Party leader in October. With the army behind him and the Soviet leadership encouraging firm action, he declared **martial law** on **13 December 1981**. Solidarity's leaders were imprisoned; the union was banned the following year and went underground.\n\nWhy did the Polish army act rather than the Soviet army? Jaruzelski claimed he was forestalling a Soviet invasion. The Office of the Historian notes that Soviet military planners were closely involved in the Polish planning for martial law, and the Warsaw Pact had long been used to contain dissent in the bloc. Moscow was also by then fighting a costly war in Afghanistan. Either way, the outcome was the same as in 1956 and 1968: the protest movement was crushed, but this time by Polish forces.\n\nThe West's response was divided. President Reagan imposed further economic sanctions on Moscow and curtailed academic exchanges. Western European governments were more cautious: Judt notes that Chancellor Helmut Schmidt's first response was to send a personal representative to Warsaw to help overcome Poland's \"isolation\", and that Western European opinion was more troubled by Reagan's rhetoric than by repression in Warsaw.\n\nMartial law solved nothing. It lasted until July 1983, and Judt observes that no other Communist state had ever been driven to such measures. Society and state remained in a stand-off. In 1984 the political police murdered a popular radical priest, Jerzy Popiełuszko; his funeral drew a crowd of 350,000, revealing the scale of support for the Church and the outlawed Solidarity. Meanwhile the economy continued to sink: by the mid-1980s Poland's national debt was approaching $40 billion.\n\nThis mattered because martial law showed that the old methods could still suppress opposition but could no longer solve the bloc's problems, which meant that by the mid-1980s Communist rule in Poland rested on force alone.",
+    "argumentsThatWork": [
+     {
+      "claim": "Martial law crushed Solidarity without Soviet troops.",
+      "evidence": [
+       "F-EEU-08"
+      ],
+      "strongestCounter": "Soviet planners were closely involved (Office of the Historian)."
+     },
+     {
+      "claim": "The West was divided in its response.",
+      "evidence": [
+       "F-EEU-10",
+       "F-EEU-11"
+      ],
+      "strongestCounter": "Reagan's sanctions showed US support for Solidarity."
+     },
+     {
+      "claim": "Repression could not end the stand-off between state and society.",
+      "evidence": [
+       "F-EEU-09",
+       "F-EEU-12",
+       "F-EEU-13"
+      ],
+      "strongestCounter": "The regime survived until 1989."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the causes and consequences of the declaration of martial law in Poland in 1981.",
+     "Compare and contrast the Soviet response to the Polish crisis of 1981 and to the revolutions of 1989."
+    ],
+    "useItInAnEssay": {
+     "claim": "Martial law was declared because the Polish regime, under Soviet pressure, feared it was losing control.",
+     "prove": "In 1981 industrial productivity collapsed, and Jaruzelski, with the Soviet leadership encouraging firm action, declared martial law on 13 December.",
+     "explain": "This meant that Solidarity's leaders were imprisoned, but the regime could not solve the economic crisis, so by 1984 the funeral of Popiełuszko drew 350,000 people.",
+     "test": "However, martial law did avoid a Soviet invasion, which Jaruzelski claimed was its purpose.",
+     "judge": "Martial law therefore preserved Communist rule in Poland, but only by admitting that it could survive by force alone."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did Jaruzelski declare martial law in Poland?",
+      "factIds": [
+       "F-EEU-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "13 December 1981",
+        "correct": true,
+        "explanation": "Correct: Solidarity's leaders were imprisoned."
+       },
+       {
+        "id": "b",
+        "text": "10 November 1980",
+        "correct": false,
+        "explanation": "That is when Solidarity was registered."
+       },
+       {
+        "id": "c",
+        "text": "4 June 1989",
+        "correct": false,
+        "explanation": "That is when Solidarity won the elections."
+       },
+       {
+        "id": "d",
+        "text": "July 1983",
+        "correct": false,
+        "explanation": "That is when martial law ended."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people attended Father Popiełuszko's funeral in 1984, according to Judt? (number)",
+      "factIds": [
+       "F-EEU-12"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 350000,
+        "tolerance": 10000,
+        "explanation": "350,000."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Schmidt's first response to martial law was to send a representative to Warsaw to help overcome Polish 'isolation'.” Which argument does it support best?",
+      "factIds": [
+       "F-EEU-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Western Europe and the US responded differently to repression in Poland",
+        "correct": true,
+        "explanation": "Correct: Reagan imposed sanctions."
+       },
+       {
+        "id": "b",
+        "text": "West Germany imposed sanctions on Poland",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       },
+       {
+        "id": "c",
+        "text": "Schmidt supported Solidarity's leaders in prison",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       },
+       {
+        "id": "d",
+        "text": "The West sent troops to Poland",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "role_of_leader",
+    "title": "Gorbachev and the end of the Brezhnev Doctrine, 1985–1988",
+    "body": "When **Mikhail Gorbachev** came to power in 1985, the Soviet Union's relationship with Eastern Europe began to change fundamentally.\n\nThe first reason was the lesson of Afghanistan. Judt writes that the war \"excluded for the foreseeable future any further deployment of the Red Army beyond its frontiers\". As Politburo member Yegor Ligachev later admitted, after Afghanistan \"there could no longer be any question of applying force in Eastern Europe\".\n\nThe second was Gorbachev's own policy. His reforms at home, perestroika and glasnost, legitimised calls for reform in the satellite states too. In Poland, Jaruzelski released Adam Michnik and other Solidarity leaders in 1986 and offered modest economic reforms, partly to attract new Western loans for a debt approaching $40 billion. In 1987 the Polish government even asked the public which price rises it would prefer; the answer was, in effect, none.\n\nMost importantly, Gorbachev made clear, first secretly to the Eastern European leaders and then increasingly in public, that the Soviet Union had abandoned the **Brezhnev Doctrine**, the policy of military intervention to keep Communist regimes in power. The decisive public statement came in a speech to the United Nations on **7 December 1988**. Gorbachev announced unilateral cuts in Soviet conventional forces in Europe and declared: \"Freedom of choice is a universal principle. There should be no exceptions.\" Judt argues that this was more than a renunciation of the Brezhnev Doctrine: it was understood immediately as a concession that the peoples of the satellite states were free to go their own way, socialist or not. \"Eastern Europe,\" Judt writes, \"was about to re-enter history.\"\n\nThe Warsaw Pact, through which Moscow had controlled its allies, was by then weakened by economic slowdown in all its members; by the late 1980s it was virtually ineffectual.\n\nThis mattered because the threat of Soviet force had always been the final guarantee of Communist rule in Eastern Europe, which meant that once Gorbachev withdrew it, the regimes had to survive on their own.",
+    "argumentsThatWork": [
+     {
+      "claim": "Afghanistan ruled out the use of force in Eastern Europe.",
+      "evidence": [
+       "F-EEU-14"
+      ],
+      "strongestCounter": "Moscow had still encouraged martial law in 1981."
+     },
+     {
+      "claim": "Gorbachev's reforms legitimised change in the satellites.",
+      "evidence": [
+       "F-EEU-16",
+       "F-EEU-13"
+      ],
+      "strongestCounter": "Eastern European regimes tried to reform from above first."
+     },
+     {
+      "claim": "The UN speech of December 1988 freed the satellites.",
+      "evidence": [
+       "F-EEU-17",
+       "F-EEU-21"
+      ],
+      "strongestCounter": "Gorbachev hoped reformed socialism would survive."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the role of Gorbachev in the collapse of Soviet control over Eastern Europe between 1985 and 1989.",
+     "To what extent were economic problems the main cause of the crisis in Soviet control of Eastern Europe between 1981 and 1989?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Gorbachev's decisive contribution was to remove the threat of Soviet force that had always held the bloc together.",
+     "prove": "He made clear that the USSR had abandoned the Brezhnev Doctrine, and on 7 December 1988 told the UN that 'Freedom of choice is a universal principle. There should be no exceptions.'",
+     "explain": "This meant that the satellite regimes could no longer count on Soviet tanks, so when opposition grew in 1989 they had to negotiate or fall.",
+     "test": "However, Afghanistan had already made force in Eastern Europe unthinkable, and economic collapse had weakened the regimes before he came to power.",
+     "judge": "Gorbachev's role was therefore decisive in timing and form, though he acted in circumstances that limited his choices."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Gorbachev tell the UN on 7 December 1988?",
+      "factIds": [
+       "F-EEU-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "'Freedom of choice is a universal principle. There should be no exceptions.'",
+        "correct": true,
+        "explanation": "Correct: understood as freeing the satellites."
+       },
+       {
+        "id": "b",
+        "text": "That the Brezhnev Doctrine would be enforced",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "That the Warsaw Pact would expand",
+        "correct": false,
+        "explanation": "Not what he said."
+       },
+       {
+        "id": "d",
+        "text": "That Poland would join the USSR",
+        "correct": false,
+        "explanation": "Not what he said."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Ligachev later say Afghanistan had ruled out?",
+      "factIds": [
+       "F-EEU-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Any use of force in Eastern Europe",
+        "correct": true,
+        "explanation": "Correct: Judt quotes him."
+       },
+       {
+        "id": "b",
+        "text": "Arms control with the US",
+        "correct": false,
+        "explanation": "Not what he said."
+       },
+       {
+        "id": "c",
+        "text": "Reform in the USSR",
+        "correct": false,
+        "explanation": "Not what he said."
+       },
+       {
+        "id": "d",
+        "text": "Trade with the West",
+        "correct": false,
+        "explanation": "Not what he said."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “By the late 1980s the Warsaw Pact was virtually ineffectual.” Which argument does it support best?",
+      "factIds": [
+       "F-EEU-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The instrument of Soviet control over Eastern Europe had weakened",
+        "correct": true,
+        "explanation": "Correct: economic slowdown and political change."
+       },
+       {
+        "id": "b",
+        "text": "The Warsaw Pact was stronger than ever",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The Warsaw Pact invaded Poland in 1989",
+        "correct": false,
+        "explanation": "It did not."
+       },
+       {
+        "id": "d",
+        "text": "NATO had dissolved",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "1989: the satellites go their own way",
+    "body": "In 1989 the regimes of Eastern Europe fell one after another. **Poland** led. Round Table talks between the government and Solidarity began on 6 February; the agreement of 4 April allowed free elections for 35 per cent of the lower house (the Sejm) and for a new Senate, and recognised Solidarity. On 4 June Solidarity won a crushing victory, and by 24 August Tadeusz Mazowiecki was the first non-Communist Prime Minister in Eastern Europe.\n\n**Hungary**, already the most liberal regime, removed its veteran leader János Kádár, allowed free association and opened its border with the West, giving thousands of East Germans an escape route. On 16 June it ceremonially reburied Imre Nagy, the reforming leader executed after 1956, and on 23 October it adopted a constitution allowing multi-party elections.\n\n**East Germany** collapsed next. As East Germans fled through Hungary and sought refuge in West German embassies, Gorbachev visited Berlin in early October and warned the leadership of the need to reform. Two weeks later Erich Honecker was forced to resign, and on **9 November 1989** the Berlin Wall came down. In **Czechoslovakia** a non-Communist government took office on 5 December, and the dissident playwright Václav Havel was elected President on 29 December. In **Bulgaria** the long-time leader Todor Zhivkov was removed. Only in **Romania** was there bloodshed: Nicolae Ceauşescu refused reform, his security forces fired on crowds, and he and his wife were executed on 25 December.\n\nWhy was this a crisis for the USSR, and why did Moscow not intervene? The Soviet Union had crushed protest in 1953, 1956 and 1968, and in 1981 it had encouraged martial law. In 1989 it stood back, because Gorbachev had abandoned the Brezhnev Doctrine and because, after Afghanistan, force was no longer an option. The West played a limited role: Judt writes that \"the US played a remarkably small part in the dramas of 1989, at least until after the fact\", although Solidarity had been largely financed from the US.\n\nThis mattered because the Soviet empire in Eastern Europe ended without the Soviet army firing a shot, which meant that the central division of the Cold War in Europe disappeared within a single year.",
+    "argumentsThatWork": [
+     {
+      "claim": "Poland's negotiated transition showed the way.",
+      "evidence": [
+       "F-EEU-18"
+      ],
+      "strongestCounter": "The Round Table at first limited free elections to part of the Sejm."
+     },
+     {
+      "claim": "Revolutions spread rapidly across the bloc.",
+      "evidence": [
+       "F-EEU-19",
+       "F-EEU-20"
+      ],
+      "strongestCounter": "Romania's revolution was violent."
+     },
+     {
+      "claim": "Soviet restraint, not Western pressure, decided the outcome.",
+      "evidence": [
+       "F-EEU-16",
+       "F-EEU-22"
+      ],
+      "strongestCounter": "US financing helped Solidarity survive."
+     }
+    ],
+    "howItGetsAsked": [
+     "Compare and contrast the Soviet response to the Polish crisis of 1981 and to the revolutions of 1989.",
+     "Evaluate the role of Gorbachev in the collapse of Soviet control over Eastern Europe between 1985 and 1989."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Soviet response in 1989 differed fundamentally from 1981, because Moscow no longer backed the use of force.",
+     "prove": "In 1981 the Soviet leadership encouraged Jaruzelski's martial law, whereas in 1989 Gorbachev stood back as Solidarity won the elections of 4 June and the Berlin Wall fell on 9 November.",
+     "explain": "This meant that the regimes lost their final guarantee, so they negotiated, as in Poland and Hungary, or collapsed, as in East Germany and Czechoslovakia.",
+     "test": "However, the underlying problems, debt and economic failure, were the same in both years, so what changed was Soviet policy, not the regimes' weakness.",
+     "judge": "The decisive difference was therefore Moscow's abandonment of force, which turned a crisis that could be suppressed into one that ended Soviet control."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who became the first non-Communist Prime Minister in Eastern Europe in August 1989?",
+      "factIds": [
+       "F-EEU-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Tadeusz Mazowiecki",
+        "correct": true,
+        "explanation": "Correct: after Solidarity's election victory."
+       },
+       {
+        "id": "b",
+        "text": "Lech Wałęsa",
+        "correct": false,
+        "explanation": "Wałęsa led Solidarity; Mazowiecki became Prime Minister."
+       },
+       {
+        "id": "c",
+        "text": "Wojciech Jaruzelski",
+        "correct": false,
+        "explanation": "He was the Communist leader."
+       },
+       {
+        "id": "d",
+        "text": "Václav Havel",
+        "correct": false,
+        "explanation": "He became President of Czechoslovakia."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Where did the revolution of 1989 turn violent?",
+      "factIds": [
+       "F-EEU-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Romania",
+        "correct": true,
+        "explanation": "Correct: Ceauşescu was executed on 25 December."
+       },
+       {
+        "id": "b",
+        "text": "Poland",
+        "correct": false,
+        "explanation": "Poland's transition was negotiated."
+       },
+       {
+        "id": "c",
+        "text": "Czechoslovakia",
+        "correct": false,
+        "explanation": "Its revolution was peaceful."
+       },
+       {
+        "id": "d",
+        "text": "Hungary",
+        "correct": false,
+        "explanation": "Hungary's change was negotiated."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-EASTERN-EUROPE-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Hungary opened its border with the West, giving East Germans an avenue of escape.” Which argument does it support best?",
+      "factIds": [
+       "F-EEU-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Change in one satellite undermined the others",
+        "correct": true,
+        "explanation": "Correct: the GDR could no longer keep its people."
+       },
+       {
+        "id": "b",
+        "text": "Hungary closed its borders in 1989",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "East Germans stayed at home",
+        "correct": false,
+        "explanation": "Thousands fled."
+       },
+       {
+        "id": "d",
+        "text": "Moscow ordered Hungary to shoot escapers",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1981,
+      "month": 2,
+      "text": "Jaruzelski becomes Prime Minister",
+      "factId": "F-EEU-08"
+     },
+     {
+      "year": 1981,
+      "month": 12,
+      "day": 13,
+      "text": "Martial law in Poland",
+      "factId": "F-EEU-08"
+     },
+     {
+      "year": 1983,
+      "month": 7,
+      "text": "Martial law ends",
+      "factId": "F-EEU-09"
+     },
+     {
+      "year": 1984,
+      "text": "Popiełuszko murdered; 350,000 at his funeral",
+      "factId": "F-EEU-12"
+     },
+     {
+      "year": 1985,
+      "text": "Gorbachev comes to power",
+      "factId": "F-EEU-16"
+     },
+     {
+      "year": 1986,
+      "text": "Michnik and other Solidarity leaders released",
+      "factId": "F-EEU-13"
+     },
+     {
+      "year": 1988,
+      "month": 12,
+      "day": 7,
+      "text": "Gorbachev at the UN: 'Freedom of choice'",
+      "factId": "F-EEU-17"
+     },
+     {
+      "year": 1989,
+      "month": 2,
+      "day": 6,
+      "text": "Polish Round Table opens",
+      "factId": "F-EEU-18"
+     },
+     {
+      "year": 1989,
+      "month": 6,
+      "day": 4,
+      "text": "Solidarity wins the elections",
+      "factId": "F-EEU-18"
+     },
+     {
+      "year": 1989,
+      "month": 11,
+      "day": 9,
+      "text": "Berlin Wall falls",
+      "factId": "F-EEU-19"
+     },
+     {
+      "year": 1989,
+      "month": 12,
+      "day": 29,
+      "text": "Havel elected President",
+      "factId": "F-EEU-20"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Debt and economic failure across the bloc",
+      "factId": "F-EEU-04"
+     },
+     {
+      "id": "n2",
+      "text": "Solidarity challenges the Polish regime",
+      "factId": "F-EEU-05"
+     },
+     {
+      "id": "n3",
+      "text": "Martial law suppresses but cannot solve the crisis",
+      "factId": "F-EEU-08"
+     },
+     {
+      "id": "n4",
+      "text": "Afghanistan rules out force; Gorbachev drops the Brezhnev Doctrine",
+      "factId": "F-EEU-14"
+     },
+     {
+      "id": "n5",
+      "text": "'Freedom of choice' (December 1988)",
+      "factId": "F-EEU-17"
+     },
+     {
+      "id": "n6",
+      "text": "The revolutions of 1989",
+      "factId": "F-EEU-19"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Price rises provoked organised opposition"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Moscow saw the Polish regime losing control"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Force bought time but not solutions"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Moscow publicly renounced intervention"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Without Soviet backing, the regimes negotiated or fell"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Lech Wałęsa",
+     "role": "Solidarity leader",
+     "whyItMatters": "Led the Gdańsk strikes and the union.",
+     "factIds": [
+      "F-EEU-05"
+     ]
+    },
+    {
+     "name": "Wojciech Jaruzelski",
+     "role": "Polish leader",
+     "whyItMatters": "Declared martial law in 1981; negotiated in 1989.",
+     "factIds": [
+      "F-EEU-08",
+      "F-EEU-13"
+     ]
+    },
+    {
+     "name": "Jerzy Popiełuszko",
+     "role": "Polish priest",
+     "whyItMatters": "Murdered by the police in 1984; 350,000 at his funeral.",
+     "factIds": [
+      "F-EEU-12"
+     ]
+    },
+    {
+     "name": "Mikhail Gorbachev",
+     "role": "Soviet leader from 1985",
+     "whyItMatters": "Abandoned the Brezhnev Doctrine; 'Freedom of choice'.",
+     "factIds": [
+      "F-EEU-16",
+      "F-EEU-17"
+     ]
+    },
+    {
+     "name": "Tadeusz Mazowiecki",
+     "role": "Polish Prime Minister from August 1989",
+     "whyItMatters": "First non-Communist Prime Minister in Eastern Europe.",
+     "factIds": [
+      "F-EEU-18"
+     ]
+    },
+    {
+     "name": "Václav Havel",
+     "role": "Czech dissident",
+     "whyItMatters": "Elected President on 29 December 1989.",
+     "factIds": [
+      "F-EEU-20"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Poland, 1981",
+     "Eastern Europe, 1989"
+    ],
+    "rows": [
+     {
+      "criterion": "Opposition",
+      "cells": [
+       "Solidarity, ten million members, 'self-limiting'",
+       "Solidarity, Hungarian reformers, mass protest in the GDR and Czechoslovakia"
+      ],
+      "factIds": [
+       "F-EEU-05",
+       "F-EEU-19"
+      ]
+     },
+     {
+      "criterion": "Soviet attitude",
+      "cells": [
+       "Encouraged firm action; planners involved",
+       "Brezhnev Doctrine abandoned; 'Freedom of choice'"
+      ],
+      "factIds": [
+       "F-EEU-08",
+       "F-EEU-15",
+       "F-EEU-17"
+      ]
+     },
+     {
+      "criterion": "Regime response",
+      "cells": [
+       "Martial law; leaders imprisoned",
+       "Negotiation (Poland, Hungary) or collapse (GDR, Czechoslovakia)"
+      ],
+      "factIds": [
+       "F-EEU-08",
+       "F-EEU-18",
+       "F-EEU-19"
+      ]
+     },
+     {
+      "criterion": "Outcome",
+      "cells": [
+       "Opposition crushed; stand-off",
+       "Communist rule ended; only Romania violent"
+      ],
+      "factIds": [
+       "F-EEU-12",
+       "F-EEU-20"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-EEU-04",
+    "year": 1980,
+    "text": "Eastern Europe's hard-currency debt: $6.1 billion (1971), $66.1 billion (1980), $95.6 billion (1988).",
+    "supports": [
+     "Economic failure undermined the regimes"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B3-ACCEPTANCE-OPPOSITION"
+    ],
+    "lexicon": [
+     "debt",
+     "borrowed time"
+    ]
+   },
+   {
+    "factId": "F-EEU-05",
+    "year": 1980,
+    "text": "Solidarity registered on 10 November 1980, with about ten million members.",
+    "supports": [
+     "Organised opposition challenged Communist rule"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B3-ACCEPTANCE-OPPOSITION"
+    ],
+    "lexicon": [
+     "Solidarity",
+     "Wałęsa"
+    ]
+   },
+   {
+    "factId": "F-EEU-08",
+    "year": 1981,
+    "text": "13 December 1981: Jaruzelski declared martial law, with Soviet encouragement.",
+    "supports": [
+     "Force could still suppress opposition"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B3-ACCEPTANCE-OPPOSITION"
+    ],
+    "lexicon": [
+     "martial law",
+     "Jaruzelski"
+    ]
+   },
+   {
+    "factId": "F-EEU-12",
+    "year": 1984,
+    "text": "1984: Popiełuszko murdered; 350,000 at his funeral.",
+    "supports": [
+     "Repression could not break society"
+    ],
+    "lexicon": [
+     "Popiełuszko"
+    ]
+   },
+   {
+    "factId": "F-EEU-14",
+    "year": 1989,
+    "text": "Ligachev: after Afghanistan there could be no question of using force in Eastern Europe.",
+    "supports": [
+     "Afghanistan ruled out intervention"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "Afghanistan"
+    ]
+   },
+   {
+    "factId": "F-EEU-17",
+    "year": 1988,
+    "text": "7 December 1988: Gorbachev at the UN: 'Freedom of choice is a universal principle.'",
+    "supports": [
+     "Moscow freed the satellites"
+    ],
+    "alsoWorksFor": [
+     "P2-12-LEADERS",
+     "P3-18-B4-COLLAPSE"
+    ],
+    "lexicon": [
+     "Brezhnev Doctrine",
+     "freedom of choice"
+    ]
+   },
+   {
+    "factId": "F-EEU-18",
+    "year": 1989,
+    "text": "Poland 1989: Round Table, 4 June elections, Mazowiecki Prime Minister by 24 August.",
+    "supports": [
+     "Poland's negotiated transition showed the way"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B4-COLLAPSE"
+    ],
+    "lexicon": [
+     "Round Table"
+    ]
+   },
+   {
+    "factId": "F-EEU-20",
+    "year": 1989,
+    "text": "Czechoslovakia (5 December, Havel 29 December); Romania violent (Ceauşescu executed 25 December).",
+    "supports": [
+     "The revolutions spread across the bloc"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B4-COLLAPSE"
+    ],
+    "lexicon": [
+     "Velvet Revolution",
+     "Romania"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "The Communist system was 'living not just on loans but on borrowed time'; Gorbachev's UN speech of December 1988 was 'more than just a renunciation of the Brezhnev Doctrine', and 'the US played a remarkably small part in the dramas of 1989'.",
+    "useItLikeThis": "Judt's view supports the claim that economic failure and Soviet restraint, not Western pressure, ended Soviet control, which suggests the crisis was decided inside the bloc.",
+    "factId": "F-EEU-17"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Soviet army crushed Solidarity in 1981.",
+    "right": "**Polish** forces under Jaruzelski imposed martial law, with Soviet encouragement."
+   },
+   {
+    "wrong": "Solidarity set out to overthrow Communism in 1980–81.",
+    "right": "It called itself a **'self-limiting revolution'** and accepted the Party's leading role."
+   },
+   {
+    "wrong": "The revolutions of 1989 were all violent.",
+    "right": "Only **Romania** saw bloodshed."
+   },
+   {
+    "wrong": "The US brought down the regimes of Eastern Europe.",
+    "right": "Judt: the US played 'a **remarkably small part**' in 1989."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1981,
+     "month": 12,
+     "day": 13,
+     "text": "Martial law"
+    },
+    {
+     "year": 1983,
+     "month": 7,
+     "text": "Martial law ends"
+    },
+    {
+     "year": 1984,
+     "text": "Popiełuszko"
+    },
+    {
+     "year": 1985,
+     "text": "Gorbachev"
+    },
+    {
+     "year": 1988,
+     "month": 12,
+     "day": 7,
+     "text": "UN speech"
+    },
+    {
+     "year": 1989,
+     "month": 6,
+     "day": 4,
+     "text": "Polish elections"
+    },
+    {
+     "year": 1989,
+     "month": 11,
+     "day": 9,
+     "text": "Wall falls"
+    },
+    {
+     "year": 1989,
+     "month": 12,
+     "day": 25,
+     "text": "Ceauşescu executed"
+    }
+   ],
+   "keyArguments": [
+    "Debt left the bloc 'living on borrowed time' (Judt).",
+    "Solidarity's challenge was met with martial law, encouraged by Moscow.",
+    "Repression produced a stand-off, not a solution.",
+    "Afghanistan and Gorbachev's new thinking ended the Brezhnev Doctrine.",
+    "Without Soviet force, the regimes of 1989 negotiated or fell."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in Poland in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Jaruzelski becomes Prime Minister",
+     "year": 1981,
+     "month": 2,
+     "factId": "F-EEU-08"
+    },
+    {
+     "id": "b",
+     "text": "Martial law declared",
+     "year": 1981,
+     "month": 12,
+     "factId": "F-EEU-08"
+    },
+    {
+     "id": "c",
+     "text": "Martial law ends",
+     "year": 1983,
+     "month": 7,
+     "factId": "F-EEU-09"
+    },
+    {
+     "id": "d",
+     "text": "Popiełuszko murdered",
+     "year": 1984,
+     "factId": "F-EEU-12"
+    },
+    {
+     "id": "e",
+     "text": "Solidarity leaders released",
+     "year": 1986,
+     "factId": "F-EEU-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Gorbachev comes to power",
+     "year": 1985,
+     "factId": "F-EEU-16"
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev's UN speech",
+     "year": 1988,
+     "month": 12,
+     "factId": "F-EEU-17"
+    },
+    {
+     "id": "c",
+     "text": "Polish Round Table opens",
+     "year": 1989,
+     "month": 2,
+     "factId": "F-EEU-18"
+    },
+    {
+     "id": "d",
+     "text": "Solidarity wins the elections",
+     "year": 1989,
+     "month": 6,
+     "factId": "F-EEU-18"
+    },
+    {
+     "id": "e",
+     "text": "Berlin Wall falls",
+     "year": 1989,
+     "month": 11,
+     "factId": "F-EEU-19"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1989 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Mazowiecki becomes Prime Minister",
+     "year": 1989,
+     "month": 8,
+     "factId": "F-EEU-18"
+    },
+    {
+     "id": "b",
+     "text": "Hungary adopts a multi-party constitution",
+     "year": 1989,
+     "month": 10,
+     "factId": "F-EEU-19"
+    },
+    {
+     "id": "c",
+     "text": "Havel elected President",
+     "year": 1989,
+     "month": 12,
+     "factId": "F-EEU-20"
+    },
+    {
+     "id": "d",
+     "text": "Imre Nagy reburied",
+     "year": 1989,
+     "month": 6,
+     "factId": "F-EEU-19"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Wojciech Jaruzelski",
+     "right": "Polish general who declared martial law",
+     "explanation": "13 December 1981."
+    },
+    {
+     "left": "Adam Michnik",
+     "right": "Solidarity adviser released in 1986",
+     "explanation": "Held that Communism could be eroded, not overthrown."
+    },
+    {
+     "left": "János Kádár",
+     "right": "Hungarian leader removed in 1989",
+     "explanation": "Long-time leader."
+    },
+    {
+     "left": "Todor Zhivkov",
+     "right": "Bulgarian leader removed in 1989",
+     "explanation": "Replaced by a reformist Communist."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was Eastern Europe's hard-currency debt by 1988, according to Judt? (billion dollars, one decimal place)",
+   "factIds": [
+    "F-EEU-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 95.6,
+     "tolerance": 0,
+     "explanation": "$95.6 billion."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many members did Solidarity have when it was registered in November 1980? (million, approximately)",
+   "factIds": [
+    "F-EEU-05"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 10,
+     "tolerance": 0,
+     "explanation": "An estimated ten million."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of Sejm seats were opened to free election by the April 1989 Round Table agreement? (number)",
+   "factIds": [
+    "F-EEU-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 35,
+     "tolerance": 0,
+     "explanation": "35 per cent, plus a freely elected Senate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of its export earnings did the GDR spend on interest on Western debts in its last years, according to Judt? (over ... per cent)",
+   "factIds": [
+    "F-EEU-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 60,
+     "tolerance": 0,
+     "explanation": "Over 60 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these weakened Soviet control of Eastern Europe in the 1980s? Choose all that apply.",
+   "factIds": [
+    "F-EEU-04",
+    "F-EEU-14",
+    "F-EEU-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rising hard-currency debt",
+     "correct": true,
+     "explanation": "Yes: 'living on borrowed time'."
+    },
+    {
+     "id": "b",
+     "text": "The war in Afghanistan",
+     "correct": true,
+     "explanation": "Yes: it ruled out force in Eastern Europe."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev's abandonment of the Brezhnev Doctrine",
+     "correct": true,
+     "explanation": "Yes: first secretly, then publicly."
+    },
+    {
+     "id": "d",
+     "text": "A NATO invasion",
+     "correct": false,
+     "explanation": "No: there was none."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened in Poland in 1989? Choose all that apply.",
+   "factIds": [
+    "F-EEU-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Round Table talks with Solidarity",
+     "correct": true,
+     "explanation": "Yes: from 6 February."
+    },
+    {
+     "id": "b",
+     "text": "Solidarity's election victory",
+     "correct": true,
+     "explanation": "Yes: 4 June."
+    },
+    {
+     "id": "c",
+     "text": "A non-Communist Prime Minister",
+     "correct": true,
+     "explanation": "Yes: Mazowiecki by 24 August."
+    },
+    {
+     "id": "d",
+     "text": "A new declaration of martial law",
+     "correct": false,
+     "explanation": "No: the regime negotiated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Between 1977 and 1980 a third of Poland's external credit was used to subsidise domestic consumption.” Which argument does it support?",
+   "factIds": [
+    "F-EEU-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Communist regimes used debt to avoid unpopular reforms",
+     "correct": true,
+     "explanation": "Correct: postponing hard choices."
+    },
+    {
+     "id": "b",
+     "text": "Poland's economy was healthy",
+     "correct": false,
+     "explanation": "It was living on credit."
+    },
+    {
+     "id": "c",
+     "text": "Poland invested heavily in modern industry",
+     "correct": false,
+     "explanation": "Much went on consumption."
+    },
+    {
+     "id": "d",
+     "text": "Western banks refused to lend to Poland",
+     "correct": false,
+     "explanation": "They lent freely."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Martial law remained in force until July 1983; no other Communist state had ever been driven to such measures.” Which argument does it support?",
+   "factIds": [
+    "F-EEU-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Martial law was an admission of the regime's failure",
+     "correct": true,
+     "explanation": "Correct: Judt's point."
+    },
+    {
+     "id": "b",
+     "text": "Martial law showed the regime's strength",
+     "correct": false,
+     "explanation": "Judt reads it as failure."
+    },
+    {
+     "id": "c",
+     "text": "Martial law was common in the Soviet bloc",
+     "correct": false,
+     "explanation": "No other state had used it."
+    },
+    {
+     "id": "d",
+     "text": "Martial law ended in 1982",
+     "correct": false,
+     "explanation": "It ended in July 1983."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In December 1981 Soviet tanks invaded Poland to crush Solidarity.”",
+   "factIds": [
+    "F-EEU-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Polish forces under Jaruzelski imposed martial law, with Soviet encouragement",
+     "correct": true,
+     "explanation": "Correct: no Soviet invasion."
+    },
+    {
+     "id": "b",
+     "text": "Solidarity was formed in 1985",
+     "correct": false,
+     "explanation": "It was formed in 1980."
+    },
+    {
+     "id": "c",
+     "text": "Martial law was declared in 1989",
+     "correct": false,
+     "explanation": "It was declared on 13 December 1981."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: there was no Soviet invasion."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “All the revolutions of 1989 ended in bloodshed and executions.”",
+   "factIds": [
+    "F-EEU-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Only Romania saw bloodshed; the others were peaceful or negotiated",
+     "correct": true,
+     "explanation": "Correct: Ceauşescu was executed on 25 December."
+    },
+    {
+     "id": "b",
+     "text": "Havel was executed",
+     "correct": false,
+     "explanation": "Havel was elected President."
+    },
+    {
+     "id": "c",
+     "text": "Poland's transition was violent",
+     "correct": false,
+     "explanation": "It was negotiated."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: only Romania was violent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the USSR and Eastern Europe between 1981 and 1989. Is the founding of Solidarity in August 1980 inside or outside the timeframe?",
+   "factIds": [
+    "F-EEU-05"
+   ],
+   "timeframe": [
+    1981,
+    1989
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Just outside: use it briefly as background to the crisis of 1981",
+     "correct": true,
+     "explanation": "Correct: the question begins in 1981."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1980 is before 1981."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Solidarity existed until 1989",
+     "correct": false,
+     "explanation": "Its founding is outside; its later activity is inside."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Jaruzelski say he declared martial law?",
+   "factIds": [
+    "F-EEU-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To forestall a Soviet intervention",
+     "correct": true,
+     "explanation": "Correct: ostensibly."
+    },
+    {
+     "id": "b",
+     "text": "To join NATO",
+     "correct": false,
+     "explanation": "Not his reason."
+    },
+    {
+     "id": "c",
+     "text": "To hold free elections",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "To support Solidarity",
+     "correct": false,
+     "explanation": "He imprisoned its leaders."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Jaruzelski release Solidarity leaders in 1986?",
+   "factIds": [
+    "F-EEU-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Partly to attract new foreign funding for a debt approaching $40 billion",
+     "correct": true,
+     "explanation": "Correct: with modest economic reforms."
+    },
+    {
+     "id": "b",
+     "text": "Because Moscow ordered a new invasion",
+     "correct": false,
+     "explanation": "Not the reason."
+    },
+    {
+     "id": "c",
+     "text": "Because Solidarity had won an election",
+     "correct": false,
+     "explanation": "That came in 1989."
+    },
+    {
+     "id": "d",
+     "text": "Because martial law was still in force",
+     "correct": false,
+     "explanation": "It ended in 1983."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Reagan respond to martial law in Poland?",
+   "factIds": [
+    "F-EEU-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "With further economic sanctions on Moscow and fewer academic exchanges",
+     "correct": true,
+     "explanation": "Correct: unlike Schmidt's approach."
+    },
+    {
+     "id": "b",
+     "text": "By invading Poland",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "By recognising martial law",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "By lifting all sanctions",
+     "correct": false,
+     "explanation": "The opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Judt mean by saying Eastern Europe was 'about to re-enter history' after December 1988?",
+   "factIds": [
+    "F-EEU-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Its peoples were now free to choose their own path, socialist or not",
+     "correct": true,
+     "explanation": "Correct: after the UN speech."
+    },
+    {
+     "id": "b",
+     "text": "It was about to be invaded",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "It was joining the USSR",
+     "correct": false,
+     "explanation": "Not what he meant."
+    },
+    {
+     "id": "d",
+     "text": "Its history would be rewritten by the Party",
+     "correct": false,
+     "explanation": "Not what he meant."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Hungary do on 16 June 1989?",
+   "factIds": [
+    "F-EEU-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ceremonially reburied Imre Nagy, leader of the 1956 revolution",
+     "correct": true,
+     "explanation": "Correct: a symbolic break with the past."
+    },
+    {
+     "id": "b",
+     "text": "Declared martial law",
+     "correct": false,
+     "explanation": "That was Poland in 1981."
+    },
+    {
+     "id": "c",
+     "text": "Joined the Warsaw Pact",
+     "correct": false,
+     "explanation": "Hungary was already a member."
+    },
+    {
+     "id": "d",
+     "text": "Built a wall on its border",
+     "correct": false,
+     "explanation": "It opened its border."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent were economic problems the main cause of the crisis in Soviet control of Eastern Europe between 1981 and 1989?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "economic problems",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main cause of the crisis in Soviet control of Eastern Europe",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1981 and 1989",
+     "answer": "timeframe",
+     "explanation": "From martial law to the revolutions."
+    },
+    {
+     "id": "s5",
+     "text": "main cause",
+     "answer": "judgement",
+     "explanation": "Whether economics outweighed Soviet policy and popular opposition."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the Soviet response to the Polish crisis of 1981 and to the revolutions of 1989.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "the Soviet response",
+     "answer": "factor",
+     "explanation": "What must be compared."
+    },
+    {
+     "id": "s3",
+     "text": "to the Polish crisis of 1981 and to the revolutions of 1989",
+     "answer": "scope",
+     "explanation": "The two moments."
+    },
+    {
+     "id": "s4",
+     "text": "1981 and 1989",
+     "answer": "timeframe",
+     "explanation": "Martial law and the revolutions."
+    },
+    {
+     "id": "s5",
+     "text": "response",
+     "answer": "judgement",
+     "explanation": "Why Moscow acted differently."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent were economic problems the main cause of the crisis in Soviet control of Eastern Europe between 1981 and 1989?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic problems created the crisis by producing opposition the regimes could not satisfy, but Soviet policy decided its outcome: in 1981 Moscow backed force, in 1989 it did not.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor."
+    },
+    {
+     "id": "b",
+     "text": "Eastern Europe had debts.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Economics was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Economics was the only cause.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the role of Gorbachev in the collapse of Soviet control over Eastern Europe between 1985 and 1989.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev's role was decisive because he removed the threat of Soviet force, publicly in December 1988; but Afghanistan and economic collapse had already narrowed his options, and the revolutions were made by Eastern Europeans.",
+     "correct": true,
+     "explanation": "Correct: role and limits."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev became leader in 1985.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev overthrew the regimes himself.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 13 December 1981 Jaruzelski declared martial law.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because Moscow encouraged firm action, the Polish regime could crush Solidarity without a Soviet invasion.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "On 7 December 1988 Gorbachev spoke at the UN.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the satellite regimes lost their final guarantee, so in 1989 they had to negotiate or fall.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Debt of $95.6 billion by 1988",
+     "right": "The bloc was living on borrowed time",
+     "explanation": "Judt."
+    },
+    {
+     "left": "Martial law, December 1981",
+     "right": "Force could still suppress opposition",
+     "explanation": "With Soviet encouragement."
+    },
+    {
+     "left": "350,000 at Popiełuszko's funeral",
+     "right": "Repression could not break society",
+     "explanation": "1984."
+    },
+    {
+     "left": "'Freedom of choice' at the UN",
+     "right": "Moscow freed the satellites",
+     "explanation": "December 1988."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Gorbachev let Eastern Europe go.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Afghanistan had made force unthinkable and his priorities lay in reform, Gorbachev abandoned the Brezhnev Doctrine and told the UN in December 1988 that 'freedom of choice' had no exceptions, so in 1989 no Soviet tanks came.",
+     "correct": true,
+     "explanation": "Correct: causes, evidence and consequence."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev really let Eastern Europe go.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev was leader from 1985.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev gave Eastern Europe to NATO.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Gorbachev alone ended Soviet control of Eastern Europe.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Debt had left the bloc 'living on borrowed time', Afghanistan had already ruled out the use of force, and the revolutions were made by Eastern Europeans, from Solidarity's election victory to the crowds in Berlin and Prague.",
+     "correct": true,
+     "explanation": "Correct: specific other causes."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was popular.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "Eastern Europe is large.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "d",
+     "text": "The USSR existed until 1991.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the Soviet response to the Polish crisis of 1981 and to the revolutions of 1989.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by Moscow's willingness to use force, the two responses were opposites; judged by the regimes' underlying weakness, the situations were similar, so the decisive change was Soviet policy, not Eastern Europe's problems.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there was martial law in 1981 and revolution in 1989.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the USSR changed.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, history always changes.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes and consequences of the declaration of martial law in Poland in 1981.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The collapse of industrial productivity in 1981",
+     "answer": "causes",
+     "explanation": "The regime losing control."
+    },
+    {
+     "id": "s2",
+     "text": "Soviet encouragement of firm action",
+     "answer": "causes",
+     "explanation": "Moscow's alarm."
+    },
+    {
+     "id": "s3",
+     "text": "Solidarity's leaders imprisoned",
+     "answer": "effects",
+     "explanation": "The union went underground."
+    },
+    {
+     "id": "s4",
+     "text": "Reagan's sanctions on Moscow",
+     "answer": "effects",
+     "explanation": "A divided Western response."
+    },
+    {
+     "id": "s5",
+     "text": "A stand-off between state and society",
+     "answer": "effects",
+     "explanation": "Popiełuszko's funeral, 1984."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent were economic problems the main cause of the crisis in Soviet control of Eastern Europe between 1981 and 1989?",
+   "commandTerm": "to what extent",
+   "namedFactor": "economic problems",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1981,
+    1989
+   ],
+   "scope": "Eastern Europe",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Economic problems, weighed first",
+    "timeframe": "1981–1989",
+    "scope": "Soviet control of Eastern Europe",
+    "judgement": "Whether economics outweighed Soviet policy and popular opposition"
+   },
+   "modelPlan": {
+    "thesis": "Economic problems created the crisis by producing opposition the regimes could not satisfy, but Soviet policy decided its outcome: in 1981 Moscow backed force, in 1989 it did not.",
+    "arguments": [
+     {
+      "claim": "Debt and economic failure (named factor first).",
+      "evidence": [
+       "F-EEU-01",
+       "F-EEU-04"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Price rises and Solidarity.",
+      "evidence": [
+       "F-EEU-02",
+       "F-EEU-05"
+      ]
+     },
+     {
+      "claim": "Soviet policy: martial law and the end of the Brezhnev Doctrine.",
+      "evidence": [
+       "F-EEU-08",
+       "F-EEU-16"
+      ]
+     },
+     {
+      "claim": "Popular opposition in 1989.",
+      "evidence": [
+       "F-EEU-18",
+       "F-EEU-19"
+      ]
+     }
+    ],
+    "counter": "Economic failure was as serious in 1981 as in 1989, yet the regimes survived in 1981.",
+    "judgementCriterion": "Why did the regimes fall in 1989 and not in 1981? Because Soviet force was withdrawn, not because the economy was worse."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Economic problems were the root of the crisis, but not its decisive cause.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Eastern Europe's debt rose from $6.1 billion in 1971 to $95.6 billion in 1988, and price rises in Poland produced Solidarity, crushed by martial law in December 1981.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the regimes faced opposition they could not satisfy, so they relied on force, backed by Moscow.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the regimes survived the economic crisis of 1981 and fell only in 1989, after Gorbachev abandoned the Brezhnev Doctrine.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Economic problems were therefore a necessary cause, while the end of Soviet support was decisive.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic",
+     "debt"
+    ],
+    "synonyms": [
+     "economy",
+     "borrowed time"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Solidarity",
+     "martial law",
+     "Brezhnev Doctrine"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Martial law in Poland in 1981 showed the strength of Soviet control over Eastern Europe.” Discuss with reference to the period 1981 to 1985.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1981,
+    1985
+   ],
+   "scope": "Poland",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: martial law showed Soviet strength",
+    "timeframe": "1981–1985",
+    "scope": "Soviet control of Eastern Europe",
+    "judgement": "Strength in suppressing, or weakness in solving?"
+   },
+   "modelPlan": {
+    "thesis": "Martial law showed that Moscow could still have opposition crushed without sending its own army, but it also revealed weakness: no other Communist state had been driven to such measures, and repression produced only a stand-off.",
+    "arguments": [
+     {
+      "claim": "For: Solidarity crushed without Soviet troops.",
+      "evidence": [
+       "F-EEU-08"
+      ]
+     },
+     {
+      "claim": "For: Soviet involvement in the planning.",
+      "evidence": [
+       "F-EEU-15"
+      ]
+     },
+     {
+      "claim": "Against: martial law as an admission of failure.",
+      "evidence": [
+       "F-EEU-09"
+      ]
+     },
+     {
+      "claim": "Against: stand-off and Popiełuszko's funeral.",
+      "evidence": [
+       "F-EEU-12",
+       "F-EEU-13"
+      ]
+     }
+    ],
+    "counter": "Moscow's reluctance to send its own troops may itself show that its control was weakening.",
+    "judgementCriterion": "Did martial law solve the crisis? No: by 1986 the regime was releasing Solidarity leaders to win Western loans."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Martial law showed both the strength and the limits of Soviet control.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "On 13 December 1981 Jaruzelski, with Soviet encouragement, imprisoned Solidarity's leaders, but martial law lasted until July 1983 and Judt notes no other Communist state had been driven to such measures.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that opposition could still be crushed, but only by admitting that the regime could not rule by consent.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the stand-off continued: 350,000 attended Popiełuszko's funeral in 1984.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore only partly valid: martial law showed strength to suppress but weakness to solve.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "martial law"
+    ],
+    "synonyms": [
+     "Jaruzelski",
+     "strength"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Solidarity",
+     "Popiełuszko",
+     "stand-off"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the role of Gorbachev in the collapse of Soviet control over Eastern Europe between 1985 and 1989.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1985,
+    1989
+   ],
+   "scope": "Eastern Europe",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "Gorbachev's role",
+    "timeframe": "1985–1989",
+    "scope": "Soviet control of Eastern Europe",
+    "judgement": "How far Gorbachev, rather than other forces, ended Soviet control"
+   },
+   "modelPlan": {
+    "thesis": "Gorbachev's role was decisive because he removed the threat of Soviet force, publicly in December 1988; but Afghanistan and economic collapse had already narrowed his options, and the revolutions were made by Eastern Europeans.",
+    "arguments": [
+     {
+      "claim": "Abandoning the Brezhnev Doctrine.",
+      "evidence": [
+       "F-EEU-16"
+      ]
+     },
+     {
+      "claim": "The UN speech of December 1988.",
+      "evidence": [
+       "F-EEU-17"
+      ]
+     },
+     {
+      "claim": "Limits: Afghanistan and debt.",
+      "evidence": [
+       "F-EEU-14",
+       "F-EEU-04"
+      ]
+     },
+     {
+      "claim": "Limits: the peoples' revolutions.",
+      "evidence": [
+       "F-EEU-18",
+       "F-EEU-19"
+      ]
+     }
+    ],
+    "counter": "The US played little part, Judt says, so the outcome was decided inside the bloc, by both Gorbachev and the peoples.",
+    "judgementCriterion": "Would the revolutions have succeeded without Gorbachev? The record of 1953, 1956, 1968 and 1981 suggests not."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Gorbachev's role was decisive because he removed the threat of Soviet force.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He abandoned the Brezhnev Doctrine and told the UN on 7 December 1988 that 'Freedom of choice is a universal principle. There should be no exceptions.'",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the regimes lost their final guarantee, so in 1989 Poland and Hungary negotiated while East Germany and Czechoslovakia collapsed.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Afghanistan had already made force in Eastern Europe unthinkable, and the revolutions were made by Eastern Europeans themselves.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Gorbachev's role was therefore decisive in removing the barrier, while others made the revolutions.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Gorbachev"
+    ],
+    "synonyms": [
+     "Brezhnev Doctrine",
+     "freedom of choice"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "UN speech",
+     "Afghanistan",
+     "1989"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the causes and consequences of the declaration of martial law in Poland in 1981.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1981,
+    1981
+   ],
+   "scope": "Poland",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1981",
+    "scope": "Martial law in Poland",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "Martial law was declared because economic collapse and Solidarity's power made Moscow fear the regime was losing control; its main consequence was a stand-off between state and society that repression could not resolve.",
+    "arguments": [
+     {
+      "claim": "Cause: economic collapse in 1981.",
+      "evidence": [
+       "F-EEU-07"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: Soviet pressure for firm action.",
+      "evidence": [
+       "F-EEU-08",
+       "F-EEU-15"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: Solidarity driven underground.",
+      "evidence": [
+       "F-EEU-08"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: Western responses and stand-off.",
+      "evidence": [
+       "F-EEU-10",
+       "F-EEU-11",
+       "F-EEU-12"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Martial law may have prevented a Soviet invasion, as Jaruzelski claimed.",
+    "judgementCriterion": "Which consequence lasted longest? The stand-off, which ended only with the Round Table of 1989."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Martial law was declared mainly because Moscow and Warsaw feared the regime was losing control.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1981 industrial productivity collapsed, and on 13 December Jaruzelski, with Soviet encouragement, imprisoned Solidarity's leaders.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that opposition was suppressed, but the economy did not recover, so by 1984 Poland faced a stand-off between society and state.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Jaruzelski claimed martial law forestalled a Soviet invasion, which would have been far worse.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Its most significant consequence was therefore a stand-off that only negotiation in 1989 could end.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "martial law"
+    ],
+    "synonyms": [
+     "Jaruzelski",
+     "Poland"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Solidarity",
+     "sanctions",
+     "stand-off"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the Soviet response to the Polish crisis of 1981 and to the revolutions of 1989.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1981,
+    1989
+   ],
+   "scope": "Eastern Europe",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "Two Soviet responses",
+    "timeframe": "1981 and 1989",
+    "scope": "Eastern Europe",
+    "judgement": "Why Moscow acted differently"
+   },
+   "modelPlan": {
+    "thesis": "In both crises the Soviet army stayed out, but in 1981 Moscow encouraged martial law to crush Solidarity, whereas in 1989 it renounced force and let the regimes fall, because Afghanistan and Gorbachev's priorities had ended the Brezhnev Doctrine.",
+    "arguments": [
+     {
+      "claim": "Similarity: no Soviet invasion in either.",
+      "evidence": [
+       "F-EEU-08",
+       "F-EEU-16"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: the same economic weakness.",
+      "evidence": [
+       "F-EEU-04",
+       "F-EEU-13"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: encouragement of force against renunciation.",
+      "evidence": [
+       "F-EEU-08",
+       "F-EEU-17"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: outcomes.",
+      "evidence": [
+       "F-EEU-12",
+       "F-EEU-19"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "In both cases the Polish regime itself, under Jaruzelski, chose how to respond.",
+    "judgementCriterion": "Which difference mattered most? Moscow's attitude to force."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "In both 1981 and 1989 the Soviet army stayed out of Poland, but Moscow's attitude to force was opposite.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1981 the Soviet leadership encouraged Jaruzelski's martial law, whereas in December 1988 Gorbachev told the UN that 'freedom of choice' had no exceptions.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that in 1981 the regime could crush Solidarity, but in 1989 it had to negotiate, so Solidarity won the elections of 4 June.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the underlying problems were the same: debt and economic failure, which had grown worse by 1989.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore Soviet policy, shaped by Afghanistan and Gorbachev's priorities.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "1981",
+     "1989"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "martial law",
+     "Brezhnev Doctrine",
+     "Solidarity"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons why the revolutions of 1989 in Eastern Europe were mostly peaceful.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1989,
+    1989
+   ],
+   "scope": "Eastern Europe",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Reasons for peaceful change",
+    "timeframe": "1989",
+    "scope": "Eastern Europe",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "The revolutions were mostly peaceful because Moscow would not intervene, regimes in Poland and Hungary chose to negotiate, and opposition movements had long avoided confrontation; Romania, where the leader refused reform, was the exception.",
+    "arguments": [
+     {
+      "claim": "Soviet restraint.",
+      "evidence": [
+       "F-EEU-16",
+       "F-EEU-17"
+      ]
+     },
+     {
+      "claim": "Negotiation in Poland and Hungary.",
+      "evidence": [
+       "F-EEU-18",
+       "F-EEU-19"
+      ]
+     },
+     {
+      "claim": "Opposition's tradition of self-limitation.",
+      "evidence": [
+       "F-EEU-06",
+       "F-EEU-09"
+      ]
+     },
+     {
+      "claim": "The Romanian exception.",
+      "evidence": [
+       "F-EEU-20"
+      ]
+     }
+    ],
+    "counter": "The collapse of the East German regime was sudden rather than negotiated, yet still peaceful.",
+    "judgementCriterion": "Which reason mattered most? Soviet restraint, without which regimes might have chosen force."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The revolutions of 1989 were mostly peaceful mainly because the Soviet Union would not intervene.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Gorbachev had abandoned the Brezhnev Doctrine, and in Poland the Round Table led to Solidarity's victory on 4 June and a non-Communist Prime Minister by 24 August.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that regimes without Soviet backing chose to negotiate, and opposition leaders, who had long rejected open confrontation, met them halfway.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in Romania Ceauşescu refused reform and his forces fired on crowds, so peace depended on each regime's choices.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Soviet restraint was therefore the main reason, while negotiation and self-limitation explain how change happened.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "peaceful"
+    ],
+    "synonyms": [
+     "negotiation",
+     "restraint"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Round Table",
+     "Brezhnev Doctrine",
+     "Romania"
+    ]
+   }
+  }
+ ]
+}

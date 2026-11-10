@@ -1,0 +1,2838 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-GRAND-ALLIANCE",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In 1945 the United States and the Soviet Union had just defeated Germany together. By 1949 they led rival armed blocs. What turned allies into rivals so quickly?",
+   "predictionPrompt": "Your prediction in one line: what broke the Grand Alliance?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "From Tehran to Potsdam: an alliance under strain, 1943–1945",
+    "body": "The Grand Alliance of the United States, Britain and the Soviet Union was a marriage of necessity against Nazi Germany. Even during the war it was strained. Stalin was furious at repeated delays to the \"second front\" in France and at one point recalled his ambassadors from London and Washington; the Soviets refused to help the Polish Home Army in the Warsaw Uprising of August 1944.\n\nAt **Tehran** (November–December 1943) the \"Big Three\" (Roosevelt, Churchill and Stalin) agreed that the British and Americans would invade northern France by May 1944, and that the Soviet Union would eventually fight Japan. They also discussed the post-war map: Poland's eastern border would move west to the Curzon Line, and Poland would be compensated with German land up to the Oder and Neisse rivers. Roosevelt believed he had won Stalin's confidence; Stalin, meanwhile, gained concessions on Eastern Europe.\n\nAt **Yalta** (4–11 February 1945) the two sides traded. In return for entering the war against Japan, the Soviet Union was promised a sphere of influence in Manchuria, which the US Office of the Historian calls the conference's \"major concrete accomplishment\". The Western leaders accepted that the governments of Eastern Europe bordering the USSR should be \"friendly\" to Moscow, while Stalin pledged free elections in all liberated territories. These two promises could not both be kept. Roosevelt hoped that by meeting legitimate Soviet security needs he could turn the USSR into \"an international team player\".\n\nRoosevelt died on 12 April 1945. By the end of April the new president, Harry Truman, had already clashed with the Soviets over Eastern Europe. At **Potsdam** (17 July–2 August 1945), with Attlee replacing Churchill midway, the victors confirmed four zones of occupation in a disarmed Germany, but quarrelled over reparations: Truman and his Secretary of State Byrnes insisted each power take reparations only from its own zone. On 24 July Truman told Stalin that the US had a powerful new bomb. Stalin, already informed by his spies, held firm. The Big Three never met again.\n\nThis mattered because the wartime agreements left the key question unresolved, which meant that \"friendly\" governments and \"free elections\" in Eastern Europe could be read in opposite ways once the common enemy was gone.",
+    "argumentsThatWork": [
+     {
+      "claim": "Wartime strains showed mistrust before the war ended.",
+      "evidence": [
+       "F-GRAND-27"
+      ],
+      "strongestCounter": "The alliance still cooperated closely enough to defeat Germany."
+     },
+     {
+      "claim": "Yalta's promises on Eastern Europe were contradictory.",
+      "evidence": [
+       "F-GRAND-03",
+       "F-GRAND-28"
+      ],
+      "strongestCounter": "The Soviets also made substantial concessions at Yalta."
+     },
+     {
+      "claim": "Potsdam exposed disagreement over Germany and the bomb.",
+      "evidence": [
+       "F-GRAND-05",
+       "F-GRAND-06"
+      ],
+      "strongestCounter": "The powers still agreed on zones and demilitarisation."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was ideology the main cause of the breakdown of the Grand Alliance between 1943 and 1949?",
+     "Compare and contrast the roles of the United States and the Soviet Union in the emergence of superpower rivalry between 1945 and 1949."
+    ],
+    "useItInAnEssay": {
+     "claim": "The wartime conferences contained the seeds of breakdown because their promises on Eastern Europe could not all be kept.",
+     "prove": "At Yalta the Western leaders accepted that East European governments should be 'friendly' to the USSR, while Stalin pledged free elections in all liberated territories.",
+     "explain": "This meant that each side could later accuse the other of breaking the agreement, so the settlement became a source of conflict rather than a solution.",
+     "test": "However, the alliance still achieved real cooperation: Soviet entry into the war against Japan and agreement on zones in Germany.",
+     "judge": "The conferences therefore postponed the conflict rather than causing it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the 'major concrete accomplishment' of the Yalta Conference, according to the Office of the Historian?",
+      "factIds": [
+       "F-GRAND-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Soviet entry into the war against Japan in return for a sphere of influence in Manchuria",
+        "correct": true,
+        "explanation": "Correct: the US wanted Soviet help in the Pacific."
+       },
+       {
+        "id": "b",
+        "text": "The division of Berlin by a wall",
+        "correct": false,
+        "explanation": "The Berlin Wall came in 1961."
+       },
+       {
+        "id": "c",
+        "text": "The creation of NATO",
+        "correct": false,
+        "explanation": "NATO was founded in 1949."
+       },
+       {
+        "id": "d",
+        "text": "Free elections in Poland held in 1945",
+        "correct": false,
+        "explanation": "Yalta promised elections; it did not hold them."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Truman insist on at Potsdam over German reparations?",
+      "factIds": [
+       "F-GRAND-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Each occupying power should take reparations only from its own zone",
+        "correct": true,
+        "explanation": "Correct: to avoid repeating Versailles."
+       },
+       {
+        "id": "b",
+        "text": "Germany should pay no reparations at all",
+        "correct": false,
+        "explanation": "Reparations were still taken."
+       },
+       {
+        "id": "c",
+        "text": "All reparations should go to the USSR",
+        "correct": false,
+        "explanation": "The opposite of Truman's aim."
+       },
+       {
+        "id": "d",
+        "text": "Reparations should be paid in atomic technology",
+        "correct": false,
+        "explanation": "Not part of the debate."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “At Yalta the West accepted 'friendly' governments on the Soviet border, while Stalin pledged free elections.” Which argument does it support best?",
+      "factIds": [
+       "F-GRAND-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Yalta agreements contained contradictions that later fuelled conflict",
+        "correct": true,
+        "explanation": "Correct: friendly and freely elected governments might not be the same."
+       },
+       {
+        "id": "b",
+        "text": "Yalta settled the future of Eastern Europe for good",
+        "correct": false,
+        "explanation": "It left the key question open."
+       },
+       {
+        "id": "c",
+        "text": "Stalin refused to discuss Eastern Europe",
+        "correct": false,
+        "explanation": "He made a pledge on elections."
+       },
+       {
+        "id": "d",
+        "text": "Roosevelt opposed any Soviet influence",
+        "correct": false,
+        "explanation": "He accepted 'friendly' governments."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "Fear, ideology and the atom, 1945–1947",
+    "body": "Once the war was won, each side read the other's actions through its own fears. The atomic bomb sharpened them. Some American officials hoped the US nuclear monopoly might make the Soviets more flexible in Europe or Asia, though Truman did not openly threaten Stalin. In 1965 the historian Gar Alperovitz went further, arguing that the bombing of Japan was intended to strengthen America's hand against the USSR; other scholars reject this. Either way, the Office of the Historian suggests, the atomic age probably made the Soviet Union \"even more anxious to protect its borders with a controlled buffer zone\".\n\nAttempts to control the bomb failed. Under the **Baruch Plan** of June 1946 an international authority would control atomic energy, and the US would destroy its weapons only once the plan was fully in place. The Soviets rejected a scheme that let America keep its monopoly in the meantime and allowed inspection of Soviet sites; in December the USSR and Poland abstained and the plan died. The Soviet Union tested its own bomb in 1949.\n\nOther disputes deepened mistrust in 1946. Soviet troops stayed in northern Iran, and Moscow pressed Iran for oil concessions and Turkey for rights in the Straits. In March 1946 Winston Churchill, speaking at Fulton, Missouri, gave his famous \"iron curtain\" speech, though, as Tony Judt notes, much of American opinion still wanted no alliance with anyone.\n\nAmerican policy hardened in 1947. The diplomat George Kennan's \"X-Article\" called for \"a long-term, patient but firm and vigilant containment of Russian expansive tendencies\". When Britain announced that it could no longer support the Greek government against Communist rebels, Truman asked Congress on 12 March 1947 for $400 million for Greece and Turkey and declared that the US would \"support free peoples who are resisting attempted subjugation by armed minorities or by outside pressures\". This was the **Truman Doctrine**, an ideological framing of the conflict as freedom against totalitarianism. Yet Stalin had in fact refused to support the Greek Communists, and Judt argues that the Doctrine \"had remarkably little impact on Soviet calculations\".\n\nThis mattered because ideology and fear reinforced each other: each side's defensive moves looked like aggression to the other, which meant that by 1947 cooperation had given way to containment.",
+    "argumentsThatWork": [
+     {
+      "claim": "The atomic monopoly increased Soviet insecurity.",
+      "evidence": [
+       "F-GRAND-07",
+       "F-GRAND-09"
+      ],
+      "strongestCounter": "Truman did not use the bomb to threaten Stalin openly."
+     },
+     {
+      "claim": "Soviet actions in Iran and Turkey convinced Washington of Soviet expansionism.",
+      "evidence": [
+       "F-GRAND-10"
+      ],
+      "strongestCounter": "These were pressures on neighbours, not a plan for world revolution."
+     },
+     {
+      "claim": "The Truman Doctrine framed the conflict in ideological terms.",
+      "evidence": [
+       "F-GRAND-13"
+      ],
+      "strongestCounter": "Judt says it hardly changed Soviet calculations."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was ideology the main cause of the breakdown of the Grand Alliance between 1943 and 1949?",
+     "Discuss the view that the Soviet Union was more responsible than the United States for the breakdown of the Grand Alliance with reference to the period 1945 to 1949."
+    ],
+    "useItInAnEssay": {
+     "claim": "Fear, more than ideology, drove the breakdown in 1946–47, because each side saw the other's security measures as aggression.",
+     "prove": "The Soviets rejected the Baruch Plan of 1946 because it let the US keep its nuclear monopoly, while Washington saw Soviet pressure on Iran and Turkey as expansion.",
+     "explain": "This meant that defensive moves on one side confirmed the worst fears of the other, so each step led to a harder response.",
+     "test": "However, ideology shaped how those fears were expressed: the Truman Doctrine of 1947 described a struggle of free peoples against totalitarianism.",
+     "judge": "Fear was therefore the engine of the breakdown, and ideology its language."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did the Soviet Union reject the Baruch Plan in 1946?",
+      "factIds": [
+       "F-GRAND-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It let the US keep its nuclear monopoly until the plan was in place and allowed inspection of Soviet sites",
+        "correct": true,
+        "explanation": "Correct: and it removed the Security Council veto on sanctions."
+       },
+       {
+        "id": "b",
+        "text": "It gave the USSR too many bombs",
+        "correct": false,
+        "explanation": "The USSR had no bomb in 1946."
+       },
+       {
+        "id": "c",
+        "text": "It was proposed by Britain",
+        "correct": false,
+        "explanation": "It was an American plan."
+       },
+       {
+        "id": "d",
+        "text": "It banned nuclear power stations",
+        "correct": false,
+        "explanation": "It allowed peaceful research."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many million dollars did Truman ask Congress for in aid to Greece and Turkey in March 1947? (number)",
+      "factIds": [
+       "F-GRAND-13"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 400,
+        "tolerance": 0,
+        "explanation": "$400 million."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Stalin had deliberately refrained from supporting the Greek Communists.” Which argument does it support best?",
+      "factIds": [
+       "F-GRAND-13",
+       "F-GRAND-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Truman Doctrine exaggerated Soviet involvement in Greece",
+        "correct": true,
+        "explanation": "Correct: Truman framed a British withdrawal as a Communist threat."
+       },
+       {
+        "id": "b",
+        "text": "Stalin led the Greek civil war",
+        "correct": false,
+        "explanation": "The fact says the opposite."
+       },
+       {
+        "id": "c",
+        "text": "The US had no interest in Greece",
+        "correct": false,
+        "explanation": "Truman asked for $400 million."
+       },
+       {
+        "id": "d",
+        "text": "Greece was part of the Soviet bloc",
+        "correct": false,
+        "explanation": "It was not."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Money and camps: the Marshall Plan and the Soviet response, 1947–1948",
+    "body": "Economic interests turned rivalry into division. On 5 June 1947 Secretary of State George Marshall called for a programme to rebuild Europe. Congress approved it in March 1948, and aid eventually rose to over $12 billion. The plan helped Europe's recovery, but it also served American interests: it created markets for American goods and, as the Office of the Historian puts it, drew participating states into the United States' economic orbit as \"a bulwark against Communism\".\n\nEastern Europe was invited too. Poland, Czechoslovakia, Hungary, Bulgaria and Albania all showed initial interest. But at the Paris talks the Soviet foreign minister, Molotov, walked out on 2 July 1947, and no future Communist state received a dollar of Marshall aid. The Soviets feared American economic domination of their satellites, and Stalin was unwilling to open his closed society to Western inspection.\n\nStalin's answer was ideological discipline. In September 1947 he set up the **Cominform** at Szklarska Poręba in Poland. Its real purpose, Judt argues, was to re-establish Soviet control of the Communist movement. Zhdanov, the Soviet delegate, described the world as divided into two camps, and Communist parties everywhere switched to confrontation: strikes, campaigns against the Marshall Plan and, in Eastern Europe, a faster seizure of power. Since 1946 Communists there had found they could not win through the ballot box, so they used intimidation and terror against their opponents.\n\nThe decisive moment came in **February 1948**, when the Communists seized power in Czechoslovakia, a more or less democratic country that had seemed friendly to Moscow. Judt calls the Prague coup the signal of Stalin's acceptance of \"the inevitability of confrontation rather than agreement with the West\". It galvanised the West: in March Britain, France and the Benelux countries formed the Brussels Pact, and the London Conference agreed to extend the Marshall Plan to western Germany and plan a West German state. On 20 March the Soviet representative walked out of the Allied Control Council. \"The real Cold War in Europe,\" Judt writes, \"had begun.\"\n\nThis mattered because economic aid and the Soviet refusal of it drew a line through Europe, which meant that recovery in the West and Sovietisation in the East became two sides of the same division.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Marshall Plan served American economic and political interests.",
+      "evidence": [
+       "F-GRAND-15"
+      ],
+      "strongestCounter": "It was also a great humanitarian effort, and the East was invited."
+     },
+     {
+      "claim": "Soviet refusal of Marshall aid divided Europe.",
+      "evidence": [
+       "F-GRAND-16",
+       "F-GRAND-22"
+      ],
+      "strongestCounter": "Stalin had good reason to fear US economic domination."
+     },
+     {
+      "claim": "The Cominform and the Prague coup imposed Soviet control in the East.",
+      "evidence": [
+       "F-GRAND-17",
+       "F-GRAND-19"
+      ],
+      "strongestCounter": "Communists in Eastern Europe were already using terror before 1947."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the significance of economic interests in the emergence of superpower rivalry in Europe between 1947 and 1949.",
+     "Discuss the view that the Soviet Union was more responsible than the United States for the breakdown of the Grand Alliance with reference to the period 1945 to 1949."
+    ],
+    "useItInAnEssay": {
+     "claim": "Economic interests were central to the division of Europe because the Marshall Plan forced every state to choose a side.",
+     "prove": "Marshall offered aid to all of Europe in June 1947, but Molotov walked out on 2 July and no future Communist state received a dollar.",
+     "explain": "This meant that economic recovery became a test of loyalty, so the West was drawn into America's economic orbit while the East was tied to Moscow.",
+     "test": "However, the Soviet response was political as much as economic: the Cominform of September 1947 and the Prague coup of February 1948 imposed control by force.",
+     "judge": "Economics therefore drew the line through Europe, but politics and force made it permanent."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened at the Paris talks on Marshall aid on 2 July 1947?",
+      "factIds": [
+       "F-GRAND-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Molotov, the Soviet foreign minister, walked out",
+        "correct": true,
+        "explanation": "Correct: no future Communist state received aid."
+       },
+       {
+        "id": "b",
+        "text": "Stalin signed up for Marshall aid",
+        "correct": false,
+        "explanation": "The USSR refused."
+       },
+       {
+        "id": "c",
+        "text": "Britain refused all aid",
+        "correct": false,
+        "explanation": "Britain was a beneficiary."
+       },
+       {
+        "id": "d",
+        "text": "NATO was founded",
+        "correct": false,
+        "explanation": "NATO came in 1949."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many billion dollars did Marshall Plan funding eventually exceed, according to the Office of the Historian? (number)",
+      "factIds": [
+       "F-GRAND-15"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 12,
+        "tolerance": 0,
+        "explanation": "Over $12 billion."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Cominform's real goal was to re-establish Soviet dominion within the international Communist movement.” Which argument does it support best?",
+      "factIds": [
+       "F-GRAND-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Stalin responded to the Marshall Plan by tightening control over his bloc",
+        "correct": true,
+        "explanation": "Correct: Communists switched to confrontation."
+       },
+       {
+        "id": "b",
+        "text": "The Cominform was a trade organisation",
+        "correct": false,
+        "explanation": "It was a Communist information bureau."
+       },
+       {
+        "id": "c",
+        "text": "Stalin wanted to join the Marshall Plan",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "The Cominform united East and West",
+        "correct": false,
+        "explanation": "It deepened division."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "comparison",
+    "title": "Blockade, NATO and China: rivalry in Europe and Asia, 1948–1949",
+    "body": "The breakdown reached its climax over Germany. In June 1948 the US and Britain introduced a new currency, the Deutschmark, in their zones and in West Berlin without telling the Soviets. From 24 June Soviet forces blockaded West Berlin by land and water. The Western powers answered with an airlift that, at its height, landed a plane every 45 seconds at Tempelhof airport, and Truman sent to Britain B-29 bombers capable of carrying nuclear weapons. In May 1949 Moscow lifted the blockade. The crisis, in the Office of the Historian's words, \"solidified the division of Europe\": the Western powers created **NATO** in 1949, the first peacetime alliance the US had joined outside the Western Hemisphere, and two separate German states followed.\n\nRivalry spread to Asia. At Yalta the USSR had won a sphere of influence in Manchuria; after Japan's surrender it occupied Manchuria and left only when Chinese Communist forces were in place, while the US flew Nationalist troops into Japanese-held territory. General Marshall tried and failed to broker a coalition government, and by 1946 China was in all-out civil war. On 1 October 1949 **Mao Zedong** proclaimed the People's Republic of China, and Chiang Kai-shek fled to Taiwan. The US suspended relations with the new state, and Truman faced charges of having \"lost\" China.\n\nHow do the two superpowers' roles compare? Both acted from security fears and both used economic and military tools to build a bloc. The US used aid (the Marshall Plan) and alliances (NATO); the USSR used control of local Communist parties, the Cominform and, in Czechoslovakia, a coup. But Judt places the main responsibility on Moscow: the division of Germany and Europe lay \"in Stalin's own errors\", and the Cold War in Europe was \"an unavoidable outcome of the Soviet dictator's personality and the system over which he ruled\". Had Stalin accepted the Marshall Plan in 1947, Judt suggests, he could have shifted the balance of Europe. Judt also warns that the Americans, like Stalin, \"were improvising\", and that there is \"little to be gained from asking 'who started the Cold War?'\"\n\nThis mattered because by the end of 1949 two armed blocs faced each other in Europe and a Communist China had appeared in Asia, which meant that the Grand Alliance had given way to a global superpower rivalry.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Berlin crisis and NATO turned division into armed confrontation.",
+      "evidence": [
+       "F-GRAND-21",
+       "F-GRAND-22"
+      ],
+      "strongestCounter": "The airlift avoided war: neither side fired a shot."
+     },
+     {
+      "claim": "The Chinese Revolution extended rivalry to Asia.",
+      "evidence": [
+       "F-GRAND-25",
+       "F-GRAND-26"
+      ],
+      "strongestCounter": "The Communists won mainly through their own strength in a civil war."
+     },
+     {
+      "claim": "Judt places the main responsibility on Stalin's errors and system.",
+      "evidence": [
+       "F-GRAND-23"
+      ],
+      "strongestCounter": "Judt also says both sides were improvising."
+     }
+    ],
+    "howItGetsAsked": [
+     "Compare and contrast the roles of the United States and the Soviet Union in the emergence of superpower rivalry between 1945 and 1949.",
+     "Analyse the reasons why superpower rivalry spread to Asia between 1945 and 1949."
+    ],
+    "useItInAnEssay": {
+     "claim": "Both superpowers built blocs between 1947 and 1949, but they did so by different means.",
+     "prove": "The US used the Marshall Plan and, in 1949, NATO, while the USSR used the Cominform, the Prague coup of February 1948 and the Berlin blockade.",
+     "explain": "This meant that the West was bound by aid and alliance, whereas the East was held together by party control and force.",
+     "test": "However, both sides acted from security fears, and Judt argues that the Americans, like Stalin, were improvising.",
+     "judge": "The difference in methods therefore matters more than the similarity in motives, which is why Judt places the main responsibility on Stalin."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What triggered the Soviet blockade of West Berlin in June 1948?",
+      "factIds": [
+       "F-GRAND-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The introduction of the Deutschmark in the western zones and West Berlin",
+        "correct": true,
+        "explanation": "Correct: without informing the Soviets."
+       },
+       {
+        "id": "b",
+        "text": "The founding of the PRC",
+        "correct": false,
+        "explanation": "That came in October 1949."
+       },
+       {
+        "id": "c",
+        "text": "The Truman Doctrine",
+        "correct": false,
+        "explanation": "That was in March 1947."
+       },
+       {
+        "id": "d",
+        "text": "The Soviet atomic test",
+        "correct": false,
+        "explanation": "That came in 1949."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the US do after the Communist victory in China in 1949?",
+      "factIds": [
+       "F-GRAND-25"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It suspended diplomatic ties with the PRC",
+        "correct": true,
+        "explanation": "Correct: for decades."
+       },
+       {
+        "id": "b",
+        "text": "It recognised the PRC immediately",
+        "correct": false,
+        "explanation": "It did not."
+       },
+       {
+        "id": "c",
+        "text": "It invaded Manchuria",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "d",
+        "text": "It joined the Cominform",
+        "correct": false,
+        "explanation": "Not possible."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-GRAND-ALLIANCE-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt says the division of Europe lay above all in Stalin's own errors.” Which argument does it support best?",
+      "factIds": [
+       "F-GRAND-23"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Soviet Union bore the main responsibility for the breakdown",
+        "correct": true,
+        "explanation": "Correct: though Judt says both sides improvised."
+       },
+       {
+        "id": "b",
+        "text": "The US alone started the Cold War",
+        "correct": false,
+        "explanation": "Judt rejects this."
+       },
+       {
+        "id": "c",
+        "text": "Nobody was responsible",
+        "correct": false,
+        "explanation": "Judt assigns responsibility."
+       },
+       {
+        "id": "d",
+        "text": "The Marshall Plan caused the blockade",
+        "correct": false,
+        "explanation": "Not Judt's argument."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1943,
+      "month": 11,
+      "text": "Tehran Conference begins",
+      "factId": "F-GRAND-01"
+     },
+     {
+      "year": 1945,
+      "month": 2,
+      "text": "Yalta Conference",
+      "factId": "F-GRAND-03"
+     },
+     {
+      "year": 1945,
+      "month": 7,
+      "text": "Potsdam Conference begins",
+      "factId": "F-GRAND-05"
+     },
+     {
+      "year": 1946,
+      "month": 3,
+      "text": "Churchill's 'iron curtain' speech",
+      "factId": "F-GRAND-11"
+     },
+     {
+      "year": 1946,
+      "month": 6,
+      "day": 14,
+      "text": "Baruch Plan presented",
+      "factId": "F-GRAND-09"
+     },
+     {
+      "year": 1947,
+      "month": 3,
+      "day": 12,
+      "text": "Truman Doctrine",
+      "factId": "F-GRAND-13"
+     },
+     {
+      "year": 1947,
+      "month": 6,
+      "day": 5,
+      "text": "Marshall's speech",
+      "factId": "F-GRAND-15"
+     },
+     {
+      "year": 1947,
+      "month": 9,
+      "text": "Cominform founded",
+      "factId": "F-GRAND-17"
+     },
+     {
+      "year": 1948,
+      "month": 2,
+      "text": "Communist coup in Prague",
+      "factId": "F-GRAND-19"
+     },
+     {
+      "year": 1948,
+      "month": 6,
+      "day": 24,
+      "text": "Berlin blockade begins",
+      "factId": "F-GRAND-21"
+     },
+     {
+      "year": 1949,
+      "text": "NATO founded; first Soviet atomic bomb",
+      "factId": "F-GRAND-22"
+     },
+     {
+      "year": 1949,
+      "month": 10,
+      "day": 1,
+      "text": "People's Republic of China proclaimed",
+      "factId": "F-GRAND-25"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Wartime agreements leave Eastern Europe ambiguous",
+      "factId": "F-GRAND-03"
+     },
+     {
+      "id": "n2",
+      "text": "The bomb and Soviet pressure on neighbours breed fear",
+      "factId": "F-GRAND-10"
+     },
+     {
+      "id": "n3",
+      "text": "Containment and the Truman Doctrine",
+      "factId": "F-GRAND-13"
+     },
+     {
+      "id": "n4",
+      "text": "Marshall Plan refused; Cominform founded",
+      "factId": "F-GRAND-16"
+     },
+     {
+      "id": "n5",
+      "text": "Prague coup and Berlin blockade",
+      "factId": "F-GRAND-21"
+     },
+     {
+      "id": "n6",
+      "text": "NATO, two Germanies and a Communist China",
+      "factId": "F-GRAND-22"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Without a common enemy, each side read the other's moves as threats"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Washington concluded Soviet expansion had to be contained"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Aid became a test of which camp a state belonged to"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Stalin turned to control and pressure"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "The West answered with alliance; rivalry spread to Asia"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Franklin D. Roosevelt",
+     "role": "US President to April 1945",
+     "whyItMatters": "Hoped to make the USSR a 'team player' by meeting its security needs.",
+     "factIds": [
+      "F-GRAND-02",
+      "F-GRAND-28"
+     ]
+    },
+    {
+     "name": "Joseph Stalin",
+     "role": "Soviet leader",
+     "whyItMatters": "Refused Marshall aid, founded the Cominform; Judt blames his errors.",
+     "factIds": [
+      "F-GRAND-16",
+      "F-GRAND-17",
+      "F-GRAND-23"
+     ]
+    },
+    {
+     "name": "Harry S. Truman",
+     "role": "US President from April 1945",
+     "whyItMatters": "Truman Doctrine; told Stalin of the bomb at Potsdam.",
+     "factIds": [
+      "F-GRAND-06",
+      "F-GRAND-13"
+     ]
+    },
+    {
+     "name": "George Kennan",
+     "role": "US diplomat",
+     "whyItMatters": "Formulated containment in the 'X-Article' (1947).",
+     "factIds": [
+      "F-GRAND-12"
+     ]
+    },
+    {
+     "name": "George C. Marshall",
+     "role": "US Secretary of State",
+     "whyItMatters": "Proposed the European Recovery Program in June 1947.",
+     "factIds": [
+      "F-GRAND-15"
+     ]
+    },
+    {
+     "name": "Mao Zedong",
+     "role": "Chinese Communist leader",
+     "whyItMatters": "Proclaimed the PRC on 1 October 1949.",
+     "factIds": [
+      "F-GRAND-25"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "United States",
+     "Soviet Union"
+    ],
+    "rows": [
+     {
+      "criterion": "Ideology",
+      "cells": [
+       "'Free peoples' against totalitarianism (Truman Doctrine)",
+       "Zhdanov's two camps; Cominform discipline"
+      ],
+      "factIds": [
+       "F-GRAND-13",
+       "F-GRAND-17"
+      ]
+     },
+     {
+      "criterion": "Security fears",
+      "cells": [
+       "Soviet pressure on Iran and Turkey",
+       "Nuclear monopoly; desire for a buffer zone"
+      ],
+      "factIds": [
+       "F-GRAND-10",
+       "F-GRAND-07"
+      ]
+     },
+     {
+      "criterion": "Economic tools",
+      "cells": [
+       "Marshall Plan: over $12 billion",
+       "Refused Marshall aid for the whole bloc"
+      ],
+      "factIds": [
+       "F-GRAND-15",
+       "F-GRAND-16"
+      ]
+     },
+     {
+      "criterion": "Methods in Europe",
+      "cells": [
+       "Aid and alliance (NATO, 1949)",
+       "Party control, terror, the Prague coup, the blockade"
+      ],
+      "factIds": [
+       "F-GRAND-22",
+       "F-GRAND-18",
+       "F-GRAND-19"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-GRAND-03",
+    "year": 1945,
+    "text": "Yalta (February 1945): 'friendly' governments on the Soviet border, and a Soviet pledge of free elections.",
+    "supports": [
+     "The wartime settlement was contradictory"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "Yalta",
+     "Big Three"
+    ]
+   },
+   {
+    "factId": "F-GRAND-09",
+    "year": 1946,
+    "text": "Baruch Plan (June 1946): the USSR rejected a plan that kept the US monopoly in place; it failed in December.",
+    "supports": [
+     "The atom bred mistrust"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "Baruch Plan",
+     "atomic diplomacy"
+    ]
+   },
+   {
+    "factId": "F-GRAND-13",
+    "year": 1947,
+    "text": "Truman Doctrine (12 March 1947): $400 million for Greece and Turkey; 'support free peoples'.",
+    "supports": [
+     "The US framed the conflict ideologically"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT",
+     "P2-12-LEADERS"
+    ],
+    "lexicon": [
+     "Truman Doctrine",
+     "containment"
+    ]
+   },
+   {
+    "factId": "F-GRAND-16",
+    "year": 1947,
+    "text": "2 July 1947: Molotov walked out of the Paris talks; no Communist state received Marshall aid.",
+    "supports": [
+     "Economic interests divided Europe"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B2-RECOVERY",
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "Marshall Plan",
+     "Molotov"
+    ]
+   },
+   {
+    "factId": "F-GRAND-17",
+    "year": 1947,
+    "text": "Cominform (September 1947): Soviet control of the Communist movement; Zhdanov's two camps.",
+    "supports": [
+     "Stalin tightened control of his bloc"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B1-SOVIET-CONTROL"
+    ],
+    "lexicon": [
+     "Cominform",
+     "Zhdanov"
+    ]
+   },
+   {
+    "factId": "F-GRAND-19",
+    "year": 1948,
+    "text": "Prague coup (February 1948): Judt calls it Stalin's acceptance of confrontation.",
+    "supports": [
+     "The USSR imposed control by force"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B1-SOVIET-CONTROL"
+    ],
+    "lexicon": [
+     "Prague coup",
+     "Czechoslovakia"
+    ]
+   },
+   {
+    "factId": "F-GRAND-21",
+    "year": 1948,
+    "text": "Berlin blockade (from 24 June 1948): one plane every 45 seconds at Tempelhof at the airlift's height.",
+    "supports": [
+     "The crisis solidified the division of Europe"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-BERLIN-BLOCKADE",
+     "P3-17-B1-GERMAN-QUESTION"
+    ],
+    "lexicon": [
+     "Berlin blockade",
+     "airlift"
+    ]
+   },
+   {
+    "factId": "F-GRAND-25",
+    "year": 1949,
+    "text": "1 October 1949: the PRC proclaimed; the US suspended ties.",
+    "supports": [
+     "Rivalry spread to Asia"
+    ],
+    "alsoWorksFor": [
+     "P2-12-SINO",
+     "P2-12-CRISIS-KOREA"
+    ],
+    "lexicon": [
+     "Chinese Revolution",
+     "Mao"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "The division of Europe lay 'in Stalin's own errors': the Cold War in Europe was 'an unavoidable outcome of the Soviet dictator's personality and the system over which he ruled', and the Truman Doctrine 'had remarkably little impact on Soviet calculations'.",
+    "useItLikeThis": "Judt's view supports the claim that the USSR bore the main responsibility, which suggests the Marshall Plan refusal, not American rhetoric, was the turning point.",
+    "factId": "F-GRAND-23"
+   },
+   {
+    "historian": "Gar Alperovitz",
+    "argument": "In 1965 Alperovitz argued that the atomic bombing of Japan was intended to gain a stronger position for post-war bargaining with the Soviet Union (as summarised by the Office of the Historian; other scholars disagree).",
+    "useItLikeThis": "Alperovitz's view supports the claim that American atomic diplomacy deepened Soviet fears, which suggests the US shared responsibility for the breakdown.",
+    "factId": "F-GRAND-07"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Cold War began only after the war ended.",
+    "right": "The alliance was **strained during the war**: the second front and the Warsaw Uprising."
+   },
+   {
+    "wrong": "Eastern Europe was never offered Marshall aid.",
+    "right": "It was invited, and Poland and Czechoslovakia showed interest, but none took part after **Molotov walked out** on 2 July 1947."
+   },
+   {
+    "wrong": "The Truman Doctrine changed Stalin's policy.",
+    "right": "Judt: it had **remarkably little impact** on Soviet calculations."
+   },
+   {
+    "wrong": "Superpower rivalry before 1950 was only about Europe.",
+    "right": "It spread to **Asia**: Manchuria, the Chinese civil war and the PRC in 1949."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1943,
+     "month": 11,
+     "text": "Tehran"
+    },
+    {
+     "year": 1945,
+     "month": 2,
+     "text": "Yalta"
+    },
+    {
+     "year": 1945,
+     "month": 7,
+     "text": "Potsdam"
+    },
+    {
+     "year": 1947,
+     "month": 3,
+     "day": 12,
+     "text": "Truman Doctrine"
+    },
+    {
+     "year": 1947,
+     "month": 6,
+     "day": 5,
+     "text": "Marshall speech"
+    },
+    {
+     "year": 1948,
+     "month": 2,
+     "text": "Prague coup"
+    },
+    {
+     "year": 1948,
+     "month": 6,
+     "day": 24,
+     "text": "Berlin blockade"
+    },
+    {
+     "year": 1949,
+     "month": 10,
+     "day": 1,
+     "text": "PRC proclaimed"
+    }
+   ],
+   "keyArguments": [
+    "The wartime promises on Eastern Europe were contradictory.",
+    "The bomb and Soviet pressure on Iran and Turkey bred mutual fear.",
+    "The Marshall Plan made aid a test of loyalty; Stalin refused it and founded the Cominform.",
+    "The Prague coup and the Berlin blockade led to NATO and two Germanies.",
+    "Judt blames Stalin's errors and system; Alperovitz points to American atomic diplomacy."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these wartime and post-war events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Tehran Conference",
+     "year": 1943,
+     "month": 11,
+     "factId": "F-GRAND-01"
+    },
+    {
+     "id": "b",
+     "text": "Yalta Conference",
+     "year": 1945,
+     "month": 2,
+     "factId": "F-GRAND-03"
+    },
+    {
+     "id": "c",
+     "text": "Roosevelt dies",
+     "year": 1945,
+     "month": 4,
+     "factId": "F-GRAND-04"
+    },
+    {
+     "id": "d",
+     "text": "Potsdam Conference",
+     "year": 1945,
+     "month": 7,
+     "factId": "F-GRAND-05"
+    },
+    {
+     "id": "e",
+     "text": "Baruch Plan presented",
+     "year": 1946,
+     "month": 6,
+     "factId": "F-GRAND-09"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Truman Doctrine",
+     "year": 1947,
+     "month": 3,
+     "factId": "F-GRAND-13"
+    },
+    {
+     "id": "b",
+     "text": "Marshall's Harvard speech",
+     "year": 1947,
+     "month": 6,
+     "factId": "F-GRAND-15"
+    },
+    {
+     "id": "c",
+     "text": "Cominform founded",
+     "year": 1947,
+     "month": 9,
+     "factId": "F-GRAND-17"
+    },
+    {
+     "id": "d",
+     "text": "Prague coup",
+     "year": 1948,
+     "month": 2,
+     "factId": "F-GRAND-19"
+    },
+    {
+     "id": "e",
+     "text": "Berlin blockade begins",
+     "year": 1948,
+     "month": 6,
+     "factId": "F-GRAND-21"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Churchill's Fulton speech",
+     "year": 1946,
+     "month": 3,
+     "factId": "F-GRAND-11"
+    },
+    {
+     "id": "b",
+     "text": "Molotov walks out of the Paris talks",
+     "year": 1947,
+     "month": 7,
+     "factId": "F-GRAND-16"
+    },
+    {
+     "id": "c",
+     "text": "Brussels Pact",
+     "year": 1948,
+     "month": 3,
+     "factId": "F-GRAND-19"
+    },
+    {
+     "id": "d",
+     "text": "PRC proclaimed",
+     "year": 1949,
+     "month": 10,
+     "factId": "F-GRAND-25"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "George Kennan",
+     "right": "Author of the 'X-Article' on containment",
+     "explanation": "1947."
+    },
+    {
+     "left": "Bernard Baruch",
+     "right": "Presented the US plan for international control of atomic energy",
+     "explanation": "June 1946."
+    },
+    {
+     "left": "Vyacheslav Molotov",
+     "right": "Soviet foreign minister who walked out of the Marshall Plan talks",
+     "explanation": "2 July 1947."
+    },
+    {
+     "left": "Andrei Zhdanov",
+     "right": "Soviet delegate who described two opposing camps at the Cominform",
+     "explanation": "September 1947."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How often did a plane land at Tempelhof at the height of the Berlin airlift? (every ... seconds)",
+   "factIds": [
+    "F-GRAND-21"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 45,
+     "tolerance": 0,
+     "explanation": "Every 45 seconds."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many European states took part in the Marshall Plan discussions on 12 July 1947, according to Judt? (number)",
+   "factIds": [
+    "F-GRAND-16"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 16,
+     "tolerance": 0,
+     "explanation": "Sixteen."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the Soviet Union explode its first atomic bomb? (year)",
+   "factIds": [
+    "F-GRAND-08"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1949,
+     "tolerance": 0,
+     "explanation": "1949, ending the US monopoly."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many of the 12 members of the UN Atomic Energy Commission voted for the Baruch Plan on 30 December 1946? (number)",
+   "factIds": [
+    "F-GRAND-09"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 10,
+     "tolerance": 0,
+     "explanation": "Ten; the USSR and Poland abstained, and unanimity was needed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were agreed or discussed at Tehran in 1943? Choose all that apply.",
+   "factIds": [
+    "F-GRAND-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "An invasion of northern France by May 1944",
+     "correct": true,
+     "explanation": "Yes: Operation Overlord."
+    },
+    {
+     "id": "b",
+     "text": "Moving Poland's border west to the Oder and Neisse",
+     "correct": true,
+     "explanation": "Yes: to compensate for the Curzon Line."
+    },
+    {
+     "id": "c",
+     "text": "A United Nations led by 'four policemen'",
+     "correct": true,
+     "explanation": "Yes: Roosevelt's vision."
+    },
+    {
+     "id": "d",
+     "text": "The creation of NATO",
+     "correct": false,
+     "explanation": "No: NATO was founded in 1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were among the 1946 setbacks to US-Soviet relations? Choose all that apply.",
+   "factIds": [
+    "F-GRAND-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet troops staying in northern Iran",
+     "correct": true,
+     "explanation": "Yes: against the 1943 Tehran Declaration."
+    },
+    {
+     "id": "b",
+     "text": "Soviet pressure on Turkey over the Straits",
+     "correct": true,
+     "explanation": "Yes: for base and transit rights."
+    },
+    {
+     "id": "c",
+     "text": "Soviet rejection of the Baruch Plan",
+     "correct": true,
+     "explanation": "Yes: in 1946."
+    },
+    {
+     "id": "d",
+     "text": "The Berlin blockade",
+     "correct": false,
+     "explanation": "No: that began in 1948."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Marshall Plan created markets for American goods.” Which argument does it support?",
+   "factIds": [
+    "F-GRAND-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "US economic interests helped shape its policy in Europe",
+     "correct": true,
+     "explanation": "Correct: aid also served the US economy."
+    },
+    {
+     "id": "b",
+     "text": "The Marshall Plan was purely charitable",
+     "correct": false,
+     "explanation": "The fact shows self-interest too."
+    },
+    {
+     "id": "c",
+     "text": "The USSR benefited from the Marshall Plan",
+     "correct": false,
+     "explanation": "No Communist state took part."
+    },
+    {
+     "id": "d",
+     "text": "The US economy was in ruins",
+     "correct": false,
+     "explanation": "The US was the creditor."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In Eastern Europe Communists could not win through the ballot box, so they turned to terror.” Which argument does it support?",
+   "factIds": [
+    "F-GRAND-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet control of Eastern Europe was imposed, not freely chosen",
+     "correct": true,
+     "explanation": "Correct: contrary to the Yalta pledge of free elections."
+    },
+    {
+     "id": "b",
+     "text": "Communism was popular everywhere in Eastern Europe",
+     "correct": false,
+     "explanation": "Communists were consistently defeated in elections."
+    },
+    {
+     "id": "c",
+     "text": "The US controlled Eastern Europe",
+     "correct": false,
+     "explanation": "The fact concerns Communist methods."
+    },
+    {
+     "id": "d",
+     "text": "Elections were never held",
+     "correct": false,
+     "explanation": "They were held, and Communists lost."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Soviet Union and its satellites received Marshall aid until 1949.”",
+   "factIds": [
+    "F-GRAND-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "No future Communist state ever received Marshall aid",
+     "correct": true,
+     "explanation": "Correct: Molotov walked out in July 1947."
+    },
+    {
+     "id": "b",
+     "text": "The Marshall Plan began in 1960",
+     "correct": false,
+     "explanation": "It began in 1948."
+    },
+    {
+     "id": "c",
+     "text": "Marshall was a Soviet minister",
+     "correct": false,
+     "explanation": "He was US Secretary of State."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the East received nothing."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “At Potsdam Stalin learned of the atomic bomb for the first time, and he gave way on every issue.”",
+   "factIds": [
+    "F-GRAND-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin already knew from his spies, and he held firm",
+     "correct": true,
+     "explanation": "Correct: the bomb did not soften him."
+    },
+    {
+     "id": "b",
+     "text": "Potsdam took place in 1950",
+     "correct": false,
+     "explanation": "It was in July–August 1945."
+    },
+    {
+     "id": "c",
+     "text": "Truman was not at Potsdam",
+     "correct": false,
+     "explanation": "Truman attended."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There are two errors."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the breakdown of the Grand Alliance between 1943 and 1949. Is NSC 68 (1950) inside or outside the timeframe?",
+   "factIds": [
+    "F-GRAND-12"
+   ],
+   "timeframe": [
+    1943,
+    1949
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1949."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1950 is after 1949."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Kennan wrote in 1947",
+     "correct": false,
+     "explanation": "Kennan's article is inside; NSC 68 is not."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What immediately prompted Truman's speech of 12 March 1947?",
+   "factIds": [
+    "F-GRAND-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Britain's announcement that it would stop aiding Greece",
+     "correct": true,
+     "explanation": "Correct: the US took over Britain's role."
+    },
+    {
+     "id": "b",
+     "text": "The Soviet atomic test",
+     "correct": false,
+     "explanation": "That came in 1949."
+    },
+    {
+     "id": "c",
+     "text": "The Berlin blockade",
+     "correct": false,
+     "explanation": "That began in 1948."
+    },
+    {
+     "id": "d",
+     "text": "The Chinese Revolution",
+     "correct": false,
+     "explanation": "That was in 1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Kennan call for in his 1947 'X-Article'?",
+   "factIds": [
+    "F-GRAND-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Long-term, patient but firm and vigilant containment of Russian expansive tendencies",
+     "correct": true,
+     "explanation": "Correct: the basis of US strategy."
+    },
+    {
+     "id": "b",
+     "text": "Rollback of Soviet power",
+     "correct": false,
+     "explanation": "That was Dulles's slogan in 1952."
+    },
+    {
+     "id": "c",
+     "text": "An immediate nuclear strike",
+     "correct": false,
+     "explanation": "Kennan favoured economic and political tools."
+    },
+    {
+     "id": "d",
+     "text": "A return to isolationism",
+     "correct": false,
+     "explanation": "The opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Stalin pledge at Yalta about the territories liberated from Nazi Germany?",
+   "factIds": [
+    "F-GRAND-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Free elections",
+     "correct": true,
+     "explanation": "Correct: a pledge that clashed with 'friendly' governments."
+    },
+    {
+     "id": "b",
+     "text": "Immediate Soviet withdrawal",
+     "correct": false,
+     "explanation": "Not pledged."
+    },
+    {
+     "id": "c",
+     "text": "Membership of NATO",
+     "correct": false,
+     "explanation": "NATO did not exist."
+    },
+    {
+     "id": "d",
+     "text": "Marshall aid",
+     "correct": false,
+     "explanation": "The Marshall Plan came in 1947."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the USSR do in Manchuria after Japan's surrender?",
+   "factIds": [
+    "F-GRAND-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It occupied Manchuria and left only when Chinese Communist forces were in place",
+     "correct": true,
+     "explanation": "Correct: helping the Communists in the civil war."
+    },
+    {
+     "id": "b",
+     "text": "It handed Manchuria to Chiang Kai-shek at once",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "It never entered Manchuria",
+     "correct": false,
+     "explanation": "It invaded in 1945."
+    },
+    {
+     "id": "d",
+     "text": "It gave Manchuria to the US",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, what did the Prague coup of February 1948 signal?",
+   "factIds": [
+    "F-GRAND-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin's acceptance of confrontation rather than agreement with the West",
+     "correct": true,
+     "explanation": "Correct: it galvanised the Western allies."
+    },
+    {
+     "id": "b",
+     "text": "The end of the Cold War",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Czechoslovakia's entry into NATO",
+     "correct": false,
+     "explanation": "Not possible."
+    },
+    {
+     "id": "d",
+     "text": "A Soviet offer to accept Marshall aid",
+     "correct": false,
+     "explanation": "Moscow had already refused."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was ideology the main cause of the breakdown of the Grand Alliance between 1943 and 1949?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "ideology",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main cause of the breakdown of the Grand Alliance",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1943 and 1949",
+     "answer": "timeframe",
+     "explanation": "From Tehran to NATO and the PRC."
+    },
+    {
+     "id": "s5",
+     "text": "main cause",
+     "answer": "judgement",
+     "explanation": "Whether ideology outweighed fear and economic interests."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the roles of the United States and the Soviet Union in the emergence of superpower rivalry between 1945 and 1949.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "the roles of the United States and the Soviet Union",
+     "answer": "factor",
+     "explanation": "The two actors."
+    },
+    {
+     "id": "s3",
+     "text": "the emergence of superpower rivalry",
+     "answer": "scope",
+     "explanation": "What their roles explain."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1949",
+     "answer": "timeframe",
+     "explanation": "From Potsdam to NATO."
+    },
+    {
+     "id": "s5",
+     "text": "roles",
+     "answer": "judgement",
+     "explanation": "Which side's actions mattered more, and how they differed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was ideology the main cause of the breakdown of the Grand Alliance between 1943 and 1949?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ideology shaped how each side saw the other, but mutual fear, sharpened by the bomb and by Soviet pressure on its neighbours, and the economic division created by the Marshall Plan did more to break the alliance.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against others."
+    },
+    {
+     "id": "b",
+     "text": "The Grand Alliance broke down after 1945.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Ideology was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Ideology was the only cause.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The Soviet Union was more responsible than the United States for the breakdown of the Grand Alliance.’ Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The USSR bore more responsibility, because Stalin's refusal of Marshall aid, the Cominform and the Prague coup turned rivalry into division; but American atomic diplomacy and ideological rhetoric deepened Soviet fears.",
+     "correct": true,
+     "explanation": "Correct: a judgement with a qualification."
+    },
+    {
+     "id": "b",
+     "text": "Stalin led the Soviet Union.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Both sides were involved.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The US alone caused the Cold War.",
+     "correct": false,
+     "explanation": "Unbalanced and unsupported."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 2 July 1947 Molotov walked out of the Paris talks.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because no Communist state took Marshall aid, recovery became a test of loyalty that divided Europe.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In February 1948 the Communists seized power in Prague.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the West concluded Communism was on the march, so it formed the Brussels Pact.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "The Soviet rejection of the Baruch Plan",
+     "right": "The atom bred mutual mistrust",
+     "explanation": "1946."
+    },
+    {
+     "left": "Molotov's walk-out on 2 July 1947",
+     "right": "Economic interests divided Europe",
+     "explanation": "No Communist state took aid."
+    },
+    {
+     "left": "The Cominform's 'two camps'",
+     "right": "Ideology hardened the division",
+     "explanation": "Zhdanov, 1947."
+    },
+    {
+     "left": "The Prague coup of February 1948",
+     "right": "Stalin imposed control by force",
+     "explanation": "It galvanised the West."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Marshall Plan made the Cold War worse.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Molotov walked out of the Paris talks in July 1947 and no Communist state received Marshall aid, the plan turned economic recovery into a test of loyalty, so Europe divided into two economic camps.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and consequence."
+    },
+    {
+     "id": "b",
+     "text": "The Marshall Plan made the Cold War much worse.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The Marshall Plan was announced in 1947.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The Marshall Plan caused every Cold War crisis.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Truman Doctrine caused Stalin to abandon cooperation with the West.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judt argues the Doctrine had remarkably little impact on Soviet calculations, because Stalin cared little about Greece and Turkey; his turn to confrontation came after the Marshall Plan, with the Cominform and the Prague coup.",
+     "correct": true,
+     "explanation": "Correct: historian and specific evidence."
+    },
+    {
+     "id": "b",
+     "text": "Truman was not popular.",
+     "correct": false,
+     "explanation": "Not an argument about Stalin."
+    },
+    {
+     "id": "c",
+     "text": "The Doctrine was short.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Stalin was a Communist.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was ideology the main cause of the breakdown of the Grand Alliance between 1943 and 1949?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what turned disagreement into division, ideology was secondary: it gave each side its language, but fear and the Marshall Plan's economic test explain why the break came in 1947–48.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there were many causes of the Cold War.",
+     "correct": false,
+     "explanation": "No weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, ideology was bad.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, the Cold War started in 1945.",
+     "correct": false,
+     "explanation": "A recap of a date."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes and consequences of the division of Germany between 1945 and 1949.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The quarrel over reparations at Potsdam",
+     "answer": "causes",
+     "explanation": "Each power took from its own zone."
+    },
+    {
+     "id": "s2",
+     "text": "Extending the Marshall Plan to western Germany",
+     "answer": "causes",
+     "explanation": "The London Conference, 1948."
+    },
+    {
+     "id": "s3",
+     "text": "The Deutschmark introduced without Soviet consent",
+     "answer": "causes",
+     "explanation": "June 1948."
+    },
+    {
+     "id": "s4",
+     "text": "NATO founded in 1949",
+     "answer": "effects",
+     "explanation": "The West's response."
+    },
+    {
+     "id": "s5",
+     "text": "Two separate German states",
+     "answer": "effects",
+     "explanation": "Formed in 1949."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-GRAND-ALLIANCE-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was ideology the main cause of the breakdown of the Grand Alliance between 1943 and 1949?",
+   "commandTerm": "to what extent",
+   "namedFactor": "ideology",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1943,
+    1949
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Ideology, weighed first",
+    "timeframe": "1943–1949",
+    "scope": "The breakdown of the Grand Alliance",
+    "judgement": "Whether ideology outweighed fear and economic interests"
+   },
+   "modelPlan": {
+    "thesis": "Ideology shaped how each side saw the other, but mutual fear, sharpened by the bomb and by Soviet pressure on its neighbours, and the economic division created by the Marshall Plan did more to break the alliance.",
+    "arguments": [
+     {
+      "claim": "Ideology: the Truman Doctrine and the two camps (named factor first).",
+      "evidence": [
+       "F-GRAND-13",
+       "F-GRAND-17"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Fear: the bomb and the Baruch Plan.",
+      "evidence": [
+       "F-GRAND-07",
+       "F-GRAND-09"
+      ]
+     },
+     {
+      "claim": "Fear: Soviet pressure on Iran and Turkey.",
+      "evidence": [
+       "F-GRAND-10"
+      ]
+     },
+     {
+      "claim": "Economic interests: the Marshall Plan.",
+      "evidence": [
+       "F-GRAND-15",
+       "F-GRAND-16"
+      ]
+     }
+    ],
+    "counter": "The alliance had been strained during the war over the second front, before ideology came to the fore.",
+    "judgementCriterion": "What turned disagreement into division? The economic test of the Marshall Plan in 1947, which ideology then justified."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Ideology gave the breakdown its language, but it was not the main cause.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Truman Doctrine of March 1947 spoke of 'free peoples' and Zhdanov of two camps, yet Stalin had refused to support the Greek Communists.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that ideological rhetoric described a conflict already driven by other forces, so it hardened the division rather than starting it.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, fear of the bomb and of Soviet expansion, and the Marshall Plan's economic test, did more to force the break in 1947–48.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Ideology was therefore a secondary cause that turned a power struggle into a contest of systems.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "ideology",
+     "ideological"
+    ],
+    "synonyms": [
+     "capitalism",
+     "communism",
+     "two camps"
+    ],
+    "historians": [
+     "Judt",
+     "Alperovitz"
+    ],
+    "extraLexicon": [
+     "Truman Doctrine",
+     "Cominform",
+     "Marshall Plan"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-GRAND-ALLIANCE-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Soviet Union was more responsible than the United States for the breakdown of the Grand Alliance.” Discuss with reference to the period 1945 to 1949.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: the USSR was more responsible",
+    "timeframe": "1945–1949",
+    "scope": "The breakdown of the Grand Alliance",
+    "judgement": "Whose actions turned rivalry into division"
+   },
+   "modelPlan": {
+    "thesis": "The USSR bore more responsibility, because Stalin's refusal of Marshall aid, the Cominform and the Prague coup turned rivalry into division; but American atomic diplomacy and ideological rhetoric deepened Soviet fears.",
+    "arguments": [
+     {
+      "claim": "For: refusal of Marshall aid and the Cominform.",
+      "evidence": [
+       "F-GRAND-16",
+       "F-GRAND-17"
+      ]
+     },
+     {
+      "claim": "For: terror in Eastern Europe and the Prague coup.",
+      "evidence": [
+       "F-GRAND-18",
+       "F-GRAND-19"
+      ]
+     },
+     {
+      "claim": "Against: atomic diplomacy and the Baruch Plan.",
+      "evidence": [
+       "F-GRAND-07",
+       "F-GRAND-09"
+      ]
+     },
+     {
+      "claim": "Against: the Deutschmark and the London plans.",
+      "evidence": [
+       "F-GRAND-20",
+       "F-GRAND-21"
+      ]
+     }
+    ],
+    "counter": "Judt warns that both sides were improvising, so 'who started it' may be the wrong question.",
+    "judgementCriterion": "Whose decisions made division unavoidable? Stalin's, Judt argues, because accepting Marshall aid could have changed the balance in 1947."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Soviet Union was more responsible, because Stalin's decisions turned rivalry into division.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Molotov walked out of the Marshall Plan talks in July 1947, the Cominform followed in September, and in February 1948 the Communists seized power in Prague.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Stalin closed off the possibility of a shared European recovery, so the West concluded it faced a bloc held together by force.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the US monopoly of the bomb and the Baruch Plan increased Soviet insecurity, as Alperovitz argues, and the West introduced the Deutschmark without consulting Moscow.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore largely valid, as Judt concludes, though both sides acted from fear.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "responsible",
+     "responsibility"
+    ],
+    "synonyms": [
+     "Stalin",
+     "Soviet Union",
+     "Truman"
+    ],
+    "historians": [
+     "Judt",
+     "Alperovitz"
+    ],
+    "extraLexicon": [
+     "Marshall Plan",
+     "Prague coup",
+     "Cominform"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-GRAND-ALLIANCE-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the roles of the United States and the Soviet Union in the emergence of superpower rivalry between 1945 and 1949.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "the US and the USSR",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The roles of the two superpowers",
+    "timeframe": "1945–1949",
+    "scope": "Superpower rivalry",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both superpowers acted from security fears and built blocs, but the US did so through aid and alliance while the USSR relied on party control and force, which is why the Soviet role did more to make division permanent.",
+    "arguments": [
+     {
+      "claim": "Similarity: both acted from security fears.",
+      "evidence": [
+       "F-GRAND-07",
+       "F-GRAND-10"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both built blocs with economic tools.",
+      "evidence": [
+       "F-GRAND-15",
+       "F-GRAND-16"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: aid and alliance against party control.",
+      "evidence": [
+       "F-GRAND-22",
+       "F-GRAND-17"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: persuasion against force.",
+      "evidence": [
+       "F-GRAND-19",
+       "F-GRAND-21"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "The US also used pressure: the Deutschmark was introduced without consulting the Soviets.",
+    "judgementCriterion": "Which difference mattered most? Methods: force in Prague and Berlin made division harder to undo than Marshall aid."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Both superpowers built blocs from fear, but by very different methods.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The US offered Marshall aid and in 1949 joined NATO, whereas the USSR founded the Cominform and backed the Prague coup of February 1948.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the Western bloc rested on aid and alliance, while the Eastern bloc rested on party control and force.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the US also acted unilaterally, introducing the Deutschmark in June 1948 without telling the Soviets.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore in methods, which is why Judt places the main responsibility on Stalin.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "United States",
+     "Soviet Union"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Marshall Plan",
+     "Cominform",
+     "NATO"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-GRAND-ALLIANCE-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of economic interests in the emergence of superpower rivalry in Europe between 1947 and 1949.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1947,
+    1949
+   ],
+   "scope": "Europe",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "Economic interests",
+    "timeframe": "1947–1949",
+    "scope": "Superpower rivalry in Europe",
+    "judgement": "How far economics, rather than security or ideology, explains the division"
+   },
+   "modelPlan": {
+    "thesis": "Economic interests were highly significant, because the Marshall Plan turned recovery into a test of loyalty that divided Europe; but the Soviet response was political, and force made the division permanent.",
+    "arguments": [
+     {
+      "claim": "The Marshall Plan and American markets.",
+      "evidence": [
+       "F-GRAND-15"
+      ]
+     },
+     {
+      "claim": "Soviet refusal and the economic division.",
+      "evidence": [
+       "F-GRAND-16"
+      ]
+     },
+     {
+      "claim": "Western Germany's recovery and the currency.",
+      "evidence": [
+       "F-GRAND-20",
+       "F-GRAND-21"
+      ]
+     },
+     {
+      "claim": "Limits: the Cominform and the Prague coup were political.",
+      "evidence": [
+       "F-GRAND-17",
+       "F-GRAND-19"
+      ]
+     }
+    ],
+    "counter": "Security fears, shown in the Brussels Pact and NATO, explain the military division of Europe.",
+    "judgementCriterion": "Did economics cause the division or only reveal it? It caused the decisive break in 1947, when states had to choose."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Economic interests were central to the emergence of rivalry in Europe.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Marshall Plan created markets for American goods, and after Molotov's walk-out in July 1947 no Communist state received a dollar.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that recovery became a test of loyalty, so the West was drawn into America's economic orbit and the East tied to Moscow.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Soviet answer was political: the Cominform and the Prague coup imposed control by force.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Economic interests were therefore the trigger of division, while political force made it permanent.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic"
+    ],
+    "synonyms": [
+     "Marshall Plan",
+     "aid",
+     "markets"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Deutschmark",
+     "Molotov",
+     "recovery"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-GRAND-ALLIANCE-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the causes and consequences of the division of Germany between 1945 and 1949.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1945–1949",
+    "scope": "The division of Germany",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "Germany was divided mainly because the Western powers chose to rebuild their zones with Marshall aid and a new currency, which Stalin answered with the blockade; the main consequence was the military division of Europe through NATO.",
+    "arguments": [
+     {
+      "claim": "Cause: reparations and zones at Potsdam.",
+      "evidence": [
+       "F-GRAND-05"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: the London plans and the Deutschmark.",
+      "evidence": [
+       "F-GRAND-20",
+       "F-GRAND-21"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: the blockade and airlift.",
+      "evidence": [
+       "F-GRAND-21",
+       "F-GRAND-29"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: NATO and two German states.",
+      "evidence": [
+       "F-GRAND-22"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Judt argues that a divided Germany was probably preferred by all parties to a united Germany hostile to them.",
+    "judgementCriterion": "Which consequence lasted longest? The military division of Europe, symbolised by NATO."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Germany was divided mainly because the Western powers decided to rebuild their zones without the USSR.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The London Conference of 1948 extended the Marshall Plan to western Germany, and in June the Deutschmark was introduced without informing the Soviets.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the occupation zones became separate economies, so Stalin's blockade from 24 June 1948 was a response to a division already under way.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues that Stalin's own rigidity squandered his chance of a united, neutral Germany.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Division therefore had causes on both sides, and its main consequence was NATO and two German states in 1949.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "division"
+    ],
+    "synonyms": [
+     "Germany",
+     "zones",
+     "blockade"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Deutschmark",
+     "airlift",
+     "NATO"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-GRAND-ALLIANCE-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons why superpower rivalry spread to Asia between 1945 and 1949.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "Asia",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Reasons for the spread of rivalry",
+    "timeframe": "1945–1949",
+    "scope": "Asia",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "Rivalry spread to Asia because the wartime bargain gave the USSR a foothold in Manchuria, both powers backed rival sides in China's civil war, and the Communist victory of 1949 made China a Cold War issue in American politics.",
+    "arguments": [
+     {
+      "claim": "The Yalta bargain over Manchuria.",
+      "evidence": [
+       "F-GRAND-03"
+      ]
+     },
+     {
+      "claim": "Rival support in the Chinese civil war.",
+      "evidence": [
+       "F-GRAND-26"
+      ]
+     },
+     {
+      "claim": "The Communist victory and the 'loss' of China.",
+      "evidence": [
+       "F-GRAND-25"
+      ]
+     },
+     {
+      "claim": "US hegemony in occupied Japan.",
+      "evidence": [
+       "F-GRAND-29"
+      ]
+     }
+    ],
+    "counter": "The Chinese civil war had its own roots in decades of conflict between Nationalists and Communists.",
+    "judgementCriterion": "Which reason mattered most? The Communist victory of 1949, because it turned China into a superpower issue."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Rivalry spread to Asia mainly because the two superpowers backed opposite sides in China's civil war.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After Japan's surrender the US flew Nationalist troops into Japanese-held territory, while the USSR left Manchuria only when Chinese Communist forces were in place.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that a civil war became a contest between the blocs, so the Communist victory of October 1949 was seen in Washington as a Cold War defeat.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the civil war had its own roots, and General Marshall had tried to broker a coalition government.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The superpowers therefore did not create the conflict in China, but they turned it into part of their rivalry.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Asia"
+    ],
+    "synonyms": [
+     "China",
+     "Manchuria",
+     "civil war"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Mao",
+     "Chiang Kai-shek",
+     "Yalta"
+    ]
+   }
+  }
+ ]
+}

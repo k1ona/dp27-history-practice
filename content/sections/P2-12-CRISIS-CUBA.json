@@ -1,0 +1,2830 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-CRISIS-CUBA",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In October 1962 the United States and the Soviet Union came closer to nuclear war than at any other time. Thirteen days later the crisis was over. How did it start, and how did both sides step back?",
+   "predictionPrompt": "Your prediction in one line: who won the Cuban Missile Crisis?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Revolution and confrontation, 1959–1961",
+    "body": "Until 1959 Cuba was closely tied to the United States. That year a left-wing revolution overthrew the dictator Fulgencio Batista, and **Fidel Castro** became Premier. Castro's government quickly broke Cuba's links with the US: it expropriated American-owned businesses and property and developed close ties with the Soviet Union. Given Cuba's closeness to the United States, this caused grave concern in Washington, and Cuba became, in the Office of the Historian's words, \"a new and significant factor in the Cold War\".\n\nThe US tried to remove Castro. In March 1960 President Eisenhower ordered the CIA to plan an invasion. The CIA trained and funded a force of Cuban exiles, Brigade 2506. After his election in November 1960, John F. Kennedy learned of the plan, concluded that Castro was a Soviet client threatening all of Latin America, and allowed the plan to go ahead. On 17 April 1961 the brigade landed at the **Bay of Pigs**. It was defeated within two days by Cuban forces under Castro's personal command.\n\nThe invasion backfired. It strengthened Castro's position, and he now openly proclaimed his intention to build socialism and to seek closer ties with the Soviet Union. For Kennedy it was a serious foreign policy failure and embarrassment.\n\nThe failure did not end American efforts. After a review led by General Maxwell Taylor and the President's brother, Attorney General Robert Kennedy, the administration decided in November 1961 on a new covert programme, **Operation Mongoose**. It combined propaganda, sabotage, arms for opposition groups and plans to assassinate Cuban leaders, including Castro, all building towards preparations for a military intervention in October 1962.\n\nThis mattered because American hostility convinced Castro and Khrushchev that Cuba needed protection, which meant that US attempts to remove Castro helped create the conditions for the missile crisis.",
+    "argumentsThatWork": [
+     {
+      "claim": "Castro's revolution brought Cuba into the Cold War.",
+      "evidence": [
+       "F-CUB-01"
+      ],
+      "strongestCounter": "Castro's early break with the US was over economics as much as ideology."
+     },
+     {
+      "claim": "The Bay of Pigs failed and strengthened Castro.",
+      "evidence": [
+       "F-CUB-03",
+       "F-CUB-04"
+      ],
+      "strongestCounter": "Kennedy inherited the plan from Eisenhower."
+     },
+     {
+      "claim": "Continued US covert action kept Cuba under threat.",
+      "evidence": [
+       "F-CUB-05"
+      ],
+      "strongestCounter": "The planned intervention never took place."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the Bay of Pigs invasion the main reason for the Cuban Missile Crisis between 1961 and 1962?",
+     "Compare and contrast the aims of the United States and the Soviet Union in Cuba between 1959 and 1962."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Bay of Pigs was an important cause of the missile crisis because it convinced Castro and Khrushchev that the US would try again to overthrow the revolution.",
+     "prove": "On 17 April 1961 the CIA-trained Brigade 2506 landed at the Bay of Pigs and was defeated within two days, after which Castro proclaimed socialism and sought closer Soviet ties.",
+     "explain": "This meant that Cuba now looked to Moscow for protection, so in July 1962 Khrushchev agreed with Castro to place missiles there to deter any future invasion.",
+     "test": "However, US hostility did not end with the Bay of Pigs: Operation Mongoose, begun in November 1961, planned sabotage and even preparations for an intervention in October 1962.",
+     "judge": "The Bay of Pigs was therefore the start of a sustained US threat, and it was that threat, not one failed invasion, that led to the crisis."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened at the Bay of Pigs on 17 April 1961?",
+      "factIds": [
+       "F-CUB-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "CIA-trained Cuban exiles landed and were defeated within two days",
+        "correct": true,
+        "explanation": "Correct: Brigade 2506."
+       },
+       {
+        "id": "b",
+        "text": "US Marines conquered Cuba",
+        "correct": false,
+        "explanation": "No US forces invaded."
+       },
+       {
+        "id": "c",
+        "text": "Soviet missiles were discovered",
+        "correct": false,
+        "explanation": "That was October 1962."
+       },
+       {
+        "id": "d",
+        "text": "Castro was overthrown",
+        "correct": false,
+        "explanation": "Castro was strengthened."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was Operation Mongoose?",
+      "factIds": [
+       "F-CUB-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A US covert programme to remove Castro, including sabotage and assassination plans",
+        "correct": true,
+        "explanation": "Correct: decided in November 1961."
+       },
+       {
+        "id": "b",
+        "text": "A Soviet plan to place missiles in Cuba",
+        "correct": false,
+        "explanation": "That was agreed in July 1962."
+       },
+       {
+        "id": "c",
+        "text": "The naval quarantine",
+        "correct": false,
+        "explanation": "That began in October 1962."
+       },
+       {
+        "id": "d",
+        "text": "A peace treaty",
+        "correct": false,
+        "explanation": "Not what it was."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The failed invasion strengthened Castro, who openly proclaimed socialism and sought closer ties with the USSR.” Which argument does it support best?",
+      "factIds": [
+       "F-CUB-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "US hostility pushed Cuba into Soviet arms",
+        "correct": true,
+        "explanation": "Correct: the invasion backfired."
+       },
+       {
+        "id": "b",
+        "text": "The Bay of Pigs weakened Castro",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Cuba turned to the US after 1961",
+        "correct": false,
+        "explanation": "It turned to Moscow."
+       },
+       {
+        "id": "d",
+        "text": "The USSR opposed Castro",
+        "correct": false,
+        "explanation": "It supported him."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "causes",
+    "title": "Why missiles in Cuba? 1961–1962",
+    "body": "In July 1962 Khrushchev reached a secret agreement with Castro to place Soviet nuclear missiles in Cuba. Construction of the sites began in late summer. Why did the Soviet leader take such a risk?\n\n**Defending Cuba.** The Office of the Historian states the official purpose plainly: to deter any future American invasion. After the Bay of Pigs and with Operation Mongoose under way, Cuba had good reason to fear one.\n\n**The nuclear balance.** Kennedy had campaigned in 1960 on the claim of a \"missile gap\" in the Soviets' favour. But soon after taking office his administration found that the balance of nuclear power still favoured the United States. Missiles in Cuba, close to American cities, would partly redress that balance.\n\n**Bargaining over Europe.** The Office of the Historian also describes the deployment as atomic diplomacy, an attempt \"to try to force U.S. concessions on Europe\". In Washington, Kennedy and his advisers were convinced that Berlin was the real target. On 19 October Kennedy told his advisers: \"Our problem is not merely Cuba but it is also Berlin.\" Judt argues that they had taken Soviet bluster too seriously: Khrushchev was \"entirely rational about Berlin\" and had no intention of risking nuclear war for Germany.\n\n**Khrushchev's outlook.** Judt adds a further reason: Khrushchev still believed in the international class struggle, and his \"romanticized projection of Soviet revolutionary memories onto Latin American uprisings\" led him into the missteps that produced the crisis.\n\nWhatever the motive, the US had warned clearly. On 4 September 1962 Kennedy publicly warned against introducing offensive weapons into Cuba. Throughout the summer US intelligence had reported growing Soviet arms shipments. On 14 October an American U-2 spy plane photographed sites for medium- and intermediate-range ballistic missiles under construction. The photographs reached the White House the next day, and the crisis began.\n\nThis mattered because the deployment combined several aims, which meant that each side could misread the other: Washington saw a threat to Berlin, while Moscow saw a defence of Cuba and a correction of the nuclear balance.",
+    "argumentsThatWork": [
+     {
+      "claim": "Defending Cuba from invasion was the stated Soviet aim.",
+      "evidence": [
+       "F-CUB-08",
+       "F-CUB-05"
+      ],
+      "strongestCounter": "Missiles were more than Cuba needed for defence alone."
+     },
+     {
+      "claim": "Missiles in Cuba would offset American nuclear superiority.",
+      "evidence": [
+       "F-CUB-21",
+       "F-CUB-22"
+      ],
+      "strongestCounter": "The Office of the Historian also links the deployment to Europe."
+     },
+     {
+      "claim": "Khrushchev's revolutionary outlook led to a reckless gamble.",
+      "evidence": [
+       "F-CUB-19"
+      ],
+      "strongestCounter": "His aversion to war was genuine (Judt)."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the Bay of Pigs invasion the main reason for the Cuban Missile Crisis between 1961 and 1962?",
+     "Examine the causes and consequences of the Cuban Missile Crisis of 1962."
+    ],
+    "useItInAnEssay": {
+     "claim": "Khrushchev placed missiles in Cuba for several reasons, of which the defence of Cuba was the stated one.",
+     "prove": "In July 1962 he agreed with Castro to deploy missiles to deter any future invasion, while the US had found that the nuclear balance still favoured it.",
+     "explain": "This meant that missiles in Cuba could both protect an ally and narrow the American lead, so the deployment served Soviet interests twice over.",
+     "test": "However, Washington believed the real target was Berlin, though Judt argues Khrushchev was 'entirely rational about Berlin'.",
+     "judge": "The deployment was therefore a defensive gamble with offensive implications, which explains why the two sides misread each other."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the U-2 photographs of 14 October 1962 show?",
+      "factIds": [
+       "F-CUB-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Sites for medium- and intermediate-range ballistic missiles under construction",
+        "correct": true,
+        "explanation": "Correct: the images reached the White House the next day."
+       },
+       {
+        "id": "b",
+        "text": "Soviet troops landing in Florida",
+        "correct": false,
+        "explanation": "Not what they showed."
+       },
+       {
+        "id": "c",
+        "text": "The Bay of Pigs invasion",
+        "correct": false,
+        "explanation": "That was in 1961."
+       },
+       {
+        "id": "d",
+        "text": "US Jupiter missiles in Turkey",
+        "correct": false,
+        "explanation": "Those were American missiles."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Kennedy believe was the real target of the Soviet deployment, according to Judt?",
+      "factIds": [
+       "F-CUB-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Berlin",
+        "correct": true,
+        "explanation": "Correct: 'Our problem is not merely Cuba but it is also Berlin'."
+       },
+       {
+        "id": "b",
+        "text": "Mexico",
+        "correct": false,
+        "explanation": "Not mentioned."
+       },
+       {
+        "id": "c",
+        "text": "China",
+        "correct": false,
+        "explanation": "Not mentioned."
+       },
+       {
+        "id": "d",
+        "text": "Vietnam",
+        "correct": false,
+        "explanation": "Not mentioned."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Soon after taking office the Kennedy administration found the balance of nuclear power still favoured the US.” Which argument does it support best?",
+      "factIds": [
+       "F-CUB-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Missiles in Cuba offered the USSR a way to narrow the American lead",
+        "correct": true,
+        "explanation": "Correct: the 'missile gap' was in America's favour."
+       },
+       {
+        "id": "b",
+        "text": "The USSR had more missiles than the US",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The missile gap favoured the Soviets",
+        "correct": false,
+        "explanation": "The administration found otherwise."
+       },
+       {
+        "id": "d",
+        "text": "Cuba had its own missiles",
+        "correct": false,
+        "explanation": "The missiles were Soviet."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "nature_methods",
+    "title": "Thirteen days, October 1962",
+    "body": "Kennedy gathered his closest advisers to decide what to do. Some, including all the Joint Chiefs of Staff, wanted an air strike to destroy the missiles followed by an invasion of Cuba; others favoured stern warnings. Kennedy chose a middle course. On **22 October** he ordered a naval **\"quarantine\"** of Cuba. The word was chosen carefully: a blockade implied a state of war, whereas a quarantine did not, and it won the support of the Organization of American States. The same evening Kennedy wrote to Khrushchev demanding that the missile bases be dismantled, and told the American people on television that any missile launched from Cuba would be treated \"as an attack by the Soviet Union on the United States, requiring a full retaliatory response\". US forces went to DEFCON 3.\n\nOn 24 October Khrushchev denounced the \"blockade\" as an \"act of aggression\" and said Soviet ships would proceed. Yet on 24 and 25 October some ships turned back from the quarantine line, and those that were stopped carried no offensive weapons. The missile sites, however, were nearing readiness, and US forces moved to **DEFCON 2**: war involving the Strategic Air Command was imminent. On 26 October Kennedy told his advisers that only an attack seemed likely to remove the missiles, but he gave diplomacy more time.\n\nThat day a way out appeared. A Soviet agent told the ABC journalist John Scali that the Soviets might remove the missiles if the US promised not to invade Cuba. That evening Khrushchev sent Kennedy a long, emotional message: \"let us not only relax the forces pulling on the ends of the rope, let us take measures to untie that knot.\" He wrote that if war broke out, \"it would not be in our power to stop it, for such is the logic of war.\"\n\n**27 October** was the most dangerous day. Khrushchev sent a second message demanding the removal of American Jupiter missiles from Turkey, and a U-2 was shot down over Cuba. Kennedy and his advisers prepared for an attack within days. They decided to ignore the second message and answer the first: the Soviets would remove their missiles under UN supervision, and the US would guarantee not to attack Cuba. Robert Kennedy then met the Soviet ambassador, Anatoly Dobrynin, in secret and told him that the US would soon remove the Jupiters from Turkey anyway, but that this could not be part of any public deal. On the morning of **28 October** Khrushchev announced that the missiles would be dismantled.\n\nThis mattered because the crisis was resolved by private communication between the two leaders, which meant that the decisive deal included a secret concession that neither side made public.",
+    "argumentsThatWork": [
+     {
+      "claim": "Kennedy's quarantine was a middle course between invasion and inaction.",
+      "evidence": [
+       "F-CUB-09"
+      ],
+      "strongestCounter": "The Joint Chiefs wanted an air strike and invasion."
+     },
+     {
+      "claim": "Both sides came close to war: DEFCON 2 and the U-2 shot down.",
+      "evidence": [
+       "F-CUB-11",
+       "F-CUB-13"
+      ],
+      "strongestCounter": "Some Soviet ships turned back early."
+     },
+     {
+      "claim": "A public pledge and a secret concession ended the crisis.",
+      "evidence": [
+       "F-CUB-13",
+       "F-CUB-14"
+      ],
+      "strongestCounter": "The Jupiter deal was kept secret."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate Kennedy's handling of the Cuban Missile Crisis in October 1962.",
+     "Analyse the reasons why the Cuban Missile Crisis did not lead to nuclear war in 1962."
+    ],
+    "useItInAnEssay": {
+     "claim": "Kennedy handled the crisis well because he chose a course that gave both sides time and room to retreat.",
+     "prove": "Rejecting the Joint Chiefs' call for an air strike, he ordered a 'quarantine' on 22 October, and on 27 October answered Khrushchev's first, more conciliatory message.",
+     "explain": "This meant that Khrushchev could withdraw without humiliation, so on 28 October he announced the missiles would be dismantled.",
+     "test": "However, the settlement depended on a secret promise to remove the Jupiters from Turkey, so Kennedy also conceded more than he admitted.",
+     "judge": "Kennedy's handling was therefore skilful, though the full deal was a compromise rather than a victory."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did Kennedy call his naval action a 'quarantine' rather than a 'blockade'?",
+      "factIds": [
+       "F-CUB-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A blockade implied a state of war, and a quarantine won the support of the Organization of American States",
+        "correct": true,
+        "explanation": "Correct: a legal distinction."
+       },
+       {
+        "id": "b",
+        "text": "Because Cuba had a disease",
+        "correct": false,
+        "explanation": "Not the reason."
+       },
+       {
+        "id": "c",
+        "text": "Because the UN ordered it",
+        "correct": false,
+        "explanation": "Not the reason."
+       },
+       {
+        "id": "d",
+        "text": "Because the Soviets suggested the word",
+        "correct": false,
+        "explanation": "Not the reason."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Khrushchev's second message of 27 October demand?",
+      "factIds": [
+       "F-CUB-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The removal of US Jupiter missiles from Turkey",
+        "correct": true,
+        "explanation": "Correct: Kennedy chose to reply to the first message."
+       },
+       {
+        "id": "b",
+        "text": "The withdrawal of the US from Berlin",
+        "correct": false,
+        "explanation": "Not in the message."
+       },
+       {
+        "id": "c",
+        "text": "A US invasion of Cuba",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "Kennedy's resignation",
+        "correct": false,
+        "explanation": "Not in the message."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Robert Kennedy told Dobrynin the Jupiters would be removed soon, but this could not be part of any public settlement.” Which argument does it support best?",
+      "factIds": [
+       "F-CUB-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The settlement was a compromise, partly hidden from the public",
+        "correct": true,
+        "explanation": "Correct: the Jupiters left in April 1963."
+       },
+       {
+        "id": "b",
+        "text": "The US made no concessions",
+        "correct": false,
+        "explanation": "It made a secret one."
+       },
+       {
+        "id": "c",
+        "text": "The USSR got nothing",
+        "correct": false,
+        "explanation": "It got the no-invasion pledge and the Jupiters."
+       },
+       {
+        "id": "d",
+        "text": "The deal was announced on television",
+        "correct": false,
+        "explanation": "The Jupiter part was secret."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "Who won? Consequences of the crisis",
+    "body": "On the surface, the United States won. The Soviet missiles were removed, the quarantine ended on 20 November 1962 once the Soviets agreed to take away their IL-28 bombers as well, and the crisis strengthened Kennedy's image at home and abroad. It may also have helped repair the damage the Bay of Pigs had done to his reputation.\n\nBut the outcome was more balanced than it looked. Khrushchev obtained a public American guarantee not to invade Cuba, which had been the stated purpose of the missiles, and the Jupiter missiles were quietly removed from Turkey in April 1963. Castro remained in power; Operation Mongoose's planned intervention never took place. Yet because the Turkish part of the deal was secret, the world saw a Soviet retreat. Judt notes that Khrushchev's missteps in Cuba helped bring about his own downfall.\n\nThe most important consequences were for the relationship between the superpowers. During the crisis Kennedy and Khrushchev had struggled to understand each other's real intentions while the world stood on the brink of nuclear war. To avoid that happening again, a direct telephone link, the **Hotline**, was set up between the White House and the Kremlin on 20 June 1963. Having come so close to nuclear conflict, both sides began to reconsider the arms race. A month later, talks in Moscow produced the **Limited Test Ban Treaty**, in force from 10 October 1963. Judt argues that its unspoken purpose was to keep nuclear weapons away from China and West Germany.\n\nThe crisis also showed how the Cold War had changed. Judt argues that Washington felt it had to \"stand firm\" over Berlin and Cuba to reassure allies who feared the US might abandon them; and that Kennedy's fixation on Berlin had magnified the stakes of the crisis. At the same time, Khrushchev's genuine aversion to war, shown in his message of 26 October, was a reason the crisis ended peacefully.\n\nThis mattered because both leaders had looked into the abyss and stepped back, which meant that the crisis led to the first steps towards arms control and, in time, détente.",
+    "argumentsThatWork": [
+     {
+      "claim": "The US appeared to win: the missiles left.",
+      "evidence": [
+       "F-CUB-15",
+       "F-CUB-16"
+      ],
+      "strongestCounter": "The US also made a secret concession over Turkey."
+     },
+     {
+      "claim": "Khrushchev secured Cuba's safety but lost face.",
+      "evidence": [
+       "F-CUB-13",
+       "F-CUB-14",
+       "F-CUB-19"
+      ],
+      "strongestCounter": "The world did not know about the Jupiter deal."
+     },
+     {
+      "claim": "The crisis led to the Hotline and the Test Ban Treaty.",
+      "evidence": [
+       "F-CUB-16",
+       "F-CUB-18"
+      ],
+      "strongestCounter": "The Treaty did little to stop the spread of nuclear weapons."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that Khrushchev was the loser of the Cuban Missile Crisis with reference to the period 1961 to 1962.",
+     "Examine the causes and consequences of the Cuban Missile Crisis of 1962."
+    ],
+    "useItInAnEssay": {
+     "claim": "Khrushchev lost face in the Cuban Missile Crisis but did not lose everything.",
+     "prove": "He announced on 28 October 1962 that the missiles would be dismantled, but he obtained a public US pledge not to invade Cuba and a secret promise to remove the Jupiters from Turkey.",
+     "explain": "This meant that his stated aim, protecting Cuba, was achieved, but because the Turkish deal was hidden, the world saw a Soviet retreat.",
+     "test": "However, Judt argues that his missteps in Cuba contributed to his own downfall, so politically he was the loser.",
+     "judge": "Khrushchev was therefore the loser in appearance and in his own career, though not in the substance of the deal."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the 'Hotline' set up after the crisis?",
+      "factIds": [
+       "F-CUB-16",
+       "F-CUB-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A direct telephone link between the White House and the Kremlin",
+        "correct": true,
+        "explanation": "Correct: established on 20 June 1963."
+       },
+       {
+        "id": "b",
+        "text": "A Soviet missile system",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "c",
+        "text": "A US spy plane",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "d",
+        "text": "The naval quarantine line",
+        "correct": false,
+        "explanation": "Not what it was."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When were the US Jupiter missiles removed from Turkey?",
+      "factIds": [
+       "F-CUB-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "April 1963",
+        "correct": true,
+        "explanation": "Correct: as Robert Kennedy had privately promised."
+       },
+       {
+        "id": "b",
+        "text": "28 October 1962",
+        "correct": false,
+        "explanation": "That is when Khrushchev announced the withdrawal."
+       },
+       {
+        "id": "c",
+        "text": "1961",
+        "correct": false,
+        "explanation": "Before the crisis."
+       },
+       {
+        "id": "d",
+        "text": "Never",
+        "correct": false,
+        "explanation": "They were removed."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-CUBA-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt argues that Khrushchev's missteps in Cuba helped bring about his own downfall.” Which argument does it support best?",
+      "factIds": [
+       "F-CUB-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Khrushchev paid a political price for the crisis",
+        "correct": true,
+        "explanation": "Correct: whatever he gained in substance."
+       },
+       {
+        "id": "b",
+        "text": "Khrushchev was strengthened by Cuba",
+        "correct": false,
+        "explanation": "Judt says the opposite."
+       },
+       {
+        "id": "c",
+        "text": "Kennedy lost office because of Cuba",
+        "correct": false,
+        "explanation": "The crisis strengthened Kennedy's image."
+       },
+       {
+        "id": "d",
+        "text": "Castro fell from power",
+        "correct": false,
+        "explanation": "Castro remained."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1959,
+      "text": "Castro comes to power",
+      "factId": "F-CUB-01"
+     },
+     {
+      "year": 1960,
+      "month": 3,
+      "text": "Eisenhower orders a CIA invasion plan",
+      "factId": "F-CUB-02"
+     },
+     {
+      "year": 1961,
+      "month": 4,
+      "day": 17,
+      "text": "Bay of Pigs landing",
+      "factId": "F-CUB-03"
+     },
+     {
+      "year": 1961,
+      "month": 11,
+      "text": "Operation Mongoose decided",
+      "factId": "F-CUB-05"
+     },
+     {
+      "year": 1962,
+      "month": 7,
+      "text": "Secret Khrushchev–Castro agreement",
+      "factId": "F-CUB-08"
+     },
+     {
+      "year": 1962,
+      "month": 9,
+      "day": 4,
+      "text": "Kennedy's public warning",
+      "factId": "F-CUB-08"
+     },
+     {
+      "year": 1962,
+      "month": 10,
+      "day": 14,
+      "text": "U-2 photographs the missile sites",
+      "factId": "F-CUB-08"
+     },
+     {
+      "year": 1962,
+      "month": 10,
+      "day": 22,
+      "text": "Quarantine announced",
+      "factId": "F-CUB-09"
+     },
+     {
+      "year": 1962,
+      "month": 10,
+      "day": 27,
+      "text": "Second Soviet message; U-2 shot down",
+      "factId": "F-CUB-13"
+     },
+     {
+      "year": 1962,
+      "month": 10,
+      "day": 28,
+      "text": "Khrushchev agrees to remove the missiles",
+      "factId": "F-CUB-14"
+     },
+     {
+      "year": 1962,
+      "month": 11,
+      "day": 20,
+      "text": "Quarantine ends",
+      "factId": "F-CUB-15"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Castro's revolution aligns Cuba with Moscow",
+      "factId": "F-CUB-01"
+     },
+     {
+      "id": "n2",
+      "text": "The Bay of Pigs and Mongoose threaten Cuba",
+      "factId": "F-CUB-05"
+     },
+     {
+      "id": "n3",
+      "text": "Khrushchev secretly sends missiles",
+      "factId": "F-CUB-08"
+     },
+     {
+      "id": "n4",
+      "text": "U-2 discovery; quarantine and DEFCON 2",
+      "factId": "F-CUB-11"
+     },
+     {
+      "id": "n5",
+      "text": "Public pledge and secret Jupiter deal",
+      "factId": "F-CUB-14"
+     },
+     {
+      "id": "n6",
+      "text": "Hotline and Test Ban Treaty",
+      "factId": "F-CUB-16"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Washington tried to remove a Soviet client"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Moscow sought to deter invasion and narrow the US lead"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "The US refused to accept missiles in Cuba"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Both leaders searched for a way back"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Having faced nuclear war, both began to manage the arms race"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Fidel Castro",
+     "role": "Cuban leader from 1959",
+     "whyItMatters": "Aligned Cuba with Moscow; agreed to Soviet missiles.",
+     "factIds": [
+      "F-CUB-01",
+      "F-CUB-04",
+      "F-CUB-08"
+     ]
+    },
+    {
+     "name": "John F. Kennedy",
+     "role": "US President",
+     "whyItMatters": "Approved the Bay of Pigs; chose the quarantine; settled the crisis.",
+     "factIds": [
+      "F-CUB-03",
+      "F-CUB-09",
+      "F-CUB-13"
+     ]
+    },
+    {
+     "name": "Nikita Khrushchev",
+     "role": "Soviet leader",
+     "whyItMatters": "Sent the missiles; agreed to remove them on 28 October.",
+     "factIds": [
+      "F-CUB-08",
+      "F-CUB-14",
+      "F-CUB-19"
+     ]
+    },
+    {
+     "name": "Robert F. Kennedy",
+     "role": "US Attorney General",
+     "whyItMatters": "Made the secret Jupiter deal with Dobrynin.",
+     "factIds": [
+      "F-CUB-14"
+     ]
+    },
+    {
+     "name": "Anatoly Dobrynin",
+     "role": "Soviet ambassador in Washington",
+     "whyItMatters": "Channel for the secret deal.",
+     "factIds": [
+      "F-CUB-14",
+      "F-CUB-17"
+     ]
+    },
+    {
+     "name": "John Scali",
+     "role": "ABC News journalist",
+     "whyItMatters": "Carried a Soviet back-channel offer on 26 October.",
+     "factIds": [
+      "F-CUB-12"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "United States",
+     "Soviet Union"
+    ],
+    "rows": [
+     {
+      "criterion": "Aim in Cuba",
+      "cells": [
+       "Remove Castro, a Soviet client (Bay of Pigs, Mongoose)",
+       "Protect Cuba from invasion"
+      ],
+      "factIds": [
+       "F-CUB-03",
+       "F-CUB-08"
+      ]
+     },
+     {
+      "criterion": "Strategic aim",
+      "cells": [
+       "Keep nuclear superiority; reassure allies by standing firm",
+       "Narrow the US nuclear lead; atomic diplomacy over Europe"
+      ],
+      "factIds": [
+       "F-CUB-20",
+       "F-CUB-21",
+       "F-CUB-22"
+      ]
+     },
+     {
+      "criterion": "Method in October 1962",
+      "cells": [
+       "Quarantine, DEFCON 2, then a deal",
+       "Secret deployment, then letters and a back channel"
+      ],
+      "factIds": [
+       "F-CUB-09",
+       "F-CUB-11",
+       "F-CUB-12"
+      ]
+     },
+     {
+      "criterion": "What each got",
+      "cells": [
+       "Missiles and bombers removed",
+       "No-invasion pledge; Jupiters removed from Turkey (secretly)"
+      ],
+      "factIds": [
+       "F-CUB-15",
+       "F-CUB-14"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-CUB-03",
+    "year": 1961,
+    "text": "17 April 1961: Brigade 2506 landed at the Bay of Pigs and was defeated within two days.",
+    "supports": [
+     "US hostility pushed Cuba towards Moscow"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "Bay of Pigs"
+    ]
+   },
+   {
+    "factId": "F-CUB-05",
+    "year": 1961,
+    "text": "Operation Mongoose (from November 1961): sabotage, propaganda and assassination plans against Castro.",
+    "supports": [
+     "The US threat to Cuba continued"
+    ],
+    "lexicon": [
+     "Operation Mongoose"
+    ]
+   },
+   {
+    "factId": "F-CUB-08",
+    "year": 1962,
+    "text": "July 1962 secret agreement; 14 October U-2 photographs of missile sites.",
+    "supports": [
+     "The missiles were meant to deter invasion"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "Cuban Missile Crisis",
+     "U-2"
+    ]
+   },
+   {
+    "factId": "F-CUB-09",
+    "year": 1962,
+    "text": "22 October: 'quarantine' rather than blockade; OAS support.",
+    "supports": [
+     "Kennedy chose a middle course"
+    ],
+    "lexicon": [
+     "quarantine"
+    ]
+   },
+   {
+    "factId": "F-CUB-11",
+    "year": 1962,
+    "text": "DEFCON 2: war involving the Strategic Air Command was imminent.",
+    "supports": [
+     "The world came closest to nuclear war"
+    ],
+    "lexicon": [
+     "DEFCON 2"
+    ]
+   },
+   {
+    "factId": "F-CUB-14",
+    "year": 1962,
+    "text": "Secret RFK–Dobrynin understanding on the Jupiters; 28 October Soviet withdrawal announced.",
+    "supports": [
+     "The settlement was a compromise"
+    ],
+    "lexicon": [
+     "Jupiter missiles",
+     "Dobrynin"
+    ]
+   },
+   {
+    "factId": "F-CUB-16",
+    "year": 1962,
+    "text": "Results: the Hotline and the first steps towards a test ban.",
+    "supports": [
+     "The crisis led to arms control"
+    ],
+    "alsoWorksFor": [
+     "P2-12-DETENTE"
+    ],
+    "lexicon": [
+     "Hotline",
+     "Test Ban"
+    ]
+   },
+   {
+    "factId": "F-CUB-17",
+    "year": 1962,
+    "text": "Judt: Kennedy saw Berlin behind Cuba; Khrushchev was 'entirely rational about Berlin'.",
+    "supports": [
+     "Misperception magnified the crisis"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-BERLIN-1958-61"
+    ],
+    "lexicon": [
+     "Berlin"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Kennedy built his understanding of US-Soviet relations around Berlin and saw the missiles as a device to blackmail America over the city, which 'dramatically ratcheted up the apparent significance of the Cuban crisis'; but Khrushchev was 'entirely rational about Berlin', and his aversion to war was genuine.",
+    "useItLikeThis": "Judt's view supports the claim that misperception made the crisis more dangerous, which suggests its peaceful end owed much to both leaders' fear of war.",
+    "factId": "F-CUB-17"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Soviets got nothing from the crisis.",
+    "right": "They gained a **no-invasion pledge** and the **secret removal of the Jupiters** from Turkey."
+   },
+   {
+    "wrong": "Kennedy imposed a blockade.",
+    "right": "He called it a **'quarantine'**, because a blockade implied a state of war."
+   },
+   {
+    "wrong": "The Bay of Pigs was an American military invasion.",
+    "right": "It was carried out by **CIA-trained Cuban exiles** (Brigade 2506)."
+   },
+   {
+    "wrong": "The crisis ended when the quarantine began.",
+    "right": "It reached **DEFCON 2** and ended on **28 October**; the quarantine lasted until 20 November."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1959,
+     "text": "Castro in power"
+    },
+    {
+     "year": 1961,
+     "month": 4,
+     "day": 17,
+     "text": "Bay of Pigs"
+    },
+    {
+     "year": 1961,
+     "month": 11,
+     "text": "Mongoose"
+    },
+    {
+     "year": 1962,
+     "month": 7,
+     "text": "Secret missile agreement"
+    },
+    {
+     "year": 1962,
+     "month": 10,
+     "day": 14,
+     "text": "U-2 photographs"
+    },
+    {
+     "year": 1962,
+     "month": 10,
+     "day": 22,
+     "text": "Quarantine"
+    },
+    {
+     "year": 1962,
+     "month": 10,
+     "day": 28,
+     "text": "Withdrawal announced"
+    },
+    {
+     "year": 1962,
+     "month": 11,
+     "day": 20,
+     "text": "Quarantine ends"
+    }
+   ],
+   "keyArguments": [
+    "US hostility (Bay of Pigs, Mongoose) pushed Cuba to Moscow.",
+    "Khrushchev sent missiles to defend Cuba and narrow the US nuclear lead.",
+    "Kennedy chose a quarantine, not an air strike; DEFCON 2 showed the danger.",
+    "A public no-invasion pledge and a secret Jupiter deal ended the crisis.",
+    "Results: the Hotline and the Test Ban Treaty; Judt stresses misperception over Berlin."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Castro comes to power",
+     "year": 1959,
+     "factId": "F-CUB-01"
+    },
+    {
+     "id": "b",
+     "text": "Eisenhower orders a CIA invasion plan",
+     "year": 1960,
+     "month": 3,
+     "factId": "F-CUB-02"
+    },
+    {
+     "id": "c",
+     "text": "Bay of Pigs landing",
+     "year": 1961,
+     "month": 4,
+     "factId": "F-CUB-03"
+    },
+    {
+     "id": "d",
+     "text": "Operation Mongoose decided",
+     "year": 1961,
+     "month": 11,
+     "factId": "F-CUB-05"
+    },
+    {
+     "id": "e",
+     "text": "Secret Khrushchev–Castro missile agreement",
+     "year": 1962,
+     "month": 7,
+     "factId": "F-CUB-08"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "U-2 photographs the missile sites",
+     "year": 1962,
+     "month": 10,
+     "factId": "F-CUB-08"
+    },
+    {
+     "id": "b",
+     "text": "Kennedy's public warning against offensive weapons",
+     "year": 1962,
+     "month": 9,
+     "factId": "F-CUB-08"
+    },
+    {
+     "id": "c",
+     "text": "Quarantine ends",
+     "year": 1962,
+     "month": 11,
+     "factId": "F-CUB-15"
+    },
+    {
+     "id": "d",
+     "text": "Kennedy's campaign on a 'missile gap'",
+     "year": 1960,
+     "factId": "F-CUB-21"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R03",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each date to what happened.",
+   "pairs": [
+    {
+     "left": "22 October 1962",
+     "right": "Kennedy announced the quarantine",
+     "explanation": "And DEFCON 3."
+    },
+    {
+     "left": "26 October 1962",
+     "right": "Khrushchev's first, emotional message",
+     "explanation": "'Untie that knot'."
+    },
+    {
+     "left": "27 October 1962",
+     "right": "Second Soviet message; U-2 shot down",
+     "explanation": "The most dangerous day."
+    },
+    {
+     "left": "28 October 1962",
+     "right": "Khrushchev announced the missiles would be dismantled",
+     "explanation": "The crisis ended."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Robert F. Kennedy",
+     "right": "Made the secret Jupiter deal with Dobrynin",
+     "explanation": "Attorney General."
+    },
+    {
+     "left": "John Scali",
+     "right": "ABC journalist who carried a Soviet back-channel offer",
+     "explanation": "26 October."
+    },
+    {
+     "left": "Maxwell Taylor",
+     "right": "General who led the review of the Bay of Pigs failure",
+     "explanation": "With Robert Kennedy."
+    },
+    {
+     "left": "Edward Lansdale",
+     "right": "Directed Operation Mongoose",
+     "explanation": "CIA and Defense Department."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Within how many days was Brigade 2506 defeated at the Bay of Pigs? (number)",
+   "factIds": [
+    "F-CUB-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 2,
+     "tolerance": 0,
+     "explanation": "Two days."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what day of October 1962 did the U-2 photograph the missile sites? (number)",
+   "factIds": [
+    "F-CUB-08"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 14,
+     "tolerance": 0,
+     "explanation": "14 October; the images reached the White House the next day."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what day of November 1962 did the quarantine end? (number)",
+   "factIds": [
+    "F-CUB-15"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 20,
+     "tolerance": 0,
+     "explanation": "20 November, after the IL-28 bombers were removed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which DEFCON level meant that war involving the Strategic Air Command was imminent? (number)",
+   "factIds": [
+    "F-CUB-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 2,
+     "tolerance": 0,
+     "explanation": "DEFCON 2."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were part of the settlement of the crisis? Choose all that apply.",
+   "factIds": [
+    "F-CUB-13",
+    "F-CUB-14",
+    "F-CUB-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet missiles removed under UN supervision",
+     "correct": true,
+     "explanation": "Yes: Kennedy's proposal."
+    },
+    {
+     "id": "b",
+     "text": "A US pledge not to attack Cuba",
+     "correct": true,
+     "explanation": "Yes: in public."
+    },
+    {
+     "id": "c",
+     "text": "Removal of US Jupiter missiles from Turkey",
+     "correct": true,
+     "explanation": "Yes: secretly, by April 1963."
+    },
+    {
+     "id": "d",
+     "text": "The overthrow of Castro",
+     "correct": false,
+     "explanation": "No: Castro remained."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were consequences of the crisis? Choose all that apply.",
+   "factIds": [
+    "F-CUB-16",
+    "F-CUB-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A direct Hotline between Washington and Moscow",
+     "correct": true,
+     "explanation": "Yes: 20 June 1963."
+    },
+    {
+     "id": "b",
+     "text": "The Limited Test Ban Treaty",
+     "correct": true,
+     "explanation": "Yes: in force from 10 October 1963."
+    },
+    {
+     "id": "c",
+     "text": "A stronger image for Kennedy",
+     "correct": true,
+     "explanation": "Yes: at home and abroad."
+    },
+    {
+     "id": "d",
+     "text": "A US invasion of Cuba",
+     "correct": false,
+     "explanation": "No: the US pledged not to invade."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Kennedy decided to ignore Khrushchev's second message and respond to the first.” Which argument does it support?",
+   "factIds": [
+    "F-CUB-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kennedy's diplomacy gave Khrushchev a way out",
+     "correct": true,
+     "explanation": "Correct: the first message offered a deal."
+    },
+    {
+     "id": "b",
+     "text": "Kennedy refused to negotiate",
+     "correct": false,
+     "explanation": "He replied with a proposal."
+    },
+    {
+     "id": "c",
+     "text": "Kennedy accepted every Soviet demand in public",
+     "correct": false,
+     "explanation": "The Jupiter deal was secret."
+    },
+    {
+     "id": "d",
+     "text": "Khrushchev sent only one message",
+     "correct": false,
+     "explanation": "He sent two."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Khrushchev wrote that if war broke out 'it would not be in our power to stop it, for such is the logic of war'.” Which argument does it support?",
+   "factIds": [
+    "F-CUB-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Khrushchev's fear of war helped end the crisis peacefully",
+     "correct": true,
+     "explanation": "Correct: Judt calls his aversion to war genuine."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev wanted nuclear war",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev controlled the crisis completely",
+     "correct": false,
+     "explanation": "He feared losing control."
+    },
+    {
+     "id": "d",
+     "text": "The letter was a threat to invade the US",
+     "correct": false,
+     "explanation": "It was a plea to avoid war."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The US Army invaded Cuba at the Bay of Pigs in 1961 and occupied Havana.”",
+   "factIds": [
+    "F-CUB-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "CIA-trained Cuban exiles landed and were defeated within two days",
+     "correct": true,
+     "explanation": "Correct: no US army invaded."
+    },
+    {
+     "id": "b",
+     "text": "The Bay of Pigs was in 1962",
+     "correct": false,
+     "explanation": "It was in April 1961."
+    },
+    {
+     "id": "c",
+     "text": "Castro was not in power in 1961",
+     "correct": false,
+     "explanation": "He had ruled since 1959."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the invaders and the outcome are wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The world learned in October 1962 that the US had agreed to remove its missiles from Turkey.”",
+   "factIds": [
+    "F-CUB-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Jupiter deal was secret; it could not be part of any public settlement",
+     "correct": true,
+     "explanation": "Correct: the world saw only a Soviet retreat."
+    },
+    {
+     "id": "b",
+     "text": "The US had no missiles in Turkey",
+     "correct": false,
+     "explanation": "It had Jupiter missiles."
+    },
+    {
+     "id": "c",
+     "text": "The deal was made in 1959",
+     "correct": false,
+     "explanation": "It was made in October 1962."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the deal was secret."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Cuban Missile Crisis and its context (1959–1962). Is the Limited Test Ban Treaty of 1963 inside or outside the timeframe?",
+   "factIds": [
+    "F-CUB-18"
+   ],
+   "timeframe": [
+    1959,
+    1962
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1962."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1963 is after 1962."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it followed the crisis",
+     "correct": false,
+     "explanation": "Following events are outside the dates."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Khrushchev agree to place missiles in Cuba, according to the Office of the Historian?",
+   "factIds": [
+    "F-CUB-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To deter any future US invasion",
+     "correct": true,
+     "explanation": "Correct: the secret agreement of July 1962."
+    },
+    {
+     "id": "b",
+     "text": "To attack the United States at once",
+     "correct": false,
+     "explanation": "Not the stated aim."
+    },
+    {
+     "id": "c",
+     "text": "To protect China",
+     "correct": false,
+     "explanation": "Not mentioned."
+    },
+    {
+     "id": "d",
+     "text": "To trade for Alaska",
+     "correct": false,
+     "explanation": "Not mentioned."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Joint Chiefs of Staff recommend in October 1962?",
+   "factIds": [
+    "F-CUB-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "An air strike followed by an invasion of Cuba",
+     "correct": true,
+     "explanation": "Correct: Kennedy chose a middle course."
+    },
+    {
+     "id": "b",
+     "text": "Doing nothing",
+     "correct": false,
+     "explanation": "Not their advice."
+    },
+    {
+     "id": "c",
+     "text": "Withdrawing from Turkey",
+     "correct": false,
+     "explanation": "Not their advice."
+    },
+    {
+     "id": "d",
+     "text": "Recognising Castro",
+     "correct": false,
+     "explanation": "Not their advice."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What back-channel offer did John Scali report on 26 October?",
+   "factIds": [
+    "F-CUB-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet removal of the missiles in return for a US promise not to invade",
+     "correct": true,
+     "explanation": "Correct: it resembled Khrushchev's first message."
+    },
+    {
+     "id": "b",
+     "text": "A Soviet invasion of Turkey",
+     "correct": false,
+     "explanation": "Not the offer."
+    },
+    {
+     "id": "c",
+     "text": "A US withdrawal from Berlin",
+     "correct": false,
+     "explanation": "Not the offer."
+    },
+    {
+     "id": "d",
+     "text": "Castro's resignation",
+     "correct": false,
+     "explanation": "Not the offer."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the real purpose of the Test Ban Treaty, according to Judt?",
+   "factIds": [
+    "F-CUB-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To keep nuclear weapons out of the hands of China and West Germany",
+     "correct": true,
+     "explanation": "Correct: its 'sub-text'."
+    },
+    {
+     "id": "b",
+     "text": "To abolish all nuclear weapons",
+     "correct": false,
+     "explanation": "Not its aim."
+    },
+    {
+     "id": "c",
+     "text": "To arm Cuba",
+     "correct": false,
+     "explanation": "Not its aim."
+    },
+    {
+     "id": "d",
+     "text": "To end the Warsaw Pact",
+     "correct": false,
+     "explanation": "Not its aim."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why was Brigade 2506's invasion launched from Guatemala rather than by US forces?",
+   "factIds": [
+    "F-CUB-02",
+    "F-CUB-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was a CIA-planned clandestine operation using exiled Cubans",
+     "correct": true,
+     "explanation": "Correct: trained and funded by the CIA."
+    },
+    {
+     "id": "b",
+     "text": "The US Army refused to take part",
+     "correct": false,
+     "explanation": "Not the reason given."
+    },
+    {
+     "id": "c",
+     "text": "Castro invited the brigade",
+     "correct": false,
+     "explanation": "The brigade aimed to overthrow him."
+    },
+    {
+     "id": "d",
+     "text": "The UN organised it",
+     "correct": false,
+     "explanation": "It was a CIA operation."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the Bay of Pigs invasion the main reason for the Cuban Missile Crisis between 1961 and 1962?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the Bay of Pigs invasion",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for the Cuban Missile Crisis",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1961 and 1962",
+     "answer": "timeframe",
+     "explanation": "From the invasion to the crisis."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Whether the invasion outweighed Soviet strategic aims."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘Khrushchev was the loser of the Cuban Missile Crisis.’ Discuss with reference to the period 1961 to 1962.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "Khrushchev was the loser",
+     "answer": "factor",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s3",
+     "text": "the Cuban Missile Crisis",
+     "answer": "scope",
+     "explanation": "What the claim is about."
+    },
+    {
+     "id": "s4",
+     "text": "1961 to 1962",
+     "answer": "timeframe",
+     "explanation": "From the Bay of Pigs to the settlement."
+    },
+    {
+     "id": "s5",
+     "text": "loser",
+     "answer": "judgement",
+     "explanation": "By what criterion: appearance, substance, or his career?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Bay of Pigs invasion the main reason for the Cuban Missile Crisis between 1961 and 1962?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Bay of Pigs began a sustained US threat to Cuba, continued by Operation Mongoose, which gave Khrushchev his stated reason for the missiles; but Soviet strategic aims, especially narrowing the US nuclear lead, explain why he chose nuclear missiles.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against others."
+    },
+    {
+     "id": "b",
+     "text": "The Bay of Pigs was in 1961.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Bay of Pigs was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Bay of Pigs was the only cause.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate Kennedy's handling of the Cuban Missile Crisis in October 1962.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kennedy handled the crisis skilfully, rejecting an air strike for a quarantine and answering Khrushchev's more conciliatory message; but the settlement rested on a secret concession over Turkey, so it was a compromise, not a pure victory.",
+     "correct": true,
+     "explanation": "Correct: judgement with a qualification."
+    },
+    {
+     "id": "b",
+     "text": "Kennedy was President in 1962.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Kennedy did well.",
+     "correct": false,
+     "explanation": "No reasoning."
+    },
+    {
+     "id": "d",
+     "text": "Kennedy made every decision alone.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 22 October 1962 Kennedy announced a naval quarantine of Cuba.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because a quarantine was not legally an act of war, it pressured Moscow while leaving room to negotiate.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "On 28 October Khrushchev announced the missiles would be dismantled.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the secret Jupiter deal let Khrushchev retreat without admitting a concession, so war was avoided.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Operation Mongoose's plans for October 1962",
+     "right": "The US threat to Cuba was real",
+     "explanation": "Covert action."
+    },
+    {
+     "left": "The balance of nuclear power favoured the US",
+     "right": "Missiles in Cuba would narrow the US lead",
+     "explanation": "Kennedy's own finding."
+    },
+    {
+     "left": "DEFCON 2",
+     "right": "The world came close to nuclear war",
+     "explanation": "War with SAC imminent."
+    },
+    {
+     "left": "The Hotline of June 1963",
+     "right": "The crisis led to better communication",
+     "explanation": "To avoid a repeat."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Kennedy won the crisis.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kennedy's quarantine and his reply to Khrushchev's first message secured the removal of the missiles, but because he also secretly promised to remove the Jupiters from Turkey, the outcome was a compromise presented as an American victory.",
+     "correct": true,
+     "explanation": "Correct: evidence and qualification."
+    },
+    {
+     "id": "b",
+     "text": "Kennedy really won the crisis.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Kennedy announced a quarantine.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Kennedy won the whole Cold War in 1962.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Cuban Missile Crisis was a complete Soviet defeat.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Khrushchev obtained a public US pledge not to invade Cuba, the stated purpose of the missiles, and a secret promise to remove the Jupiters from Turkey, which happened in April 1963; Castro remained in power.",
+     "correct": true,
+     "explanation": "Correct: specific Soviet gains."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev was clever.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "Cuba is an island.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "The crisis was short.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘Khrushchev was the loser of the Cuban Missile Crisis.’ Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by public appearance and his own career, Khrushchev lost; judged by the substance of the deal, he achieved Cuba's security and the removal of the Jupiters, so he lost the propaganda battle but not the bargain.",
+     "correct": true,
+     "explanation": "Correct: criteria and judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the missiles were removed.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Khrushchev was bad.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, everyone loses in a crisis.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes and consequences of the Cuban Missile Crisis of 1962.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The US threat to Cuba after the Bay of Pigs",
+     "answer": "causes",
+     "explanation": "And Mongoose."
+    },
+    {
+     "id": "s2",
+     "text": "The Soviet wish to narrow the US nuclear lead",
+     "answer": "causes",
+     "explanation": "The missile balance."
+    },
+    {
+     "id": "s3",
+     "text": "Khrushchev's revolutionary outlook",
+     "answer": "causes",
+     "explanation": "Judt."
+    },
+    {
+     "id": "s4",
+     "text": "The Hotline",
+     "answer": "effects",
+     "explanation": "June 1963."
+    },
+    {
+     "id": "s5",
+     "text": "The Limited Test Ban Treaty",
+     "answer": "effects",
+     "explanation": "October 1963."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-CRISIS-CUBA-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the Bay of Pigs invasion the main reason for the Cuban Missile Crisis between 1961 and 1962?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the Bay of Pigs invasion",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1961,
+    1962
+   ],
+   "scope": "Cuba",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The Bay of Pigs, weighed first",
+    "timeframe": "1961–1962",
+    "scope": "The Cuban Missile Crisis",
+    "judgement": "Whether the invasion outweighed Soviet strategic aims"
+   },
+   "modelPlan": {
+    "thesis": "The Bay of Pigs began a sustained US threat to Cuba, continued by Operation Mongoose, which gave Khrushchev his stated reason for the missiles; but Soviet strategic aims, especially narrowing the US nuclear lead, explain why he chose nuclear missiles.",
+    "arguments": [
+     {
+      "claim": "The Bay of Pigs and its aftermath (named factor first).",
+      "evidence": [
+       "F-CUB-03",
+       "F-CUB-04"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Operation Mongoose and the continuing threat.",
+      "evidence": [
+       "F-CUB-05"
+      ]
+     },
+     {
+      "claim": "The nuclear balance.",
+      "evidence": [
+       "F-CUB-21",
+       "F-CUB-22"
+      ]
+     },
+     {
+      "claim": "Khrushchev's outlook.",
+      "evidence": [
+       "F-CUB-19"
+      ]
+     }
+    ],
+    "counter": "Washington believed Berlin, not Cuba, was the real Soviet target.",
+    "judgementCriterion": "Why nuclear missiles rather than conventional defence? Because they also served Soviet strategic aims."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Bay of Pigs was an important cause of the crisis, but not the main one.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The failed invasion of 17 April 1961 strengthened Castro and pushed him towards Moscow, and Operation Mongoose kept the threat alive.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Khrushchev could justify the missiles as a defence of Cuba, as the secret agreement of July 1962 stated.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, nuclear missiles were far more than Cuba needed for defence; the US held the nuclear lead, and the deployment was also, in the Office of the Historian's words, an attempt 'to force U.S. concessions on Europe'.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Bay of Pigs was therefore the occasion of the crisis, while Soviet strategic aims were its main cause.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Bay of Pigs"
+    ],
+    "synonyms": [
+     "invasion",
+     "Brigade 2506"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Mongoose",
+     "missile gap",
+     "Castro"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-CUBA-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Khrushchev was the loser of the Cuban Missile Crisis.” Discuss with reference to the period 1961 to 1962.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition",
+    "leader"
+   ],
+   "timeframe": [
+    1961,
+    1962
+   ],
+   "scope": "Cuba",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: Khrushchev lost",
+    "timeframe": "1961–1962",
+    "scope": "The Cuban Missile Crisis",
+    "judgement": "By what criterion: appearance, substance, or his career?"
+   },
+   "modelPlan": {
+    "thesis": "Khrushchev lost the propaganda battle and damaged his career, but in substance he achieved Cuba's security and the removal of the Jupiters, so the claim holds for appearance rather than outcome.",
+    "arguments": [
+     {
+      "claim": "For: the public retreat of 28 October.",
+      "evidence": [
+       "F-CUB-14"
+      ]
+     },
+     {
+      "claim": "For: damage to his career.",
+      "evidence": [
+       "F-CUB-19"
+      ]
+     },
+     {
+      "claim": "Against: the no-invasion pledge.",
+      "evidence": [
+       "F-CUB-13"
+      ]
+     },
+     {
+      "claim": "Against: the secret removal of the Jupiters.",
+      "evidence": [
+       "F-CUB-14",
+       "F-CUB-15"
+      ]
+     }
+    ],
+    "counter": "Kennedy's image was strengthened, which suggests the world judged the US the winner.",
+    "judgementCriterion": "By appearance, he lost; by substance, he gained most of what the missiles were meant to achieve."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Khrushchev lost in appearance but not in substance.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "On 28 October he announced that the missiles would be dismantled, but he had a public US pledge not to invade Cuba and a secret promise to remove the Jupiters from Turkey.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the stated purpose of the missiles was achieved, while the Turkish concession stayed hidden, so the world saw a Soviet retreat.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues that Khrushchev's missteps in Cuba helped bring about his downfall, so politically he paid a price.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid for his reputation and career, but not for the deal itself.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Khrushchev"
+    ],
+    "synonyms": [
+     "loser",
+     "retreat"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Jupiter missiles",
+     "no-invasion pledge",
+     "Turkey"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-CUBA-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate Kennedy's handling of the Cuban Missile Crisis in October 1962.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1962,
+    1962
+   ],
+   "scope": "Cuba",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "Kennedy's handling",
+    "timeframe": "October 1962",
+    "scope": "The Cuban Missile Crisis",
+    "judgement": "By what criterion: avoiding war, or winning?"
+   },
+   "modelPlan": {
+    "thesis": "Kennedy handled the crisis skilfully, rejecting an air strike for a quarantine and answering Khrushchev's more conciliatory message; but the settlement rested on a secret concession over Turkey, so it was a compromise, not a pure victory.",
+    "arguments": [
+     {
+      "claim": "The quarantine as a middle course.",
+      "evidence": [
+       "F-CUB-09"
+      ]
+     },
+     {
+      "claim": "Firmness: the television warning and DEFCON.",
+      "evidence": [
+       "F-CUB-10",
+       "F-CUB-11"
+      ]
+     },
+     {
+      "claim": "Diplomacy: answering the first message.",
+      "evidence": [
+       "F-CUB-13"
+      ]
+     },
+     {
+      "claim": "Limits: the secret concession; the Bay of Pigs background.",
+      "evidence": [
+       "F-CUB-14",
+       "F-CUB-03"
+      ]
+     }
+    ],
+    "counter": "Kennedy's earlier decisions, the Bay of Pigs and Mongoose, helped cause the crisis.",
+    "judgementCriterion": "By the criterion of avoiding war, Kennedy succeeded; by the criterion of an outright win, he compromised."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Kennedy handled the crisis skilfully, judged by the aim of removing the missiles without war.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He rejected the Joint Chiefs' call for an air strike, ordered a 'quarantine' on 22 October and, on 27 October, answered Khrushchev's first message rather than the second.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Khrushchev was offered a way out, so on 28 October he agreed to remove the missiles.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the deal depended on a secret promise to remove the Jupiters from Turkey, and Kennedy's own Bay of Pigs and Mongoose had helped cause the crisis.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Kennedy's handling was therefore successful in October 1962, though his wider Cuba policy shared the blame for the crisis.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Kennedy"
+    ],
+    "synonyms": [
+     "handling",
+     "quarantine"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Joint Chiefs",
+     "Jupiter",
+     "first message"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-CUBA-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the causes and consequences of the Cuban Missile Crisis of 1962.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1962,
+    1962
+   ],
+   "scope": "Cuba",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1962",
+    "scope": "The Cuban Missile Crisis",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The crisis was caused by the Soviet decision to place missiles in Cuba, to protect Castro from a real US threat and to narrow the US nuclear lead; its main consequence was the first steps towards managing the arms race.",
+    "arguments": [
+     {
+      "claim": "Cause: the US threat to Cuba.",
+      "evidence": [
+       "F-CUB-03",
+       "F-CUB-05"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: Soviet strategic aims.",
+      "evidence": [
+       "F-CUB-21",
+       "F-CUB-22"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: a compromise settlement.",
+      "evidence": [
+       "F-CUB-13",
+       "F-CUB-14"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: the Hotline and Test Ban.",
+      "evidence": [
+       "F-CUB-16",
+       "F-CUB-18"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Misperception over Berlin made the crisis more dangerous than its causes alone explain.",
+    "judgementCriterion": "Which consequence lasted longest? The beginning of arms control, which led towards détente."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The crisis was caused by Khrushchev's decision to place missiles in Cuba, both to protect Castro and to narrow the US nuclear lead.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After the Bay of Pigs and Operation Mongoose, Khrushchev agreed with Castro in July 1962 to deploy missiles, which a U-2 photographed on 14 October.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the US faced nuclear missiles close to its cities, so it imposed a quarantine and reached DEFCON 2 before the deal of 28 October.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues that Kennedy's belief that Berlin was the real target magnified the crisis.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Its most significant consequence was therefore the Hotline and the Test Ban, the first steps towards managing the arms race.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Cuban Missile Crisis"
+    ],
+    "synonyms": [
+     "missiles",
+     "Cuba"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "quarantine",
+     "Hotline",
+     "Test Ban"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-CUBA-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the aims of the United States and the Soviet Union in Cuba between 1959 and 1962.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1959,
+    1962
+   ],
+   "scope": "Cuba",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The aims of the two superpowers",
+    "timeframe": "1959–1962",
+    "scope": "Cuba",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both superpowers treated Cuba as a test of credibility, but the US sought to remove Castro while the USSR sought to protect him and use Cuba to narrow the nuclear balance; in the end both settled for Castro staying and the missiles leaving.",
+    "arguments": [
+     {
+      "claim": "Similarity: Cuba as a test of credibility.",
+      "evidence": [
+       "F-CUB-20",
+       "F-CUB-08"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both used covert methods.",
+      "evidence": [
+       "F-CUB-05",
+       "F-CUB-08"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: remove Castro against protect him.",
+      "evidence": [
+       "F-CUB-03",
+       "F-CUB-08"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: strategic aims over the nuclear balance.",
+      "evidence": [
+       "F-CUB-21",
+       "F-CUB-22"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Both were also thinking of Europe: the US of Berlin, the USSR of concessions there.",
+    "judgementCriterion": "Which difference mattered most? Over Castro: the settlement turned on a pledge not to invade."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Both superpowers saw Cuba as a test of their credibility, but their aims were opposite.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The US backed the Bay of Pigs and Operation Mongoose to remove Castro, whereas Khrushchev agreed in July 1962 to place missiles in Cuba to deter an invasion.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the crisis turned on Castro's survival, so the settlement of 28 October included a US pledge not to invade.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both were also thinking of Europe: Washington feared a Soviet move on Berlin, while Moscow hoped for concessions there.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore over Castro, which the settlement resolved in the Soviet Union's favour.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "United States",
+     "Soviet Union"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Castro",
+     "Mongoose",
+     "missiles"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-CUBA-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons why the Cuban Missile Crisis did not lead to nuclear war in 1962.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1962,
+    1962
+   ],
+   "scope": "Cuba",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Reasons war was avoided",
+    "timeframe": "1962",
+    "scope": "The Cuban Missile Crisis",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "War was avoided because Kennedy chose a quarantine rather than an air strike, both leaders feared war and kept communicating, and a public pledge combined with a secret concession let Khrushchev retreat.",
+    "arguments": [
+     {
+      "claim": "Kennedy's middle course.",
+      "evidence": [
+       "F-CUB-09"
+      ]
+     },
+     {
+      "claim": "Both leaders' fear of war.",
+      "evidence": [
+       "F-CUB-20",
+       "F-CUB-12"
+      ]
+     },
+     {
+      "claim": "Back channels and the choice of the first message.",
+      "evidence": [
+       "F-CUB-12",
+       "F-CUB-13"
+      ]
+     },
+     {
+      "claim": "The secret Jupiter concession.",
+      "evidence": [
+       "F-CUB-14"
+      ]
+     }
+    ],
+    "counter": "Chance played a part: a U-2 was shot down on 27 October, and war was days away.",
+    "judgementCriterion": "Which reason mattered most? The secret concession, because it let Khrushchev retreat without public humiliation."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The crisis did not lead to nuclear war mainly because both leaders found a way for Khrushchev to retreat.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Kennedy chose a quarantine over an air strike, answered Khrushchev's first message, and Robert Kennedy secretly promised the removal of the Jupiters.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Khrushchev gained a no-invasion pledge and a hidden concession, so on 28 October he agreed to withdraw.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, war was close: US forces were at DEFCON 2 and a U-2 was shot down on 27 October, so luck as well as skill mattered.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "War was therefore avoided by a combination of restraint, communication and a compromise that neither side made fully public.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "war"
+    ],
+    "synonyms": [
+     "avoided",
+     "peace"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "quarantine",
+     "Jupiter",
+     "DEFCON"
+    ]
+   }
+  }
+ ]
+}

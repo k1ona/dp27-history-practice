@@ -1,0 +1,2773 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-IMPACT",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "Both the German Democratic Republic and the People's Republic of China were founded in 1949. By 1991 one had disappeared and the other was trading with its former American enemy. How did the Cold War shape each of them?",
+   "predictionPrompt": "Your prediction in one line: why did the two countries end up so differently?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "impact_consequences",
+    "title": "The GDR: a state made by the Cold War, 1949–1961",
+    "body": "The German Democratic Republic (GDR) was a product of the Cold War. It was founded in 1949, soon after the West German state, when the Berlin blockade had confirmed the division of Germany. Its fate was decided by the superpowers' rivalry. In May 1952 the Western powers signed treaties binding West Germany to the West and planning its rearmament, rejecting Stalin's offer of a united but unarmed Germany. Moscow and the East German leader **Walter Ulbricht** answered by turning the GDR into a full Soviet satellite.\n\nThe economic and social impact was immediate. Under the slogan \"Constructing Socialism\", farms were forcibly collectivised, private trade and industry were attacked and heavy industry was built up. Collectivisation caused severe food shortages in 1953. The regime also remilitarised, suppressed the churches and persecuted its opponents. Large numbers of East Germans voted with their feet, emigrating through West Berlin.\n\nOn 16 June 1953 workers in East Berlin protested against government demands to increase productivity, and within days nearly a million people had joined protests across the country. Soviet forces declared martial law. Judt records that nearly 300 people were killed when Red Army tanks were called in, 1,400 were given long prison sentences and 200 \"ringleaders\" were shot. The Cold War shaped even the aftermath: the United States handed out $15 million of food in over 5 million \"Eisenhower packages\", partly to relieve hunger and partly to destabilise Ulbricht's regime.\n\nThe exodus continued. By 1958 so many people were leaving through Berlin that Khrushchev issued an ultimatum to the Western powers to leave the city. When that failed, on 13 August 1961, on Ulbricht's orders, a barbed-wire fence went up overnight across Berlin, soon replaced by concrete walls and guard towers. The **Berlin Wall** stopped the flow of migrants and divided families. Judt argues that the Wall reassured East German Communists, who had always feared that Moscow might sell them out.\n\nThis mattered because the GDR's economy, society and borders were all shaped by its role as the Soviet bloc's front line, which meant that the state could survive only by locking its own people in.",
+    "argumentsThatWork": [
+     {
+      "claim": "Cold War decisions in 1952 turned the GDR into a satellite.",
+      "evidence": [
+       "F-IMP-02"
+      ],
+      "strongestCounter": "Ulbricht pushed for even more collectivisation than Moscow wanted."
+     },
+     {
+      "claim": "Sovietisation caused shortages, repression and the 1953 uprising.",
+      "evidence": [
+       "F-IMP-03",
+       "F-IMP-04",
+       "F-IMP-05"
+      ],
+      "strongestCounter": "The New Course after Stalin's death tried to relax the pressure."
+     },
+     {
+      "claim": "Mass emigration led to the Berlin Wall.",
+      "evidence": [
+       "F-IMP-07",
+       "F-IMP-08"
+      ],
+      "strongestCounter": "The Wall also reassured the regime that Moscow would not abandon it."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the social impact of the Cold War on the GDR between 1949 and 1989.",
+     "Compare and contrast the impact of Cold War tensions on the GDR and China between 1949 and 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Cold War's social impact on the GDR was to make it a state that had to wall in its own people.",
+     "prove": "Forced collectivisation, the suppression of churches and food shortages drove East Germans to emigrate through West Berlin, until on 13 August 1961 the Wall stopped them.",
+     "explain": "This meant that the regime survived by force rather than consent, so families were divided and the population was trapped.",
+     "test": "However, the Wall also brought a kind of stability, since the regime no longer feared losing its workforce or being sold out by Moscow.",
+     "judge": "The Cold War therefore gave the GDR security at the price of freedom."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-IMPACT-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did 'Constructing Socialism' in the GDR involve?",
+      "factIds": [
+       "F-IMP-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Forced collectivisation, a campaign against private trade and the build-up of heavy industry",
+        "correct": true,
+        "explanation": "Correct: it caused food shortages in 1953."
+       },
+       {
+        "id": "b",
+        "text": "Free elections and a market economy",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Withdrawal of all Soviet troops",
+        "correct": false,
+        "explanation": "Not part of it."
+       },
+       {
+        "id": "d",
+        "text": "Reunification with West Germany",
+        "correct": false,
+        "explanation": "Not part of it."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-IMPACT-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people were killed when Red Army tanks were called in against the June 1953 uprising, according to Judt? (approximately)",
+      "factIds": [
+       "F-IMP-05"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 300,
+        "tolerance": 10,
+        "explanation": "Nearly 300."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-IMPACT-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt says the Wall offered the East German Communists some reassurance, since they feared Moscow might sell them out.” Which argument does it support best?",
+      "factIds": [
+       "F-IMP-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The GDR's survival depended on Soviet commitment",
+        "correct": true,
+        "explanation": "Correct: a weak and unloved regime."
+       },
+       {
+        "id": "b",
+        "text": "The GDR was a popular, secure state",
+        "correct": false,
+        "explanation": "Judt calls it 'weak and unloved'."
+       },
+       {
+        "id": "c",
+        "text": "Moscow wanted to abandon the GDR in 1961",
+        "correct": false,
+        "explanation": "Moscow shored it up."
+       },
+       {
+        "id": "d",
+        "text": "The Wall was built by the West",
+        "correct": false,
+        "explanation": "It was built on Ulbricht's orders."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "impact_consequences",
+    "title": "The GDR behind the Wall, 1961–1990",
+    "body": "Behind the Wall the GDR became one of the most tightly controlled societies in Europe. Its security police, the **Stasi**, grew into a vast apparatus. When its files were opened after 1989, Germans discovered that in addition to 85,000 full-time employees the Stasi had about 60,000 \"unofficial collaborators\", 110,000 regular informers and more than half a million part-time informers. It held files on 6 million people, one in three of the population. \"Husbands spied on wives, professors reported on students, priests informed on their parishioners,\" Judt writes. \"The whole society had in effect been infiltrated.\"\n\nThe GDR's survival rested on Soviet power. In 1989 there were still 360,000 Soviet troops on its soil. Its economy, outsiders believed, was in better shape than its neighbours'. When **Erich Honecker** boasted in October 1989 that the GDR was one of the world's top ten economies, many Western observers believed him; Judt notes that the regime's real efficiency lay in \"the manufacture and export of bogus data\". The reality emerged after unification: two dwellings in five dated from before 1914, a quarter lacked a bath and more than 60 per cent had no central heating.\n\nDétente brought the GDR international recognition and Western money. Through West Germany's Ostpolitik the two German states signed a Basic Treaty in the early 1970s, and in the 1980s West German subsidies continued while Bonn gave no support to the GDR's internal opposition. Honecker became the first East German leader to visit the Federal Republic, in September 1987. Judt argues that many West German politicians came to share the illusions of the East German leaders they dealt with.\n\nThe end came quickly when the Cold War ended. Once Gorbachev made clear that Soviet troops would not defend the regime, East Germans fled again, at one point 2,000 a day. On 9 November 1989 the Wall opened, and on 3 October 1990 the GDR ceased to exist.\n\nThis mattered because the GDR had no basis of existence except the Cold War, which meant that when Soviet protection was withdrawn, the state itself disappeared.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Stasi turned GDR society into a society of informers.",
+      "evidence": [
+       "F-IMP-10"
+      ],
+      "strongestCounter": "Many informers did not know they were classed as such."
+     },
+     {
+      "claim": "The GDR's apparent economic success was largely an illusion.",
+      "evidence": [
+       "F-IMP-11",
+       "F-IMP-14"
+      ],
+      "strongestCounter": "West German subsidies kept the regime afloat."
+     },
+     {
+      "claim": "The GDR could not survive without Soviet protection.",
+      "evidence": [
+       "F-IMP-09",
+       "F-IMP-13",
+       "F-IMP-24",
+       "F-IMP-25"
+      ],
+      "strongestCounter": "Ostpolitik had given it international recognition."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the social impact of the Cold War on the GDR between 1949 and 1989.",
+     "To what extent was the GDR's economic weakness a result of Cold War tensions between 1949 and 1989?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The GDR's economic weakness was partly hidden by Cold War illusions and Western money.",
+     "prove": "Honecker boasted in October 1989 that the GDR was one of the world's top ten economies, yet two dwellings in five dated from before 1914 and over 60 per cent had no central heating.",
+     "explain": "This meant that the regime relied on bogus data and West German subsidies, so its weakness was exposed only when the Cold War ended.",
+     "test": "However, the system of central planning imposed after 1952 was itself a cause of weakness, not only the Cold War.",
+     "judge": "Cold War tensions therefore created and concealed the GDR's weakness at the same time."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-IMPACT-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What share of the East German population did the Stasi hold files on, according to Judt?",
+      "factIds": [
+       "F-IMP-10"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "One in three (6 million people)",
+        "correct": true,
+        "explanation": "Correct: the society had been 'infiltrated'."
+       },
+       {
+        "id": "b",
+        "text": "One in a hundred",
+        "correct": false,
+        "explanation": "Far too low."
+       },
+       {
+        "id": "c",
+        "text": "None: the Stasi kept no files",
+        "correct": false,
+        "explanation": "Its files were opened in 1991."
+       },
+       {
+        "id": "d",
+        "text": "Only foreigners",
+        "correct": false,
+        "explanation": "Most files concerned East Germans."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-IMPACT-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many Soviet troops were still stationed in the GDR in 1989, according to Judt? (number)",
+      "factIds": [
+       "F-IMP-13"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 360000,
+        "tolerance": 10000,
+        "explanation": "360,000."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-IMPACT-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt says the GDR regime was efficient mainly in 'the manufacture and export of bogus data'.” Which argument does it support best?",
+      "factIds": [
+       "F-IMP-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The GDR's economic success was largely an illusion",
+        "correct": true,
+        "explanation": "Correct: the reality emerged after 1990."
+       },
+       {
+        "id": "b",
+        "text": "The GDR was one of the world's top ten economies",
+        "correct": false,
+        "explanation": "That was Honecker's boast."
+       },
+       {
+        "id": "c",
+        "text": "The GDR had excellent housing",
+        "correct": false,
+        "explanation": "Its housing was decrepit."
+       },
+       {
+        "id": "d",
+        "text": "Western observers distrusted Honecker",
+        "correct": false,
+        "explanation": "Many took him at his word."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "China: isolation and the split, 1949–1969",
+    "body": "For the People's Republic of China, the Cold War meant isolation from the West. When the Communists took power in 1949, the United States suspended relations, and for thirty years it recognised the government on Taiwan instead. After China entered the Korean War in late 1950, the US imposed an embargo and worked to isolate Peking. The unfinished civil war with Taiwan became a Cold War flashpoint: in 1954–55 and again in 1958 China's shelling of the offshore islands brought crises with the US, and afterwards the two Chinese sides shelled each other's garrisons on alternate days for twenty years.\n\nThe split with the Soviet Union then removed China's main partner. In April 1961 American intelligence reported that the dislocations of Mao's **Great Leap Forward** and \"the removal of Soviet technicians\" had disrupted China's industrialisation: industrial growth had fallen from about 33 per cent in 1959 to 16 per cent in 1960. The regime faced \"the most serious economic difficulties it has confronted\" since taking power. Food production in 1960 was little larger than in 1957, although there were about 50 million more people to feed, and China planned to import nearly three million tons of grain in 1961, spending about $200 million of its scarce foreign currency. Public morale, the analysts judged, was at its lowest point since 1949.\n\nChina responded with self-reliance and militancy. It built its own atomic bomb, exploded in 1964. Inside China, the split fed the regime's internal struggles: in 1966 American analysts noted that China's internal quarrels were accompanied by mounting violence in polemics against the USSR, part of a campaign against domestic \"revisionists\" and opponents of Mao. In 1969 another estimate judged that Mao's \"ideological pretensions\" had earned China the enmity of the USSR and his \"bizarre domestic programs\" had cost it prestige abroad. After the border clashes of March 1969, the analysts saw \"some chance\" of a Soviet strike on China's nuclear sites.\n\nThis mattered because China faced hostility from both superpowers at once, which meant that the Cold War shaped its economy, its security and the radicalism of its domestic politics.",
+    "argumentsThatWork": [
+     {
+      "claim": "Isolation by the US shaped China's economy and security.",
+      "evidence": [
+       "F-IMP-15",
+       "F-IMP-16"
+      ],
+      "strongestCounter": "China still kept a channel to the US through ambassadorial talks."
+     },
+     {
+      "claim": "The split with the USSR damaged China's industrialisation.",
+      "evidence": [
+       "F-IMP-17"
+      ],
+      "strongestCounter": "The Great Leap Forward also caused much of the damage."
+     },
+     {
+      "claim": "Hostility from both superpowers fed self-reliance and radicalism.",
+      "evidence": [
+       "F-IMP-18",
+       "F-IMP-19",
+       "F-IMP-20"
+      ],
+      "strongestCounter": "Mao's own choices drove domestic radicalism."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the economic impact of the Cold War on China between 1949 and 1979.",
+     "Examine the causes and consequences of the Sino-Soviet split for China between 1958 and 1969."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Cold War damaged China's economy through Western isolation and the loss of Soviet help.",
+     "prove": "The US embargo had been in place since 1950, and in 1961 US analysts reported that the removal of Soviet technicians and the Great Leap Forward had cut industrial growth from 33 to 16 per cent.",
+     "explain": "This meant that China lost both Western trade and Soviet expertise, so it faced its worst economic crisis since 1949 and had to import nearly three million tons of grain.",
+     "test": "However, the Great Leap Forward was Mao's own policy, so not all of the damage came from the Cold War.",
+     "judge": "The Cold War therefore deepened an economic crisis that domestic policy had begun."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-IMPACT-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did a US estimate of April 1961 say had disrupted China's industrialisation?",
+      "factIds": [
+       "F-IMP-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The 'Leap Forward' and the removal of Soviet technicians",
+        "correct": true,
+        "explanation": "Correct: growth fell sharply."
+       },
+       {
+        "id": "b",
+        "text": "The Marshall Plan",
+        "correct": false,
+        "explanation": "Unrelated."
+       },
+       {
+        "id": "c",
+        "text": "The Vietnam War",
+        "correct": false,
+        "explanation": "Not mentioned."
+       },
+       {
+        "id": "d",
+        "text": "American bombing",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-IMPACT-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many million tons of grain did China plan to import in 1961, according to the US estimate? (approximately)",
+      "factIds": [
+       "F-IMP-17"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 3,
+        "tolerance": 0,
+        "explanation": "Nearly three million tons, costing about $200 million."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-IMPACT-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1969 US analysts saw some chance of a Soviet strike on China's nuclear and missile facilities.” Which argument does it support best?",
+      "factIds": [
+       "F-IMP-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "By 1969 China faced a serious military threat from the USSR",
+        "correct": true,
+        "explanation": "Correct: hence its turn to the US."
+       },
+       {
+        "id": "b",
+        "text": "The USSR and China were allies in 1969",
+        "correct": false,
+        "explanation": "They had fought on the Ussuri."
+       },
+       {
+        "id": "c",
+        "text": "China had no nuclear weapons",
+        "correct": false,
+        "explanation": "It tested one in 1964."
+       },
+       {
+        "id": "d",
+        "text": "The US planned to attack China",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "comparison",
+    "title": "Comparing the GDR and China",
+    "body": "After 1969 China's position changed. Fearing the Soviet Union more than the US, it accepted American overtures. In October 1971 it took China's seat at the United Nations from Taiwan; in February 1972 President Nixon visited Beijing; and on 1 January 1979 the two countries established diplomatic relations. Within a month they signed agreements on consular relations, academic exchanges and cooperation in science and technology, and Deng Xiaoping toured the United States. The Cold War, which had isolated China for twenty years, now gave it new partners and access to Western knowledge.\n\nHow did the Cold War's impact on the two countries compare?\n\n**Origins.** Both states were born in 1949 out of Cold War divisions: the GDR from the division of Germany, the PRC from a civil war in which the superpowers backed opposite sides. But the GDR was formed from the Soviet zone of occupation, while the Chinese Communists won a civil war.\n\n**Economy.** Both suffered from being cut off from Western trade and from Soviet-style planning: collectivisation caused food shortages in the GDR in 1953, while China's Great Leap Forward and the loss of Soviet technicians produced a deep crisis in 1960–61. But the GDR depended on Soviet troops and, later, West German money, while China, after the split, had to rely on itself.\n\n**Society.** Both regimes used Cold War tension to justify repression. In the GDR the Stasi built a society of informers; in China the split fed campaigns against \"revisionists\". But East Germans could compare their lives directly with West Germany, which made emigration the GDR's central problem and the Wall its answer.\n\n**Outcome.** The decisive difference was independence. China could change sides in the Cold War, moving from the Soviet camp to cooperation with the US. The GDR could not: it existed only as a Soviet outpost, and when Soviet protection ended in 1989, so did the state.\n\nThis mattered because the Cold War affected both countries deeply, which meant that their different degrees of independence from Moscow decided whether they could survive its end.",
+    "argumentsThatWork": [
+     {
+      "claim": "China used the Cold War triangle to escape isolation.",
+      "evidence": [
+       "F-IMP-22",
+       "F-IMP-23"
+      ],
+      "strongestCounter": "Relations with the US remained difficult over Taiwan."
+     },
+     {
+      "claim": "Both states suffered economically from Soviet-style planning and isolation.",
+      "evidence": [
+       "F-IMP-03",
+       "F-IMP-17"
+      ],
+      "strongestCounter": "Domestic choices caused much of the damage."
+     },
+     {
+      "claim": "Independence decided their fates.",
+      "evidence": [
+       "F-IMP-13",
+       "F-IMP-23"
+      ],
+      "strongestCounter": "China was a great power; the GDR never could be."
+     }
+    ],
+    "howItGetsAsked": [
+     "Compare and contrast the impact of Cold War tensions on the GDR and China between 1949 and 1979.",
+     "Discuss the view that China gained more than it lost from the Cold War with reference to the period 1949 to 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Cold War shaped both the GDR and China, but China's independence allowed it to change sides, while the GDR could not.",
+     "prove": "China moved from isolation to diplomatic relations with the US on 1 January 1979, whereas the GDR depended on 360,000 Soviet troops even in 1989.",
+     "explain": "This meant that China could turn Cold War rivalry to its advantage, so it gained new partners, while the GDR remained a Soviet outpost.",
+     "test": "However, both suffered economically from Soviet-style planning: food shortages in the GDR in 1953 and a deep crisis in China in 1960–61.",
+     "judge": "The decisive difference was therefore independence, which explains why China outlasted the Cold War and the GDR did not."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-IMPACT-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What agreements did the US and China sign on 31 January 1979?",
+      "factIds": [
+       "F-IMP-23"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Consular relations, academic exchanges and cooperation in science and technology",
+        "correct": true,
+        "explanation": "Correct: after normalisation."
+       },
+       {
+        "id": "b",
+        "text": "A military alliance against Taiwan",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "c",
+        "text": "A treaty ending the Korean War",
+        "correct": false,
+        "explanation": "That was an armistice in 1953."
+       },
+       {
+        "id": "d",
+        "text": "China's entry into NATO",
+        "correct": false,
+        "explanation": "Not possible."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-IMPACT-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which country could change sides in the Cold War?",
+      "factIds": [
+       "F-IMP-22",
+       "F-IMP-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "China, which moved from Soviet partner to cooperation with the US",
+        "correct": true,
+        "explanation": "Correct: the GDR could not."
+       },
+       {
+        "id": "b",
+        "text": "The GDR, which joined NATO in 1975",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "c",
+        "text": "Both equally",
+        "correct": false,
+        "explanation": "The GDR was a Soviet outpost."
+       },
+       {
+        "id": "d",
+        "text": "Neither",
+        "correct": false,
+        "explanation": "China did change sides."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-IMPACT-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The GDR still had 360,000 Soviet troops in 1989, and ceased to exist on 3 October 1990.” Which argument does it support best?",
+      "factIds": [
+       "F-IMP-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The GDR depended on Soviet protection for its existence",
+        "correct": true,
+        "explanation": "Correct: unlike China."
+       },
+       {
+        "id": "b",
+        "text": "The GDR was fully independent",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Soviet troops opposed the GDR",
+        "correct": false,
+        "explanation": "They protected it."
+       },
+       {
+        "id": "d",
+        "text": "The GDR outlasted the Cold War",
+        "correct": false,
+        "explanation": "It ended in 1990."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1949,
+      "month": 10,
+      "day": 1,
+      "text": "PRC proclaimed; GDR founded the same year",
+      "factId": "F-IMP-15"
+     },
+     {
+      "year": 1950,
+      "text": "US embargo on China",
+      "factId": "F-IMP-15"
+     },
+     {
+      "year": 1952,
+      "month": 5,
+      "text": "Western treaties; GDR made a full satellite",
+      "factId": "F-IMP-02"
+     },
+     {
+      "year": 1953,
+      "month": 6,
+      "day": 16,
+      "text": "East German uprising begins",
+      "factId": "F-IMP-04"
+     },
+     {
+      "year": 1958,
+      "month": 11,
+      "day": 10,
+      "text": "Khrushchev's Berlin ultimatum",
+      "factId": "F-IMP-07"
+     },
+     {
+      "year": 1960,
+      "text": "Soviet technicians removed from China",
+      "factId": "F-IMP-17"
+     },
+     {
+      "year": 1961,
+      "month": 8,
+      "day": 13,
+      "text": "Berlin Wall built",
+      "factId": "F-IMP-08"
+     },
+     {
+      "year": 1964,
+      "text": "China's first atomic bomb",
+      "factId": "F-IMP-18"
+     },
+     {
+      "year": 1972,
+      "month": 2,
+      "text": "Nixon visits China",
+      "factId": "F-IMP-22"
+     },
+     {
+      "year": 1979,
+      "month": 1,
+      "day": 1,
+      "text": "US-China diplomatic relations",
+      "factId": "F-IMP-23"
+     },
+     {
+      "year": 1989,
+      "month": 11,
+      "day": 9,
+      "text": "Berlin Wall opened",
+      "factId": "F-IMP-08"
+     },
+     {
+      "year": 1990,
+      "month": 10,
+      "day": 3,
+      "text": "GDR ceases to exist",
+      "factId": "F-IMP-13"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Both states born of Cold War divisions in 1949",
+      "factId": "F-IMP-01"
+     },
+     {
+      "id": "n2",
+      "text": "GDR Sovietised; China isolated by the US",
+      "factId": "F-IMP-03"
+     },
+     {
+      "id": "n3",
+      "text": "Uprising and exodus in the GDR; the Wall",
+      "factId": "F-IMP-08"
+     },
+     {
+      "id": "n4",
+      "text": "Sino-Soviet split: China loses Soviet help",
+      "factId": "F-IMP-17"
+     },
+     {
+      "id": "n5",
+      "text": "China turns to the US; GDR depends on Moscow",
+      "factId": "F-IMP-23"
+     },
+     {
+      "id": "n6",
+      "text": "The end of the Cold War ends the GDR",
+      "factId": "F-IMP-13"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Each was placed in a camp"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Repression and shortages drove East Germans west"
+     },
+     {
+      "from": "n2",
+      "to": "n4",
+      "because": "China's dependence on Moscow broke down"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "China could change sides; the GDR could not"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Without Soviet troops, the GDR had no reason to exist"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Walter Ulbricht",
+     "role": "East German leader",
+     "whyItMatters": "Turned the GDR into a satellite; ordered the Wall.",
+     "factIds": [
+      "F-IMP-02",
+      "F-IMP-08"
+     ]
+    },
+    {
+     "name": "Erich Honecker",
+     "role": "East German leader",
+     "whyItMatters": "Boasted of a top-ten economy in 1989; visited Bonn in 1987.",
+     "factIds": [
+      "F-IMP-11",
+      "F-IMP-12"
+     ]
+    },
+    {
+     "name": "The Stasi",
+     "role": "East German security police",
+     "whyItMatters": "Held files on one in three East Germans.",
+     "factIds": [
+      "F-IMP-10"
+     ]
+    },
+    {
+     "name": "Mao Zedong",
+     "role": "Chinese leader",
+     "whyItMatters": "Great Leap Forward; split with Moscow.",
+     "factIds": [
+      "F-IMP-17",
+      "F-IMP-20"
+     ]
+    },
+    {
+     "name": "Deng Xiaoping",
+     "role": "Chinese leader",
+     "whyItMatters": "Visited the US in 1979 after normalisation.",
+     "factIds": [
+      "F-IMP-23"
+     ]
+    },
+    {
+     "name": "Nikita Khrushchev",
+     "role": "Soviet leader",
+     "whyItMatters": "Berlin ultimatum (1958); his split with Mao cost China its technicians.",
+     "factIds": [
+      "F-IMP-07",
+      "F-IMP-17"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "GDR",
+     "China"
+    ],
+    "rows": [
+     {
+      "criterion": "Origins",
+      "cells": [
+       "Created from the Soviet zone of Germany (1949)",
+       "Won a civil war against US-backed Nationalists (1949)"
+      ],
+      "factIds": [
+       "F-IMP-01",
+       "F-IMP-15"
+      ]
+     },
+     {
+      "criterion": "Economic impact",
+      "cells": [
+       "Collectivisation and food shortages (1953)",
+       "Leap Forward, loss of Soviet technicians (1960–61)"
+      ],
+      "factIds": [
+       "F-IMP-03",
+       "F-IMP-17"
+      ]
+     },
+     {
+      "criterion": "Social impact",
+      "cells": [
+       "Stasi: files on one in three",
+       "Campaigns against 'revisionists'"
+      ],
+      "factIds": [
+       "F-IMP-10",
+       "F-IMP-19"
+      ]
+     },
+     {
+      "criterion": "Outcome",
+      "cells": [
+       "Dependent on Soviet troops; ended in 1990",
+       "Changed sides; relations with the US in 1979"
+      ],
+      "factIds": [
+       "F-IMP-13",
+       "F-IMP-23"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-IMP-03",
+    "year": 1953,
+    "text": "'Constructing Socialism': collectivisation, food shortages, suppression of churches, mass emigration.",
+    "supports": [
+     "Sovietisation shaped GDR society"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B1-SOVIET-CONTROL"
+    ],
+    "lexicon": [
+     "GDR",
+     "collectivisation"
+    ]
+   },
+   {
+    "factId": "F-IMP-05",
+    "year": 1953,
+    "text": "June 1953: nearly 300 killed, 1,400 long sentences, 200 shot (Judt).",
+    "supports": [
+     "The regime relied on Soviet force"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B2-PROTEST-TO-1968"
+    ],
+    "lexicon": [
+     "1953 uprising"
+    ]
+   },
+   {
+    "factId": "F-IMP-08",
+    "year": 1961,
+    "text": "13 August 1961: the Berlin Wall stopped emigration and divided families.",
+    "supports": [
+     "The GDR had to wall in its people"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-BERLIN-1958-61"
+    ],
+    "lexicon": [
+     "Berlin Wall"
+    ]
+   },
+   {
+    "factId": "F-IMP-10",
+    "year": 1989,
+    "text": "Stasi: 85,000 staff and over half a million informers; files on one in three.",
+    "supports": [
+     "The Cold War produced a society of informers"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B3-ACCEPTANCE-OPPOSITION"
+    ],
+    "lexicon": [
+     "Stasi"
+    ]
+   },
+   {
+    "factId": "F-IMP-11",
+    "year": 1989,
+    "text": "Honecker's 'top ten economy' boast; Judt: 'bogus data'.",
+    "supports": [
+     "The GDR's economic success was an illusion"
+    ],
+    "lexicon": [
+     "GDR economy"
+    ]
+   },
+   {
+    "factId": "F-IMP-17",
+    "year": 1961,
+    "text": "China 1960–61: Leap Forward and removal of Soviet technicians; growth fell from 33 to 16 per cent.",
+    "supports": [
+     "The split damaged China's economy"
+    ],
+    "alsoWorksFor": [
+     "P2-12-SINO"
+    ],
+    "lexicon": [
+     "Great Leap Forward",
+     "Soviet technicians"
+    ]
+   },
+   {
+    "factId": "F-IMP-21",
+    "year": 1969,
+    "text": "1969: US analysts feared a Soviet strike on China's nuclear sites.",
+    "supports": [
+     "China faced threats from both superpowers"
+    ],
+    "alsoWorksFor": [
+     "P2-12-SINO"
+    ],
+    "lexicon": [
+     "Ussuri"
+    ]
+   },
+   {
+    "factId": "F-IMP-23",
+    "year": 1979,
+    "text": "1 January 1979: US-China relations; agreements on science and academic exchange.",
+    "supports": [
+     "China escaped isolation by changing sides"
+    ],
+    "alsoWorksFor": [
+     "P2-12-SINO"
+    ],
+    "lexicon": [
+     "normalisation"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "The GDR was 'a weak and unloved Communist regime' that Moscow had to shore up; the Stasi's reach meant 'the whole society had in effect been infiltrated'; and the GDR's economic success was largely an illusion built on 'bogus data'.",
+    "useItLikeThis": "Judt's view supports the claim that the GDR existed only because of the Cold War, which suggests its collapse in 1989–90 was the logical result of the Cold War's end.",
+    "factId": "F-IMP-09"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The GDR was one of the world's strongest economies.",
+    "right": "That was **Honecker's boast**; Judt says the regime mainly produced 'bogus data'."
+   },
+   {
+    "wrong": "China stayed a Soviet ally throughout the Cold War.",
+    "right": "After the split China **changed sides**, establishing relations with the US in 1979."
+   },
+   {
+    "wrong": "The Berlin Wall was built to keep Westerners out.",
+    "right": "It was built to **stop East Germans leaving**."
+   },
+   {
+    "wrong": "China's economic crisis of 1960–61 was caused only by the Soviets.",
+    "right": "US analysts blamed both the **Great Leap Forward** and the loss of Soviet technicians."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1949,
+     "text": "GDR and PRC founded"
+    },
+    {
+     "year": 1953,
+     "month": 6,
+     "day": 16,
+     "text": "East German uprising"
+    },
+    {
+     "year": 1960,
+     "text": "Soviet technicians leave China"
+    },
+    {
+     "year": 1961,
+     "month": 8,
+     "day": 13,
+     "text": "Berlin Wall"
+    },
+    {
+     "year": 1964,
+     "text": "Chinese bomb"
+    },
+    {
+     "year": 1972,
+     "month": 2,
+     "text": "Nixon in China"
+    },
+    {
+     "year": 1979,
+     "month": 1,
+     "day": 1,
+     "text": "US-China relations"
+    },
+    {
+     "year": 1990,
+     "month": 10,
+     "day": 3,
+     "text": "GDR ends"
+    }
+   ],
+   "keyArguments": [
+    "The GDR was a Cold War creation: Sovietisation, the 1953 uprising and the Wall.",
+    "Behind the Wall: the Stasi and an illusory economy kept alive by Soviet troops and Western money.",
+    "China was isolated by the US and then lost Soviet help; the economy suffered in 1960–61.",
+    "China used the Cold War triangle to escape isolation; the GDR could not change sides.",
+    "Independence from Moscow decided whether each state survived the Cold War's end."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-IMPACT-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in the history of the GDR in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Western treaties lead Moscow to make the GDR a satellite",
+     "year": 1952,
+     "month": 5,
+     "factId": "F-IMP-02"
+    },
+    {
+     "id": "b",
+     "text": "East German uprising",
+     "year": 1953,
+     "month": 6,
+     "factId": "F-IMP-04"
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev's Berlin ultimatum",
+     "year": 1958,
+     "month": 11,
+     "factId": "F-IMP-07"
+    },
+    {
+     "id": "d",
+     "text": "Berlin Wall built",
+     "year": 1961,
+     "month": 8,
+     "factId": "F-IMP-08"
+    },
+    {
+     "id": "e",
+     "text": "Honecker visits the Federal Republic",
+     "year": 1987,
+     "month": 9,
+     "factId": "F-IMP-12"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in the history of China in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "US embargo begins with the Korean War",
+     "year": 1950,
+     "factId": "F-IMP-15"
+    },
+    {
+     "id": "b",
+     "text": "Taiwan Strait shelling begins",
+     "year": 1954,
+     "month": 9,
+     "factId": "F-IMP-16"
+    },
+    {
+     "id": "c",
+     "text": "Soviet technicians removed",
+     "year": 1960,
+     "factId": "F-IMP-17"
+    },
+    {
+     "id": "d",
+     "text": "China's first atomic bomb",
+     "year": 1964,
+     "factId": "F-IMP-18"
+    },
+    {
+     "id": "e",
+     "text": "US-China relations established",
+     "year": 1979,
+     "month": 1,
+     "factId": "F-IMP-23"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "PRC takes China's UN seat",
+     "year": 1971,
+     "month": 10,
+     "factId": "F-IMP-22"
+    },
+    {
+     "id": "b",
+     "text": "Nixon visits China",
+     "year": 1972,
+     "month": 2,
+     "factId": "F-IMP-22"
+    },
+    {
+     "id": "c",
+     "text": "Berlin Wall opened",
+     "year": 1989,
+     "month": 11,
+     "factId": "F-IMP-08"
+    },
+    {
+     "id": "d",
+     "text": "GDR ceases to exist",
+     "year": 1990,
+     "month": 10,
+     "factId": "F-IMP-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each term to its meaning.",
+   "pairs": [
+    {
+     "left": "Constructing Socialism",
+     "right": "The GDR's drive for collectivisation and heavy industry from 1952",
+     "explanation": "Caused food shortages."
+    },
+    {
+     "left": "Eisenhower packages",
+     "right": "US food parcels for East Germans in 1953",
+     "explanation": "Over 5 million distributed."
+    },
+    {
+     "left": "Great Leap Forward",
+     "right": "Mao's programme whose dislocations damaged China's economy",
+     "explanation": "With the loss of Soviet help."
+    },
+    {
+     "left": "Stasi",
+     "right": "The GDR's security police",
+     "explanation": "Files on one in three people."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many full-time employees did the Stasi have, according to Judt? (number)",
+   "factIds": [
+    "F-IMP-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 85000,
+     "tolerance": 1000,
+     "explanation": "85,000, plus hundreds of thousands of informers."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many million dollars of food did the US distribute to East Germans in 1953? (number)",
+   "factIds": [
+    "F-IMP-06"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 15,
+     "tolerance": 0,
+     "explanation": "$15 million, in over 5 million packages."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By how many million had China's population grown between 1957 and 1960, according to the 1961 US estimate? (number)",
+   "factIds": [
+    "F-IMP-17"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 50,
+     "tolerance": 0,
+     "explanation": "About 50 million more people to feed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of East German dwellings had no central heating in 1990, according to Judt? (more than ... per cent)",
+   "factIds": [
+    "F-IMP-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 60,
+     "tolerance": 0,
+     "explanation": "More than 60 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were part of the Cold War's impact on the GDR? Choose all that apply.",
+   "factIds": [
+    "F-IMP-03",
+    "F-IMP-08",
+    "F-IMP-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Forced collectivisation and food shortages",
+     "correct": true,
+     "explanation": "Yes: 'Constructing Socialism'."
+    },
+    {
+     "id": "b",
+     "text": "The Berlin Wall dividing families",
+     "correct": true,
+     "explanation": "Yes: from 1961."
+    },
+    {
+     "id": "c",
+     "text": "A vast network of Stasi informers",
+     "correct": true,
+     "explanation": "Yes: over half a million part-time."
+    },
+    {
+     "id": "d",
+     "text": "Membership of NATO",
+     "correct": false,
+     "explanation": "No: the GDR was in the Warsaw Pact."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these hurt China's economy around 1960–61, according to US analysts? Choose all that apply.",
+   "factIds": [
+    "F-IMP-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The dislocations of the Great Leap Forward",
+     "correct": true,
+     "explanation": "Yes: Mao's own policy."
+    },
+    {
+     "id": "b",
+     "text": "The removal of Soviet technicians",
+     "correct": true,
+     "explanation": "Yes: after the split."
+    },
+    {
+     "id": "c",
+     "text": "Two years of bad weather",
+     "correct": true,
+     "explanation": "Yes: the estimate mentions unfavourable weather."
+    },
+    {
+     "id": "d",
+     "text": "Marshall Plan aid",
+     "correct": false,
+     "explanation": "No: China received none."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Stasi held files on 6 million people, one in three of the population.” Which argument does it support?",
+   "factIds": [
+    "F-IMP-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Cold War state penetrated every part of East German society",
+     "correct": true,
+     "explanation": "Correct: 'the whole society had been infiltrated'."
+    },
+    {
+     "id": "b",
+     "text": "East Germans were free from surveillance",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The Stasi was small",
+     "correct": false,
+     "explanation": "It was vast."
+    },
+    {
+     "id": "d",
+     "text": "Only dissidents were watched",
+     "correct": false,
+     "explanation": "One in three had a file."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “China planned to import nearly three million tons of grain in 1961 at a cost of about $200 million.” Which argument does it support?",
+   "factIds": [
+    "F-IMP-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "China faced a severe food crisis in the early 1960s",
+     "correct": true,
+     "explanation": "Correct: the worst since 1949."
+    },
+    {
+     "id": "b",
+     "text": "China was exporting food in 1961",
+     "correct": false,
+     "explanation": "It was importing."
+    },
+    {
+     "id": "c",
+     "text": "China's economy was booming in 1961",
+     "correct": false,
+     "explanation": "Growth had fallen."
+    },
+    {
+     "id": "d",
+     "text": "The US supplied China's food",
+     "correct": false,
+     "explanation": "The estimate says Peiping would refuse US food."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Berlin Wall was built in 1961 to stop West Germans entering the GDR.”",
+   "factIds": [
+    "F-IMP-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was built to stop East Germans leaving",
+     "correct": true,
+     "explanation": "Correct: the flow of migrants was the problem."
+    },
+    {
+     "id": "b",
+     "text": "It was built in 1971",
+     "correct": false,
+     "explanation": "It was built on 13 August 1961."
+    },
+    {
+     "id": "c",
+     "text": "It was built by the US",
+     "correct": false,
+     "explanation": "It was built on Ulbricht's orders."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the purpose is reversed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “China remained the Soviet Union's closest ally until 1979.”",
+   "factIds": [
+    "F-IMP-17",
+    "F-IMP-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Sino-Soviet split began around 1960, and by 1969 the two had fought border clashes",
+     "correct": true,
+     "explanation": "Correct: China turned to the US."
+    },
+    {
+     "id": "b",
+     "text": "China was never Communist",
+     "correct": false,
+     "explanation": "It was Communist from 1949."
+    },
+    {
+     "id": "c",
+     "text": "China joined the Warsaw Pact in 1979",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the split came much earlier."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the impact of Cold War tensions on the GDR between 1949 and 1989. Is the GDR's accession to the Federal Republic on 3 October 1990 inside or outside the timeframe?",
+   "factIds": [
+    "F-IMP-13"
+   ],
+   "timeframe": [
+    1949,
+    1989
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as the outcome",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1989."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1990 is after 1989."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because the Wall fell in 1989",
+     "correct": false,
+     "explanation": "The Wall's fall is inside; accession is not."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did the US hand out food to East Germans in 1953?",
+   "factIds": [
+    "F-IMP-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "For humanitarian relief and to destabilise Ulbricht's regime",
+     "correct": true,
+     "explanation": "Correct: the 'Eisenhower packages'."
+    },
+    {
+     "id": "b",
+     "text": "To support Ulbricht",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Because the USSR asked it to",
+     "correct": false,
+     "explanation": "Not the reason."
+    },
+    {
+     "id": "d",
+     "text": "To end the Korean War",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did the 1952 Western treaties affect the GDR?",
+   "factIds": [
+    "F-IMP-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Moscow and Ulbricht decided to turn the GDR into a full Soviet satellite",
+     "correct": true,
+     "explanation": "Correct: 'Constructing Socialism' followed."
+    },
+    {
+     "id": "b",
+     "text": "The GDR joined NATO",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "Germany was reunified",
+     "correct": false,
+     "explanation": "Not until 1990."
+    },
+    {
+     "id": "d",
+     "text": "Soviet troops left",
+     "correct": false,
+     "explanation": "They stayed until after 1990."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Judt say about the GDR's economy as presented in 1989?",
+   "factIds": [
+    "F-IMP-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The regime was efficient mainly in producing bogus data",
+     "correct": true,
+     "explanation": "Correct: Honecker's boast was believed by many."
+    },
+    {
+     "id": "b",
+     "text": "It was truly one of the world's top ten",
+     "correct": false,
+     "explanation": "That was Honecker's claim."
+    },
+    {
+     "id": "c",
+     "text": "It was bigger than West Germany's",
+     "correct": false,
+     "explanation": "Not what Judt says."
+    },
+    {
+     "id": "d",
+     "text": "It had no Soviet troops",
+     "correct": false,
+     "explanation": "There were 360,000."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did the West German government treat the GDR in the 1980s?",
+   "factIds": [
+    "F-IMP-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It continued subsidies but gave no support to the GDR's internal opposition",
+     "correct": true,
+     "explanation": "Correct: Judt's account."
+    },
+    {
+     "id": "b",
+     "text": "It cut off all contact",
+     "correct": false,
+     "explanation": "Honecker visited in 1987."
+    },
+    {
+     "id": "c",
+     "text": "It armed East German dissidents",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "It invaded the GDR",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R20",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did Honecker become the first East German leader to visit the Federal Republic? (year)",
+   "factIds": [
+    "F-IMP-12"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1987,
+     "tolerance": 0,
+     "explanation": "1987, in September."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-IMPACT-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the GDR's economic weakness a result of Cold War tensions between 1949 and 1989?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Cold War tensions",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the GDR's economic weakness",
+     "answer": "scope",
+     "explanation": "What must be explained."
+    },
+    {
+     "id": "s4",
+     "text": "between 1949 and 1989",
+     "answer": "timeframe",
+     "explanation": "The whole life of the GDR to the fall of the Wall."
+    },
+    {
+     "id": "s5",
+     "text": "a result of",
+     "answer": "judgement",
+     "explanation": "Whether the Cold War, or the planned economy itself, caused the weakness."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the impact of Cold War tensions on the GDR and China between 1949 and 1979.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "the GDR and China",
+     "answer": "factor",
+     "explanation": "Two countries from two regions."
+    },
+    {
+     "id": "s3",
+     "text": "the impact of Cold War tensions",
+     "answer": "scope",
+     "explanation": "What must be compared."
+    },
+    {
+     "id": "s4",
+     "text": "between 1949 and 1979",
+     "answer": "timeframe",
+     "explanation": "From their founding to US-China normalisation."
+    },
+    {
+     "id": "s5",
+     "text": "impact",
+     "answer": "judgement",
+     "explanation": "Which difference mattered most."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the impact of Cold War tensions on the GDR and China between 1949 and 1979.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Both states were shaped economically and socially by the Cold War, but China's independence let it change sides and escape isolation, whereas the GDR remained a Soviet outpost that walled in its own people.",
+     "correct": true,
+     "explanation": "Correct: similarities and the decisive difference."
+    },
+    {
+     "id": "b",
+     "text": "The GDR and China were both Communist.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Cold War affected both.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Cold War affected them in exactly the same way.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the economic impact of the Cold War on China between 1949 and 1979.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Cold War cut China off first from Western trade and then from Soviet help, deepening an economic crisis that the Great Leap Forward had begun; only after 1979 did it bring access to Western science and exchanges.",
+     "correct": true,
+     "explanation": "Correct: phases and connections."
+    },
+    {
+     "id": "b",
+     "text": "China's economy changed.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "c",
+     "text": "China became rich in 1950.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    },
+    {
+     "id": "d",
+     "text": "The Cold War had no economic impact on China.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 13 August 1961 a barbed-wire fence went up across Berlin.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the GDR was losing its workforce through Berlin, the regime could survive only by closing the border.",
+     "answer": "analysis",
+     "explanation": "Explains a cause."
+    },
+    {
+     "id": "s3",
+     "text": "In 1960 Soviet technicians were removed from China.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that China lost its main source of industrial expertise, so growth fell sharply.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Food shortages after collectivisation in 1953",
+     "right": "Sovietisation damaged the GDR's economy",
+     "explanation": "Constructing Socialism."
+    },
+    {
+     "left": "Stasi files on one in three",
+     "right": "The GDR became a society of informers",
+     "explanation": "Judt."
+    },
+    {
+     "left": "Industrial growth down from 33 to 16 per cent",
+     "right": "The split damaged China's economy",
+     "explanation": "1959–60."
+    },
+    {
+     "left": "Academic and scientific agreements in 1979",
+     "right": "China gained from changing sides",
+     "explanation": "After normalisation."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Cold War was bad for East Germany.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the GDR existed as the Soviet bloc's front line, it was Sovietised by force, suffered food shortages and mass emigration, and survived only by building the Wall and a Stasi that held files on one in three citizens.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and consequence."
+    },
+    {
+     "id": "b",
+     "text": "The Cold War was very bad for East Germany.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "East Germany existed from 1949.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The Cold War destroyed everything in East Germany.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Cold War alone caused China's economic crisis of 1960–61.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "US analysts in 1961 blamed the dislocations of Mao's own Great Leap Forward and two years of bad weather, as well as the removal of Soviet technicians, so domestic policy was a major cause.",
+     "correct": true,
+     "explanation": "Correct: specific evidence of other causes."
+    },
+    {
+     "id": "b",
+     "text": "China is very large.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "c",
+     "text": "Mao was popular.",
+     "correct": false,
+     "explanation": "Not an argument about the economy."
+    },
+    {
+     "id": "d",
+     "text": "The Cold War was in Europe.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that China gained more than it lost from the Cold War with reference to the period 1949 to 1979.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by its position in 1979, China gained, since it had a seat at the UN and relations with the US; judged by the cost of the 1950s and 1960s, it lost heavily, through war, isolation and economic crisis.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, China was in the Cold War.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, China gained and lost.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, everyone loses in war.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes and consequences of the Sino-Soviet split for China between 1958 and 1969.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Soviet refusal to help China build nuclear weapons",
+     "answer": "causes",
+     "explanation": "Late 1950s."
+    },
+    {
+     "id": "s2",
+     "text": "Mao's ideological rivalry with Moscow",
+     "answer": "causes",
+     "explanation": "His 'ideological pretensions'."
+    },
+    {
+     "id": "s3",
+     "text": "The removal of Soviet technicians",
+     "answer": "effects",
+     "explanation": "Industrial growth fell."
+    },
+    {
+     "id": "s4",
+     "text": "China's own atomic bomb in 1964",
+     "answer": "effects",
+     "explanation": "Self-reliance."
+    },
+    {
+     "id": "s5",
+     "text": "Fear of a Soviet strike in 1969",
+     "answer": "effects",
+     "explanation": "After the Ussuri clashes."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-IMPACT-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the GDR's economic weakness a result of Cold War tensions between 1949 and 1989?",
+   "commandTerm": "to what extent",
+   "namedFactor": "Cold War tensions",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1949,
+    1989
+   ],
+   "scope": "the GDR",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Cold War tensions, weighed first",
+    "timeframe": "1949–1989",
+    "scope": "The GDR's economic weakness",
+    "judgement": "Whether the Cold War, or the planned economy itself, caused the weakness"
+   },
+   "modelPlan": {
+    "thesis": "Cold War tensions created the GDR's economic system and drained its workforce, but the Soviet-style planned economy itself was the deeper cause, and Western subsidies and bogus data concealed the weakness until 1989.",
+    "arguments": [
+     {
+      "claim": "Cold War origins: the 1952 decision to Sovietise (named factor first).",
+      "evidence": [
+       "F-IMP-02",
+       "F-IMP-03"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Emigration and the Wall.",
+      "evidence": [
+       "F-IMP-07",
+       "F-IMP-08"
+      ]
+     },
+     {
+      "claim": "Illusion: bogus data and West German subsidies.",
+      "evidence": [
+       "F-IMP-11",
+       "F-IMP-12"
+      ]
+     },
+     {
+      "claim": "The reality: decrepit housing.",
+      "evidence": [
+       "F-IMP-14"
+      ]
+     }
+    ],
+    "counter": "Collectivisation and central planning were choices of the regime, which Moscow at times tried to moderate.",
+    "judgementCriterion": "Would the GDR's economy have been weak without the Cold War? The question is hard to answer, because without the Cold War the GDR would not have existed."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Cold War tensions created the GDR's economic weakness by imposing a Soviet system and draining its workforce.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After the Western treaties of 1952 the GDR was forcibly collectivised, causing food shortages, and until 1961 its people emigrated through West Berlin.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the GDR lost skilled workers and suffered the inefficiencies of central planning, so its economy lagged behind West Germany's.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the planned economy was itself a cause, and West German subsidies and 'bogus data' hid the weakness until 1989.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Cold War tensions were therefore the root of the GDR's weakness, because they produced both the system and the state.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Cold War",
+     "tensions"
+    ],
+    "synonyms": [
+     "Sovietisation",
+     "division"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "collectivisation",
+     "emigration",
+     "subsidies"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-IMPACT-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“China gained more than it lost from the Cold War.” Discuss with reference to the period 1949 to 1979.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1949,
+    1979
+   ],
+   "scope": "China",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: China gained more than it lost",
+    "timeframe": "1949–1979",
+    "scope": "China",
+    "judgement": "Gains against losses, and by what criterion"
+   },
+   "modelPlan": {
+    "thesis": "China lost heavily in the 1950s and 1960s through war, isolation and the loss of Soviet help, but by 1979 it had used the Cold War triangle to gain a UN seat, US recognition and access to Western science, so the claim holds only for the end of the period.",
+    "arguments": [
+     {
+      "claim": "Against: isolation and the US embargo.",
+      "evidence": [
+       "F-IMP-15",
+       "F-IMP-16"
+      ]
+     },
+     {
+      "claim": "Against: the economic crisis of 1960–61.",
+      "evidence": [
+       "F-IMP-17"
+      ]
+     },
+     {
+      "claim": "For: the UN seat and Nixon's visit.",
+      "evidence": [
+       "F-IMP-22"
+      ]
+     },
+     {
+      "claim": "For: normalisation and exchanges in 1979.",
+      "evidence": [
+       "F-IMP-23"
+      ]
+     }
+    ],
+    "counter": "China's own policies, such as the Great Leap Forward, caused much of its loss, not the Cold War.",
+    "judgementCriterion": "By what criterion? Position in 1979 shows gain; cost over thirty years shows loss."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "China lost more than it gained from the Cold War for most of the period, but gained by its end.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The US embargo from 1950 and the removal of Soviet technicians around 1960 cut China off from both camps, and industrial growth fell from 33 to 16 per cent.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that China paid a heavy price for its position between the superpowers, so it faced its worst crisis since 1949.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, by 1979 China had the UN seat, relations with the US and agreements on science and academic exchange.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid only for the end of the period, when China turned Cold War rivalry to its advantage.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "gained",
+     "lost"
+    ],
+    "synonyms": [
+     "China",
+     "isolation",
+     "triangle"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "embargo",
+     "Soviet technicians",
+     "normalisation"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-IMPACT-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the impact of Cold War tensions on the GDR and China between 1949 and 1979.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1949,
+    1979
+   ],
+   "scope": "the GDR and China",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "Two countries from two regions",
+    "timeframe": "1949–1979",
+    "scope": "The impact of Cold War tensions",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both states were shaped economically and socially by the Cold War, but China's independence let it change sides and escape isolation, whereas the GDR remained a Soviet outpost that walled in its own people.",
+    "arguments": [
+     {
+      "claim": "Similarity: both born of Cold War divisions in 1949.",
+      "evidence": [
+       "F-IMP-01",
+       "F-IMP-15"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: economic damage from Soviet-style planning.",
+      "evidence": [
+       "F-IMP-03",
+       "F-IMP-17"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: emigration and the Wall in the GDR.",
+      "evidence": [
+       "F-IMP-07",
+       "F-IMP-08"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: China could change sides.",
+      "evidence": [
+       "F-IMP-22",
+       "F-IMP-23"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Both regimes used Cold War tension to justify repression, so their societies were affected in similar ways.",
+    "judgementCriterion": "Which difference mattered most? Independence: China could change camps, the GDR could not."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Cold War shaped both the GDR and China, but in very different ways.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Both suffered from Soviet-style planning, with food shortages in the GDR in 1953 and a deep crisis in China in 1960–61, whereas only the GDR had to build a Wall in 1961 to stop its people leaving.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the GDR's central problem was its direct comparison with West Germany, while China's was isolation from both superpowers.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, China escaped isolation by changing sides, establishing relations with the US in 1979, which the GDR could never do.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore independence from Moscow, which decided each state's fate.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "GDR",
+     "China"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Berlin Wall",
+     "Great Leap Forward",
+     "normalisation"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-IMPACT-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the social impact of the Cold War on the GDR between 1949 and 1989.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1949,
+    1989
+   ],
+   "scope": "the GDR",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The social impact",
+    "timeframe": "1949–1989",
+    "scope": "The GDR",
+    "judgement": "Which impact was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The Cold War's social impact on the GDR was severe: repression, mass emigration, divided families and a society penetrated by the Stasi; the Wall brought stability only by trapping the population.",
+    "arguments": [
+     {
+      "claim": "Repression and the 1953 uprising.",
+      "evidence": [
+       "F-IMP-03",
+       "F-IMP-05"
+      ]
+     },
+     {
+      "claim": "Emigration and the Wall.",
+      "evidence": [
+       "F-IMP-07",
+       "F-IMP-08"
+      ]
+     },
+     {
+      "claim": "The Stasi and a society of informers.",
+      "evidence": [
+       "F-IMP-10"
+      ]
+     },
+     {
+      "claim": "Living conditions behind the illusion.",
+      "evidence": [
+       "F-IMP-11",
+       "F-IMP-14"
+      ]
+     }
+    ],
+    "counter": "The Wall gave the regime stability after 1961, and détente brought recognition and contacts with the West.",
+    "judgementCriterion": "Which impact was most significant? Surveillance, because it reached into every family."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Cold War's most significant social impact on the GDR was the penetration of society by the Stasi.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Stasi had 85,000 staff and over half a million part-time informers, and held files on one in three East Germans.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the regime, unable to win consent after 1953 and walled in after 1961, controlled its people through fear and suspicion.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Wall also brought a stability that allowed the regime to win international recognition through Ostpolitik.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Cold War therefore produced a society that was stable on the surface but, in Judt's words, 'infiltrated, atomized and polluted'.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "social"
+    ],
+    "synonyms": [
+     "Stasi",
+     "emigration",
+     "Wall"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "informers",
+     "families",
+     "repression"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-IMPACT-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the causes and consequences of the Sino-Soviet split for China between 1958 and 1969.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1958,
+    1969
+   ],
+   "scope": "China",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1958–1969",
+    "scope": "The Sino-Soviet split, for China",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The split grew from rivalry for leadership and Soviet refusal of nuclear help; for China its consequences were economic damage, self-reliance including a bomb, domestic radicalism and, by 1969, fear of Soviet attack.",
+    "arguments": [
+     {
+      "claim": "Cause: Mao's ideological rivalry.",
+      "evidence": [
+       "F-IMP-20"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: Soviet refusal of nuclear help (see P2-12-SINO).",
+      "evidence": [
+       "F-IMP-18"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: loss of Soviet technicians and economic crisis.",
+      "evidence": [
+       "F-IMP-17"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: radicalism and fear of attack.",
+      "evidence": [
+       "F-IMP-19",
+       "F-IMP-21"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "The Great Leap Forward caused much of the economic damage independently of the split.",
+    "judgementCriterion": "Which consequence lasted longest? China's search for a new partner, which led to the US."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "For China, the split's most important consequence was the loss of its only great-power partner.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1961 US analysts reported that the removal of Soviet technicians, with the Great Leap Forward, had cut industrial growth from 33 to 16 per cent.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that China had to rely on itself, building its own atomic bomb in 1964, while the split fed campaigns against 'revisionists' at home.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Great Leap Forward was Mao's own policy, so the split was not the only cause of China's crisis.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The split therefore pushed China towards self-reliance, radicalism and, by 1969, fear of a Soviet attack that would lead it to the US.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Sino-Soviet split"
+    ],
+    "synonyms": [
+     "split",
+     "Soviet technicians"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Great Leap Forward",
+     "atomic bomb",
+     "Ussuri"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-IMPACT-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the economic impact of the Cold War on China between 1949 and 1979.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1949,
+    1979
+   ],
+   "scope": "China",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The economic impact",
+    "timeframe": "1949–1979",
+    "scope": "China",
+    "judgement": "How each phase of the Cold War affected China's economy"
+   },
+   "modelPlan": {
+    "thesis": "The Cold War cut China off first from Western trade and then from Soviet help, deepening an economic crisis that the Great Leap Forward had begun; only after 1979 did it bring access to Western science and exchanges.",
+    "arguments": [
+     {
+      "claim": "The US embargo from 1950.",
+      "evidence": [
+       "F-IMP-15"
+      ]
+     },
+     {
+      "claim": "The loss of Soviet technicians.",
+      "evidence": [
+       "F-IMP-17"
+      ]
+     },
+     {
+      "claim": "Self-reliance and the bomb.",
+      "evidence": [
+       "F-IMP-18"
+      ]
+     },
+     {
+      "claim": "Normalisation and exchanges.",
+      "evidence": [
+       "F-IMP-23"
+      ]
+     }
+    ],
+    "counter": "Domestic policy, especially the Great Leap Forward, shaped China's economy as much as the Cold War did.",
+    "judgementCriterion": "How did the phases connect? Isolation from the West made Soviet help vital, so its loss in 1960 was all the more damaging."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Cold War damaged China's economy by cutting it off first from the West and then from the USSR.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The US embargo dated from the Korean War, and in 1960 Soviet technicians were removed, so industrial growth fell from 33 to 16 per cent.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that China, having relied on Soviet expertise because the West was closed to it, faced its worst crisis since 1949.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Great Leap Forward and bad weather also caused the crisis, as US analysts noted in 1961.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Cold War therefore deepened China's economic problems until 1979, when changing sides brought new access to Western science.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic"
+    ],
+    "synonyms": [
+     "economy",
+     "industry",
+     "embargo"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Great Leap Forward",
+     "Soviet technicians",
+     "normalisation"
+    ]
+   }
+  }
+ ]
+}

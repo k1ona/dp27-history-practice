@@ -1,0 +1,2817 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-CRISIS-KOREA",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In January 1950 the US did not treat Korea as vital. By 1953 it had fought a three-year war there, against China as well as North Korea, and the war had ended where it began, at the 38th parallel. Why did a war that changed no borders change the whole Cold War?",
+   "predictionPrompt": "Your prediction in one line: what was the Korean War's most important consequence?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Origins: a divided peninsula, 1945–1950",
+    "body": "Korea was divided by the Cold War before it was fought over. During the Second World War the United States and the Soviet Union agreed to divide the peninsula temporarily at the **38th parallel** to oversee the surrender and removal of Japanese forces. Neither superpower would then let its Korean ally be absorbed by the other. The Soviets backed the Communist leader **Kim Il Sung** in the North, the Democratic People's Republic of Korea; the Americans backed **Syngman Rhee** in the South, the Republic of Korea.\n\nYet the US did not treat Korea as vital. It left Korea out of the core of its defensive strategy in East Asia, and American forces withdrew from the South in the late 1940s. Kim drew his conclusion: the US, he assumed, did not consider South Korea worth fighting for. On **25 June 1950** the North Korean army launched a coordinated attack across the 38th parallel, aiming to conquer the South and unify Korea under Communist rule.\n\nWho was responsible? Kim launched the attack, but Tony Judt calls Stalin's support for it \"his most serious miscalculation of all\". The context mattered too. The Communist victory in China in 1949 and the first Soviet atomic test had shaken Washington, and the National Security Council had just completed **NSC-68**, which described a Soviet Union bent on world domination and called for a massive military build-up.\n\nWashington read the invasion through that lens. Truman, concerned that the Soviet Union and Communist China might have encouraged the attack, committed American air, naval and ground forces to a United Nations force to defend the South, under General **Douglas MacArthur**. Americans and West Europeans, Judt writes, drew the \"erroneous\" conclusion that Korea was a diversion or a prelude, and that Germany would be next.\n\nThis mattered because a local war of unification was interpreted as a test of containment, which meant that a peninsula the US had not considered vital became a battleground of the global Cold War.",
+    "argumentsThatWork": [
+     {
+      "claim": "The superpowers' division of Korea created two rival regimes.",
+      "evidence": [
+       "F-KOR-01"
+      ],
+      "strongestCounter": "The war was also a Korean civil war over unification."
+     },
+     {
+      "claim": "American signals of disengagement encouraged Kim to attack.",
+      "evidence": [
+       "F-KOR-01"
+      ],
+      "strongestCounter": "Kim's aim was unification, which both Korean regimes wanted."
+     },
+     {
+      "claim": "Stalin's support was a miscalculation that globalised the conflict.",
+      "evidence": [
+       "F-KOR-03",
+       "F-KOR-02"
+      ],
+      "strongestCounter": "The West misread the invasion as a prelude to an attack on Europe."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the causes and consequences of the Korean War (1950–1953).",
+     "Compare and contrast the roles of the United States and China in the Korean War between 1950 and 1953."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Korean War was caused by the division of Korea combined with Kim's belief that the US would not defend the South.",
+     "prove": "The superpowers had divided Korea at the 38th parallel, and after US forces withdrew in the late 1940s Kim attacked on 25 June 1950.",
+     "explain": "This meant that a war for unification began, but because Washington believed the USSR and China were behind it, it became a Cold War conflict.",
+     "test": "However, Judt argues that Stalin's support for the invasion was his 'most serious miscalculation', so the Soviet role turned a local war into a global crisis.",
+     "judge": "The war's causes were therefore Korean in origin but Cold War in their consequences."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why was Korea divided at the 38th parallel?",
+      "factIds": [
+       "F-KOR-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The US and USSR agreed in the war to divide it temporarily to remove Japanese forces",
+        "correct": true,
+        "explanation": "Correct: neither then let its ally be absorbed."
+       },
+       {
+        "id": "b",
+        "text": "The UN divided it in 1953",
+        "correct": false,
+        "explanation": "The armistice kept the division."
+       },
+       {
+        "id": "c",
+        "text": "China divided it in 1949",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "d",
+        "text": "Korea chose to divide itself",
+        "correct": false,
+        "explanation": "The superpowers divided it."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Kim Il Sung assume before attacking in June 1950?",
+      "factIds": [
+       "F-KOR-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That the US did not consider South Korea of vital interest",
+        "correct": true,
+        "explanation": "Correct: US forces had withdrawn."
+       },
+       {
+        "id": "b",
+        "text": "That China would attack Japan",
+        "correct": false,
+        "explanation": "Not his assumption."
+       },
+       {
+        "id": "c",
+        "text": "That the UN supported him",
+        "correct": false,
+        "explanation": "The UN backed the South."
+       },
+       {
+        "id": "d",
+        "text": "That the USSR would oppose him",
+        "correct": false,
+        "explanation": "Stalin supported the invasion."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt calls Stalin's support for Kim's invasion 'his most serious miscalculation of all'.” Which argument does it support best?",
+      "factIds": [
+       "F-KOR-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The invasion backfired on the USSR by provoking Western rearmament",
+        "correct": true,
+        "explanation": "Correct: the West concluded Germany would be next."
+       },
+       {
+        "id": "b",
+        "text": "Stalin opposed the invasion",
+        "correct": false,
+        "explanation": "He supported it."
+       },
+       {
+        "id": "c",
+        "text": "The invasion was a Soviet success",
+        "correct": false,
+        "explanation": "Judt calls it a miscalculation."
+       },
+       {
+        "id": "d",
+        "text": "Korea had nothing to do with the Cold War",
+        "correct": false,
+        "explanation": "It became central to it."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "War of movement, June–December 1950",
+    "body": "The first months were a war of rapid movement up and down the peninsula. The North Korean attack drove the defenders back to a narrow perimeter around the port of **Pusan** in the far south. Once the front stabilised there, MacArthur struck. In September 1950 he made a surprise amphibious landing at **Inchon**, far behind North Korean lines, and the North Koreans retreated behind the 38th parallel.\n\nThe UN had now achieved its original aim: the South was saved. But in October the United Nations, urged by the United States, approved sending UN forces across the 38th parallel to unify Korea under a non-Communist government. Containment had become rollback. The Chinese government issued warnings, but UN forces advanced towards the **Yalu River**, Korea's border with Manchuria. MacArthur discounted the first Chinese attacks in late October and ordered an offensive to reach the Yalu.\n\nIn late November China attacked in full strength. The UN forces were driven back in disarray south of the 38th parallel, and Communist forces seized the South Korean capital, Seoul. American and Chinese soldiers were now fighting each other directly.\n\nChina had its own reasons to fight. At the start of the war the US had sent its Seventh Fleet into the Taiwan Strait to stop the conflict spreading south, which also blocked a Communist invasion of Taiwan. The Chinese moved the troops they had gathered for that invasion to the Korean front. An American army approaching China's border, from a power that protected its civil-war enemy on Taiwan, looked like a direct threat.\n\nThis mattered because the decision to cross the 38th parallel turned a successful defence into a wider war, which meant that the US was now fighting the People's Republic of China.",
+    "argumentsThatWork": [
+     {
+      "claim": "Inchon reversed the war and saved the South.",
+      "evidence": [
+       "F-KOR-04"
+      ],
+      "strongestCounter": "The North had almost conquered the peninsula first."
+     },
+     {
+      "claim": "Crossing the 38th parallel turned containment into rollback.",
+      "evidence": [
+       "F-KOR-05"
+      ],
+      "strongestCounter": "The UN, not only the US, approved it."
+     },
+     {
+      "claim": "China intervened when UN forces approached its border.",
+      "evidence": [
+       "F-KOR-05",
+       "F-KOR-10"
+      ],
+      "strongestCounter": "China had issued warnings that MacArthur discounted."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the decision to cross the 38th parallel the main reason for Chinese intervention in the Korean War in 1950?",
+     "Compare and contrast the roles of the United States and China in the Korean War between 1950 and 1953."
+    ],
+    "useItInAnEssay": {
+     "claim": "The decision to cross the 38th parallel was the main reason for Chinese intervention, because it brought an American-led army to China's border.",
+     "prove": "In October 1950 the UN, urged by the US, approved crossing the parallel to unify Korea, and despite Chinese warnings UN forces advanced towards the Yalu.",
+     "explain": "This meant that China faced a hostile army on the border of Manchuria, so in late November it attacked in full strength and retook Seoul.",
+     "test": "However, China already saw the US as a threat, since the Seventh Fleet had blocked its planned invasion of Taiwan in June 1950.",
+     "judge": "Crossing the parallel was therefore the trigger, while the wider US threat to China explains why the warning was serious."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened at Inchon in September 1950?",
+      "factIds": [
+       "F-KOR-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "MacArthur's amphibious landing behind North Korean lines",
+        "correct": true,
+        "explanation": "Correct: the North Koreans retreated."
+       },
+       {
+        "id": "b",
+        "text": "China entered the war",
+        "correct": false,
+        "explanation": "That was in October–November."
+       },
+       {
+        "id": "c",
+        "text": "The armistice was signed",
+        "correct": false,
+        "explanation": "That was in 1953."
+       },
+       {
+        "id": "d",
+        "text": "MacArthur was dismissed",
+        "correct": false,
+        "explanation": "That was in April 1951."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the UN approve in October 1950?",
+      "factIds": [
+       "F-KOR-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Crossing the 38th parallel to unify Korea under a non-Communist government",
+        "correct": true,
+        "explanation": "Correct: urged by the US."
+       },
+       {
+        "id": "b",
+        "text": "A ceasefire at the 38th parallel",
+        "correct": false,
+        "explanation": "Not in 1950."
+       },
+       {
+        "id": "c",
+        "text": "Recognition of the PRC",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "d",
+        "text": "Withdrawal from Korea",
+        "correct": false,
+        "explanation": "The opposite."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In spite of warnings issued by the Chinese Government, UN forces moved toward the Yalu River.” Which argument does it support best?",
+      "factIds": [
+       "F-KOR-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The US misjudged Chinese intentions",
+        "correct": true,
+        "explanation": "Correct: MacArthur discounted the first attacks too."
+       },
+       {
+        "id": "b",
+        "text": "China gave no warning",
+        "correct": false,
+        "explanation": "It did warn."
+       },
+       {
+        "id": "c",
+        "text": "The Yalu was in South Korea",
+        "correct": false,
+        "explanation": "It is the border with Manchuria."
+       },
+       {
+        "id": "d",
+        "text": "China wanted to join the UN force",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "Limited war and stalemate, 1951–1953",
+    "body": "In early 1951 the Chinese offensive lost momentum. UN forces, revived under General Matthew Ridgway, retook Seoul and pushed back to the 38th parallel. From July 1951 the front barely moved, and the war became a **stalemate**. The Truman administration abandoned the aim of reuniting Korea and settled for limited goals, to avoid a third world war involving China and the Soviet Union.\n\nNot everyone accepted limits. General MacArthur publicly challenged the administration's conduct of the war. Truman concluded that MacArthur was \"unable to give his wholehearted support to the policies of the United States Government\" and relieved him of his command in April 1951. The principle that civilian leaders, not generals, decided how far a war would go was reaffirmed.\n\nThe nuclear question hung over the war. Truman deployed B-29 bombers to signal American resolve. In 1953 President Eisenhower considered using the threat of nuclear weapons to push the ceasefire talks forward, but rejected the idea. Eisenhower had promised during his election campaign to go to Korea, and he did so on 2 December 1952. He concluded that \"we could not stand forever on a static front and continue to accept casualties without any visible results.\" He sought an end through a combination of diplomacy and \"military muscle-flexing\".\n\nThe **armistice** was signed on **27 July 1953**. It ended organised combat but left Korea divided much as it had been since 1945, near the 38th parallel. In 1953 the United States signed a mutual security treaty with South Korea to protect it from the North.\n\nThis mattered because both sides accepted a war with limited aims, which meant that the Cold War's first major hot war ended in a draw rather than escalating into a world war.",
+    "argumentsThatWork": [
+     {
+      "claim": "Truman chose limited war to avoid a world war.",
+      "evidence": [
+       "F-KOR-06"
+      ],
+      "strongestCounter": "MacArthur and others wanted to widen the war."
+     },
+     {
+      "claim": "Civilian control was reaffirmed by MacArthur's dismissal.",
+      "evidence": [
+       "F-KOR-06"
+      ],
+      "strongestCounter": "The dismissal was politically costly for Truman."
+     },
+     {
+      "claim": "Nuclear weapons were threatened but not used.",
+      "evidence": [
+       "F-KOR-08",
+       "F-KOR-07"
+      ],
+      "strongestCounter": "The threat may have helped bring the armistice."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the reasons why the Korean War remained a limited war between 1950 and 1953.",
+     "Discuss the view that the Korean War was a success for the United States with reference to the period 1950 to 1953."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Korean War remained limited mainly because Truman decided that a wider war with China and the USSR was too dangerous.",
+     "prove": "From July 1951 the front was stable, and the administration abandoned reunification for limited goals to avoid a third world war.",
+     "explain": "This meant that when MacArthur publicly challenged this policy, Truman relieved him in April 1951, so civilian control kept the war limited.",
+     "test": "However, nuclear threats were part of the war: Truman deployed B-29s, and Eisenhower considered nuclear coercion in 1953 before rejecting it.",
+     "judge": "The war therefore stayed limited by political choice, though the danger of escalation never disappeared."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did Truman relieve MacArthur in April 1951?",
+      "factIds": [
+       "F-KOR-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "MacArthur publicly challenged the administration's conduct of the war",
+        "correct": true,
+        "explanation": "Correct: Truman reaffirmed civilian control."
+       },
+       {
+        "id": "b",
+        "text": "MacArthur lost the Battle of Inchon",
+        "correct": false,
+        "explanation": "Inchon was a success."
+       },
+       {
+        "id": "c",
+        "text": "MacArthur signed an armistice",
+        "correct": false,
+        "explanation": "The armistice came in 1953."
+       },
+       {
+        "id": "d",
+        "text": "MacArthur refused to cross the 38th parallel",
+        "correct": false,
+        "explanation": "He led the advance."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When was the Korean armistice signed?",
+      "factIds": [
+       "F-KOR-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "27 July 1953",
+        "correct": true,
+        "explanation": "Correct: seven months after Eisenhower's inauguration."
+       },
+       {
+        "id": "b",
+        "text": "25 June 1950",
+        "correct": false,
+        "explanation": "That is when the war began."
+       },
+       {
+        "id": "c",
+        "text": "September 1950",
+        "correct": false,
+        "explanation": "That is Inchon."
+       },
+       {
+        "id": "d",
+        "text": "April 1951",
+        "correct": false,
+        "explanation": "That is MacArthur's dismissal."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Eisenhower considered but rejected using nuclear coercion to further the ceasefire talks in 1953.” Which argument does it support best?",
+      "factIds": [
+       "F-KOR-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Nuclear weapons shaped the war but were kept as a threat",
+        "correct": true,
+        "explanation": "Correct: the war stayed limited."
+       },
+       {
+        "id": "b",
+        "text": "Nuclear weapons were used in Korea",
+        "correct": false,
+        "explanation": "They were not."
+       },
+       {
+        "id": "c",
+        "text": "Eisenhower wanted to widen the war",
+        "correct": false,
+        "explanation": "He sought an end to it."
+       },
+       {
+        "id": "d",
+        "text": "The US had no nuclear weapons",
+        "correct": false,
+        "explanation": "It deployed B-29s capable of carrying them."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "Consequences: the Cold War militarised and globalised",
+    "body": "The Korean War transformed the Cold War far beyond Korea.\n\n**In the United States**, it turned NSC-68 into policy. Judt argues that NSC-68's budget increases \"would almost certainly not have been approved but for the Korean attack\". The US defence budget rose from $15.5 billion in August 1950 to $70 billion by December 1951. By 1952–53 defence consumed 17.8 per cent of American GNP, against 4.7 per cent in 1949.\n\n**In Europe**, the war was read as a warning. Believing that Germany might be next, the United States increased its troop commitments, and every NATO member raised its defence spending to a post-war peak in 1951–53. NATO became, in Judt's words, \"unambiguously, an alliance\", with Eisenhower as Supreme Allied Commander and a target, set at Lisbon in February 1952, of ninety-six new divisions. The only way to meet it was to rearm the West Germans, which the US Secretary of State Dean Acheson formally proposed in September 1950. The war also changed Europe's economy: the Marshall Plan was turned into a programme of military aid, prices rose (by 40 per cent in France in two years), and, Judt writes, \"it was Korea, not Schuman, that sent the West German industrial machine into high gear\".\n\n**In Asia**, the war fixed the lines of the Cold War. The US committed itself to defending Taiwan and to isolating the People's Republic, imposing an embargo that lasted for two decades; any chance of accommodation between Washington and Beijing ended. It signed a security treaty with South Korea. And it accelerated the restoration of Japan: the peace treaty and a US-Japanese Security Treaty were signed on 8 September 1951, making Japan part of America's containment system.\n\nThere were consequences for Moscow too. Stalin, informed of the American build-up, wrongly assumed the US had aggressive designs on Eastern Europe, and dropped a planned attack on Yugoslavia in the face of Western rearmament. In the Eisenhower Library's assessment, the war prevented North Korea from imposing Communist rule on the South and showed that the US would fight aggression.\n\nThis mattered because a war on the edge of Asia militarised the Cold War everywhere, which meant that after 1953 both blocs faced each other with permanent, heavily armed alliances.",
+    "argumentsThatWork": [
+     {
+      "claim": "Korea turned NSC-68 into policy and militarised containment.",
+      "evidence": [
+       "F-KOR-13",
+       "F-KOR-14"
+      ],
+      "strongestCounter": "Some of the build-up was already planned before June 1950."
+     },
+     {
+      "claim": "Korea made NATO a real alliance and led to German rearmament.",
+      "evidence": [
+       "F-KOR-16",
+       "F-KOR-18"
+      ],
+      "strongestCounter": "West German rearmament was deeply controversial."
+     },
+     {
+      "claim": "Korea fixed the Cold War lines in Asia.",
+      "evidence": [
+       "F-KOR-11",
+       "F-KOR-12"
+      ],
+      "strongestCounter": "It ended any chance of US-China accommodation for two decades."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the impact of the Korean War on the Cold War in Europe between 1950 and 1953.",
+     "Discuss the view that the Korean War was a success for the United States with reference to the period 1950 to 1953."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Korean War's greatest impact on Europe was to turn NATO into a real military alliance.",
+     "prove": "Judt shows that every NATO member raised defence spending to a post-war peak in 1951–53, that Eisenhower became Supreme Allied Commander, and that Lisbon in February 1952 set a target of ninety-six new divisions.",
+     "explain": "This meant that the West needed more troops than it had, so the US proposed in September 1950 to rearm West Germany.",
+     "test": "However, the cost was high: French consumer prices rose 40 per cent in two years, and the Marshall Plan became military aid.",
+     "judge": "Korea therefore militarised the Cold War in Europe, although no fighting took place there."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What share of US GNP did defence consume in 1952–53, according to Judt? (per cent, one decimal place)",
+      "factIds": [
+       "F-KOR-14"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 17.8,
+        "tolerance": 0,
+        "explanation": "17.8 per cent, against 4.7 per cent in 1949."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the NATO Council agree at Lisbon in February 1952?",
+      "factIds": [
+       "F-KOR-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To raise at least ninety-six new divisions within two years",
+        "correct": true,
+        "explanation": "Correct: which required German rearmament."
+       },
+       {
+        "id": "b",
+        "text": "To leave Korea",
+        "correct": false,
+        "explanation": "Not what it agreed."
+       },
+       {
+        "id": "c",
+        "text": "To admit the USSR",
+        "correct": false,
+        "explanation": "Not possible."
+       },
+       {
+        "id": "d",
+        "text": "To end the Marshall Plan",
+        "correct": false,
+        "explanation": "That was the Mutual Security Act."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-CRISIS-KOREA-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt writes that 'it was Korea, not Schuman, that sent the West German industrial machine into high gear'.” Which argument does it support best?",
+      "factIds": [
+       "F-KOR-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Korean War had major economic effects in Europe",
+        "correct": true,
+        "explanation": "Correct: wartime demand boosted German industry."
+       },
+       {
+        "id": "b",
+        "text": "Korea harmed West German industry",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The Schuman Plan caused the Korean War",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       },
+       {
+        "id": "d",
+        "text": "West Germany fought in Korea",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1950,
+      "month": 4,
+      "day": 7,
+      "text": "NSC-68 completed",
+      "factId": "F-KOR-13"
+     },
+     {
+      "year": 1950,
+      "month": 6,
+      "day": 25,
+      "text": "North Korea invades the South",
+      "factId": "F-KOR-02"
+     },
+     {
+      "year": 1950,
+      "month": 9,
+      "text": "Inchon landing",
+      "factId": "F-KOR-04"
+     },
+     {
+      "year": 1950,
+      "month": 10,
+      "text": "UN approves crossing the 38th parallel",
+      "factId": "F-KOR-05"
+     },
+     {
+      "year": 1950,
+      "month": 11,
+      "text": "Full-scale Chinese attack",
+      "factId": "F-KOR-05"
+     },
+     {
+      "year": 1951,
+      "month": 4,
+      "text": "Truman relieves MacArthur",
+      "factId": "F-KOR-06"
+     },
+     {
+      "year": 1951,
+      "month": 7,
+      "text": "Front stabilises: stalemate",
+      "factId": "F-KOR-06"
+     },
+     {
+      "year": 1951,
+      "month": 9,
+      "day": 8,
+      "text": "Treaty of San Francisco; US-Japan Security Treaty",
+      "factId": "F-KOR-12"
+     },
+     {
+      "year": 1952,
+      "month": 2,
+      "text": "NATO's Lisbon targets",
+      "factId": "F-KOR-16"
+     },
+     {
+      "year": 1952,
+      "month": 12,
+      "day": 2,
+      "text": "Eisenhower visits Korea",
+      "factId": "F-KOR-07"
+     },
+     {
+      "year": 1953,
+      "month": 7,
+      "day": 27,
+      "text": "Armistice signed",
+      "factId": "F-KOR-07"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Korea divided; US forces withdraw",
+      "factId": "F-KOR-01"
+     },
+     {
+      "id": "n2",
+      "text": "Kim attacks with Stalin's support (June 1950)",
+      "factId": "F-KOR-02"
+     },
+     {
+      "id": "n3",
+      "text": "UN defence, Inchon and the crossing of the 38th parallel",
+      "factId": "F-KOR-05"
+     },
+     {
+      "id": "n4",
+      "text": "China intervenes; stalemate from 1951",
+      "factId": "F-KOR-06"
+     },
+     {
+      "id": "n5",
+      "text": "Armistice at the 38th parallel (1953)",
+      "factId": "F-KOR-07"
+     },
+     {
+      "id": "n6",
+      "text": "Rearmament, NATO, German rearmament, a closed China policy",
+      "factId": "F-KOR-14"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Kim assumed the US would not defend the South"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Washington read the attack as Soviet-backed aggression"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "An army at the Yalu threatened China"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Both sides accepted limited aims"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "The war convinced the West that the threat was military and global"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Kim Il Sung",
+     "role": "North Korean leader",
+     "whyItMatters": "Launched the invasion of 25 June 1950.",
+     "factIds": [
+      "F-KOR-01",
+      "F-KOR-02"
+     ]
+    },
+    {
+     "name": "Joseph Stalin",
+     "role": "Soviet leader",
+     "whyItMatters": "Supported the invasion: 'his most serious miscalculation' (Judt).",
+     "factIds": [
+      "F-KOR-03",
+      "F-KOR-19"
+     ]
+    },
+    {
+     "name": "Harry S. Truman",
+     "role": "US President",
+     "whyItMatters": "Committed US forces; kept the war limited; relieved MacArthur.",
+     "factIds": [
+      "F-KOR-02",
+      "F-KOR-06"
+     ]
+    },
+    {
+     "name": "Douglas MacArthur",
+     "role": "UN commander",
+     "whyItMatters": "Inchon; advanced to the Yalu; relieved in April 1951.",
+     "factIds": [
+      "F-KOR-04",
+      "F-KOR-05",
+      "F-KOR-06"
+     ]
+    },
+    {
+     "name": "Mao Zedong",
+     "role": "Chinese leader",
+     "whyItMatters": "China's full-scale attack in November 1950.",
+     "factIds": [
+      "F-KOR-05",
+      "F-KOR-10"
+     ]
+    },
+    {
+     "name": "Dwight D. Eisenhower",
+     "role": "US President from 1953",
+     "whyItMatters": "Visited Korea; secured the armistice; rejected nuclear coercion.",
+     "factIds": [
+      "F-KOR-07",
+      "F-KOR-08"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "United States",
+     "China"
+    ],
+    "rows": [
+     {
+      "criterion": "Reason for fighting",
+      "cells": [
+       "Contain Communist aggression seen as Soviet-backed",
+       "A hostile army at its border; US protection of Taiwan"
+      ],
+      "factIds": [
+       "F-KOR-02",
+       "F-KOR-10"
+      ]
+     },
+     {
+      "criterion": "Aim in late 1950",
+      "cells": [
+       "Unify Korea under a non-Communist government",
+       "Drive UN forces back from the Yalu"
+      ],
+      "factIds": [
+       "F-KOR-05"
+      ]
+     },
+     {
+      "criterion": "From 1951",
+      "cells": [
+       "Limited goals; MacArthur relieved",
+       "Offensive lost momentum; stalemate"
+      ],
+      "factIds": [
+       "F-KOR-06"
+      ]
+     },
+     {
+      "criterion": "Outcome",
+      "cells": [
+       "South saved; NSC-68 build-up; treaty with South Korea",
+       "North saved; isolated by the US for two decades"
+      ],
+      "factIds": [
+       "F-KOR-09",
+       "F-KOR-11"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-KOR-02",
+    "year": 1950,
+    "text": "25 June 1950: North Korea attacked along the 38th parallel; Truman committed US forces under the UN.",
+    "supports": [
+     "The war began as an attempt to unify Korea"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "Korean War",
+     "38th parallel"
+    ]
+   },
+   {
+    "factId": "F-KOR-03",
+    "year": 1950,
+    "text": "Judt: Stalin's support for the invasion was 'his most serious miscalculation of all'.",
+    "supports": [
+     "The invasion backfired on the USSR"
+    ],
+    "lexicon": [
+     "Stalin",
+     "Kim Il Sung"
+    ]
+   },
+   {
+    "factId": "F-KOR-05",
+    "year": 1950,
+    "text": "October 1950: the UN approved crossing the 38th parallel; late November: full-scale Chinese attack.",
+    "supports": [
+     "Crossing the parallel brought China into the war"
+    ],
+    "alsoWorksFor": [
+     "P2-12-SINO"
+    ],
+    "lexicon": [
+     "Yalu",
+     "Chinese intervention"
+    ]
+   },
+   {
+    "factId": "F-KOR-06",
+    "year": 1951,
+    "text": "Stalemate from July 1951; Truman chose limited goals and relieved MacArthur in April 1951.",
+    "supports": [
+     "The war was kept limited"
+    ],
+    "lexicon": [
+     "MacArthur",
+     "limited war"
+    ]
+   },
+   {
+    "factId": "F-KOR-07",
+    "year": 1953,
+    "text": "Armistice of 27 July 1953 left Korea divided near the 38th parallel.",
+    "supports": [
+     "The war ended in a draw"
+    ],
+    "lexicon": [
+     "armistice"
+    ]
+   },
+   {
+    "factId": "F-KOR-14",
+    "year": 1952,
+    "text": "Judt: US defence budget from $15.5 billion (1950) to $70 billion (1951); 17.8 per cent of GNP in 1952–53.",
+    "supports": [
+     "Korea militarised containment"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "rearmament",
+     "NSC-68"
+    ]
+   },
+   {
+    "factId": "F-KOR-16",
+    "year": 1952,
+    "text": "Judt: NATO 'unambiguously, an alliance'; Lisbon target of ninety-six divisions; West German rearmament proposed.",
+    "supports": [
+     "Korea transformed NATO"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B1-GERMAN-QUESTION"
+    ],
+    "lexicon": [
+     "NATO",
+     "German rearmament"
+    ]
+   },
+   {
+    "factId": "F-KOR-11",
+    "year": 1953,
+    "text": "US embargo and isolation of the PRC; the war ended any chance of accommodation.",
+    "supports": [
+     "Korea fixed the Cold War in Asia"
+    ],
+    "alsoWorksFor": [
+     "P2-12-SINO",
+     "P2-12-IMPACT"
+    ],
+    "lexicon": [
+     "embargo",
+     "Taiwan"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Stalin's support for Kim's invasion was 'his most serious miscalculation of all': the West wrongly concluded that Germany would be next, and NSC-68's budget increases 'would almost certainly not have been approved but for the Korean attack'.",
+    "useItLikeThis": "Judt's view supports the claim that Korea's main significance lay outside Korea, which suggests the war was decisive for the militarisation of the Cold War in Europe.",
+    "factId": "F-KOR-03"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Korean War ended with the reunification of Korea.",
+    "right": "The **armistice** of 27 July 1953 left Korea divided near the 38th parallel."
+   },
+   {
+    "wrong": "The US always intended to unify Korea by force.",
+    "right": "It first defended the South; crossing the 38th parallel was approved only in **October 1950**."
+   },
+   {
+    "wrong": "China entered the war without warning.",
+    "right": "China **issued warnings**, which MacArthur discounted."
+   },
+   {
+    "wrong": "Nuclear weapons were used in Korea.",
+    "right": "B-29s were deployed and Eisenhower **considered and rejected** nuclear coercion."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1950,
+     "month": 6,
+     "day": 25,
+     "text": "Invasion"
+    },
+    {
+     "year": 1950,
+     "month": 9,
+     "text": "Inchon"
+    },
+    {
+     "year": 1950,
+     "month": 10,
+     "text": "38th parallel crossed"
+    },
+    {
+     "year": 1950,
+     "month": 11,
+     "text": "Chinese attack"
+    },
+    {
+     "year": 1951,
+     "month": 4,
+     "text": "MacArthur relieved"
+    },
+    {
+     "year": 1951,
+     "month": 7,
+     "text": "Stalemate"
+    },
+    {
+     "year": 1952,
+     "month": 12,
+     "day": 2,
+     "text": "Eisenhower in Korea"
+    },
+    {
+     "year": 1953,
+     "month": 7,
+     "day": 27,
+     "text": "Armistice"
+    }
+   ],
+   "keyArguments": [
+    "Division and US disengagement encouraged Kim; Stalin's support was a miscalculation (Judt).",
+    "Inchon saved the South; crossing the 38th parallel brought China in.",
+    "Truman chose limited war and relieved MacArthur; nuclear weapons were threatened, not used.",
+    "The armistice of 1953 left Korea divided where it began.",
+    "Consequences: NSC-68 build-up, NATO as a real alliance, German rearmament, a closed China policy."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1950 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "NSC-68 completed",
+     "year": 1950,
+     "month": 4,
+     "factId": "F-KOR-13"
+    },
+    {
+     "id": "b",
+     "text": "North Korea invades",
+     "year": 1950,
+     "month": 6,
+     "factId": "F-KOR-02"
+    },
+    {
+     "id": "c",
+     "text": "Inchon landing",
+     "year": 1950,
+     "month": 9,
+     "factId": "F-KOR-04"
+    },
+    {
+     "id": "d",
+     "text": "UN approves crossing the 38th parallel",
+     "year": 1950,
+     "month": 10,
+     "factId": "F-KOR-05"
+    },
+    {
+     "id": "e",
+     "text": "Full-scale Chinese attack",
+     "year": 1950,
+     "month": 11,
+     "factId": "F-KOR-05"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "MacArthur relieved",
+     "year": 1951,
+     "month": 4,
+     "factId": "F-KOR-06"
+    },
+    {
+     "id": "b",
+     "text": "Front stabilises",
+     "year": 1951,
+     "month": 7,
+     "factId": "F-KOR-06"
+    },
+    {
+     "id": "c",
+     "text": "Japanese peace treaty signed",
+     "year": 1951,
+     "month": 9,
+     "factId": "F-KOR-12"
+    },
+    {
+     "id": "d",
+     "text": "Eisenhower visits Korea",
+     "year": 1952,
+     "month": 12,
+     "factId": "F-KOR-07"
+    },
+    {
+     "id": "e",
+     "text": "Armistice signed",
+     "year": 1953,
+     "month": 7,
+     "factId": "F-KOR-07"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these consequences in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Acheson formally raises West German rearmament",
+     "year": 1950,
+     "month": 9,
+     "factId": "F-KOR-16"
+    },
+    {
+     "id": "b",
+     "text": "US defence budget reaches $70 billion",
+     "year": 1951,
+     "month": 12,
+     "factId": "F-KOR-14"
+    },
+    {
+     "id": "c",
+     "text": "NATO's Lisbon targets",
+     "year": 1952,
+     "month": 2,
+     "factId": "F-KOR-16"
+    },
+    {
+     "id": "d",
+     "text": "US-South Korea security treaty",
+     "year": 1953,
+     "factId": "F-KOR-11"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Syngman Rhee",
+     "right": "US-backed leader of South Korea",
+     "explanation": "Republic of Korea."
+    },
+    {
+     "left": "Matthew Ridgway",
+     "right": "General who led the revived UN forces in 1951",
+     "explanation": "Replaced MacArthur."
+    },
+    {
+     "left": "Dean Acheson",
+     "right": "US Secretary of State who proposed West German rearmament",
+     "explanation": "September 1950."
+    },
+    {
+     "left": "Kim Il Sung",
+     "right": "Soviet-backed leader of North Korea",
+     "explanation": "Launched the invasion."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the US defence budget in August 1950, according to Judt? (billion dollars, one decimal place)",
+   "factIds": [
+    "F-KOR-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 15.5,
+     "tolerance": 0,
+     "explanation": "$15.5 billion, rising to $70 billion by December 1951."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many new divisions did NATO aim to raise after the Lisbon meeting of 1952? (number)",
+   "factIds": [
+    "F-KOR-16"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 96,
+     "tolerance": 0,
+     "explanation": "At least ninety-six."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By what percentage did French consumer prices rise in the two years after the war began, according to Judt? (number)",
+   "factIds": [
+    "F-KOR-15"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 40,
+     "tolerance": 0,
+     "explanation": "40 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what day of July 1953 was the armistice signed? (number)",
+   "factIds": [
+    "F-KOR-07"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 27,
+     "tolerance": 0,
+     "explanation": "27 July 1953."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were consequences of the Korean War? Choose all that apply.",
+   "factIds": [
+    "F-KOR-13",
+    "F-KOR-16",
+    "F-KOR-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "NSC-68's build-up became policy",
+     "correct": true,
+     "explanation": "Yes: defence spending almost tripled."
+    },
+    {
+     "id": "b",
+     "text": "NATO became a real military alliance",
+     "correct": true,
+     "explanation": "Yes: with Eisenhower as commander."
+    },
+    {
+     "id": "c",
+     "text": "The US isolated the People's Republic of China",
+     "correct": true,
+     "explanation": "Yes: an embargo for two decades."
+    },
+    {
+     "id": "d",
+     "text": "Korea was reunified",
+     "correct": false,
+     "explanation": "No: it stayed divided."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these kept the war limited? Choose all that apply.",
+   "factIds": [
+    "F-KOR-06",
+    "F-KOR-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Truman's decision to pursue limited goals",
+     "correct": true,
+     "explanation": "Yes: to avoid a third world war."
+    },
+    {
+     "id": "b",
+     "text": "The dismissal of MacArthur",
+     "correct": true,
+     "explanation": "Yes: civilian control."
+    },
+    {
+     "id": "c",
+     "text": "Eisenhower's rejection of nuclear coercion",
+     "correct": true,
+     "explanation": "Yes: in 1953."
+    },
+    {
+     "id": "d",
+     "text": "A Soviet declaration of war on the US",
+     "correct": false,
+     "explanation": "No: that never happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The US did not make Korea a key part of its defensive strategy and withdrew its forces in the late 1940s.” Which argument does it support?",
+   "factIds": [
+    "F-KOR-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "American disengagement encouraged Kim to attack",
+     "correct": true,
+     "explanation": "Correct: he assumed the South was not vital to the US."
+    },
+    {
+     "id": "b",
+     "text": "The US planned to invade the North",
+     "correct": false,
+     "explanation": "Not what the fact says."
+    },
+    {
+     "id": "c",
+     "text": "Korea was central to US strategy before 1950",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "The USSR withdrew from the North",
+     "correct": false,
+     "explanation": "Not what the fact says."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Korean War ended any opportunity for accommodation between the PRC and the United States.” Which argument does it support?",
+   "factIds": [
+    "F-KOR-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The war fixed hostility between the US and China for two decades",
+     "correct": true,
+     "explanation": "Correct: until the 1970s."
+    },
+    {
+     "id": "b",
+     "text": "The war brought the US and China together",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "China joined the UN in 1953",
+     "correct": false,
+     "explanation": "Not until 1971."
+    },
+    {
+     "id": "d",
+     "text": "The US recognised the PRC in 1953",
+     "correct": false,
+     "explanation": "Not until 1979."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “China entered the Korean War in June 1950, at the same time as North Korea's invasion.”",
+   "factIds": [
+    "F-KOR-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "China attacked in October–November 1950, after UN forces crossed the 38th parallel",
+     "correct": true,
+     "explanation": "Correct: initial attacks in late October, full strength in late November."
+    },
+    {
+     "id": "b",
+     "text": "North Korea never invaded",
+     "correct": false,
+     "explanation": "It did, on 25 June 1950."
+    },
+    {
+     "id": "c",
+     "text": "China fought on the UN side",
+     "correct": false,
+     "explanation": "It fought the UN forces."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the date of China's entry."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The armistice of 1953 reunified Korea under a non-Communist government.”",
+   "factIds": [
+    "F-KOR-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It left Korea divided near the 38th parallel",
+     "correct": true,
+     "explanation": "Correct: much as before the war."
+    },
+    {
+     "id": "b",
+     "text": "The armistice was signed in 1950",
+     "correct": false,
+     "explanation": "It was signed on 27 July 1953."
+    },
+    {
+     "id": "c",
+     "text": "There was no armistice",
+     "correct": false,
+     "explanation": "There was one in 1953."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Korea stayed divided."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Korean War (1950–1953). Is the Taiwan Strait crisis of 1954–55 inside or outside the timeframe?",
+   "factIds": [
+    "F-KOR-10"
+   ],
+   "timeframe": [
+    1950,
+    1953
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1953."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1954 is after 1953."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it involved China",
+     "correct": false,
+     "explanation": "The actors do not change the timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did the US send the Seventh Fleet into the Taiwan Strait in June 1950?",
+   "factIds": [
+    "F-KOR-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To prevent the Korean conflict spreading south",
+     "correct": true,
+     "explanation": "Correct: it also blocked an invasion of Taiwan."
+    },
+    {
+     "id": "b",
+     "text": "To invade China",
+     "correct": false,
+     "explanation": "Not its purpose."
+    },
+    {
+     "id": "c",
+     "text": "To evacuate Korea",
+     "correct": false,
+     "explanation": "Not its purpose."
+    },
+    {
+     "id": "d",
+     "text": "To support the PRC",
+     "correct": false,
+     "explanation": "The opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Eisenhower conclude after visiting Korea in December 1952?",
+   "factIds": [
+    "F-KOR-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'We could not stand forever on a static front'",
+     "correct": true,
+     "explanation": "Correct: he sought an end to the war."
+    },
+    {
+     "id": "b",
+     "text": "That the war should be widened into China",
+     "correct": false,
+     "explanation": "Not his conclusion."
+    },
+    {
+     "id": "c",
+     "text": "That MacArthur should return",
+     "correct": false,
+     "explanation": "Not his conclusion."
+    },
+    {
+     "id": "d",
+     "text": "That nuclear weapons must be used",
+     "correct": false,
+     "explanation": "He rejected nuclear coercion."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did the Korean War change the Marshall Plan, according to Judt?",
+   "factIds": [
+    "F-KOR-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The 1951 Mutual Security Act turned it into military assistance",
+     "correct": true,
+     "explanation": "Correct: nearly $5 billion by the end of 1951."
+    },
+    {
+     "id": "b",
+     "text": "It ended aid to Europe completely",
+     "correct": false,
+     "explanation": "Aid continued as military support."
+    },
+    {
+     "id": "c",
+     "text": "It extended it to the Soviet bloc",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "It doubled economic aid",
+     "correct": false,
+     "explanation": "Not what Judt says."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Stalin wrongly assume after the American build-up, according to Judt?",
+   "factIds": [
+    "F-KOR-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That the US had aggressive designs on Eastern Europe",
+     "correct": true,
+     "explanation": "Correct: each side misread the other."
+    },
+    {
+     "id": "b",
+     "text": "That the US would leave Europe",
+     "correct": false,
+     "explanation": "Not what Judt says."
+    },
+    {
+     "id": "c",
+     "text": "That China would join NATO",
+     "correct": false,
+     "explanation": "Not what Judt says."
+    },
+    {
+     "id": "d",
+     "text": "That Korea would be reunified",
+     "correct": false,
+     "explanation": "Not what Judt says."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Where did the North Korean offensive drive UN forces in the summer of 1950?",
+   "factIds": [
+    "F-KOR-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To a narrow perimeter around the port of Pusan",
+     "correct": true,
+     "explanation": "Correct: in the far south."
+    },
+    {
+     "id": "b",
+     "text": "Across the Yalu River",
+     "correct": false,
+     "explanation": "The Yalu is the northern border."
+    },
+    {
+     "id": "c",
+     "text": "Into Japan",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "To Inchon",
+     "correct": false,
+     "explanation": "Inchon was where MacArthur landed."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the decision to cross the 38th parallel the main reason for Chinese intervention in the Korean War in 1950?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the decision to cross the 38th parallel",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for Chinese intervention",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "1950",
+     "answer": "timeframe",
+     "explanation": "October–November 1950."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Whether the crossing outweighed China's wider fear of the US."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘The Korean War was a success for the United States.’ Discuss with reference to the period 1950 to 1953.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "a success for the United States",
+     "answer": "factor",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s3",
+     "text": "the Korean War",
+     "answer": "scope",
+     "explanation": "What the claim is about."
+    },
+    {
+     "id": "s4",
+     "text": "1950 to 1953",
+     "answer": "timeframe",
+     "explanation": "The whole war."
+    },
+    {
+     "id": "s5",
+     "text": "success",
+     "answer": "judgement",
+     "explanation": "By what criterion: saving the South, or reunifying Korea?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The Korean War was a success for the United States.’ Discuss.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The war was a success by the original aim of saving South Korea, but a failure by the later aim of reunifying Korea, and it brought the US into a costly war with China that fixed Cold War hostility in Asia.",
+     "correct": true,
+     "explanation": "Correct: two criteria."
+    },
+    {
+     "id": "b",
+     "text": "The war lasted three years.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The war was a success.",
+     "correct": false,
+     "explanation": "No reasoning."
+    },
+    {
+     "id": "d",
+     "text": "The US won the war completely.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons why the Korean War remained a limited war between 1950 and 1953.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The war stayed limited mainly because Truman decided that a wider war with China and the USSR was too dangerous, enforcing that choice by relieving MacArthur; nuclear restraint under Eisenhower confirmed it.",
+     "correct": true,
+     "explanation": "Correct: reasons, mechanism and judgement."
+    },
+    {
+     "id": "b",
+     "text": "MacArthur was dismissed in 1951.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The war was limited.",
+     "correct": false,
+     "explanation": "No reasoning."
+    },
+    {
+     "id": "d",
+     "text": "The war was not limited at all.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In September 1950 MacArthur landed at Inchon.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the landing cut behind North Korean lines, it reversed the war and made crossing the 38th parallel possible.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In April 1951 Truman relieved MacArthur.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that civilian leaders kept control of the war's aims, so it stayed limited.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "US forces withdrew from the South in the late 1940s",
+     "right": "Kim believed the US would not fight",
+     "explanation": "Before the war."
+    },
+    {
+     "left": "UN forces approached the Yalu despite Chinese warnings",
+     "right": "Crossing the parallel brought China in",
+     "explanation": "Late 1950."
+    },
+    {
+     "left": "MacArthur relieved in April 1951",
+     "right": "Truman kept the war limited",
+     "explanation": "Civilian control."
+    },
+    {
+     "left": "NATO's Lisbon target of ninety-six divisions",
+     "right": "Korea militarised the Cold War in Europe",
+     "explanation": "February 1952."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Korean War made the Cold War worse.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Western leaders read the invasion as a prelude to an attack on Europe, the war turned NSC-68 into policy: US defence spending rose from $15.5 billion to $70 billion and NATO became a real alliance, so the Cold War became militarised on both continents.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and consequence."
+    },
+    {
+     "id": "b",
+     "text": "The Korean War made the Cold War much worse.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The Korean War began in 1950.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The Korean War caused every later crisis.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “China intervened in Korea only because UN forces crossed the 38th parallel.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "China already saw the US as a threat: in June 1950 the Seventh Fleet entered the Taiwan Strait, blocking a Communist invasion of Taiwan, and China moved the troops gathered for that invasion to the Korean front.",
+     "correct": true,
+     "explanation": "Correct: specific earlier cause."
+    },
+    {
+     "id": "b",
+     "text": "China is next to Korea.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "c",
+     "text": "Mao disliked MacArthur.",
+     "correct": false,
+     "explanation": "Not supported."
+    },
+    {
+     "id": "d",
+     "text": "The war was long.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The Korean War was a success for the United States.’ Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by containment, the war succeeded, because the South survived and the West rearmed; judged by rollback, it failed, because the attempt to unify Korea brought China in and ended at the original line.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the war started in 1950 and ended in 1953.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, wars are terrible.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, the US did well.",
+     "correct": false,
+     "explanation": "No criterion."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes and consequences of the Korean War (1950–1953).” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The division of Korea at the 38th parallel",
+     "answer": "causes",
+     "explanation": "A wartime agreement."
+    },
+    {
+     "id": "s2",
+     "text": "The withdrawal of US forces from the South",
+     "answer": "causes",
+     "explanation": "Late 1940s."
+    },
+    {
+     "id": "s3",
+     "text": "Stalin's support for Kim's invasion",
+     "answer": "causes",
+     "explanation": "Judt: a miscalculation."
+    },
+    {
+     "id": "s4",
+     "text": "The NSC-68 build-up",
+     "answer": "effects",
+     "explanation": "Spending almost tripled."
+    },
+    {
+     "id": "s5",
+     "text": "West German rearmament proposed",
+     "answer": "effects",
+     "explanation": "September 1950."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-CRISIS-KOREA-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the decision to cross the 38th parallel the main reason for Chinese intervention in the Korean War in 1950?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the decision to cross the 38th parallel",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1950,
+    1950
+   ],
+   "scope": "Korea and China",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Crossing the 38th parallel, weighed first",
+    "timeframe": "1950",
+    "scope": "Chinese intervention",
+    "judgement": "Whether the crossing outweighed China's wider fear of the US"
+   },
+   "modelPlan": {
+    "thesis": "The decision to cross the 38th parallel was the main reason, because it brought an American-led army to China's border despite Chinese warnings; but China already saw the US as a threat after the Seventh Fleet blocked its invasion of Taiwan.",
+    "arguments": [
+     {
+      "claim": "Crossing the parallel and the advance to the Yalu (named factor first).",
+      "evidence": [
+       "F-KOR-05"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Chinese warnings ignored.",
+      "evidence": [
+       "F-KOR-05"
+      ]
+     },
+     {
+      "claim": "The Seventh Fleet and Taiwan.",
+      "evidence": [
+       "F-KOR-10"
+      ]
+     },
+     {
+      "claim": "US hostility to the PRC since 1949.",
+      "evidence": [
+       "F-KOR-11"
+      ]
+     }
+    ],
+    "counter": "The Chinese troops gathered for Taiwan were moved to the Korean front from mid-1950, before the parallel was crossed.",
+    "judgementCriterion": "Would China have intervened if the UN had stopped at the 38th parallel? Probably not in November 1950, so the crossing was decisive."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The decision to cross the 38th parallel was the main reason for Chinese intervention.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In October 1950 the UN, urged by the US, approved crossing to unify Korea, and despite Chinese warnings UN forces advanced towards the Yalu.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that China faced a hostile army on its border, so in late November it attacked in full strength.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, China already saw the US as a threat, since the Seventh Fleet had entered the Taiwan Strait in June 1950 and blocked its plans for Taiwan.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Crossing the parallel was therefore the decisive trigger of an intervention that wider hostility had made likely.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "38th parallel"
+    ],
+    "synonyms": [
+     "crossing",
+     "Yalu",
+     "rollback"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "MacArthur",
+     "Seventh Fleet",
+     "Chinese intervention"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-KOREA-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Korean War was a success for the United States.” Discuss with reference to the period 1950 to 1953.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1950,
+    1953
+   ],
+   "scope": "Korea",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: a success for the US",
+    "timeframe": "1950–1953",
+    "scope": "The Korean War",
+    "judgement": "By what criterion: saving the South, or reunifying Korea?"
+   },
+   "modelPlan": {
+    "thesis": "The war was a success by the original aim of saving South Korea, but a failure by the later aim of reunifying Korea, and it brought the US into a costly war with China that fixed Cold War hostility in Asia.",
+    "arguments": [
+     {
+      "claim": "For: the South survived; aggression was resisted.",
+      "evidence": [
+       "F-KOR-09"
+      ]
+     },
+     {
+      "claim": "For: NATO and the build-up strengthened the West.",
+      "evidence": [
+       "F-KOR-14",
+       "F-KOR-16"
+      ]
+     },
+     {
+      "claim": "Against: rollback failed and China intervened.",
+      "evidence": [
+       "F-KOR-05",
+       "F-KOR-06"
+      ]
+     },
+     {
+      "claim": "Against: stalemate and division at the original line.",
+      "evidence": [
+       "F-KOR-07"
+      ]
+     }
+    ],
+    "counter": "The Eisenhower Library's assessment stresses success in showing US willingness to combat aggression.",
+    "judgementCriterion": "By containment, success; by rollback, failure."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Korean War was a success for the US in containing Communism, but not in reunifying Korea.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Inchon saved the South in September 1950, but the advance across the 38th parallel brought China in, and the armistice of 27 July 1953 left Korea divided where it began.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the US achieved its original aim but failed in the wider aim it adopted in October 1950.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the war also brought a huge Western build-up and turned NATO into a real alliance, which strengthened the US globally.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid by the criterion of containment, but not by that of rollback.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "success"
+    ],
+    "synonyms": [
+     "containment",
+     "rollback"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Inchon",
+     "38th parallel",
+     "armistice"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-KOREA-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the causes and consequences of the Korean War (1950–1953).",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1950,
+    1953
+   ],
+   "scope": "Korea",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1950–1953",
+    "scope": "The Korean War",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The war was caused by Korea's division and Kim's belief that the US would not defend the South, with Stalin's support; its main consequence was the militarisation of the Cold War far beyond Korea.",
+    "arguments": [
+     {
+      "claim": "Cause: division and US disengagement.",
+      "evidence": [
+       "F-KOR-01"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: Stalin's support for the invasion.",
+      "evidence": [
+       "F-KOR-03"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: the NSC-68 build-up.",
+      "evidence": [
+       "F-KOR-13",
+       "F-KOR-14"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: NATO, German rearmament and Asian alignments.",
+      "evidence": [
+       "F-KOR-16",
+       "F-KOR-11",
+       "F-KOR-12"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "The war changed no borders in Korea itself.",
+    "judgementCriterion": "Which consequence lasted longest? The militarisation of containment and NATO."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Korean War was caused by the division of Korea and Kim's belief that the US would not defend the South.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After US forces withdrew in the late 1940s, Kim attacked on 25 June 1950 with Stalin's support, which Judt calls 'his most serious miscalculation of all'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the West read the attack as a global threat, so NSC-68 became policy and US defence spending rose from $15.5 billion to $70 billion.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in Korea itself the war ended where it began, near the 38th parallel.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Its most significant consequence was therefore the militarisation of the Cold War, especially in Europe.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Korean War"
+    ],
+    "synonyms": [
+     "Korea",
+     "invasion"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "NSC-68",
+     "38th parallel",
+     "NATO"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-KOREA-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the reasons why the Korean War remained a limited war between 1950 and 1953.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1950,
+    1953
+   ],
+   "scope": "Korea",
+   "decodeKey": {
+    "verb": "Evaluate: weigh the reasons, then judge",
+    "factorOrTask": "Reasons the war stayed limited",
+    "timeframe": "1950–1953",
+    "scope": "The Korean War",
+    "judgement": "Which reason mattered most"
+   },
+   "modelPlan": {
+    "thesis": "The war stayed limited mainly because Truman decided that a wider war with China and the USSR was too dangerous, enforcing that choice by relieving MacArthur; nuclear restraint under Eisenhower confirmed it.",
+    "arguments": [
+     {
+      "claim": "Truman's choice of limited goals.",
+      "evidence": [
+       "F-KOR-06"
+      ]
+     },
+     {
+      "claim": "Civilian control: MacArthur relieved.",
+      "evidence": [
+       "F-KOR-06"
+      ]
+     },
+     {
+      "claim": "Nuclear restraint.",
+      "evidence": [
+       "F-KOR-08"
+      ]
+     },
+     {
+      "claim": "Stalemate pushed both sides to an armistice.",
+      "evidence": [
+       "F-KOR-07"
+      ]
+     }
+    ],
+    "counter": "The nuclear threat itself may have helped end the war.",
+    "judgementCriterion": "Which reason mattered most? Truman's political decision, without which MacArthur's strategy might have widened the war."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The war stayed limited mainly because Truman chose limited aims to avoid a third world war.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "From July 1951 the administration abandoned reunification, and when MacArthur publicly challenged this, Truman relieved him in April 1951.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the war's aims were set by civilians who feared escalation, so the conflict stayed confined to Korea.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, nuclear weapons were never far away: B-29s were deployed, and Eisenhower considered nuclear coercion in 1953 before rejecting it.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Political restraint was therefore the decisive reason, confirmed by the rejection of nuclear escalation.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "limited war"
+    ],
+    "synonyms": [
+     "restraint",
+     "escalation"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "MacArthur",
+     "Truman",
+     "nuclear"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-KOREA-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the roles of the United States and China in the Korean War between 1950 and 1953.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1950,
+    1953
+   ],
+   "scope": "Korea",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The roles of the US and China",
+    "timeframe": "1950–1953",
+    "scope": "The Korean War",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both entered the war to defend an allied Korean state and both accepted a limited outcome, but the US entered to contain aggression and briefly sought rollback, while China entered to defend its border, and the war isolated China while strengthening the US globally.",
+    "arguments": [
+     {
+      "claim": "Similarity: both defended an allied Korean state.",
+      "evidence": [
+       "F-KOR-02",
+       "F-KOR-05"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both accepted stalemate and armistice.",
+      "evidence": [
+       "F-KOR-06",
+       "F-KOR-07"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: containment and rollback against defence of the border.",
+      "evidence": [
+       "F-KOR-05",
+       "F-KOR-10"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: outcomes for each power.",
+      "evidence": [
+       "F-KOR-09",
+       "F-KOR-11"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Both acted partly from fear of the other, which narrows the difference.",
+    "judgementCriterion": "Which difference mattered most? The outcome: the US gained allies and strength, China isolation."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The US and China both fought to defend an allied Korean state, but for different reasons and with different results.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The US entered in June 1950 to resist aggression it believed was Soviet-backed, whereas China attacked in November 1950 when UN forces approached its border.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the US briefly tried to unify Korea, while China fought to push a hostile army back from the Yalu.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both accepted limited aims after 1951 and signed the armistice in 1953.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore the outcome: the war strengthened the US globally but isolated China for two decades.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "United States",
+     "China"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Yalu",
+     "38th parallel",
+     "armistice"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-CRISIS-KOREA-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the impact of the Korean War on the Cold War in Europe between 1950 and 1953.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1950,
+    1953
+   ],
+   "scope": "Europe",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The impact on Europe",
+    "timeframe": "1950–1953",
+    "scope": "The Cold War in Europe",
+    "judgement": "How a war in Asia changed Europe"
+   },
+   "modelPlan": {
+    "thesis": "The Korean War militarised the Cold War in Europe: it turned NATO into a real alliance, led to plans for West German rearmament, transformed the Marshall Plan into military aid and boosted West German industry.",
+    "arguments": [
+     {
+      "claim": "Fear that Germany would be next.",
+      "evidence": [
+       "F-KOR-03",
+       "F-KOR-18"
+      ]
+     },
+     {
+      "claim": "NATO as an alliance; Lisbon targets.",
+      "evidence": [
+       "F-KOR-16"
+      ]
+     },
+     {
+      "claim": "West German rearmament and industry.",
+      "evidence": [
+       "F-KOR-16",
+       "F-KOR-17"
+      ]
+     },
+     {
+      "claim": "Costs: prices and military aid.",
+      "evidence": [
+       "F-KOR-15"
+      ]
+     }
+    ],
+    "counter": "The risk of a European war was, Judt argues, greatly exaggerated.",
+    "judgementCriterion": "How did the parts connect? Fear of a European Korea led to NATO targets that only German rearmament could meet."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Korean War militarised the Cold War in Europe, although no fighting took place there.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Fearing that Germany would be next, NATO members raised defence spending to post-war peaks, and at Lisbon in February 1952 set a target of ninety-six new divisions.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the West needed more troops than it had, so Acheson proposed West German rearmament in September 1950.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues that the risk of a European war was greatly exaggerated, so the response rested on a misreading of Soviet intentions.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Korea's impact on Europe was therefore profound but based on a misunderstanding, which Stalin mirrored by misreading the American build-up.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Europe"
+    ],
+    "synonyms": [
+     "NATO",
+     "rearmament"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Lisbon",
+     "German rearmament",
+     "Mutual Security Act"
+    ]
+   }
+  }
+ ]
+}

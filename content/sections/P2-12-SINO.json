@@ -1,0 +1,2782 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-12-SINO",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 20,
+  "openingProblem": {
+   "problem": "In 1950 Chinese and American soldiers fought each other in Korea, and China was the Soviet Union's partner. In 1979 the US recognised the People's Republic and the two cooperated against the USSR. How did China change sides?",
+   "predictionPrompt": "Your prediction in one line: what pushed China towards the United States?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Allies and enemies: the triangle takes shape, 1949–1958",
+    "body": "When **Mao Zedong** proclaimed the People's Republic of China (PRC) on 1 October 1949, the Soviet Union, not America, was his partner. The Soviets had helped the Chinese Communists at a crucial moment: after Japan's surrender they occupied Manchuria and left only when Communist forces were in place to take it. The United States, by contrast, had backed Chiang Kai-shek's Nationalists. It suspended relations with the new state, and for thirty years it recognised Chiang's government on Taiwan as the government of all China.\n\nThe **Korean War** turned estrangement into enmity. When the war broke out in June 1950, the US sent its Seventh Fleet into the Taiwan Strait, and when Chinese troops entered the war in late 1950, American and Chinese soldiers fought each other. Washington imposed an embargo on China and worked to isolate Peking.\n\nTaiwan remained the flashpoint. In September 1954 the PRC began shelling the offshore islands of Jinmen and Mazu, held by the Nationalists. The US signed a Mutual Defense Treaty with Taiwan, Congress authorised Eisenhower to defend it, and the administration considered options up to the use of nuclear weapons. The crisis eased when Zhou Enlai, at the Bandung Conference in April 1955, offered to negotiate. From August 1955 American and Chinese ambassadors met, first in Geneva and later in Warsaw. In sixteen years and 136 meetings they agreed only on the return of stranded citizens, because the status of Taiwan blocked everything else. Yet the talks gave the two enemies a channel through which misunderstandings could be prevented from becoming war. A second crisis over the islands in 1958 ended when the US re-supplied the garrisons.\n\nThere were early signs of strain on the Communist side too. When Khrushchev denounced Stalin in February 1956, Chinese leaders expressed grave doubts about his reforms.\n\nThis mattered because in the 1950s China was the junior partner of the USSR and the open enemy of the US, which meant that any change in either relationship would transform the balance of the Cold War.",
+    "argumentsThatWork": [
+     {
+      "claim": "Korea and Taiwan made the US and PRC enemies.",
+      "evidence": [
+       "F-SINO-03",
+       "F-SINO-04"
+      ],
+      "strongestCounter": "The ambassadorial talks kept a channel open."
+     },
+     {
+      "claim": "Taiwan was the central obstacle to any US-China accommodation.",
+      "evidence": [
+       "F-SINO-05",
+       "F-SINO-06"
+      ],
+      "strongestCounter": "Repatriation of nationals was agreed in 1955."
+     },
+     {
+      "claim": "The Sino-Soviet partnership already showed strains by 1956.",
+      "evidence": [
+       "F-SINO-07"
+      ],
+      "strongestCounter": "The USSR had helped the Communists win in Manchuria."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for hostility between the United States and the People's Republic of China between 1949 and 1958.",
+     "Compare and contrast Sino-Soviet and Sino-US relations between 1949 and 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "Hostility between the US and the PRC was caused above all by the Korean War, which made them direct military enemies.",
+     "prove": "When the war broke out in June 1950 the US sent the Seventh Fleet into the Taiwan Strait, and after China entered the war in late 1950 Washington imposed an embargo and worked to isolate Peking.",
+     "explain": "This meant that the question of Taiwan, already unresolved since 1949, became tied to a war, so Chinese attacks on the offshore islands in 1954 and 1958 brought new crises.",
+     "test": "However, both sides avoided all-out war, and the ambassadorial talks from 1955 kept a channel open.",
+     "judge": "Korea therefore turned estrangement into enmity, while Taiwan kept it alive."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-SINO-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the US do when the Korean War broke out in June 1950?",
+      "factIds": [
+       "F-SINO-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It sent the Seventh Fleet into the Taiwan Strait",
+        "correct": true,
+        "explanation": "Correct: to stop the conflict spreading south."
+       },
+       {
+        "id": "b",
+        "text": "It recognised the PRC",
+        "correct": false,
+        "explanation": "It did not until 1979."
+       },
+       {
+        "id": "c",
+        "text": "It withdrew from Asia",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "It joined the Warsaw Pact",
+        "correct": false,
+        "explanation": "Not possible."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-SINO-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many meetings did the US-China ambassadorial talks hold over sixteen years? (number)",
+      "factIds": [
+       "F-SINO-05"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 136,
+        "tolerance": 0,
+        "explanation": "136, with little formal progress."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-SINO-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The status of Taiwan became the major obstacle that prevented accommodation between the United States and China until the early 1970s.” Which argument does it support best?",
+      "factIds": [
+       "F-SINO-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Taiwan was the central issue dividing Washington and Beijing",
+        "correct": true,
+        "explanation": "Correct: repatriation was agreed, Taiwan was not."
+       },
+       {
+        "id": "b",
+        "text": "The US and PRC had no disagreements",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The USSR controlled Taiwan",
+        "correct": false,
+        "explanation": "Taiwan was held by the Nationalists."
+       },
+       {
+        "id": "d",
+        "text": "The talks resolved the Taiwan question",
+        "correct": false,
+        "explanation": "They did not."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "causes",
+    "title": "The Sino-Soviet split, 1956–1966",
+    "body": "The partnership between the two Communist giants broke apart within a decade. A US National Intelligence Estimate of December 1966 summed up American understanding of why. Serious but hidden differences had existed even under Stalin, and open antagonism dated back \"at least to 1960\". Underlying everything were conflicts of national interest: old Russian and Chinese rivalry in Mongolia and Korea, and a newer rivalry for leadership of the Communist world. Differences in wealth and power, doctrinal quarrels over Communist strategy and even personal hatred between Khrushchev and Mao all played a part.\n\nTwo moves in the late 1950s gave the dispute its own momentum, according to the estimate: the Soviet Union's refusal to give China the means to build nuclear weapons, and Peking's decision to challenge Moscow's dominance of the bloc. The break had real costs for China. In April 1961 US intelligence reported that the dislocations of Mao's \"Great Leap Forward\" and \"the removal of Soviet technicians\" had disrupted China's industrialisation; industrial growth had fallen from about 33 per cent in 1959 to 16 per cent in 1960. China pressed on alone and exploded its own atomic bomb in 1964.\n\nBy the mid-1960s each side denounced the other in public. China accused the Soviet Union of collusion with the US and of turning itself into a \"bourgeois society\"; Moscow replied that Chinese policies had \"nothing in common with Marxism-Leninism\". The Vietnam War added urgency, because Soviet supplies for North Vietnam had to cross China. In March 1969 another US estimate judged that Mao's \"ideological pretensions\" had earned China the enmity of the USSR and that, while Mao remained in charge, he would be \"an insurmountable obstacle\" to any accommodation with Moscow.\n\nWas the split about ideology or national interest? The US analysts' answer was both: ideological rivalry over who led world Communism was itself a struggle for power, while disputes over nuclear weapons, borders and aid were matters of national interest.\n\nThis mattered because the Communist world was no longer a single bloc, which meant that the United States might one day play the two Communist powers against each other.",
+    "argumentsThatWork": [
+     {
+      "claim": "National interest and rivalry for leadership drove the split.",
+      "evidence": [
+       "F-SINO-08"
+      ],
+      "strongestCounter": "Ideological quarrels were just as public and bitter."
+     },
+     {
+      "claim": "Soviet refusal of nuclear help and the withdrawal of technicians deepened it.",
+      "evidence": [
+       "F-SINO-08",
+       "F-SINO-10"
+      ],
+      "strongestCounter": "China's own Great Leap Forward also damaged its economy."
+     },
+     {
+      "claim": "By the mid-1960s each side treated the other as ideologically beyond redemption.",
+      "evidence": [
+       "F-SINO-09",
+       "F-SINO-12"
+      ],
+      "strongestCounter": "The two states did not break off state relations."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was ideology the main cause of the Sino-Soviet split between 1956 and 1969?",
+     "Compare and contrast Sino-Soviet and Sino-US relations between 1949 and 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Sino-Soviet split was driven as much by national interest as by ideology.",
+     "prove": "A US estimate of 1966 listed conflicts of national interest, rivalry for leadership of the Communist world and the Soviet refusal in the late 1950s to give China the means to build nuclear weapons.",
+     "explain": "This meant that ideological disputes expressed a struggle for power, so neither side could give way without accepting the other's leadership.",
+     "test": "However, the public quarrel was conducted in ideological terms, with Moscow saying Chinese policy had 'nothing in common with Marxism-Leninism'.",
+     "judge": "The split was therefore a contest for power fought in the language of ideology."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-SINO-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to the 1966 US intelligence estimate, which Soviet decision in the late 1950s gave the split momentum?",
+      "factIds": [
+       "F-SINO-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Refusing to give China the means to build nuclear weapons",
+        "correct": true,
+        "explanation": "Correct: along with Peking's challenge to Moscow's dominance."
+       },
+       {
+        "id": "b",
+        "text": "Invading Manchuria",
+        "correct": false,
+        "explanation": "That was in 1945."
+       },
+       {
+        "id": "c",
+        "text": "Joining NATO",
+        "correct": false,
+        "explanation": "Not possible."
+       },
+       {
+        "id": "d",
+        "text": "Recognising Taiwan",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-SINO-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did the People's Republic of China explode its first atomic bomb? (year)",
+      "factIds": [
+       "F-SINO-11"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1964,
+        "tolerance": 0,
+        "explanation": "1964."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-SINO-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1961 US intelligence reported that the removal of Soviet technicians had disrupted China's industrialisation.” Which argument does it support best?",
+      "factIds": [
+       "F-SINO-10"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The split had heavy economic costs for China",
+        "correct": true,
+        "explanation": "Correct: industrial growth fell sharply."
+       },
+       {
+        "id": "b",
+        "text": "Soviet aid to China increased after 1960",
+        "correct": false,
+        "explanation": "The technicians were removed."
+       },
+       {
+        "id": "c",
+        "text": "China's economy boomed in 1960",
+        "correct": false,
+        "explanation": "Growth fell from 33 to 16 per cent."
+       },
+       {
+        "id": "d",
+        "text": "The US sent technicians to China",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "1969: border war and the opening to America",
+    "body": "In March 1969 the hostility turned violent. Soviet and Chinese troops fought **armed clashes on the Ussuri River**, on their shared frontier. In August 1969 a US National Intelligence Estimate wrote that \"for the first time, it is reasonable to ask whether a major Sino-Soviet war could break out\". The Soviets, it noted, had a reason to strike soon rather than later: China's emerging nuclear force. The analysts saw \"some chance\" that Moscow might attack China's nuclear and missile sites. They concluded that the Chinese now regarded the USSR as their \"most immediate enemy\", while Moscow wanted better relations with the West in order to \"contain\" China.\n\nThe new American president saw an opportunity. In March 1969 Richard Nixon told President de Gaulle that in the long run the US should recognise both China and the Soviet Union as great powers and build \"parallel relationships\" with them. Both sides now had reasons to talk. For Washington, mired in Vietnam, better relations with Peking might undermine Communist alliances, isolate North Vietnam and increase American leverage over the Soviet Union. For Mao, fear of the USSR made the US a useful counterweight.\n\nThe approach was cautious and secret. Nixon eased travel and trade restrictions dating from the Korean War, the ambassadorial talks resumed in 1969, and he opened a secret channel through Pakistan's President Yahya Khan. Mao told the American journalist Edgar Snow that he would be happy to talk with Nixon. In April 1971, after American and Chinese table-tennis players had fraternised at a competition in Japan, China invited the US team to visit: \"Ping Pong Diplomacy\" gave a public face to the secret negotiations. Henry Kissinger, Nixon's National Security Adviser, flew to Beijing twice in 1971, the first time in complete secrecy. In October 1971 the United Nations voted to give China's seat to the PRC in place of Taiwan, a major diplomatic triumph for Peking.\n\nThis mattered because the border war made the USSR China's main enemy, which meant that the two former foes, China and the United States, now shared an interest in balancing Soviet power.",
+    "argumentsThatWork": [
+     {
+      "claim": "The 1969 border clashes made the USSR China's main enemy.",
+      "evidence": [
+       "F-SINO-13"
+      ],
+      "strongestCounter": "The analysts did not expect China to attack the USSR."
+     },
+     {
+      "claim": "Nixon saw a chance to build 'parallel relationships' with both Communist powers.",
+      "evidence": [
+       "F-SINO-14",
+       "F-SINO-15"
+      ],
+      "strongestCounter": "Vietnam was also a major US motive."
+     },
+     {
+      "claim": "Secret diplomacy and 'ping-pong' prepared the rapprochement.",
+      "evidence": [
+       "F-SINO-16",
+       "F-SINO-17"
+      ],
+      "strongestCounter": "Taiwan was still unresolved."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the causes and consequences of the Sino-Soviet border clashes between 1969 and 1972.",
+     "Discuss the view that the Sino-Soviet split was the main reason for the rapprochement between the United States and China with reference to the period 1969 to 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Sino-Soviet split was the main reason for the rapprochement, because it gave both China and the US a shared interest in balancing Soviet power.",
+     "prove": "After the armed clashes on the Ussuri River in March 1969, US analysts judged that China now saw the USSR as its 'most immediate enemy'.",
+     "explain": "This meant that Mao needed a counterweight to Moscow, so he told Edgar Snow he would talk with Nixon and invited the US table-tennis team in April 1971.",
+     "test": "However, the US had its own motive in Vietnam, hoping to isolate North Vietnam and gain leverage over the USSR.",
+     "judge": "The split therefore made rapprochement possible, while Vietnam made it urgent for Washington."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-SINO-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Where did Soviet and Chinese forces clash in March 1969?",
+      "factIds": [
+       "F-SINO-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "On the Ussuri River",
+        "correct": true,
+        "explanation": "Correct: US analysts then feared a major war."
+       },
+       {
+        "id": "b",
+        "text": "In the Taiwan Strait",
+        "correct": false,
+        "explanation": "That was the PRC against Taiwan."
+       },
+       {
+        "id": "c",
+        "text": "In Berlin",
+        "correct": false,
+        "explanation": "Not a Sino-Soviet border."
+       },
+       {
+        "id": "d",
+        "text": "In Korea",
+        "correct": false,
+        "explanation": "Not in 1969."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-SINO-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Through whom did Nixon open a secret channel to the Chinese leadership?",
+      "factIds": [
+       "F-SINO-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Pakistan's President Yahya Khan",
+        "correct": true,
+        "explanation": "Correct: he had good relations with both sides."
+       },
+       {
+        "id": "b",
+        "text": "The Soviet ambassador",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "c",
+        "text": "Chiang Kai-shek",
+        "correct": false,
+        "explanation": "Not possible."
+       },
+       {
+        "id": "d",
+        "text": "The UN Secretary-General",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-SINO-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In August 1969 US analysts wrote that the Chinese now regarded the USSR as their most immediate enemy.” Which argument does it support best?",
+      "factIds": [
+       "F-SINO-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "China had a strategic reason to seek better relations with the US",
+        "correct": true,
+        "explanation": "Correct: a counterweight to Moscow."
+       },
+       {
+        "id": "b",
+        "text": "China was about to rejoin the Soviet bloc",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The US and USSR were allies against China",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       },
+       {
+        "id": "d",
+        "text": "China no longer feared the USSR",
+        "correct": false,
+        "explanation": "It feared the USSR most."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "From Beijing to normalisation, 1972–1979",
+    "body": "From 21 to 28 February 1972 Richard Nixon visited China, the first American president to visit the mainland while in office, and met Mao Zedong and Premier Zhou Enlai. The visit ended with the **Shanghai Communiqué**, in which each side stated its position on Taiwan. The PRC affirmed that Taiwan was part of China. The US \"acknowledges that all Chinese on either side of the Taiwan Strait maintain that there is but one China\", did not challenge that position and said it would withdraw its remaining troops from Taiwan. Mao and Zhou made clear that there could be no full normalisation while the US kept formal relations with Taiwan. In the Office of the Historian's judgement, rapprochement \"fundamentally altered the context of the Cold War\" and influenced the move towards détente with the Soviet Union. Nixon's aim, in his own phrase, was to give Moscow and Beijing \"bigger fish to fry\" than support for North Vietnam, though both continued to supply Hanoi.\n\nProgress then slowed. The two countries opened liaison offices in each other's capitals in 1973, while Taiwan still had an embassy in Washington, and the US gradually withdrew its military personnel from Taiwan. But the Watergate scandal frustrated Nixon's hopes of full normalisation, and under Gerald Ford the fall of South Vietnam and conservative opposition made any move that looked like abandoning an anti-Communist ally politically dangerous.\n\n**Jimmy Carter** completed the process. Carter's officials debated how to normalise relations without damaging relations with the Soviet Union, but decided the opportunity might not last. On 15 December 1978 the two governments announced that they would establish diplomatic relations from 1 January 1979. The US recognised the PRC as the sole legal government of China, ended its 1954 defence treaty with Taiwan and kept only unofficial ties with the island. In January 1979 Deng Xiaoping visited the US, where he informed Carter of China's plan to attack Vietnam. Congress passed the Taiwan Relations Act in April, promising Taiwan defensive arms, which angered Beijing. After the Soviet invasion of Afghanistan in 1979, Sino-American military cooperation increased.\n\nThis mattered because by 1979 China had moved from the Soviet camp to cooperation with the US, which meant that the Cold War had become a triangle in which the Soviet Union faced two hostile powers.",
+    "argumentsThatWork": [
+     {
+      "claim": "The 1972 visit transformed the Cold War's structure.",
+      "evidence": [
+       "F-SINO-18",
+       "F-SINO-22"
+      ],
+      "strongestCounter": "China and the USSR continued to support North Vietnam."
+     },
+     {
+      "claim": "Taiwan and US domestic politics slowed normalisation.",
+      "evidence": [
+       "F-SINO-19"
+      ],
+      "strongestCounter": "Liaison offices worked as de facto embassies from 1973."
+     },
+     {
+      "claim": "Normalisation in 1979 completed the triangle against the USSR.",
+      "evidence": [
+       "F-SINO-20",
+       "F-SINO-21"
+      ],
+      "strongestCounter": "The Taiwan Relations Act kept tensions alive."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the significance of the Sino-US rapprochement for superpower relations between 1971 and 1979.",
+     "Compare and contrast Sino-Soviet and Sino-US relations between 1949 and 1979."
+    ],
+    "useItInAnEssay": {
+     "claim": "The rapprochement was highly significant because it changed the Cold War from a contest of two blocs into a triangle.",
+     "prove": "Nixon's visit of February 1972 produced the Shanghai Communiqué, and on 1 January 1979 the US and PRC established diplomatic relations.",
+     "explain": "This meant that the Soviet Union now faced two hostile powers, so Moscow had a stronger reason to seek détente with the US.",
+     "test": "However, the Communist powers continued to supply North Vietnam, and Taiwan remained a source of friction, as the 1979 Taiwan Relations Act showed.",
+     "judge": "The rapprochement was therefore decisive for the shape of the Cold War, though it did not end Chinese hostility to American policy everywhere."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-12-SINO-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the US say about Taiwan in the Shanghai Communiqué of 1972?",
+      "factIds": [
+       "F-SINO-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It acknowledged that Chinese on both sides maintain there is but one China, and did not challenge that",
+        "correct": true,
+        "explanation": "Correct: and it would withdraw its remaining troops."
+       },
+       {
+        "id": "b",
+        "text": "It recognised Taiwan as an independent state",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "It handed Taiwan to the PRC",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "d",
+        "text": "It said nothing about Taiwan",
+        "correct": false,
+        "explanation": "Taiwan was the central issue."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-SINO-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did the US and the PRC establish diplomatic relations?",
+      "factIds": [
+       "F-SINO-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "1 January 1979",
+        "correct": true,
+        "explanation": "Correct: announced on 15 December 1978."
+       },
+       {
+        "id": "b",
+        "text": "21 February 1972",
+        "correct": false,
+        "explanation": "That is when Nixon arrived in China."
+       },
+       {
+        "id": "c",
+        "text": "1 October 1949",
+        "correct": false,
+        "explanation": "That is when the PRC was proclaimed."
+       },
+       {
+        "id": "d",
+        "text": "April 1971",
+        "correct": false,
+        "explanation": "That is ping-pong diplomacy."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-12-SINO-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Soviet invasion of Afghanistan in 1979 increased Sino-American military cooperation.” Which argument does it support best?",
+      "factIds": [
+       "F-SINO-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "By 1979 China and the US were aligned against the USSR",
+        "correct": true,
+        "explanation": "Correct: they also coordinated the Olympic boycott."
+       },
+       {
+        "id": "b",
+        "text": "China supported the Soviet invasion",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Normalisation ended in 1979",
+        "correct": false,
+        "explanation": "It began in 1979."
+       },
+       {
+        "id": "d",
+        "text": "The US and USSR became allies",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1949,
+      "month": 10,
+      "day": 1,
+      "text": "People's Republic of China proclaimed",
+      "factId": "F-SINO-01"
+     },
+     {
+      "year": 1950,
+      "text": "China enters the Korean War",
+      "factId": "F-SINO-03"
+     },
+     {
+      "year": 1954,
+      "month": 9,
+      "text": "PRC shells Jinmen and Mazu",
+      "factId": "F-SINO-04"
+     },
+     {
+      "year": 1955,
+      "month": 8,
+      "day": 1,
+      "text": "US-China ambassadorial talks open",
+      "factId": "F-SINO-05"
+     },
+     {
+      "year": 1956,
+      "month": 2,
+      "text": "Khrushchev's speech; Chinese doubts",
+      "factId": "F-SINO-07"
+     },
+     {
+      "year": 1960,
+      "text": "Soviet technicians removed from China",
+      "factId": "F-SINO-10"
+     },
+     {
+      "year": 1964,
+      "text": "China's first atomic bomb",
+      "factId": "F-SINO-11"
+     },
+     {
+      "year": 1969,
+      "month": 3,
+      "text": "Sino-Soviet clashes on the Ussuri River",
+      "factId": "F-SINO-13"
+     },
+     {
+      "year": 1971,
+      "month": 4,
+      "text": "Ping-pong diplomacy",
+      "factId": "F-SINO-16"
+     },
+     {
+      "year": 1972,
+      "month": 2,
+      "day": 21,
+      "text": "Nixon arrives in China",
+      "factId": "F-SINO-18"
+     },
+     {
+      "year": 1979,
+      "month": 1,
+      "day": 1,
+      "text": "US-PRC diplomatic relations",
+      "factId": "F-SINO-20"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "PRC allied to Moscow, at war with the US in Korea",
+      "factId": "F-SINO-03"
+     },
+     {
+      "id": "n2",
+      "text": "Rivalry for leadership and Soviet refusal of nuclear help",
+      "factId": "F-SINO-08"
+     },
+     {
+      "id": "n3",
+      "text": "Open split: technicians withdrawn, polemics",
+      "factId": "F-SINO-10"
+     },
+     {
+      "id": "n4",
+      "text": "Border clashes of 1969: the USSR becomes China's main enemy",
+      "factId": "F-SINO-13"
+     },
+     {
+      "id": "n5",
+      "text": "Secret diplomacy, ping-pong and Nixon's visit",
+      "factId": "F-SINO-18"
+     },
+     {
+      "id": "n6",
+      "text": "Normalisation in 1979 and cooperation against the USSR",
+      "factId": "F-SINO-21"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "National interest and ideology pulled the partners apart"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Each move gave the dispute its own momentum"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Hostility turned into armed conflict"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "China needed a counterweight; the US wanted leverage and an exit from Vietnam"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Carter completed what Watergate had delayed"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Mao Zedong",
+     "role": "Chairman of the Chinese Communist Party",
+     "whyItMatters": "Led China from partnership with Moscow to rapprochement with the US.",
+     "factIds": [
+      "F-SINO-01",
+      "F-SINO-12",
+      "F-SINO-16"
+     ]
+    },
+    {
+     "name": "Nikita Khrushchev",
+     "role": "Soviet leader, 1955–1964",
+     "whyItMatters": "Personal enmity with Mao; his reforms alarmed Peking.",
+     "factIds": [
+      "F-SINO-07",
+      "F-SINO-08"
+     ]
+    },
+    {
+     "name": "Zhou Enlai",
+     "role": "PRC Premier",
+     "whyItMatters": "Offered talks in 1955; negotiated with Nixon in 1972.",
+     "factIds": [
+      "F-SINO-04",
+      "F-SINO-18"
+     ]
+    },
+    {
+     "name": "Richard Nixon",
+     "role": "US President, 1969–1974",
+     "whyItMatters": "Sought 'parallel relationships'; visited China in 1972.",
+     "factIds": [
+      "F-SINO-14",
+      "F-SINO-18"
+     ]
+    },
+    {
+     "name": "Henry Kissinger",
+     "role": "National Security Adviser",
+     "whyItMatters": "Made two trips to Beijing in 1971, the first in secret.",
+     "factIds": [
+      "F-SINO-17"
+     ]
+    },
+    {
+     "name": "Deng Xiaoping",
+     "role": "PRC Vice-Premier",
+     "whyItMatters": "Visited the US in January 1979 after normalisation.",
+     "factIds": [
+      "F-SINO-21"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Sino-Soviet relations",
+     "Sino-US relations"
+    ],
+    "rows": [
+     {
+      "criterion": "1950s",
+      "cells": [
+       "Relative harmony, with hidden differences",
+       "Enmity: Korea, Taiwan, embargo"
+      ],
+      "factIds": [
+       "F-SINO-08",
+       "F-SINO-03"
+      ]
+     },
+     {
+      "criterion": "1960s",
+      "cells": [
+       "Open split; technicians withdrawn",
+       "Hostility; only ambassadorial talks"
+      ],
+      "factIds": [
+       "F-SINO-10",
+       "F-SINO-05"
+      ]
+     },
+     {
+      "criterion": "1969",
+      "cells": [
+       "Armed clashes on the Ussuri",
+       "Nixon seeks 'parallel relationships'"
+      ],
+      "factIds": [
+       "F-SINO-13",
+       "F-SINO-14"
+      ]
+     },
+     {
+      "criterion": "1979",
+      "cells": [
+       "The USSR is China's main enemy",
+       "Diplomatic relations; cooperation after Afghanistan"
+      ],
+      "factIds": [
+       "F-SINO-13",
+       "F-SINO-20",
+       "F-SINO-21"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-SINO-03",
+    "year": 1950,
+    "text": "1950: Seventh Fleet into the Taiwan Strait; China entered the Korean War; US embargo.",
+    "supports": [
+     "Korea made the US and PRC enemies"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-KOREA"
+    ],
+    "lexicon": [
+     "Korean War",
+     "Seventh Fleet"
+    ]
+   },
+   {
+    "factId": "F-SINO-05",
+    "year": 1955,
+    "text": "Ambassadorial talks from August 1955: 136 meetings over sixteen years; Taiwan the main obstacle.",
+    "supports": [
+     "A channel stayed open despite hostility"
+    ],
+    "lexicon": [
+     "ambassadorial talks",
+     "Taiwan"
+    ]
+   },
+   {
+    "factId": "F-SINO-08",
+    "year": 1966,
+    "text": "NIE 1966: national interest, rivalry for leadership, Soviet refusal of nuclear help.",
+    "supports": [
+     "The split was about power as well as ideology"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CONTAINMENT"
+    ],
+    "lexicon": [
+     "Sino-Soviet split"
+    ]
+   },
+   {
+    "factId": "F-SINO-10",
+    "year": 1960,
+    "text": "Removal of Soviet technicians; industrial growth fell from 33 to 16 per cent (1959–60).",
+    "supports": [
+     "The split had heavy costs for China"
+    ],
+    "alsoWorksFor": [
+     "P2-12-IMPACT"
+    ],
+    "lexicon": [
+     "Soviet technicians",
+     "Great Leap Forward"
+    ]
+   },
+   {
+    "factId": "F-SINO-13",
+    "year": 1969,
+    "text": "March 1969: Ussuri River clashes; US analysts feared a major Sino-Soviet war.",
+    "supports": [
+     "The USSR became China's main enemy"
+    ],
+    "lexicon": [
+     "Ussuri",
+     "border clashes"
+    ]
+   },
+   {
+    "factId": "F-SINO-16",
+    "year": 1971,
+    "text": "April 1971: ping-pong diplomacy; Mao told Snow he would talk with Nixon.",
+    "supports": [
+     "Public gestures prepared secret diplomacy"
+    ],
+    "lexicon": [
+     "ping-pong diplomacy"
+    ]
+   },
+   {
+    "factId": "F-SINO-18",
+    "year": 1972,
+    "text": "Nixon in China (21–28 February 1972); Shanghai Communiqué on 'one China'.",
+    "supports": [
+     "Rapprochement altered the context of the Cold War"
+    ],
+    "alsoWorksFor": [
+     "P2-12-DETENTE"
+    ],
+    "lexicon": [
+     "Shanghai Communiqué",
+     "Nixon"
+    ]
+   },
+   {
+    "factId": "F-SINO-20",
+    "year": 1979,
+    "text": "1 January 1979: US-PRC relations; US ended its 1954 treaty with Taiwan.",
+    "supports": [
+     "Normalisation completed the triangle"
+    ],
+    "alsoWorksFor": [
+     "P2-12-DETENTE"
+    ],
+    "lexicon": [
+     "normalisation",
+     "Carter"
+    ]
+   }
+  ],
+  "historiography": [],
+  "misconceptions": [
+   {
+    "wrong": "China and the USSR were always rivals.",
+    "right": "There was relative harmony in Stalin's time; open antagonism dates from **about 1960**."
+   },
+   {
+    "wrong": "Nixon's 1972 visit established diplomatic relations.",
+    "right": "Relations began only on **1 January 1979**, under Carter."
+   },
+   {
+    "wrong": "The US abandoned all links with Taiwan in 1979.",
+    "right": "It kept **unofficial** ties, and the Taiwan Relations Act promised defensive arms."
+   },
+   {
+    "wrong": "Ping-pong diplomacy was the rapprochement.",
+    "right": "It was the **public face** of secret talks through Pakistan and Kissinger's trips."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1949,
+     "month": 10,
+     "day": 1,
+     "text": "PRC"
+    },
+    {
+     "year": 1955,
+     "month": 8,
+     "day": 1,
+     "text": "Talks open"
+    },
+    {
+     "year": 1960,
+     "text": "Technicians withdrawn"
+    },
+    {
+     "year": 1964,
+     "text": "Chinese bomb"
+    },
+    {
+     "year": 1969,
+     "month": 3,
+     "text": "Ussuri clashes"
+    },
+    {
+     "year": 1971,
+     "month": 4,
+     "text": "Ping-pong"
+    },
+    {
+     "year": 1972,
+     "month": 2,
+     "day": 21,
+     "text": "Nixon in China"
+    },
+    {
+     "year": 1979,
+     "month": 1,
+     "day": 1,
+     "text": "Normalisation"
+    }
+   ],
+   "keyArguments": [
+    "Korea and Taiwan made the US and PRC enemies in the 1950s.",
+    "The split came from national interest, rivalry for leadership and Soviet refusal of nuclear help.",
+    "The 1969 clashes made the USSR China's main enemy.",
+    "Nixon wanted 'parallel relationships' and leverage over Moscow and Hanoi.",
+    "Normalisation in 1979 turned the Cold War into a triangle against the USSR."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-12-SINO-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "PRC proclaimed",
+     "year": 1949,
+     "month": 10,
+     "factId": "F-SINO-01"
+    },
+    {
+     "id": "b",
+     "text": "Taiwan Strait shelling begins",
+     "year": 1954,
+     "month": 9,
+     "factId": "F-SINO-04"
+    },
+    {
+     "id": "c",
+     "text": "Ambassadorial talks open in Geneva",
+     "year": 1955,
+     "month": 8,
+     "factId": "F-SINO-05"
+    },
+    {
+     "id": "d",
+     "text": "Khrushchev denounces Stalin",
+     "year": 1956,
+     "month": 2,
+     "factId": "F-SINO-07"
+    },
+    {
+     "id": "e",
+     "text": "Chinese atomic bomb",
+     "year": 1964,
+     "factId": "F-SINO-11"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps towards rapprochement in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Ussuri River clashes",
+     "year": 1969,
+     "month": 3,
+     "factId": "F-SINO-13"
+    },
+    {
+     "id": "b",
+     "text": "Ping-pong invitation",
+     "year": 1971,
+     "month": 4,
+     "factId": "F-SINO-16"
+    },
+    {
+     "id": "c",
+     "text": "PRC takes China's UN seat",
+     "year": 1971,
+     "month": 10,
+     "factId": "F-SINO-17"
+    },
+    {
+     "id": "d",
+     "text": "Nixon visits China",
+     "year": 1972,
+     "month": 2,
+     "factId": "F-SINO-18"
+    },
+    {
+     "id": "e",
+     "text": "US-PRC relations established",
+     "year": 1979,
+     "month": 1,
+     "factId": "F-SINO-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Liaison offices opened",
+     "year": 1973,
+     "factId": "F-SINO-19"
+    },
+    {
+     "id": "b",
+     "text": "Normalisation announced",
+     "year": 1978,
+     "month": 12,
+     "factId": "F-SINO-20"
+    },
+    {
+     "id": "c",
+     "text": "Taiwan Relations Act becomes law",
+     "year": 1979,
+     "month": 4,
+     "factId": "F-SINO-21"
+    },
+    {
+     "id": "d",
+     "text": "US troops sent into the Taiwan Strait",
+     "year": 1950,
+     "month": 6,
+     "factId": "F-SINO-03"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Yahya Khan",
+     "right": "Pakistani president who carried secret messages between Nixon and Beijing",
+     "explanation": "A trusted intermediary."
+    },
+    {
+     "left": "Edgar Snow",
+     "right": "American journalist to whom Mao said he would talk with Nixon",
+     "explanation": "1970."
+    },
+    {
+     "left": "Zhou Enlai",
+     "right": "PRC Premier who offered talks at Bandung in 1955",
+     "explanation": "And met Nixon in 1972."
+    },
+    {
+     "left": "Deng Xiaoping",
+     "right": "PRC Vice-Premier who visited the US in January 1979",
+     "explanation": "After normalisation."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How much did Chinese industrial production grow in 1959, according to the 1961 US estimate? (per cent)",
+   "factIds": [
+    "F-SINO-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 33,
+     "tolerance": 0,
+     "explanation": "About 33 per cent, falling to 16 per cent in 1960."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "For how many years did the US recognise the Republic of China on Taiwan as China's government after 1949? (number)",
+   "factIds": [
+    "F-SINO-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 30,
+     "tolerance": 0,
+     "explanation": "Thirty, until 1979."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the US-China ambassadorial talks move from Geneva to Warsaw? (year)",
+   "factIds": [
+    "F-SINO-05"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1958,
+     "tolerance": 0,
+     "explanation": "1958."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what day of February 1972 did Nixon's visit to China begin? (number)",
+   "factIds": [
+    "F-SINO-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 21,
+     "tolerance": 0,
+     "explanation": "21 February; it lasted until 28 February."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these did the 1966 US estimate list as causes of the Sino-Soviet split? Choose all that apply.",
+   "factIds": [
+    "F-SINO-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rivalry for leadership of the Communist world",
+     "correct": true,
+     "explanation": "Yes: ideological pre-eminence."
+    },
+    {
+     "id": "b",
+     "text": "Personal enmity between Khrushchev and Mao",
+     "correct": true,
+     "explanation": "Yes: personal factors mattered."
+    },
+    {
+     "id": "c",
+     "text": "Soviet refusal to help China build nuclear weapons",
+     "correct": true,
+     "explanation": "Yes: late 1950s."
+    },
+    {
+     "id": "d",
+     "text": "A US-Soviet alliance against China",
+     "correct": false,
+     "explanation": "No: that did not exist."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did the US seek rapprochement with China? Choose all that apply.",
+   "factIds": [
+    "F-SINO-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To undermine alliances between Communist countries",
+     "correct": true,
+     "explanation": "Yes: to divide the Communist powers."
+    },
+    {
+     "id": "b",
+     "text": "To isolate North Vietnam",
+     "correct": true,
+     "explanation": "Yes: the war was escalating."
+    },
+    {
+     "id": "c",
+     "text": "To increase leverage over the Soviet Union",
+     "correct": true,
+     "explanation": "Yes: playing one power against the other."
+    },
+    {
+     "id": "d",
+     "text": "To hand Taiwan to the Soviet Union",
+     "correct": false,
+     "explanation": "No: never a US aim."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The talks gave China and the US an avenue for negotiation, so that misunderstandings did not escalate into outright conflict.” Which argument does it support?",
+   "factIds": [
+    "F-SINO-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Even in hostility, both sides wanted to avoid war",
+     "correct": true,
+     "explanation": "Correct: the channel lasted sixteen years."
+    },
+    {
+     "id": "b",
+     "text": "The talks achieved full normalisation",
+     "correct": false,
+     "explanation": "They made little formal progress."
+    },
+    {
+     "id": "c",
+     "text": "The US and PRC were partners in the 1950s",
+     "correct": false,
+     "explanation": "They were enemies."
+    },
+    {
+     "id": "d",
+     "text": "Taiwan was settled in 1955",
+     "correct": false,
+     "explanation": "It was the main obstacle."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Moscow said Chinese policies had 'nothing in common with Marxism-Leninism'.” Which argument does it support?",
+   "factIds": [
+    "F-SINO-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The split was fought out in ideological terms",
+     "correct": true,
+     "explanation": "Correct: each side called the other a betrayal of Marxism."
+    },
+    {
+     "id": "b",
+     "text": "The USSR and China agreed on ideology",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "China had become capitalist",
+     "correct": false,
+     "explanation": "That was Moscow's polemic, not a fact."
+    },
+    {
+     "id": "d",
+     "text": "The split was about trade only",
+     "correct": false,
+     "explanation": "Ideology was central to the public quarrel."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Nixon's visit in 1972 established full diplomatic relations between the US and the PRC.”",
+   "factIds": [
+    "F-SINO-18",
+    "F-SINO-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Full relations came only on 1 January 1979",
+     "correct": true,
+     "explanation": "Correct: 1972 produced the Shanghai Communiqué."
+    },
+    {
+     "id": "b",
+     "text": "Nixon visited in 1982",
+     "correct": false,
+     "explanation": "He visited in February 1972."
+    },
+    {
+     "id": "c",
+     "text": "Nixon never met Mao",
+     "correct": false,
+     "explanation": "He met Mao and Zhou."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the date of relations."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Sino-Soviet split began when Soviet and Chinese troops clashed on the Ussuri River in 1959.”",
+   "factIds": [
+    "F-SINO-08",
+    "F-SINO-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The clashes came in March 1969; open antagonism dated from about 1960",
+     "correct": true,
+     "explanation": "Correct: the clashes were the climax, not the start."
+    },
+    {
+     "id": "b",
+     "text": "The Ussuri is in Korea",
+     "correct": false,
+     "explanation": "It is on the Sino-Soviet border."
+    },
+    {
+     "id": "c",
+     "text": "China and the USSR were never partners",
+     "correct": false,
+     "explanation": "There was relative harmony in the 1950s."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the date is wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Sino-US relations between 1947 and 1979. Is the Soviet invasion of Afghanistan in 1979 inside or outside the timeframe?",
+   "factIds": [
+    "F-SINO-21"
+   ],
+   "timeframe": [
+    1947,
+    1979
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside, at the very end: it can be used briefly to show Sino-US cooperation",
+     "correct": true,
+     "explanation": "Correct: 1979 is the final year."
+    },
+    {
+     "id": "b",
+     "text": "Outside, because it is about Afghanistan",
+     "correct": false,
+     "explanation": "The location does not decide the timeframe."
+    },
+    {
+     "id": "c",
+     "text": "Outside, because it happened in 1989",
+     "correct": false,
+     "explanation": "It began in 1979."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was 'Ping Pong Diplomacy'?",
+   "factIds": [
+    "F-SINO-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Table-tennis exchanges in 1971–72 that gave a public face to secret talks",
+     "correct": true,
+     "explanation": "Correct: the US team visited China in 1971."
+    },
+    {
+     "id": "b",
+     "text": "A Soviet sports boycott",
+     "correct": false,
+     "explanation": "Not what it was."
+    },
+    {
+     "id": "c",
+     "text": "A treaty signed in 1955",
+     "correct": false,
+     "explanation": "Not what it was."
+    },
+    {
+     "id": "d",
+     "text": "A Chinese military exercise",
+     "correct": false,
+     "explanation": "Not what it was."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to China's seat at the United Nations in October 1971?",
+   "factIds": [
+    "F-SINO-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The PRC was seated in place of Taiwan",
+     "correct": true,
+     "explanation": "Correct: a major triumph for Peking."
+    },
+    {
+     "id": "b",
+     "text": "Taiwan kept the seat",
+     "correct": false,
+     "explanation": "It lost it."
+    },
+    {
+     "id": "c",
+     "text": "Both Chinas were seated",
+     "correct": false,
+     "explanation": "The US proposal failed."
+    },
+    {
+     "id": "d",
+     "text": "The seat was abolished",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did normalisation stall between 1973 and 1977?",
+   "factIds": [
+    "F-SINO-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Watergate, the fall of South Vietnam and conservative opposition",
+     "correct": true,
+     "explanation": "Correct: any move could look like appeasement."
+    },
+    {
+     "id": "b",
+     "text": "China refused to talk",
+     "correct": false,
+     "explanation": "Liaison offices were open."
+    },
+    {
+     "id": "c",
+     "text": "The USSR blocked it",
+     "correct": false,
+     "explanation": "Not the reason given."
+    },
+    {
+     "id": "d",
+     "text": "Taiwan joined the PRC",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Deng Xiaoping tell Carter during his visit of January 1979?",
+   "factIds": [
+    "F-SINO-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That China intended to attack Vietnam",
+     "correct": true,
+     "explanation": "Correct: Carter tried to dissuade him."
+    },
+    {
+     "id": "b",
+     "text": "That China would rejoin the Soviet bloc",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "That China would invade Taiwan",
+     "correct": false,
+     "explanation": "Not what he said."
+    },
+    {
+     "id": "d",
+     "text": "That China accepted the Taiwan Relations Act",
+     "correct": false,
+     "explanation": "Beijing was displeased by it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the August 1969 US intelligence estimate fear the Soviets might do?",
+   "factIds": [
+    "F-SINO-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Strike China's nuclear and missile facilities",
+     "correct": true,
+     "explanation": "Correct: the analysts saw 'some chance' of it."
+    },
+    {
+     "id": "b",
+     "text": "Invade the United States",
+     "correct": false,
+     "explanation": "Not considered."
+    },
+    {
+     "id": "c",
+     "text": "Withdraw from Eastern Europe",
+     "correct": false,
+     "explanation": "Not considered."
+    },
+    {
+     "id": "d",
+     "text": "Join the Shanghai Communiqué",
+     "correct": false,
+     "explanation": "Not possible."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-12-SINO-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was ideology the main cause of the Sino-Soviet split between 1956 and 1969?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "ideology",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main cause of the Sino-Soviet split",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1956 and 1969",
+     "answer": "timeframe",
+     "explanation": "From the secret speech to the border clashes."
+    },
+    {
+     "id": "s5",
+     "text": "main cause",
+     "answer": "judgement",
+     "explanation": "Whether ideology outweighed national interest and personal rivalry."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘The Sino-Soviet split was the main reason for the rapprochement between the United States and China.’ Discuss with reference to the period 1969 to 1979.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "the Sino-Soviet split was the main reason",
+     "answer": "factor",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s3",
+     "text": "the rapprochement between the United States and China",
+     "answer": "scope",
+     "explanation": "What the claim explains."
+    },
+    {
+     "id": "s4",
+     "text": "1969 to 1979",
+     "answer": "timeframe",
+     "explanation": "From the border clashes to normalisation."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Whether the split outweighed Vietnam and other US motives."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was ideology the main cause of the Sino-Soviet split between 1956 and 1969?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ideology was the language of the split, but national interest and the contest for leadership drove it, as the Soviet refusal of nuclear help and the border clashes show.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor."
+    },
+    {
+     "id": "b",
+     "text": "The split happened in the 1960s.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Ideology was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Ideology was the only cause.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the significance of the Sino-US rapprochement for superpower relations between 1971 and 1979.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The rapprochement was highly significant because it turned a two-bloc contest into a triangle that left the USSR facing two hostile powers; but Taiwan and Vietnam limited cooperation until 1979.",
+     "correct": true,
+     "explanation": "Correct: judgement with limits."
+    },
+    {
+     "id": "b",
+     "text": "Nixon went to China in 1972.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The rapprochement was interesting.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The rapprochement ended the Cold War.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In March 1969 Soviet and Chinese troops clashed on the Ussuri River.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because China now saw the USSR as its main enemy, it needed a counterweight, which made the US a potential partner.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "Nixon visited China from 21 to 28 February 1972.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the Soviet Union now faced two hostile powers, so it had more reason to seek détente.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "The Seventh Fleet sent into the Taiwan Strait in 1950",
+     "right": "Korea made the US and PRC enemies",
+     "explanation": "Taiwan protected."
+    },
+    {
+     "left": "Soviet refusal of nuclear help in the late 1950s",
+     "right": "National interest drove the split",
+     "explanation": "1966 estimate."
+    },
+    {
+     "left": "The Ussuri River clashes",
+     "right": "The USSR became China's main enemy",
+     "explanation": "March 1969."
+    },
+    {
+     "left": "Military cooperation after Afghanistan",
+     "right": "China and the US were aligned against the USSR by 1979",
+     "explanation": "Olympic boycott too."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “China and the USSR stopped being friends.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the USSR refused in the late 1950s to help China build nuclear weapons and both competed to lead world Communism, the partnership broke down; after Soviet technicians were removed, China's industrial growth fell from 33 to 16 per cent.",
+     "correct": true,
+     "explanation": "Correct: causes, evidence and consequence."
+    },
+    {
+     "id": "b",
+     "text": "China and the USSR really stopped being friends.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "China and the USSR were Communist.",
+     "correct": false,
+     "explanation": "Not an upgrade."
+    },
+    {
+     "id": "d",
+     "text": "China and the USSR hated each other for ever.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The rapprochement was caused only by the Sino-Soviet split.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Vietnam War gave the US its own motive: officials hoped better relations with China would isolate North Vietnam and increase leverage over the USSR, and Nixon wanted 'parallel relationships' with both powers.",
+     "correct": true,
+     "explanation": "Correct: specific US motives."
+    },
+    {
+     "id": "b",
+     "text": "Nixon liked travelling.",
+     "correct": false,
+     "explanation": "Not a historical argument."
+    },
+    {
+     "id": "c",
+     "text": "China is a large country.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "d",
+     "text": "Ping-pong is popular.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was ideology the main cause of the Sino-Soviet split between 1956 and 1969?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what made compromise impossible, national interest mattered more than doctrine, because the quarrels over nuclear help, leadership and borders could not be settled by ideological agreement.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, China and the USSR split up.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, ideology was complicated.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Communists always disagree.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-SINO-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes and consequences of the Sino-Soviet border clashes between 1969 and 1972.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Years of rivalry for leadership of world Communism",
+     "answer": "causes",
+     "explanation": "The long-term split."
+    },
+    {
+     "id": "s2",
+     "text": "Disputed frontiers between the two states",
+     "answer": "causes",
+     "explanation": "Territorial claims."
+    },
+    {
+     "id": "s3",
+     "text": "Soviet fear of China's emerging nuclear force",
+     "answer": "causes",
+     "explanation": "A reason to strike soon."
+    },
+    {
+     "id": "s4",
+     "text": "China's search for a counterweight in the US",
+     "answer": "effects",
+     "explanation": "Ping-pong and Kissinger's trips."
+    },
+    {
+     "id": "s5",
+     "text": "Nixon's visit to China in 1972",
+     "answer": "effects",
+     "explanation": "The rapprochement."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-12-SINO-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was ideology the main cause of the Sino-Soviet split between 1956 and 1969?",
+   "commandTerm": "to what extent",
+   "namedFactor": "ideology",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1956,
+    1969
+   ],
+   "scope": "China and the USSR",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Ideology, weighed first",
+    "timeframe": "1956–1969",
+    "scope": "The Sino-Soviet split",
+    "judgement": "Whether ideology outweighed national interest and personal rivalry"
+   },
+   "modelPlan": {
+    "thesis": "Ideology was the language of the split, but national interest and the contest for leadership drove it, as the Soviet refusal of nuclear help and the border clashes show.",
+    "arguments": [
+     {
+      "claim": "Ideology: rival claims to lead world Communism (named factor first).",
+      "evidence": [
+       "F-SINO-08",
+       "F-SINO-09"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "National interest: nuclear weapons and aid.",
+      "evidence": [
+       "F-SINO-08",
+       "F-SINO-10"
+      ]
+     },
+     {
+      "claim": "Personal enmity and Mao's leadership.",
+      "evidence": [
+       "F-SINO-08",
+       "F-SINO-12"
+      ]
+     },
+     {
+      "claim": "Borders: the 1969 clashes.",
+      "evidence": [
+       "F-SINO-13"
+      ]
+     }
+    ],
+    "counter": "Chinese doubts about Khrushchev's de-Stalinisation in 1956 show that doctrine mattered from the start.",
+    "judgementCriterion": "What made compromise impossible? National interest, because disputes over nuclear help and borders could not be settled by doctrine."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Ideology was the language of the Sino-Soviet split, but not its main cause.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "A US estimate of 1966 noted that each side called the other a betrayal of Marxism-Leninism, but listed conflicts of national interest and the Soviet refusal to help China build nuclear weapons as the deeper causes.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that ideological polemics expressed a struggle for power, so neither side could compromise without accepting the other's leadership.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Chinese doubts about de-Stalinisation in 1956 show that doctrine mattered from the start.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Ideology was therefore a real but secondary cause; the split was a contest for power fought in ideological terms.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "ideology",
+     "ideological"
+    ],
+    "synonyms": [
+     "Marxism-Leninism",
+     "doctrine"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Khrushchev",
+     "Mao",
+     "Ussuri"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-SINO-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Sino-Soviet split was the main reason for the rapprochement between the United States and China.” Discuss with reference to the period 1969 to 1979.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1969,
+    1979
+   ],
+   "scope": "China, the US and the USSR",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: the split was the main reason",
+    "timeframe": "1969–1979",
+    "scope": "Sino-US rapprochement",
+    "judgement": "Whether the split outweighed Vietnam and other US motives"
+   },
+   "modelPlan": {
+    "thesis": "The split was the main reason China sought rapprochement and made it possible for both sides, but American motives in Vietnam and Nixon's search for 'parallel relationships' explain why Washington moved when it did.",
+    "arguments": [
+     {
+      "claim": "For: the USSR as China's main enemy after 1969.",
+      "evidence": [
+       "F-SINO-13"
+      ]
+     },
+     {
+      "claim": "For: cooperation against the USSR by 1979.",
+      "evidence": [
+       "F-SINO-21"
+      ]
+     },
+     {
+      "claim": "Against: US motives in Vietnam.",
+      "evidence": [
+       "F-SINO-15",
+       "F-SINO-22"
+      ]
+     },
+     {
+      "claim": "Against: Nixon's wider strategy of parallel relationships.",
+      "evidence": [
+       "F-SINO-14"
+      ]
+     }
+    ],
+    "counter": "Taiwan, not the USSR, decided the pace of normalisation between 1972 and 1979.",
+    "judgementCriterion": "Without the split would rapprochement have happened? Probably not, so it was the necessary condition."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Sino-Soviet split was the main reason for the rapprochement, because it made the USSR China's main enemy.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After the Ussuri clashes of March 1969, US analysts judged that China saw the USSR as its 'most immediate enemy', and by 1979 China and the US cooperated against the Soviet invasion of Afghanistan.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Mao needed a counterweight to Moscow, so he responded to Nixon's approaches through Pakistan and ping-pong diplomacy.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the US had its own motives: officials hoped to isolate North Vietnam and gain leverage over the USSR, and Nixon sought 'parallel relationships' with both Communist powers.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The split was therefore the necessary condition of rapprochement, while American aims explain its timing.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Sino-Soviet split"
+    ],
+    "synonyms": [
+     "rapprochement",
+     "Nixon",
+     "Mao"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Ussuri",
+     "ping-pong",
+     "Shanghai Communiqué"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-SINO-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for hostility between the United States and the People's Republic of China between 1949 and 1958.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1949,
+    1958
+   ],
+   "scope": "the US and the PRC",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Reasons for hostility",
+    "timeframe": "1949–1958",
+    "scope": "The US and the PRC",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "Hostility rested on US non-recognition after 1949, was turned into enmity by the Korean War, and was kept alive by the unresolved question of Taiwan, though both sides avoided all-out war.",
+    "arguments": [
+     {
+      "claim": "Non-recognition after 1949.",
+      "evidence": [
+       "F-SINO-01"
+      ]
+     },
+     {
+      "claim": "The Korean War and the embargo.",
+      "evidence": [
+       "F-SINO-03"
+      ]
+     },
+     {
+      "claim": "Taiwan and the Strait crises.",
+      "evidence": [
+       "F-SINO-04",
+       "F-SINO-06"
+      ]
+     },
+     {
+      "claim": "Limits: the ambassadorial talks.",
+      "evidence": [
+       "F-SINO-05"
+      ]
+     }
+    ],
+    "counter": "The talks from 1955 show that both sides wanted to avoid war.",
+    "judgementCriterion": "Which reason mattered most? Korea, because it made the two direct military enemies."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Hostility between the US and the PRC was caused above all by the Korean War.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "When the war began in June 1950 the US sent the Seventh Fleet into the Taiwan Strait, and after China entered the war it imposed an embargo and worked to isolate Peking.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the unresolved question of Taiwan became tied to a war, so the PRC's shelling of the offshore islands in 1954 and 1958 produced new crises.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both sides avoided all-out war, and the ambassadorial talks from August 1955 kept a channel open.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Korea therefore turned estrangement into enmity, while Taiwan kept the hostility alive.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "hostility"
+    ],
+    "synonyms": [
+     "Korea",
+     "Taiwan",
+     "non-recognition"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Seventh Fleet",
+     "Jinmen",
+     "embargo"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-SINO-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of the Sino-US rapprochement for superpower relations between 1971 and 1979.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1971,
+    1979
+   ],
+   "scope": "China, the US and the USSR",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The significance of rapprochement",
+    "timeframe": "1971–1979",
+    "scope": "Superpower relations",
+    "judgement": "How far it changed the structure of the Cold War"
+   },
+   "modelPlan": {
+    "thesis": "The rapprochement was highly significant because it turned a two-bloc contest into a triangle that left the USSR facing two hostile powers; but Taiwan and Vietnam limited cooperation until 1979.",
+    "arguments": [
+     {
+      "claim": "The 1972 visit 'fundamentally altered the context'.",
+      "evidence": [
+       "F-SINO-18"
+      ]
+     },
+     {
+      "claim": "Influence on US-Soviet détente.",
+      "evidence": [
+       "F-SINO-18",
+       "F-SINO-22"
+      ]
+     },
+     {
+      "claim": "Normalisation and cooperation against the USSR.",
+      "evidence": [
+       "F-SINO-20",
+       "F-SINO-21"
+      ]
+     },
+     {
+      "claim": "Limits: Vietnam and Taiwan.",
+      "evidence": [
+       "F-SINO-22",
+       "F-SINO-19"
+      ]
+     }
+    ],
+    "counter": "Both Communist powers kept supplying North Vietnam, so the triangle did not end Cold War conflict in Asia.",
+    "judgementCriterion": "By what criterion? The structure of the Cold War: after 1972 it was no longer a contest between two blocs."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The rapprochement was highly significant because it changed the structure of the Cold War.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Nixon's visit of February 1972 produced the Shanghai Communiqué, and on 1 January 1979 the US and PRC established diplomatic relations.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the USSR faced two hostile powers, so rapprochement influenced the move towards US-Soviet détente.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Moscow and Beijing continued to supply Hanoi, and Taiwan delayed normalisation for seven years.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Rapprochement was therefore decisive for the Cold War's structure, if not for every regional conflict.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "rapprochement"
+    ],
+    "synonyms": [
+     "Nixon",
+     "normalisation",
+     "triangle"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Shanghai Communiqué",
+     "détente",
+     "Taiwan"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-SINO-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the causes and consequences of the Sino-Soviet border clashes between 1969 and 1972.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1969,
+    1972
+   ],
+   "scope": "China and the USSR",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1969–1972",
+    "scope": "The border clashes",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The clashes grew from a decade of rivalry for leadership and from territorial and nuclear fears; their main consequence was that China, now seeing the USSR as its chief enemy, turned to the United States.",
+    "arguments": [
+     {
+      "claim": "Cause: the long rivalry for leadership.",
+      "evidence": [
+       "F-SINO-08",
+       "F-SINO-12"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: Soviet fear of China's nuclear force.",
+      "evidence": [
+       "F-SINO-13"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: fear of a major war.",
+      "evidence": [
+       "F-SINO-13"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: rapprochement with the US.",
+      "evidence": [
+       "F-SINO-16",
+       "F-SINO-18"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "China's turn to the US also needed American willingness, which came from Vietnam and Nixon's strategy.",
+    "judgementCriterion": "Which consequence lasted longest? The Sino-US alignment, which by 1979 had become cooperation against the USSR."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The border clashes grew from a decade of rivalry and from Soviet fear of China's nuclear force.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "A US estimate of August 1969 noted that the emerging Chinese nuclear threat gave the Soviets reasons to strike soon, and saw 'some chance' of an attack on China's nuclear sites.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that China now saw the USSR as its most immediate enemy, so it sought a counterweight in the US, inviting the American table-tennis team in April 1971.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the rapprochement also depended on American motives in Vietnam and Nixon's search for 'parallel relationships'.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The clashes were therefore the turning point that made the Sino-US rapprochement possible.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "border clashes"
+    ],
+    "synonyms": [
+     "Ussuri",
+     "1969"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "nuclear",
+     "rapprochement",
+     "ping-pong"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-12-SINO-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast Sino-Soviet and Sino-US relations between 1949 and 1979.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1949,
+    1979
+   ],
+   "scope": "China, the US and the USSR",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "Two relationships",
+    "timeframe": "1949–1979",
+    "scope": "China's relations with each superpower",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "The two relationships moved in opposite directions: from partnership to armed conflict with the USSR, and from war to cooperation with the US; in both, national interest mattered more than ideology.",
+    "arguments": [
+     {
+      "claim": "Similarity: national interest decided both.",
+      "evidence": [
+       "F-SINO-08",
+       "F-SINO-15"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: each passed through armed conflict.",
+      "evidence": [
+       "F-SINO-03",
+       "F-SINO-13"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: opposite directions over time.",
+      "evidence": [
+       "F-SINO-10",
+       "F-SINO-20"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: ideology bound and then divided the Communist pair.",
+      "evidence": [
+       "F-SINO-09",
+       "F-SINO-18"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Even by 1979 China criticised the US as too conciliatory to the USSR, so cooperation had limits.",
+    "judgementCriterion": "Which difference mattered most? The direction of change, which turned the Cold War into a triangle."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "China's relations with the two superpowers moved in opposite directions between 1949 and 1979.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "China fought the US in Korea in 1950, whereas it clashed with Soviet troops on the Ussuri in 1969; by 1979 it had diplomatic relations with the US and saw the USSR as its main enemy.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that ideology, which had first bound China to Moscow, gave way to national interest, which drew it towards Washington.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both relationships were shaped by the same forces of security and power, and China remained wary of the US, criticising it in 1979 as too conciliatory to Moscow.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore the direction of change, which reshaped the Cold War.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Sino-Soviet",
+     "Sino-US"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Ussuri",
+     "Korea",
+     "normalisation"
+    ]
+   }
+  }
+ ]
+}
