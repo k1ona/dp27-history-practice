@@ -1,0 +1,2893 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-18-B4-COLLAPSE",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 20,
+  "openingProblem": {
+   "problem": "Soviet control of eastern Europe lasted more than forty years. In the second half of 1989 it collapsed in six countries in a few months, mostly without a shot being fired. Was it pushed from below, or released from above?",
+   "predictionPrompt": "Your prediction in one line: did the people of eastern Europe overthrow Soviet control, or did Moscow let it go?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Moscow lets go: Gorbachev and the bankrupt satellites",
+    "body": "The collapse of 1989 began in Moscow. From 1985, Tony Judt writes, the Soviet Union \"progressively removed itself from direct oversight of its client states\". The regimes still had their police and informers, but they could no longer be sure that Soviet tanks would rescue them. On 7 December 1988 Mikhail Gorbachev told the United Nations that he was cutting Soviet forces in Europe and that \"freedom of choice is a universal principle. There should be no exceptions.\" Judt calls this more than a renunciation of the Brezhnev Doctrine: it was \"immediately understood\" to mean that the peoples of the satellites could go their own way, socialist or not.\n\nThe second cause was bankruptcy. In the 1970s the regimes had borrowed in the West to keep their people supplied. **Poland** was the extreme case. Martial law had suppressed Solidarity but solved nothing; after it, Western condemnation meant Poland could no longer borrow its way out. Its debt was approaching $40 billion. The regime raised prices by 25 per cent in 1987 and 60 per cent in 1988, and, as in 1970, 1976 and 1980, strikes followed. Inflation was approaching 1,000 per cent a year.\n\nMeanwhile society had survived martial law. Lech Wałęsa was released in November 1982 and won the Nobel Peace Prize the next year. When the political police murdered the radical priest Jerzy Popiełuszko in 1984, 350,000 people came to his funeral. By the mid-1980s, Judt says, Poland faced \"a stand-off between a recalcitrant society and an increasingly desperate state\".\n\nIn August 1988 the Interior Minister, General Kiszczak, did something unthinkable: he asked Wałęsa, leader of a banned union, to help end the strikes. This mattered because the regime was admitting that it could not govern without its opponents, which meant that negotiation, not repression, became the way out. A week after Gorbachev's UN speech, Solidarity formed a committee to prepare for full negotiations.\n\nJudt is careful not to make Gorbachev the only cause. Economic failure and society's resistance had been building for years. But the satellites' rulers had always relied on the final guarantee of Soviet force. When Moscow withdrew it, the regimes had to face their people with nothing but their own failures.",
+    "argumentsThatWork": [
+     {
+      "claim": "Gorbachev's renunciation of force removed the final guarantee of the satellite regimes.",
+      "evidence": [
+       "F-EECOLL-01",
+       "F-EECOLL-02"
+      ],
+      "strongestCounter": "The regimes still had their own police; Honecker and Ceauşescu were ready to use force."
+     },
+     {
+      "claim": "Economic bankruptcy, especially debt, left the regimes unable to buy calm.",
+      "evidence": [
+       "F-EECOLL-03",
+       "F-EECOLL-16"
+      ],
+      "strongestCounter": "Romania paid off its debt and still fell, so debt alone was not the cause."
+     },
+     {
+      "claim": "In Poland society outlasted martial law, forcing the regime to negotiate.",
+      "evidence": [
+       "F-EECOLL-26",
+       "F-EECOLL-03"
+      ],
+      "strongestCounter": "The opposition was cautious and self-limiting; it was the regime that chose to talk."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was Gorbachev responsible for the collapse of Soviet control in eastern Europe in 1989?",
+     "Discuss the view that the collapse of Communism in eastern Europe in 1989 was caused by economic failure."
+    ],
+    "useItInAnEssay": {
+     "claim": "Gorbachev's renunciation of force was the decisive cause of the collapse of Soviet control, because it removed the regimes' final guarantee.",
+     "prove": "On 7 December 1988 he told the United Nations that 'freedom of choice is a universal principle', which Judt says was immediately understood to let the satellites go their own way.",
+     "explain": "This meant that rulers facing strikes and debt, as in Poland, could no longer count on Soviet tanks, so they had to negotiate with their opponents.",
+     "test": "However, the economic crisis and the opposition had been building for years: Poland's debt was approaching $40 billion before 1989.",
+     "judge": "Gorbachev was therefore the decisive cause, but only because the regimes were already too weak to survive without Soviet force."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Gorbachev tell the United Nations on 7 December 1988?",
+      "factIds": [
+       "F-EECOLL-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That freedom of choice was a universal principle with no exceptions",
+        "correct": true,
+        "explanation": "Correct: understood as releasing the satellites."
+       },
+       {
+        "id": "b",
+        "text": "That the Brezhnev Doctrine would be enforced",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "That the USSR would leave the Warsaw Pact",
+        "correct": false,
+        "explanation": "Not what he said."
+       },
+       {
+        "id": "d",
+        "text": "That Germany should be reunified at once",
+        "correct": false,
+        "explanation": "Unification came in 1990 and was not his plan."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Poland's national debt was approaching how many billion dollars in the late 1980s? (number)",
+      "factIds": [
+       "F-EECOLL-03"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 40,
+        "tolerance": 0,
+        "explanation": "About $40 billion: the regime could no longer borrow its way out."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In August 1988 Interior Minister Kiszczak asked Wałęsa to help end the strikes.” Which argument does it support best?",
+      "factIds": [
+       "F-EECOLL-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Polish regime could no longer govern without its opponents",
+        "correct": true,
+        "explanation": "Correct: negotiation replaced repression."
+       },
+       {
+        "id": "b",
+        "text": "Solidarity was legal in 1988",
+        "correct": false,
+        "explanation": "It was still banned."
+       },
+       {
+        "id": "c",
+        "text": "Wałęsa had joined the Communist Party",
+        "correct": false,
+        "explanation": "He led the opposition."
+       },
+       {
+        "id": "d",
+        "text": "The regime planned another martial law",
+        "correct": false,
+        "explanation": "It chose to talk instead."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "Negotiated exits: Poland and Hungary",
+    "body": "In Poland and Hungary the regimes negotiated their own departure. On 6 February 1989 the Polish Communists recognised Solidarity as a negotiating partner and opened **Round Table** talks. On 5 April they agreed to legalise independent unions and hold elections to a new Assembly. The elections of **4 June 1989** were designed to protect the party: the Senate was open, but a guaranteed share of the seats in the lower house, the Sejm, was reserved for the Communists. The result shocked everyone. Solidarity won 99 of the 100 Senate seats and every Sejm seat it was allowed to contest; only two Communist candidates on the reserved list won the 50 per cent they needed.\n\nThe regime could have ignored the vote or declared martial law again. Instead, Gorbachev told Jaruzelski privately that the election must stand. In late summer 1989 **Tadeusz Mazowiecki** became the first non-Communist prime minister in post-war Poland. Solidarity made Jaruzelski head of state to ease the transition. On 29 December the party's \"leading role\" was removed from the constitution, and on 27 January 1990 the party dissolved itself.\n\nIn **Hungary** the Communists dismantled their own system. In May 1988 younger reformers, inspired by Gorbachev, removed the 76-year-old Kádár. In November 1988 independent parties were permitted; in 1989 the legislature approved a transition to a multi-party system, and an official inquiry redefined 1956 as a \"popular uprising\". On **16 June 1989**, the anniversary of his execution, Imre Nagy was reburied as a national hero. About 300,000 people lined the streets; the young Viktor Orbán spoke at the graveside. Judt calls the reburial \"an admission of defeat\", an acknowledgement that the party had lived a lie. On 23 October the country was renamed simply the Hungarian Republic. It was, Judt notes, the only exit from Communism \"effected entirely from within\".\n\nHungary's reform also undid its neighbour. On 2 May 1989 Hungary removed the electrified fence on its border with Austria. East Germans began to arrive as \"tourists\": 25,000 by July, 60,000 by early September. On 10 September Foreign Minister Gyula Horn announced that they would be let through, and within 72 hours some 22,000 had crossed. When East Berlin protested, Budapest replied that it was bound by the Helsinki Final Act. This mattered because a hole had opened in the Iron Curtain, which meant that the East German regime could no longer keep its people in.",
+    "argumentsThatWork": [
+     {
+      "claim": "Poland and Hungary ended Communism by negotiation, not revolution.",
+      "evidence": [
+       "F-EECOLL-04",
+       "F-EECOLL-07"
+      ],
+      "strongestCounter": "Mass strikes in Poland forced the negotiations, so pressure from below mattered."
+     },
+     {
+      "claim": "Gorbachev's refusal to back force made the Polish election result stand.",
+      "evidence": [
+       "F-EECOLL-06"
+      ],
+      "strongestCounter": "Jaruzelski also judged force would fail; the choice was Polish too."
+     },
+     {
+      "claim": "Hungary's opening of its border broke the GDR.",
+      "evidence": [
+       "F-EECOLL-09"
+      ],
+      "strongestCounter": "The East German regime's own rigidity, rigging votes in May 1989, made its people want to leave."
+     }
+    ],
+    "howItGetsAsked": [
+     "Compare and contrast the ways in which Communist rule ended in Poland and Romania in 1989.",
+     "Discuss the view that the collapse of Communism in eastern Europe in 1989 was caused by economic failure."
+    ],
+    "useItInAnEssay": {
+     "claim": "Communist rule in Poland ended by negotiation because the regime could neither govern nor repress.",
+     "prove": "Round Table talks from February to April 1989 produced partly free elections on 4 June, in which Solidarity won 99 of 100 Senate seats.",
+     "explain": "This meant that the party's claim to represent the people was destroyed in a vote it had designed itself, so it could not credibly keep power.",
+     "test": "However, the party could still have used force; it was Gorbachev's insistence that the election must stand that removed that option.",
+     "judge": "Poland's exit was therefore negotiated in form, but decided by Moscow's refusal to back repression."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many of the 100 Senate seats did Solidarity win on 4 June 1989?",
+      "factIds": [
+       "F-EECOLL-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "99",
+        "correct": true,
+        "explanation": "Correct: and every Sejm seat it was allowed to contest."
+       },
+       {
+        "id": "b",
+        "text": "50",
+        "correct": false,
+        "explanation": "A share of Sejm seats was reserved for Communists, but the Senate was open."
+       },
+       {
+        "id": "c",
+        "text": "100",
+        "correct": false,
+        "explanation": "Close, but Judt gives 99 of 100."
+       },
+       {
+        "id": "d",
+        "text": "35",
+        "correct": false,
+        "explanation": "Far too few."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened in Budapest on 16 June 1989?",
+      "factIds": [
+       "F-EECOLL-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Imre Nagy was reburied as a national hero",
+        "correct": true,
+        "explanation": "Correct: about 300,000 lined the streets."
+       },
+       {
+        "id": "b",
+        "text": "Kádár was removed from power",
+        "correct": false,
+        "explanation": "That was in May 1988."
+       },
+       {
+        "id": "c",
+        "text": "The border with Austria was opened",
+        "correct": false,
+        "explanation": "The fence came down on 2 May; the border opened on 10 September."
+       },
+       {
+        "id": "d",
+        "text": "Soviet tanks entered the city",
+        "correct": false,
+        "explanation": "That was 1956."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C06",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many East Germans crossed from Hungary to Austria within 72 hours of 10 September 1989? (number)",
+      "factIds": [
+       "F-EECOLL-09"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 22000,
+        "tolerance": 500,
+        "explanation": "About 22,000: the Iron Curtain had a hole in it."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C07",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Hungary's exit from Communism was the only one effected entirely from within.” Which argument does it support best?",
+      "factIds": [
+       "F-EECOLL-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Hungarian reform Communists dismantled their own system",
+        "correct": true,
+        "explanation": "Correct: round tables came only in June 1989."
+       },
+       {
+        "id": "b",
+        "text": "Hungary needed a popular revolution",
+        "correct": false,
+        "explanation": "The transition was led by Communists."
+       },
+       {
+        "id": "c",
+        "text": "Soviet troops imposed change in Hungary",
+        "correct": false,
+        "explanation": "Change came from inside the party."
+       },
+       {
+        "id": "d",
+        "text": "Hungary resisted change until 1990",
+        "correct": false,
+        "explanation": "It changed throughout 1988–89."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Autumn 1989: Berlin, Prague, Bucharest and Sofia",
+    "body": "The hard-line regimes fell next. In **East Germany** Erich Honecker refused to reform. His regime rigged local elections in May 1989 to show 98.85 per cent support. As East Germans fled through Hungary, dissidents founded New Forum, and Monday demonstrations in Leipzig grew from 10,000 on 2 October to 90,000 and then 300,000. On 7 October, at the GDR's fortieth anniversary, Gorbachev warned Honecker that \"life punishes those who delay\". On 18 October Egon Krenz and other colleagues removed Honecker. On 4 November half a million people gathered in Berlin. On the evening of **9 November** Politburo member Günter Schabowski announced on live television that travel to the West was allowed with immediate effect. Within hours 50,000 people had crossed into West Berlin. The rulers had hoped to release a safety valve; instead, the Wall was breached for good.\n\nIn **Czechoslovakia** the police attacked a student march in Prague on 17 November 1989. A false rumour that a student had been killed spread; the universities were occupied and crowds filled the streets, while the police now stood by. Within a week the party leadership had resigned. Václav Havel and his Charter 77 friends formed **Civic Forum**, which within days became a shadow government. On 25 November half a million people gathered at Letná in Prague. The party's leading role was removed on 29 November; on 10 December a government with a non-Communist majority took office and Husák resigned. On 28 December the same Communist assembly that had once jailed Havel elected him President. Judt credits this \"velvet revolution\" to an opposition determined to avoid confrontation, a party whose bankruptcy was obvious, and Havel himself.\n\n**Romania** was the exception. Ceauşescu had paid off the foreign debt by squeezing his people: energy was exported while Romanians used 40-watt bulbs. In December 1989 the Securitate tried to remove a Hungarian pastor, László Tőkés, in Timişoara; the vigil became a protest and troops fired on the crowd. On 21 December Ceauşescu was heckled into silence on a balcony in Bucharest; the next day he fled by helicopter. The army switched sides under a \"National Salvation Front\", and Ceauşescu and his wife were tried and shot on Christmas Day. The new president, Ion Iliescu, was a former Communist, and much of the old apparatus survived.\n\nIn **Bulgaria** the party removed its own leader. Todor Zhivkov, in power since 1954, had persecuted the Turkish minority; about 300,000 Turks left in the summer of 1989. On 10 November, the day after the Wall opened, reformers ousted him. This mattered because the fall of each regime made the next one seem possible, which meant that within two months every Soviet satellite in Europe had lost its Communist monopoly.",
+    "argumentsThatWork": [
+     {
+      "claim": "Mass protest brought down the hard-line regimes in East Germany and Czechoslovakia.",
+      "evidence": [
+       "F-EECOLL-10",
+       "F-EECOLL-13"
+      ],
+      "strongestCounter": "In both cases the regimes did not use full force, which Moscow's stance made unlikely."
+     },
+     {
+      "claim": "The opening of the Wall was an accident of a regime trying to stabilise itself.",
+      "evidence": [
+       "F-EECOLL-11"
+      ],
+      "strongestCounter": "The exodus through Hungary had already made the border impossible to hold."
+     },
+     {
+      "claim": "Romania and Bulgaria show that in some states Communists replaced their leaders rather than lost power.",
+      "evidence": [
+       "F-EECOLL-17",
+       "F-EECOLL-18",
+       "F-EECOLL-19"
+      ],
+      "strongestCounter": "Romania's revolution began with a genuine popular revolt in Timişoara."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the causes and consequences of the fall of the Berlin Wall between 1989 and 1990.",
+     "Compare and contrast the ways in which Communist rule ended in Poland and Romania in 1989."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Berlin Wall fell because the East German regime, under pressure from emigration and protest, tried to stabilise itself and lost control.",
+     "prove": "After 22,000 people left through Hungary in three days and 300,000 marched in Leipzig, Schabowski announced on 9 November that travel was allowed at once.",
+     "explain": "This meant that a measure meant as a safety valve became an open border, since 50,000 people crossed within hours and the regime could not reverse it.",
+     "test": "However, the regime was already doomed by the exodus, so the announcement only decided the timing.",
+     "judge": "The Wall therefore fell by accident, but the collapse it revealed was no accident."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who announced on 9 November 1989 that East Germans could travel to the West at once?",
+      "factIds": [
+       "F-EECOLL-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Günter Schabowski",
+        "correct": true,
+        "explanation": "Correct: at a live press conference."
+       },
+       {
+        "id": "b",
+        "text": "Erich Honecker",
+        "correct": false,
+        "explanation": "Honecker had been removed on 18 October."
+       },
+       {
+        "id": "c",
+        "text": "Mikhail Gorbachev",
+        "correct": false,
+        "explanation": "Gorbachev was not in Berlin; he had visited on 7 October."
+       },
+       {
+        "id": "d",
+        "text": "Helmut Kohl",
+        "correct": false,
+        "explanation": "Kohl was West German Chancellor."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C09",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What event in Timişoara began the Romanian revolution?",
+      "factIds": [
+       "F-EECOLL-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Securitate's attempt to remove the pastor László Tőkés",
+        "correct": true,
+        "explanation": "Correct: the vigil became a protest."
+       },
+       {
+        "id": "b",
+        "text": "The opening of the border with Hungary",
+        "correct": false,
+        "explanation": "That was in Hungary, not Romania."
+       },
+       {
+        "id": "c",
+        "text": "Ceauşescu's resignation",
+        "correct": false,
+        "explanation": "He never resigned; he fled and was executed."
+       },
+       {
+        "id": "d",
+        "text": "Free elections",
+        "correct": false,
+        "explanation": "Elections came in May 1990."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C10",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “On 28 December 1989 the same Communist assembly that had jailed Havel elected him President.” Which argument does it support best?",
+      "factIds": [
+       "F-EECOLL-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The party had collapsed so completely that it endorsed its former prisoner",
+        "correct": true,
+        "explanation": "Correct: Judt notes the irony."
+       },
+       {
+        "id": "b",
+        "text": "Havel was a Communist",
+        "correct": false,
+        "explanation": "He was a dissident playwright."
+       },
+       {
+        "id": "c",
+        "text": "Czechoslovakia held free presidential elections in 1989",
+        "correct": false,
+        "explanation": "The old assembly elected him."
+       },
+       {
+        "id": "d",
+        "text": "Dubček became President",
+        "correct": false,
+        "explanation": "Dubček became Speaker."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "Why so fast, and what followed, 1989–1993",
+    "body": "Why did Communism collapse so quickly? Judt warns against \"retrospective determinism\": few predicted the timing or manner of the end. Contagion explains part of it, since each fall weakened the next regime's claim to be inevitable. But all revolutions spread; the novelty of 1989 was **speed**. As late as October 1989, reformers in Hungary and East Germany thought they could manage their own perestroika. **Television** changed everything: people saw their own revolutions on the evening news, which destroyed the party's monopoly of information and the fear of being alone. And the revolutions were **peaceful**, Romania apart. The regimes' confidence in force was evaporating, the crowds rejected violence, and for most officials it seemed \"better to swim with the current than be washed away\".\n\nWhat did people want instead? Judt's answer is \"Europe\". The European Community stood for rights, free movement and normal life. \"The opposite of Communism was not 'capitalism' but 'Europe'.\" Civic Forum's programme ended with the words \"Return to Europe\".\n\nThe consequences unfolded quickly. **Germany** was unified. Chancellor Helmut Kohl proposed a five-year programme on 28 November 1989 but soon changed course: the flow west, at one point 2,000 people a day, could be stopped only by bringing West Germany east. In March 1990 the Alliance for Germany won 48 per cent in East German elections on a unification ticket; the Deutschmark arrived on 1 July; and on **3 October 1990** the GDR ceased to exist. Gorbachev, with 360,000 Soviet troops still in East Germany, had no good options. He settled for about $8 billion and $2 billion more in credits, while Kohl accepted Germany's eastern borders as permanent.\n\nThe bloc dissolved. By December 1989 the Warsaw Pact states were preparing publicly to renounce their 1968 invasion of Czechoslovakia. New governments faced the painful transition to market economies, which the Poland section examines. Old national questions returned: Czechoslovakia itself divided peacefully into the Czech Republic and Slovakia on **1 January 1993**, the \"velvet divorce\", while Yugoslavia's break-up turned to war.\n\nThis mattered because Soviet control ended without a Soviet war, which meant that the peoples of central Europe could choose their own governments for the first time since 1945. Judt's judgement on the bloc's history is stark: once Moscow withdrew its guarantee, regimes that had lasted forty years were shown to have been \"even weaker than anyone supposed\".",
+    "argumentsThatWork": [
+     {
+      "claim": "Speed, television and the absence of violence distinguished 1989 from earlier revolutions.",
+      "evidence": [
+       "F-EECOLL-20"
+      ],
+      "strongestCounter": "Romania shows that violence was still possible where the regime chose it."
+     },
+     {
+      "claim": "'Europe' gave the revolutions a positive aim, not just an enemy.",
+      "evidence": [
+       "F-EECOLL-21"
+      ],
+      "strongestCounter": "Nationalists cared more about Poland or Hungary than about Europe."
+     },
+     {
+      "claim": "German unification and the end of the bloc depended on Gorbachev's acceptance.",
+      "evidence": [
+       "F-EECOLL-22",
+       "F-EECOLL-23",
+       "F-EECOLL-24"
+      ],
+      "strongestCounter": "Kohl and Washington drove unification; Gorbachev mainly set its price."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the consequences of the collapse of Soviet control for central and eastern Europe between 1989 and 1993.",
+     "To what extent was Gorbachev responsible for the collapse of Soviet control in eastern Europe in 1989?"
+    ],
+    "useItInAnEssay": {
+     "claim": "German unification was the most important consequence of 1989, and it depended on Soviet acceptance.",
+     "prove": "In March 1990 the Alliance for Germany won 48 per cent on a unification ticket, and on 3 October 1990 the GDR ceased to exist, while 360,000 Soviet troops were still stationed there.",
+     "explain": "This meant that Moscow could in principle have blocked unification, so Gorbachev's decision to accept it, for about $8 billion, was decisive.",
+     "test": "However, Judt shows that Gorbachev had no good options, since blocking unity would have destroyed his credibility, and Kohl and Washington drove the process.",
+     "judge": "Unification was therefore a Western initiative that succeeded because the Soviet Union had already given up control."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did the GDR cease to exist?",
+      "factIds": [
+       "F-EECOLL-22"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "3 October 1990",
+        "correct": true,
+        "explanation": "Correct: it acceded to the Federal Republic."
+       },
+       {
+        "id": "b",
+        "text": "9 November 1989",
+        "correct": false,
+        "explanation": "That is when the Wall opened."
+       },
+       {
+        "id": "c",
+        "text": "1 July 1990",
+        "correct": false,
+        "explanation": "That is when the Deutschmark came to the East."
+       },
+       {
+        "id": "d",
+        "text": "1 January 1993",
+        "correct": false,
+        "explanation": "That is when Czechoslovakia divided."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C12",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Judt, what was the novelty of the revolutions of 1989?",
+      "factIds": [
+       "F-EECOLL-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Their speed",
+        "correct": true,
+        "explanation": "Correct: contagion was normal; the speed was new."
+       },
+       {
+        "id": "b",
+        "text": "That they spread from country to country",
+        "correct": false,
+        "explanation": "Judt says all revolutions spread."
+       },
+       {
+        "id": "c",
+        "text": "That they were violent everywhere",
+        "correct": false,
+        "explanation": "They were peaceful, except in Romania."
+       },
+       {
+        "id": "d",
+        "text": "That they were led by Moscow",
+        "correct": false,
+        "explanation": "Moscow let go; it did not lead."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B4-COLLAPSE-C13",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: Judt writes that for the people of 1989 the opposite of Communism was not ‘capitalism’ but ‘Europe’. Which argument does it support best?",
+      "factIds": [
+       "F-EECOLL-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The revolutions of 1989 had a positive goal: normal European life",
+        "correct": true,
+        "explanation": "Correct: Judt's interpretation."
+       },
+       {
+        "id": "b",
+        "text": "The revolutionaries wanted a new form of socialism",
+        "correct": false,
+        "explanation": "Judt says they saw Communism as the past."
+       },
+       {
+        "id": "c",
+        "text": "The revolutions were anti-European",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "The revolutionaries rejected markets",
+        "correct": false,
+        "explanation": "Many wanted a market economy."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1988,
+      "month": 12,
+      "day": 7,
+      "text": "Gorbachev's UN speech: 'freedom of choice'",
+      "factId": "F-EECOLL-01"
+     },
+     {
+      "year": 1989,
+      "month": 2,
+      "day": 6,
+      "text": "Polish Round Table talks open",
+      "factId": "F-EECOLL-04"
+     },
+     {
+      "year": 1989,
+      "month": 5,
+      "day": 2,
+      "text": "Hungary removes its border fence with Austria",
+      "factId": "F-EECOLL-09"
+     },
+     {
+      "year": 1989,
+      "month": 6,
+      "day": 4,
+      "text": "Polish elections: Solidarity sweeps the open seats",
+      "factId": "F-EECOLL-05"
+     },
+     {
+      "year": 1989,
+      "month": 6,
+      "day": 16,
+      "text": "Imre Nagy reburied in Budapest",
+      "factId": "F-EECOLL-08"
+     },
+     {
+      "year": 1989,
+      "text": "Mazowiecki becomes Polish prime minister (late summer)",
+      "factId": "F-EECOLL-06"
+     },
+     {
+      "year": 1989,
+      "month": 10,
+      "day": 18,
+      "text": "Honecker removed",
+      "factId": "F-EECOLL-10"
+     },
+     {
+      "year": 1989,
+      "month": 11,
+      "day": 9,
+      "text": "The Berlin Wall opens",
+      "factId": "F-EECOLL-11"
+     },
+     {
+      "year": 1989,
+      "month": 11,
+      "day": 17,
+      "text": "Prague student march attacked; velvet revolution begins",
+      "factId": "F-EECOLL-13"
+     },
+     {
+      "year": 1989,
+      "month": 12,
+      "day": 25,
+      "text": "Ceauşescus executed",
+      "factId": "F-EECOLL-17"
+     },
+     {
+      "year": 1990,
+      "month": 10,
+      "day": 3,
+      "text": "German unification",
+      "factId": "F-EECOLL-22"
+     },
+     {
+      "year": 1993,
+      "month": 1,
+      "day": 1,
+      "text": "Czechoslovakia divides",
+      "factId": "F-EECOLL-25"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Moscow withdraws its guarantee: 'freedom of choice' (1988)",
+      "factId": "F-EECOLL-01"
+     },
+     {
+      "id": "n2",
+      "text": "Debt and price rises leave regimes unable to buy calm",
+      "factId": "F-EECOLL-03"
+     },
+     {
+      "id": "n3",
+      "text": "Poland and Hungary negotiate their way out",
+      "factId": "F-EECOLL-05"
+     },
+     {
+      "id": "n4",
+      "text": "Hungary opens its border; East Germans flee",
+      "factId": "F-EECOLL-09"
+     },
+     {
+      "id": "n5",
+      "text": "Mass protest topples the GDR and Czechoslovakia",
+      "factId": "F-EECOLL-11"
+     },
+     {
+      "id": "n6",
+      "text": "German unification; the bloc dissolves",
+      "factId": "F-EECOLL-22"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Without Soviet force, regimes faced their own failures"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Bankrupt regimes had to share power with their opponents"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Reform in Hungary opened the Iron Curtain"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Emigration and protest made the hard-line regimes untenable"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "With the GDR gone, Gorbachev could only set the price"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Mikhail Gorbachev",
+     "role": "Soviet leader",
+     "whyItMatters": "Renounced force and told Jaruzelski the Polish election must stand; accepted German unification.",
+     "factIds": [
+      "F-EECOLL-01",
+      "F-EECOLL-06",
+      "F-EECOLL-23"
+     ]
+    },
+    {
+     "name": "Wojciech Jaruzelski",
+     "role": "Polish leader; head of state from 1989",
+     "whyItMatters": "Agreed to the Round Table and accepted Solidarity's victory.",
+     "factIds": [
+      "F-EECOLL-04",
+      "F-EECOLL-06"
+     ]
+    },
+    {
+     "name": "Tadeusz Mazowiecki",
+     "role": "Polish prime minister from late summer 1989",
+     "whyItMatters": "First non-Communist prime minister in post-war Poland.",
+     "factIds": [
+      "F-EECOLL-06"
+     ]
+    },
+    {
+     "name": "Erich Honecker",
+     "role": "East German leader until 18 October 1989",
+     "whyItMatters": "Refused reform and was removed by his own colleagues.",
+     "factIds": [
+      "F-EECOLL-10"
+     ]
+    },
+    {
+     "name": "Václav Havel",
+     "role": "Civic Forum leader; President of Czechoslovakia from 28 December 1989",
+     "whyItMatters": "Channelled the velvet revolution and kept it peaceful.",
+     "factIds": [
+      "F-EECOLL-13",
+      "F-EECOLL-14",
+      "F-EECOLL-15"
+     ]
+    },
+    {
+     "name": "Nicolae Ceauşescu",
+     "role": "Romanian dictator until December 1989",
+     "whyItMatters": "The only leader to fall violently; executed on Christmas Day.",
+     "factIds": [
+      "F-EECOLL-16",
+      "F-EECOLL-17"
+     ]
+    },
+    {
+     "name": "Helmut Kohl",
+     "role": "West German Chancellor",
+     "whyItMatters": "Drove German unification in 1990.",
+     "factIds": [
+      "F-EECOLL-22",
+      "F-EECOLL-28"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "How Communist rule ended",
+     "Role of violence"
+    ],
+    "rows": [
+     {
+      "criterion": "Poland",
+      "cells": [
+       "Round Table, partly free elections, Solidarity government",
+       "None; negotiated"
+      ],
+      "factIds": [
+       "F-EECOLL-04",
+       "F-EECOLL-05",
+       "F-EECOLL-06"
+      ]
+     },
+     {
+      "criterion": "Hungary",
+      "cells": [
+       "Reform Communists dismantled their own system",
+       "None"
+      ],
+      "factIds": [
+       "F-EECOLL-07",
+       "F-EECOLL-08"
+      ]
+     },
+     {
+      "criterion": "East Germany",
+      "cells": [
+       "Emigration and mass protest; the Wall opened",
+       "Force contemplated but not used"
+      ],
+      "factIds": [
+       "F-EECOLL-10",
+       "F-EECOLL-11"
+      ]
+     },
+     {
+      "criterion": "Czechoslovakia",
+      "cells": [
+       "Student march, mass protest, Civic Forum",
+       "Police violence on 17 November, then none"
+      ],
+      "factIds": [
+       "F-EECOLL-13",
+       "F-EECOLL-14"
+      ]
+     },
+     {
+      "criterion": "Romania",
+      "cells": [
+       "Uprising and army coup; NSF took over",
+       "Shooting in Timişoara and Bucharest; Ceauşescus executed"
+      ],
+      "factIds": [
+       "F-EECOLL-17",
+       "F-EECOLL-18"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-EECOLL-01",
+    "year": 1988,
+    "text": "7 December 1988: Gorbachev at the UN: 'Freedom of choice is a universal principle. There should be no exceptions.'",
+    "supports": [
+     "Moscow withdrew the final guarantee of the satellite regimes"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B4-GLASNOST",
+     "P3-18-B3-ACCEPTANCE-OPPOSITION"
+    ],
+    "lexicon": [
+     "freedom of choice",
+     "Brezhnev Doctrine"
+    ]
+   },
+   {
+    "factId": "F-EECOLL-03",
+    "year": 1988,
+    "text": "Poland: debt near $40 billion; prices up 25 per cent (1987) and 60 per cent (1988); inflation near 1,000 per cent.",
+    "supports": [
+     "Economic bankruptcy forced the regime to negotiate"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B6-POLAND"
+    ],
+    "lexicon": [
+     "debt",
+     "inflation"
+    ]
+   },
+   {
+    "factId": "F-EECOLL-05",
+    "year": 1989,
+    "text": "4 June 1989: Solidarity won 99 of 100 Senate seats and every Sejm seat it could contest.",
+    "supports": [
+     "The party's claim to represent the people was destroyed"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B6-POLAND"
+    ],
+    "lexicon": [
+     "Round Table",
+     "partly free elections"
+    ]
+   },
+   {
+    "factId": "F-EECOLL-09",
+    "year": 1989,
+    "text": "Hungary opened its border: some 22,000 East Germans crossed within 72 hours of 10 September 1989.",
+    "supports": [
+     "Hungarian reform broke the GDR"
+    ],
+    "lexicon": [
+     "Iron Curtain",
+     "Gyula Horn"
+    ]
+   },
+   {
+    "factId": "F-EECOLL-11",
+    "year": 1989,
+    "text": "9 November 1989: Schabowski announced free travel; 50,000 crossed into West Berlin within hours.",
+    "supports": [
+     "The Wall fell by accident of a panicking regime"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B1-GERMAN-QUESTION"
+    ],
+    "lexicon": [
+     "Berlin Wall",
+     "Schabowski"
+    ]
+   },
+   {
+    "factId": "F-EECOLL-13",
+    "year": 1989,
+    "text": "17 November 1989: police attacked Prague students; within a week the party leadership resigned; Civic Forum formed.",
+    "supports": [
+     "Mass peaceful protest toppled the Czech regime"
+    ],
+    "lexicon": [
+     "velvet revolution",
+     "Civic Forum"
+    ]
+   },
+   {
+    "factId": "F-EECOLL-17",
+    "year": 1989,
+    "text": "Romania: Timişoara protest (15–16 December); Ceauşescu fled on 22 December and was executed on Christmas Day.",
+    "supports": [
+     "Romania was the violent exception"
+    ],
+    "lexicon": [
+     "Timişoara",
+     "Securitate",
+     "National Salvation Front"
+    ]
+   },
+   {
+    "factId": "F-EECOLL-22",
+    "year": 1990,
+    "text": "3 October 1990: the GDR acceded to the Federal Republic and ceased to exist.",
+    "supports": [
+     "The collapse of Soviet control redrew the map of Europe"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B1-GERMAN-QUESTION"
+    ],
+    "lexicon": [
+     "German unification",
+     "Kohl"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "We should not indulge 'retrospective determinism': the novelty of 1989 was its speed, driven by television and by regimes that had lost confidence in force; the revolutions were peaceful except in Romania, and their aim was 'Europe', not capitalism.",
+    "useItLikeThis": "Judt's view supports the claim that the collapse was contingent, which suggests that Gorbachev's withdrawal and the regimes' loss of nerve explain the timing better than long-term economic decline alone.",
+    "factId": "F-EECOLL-20"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The fall of the Berlin Wall was planned by the East German government to end the GDR.",
+    "right": "The rulers saw opening the border as **'stabilization'**; Schabowski later said they had 'no clue' it would bring the GDR down."
+   },
+   {
+    "wrong": "Every revolution of 1989 was violent.",
+    "right": "Most were **peaceful**; Romania was the exception."
+   },
+   {
+    "wrong": "Solidarity won a fully free election in June 1989.",
+    "right": "A guaranteed share of Sejm seats was **reserved for Communists**; Solidarity swept the seats it could contest."
+   },
+   {
+    "wrong": "Gorbachev planned German unification.",
+    "right": "Kohl and Washington drove it; Gorbachev had **no good options** and set a price."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1988,
+     "month": 12,
+     "day": 7,
+     "text": "UN speech"
+    },
+    {
+     "year": 1989,
+     "month": 6,
+     "day": 4,
+     "text": "Polish elections"
+    },
+    {
+     "year": 1989,
+     "month": 6,
+     "day": 16,
+     "text": "Nagy reburied"
+    },
+    {
+     "year": 1989,
+     "month": 11,
+     "day": 9,
+     "text": "Wall opens"
+    },
+    {
+     "year": 1989,
+     "month": 11,
+     "day": 17,
+     "text": "Prague march"
+    },
+    {
+     "year": 1989,
+     "month": 12,
+     "day": 25,
+     "text": "Ceauşescus executed"
+    },
+    {
+     "year": 1990,
+     "month": 10,
+     "day": 3,
+     "text": "German unification"
+    },
+    {
+     "year": 1993,
+     "month": 1,
+     "day": 1,
+     "text": "Czechoslovakia divides"
+    }
+   ],
+   "keyArguments": [
+    "Gorbachev withdrew the Soviet guarantee: 'freedom of choice' (December 1988).",
+    "Debt and price rises left the regimes unable to buy calm; Poland had to negotiate.",
+    "Poland and Hungary negotiated their exits; Hungary's open border broke the GDR.",
+    "Speed, television and peaceful crowds made 1989 different (Judt); Romania was the exception.",
+    "Consequences: German unification, the end of the bloc, and the return of national questions."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1989 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Polish Round Table opens",
+     "year": 1989,
+     "month": 2,
+     "factId": "F-EECOLL-04"
+    },
+    {
+     "id": "b",
+     "text": "Polish elections",
+     "year": 1989,
+     "month": 6,
+     "factId": "F-EECOLL-05"
+    },
+    {
+     "id": "c",
+     "text": "Hungary removes its border fence",
+     "year": 1989,
+     "month": 5,
+     "factId": "F-EECOLL-09"
+    },
+    {
+     "id": "d",
+     "text": "The Berlin Wall opens",
+     "year": 1989,
+     "month": 11,
+     "factId": "F-EECOLL-11"
+    },
+    {
+     "id": "e",
+     "text": "Ceauşescus executed",
+     "year": 1989,
+     "month": 12,
+     "factId": "F-EECOLL-17"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these East German events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Rigged local elections",
+     "year": 1989,
+     "month": 5,
+     "factId": "F-EECOLL-10"
+    },
+    {
+     "id": "b",
+     "text": "Hungary lets East Germans through",
+     "year": 1989,
+     "month": 9,
+     "factId": "F-EECOLL-09"
+    },
+    {
+     "id": "c",
+     "text": "Honecker removed",
+     "year": 1989,
+     "month": 10,
+     "factId": "F-EECOLL-10"
+    },
+    {
+     "id": "d",
+     "text": "Wall opens",
+     "year": 1989,
+     "month": 11,
+     "factId": "F-EECOLL-11"
+    },
+    {
+     "id": "e",
+     "text": "GDR ceases to exist",
+     "year": 1990,
+     "month": 10,
+     "factId": "F-EECOLL-22"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R03",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role in 1989.",
+   "pairs": [
+    {
+     "left": "Gyula Horn",
+     "right": "Hungarian Foreign Minister who let East Germans through",
+     "explanation": "10 September 1989."
+    },
+    {
+     "left": "Egon Krenz",
+     "right": "Removed Honecker on 18 October",
+     "explanation": "He tried a cautious East German perestroika."
+    },
+    {
+     "left": "László Tőkés",
+     "right": "Hungarian pastor in Timişoara",
+     "explanation": "The Securitate's attempt to remove him began the Romanian revolution."
+    },
+    {
+     "left": "Petar Mladenov",
+     "right": "Bulgarian reformer who led the ouster of Zhivkov",
+     "explanation": "10 November 1989."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R04",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people crossed into West Berlin within hours of the announcement of 9 November 1989? (number)",
+   "factIds": [
+    "F-EECOLL-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 50000,
+     "tolerance": 1000,
+     "explanation": "About 50,000."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage did the Alliance for Germany win in the East German elections of March 1990? (number)",
+   "factIds": [
+    "F-EECOLL-22"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 48,
+     "tolerance": 0,
+     "explanation": "48 per cent, on a unification ticket."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Soviet troops were still stationed in East Germany in 1989? (number)",
+   "factIds": [
+    "F-EECOLL-24"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 360000,
+     "tolerance": 5000,
+     "explanation": "360,000."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did Todor Zhivkov become leader of the Bulgarian Communist Party? (year)",
+   "factIds": [
+    "F-EECOLL-19"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1954,
+     "tolerance": 0,
+     "explanation": "1954: the longest-serving leader in the bloc."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R08",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened in Hungary in 1988–89? Choose all that apply.",
+   "factIds": [
+    "F-EECOLL-07",
+    "F-EECOLL-08",
+    "F-EECOLL-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kádár was removed",
+     "correct": true,
+     "explanation": "Yes: in May 1988."
+    },
+    {
+     "id": "b",
+     "text": "Imre Nagy was reburied",
+     "correct": true,
+     "explanation": "Yes: on 16 June 1989."
+    },
+    {
+     "id": "c",
+     "text": "The border fence with Austria was removed",
+     "correct": true,
+     "explanation": "Yes: on 2 May 1989."
+    },
+    {
+     "id": "d",
+     "text": "Soviet troops crushed a revolt",
+     "correct": false,
+     "explanation": "No: that was 1956."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these does Judt give as features of the revolutions of 1989? Choose all that apply.",
+   "factIds": [
+    "F-EECOLL-20",
+    "F-EECOLL-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Speed",
+     "correct": true,
+     "explanation": "Yes: the novelty of 1989."
+    },
+    {
+     "id": "b",
+     "text": "The role of television",
+     "correct": true,
+     "explanation": "Yes: it ended the monopoly of information."
+    },
+    {
+     "id": "c",
+     "text": "A goal of 'Europe'",
+     "correct": true,
+     "explanation": "Yes: the opposite of Communism."
+    },
+    {
+     "id": "d",
+     "text": "Widespread violence",
+     "correct": false,
+     "explanation": "No: they were peaceful, Romania apart."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R10",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Gorbachev told Jaruzelski that the June 1989 election result must stand.” Which argument does it support?",
+   "factIds": [
+    "F-EECOLL-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Moscow's refusal to back repression decided the Polish outcome",
+     "correct": true,
+     "explanation": "Correct: the regime had no Soviet support for force."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev wanted Solidarity to lose",
+     "correct": false,
+     "explanation": "He insisted the result stand."
+    },
+    {
+     "id": "c",
+     "text": "Jaruzelski declared martial law again",
+     "correct": false,
+     "explanation": "He did not."
+    },
+    {
+     "id": "d",
+     "text": "The election was annulled",
+     "correct": false,
+     "explanation": "It stood: Mazowiecki became prime minister in September."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Romania paid off its foreign debt in the 1980s, yet its regime fell in December 1989.” Which argument does it support?",
+   "factIds": [
+    "F-EECOLL-16",
+    "F-EECOLL-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Debt alone does not explain the collapse of Communism",
+     "correct": true,
+     "explanation": "Correct: Romania's regime fell anyway."
+    },
+    {
+     "id": "b",
+     "text": "Debt was the only cause of the collapse",
+     "correct": false,
+     "explanation": "The fact challenges this."
+    },
+    {
+     "id": "c",
+     "text": "Romania's economy was healthy",
+     "correct": false,
+     "explanation": "Its people were reduced to penury."
+    },
+    {
+     "id": "d",
+     "text": "Ceauşescu was popular",
+     "correct": false,
+     "explanation": "He was heckled into silence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R12",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In June 1989 Solidarity won a fully free election and took every seat in the Sejm.”",
+   "factIds": [
+    "F-EECOLL-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Many Sejm seats were reserved for Communists; Solidarity won all the seats it could contest",
+     "correct": true,
+     "explanation": "Correct: the election was only partly free."
+    },
+    {
+     "id": "b",
+     "text": "The election was in 1980",
+     "correct": false,
+     "explanation": "It was on 4 June 1989."
+    },
+    {
+     "id": "c",
+     "text": "Solidarity lost the election",
+     "correct": false,
+     "explanation": "It swept the open seats."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the election was only partly free."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Berlin Wall was opened on Gorbachev's direct order to reunify Germany.”",
+   "factIds": [
+    "F-EECOLL-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The East German leaders opened it themselves, hoping to stabilise their regime",
+     "correct": true,
+     "explanation": "Correct: Schabowski announced it."
+    },
+    {
+     "id": "b",
+     "text": "The date should be 1990",
+     "correct": false,
+     "explanation": "It opened on 9 November 1989."
+    },
+    {
+     "id": "c",
+     "text": "The Wall was in Prague",
+     "correct": false,
+     "explanation": "It divided Berlin."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: who opened it and why."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R14",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the collapse of Soviet control between 1985 and 1993. Is the Hungarian uprising of 1956 inside or outside the timeframe?",
+   "timeframe": [
+    1985,
+    1993
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: use it only as background, for example to explain Nagy's reburial."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1956 is before 1985."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Nagy was reburied in 1989",
+     "correct": false,
+     "explanation": "The reburial is inside; the uprising is not."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R15",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who became President of Czechoslovakia on 28 December 1989?",
+   "factIds": [
+    "F-EECOLL-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Václav Havel",
+     "correct": true,
+     "explanation": "Correct: elected by the old Communist assembly."
+    },
+    {
+     "id": "b",
+     "text": "Alexander Dubček",
+     "correct": false,
+     "explanation": "Dubček became Speaker."
+    },
+    {
+     "id": "c",
+     "text": "Gustáv Husák",
+     "correct": false,
+     "explanation": "Husák resigned on 10 December."
+    },
+    {
+     "id": "d",
+     "text": "Václav Klaus",
+     "correct": false,
+     "explanation": "Klaus became finance minister."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Gorbachev tell Honecker on 7 October 1989?",
+   "factIds": [
+    "F-EECOLL-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'Life punishes those who delay'",
+     "correct": true,
+     "explanation": "Correct: at the GDR's fortieth anniversary."
+    },
+    {
+     "id": "b",
+     "text": "'Tear down this wall'",
+     "correct": false,
+     "explanation": "Not Gorbachev's words to Honecker in the source."
+    },
+    {
+     "id": "c",
+     "text": "'We are the people'",
+     "correct": false,
+     "explanation": "That was the Leipzig crowds' chant."
+    },
+    {
+     "id": "d",
+     "text": "'Freedom of choice is a universal principle'",
+     "correct": false,
+     "explanation": "That was his UN speech of December 1988."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Gorbachev obtain in return for accepting German unification?",
+   "factIds": [
+    "F-EECOLL-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "About $8 billion plus $2 billion in credits, and German acceptance of its eastern borders",
+     "correct": true,
+     "explanation": "Correct: he had no good options."
+    },
+    {
+     "id": "b",
+     "text": "A neutral united Germany outside NATO",
+     "correct": false,
+     "explanation": "He initially demanded this but conceded."
+    },
+    {
+     "id": "c",
+     "text": "Soviet control of East Germany",
+     "correct": false,
+     "explanation": "The GDR ceased to exist."
+    },
+    {
+     "id": "d",
+     "text": "Nothing",
+     "correct": false,
+     "explanation": "He extracted a price."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Czechoslovakia divide on 1 January 1993?",
+   "factIds": [
+    "F-EECOLL-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Peacefully, into the Czech Republic and Slovakia: the 'velvet divorce'",
+     "correct": true,
+     "explanation": "Correct: unlike Yugoslavia."
+    },
+    {
+     "id": "b",
+     "text": "Through civil war",
+     "correct": false,
+     "explanation": "It was peaceful."
+    },
+    {
+     "id": "c",
+     "text": "By Soviet order",
+     "correct": false,
+     "explanation": "The USSR no longer existed."
+    },
+    {
+     "id": "d",
+     "text": "By joining Germany",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which group did Václav Havel and his Charter 77 friends form in November 1989?",
+   "factIds": [
+    "F-EECOLL-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Civic Forum",
+     "correct": true,
+     "explanation": "Correct: it became a shadow government within days."
+    },
+    {
+     "id": "b",
+     "text": "Solidarity",
+     "correct": false,
+     "explanation": "That was Polish."
+    },
+    {
+     "id": "c",
+     "text": "New Forum",
+     "correct": false,
+     "explanation": "That was East German."
+    },
+    {
+     "id": "d",
+     "text": "The National Salvation Front",
+     "correct": false,
+     "explanation": "That was Romanian."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Helmut Kohl push for rapid unification?",
+   "factIds": [
+    "F-EECOLL-28"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the flow of East Germans west could be stopped only by bringing West Germany east",
+     "correct": true,
+     "explanation": "Correct: at one point 2,000 people a day."
+    },
+    {
+     "id": "b",
+     "text": "Because Gorbachev demanded it",
+     "correct": false,
+     "explanation": "Gorbachev had no good options and set a price."
+    },
+    {
+     "id": "c",
+     "text": "Because the GDR's economy was strong",
+     "correct": false,
+     "explanation": "Not Kohl's reason."
+    },
+    {
+     "id": "d",
+     "text": "Because France insisted",
+     "correct": false,
+     "explanation": "Not the reason Judt gives for Kohl's change of course."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was Gorbachev responsible for the collapse of Soviet control in eastern Europe in 1989?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Gorbachev",
+     "answer": "factor",
+     "explanation": "The named factor: weigh it first."
+    },
+    {
+     "id": "s3",
+     "text": "the collapse of Soviet control in eastern Europe",
+     "answer": "scope",
+     "explanation": "What the factor must explain."
+    },
+    {
+     "id": "s4",
+     "text": "in 1989",
+     "answer": "timeframe",
+     "explanation": "The year of collapse, with background from 1985."
+    },
+    {
+     "id": "s5",
+     "text": "responsible for",
+     "answer": "judgement",
+     "explanation": "How far Gorbachev, compared with debt, protest and the regimes' weakness, caused the collapse."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the ways in which Communist rule ended in Poland and Romania in 1989.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "the ways in which Communist rule ended",
+     "answer": "factor",
+     "explanation": "What is compared."
+    },
+    {
+     "id": "s3",
+     "text": "in Poland and Romania",
+     "answer": "scope",
+     "explanation": "Two states: both in every paragraph."
+    },
+    {
+     "id": "s4",
+     "text": "in 1989",
+     "answer": "timeframe",
+     "explanation": "The year of both endings."
+    },
+    {
+     "id": "s5",
+     "text": "Compare and contrast",
+     "answer": "judgement",
+     "explanation": "Which difference mattered most?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Gorbachev responsible for the collapse of Soviet control in eastern Europe in 1989?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev was largely responsible, because his renunciation of force removed the regimes' final guarantee; but debt, the survival of opposition and the regimes' loss of nerve explain why they collapsed once the guarantee was gone.",
+     "correct": true,
+     "explanation": "Correct: degree, mechanism and qualification."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev became Soviet leader in 1985 and gave a speech in 1988.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "c",
+     "text": "Many things caused the collapse.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev was responsible because the USSR collapsed in 1991.",
+     "correct": false,
+     "explanation": "Confuses the end of the USSR with the end of the bloc."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the ways in which Communist rule ended in Poland and Romania in 1989.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Both regimes fell in 1989 once Moscow withdrew its support, but Poland's ended by negotiation with a strong opposition while Romania's ended in violence and a coup that left much of the old apparatus in place.",
+     "correct": true,
+     "explanation": "Correct: similarity, difference and judgement."
+    },
+    {
+     "id": "b",
+     "text": "Poland had elections and Romania had a revolution.",
+     "correct": false,
+     "explanation": "Too thin: no explanation."
+    },
+    {
+     "id": "c",
+     "text": "Both countries were Communist.",
+     "correct": false,
+     "explanation": "Not a comparison of how rule ended."
+    },
+    {
+     "id": "d",
+     "text": "Romania was like Poland because both had Solidarity.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 10 September 1989 Hungary announced it would let East Germans cross to Austria.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the Iron Curtain now had a hole, the East German regime could no longer keep its people in.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 9 November Schabowski announced free travel.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that a measure meant to stabilise the regime opened the border for good.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Gorbachev's UN speech of December 1988",
+     "right": "Moscow withdrew its guarantee",
+     "explanation": "'Freedom of choice'."
+    },
+    {
+     "left": "Poland's debt near $40 billion",
+     "right": "Bankruptcy forced the regime to negotiate",
+     "explanation": "It could not borrow more."
+    },
+    {
+     "left": "22,000 East Germans crossed from Hungary in 72 hours",
+     "right": "Hungarian reform broke the GDR",
+     "explanation": "The Iron Curtain opened."
+    },
+    {
+     "left": "Ceauşescus executed on Christmas Day",
+     "right": "Romania was the violent exception",
+     "explanation": "Elsewhere, transitions were peaceful."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Gorbachev caused 1989.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev's declaration at the UN in December 1988 that 'freedom of choice' had no exceptions removed the regimes' last guarantee, so when Poland's Communists lost the June 1989 election they could not call on Soviet force.",
+     "correct": true,
+     "explanation": "Correct: precise evidence and mechanism."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was very important in 1989.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev became leader in 1985.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev wanted to destroy Communism.",
+     "correct": false,
+     "explanation": "Unsupported: he hoped to reform it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Gorbachev alone caused the collapse of Soviet control in 1989.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Poland's debt near $40 billion and years of organised opposition had already forced the regime to negotiate, and Hungary's reform Communists dismantled their own system: the satellites were collapsing from within.",
+     "correct": true,
+     "explanation": "Correct: alternative causes with evidence."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was popular in the West.",
+     "correct": false,
+     "explanation": "Not an argument about causes."
+    },
+    {
+     "id": "c",
+     "text": "Some historians disagree.",
+     "correct": false,
+     "explanation": "Name-dropping."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev lost power in 1991.",
+     "correct": false,
+     "explanation": "Irrelevant to 1989."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that the collapse of Communism in eastern Europe in 1989 was caused by economic failure.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by timing, economic failure was a long-term condition rather than the cause: it had existed for years, and Romania, which paid its debts, fell too; the regimes collapsed in 1989 because Moscow withdrew its guarantee.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the economies were bad and Communism fell.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, economics was important.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, capitalism is better.",
+     "correct": false,
+     "explanation": "A value judgement, not a historical one."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the causes and consequences of the fall of the Berlin Wall between 1989 and 1990.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "East Germans fleeing through Hungary",
+     "answer": "causes",
+     "explanation": "The exodus made the border untenable."
+    },
+    {
+     "id": "s2",
+     "text": "Mass demonstrations in Leipzig",
+     "answer": "causes",
+     "explanation": "Pressure from below."
+    },
+    {
+     "id": "s3",
+     "text": "Removal of the party's leading role (1 December)",
+     "answer": "effects",
+     "explanation": "The SED's collapse."
+    },
+    {
+     "id": "s4",
+     "text": "German unification on 3 October 1990",
+     "answer": "effects",
+     "explanation": "The GDR ceased to exist."
+    },
+    {
+     "id": "s5",
+     "text": "Gorbachev's warning to Honecker",
+     "answer": "causes",
+     "explanation": "Moscow would not save him."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-18-B4-COLLAPSE-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was Gorbachev responsible for the collapse of Soviet control in eastern Europe in 1989?",
+   "commandTerm": "to what extent",
+   "namedFactor": "Gorbachev",
+   "features": [
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1989,
+    1989
+   ],
+   "scope": "Eastern Europe; the collapse of Soviet control",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Gorbachev, weighed first",
+    "timeframe": "1989 (background from 1985)",
+    "scope": "The collapse of Soviet control",
+    "judgement": "How far Gorbachev, compared with debt, opposition and the regimes' weakness, caused the collapse"
+   },
+   "modelPlan": {
+    "thesis": "Gorbachev was largely responsible, because his renunciation of force removed the regimes' final guarantee; but debt, the survival of opposition and the regimes' loss of nerve explain why they fell once the guarantee was gone.",
+    "arguments": [
+     {
+      "claim": "Gorbachev removed the Soviet guarantee (named factor first).",
+      "evidence": [
+       "F-EECOLL-01",
+       "F-EECOLL-02",
+       "F-EECOLL-06"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Debt and economic failure left the regimes unable to buy calm.",
+      "evidence": [
+       "F-EECOLL-03",
+       "F-EECOLL-16"
+      ]
+     },
+     {
+      "claim": "Opposition survived and organised: Solidarity, Civic Forum.",
+      "evidence": [
+       "F-EECOLL-26",
+       "F-EECOLL-05",
+       "F-EECOLL-13"
+      ]
+     },
+     {
+      "claim": "Regimes lost confidence; television and speed did the rest.",
+      "evidence": [
+       "F-EECOLL-20"
+      ]
+     }
+    ],
+    "counter": "The regimes were already collapsing from within: Hungary's Communists dismantled their own system.",
+    "judgementCriterion": "Without Gorbachev, would the regimes have fallen in 1989? Unlikely, since force had saved them in 1953, 1956, 1968 and 1981."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Gorbachev was largely responsible for the collapse of Soviet control in 1989, because he removed the regimes' final guarantee.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In December 1988 he told the UN that 'freedom of choice' had no exceptions, and in 1989 he told Jaruzelski that Solidarity's election victory must stand.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that, unlike in 1956, 1968 or 1981, the regimes could not call on Soviet force when their people turned against them.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, debt near $40 billion and years of organised opposition had already forced the Polish regime to negotiate before the election.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Gorbachev was therefore the decisive cause of the timing, while economic failure and opposition explain why the regimes had nothing left once Moscow let go.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Gorbachev"
+    ],
+    "synonyms": [
+     "Moscow",
+     "freedom of choice"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Brezhnev Doctrine",
+     "Round Table",
+     "Solidarity"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B4-COLLAPSE-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The collapse of Communism in eastern Europe in 1989 was caused by economic failure.” Discuss.",
+   "commandTerm": "discuss",
+   "namedFactor": "economic failure",
+   "features": [
+    "proposition",
+    "named_factor"
+   ],
+   "timeframe": [
+    1989,
+    1989
+   ],
+   "scope": "Eastern Europe; causes of collapse",
+   "decodeKey": {
+    "verb": "Discuss: test the claim for and against, then judge",
+    "factorOrTask": "Economic failure, weighed first",
+    "timeframe": "1989 (background from the 1980s)",
+    "scope": "The collapse of Communism",
+    "judgement": "How far economic failure, rather than Moscow's withdrawal or opposition, caused the collapse"
+   },
+   "modelPlan": {
+    "thesis": "Economic failure was a necessary long-term condition, forcing the Polish regime to negotiate and stripping all the regimes of credibility; but it does not explain the timing, which came from Moscow's withdrawal of its guarantee.",
+    "arguments": [
+     {
+      "claim": "For: Poland's debt and price rises forced negotiation (named factor first).",
+      "evidence": [
+       "F-EECOLL-03",
+       "F-EECOLL-04"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "For: Romania's austerity drove its people to revolt.",
+      "evidence": [
+       "F-EECOLL-16",
+       "F-EECOLL-17"
+      ]
+     },
+     {
+      "claim": "Against: Gorbachev's withdrawal of force decided the timing.",
+      "evidence": [
+       "F-EECOLL-01",
+       "F-EECOLL-06"
+      ]
+     },
+     {
+      "claim": "Against: speed, television and contagion.",
+      "evidence": [
+       "F-EECOLL-20",
+       "F-EECOLL-09"
+      ]
+     }
+    ],
+    "counter": "The economies had been failing for years without collapse, and Romania paid its debts but fell anyway.",
+    "judgementCriterion": "Did economic failure decide when Communism fell? No: it had existed for a decade, so it explains weakness, not timing."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Economic failure made the collapse of Communism possible but did not decide when it came.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Poland's debt was approaching $40 billion, price rises of 25 and 60 per cent in 1987–88 provoked strikes, and in August 1988 the regime asked Wałęsa for help.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the Polish regime could no longer govern alone, so it opened the Round Table that ended its monopoly.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Romania had paid off its debt and still fell, and the regimes had survived economic crises before because Moscow stood behind them.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Economic failure was therefore a necessary cause, but Moscow's withdrawal was the sufficient one.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic"
+    ],
+    "synonyms": [
+     "debt",
+     "inflation",
+     "economy"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Round Table",
+     "price rises",
+     "Ceauşescu"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B4-COLLAPSE-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the causes and consequences of the fall of the Berlin Wall between 1989 and 1990.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1989,
+    1990
+   ],
+   "scope": "East Germany and Germany",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1989–1990",
+    "scope": "The fall of the Berlin Wall",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The Wall fell mainly because emigration through Hungary and mass protest made the border untenable, once Moscow refused to back Honecker; its decisive consequence was German unification in 1990.",
+    "arguments": [
+     {
+      "claim": "Cause: the exodus through Hungary.",
+      "evidence": [
+       "F-EECOLL-09"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: Leipzig demonstrations and Gorbachev's refusal to save Honecker.",
+      "evidence": [
+       "F-EECOLL-10"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: the SED lost its leading role.",
+      "evidence": [
+       "F-EECOLL-12"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: German unification on 3 October 1990.",
+      "evidence": [
+       "F-EECOLL-22",
+       "F-EECOLL-23"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "The Wall was opened by accident, so its fall depended on a panicked announcement as much as on deeper causes.",
+    "judgementCriterion": "Which consequence mattered most? Unification, because it ended the GDR and redrew Europe."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Berlin Wall fell because emigration and protest had already made the border impossible to hold.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After Hungary opened its border, some 22,000 East Germans crossed within 72 hours, and Leipzig's demonstrations grew to 300,000.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant the regime faced a choice between force and concession, and with Gorbachev warning that 'life punishes those who delay', it chose concession.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the actual opening on 9 November was an accident of Schabowski's announcement, which the rulers saw as stabilisation.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Wall's fall was therefore accidental in form but inevitable in substance, and it led directly to unification in October 1990.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Berlin Wall"
+    ],
+    "synonyms": [
+     "Wall",
+     "border"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Schabowski",
+     "Leipzig",
+     "unification"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B4-COLLAPSE-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the ways in which Communist rule ended in Poland and Romania in 1989.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1989,
+    1989
+   ],
+   "scope": "Poland and Romania",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "How Communist rule ended",
+    "timeframe": "1989",
+    "scope": "Poland and Romania",
+    "judgement": "Which difference mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both regimes fell in 1989 once Moscow withdrew its support, but Poland's ended by negotiation with a strong opposition, while Romania's ended in violence and a coup that left much of the old apparatus in place.",
+    "arguments": [
+     {
+      "claim": "Similarity: economic crisis and Moscow's withdrawal.",
+      "evidence": [
+       "F-EECOLL-01",
+       "F-EECOLL-03",
+       "F-EECOLL-16"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: popular anger at the regime.",
+      "evidence": [
+       "F-EECOLL-05",
+       "F-EECOLL-17"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: negotiation and elections in Poland.",
+      "evidence": [
+       "F-EECOLL-04",
+       "F-EECOLL-05",
+       "F-EECOLL-06"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: violence, execution and a former Communist president in Romania.",
+      "evidence": [
+       "F-EECOLL-17",
+       "F-EECOLL-18"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "In both countries members of the old regime kept influence: Jaruzelski became head of state in Poland, Iliescu president in Romania.",
+    "judgementCriterion": "Which difference mattered most for the future? The existence of an organised opposition, which made Poland's transition real and Romania's 'suspiciously smooth'."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Communist rule ended in both Poland and Romania in 1989, but by opposite routes.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In Poland Round Table talks led to elections in which Solidarity won 99 of 100 Senate seats, whereas in Romania troops fired on crowds and Ceauşescu was executed on Christmas Day.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Poland had an organised opposition ready to govern, while in Romania power passed to the former Communist Iliescu and much of the old apparatus.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in both cases figures from the old regime kept influence, since Jaruzelski became Poland's head of state.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore the strength of organised opposition, which shaped how far each country actually changed.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Poland",
+     "Romania"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Round Table",
+     "Timişoara",
+     "Iliescu"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B4-COLLAPSE-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the role of popular protest in the end of Communist rule in Czechoslovakia and East Germany in 1989.",
+   "commandTerm": "examine",
+   "namedFactor": "popular protest",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1989,
+    1989
+   ],
+   "scope": "Czechoslovakia and East Germany",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Popular protest, weighed first",
+    "timeframe": "1989",
+    "scope": "Czechoslovakia and East Germany",
+    "judgement": "How far protest, compared with Moscow's stance and the regimes' weakness, ended Communist rule"
+   },
+   "modelPlan": {
+    "thesis": "Popular protest was the immediate force that ended Communist rule in both countries, but it succeeded because the regimes would not or could not use force once Moscow had refused to support them.",
+    "arguments": [
+     {
+      "claim": "East Germany: Leipzig and Berlin demonstrations (named factor first).",
+      "evidence": [
+       "F-EECOLL-10"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Czechoslovakia: students and crowds at Letná.",
+      "evidence": [
+       "F-EECOLL-13"
+      ]
+     },
+     {
+      "claim": "The regimes' loss of nerve and Moscow's refusal to help.",
+      "evidence": [
+       "F-EECOLL-10",
+       "F-EECOLL-20"
+      ]
+     },
+     {
+      "claim": "Emigration and leadership: Hungary's border and Havel.",
+      "evidence": [
+       "F-EECOLL-09",
+       "F-EECOLL-15"
+      ]
+     }
+    ],
+    "counter": "In East Germany emigration did as much as protest to break the regime.",
+    "judgementCriterion": "Would the regimes have fallen without the crowds? Not in 1989, so protest was decisive for timing."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Popular protest was the immediate cause of the end of Communist rule in East Germany and Czechoslovakia.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Leipzig's demonstrations grew to 300,000 and half a million gathered in Berlin on 4 November, while in Prague half a million gathered at Letná on 25 November.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant the regimes faced crowds too large to disperse without massacre, so they removed leaders and then surrendered their monopoly.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the crowds succeeded because Moscow would not back force, and in East Germany emigration through Hungary had already broken the regime.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Protest was therefore decisive, but only in a situation where force was no longer available.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "protest"
+    ],
+    "synonyms": [
+     "demonstrations",
+     "crowds"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Leipzig",
+     "Civic Forum",
+     "velvet revolution"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B4-COLLAPSE-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the consequences of the collapse of Soviet control for central and eastern Europe between 1989 and 1993.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1989,
+    1993
+   ],
+   "scope": "Central and eastern Europe",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The consequences",
+    "timeframe": "1989–1993",
+    "scope": "Central and eastern Europe",
+    "judgement": "Which consequence mattered most"
+   },
+   "modelPlan": {
+    "thesis": "The most important consequence was that the region's states could choose their own governments and alliances; German unification was the largest single change, and the return of national questions the most dangerous.",
+    "arguments": [
+     {
+      "claim": "German unification.",
+      "evidence": [
+       "F-EECOLL-22",
+       "F-EECOLL-23"
+      ]
+     },
+     {
+      "claim": "The end of the bloc and its renunciation of 1968.",
+      "evidence": [
+       "F-EECOLL-27"
+      ]
+     },
+     {
+      "claim": "Contested transitions: Romania's surviving apparatus.",
+      "evidence": [
+       "F-EECOLL-18"
+      ]
+     },
+     {
+      "claim": "National questions: Czechoslovakia's peaceful division.",
+      "evidence": [
+       "F-EECOLL-25"
+      ]
+     }
+    ],
+    "counter": "Many old elites survived the change, so the consequences were less revolutionary than they looked.",
+    "judgementCriterion": "Which consequence changed Europe most? German unification, which ended the post-war division."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The most important consequence of the collapse was that Germany was reunited and the post-war division of Europe ended.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "On 3 October 1990 the GDR ceased to exist, after Gorbachev accepted unification for about $8 billion and Kohl recognised Germany's eastern borders.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant the central question of post-war Europe was settled peacefully, so the other states of the region could look to 'Europe' rather than Moscow.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in Romania much of the old apparatus survived under Iliescu, which shows the transition was uneven.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Unification was therefore the decisive consequence, while uneven transitions and national questions shaped the 1990s.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "consequences"
+    ],
+    "synonyms": [
+     "result",
+     "effect"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "unification",
+     "velvet divorce",
+     "Europe"
+    ]
+   }
+  }
+ ]
+}

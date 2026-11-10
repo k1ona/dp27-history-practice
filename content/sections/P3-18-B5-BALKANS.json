@@ -1,0 +1,2761 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-18-B5-BALKANS",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 20,
+  "openingProblem": {
+   "problem": "Czechoslovakia divided peacefully in 1993. Yugoslavia broke apart in a decade of wars that killed hundreds of thousands. Was Yugoslavia doomed by its history, or destroyed by its leaders?",
+   "predictionPrompt": "Your prediction in one line: history or leaders?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Why did Yugoslavia break up?",
+    "body": "Yugoslavia was the last truly multi-national state in Europe, and in the 1980s its parts were pulling apart for reasons that were more economic than ancient. Tony Judt shows the gap. Slovenia, Macedonia and Kosovo each had about 8 per cent of the population, but in 1990 Slovenia produced 29 per cent of Yugoslavia's exports, Macedonia 4 per cent and Kosovo 1 per cent. Income per head in Slovenia was double Serbia's and eight times Kosovo's. Slovenes and Croats increasingly resented subsidising the poorer south. In **Kosovo** Albanians were 82 per cent of the population, but the Serb minority had the better jobs, and Serb nationalists revered the province as the site of a defeat by the Turks in 1389.\n\nInto this stepped **Slobodan Milošević**, head of the League of Communists in Serbia. As Communism lost its legitimacy, he turned to nationalism. He welcomed a nationalist memorandum from the Serbian Academy in 1986 and championed the complaints of Kosovo's Serbs. In March 1989 he absorbed Kosovo and Vojvodina into Serbia while keeping their votes in the federal presidency, so Serbia now controlled four of the eight. In June 1989, at the 600th anniversary of the Battle of Kosovo, he told a crowd of nearly one million that Serbs had \"regained their state, national, and spiritual integrity\". Belgrade then closed Kosovo's assembly and imposed direct rule.\n\nThe northern republics drew their own conclusions. In April 1990 Slovene voters backed non-Communist critics of the federation; in May 1990 Franjo Tudjman's nationalists won in Croatia. In December 1990 Serbia seized half the federation's drawing rights to pay its own employees. Slovenia, with 8 per cent of the population but a quarter of the federal budget, proclaimed its independence, and Croatia followed. In June 1991 both seceded.\n\nWhy did Yugoslavia fall apart violently when Czechoslovakia divided peacefully? Judt's answer is that its peoples were so intermingled that every republic except Slovenia contained large minorities. This let demagogues like Milošević and Tudjman \"play an ethnic card no longer available elsewhere in Europe—and substitute it for a concern with democracy\". This mattered because independence for one republic left minorities stranded in another, which meant that each secession created fears that leaders could turn into war.",
+    "argumentsThatWork": [
+     {
+      "claim": "Milošević's use of nationalism to hold power in Serbia set the break-up in motion.",
+      "evidence": [
+       "F-BALKAN-03",
+       "F-BALKAN-04",
+       "F-BALKAN-06"
+      ],
+      "strongestCounter": "Slovenia and Croatia were 'not sorry to see it go', as Judt says, so the north also drove separation."
+     },
+     {
+      "claim": "Economic inequality between north and south made separation attractive to the richer republics.",
+      "evidence": [
+       "F-BALKAN-02",
+       "F-BALKAN-08"
+      ],
+      "strongestCounter": "Economics explains separation, not war: Czechoslovakia divided peacefully."
+     },
+     {
+      "claim": "The intermingling of peoples turned separation into war.",
+      "evidence": [
+       "F-BALKAN-05",
+       "F-BALKAN-01"
+      ],
+      "strongestCounter": "Bosnia's peoples had shown no sustained wish to separate before Milošević, so leaders, not mixing, were the cause."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was Milošević responsible for the break-up of Yugoslavia between 1990 and 1992?",
+     "Discuss the view that the Yugoslav wars were caused by ancient ethnic hatreds."
+    ],
+    "useItInAnEssay": {
+     "claim": "Milošević was the leading cause of Yugoslavia's break-up, because he used Serb nationalism to destroy the federal balance.",
+     "prove": "In March 1989 he absorbed Kosovo and Vojvodina while keeping their federal votes, giving Serbia four of the eight, and in December 1990 Serbia seized half the federation's drawing rights.",
+     "explain": "This meant that Slovenia and Croatia could no longer protect their interests inside the federation, so independence became their only option.",
+     "test": "However, the richer northern republics already resented subsidising the south, and Judt says they were not sorry to see the federation go.",
+     "judge": "Milošević was therefore the main cause, but he exploited divisions that economic inequality had already created."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B5-BALKANS-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Milošević do in March 1989?",
+      "factIds": [
+       "F-BALKAN-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Absorbed Kosovo and Vojvodina into Serbia while keeping their federal votes",
+        "correct": true,
+        "explanation": "Correct: Serbia now controlled four of eight votes."
+       },
+       {
+        "id": "b",
+        "text": "Declared Serbia independent",
+        "correct": false,
+        "explanation": "He wanted a Serb-led Yugoslavia, not Serbian secession."
+       },
+       {
+        "id": "c",
+        "text": "Signed the Dayton Agreement",
+        "correct": false,
+        "explanation": "That was in 1995."
+       },
+       {
+        "id": "d",
+        "text": "Recognised Slovenia",
+        "correct": false,
+        "explanation": "The federal army moved against Slovenia in 1991."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B5-BALKANS-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What percentage of Yugoslavia's exports did Slovenia produce in 1990, according to Judt? (number)",
+      "factIds": [
+       "F-BALKAN-02"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 29,
+        "tolerance": 0,
+        "explanation": "29 per cent, with only about 8 per cent of the population."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B5-BALKANS-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In every republic except Slovenia, break-up would leave significant minorities stranded in someone else's country.”",
+      "factIds": [
+       "F-BALKAN-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The intermingling of peoples made peaceful separation hard",
+        "correct": true,
+        "explanation": "Correct: it gave demagogues an ethnic card to play."
+       },
+       {
+        "id": "b",
+        "text": "Slovenia's independence caused the Bosnian war directly",
+        "correct": false,
+        "explanation": "Slovenia had few minorities and left after a short war."
+       },
+       {
+        "id": "c",
+        "text": "Yugoslavia had no minorities",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "All republics wanted to stay together",
+        "correct": false,
+        "explanation": "Slovenia and Croatia chose independence."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "The wars in Croatia and Bosnia, 1991–1995",
+    "body": "Judt counts five Yugoslav wars. The federal army's attack on **Slovenia** in 1991 lasted a few weeks before the army withdrew. A far bloodier war followed in **Croatia**, between the new state and its Serb minority, backed by what remained of the Yugoslav army, until a UN-brokered ceasefire early in 1992. Hasty German and then European Community recognition of Slovenia and Croatia confirmed their independence, while Belgrade's broadcasts stirred the fears of Croatian Serbs with memories of wartime massacres.\n\n**Bosnia** was the most integrated of the republics, and before Milošević its peoples had shown no sustained wish to separate. But once Slovenia and Croatia had gone, Bosnia's Croats and Muslims preferred independence to minority status in a Serb-dominated Yugoslavia. They voted for it at the end of February 1992; the Serbs boycotted the vote. Bosnia declared independence in March, and in April the Bosnian Serb leaders declared their own Republika Srpska. The Yugoslav army moved in to help them seize and \"cleanse\" territory, and Sarajevo was besieged. From January 1993 Bosnian Croats and Muslims also fought each other.\n\nMuch of the killing was done by irregulars armed from Belgrade, such as the criminal \"Arkan\" and his \"Tigers\", and by forces under **Ratko Mladić**, whom the American diplomat Richard Holbrooke called \"a charismatic murderer\". The aim was less to defeat armies than to drive out civilians. Judt notes that \"ethnic cleansing\", a new term for an old practice, was used by all sides, but Serb forces were \"far and away the worst offenders\". About 300,000 people were killed by the end of the Bosnian war, and in the first year of fighting 3 million people from Yugoslavia, one in eight of the pre-war population, sought refuge abroad. Croat extremists, too, expelled Muslims from western Mostar and in November 1993 destroyed its sixteenth-century Ottoman bridge.\n\nThe outside world knew: the wars were on television every night. In May 1993 a War Crimes Tribunal was set up at The Hague, but Mladić and the Bosnian Serb leader Radovan Karadžić carried on with impunity. In February 1994 a shell killed 68 people in the Sarajevo marketplace; NATO threatened air strikes, and in March 1994 Washington brokered an end to Croat–Muslim fighting. This mattered because international action came only in response to atrocities, which meant that for three years the Bosnian Serbs had, in effect, a free hand.",
+    "argumentsThatWork": [
+     {
+      "claim": "The wars were driven by leaders and irregulars seeking territory cleansed of other peoples.",
+      "evidence": [
+       "F-BALKAN-12",
+       "F-BALKAN-13"
+      ],
+      "strongestCounter": "All sides practised ethnic cleansing, though Judt says Serb forces were the worst."
+     },
+     {
+      "claim": "Western recognition of Slovenia and Croatia, though justified, fed Serb fears.",
+      "evidence": [
+       "F-BALKAN-10"
+      ],
+      "strongestCounter": "Their independence had strong domestic causes; recognition confirmed it rather than caused it."
+     },
+     {
+      "claim": "International responses were slow and reactive until 1995.",
+      "evidence": [
+       "F-BALKAN-14",
+       "F-BALKAN-15"
+      ],
+      "strongestCounter": "The Tribunal and the Muslim–Croat Federation were real achievements of 1993–94."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that the Yugoslav wars were caused by ancient ethnic hatreds.",
+     "Compare and contrast international intervention in Bosnia and Kosovo between 1992 and 1999."
+    ],
+    "useItInAnEssay": {
+     "claim": "The war in Bosnia was driven less by ancient hatreds than by the logic of the federation's collapse.",
+     "prove": "Bosnia was the most integrated republic, and Judt notes that before Milošević none of its peoples had shown a sustained wish to separate; yet after Slovenia and Croatia left, its Croats and Muslims voted for independence in February 1992.",
+     "explain": "This meant that each community faced becoming a minority in someone else's state, so leaders in Belgrade and Pale could turn fear into a war for territory.",
+     "test": "However, memories of wartime massacres were real, and Belgrade's propaganda used them to mobilise Serbs.",
+     "judge": "The war was therefore caused by the collapse of the state and by leaders' choices, with history used as a weapon rather than acting as the cause."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B5-BALKANS-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did Bosnian Serb leaders declare Republika Srpska?",
+      "factIds": [
+       "F-BALKAN-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "April 1992",
+        "correct": true,
+        "explanation": "Correct: a month after Bosnia declared independence."
+       },
+       {
+        "id": "b",
+        "text": "June 1991",
+        "correct": false,
+        "explanation": "That is when Slovenia and Croatia seceded."
+       },
+       {
+        "id": "c",
+        "text": "July 1995",
+        "correct": false,
+        "explanation": "That is Srebrenica."
+       },
+       {
+        "id": "d",
+        "text": "March 1999",
+        "correct": false,
+        "explanation": "That is NATO's bombing of Yugoslavia."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B5-BALKANS-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many people had been killed by the end of the Bosnian war, according to Judt? (number)",
+      "factIds": [
+       "F-BALKAN-13"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 300000,
+        "tolerance": 10000,
+        "explanation": "An estimated 300,000."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B5-BALKANS-C06",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who were the worst offenders in 'ethnic cleansing', according to Judt?",
+      "factIds": [
+       "F-BALKAN-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Serb forces, though all sides took part",
+        "correct": true,
+        "explanation": "Correct: 'far and away the worst offenders'."
+       },
+       {
+        "id": "b",
+        "text": "The Bosnian Muslims",
+        "correct": false,
+        "explanation": "Judt says they were mostly on the receiving end."
+       },
+       {
+        "id": "c",
+        "text": "Only the Croats",
+        "correct": false,
+        "explanation": "Croats also committed crimes, but Judt names Serb forces as the worst."
+       },
+       {
+        "id": "d",
+        "text": "UN peacekeepers",
+        "correct": false,
+        "explanation": "They failed to prevent it, but did not carry it out."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "Srebrenica and Dayton, 1995",
+    "body": "Until 1995, Judt writes, Western intervention was blocked by the claim that the Bosnian Serbs were too strong to be provoked. The UN's presence even protected them. In May 1995, when NATO bombed Bosnian Serb positions after renewed shelling of Sarajevo, the Serbs seized 350 UN peacekeepers as hostages, and Western governments backed off.\n\nThe result was **Srebrenica**. On 11 July 1995 Mladić's forces entered the eastern Bosnian town, a UN \"Safe Area\" crowded with Muslim refugees and guarded by 400 Dutch soldiers. The Dutch laid down their arms. Serb troops separated the men and boys from the women, and over the next four days killed about 7,400 of them. Judt calls it \"the worst mass murder in Europe since World War Two\", carried out in full view of international observers. Yet the immediate response was only a NATO warning.\n\nAction came seven weeks later. On 28 August a second shell hit the Sarajevo marketplace, killing 38 civilians. President Clinton authorised a sustained NATO bombing campaign. It worked: the Bosnian Serb forces collapsed, and Milošević, eager to escape sanctions, distanced himself from them. Croatia had already retaken the Krajina, puncturing the myth of Serb military strength.\n\nPeace talks opened at a US air base in **Dayton**, Ohio, on 1 November 1995, and the agreement was signed in Paris on 14 December by Tudjman for Croatia, Alija Izetbegović for the Bosnian Muslims and Milošević for Yugoslavia and the Bosnian Serbs. The American aim was to avoid partition, which would have rewarded ethnic cleansing. Bosnia remained a single state with three self-governing communities, held together by a 60,000-strong NATO force and an international High Representative.\n\nWas Dayton a success? It ended the war and kept Bosnia's borders. But most of those expelled, above all Muslims, never returned, and Serbs were in turn expelled from the Krajina. Judt distributes the blame widely: the UN showed little concern; France resisted blaming Serbia, and a French general forbade air strikes at Srebrenica; the Dutch vetoed strikes while their soldiers were present; Britain impeded engagement and shut out Bosnian refugees. The United States was slow, but once engaged it drove every stage of intervention. This mattered because it took a massacre to change Western policy, which meant that the peace of 1995 froze the results of ethnic cleansing rather than reversing them.",
+    "argumentsThatWork": [
+     {
+      "claim": "Srebrenica showed the failure of UN peacekeeping without the will to use force.",
+      "evidence": [
+       "F-BALKAN-16",
+       "F-BALKAN-17"
+      ],
+      "strongestCounter": "UN troops did deliver aid and the Tribunal was set up, so the UN presence was not useless."
+     },
+     {
+      "claim": "Sustained NATO bombing, not negotiation, ended the Bosnian war.",
+      "evidence": [
+       "F-BALKAN-18"
+      ],
+      "strongestCounter": "Croatia's recapture of the Krajina also shifted the military balance."
+     },
+     {
+      "claim": "Dayton ended the war but kept the results of ethnic cleansing.",
+      "evidence": [
+       "F-BALKAN-19",
+       "F-BALKAN-24"
+      ],
+      "strongestCounter": "Avoiding partition denied the Serbs a Greater Serbia, a real limit on ethnic cleansing."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the significance of the Srebrenica massacre for the war in Bosnia in 1995.",
+     "Analyse the reasons why the Dayton Agreement was reached in 1995."
+    ],
+    "useItInAnEssay": {
+     "claim": "Srebrenica was significant above all because it finally forced the West to use force.",
+     "prove": "On 11 July 1995 Mladić's forces entered a UN Safe Area guarded by 400 Dutch troops, and over four days killed about 7,400 men and boys.",
+     "explain": "This meant that the UN's policy of protection without force was discredited, so after a second Sarajevo market massacre on 28 August, NATO began sustained bombing.",
+     "test": "However, the immediate response to Srebrenica was only a warning; it took seven weeks and another massacre to bring action.",
+     "judge": "Srebrenica was therefore the turning point in Western policy, though not its immediate trigger."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B5-BALKANS-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many Muslim men and boys were killed at Srebrenica in July 1995? (number)",
+      "factIds": [
+       "F-BALKAN-17"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 7400,
+        "tolerance": 100,
+        "explanation": "About 7,400: the worst mass murder in Europe since 1945."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B5-BALKANS-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What finally triggered sustained NATO bombing of the Bosnian Serbs in 1995?",
+      "factIds": [
+       "F-BALKAN-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A second shelling of the Sarajevo marketplace on 28 August",
+        "correct": true,
+        "explanation": "Correct: 38 civilians were killed."
+       },
+       {
+        "id": "b",
+        "text": "The Srebrenica massacre itself",
+        "correct": false,
+        "explanation": "The immediate response to Srebrenica was only a warning."
+       },
+       {
+        "id": "c",
+        "text": "The Racak massacre",
+        "correct": false,
+        "explanation": "That was in Kosovo, 1999."
+       },
+       {
+        "id": "d",
+        "text": "Slovenia's independence",
+        "correct": false,
+        "explanation": "That was 1991."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B5-BALKANS-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Dayton kept Bosnia a single state with three self-governing communities.”",
+      "factIds": [
+       "F-BALKAN-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The West refused to reward ethnic cleansing with partition",
+        "correct": true,
+        "explanation": "Correct: the American aim was to avoid partition."
+       },
+       {
+        "id": "b",
+        "text": "Bosnia was divided into three countries",
+        "correct": false,
+        "explanation": "It stayed a single state."
+       },
+       {
+        "id": "c",
+        "text": "Dayton reversed all ethnic cleansing",
+        "correct": false,
+        "explanation": "Most of the expelled never returned."
+       },
+       {
+        "id": "d",
+        "text": "The Serbs won the war",
+        "correct": false,
+        "explanation": "The Bosnian Serbs folded under NATO bombing."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "role_of_leader",
+    "title": "Kosovo, NATO and the end of Milošević",
+    "body": "The wars ended where they began. After Dayton, Judt writes, Milošević's position improved: Yugoslavia was no longer quite a pariah. Facing criticism from Serb nationalists for compromising, he \"turned back to Kosovo\". Belgrade rejected any autonomy for the Albanian majority. Younger Albanians, frustrated by the non-violent leader Ibrahim Rugova, turned to the Kosovo Liberation Army (KLA), whose guerrilla attacks gave Milošević an excuse to call all resistance \"terrorist\". In March 1998 Serb forces killed dozens of Albanians at Drenica and other villages.\n\nThe West hesitated. It feared that if Kosovo broke away, neighbouring Macedonia, with its own Albanian minority, might collapse and draw in Albania, Bulgaria and Greece. In July 1998 the Contact Group of foreign ministers still ruled out independence. But Milošević misread the change that Bosnia had brought. Human rights were now high on the agenda; in June 1998 the Hague Tribunal claimed jurisdiction over Kosovo, and the US Secretary of State, Madeleine Albright, warned that she would hold Milošević personally responsible.\n\nOn 15 January 1999 Serb forces killed 45 Albanians at **Racak**. Talks at Rambouillet failed when Belgrade refused to withdraw its forces or accept a foreign military presence. On **24 March 1999** NATO began bombing Yugoslavia without formal UN approval; Russia and China opposed it. The war lasted just under three months. NATO, fighting only from the air, could not stop the expulsions: 865,000 Albanians, half of Kosovo's Albanian population, fled. But on 9 June Belgrade agreed to withdraw all its forces, and a NATO-led force, KFOR, occupied Kosovo under a UN mandate.\n\nKosovo was, in Judt's words, \"the beginning of the end\" for Milošević. In September 2000 he lost the Yugoslav presidential election to Vojislav Koštunica; when he tried to force a run-off, mass protests in Belgrade made him step down on 5 October, and he was later handed to the Hague Tribunal on charges including genocide. Judt's verdict on the decade is that \"no-one emerges with honour\": Belgrade precipitated the failure of the federation, Croat forces committed their own crimes, and the Bosnian Muslims suffered most. This mattered because Milošević's nationalism destroyed the state it claimed to defend, which meant that by 2000 Serbia had lost Slovenia, Croatia, Bosnia and, in practice, Kosovo.",
+    "argumentsThatWork": [
+     {
+      "claim": "Milošević's return to Kosovo after Dayton led to the final war.",
+      "evidence": [
+       "F-BALKAN-20",
+       "F-BALKAN-21"
+      ],
+      "strongestCounter": "The KLA's armed campaign also escalated the conflict."
+     },
+     {
+      "claim": "NATO's air war forced Serbia out of Kosovo but could not stop the expulsions.",
+      "evidence": [
+       "F-BALKAN-22"
+      ],
+      "strongestCounter": "Intervention without UN approval set a contested precedent."
+     },
+     {
+      "claim": "Milošević misread how Bosnia had changed Western attitudes to human rights.",
+      "evidence": [
+       "F-BALKAN-26"
+      ],
+      "strongestCounter": "Some Western diplomats had flattered him, so his misreading was understandable."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the reasons for, and the consequences of, NATO intervention in Kosovo in 1999.",
+     "To what extent was Milošević responsible for the break-up of Yugoslavia between 1990 and 1992?"
+    ],
+    "useItInAnEssay": {
+     "claim": "NATO intervened in Kosovo in 1999 mainly because Milošević's massacres made inaction impossible after Bosnia.",
+     "prove": "Serb forces killed 45 Albanians at Racak on 15 January 1999, and when talks at Rambouillet failed, NATO began bombing on 24 March.",
+     "explain": "This meant that Western governments, aware of their failure at Srebrenica, acted before ethnic cleansing was complete, so Bosnia's lesson shaped Kosovo.",
+     "test": "However, NATO acted without formal UN approval and could not stop 865,000 Albanians fleeing during the war.",
+     "judge": "Intervention was therefore driven by the memory of Bosnia, and it succeeded in removing Serb forces, though not in preventing expulsions."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B5-BALKANS-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did NATO begin bombing Yugoslavia over Kosovo?",
+      "factIds": [
+       "F-BALKAN-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "24 March 1999",
+        "correct": true,
+        "explanation": "Correct: without formal UN approval."
+       },
+       {
+        "id": "b",
+        "text": "11 July 1995",
+        "correct": false,
+        "explanation": "That is Srebrenica."
+       },
+       {
+        "id": "c",
+        "text": "15 January 1999",
+        "correct": false,
+        "explanation": "That is the Racak massacre."
+       },
+       {
+        "id": "d",
+        "text": "9 June 1999",
+        "correct": false,
+        "explanation": "That is when Belgrade agreed to withdraw."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B5-BALKANS-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many Albanians fled Kosovo during the 1999 war, according to Judt? (number)",
+      "factIds": [
+       "F-BALKAN-22"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 865000,
+        "tolerance": 5000,
+        "explanation": "865,000, half of Kosovo's Albanian population."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B5-BALKANS-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In June 1998 the Hague Tribunal declared it could judge crimes in Kosovo, and Albright warned she would hold Milošević personally responsible.”",
+      "factIds": [
+       "F-BALKAN-26"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Bosnia had made Western governments less willing to tolerate ethnic cleansing",
+        "correct": true,
+        "explanation": "Correct: Milošević misread this change."
+       },
+       {
+        "id": "b",
+        "text": "The West supported Milošević in Kosovo",
+        "correct": false,
+        "explanation": "It warned him repeatedly."
+       },
+       {
+        "id": "c",
+        "text": "Kosovo became independent in 1998",
+        "correct": false,
+        "explanation": "The Contact Group ruled independence out."
+       },
+       {
+        "id": "d",
+        "text": "Russia backed NATO action",
+        "correct": false,
+        "explanation": "Russia opposed it."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1990,
+      "month": 5,
+      "text": "Tudjman becomes President of Croatia",
+      "factId": "F-BALKAN-07"
+     },
+     {
+      "year": 1990,
+      "month": 12,
+      "text": "Serbia seizes half the federation's drawing rights",
+      "factId": "F-BALKAN-08"
+     },
+     {
+      "year": 1991,
+      "month": 6,
+      "text": "Slovenia and Croatia secede",
+      "factId": "F-BALKAN-08"
+     },
+     {
+      "year": 1992,
+      "month": 3,
+      "text": "Bosnia declares independence",
+      "factId": "F-BALKAN-11"
+     },
+     {
+      "year": 1993,
+      "month": 5,
+      "text": "War Crimes Tribunal set up at The Hague",
+      "factId": "F-BALKAN-14"
+     },
+     {
+      "year": 1994,
+      "month": 2,
+      "text": "Sarajevo marketplace shelled: 68 killed",
+      "factId": "F-BALKAN-15"
+     },
+     {
+      "year": 1995,
+      "month": 7,
+      "day": 11,
+      "text": "Srebrenica",
+      "factId": "F-BALKAN-17"
+     },
+     {
+      "year": 1995,
+      "month": 12,
+      "day": 14,
+      "text": "Dayton Agreement signed in Paris",
+      "factId": "F-BALKAN-19"
+     },
+     {
+      "year": 1998,
+      "month": 3,
+      "text": "Massacres at Drenica in Kosovo",
+      "factId": "F-BALKAN-20"
+     },
+     {
+      "year": 1999,
+      "month": 1,
+      "day": 15,
+      "text": "Racak massacre",
+      "factId": "F-BALKAN-21"
+     },
+     {
+      "year": 1999,
+      "month": 3,
+      "day": 24,
+      "text": "NATO begins bombing Yugoslavia",
+      "factId": "F-BALKAN-21"
+     },
+     {
+      "year": 1999,
+      "month": 6,
+      "day": 9,
+      "text": "Belgrade agrees to withdraw from Kosovo",
+      "factId": "F-BALKAN-22"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Economic gap between north and south; Communism loses legitimacy",
+      "factId": "F-BALKAN-02"
+     },
+     {
+      "id": "n2",
+      "text": "Milošević plays the nationalist card; Serbia takes four of eight votes",
+      "factId": "F-BALKAN-04"
+     },
+     {
+      "id": "n3",
+      "text": "Slovenia and Croatia secede (1991)",
+      "factId": "F-BALKAN-08"
+     },
+     {
+      "id": "n4",
+      "text": "Minorities stranded; war in Croatia and Bosnia; ethnic cleansing",
+      "factId": "F-BALKAN-13"
+     },
+     {
+      "id": "n5",
+      "text": "Srebrenica, NATO bombing and Dayton (1995)",
+      "factId": "F-BALKAN-19"
+     },
+     {
+      "id": "n6",
+      "text": "Kosovo war; NATO intervenes (1999)",
+      "factId": "F-BALKAN-21"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Nationalism offered a new source of legitimacy"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "The northern republics could no longer protect their interests in the federation"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Intermingled peoples turned separation into war"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Atrocities finally forced Western military action"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Milošević turned back to Kosovo after Dayton"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Slobodan Milošević",
+     "role": "President of Serbia from May 1989; later of Yugoslavia",
+     "whyItMatters": "Used Serb nationalism to hold power; his policies broke the federation and led to war in Bosnia and Kosovo.",
+     "factIds": [
+      "F-BALKAN-03",
+      "F-BALKAN-04",
+      "F-BALKAN-20",
+      "F-BALKAN-23"
+     ]
+    },
+    {
+     "name": "Franjo Tudjman",
+     "role": "President of Croatia from May 1990",
+     "whyItMatters": "Nationalist leader who took Croatia out of Yugoslavia and signed Dayton.",
+     "factIds": [
+      "F-BALKAN-07",
+      "F-BALKAN-19"
+     ]
+    },
+    {
+     "name": "Ratko Mladić",
+     "role": "Commander of the Bosnian Serb forces from 1992",
+     "whyItMatters": "Led the Srebrenica massacre; 'a charismatic murderer' (Holbrooke).",
+     "factIds": [
+      "F-BALKAN-12",
+      "F-BALKAN-17"
+     ]
+    },
+    {
+     "name": "Radovan Karadžić",
+     "role": "President of Republika Srpska",
+     "whyItMatters": "Bosnian Serb leader who pursued war crimes with impunity until 1995.",
+     "factIds": [
+      "F-BALKAN-14"
+     ]
+    },
+    {
+     "name": "Alija Izetbegović",
+     "role": "Leader of the Bosnian Muslims",
+     "whyItMatters": "Signed the Dayton Agreement for the Bosnian Muslims.",
+     "factIds": [
+      "F-BALKAN-19"
+     ]
+    },
+    {
+     "name": "Ibrahim Rugova",
+     "role": "Moderate leader of the Kosovo Albanians",
+     "whyItMatters": "His non-violent strategy was bypassed by the KLA after 1995.",
+     "factIds": [
+      "F-BALKAN-20"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Bosnia (1992–1995)",
+     "Kosovo (1998–1999)"
+    ],
+    "rows": [
+     {
+      "criterion": "Trigger for Western force",
+      "cells": [
+       "Sarajevo market shelling after Srebrenica",
+       "Racak massacre and failure at Rambouillet"
+      ],
+      "factIds": [
+       "F-BALKAN-18",
+       "F-BALKAN-21"
+      ]
+     },
+     {
+      "criterion": "Speed of intervention",
+      "cells": [
+       "Three years after the war began",
+       "About a year after the Drenica massacres"
+      ],
+      "factIds": [
+       "F-BALKAN-15",
+       "F-BALKAN-20"
+      ]
+     },
+     {
+      "criterion": "Legal basis",
+      "cells": [
+       "NATO with UN backing",
+       "NATO without formal UN approval"
+      ],
+      "factIds": [
+       "F-BALKAN-15",
+       "F-BALKAN-21"
+      ]
+     },
+     {
+      "criterion": "Outcome",
+      "cells": [
+       "Dayton: a single state with three communities",
+       "Serb withdrawal; NATO-led KFOR"
+      ],
+      "factIds": [
+       "F-BALKAN-19",
+       "F-BALKAN-22"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-BALKAN-02",
+    "year": 1990,
+    "text": "1990: Slovenia, with about 8 per cent of the population, produced 29 per cent of Yugoslav exports; Kosovo produced 1 per cent.",
+    "supports": [
+     "Economic inequality drove the richer republics away"
+    ],
+    "lexicon": [
+     "regional inequality"
+    ]
+   },
+   {
+    "factId": "F-BALKAN-04",
+    "year": 1989,
+    "text": "March 1989: Milošević absorbed Kosovo and Vojvodina, giving Serbia four of eight federal votes.",
+    "supports": [
+     "Milošević broke the federal balance"
+    ],
+    "lexicon": [
+     "Milošević",
+     "federal presidency"
+    ]
+   },
+   {
+    "factId": "F-BALKAN-06",
+    "year": 1989,
+    "text": "June 1989: Milošević's Kosovo speech to nearly one million; Belgrade then imposed direct rule on Kosovo.",
+    "supports": [
+     "Nationalism became Milošević's source of power"
+    ],
+    "lexicon": [
+     "Battle of Kosovo",
+     "Serb nationalism"
+    ]
+   },
+   {
+    "factId": "F-BALKAN-08",
+    "year": 1991,
+    "text": "June 1991: Slovenia and Croatia seceded; the federal army moved to the Slovene border.",
+    "supports": [
+     "The federation collapsed when the north left"
+    ],
+    "lexicon": [
+     "secession",
+     "Slovenia",
+     "Croatia"
+    ]
+   },
+   {
+    "factId": "F-BALKAN-13",
+    "year": 1992,
+    "text": "About 300,000 killed by the end of the Bosnian war; 3 million refugees in the first year; Serb forces the worst offenders.",
+    "supports": [
+     "Ethnic cleansing was the aim, not a by-product"
+    ],
+    "lexicon": [
+     "ethnic cleansing"
+    ]
+   },
+   {
+    "factId": "F-BALKAN-17",
+    "year": 1995,
+    "text": "11 July 1995: about 7,400 Muslim men and boys killed at Srebrenica, a UN Safe Area.",
+    "supports": [
+     "UN protection without force failed"
+    ],
+    "lexicon": [
+     "Srebrenica",
+     "Safe Area",
+     "Mladić"
+    ]
+   },
+   {
+    "factId": "F-BALKAN-19",
+    "year": 1995,
+    "text": "14 December 1995: the Dayton Agreement kept Bosnia a single state of three communities under a 60,000-strong NATO force.",
+    "supports": [
+     "Peace came only after Western force",
+     "Dayton froze the results of ethnic cleansing"
+    ],
+    "lexicon": [
+     "Dayton",
+     "Implementation Force"
+    ]
+   },
+   {
+    "factId": "F-BALKAN-21",
+    "year": 1999,
+    "text": "24 March 1999: NATO began bombing Yugoslavia over Kosovo without formal UN approval.",
+    "supports": [
+     "Bosnia changed Western attitudes to intervention"
+    ],
+    "lexicon": [
+     "Kosovo",
+     "NATO",
+     "Racak"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Yugoslavia's break-up was not a revival of 'age-old' feuds: its intermingled peoples let demagogues like Milošević and Tudjman play an ethnic card no longer available elsewhere and substitute it for democracy; once one republic left, minorities everywhere felt stranded, and in the wars that followed 'no-one emerges with honour'.",
+    "useItLikeThis": "Judt's view challenges the 'ancient hatreds' explanation, which suggests that leaders' choices in 1987–1991, not history, turned Yugoslavia's diversity into war.",
+    "factId": "F-BALKAN-05"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Yugoslav wars were caused by ancient ethnic hatreds.",
+    "right": "Judt stresses **economic divisions and leaders' choices**: Bosnia's peoples had shown no sustained wish to separate before Milošević."
+   },
+   {
+    "wrong": "There was one Yugoslav war.",
+    "right": "Judt counts **five**: Slovenia, Croatia, Bosnia, the Croat–Muslim war and Kosovo."
+   },
+   {
+    "wrong": "Only Serbs committed atrocities.",
+    "right": "All sides practised ethnic cleansing; Serb forces were the **worst offenders**, but Croat forces destroyed Mostar's bridge and expelled Muslims."
+   },
+   {
+    "wrong": "NATO's 1999 intervention had UN approval.",
+    "right": "It went ahead **without formal UN approval**, opposed by Russia and China."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1990,
+     "month": 5,
+     "text": "Tudjman President of Croatia"
+    },
+    {
+     "year": 1991,
+     "month": 6,
+     "text": "Slovenia and Croatia secede"
+    },
+    {
+     "year": 1992,
+     "month": 3,
+     "text": "Bosnia independent"
+    },
+    {
+     "year": 1995,
+     "month": 7,
+     "day": 11,
+     "text": "Srebrenica"
+    },
+    {
+     "year": 1995,
+     "month": 12,
+     "day": 14,
+     "text": "Dayton signed"
+    },
+    {
+     "year": 1999,
+     "month": 1,
+     "day": 15,
+     "text": "Racak"
+    },
+    {
+     "year": 1999,
+     "month": 3,
+     "day": 24,
+     "text": "NATO bombing begins"
+    },
+    {
+     "year": 1999,
+     "month": 6,
+     "day": 9,
+     "text": "Serb withdrawal from Kosovo"
+    }
+   ],
+   "keyArguments": [
+    "Economic inequality and Communism's loss of legitimacy created the conditions for break-up.",
+    "Milošević used nationalism to hold power and broke the federal balance (1989).",
+    "Intermingled peoples let leaders turn separation into war; ethnic cleansing was the aim (Judt).",
+    "The West acted only after atrocities: Srebrenica, then NATO bombing and Dayton (1995).",
+    "Kosovo: Milošević misread the West; NATO intervened without UN approval; his fall followed in 2000."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-18-B5-BALKANS-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Slovenia and Croatia secede",
+     "year": 1991,
+     "month": 6,
+     "factId": "F-BALKAN-08"
+    },
+    {
+     "id": "b",
+     "text": "Bosnia declares independence",
+     "year": 1992,
+     "month": 3,
+     "factId": "F-BALKAN-11"
+    },
+    {
+     "id": "c",
+     "text": "Srebrenica",
+     "year": 1995,
+     "month": 7,
+     "factId": "F-BALKAN-17"
+    },
+    {
+     "id": "d",
+     "text": "NATO bombing of Yugoslavia begins",
+     "year": 1999,
+     "month": 3,
+     "factId": "F-BALKAN-21"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1995 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Serbs take 350 UN peacekeepers hostage",
+     "year": 1995,
+     "month": 5,
+     "factId": "F-BALKAN-16"
+    },
+    {
+     "id": "b",
+     "text": "Srebrenica",
+     "year": 1995,
+     "month": 7,
+     "factId": "F-BALKAN-17"
+    },
+    {
+     "id": "c",
+     "text": "Second Sarajevo market shelling",
+     "year": 1995,
+     "month": 8,
+     "factId": "F-BALKAN-18"
+    },
+    {
+     "id": "d",
+     "text": "Dayton talks begin",
+     "year": 1995,
+     "month": 11,
+     "factId": "F-BALKAN-19"
+    },
+    {
+     "id": "e",
+     "text": "Dayton signed in Paris",
+     "year": 1995,
+     "month": 12,
+     "factId": "F-BALKAN-19"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps in the break-up of Yugoslavia in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Tudjman becomes President of Croatia",
+     "year": 1990,
+     "month": 5,
+     "factId": "F-BALKAN-07"
+    },
+    {
+     "id": "b",
+     "text": "Serbia seizes federal drawing rights",
+     "year": 1990,
+     "month": 12,
+     "factId": "F-BALKAN-08"
+    },
+    {
+     "id": "c",
+     "text": "Slovenia and Croatia secede",
+     "year": 1991,
+     "month": 6,
+     "factId": "F-BALKAN-08"
+    },
+    {
+     "id": "d",
+     "text": "Bosnia declares independence",
+     "year": 1992,
+     "month": 3,
+     "factId": "F-BALKAN-11"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Ratko Mladić",
+     "right": "Bosnian Serb commander at Srebrenica",
+     "explanation": "'A charismatic murderer', according to Holbrooke."
+    },
+    {
+     "left": "Franjo Tudjman",
+     "right": "President of Croatia from May 1990",
+     "explanation": "He signed the Dayton Agreement."
+    },
+    {
+     "left": "Ibrahim Rugova",
+     "right": "Moderate Kosovo Albanian leader",
+     "explanation": "Bypassed by the KLA."
+    },
+    {
+     "left": "Vojislav Koštunica",
+     "right": "Defeated Milošević in the presidential election of September 2000",
+     "explanation": "Milošević stepped down on 5 October 2000."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of Kosovo's population were Albanians, according to Judt? (number)",
+   "factIds": [
+    "F-BALKAN-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 82,
+     "tolerance": 0,
+     "explanation": "82 per cent, though the Serb minority had the better jobs."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people were killed by the shell in the Sarajevo marketplace in February 1994? (number)",
+   "factIds": [
+    "F-BALKAN-15"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 68,
+     "tolerance": 0,
+     "explanation": "68, with hundreds wounded."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many UN peacekeepers did the Bosnian Serbs take hostage in May 1995? (number)",
+   "factIds": [
+    "F-BALKAN-16"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 350,
+     "tolerance": 0,
+     "explanation": "350: Western governments then backed off."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Albanians were killed at Racak on 15 January 1999? (number)",
+   "factIds": [
+    "F-BALKAN-21"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 45,
+     "tolerance": 0,
+     "explanation": "45, many apparently executed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these does Judt count among the Yugoslav wars? Choose all that apply.",
+   "factIds": [
+    "F-BALKAN-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The war in Slovenia, 1991",
+     "correct": true,
+     "explanation": "Yes: it lasted a few weeks."
+    },
+    {
+     "id": "b",
+     "text": "The war in Croatia against its Serb minority",
+     "correct": true,
+     "explanation": "Yes: to a UN ceasefire early in 1992."
+    },
+    {
+     "id": "c",
+     "text": "The war in Kosovo, 1999",
+     "correct": true,
+     "explanation": "Yes: the last of the five."
+    },
+    {
+     "id": "d",
+     "text": "A war between Slovenia and Croatia",
+     "correct": false,
+     "explanation": "No: they seceded together."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which Western failures does Judt identify in the Bosnian war? Choose all that apply.",
+   "factIds": [
+    "F-BALKAN-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A French general forbade air strikes at Srebrenica",
+     "correct": true,
+     "explanation": "Yes: General Janvier, commander of the UN force."
+    },
+    {
+     "id": "b",
+     "text": "The Dutch vetoed NATO strikes while their soldiers were present",
+     "correct": true,
+     "explanation": "Yes: until all Dutch soldiers were out."
+    },
+    {
+     "id": "c",
+     "text": "Britain restricted entry for Bosnian refugees",
+     "correct": true,
+     "explanation": "Yes: by demanding visas."
+    },
+    {
+     "id": "d",
+     "text": "The United States refused ever to intervene",
+     "correct": false,
+     "explanation": "No: once engaged, the US drove each stage of intervention."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Before Milošević, none of Bosnia's ethnic or religious communities had shown a sustained wish for separation.”",
+   "factIds": [
+    "F-BALKAN-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Bosnian war was not caused by ancient hatreds alone",
+     "correct": true,
+     "explanation": "Correct: leaders and the federation's collapse mattered."
+    },
+    {
+     "id": "b",
+     "text": "Bosnia had always been divided",
+     "correct": false,
+     "explanation": "It was the most integrated republic."
+    },
+    {
+     "id": "c",
+     "text": "The Bosnian Serbs supported independence",
+     "correct": false,
+     "explanation": "They boycotted the referendum."
+    },
+    {
+     "id": "d",
+     "text": "Bosnia stayed part of Yugoslavia",
+     "correct": false,
+     "explanation": "It declared independence in March 1992."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Slovenia had 8 per cent of the population but contributed a quarter of the federal budget.”",
+   "factIds": [
+    "F-BALKAN-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The richer republics resented subsidising the federation",
+     "correct": true,
+     "explanation": "Correct: Serbia's seizure of funds was the last straw."
+    },
+    {
+     "id": "b",
+     "text": "Slovenia was poorer than Kosovo",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Serbia paid for Slovenia",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "Slovenia had a large Serb minority",
+     "correct": false,
+     "explanation": "It had fewer than 50,000 Serbs."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “At Srebrenica in July 1995 Dutch UN troops fought off Mladić's forces and saved the town's Muslim men.”",
+   "factIds": [
+    "F-BALKAN-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Dutch laid down their arms; about 7,400 men and boys were killed",
+     "correct": true,
+     "explanation": "Correct: the worst mass murder in Europe since 1945."
+    },
+    {
+     "id": "b",
+     "text": "Srebrenica is in Kosovo",
+     "correct": false,
+     "explanation": "It is in eastern Bosnia."
+    },
+    {
+     "id": "c",
+     "text": "The year should be 1999",
+     "correct": false,
+     "explanation": "It was July 1995."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: what the Dutch did and what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Dayton Agreement divided Bosnia into three independent states.”",
+   "factIds": [
+    "F-BALKAN-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bosnia stayed a single state with three self-governing communities",
+     "correct": true,
+     "explanation": "Correct: the US wanted to avoid partition."
+    },
+    {
+     "id": "b",
+     "text": "Dayton was signed in 1999",
+     "correct": false,
+     "explanation": "It was signed on 14 December 1995."
+    },
+    {
+     "id": "c",
+     "text": "Milošević did not sign it",
+     "correct": false,
+     "explanation": "He signed for Yugoslavia and the Bosnian Serbs."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Bosnia was not divided."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Balkan conflicts between 1990 and 1999. Is the Tito–Stalin split of 1948 inside or outside the timeframe?",
+   "timeframe": [
+    1990,
+    1999
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: use it only as background to Yugoslavia's independent path."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1948 is long before 1990."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Tito founded the federation",
+     "correct": false,
+     "explanation": "Background does not bring an earlier event into the period."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who signed the Dayton Agreement for the Bosnian Serbs?",
+   "factIds": [
+    "F-BALKAN-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Slobodan Milošević",
+     "correct": true,
+     "explanation": "Correct: he signed for Yugoslavia and the Bosnian Serbs."
+    },
+    {
+     "id": "b",
+     "text": "Ratko Mladić",
+     "correct": false,
+     "explanation": "Mladić was a commander, not a signatory."
+    },
+    {
+     "id": "c",
+     "text": "Alija Izetbegović",
+     "correct": false,
+     "explanation": "He signed for the Bosnian Muslims."
+    },
+    {
+     "id": "d",
+     "text": "Franjo Tudjman",
+     "correct": false,
+     "explanation": "He signed for Croatia."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which body was set up at The Hague in May 1993?",
+   "factIds": [
+    "F-BALKAN-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "An International Tribunal for War Crimes",
+     "correct": true,
+     "explanation": "Correct: but Mladić and Karadžić carried on with impunity."
+    },
+    {
+     "id": "b",
+     "text": "The Contact Group",
+     "correct": false,
+     "explanation": "That was a group of diplomats."
+    },
+    {
+     "id": "c",
+     "text": "The Implementation Force",
+     "correct": false,
+     "explanation": "That was NATO's force after Dayton."
+    },
+    {
+     "id": "d",
+     "text": "KFOR",
+     "correct": false,
+     "explanation": "That was the NATO-led force in Kosovo, 1999."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Belgrade agree to on 9 June 1999?",
+   "factIds": [
+    "F-BALKAN-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To withdraw all its troops and police from Kosovo",
+     "correct": true,
+     "explanation": "Correct: NATO-led KFOR then occupied the province."
+    },
+    {
+     "id": "b",
+     "text": "To recognise Kosovo's independence",
+     "correct": false,
+     "explanation": "Not at that time."
+    },
+    {
+     "id": "c",
+     "text": "To join NATO",
+     "correct": false,
+     "explanation": "Unrelated."
+    },
+    {
+     "id": "d",
+     "text": "To hand Milošević to The Hague",
+     "correct": false,
+     "explanation": "That came after his fall in 2000."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did the West fear Kosovo's secession in 1998?",
+   "factIds": [
+    "F-BALKAN-20",
+    "F-BALKAN-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It might destabilise Macedonia and draw in its neighbours",
+     "correct": true,
+     "explanation": "Correct: Macedonia had its own Albanian minority."
+    },
+    {
+     "id": "b",
+     "text": "Kosovo would join NATO",
+     "correct": false,
+     "explanation": "Not the fear Judt describes."
+    },
+    {
+     "id": "c",
+     "text": "Kosovo was rich",
+     "correct": false,
+     "explanation": "It was the poorest region."
+    },
+    {
+     "id": "d",
+     "text": "Russia supported independence",
+     "correct": false,
+     "explanation": "Russia opposed intervention."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which recognition confirmed the independence of Slovenia and Croatia, according to Judt?",
+   "factIds": [
+    "F-BALKAN-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hasty German, then European Community, recognition",
+     "correct": true,
+     "explanation": "Correct: it confirmed their existence for friend and foe."
+    },
+    {
+     "id": "b",
+     "text": "Recognition by Serbia",
+     "correct": false,
+     "explanation": "Belgrade opposed it."
+    },
+    {
+     "id": "c",
+     "text": "UN recognition in 1989",
+     "correct": false,
+     "explanation": "They seceded in 1991."
+    },
+    {
+     "id": "d",
+     "text": "Soviet recognition",
+     "correct": false,
+     "explanation": "Not the recognition Judt describes."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-18-B5-BALKANS-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was Milošević responsible for the break-up of Yugoslavia between 1990 and 1992?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Milošević",
+     "answer": "factor",
+     "explanation": "The named factor: weigh it first."
+    },
+    {
+     "id": "s3",
+     "text": "the break-up of Yugoslavia",
+     "answer": "scope",
+     "explanation": "What must be explained: break-up, not the later wars."
+    },
+    {
+     "id": "s4",
+     "text": "between 1990 and 1992",
+     "answer": "timeframe",
+     "explanation": "Srebrenica and Kosovo are outside."
+    },
+    {
+     "id": "s5",
+     "text": "responsible for",
+     "answer": "judgement",
+     "explanation": "How far Milošević, compared with economics, other leaders and foreign recognition, caused the break-up."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast international intervention in Bosnia and Kosovo between 1992 and 1999.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "international intervention",
+     "answer": "factor",
+     "explanation": "What is compared."
+    },
+    {
+     "id": "s3",
+     "text": "in Bosnia and Kosovo",
+     "answer": "scope",
+     "explanation": "Two regions: both in every paragraph."
+    },
+    {
+     "id": "s4",
+     "text": "between 1992 and 1999",
+     "answer": "timeframe",
+     "explanation": "From the Bosnian war to the Kosovo war."
+    },
+    {
+     "id": "s5",
+     "text": "Compare and contrast",
+     "answer": "judgement",
+     "explanation": "Which difference matters most?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Milošević responsible for the break-up of Yugoslavia between 1990 and 1992?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Milošević was largely responsible, because his nationalism destroyed the federal balance and left the northern republics no way to protect their interests; but economic inequality and Tudjman's nationalism meant the north was ready to leave.",
+     "correct": true,
+     "explanation": "Correct: degree, mechanism and qualification."
+    },
+    {
+     "id": "b",
+     "text": "Milošević became President of Serbia in 1989.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Many leaders were involved.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Milošević was responsible because of Srebrenica.",
+     "correct": false,
+     "explanation": "Wrong timeframe: 1995."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons for, and the consequences of, NATO intervention in Kosovo in 1999.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "NATO intervened mainly because Milošević's massacres, after the lesson of Bosnia, made inaction impossible; the intervention forced Serbia out of Kosovo but could not prevent the expulsion of half its Albanians.",
+     "correct": true,
+     "explanation": "Correct: a ranked reason and weighed consequences."
+    },
+    {
+     "id": "b",
+     "text": "NATO bombed Yugoslavia from March to June 1999.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "c",
+     "text": "NATO intervention was good.",
+     "correct": false,
+     "explanation": "No reasons or consequences."
+    },
+    {
+     "id": "d",
+     "text": "NATO intervened because of the Dayton Agreement.",
+     "correct": false,
+     "explanation": "Misreads the cause."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In June 1991 Slovenia and Croatia seceded.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because Croatia contained a large Serb minority, its independence turned separation into war.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 11 July 1995 Mladić's forces entered Srebrenica.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that UN protection without force was discredited, which changed Western policy.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Serbia took four of eight federal votes in 1989",
+     "right": "Milošević broke the federal balance",
+     "explanation": "The federation stalemated."
+    },
+    {
+     "left": "Slovenia produced 29 per cent of exports in 1990",
+     "right": "Economic inequality drove the north away",
+     "explanation": "The richer north resented the south."
+    },
+    {
+     "left": "About 7,400 killed at Srebrenica",
+     "right": "UN protection without force failed",
+     "explanation": "The Dutch laid down their arms."
+    },
+    {
+     "left": "NATO bombed without UN approval in 1999",
+     "right": "Bosnia changed Western attitudes to intervention",
+     "explanation": "Human rights over sovereignty."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Milošević caused lots of problems in Yugoslavia.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Milošević broke the federation by absorbing Kosovo and Vojvodina in March 1989 while keeping their votes, giving Serbia four of eight, so Slovenia and Croatia saw independence as their only protection.",
+     "correct": true,
+     "explanation": "Correct: precise evidence and mechanism."
+    },
+    {
+     "id": "b",
+     "text": "Milošević caused very many problems in Yugoslavia.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Milošević became President of Serbia in 1989.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Milošević was a bad man.",
+     "correct": false,
+     "explanation": "A value judgement without explanation."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Milošević alone destroyed Yugoslavia.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Slovenia and Croatia had strong economic reasons to leave, Tudjman played his own nationalist card, and hasty German recognition confirmed their secession; Judt says Ljubljana and Zagreb were 'not sorry to see it go'.",
+     "correct": true,
+     "explanation": "Correct: alternative causes and a historian."
+    },
+    {
+     "id": "b",
+     "text": "Milošević was elected.",
+     "correct": false,
+     "explanation": "Not an argument about causes."
+    },
+    {
+     "id": "c",
+     "text": "Some historians disagree.",
+     "correct": false,
+     "explanation": "Name-dropping."
+    },
+    {
+     "id": "d",
+     "text": "Yugoslavia had six republics.",
+     "correct": false,
+     "explanation": "A fact, not an argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that the Yugoslav wars were caused by ancient ethnic hatreds.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by when and how the wars began, ancient hatreds were a resource leaders used rather than the cause: Bosnia's peoples lived together until the federation collapsed, and the wars followed political choices made in 1989–1991.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there were wars in Croatia, Bosnia and Kosovo.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, history was important.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, the Balkans are always violent.",
+     "correct": false,
+     "explanation": "A stereotype, not a judgement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons for, and the consequences of, NATO intervention in Kosovo in 1999.” Sort each plan point into REASONS or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons (causes)"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences (effects)"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The Racak massacre of 15 January 1999",
+     "answer": "causes",
+     "explanation": "The trigger."
+    },
+    {
+     "id": "s2",
+     "text": "Failure of talks at Rambouillet",
+     "answer": "causes",
+     "explanation": "Belgrade refused to withdraw."
+    },
+    {
+     "id": "s3",
+     "text": "865,000 Albanians fled during the war",
+     "answer": "effects",
+     "explanation": "Air power could not stop expulsions."
+    },
+    {
+     "id": "s4",
+     "text": "KFOR occupied Kosovo",
+     "answer": "effects",
+     "explanation": "Serbia withdrew."
+    },
+    {
+     "id": "s5",
+     "text": "The lesson of Srebrenica",
+     "answer": "causes",
+     "explanation": "Bosnia changed Western attitudes."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-18-B5-BALKANS-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was Milošević responsible for the break-up of Yugoslavia between 1990 and 1992?",
+   "commandTerm": "to what extent",
+   "namedFactor": "Milošević",
+   "features": [
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1990,
+    1992
+   ],
+   "scope": "Yugoslavia; break-up",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Milošević, weighed first",
+    "timeframe": "1990–1992 (background from 1986)",
+    "scope": "The break-up of Yugoslavia",
+    "judgement": "How far Milošević, compared with economics, other leaders and foreign recognition, caused the break-up"
+   },
+   "modelPlan": {
+    "thesis": "Milošević was largely responsible, because his nationalism destroyed the federal balance and left the northern republics no way to protect their interests; but economic inequality and Tudjman's nationalism meant the north was ready to leave.",
+    "arguments": [
+     {
+      "claim": "Milošević's nationalism and his seizure of the federal balance (named factor first).",
+      "evidence": [
+       "F-BALKAN-03",
+       "F-BALKAN-04",
+       "F-BALKAN-06",
+       "F-BALKAN-08"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Economic inequality: the richer north resented subsidising the south.",
+      "evidence": [
+       "F-BALKAN-02"
+      ]
+     },
+     {
+      "claim": "Tudjman and Croat nationalism.",
+      "evidence": [
+       "F-BALKAN-07",
+       "F-BALKAN-05"
+      ]
+     },
+     {
+      "claim": "Foreign recognition confirmed secession.",
+      "evidence": [
+       "F-BALKAN-10"
+      ]
+     }
+    ],
+    "counter": "Slovenia and Croatia were 'not sorry to see it go', so the break-up had more than one author.",
+    "judgementCriterion": "Would Yugoslavia have broken up without Milošević? Perhaps, but not as violently, so he was the decisive cause of its manner."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Milošević was largely responsible for the break-up of Yugoslavia, because he destroyed the balance that held the federation together.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In March 1989 he absorbed Kosovo and Vojvodina while keeping their votes, and in December 1990 Serbia seized half the federation's drawing rights.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Slovenia and Croatia could no longer protect their interests inside the federation, so independence became their only option.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Slovenia already produced 29 per cent of exports and resented subsidising the south, and Tudjman played his own nationalist card.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Milošević was therefore the main cause, though he exploited divisions that already existed.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Milošević"
+    ],
+    "synonyms": [
+     "Serbian leadership",
+     "Belgrade"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Kosovo",
+     "federal presidency",
+     "secession"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B5-BALKANS-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Yugoslav wars were caused by ancient ethnic hatreds.” Discuss with reference to the period 1990 to 1995.",
+   "commandTerm": "discuss",
+   "namedFactor": "ancient ethnic hatreds",
+   "features": [
+    "proposition",
+    "named_factor"
+   ],
+   "timeframe": [
+    1990,
+    1995
+   ],
+   "scope": "Yugoslavia; causes of the wars",
+   "decodeKey": {
+    "verb": "Discuss: test the claim for and against, then judge",
+    "factorOrTask": "Ancient ethnic hatreds, weighed first",
+    "timeframe": "1990–1995",
+    "scope": "The causes of the Yugoslav wars",
+    "judgement": "How far ancient hatreds, rather than economics and leaders, caused the wars"
+   },
+   "modelPlan": {
+    "thesis": "The claim is largely wrong: historical memories were used as weapons, but the wars were caused by the collapse of the federation and by leaders who played the ethnic card.",
+    "arguments": [
+     {
+      "claim": "For: memories of 1389 and of wartime massacres were real and were mobilised (named factor first).",
+      "evidence": [
+       "F-BALKAN-01",
+       "F-BALKAN-10"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Against: economic inequality drove the north away.",
+      "evidence": [
+       "F-BALKAN-02"
+      ]
+     },
+     {
+      "claim": "Against: leaders chose nationalism to hold power.",
+      "evidence": [
+       "F-BALKAN-03",
+       "F-BALKAN-05"
+      ]
+     },
+     {
+      "claim": "Against: Bosnia's peoples had lived together until the federation collapsed.",
+      "evidence": [
+       "F-BALKAN-11"
+      ]
+     }
+    ],
+    "counter": "Ethnic cleansing by all sides suggests deep hostility existed.",
+    "judgementCriterion": "When did the hatreds become war? Only after leaders destroyed the federation, so history was a resource, not the cause."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Yugoslav wars were caused less by ancient hatreds than by leaders who used them.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Judt notes that before Milošević none of Bosnia's communities had shown a sustained wish to separate, yet in June 1989 Milošević used the 600th anniversary of the Battle of Kosovo to rally Serb nationalism.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that history was mobilised to win power as Communism collapsed, so it was a weapon rather than a cause.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, memories of wartime massacres were real, and Belgrade's propaganda could exploit them only because they resonated.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore largely invalid: leaders, not ancient hatreds, decided that Yugoslavia would end in war.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "ethnic"
+    ],
+    "synonyms": [
+     "hatred",
+     "nationalism"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "ethnic cleansing",
+     "Battle of Kosovo",
+     "Milošević"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B5-BALKANS-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the reasons for, and the consequences of, NATO intervention in Kosovo in 1999.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1999,
+    1999
+   ],
+   "scope": "Kosovo",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: reasons AND consequences",
+    "timeframe": "1999 (background from 1998)",
+    "scope": "NATO intervention in Kosovo",
+    "judgement": "Which reason mattered most, and how successful the intervention was"
+   },
+   "modelPlan": {
+    "thesis": "NATO intervened mainly because Milošević's massacres, after the lesson of Bosnia, made inaction impossible; the intervention forced Serbia out of Kosovo but could not prevent the expulsion of half its Albanians.",
+    "arguments": [
+     {
+      "claim": "Reason: massacres at Drenica and Racak.",
+      "evidence": [
+       "F-BALKAN-20",
+       "F-BALKAN-21"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: Bosnia had changed Western attitudes; Milošević misread them.",
+      "evidence": [
+       "F-BALKAN-26"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: 865,000 refugees; Serbian withdrawal and KFOR.",
+      "evidence": [
+       "F-BALKAN-22"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: the beginning of the end for Milošević.",
+      "evidence": [
+       "F-BALKAN-23"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Intervention without UN approval set a contested precedent, opposed by Russia and China.",
+    "judgementCriterion": "Did intervention achieve its aim? It removed Serb forces, but not before half the Albanian population had fled."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "NATO intervened in Kosovo mainly because Milošević's massacres made inaction impossible after the failure in Bosnia.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Serb forces killed 45 Albanians at Racak on 15 January 1999, and when talks at Rambouillet failed, NATO began bombing on 24 March.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Western governments acted before the killing reached the scale of Srebrenica, so the memory of Bosnia shaped their decision.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, NATO acted without formal UN approval, and air power could not stop 865,000 Albanians from fleeing.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The intervention was therefore justified by Bosnia's lesson and succeeded in its aim, though at a heavy human cost.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "NATO"
+    ],
+    "synonyms": [
+     "intervention",
+     "bombing"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Racak",
+     "Rambouillet",
+     "KFOR"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B5-BALKANS-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast international intervention in Bosnia and Kosovo between 1992 and 1999.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1992,
+    1999
+   ],
+   "scope": "Bosnia and Kosovo",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "International intervention",
+    "timeframe": "1992–1999",
+    "scope": "Bosnia and Kosovo",
+    "judgement": "Which difference matters most"
+   },
+   "modelPlan": {
+    "thesis": "In both regions the West used force only after massacres and relied on NATO air power, but it acted far faster in Kosovo, without UN approval, because Bosnia had changed its attitude to ethnic cleansing.",
+    "arguments": [
+     {
+      "claim": "Similarity: force came only after massacres.",
+      "evidence": [
+       "F-BALKAN-18",
+       "F-BALKAN-21"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: NATO air power forced Serb withdrawal.",
+      "evidence": [
+       "F-BALKAN-18",
+       "F-BALKAN-22"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: three years of delay in Bosnia, about a year in Kosovo.",
+      "evidence": [
+       "F-BALKAN-15",
+       "F-BALKAN-20"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: UN backing in Bosnia; no formal UN approval in Kosovo.",
+      "evidence": [
+       "F-BALKAN-15",
+       "F-BALKAN-21"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "The outcomes were similar: in both cases expulsions were not reversed.",
+    "judgementCriterion": "Which difference matters most? Speed, because it reflects the lesson learned at Srebrenica."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "International intervention in Bosnia and Kosovo followed the same pattern but at very different speeds.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In Bosnia NATO's sustained bombing began only after the second Sarajevo market massacre in August 1995, three years into the war, whereas in Kosovo NATO began bombing on 24 March 1999, about a year after the Drenica massacres.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the failure at Srebrenica had changed Western attitudes, so in Kosovo governments acted even without formal UN approval.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in both regions intervention came only after massacres, and in neither did it reverse the expulsions.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore speed, born of Bosnia, while the limits of air power were the decisive similarity.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Bosnia",
+     "Kosovo"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "NATO",
+     "Srebrenica",
+     "Racak"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B5-BALKANS-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the significance of the Srebrenica massacre for the war in Bosnia in 1995.",
+   "commandTerm": "examine",
+   "namedFactor": "the Srebrenica massacre",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1995,
+    1995
+   ],
+   "scope": "Bosnia",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Srebrenica, weighed first",
+    "timeframe": "1995",
+    "scope": "The war in Bosnia",
+    "judgement": "How far Srebrenica, compared with other events, changed the war"
+   },
+   "modelPlan": {
+    "thesis": "Srebrenica was significant because it discredited UN protection without force and made Western action inevitable; but action came only after a second Sarajevo massacre, and Croatia's recapture of the Krajina also shifted the balance.",
+    "arguments": [
+     {
+      "claim": "The massacre itself and the failure of the Safe Area (named factor first).",
+      "evidence": [
+       "F-BALKAN-17"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Western passivity before it: the hostage crisis of May.",
+      "evidence": [
+       "F-BALKAN-16"
+      ]
+     },
+     {
+      "claim": "The trigger for force: the second Sarajevo market shelling.",
+      "evidence": [
+       "F-BALKAN-18"
+      ]
+     },
+     {
+      "claim": "Dayton and its limits.",
+      "evidence": [
+       "F-BALKAN-19",
+       "F-BALKAN-24"
+      ]
+     }
+    ],
+    "counter": "The immediate response to Srebrenica was only a warning, so its significance was delayed.",
+    "judgementCriterion": "Did Srebrenica change Western policy? Yes, in the long run: after it, inaction was indefensible."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Srebrenica was significant because it destroyed the policy of protecting Bosnians without using force.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "On 11 July 1995 Mladić's forces entered a UN Safe Area guarded by 400 Dutch troops and killed about 7,400 men and boys.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Western governments could no longer claim that caution protected civilians, so the case for force became overwhelming.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the immediate response was only a NATO warning; action came after the second Sarajevo market massacre on 28 August.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Srebrenica was therefore the moral turning point of the war, though not its military trigger.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Srebrenica"
+    ],
+    "synonyms": [
+     "massacre",
+     "Safe Area"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Mladić",
+     "Dutch battalion",
+     "Dayton"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B5-BALKANS-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons why the Dayton Agreement was reached in 1995.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1995,
+    1995
+   ],
+   "scope": "Bosnia",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its reasons and show how they connect",
+    "factorOrTask": "The reasons for the Dayton Agreement",
+    "timeframe": "1995",
+    "scope": "The end of the Bosnian war",
+    "judgement": "Which reason was decisive"
+   },
+   "modelPlan": {
+    "thesis": "Dayton was reached mainly because sustained NATO bombing broke the Bosnian Serbs; Croatia's military success, Milošević's wish to escape sanctions and American leadership made agreement possible.",
+    "arguments": [
+     {
+      "claim": "NATO's sustained bombing after August 1995.",
+      "evidence": [
+       "F-BALKAN-18"
+      ]
+     },
+     {
+      "claim": "Croatia's recapture of the Krajina.",
+      "evidence": [
+       "F-BALKAN-09",
+       "F-BALKAN-16"
+      ]
+     },
+     {
+      "claim": "Milošević distanced himself from the Bosnian Serbs.",
+      "evidence": [
+       "F-BALKAN-18"
+      ]
+     },
+     {
+      "claim": "American leadership and the aim of avoiding partition.",
+      "evidence": [
+       "F-BALKAN-19",
+       "F-BALKAN-24"
+      ]
+     }
+    ],
+    "counter": "The Muslim–Croat Federation of 1994 had already changed the balance, so Dayton was not only a product of bombing.",
+    "judgementCriterion": "Without which reason would there have been no agreement? NATO bombing, because the Bosnian Serbs had ignored every plan before it."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Dayton Agreement was reached mainly because NATO bombing broke the Bosnian Serbs' capacity to fight.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After the Sarajevo market shelling of 28 August 1995, Clinton authorised a sustained campaign, and the Bosnian Serb forces collapsed without Milošević's backing.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the side which had ignored every peace plan since 1992 could no longer win by force, so it had to accept a settlement.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Croatia's recapture of the Krajina in 1995 had already punctured the myth of Serb military strength.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "NATO force was therefore the decisive reason, with Croatian success and American diplomacy completing it.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Dayton"
+    ],
+    "synonyms": [
+     "peace agreement",
+     "settlement"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "NATO bombing",
+     "Krajina",
+     "Izetbegović"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,2830 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-18-B1-SOVIET-CONTROL",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 18,
+  "openingProblem": {
+   "problem": "In 1945 the Communist parties of eastern Europe were tiny. By 1949 they ruled every state between the Baltic and the Adriatic. Did they win power, take it, or receive it from Moscow?",
+   "predictionPrompt": "Your prediction in one line: how did the Communists come to rule eastern Europe?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Why did Stalin want control of eastern Europe?",
+    "body": "Stalin explained his thinking to the Yugoslav Communist Milovan Djilas before the war ended: \"whoever occupies a territory also imposes upon it his own social system. Everyone imposes his own system as far as his army can reach.\" Tony Judt argues that this was the core of Soviet policy. The war had been fought to defeat Germany and restore Russian security in the west. Between Germany and Russia lay a belt of small, vulnerable states, from Finland to Yugoslavia, whose governments between the wars had, with the partial exception of Czechoslovakia, been hostile to Moscow. The only acceptable outcome for Stalin was governments that could never threaten Soviet security.\n\nJudt's point is that security and Communism were not alternatives. The only way to guarantee friendly governments was to make their political systems like the Soviet one, and \"this, from the start, was what Stalin wanted and intended\". Coalition governments in 1945 did not mean that Stalin was undecided. They were a route to power for parties that were weak.\n\nThe method was shaped by the Red Army. Soviet troops stayed in Hungary until the mid-1950s, in Romania until 1958, and in East Germany for the whole of its life. Moscow could also present itself as a protector: Poland and Czechoslovakia had expelled their Germans, and many people feared a German revival. Judt adds that democracy had shallow roots in the region. Its inter-war regimes had been corrupt and authoritarian, and the real governing class had been the bureaucracy, so the move to Communist \"popular democracy\" was \"a short move and an easy one\".\n\nOnce in power, Stalin secured loyalty in the only way he knew: a party monopoly. The Hungarian constitution of August 1949 gave the party a \"leading role\"; the party became the sole route to promotion and, through its control of the courts, the dispenser of justice. This mattered because Soviet control did not depend on popularity, which meant that once the party owned the state, elections and public opinion no longer decided who ruled.",
+    "argumentsThatWork": [
+     {
+      "claim": "Stalin's main motive was security: a buffer of reliable states between Germany and the USSR.",
+      "evidence": [
+       "F-SOVCTRL-02",
+       "F-SOVCTRL-16"
+      ],
+      "strongestCounter": "Judt argues security and Communism were the same aim, since only Communist governments could be relied on."
+     },
+     {
+      "claim": "The Red Army made control possible, wherever local Communists were weak.",
+      "evidence": [
+       "F-SOVCTRL-01",
+       "F-SOVCTRL-16"
+      ],
+      "strongestCounter": "In Czechoslovakia the Red Army left in 1945 and the Communists still took power, so force was not the only route."
+     },
+     {
+      "claim": "Weak democratic traditions made the takeover easier.",
+      "evidence": [
+       "F-SOVCTRL-15"
+      ],
+      "strongestCounter": "Where elections were free, Communists lost them, which shows popular resistance was real."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that Stalin's main aim in eastern Europe after 1945 was security, not the spread of Communism.",
+     "To what extent was Soviet control of eastern Europe between 1945 and 1955 based on force?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Stalin's control of eastern Europe served security first, but he saw Communism as the only way to secure it.",
+     "prove": "Judt argues that the only acceptable outcome for Stalin was governments that could never threaten Soviet security, and that aligning their political systems with the USSR's was what he intended from the start.",
+     "explain": "This meant that the spread of Communism was the means of achieving security, so the two aims cannot be separated.",
+     "test": "However, Stalin tolerated independent farmers and the Catholic Church in Poland for the sake of stability, which suggests security mattered more than ideological uniformity.",
+     "judge": "Security was therefore the end and Communism the method, which is why control was imposed so thoroughly."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Judt, what was the only acceptable outcome for Stalin in the states between Germany and the USSR?",
+      "factIds": [
+       "F-SOVCTRL-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Governments that could never pose a threat to Soviet security",
+        "correct": true,
+        "explanation": "Correct: and only Soviet-style systems could guarantee that."
+       },
+       {
+        "id": "b",
+        "text": "Neutral states like Austria",
+        "correct": false,
+        "explanation": "Austria's neutrality came only in 1955 and was an exception."
+       },
+       {
+        "id": "c",
+        "text": "Free elections under Western supervision",
+        "correct": false,
+        "explanation": "Where elections were free, Communists lost."
+       },
+       {
+        "id": "d",
+        "text": "Union of all the states with the USSR",
+        "correct": false,
+        "explanation": "Most were not absorbed; they became satellites."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C02",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Soviet troops stayed in Romania until 1958 and in East Germany throughout its life.” Which argument does it support best?",
+      "factIds": [
+       "F-SOVCTRL-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Soviet control ultimately rested on the presence of the Red Army",
+        "correct": true,
+        "explanation": "Correct: the army was the final guarantee."
+       },
+       {
+        "id": "b",
+        "text": "Romania and East Germany were democracies",
+        "correct": false,
+        "explanation": "The fact concerns occupation, not democracy."
+       },
+       {
+        "id": "c",
+        "text": "Stalin had no interest in eastern Europe",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "The Warsaw Pact was founded in 1945",
+        "correct": false,
+        "explanation": "It was announced in May 1955."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C03",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Hungarian constitution of August 1949 give the Communist Party?",
+      "factIds": [
+       "F-SOVCTRL-24"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A 'leading role', a monopoly of power",
+        "correct": true,
+        "explanation": "Correct: other parties were absorbed or extinguished."
+       },
+       {
+        "id": "b",
+        "text": "Equal status with the Smallholders",
+        "correct": false,
+        "explanation": "The Smallholders had been broken by 1949."
+       },
+       {
+        "id": "c",
+        "text": "The right to leave the Soviet bloc",
+        "correct": false,
+        "explanation": "Not part of any satellite constitution."
+       },
+       {
+        "id": "d",
+        "text": "Control only of agriculture",
+        "correct": false,
+        "explanation": "The party controlled the whole state."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "How the Communists took power, 1945–1948",
+    "body": "In 1945 the Communist parties of eastern Europe were tiny. Mátyás Rákosi returned to Budapest in February 1945 with perhaps 4,000 Communists behind him; the Romanian party had fewer than 1,000 members in a country of nearly 20 million. Only in the industrial Czech lands and in Yugoslavia, where Communists had led the resistance, was there a mass base.\n\nStalin therefore began with **\"Front\" coalitions** of Communists, Socialists and other anti-Fascist parties. The East German Communist leader Walter Ulbricht explained the tactic privately in 1945: \"It's quite clear—it's got to look democratic, but we must have everything in our control.\" Communists rarely asked to be president or prime minister. Instead they took the Ministry of the Interior, which controlled the police and newspaper licences; the Ministry of Justice, which ran purges and courts; and the Ministry of Agriculture, which distributed land to millions of peasants.\n\nElections soon showed that the ballot box would not bring them to power. In November 1945 the Smallholders won an absolute majority in Hungary. In Poland the Peasant Party of Stanisław Mikołajczyk had about 600,000 members in December 1945, ten times the Communists' activists. So the parties turned to **pressure and terror**. In 1946 and 1947 opponents were smeared, beaten, arrested and tried as \"Fascists\". In Bulgaria the Agrarian leader Nikola Petkov was arrested the day after the US Senate ratified the peace treaties in June 1947, and executed within 96 hours of American recognition of the government that September. Rigged elections followed: in Poland in January 1947 the Communist-led bloc was credited with 80 per cent; in Hungary in August 1947, even with Rajk falsifying the count, the Communists won only 22 per cent.\n\nThe Socialists were harder to brand as Fascists, so the Communists absorbed them. The Socialist Unity Party was created in the Soviet zone of Germany in 1946, and similar forced mergers followed in 1948 in Romania, Hungary, Czechoslovakia, Bulgaria and Poland. This mattered because the Socialists were the only rivals with working-class support, which meant that their absorption left no organised opposition. By May 1949 Hungary's \"People's Front\" was credited with 95.6 per cent of the vote.",
+    "argumentsThatWork": [
+     {
+      "claim": "The takeover was gradual: coalitions, key ministries, then terror and forced mergers.",
+      "evidence": [
+       "F-SOVCTRL-04",
+       "F-SOVCTRL-05",
+       "F-SOVCTRL-08"
+      ],
+      "strongestCounter": "In Romania and Bulgaria the Soviet hand was heavy from the start, so the stages were short."
+     },
+     {
+      "claim": "Communists lost free elections, so control depended on coercion, not consent.",
+      "evidence": [
+       "F-SOVCTRL-06",
+       "F-SOVCTRL-10",
+       "F-SOVCTRL-11"
+      ],
+      "strongestCounter": "Land reform and protection against Germany won Communists some real support."
+     },
+     {
+      "claim": "Western diplomacy shaped the timing: opponents were destroyed once peace treaties were signed.",
+      "evidence": [
+       "F-SOVCTRL-09"
+      ],
+      "strongestCounter": "The pattern was set by Moscow, not by Western actions."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the methods used by Communist parties to gain power in eastern Europe between 1945 and 1948.",
+     "To what extent was Soviet control of eastern Europe between 1945 and 1955 based on force?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Communists gained power in eastern Europe mainly by capturing the instruments of coercion, not by winning votes.",
+     "prove": "In every coalition they took the Ministries of the Interior and Justice, and in Hungary even an election falsified by the Communist Interior Minister gave them only 22 per cent in August 1947.",
+     "explain": "This meant that control of the police and courts let them arrest opponents and rig results, so electoral defeat did not stop them.",
+     "test": "However, in Czechoslovakia they won 40.2 per cent of the Czech vote in free elections in 1946, so in one state they had real support.",
+     "judge": "Control of the police was therefore the decisive method, with genuine popularity the exception."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many Communists could Rákosi count on in Hungary when he returned in February 1945? (number)",
+      "factIds": [
+       "F-SOVCTRL-03"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 4000,
+        "tolerance": 0,
+        "explanation": "About 4,000: the parties were tiny before Soviet support."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which ministries did Communists seek in every coalition?",
+      "factIds": [
+       "F-SOVCTRL-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Interior, Justice and Agriculture",
+        "correct": true,
+        "explanation": "Correct: police, courts and land."
+       },
+       {
+        "id": "b",
+        "text": "Foreign Affairs and the presidency",
+        "correct": false,
+        "explanation": "They usually left these to allies."
+       },
+       {
+        "id": "c",
+        "text": "Finance and Trade",
+        "correct": false,
+        "explanation": "Not the ministries Judt names."
+       },
+       {
+        "id": "d",
+        "text": "Education and Culture",
+        "correct": false,
+        "explanation": "Not the key ministries Judt names."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Petkov was arrested the day after the US Senate ratified the peace treaties and executed within 96 hours of US recognition.” Which argument does it support best?",
+      "factIds": [
+       "F-SOVCTRL-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Communists waited for Western recognition before destroying their opponents",
+        "correct": true,
+        "explanation": "Correct: the chronology is revealing."
+       },
+       {
+        "id": "b",
+        "text": "The United States supported the Bulgarian Communists",
+        "correct": false,
+        "explanation": "The US recognised the state; it did not support the execution."
+       },
+       {
+        "id": "c",
+        "text": "Bulgaria held free elections in 1947",
+        "correct": false,
+        "explanation": "The opposition was being destroyed."
+       },
+       {
+        "id": "d",
+        "text": "Petkov was a Communist",
+        "correct": false,
+        "explanation": "He led the Agrarians."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "nature_methods",
+    "title": "Prague 1948 and the machinery of the bloc",
+    "body": "Czechoslovakia was the exception that ended the exceptions. It had a democratic tradition and a strong Communist Party of its own, and the Red Army had left in November 1945. In the free elections of May 1946 the Communists won 40.2 per cent in the Czech lands. But in February 1948, when non-Communist ministers resigned in protest at Communist infiltration of the police, the party seized full control. Judt calls the **Prague coup** \"of enormous significance\" because it happened in a friendly, more or less democratic country: it convinced the West that Communism was on the march.\n\nBy then Moscow was building institutions to hold the bloc together. In September 1947, at Szklarska Poręba in Poland, Stalin founded the **Cominform**. Its stated aim was coordination; its real aim, Judt argues, was to re-establish Soviet dominion over the Communist movement. Andrei Zhdanov announced that the world was divided into two irreconcilable \"camps\". In January 1949 came **Comecon**, the Council for Mutual Economic Assistance. Each state traded bilaterally with the USSR and was given a fixed role: East Germany, Czechoslovakia and Hungary supplied industrial goods at prices set by Moscow, Poland and Romania food and raw materials. Judt compares the structure to colonialism. Czechoslovakia, richer than France per head before the war, was by 1956 poorer than it had been twenty years earlier.\n\nInside each state the Soviet model was copied. By December 1948 the state owned 83 per cent of Hungarian industry and 98 per cent of Bulgarian. From 1949 collectivisation was forced on the peasants, though not in Poland, where Stalin tolerated independent farmers and the Catholic Church for the sake of stability. After 1948 the hunt for \"Titoists\" produced **show trials**. In Hungary the former Interior Minister László Rajk confessed to being an Anglo-American agent and was hanged in October 1949. In Prague the party's General Secretary, Rudolf Slánský, was tried in November 1952 with thirteen others, most of them Jews; eleven were executed. This mattered because the trials struck at loyal Communists, which meant that no one in the bloc could feel safe from Moscow.\n\nThe machinery was completed in May 1955, ten days after West Germany joined NATO, when the USSR announced the **Warsaw Pact**: a military alliance of the satellites under a unified command.",
+    "argumentsThatWork": [
+     {
+      "claim": "Institutions such as the Cominform and Comecon tied the satellites to Moscow politically and economically.",
+      "evidence": [
+       "F-SOVCTRL-17",
+       "F-SOVCTRL-27"
+      ],
+      "strongestCounter": "The Cominform met only three times and was disbanded in 1956, so its practical role was limited."
+     },
+     {
+      "claim": "Soviet economic control distorted the satellites' economies.",
+      "evidence": [
+       "F-SOVCTRL-25",
+       "F-SOVCTRL-27",
+       "F-SOVCTRL-30"
+      ],
+      "strongestCounter": "Heavy industry grew fast at first: steel output in East Germany rose from 120,000 tons to over 2 million tons."
+     },
+     {
+      "claim": "Terror within the parties enforced obedience after 1948.",
+      "evidence": [
+       "F-SOVCTRL-28",
+       "F-SOVCTRL-32"
+      ],
+      "strongestCounter": "The trials were aimed at Communists, so they show insecurity in Moscow as much as strength."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the role of Comecon and the Cominform in Soviet control of eastern Europe between 1947 and 1955.",
+     "Compare and contrast the Communist takeovers in Poland and Czechoslovakia between 1945 and 1948."
+    ],
+    "useItInAnEssay": {
+     "claim": "Comecon tied the satellites to the Soviet Union by making their economies dependent on Moscow.",
+     "prove": "From January 1949 each state traded bilaterally with the USSR and was assigned a fixed role, supplying industrial goods or food at prices Moscow set.",
+     "explain": "This meant that the satellites could not develop independent trade with the West, so economic dependence reinforced political control.",
+     "test": "However, the system also damaged the satellites: Czechoslovakia was poorer by 1956 than twenty years earlier, which stored up resentment.",
+     "judge": "Comecon therefore strengthened Soviet control in the short term while weakening the economies that control depended on."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did the Communists seize full control in Czechoslovakia?",
+      "factIds": [
+       "F-SOVCTRL-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "February 1948",
+        "correct": true,
+        "explanation": "Correct: after non-Communist ministers resigned."
+       },
+       {
+        "id": "b",
+        "text": "May 1946",
+        "correct": false,
+        "explanation": "That was the free election in which they won 40.2 per cent of the Czech vote."
+       },
+       {
+        "id": "c",
+        "text": "November 1945",
+        "correct": false,
+        "explanation": "That is when the Red Army withdrew."
+       },
+       {
+        "id": "d",
+        "text": "May 1955",
+        "correct": false,
+        "explanation": "That is when the Warsaw Pact was announced."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What, according to Judt, was the real goal of the Cominform?",
+      "factIds": [
+       "F-SOVCTRL-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To re-establish Soviet dominion within the international Communist movement",
+        "correct": true,
+        "explanation": "Correct: coordination was the stated purpose."
+       },
+       {
+        "id": "b",
+        "text": "To organise trade between the satellites",
+        "correct": false,
+        "explanation": "That was Comecon's role, from 1949."
+       },
+       {
+        "id": "c",
+        "text": "To create a military alliance",
+        "correct": false,
+        "explanation": "That was the Warsaw Pact, 1955."
+       },
+       {
+        "id": "d",
+        "text": "To promote independent national roads to socialism",
+        "correct": false,
+        "explanation": "The opposite."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C09",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many of the fourteen accused in the Slánský trial were executed? (number)",
+      "factIds": [
+       "F-SOVCTRL-28"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 11,
+        "tolerance": 0,
+        "explanation": "Eleven; three were sentenced to life imprisonment."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C10",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Before the war Czechoslovakia had a higher output per head than France; by 1956 it was poorer than twenty years earlier.” Which argument does it support best?",
+      "factIds": [
+       "F-SOVCTRL-27"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Soviet economic control damaged the satellites' economies",
+        "correct": true,
+        "explanation": "Correct: Judt's argument about Comecon."
+       },
+       {
+        "id": "b",
+        "text": "Comecon made Czechoslovakia richer",
+        "correct": false,
+        "explanation": "The fact shows the opposite."
+       },
+       {
+        "id": "c",
+        "text": "Czechoslovakia left the Soviet bloc",
+        "correct": false,
+        "explanation": "It stayed until 1989."
+       },
+       {
+        "id": "d",
+        "text": "The war caused all of Czechoslovakia's decline",
+        "correct": false,
+        "explanation": "Judt blames the Soviet model of the 1950s."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Tito: the limits of Soviet control",
+    "body": "Yugoslavia shows where Soviet control stopped. Tito's Communists were the only party in Europe to come to power by their own efforts, through the partisan war against German and Italian occupation. They were, at first, more radical than Moscow. In the elections of November 1945 voters chose between Tito's People's Front and an urn labelled \"opposition\"; a constitution copied from the Soviet one followed in January 1946, and 7,000 collective farms were set up before collectivisation had begun elsewhere.\n\nThat independence was the problem. Judt explains that Stalin wanted Moscow to be not *a* model of revolution but *the* model. Tito's plan for a Balkan Federation including Albania and Bulgaria looked like a bid for regional power. His support for the Greek Communist insurgents and his claims on Trieste and Carinthia provoked the West at a time when Stalin did not want a quarrel over secondary issues. In February 1948 Stalin condemned the Balkan Federation; Soviet advisers were withdrawn; and on 28 June 1948 the Cominform expelled Yugoslavia for failing to acknowledge the leading role of the USSR. Judt's judgement is that \"Stalin needed to break Tito in order to make very clear to Tito's fellow Communists that Moscow would brook no dissent.\"\n\nTito was not broken. Yugoslav trade with the Soviet bloc fell from 46 per cent of the total in 1948 to 14 per cent a year later, and the threat of invasion was real, so Tito turned to the West: between 1949 and 1955 Western aid came to $1.2 billion, of which only $55 million was repaid. Yugoslavia then went its own way. By 1951 most economic enterprises had been handed from the federal government to the republics; a decree of March 1953 let peasants leave the collectives, and by 1954 80 per cent of farmland was private again. The party kept its monopoly of power.\n\nInside the bloc the split had harsh consequences. \"Nationalism\" became the main enemy; the hunt for \"Titoists\" produced the show trials, and in Hungary alone some 2,000 Communist cadres were executed. This mattered because Tito proved that a Communist state could survive outside Soviet control, which meant that Stalin tightened control everywhere else to stop the example spreading.",
+    "argumentsThatWork": [
+     {
+      "claim": "Tito could defy Stalin because his regime did not depend on the Red Army.",
+      "evidence": [
+       "F-SOVCTRL-18",
+       "F-SOVCTRL-21"
+      ],
+      "strongestCounter": "Without Western aid he would have struggled to survive the boycott, so his independence depended on the West."
+     },
+     {
+      "claim": "The split was about power and obedience, not ideology: Tito was more radical than Stalin.",
+      "evidence": [
+       "F-SOVCTRL-19",
+       "F-SOVCTRL-31"
+      ],
+      "strongestCounter": "The Balkan Federation and Greece were concrete policy disputes, not only questions of loyalty."
+     },
+     {
+      "claim": "The split made Stalin tighten control elsewhere, through purges and show trials.",
+      "evidence": [
+       "F-SOVCTRL-23",
+       "F-SOVCTRL-28",
+       "F-SOVCTRL-32"
+      ],
+      "strongestCounter": "The trials also served other aims, such as the antisemitic campaign of 1952–53."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the causes and consequences of the split between Tito and Stalin in 1948.",
+     "To what extent was Soviet control of eastern Europe between 1945 and 1955 based on force?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The Tito–Stalin split was caused above all by Stalin's refusal to accept a Communist leader he did not control.",
+     "prove": "Tito's party had come to power without the Red Army, and his plans for a Balkan Federation and his support for the Greek insurgents ran ahead of Soviet policy.",
+     "explain": "This meant that Tito's success offered other Communists a model independent of Moscow, which, as Judt argues, Stalin had to break to show that Moscow would brook no dissent.",
+     "test": "However, the immediate disputes over Greece, Trieste and the Balkan Federation were real policy conflicts, not only a test of loyalty.",
+     "judge": "The split was therefore about authority more than ideology, since Tito was if anything more radical than Stalin."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When was Yugoslavia expelled from the Cominform?",
+      "factIds": [
+       "F-SOVCTRL-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "28 June 1948",
+        "correct": true,
+        "explanation": "Correct: at the second Cominform conference."
+       },
+       {
+        "id": "b",
+        "text": "September 1947",
+        "correct": false,
+        "explanation": "That is when the Cominform was founded."
+       },
+       {
+        "id": "c",
+        "text": "February 1948",
+        "correct": false,
+        "explanation": "That is when Stalin condemned the Balkan Federation."
+       },
+       {
+        "id": "d",
+        "text": "May 1955",
+        "correct": false,
+        "explanation": "That is when the Warsaw Pact was announced."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C12",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What percentage of Yugoslav trade was with the Soviet bloc in 1948? (number)",
+      "factIds": [
+       "F-SOVCTRL-21"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 46,
+        "tolerance": 0,
+        "explanation": "46 per cent, falling to 14 per cent a year later."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B1-SOVIET-CONTROL-C13",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Tito's party came to power by its own efforts, without Soviet intervention.” Which argument does it support best?",
+      "factIds": [
+       "F-SOVCTRL-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Tito could defy Stalin because his regime did not depend on the Red Army",
+        "correct": true,
+        "explanation": "Correct: his power had its own base."
+       },
+       {
+        "id": "b",
+        "text": "Yugoslavia was a democracy",
+        "correct": false,
+        "explanation": "Tito's elections offered no real choice."
+       },
+       {
+        "id": "c",
+        "text": "Stalin installed Tito",
+        "correct": false,
+        "explanation": "The fact shows the opposite."
+       },
+       {
+        "id": "d",
+        "text": "Yugoslavia joined the Warsaw Pact",
+        "correct": false,
+        "explanation": "It never did."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1945,
+      "month": 2,
+      "text": "Rákosi returns to Budapest",
+      "factId": "F-SOVCTRL-03"
+     },
+     {
+      "year": 1945,
+      "month": 11,
+      "text": "Smallholders win an absolute majority in Hungary",
+      "factId": "F-SOVCTRL-06"
+     },
+     {
+      "year": 1946,
+      "month": 4,
+      "text": "Socialist Unity Party formed in the Soviet zone of Germany",
+      "factId": "F-SOVCTRL-08"
+     },
+     {
+      "year": 1947,
+      "month": 1,
+      "text": "Rigged elections in Poland",
+      "factId": "F-SOVCTRL-10"
+     },
+     {
+      "year": 1947,
+      "month": 9,
+      "text": "Cominform founded at Szklarska Poręba",
+      "factId": "F-SOVCTRL-17"
+     },
+     {
+      "year": 1948,
+      "month": 2,
+      "text": "Communist coup in Prague",
+      "factId": "F-SOVCTRL-13"
+     },
+     {
+      "year": 1948,
+      "month": 6,
+      "day": 28,
+      "text": "Yugoslavia expelled from the Cominform",
+      "factId": "F-SOVCTRL-20"
+     },
+     {
+      "year": 1949,
+      "month": 1,
+      "text": "Comecon established",
+      "factId": "F-SOVCTRL-27"
+     },
+     {
+      "year": 1949,
+      "month": 10,
+      "day": 15,
+      "text": "Rajk hanged after a show trial",
+      "factId": "F-SOVCTRL-28"
+     },
+     {
+      "year": 1952,
+      "month": 11,
+      "text": "Slánský trial in Prague",
+      "factId": "F-SOVCTRL-28"
+     },
+     {
+      "year": 1953,
+      "month": 3,
+      "day": 30,
+      "text": "Yugoslav peasants allowed to leave the collectives",
+      "factId": "F-SOVCTRL-22"
+     },
+     {
+      "year": 1955,
+      "month": 5,
+      "text": "Warsaw Pact announced",
+      "factId": "F-SOVCTRL-29"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Stalin wants governments that can never threaten Soviet security",
+      "factId": "F-SOVCTRL-02"
+     },
+     {
+      "id": "n2",
+      "text": "Red Army occupation; tiny Communist parties join coalitions",
+      "factId": "F-SOVCTRL-03"
+     },
+     {
+      "id": "n3",
+      "text": "Communists take police, justice and land ministries",
+      "factId": "F-SOVCTRL-05"
+     },
+     {
+      "id": "n4",
+      "text": "Elections lost, so opponents are terrorised and Socialists absorbed",
+      "factId": "F-SOVCTRL-08"
+     },
+     {
+      "id": "n5",
+      "text": "Tito's defiance; Stalin tightens control through purges",
+      "factId": "F-SOVCTRL-20"
+     },
+     {
+      "id": "n6",
+      "text": "Comecon and the Warsaw Pact bind the bloc together",
+      "factId": "F-SOVCTRL-29"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Only Soviet-style governments could be relied on"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Coalitions were only a route to power"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Control of the police allowed coercion once votes failed"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Monopoly at home made dissent in the bloc the next threat"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Institutions turned control into a system"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Josef Stalin",
+     "role": "Soviet leader",
+     "whyItMatters": "Wanted reliable governments on the USSR's western border; broke with Tito to enforce obedience.",
+     "factIds": [
+      "F-SOVCTRL-01",
+      "F-SOVCTRL-02",
+      "F-SOVCTRL-19"
+     ]
+    },
+    {
+     "name": "Josip Broz Tito",
+     "role": "Leader of Communist Yugoslavia",
+     "whyItMatters": "Came to power without the Red Army and survived expulsion from the Cominform with Western aid.",
+     "factIds": [
+      "F-SOVCTRL-18",
+      "F-SOVCTRL-20",
+      "F-SOVCTRL-21"
+     ]
+    },
+    {
+     "name": "Walter Ulbricht",
+     "role": "Leader of the East German Communists",
+     "whyItMatters": "'It's got to look democratic, but we must have everything in our control.'",
+     "factIds": [
+      "F-SOVCTRL-04"
+     ]
+    },
+    {
+     "name": "Mátyás Rákosi",
+     "role": "Leader of the Hungarian Communist Party",
+     "whyItMatters": "Returned from Moscow in 1945 with perhaps 4,000 Communists in Hungary; took power through coercion.",
+     "factIds": [
+      "F-SOVCTRL-03",
+      "F-SOVCTRL-11"
+     ]
+    },
+    {
+     "name": "Stanisław Mikołajczyk",
+     "role": "Leader of the Polish Peasant Party",
+     "whyItMatters": "Led the largest party in Poland, was defeated in rigged elections and fled in 1947.",
+     "factIds": [
+      "F-SOVCTRL-10"
+     ]
+    },
+    {
+     "name": "Rudolf Slánský",
+     "role": "General Secretary of the Czechoslovak Communist Party",
+     "whyItMatters": "A loyal Stalinist tried and executed in 1952: no one was safe.",
+     "factIds": [
+      "F-SOVCTRL-28"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Route to power",
+     "Degree of Soviet control"
+    ],
+    "rows": [
+     {
+      "criterion": "Poland",
+      "cells": [
+       "Rigged elections (January 1947); Peasant Party crushed",
+       "High, but farmers and Church tolerated for stability"
+      ],
+      "factIds": [
+       "F-SOVCTRL-10",
+       "F-SOVCTRL-26"
+      ]
+     },
+     {
+      "criterion": "Hungary",
+      "cells": [
+       "Election defeats, then terror and falsified votes",
+       "High; Red Army present until the mid-1950s"
+      ],
+      "factIds": [
+       "F-SOVCTRL-11",
+       "F-SOVCTRL-16"
+      ]
+     },
+     {
+      "criterion": "Czechoslovakia",
+      "cells": [
+       "Strong vote in 1946, then the February 1948 coup",
+       "High after 1948; Slánský trial"
+      ],
+      "factIds": [
+       "F-SOVCTRL-13",
+       "F-SOVCTRL-28"
+      ]
+     },
+     {
+      "criterion": "Yugoslavia",
+      "cells": [
+       "Own partisan victory; no Red Army needed",
+       "None after June 1948"
+      ],
+      "factIds": [
+       "F-SOVCTRL-18",
+       "F-SOVCTRL-20"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-SOVCTRL-04",
+    "year": 1945,
+    "text": "Ulbricht, 1945: 'It's quite clear---it's got to look democratic, but we must have everything in our control.'",
+    "supports": [
+     "Coalitions were a means to power, not a commitment to pluralism"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B1-GERMAN-QUESTION"
+    ],
+    "lexicon": [
+     "Front governments",
+     "coalition"
+    ]
+   },
+   {
+    "factId": "F-SOVCTRL-05",
+    "year": 1946,
+    "text": "Communists took the Ministries of the Interior, Justice and Agriculture in every coalition.",
+    "supports": [
+     "Control of coercion mattered more than votes"
+    ],
+    "lexicon": [
+     "Ministry of the Interior",
+     "key ministries"
+    ]
+   },
+   {
+    "factId": "F-SOVCTRL-10",
+    "year": 1947,
+    "text": "Poland, January 1947: rigged elections gave the Communist-led bloc 80 per cent, the Peasant Party 10 per cent; Mikołajczyk fled.",
+    "supports": [
+     "Communists lost free contests, so they rigged them"
+    ],
+    "alsoWorksFor": [
+     "P2-12-GRAND-ALLIANCE"
+    ],
+    "lexicon": [
+     "rigged elections",
+     "Peasant Party"
+    ]
+   },
+   {
+    "factId": "F-SOVCTRL-13",
+    "year": 1948,
+    "text": "Czechoslovakia: 40.2 per cent of the Czech vote in free elections (1946), then the Prague coup of February 1948.",
+    "supports": [
+     "Even where Communists had support, they took power by coup"
+    ],
+    "alsoWorksFor": [
+     "P2-12-GRAND-ALLIANCE"
+    ],
+    "lexicon": [
+     "Prague coup",
+     "Gottwald"
+    ]
+   },
+   {
+    "factId": "F-SOVCTRL-20",
+    "year": 1948,
+    "text": "28 June 1948: Yugoslavia expelled from the Cominform.",
+    "supports": [
+     "Soviet control had limits where the Red Army was absent"
+    ],
+    "lexicon": [
+     "Tito-Stalin split",
+     "Cominform"
+    ]
+   },
+   {
+    "factId": "F-SOVCTRL-21",
+    "year": 1949,
+    "text": "Yugoslav trade with the bloc fell from 46 to 14 per cent in a year; Western aid 1949–55 came to $1.2 billion.",
+    "supports": [
+     "Tito survived because the West helped him"
+    ],
+    "lexicon": [
+     "economic boycott",
+     "Western aid"
+    ]
+   },
+   {
+    "factId": "F-SOVCTRL-27",
+    "year": 1949,
+    "text": "Comecon (January 1949): bilateral trade with the USSR and fixed roles; Judt compares it to colonisation.",
+    "supports": [
+     "Economic dependence reinforced political control"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B2-PROTEST-TO-1968"
+    ],
+    "lexicon": [
+     "Comecon",
+     "bilateral trade"
+    ]
+   },
+   {
+    "factId": "F-SOVCTRL-28",
+    "year": 1952,
+    "text": "Show trials: Rajk hanged October 1949; Slánský and thirteen others tried November 1952, eleven executed.",
+    "supports": [
+     "Terror inside the parties enforced obedience"
+    ],
+    "lexicon": [
+     "show trials",
+     "Titoism"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Stalin's long-term goal was never in doubt: coalitions were only a route to power for weak Communist parties, the point 'was power, not legality', and the only way to secure reliable neighbours was to align their political systems with the USSR's.",
+    "useItLikeThis": "Judt's view supports the claim that Soviet control was planned rather than improvised, which suggests that the coalitions of 1945–47 were a tactic and the takeovers of 1947–48 the intended outcome.",
+    "factId": "F-SOVCTRL-04"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Communists won power in eastern Europe through elections.",
+    "right": "Where elections were free they **lost**; they took power through key ministries, terror, forced mergers and rigged votes."
+   },
+   {
+    "wrong": "Stalin imposed full Communist rule immediately in 1945.",
+    "right": "He began with **coalitions**, which Judt calls only a means; monopoly came in 1947–49."
+   },
+   {
+    "wrong": "Tito broke with Stalin because he was less Communist.",
+    "right": "Tito was if anything **more radical**; the split was about obedience and regional power."
+   },
+   {
+    "wrong": "Soviet control was identical everywhere.",
+    "right": "Poland kept private farms and the Church, and **Yugoslavia** escaped Soviet control after 1948."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1945,
+     "month": 11,
+     "text": "Smallholders win in Hungary"
+    },
+    {
+     "year": 1947,
+     "month": 1,
+     "text": "Rigged Polish elections"
+    },
+    {
+     "year": 1947,
+     "month": 9,
+     "text": "Cominform"
+    },
+    {
+     "year": 1948,
+     "month": 2,
+     "text": "Prague coup"
+    },
+    {
+     "year": 1948,
+     "month": 6,
+     "day": 28,
+     "text": "Tito expelled"
+    },
+    {
+     "year": 1949,
+     "month": 1,
+     "text": "Comecon"
+    },
+    {
+     "year": 1952,
+     "month": 11,
+     "text": "Slánský trial"
+    },
+    {
+     "year": 1955,
+     "month": 5,
+     "text": "Warsaw Pact"
+    }
+   ],
+   "keyArguments": [
+    "Security and Communism were one aim: only Soviet-style governments could be relied on (Judt).",
+    "Coalitions were a tactic; control of police, justice and land mattered more than votes.",
+    "Free elections were lost, so terror, forced mergers and rigged votes followed in 1946–49.",
+    "Cominform, Comecon, show trials and the Warsaw Pact turned control into a system.",
+    "Tito showed the limit: without the Red Army, Stalin could not enforce obedience."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Cominform founded",
+     "year": 1947,
+     "month": 9,
+     "factId": "F-SOVCTRL-17"
+    },
+    {
+     "id": "b",
+     "text": "Prague coup",
+     "year": 1948,
+     "month": 2,
+     "factId": "F-SOVCTRL-13"
+    },
+    {
+     "id": "c",
+     "text": "Yugoslavia expelled from the Cominform",
+     "year": 1948,
+     "month": 6,
+     "factId": "F-SOVCTRL-20"
+    },
+    {
+     "id": "d",
+     "text": "Comecon established",
+     "year": 1949,
+     "month": 1,
+     "factId": "F-SOVCTRL-27"
+    },
+    {
+     "id": "e",
+     "text": "Warsaw Pact announced",
+     "year": 1955,
+     "month": 5,
+     "factId": "F-SOVCTRL-29"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps of the takeover in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Rákosi returns to Budapest",
+     "year": 1945,
+     "month": 2,
+     "factId": "F-SOVCTRL-03"
+    },
+    {
+     "id": "b",
+     "text": "Smallholders win Hungary's elections",
+     "year": 1945,
+     "month": 11,
+     "factId": "F-SOVCTRL-06"
+    },
+    {
+     "id": "c",
+     "text": "Rigged elections in Poland",
+     "year": 1947,
+     "month": 1,
+     "factId": "F-SOVCTRL-10"
+    },
+    {
+     "id": "d",
+     "text": "Rajk falsifies Hungary's elections",
+     "year": 1947,
+     "month": 8,
+     "factId": "F-SOVCTRL-11"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R03",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Walter Ulbricht",
+     "right": "'It's got to look democratic, but we must have everything in our control'",
+     "explanation": "East German Communist leader, 1945."
+    },
+    {
+     "left": "Nikola Petkov",
+     "right": "Bulgarian Agrarian leader executed in 1947",
+     "explanation": "Executed within 96 hours of US recognition."
+    },
+    {
+     "left": "László Rajk",
+     "right": "Hungarian Interior Minister later hanged as a 'Titoist'",
+     "explanation": "Executed on 15 October 1949."
+    },
+    {
+     "left": "Andrei Zhdanov",
+     "right": "Announced the theory of two irreconcilable 'camps'",
+     "explanation": "At the founding of the Cominform, 1947."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R04",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In the Polish elections of January 1947, what percentage was the Communist-led bloc credited with? (number)",
+   "factIds": [
+    "F-SOVCTRL-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 80,
+     "tolerance": 0,
+     "explanation": "80 per cent, against 10 per cent for the Peasant Party."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage did the Communists win in Hungary's falsified elections of August 1947? (number)",
+   "factIds": [
+    "F-SOVCTRL-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 22,
+     "tolerance": 0,
+     "explanation": "Only 22 per cent, even with Rajk falsifying the count."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of the vote did the Czech Communists win in the Czech lands in May 1946? (number, one decimal place)",
+   "factIds": [
+    "F-SOVCTRL-13"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 40.2,
+     "tolerance": 0,
+     "explanation": "40.2 per cent in free elections: real support, unlike most of the region."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of Bulgarian industry was in state hands by December 1948? (number)",
+   "factIds": [
+    "F-SOVCTRL-25"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 98,
+     "tolerance": 0,
+     "explanation": "98 per cent, the highest in the region."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R08",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these angered Stalin about Tito before 1948? Choose all that apply.",
+   "factIds": [
+    "F-SOVCTRL-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Plans for a Balkan Federation",
+     "correct": true,
+     "explanation": "Yes: it looked like a bid for regional power."
+    },
+    {
+     "id": "b",
+     "text": "Support for the Greek Communist insurgents",
+     "correct": true,
+     "explanation": "Yes: it risked a quarrel with the West."
+    },
+    {
+     "id": "c",
+     "text": "Claims on Trieste and Carinthia",
+     "correct": true,
+     "explanation": "Yes: they obstructed peace settlements."
+    },
+    {
+     "id": "d",
+     "text": "Tito's refusal to collectivise agriculture",
+     "correct": false,
+     "explanation": "No: Tito collectivised faster than anyone before 1948."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which were part of the Communists' route to power? Choose all that apply.",
+   "factIds": [
+    "F-SOVCTRL-05",
+    "F-SOVCTRL-07",
+    "F-SOVCTRL-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Taking the Ministry of the Interior",
+     "correct": true,
+     "explanation": "Yes: control of the police."
+    },
+    {
+     "id": "b",
+     "text": "Arresting opponents as 'Fascists'",
+     "correct": true,
+     "explanation": "Yes: in 1946–47."
+    },
+    {
+     "id": "c",
+     "text": "Forcing Socialists to merge with them",
+     "correct": true,
+     "explanation": "Yes: in 1946 and 1948."
+    },
+    {
+     "id": "d",
+     "text": "Winning free elections everywhere",
+     "correct": false,
+     "explanation": "No: where elections were free they lost."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R10",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In 1945 the Romanian Communist Party had fewer than 1,000 members in a population of nearly 20 million.” Which argument does it support?",
+   "factIds": [
+    "F-SOVCTRL-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Communist rule depended on Soviet power, not local support",
+     "correct": true,
+     "explanation": "Correct: the party could not have won alone."
+    },
+    {
+     "id": "b",
+     "text": "Communism was very popular in Romania",
+     "correct": false,
+     "explanation": "The figure shows the opposite."
+    },
+    {
+     "id": "c",
+     "text": "Romania resisted Soviet control successfully",
+     "correct": false,
+     "explanation": "It became one of the most controlled satellites."
+    },
+    {
+     "id": "d",
+     "text": "Romania was like Yugoslavia",
+     "correct": false,
+     "explanation": "Yugoslav Communists had a mass base; Romanian ones did not."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Stalin tolerated independent farmers and the Catholic Church in Poland.” Which argument does it support?",
+   "factIds": [
+    "F-SOVCTRL-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin put stability and security ahead of ideological uniformity",
+     "correct": true,
+     "explanation": "Correct: Poland's reliability mattered most."
+    },
+    {
+     "id": "b",
+     "text": "Poland was outside the Soviet bloc",
+     "correct": false,
+     "explanation": "It was firmly inside."
+    },
+    {
+     "id": "c",
+     "text": "Collectivisation succeeded in Poland",
+     "correct": false,
+     "explanation": "It was not imposed."
+    },
+    {
+     "id": "d",
+     "text": "Stalin was a Catholic",
+     "correct": false,
+     "explanation": "Irrelevant and untrue."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R12",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Yugoslavia was expelled from the Cominform in 1948 because Tito refused to introduce Communist policies.”",
+   "factIds": [
+    "F-SOVCTRL-20",
+    "F-SOVCTRL-31"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tito was more radical than Moscow; he was expelled for not acknowledging the USSR's leading role",
+     "correct": true,
+     "explanation": "Correct: the issue was obedience."
+    },
+    {
+     "id": "b",
+     "text": "The date should be 1955",
+     "correct": false,
+     "explanation": "The expulsion was on 28 June 1948."
+    },
+    {
+     "id": "c",
+     "text": "Yugoslavia was never in the Cominform",
+     "correct": false,
+     "explanation": "It was a founding member in 1947."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the reason for the expulsion."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Red Army stayed in Czechoslovakia from 1945 to 1948, which is how the Communists seized power in the Prague coup.”",
+   "factIds": [
+    "F-SOVCTRL-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Red Army withdrew in November 1945; the Communists took power without it",
+     "correct": true,
+     "explanation": "Correct: which is why the coup shocked the West."
+    },
+    {
+     "id": "b",
+     "text": "The coup happened in 1956",
+     "correct": false,
+     "explanation": "It happened in February 1948."
+    },
+    {
+     "id": "c",
+     "text": "The Communists were banned in Czechoslovakia",
+     "correct": false,
+     "explanation": "They won 40.2 per cent of the Czech vote in 1946."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the Red Army had left."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R14",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Soviet control of eastern Europe between 1945 and 1955. Is the Hungarian uprising of 1956 inside or outside the timeframe?",
+   "timeframe": [
+    1945,
+    1955
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: 1956 belongs to the next section; use it only as later consequence, briefly."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1956 is after the end date."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because the Warsaw Pact was involved",
+     "correct": false,
+     "explanation": "The Pact's involvement does not change the date."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R15",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which body, founded in January 1949, organised trade between the USSR and its satellites?",
+   "factIds": [
+    "F-SOVCTRL-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Comecon",
+     "correct": true,
+     "explanation": "Correct: the Council for Mutual Economic Assistance."
+    },
+    {
+     "id": "b",
+     "text": "The Cominform",
+     "correct": false,
+     "explanation": "That was founded in 1947 to control Communist parties."
+    },
+    {
+     "id": "c",
+     "text": "The Warsaw Pact",
+     "correct": false,
+     "explanation": "That was a military alliance, 1955."
+    },
+    {
+     "id": "d",
+     "text": "The Marshall Plan",
+     "correct": false,
+     "explanation": "That was American aid, which Moscow rejected."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the West conclude from the Prague coup, according to Judt?",
+   "factIds": [
+    "F-SOVCTRL-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That Communism was on the march westwards",
+     "correct": true,
+     "explanation": "Correct: it galvanised the Western allies."
+    },
+    {
+     "id": "b",
+     "text": "That Stalin wanted neutral states",
+     "correct": false,
+     "explanation": "The coup suggested the opposite."
+    },
+    {
+     "id": "c",
+     "text": "That Czechoslovakia would join NATO",
+     "correct": false,
+     "explanation": "It became a Soviet satellite."
+    },
+    {
+     "id": "d",
+     "text": "That the Cold War was over",
+     "correct": false,
+     "explanation": "It intensified."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who was General Secretary of the Czechoslovak Communist Party when he was arrested in November 1951?",
+   "factIds": [
+    "F-SOVCTRL-28"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rudolf Slánský",
+     "correct": true,
+     "explanation": "Correct: tried in November 1952 and executed."
+    },
+    {
+     "id": "b",
+     "text": "Klement Gottwald",
+     "correct": false,
+     "explanation": "Gottwald was President; he agreed to Slánský's arrest."
+    },
+    {
+     "id": "c",
+     "text": "László Rajk",
+     "correct": false,
+     "explanation": "Rajk was Hungarian, executed in 1949."
+    },
+    {
+     "id": "d",
+     "text": "Edvard Beneš",
+     "correct": false,
+     "explanation": "Beneš was the non-Communist President before 1948."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which states formed the Warsaw Pact with the USSR in May 1955?",
+   "factIds": [
+    "F-SOVCTRL-29"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Poland, Czechoslovakia, Hungary, Romania, Bulgaria and Albania, with the GDR incorporated",
+     "correct": true,
+     "explanation": "Correct: Yugoslavia stayed out."
+    },
+    {
+     "id": "b",
+     "text": "All the states of eastern Europe including Yugoslavia",
+     "correct": false,
+     "explanation": "Yugoslavia never joined."
+    },
+    {
+     "id": "c",
+     "text": "Only Poland and East Germany",
+     "correct": false,
+     "explanation": "Too few: six satellites joined, with the GDR incorporated."
+    },
+    {
+     "id": "d",
+     "text": "Austria and Finland",
+     "correct": false,
+     "explanation": "Austria became neutral in 1955."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Tito survive the Soviet economic boycott after 1948?",
+   "factIds": [
+    "F-SOVCTRL-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Western aid: $1.2 billion between 1949 and 1955",
+     "correct": true,
+     "explanation": "Correct: only $55 million was repaid."
+    },
+    {
+     "id": "b",
+     "text": "Soviet loans",
+     "correct": false,
+     "explanation": "Moscow was boycotting him."
+    },
+    {
+     "id": "c",
+     "text": "Joining NATO",
+     "correct": false,
+     "explanation": "Yugoslavia never joined NATO."
+    },
+    {
+     "id": "d",
+     "text": "Rejoining the Cominform",
+     "correct": false,
+     "explanation": "He was never readmitted."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Where did the Communists have something like a mass base in 1945?",
+   "factIds": [
+    "F-SOVCTRL-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Only in the Czech industrial regions and in Yugoslavia",
+     "correct": true,
+     "explanation": "Correct: elsewhere they were tiny."
+    },
+    {
+     "id": "b",
+     "text": "In Romania and Bulgaria",
+     "correct": false,
+     "explanation": "Both parties were very small."
+    },
+    {
+     "id": "c",
+     "text": "In Poland",
+     "correct": false,
+     "explanation": "The Peasant Party had ten times their activists."
+    },
+    {
+     "id": "d",
+     "text": "In Hungary",
+     "correct": false,
+     "explanation": "Perhaps 4,000 Communists in 1945."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was Soviet control of eastern Europe between 1945 and 1955 based on force?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "force",
+     "answer": "factor",
+     "explanation": "The named factor: weigh it first."
+    },
+    {
+     "id": "s3",
+     "text": "Soviet control of eastern Europe",
+     "answer": "scope",
+     "explanation": "What force must explain."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1955",
+     "answer": "timeframe",
+     "explanation": "1956 is outside."
+    },
+    {
+     "id": "s5",
+     "text": "based on",
+     "answer": "judgement",
+     "explanation": "How far control rested on force rather than consent, institutions or ideology."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the Communist takeovers in Poland and Czechoslovakia between 1945 and 1948.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, throughout."
+    },
+    {
+     "id": "s2",
+     "text": "the Communist takeovers",
+     "answer": "factor",
+     "explanation": "The process being compared."
+    },
+    {
+     "id": "s3",
+     "text": "in Poland and Czechoslovakia",
+     "answer": "scope",
+     "explanation": "Two states: every paragraph must cover both."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1948",
+     "answer": "timeframe",
+     "explanation": "Ends with the Prague coup."
+    },
+    {
+     "id": "s5",
+     "text": "Compare and contrast",
+     "answer": "judgement",
+     "explanation": "Which differences mattered most?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Soviet control of eastern Europe between 1945 and 1955 based on force?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet control rested largely on force, because Communists lost free elections and relied on the police, terror and the Red Army; but institutions such as Comecon and the parties' monopoly turned force into a lasting system.",
+     "correct": true,
+     "explanation": "Correct: degree, mechanism and a qualification."
+    },
+    {
+     "id": "b",
+     "text": "The Red Army occupied eastern Europe in 1945.",
+     "correct": false,
+     "explanation": "A fact, not a judgement."
+    },
+    {
+     "id": "c",
+     "text": "Soviet control had many causes.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Soviet control was based on force because of the 1956 invasion of Hungary.",
+     "correct": false,
+     "explanation": "Wrong timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the causes and consequences of the split between Tito and Stalin in 1948.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The split was caused mainly by Stalin's refusal to accept a Communist leader he did not control; its main consequence was a tightening of control in the rest of the bloc through purges and show trials.",
+     "correct": true,
+     "explanation": "Correct: ranks a cause and a consequence."
+    },
+    {
+     "id": "b",
+     "text": "Tito was expelled from the Cominform on 28 June 1948.",
+     "correct": false,
+     "explanation": "A fact, not a thesis: no causes or consequences are weighed."
+    },
+    {
+     "id": "c",
+     "text": "Tito and Stalin disagreed.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "The split happened because Tito was not a real Communist.",
+     "correct": false,
+     "explanation": "Inaccurate: Tito was more radical."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In February 1948 non-Communist ministers in Czechoslovakia resigned.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the Communists controlled the police, the resignations let them seize power rather than fall from it.",
+     "answer": "analysis",
+     "explanation": "Explains a cause."
+    },
+    {
+     "id": "s3",
+     "text": "In January 1949 Comecon was established.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that each satellite traded with the USSR on Moscow's terms, so economic dependence reinforced political control.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Communists won only 22 per cent in Hungary even with a falsified count",
+     "right": "Communists could not win by votes",
+     "explanation": "Coercion replaced consent."
+    },
+    {
+     "left": "Communists took the Interior and Justice ministries",
+     "right": "Control of coercion mattered more than offices",
+     "explanation": "Police and courts."
+    },
+    {
+     "left": "Tito survived with $1.2 billion of Western aid",
+     "right": "Soviet control had limits",
+     "explanation": "Yugoslavia escaped."
+    },
+    {
+     "left": "Eleven of fourteen executed in the Slánský trial",
+     "right": "Terror inside the parties enforced obedience",
+     "explanation": "No Communist was safe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Soviets controlled eastern Europe in lots of ways.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet control rested on the Communists' capture of the police and courts, which let them rig votes they could not win, as in Poland in January 1947.",
+     "correct": true,
+     "explanation": "Correct: a mechanism and precise evidence."
+    },
+    {
+     "id": "b",
+     "text": "The Soviets controlled eastern Europe very strongly.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "In 1947 the Cominform was founded.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The Soviets were evil.",
+     "correct": false,
+     "explanation": "A value judgement without evidence or mechanism."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Communist rule in eastern Europe was imposed entirely by force.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "In Czechoslovakia the Communists won 40.2 per cent of the Czech vote in free elections in 1946, and land reform and Soviet protection against Germany gave them real support in places.",
+     "correct": true,
+     "explanation": "Correct: specific evidence of some consent."
+    },
+    {
+     "id": "b",
+     "text": "Some people liked Communism.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "c",
+     "text": "Stalin said he wanted democracy.",
+     "correct": false,
+     "explanation": "Not evidence of consent."
+    },
+    {
+     "id": "d",
+     "text": "The Warsaw Pact was a voluntary alliance.",
+     "correct": false,
+     "explanation": "Unsupported and weak."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that Stalin's main aim in eastern Europe after 1945 was security, not the spread of Communism.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what Stalin tolerated, security came first: he allowed private farms and the Church in Poland for stability but never allowed an unreliable government, so Communism was the means and security the end.",
+     "correct": true,
+     "explanation": "Correct: a criterion, a judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Stalin set up Communist governments across eastern Europe.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, both security and Communism mattered.",
+     "correct": false,
+     "explanation": "No criterion or ranking."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Stalin was a dictator.",
+     "correct": false,
+     "explanation": "Not a judgement about his aims."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the causes and consequences of the split between Tito and Stalin in 1948.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Tito's plan for a Balkan Federation",
+     "answer": "causes",
+     "explanation": "Looked like a bid for regional power."
+    },
+    {
+     "id": "s2",
+     "text": "Yugoslav support for the Greek insurgents",
+     "answer": "causes",
+     "explanation": "Provoked the West."
+    },
+    {
+     "id": "s3",
+     "text": "Show trials of 'Titoists' such as Rajk",
+     "answer": "effects",
+     "explanation": "Stalin tightened control elsewhere."
+    },
+    {
+     "id": "s4",
+     "text": "Yugoslav trade with the bloc fell from 46 to 14 per cent",
+     "answer": "effects",
+     "explanation": "The boycott."
+    },
+    {
+     "id": "s5",
+     "text": "Western aid to Yugoslavia",
+     "answer": "effects",
+     "explanation": "Tito turned to the West."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-18-B1-SOVIET-CONTROL-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was Soviet control of eastern Europe between 1945 and 1955 based on force?",
+   "commandTerm": "to what extent",
+   "namedFactor": "force",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1945,
+    1955
+   ],
+   "scope": "Eastern Europe; Soviet control",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Force, weighed first",
+    "timeframe": "1945–1955",
+    "scope": "Soviet control of eastern Europe",
+    "judgement": "How far control rested on force rather than consent, institutions or ideology"
+   },
+   "modelPlan": {
+    "thesis": "Soviet control rested largely on force, because Communists lost free elections and relied on the police, terror and the Red Army; but party monopoly and institutions such as Comecon turned force into a lasting system.",
+    "arguments": [
+     {
+      "claim": "Force: the Red Army, the police and terror against opponents (named factor first).",
+      "evidence": [
+       "F-SOVCTRL-16",
+       "F-SOVCTRL-07",
+       "F-SOVCTRL-09"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Elections were lost or rigged, so consent was limited.",
+      "evidence": [
+       "F-SOVCTRL-06",
+       "F-SOVCTRL-10",
+       "F-SOVCTRL-11"
+      ]
+     },
+     {
+      "claim": "Institutions: party monopoly, Cominform, Comecon, Warsaw Pact.",
+      "evidence": [
+       "F-SOVCTRL-24",
+       "F-SOVCTRL-17",
+       "F-SOVCTRL-27",
+       "F-SOVCTRL-29"
+      ]
+     },
+     {
+      "claim": "The limit of force: Tito's Yugoslavia.",
+      "evidence": [
+       "F-SOVCTRL-18",
+       "F-SOVCTRL-20"
+      ]
+     }
+    ],
+    "counter": "In Czechoslovakia the Communists won 40.2 per cent of the Czech vote in free elections, and Soviet protection against Germany had real appeal.",
+    "judgementCriterion": "Without force, would Communists have ruled? Almost nowhere, so force was the foundation, even if institutions made it lasting."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Soviet control of eastern Europe was based largely on force, because the Communists could not win power by consent.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In Hungary's August 1947 elections, even with Rajk falsifying the count, the Communists won only 22 per cent, and Poland's 80 per cent in January 1947 was produced by rigging.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that power came from the police and the courts the Communists controlled, backed by the Red Army, so votes did not decide who ruled.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in Czechoslovakia the Communists won 40.2 per cent of the Czech vote in free elections in 1946, which shows real support in at least one state.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Force was therefore the foundation of Soviet control, with genuine consent the exception rather than the rule.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "force"
+    ],
+    "synonyms": [
+     "coercion",
+     "terror",
+     "Red Army"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Ministry of the Interior",
+     "rigged elections",
+     "Comecon"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B1-SOVIET-CONTROL-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Stalin's main aim in eastern Europe after 1945 was security, not the spread of Communism.” Discuss with reference to the period 1945 to 1953.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition",
+    "leader"
+   ],
+   "timeframe": [
+    1945,
+    1953
+   ],
+   "scope": "Eastern Europe; Stalin's aims",
+   "decodeKey": {
+    "verb": "Discuss: test the claim for and against, then judge",
+    "factorOrTask": "The claim that security, not Communism, was the aim",
+    "timeframe": "1945–1953",
+    "scope": "Stalin's aims in eastern Europe",
+    "judgement": "Which aim mattered more, or whether they were the same"
+   },
+   "modelPlan": {
+    "thesis": "The claim is largely right that security was Stalin's end, but wrong to separate it from Communism: Stalin believed only Soviet-style governments could guarantee security, so Communism was his method.",
+    "arguments": [
+     {
+      "claim": "For: the aim of governments that could never threaten the USSR.",
+      "evidence": [
+       "F-SOVCTRL-02",
+       "F-SOVCTRL-01"
+      ]
+     },
+     {
+      "claim": "For: tolerance of private farms and the Church in Poland for stability.",
+      "evidence": [
+       "F-SOVCTRL-26"
+      ]
+     },
+     {
+      "claim": "Against: the systematic imposition of the Soviet model, party monopoly and Comecon.",
+      "evidence": [
+       "F-SOVCTRL-24",
+       "F-SOVCTRL-25",
+       "F-SOVCTRL-27"
+      ]
+     },
+     {
+      "claim": "Against: the break with Tito, a Communist more radical than Stalin.",
+      "evidence": [
+       "F-SOVCTRL-19",
+       "F-SOVCTRL-20"
+      ]
+     }
+    ],
+    "counter": "The break with the most Communist of the satellites shows that obedience, not ideology, was what Stalin demanded.",
+    "judgementCriterion": "What did Stalin refuse to tolerate? Unreliable governments, never non-Communist farming, so security was the end."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Stalin's main aim was security, but he believed only Communist governments could provide it.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Judt argues that the only acceptable outcome was governments that could never threaten Soviet security, and that Stalin intended from the start to align their systems with the USSR's.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that spreading Communism was the method of securing the border, so the two aims were in practice one.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Stalin tolerated independent farmers and the Church in Poland for stability, which shows he would sacrifice ideological uniformity for security.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid about Stalin's end, but misleading if it suggests Communism did not matter to him.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "security"
+    ],
+    "synonyms": [
+     "buffer",
+     "Soviet security"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "satellite",
+     "Tito",
+     "Comecon"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B1-SOVIET-CONTROL-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the causes and consequences of the split between Tito and Stalin in 1948.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1948,
+    1948
+   ],
+   "scope": "Yugoslavia and the Soviet bloc",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1948 (consequences may run on briefly)",
+    "scope": "The Tito–Stalin split",
+    "judgement": "Which cause mattered most, and which consequence was most serious"
+   },
+   "modelPlan": {
+    "thesis": "The split was caused mainly by Stalin's refusal to accept a Communist leader he did not control; its main consequence was a tightening of control across the rest of the bloc.",
+    "arguments": [
+     {
+      "claim": "Cause: Tito's independent power base.",
+      "evidence": [
+       "F-SOVCTRL-18"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: Balkan Federation, Greece and Trieste.",
+      "evidence": [
+       "F-SOVCTRL-19"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: Yugoslavia survived with Western aid and went its own way.",
+      "evidence": [
+       "F-SOVCTRL-21",
+       "F-SOVCTRL-22"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: purges and show trials of 'Titoists'.",
+      "evidence": [
+       "F-SOVCTRL-23",
+       "F-SOVCTRL-28",
+       "F-SOVCTRL-32"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "The specific disputes over Greece and Trieste could have caused a split even with a loyal leader.",
+    "judgementCriterion": "Which consequence lasted longest? The proof that a Communist state could survive outside Soviet control."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The split was caused above all by Stalin's refusal to accept a Communist leader he did not control.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Tito's party had come to power by its own efforts, and on 28 June 1948 the Cominform expelled Yugoslavia for failing to acknowledge the leading role of the USSR.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the charge was disobedience, not insufficient Communism, so the split was about authority.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Tito's support for the Greek insurgents and his claims on Trieste were real policy conflicts that endangered Stalin's relations with the West.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The deepest cause was therefore Tito's independence, with the policy disputes as triggers.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Tito"
+    ],
+    "synonyms": [
+     "Yugoslavia",
+     "split"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Cominform",
+     "Balkan Federation",
+     "Titoism"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B1-SOVIET-CONTROL-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the Communist takeovers in Poland and Czechoslovakia between 1945 and 1948.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1945,
+    1948
+   ],
+   "scope": "Poland and Czechoslovakia",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The Communist takeovers",
+    "timeframe": "1945–1948",
+    "scope": "Poland and Czechoslovakia",
+    "judgement": "Which differences mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both takeovers ended in Communist monopoly and both relied on control of the police, but they differed fundamentally: Poland's Communists had little support and needed rigged elections, while Czechoslovakia's had real support and took power by coup.",
+    "arguments": [
+     {
+      "claim": "Similarity: Communists controlled the police and key ministries.",
+      "evidence": [
+       "F-SOVCTRL-05"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: Socialists forcibly absorbed in 1948.",
+      "evidence": [
+       "F-SOVCTRL-08"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: weak support and rigged elections in Poland.",
+      "evidence": [
+       "F-SOVCTRL-10"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: real support, no Red Army, then the February coup in Czechoslovakia.",
+      "evidence": [
+       "F-SOVCTRL-13",
+       "F-SOVCTRL-14"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "The outcome was the same, so the differences in route may matter less than the common dependence on Moscow.",
+    "judgementCriterion": "Which difference mattered most? Popular support, because it explains why Czechoslovakia needed a coup rather than rigged elections."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The takeovers in Poland and Czechoslovakia ended alike but began from opposite positions.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In Poland the Peasant Party had ten times the Communists' activists and the Communist bloc's 80 per cent in January 1947 was rigged, whereas in Czechoslovakia the Communists won 40.2 per cent of the Czech vote freely in 1946.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Polish Communists needed fraud to rule from the start, while Czech Communists, who had expected to win at the ballot box, used a government crisis to seize power in February 1948.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in both states control of the police was decisive, and in both the Socialists were absorbed in 1948.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The key difference was therefore the degree of popular support, while the decisive similarity was control of coercion.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Poland",
+     "Czechoslovakia"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Mikołajczyk",
+     "Prague coup",
+     "Gottwald"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B1-SOVIET-CONTROL-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the role of Comecon and the Cominform in Soviet control of eastern Europe between 1947 and 1955.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1947,
+    1955
+   ],
+   "scope": "Eastern Europe; bloc institutions",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Comecon and the Cominform",
+    "timeframe": "1947–1955",
+    "scope": "Soviet control of eastern Europe",
+    "judgement": "How much each institution added to control, compared with force and the parties"
+   },
+   "modelPlan": {
+    "thesis": "Comecon mattered more than the Cominform: it bound the satellites' economies to Moscow for decades, while the Cominform was mainly a tool for enforcing political discipline in 1947–48 and met only three times.",
+    "arguments": [
+     {
+      "claim": "The Cominform imposed the 'two camps' line and expelled Tito.",
+      "evidence": [
+       "F-SOVCTRL-17",
+       "F-SOVCTRL-20"
+      ]
+     },
+     {
+      "claim": "Comecon made each economy dependent on bilateral trade with the USSR.",
+      "evidence": [
+       "F-SOVCTRL-27"
+      ]
+     },
+     {
+      "claim": "Copying the Soviet model inside each state: nationalisation and collectivisation.",
+      "evidence": [
+       "F-SOVCTRL-25",
+       "F-SOVCTRL-26"
+      ]
+     },
+     {
+      "claim": "The Warsaw Pact completed the system militarily.",
+      "evidence": [
+       "F-SOVCTRL-29"
+      ]
+     }
+    ],
+    "counter": "The decisive instruments were the party monopoly and the Red Army; institutions only formalised control already won.",
+    "judgementCriterion": "Which institution made control last? Comecon, because dependence outlived the Cominform, which was disbanded in 1956."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Comecon did more than the Cominform to entrench Soviet control.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "From January 1949 each satellite traded bilaterally with the USSR and was assigned a fixed role, while the Cominform met only three times before being disbanded in 1956.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that economic dependence was built into the structure of every satellite, so control did not depend on meetings or slogans.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Cominform was the instrument that expelled Tito in 1948, which shows its political importance at a decisive moment.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Comecon was therefore the more lasting tool of control, the Cominform the sharper one.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Comecon",
+     "Cominform"
+    ],
+    "synonyms": [
+     "Council for Mutual Economic Assistance"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "two camps",
+     "bilateral trade",
+     "Warsaw Pact"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B1-SOVIET-CONTROL-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the methods used by Communist parties to gain power in eastern Europe between 1945 and 1948.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1945,
+    1948
+   ],
+   "scope": "Eastern Europe; Communist methods",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "The methods used",
+    "timeframe": "1945–1948",
+    "scope": "Communist parties in eastern Europe",
+    "judgement": "Which methods were decisive and how they worked together"
+   },
+   "modelPlan": {
+    "thesis": "The Communists gained power mainly by capturing the instruments of coercion inside coalition governments, then using them to destroy opponents, absorb the Socialists and rig elections.",
+    "arguments": [
+     {
+      "claim": "Front coalitions as a route to power.",
+      "evidence": [
+       "F-SOVCTRL-04"
+      ]
+     },
+     {
+      "claim": "Capturing the Interior, Justice and Agriculture ministries.",
+      "evidence": [
+       "F-SOVCTRL-05"
+      ]
+     },
+     {
+      "claim": "Terror, show trials and rigged elections.",
+      "evidence": [
+       "F-SOVCTRL-07",
+       "F-SOVCTRL-09",
+       "F-SOVCTRL-10",
+       "F-SOVCTRL-11"
+      ]
+     },
+     {
+      "claim": "Forced mergers with the Socialists, and a coup where needed.",
+      "evidence": [
+       "F-SOVCTRL-08",
+       "F-SOVCTRL-13"
+      ]
+     }
+    ],
+    "counter": "Land reform and fear of Germany gave the Communists some real support, so methods were not only coercive.",
+    "judgementCriterion": "Without which method would the others have failed? Control of the police, which made terror and rigging possible."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The decisive method was the capture of the Ministry of the Interior inside coalition governments.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In every coalition the Communists sought the Interior, which controlled the police and press licences, and the Justice ministry, which ran purges and courts.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant they could arrest opponents as 'Fascists' and falsify elections, as Rajk did in Hungary in 1947, so electoral defeat no longer mattered.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in Czechoslovakia the Communists also had real popular support, winning 40.2 per cent of the Czech vote in 1946.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Control of the police was therefore the method that made all the others possible.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "methods"
+    ],
+    "synonyms": [
+     "coalition",
+     "terror",
+     "rigged"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Ministry of the Interior",
+     "Socialist Unity Party",
+     "show trial"
+    ]
+   }
+  }
+ ]
+}

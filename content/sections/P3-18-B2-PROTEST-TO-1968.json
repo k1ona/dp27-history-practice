@@ -1,0 +1,2831 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-18-B2-PROTEST-TO-1968",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 19,
+  "openingProblem": {
+   "problem": "In 1956 both Poland and Hungary turned to reform Communists who had been imprisoned under Stalin. Poland got a new leader; Hungary got Soviet tanks. What decided the difference?",
+   "predictionPrompt": "Your prediction in one line: why was Hungary invaded and Poland not?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "1953: the first protests after Stalin",
+    "body": "Most people in Soviet eastern Europe, Tony Judt writes, accepted their fate without protest in the early 1950s. The exceptions came in the most industrial corners of the bloc, and only after Stalin's death in March 1953.\n\nIn Czechoslovakia a \"currency reform\" of 31 May 1953 cut industrial wages by 12 per cent once prices rose. Twenty thousand workers at the Škoda plant in **Plzeň** demonstrated, and on 1 June thousands marched on the city hall carrying portraits of the pre-Communist presidents Beneš and Masaryk. The protest was contained in one city and fizzled out.\n\nA few days later a far larger protest broke out in **East Germany**. The regime imposed large unpaid increases in the work \"norms\", the output each worker had to produce, and ignored Moscow's advice to compromise in order to stop skilled workers fleeing to the West. On 16 June 1953 some 400,000 workers went on strike across the country, with the largest demonstrations in Berlin. The East German police could not cope alone. Red Army tanks were called in; nearly 300 people were killed, 1,400 received long prison sentences and 200 \"ringleaders\" were shot. Bertolt Brecht asked in a poem whether it would be simpler for the government \"to dissolve the people and elect another one\".\n\nThese were workers' protests about pay and conditions, not national revolutions, and Judt argues they \"hardly represented a threat to Soviet power\". But Moscow took them seriously. Stalin's heirs now faced a problem: how to end the worst of Stalin's terror without endangering the system it had built. In Hungary, at Moscow's own initiative, the Stalinist leadership of Mátyás Rákosi was replaced in July 1953 by the reformer Imre Nagy. Nagy closed the internment camps and let peasants leave the collective farms. Under Rákosi some 480 public figures had been executed and over 150,000 people imprisoned in a country of fewer than 9 million.\n\nThis mattered because the first response to unrest was reform from above, which meant that the satellites learned that Moscow's line could change. When Rákosi persuaded Moscow in 1955 that Nagy could not be trusted, Nagy was removed. The pattern of the next three years was set: reform when Moscow allowed it, retreat when Moscow withdrew it.",
+    "argumentsThatWork": [
+     {
+      "claim": "The 1953 protests were economic, set off by wage cuts and higher work norms.",
+      "evidence": [
+       "F-PROTEST-01",
+       "F-PROTEST-02"
+      ],
+      "strongestCounter": "Marchers in Plzeň carried portraits of Beneš and Masaryk, so there was a political edge."
+     },
+     {
+      "claim": "Force ended them, but the Red Army had to be called in.",
+      "evidence": [
+       "F-PROTEST-03"
+      ],
+      "strongestCounter": "Nearly 300 deaths show the protest was serious, though Judt argues it never threatened Soviet power."
+     },
+     {
+      "claim": "After Stalin's death Moscow tried reform from above, as with Nagy in Hungary.",
+      "evidence": [
+       "F-PROTEST-05",
+       "F-PROTEST-06",
+       "F-PROTEST-07"
+      ],
+      "strongestCounter": "Nagy's removal in 1955 showed how limited and reversible that reform was."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the causes and consequences of the East German uprising of 1953.",
+     "Analyse the methods used by the Soviet Union to maintain control of eastern Europe between 1953 and 1961."
+    ],
+    "useItInAnEssay": {
+     "claim": "The East German uprising of June 1953 was caused above all by economic grievances that the regime itself had made worse.",
+     "prove": "The government imposed large unpaid increases in work norms and ignored Moscow's advice to compromise, and on 16 June some 400,000 workers struck.",
+     "explain": "This meant that a regime more rigid than its Soviet masters turned a dispute over pay into a challenge to its authority.",
+     "test": "However, the rising was suppressed only when Red Army tanks were called in, with nearly 300 killed, which shows how little the regime could rely on its own forces.",
+     "judge": "The uprising was therefore economic in cause but political in consequence: it proved the GDR depended on Soviet force."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many East German workers went on strike on 16 June 1953? (number)",
+      "factIds": [
+       "F-PROTEST-02"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 400000,
+        "tolerance": 10000,
+        "explanation": "Some 400,000, with the biggest demonstrations in Berlin."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What sparked the East German protests of June 1953?",
+      "factIds": [
+       "F-PROTEST-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Large unpaid increases in work norms",
+        "correct": true,
+        "explanation": "Correct: the regime ignored Moscow's advice to compromise."
+       },
+       {
+        "id": "b",
+        "text": "Khrushchev's secret speech",
+        "correct": false,
+        "explanation": "That came in February 1956."
+       },
+       {
+        "id": "c",
+        "text": "The building of the Berlin Wall",
+        "correct": false,
+        "explanation": "That came in August 1961."
+       },
+       {
+        "id": "d",
+        "text": "A Soviet invasion",
+        "correct": false,
+        "explanation": "Soviet tanks came in to put the rising down, not to start it."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In July 1953, at Moscow's initiative, the Stalinist leadership in Hungary was replaced by the reformer Imre Nagy.” Which argument does it support best?",
+      "factIds": [
+       "F-PROTEST-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "After Stalin's death Moscow tried to reduce discontent by reform from above",
+        "correct": true,
+        "explanation": "Correct: reform came on Moscow's terms."
+       },
+       {
+        "id": "b",
+        "text": "Hungary had become independent",
+        "correct": false,
+        "explanation": "Moscow made the change."
+       },
+       {
+        "id": "c",
+        "text": "Nagy led a revolution in 1953",
+        "correct": false,
+        "explanation": "He was appointed, not swept to power."
+       },
+       {
+        "id": "d",
+        "text": "Rákosi had been executed",
+        "correct": false,
+        "explanation": "Rákosi returned to power in 1955."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "1956: the secret speech and the Polish October",
+    "body": "Nikita Khrushchev's strategy after 1953 had four parts, Judt explains: calm relations with the West, rebuild bridges to Yugoslavia (he visited Belgrade in May 1955), encourage reformers in the satellites and end the show trials, and finally break with Stalin himself. The last step came at the Twentieth Party Congress. On 25 February 1956, in his **\"secret speech\"**, Khrushchev denounced Stalin's crimes and personality cult. His aim was to protect the system by blaming one man.\n\nThe speech could not be kept secret. It leaked within weeks. Together with the dissolution of the Cominform on 18 April and the reconciliation with Tito, it seemed to tell eastern Europe that Moscow would now accept different \"roads to socialism\" and had given up terror. This mattered because it encouraged people to believe that change was permitted, which meant that every satellite regime now faced pressure from below that Moscow had itself unleashed.\n\n**Poland** felt it first. In June 1956 the Polish army put down demonstrations in **Poznań** sparked, like East Berlin's, by disputes over wages and work-rates. Discontent spread through the autumn. In October the Polish party removed the Soviet Marshal Konstanty Rokossovsky as defence minister and chose as First Secretary **Władysław Gomułka**, a Communist who had been imprisoned under Stalin. To Poles he was the national face of Communism; to Moscow his election looked like defiance.\n\nOn 19 October Khrushchev, Mikoyan, Molotov and other leaders flew to Warsaw uninvited, while Soviet tanks moved towards the capital. In tense talks, some of them on the airport tarmac, Gomułka assured them that he would keep control, would not leave the Warsaw Pact and would not ask Soviet troops to leave. Khrushchev decided he could live with him. He told his colleagues that the Soviet ambassador had been \"grossly mistaken\" about Gomułka, who was a sound party man.\n\nJudt concludes that the \"Polish October\" had a \"fortuitously benign outcome\": few knew how close Poland had come to a second Soviet occupation. Gomułka understood the limits. De-Stalinisation did not mean that Moscow would give up its influence or the party its monopoly. Personnel could change and public life could relax; the party's leading role and the alliance could not.",
+    "argumentsThatWork": [
+     {
+      "claim": "The secret speech, meant to protect the system, encouraged demands for change across the bloc.",
+      "evidence": [
+       "F-PROTEST-09"
+      ],
+      "strongestCounter": "It was meant for the party elite, and in Czechoslovakia it produced no political action."
+     },
+     {
+      "claim": "Gomułka saved Poland from invasion by keeping the party in control and Poland in the Warsaw Pact.",
+      "evidence": [
+       "F-PROTEST-11",
+       "F-PROTEST-12"
+      ],
+      "strongestCounter": "Khrushchev also feared that force in Poland would provoke violent confrontation."
+     },
+     {
+      "claim": "Economic grievances lit the fuse in Poland as in East Germany.",
+      "evidence": [
+       "F-PROTEST-10"
+      ],
+      "strongestCounter": "The election of Gomułka was a national, political act, not an economic one."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that de-Stalinisation caused the crises of 1956 in Poland and Hungary.",
+     "Compare and contrast the crises in Poland and Hungary in 1956."
+    ],
+    "useItInAnEssay": {
+     "claim": "Gomułka avoided a Soviet invasion because he offered Moscow what it cared about most: party control and the alliance.",
+     "prove": "On 19 October 1956, with Soviet tanks moving towards Warsaw, he assured Khrushchev that he would keep control, stay in the Warsaw Pact and not ask Soviet troops to leave.",
+     "explain": "This meant that Moscow could accept new leaders and some liberalisation, because the two foundations of its control were untouched.",
+     "test": "However, Khrushchev also feared that forcing matters would almost certainly provoke violent confrontation in Poland.",
+     "judge": "Gomułka's guarantees were therefore the decisive reason the Polish October ended peacefully."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did Khrushchev deliver the 'secret speech'?",
+      "factIds": [
+       "F-PROTEST-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "25 February 1956",
+        "correct": true,
+        "explanation": "Correct: at the Twentieth Party Congress."
+       },
+       {
+        "id": "b",
+        "text": "16 June 1953",
+        "correct": false,
+        "explanation": "That is the East German strike."
+       },
+       {
+        "id": "c",
+        "text": "19 October 1956",
+        "correct": false,
+        "explanation": "That is when Khrushchev flew to Warsaw."
+       },
+       {
+        "id": "d",
+        "text": "4 November 1956",
+        "correct": false,
+        "explanation": "That is when Soviet tanks attacked Budapest."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Gomułka promise Khrushchev in October 1956?",
+      "factIds": [
+       "F-PROTEST-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To keep control, stay in the Warsaw Pact and not ask Soviet troops to leave",
+        "correct": true,
+        "explanation": "Correct: this is why Khrushchev accepted him."
+       },
+       {
+        "id": "b",
+        "text": "To hold free multi-party elections",
+        "correct": false,
+        "explanation": "The opposite: he kept the party's monopoly."
+       },
+       {
+        "id": "c",
+        "text": "To leave the Warsaw Pact",
+        "correct": false,
+        "explanation": "That was Nagy's step in Hungary."
+       },
+       {
+        "id": "d",
+        "text": "To restore Rokossovsky as defence minister",
+        "correct": false,
+        "explanation": "Rokossovsky was removed."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The secret speech was not published in the USSR until 1988 but leaked within weeks.” Which argument does it support best?",
+      "factIds": [
+       "F-PROTEST-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Khrushchev could not control the effects of de-Stalinisation",
+        "correct": true,
+        "explanation": "Correct: a speech for the elite became public knowledge."
+       },
+       {
+        "id": "b",
+        "text": "De-Stalinisation had no effect outside the USSR",
+        "correct": false,
+        "explanation": "It shook the whole bloc."
+       },
+       {
+        "id": "c",
+        "text": "Khrushchev wanted multi-party democracy",
+        "correct": false,
+        "explanation": "He wanted to protect the system."
+       },
+       {
+        "id": "d",
+        "text": "The speech was a Western forgery",
+        "correct": false,
+        "explanation": "It was genuine."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Hungary 1956: revolution and invasion",
+    "body": "In Hungary the story ended differently. Moscow removed Rákosi on 17 July 1956 but replaced him with another Stalinist, Ernő Gerő, who could neither lead change nor suppress it. On 6 October the regime allowed the public reburial of László Rajk and other show-trial victims; Judt calls it the spark of the revolution. On 16 October students in Szeged formed an independent league; on 22 October Budapest students issued Sixteen Points, demanding free speech, reforms, Nagy as prime minister and the withdrawal of Soviet troops.\n\nOn **23 October** students gathered in Budapest. That evening, after Gerő denounced them on the radio, crowds tore down the statue of Stalin and Soviet troops entered the city. The next morning Imre Nagy was named Prime Minister. He declared martial law, but he could not stop a revolution that was creating its own workers' councils and national committees across the country. On 28 October he proposed a truce, recognised the protests as revolutionary, promised to abolish the secret police and announced that Soviet troops would leave Budapest. On 30 October he announced a government based on the parties of 1945: the end of one-party rule.\n\nMoscow hesitated. On 31 October the Soviet leadership even declared itself ready to negotiate troop withdrawals. But reports of student protests in Romania and unrest among Bulgarian intellectuals raised fears that revolt would spread. On 1 November Khrushchev told his colleagues that withdrawal would look like weakness. Soviet divisions moved towards Hungary; Nagy protested by declaring Hungary **neutral** and withdrawing from the Warsaw Pact. That same evening János Kádár was taken to Moscow to head a new government. At 4 a.m. on **4 November** Soviet tanks attacked Budapest.\n\nResistance was intense, but the city fell within three days. About 2,700 Hungarians died in the fighting. Afterwards 341 were executed, some 22,000 imprisoned and 13,000 interned; about 200,000 people, over 2 per cent of the population, fled abroad. Nagy took refuge in the Yugoslav embassy, was abducted when he left, and was executed after a secret trial on 16 June 1958.\n\nThe West did nothing. A July 1956 US policy paper had already said the United States was \"not prepared to resort to war\" to end Soviet domination, although Radio Free Europe encouraged the rebels to fight. Britain and France were absorbed in the Suez crisis, and Eisenhower in his re-election. This mattered because the Hungarians learned that no one would help them, which meant that after 1956, in Judt's words, the dominant mood in the bloc was \"cynical resignation\".",
+    "argumentsThatWork": [
+     {
+      "claim": "The invasion came when Nagy abandoned the party's monopoly and left the Warsaw Pact.",
+      "evidence": [
+       "F-PROTEST-15",
+       "F-PROTEST-16",
+       "F-PROTEST-21"
+      ],
+      "strongestCounter": "Moscow had been willing to negotiate on 31 October; fear of contagion changed its mind."
+     },
+     {
+      "claim": "The revolution was popular and national, driven by students and workers' councils, not by Nagy.",
+      "evidence": [
+       "F-PROTEST-14",
+       "F-PROTEST-15"
+      ],
+      "strongestCounter": "Nagy's announcements gave it legitimacy; he was 'swept up' as much as he led."
+     },
+     {
+      "claim": "Western non-intervention left Hungary alone.",
+      "evidence": [
+       "F-PROTEST-20"
+      ],
+      "strongestCounter": "The West had decided long before 1956 that it would not fight for the satellites."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was Nagy's abandonment of the party's monopoly of power responsible for the Soviet invasion of Hungary in 1956?",
+     "Compare and contrast the crises in Poland and Hungary in 1956."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Soviet invasion of Hungary was caused above all by the collapse of the party's monopoly of power.",
+     "prove": "On 30 October 1956 Nagy announced a government based on the coalition parties of 1945, and on 1 November he declared Hungary neutral and outside the Warsaw Pact.",
+     "explain": "This meant that the two foundations of Soviet control, one-party rule and the alliance, were both abandoned, so Moscow faced a precedent that could spread.",
+     "test": "However, as late as 31 October the Soviet leaders were ready to negotiate withdrawal, and what changed their minds was fear of unrest in Romania and Bulgaria.",
+     "judge": "The end of one-party rule made intervention likely, but the fear of contagion made it certain."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What event did Judt call the spark of the Hungarian revolution?",
+      "factIds": [
+       "F-PROTEST-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The public reburial of László Rajk on 6 October 1956",
+        "correct": true,
+        "explanation": "Correct: hundreds of thousands passed his coffin."
+       },
+       {
+        "id": "b",
+        "text": "The secret speech",
+        "correct": false,
+        "explanation": "It created the climate, but Judt names the reburial as the spark."
+       },
+       {
+        "id": "c",
+        "text": "The Poznań demonstrations",
+        "correct": false,
+        "explanation": "Those were in Poland."
+       },
+       {
+        "id": "d",
+        "text": "The death of Stalin",
+        "correct": false,
+        "explanation": "That was in 1953."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Nagy announce on 1 November 1956?",
+      "factIds": [
+       "F-PROTEST-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That Hungary was neutral and leaving the Warsaw Pact",
+        "correct": true,
+        "explanation": "Correct: in protest at Soviet troop movements."
+       },
+       {
+        "id": "b",
+        "text": "That he was resigning",
+        "correct": false,
+        "explanation": "He stayed until the invasion."
+       },
+       {
+        "id": "c",
+        "text": "That Soviet troops were welcome to stay",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "That Rákosi would return",
+        "correct": false,
+        "explanation": "Rákosi had been removed in July."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C09",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many Hungarians fled abroad after the Soviet occupation? (number)",
+      "factIds": [
+       "F-PROTEST-18"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 200000,
+        "tolerance": 10000,
+        "explanation": "About 200,000, over 2 per cent of the population."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C10",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “A July 1956 US policy paper stated that the United States was not prepared to resort to war to end Soviet domination of the satellites.” Which argument does it support best?",
+      "factIds": [
+       "F-PROTEST-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Hungarian rebels could not expect Western military help",
+        "correct": true,
+        "explanation": "Correct: non-intervention was the West's only strategy."
+       },
+       {
+        "id": "b",
+        "text": "The United States planned to liberate Hungary",
+        "correct": false,
+        "explanation": "The paper rules out war."
+       },
+       {
+        "id": "c",
+        "text": "Radio Free Europe was controlled by Moscow",
+        "correct": false,
+        "explanation": "Unrelated."
+       },
+       {
+        "id": "d",
+        "text": "The USSR feared American intervention in Hungary",
+        "correct": false,
+        "explanation": "Khrushchev saw the West as distracted by Suez."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "comparison",
+    "title": "Why Poland and Hungary ended differently, and the Berlin Wall",
+    "body": "Poland and Hungary both began 1956 with reform-minded Communists returning from disgrace. Why was one country invaded and the other not? Judt's answer is precise. Moscow could accept new leaders, liberalisation and even talk of national roads to socialism. What the Kremlin could not condone was the abandonment of the party's **monopoly of power**, \"something Gomułka, in Poland, had taken care never to allow\". Nagy's multi-party government was \"the thin edge of a democratic wedge\" that threatened every Communist party. That is why the other satellite leaders supported the invasion so readily, and why even Tito, briefed on 2 November, was anxious but understanding.\n\nThe aftermath created a new kind of stability. In Hungary Kádár, after harsh reprisals, offered a bargain: Hungarians were allowed a limited but real freedom to produce and consume, and in return were asked only to abstain from opposition. This \"goulash Communism\" secured Hungary's stability, and the memory of 1956 stabilised the rest of the bloc for a decade. The price, Judt argues, was that socialism lost its promise and became \"just a way of life to be endured\".\n\nEast Germany had a different problem: people could leave. Between 1949 and August 1961 between 2.8 and 3 million East Germans, about 16 per cent of the population, crossed to the West through Berlin, many of them young and educated. From November 1958 Khrushchev used Berlin as a lever, demanding an end to the Western occupation regime there; his real aim, Judt argues, was to stop West Germany gaining nuclear weapons. The crisis dragged on to 1961 and the exodus became a flood: 30,415 people left in July 1961 and 21,828 more in the first week of August.\n\nIn August 1961 Moscow authorised the East Germans to close the border across Berlin. Within days a rough wall stood; it was then strengthened with barbed wire, searchlights and guard posts. The West protested in public, but many Western leaders were privately relieved: a wall was better than a war. At Vienna in June Kennedy had already signalled that the United States did not wish to deprive the USSR of its ties in eastern Europe.\n\nThis mattered because the Wall stopped the flight that threatened the GDR's survival, which meant that Soviet control now rested on physically enclosing a population that Judt calls the subjects of a \"weak and unloved\" regime.",
+    "argumentsThatWork": [
+     {
+      "claim": "Moscow drew the line at the party's monopoly of power, not at reform as such.",
+      "evidence": [
+       "F-PROTEST-21",
+       "F-PROTEST-12"
+      ],
+      "strongestCounter": "Nagy's departure from the Warsaw Pact also mattered, since it threatened the alliance."
+     },
+     {
+      "claim": "After 1956 control rested on a bargain of material goods for political silence.",
+      "evidence": [
+       "F-PROTEST-23"
+      ],
+      "strongestCounter": "The bargain followed severe repression, so it rested on fear as well as consent."
+     },
+     {
+      "claim": "The Berlin Wall solved the GDR's exodus by force, with the West's quiet acceptance.",
+      "evidence": [
+       "F-PROTEST-24",
+       "F-PROTEST-26",
+       "F-PROTEST-27"
+      ],
+      "strongestCounter": "Khrushchev's main aim in the Berlin crisis was West German nuclear weapons, not the exodus."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons why the Berlin Wall was built in 1961.",
+     "Analyse the methods used by the Soviet Union to maintain control of eastern Europe between 1953 and 1961."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Berlin Wall was built mainly to stop an exodus that threatened the survival of East Germany.",
+     "prove": "Between 1949 and August 1961 between 2.8 and 3 million East Germans, about 16 per cent of the population, left through Berlin, and 30,415 went in July 1961 alone.",
+     "explain": "This meant that the GDR was losing its educated young people faster than it could replace them, so without closing the border the state would soon have emptied.",
+     "test": "However, Judt argues that Khrushchev's Berlin crisis was driven by his wish to stop West Germany gaining nuclear weapons, not by the refugees.",
+     "judge": "The exodus was therefore the immediate reason for the Wall, while the wider crisis created the moment for it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Judt, what could the Kremlin not condone in Hungary?",
+      "factIds": [
+       "F-PROTEST-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The abandonment of the party's monopoly of power",
+        "correct": true,
+        "explanation": "Correct: Gomułka never allowed this in Poland."
+       },
+       {
+        "id": "b",
+        "text": "Economic liberalisation",
+        "correct": false,
+        "explanation": "Judt says this was not the real threat."
+       },
+       {
+        "id": "c",
+        "text": "The relaxation of censorship",
+        "correct": false,
+        "explanation": "Judt says this was not the real threat either."
+       },
+       {
+        "id": "d",
+        "text": "Nagy's appointment as Prime Minister",
+        "correct": false,
+        "explanation": "The Hungarian party appointed him on 24 October."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C12",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About what percentage of East Germany's population left through Berlin between 1949 and August 1961? (number)",
+      "factIds": [
+       "F-PROTEST-24"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 16,
+        "tolerance": 0,
+        "explanation": "About 16 per cent: between 2.8 and 3 million people."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B2-PROTEST-TO-1968-C13",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Many Western leaders were secretly relieved when the Wall went up.” Which argument does it support best?",
+      "factIds": [
+       "F-PROTEST-27"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The West accepted the division of Germany rather than risk war",
+        "correct": true,
+        "explanation": "Correct: a wall was better than a war."
+       },
+       {
+        "id": "b",
+        "text": "The West planned to tear the Wall down",
+        "correct": false,
+        "explanation": "It did nothing of the kind."
+       },
+       {
+        "id": "c",
+        "text": "The Wall was built by the West",
+        "correct": false,
+        "explanation": "The East Germans built it, with Soviet authorisation."
+       },
+       {
+        "id": "d",
+        "text": "Kennedy wanted to reunify Germany in 1961",
+        "correct": false,
+        "explanation": "He signalled acceptance of the Soviet sphere."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1953,
+      "month": 6,
+      "day": 1,
+      "text": "Plzeň workers march on the city hall",
+      "factId": "F-PROTEST-01"
+     },
+     {
+      "year": 1953,
+      "month": 6,
+      "day": 16,
+      "text": "Some 400,000 East German workers strike",
+      "factId": "F-PROTEST-02"
+     },
+     {
+      "year": 1953,
+      "month": 7,
+      "text": "Nagy replaces the Stalinist leadership in Hungary",
+      "factId": "F-PROTEST-06"
+     },
+     {
+      "year": 1956,
+      "month": 2,
+      "day": 25,
+      "text": "Khrushchev's secret speech",
+      "factId": "F-PROTEST-09"
+     },
+     {
+      "year": 1956,
+      "month": 6,
+      "text": "Poznań demonstrations put down",
+      "factId": "F-PROTEST-10"
+     },
+     {
+      "year": 1956,
+      "month": 10,
+      "day": 19,
+      "text": "Khrushchev flies to Warsaw; Gomułka accepted",
+      "factId": "F-PROTEST-12"
+     },
+     {
+      "year": 1956,
+      "month": 10,
+      "day": 23,
+      "text": "Budapest demonstration; Stalin's statue torn down",
+      "factId": "F-PROTEST-14"
+     },
+     {
+      "year": 1956,
+      "month": 11,
+      "day": 1,
+      "text": "Nagy declares Hungary neutral",
+      "factId": "F-PROTEST-16"
+     },
+     {
+      "year": 1956,
+      "month": 11,
+      "day": 4,
+      "text": "Soviet tanks attack Budapest",
+      "factId": "F-PROTEST-17"
+     },
+     {
+      "year": 1958,
+      "month": 6,
+      "day": 16,
+      "text": "Nagy executed",
+      "factId": "F-PROTEST-19"
+     },
+     {
+      "year": 1961,
+      "month": 8,
+      "text": "The Berlin Wall goes up",
+      "factId": "F-PROTEST-26"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Stalin's death; wage cuts and higher norms provoke protest (1953)",
+      "factId": "F-PROTEST-02"
+     },
+     {
+      "id": "n2",
+      "text": "Khrushchev's secret speech suggests different roads to socialism",
+      "factId": "F-PROTEST-09"
+     },
+     {
+      "id": "n3",
+      "text": "Poland: Gomułka keeps the party in control; Moscow accepts him",
+      "factId": "F-PROTEST-12"
+     },
+     {
+      "id": "n4",
+      "text": "Hungary: multi-party government, neutrality, exit from the Warsaw Pact",
+      "factId": "F-PROTEST-16"
+     },
+     {
+      "id": "n5",
+      "text": "Soviet invasion; Kádár's repression, then 'goulash Communism'",
+      "factId": "F-PROTEST-23"
+     },
+     {
+      "id": "n6",
+      "text": "East German exodus closed by the Berlin Wall (1961)",
+      "factId": "F-PROTEST-26"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Moscow sought to end Stalinist terror without risking the system"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Reform was allowed where the party kept control"
+     },
+     {
+      "from": "n2",
+      "to": "n4",
+      "because": "In Hungary the revolution outran the party"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Moscow would not accept the end of the party's monopoly"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Control now rested on force and enclosure, not belief"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Nikita Khrushchev",
+     "role": "Soviet leader after Stalin",
+     "whyItMatters": "His secret speech encouraged reform; he accepted Gomułka but invaded Hungary, and authorised the Berlin Wall.",
+     "factIds": [
+      "F-PROTEST-09",
+      "F-PROTEST-12",
+      "F-PROTEST-16"
+     ]
+    },
+    {
+     "name": "Władysław Gomułka",
+     "role": "Polish First Secretary from October 1956",
+     "whyItMatters": "Kept the party in control and Poland in the Warsaw Pact, so avoided invasion.",
+     "factIds": [
+      "F-PROTEST-11",
+      "F-PROTEST-12"
+     ]
+    },
+    {
+     "name": "Imre Nagy",
+     "role": "Hungarian Prime Minister, 1953–1955 and October–November 1956",
+     "whyItMatters": "Moved from reform to a multi-party government and neutrality; executed in 1958.",
+     "factIds": [
+      "F-PROTEST-06",
+      "F-PROTEST-15",
+      "F-PROTEST-16",
+      "F-PROTEST-19"
+     ]
+    },
+    {
+     "name": "János Kádár",
+     "role": "Head of the Soviet-installed Hungarian government from November 1956",
+     "whyItMatters": "Led the repression, then built 'goulash Communism'.",
+     "factIds": [
+      "F-PROTEST-17",
+      "F-PROTEST-23"
+     ]
+    },
+    {
+     "name": "Mátyás Rákosi",
+     "role": "Hungarian Stalinist leader",
+     "whyItMatters": "Removed in 1953, restored in 1955, finally removed by Mikoyan in July 1956.",
+     "factIds": [
+      "F-PROTEST-06",
+      "F-PROTEST-07",
+      "F-PROTEST-13"
+     ]
+    },
+    {
+     "name": "Walter Ulbricht",
+     "role": "East German Communist leader",
+     "whyItMatters": "His rigid regime provoked 1953 and depended on the Wall to stop the exodus.",
+     "factIds": [
+      "F-PROTEST-02",
+      "F-PROTEST-28"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Poland 1956",
+     "Hungary 1956"
+    ],
+    "rows": [
+     {
+      "criterion": "Trigger",
+      "cells": [
+       "Poznań protests over wages (June)",
+       "Rajk's reburial and student demands (October)"
+      ],
+      "factIds": [
+       "F-PROTEST-10",
+       "F-PROTEST-13",
+       "F-PROTEST-14"
+      ]
+     },
+     {
+      "criterion": "Leader",
+      "cells": [
+       "Gomułka, who kept the party in charge",
+       "Nagy, who accepted a multi-party government"
+      ],
+      "factIds": [
+       "F-PROTEST-11",
+       "F-PROTEST-15"
+      ]
+     },
+     {
+      "criterion": "Relations with Moscow",
+      "cells": [
+       "Stayed in the Warsaw Pact",
+       "Declared neutrality and left the Pact"
+      ],
+      "factIds": [
+       "F-PROTEST-12",
+       "F-PROTEST-16"
+      ]
+     },
+     {
+      "criterion": "Outcome",
+      "cells": [
+       "No invasion; limited liberalisation",
+       "Invasion; about 2,700 dead; 200,000 fled"
+      ],
+      "factIds": [
+       "F-PROTEST-12",
+       "F-PROTEST-18"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-PROTEST-02",
+    "year": 1953,
+    "text": "16 June 1953: some 400,000 East German workers struck against higher work norms.",
+    "supports": [
+     "Economic grievances triggered protest",
+     "The GDR could not rely on its own forces"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B1-GERMAN-QUESTION"
+    ],
+    "lexicon": [
+     "work norms",
+     "June 1953 rising"
+    ]
+   },
+   {
+    "factId": "F-PROTEST-03",
+    "year": 1953,
+    "text": "Red Army tanks crushed the rising: nearly 300 killed, 200 'ringleaders' shot.",
+    "supports": [
+     "Soviet control rested on force"
+    ],
+    "lexicon": [
+     "Volkspolizei",
+     "repression"
+    ]
+   },
+   {
+    "factId": "F-PROTEST-09",
+    "year": 1956,
+    "text": "25 February 1956: Khrushchev's secret speech denounced Stalin; it leaked within weeks.",
+    "supports": [
+     "De-Stalinisation encouraged demands for change"
+    ],
+    "alsoWorksFor": [
+     "P3-16-Y1-KHRUSHCHEV"
+    ],
+    "lexicon": [
+     "secret speech",
+     "de-Stalinisation"
+    ]
+   },
+   {
+    "factId": "F-PROTEST-12",
+    "year": 1956,
+    "text": "19 October 1956: Gomułka assured Khrushchev he would keep control and stay in the Warsaw Pact; Moscow accepted him.",
+    "supports": [
+     "Moscow tolerated reform that kept the party in power"
+    ],
+    "lexicon": [
+     "Polish October",
+     "Gomułka"
+    ]
+   },
+   {
+    "factId": "F-PROTEST-16",
+    "year": 1956,
+    "text": "1 November 1956: Nagy declared Hungary neutral and leaving the Warsaw Pact.",
+    "supports": [
+     "Leaving the alliance crossed Moscow's red line"
+    ],
+    "lexicon": [
+     "neutrality",
+     "Warsaw Pact"
+    ]
+   },
+   {
+    "factId": "F-PROTEST-18",
+    "year": 1956,
+    "text": "Hungary 1956: about 2,700 died in the fighting; 341 later executed; about 200,000 fled.",
+    "supports": [
+     "The cost of defying Moscow was very high"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-EASTERN-EUROPE"
+    ],
+    "lexicon": [
+     "Soviet invasion",
+     "refugees"
+    ]
+   },
+   {
+    "factId": "F-PROTEST-21",
+    "year": 1956,
+    "text": "Judt: the Kremlin could not condone the end of the party's monopoly of power, which Gomułka never allowed.",
+    "supports": [
+     "The party's leading role was Moscow's red line"
+    ],
+    "lexicon": [
+     "leading role of the party"
+    ]
+   },
+   {
+    "factId": "F-PROTEST-24",
+    "year": 1961,
+    "text": "1949–August 1961: 2.8–3 million East Germans, about 16 per cent, left through Berlin.",
+    "supports": [
+     "The exodus threatened the GDR's survival"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B1-GERMAN-QUESTION"
+    ],
+    "lexicon": [
+     "Berlin Wall",
+     "exodus"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "In Communist eyes the real threat posed by Nagy was neither economic liberalisation nor the relaxation of censorship, nor even neutrality, but the abandonment of the party's monopoly of power, 'the thin edge of a democratic wedge', which Gomułka had taken care never to allow.",
+    "useItLikeThis": "Judt's view explains the different outcomes in Poland and Hungary, which suggests that Soviet tolerance had a precise limit: reform was possible, pluralism was not.",
+    "factId": "F-PROTEST-21"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The 1953 East German rising was a demand for national independence.",
+    "right": "It began as a **workers' protest** over higher work norms; Judt says it never threatened Soviet power."
+   },
+   {
+    "wrong": "Moscow invaded Hungary because Nagy was a reformer.",
+    "right": "Moscow accepted reformers such as Gomułka; it invaded when Hungary **abandoned one-party rule** and left the Warsaw Pact."
+   },
+   {
+    "wrong": "The West nearly went to war over Hungary.",
+    "right": "The US had already decided it was **not prepared to resort to war**; Britain and France were absorbed in Suez."
+   },
+   {
+    "wrong": "The Berlin Wall was built to keep Westerners out.",
+    "right": "It stopped East Germans **leaving**: 2.8–3 million had gone by August 1961."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1953,
+     "month": 6,
+     "day": 16,
+     "text": "East German strikes"
+    },
+    {
+     "year": 1956,
+     "month": 2,
+     "day": 25,
+     "text": "Secret speech"
+    },
+    {
+     "year": 1956,
+     "month": 6,
+     "text": "Poznań"
+    },
+    {
+     "year": 1956,
+     "month": 10,
+     "day": 19,
+     "text": "Khrushchev in Warsaw"
+    },
+    {
+     "year": 1956,
+     "month": 10,
+     "day": 23,
+     "text": "Budapest rising begins"
+    },
+    {
+     "year": 1956,
+     "month": 11,
+     "day": 4,
+     "text": "Soviet tanks attack Budapest"
+    },
+    {
+     "year": 1958,
+     "month": 6,
+     "day": 16,
+     "text": "Nagy executed"
+    },
+    {
+     "year": 1961,
+     "month": 8,
+     "text": "Berlin Wall"
+    }
+   ],
+   "keyArguments": [
+    "1953: protests over pay and norms were crushed, but Moscow responded with reform from above.",
+    "The secret speech meant to protect the system but encouraged demands for national roads.",
+    "Gomułka kept the party's monopoly and the alliance; Nagy gave up both.",
+    "Moscow's red line was the party's leading role (Judt); the West would not intervene.",
+    "After 1956: goulash Communism in Hungary and the Wall in Berlin rested on resignation and enclosure."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "East German strikes",
+     "year": 1953,
+     "month": 6,
+     "factId": "F-PROTEST-02"
+    },
+    {
+     "id": "b",
+     "text": "Secret speech",
+     "year": 1956,
+     "month": 2,
+     "factId": "F-PROTEST-09"
+    },
+    {
+     "id": "c",
+     "text": "Poznań demonstrations",
+     "year": 1956,
+     "month": 6,
+     "factId": "F-PROTEST-10"
+    },
+    {
+     "id": "d",
+     "text": "Soviet tanks attack Budapest",
+     "year": 1956,
+     "month": 11,
+     "factId": "F-PROTEST-17"
+    },
+    {
+     "id": "e",
+     "text": "Berlin Wall built",
+     "year": 1961,
+     "month": 8,
+     "factId": "F-PROTEST-26"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1956 in Hungary in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Rákosi removed by Mikoyan",
+     "year": 1956,
+     "month": 7,
+     "factId": "F-PROTEST-13"
+    },
+    {
+     "id": "b",
+     "text": "Rajk reburied",
+     "year": 1956,
+     "month": 10,
+     "factId": "F-PROTEST-13"
+    },
+    {
+     "id": "c",
+     "text": "Nagy declares neutrality",
+     "year": 1956,
+     "month": 11,
+     "factId": "F-PROTEST-16"
+    },
+    {
+     "id": "d",
+     "text": "Nagy executed",
+     "year": 1958,
+     "month": 6,
+     "factId": "F-PROTEST-19"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R03",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Władysław Gomułka",
+     "right": "Polish leader accepted by Khrushchev in October 1956",
+     "explanation": "He kept the party in control."
+    },
+    {
+     "left": "Imre Nagy",
+     "right": "Hungarian Prime Minister who declared neutrality",
+     "explanation": "Executed on 16 June 1958."
+    },
+    {
+     "left": "János Kádár",
+     "right": "Head of the Soviet-installed government from November 1956",
+     "explanation": "Later the architect of 'goulash Communism'."
+    },
+    {
+     "left": "Konstanty Rokossovsky",
+     "right": "Soviet Marshal removed as Polish defence minister",
+     "explanation": "In October 1956."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R04",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how many people were killed when Red Army tanks crushed the East German rising of 1953? (number)",
+   "factIds": [
+    "F-PROTEST-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 300,
+     "tolerance": 10,
+     "explanation": "Nearly 300; 200 'ringleaders' were later shot."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how many Hungarians died in the fighting of 1956? (number)",
+   "factIds": [
+    "F-PROTEST-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 2700,
+     "tolerance": 50,
+     "explanation": "About 2,700; 341 more were executed later."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By what percentage did the Czechoslovak currency reform of May 1953 cut industrial wages? (number)",
+   "factIds": [
+    "F-PROTEST-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 12,
+     "tolerance": 0,
+     "explanation": "12 per cent, which set off the Plzeň demonstrations."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many East Germans left in July 1961? (number)",
+   "factIds": [
+    "F-PROTEST-26"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 30415,
+     "tolerance": 0,
+     "explanation": "30,415, and 21,828 more in the first week of August."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R08",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these did Nagy do between 28 October and 1 November 1956? Choose all that apply.",
+   "factIds": [
+    "F-PROTEST-15",
+    "F-PROTEST-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Promised to abolish the secret police",
+     "correct": true,
+     "explanation": "Yes: on 28 October."
+    },
+    {
+     "id": "b",
+     "text": "Announced a multi-party government",
+     "correct": true,
+     "explanation": "Yes: on 30 October."
+    },
+    {
+     "id": "c",
+     "text": "Declared Hungary neutral",
+     "correct": true,
+     "explanation": "Yes: on 1 November."
+    },
+    {
+     "id": "d",
+     "text": "Invited Soviet troops to restore order",
+     "correct": false,
+     "explanation": "No: he asked for their withdrawal."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these explain why the West did not intervene in Hungary? Choose all that apply.",
+   "factIds": [
+    "F-PROTEST-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A US policy decision not to resort to war over the satellites",
+     "correct": true,
+     "explanation": "Yes: the July 1956 policy paper."
+    },
+    {
+     "id": "b",
+     "text": "Britain and France were absorbed in the Suez crisis",
+     "correct": true,
+     "explanation": "Yes: Khrushchev noted they were 'in a real mess in Egypt'."
+    },
+    {
+     "id": "c",
+     "text": "Eisenhower was in the last week of his re-election campaign",
+     "correct": true,
+     "explanation": "Yes: Hungary was not discussed until after the invasion."
+    },
+    {
+     "id": "d",
+     "text": "Hungary was a member of NATO",
+     "correct": false,
+     "explanation": "No: Hungary was in the Warsaw Pact until Nagy's declaration."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R10",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Gomułka had been in prison a few years before he became First Secretary.” Which argument does it support?",
+   "factIds": [
+    "F-PROTEST-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gomułka could stand for a national form of Communism untainted by Stalinism",
+     "correct": true,
+     "explanation": "Correct: Poles saw him as the national face of Communism."
+    },
+    {
+     "id": "b",
+     "text": "Gomułka was a Soviet agent",
+     "correct": false,
+     "explanation": "Moscow initially tried to block him."
+    },
+    {
+     "id": "c",
+     "text": "Gomułka wanted to leave the Warsaw Pact",
+     "correct": false,
+     "explanation": "He promised the opposite."
+    },
+    {
+     "id": "d",
+     "text": "Poland was invaded in 1956",
+     "correct": false,
+     "explanation": "It was not."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In 1955 Rákosi convinced Moscow that Nagy could not keep control, and Nagy was removed.” Which argument does it support?",
+   "factIds": [
+    "F-PROTEST-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Reform in the satellites depended on Moscow's approval and could be reversed",
+     "correct": true,
+     "explanation": "Correct: the 'new course' was withdrawn."
+    },
+    {
+     "id": "b",
+     "text": "Nagy had led a revolution in 1955",
+     "correct": false,
+     "explanation": "He was removed by the party."
+    },
+    {
+     "id": "c",
+     "text": "Rákosi was a reformer",
+     "correct": false,
+     "explanation": "He was an unreconstructed Stalinist."
+    },
+    {
+     "id": "d",
+     "text": "Hungary left the Soviet bloc in 1955",
+     "correct": false,
+     "explanation": "It remained firmly inside."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R12",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In 1956 Soviet tanks invaded Poland to stop Gomułka, while Hungary was left alone.”",
+   "factIds": [
+    "F-PROTEST-12",
+    "F-PROTEST-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was the other way round: Poland was not invaded; Hungary was",
+     "correct": true,
+     "explanation": "Correct: Gomułka kept the party in control."
+    },
+    {
+     "id": "b",
+     "text": "The year should be 1953",
+     "correct": false,
+     "explanation": "1956 is correct."
+    },
+    {
+     "id": "c",
+     "text": "Gomułka was Hungarian",
+     "correct": false,
+     "explanation": "He was Polish."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the countries are reversed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The secret speech of 1956 was published in Pravda the next day so that all Soviet citizens could read it.”",
+   "factIds": [
+    "F-PROTEST-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was not published in the USSR until 1988, though it leaked within weeks",
+     "correct": true,
+     "explanation": "Correct: it was meant for the party elite."
+    },
+    {
+     "id": "b",
+     "text": "It was given by Stalin",
+     "correct": false,
+     "explanation": "It denounced Stalin; Khrushchev gave it."
+    },
+    {
+     "id": "c",
+     "text": "It was given in 1953",
+     "correct": false,
+     "explanation": "It was given on 25 February 1956."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the speech was not published."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R14",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about protest in eastern Europe up to 1968. Is the Solidarity movement of 1980 inside or outside the timeframe?",
+   "timeframe": [
+    1945,
+    1968
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: Solidarity belongs to the 1968–1989 section."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1980 is after 1968."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Poland also protested in 1956",
+     "correct": false,
+     "explanation": "A link to an earlier event does not bring a later one into the period."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R15",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who replaced Rákosi as Hungarian party leader in July 1956?",
+   "factIds": [
+    "F-PROTEST-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ernő Gerő, another Stalinist",
+     "correct": true,
+     "explanation": "Correct: he could neither lead change nor suppress it."
+    },
+    {
+     "id": "b",
+     "text": "Imre Nagy",
+     "correct": false,
+     "explanation": "Nagy became Prime Minister only on 24 October."
+    },
+    {
+     "id": "c",
+     "text": "János Kádár",
+     "correct": false,
+     "explanation": "Kádár headed the government installed in November."
+    },
+    {
+     "id": "d",
+     "text": "László Rajk",
+     "correct": false,
+     "explanation": "Rajk had been executed in 1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was Khrushchev's main aim in the Berlin crisis that began in November 1958, according to Judt?",
+   "factIds": [
+    "F-PROTEST-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To use Berlin as a lever to stop West Germany acquiring nuclear weapons",
+     "correct": true,
+     "explanation": "Correct: Judt says the Russians were otherwise indifferent to Berlin's fate."
+    },
+    {
+     "id": "b",
+     "text": "To reunite Germany as a Communist state",
+     "correct": false,
+     "explanation": "Moscow had accepted the division."
+    },
+    {
+     "id": "c",
+     "text": "To build a wall immediately",
+     "correct": false,
+     "explanation": "The Wall came in 1961, after three years of crisis."
+    },
+    {
+     "id": "d",
+     "text": "To join NATO",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Kádár's 'goulash Communism' offer Hungarians?",
+   "factIds": [
+    "F-PROTEST-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A limited freedom to produce and consume in return for political silence",
+     "correct": true,
+     "explanation": "Correct: silence was read as consent."
+    },
+    {
+     "id": "b",
+     "text": "Free elections",
+     "correct": false,
+     "explanation": "The party's monopoly remained."
+    },
+    {
+     "id": "c",
+     "text": "Withdrawal from the Warsaw Pact",
+     "correct": false,
+     "explanation": "That was Nagy's step, reversed by the invasion."
+    },
+    {
+     "id": "d",
+     "text": "Nagy's return to power",
+     "correct": false,
+     "explanation": "Nagy was executed in 1958."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Where did Nagy take refuge when Soviet tanks attacked Budapest?",
+   "factIds": [
+    "F-PROTEST-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Yugoslav embassy",
+     "correct": true,
+     "explanation": "Correct: he was abducted when he left on 22 November."
+    },
+    {
+     "id": "b",
+     "text": "The American embassy",
+     "correct": false,
+     "explanation": "Not where Nagy went."
+    },
+    {
+     "id": "c",
+     "text": "Vienna",
+     "correct": false,
+     "explanation": "Many refugees went to Austria, but Nagy stayed in Budapest."
+    },
+    {
+     "id": "d",
+     "text": "Warsaw",
+     "correct": false,
+     "explanation": "Not where Nagy went."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Bertolt Brecht's poem about the 1953 rising suggest the government should do?",
+   "factIds": [
+    "F-PROTEST-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Dissolve the people and elect another one",
+     "correct": true,
+     "explanation": "Correct: his only overt literary dissent, as Judt notes."
+    },
+    {
+     "id": "b",
+     "text": "Resign and hold free elections",
+     "correct": false,
+     "explanation": "Not what the poem says; it is ironic."
+    },
+    {
+     "id": "c",
+     "text": "Invite the Red Army to leave",
+     "correct": false,
+     "explanation": "Not in the poem."
+    },
+    {
+     "id": "d",
+     "text": "Raise the work norms further",
+     "correct": false,
+     "explanation": "The poem mocks the regime's demand for redoubled efforts."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which city's workers demonstrated in June 1956, starting Poland's crisis?",
+   "factIds": [
+    "F-PROTEST-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Poznań",
+     "correct": true,
+     "explanation": "Correct: over wages and work-rates."
+    },
+    {
+     "id": "b",
+     "text": "Gdańsk",
+     "correct": false,
+     "explanation": "Not the city Judt names for June 1956: that was Poznań."
+    },
+    {
+     "id": "c",
+     "text": "Plzeň",
+     "correct": false,
+     "explanation": "Plzeň is in Czechoslovakia (1953)."
+    },
+    {
+     "id": "d",
+     "text": "Szeged",
+     "correct": false,
+     "explanation": "Szeged is in Hungary (students, October 1956)."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was Nagy's abandonment of the party's monopoly of power responsible for the Soviet invasion of Hungary in 1956?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Nagy's abandonment of the party's monopoly of power",
+     "answer": "factor",
+     "explanation": "The named factor: weigh it first."
+    },
+    {
+     "id": "s3",
+     "text": "the Soviet invasion of Hungary",
+     "answer": "scope",
+     "explanation": "What the factor must explain."
+    },
+    {
+     "id": "s4",
+     "text": "in 1956",
+     "answer": "timeframe",
+     "explanation": "Only 1956, with brief background."
+    },
+    {
+     "id": "s5",
+     "text": "responsible for",
+     "answer": "judgement",
+     "explanation": "How far this, compared with neutrality, contagion and Western weakness, caused the invasion."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the crises in Poland and Hungary in 1956.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "the crises",
+     "answer": "factor",
+     "explanation": "What is compared."
+    },
+    {
+     "id": "s3",
+     "text": "in Poland and Hungary",
+     "answer": "scope",
+     "explanation": "Two states: both in every paragraph."
+    },
+    {
+     "id": "s4",
+     "text": "in 1956",
+     "answer": "timeframe",
+     "explanation": "The year of both crises."
+    },
+    {
+     "id": "s5",
+     "text": "Compare and contrast",
+     "answer": "judgement",
+     "explanation": "Which differences explain the different outcomes?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the crises in Poland and Hungary in 1956.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Both crises grew from de-Stalinisation and brought back reform Communists, but they ended differently because Gomułka kept the party's monopoly and the alliance while Nagy gave up both.",
+     "correct": true,
+     "explanation": "Correct: similarity, difference and the decisive factor."
+    },
+    {
+     "id": "b",
+     "text": "Poland had a crisis in October and Hungary in October and November.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "c",
+     "text": "Both crises were important.",
+     "correct": false,
+     "explanation": "No comparison."
+    },
+    {
+     "id": "d",
+     "text": "Hungary was invaded because of the Prague Spring.",
+     "correct": false,
+     "explanation": "Wrong timeframe: 1968."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons why the Berlin Wall was built in 1961.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Wall was built mainly to stop an exodus that threatened the GDR's survival, at a moment when the three-year Berlin crisis made a unilateral solution possible and the West signalled it would not resist.",
+     "correct": true,
+     "explanation": "Correct: the main reason and the context."
+    },
+    {
+     "id": "b",
+     "text": "The Wall was built in August 1961.",
+     "correct": false,
+     "explanation": "A fact, not a reason."
+    },
+    {
+     "id": "c",
+     "text": "The Wall was built because of the Cold War.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "The Wall was built because of the 1953 uprising.",
+     "correct": false,
+     "explanation": "1953 was a cause of the exodus, but not the reason for 1961."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 1 November 1956 Nagy declared Hungary neutral.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because neutrality meant leaving the Warsaw Pact, Moscow saw it as a threat to the whole alliance.",
+     "answer": "analysis",
+     "explanation": "Explains why it mattered."
+    },
+    {
+     "id": "s3",
+     "text": "In October 1956 Gomułka became First Secretary.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that Moscow could accept a new leader without losing control, since the party kept its monopoly.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Red Army tanks crushed the 1953 rising",
+     "right": "The GDR depended on Soviet force",
+     "explanation": "Its own police could not cope."
+    },
+    {
+     "left": "Gomułka promised to stay in the Warsaw Pact",
+     "right": "Moscow tolerated reform that kept the alliance",
+     "explanation": "No invasion followed."
+    },
+    {
+     "left": "Nagy announced a multi-party government",
+     "right": "The party's monopoly was Moscow's red line",
+     "explanation": "Invasion followed within days."
+    },
+    {
+     "left": "2.8–3 million East Germans left by 1961",
+     "right": "The exodus threatened the GDR's survival",
+     "explanation": "The Wall stopped it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Soviets invaded Hungary because things got out of control.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The USSR invaded because Nagy's multi-party government of 30 October ended the party's monopoly, which Judt calls the one thing the Kremlin could not condone, and reports of unrest in Romania raised fears it would spread.",
+     "correct": true,
+     "explanation": "Correct: precise evidence, mechanism and a historian."
+    },
+    {
+     "id": "b",
+     "text": "The Soviets invaded Hungary because it was very out of control.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Soviet tanks attacked Budapest on 4 November 1956.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The Soviets invaded because they were cruel.",
+     "correct": false,
+     "explanation": "A value judgement, not an explanation."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Nagy's actions alone caused the Soviet invasion of Hungary.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "On 31 October Moscow was still ready to negotiate withdrawal; it changed course only after reports of unrest in Romania and Bulgaria raised fears of contagion, and with the West distracted by Suez.",
+     "correct": true,
+     "explanation": "Correct: alternative causes with evidence."
+    },
+    {
+     "id": "b",
+     "text": "Nagy was a good man.",
+     "correct": false,
+     "explanation": "Not an argument about causes."
+    },
+    {
+     "id": "c",
+     "text": "Many Hungarians fled.",
+     "correct": false,
+     "explanation": "A consequence, not a cause."
+    },
+    {
+     "id": "d",
+     "text": "Some historians disagree.",
+     "correct": false,
+     "explanation": "Name-dropping."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that de-Stalinisation caused the crises of 1956 in Poland and Hungary.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by timing and trigger, de-Stalinisation made the crises possible by suggesting national roads were allowed, but local grievances lit them, and the different outcomes came from choices about the party's monopoly.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and limit."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Khrushchev made the secret speech and then there were crises in Poland and Hungary.",
+     "correct": false,
+     "explanation": "A recap of events with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, de-Stalinisation was important.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Khrushchev was responsible for everything.",
+     "correct": false,
+     "explanation": "Overstated, without criterion."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the causes and consequences of the East German uprising of 1953.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Large unpaid increases in work norms",
+     "answer": "causes",
+     "explanation": "The immediate trigger."
+    },
+    {
+     "id": "s2",
+     "text": "Moscow's advice to compromise was ignored",
+     "answer": "causes",
+     "explanation": "The regime's rigidity."
+    },
+    {
+     "id": "s3",
+     "text": "Nearly 300 killed when Red Army tanks were called in",
+     "answer": "effects",
+     "explanation": "A consequence."
+    },
+    {
+     "id": "s4",
+     "text": "More workers fled West through Berlin",
+     "answer": "effects",
+     "explanation": "Judt lists workers who left after June 1953."
+    },
+    {
+     "id": "s5",
+     "text": "Stalin's death in March 1953",
+     "answer": "causes",
+     "explanation": "The context in which protest became possible."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-18-B2-PROTEST-TO-1968-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was Nagy's abandonment of the party's monopoly of power responsible for the Soviet invasion of Hungary in 1956?",
+   "commandTerm": "to what extent",
+   "namedFactor": "Nagy's abandonment of the party's monopoly of power",
+   "features": [
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1956,
+    1956
+   ],
+   "scope": "Hungary; the Soviet invasion",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The end of the party's monopoly, weighed first",
+    "timeframe": "1956",
+    "scope": "The Soviet invasion of Hungary",
+    "judgement": "How far this, compared with neutrality, contagion and Western weakness, caused the invasion"
+   },
+   "modelPlan": {
+    "thesis": "The end of the party's monopoly was largely responsible, because it was the one change Moscow could not accept; but fear of contagion decided the timing, and Western weakness removed the risk.",
+    "arguments": [
+     {
+      "claim": "The multi-party government ended the leading role of the party (named factor first).",
+      "evidence": [
+       "F-PROTEST-15",
+       "F-PROTEST-21"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Neutrality and leaving the Warsaw Pact threatened the alliance.",
+      "evidence": [
+       "F-PROTEST-16"
+      ]
+     },
+     {
+      "claim": "Fear of contagion to Romania and Bulgaria changed Moscow's mind.",
+      "evidence": [
+       "F-PROTEST-16"
+      ]
+     },
+     {
+      "claim": "Western non-intervention removed the risk.",
+      "evidence": [
+       "F-PROTEST-20"
+      ]
+     }
+    ],
+    "counter": "Neutrality was announced only after Soviet troops were already moving, so the decision to invade came before Hungary left the Pact.",
+    "judgementCriterion": "Would Moscow have invaded if the party had kept its monopoly? Poland suggests not, so the monopoly was the decisive factor."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The end of the party's monopoly of power was the main reason for the Soviet invasion of Hungary.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "On 30 October 1956 Nagy announced a government based on the coalition parties of 1945, and Judt argues that this, not economic reform or censorship, was what the Kremlin could not condone.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Hungary was becoming a precedent for every satellite, which is why other Communist leaders backed the invasion so readily.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, as late as 31 October Moscow was ready to negotiate, and it was reports of unrest in Romania and Bulgaria that turned it to force.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The end of one-party rule was therefore the decisive cause, and fear of contagion the trigger.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "monopoly"
+    ],
+    "synonyms": [
+     "leading role",
+     "multi-party",
+     "one-party rule"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Nagy",
+     "neutrality",
+     "Kádár"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B2-PROTEST-TO-1968-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“De-Stalinisation caused the crises of 1956 in Poland and Hungary.” Discuss with reference to 1956.",
+   "commandTerm": "discuss",
+   "namedFactor": "de-Stalinisation",
+   "features": [
+    "proposition",
+    "named_factor"
+   ],
+   "timeframe": [
+    1956,
+    1956
+   ],
+   "scope": "Poland and Hungary",
+   "decodeKey": {
+    "verb": "Discuss: test the claim for and against, then judge",
+    "factorOrTask": "De-Stalinisation, weighed first",
+    "timeframe": "1956",
+    "scope": "The crises in Poland and Hungary",
+    "judgement": "How far de-Stalinisation, rather than local grievances or leaders, caused the crises"
+   },
+   "modelPlan": {
+    "thesis": "The claim is largely right that de-Stalinisation made the crises possible, but local grievances triggered them and local choices decided how they ended.",
+    "arguments": [
+     {
+      "claim": "For: the secret speech and the end of the Cominform suggested national roads were allowed (named factor first).",
+      "evidence": [
+       "F-PROTEST-09",
+       "F-PROTEST-08"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "For: Moscow's own changes of leader in Hungary encouraged reform.",
+      "evidence": [
+       "F-PROTEST-06",
+       "F-PROTEST-13"
+      ]
+     },
+     {
+      "claim": "Against: wages and work-rates triggered Poznań.",
+      "evidence": [
+       "F-PROTEST-10"
+      ]
+     },
+     {
+      "claim": "Against: Rajk's reburial and student demands drove Hungary.",
+      "evidence": [
+       "F-PROTEST-13",
+       "F-PROTEST-14"
+      ]
+     }
+    ],
+    "counter": "In Czechoslovakia the secret speech produced no political action, so de-Stalinisation alone did not cause crises.",
+    "judgementCriterion": "Was de-Stalinisation a necessary condition? Yes, but not a sufficient one, since Czechoslovakia stayed quiet."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "De-Stalinisation made the crises of 1956 possible by suggesting that Moscow would now accept change.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Khrushchev's secret speech of 25 February leaked within weeks, and with the Cominform dissolved in April it seemed to promise different roads to socialism.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that people and party reformers believed protest might succeed, so grievances that had been suppressed came into the open.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in Czechoslovakia the memory of terror was too fresh for the speech to produce any action, so de-Stalinisation alone was not enough.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "De-Stalinisation was therefore a necessary cause of the crises, but local grievances and choices decided their course.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "de-Stalinisation"
+    ],
+    "synonyms": [
+     "secret speech",
+     "Khrushchev"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Poznań",
+     "Gomułka",
+     "Nagy"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B2-PROTEST-TO-1968-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the causes and consequences of the East German uprising of 1953.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1953,
+    1953
+   ],
+   "scope": "East Germany",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: causes AND consequences",
+    "timeframe": "1953",
+    "scope": "The East German uprising",
+    "judgement": "Which cause mattered most, and which consequence was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The uprising was caused mainly by economic grievances made worse by a rigid regime; its main consequence was to show that the GDR depended on Soviet force, which fed the exodus that later produced the Wall.",
+    "arguments": [
+     {
+      "claim": "Cause: unpaid increases in work norms.",
+      "evidence": [
+       "F-PROTEST-02"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: the regime ignored Moscow's advice after Stalin's death.",
+      "evidence": [
+       "F-PROTEST-02",
+       "F-PROTEST-05"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: repression by Red Army tanks.",
+      "evidence": [
+       "F-PROTEST-03"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: workers fled West, adding to the exodus.",
+      "evidence": [
+       "F-PROTEST-24"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Judt argues the rising never threatened Soviet power, so its consequences were limited.",
+    "judgementCriterion": "Which consequence lasted longest? The proof that the regime needed Soviet tanks, which shaped the GDR until 1989."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The East German uprising was caused above all by economic grievances that the regime had made worse.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The government imposed large unpaid increases in work norms, ignored Moscow's advice to compromise, and on 16 June some 400,000 workers struck.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that a regime more rigid than its masters turned a dispute over pay into a challenge to its authority.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues the rising hardly threatened Soviet power, since it was crushed within days.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Its main significance was therefore to expose the GDR's dependence on Soviet force.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "1953"
+    ],
+    "synonyms": [
+     "uprising",
+     "rising",
+     "strike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "work norms",
+     "Ulbricht",
+     "Red Army"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B2-PROTEST-TO-1968-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the crises in Poland and Hungary in 1956.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1956,
+    1956
+   ],
+   "scope": "Poland and Hungary",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The two crises",
+    "timeframe": "1956",
+    "scope": "Poland and Hungary",
+    "judgement": "Which difference explains the different outcomes"
+   },
+   "modelPlan": {
+    "thesis": "Both crises grew from de-Stalinisation and brought back reform Communists, but they ended differently because Gomułka kept the party's monopoly and the alliance while Nagy gave up both.",
+    "arguments": [
+     {
+      "claim": "Similarity: de-Stalinisation and local grievances.",
+      "evidence": [
+       "F-PROTEST-09",
+       "F-PROTEST-10",
+       "F-PROTEST-13"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: the return of Communists purged under Stalin.",
+      "evidence": [
+       "F-PROTEST-11",
+       "F-PROTEST-14"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: Gomułka kept control and the alliance.",
+      "evidence": [
+       "F-PROTEST-12"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: Nagy accepted pluralism and neutrality, and Hungary was invaded.",
+      "evidence": [
+       "F-PROTEST-15",
+       "F-PROTEST-16",
+       "F-PROTEST-17"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Khrushchev also feared a violent confrontation in Poland, which is larger, so the outcome reflected Soviet calculation as well as local choices.",
+    "judgementCriterion": "Which difference decided the outcome? The party's monopoly, which Judt calls the Kremlin's red line."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The crises in Poland and Hungary began alike but ended in opposite ways.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In Poland Gomułka assured Khrushchev on 19 October that he would keep control and stay in the Warsaw Pact, whereas Nagy announced a multi-party government on 30 October and neutrality on 1 November.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Poland kept the two things Moscow cared about, while Hungary abandoned both, so only Hungary appeared to threaten the bloc.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both crises grew from de-Stalinisation, and in both the parties turned to men purged under Stalin.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference was therefore the party's monopoly of power, not the strength of popular protest.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Poland",
+     "Hungary"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Gomułka",
+     "Nagy",
+     "Warsaw Pact"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B2-PROTEST-TO-1968-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons why the Berlin Wall was built in 1961.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1961,
+    1961
+   ],
+   "scope": "East Germany and Berlin",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "The reasons for the Wall",
+    "timeframe": "1961 (with background from 1949)",
+    "scope": "The building of the Berlin Wall",
+    "judgement": "Which reason was decisive"
+   },
+   "modelPlan": {
+    "thesis": "The Wall was built mainly to stop an exodus that threatened the GDR's survival; the Berlin crisis provided the moment, and Western acceptance removed the risk.",
+    "arguments": [
+     {
+      "claim": "The exodus: 2.8–3 million left by 1961.",
+      "evidence": [
+       "F-PROTEST-24",
+       "F-PROTEST-26"
+      ]
+     },
+     {
+      "claim": "Khrushchev's Berlin crisis from 1958.",
+      "evidence": [
+       "F-PROTEST-25"
+      ]
+     },
+     {
+      "claim": "Western signals of acceptance.",
+      "evidence": [
+       "F-PROTEST-27"
+      ]
+     },
+     {
+      "claim": "Shoring up a weak and unloved regime.",
+      "evidence": [
+       "F-PROTEST-28"
+      ]
+     }
+    ],
+    "counter": "Khrushchev's real aim in the crisis was West German nuclear weapons, so the Wall was a by-product of a different conflict.",
+    "judgementCriterion": "Without the exodus, would the Wall have been built? Almost certainly not, so it was the decisive reason."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Berlin Wall was built mainly to stop an exodus that threatened the survival of the GDR.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Between 1949 and August 1961 between 2.8 and 3 million East Germans left through Berlin, and 30,415 went in July 1961 alone.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant the state was losing its young and educated faster than it could replace them, so closing the border was a matter of survival.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues that Khrushchev's Berlin crisis was driven by his wish to stop West Germany gaining nuclear weapons.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The exodus was therefore the decisive reason, while the crisis created the opportunity.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Berlin Wall"
+    ],
+    "synonyms": [
+     "Wall",
+     "border"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "exodus",
+     "Khrushchev",
+     "Ulbricht"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B2-PROTEST-TO-1968-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the methods used by the Soviet Union to maintain control of eastern Europe between 1953 and 1961.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1953,
+    1961
+   ],
+   "scope": "Eastern Europe; Soviet methods",
+   "decodeKey": {
+    "verb": "Analyse: break the question into parts and show how they connect",
+    "factorOrTask": "Soviet methods of control",
+    "timeframe": "1953–1961",
+    "scope": "Eastern Europe",
+    "judgement": "Which method was decisive and how they combined"
+   },
+   "modelPlan": {
+    "thesis": "Moscow combined force, reform from above and enclosure: tanks in 1953 and 1956, managed change through trusted Communists, and the Berlin Wall; force was decisive, but reform and material concessions made control durable.",
+    "arguments": [
+     {
+      "claim": "Force: East Germany 1953 and Hungary 1956.",
+      "evidence": [
+       "F-PROTEST-03",
+       "F-PROTEST-17",
+       "F-PROTEST-18"
+      ]
+     },
+     {
+      "claim": "Reform from above through trusted Communists: Nagy (1953), Gomułka (1956).",
+      "evidence": [
+       "F-PROTEST-06",
+       "F-PROTEST-12"
+      ]
+     },
+     {
+      "claim": "Material concessions for political silence: goulash Communism.",
+      "evidence": [
+       "F-PROTEST-23"
+      ]
+     },
+     {
+      "claim": "Enclosure: the Berlin Wall.",
+      "evidence": [
+       "F-PROTEST-26",
+       "F-PROTEST-28"
+      ]
+     }
+    ],
+    "counter": "Reform from above was itself a source of instability, as Hungary showed.",
+    "judgementCriterion": "Which method, if removed, would have ended control? Force, since every other method rested on the threat of it."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Soviet control between 1953 and 1961 rested ultimately on force, but Moscow also used managed reform to reduce the need for it.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Red Army tanks crushed the East German rising in 1953 and took Budapest in 1956, while Moscow accepted Gomułka in Poland once he promised to keep control.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that reform was allowed where the party kept its monopoly and force was used where it did not, so the threat of tanks set the limits of change.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, after 1956 Kádár's goulash Communism showed that material concessions could secure stability without constant force.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Force was therefore the foundation of control, with reform and concessions making it last.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "control"
+    ],
+    "synonyms": [
+     "force",
+     "repression",
+     "reform"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "goulash Communism",
+     "Gomułka",
+     "Berlin Wall"
+    ]
+   }
+  }
+ ]
+}

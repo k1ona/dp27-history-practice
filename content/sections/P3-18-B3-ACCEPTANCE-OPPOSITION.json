@@ -1,0 +1,2875 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 20,
+  "openingProblem": {
+   "problem": "In 1968 Moscow crushed a reform movement led by the Communist Party itself. In 1980 ten million Poles joined a union the party did not control. Was Soviet control stronger or weaker after 1968?",
+   "predictionPrompt": "Your prediction in one line: did 1968 strengthen or weaken Soviet control?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "The Prague Spring, 1968",
+    "body": "On 5 January 1968 the Czechoslovak Central Committee replaced the Stalinist Antonín Novotný with **Alexander Dubček**, a 47-year-old Slovak from the reform wing of the party. Dubček was a loyal Communist, but public rallies soon demanded an end to censorship and an inquiry into the purges of the 1950s, and he went with the tide. In the spring the Central Committee adopted an **Action Programme**: autonomy for Slovakia, rehabilitation of past victims and the \"democratization\" of the political and economic system. Over a ten-year transition, other parties would be allowed to compete in genuine elections. People called it \"Socialism with a human face\".\n\nOn 26 June censorship was formally abolished. The next day the writer Ludvík Vaculík published \"Two Thousand Words\", calling for political parties and citizens' committees to push reform further. Dubček rejected it. He would not give up the party's monopoly, which he saw as the only vehicle for safe change.\n\nTony Judt argues that the Prague Spring rested on three illusions. The first was that freedom could be folded into Communism. The second was that the party could allow free speech without losing control. The third and most dangerous was Dubček's belief that he could keep Moscow at bay. The reformers thought Imre Nagy's mistake in 1956 had been to leave the Warsaw Pact; so long as Czechoslovakia stayed in the alliance, they believed, Moscow would leave them alone. But \"by 1968, the Soviet Union was worried less about military security than the Party's loss of monopoly control.\"\n\nMoscow's fear was contagion. In March the Ukrainian leader Petro Shelest reported that news from Prague was affecting young Ukrainians; Polish and East German leaders complained. In April the Soviet defence minister was told to plan military operations. On 14 July the leaders of the USSR, Poland, East Germany, Bulgaria and Hungary sent Prague a warning letter. At Bratislava on 3 August Brezhnev set out the doctrine that would bear his name: each party was free to apply socialism in its own way, but not to deviate from its principles, because \"the weakening of any of the links in the world system of socialism directly affects all the socialist countries\". The same day five members of the Czechoslovak Praesidium secretly asked Moscow to intervene. This mattered because the Soviet leaders could now present an invasion as a response to an invitation, which meant that the decision of 18 August faced no serious obstacle.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Prague Spring threatened Moscow because it undermined the party's monopoly, not the alliance.",
+      "evidence": [
+       "F-ACCEPT-02",
+       "F-ACCEPT-04"
+      ],
+      "strongestCounter": "Dubček himself defended the monopoly and rejected 'Two Thousand Words'."
+     },
+     {
+      "claim": "Contagion was the Soviet fear: neighbouring leaders demanded action.",
+      "evidence": [
+       "F-ACCEPT-05"
+      ],
+      "strongestCounter": "Brezhnev seems to have been reluctant, so the decision was not automatic."
+     },
+     {
+      "claim": "The abolition of censorship let pressure from below outrun the party.",
+      "evidence": [
+       "F-ACCEPT-03"
+      ],
+      "strongestCounter": "Federalisation, a moderate reform, survived the invasion, so not every reform was unacceptable."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that the Prague Spring failed because Dubček misjudged Moscow.",
+     "Analyse the reasons for the Warsaw Pact invasion of Czechoslovakia in 1968."
+    ],
+    "useItInAnEssay": {
+     "claim": "Dubček's central mistake in 1968 was to misread the lesson of Hungary in 1956.",
+     "prove": "The reformers believed Nagy's error had been to leave the Warsaw Pact, so they stayed loyal to the alliance while abolishing censorship on 26 June.",
+     "explain": "This meant they reassured Moscow on the wrong point, since, as Judt argues, the Soviet leaders now feared the party's loss of monopoly control more than any military threat.",
+     "test": "However, Dubček himself defended the party's monopoly and rejected Vaculík's call for new parties, so his own aims were limited.",
+     "judge": "His misjudgement was therefore not about his intentions but about how Moscow would read the freedom he allowed."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Brezhnev set out at Bratislava on 3 August 1968?",
+      "factIds": [
+       "F-ACCEPT-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That no Communist party could deviate from socialist principles, because a weak link affected all",
+        "correct": true,
+        "explanation": "Correct: the Brezhnev Doctrine."
+       },
+       {
+        "id": "b",
+        "text": "That Czechoslovakia could leave the Warsaw Pact",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "That censorship should be abolished",
+        "correct": false,
+        "explanation": "Prague had abolished it on 26 June; Moscow disapproved."
+       },
+       {
+        "id": "d",
+        "text": "That Dubček should become Prime Minister",
+        "correct": false,
+        "explanation": "Dubček was already party leader."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Judt, what was Dubček's 'most dangerous' illusion?",
+      "factIds": [
+       "F-ACCEPT-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That he could keep Moscow at bay by staying in the Warsaw Pact",
+        "correct": true,
+        "explanation": "Correct: he misread the lesson of 1956."
+       },
+       {
+        "id": "b",
+        "text": "That the economy would grow",
+        "correct": false,
+        "explanation": "Not the illusion Judt names."
+       },
+       {
+        "id": "c",
+        "text": "That the West would intervene",
+        "correct": false,
+        "explanation": "Not the illusion Judt names here."
+       },
+       {
+        "id": "d",
+        "text": "That he could abolish the party",
+        "correct": false,
+        "explanation": "He defended the party's monopoly."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In March 1968 Shelest reported that news from Prague was affecting young Ukrainians.” Which argument does it support best?",
+      "factIds": [
+       "F-ACCEPT-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Moscow feared that reform in Prague would spread",
+        "correct": true,
+        "explanation": "Correct: contagion was the Soviet fear."
+       },
+       {
+        "id": "b",
+        "text": "Ukraine supported the invasion from the start",
+        "correct": false,
+        "explanation": "The fact concerns the mood of young Ukrainians."
+       },
+       {
+        "id": "c",
+        "text": "Dubček planned to leave the Warsaw Pact",
+        "correct": false,
+        "explanation": "He promised to stay."
+       },
+       {
+        "id": "d",
+        "text": "The West threatened the USSR",
+        "correct": false,
+        "explanation": "Unrelated."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "impact_consequences",
+    "title": "Invasion, normalisation and the Brezhnev Doctrine",
+    "body": "On **21 August 1968** some 500,000 troops from the USSR, Poland, Hungary, Bulgaria and East Germany entered Czechoslovakia. Moscow knew there was no risk from the West: five weeks earlier Washington and Moscow had co-signed the Nuclear Non-proliferation Treaty, and the United States was absorbed in Vietnam. The Czechoslovak government asked people not to resist with arms, and they did not, but there were street protests and passive resistance. The Soviet leaders, who had expected a welcome, were surprised.\n\nDubček and his colleagues were arrested, flown to Moscow and made to sign away parts of their programme. They were allowed back for a few months because they had public support, but **\"normalization\"** began at once: censorship returned and the planned party congress was cancelled. In January 1969 the student Jan Palach set fire to himself in Wenceslas Square in protest; his funeral became a day of national mourning. On 17 April 1969 Dubček was replaced by **Gustáv Husák**, a Slovak who had himself been imprisoned under Stalin and so could purge the reformers without looking like a Stalinist.\n\nThe repression was quieter than in the 1950s but thorough. There were no great public trials. Instead, people active in 1968 were asked to sign statements renouncing it. Those who refused lost their jobs, and their children suffered too. Poets and playwrights ended up cleaning boilers and washing windows. The regime offered the \"carrot of consumer goods and the stick of omnipresent surveillance\".\n\nJudt sees 1968 as more decisive than 1956. The Kremlin had shown that socialist states had only limited sovereignty and that any lapse in the party's monopoly might bring tanks; after 1968, Soviet control was \"firmly underwritten\" by that knowledge. But the price was legitimacy. The illusion that Communism could be reformed \"was crushed under the tanks on August 21st 1968 and it never recovered\". Never again would reformers look to the ruling party to carry their hopes. This mattered because after 1968 the regimes rested on force and material bribery alone, which meant that, in Judt's phrase, Communism staggered on \"sustained by an unlikely alliance of foreign loans and Russian bayonets\".",
+    "argumentsThatWork": [
+     {
+      "claim": "The Brezhnev Doctrine secured Soviet control for two decades by making the threat of force credible.",
+      "evidence": [
+       "F-ACCEPT-06",
+       "F-ACCEPT-11"
+      ],
+      "strongestCounter": "It depended on Moscow's willingness to use force, which would vanish under Gorbachev."
+     },
+     {
+      "claim": "Normalisation worked through humiliation and consumerism rather than terror.",
+      "evidence": [
+       "F-ACCEPT-10"
+      ],
+      "strongestCounter": "The threat of violence was always implicit, so fear still underpinned it."
+     },
+     {
+      "claim": "1968 destroyed belief in reform Communism, so regimes lost their last claim to consent.",
+      "evidence": [
+       "F-ACCEPT-11",
+       "F-ACCEPT-28"
+      ],
+      "strongestCounter": "Kádár's Hungary still won a measure of acceptance through material concessions."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent did the Brezhnev Doctrine secure Soviet control of eastern Europe between 1968 and 1981?",
+     "Analyse the reasons for the Warsaw Pact invasion of Czechoslovakia in 1968."
+    ],
+    "useItInAnEssay": {
+     "claim": "The invasion of 1968 secured Soviet control but destroyed the legitimacy of Communist rule.",
+     "prove": "On 21 August 500,000 Warsaw Pact troops entered Czechoslovakia, and by April 1969 Husák had replaced Dubček and begun purging the reformers.",
+     "explain": "This meant that Moscow had proved it would use force against any lapse in the party's monopoly, so no satellite leader would risk reform for two decades.",
+     "test": "However, Judt argues that the illusion that Communism could be reformed was crushed under the tanks and never recovered, so the regimes lost any claim to consent.",
+     "judge": "The invasion therefore strengthened control in the short term while hollowing out its foundations."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many Warsaw Pact troops entered Czechoslovakia on 21 August 1968, according to Judt? (number)",
+      "factIds": [
+       "F-ACCEPT-07"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 500000,
+        "tolerance": 10000,
+        "explanation": "500,000, from five Warsaw Pact states."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who replaced Dubček on 17 April 1969?",
+      "factIds": [
+       "F-ACCEPT-10"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Gustáv Husák",
+        "correct": true,
+        "explanation": "Correct: a Slovak and former victim of Stalinist trials."
+       },
+       {
+        "id": "b",
+        "text": "Antonín Novotný",
+        "correct": false,
+        "explanation": "Novotný had been removed in 1968."
+       },
+       {
+        "id": "c",
+        "text": "Ludvík Svoboda",
+        "correct": false,
+        "explanation": "Svoboda was President."
+       },
+       {
+        "id": "d",
+        "text": "Ludvík Vaculík",
+        "correct": false,
+        "explanation": "Vaculík wrote 'Two Thousand Words'."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “People who refused to renounce 1968 lost their jobs, and poets ended up cleaning boilers.” Which argument does it support best?",
+      "factIds": [
+       "F-ACCEPT-10"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Normalisation relied on humiliation and pressure rather than show trials",
+        "correct": true,
+        "explanation": "Correct: quieter than the 1950s, but thorough."
+       },
+       {
+        "id": "b",
+        "text": "Normalisation restored the Prague Spring reforms",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Husák held mass show trials",
+        "correct": false,
+        "explanation": "Public trials were avoided."
+       },
+       {
+        "id": "d",
+        "text": "The intellectuals supported Husák",
+        "correct": false,
+        "explanation": "They were purged."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "nature_methods",
+    "title": "Kádár, Ceauşescu and the dissidents",
+    "body": "After 1968 the satellite regimes sought stability in different ways. Judt identifies three models. In **Hungary**, Kádár introduced the New Economic Mechanism in 1968: collective farms gained autonomy and were encouraged to support private plots, some prices followed the world market, and private shops were allowed. The aim was the most market activity compatible with \"undiluted political control\". Kádár offered Hungarians consumer goods and even access to the West as rewards for good behaviour; Hungary became \"the best barracks in the laager\". After 1968 every regime except Romania adopted his approach of asking only for outward conformity.\n\n**Romania** took the road of \"national Stalinism\". Soviet troops had left in 1958. Under Gheorghe Gheorghiu-Dej and, from 1965, Nicolae Ceauşescu, Romania refused to allow Warsaw Pact manoeuvres on its soil, stayed out of Moscow's quarrel with China and cut its trade with Comecon from 70 to 45 per cent of the total. Ceauşescu declined even to attend the Bratislava meeting of August 1968. The West rewarded him: President Nixon visited Bucharest in August 1969, and Romania joined GATT, the IMF and the World Bank. But inside, Romanian Communism was \"peculiarly vicious and repressive\" and allowed no opposition at all. Independence from Moscow did not mean freedom.\n\nOpposition took a new form. The **Helsinki Final Act** of August 1975 gave Moscow what it wanted, Western recognition of the post-war borders and a promise of non-intervention. But its Principle VII committed all 35 signatories to respect human rights. Dissidents seized on this. Instead of trying to reform the party, which 1968 had shown to be impossible, they demanded rights the regimes had already signed. In January 1977 **Charter 77** accused the Czechoslovak government of failing to honour those commitments. Only 243 people signed at first, and 1,621 more over ten years in a nation of 15 million; its spokesmen included the playwright Václav Havel, who urged people to \"live in truth\". The regime sacked, exiled and jailed signatories; in October 1979 Havel and other members of a support committee were sentenced to up to five years.\n\nThis mattered because dissidents stopped arguing with the regimes and began talking past them, which meant that Communism's own legal promises became weapons against it. Their numbers were tiny, but they offered a language of rights that others would use in 1989.",
+    "argumentsThatWork": [
+     {
+      "claim": "After 1968 regimes bought stability with consumer goods and asked only for outward conformity.",
+      "evidence": [
+       "F-ACCEPT-12",
+       "F-ACCEPT-13"
+      ],
+      "strongestCounter": "Romania kept stability through repression instead."
+     },
+     {
+      "claim": "Independence from Moscow and freedom at home were different things: Romania had the first, not the second.",
+      "evidence": [
+       "F-ACCEPT-14",
+       "F-ACCEPT-15"
+      ],
+      "strongestCounter": "Romania stayed in the Warsaw Pact and Comecon, so its independence was limited."
+     },
+     {
+      "claim": "The Helsinki Accords gave dissidents a legal language of rights.",
+      "evidence": [
+       "F-ACCEPT-16",
+       "F-ACCEPT-17",
+       "F-ACCEPT-18"
+      ],
+      "strongestCounter": "Dissident groups were tiny: Charter 77 had 243 original signatories."
+     }
+    ],
+    "howItGetsAsked": [
+     "Compare and contrast the approaches of Kádár's Hungary and Ceauşescu's Romania to Soviet control between 1968 and 1980.",
+     "Examine the impact of the Helsinki Accords on opposition in eastern Europe between 1975 and 1981."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Helsinki Accords strengthened opposition in eastern Europe by giving dissidents a legal basis for their demands.",
+     "prove": "Principle VII committed all 35 signatories to respect human rights, and in January 1977 Charter 77 accused Prague of failing to honour rights it had signed.",
+     "explain": "This meant that dissidents could demand rights the regimes already acknowledged, so they appeared moderate while forcing the regimes onto the defensive.",
+     "test": "However, the movements were tiny, and the regimes could still jail them: Havel was sentenced to prison in October 1979.",
+     "judge": "Helsinki therefore changed the language of opposition more than its strength before 1980."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was Hungary's New Economic Mechanism of 1968?",
+      "factIds": [
+       "F-ACCEPT-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Limited market reforms under undiluted political control",
+        "correct": true,
+        "explanation": "Correct: private plots, some world prices, private shops."
+       },
+       {
+        "id": "b",
+        "text": "A plan to leave Comecon",
+        "correct": false,
+        "explanation": "Hungary stayed in Comecon."
+       },
+       {
+        "id": "c",
+        "text": "The collectivisation of agriculture",
+        "correct": false,
+        "explanation": "Collective farms gained autonomy."
+       },
+       {
+        "id": "d",
+        "text": "Multi-party elections",
+        "correct": false,
+        "explanation": "Political control was undiluted."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people signed Charter 77 at first? (number)",
+      "factIds": [
+       "F-ACCEPT-18"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 243,
+        "tolerance": 0,
+        "explanation": "243, joined by 1,621 more over the next decade."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C09",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How did Ceauşescu's Romania distance itself from Moscow?",
+      "factIds": [
+       "F-ACCEPT-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It refused Warsaw Pact manoeuvres on its soil and cut trade with Comecon",
+        "correct": true,
+        "explanation": "Correct: from 70 to 45 per cent of its trade."
+       },
+       {
+        "id": "b",
+        "text": "It left the Warsaw Pact",
+        "correct": false,
+        "explanation": "Romania stayed in the Pact."
+       },
+       {
+        "id": "c",
+        "text": "It held free elections",
+        "correct": false,
+        "explanation": "Romania allowed no opposition at all."
+       },
+       {
+        "id": "d",
+        "text": "It joined NATO",
+        "correct": false,
+        "explanation": "It never did."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C10",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Principle VII of the Helsinki Final Act committed all 35 signatories to respect human rights.” Which argument does it support best?",
+      "factIds": [
+       "F-ACCEPT-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Helsinki gave dissidents a legal basis to challenge the regimes",
+        "correct": true,
+        "explanation": "Correct: the Helsinki Rights movement was born."
+       },
+       {
+        "id": "b",
+        "text": "Helsinki forced Moscow to withdraw from eastern Europe",
+        "correct": false,
+        "explanation": "It recognised the post-war borders."
+       },
+       {
+        "id": "c",
+        "text": "Helsinki ended the Cold War",
+        "correct": false,
+        "explanation": "Not in 1975."
+       },
+       {
+        "id": "d",
+        "text": "The regimes ignored Helsinki entirely",
+        "correct": false,
+        "explanation": "They cited it as a source of legitimacy, which backfired."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Solidarity and martial law, Poland 1976–1989",
+    "body": "Poland was different because workers and intellectuals joined forces. Food price rises had already provoked workers' revolts in 1970 and 1976. After police beat and arrested strikers at Ursus and Radom in 1976, Jacek Kuroń and others founded **KOR**, the Committee for the Defence of Workers, to give them legal help. Party leader Edward Gierek tried to buy calm by borrowing heavily abroad to subsidise food and consumer goods, but the strategy was failing.\n\nThen came the Church. On 16 October 1978 Karol Wojtyła, Cardinal of Kraków, became **Pope John Paul II**. In June 1979 he made the first of three visits to Poland, drawing huge crowds and offering the Church not as a silent refuge but as an alternative moral authority. The regime could do nothing: banning him would only have increased his appeal.\n\nOn 1 July 1980 the government raised the price of meat. Strikes spread across the country and reached the Lenin Shipyard in Gdańsk on 2 August. On 14 August the electrician **Lech Wałęsa**, sacked earlier for union activity, climbed over the shipyard wall and took the lead of a national strike movement. Intellectuals such as Bronisław Geremek and Tadeusz Mazowiecki came to help the strikers negotiate. The regime gave way and conceded the right to free trade unions. On 10 November 1980 **Solidarity** became the first registered independent trade union in a Communist country, with about ten million members.\n\nSolidarity called itself a \"self-limiting revolution\". Remembering 1956 and 1968, Kuroń accepted the party's \"leading role\", and foreign policy was kept off its agenda. But the economy was collapsing, strikes continued, and Moscow saw Poland as adrift and a bad example. General **Wojciech Jaruzelski**, prime minister from February 1981 and party leader from October, declared **martial law** on 13 December 1981, saying he was forestalling a Soviet invasion. Solidarity's leaders were imprisoned and the union was banned the next year. Martial law lasted until July 1983. When the Pope returned that June he told Jaruzelski on television that Poland must take her place \"between East and West\".\n\nJudt warns against hindsight. The events of 1980–81 were the last of a series of workers' protests against economic mismanagement, not the start of Communism's fall. Michnik and Kuroń believed Communism could be eroded but not overthrown, because \"power lay not in Warsaw but in Moscow\". This mattered because Solidarity showed that society could organise outside the party, which meant that when Moscow's power was withdrawn after 1985, Poland already had a ready-made alternative.",
+    "argumentsThatWork": [
+     {
+      "claim": "Solidarity grew from the alliance of workers, intellectuals and the Church.",
+      "evidence": [
+       "F-ACCEPT-19",
+       "F-ACCEPT-20",
+       "F-ACCEPT-21"
+      ],
+      "strongestCounter": "The immediate trigger was economic: the meat price rise of July 1980."
+     },
+     {
+      "claim": "Its self-limitation reflected the lesson of 1956 and 1968: never challenge the party's monopoly openly.",
+      "evidence": [
+       "F-ACCEPT-23"
+      ],
+      "strongestCounter": "Self-limitation did not prevent martial law."
+     },
+     {
+      "claim": "Martial law showed that power still lay in Moscow, so Poland alone could not end Communism.",
+      "evidence": [
+       "F-ACCEPT-24",
+       "F-ACCEPT-25"
+      ],
+      "strongestCounter": "Michnik called martial law 'a disaster for the totalitarian state', since no other regime had needed it."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the reasons for, and the consequences of, the rise of Solidarity in Poland between 1980 and 1981.",
+     "To what extent did the Brezhnev Doctrine secure Soviet control of eastern Europe between 1968 and 1981?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Solidarity rose so fast in 1980 because, unlike in earlier protests, workers and intellectuals acted together.",
+     "prove": "After 1976 KOR gave workers legal help, and in August 1980 intellectuals such as Geremek and Mazowiecki helped the Gdańsk strikers negotiate.",
+     "explain": "This meant that the strikers could turn a protest about meat prices into lasting demands, such as free trade unions, which the regime conceded.",
+     "test": "However, the trigger was the price rise of 1 July 1980, so economic grievance still lit the fuse, as in 1970 and 1976.",
+     "judge": "The alliance of workers and intellectuals was therefore the decisive difference between 1980 and earlier Polish protests."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When was Solidarity registered as an independent trade union?",
+      "factIds": [
+       "F-ACCEPT-22"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "10 November 1980",
+        "correct": true,
+        "explanation": "Correct: the first in a Communist country."
+       },
+       {
+        "id": "b",
+        "text": "14 August 1980",
+        "correct": false,
+        "explanation": "That is when Wałęsa took the lead of the Gdańsk strike."
+       },
+       {
+        "id": "c",
+        "text": "13 December 1981",
+        "correct": false,
+        "explanation": "That is when martial law was declared."
+       },
+       {
+        "id": "d",
+        "text": "16 October 1978",
+        "correct": false,
+        "explanation": "That is when Wojtyła became Pope."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C12",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many members did Solidarity have when it was registered? (millions)",
+      "factIds": [
+       "F-ACCEPT-22"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 10,
+        "tolerance": 0,
+        "explanation": "About ten million."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-C13",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did Jaruzelski say he declared martial law on 13 December 1981?",
+      "factIds": [
+       "F-ACCEPT-24"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To forestall a Soviet intervention",
+        "correct": true,
+        "explanation": "Correct: 'ostensibly', as Judt notes."
+       },
+       {
+        "id": "b",
+        "text": "To hold free elections",
+        "correct": false,
+        "explanation": "Solidarity's leaders were imprisoned."
+       },
+       {
+        "id": "c",
+        "text": "To welcome the Pope",
+        "correct": false,
+        "explanation": "The Pope's second visit was in June 1983."
+       },
+       {
+        "id": "d",
+        "text": "To leave the Warsaw Pact",
+        "correct": false,
+        "explanation": "Poland stayed in the Pact."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1968,
+      "month": 1,
+      "day": 5,
+      "text": "Dubček becomes First Secretary",
+      "factId": "F-ACCEPT-01"
+     },
+     {
+      "year": 1968,
+      "month": 6,
+      "day": 26,
+      "text": "Censorship abolished in Czechoslovakia",
+      "factId": "F-ACCEPT-03"
+     },
+     {
+      "year": 1968,
+      "month": 8,
+      "day": 3,
+      "text": "Bratislava: the Brezhnev Doctrine",
+      "factId": "F-ACCEPT-06"
+     },
+     {
+      "year": 1968,
+      "month": 8,
+      "day": 21,
+      "text": "Warsaw Pact invasion of Czechoslovakia",
+      "factId": "F-ACCEPT-07"
+     },
+     {
+      "year": 1969,
+      "month": 1,
+      "day": 19,
+      "text": "Jan Palach dies",
+      "factId": "F-ACCEPT-09"
+     },
+     {
+      "year": 1969,
+      "month": 4,
+      "day": 17,
+      "text": "Husák replaces Dubček",
+      "factId": "F-ACCEPT-10"
+     },
+     {
+      "year": 1975,
+      "month": 8,
+      "text": "Helsinki Final Act signed",
+      "factId": "F-ACCEPT-16"
+     },
+     {
+      "year": 1976,
+      "month": 9,
+      "text": "KOR founded in Poland",
+      "factId": "F-ACCEPT-19"
+     },
+     {
+      "year": 1977,
+      "month": 1,
+      "text": "Charter 77",
+      "factId": "F-ACCEPT-18"
+     },
+     {
+      "year": 1978,
+      "month": 10,
+      "day": 16,
+      "text": "Wojtyła elected Pope",
+      "factId": "F-ACCEPT-20"
+     },
+     {
+      "year": 1980,
+      "month": 11,
+      "day": 10,
+      "text": "Solidarity registered",
+      "factId": "F-ACCEPT-22"
+     },
+     {
+      "year": 1981,
+      "month": 12,
+      "day": 13,
+      "text": "Martial law in Poland",
+      "factId": "F-ACCEPT-24"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Prague Spring: censorship abolished, reform from inside the party",
+      "factId": "F-ACCEPT-03"
+     },
+     {
+      "id": "n2",
+      "text": "Brezhnev Doctrine and invasion, August 1968",
+      "factId": "F-ACCEPT-07"
+     },
+     {
+      "id": "n3",
+      "text": "Normalisation: belief in reform Communism destroyed",
+      "factId": "F-ACCEPT-11"
+     },
+     {
+      "id": "n4",
+      "text": "Regimes buy conformity; dissidents use Helsinki rights",
+      "factId": "F-ACCEPT-16"
+     },
+     {
+      "id": "n5",
+      "text": "Poland: workers, intellectuals and the Church unite in Solidarity",
+      "factId": "F-ACCEPT-22"
+     },
+     {
+      "id": "n6",
+      "text": "Martial law: control restored, legitimacy lost",
+      "factId": "F-ACCEPT-24"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Moscow feared the party's loss of monopoly control would spread"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Reform from above was shown to be impossible"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Opponents stopped trying to reform the party and appealed to rights"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "In Poland rights movements joined workers' protests over prices"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Power still lay in Moscow, so the regime chose force"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Alexander Dubček",
+     "role": "Czechoslovak First Secretary, January 1968 – April 1969",
+     "whyItMatters": "Led 'Socialism with a human face' but misjudged Moscow.",
+     "factIds": [
+      "F-ACCEPT-01",
+      "F-ACCEPT-04"
+     ]
+    },
+    {
+     "name": "Leonid Brezhnev",
+     "role": "Soviet leader",
+     "whyItMatters": "Set out the doctrine that a socialist state could not deviate from socialism; approved the invasion.",
+     "factIds": [
+      "F-ACCEPT-06",
+      "F-ACCEPT-07"
+     ]
+    },
+    {
+     "name": "Gustáv Husák",
+     "role": "Czechoslovak party leader from April 1969",
+     "whyItMatters": "Led 'normalization': purges, conformity and consumer goods.",
+     "factIds": [
+      "F-ACCEPT-10"
+     ]
+    },
+    {
+     "name": "Nicolae Ceauşescu",
+     "role": "Romanian leader from 1965",
+     "whyItMatters": "Distanced Romania from Moscow while ruling with peculiar repression.",
+     "factIds": [
+      "F-ACCEPT-14",
+      "F-ACCEPT-15"
+     ]
+    },
+    {
+     "name": "Václav Havel",
+     "role": "Playwright and Charter 77 spokesman",
+     "whyItMatters": "Urged people to 'live in truth'; imprisoned in 1979.",
+     "factIds": [
+      "F-ACCEPT-17",
+      "F-ACCEPT-18"
+     ]
+    },
+    {
+     "name": "Lech Wałęsa",
+     "role": "Gdańsk electrician; Solidarity's leader",
+     "whyItMatters": "Led the 1980 strike and was elected Solidarity's president in 1981.",
+     "factIds": [
+      "F-ACCEPT-21",
+      "F-ACCEPT-22"
+     ]
+    },
+    {
+     "name": "Wojciech Jaruzelski",
+     "role": "Polish prime minister from February 1981 and party leader from October",
+     "whyItMatters": "Declared martial law on 13 December 1981.",
+     "factIds": [
+      "F-ACCEPT-24"
+     ]
+    },
+    {
+     "name": "John Paul II",
+     "role": "Pope from October 1978, formerly Cardinal of Kraków",
+     "whyItMatters": "Made the Church an alternative moral authority in Poland.",
+     "factIds": [
+      "F-ACCEPT-20"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Relation to Moscow",
+     "Treatment of its own people"
+    ],
+    "rows": [
+     {
+      "criterion": "Kádár's Hungary",
+      "cells": [
+       "Loyal ally; reassured Moscow there was no 'model'",
+       "Limited markets and consumer goods for outward conformity"
+      ],
+      "factIds": [
+       "F-ACCEPT-12",
+       "F-ACCEPT-13"
+      ]
+     },
+     {
+      "criterion": "Ceauşescu's Romania",
+      "cells": [
+       "Distant: no Pact manoeuvres, less Comecon trade",
+       "Peculiarly vicious; no opposition allowed"
+      ],
+      "factIds": [
+       "F-ACCEPT-14",
+       "F-ACCEPT-15"
+      ]
+     },
+     {
+      "criterion": "Husák's Czechoslovakia",
+      "cells": [
+       "Installed after the invasion",
+       "Purges, humiliation and consumer goods"
+      ],
+      "factIds": [
+       "F-ACCEPT-10"
+      ]
+     },
+     {
+      "criterion": "Poland",
+      "cells": [
+       "Martial law 'to forestall' Soviet intervention",
+       "Workers, intellectuals and Church in Solidarity"
+      ],
+      "factIds": [
+       "F-ACCEPT-22",
+       "F-ACCEPT-24"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-ACCEPT-03",
+    "year": 1968,
+    "text": "26 June 1968: censorship abolished in Czechoslovakia; the next day Vaculík's 'Two Thousand Words' called for new parties.",
+    "supports": [
+     "Free speech let pressure from below outrun the party"
+    ],
+    "lexicon": [
+     "Prague Spring",
+     "censorship",
+     "Two Thousand Words"
+    ]
+   },
+   {
+    "factId": "F-ACCEPT-06",
+    "year": 1968,
+    "text": "3 August 1968, Bratislava: Brezhnev declared that no party could deviate from socialist principles, since a weak link affected all.",
+    "supports": [
+     "The Brezhnev Doctrine limited the satellites' sovereignty"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B4-GLASNOST",
+     "P3-18-B4-COLLAPSE"
+    ],
+    "lexicon": [
+     "Brezhnev Doctrine",
+     "limited sovereignty"
+    ]
+   },
+   {
+    "factId": "F-ACCEPT-07",
+    "year": 1968,
+    "text": "21 August 1968: 500,000 Warsaw Pact troops invaded Czechoslovakia.",
+    "supports": [
+     "Moscow would use force against any lapse in the party's monopoly"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-EASTERN-EUROPE"
+    ],
+    "lexicon": [
+     "invasion",
+     "Warsaw Pact"
+    ]
+   },
+   {
+    "factId": "F-ACCEPT-10",
+    "year": 1969,
+    "text": "17 April 1969: Husák replaced Dubček; normalisation purged the party and humiliated the intellectuals.",
+    "supports": [
+     "Control was restored by pressure and consumerism"
+    ],
+    "lexicon": [
+     "normalisation",
+     "Husák"
+    ]
+   },
+   {
+    "factId": "F-ACCEPT-14",
+    "year": 1968,
+    "text": "Romania refused Warsaw Pact manoeuvres and cut trade with Comecon from 70 to 45 per cent; Ceauşescu skipped Bratislava.",
+    "supports": [
+     "Some satellites could distance themselves from Moscow"
+    ],
+    "lexicon": [
+     "Ceauşescu",
+     "national Stalinism"
+    ]
+   },
+   {
+    "factId": "F-ACCEPT-18",
+    "year": 1977,
+    "text": "Charter 77: 243 original signatories demanded the rights Prague had signed at Helsinki; Havel later jailed.",
+    "supports": [
+     "Dissent used the regimes' own legal promises"
+    ],
+    "lexicon": [
+     "Charter 77",
+     "Helsinki",
+     "human rights"
+    ]
+   },
+   {
+    "factId": "F-ACCEPT-22",
+    "year": 1980,
+    "text": "10 November 1980: Solidarity registered, the first independent trade union in a Communist country, with about ten million members.",
+    "supports": [
+     "Society could organise outside the party"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B4-COLLAPSE",
+     "P3-18-B6-POLAND"
+    ],
+    "lexicon": [
+     "Solidarity",
+     "Wałęsa"
+    ]
+   },
+   {
+    "factId": "F-ACCEPT-24",
+    "year": 1981,
+    "text": "13 December 1981: Jaruzelski declared martial law, ostensibly to forestall a Soviet intervention.",
+    "supports": [
+     "Power still lay in Moscow"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-EASTERN-EUROPE"
+    ],
+    "lexicon": [
+     "martial law",
+     "Jaruzelski"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "1968 was a more decisive turning point than 1956: the illusion that Communism was reformable 'was crushed under the tanks on August 21st 1968 and it never recovered'; afterwards Communism was sustained by 'foreign loans and Russian bayonets', and even Solidarity remained a sideshow while power lay in Moscow.",
+    "useItLikeThis": "Judt's view supports the claim that after 1968 Soviet control was secure but illegitimate, which suggests that the collapse of 1989 depended on a change in Moscow rather than on opposition in the satellites.",
+    "factId": "F-ACCEPT-11"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Dubček wanted to take Czechoslovakia out of the Soviet bloc.",
+    "right": "He promised to stay in the **Warsaw Pact** and rejected calls for new parties; Moscow feared the party's loss of control."
+   },
+   {
+    "wrong": "Romania's independence from Moscow made it freer.",
+    "right": "Ceauşescu's Romania was **peculiarly repressive**; distance from Moscow was not freedom at home."
+   },
+   {
+    "wrong": "Solidarity aimed to overthrow Communism in 1980.",
+    "right": "It called itself a **self-limiting revolution** and accepted the party's leading role."
+   },
+   {
+    "wrong": "The Soviet Union invaded Poland in 1981.",
+    "right": "**Jaruzelski**, a Polish general, declared martial law, saying he was forestalling Soviet intervention."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1968,
+     "month": 1,
+     "day": 5,
+     "text": "Dubček"
+    },
+    {
+     "year": 1968,
+     "month": 8,
+     "day": 21,
+     "text": "Invasion of Czechoslovakia"
+    },
+    {
+     "year": 1969,
+     "month": 4,
+     "day": 17,
+     "text": "Husák"
+    },
+    {
+     "year": 1975,
+     "month": 8,
+     "text": "Helsinki"
+    },
+    {
+     "year": 1977,
+     "month": 1,
+     "text": "Charter 77"
+    },
+    {
+     "year": 1978,
+     "month": 10,
+     "day": 16,
+     "text": "John Paul II"
+    },
+    {
+     "year": 1980,
+     "month": 11,
+     "day": 10,
+     "text": "Solidarity registered"
+    },
+    {
+     "year": 1981,
+     "month": 12,
+     "day": 13,
+     "text": "Martial law"
+    }
+   ],
+   "keyArguments": [
+    "The Prague Spring threatened the party's monopoly; Moscow feared contagion more than military danger.",
+    "The Brezhnev Doctrine and the invasion secured control but destroyed belief in reform Communism (Judt).",
+    "After 1968 regimes asked only for conformity, bought with consumer goods; Romania chose repressive independence.",
+    "Helsinki gave dissidents a language of rights; Charter 77 and KOR talked past the regimes.",
+    "Solidarity united workers, intellectuals and the Church, but martial law showed power still lay in Moscow."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Dubček becomes First Secretary",
+     "year": 1968,
+     "month": 1,
+     "factId": "F-ACCEPT-01"
+    },
+    {
+     "id": "b",
+     "text": "Invasion of Czechoslovakia",
+     "year": 1968,
+     "month": 8,
+     "factId": "F-ACCEPT-07"
+    },
+    {
+     "id": "c",
+     "text": "Helsinki Final Act",
+     "year": 1975,
+     "month": 8,
+     "factId": "F-ACCEPT-16"
+    },
+    {
+     "id": "d",
+     "text": "Solidarity registered",
+     "year": 1980,
+     "month": 11,
+     "factId": "F-ACCEPT-22"
+    },
+    {
+     "id": "e",
+     "text": "Martial law in Poland",
+     "year": 1981,
+     "month": 12,
+     "factId": "F-ACCEPT-24"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1968 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Dubček elected",
+     "year": 1968,
+     "month": 1,
+     "factId": "F-ACCEPT-01"
+    },
+    {
+     "id": "b",
+     "text": "Censorship abolished",
+     "year": 1968,
+     "month": 6,
+     "factId": "F-ACCEPT-03"
+    },
+    {
+     "id": "c",
+     "text": "Warsaw Letter of five parties",
+     "year": 1968,
+     "month": 7,
+     "factId": "F-ACCEPT-05"
+    },
+    {
+     "id": "d",
+     "text": "Invasion",
+     "year": 1968,
+     "month": 8,
+     "factId": "F-ACCEPT-07"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these Polish events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "KOR founded",
+     "year": 1976,
+     "month": 9,
+     "factId": "F-ACCEPT-19"
+    },
+    {
+     "id": "b",
+     "text": "Wojtyła elected Pope",
+     "year": 1978,
+     "month": 10,
+     "factId": "F-ACCEPT-20"
+    },
+    {
+     "id": "c",
+     "text": "Meat price rise sets off strikes",
+     "year": 1980,
+     "month": 7,
+     "factId": "F-ACCEPT-21"
+    },
+    {
+     "id": "d",
+     "text": "Martial law",
+     "year": 1981,
+     "month": 12,
+     "factId": "F-ACCEPT-24"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Ludvík Vaculík",
+     "right": "Author of 'Two Thousand Words'",
+     "explanation": "Published on 27 June 1968."
+    },
+    {
+     "left": "Jan Palach",
+     "right": "Student who set fire to himself in protest",
+     "explanation": "Died on 19 January 1969."
+    },
+    {
+     "left": "Jacek Kuroń",
+     "right": "Founder of KOR",
+     "explanation": "September 1976."
+    },
+    {
+     "left": "Tadeusz Mazowiecki",
+     "right": "Catholic lawyer who helped the Gdańsk strikers negotiate",
+     "explanation": "August 1980."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Romania's trade with Comecon fell from 70 per cent of its foreign trade to what percentage ten years later? (number)",
+   "factIds": [
+    "F-ACCEPT-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 45,
+     "tolerance": 0,
+     "explanation": "45 per cent: Romania turned to the West."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many additional people signed Charter 77 in the decade after 1977? (number)",
+   "factIds": [
+    "F-ACCEPT-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1621,
+     "tolerance": 0,
+     "explanation": "1,621, in a population of 15 million."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did martial law in Poland end? (year)",
+   "factIds": [
+    "F-ACCEPT-24"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1983,
+     "tolerance": 0,
+     "explanation": "July 1983, after the Pope's second visit."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R08",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were part of the Prague Spring? Choose all that apply.",
+   "factIds": [
+    "F-ACCEPT-02",
+    "F-ACCEPT-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Action Programme",
+     "correct": true,
+     "explanation": "Yes: 'Socialism with a human face'."
+    },
+    {
+     "id": "b",
+     "text": "The abolition of censorship",
+     "correct": true,
+     "explanation": "Yes: on 26 June 1968."
+    },
+    {
+     "id": "c",
+     "text": "Federalisation of the state",
+     "correct": true,
+     "explanation": "Yes: the only reform to survive."
+    },
+    {
+     "id": "d",
+     "text": "Withdrawal from the Warsaw Pact",
+     "correct": false,
+     "explanation": "No: Dubček promised to stay."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these helped Solidarity grow in 1980? Choose all that apply.",
+   "factIds": [
+    "F-ACCEPT-19",
+    "F-ACCEPT-20",
+    "F-ACCEPT-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "KOR's links between workers and intellectuals",
+     "correct": true,
+     "explanation": "Yes: workers and intellectuals now acted together."
+    },
+    {
+     "id": "b",
+     "text": "The Pope's visit of June 1979",
+     "correct": true,
+     "explanation": "Yes: it emboldened activists."
+    },
+    {
+     "id": "c",
+     "text": "The meat price rise of July 1980",
+     "correct": true,
+     "explanation": "Yes: the trigger for mass strikes."
+    },
+    {
+     "id": "d",
+     "text": "Soviet support for free trade unions",
+     "correct": false,
+     "explanation": "No: Moscow saw Poland as adrift."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R10",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Five weeks before the invasion, the US and the USSR co-signed the Non-proliferation Treaty.” Which argument does it support?",
+   "factIds": [
+    "F-ACCEPT-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Moscow knew the West would not intervene in Czechoslovakia",
+     "correct": true,
+     "explanation": "Correct: Washington would not risk such gains."
+    },
+    {
+     "id": "b",
+     "text": "The US supported the Prague Spring with arms",
+     "correct": false,
+     "explanation": "It did not."
+    },
+    {
+     "id": "c",
+     "text": "The invasion was a NATO operation",
+     "correct": false,
+     "explanation": "It was a Warsaw Pact invasion."
+    },
+    {
+     "id": "d",
+     "text": "Dubček relied on American protection",
+     "correct": false,
+     "explanation": "He relied on staying in the Warsaw Pact."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Solidarity's advisers accepted the party's 'leading role' and kept foreign policy off its agenda.” Which argument does it support?",
+   "factIds": [
+    "F-ACCEPT-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Solidarity limited its aims to avoid a Soviet invasion",
+     "correct": true,
+     "explanation": "Correct: the memory of 1956 and 1968."
+    },
+    {
+     "id": "b",
+     "text": "Solidarity wanted to overthrow Communism at once",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Solidarity was controlled by the party",
+     "correct": false,
+     "explanation": "It was independent."
+    },
+    {
+     "id": "d",
+     "text": "Solidarity supported the Brezhnev Doctrine",
+     "correct": false,
+     "explanation": "It avoided provoking it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R12",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In 1968 Dubček announced that Czechoslovakia would leave the Warsaw Pact, so Moscow invaded.”",
+   "factIds": [
+    "F-ACCEPT-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Dubček promised to stay in the Pact; Moscow feared the party's loss of control",
+     "correct": true,
+     "explanation": "Correct: he misread the lesson of 1956."
+    },
+    {
+     "id": "b",
+     "text": "The invasion was in 1956",
+     "correct": false,
+     "explanation": "Hungary was 1956; Czechoslovakia was 1968."
+    },
+    {
+     "id": "c",
+     "text": "Dubček was Polish",
+     "correct": false,
+     "explanation": "He was Slovak."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Dubček never announced withdrawal."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In December 1981 Soviet troops invaded Poland and arrested Solidarity's leaders.”",
+   "factIds": [
+    "F-ACCEPT-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Polish government under Jaruzelski declared martial law; there was no Soviet invasion",
+     "correct": true,
+     "explanation": "Correct: he claimed to be forestalling one."
+    },
+    {
+     "id": "b",
+     "text": "The year should be 1956",
+     "correct": false,
+     "explanation": "1981 is correct."
+    },
+    {
+     "id": "c",
+     "text": "Solidarity's leaders were not arrested",
+     "correct": false,
+     "explanation": "They were imprisoned."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: who acted."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R14",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about acceptance and opposition between 1968 and 1989. Is the Hungarian uprising of 1956 inside or outside the timeframe?",
+   "timeframe": [
+    1968,
+    1989
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: use it only as background, for example to explain Dubček's misreading."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1956 is before 1968."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Kádár was still in power",
+     "correct": false,
+     "explanation": "A person's continuity does not bring an earlier event into the period."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R15",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Havel urge people to do?",
+   "factIds": [
+    "F-ACCEPT-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To 'live in truth'",
+     "correct": true,
+     "explanation": "Correct: to act as if free, whatever the regime imposed."
+    },
+    {
+     "id": "b",
+     "text": "To join the Communist Party and reform it",
+     "correct": false,
+     "explanation": "After 1968 dissidents gave up on that."
+    },
+    {
+     "id": "c",
+     "text": "To take up arms",
+     "correct": false,
+     "explanation": "Charter 77 was explicitly non-political."
+    },
+    {
+     "id": "d",
+     "text": "To emigrate",
+     "correct": false,
+     "explanation": "Not his message."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Soviet Union gain from the Helsinki Final Act?",
+   "factIds": [
+    "F-ACCEPT-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Western recognition of the post-war borders and a promise of non-intervention",
+     "correct": true,
+     "explanation": "Correct: Brezhnev could not have wished for more."
+    },
+    {
+     "id": "b",
+     "text": "Membership of NATO",
+     "correct": false,
+     "explanation": "Unrelated."
+    },
+    {
+     "id": "c",
+     "text": "An end to human rights obligations",
+     "correct": false,
+     "explanation": "Principle VII created them."
+    },
+    {
+     "id": "d",
+     "text": "The reunification of Germany",
+     "correct": false,
+     "explanation": "Helsinki confirmed the division."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Where did the 1980 strike that produced Solidarity reach on 2 August?",
+   "factIds": [
+    "F-ACCEPT-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Lenin Shipyard in Gdańsk",
+     "correct": true,
+     "explanation": "Correct: Wałęsa took the lead on 14 August."
+    },
+    {
+     "id": "b",
+     "text": "Poznań",
+     "correct": false,
+     "explanation": "Poznań was the scene of 1956."
+    },
+    {
+     "id": "c",
+     "text": "Prague",
+     "correct": false,
+     "explanation": "Prague is in Czechoslovakia."
+    },
+    {
+     "id": "d",
+     "text": "Radom",
+     "correct": false,
+     "explanation": "Radom was the scene of 1976."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why was Husák a useful choice for Moscow in 1969?",
+   "factIds": [
+    "F-ACCEPT-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "As a Slovak and former victim of Stalinist trials, he could purge reformers without seeming a Stalinist",
+     "correct": true,
+     "explanation": "Correct: Judt's explanation."
+    },
+    {
+     "id": "b",
+     "text": "He had led the Prague Spring",
+     "correct": false,
+     "explanation": "Dubček led it."
+    },
+    {
+     "id": "c",
+     "text": "He was a Soviet citizen",
+     "correct": false,
+     "explanation": "He was Slovak."
+    },
+    {
+     "id": "d",
+     "text": "He supported Charter 77",
+     "correct": false,
+     "explanation": "Charter 77 came later and opposed his regime."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who declined to attend the Warsaw Pact meeting at Bratislava in August 1968?",
+   "factIds": [
+    "F-ACCEPT-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ceauşescu",
+     "correct": true,
+     "explanation": "Correct: Romania kept its distance from Moscow."
+    },
+    {
+     "id": "b",
+     "text": "Gomułka",
+     "correct": false,
+     "explanation": "Gomułka was among those angered by Prague."
+    },
+    {
+     "id": "c",
+     "text": "Ulbricht",
+     "correct": false,
+     "explanation": "Ulbricht favoured a military dictatorship in Prague."
+    },
+    {
+     "id": "d",
+     "text": "Brezhnev",
+     "correct": false,
+     "explanation": "Brezhnev set out his doctrine there."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, how should the Polish revolution of 1980–81 be understood?",
+   "factIds": [
+    "F-ACCEPT-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "As the last in a series of workers' protests since 1970, not the start of Communism's fall",
+     "correct": true,
+     "explanation": "Correct: power still lay in Moscow."
+    },
+    {
+     "id": "b",
+     "text": "As the moment Communism ended",
+     "correct": false,
+     "explanation": "Judt rejects this hindsight."
+    },
+    {
+     "id": "c",
+     "text": "As a Soviet plot",
+     "correct": false,
+     "explanation": "Not Judt's view."
+    },
+    {
+     "id": "d",
+     "text": "As a peasant revolt",
+     "correct": false,
+     "explanation": "It was a workers' movement."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent did the Brezhnev Doctrine secure Soviet control of eastern Europe between 1968 and 1981?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the Brezhnev Doctrine",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "secure Soviet control of eastern Europe",
+     "answer": "scope",
+     "explanation": "What the factor must explain."
+    },
+    {
+     "id": "s4",
+     "text": "between 1968 and 1981",
+     "answer": "timeframe",
+     "explanation": "From Prague to martial law."
+    },
+    {
+     "id": "s5",
+     "text": "secure",
+     "answer": "judgement",
+     "explanation": "How far control rested on the Doctrine, compared with consumerism and local regimes."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the reasons for, and the consequences of, the rise of Solidarity in Poland between 1980 and 1981.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Evaluate",
+     "answer": "verb",
+     "explanation": "Weigh, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "the reasons for, and the consequences of,",
+     "answer": "factor",
+     "explanation": "Two tasks: reasons AND consequences."
+    },
+    {
+     "id": "s3",
+     "text": "the rise of Solidarity in Poland",
+     "answer": "scope",
+     "explanation": "The movement to explain."
+    },
+    {
+     "id": "s4",
+     "text": "between 1980 and 1981",
+     "answer": "timeframe",
+     "explanation": "From the strikes to martial law."
+    },
+    {
+     "id": "s5",
+     "text": "Evaluate",
+     "answer": "judgement",
+     "explanation": "Which reasons mattered most, and how serious the consequences were."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did the Brezhnev Doctrine secure Soviet control of eastern Europe between 1968 and 1981?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Doctrine largely secured control by making force credible, so no regime risked reform for a decade; but it destroyed belief in reform Communism, and Poland in 1980–81 showed that fear alone could not stop society organising.",
+     "correct": true,
+     "explanation": "Correct: degree, mechanism and a limit."
+    },
+    {
+     "id": "b",
+     "text": "Brezhnev announced his Doctrine at Bratislava in August 1968.",
+     "correct": false,
+     "explanation": "A fact, not a judgement."
+    },
+    {
+     "id": "c",
+     "text": "The Doctrine had good and bad effects.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Doctrine secured control because Gorbachev abandoned it.",
+     "correct": false,
+     "explanation": "Wrong timeframe and illogical."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the reasons for the Warsaw Pact invasion of Czechoslovakia in 1968.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Moscow invaded mainly because the abolition of censorship threatened the party's monopoly and might spread to neighbours; the certainty that the West would not act made the decision easy.",
+     "correct": true,
+     "explanation": "Correct: ranks the reasons."
+    },
+    {
+     "id": "b",
+     "text": "The invasion took place on 21 August 1968.",
+     "correct": false,
+     "explanation": "A fact, not a thesis: it gives no reasons."
+    },
+    {
+     "id": "c",
+     "text": "Czechoslovakia wanted to join NATO.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    },
+    {
+     "id": "d",
+     "text": "Moscow invaded because of Solidarity.",
+     "correct": false,
+     "explanation": "Solidarity came in 1980."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 21 August 1968 Warsaw Pact troops entered Czechoslovakia.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because Moscow had shown it would use force against reform, no satellite leader risked it for a decade.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 13 December 1981 Jaruzelski declared martial law.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the Polish regime had to rule by force against its own people, which exposed its lack of legitimacy.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Censorship abolished on 26 June 1968",
+     "right": "Free speech let pressure outrun the party",
+     "explanation": "Two Thousand Words followed."
+    },
+    {
+     "left": "Brezhnev at Bratislava: a weak link affects all",
+     "right": "The satellites' sovereignty was limited",
+     "explanation": "The Brezhnev Doctrine."
+    },
+    {
+     "left": "Romania cut Comecon trade from 70 to 45 per cent",
+     "right": "Some satellites distanced themselves from Moscow",
+     "explanation": "Ceauşescu's independence."
+    },
+    {
+     "left": "Solidarity accepted the party's leading role",
+     "right": "Opposition limited itself to avoid invasion",
+     "explanation": "A self-limiting revolution."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Charter 77 was important.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Charter 77 mattered because it demanded rights Prague had already signed at Helsinki, so the regime could not dismiss it as illegal, even though only 243 people signed at first.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and a limit."
+    },
+    {
+     "id": "b",
+     "text": "Charter 77 was very important for everyone.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Charter 77 was published in January 1977.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Charter 77 destroyed Communism.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Solidarity brought down Communism in Poland in 1980–81.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Martial law in December 1981 imprisoned its leaders and the union was banned; Judt argues power lay in Moscow, so Solidarity was a prologue, not the cause of the fall.",
+     "correct": true,
+     "explanation": "Correct: evidence and a historian."
+    },
+    {
+     "id": "b",
+     "text": "Solidarity was a trade union.",
+     "correct": false,
+     "explanation": "A fact, not an argument."
+    },
+    {
+     "id": "c",
+     "text": "Wałęsa was an electrician.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Communism lasted until 1989.",
+     "correct": false,
+     "explanation": "A fact, not yet developed into an argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that the Prague Spring failed because Dubček misjudged Moscow.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether a different strategy could have saved the reforms, Dubček's misjudgement mattered less than Moscow's fear of contagion: once censorship was gone, only ending reform could have prevented invasion.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and limit."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Dubček introduced reforms and then the Soviet Union invaded.",
+     "correct": false,
+     "explanation": "A recap of events with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Dubček made mistakes.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Brezhnev was evil.",
+     "correct": false,
+     "explanation": "A value judgement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons for, and the consequences of, the rise of Solidarity in Poland between 1980 and 1981.” Sort each plan point into REASONS or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons (causes)"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences (effects)"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The meat price rise of 1 July 1980",
+     "answer": "causes",
+     "explanation": "The trigger."
+    },
+    {
+     "id": "s2",
+     "text": "KOR's links between workers and intellectuals",
+     "answer": "causes",
+     "explanation": "The organisation."
+    },
+    {
+     "id": "s3",
+     "text": "The Pope's 1979 visit",
+     "answer": "causes",
+     "explanation": "Moral authority and confidence."
+    },
+    {
+     "id": "s4",
+     "text": "Martial law on 13 December 1981",
+     "answer": "effects",
+     "explanation": "The regime's response."
+    },
+    {
+     "id": "s5",
+     "text": "Collapse of industrial productivity in 1981",
+     "answer": "effects",
+     "explanation": "Strikes and protests continued."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent did the Brezhnev Doctrine secure Soviet control of eastern Europe between 1968 and 1981?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the Brezhnev Doctrine",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1968,
+    1981
+   ],
+   "scope": "Eastern Europe; Soviet control",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The Brezhnev Doctrine, weighed first",
+    "timeframe": "1968–1981",
+    "scope": "Soviet control of eastern Europe",
+    "judgement": "How far control rested on the Doctrine, compared with consumerism and local regimes"
+   },
+   "modelPlan": {
+    "thesis": "The Doctrine largely secured control by making force credible, so no regime risked reform for a decade; but it destroyed belief in reform Communism, and Poland showed that fear alone could not stop society organising.",
+    "arguments": [
+     {
+      "claim": "The Doctrine and the invasion made force credible (named factor first).",
+      "evidence": [
+       "F-ACCEPT-06",
+       "F-ACCEPT-07",
+       "F-ACCEPT-11"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Normalisation and Kádárism bought conformity with consumer goods.",
+      "evidence": [
+       "F-ACCEPT-10",
+       "F-ACCEPT-12",
+       "F-ACCEPT-13"
+      ]
+     },
+     {
+      "claim": "Romania's independence showed the Doctrine's limits.",
+      "evidence": [
+       "F-ACCEPT-14"
+      ]
+     },
+     {
+      "claim": "Solidarity and martial law: control by local force.",
+      "evidence": [
+       "F-ACCEPT-22",
+       "F-ACCEPT-24"
+      ]
+     }
+    ],
+    "counter": "Control after 1968 rested as much on consumer goods and foreign loans as on the Doctrine.",
+    "judgementCriterion": "Did any regime abandon the party's monopoly between 1968 and 1981? None did, so the Doctrine worked, even in Poland, where the regime imposed martial law itself."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Brezhnev Doctrine largely secured Soviet control because it made the threat of invasion credible.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "At Bratislava on 3 August 1968 Brezhnev declared that the weakening of any link affected all socialist countries, and on 21 August 500,000 Warsaw Pact troops entered Czechoslovakia.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that every satellite leader knew a lapse in the party's monopoly would bring tanks, so none attempted reform for a decade.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in Poland ten million people joined Solidarity in 1980, which shows that fear could not stop society organising outside the party.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Doctrine therefore secured the regimes' monopoly, but not the consent of their peoples.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Brezhnev Doctrine"
+    ],
+    "synonyms": [
+     "limited sovereignty",
+     "Bratislava"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "normalisation",
+     "martial law",
+     "Warsaw Pact"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Prague Spring failed because Dubček misjudged Moscow.” Discuss with reference to 1968.",
+   "commandTerm": "discuss",
+   "namedFactor": "Dubček",
+   "features": [
+    "proposition",
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1968,
+    1968
+   ],
+   "scope": "Czechoslovakia; the Prague Spring",
+   "decodeKey": {
+    "verb": "Discuss: test the claim for and against, then judge",
+    "factorOrTask": "Dubček's misjudgement, weighed first",
+    "timeframe": "1968",
+    "scope": "The failure of the Prague Spring",
+    "judgement": "How far Dubček's misjudgement, rather than Moscow's fears, explains the failure"
+   },
+   "modelPlan": {
+    "thesis": "The claim is partly right: Dubček misread the lesson of 1956; but the deeper cause was Moscow's fear that the loss of party control would spread, which no Czech strategy short of ending reform could have removed.",
+    "arguments": [
+     {
+      "claim": "For: Dubček misread 1956 and reassured Moscow on the wrong point (named factor first).",
+      "evidence": [
+       "F-ACCEPT-04"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "For: he abolished censorship and lost control of the agenda.",
+      "evidence": [
+       "F-ACCEPT-03"
+      ]
+     },
+     {
+      "claim": "Against: Moscow's fear of contagion, voiced by neighbours.",
+      "evidence": [
+       "F-ACCEPT-05"
+      ]
+     },
+     {
+      "claim": "Against: the certainty that the West would not act; an invitation from five Praesidium members.",
+      "evidence": [
+       "F-ACCEPT-06",
+       "F-ACCEPT-07"
+      ]
+     }
+    ],
+    "counter": "Dubček rejected 'Two Thousand Words' and defended the monopoly, so he did not intend the outcome Moscow feared.",
+    "judgementCriterion": "Could any Czech strategy short of ending reform have prevented invasion? Probably not, so Moscow's fears matter more than Dubček's judgement."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Dubček did misjudge Moscow, but the Prague Spring failed mainly because of Soviet fears he could not remove.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The reformers believed Nagy's mistake had been leaving the Warsaw Pact, yet by 1968, as Judt argues, Moscow feared the party's loss of monopoly control more than any military threat.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Dubček's loyalty to the alliance reassured Moscow on the wrong point, while the abolition of censorship confirmed its real fear.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Ukrainian, Polish and East German leaders were already demanding action in March, so contagion, not Dubček's tactics, drove the decision.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore only partly valid: Dubček's misjudgement shaped the timing, but Moscow's fear decided the outcome.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Dubček"
+    ],
+    "synonyms": [
+     "misjudged",
+     "miscalculation"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Action Programme",
+     "Two Thousand Words",
+     "Bratislava"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the reasons for, and the consequences of, the rise of Solidarity in Poland between 1980 and 1981.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1980,
+    1981
+   ],
+   "scope": "Poland; Solidarity",
+   "decodeKey": {
+    "verb": "Evaluate: weigh, then judge",
+    "factorOrTask": "Two tasks: reasons AND consequences",
+    "timeframe": "1980–1981",
+    "scope": "The rise of Solidarity",
+    "judgement": "Which reason mattered most, and which consequence was most serious"
+   },
+   "modelPlan": {
+    "thesis": "Solidarity rose because workers, intellectuals and the Church acted together for the first time, with a price rise as the trigger; its main consequence was martial law, which restored control but exposed the regime's lack of legitimacy.",
+    "arguments": [
+     {
+      "claim": "Reason: the alliance of workers and intellectuals through KOR.",
+      "evidence": [
+       "F-ACCEPT-19",
+       "F-ACCEPT-26"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: the Pope and the Church.",
+      "evidence": [
+       "F-ACCEPT-20"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: free unions conceded; ten million members.",
+      "evidence": [
+       "F-ACCEPT-22",
+       "F-ACCEPT-23"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: martial law in December 1981.",
+      "evidence": [
+       "F-ACCEPT-24",
+       "F-ACCEPT-25"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Judt argues Solidarity was only the last of a series of workers' protests, so its consequences were limited until Moscow changed.",
+    "judgementCriterion": "Which consequence lasted? The proof that society could organise outside the party, which outlived martial law."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Solidarity rose so quickly in 1980 because workers and intellectuals acted together for the first time.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After 1976 KOR gave workers legal help, and in August 1980 Geremek and Mazowiecki helped the Gdańsk strikers win the right to free unions.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that a protest about meat prices became a lasting organisation, registered on 10 November 1980 with about ten million members.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, on 13 December 1981 Jaruzelski declared martial law and imprisoned its leaders, so its immediate consequences were reversed.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Solidarity's rise was therefore decisive in showing what society could do, even though martial law defeated it in 1981.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Solidarity"
+    ],
+    "synonyms": [
+     "Solidarność",
+     "free trade union"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "KOR",
+     "Wałęsa",
+     "martial law"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the approaches of Kádár's Hungary and Ceauşescu's Romania to Soviet control between 1968 and 1980.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_state",
+    "leader"
+   ],
+   "timeframe": [
+    1968,
+    1980
+   ],
+   "scope": "Hungary and Romania",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The approaches of Hungary and Romania",
+    "timeframe": "1968–1980",
+    "scope": "Soviet control",
+    "judgement": "Which differences mattered most"
+   },
+   "modelPlan": {
+    "thesis": "Both regimes kept the party's monopoly and avoided Soviet intervention, but in opposite ways: Kádár stayed loyal to Moscow and loosened control at home, while Ceauşescu distanced Romania from Moscow and tightened control at home.",
+    "arguments": [
+     {
+      "claim": "Similarity: both kept the party's monopoly and avoided intervention.",
+      "evidence": [
+       "F-ACCEPT-12",
+       "F-ACCEPT-14"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both used Western links (travel, trade) to strengthen their position.",
+      "evidence": [
+       "F-ACCEPT-13",
+       "F-ACCEPT-15"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: Kádár loyal abroad, liberal at home.",
+      "evidence": [
+       "F-ACCEPT-12",
+       "F-ACCEPT-13"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: Ceauşescu independent abroad, repressive at home.",
+      "evidence": [
+       "F-ACCEPT-14",
+       "F-ACCEPT-15"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Romania's independence was limited: it stayed in the Warsaw Pact and Comecon, so the two were closer than they looked.",
+    "judgementCriterion": "Which difference mattered most to Moscow? Loyalty abroad: Moscow tolerated both because neither touched the party's monopoly or left the Pact."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Kádár and Ceauşescu both kept their regimes safe from Moscow, but by opposite methods.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Kádár's New Economic Mechanism of 1968 allowed private plots and private shops while he reassured Moscow, whereas Ceauşescu refused Warsaw Pact manoeuvres and cut Comecon trade to 45 per cent while allowing no opposition at home.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Hungary bought domestic calm with loyalty abroad, while Romania bought independence abroad with repression at home.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both preserved the party's monopoly and both stayed in the Warsaw Pact, which is why Moscow tolerated both.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive similarity was therefore the party's monopoly, and the decisive difference the balance between loyalty and freedom.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Hungary",
+     "Romania"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "New Economic Mechanism",
+     "national Stalinism",
+     "Kádárism"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the impact of the Helsinki Accords on opposition in eastern Europe between 1975 and 1981.",
+   "commandTerm": "examine",
+   "namedFactor": "the Helsinki Accords",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1975,
+    1981
+   ],
+   "scope": "Eastern Europe; opposition",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "The Helsinki Accords, weighed first",
+    "timeframe": "1975–1981",
+    "scope": "Opposition in eastern Europe",
+    "judgement": "How far Helsinki changed opposition, compared with economic grievances and the Church"
+   },
+   "modelPlan": {
+    "thesis": "Helsinki changed the language and legitimacy of opposition by giving dissidents rights the regimes had signed, but the mass opposition of 1980 came from economic grievance, the Church and Polish workers.",
+    "arguments": [
+     {
+      "claim": "Principle VII and the Helsinki Rights movement (named factor first).",
+      "evidence": [
+       "F-ACCEPT-16"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Charter 77 and the language of rights.",
+      "evidence": [
+       "F-ACCEPT-17",
+       "F-ACCEPT-18"
+      ]
+     },
+     {
+      "claim": "The regimes could still repress: Havel jailed, Ukrainian group sentenced.",
+      "evidence": [
+       "F-ACCEPT-16",
+       "F-ACCEPT-27"
+      ]
+     },
+     {
+      "claim": "In Poland mass opposition came from prices, KOR and the Church.",
+      "evidence": [
+       "F-ACCEPT-19",
+       "F-ACCEPT-20",
+       "F-ACCEPT-21"
+      ]
+     }
+    ],
+    "counter": "The dissident movements were tiny, so Helsinki's impact on the regimes' stability was small before 1980.",
+    "judgementCriterion": "Did Helsinki change who opposed the regimes, or how? How: it gave a tiny opposition a legal language, while mass opposition had other causes."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Helsinki Accords changed how opposition in eastern Europe argued, more than how strong it was.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Principle VII committed all 35 signatories to respect human rights, and in January 1977 Charter 77 accused Prague of failing to honour rights it had signed.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant dissidents could appear moderate by demanding only existing legal rights, which forced the regimes onto the defensive.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Charter 77 had only 243 original signatories, and in October 1979 Havel was jailed, so the regimes could still contain it.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Helsinki's impact was therefore real but limited: it shaped the ideas of opposition, while mass protest grew from prices and the Church.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Helsinki"
+    ],
+    "synonyms": [
+     "Final Act",
+     "human rights"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Charter 77",
+     "Principle VII",
+     "KOR"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons for the Warsaw Pact invasion of Czechoslovakia in 1968.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1968,
+    1968
+   ],
+   "scope": "Czechoslovakia",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its reasons and show how they connect",
+    "factorOrTask": "The reasons for the invasion",
+    "timeframe": "1968",
+    "scope": "The invasion of Czechoslovakia",
+    "judgement": "Which reason was decisive"
+   },
+   "modelPlan": {
+    "thesis": "Moscow invaded mainly because the abolition of censorship threatened the party's monopoly and might spread to neighbours; an invitation from Czech hardliners and the certainty that the West would not act made the decision easy.",
+    "arguments": [
+     {
+      "claim": "The threat to the party's monopoly.",
+      "evidence": [
+       "F-ACCEPT-03",
+       "F-ACCEPT-04"
+      ]
+     },
+     {
+      "claim": "Fear of contagion in Ukraine, Poland and East Germany.",
+      "evidence": [
+       "F-ACCEPT-05"
+      ]
+     },
+     {
+      "claim": "The Brezhnev Doctrine and the invitation from five Praesidium members.",
+      "evidence": [
+       "F-ACCEPT-06"
+      ]
+     },
+     {
+      "claim": "No Western risk after the Non-proliferation Treaty.",
+      "evidence": [
+       "F-ACCEPT-07"
+      ]
+     }
+    ],
+    "counter": "Brezhnev was reluctant and the decision came only on 18 August, so the invasion was not inevitable.",
+    "judgementCriterion": "Which reason would, if removed, have prevented invasion? The threat to the monopoly; without it the neighbours had nothing to fear."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Warsaw Pact invaded Czechoslovakia mainly because the Prague Spring threatened the party's monopoly of control.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Censorship was abolished on 26 June 1968, and the next day Vaculík called for new political parties.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the party was losing control of the agenda, which Judt argues mattered more to Moscow in 1968 than military security.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Brezhnev seems to have been reluctant, and fear of contagion among neighbouring leaders pushed him towards force.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The threat to the monopoly was therefore the decisive reason, with contagion turning it into an emergency.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "invasion"
+    ],
+    "synonyms": [
+     "intervention",
+     "Operation Danube"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Brezhnev Doctrine",
+     "contagion",
+     "Prague Spring"
+    ]
+   }
+  }
+ ]
+}
