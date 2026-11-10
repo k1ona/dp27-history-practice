@@ -1,0 +1,2875 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-16-B4-ECONOMICS",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 17,
+  "openingProblem": {
+   "problem": "Gorbachev came to power determined to save the Soviet economy. Six years later the shops were empty, prices were rising and the republics were taking over their own economies. Did perestroika fail because it went too far, or because it did not go far enough?",
+   "predictionPrompt": "Your prediction in one line: was perestroika too radical or too cautious?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Why did Gorbachev start with the economy?",
+    "body": "When Gorbachev became General Secretary on 11 March 1985, Judt writes, he intended \"from the outset\" to devote his main efforts to overhauling the Soviet Union's moribund economy and the corrupt apparatus that ran it. The reasons were plain. The economy had hardly grown through the 1970s and was now shrinking. Oil was the main export, and as its price fell from its late-1970s peak, foreign debt climbed: $30.7 billion by 1986 and $54 billion by 1989.\n\nHis first slogan was \"acceleration\". The Library of Congress study notes that, despite Andropov's efforts to restore discipline, the system remained stagnant, and only when Gorbachev called for bolder change did acceleration give way to perestroika.\n\nThe most famous early measure was the **anti-alcohol campaign** of May 1985. Alcoholism was a real social disaster, linked to absenteeism, accidents and rising male mortality. Gorbachev limited the shops allowed to sell alcohol, closed distilleries, destroyed vineyards in Moldavia, Armenia and Georgia and banned restaurant sales before two in the afternoon. People called him the *mineral'nyi sekretar'*, the mineral-water secretary.\n\nThe campaign shows the early method well: a moral campaign from above, using the state's power to change behaviour. It also shows the trap. Alcohol was a huge source of state income: in 1979 the state took about 25.4 billion rubles in indirect taxes on it, more than it raised in income tax. Seventeen Moments explains that the campaign produced moonshine, organised crime and poisonings, and cut state revenue. The government covered the gap by printing money, which fuelled inflation, and the campaign was abandoned after 1987. This mattered because the first reform of the Gorbachev era weakened the budget, which meant that later reforms began with a larger money supply and a bigger deficit.\n\nThe early years, then, were not yet perestroika in the later sense. They were an attempt to make the old system work better, close to what Andropov had tried, and their failure pushed Gorbachev towards more radical change.",
+    "argumentsThatWork": [
+     {
+      "claim": "Gorbachev began with the economy because decline and debt threatened the state's power.",
+      "evidence": [
+       "F-ECONOMICS-01",
+       "F-ECONOMICS-02"
+      ],
+      "strongestCounter": "He soon decided that the party itself was the obstacle, so the economy became a reason for political reform."
+     },
+     {
+      "claim": "Early measures such as 'acceleration' and the anti-alcohol campaign tried to improve the old system, not replace it.",
+      "evidence": [
+       "F-ECONOMICS-03",
+       "F-ECONOMICS-05"
+      ],
+      "strongestCounter": "Alcoholism was a real problem, so the campaign was not merely economic."
+     },
+     {
+      "claim": "The anti-alcohol campaign damaged the budget and fed inflation.",
+      "evidence": [
+       "F-ECONOMICS-04"
+      ],
+      "strongestCounter": "It may well have reduced drinking, so it was not a total failure."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the aims of Gorbachev's economic policies between 1985 and 1987.",
+     "Compare and contrast the anti-alcohol campaign and the Law on Cooperatives as attempts at economic reform between 1985 and 1988."
+    ],
+    "useItInAnEssay": {
+     "claim": "The anti-alcohol campaign shows that Gorbachev's first economic reforms tried to improve the old system and ended by weakening it.",
+     "prove": "Alcohol taxes had brought in about 25.4 billion rubles in 1979, more than income tax, and the campaign cut that revenue.",
+     "explain": "This meant the government covered the gap by printing money, which fuelled inflation and left a larger deficit for later reforms.",
+     "test": "However, the campaign addressed a real social disaster and may well have reduced drinking.",
+     "judge": "It was therefore a social measure with heavy economic costs, abandoned after 1987."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did Gorbachev launch the anti-alcohol campaign?",
+      "factIds": [
+       "F-ECONOMICS-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "May 1985",
+        "correct": true,
+        "explanation": "Correct: less than two months after he became General Secretary."
+       },
+       {
+        "id": "b",
+        "text": "January 1987",
+        "correct": false,
+        "explanation": "That is the plenum that adopted the perestroika label."
+       },
+       {
+        "id": "c",
+        "text": "January 1988",
+        "correct": false,
+        "explanation": "That is when the Law on State Enterprises came into effect."
+       },
+       {
+        "id": "d",
+        "text": "May 1988",
+        "correct": false,
+        "explanation": "That is the Law on Cooperatives."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In 1979 the state took about how many billion rubles in indirect taxes on alcohol? (number, one decimal place)",
+      "factIds": [
+       "F-ECONOMICS-04"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 25.4,
+        "tolerance": 0,
+        "explanation": "25.4 billion rubles: more than income tax, which is why the campaign hurt the budget."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The government covered the lost alcohol revenue by printing money.” Which argument does this support best?",
+      "factIds": [
+       "F-ECONOMICS-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The anti-alcohol campaign contributed to inflation",
+        "correct": true,
+        "explanation": "Correct: printing money fuelled inflation."
+       },
+       {
+        "id": "b",
+        "text": "The campaign increased state revenue",
+        "correct": false,
+        "explanation": "The opposite: revenue fell."
+       },
+       {
+        "id": "c",
+        "text": "Cooperatives caused shortages",
+        "correct": false,
+        "explanation": "A different policy."
+       },
+       {
+        "id": "d",
+        "text": "Gorbachev ended central planning in 1985",
+        "correct": false,
+        "explanation": "Nothing in the fact concerns planning."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "Perestroika: reform from above, 1986–1988",
+    "body": "Only in early 1987, the Library of Congress study notes, did perestroika become \"a full-scale campaign\". At the Central Committee plenum of January 1987 Gorbachev applied the label to his programme of devolving economic and political control. In economics it meant three things: more freedom for plant managers, some individual initiative, and the chance to make a profit.\n\nThe first step was cautious. The **Law on Individual Labour Activity** of 19 November 1986 allowed private work, but only \"based exclusively on the personal labor of citizens and members of their families\". Judt notes how few took up the offer: three years later there were just 300,000 businesspeople in a population of 290 million. Decrees from early 1987, consolidated in the **Law on Cooperatives** of 26 May 1988, went further, putting profit-making cooperatives on the same footing as state enterprises. By the end of 1987 about 150,000 people worked in 13,921 new cooperatives, and their restaurants, hairdressers and repair shops gave better service than the state.\n\nThe central reform was the **Law on State Enterprise**, which came into effect in January 1988 and let enterprises set many of their own prices and wages. The idea was to make managers respond to demand rather than to Gosplan's orders.\n\nJudt explains why this was so hard. Reform faced a \"chicken-egg dilemma\": if enterprises were freed before a market existed, they had no prices to guide them, so there would be more shortages, not fewer, as everyone fell back on regional self-sufficiency and barter. But a market could not simply be announced. The word \"capitalism\" had been abhorred for decades, and Gorbachev avoided any mention of a market economy until late 1987, and then spoke only of a \"socialist market\". The compromise was to build model enterprises from above, supplied with materials and labour. They worked only with heavy subsidies, starving other enterprises, and managers, unsure whether the old controls would return, stockpiled whatever they could.\n\nThis mattered because perestroika in 1986–1988 was still reform by decree: it loosened controls without creating the prices, property rights and competition that a market needs, which meant that the old system was weakened before a new one existed. Robert Campbell's verdict is blunt: the enterprise law and the cooperatives \"basically involved tinkering with details\".",
+    "argumentsThatWork": [
+     {
+      "claim": "Perestroika in 1986–1988 was reform from above: it loosened controls but kept planning, state ownership and fixed prices.",
+      "evidence": [
+       "F-ECONOMICS-05",
+       "F-ECONOMICS-09",
+       "F-ECONOMICS-17"
+      ],
+      "strongestCounter": "The cooperatives were a real step towards private enterprise."
+     },
+     {
+      "claim": "Ideology limited the reforms: a 'market' could not be named, so Gorbachev spoke of a 'socialist market'.",
+      "evidence": [
+       "F-ECONOMICS-11"
+      ],
+      "strongestCounter": "By 1990 he was willing to discuss full market programmes, so ideology was not a fixed barrier."
+     },
+     {
+      "claim": "The cooperatives showed what initiative could do, but they were small and resented.",
+      "evidence": [
+       "F-ECONOMICS-06",
+       "F-ECONOMICS-07",
+       "F-ECONOMICS-08"
+      ],
+      "strongestCounter": "Their productivity was higher than in state enterprises, so the problem was scale and context, not the idea."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the methods Gorbachev used to reform the Soviet economy between 1986 and 1988.",
+     "Compare and contrast the anti-alcohol campaign and the Law on Cooperatives as attempts at economic reform between 1985 and 1988."
+    ],
+    "useItInAnEssay": {
+     "claim": "Perestroika between 1986 and 1988 loosened central controls without creating a market to replace them.",
+     "prove": "The Law on State Enterprise, in force from January 1988, let enterprises set many of their own prices and wages, yet Gorbachev avoided the word 'market' until late 1987.",
+     "explain": "This meant that managers were freed from Gosplan's orders but had no real prices to guide them, so, as Judt argues, the result was more shortage, not less.",
+     "test": "However, the cooperatives showed that initiative could produce better service, with about 150,000 people in 13,921 cooperatives by the end of 1987.",
+     "judge": "Perestroika's methods were therefore too cautious to build a market but bold enough to weaken the plan."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Law on State Enterprise (in force January 1988) allow?",
+      "factIds": [
+       "F-ECONOMICS-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Enterprises to set many of their own prices and wages",
+        "correct": true,
+        "explanation": "Correct: the aim was to make managers respond to demand."
+       },
+       {
+        "id": "b",
+        "text": "Private ownership of factories",
+        "correct": false,
+        "explanation": "Enterprises stayed in state hands."
+       },
+       {
+        "id": "c",
+        "text": "The abolition of Gosplan",
+        "correct": false,
+        "explanation": "Planning was weakened, not abolished."
+       },
+       {
+        "id": "d",
+        "text": "Foreign companies to buy Soviet enterprises",
+        "correct": false,
+        "explanation": "Not part of the law."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many new cooperatives existed by the end of 1987, according to Seventeen Moments? (number)",
+      "factIds": [
+       "F-ECONOMICS-07"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 13921,
+        "tolerance": 0,
+        "explanation": "13,921 cooperatives employing about 150,000 people."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C06",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What phrase did Gorbachev use when he finally spoke of markets from late 1987?",
+      "factIds": [
+       "F-ECONOMICS-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A 'socialist market'",
+        "correct": true,
+        "explanation": "Correct: the word 'capitalism' was still politically dangerous."
+       },
+       {
+        "id": "b",
+        "text": "'Shock therapy'",
+        "correct": false,
+        "explanation": "That term belongs to Russia's reforms of 1992."
+       },
+       {
+        "id": "c",
+        "text": "'Acceleration'",
+        "correct": false,
+        "explanation": "That was his first slogan, before perestroika."
+       },
+       {
+        "id": "d",
+        "text": "'Five hundred days'",
+        "correct": false,
+        "explanation": "That is the 1990 Shatalin programme."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C07",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Three years after the 1986 law there were just 300,000 businesspeople in a population of 290 million.” Which argument does it support best?",
+      "factIds": [
+       "F-ECONOMICS-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Private enterprise grew only slowly because few people had experience of markets",
+        "correct": true,
+        "explanation": "Correct: Judt's point about the lack of first-hand experience."
+       },
+       {
+        "id": "b",
+        "text": "The cooperatives took over the Soviet economy",
+        "correct": false,
+        "explanation": "The figure shows the opposite."
+       },
+       {
+        "id": "c",
+        "text": "The anti-alcohol campaign succeeded",
+        "correct": false,
+        "explanation": "Unrelated."
+       },
+       {
+        "id": "d",
+        "text": "Gorbachev banned private enterprise",
+        "correct": false,
+        "explanation": "He legalised limited private work."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Why did reform make things worse?",
+    "body": "By 1988 the results of perestroika were the opposite of what Gorbachev intended. The Library of Congress study traces the chain. Once enterprises could set wages, workers demanded steep increases. The government paid by printing money. With more money chasing goods sold at fixed prices in state shops, those goods \"quickly disappeared as speculators snatched them up or producers ceased making deliveries\". By September 1988 many staple products could not be found even in Moscow.\n\nThe cooperatives made matters worse in the public mind. Seventeen Moments records that citizens deluged the press with letters complaining about their high prices, about cooperatives taking the best workers from state enterprises, and about their use of state supplies, which deepened the shortages. Local officials taxed them heavily and criminals ran protection rackets. *Kooperativshchiki* became a term of abuse. A reform meant to show the benefits of initiative instead linked private enterprise with profiteering and crime.\n\nGorbachev's response was to push harder against the party machine. During 1988–89 he ordered regional party committees to stop interfering in the economy and cut the staffs of the economic ministries. But nothing replaced them. In the study's words, \"without the state and the party to hold it together and guide it, the economy went into free-fall\". By 1990, Seventeen Moments notes, enterprises settled accounts by barter, regions embargoed shipments to their neighbours, and citizens queued with ration coupons for sugar, tea and soap.\n\nJudt explains why this outcome was built into the reform. Serious economic reform meant relaxing or abandoning controls, which first made the problems worse, and it meant \"just what it said: a loss of control. But Communism depended upon control—indeed Communism *was* control.\" Gorbachev concluded that to reform the economy the party would first have to reform itself. This mattered because it turned an economic programme into a political one, which meant that glasnost and democratisation, not prices, became the centre of his project. Archie Brown's judgement is that perestroika's aim of injecting new dynamism into the economy failed, while democratisation came to be given a higher priority than economic reform.",
+    "argumentsThatWork": [
+     {
+      "claim": "Partial reform produced inflation and shortage: wage freedom plus fixed prices emptied the shops.",
+      "evidence": [
+       "F-ECONOMICS-09",
+       "F-ECONOMICS-04"
+      ],
+      "strongestCounter": "Shortages were endemic before 1985, so reform worsened rather than created them."
+     },
+     {
+      "claim": "Removing the party from the economy without a market left nothing to coordinate it.",
+      "evidence": [
+       "F-ECONOMICS-10",
+       "F-ECONOMICS-21"
+      ],
+      "strongestCounter": "The republics' own actions after 1990 also broke supply chains, so not all the chaos came from Moscow's reforms."
+     },
+     {
+      "claim": "The economic failure pushed Gorbachev towards political reform.",
+      "evidence": [
+       "F-ECONOMICS-13",
+       "F-ECONOMICS-22"
+      ],
+      "strongestCounter": "Brown suggests his goals evolved anyway, so political reform was a choice, not only a response."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent did perestroika fail to achieve its economic aims between 1985 and 1991?",
+     "Examine the impact of the Law on State Enterprise on the Soviet economy between 1988 and 1991."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Law on State Enterprise made shortages worse because it freed wages without freeing prices.",
+     "prove": "Workers demanded steep wage rises, the government printed money, and by September 1988 many staples could not be found even in Moscow.",
+     "explain": "This meant that more money chased goods still sold at fixed prices in state shops, so the goods vanished into speculation or were never delivered.",
+     "test": "However, shortages were endemic long before 1988, so the law intensified a problem it did not create.",
+     "judge": "The law was therefore a major cause of the crisis of 1988–1991, but as an accelerant rather than the origin."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "By when, according to the Library of Congress study, could many staple products not be found even in Moscow?",
+      "factIds": [
+       "F-ECONOMICS-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "September 1988",
+        "correct": true,
+        "explanation": "Correct: eight months after the enterprise law came into effect."
+       },
+       {
+        "id": "b",
+        "text": "May 1985",
+        "correct": false,
+        "explanation": "That is the anti-alcohol campaign."
+       },
+       {
+        "id": "c",
+        "text": "December 1991",
+        "correct": false,
+        "explanation": "Too late: the shortage came in 1988."
+       },
+       {
+        "id": "d",
+        "text": "March 1987",
+        "correct": false,
+        "explanation": "Before the enterprise law took effect."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C09",
+      "kind": "checkpoint",
+      "type": "spot_error",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: “When enterprises could set wages, workers accepted lower pay, so the government had to cut the money supply.”",
+      "factIds": [
+       "F-ECONOMICS-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Workers demanded steep wage increases and the government printed more money",
+        "correct": true,
+        "explanation": "Correct: this is what caused the shortages."
+       },
+       {
+        "id": "b",
+        "text": "Enterprises could not set wages",
+        "correct": false,
+        "explanation": "Under the 1988 law they could set many wages."
+       },
+       {
+        "id": "c",
+        "text": "The law came into effect in 1991",
+        "correct": false,
+        "explanation": "It came into effect in January 1988."
+       },
+       {
+        "id": "d",
+        "text": "There is no error",
+        "correct": false,
+        "explanation": "There is: the direction of wages and money."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which historian wrote that 'Communism was control'?",
+      "factIds": [
+       "F-ECONOMICS-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Tony Judt",
+        "correct": true,
+        "explanation": "Correct: so reform, which meant relaxing controls, meant a loss of control."
+       },
+       {
+        "id": "b",
+        "text": "Robert Campbell",
+        "correct": false,
+        "explanation": "Campbell wrote about the Five-Hundred-Day Plan."
+       },
+       {
+        "id": "c",
+        "text": "Archie Brown",
+        "correct": false,
+        "explanation": "Brown wrote about perestroika's unintended consequences."
+       },
+       {
+        "id": "d",
+        "text": "Stanislav Shatalin",
+        "correct": false,
+        "explanation": "Shatalin led the group that wrote the 500 Days programme."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "1990–1991: the war of programmes",
+    "body": "By 1990, Seventeen Moments argues, the question \"was no longer whether the Soviet Union would move to a market but who would be holding the property when it got there\". Three programmes competed, in what contemporaries called the \"war of programmes\".\n\nThe government moved first. On 24 May 1990 Prime Minister Nikolai Ryzhkov proposed a regulated market reached in stages, with the state keeping major industry. His honesty about prices destroyed the plan: the announcement that bread would cost about three times more from July emptied the shops within days, and deputies sent the programme back.\n\nThe radical alternative came from outside the government. On 27 July Gorbachev and Boris Yeltsin, chairman of the Russian parliament, jointly commissioned a team under the economist Stanislav Shatalin. Its programme, issued on 1 September as *Transition to the Market* and soon called the **500 Days Plan**, accepted private property, market prices, enterprise independence and an open economy, with a timetable. One of its most radical features was federal: sovereignty over resources and taxes would pass to the republics. The Russian Supreme Soviet adopted it on 11 September. The Union parliament did not. Instead it gave Gorbachev powers to rule by decree, and on 18 October a compromise, the \"Basic Guidelines\", kept the plan's stages but dropped its timetable. Grigorii Yavlinsky, whose earlier \"400 Days\" scheme the plan built on, resigned from the Russian government, saying that a hedgehog cannot be crossed with a grass snake.\n\nWhy did Gorbachev retreat? Robert Campbell argues that the plan's acceptance of the republics' economic independence was \"fatal\", because Gorbachev \"was not ready to accept a diminution of central power\". Seventeen Moments reaches the same conclusion: the compromise was in fact \"a decision that the union would keep the union's property\".\n\nWhat followed was confiscation, not reform. In January 1991 Gorbachev replaced Ryzhkov with Valentin Pavlov, who withdrew 50- and 100-ruble notes from circulation at short notice, causing panic and deep mistrust, and raised prices in April. Coal miners struck from March to May against inflation that had wiped out their wage gains, demanding Gorbachev's resignation and the transfer of mines to the republics. Gorbachev had to ask the West for financial aid. This mattered because the centre lost the economic argument to the republics, which meant that economic failure became a cause of the Union's political collapse.",
+    "argumentsThatWork": [
+     {
+      "claim": "Gorbachev rejected the 500 Days Plan because it gave economic power to the republics.",
+      "evidence": [
+       "F-ECONOMICS-15",
+       "F-ECONOMICS-17"
+      ],
+      "strongestCounter": "He also feared the social cost of rapid price rises, as Ryzhkov's bread plan had shown."
+     },
+     {
+      "claim": "The centre's economic failure in 1990–1991 shifted authority to the republics.",
+      "evidence": [
+       "F-ECONOMICS-16",
+       "F-ECONOMICS-20"
+      ],
+      "strongestCounter": "The republics' nationalism had political roots that did not depend on economics."
+     },
+     {
+      "claim": "Pavlov's measures showed that the state's remaining tool was confiscation, which destroyed trust.",
+      "evidence": [
+       "F-ECONOMICS-18",
+       "F-ECONOMICS-19"
+      ],
+      "strongestCounter": "Inflation was so severe that some monetary measure was unavoidable."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the reasons why Gorbachev rejected the 500 Days Plan in 1990.",
+     "Evaluate the successes and failures of Gorbachev's economic reforms between 1985 and 1991."
+    ],
+    "useItInAnEssay": {
+     "claim": "Gorbachev rejected the 500 Days Plan mainly because it would have transferred economic sovereignty to the republics.",
+     "prove": "The plan would have passed control of resources and taxes to the republics, and the Russian Supreme Soviet adopted it on 11 September 1990.",
+     "explain": "This meant that accepting it would have reduced the Union government to whatever powers the republics chose to delegate, which, as Campbell argues, Gorbachev was not ready to accept.",
+     "test": "However, Ryzhkov's failed bread-price plan of May 1990 shows that Gorbachev also had reason to fear the social cost of rapid price rises.",
+     "judge": "The decisive reason was therefore political: the Union would keep the Union's property."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who jointly commissioned the Shatalin programme on 27 July 1990?",
+      "factIds": [
+       "F-ECONOMICS-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Gorbachev and Yeltsin",
+        "correct": true,
+        "explanation": "Correct: one of the last moments of cooperation between them."
+       },
+       {
+        "id": "b",
+        "text": "Ryzhkov and Pavlov",
+        "correct": false,
+        "explanation": "They led the government's own, more cautious plans."
+       },
+       {
+        "id": "c",
+        "text": "Gorbachev and Ryzhkov",
+        "correct": false,
+        "explanation": "Ryzhkov had his own programme of May 1990."
+       },
+       {
+        "id": "d",
+        "text": "Yeltsin and Gaidar",
+        "correct": false,
+        "explanation": "Gaidar's reforms came in Russia in 1992."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C12",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why, according to Robert Campbell, was the 500 Days Plan's federal feature 'fatal'?",
+      "factIds": [
+       "F-ECONOMICS-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Gorbachev was not ready to accept a diminution of central power",
+        "correct": true,
+        "explanation": "Correct: the plan gave the republics economic independence."
+       },
+       {
+        "id": "b",
+        "text": "The plan had no timetable",
+        "correct": false,
+        "explanation": "It did: the timetable gave it its name."
+       },
+       {
+        "id": "c",
+        "text": "The Russian parliament rejected it",
+        "correct": false,
+        "explanation": "It adopted the plan on 11 September 1990."
+       },
+       {
+        "id": "d",
+        "text": "It ignored private property",
+        "correct": false,
+        "explanation": "It fully accepted private property."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B4-ECONOMICS-C13",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In January 1991 Pavlov withdrew 50- and 100-ruble notes from circulation at short notice.” Which argument does it support best?",
+      "factIds": [
+       "F-ECONOMICS-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The government's remaining economic tool was confiscation, which destroyed trust",
+        "correct": true,
+        "explanation": "Correct: the measure caused panic and mistrust."
+       },
+       {
+        "id": "b",
+        "text": "The 500 Days Plan was put into effect in 1991",
+        "correct": false,
+        "explanation": "The note withdrawal belonged to no published programme."
+       },
+       {
+        "id": "c",
+        "text": "Inflation had been defeated",
+        "correct": false,
+        "explanation": "The opposite: it was out of control."
+       },
+       {
+        "id": "d",
+        "text": "Cooperatives were banned",
+        "correct": false,
+        "explanation": "Unrelated."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1985,
+      "month": 3,
+      "day": 11,
+      "text": "Gorbachev becomes General Secretary",
+      "factId": "F-ECONOMICS-01"
+     },
+     {
+      "year": 1985,
+      "month": 5,
+      "text": "Anti-alcohol campaign launched",
+      "factId": "F-ECONOMICS-03"
+     },
+     {
+      "year": 1986,
+      "month": 11,
+      "day": 19,
+      "text": "Law on Individual Labour Activity",
+      "factId": "F-ECONOMICS-06"
+     },
+     {
+      "year": 1987,
+      "month": 1,
+      "text": "Central Committee plenum adopts perestroika as a full programme",
+      "factId": "F-ECONOMICS-05"
+     },
+     {
+      "year": 1988,
+      "month": 1,
+      "text": "Law on State Enterprise comes into effect",
+      "factId": "F-ECONOMICS-09"
+     },
+     {
+      "year": 1988,
+      "month": 5,
+      "day": 26,
+      "text": "Law on Cooperatives",
+      "factId": "F-ECONOMICS-07"
+     },
+     {
+      "year": 1988,
+      "month": 9,
+      "text": "Many staples missing even in Moscow",
+      "factId": "F-ECONOMICS-09"
+     },
+     {
+      "year": 1990,
+      "month": 5,
+      "day": 24,
+      "text": "Ryzhkov's plan; bread-price announcement empties the shops",
+      "factId": "F-ECONOMICS-14"
+     },
+     {
+      "year": 1990,
+      "month": 9,
+      "day": 1,
+      "text": "500 Days programme issued",
+      "factId": "F-ECONOMICS-15"
+     },
+     {
+      "year": 1990,
+      "month": 10,
+      "day": 18,
+      "text": "'Basic Guidelines' compromise drops the timetable",
+      "factId": "F-ECONOMICS-16"
+     },
+     {
+      "year": 1991,
+      "month": 1,
+      "text": "Pavlov replaces Ryzhkov; large banknotes withdrawn",
+      "factId": "F-ECONOMICS-18"
+     },
+     {
+      "year": 1991,
+      "month": 3,
+      "text": "All-Union miners' strike begins",
+      "factId": "F-ECONOMICS-20"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Stagnation and rising debt as oil prices fall",
+      "factId": "F-ECONOMICS-02"
+     },
+     {
+      "id": "n2",
+      "text": "Anti-alcohol campaign cuts revenue; money printed",
+      "factId": "F-ECONOMICS-04"
+     },
+     {
+      "id": "n3",
+      "text": "Enterprises set wages but prices stay fixed (1988)",
+      "factId": "F-ECONOMICS-09"
+     },
+     {
+      "id": "n4",
+      "text": "Money supply grows; goods vanish from state shops",
+      "factId": "F-ECONOMICS-09"
+     },
+     {
+      "id": "n5",
+      "text": "Party withdrawn from the economy; no market to replace it",
+      "factId": "F-ECONOMICS-10"
+     },
+     {
+      "id": "n6",
+      "text": "500 Days rejected; republics take control of their economies",
+      "factId": "F-ECONOMICS-17"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Gorbachev's first measures tried to improve the old system by campaign"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Perestroika moved from campaigns to loosening controls"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Higher wages plus fixed prices meant shortage"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Gorbachev blamed the apparatus and pushed it out"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "A full market programme meant handing power to the republics"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Mikhail Gorbachev",
+     "role": "General Secretary from 1985; President of the USSR from 1990",
+     "whyItMatters": "Began with campaigns, moved to partial market reform, then rejected the 500 Days Plan to keep central power.",
+     "factIds": [
+      "F-ECONOMICS-01",
+      "F-ECONOMICS-17"
+     ]
+    },
+    {
+     "name": "Nikolai Ryzhkov",
+     "role": "Chairman of the USSR Council of Ministers, September 1985 – December 1990",
+     "whyItMatters": "Chief administrator of the economy; his gradual plan of May 1990 collapsed over the price of bread.",
+     "factIds": [
+      "F-ECONOMICS-23",
+      "F-ECONOMICS-14"
+     ]
+    },
+    {
+     "name": "Stanislav Shatalin",
+     "role": "Economist who led the group that wrote the 500 Days programme",
+     "whyItMatters": "His plan accepted the market and the republics' economic sovereignty.",
+     "factIds": [
+      "F-ECONOMICS-15"
+     ]
+    },
+    {
+     "name": "Boris Yeltsin",
+     "role": "Chairman of the Russian parliament from May 1990",
+     "whyItMatters": "Co-commissioned the 500 Days Plan and pushed Russia's reform ahead of the Union's.",
+     "factIds": [
+      "F-ECONOMICS-15",
+      "F-ECONOMICS-28"
+     ]
+    },
+    {
+     "name": "Valentin Pavlov",
+     "role": "Prime Minister from January 1991",
+     "whyItMatters": "Withdrew large banknotes and raised prices; later joined the August 1991 coup.",
+     "factIds": [
+      "F-ECONOMICS-18",
+      "F-ECONOMICS-24"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Aim",
+     "Result"
+    ],
+    "rows": [
+     {
+      "criterion": "Anti-alcohol campaign (1985)",
+      "cells": [
+       "Reduce drinking and raise productivity",
+       "Lost revenue, moonshine, money printing; abandoned after 1987"
+      ],
+      "factIds": [
+       "F-ECONOMICS-03",
+       "F-ECONOMICS-04"
+      ]
+     },
+     {
+      "criterion": "Cooperatives (1986–1988)",
+      "cells": [
+       "Legalise small private and cooperative enterprise",
+       "Better service but resented as profiteering; small in scale"
+      ],
+      "factIds": [
+       "F-ECONOMICS-07",
+       "F-ECONOMICS-08"
+      ]
+     },
+     {
+      "criterion": "Law on State Enterprise (1988)",
+      "cells": [
+       "Free managers to respond to demand",
+       "Wage rises, money printing and empty shops"
+      ],
+      "factIds": [
+       "F-ECONOMICS-09"
+      ]
+     },
+     {
+      "criterion": "500 Days Plan (1990)",
+      "cells": [
+       "A full transition to the market, with the republics sovereign",
+       "Adopted by Russia, rejected by the Union; replaced by a compromise"
+      ],
+      "factIds": [
+       "F-ECONOMICS-15",
+       "F-ECONOMICS-16"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-ECONOMICS-02",
+    "year": 1986,
+    "text": "Foreign debt rose as oil prices fell: $30.7 billion by 1986, $54 billion by 1989 (Judt).",
+    "supports": [
+     "Economic decline forced Gorbachev to act",
+     "Reform made the crisis worse, not better"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B4-INHERITANCE"
+    ],
+    "lexicon": [
+     "debt",
+     "oil price"
+    ]
+   },
+   {
+    "factId": "F-ECONOMICS-04",
+    "year": 1985,
+    "text": "Alcohol taxes had raised about 25.4 billion rubles (1979); the anti-alcohol campaign cut revenue and the gap was covered by printing money.",
+    "supports": [
+     "Early reforms fed inflation"
+    ],
+    "lexicon": [
+     "anti-alcohol campaign",
+     "budget deficit",
+     "inflation"
+    ]
+   },
+   {
+    "factId": "F-ECONOMICS-07",
+    "year": 1988,
+    "text": "Law on Cooperatives, 26 May 1988; by the end of 1987 about 150,000 people worked in 13,921 new cooperatives.",
+    "supports": [
+     "Perestroika allowed limited private enterprise"
+    ],
+    "lexicon": [
+     "cooperatives",
+     "kooperativshchiki"
+    ]
+   },
+   {
+    "factId": "F-ECONOMICS-09",
+    "year": 1988,
+    "text": "January 1988: Law on State Enterprise in force; wage rises and money printing; by September 1988 staples missing even in Moscow.",
+    "supports": [
+     "Partial reform produced shortage",
+     "Reform weakened the plan before a market existed"
+    ],
+    "lexicon": [
+     "Law on State Enterprise",
+     "shortages"
+    ]
+   },
+   {
+    "factId": "F-ECONOMICS-11",
+    "year": 1987,
+    "text": "Gorbachev avoided the word 'market' until late 1987 and then spoke only of a 'socialist market' (Judt).",
+    "supports": [
+     "Ideology limited the reforms"
+    ],
+    "lexicon": [
+     "socialist market"
+    ]
+   },
+   {
+    "factId": "F-ECONOMICS-15",
+    "year": 1990,
+    "text": "1 September 1990: Shatalin's 500 Days programme, 'Transition to the Market', would give the republics sovereignty over resources and taxes.",
+    "supports": [
+     "Market reform meant handing power to the republics"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B5-COLLAPSE"
+    ],
+    "lexicon": [
+     "500 Days Plan",
+     "Shatalin"
+    ]
+   },
+   {
+    "factId": "F-ECONOMICS-18",
+    "year": 1991,
+    "text": "January 1991: Pavlov withdrew 50- and 100-ruble notes at short notice, causing panic; price rises followed in April.",
+    "supports": [
+     "The centre's last economic tool was confiscation"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B5-COLLAPSE"
+    ],
+    "lexicon": [
+     "Pavlov",
+     "banknote withdrawal"
+    ]
+   },
+   {
+    "factId": "F-ECONOMICS-20",
+    "year": 1991,
+    "text": "March–May 1991: miners struck against inflation, demanding Gorbachev's resignation and the transfer of mines to the republics.",
+    "supports": [
+     "Economic failure became political opposition to the centre"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B5-COLLAPSE"
+    ],
+    "lexicon": [
+     "miners' strike"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Serious economic reform meant relaxing controls, which first worsened the problems it was meant to solve and meant a loss of control; but 'Communism was control', so the party had to reform itself first.",
+    "useItLikeThis": "Judt's view supports the claim that perestroika's economic failure was built into the attempt to reform a command economy, which suggests the problem was the system, not only Gorbachev's choices.",
+    "factId": "F-ECONOMICS-13"
+   },
+   {
+    "historian": "Robert W. Campbell",
+    "argument": "The reforms before 1990 were 'tinkering with details'; the 500 Days Plan was the first real market programme, but its grant of economic independence to the republics was fatal because Gorbachev would not accept less central power.",
+    "useItLikeThis": "Campbell's argument suggests that perestroika failed because it was too cautious, and that Gorbachev's priority by 1990 was keeping the Union rather than building a market.",
+    "factId": "F-ECONOMICS-17"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Perestroika introduced a market economy.",
+    "right": "Until 1990 it **loosened planning** without creating market prices or private ownership of industry; Gorbachev spoke only of a 'socialist market'."
+   },
+   {
+    "wrong": "The anti-alcohol campaign was only a health measure.",
+    "right": "It also cut **state revenue**, which was covered by printing money and fed inflation."
+   },
+   {
+    "wrong": "Gorbachev adopted the 500 Days Plan.",
+    "right": "Russia adopted it; the **Union parliament did not**, and Gorbachev settled for a compromise without a timetable."
+   },
+   {
+    "wrong": "Shortages began with perestroika.",
+    "right": "Shortages were **endemic** before 1985; reform made them much worse from 1988."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1985,
+     "month": 5,
+     "text": "Anti-alcohol campaign"
+    },
+    {
+     "year": 1986,
+     "month": 11,
+     "day": 19,
+     "text": "Law on Individual Labour Activity"
+    },
+    {
+     "year": 1987,
+     "month": 1,
+     "text": "Perestroika plenum"
+    },
+    {
+     "year": 1988,
+     "month": 1,
+     "text": "Law on State Enterprise in force"
+    },
+    {
+     "year": 1988,
+     "month": 5,
+     "day": 26,
+     "text": "Law on Cooperatives"
+    },
+    {
+     "year": 1990,
+     "month": 9,
+     "day": 1,
+     "text": "500 Days programme"
+    },
+    {
+     "year": 1990,
+     "month": 10,
+     "day": 18,
+     "text": "Basic Guidelines compromise"
+    },
+    {
+     "year": 1991,
+     "month": 1,
+     "text": "Pavlov's banknote withdrawal"
+    }
+   ],
+   "keyArguments": [
+    "Early measures (acceleration, the anti-alcohol campaign) tried to improve the old system and weakened the budget.",
+    "Perestroika loosened planning without creating a market: 'tinkering' (Campbell).",
+    "Wage freedom plus fixed prices and money printing produced shortage from 1988.",
+    "Reform meant loss of control, and 'Communism was control' (Judt), so economics led to politics.",
+    "In 1990 Gorbachev chose central power over the market; the republics took over their economies."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these economic measures in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Anti-alcohol campaign",
+     "year": 1985,
+     "month": 5,
+     "factId": "F-ECONOMICS-03"
+    },
+    {
+     "id": "b",
+     "text": "Law on Individual Labour Activity",
+     "year": 1986,
+     "month": 11,
+     "factId": "F-ECONOMICS-06"
+    },
+    {
+     "id": "c",
+     "text": "Law on State Enterprise comes into effect",
+     "year": 1988,
+     "month": 1,
+     "factId": "F-ECONOMICS-09"
+    },
+    {
+     "id": "d",
+     "text": "500 Days programme issued",
+     "year": 1990,
+     "month": 9,
+     "factId": "F-ECONOMICS-15"
+    },
+    {
+     "id": "e",
+     "text": "Pavlov withdraws large banknotes",
+     "year": 1991,
+     "month": 1,
+     "factId": "F-ECONOMICS-18"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1990–1991 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Ryzhkov's bread-price announcement",
+     "year": 1990,
+     "month": 5,
+     "factId": "F-ECONOMICS-14"
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev and Yeltsin commission the Shatalin group",
+     "year": 1990,
+     "month": 7,
+     "factId": "F-ECONOMICS-15"
+    },
+    {
+     "id": "c",
+     "text": "Russian Supreme Soviet adopts the 500 Days programme",
+     "year": 1990,
+     "month": 9,
+     "factId": "F-ECONOMICS-16"
+    },
+    {
+     "id": "d",
+     "text": "Basic Guidelines compromise",
+     "year": 1990,
+     "month": 10,
+     "factId": "F-ECONOMICS-16"
+    },
+    {
+     "id": "e",
+     "text": "Miners' strike begins",
+     "year": 1991,
+     "month": 3,
+     "factId": "F-ECONOMICS-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R03",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was Gorbachev's first economic slogan, before perestroika?",
+   "factIds": [
+    "F-ECONOMICS-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Acceleration",
+     "correct": true,
+     "explanation": "Correct: the Library of Congress study says acceleration gave way to perestroika."
+    },
+    {
+     "id": "b",
+     "text": "Glasnost",
+     "correct": false,
+     "explanation": "Glasnost meant openness, not an economic programme."
+    },
+    {
+     "id": "c",
+     "text": "Shock therapy",
+     "correct": false,
+     "explanation": "That belongs to Russia in 1992."
+    },
+    {
+     "id": "d",
+     "text": "Transition to the Market",
+     "correct": false,
+     "explanation": "That was the title of the 500 Days programme of 1990."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R04",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Gorbachev's nickname during the anti-alcohol campaign was:",
+   "factIds": [
+    "F-ECONOMICS-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The mineral-water secretary",
+     "correct": true,
+     "explanation": "Correct: mineral'nyi sekretar' instead of general'nyi sekretar'."
+    },
+    {
+     "id": "b",
+     "text": "The vodka secretary",
+     "correct": false,
+     "explanation": "The opposite of the campaign's message."
+    },
+    {
+     "id": "c",
+     "text": "The red tsar",
+     "correct": false,
+     "explanation": "Not a nickname recorded in the sources."
+    },
+    {
+     "id": "d",
+     "text": "The tank man",
+     "correct": false,
+     "explanation": "Not his nickname."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Soviet foreign debt reached how many billion dollars by 1989, according to Judt? (number)",
+   "factIds": [
+    "F-ECONOMICS-02"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 54,
+     "tolerance": 0,
+     "explanation": "$54 billion, up from $30.7 billion in 1986."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Ryzhkov's plan of May 1990 said bread would cost about how many times more from July? (number)",
+   "factIds": [
+    "F-ECONOMICS-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 3,
+     "tolerance": 0,
+     "explanation": "About three times more: the announcement emptied the shops."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how many people worked in the new cooperatives by the end of 1987? (number)",
+   "factIds": [
+    "F-ECONOMICS-07"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 150000,
+     "tolerance": 5000,
+     "explanation": "About 150,000, in 13,921 cooperatives."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R08",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Nikolai Ryzhkov",
+     "right": "Prime Minister whose bread-price plan collapsed in May 1990",
+     "explanation": "He chaired the Council of Ministers from 1985 to 1990."
+    },
+    {
+     "left": "Stanislav Shatalin",
+     "right": "Economist who led the 500 Days group",
+     "explanation": "The programme was issued on 1 September 1990."
+    },
+    {
+     "left": "Valentin Pavlov",
+     "right": "Prime Minister who withdrew large banknotes in 1991",
+     "explanation": "He replaced Ryzhkov in January 1991."
+    },
+    {
+     "left": "Grigorii Yavlinsky",
+     "right": "Economist whose '400 Days' scheme the plan built on; he said a hedgehog cannot be crossed with a grass snake",
+     "explanation": "He resigned after the October 1990 compromise."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were results of the anti-alcohol campaign? Choose all that apply.",
+   "factIds": [
+    "F-ECONOMICS-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A rise in moonshine production",
+     "correct": true,
+     "explanation": "Yes: samogon replaced state vodka."
+    },
+    {
+     "id": "b",
+     "text": "A fall in state revenue",
+     "correct": true,
+     "explanation": "Yes: alcohol taxes had exceeded income tax."
+    },
+    {
+     "id": "c",
+     "text": "A large budget surplus",
+     "correct": false,
+     "explanation": "No: the gap was covered by printing money."
+    },
+    {
+     "id": "d",
+     "text": "The legalisation of private distilleries",
+     "correct": false,
+     "explanation": "No: distilleries were closed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why were cooperatives resented? Choose all that apply.",
+   "factIds": [
+    "F-ECONOMICS-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They charged higher prices",
+     "correct": true,
+     "explanation": "Yes: letters to the press complained of this."
+    },
+    {
+     "id": "b",
+     "text": "They took the best workers from state enterprises",
+     "correct": true,
+     "explanation": "Yes: they drew skilled staff away from the state sector."
+    },
+    {
+     "id": "c",
+     "text": "They relied on state supplies, deepening shortages",
+     "correct": true,
+     "explanation": "Yes: this made shortages in state shops worse."
+    },
+    {
+     "id": "d",
+     "text": "They were run by the KGB",
+     "correct": false,
+     "explanation": "No: criminals, not the KGB, ran protection rackets."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Without the state and the party to guide it, the economy went into free fall.” Which argument does it support?",
+   "factIds": [
+    "F-ECONOMICS-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev removed the old coordination before a market existed",
+     "correct": true,
+     "explanation": "Correct: the Library of Congress study's argument."
+    },
+    {
+     "id": "b",
+     "text": "Central planning worked well until 1991",
+     "correct": false,
+     "explanation": "The fact concerns its removal, not its success."
+    },
+    {
+     "id": "c",
+     "text": "The anti-alcohol campaign was the main cause of the crisis",
+     "correct": false,
+     "explanation": "A different policy."
+    },
+    {
+     "id": "d",
+     "text": "The 500 Days Plan was implemented",
+     "correct": false,
+     "explanation": "It was not implemented by the Union."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Russian Supreme Soviet adopted the 500 Days programme; the Union parliament did not.” Which argument does it support?",
+   "factIds": [
+    "F-ECONOMICS-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic authority was shifting from the Union to the republics",
+     "correct": true,
+     "explanation": "Correct: Russia went further than the centre."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev and Yeltsin agreed on economic policy",
+     "correct": false,
+     "explanation": "They had commissioned it together, but then divided."
+    },
+    {
+     "id": "c",
+     "text": "The Union parliament was more radical than Russia's",
+     "correct": false,
+     "explanation": "The reverse."
+    },
+    {
+     "id": "d",
+     "text": "Market reform was abandoned everywhere",
+     "correct": false,
+     "explanation": "Russia adopted it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Law on Cooperatives of 1988 allowed private ownership of large state factories.”",
+   "factIds": [
+    "F-ECONOMICS-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It allowed cooperatives on the same basis as state enterprises, not private ownership of large factories",
+     "correct": true,
+     "explanation": "Correct: large industry stayed in state hands."
+    },
+    {
+     "id": "b",
+     "text": "The law dates from 1985",
+     "correct": false,
+     "explanation": "It dates from 26 May 1988."
+    },
+    {
+     "id": "c",
+     "text": "Cooperatives were banned in 1988",
+     "correct": false,
+     "explanation": "They were legalised and encouraged."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: what the law allowed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In January 1991 Prime Minister Ryzhkov withdrew 50- and 100-ruble notes from circulation.”",
+   "factIds": [
+    "F-ECONOMICS-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was Pavlov, who had just replaced Ryzhkov",
+     "correct": true,
+     "explanation": "Correct: Ryzhkov had suffered a heart attack in December 1990."
+    },
+    {
+     "id": "b",
+     "text": "The notes were 5- and 10-ruble notes",
+     "correct": false,
+     "explanation": "They were 50- and 100-ruble notes."
+    },
+    {
+     "id": "c",
+     "text": "It happened in 1985",
+     "correct": false,
+     "explanation": "It happened in January 1991."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the name of the prime minister."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Gorbachev's economic reforms between 1985 and 1991. Is Gaidar's freeing of prices in Russia inside or outside the timeframe?",
+   "timeframe": [
+    1985,
+    1991
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: Gaidar freed prices in January 1992, after the USSR had ended."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: it belongs to Yeltsin's Russia."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it was planned in 1990",
+     "correct": false,
+     "explanation": "The 500 Days Plan was a different, earlier programme."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the 1986 Law on Individual Labour Activity allow?",
+   "factIds": [
+    "F-ECONOMICS-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Private work based on the personal labour of citizens and their families",
+     "correct": true,
+     "explanation": "Correct: a cautious first step."
+    },
+    {
+     "id": "b",
+     "text": "Private ownership of factories",
+     "correct": false,
+     "explanation": "Far beyond the law."
+    },
+    {
+     "id": "c",
+     "text": "Strikes",
+     "correct": false,
+     "explanation": "Unrelated."
+    },
+    {
+     "id": "d",
+     "text": "Foreign investment in Soviet enterprises",
+     "correct": false,
+     "explanation": "Not part of this law."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What feature of the 500 Days Plan did Gorbachev find hardest to accept?",
+   "factIds": [
+    "F-ECONOMICS-15",
+    "F-ECONOMICS-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Transferring economic sovereignty to the republics",
+     "correct": true,
+     "explanation": "Correct: Campbell calls it fatal."
+    },
+    {
+     "id": "b",
+     "text": "Its use of the word 'market'",
+     "correct": false,
+     "explanation": "By 1990 the market was openly discussed."
+    },
+    {
+     "id": "c",
+     "text": "Its support for central planning",
+     "correct": false,
+     "explanation": "It rejected central planning."
+    },
+    {
+     "id": "d",
+     "text": "Its plan to ban cooperatives",
+     "correct": false,
+     "explanation": "It supported private enterprise."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did striking miners demand in spring 1991?",
+   "factIds": [
+    "F-ECONOMICS-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev's resignation and the transfer of mines to the republics",
+     "correct": true,
+     "explanation": "Correct: economic protest had become political."
+    },
+    {
+     "id": "b",
+     "text": "Higher prices for coal only",
+     "correct": false,
+     "explanation": "Their demands were political as well as economic."
+    },
+    {
+     "id": "c",
+     "text": "A return to Brezhnev's policies",
+     "correct": false,
+     "explanation": "Not in the record."
+    },
+    {
+     "id": "d",
+     "text": "The end of the anti-alcohol campaign",
+     "correct": false,
+     "explanation": "That campaign had ended after 1987."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Whom did Gorbachev appoint Prime Minister in January 1991?",
+   "factIds": [
+    "F-ECONOMICS-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Valentin Pavlov",
+     "correct": true,
+     "explanation": "Correct: an opponent of radical reform."
+    },
+    {
+     "id": "b",
+     "text": "Stanislav Shatalin",
+     "correct": false,
+     "explanation": "He was an economist, not Prime Minister."
+    },
+    {
+     "id": "c",
+     "text": "Boris Yeltsin",
+     "correct": false,
+     "explanation": "Yeltsin led the Russian parliament."
+    },
+    {
+     "id": "d",
+     "text": "Yegor Gaidar",
+     "correct": false,
+     "explanation": "Gaidar led Russia's reforms in 1992."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By 1990, how were sugar, tea and soap distributed, according to Seventeen Moments?",
+   "factIds": [
+    "F-ECONOMICS-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "By ration coupons (talony)",
+     "correct": true,
+     "explanation": "Correct: a system abolished with fanfare in 1947."
+    },
+    {
+     "id": "b",
+     "text": "Freely at market prices",
+     "correct": false,
+     "explanation": "Prices were still controlled."
+    },
+    {
+     "id": "c",
+     "text": "Only through cooperatives",
+     "correct": false,
+     "explanation": "Not what the source says."
+    },
+    {
+     "id": "d",
+     "text": "By export licence",
+     "correct": false,
+     "explanation": "Unrelated."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent did perestroika fail to achieve its economic aims between 1985 and 1991?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "The command term: judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "perestroika",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "fail to achieve its economic aims",
+     "answer": "scope",
+     "explanation": "You must know what the aims were before judging failure."
+    },
+    {
+     "id": "s4",
+     "text": "between 1985 and 1991",
+     "answer": "timeframe",
+     "explanation": "Gaidar's 1992 reforms are outside."
+    },
+    {
+     "id": "s5",
+     "text": "fail",
+     "answer": "judgement",
+     "explanation": "How far it failed, and against which aims."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Analyse the reasons why Gorbachev rejected the 500 Days Plan in 1990.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Analyse",
+     "answer": "verb",
+     "explanation": "Break the question into its reasons and show how they connect."
+    },
+    {
+     "id": "s2",
+     "text": "the reasons why Gorbachev rejected",
+     "answer": "factor",
+     "explanation": "The task: reasons for a decision."
+    },
+    {
+     "id": "s3",
+     "text": "the 500 Days Plan",
+     "answer": "scope",
+     "explanation": "The specific programme."
+    },
+    {
+     "id": "s4",
+     "text": "in 1990",
+     "answer": "timeframe",
+     "explanation": "Only the debate of 1990."
+    },
+    {
+     "id": "s5",
+     "text": "the reasons",
+     "answer": "judgement",
+     "explanation": "Rank the reasons: which was decisive?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did perestroika fail to achieve its economic aims between 1985 and 1991?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Perestroika largely failed, because it loosened planning without creating a market, so shortage and inflation grew; but its aims changed, and by 1990 the obstacle was Gorbachev's refusal to give the republics economic power.",
+     "correct": true,
+     "explanation": "Correct: degree, mechanism and a qualification."
+    },
+    {
+     "id": "b",
+     "text": "Perestroika began in 1987 and the 500 Days Plan came in 1990.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "c",
+     "text": "Perestroika had successes and failures.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Perestroika failed because Yeltsin's shock therapy caused inflation in 1992.",
+     "correct": false,
+     "explanation": "Wrong timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the reasons why Gorbachev rejected the 500 Days Plan in 1990.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev rejected the plan mainly because it would have transferred economic sovereignty to the republics; fear of the social cost of price rises reinforced, but did not decide, his choice.",
+     "correct": true,
+     "explanation": "Correct: ranks two reasons."
+    },
+    {
+     "id": "b",
+     "text": "The plan was issued on 1 September 1990.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev rejected it because he disliked Yeltsin.",
+     "correct": false,
+     "explanation": "Personalises without evidence; he had co-commissioned it."
+    },
+    {
+     "id": "d",
+     "text": "The plan was a good plan.",
+     "correct": false,
+     "explanation": "No reasons for the rejection."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In January 1988 the Law on State Enterprise came into effect.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because enterprises could raise wages while prices stayed fixed, goods disappeared from state shops.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In May 1985 Gorbachev launched the anti-alcohol campaign.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This mattered because the lost alcohol revenue was replaced by printing money, which fed inflation.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "By September 1988 staples were missing even in Moscow",
+     "right": "Partial reform produced shortage",
+     "explanation": "The enterprise law's results."
+    },
+    {
+     "left": "Gorbachev spoke only of a 'socialist market'",
+     "right": "Ideology limited the reforms",
+     "explanation": "The word 'market' was still risky."
+    },
+    {
+     "left": "Russia adopted the 500 Days Plan; the Union did not",
+     "right": "Economic authority shifted to the republics",
+     "explanation": "Russia went further than the centre."
+    },
+    {
+     "left": "Pavlov withdrew large banknotes at short notice",
+     "right": "The centre's last tool was confiscation",
+     "explanation": "It destroyed trust."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Perestroika made the economy bad.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Perestroika worsened shortages because the 1988 enterprise law let wages rise while prices stayed fixed, so money printing emptied state shops by September 1988.",
+     "correct": true,
+     "explanation": "Correct: precise evidence and mechanism."
+    },
+    {
+     "id": "b",
+     "text": "Perestroika made the economy very bad indeed.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The Law on State Enterprise came into effect in 1988.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Perestroika was a total disaster.",
+     "correct": false,
+     "explanation": "Overstated and without evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Perestroika failed because it was too radical.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Campbell argues the reforms before 1990 were only 'tinkering', and Gorbachev rejected the one radical programme, the 500 Days Plan, so the failure came from caution, not radicalism.",
+     "correct": true,
+     "explanation": "Correct: historian, evidence and an alternative account."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev meant well.",
+     "correct": false,
+     "explanation": "Intentions do not counter a claim about effects."
+    },
+    {
+     "id": "c",
+     "text": "Some economists disagree.",
+     "correct": false,
+     "explanation": "Name-dropping without argument."
+    },
+    {
+     "id": "d",
+     "text": "Perestroika lasted six years.",
+     "correct": false,
+     "explanation": "A fact, not an argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the successes and failures of Gorbachev's economic reforms between 1985 and 1991.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by Gorbachev's own aim of reviving growth, the reforms failed; their real achievement, legal private enterprise and the debate that produced the 500 Days Plan, mattered only after the Union had gone.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and a limit."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there was an anti-alcohol campaign, a cooperatives law and the 500 Days Plan.",
+     "correct": false,
+     "explanation": "A recap of policies with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the reforms had good and bad sides.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Gorbachev was a failure.",
+     "correct": false,
+     "explanation": "Judgement without criterion or evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the successes and failures of Gorbachev's economic reforms between 1985 and 1991.” Sort each plan point into SUCCESSES or FAILURES.",
+   "categories": [
+    {
+     "id": "successes",
+     "label": "Successes"
+    },
+    {
+     "id": "failures",
+     "label": "Failures"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "13,921 cooperatives with higher productivity by the end of 1987",
+     "answer": "successes",
+     "explanation": "A real gain in services and initiative."
+    },
+    {
+     "id": "s2",
+     "text": "Staples missing in Moscow by September 1988",
+     "answer": "failures",
+     "explanation": "The result of wage freedom with fixed prices."
+    },
+    {
+     "id": "s3",
+     "text": "A full market programme drafted in 1990",
+     "answer": "successes",
+     "explanation": "The 500 Days Plan shaped later Russian reform (Campbell)."
+    },
+    {
+     "id": "s4",
+     "text": "Lost alcohol revenue covered by printing money",
+     "answer": "failures",
+     "explanation": "A cause of inflation."
+    },
+    {
+     "id": "s5",
+     "text": "Pavlov's banknote withdrawal destroyed trust",
+     "answer": "failures",
+     "explanation": "Confiscation, not reform."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-16-B4-ECONOMICS-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent did perestroika fail to achieve its economic aims between 1985 and 1991?",
+   "commandTerm": "to what extent",
+   "namedFactor": "perestroika",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1985,
+    1991
+   ],
+   "scope": "Soviet Union; economic reform",
+   "decodeKey": {
+    "verb": "To what extent: judge how far, using degree language",
+    "factorOrTask": "Perestroika and its economic aims",
+    "timeframe": "1985–1991",
+    "scope": "The Soviet economy",
+    "judgement": "How far perestroika failed, measured against its aims as they changed"
+   },
+   "modelPlan": {
+    "thesis": "Perestroika largely failed in its economic aims, because it loosened planning without creating a market; but its aims changed, and by 1990 the decisive obstacle was Gorbachev's refusal to give the republics economic power.",
+    "arguments": [
+     {
+      "claim": "Perestroika's partial reforms produced shortage and inflation (named factor first).",
+      "evidence": [
+       "F-ECONOMICS-09",
+       "F-ECONOMICS-10"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Early measures weakened the budget before perestroika proper began.",
+      "evidence": [
+       "F-ECONOMICS-03",
+       "F-ECONOMICS-04"
+      ]
+     },
+     {
+      "claim": "The cooperatives were a limited success, but small and resented.",
+      "evidence": [
+       "F-ECONOMICS-07",
+       "F-ECONOMICS-08"
+      ]
+     },
+     {
+      "claim": "In 1990–1991 the centre rejected the market and turned to confiscation.",
+      "evidence": [
+       "F-ECONOMICS-17",
+       "F-ECONOMICS-18",
+       "F-ECONOMICS-20"
+      ]
+     }
+    ],
+    "counter": "Brown argues that Gorbachev's aims changed and democratisation became his priority, so judging him by economic aims alone is unfair.",
+    "judgementCriterion": "Did the economy grow, as the original aim required? No: it shrank and debt rose, so the failure is clear, however the aims changed."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Perestroika largely failed to achieve its economic aims, because it weakened central planning before it created a market.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Law on State Enterprise let enterprises set wages from January 1988, and by September 1988 many staples could not be found even in Moscow.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that wages rose while prices stayed fixed, so the government printed money and goods disappeared from state shops.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Archie Brown argues that Gorbachev's aims evolved, and that democratisation came to matter more to him than economic reform.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Judged by its original aim of reviving the economy, perestroika therefore failed, even if its political aims went further.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "perestroika"
+    ],
+    "synonyms": [
+     "restructuring",
+     "economic reform"
+    ],
+    "historians": [
+     "Judt",
+     "Campbell",
+     "Brown"
+    ],
+    "extraLexicon": [
+     "Law on State Enterprise",
+     "cooperatives",
+     "500 Days"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B4-ECONOMICS-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Gorbachev's economic reforms made the Soviet economy worse, not better.” Discuss with reference to the period 1985 to 1991.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1985,
+    1991
+   ],
+   "scope": "Soviet Union; effects of economic reform",
+   "decodeKey": {
+    "verb": "Discuss: test the claim for and against, then judge",
+    "factorOrTask": "The claim that the reforms made things worse",
+    "timeframe": "1985–1991",
+    "scope": "The Soviet economy",
+    "judgement": "How far the reforms, rather than inherited problems, caused the decline"
+   },
+   "modelPlan": {
+    "thesis": "The claim is largely right: the reforms turned stagnation into shortage and inflation; but the inherited problems were real, and the most damaging choices of 1990–1991 were refusals to reform rather than reforms.",
+    "arguments": [
+     {
+      "claim": "For: the anti-alcohol campaign and money printing fed inflation.",
+      "evidence": [
+       "F-ECONOMICS-04"
+      ]
+     },
+     {
+      "claim": "For: the enterprise law and the withdrawal of the party produced shortage and free fall.",
+      "evidence": [
+       "F-ECONOMICS-09",
+       "F-ECONOMICS-10",
+       "F-ECONOMICS-21"
+      ]
+     },
+     {
+      "claim": "Against: the economy was already shrinking when Gorbachev took over.",
+      "evidence": [
+       "F-ECONOMICS-02"
+      ]
+     },
+     {
+      "claim": "Against: the damage of 1990–1991 came from rejecting the 500 Days Plan and from confiscation.",
+      "evidence": [
+       "F-ECONOMICS-17",
+       "F-ECONOMICS-18"
+      ]
+     }
+    ],
+    "counter": "Judt argues the failure was built into any reform of a command economy, so the reforms could not have made things better quickly.",
+    "judgementCriterion": "Was the economy in 1991 worse because of what Gorbachev did? Yes, because shortage and inflation followed his measures directly; the inheritance explains why reform was needed, not why it failed."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Gorbachev's reforms did make the Soviet economy worse, because they destroyed the old coordination before a market existed.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1988–89 he ordered party committees to stop interfering in the economy and cut ministry staffs, and by 1990 enterprises traded by barter while citizens queued with ration coupons.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that neither plan nor market allocated goods, so supply chains broke down.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt shows the economy was already shrinking when Gorbachev took over, so the reforms worsened a decline they did not start.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore largely valid: the reforms turned decline into collapse.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "reform"
+    ],
+    "synonyms": [
+     "perestroika",
+     "worse",
+     "shortage"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "barter",
+     "talony",
+     "inflation"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B4-ECONOMICS-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the successes and failures of Gorbachev's economic reforms between 1985 and 1991.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1985,
+    1991
+   ],
+   "scope": "Soviet Union; economic reform",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "Two tasks: successes AND failures",
+    "timeframe": "1985–1991",
+    "scope": "Gorbachev's economic reforms",
+    "judgement": "Which outweighed the other, by a stated criterion"
+   },
+   "modelPlan": {
+    "thesis": "The failures clearly outweighed the successes: legal private enterprise and a real market programme were achievements, but shortage, inflation and the loss of control over the economy decided the outcome.",
+    "arguments": [
+     {
+      "claim": "Success: cooperatives and private work became legal.",
+      "evidence": [
+       "F-ECONOMICS-06",
+       "F-ECONOMICS-07"
+      ],
+      "part": "successes"
+     },
+     {
+      "claim": "Success: the debate produced a full market programme in 1990.",
+      "evidence": [
+       "F-ECONOMICS-15"
+      ],
+      "part": "successes"
+     },
+     {
+      "claim": "Failure: shortage and inflation from 1988.",
+      "evidence": [
+       "F-ECONOMICS-09",
+       "F-ECONOMICS-04"
+      ],
+      "part": "failures"
+     },
+     {
+      "claim": "Failure: the centre lost control of the economy to the republics.",
+      "evidence": [
+       "F-ECONOMICS-16",
+       "F-ECONOMICS-20"
+      ],
+      "part": "failures"
+     }
+    ],
+    "counter": "The successes laid foundations for post-Soviet reform, so judged in the long term they matter more.",
+    "judgementCriterion": "Judged by whether living standards and growth improved between 1985 and 1991, the reforms failed."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The failures of Gorbachev's economic reforms outweighed their successes.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The cooperatives employed about 150,000 people by the end of 1987, yet by September 1988 staples were missing in Moscow.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that small gains in private services were swamped by the shortages that partial reform created in the state sector.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the reforms legalised private enterprise and produced the 500 Days Plan, whose spirit, Campbell notes, shaped later Russian reform.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Judged by growth and living standards in 1985–1991, the reforms therefore failed.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "reform"
+    ],
+    "synonyms": [
+     "success",
+     "failure",
+     "achievement"
+    ],
+    "historians": [
+     "Campbell",
+     "Judt"
+    ],
+    "extraLexicon": [
+     "cooperatives",
+     "500 Days"
+    ],
+    "parts": [
+     {
+      "name": "successes",
+      "terms": [
+       "success",
+       "achieve",
+       "gain"
+      ]
+     },
+     {
+      "name": "failures",
+      "terms": [
+       "failure",
+       "fail",
+       "shortage",
+       "inflation"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B4-ECONOMICS-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the anti-alcohol campaign and the Law on Cooperatives as attempts at economic reform between 1985 and 1988.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1985,
+    1988
+   ],
+   "scope": "Soviet Union; two early reforms",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The anti-alcohol campaign and the Law on Cooperatives",
+    "timeframe": "1985–1988",
+    "scope": "Economic reform in the Soviet Union",
+    "judgement": "Which differences reveal how perestroika changed"
+   },
+   "modelPlan": {
+    "thesis": "Both reforms tried to raise productivity and both produced unintended costs, but they differed fundamentally in method: the campaign used state compulsion, the cooperatives used private initiative.",
+    "arguments": [
+     {
+      "claim": "Similarity: both aimed to improve productivity and services.",
+      "evidence": [
+       "F-ECONOMICS-03",
+       "F-ECONOMICS-07"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both produced unintended costs, crime and resentment.",
+      "evidence": [
+       "F-ECONOMICS-04",
+       "F-ECONOMICS-08"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: compulsion from above against initiative from below.",
+      "evidence": [
+       "F-ECONOMICS-03",
+       "F-ECONOMICS-06",
+       "F-ECONOMICS-07"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: one was abandoned after 1987, the other was extended in 1988.",
+      "evidence": [
+       "F-ECONOMICS-04",
+       "F-ECONOMICS-07"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "The similarity in results may matter more than the difference in method: both showed that the state could not control the effects of its own reforms.",
+    "judgementCriterion": "Which difference shows perestroika changing? The shift from compulsion to initiative, which marks the move from improving the old system to reforming it."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The anti-alcohol campaign and the cooperatives both aimed to raise productivity, but they used opposite methods.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The campaign of May 1985 closed distilleries and restricted sales, whereas the Law on Cooperatives of May 1988 put profit-making cooperatives on the same basis as state enterprises.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that perestroika moved from compelling people to behave differently to allowing them to profit from initiative.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both produced unintended costs: moonshine and lost revenue in one case, resentment and protection rackets in the other.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The contrast in method therefore shows how far perestroika had moved by 1988, while the similarity in results shows its limits.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "anti-alcohol",
+     "cooperatives"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "samogon",
+     "kooperativshchiki"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B4-ECONOMICS-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the impact of the Law on State Enterprise on the Soviet economy between 1988 and 1991.",
+   "commandTerm": "examine",
+   "namedFactor": "the Law on State Enterprise",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1988,
+    1991
+   ],
+   "scope": "Soviet Union; the enterprise law",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "The Law on State Enterprise",
+    "timeframe": "1988–1991",
+    "scope": "The Soviet economy",
+    "judgement": "How far the law, compared with other measures, shaped the crisis"
+   },
+   "modelPlan": {
+    "thesis": "The law was a major accelerant of the crisis because it freed wages without freeing prices, but its effects combined with money printing, the withdrawal of the party and the republics' actions.",
+    "arguments": [
+     {
+      "claim": "Wage rises, money printing and empty shops (named factor first).",
+      "evidence": [
+       "F-ECONOMICS-09"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Judt's dilemma: freedom without a market meant more shortage.",
+      "evidence": [
+       "F-ECONOMICS-11",
+       "F-ECONOMICS-12"
+      ]
+     },
+     {
+      "claim": "The withdrawal of the party removed the remaining coordination.",
+      "evidence": [
+       "F-ECONOMICS-10",
+       "F-ECONOMICS-21"
+      ]
+     },
+     {
+      "claim": "By 1990–1991 the republics and the miners took economic authority from the centre.",
+      "evidence": [
+       "F-ECONOMICS-16",
+       "F-ECONOMICS-20"
+      ]
+     }
+    ],
+    "counter": "Campbell calls the law 'tinkering', which suggests its direct impact was smaller than the political decisions that followed.",
+    "judgementCriterion": "How much of the crisis would have happened without it? Much less shortage in 1988, so its impact was large, though not sole."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Law on State Enterprise accelerated the crisis because it freed wages without freeing prices.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After it came into effect in January 1988, workers demanded steep wage rises, the government printed money, and by September staples were missing even in Moscow.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that more money chased goods still sold at fixed prices, so goods disappeared into speculation.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the free fall of 1989–1990 owed as much to the withdrawal of the party from the economy as to the law itself.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The law's impact was therefore large but not decisive on its own.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Law on State Enterprise"
+    ],
+    "synonyms": [
+     "enterprise law"
+    ],
+    "historians": [
+     "Judt",
+     "Campbell"
+    ],
+    "extraLexicon": [
+     "wages",
+     "fixed prices",
+     "money printing"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B4-ECONOMICS-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons why Gorbachev rejected the 500 Days Plan in 1990.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1990,
+    1990
+   ],
+   "scope": "Soviet Union; the 500 Days Plan",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its reasons and show how they connect",
+    "factorOrTask": "The reasons for Gorbachev's rejection",
+    "timeframe": "1990",
+    "scope": "The 500 Days Plan",
+    "judgement": "Which reason was decisive"
+   },
+   "modelPlan": {
+    "thesis": "Gorbachev rejected the plan mainly because it would have transferred economic sovereignty to the republics; fear of the social cost of price rises and conservative pressure reinforced his choice.",
+    "arguments": [
+     {
+      "claim": "The plan would hand resources and taxes to the republics.",
+      "evidence": [
+       "F-ECONOMICS-15",
+       "F-ECONOMICS-17"
+      ]
+     },
+     {
+      "claim": "Ryzhkov's bread-price panic showed the social risk of rapid price rises.",
+      "evidence": [
+       "F-ECONOMICS-14"
+      ]
+     },
+     {
+      "claim": "The Union parliament preferred decree powers and a compromise.",
+      "evidence": [
+       "F-ECONOMICS-16"
+      ]
+     },
+     {
+      "claim": "Russia's adoption of the plan made it a weapon of Yeltsin's against the centre.",
+      "evidence": [
+       "F-ECONOMICS-16"
+      ]
+     }
+    ],
+    "counter": "Gorbachev did not reject the plan outright: the Basic Guidelines kept its stages, so the difference was about the timetable.",
+    "judgementCriterion": "Which reason, if removed, would most likely have changed his decision? The transfer of sovereignty: Seventeen Moments concludes the compromise meant the Union would keep the Union's property."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Gorbachev rejected the 500 Days Plan mainly because it would have transferred economic sovereignty to the republics.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The plan passed control of resources and taxes to the republics, and the Russian Supreme Soviet adopted it on 11 September 1990.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that accepting it would have reduced the Union to whatever powers the republics chose to delegate, which Campbell argues Gorbachev was not ready to accept.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the October 'Basic Guidelines' kept the plan's four stages, so Gorbachev rejected its timetable and federalism rather than the market itself.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive reason was therefore political: the Union would keep the Union's property.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "500 Days"
+    ],
+    "synonyms": [
+     "Shatalin plan",
+     "Transition to the Market"
+    ],
+    "historians": [
+     "Campbell"
+    ],
+    "extraLexicon": [
+     "Basic Guidelines",
+     "Yavlinsky",
+     "sovereignty"
+    ]
+   }
+  }
+ ]
+}

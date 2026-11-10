@@ -1,0 +1,2894 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-16-B5-COLLAPSE",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 18,
+  "openingProblem": {
+   "problem": "In March 1991 most Soviet voters who took part in a referendum voted to keep the Union. Nine months later it no longer existed. Who, or what, ended the Soviet Union: the coup plotters, Yeltsin, the republics, or Gorbachev himself?",
+   "predictionPrompt": "Your prediction in one line: who ended the Soviet Union?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Two Moscows: Yeltsin and the republics, 1990",
+    "body": "In 1990 the decisive struggle in the Soviet Union moved from the party to the republics, and above all to Russia. Boris Yeltsin, sacked as Moscow party chief in 1987, won a seat in the elections to the Russian Supreme Soviet in March 1990, and on 29 May the Russian Congress of People's Deputies elected him its chairman.\n\nTwo weeks later, on 12 June 1990, the Russian congress issued a **Declaration of State Sovereignty**, giving Russian authority precedence over Soviet rule on Russian territory. Seventeen Moments describes the result as a \"dual power\" like that of 1917: Gorbachev at the head of the Soviet Union, Yeltsin at the head of Russia, in the same city. Similar declarations followed from Moldova, Belarus and Ukraine, whose parliament declared sovereignty in July. Then, on 12 July 1990, at the Twenty-Eighth Party Congress, Yeltsin resigned from the Communist Party, calling it a party of \"power thirsty bureaucrats\".\n\nWhy did this matter so much? Russia had been the only republic without its own Communist Party, and its posts had been relatively unimportant. Yeltsin turned the Russian institutions into a rival centre of power. Judt argues that Gorbachev's \"major tactical mistake\" in domestic affairs had been to create a national legislature with real powers and national visibility. Yeltsin understood faster than Gorbachev that elected bodies would become a forum for every kind of discontent, and he aligned Russia's interests with those of the other republics. Gorbachev, by contrast, found himself aligned \"uneasily and unconvincingly\" with officials nostalgic for the party monopoly he had broken.\n\nThis mattered because the Soviet Union could survive the loss of the Baltic republics, but not the defection of Russia, which meant that once Russia's leaders claimed sovereignty the Union's centre had no secure territory of its own. By the end of 1990, declarations of sovereignty were coming even from regions inside Russia, such as Tatarstan and Chechnya. Gorbachev's answer in the winter of 1990–91 was to rely on the conservatives. In November he took sweeping powers to rule by decree, and in December his Foreign Minister, Eduard Shevardnadze, resigned without warning, telling the Congress that dictatorship was coming. Within a month riot police were attacking strategic points in the Baltic states.",
+    "argumentsThatWork": [
+     {
+      "claim": "Russian sovereignty, not Baltic nationalism, was the fatal blow to the centre, because Russia was the Union's core.",
+      "evidence": [
+       "F-COLLAPSE-02",
+       "F-COLLAPSE-04"
+      ],
+      "strongestCounter": "The Baltic and Georgian movements came first and set the example Russia followed."
+     },
+     {
+      "claim": "Yeltsin's break with the party gave him a popular base Gorbachev lacked.",
+      "evidence": [
+       "F-COLLAPSE-03",
+       "F-COLLAPSE-08"
+      ],
+      "strongestCounter": "In 1990 Yeltsin was elected chairman by deputies, not the people; his popular mandate came only in June 1991."
+     },
+     {
+      "claim": "Gorbachev's turn to the right in winter 1990–91 cost him the reformers without winning the conservatives.",
+      "evidence": [
+       "F-COLLAPSE-05",
+       "F-COLLAPSE-26"
+      ],
+      "strongestCounter": "He abandoned it in April 1991, so it was a phase rather than a final choice."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the view that Yeltsin, not the coup plotters, destroyed the Soviet Union.",
+     "Compare and contrast the roles of Gorbachev and Yeltsin in the collapse of the Soviet Union between 1990 and 1991."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Russian declaration of sovereignty of June 1990 did more to undermine the Union's centre than the national movements on the periphery.",
+     "prove": "On 12 June 1990 the Russian congress declared that its authority took precedence over Soviet rule on Russian territory, and Moldova, Belarus and Ukraine soon followed.",
+     "explain": "This meant that the Union government faced a rival power in its own capital, so it no longer had a secure territory of its own.",
+     "test": "However, the Baltic and Georgian movements had already shown that the republics could defy Moscow, and Russia followed their example.",
+     "judge": "Russian sovereignty was therefore the decisive step, because the centre could survive losing the periphery but not losing Russia."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did Russia declare its state sovereignty?",
+      "factIds": [
+       "F-COLLAPSE-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "12 June 1990",
+        "correct": true,
+        "explanation": "Correct: now celebrated as Russian Independence Day."
+       },
+       {
+        "id": "b",
+        "text": "12 June 1991",
+        "correct": false,
+        "explanation": "That is when Yeltsin was elected President of Russia."
+       },
+       {
+        "id": "c",
+        "text": "12 July 1990",
+        "correct": false,
+        "explanation": "That is when Yeltsin left the Communist Party."
+       },
+       {
+        "id": "d",
+        "text": "8 December 1991",
+        "correct": false,
+        "explanation": "That is the Belovezha meeting."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Judt, what was Gorbachev's major tactical mistake in domestic affairs?",
+      "factIds": [
+       "F-COLLAPSE-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Creating a national legislature with real powers, which became a forum for every discontent",
+        "correct": true,
+        "explanation": "Correct: Yeltsin used it better than Gorbachev."
+       },
+       {
+        "id": "b",
+        "text": "Withdrawing from Afghanistan",
+        "correct": false,
+        "explanation": "Not the mistake Judt names here."
+       },
+       {
+        "id": "c",
+        "text": "Appointing Yeltsin as Prime Minister",
+        "correct": false,
+        "explanation": "Yeltsin was never Gorbachev's prime minister."
+       },
+       {
+        "id": "d",
+        "text": "Holding the March 1991 referendum",
+        "correct": false,
+        "explanation": "Not the mistake Judt names."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Shevardnadze resigned in December 1990, warning that dictatorship was coming.” Which argument does it support best?",
+      "factIds": [
+       "F-COLLAPSE-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Gorbachev's turn to the right was alienating the reformers",
+        "correct": true,
+        "explanation": "Correct: his long-time ally broke with him publicly."
+       },
+       {
+        "id": "b",
+        "text": "The coup plotters were already in power",
+        "correct": false,
+        "explanation": "The coup came in August 1991."
+       },
+       {
+        "id": "c",
+        "text": "The Baltic states had joined the Union Treaty",
+        "correct": false,
+        "explanation": "They refused to take part."
+       },
+       {
+        "id": "d",
+        "text": "Yeltsin supported Gorbachev's decree powers",
+        "correct": false,
+        "explanation": "Nothing in the fact concerns Yeltsin."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "The last attempt to save the Union, March–August 1991",
+    "body": "Gorbachev's strategy in 1991 was to replace the old Union with a new, looser one by agreement. On 17 March 1991 a referendum asked whether voters wanted to preserve the USSR \"as a renewed federation of sovereign republics\". An overwhelming majority of those voting said yes. But six republics, the three Baltic states, Armenia, Georgia and Moldavia, refused to take part, and in April Georgia declared independence. Even the yes votes were ambiguous: in Ukraine over 70 per cent supported the revised Union, but nearly 80 per cent also approved Ukraine's own declaration of sovereignty.\n\nApril brought crisis. Miners had been on strike since March, demanding Gorbachev's resignation, and Prime Minister Pavlov's price rises of 2 April provoked further strikes. Gorbachev could have used force, as in Vilnius earlier in the year. Instead he abandoned his \"turn to the right\". Judt notes that in April he reluctantly conceded to the republics the right of secession in a new Union constitution. On 23 April he met the leaders of the nine republics that had taken part in the referendum, including Yeltsin, at Novo-Ogarevo outside Moscow, and they agreed to draft a new treaty: the \"nine plus one\" agreement.\n\nMeanwhile Yeltsin's position grew stronger. On 12 June 1991 he was elected President of the Russian republic, in Judt's words \"the first ever democratically chosen leader of Russia\". Gorbachev had been chosen President of the USSR by the Congress, not by the voters, so for the first time the Russian leader had a popular mandate that the Soviet leader could not match.\n\nOn 12 July the USSR Supreme Soviet voted for a new, decentralised Union. The treaty, published on 14 August and due to be signed on 20 August, gave the republics ownership of virtually all natural resources on their territory, made republic laws supreme over Union laws, and replaced \"Socialist\" with \"Sovereign\" in the country's name. This mattered because the centre was signing away its economic and legal supremacy, which meant that conservatives in the leadership now saw 20 August as the last date on which the old Union could be saved. Judt observes that Gorbachev's concessions convinced his conservative foes that he \"would have to be removed if order was to be restored\".",
+    "argumentsThatWork": [
+     {
+      "claim": "Gorbachev tried to save the Union by giving most of its power away: the treaty made the republics supreme.",
+      "evidence": [
+       "F-COLLAPSE-09",
+       "F-COLLAPSE-07"
+      ],
+      "strongestCounter": "Without such concessions the nine republics would not have signed at all."
+     },
+     {
+      "claim": "The referendum showed support for a Union, but not one Moscow could control.",
+      "evidence": [
+       "F-COLLAPSE-06",
+       "F-COLLAPSE-28"
+      ],
+      "strongestCounter": "The yes vote was real: an overwhelming majority of participating voters backed a renewed federation."
+     },
+     {
+      "claim": "Yeltsin's popular election in June 1991 shifted legitimacy from the Union to Russia.",
+      "evidence": [
+       "F-COLLAPSE-08"
+      ],
+      "strongestCounter": "Yeltsin still took part in the Novo-Ogarevo process, so he had not yet abandoned a Union."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the reasons why Gorbachev's attempt to agree a new Union Treaty failed between 1990 and 1991.",
+     "Compare and contrast the roles of Gorbachev and Yeltsin in the collapse of the Soviet Union between 1990 and 1991."
+    ],
+    "useItInAnEssay": {
+     "claim": "The new Union Treaty of 1991 would have saved the Union only by giving away most of the centre's power.",
+     "prove": "Published on 14 August, it gave the republics ownership of virtually all natural resources and made their laws supreme over Union laws.",
+     "explain": "This meant that the centre would survive in name but not in substance, so conservatives saw its signing on 20 August as the end of the Soviet state they served.",
+     "test": "However, the treaty had the support of nine republics, including Russia, so it was the only basis on which any Union could survive.",
+     "judge": "The treaty was therefore both Gorbachev's best chance and the trigger for the coup that destroyed it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C04",
+      "kind": "checkpoint",
+      "type": "multi_select",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which republics did not take part in the referendum of 17 March 1991? Choose all that apply.",
+      "factIds": [
+       "F-COLLAPSE-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Estonia, Latvia and Lithuania",
+        "correct": true,
+        "explanation": "Yes: all three Baltic states boycotted it."
+       },
+       {
+        "id": "b",
+        "text": "Georgia",
+        "correct": true,
+        "explanation": "Yes: and it declared independence in April."
+       },
+       {
+        "id": "c",
+        "text": "Russia",
+        "correct": false,
+        "explanation": "No: Russia took part and Yeltsin joined the Novo-Ogarevo talks."
+       },
+       {
+        "id": "d",
+        "text": "Ukraine",
+        "correct": false,
+        "explanation": "No: Ukraine voted, with over 70 per cent backing the revised Union."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the 'nine plus one' agreement of 23 April 1991?",
+      "factIds": [
+       "F-COLLAPSE-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Gorbachev and nine republic leaders agreed to draft a new Union treaty",
+        "correct": true,
+        "explanation": "Correct: the Novo-Ogarevo process."
+       },
+       {
+        "id": "b",
+        "text": "Nine republics declared independence",
+        "correct": false,
+        "explanation": "That happened between 24 August and 21 September."
+       },
+       {
+        "id": "c",
+        "text": "Nine coup plotters formed a committee",
+        "correct": false,
+        "explanation": "The State Committee had eight members."
+       },
+       {
+        "id": "d",
+        "text": "Nine states joined the Warsaw Pact",
+        "correct": false,
+        "explanation": "Not what the agreement was; it concerned a new Union treaty."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C06",
+      "kind": "checkpoint",
+      "type": "spot_error",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: “Like Yeltsin in June 1991, Gorbachev had been elected President by the Soviet voters.”",
+      "factIds": [
+       "F-COLLAPSE-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Gorbachev had been elected by the Congress, not by popular vote",
+        "correct": true,
+        "explanation": "Correct: this is why Yeltsin's mandate was stronger."
+       },
+       {
+        "id": "b",
+        "text": "Yeltsin was elected in 1990",
+        "correct": false,
+        "explanation": "He became chairman in 1990 and President in June 1991."
+       },
+       {
+        "id": "c",
+        "text": "Yeltsin was President of Ukraine",
+        "correct": false,
+        "explanation": "He was President of the Russian republic."
+       },
+       {
+        "id": "d",
+        "text": "There is no error",
+        "correct": false,
+        "explanation": "There is: how Gorbachev became President."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "The August coup: why did it fail?",
+    "body": "The coup was timed to stop the Union Treaty from being signed on 20 August. Its leaders formed an eight-member **State Committee for the State of Emergency**: among them KGB chairman Vladimir Kryuchkov, Defence Minister Dmitrii Yazov, Prime Minister Valentin Pavlov, Interior Minister Boris Pugo and Vice-President Gennadii Yanaev. Several were men Gorbachev had appointed himself and relied on during his turn to the right. When Gorbachev, on holiday in the Crimea, refused to cooperate, the committee announced on 19 August that he could not exercise his authority \"for health reasons\". Yanaev signed a decree stripping him of power and a six-month state of emergency was declared. Tanks entered Moscow.\n\nThe coup collapsed within three days. Its first weakness was its own support. Judt notes that a majority of senior KGB officers refused to back Kryuchkov, and Seventeen Moments records that the soldiers and elite KGB units sent into the streets refused to fire on or disperse the demonstrators. Judt adds that the plotters were clear about what they were against but never able to say what they were for. The very need to declare an emergency merely to replace one Communist leader with another, he argues, showed how far the old structures had unravelled.\n\nThe second weakness was Boris Yeltsin. On 19 August he denounced the takeover as an illegal coup and placed himself at the head of the resistance in the Russian Parliament building, the White House, climbing onto a tank before the cameras to rally its defenders. Thousands of Muscovites surrounded the building. Yeltsin telephoned world leaders, who gave him their support and withheld recognition from the plotters. The resistance was not without cost: on the night of 20–21 August three demonstrators died in clashes with the army.\n\nThe third weakness was that the republics did not wait. On 20 August Estonia declared independence, and Latvia followed the next day. By 21 August the plotters had given up; Pugo committed suicide and the others were arrested. Gorbachev flew back to Moscow. This mattered because the coup had been defeated not by Gorbachev but by Yeltsin and the crowd, which meant that its failure transferred authority from the Union to Russia. Seventeen Moments compares it to Kornilov's coup of 1917: in both cases the failed attempt benefited not the government but those who could claim credit for stopping it.",
+    "argumentsThatWork": [
+     {
+      "claim": "The coup failed mainly because the armed forces and the KGB would not use force for it.",
+      "evidence": [
+       "F-COLLAPSE-13"
+      ],
+      "strongestCounter": "Three demonstrators did die, so force was used, though not decisively."
+     },
+     {
+      "claim": "Yeltsin's resistance gave the opposition a leader, a building and international support.",
+      "evidence": [
+       "F-COLLAPSE-12"
+      ],
+      "strongestCounter": "The crowd and the soldiers' refusal mattered as much as Yeltsin's leadership."
+     },
+     {
+      "claim": "The coup revealed that the old structures had already unravelled.",
+      "evidence": [
+       "F-COLLAPSE-15",
+       "F-COLLAPSE-14"
+      ],
+      "strongestCounter": "The plotters held the key offices of state, so their failure was not inevitable."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the reasons for, and the consequences of, the failure of the August coup of 1991.",
+     "To what extent was the August coup responsible for the dissolution of the Soviet Union in 1991?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The August coup failed mainly because the forces the plotters commanded would not act for them.",
+     "prove": "Judt notes that a majority of senior KGB officers refused to back Kryuchkov, and the soldiers and elite KGB units sent into Moscow refused to fire on the demonstrators.",
+     "explain": "This meant that the plotters held the offices of state but not the instruments of force, so Yeltsin's resistance at the White House could not be crushed.",
+     "test": "However, three demonstrators died on the night of 20–21 August, which shows that the outcome was not certain while the stand-off lasted.",
+     "judge": "The coup therefore failed because the state's own servants would not defend the state the plotters claimed to be saving."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why was the coup launched when it was?",
+      "factIds": [
+       "F-COLLAPSE-10"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To prevent the signing of the new Union Treaty on 20 August",
+        "correct": true,
+        "explanation": "Correct: the treaty would have given the republics supremacy."
+       },
+       {
+        "id": "b",
+        "text": "To stop Yeltsin's election as President of Russia",
+        "correct": false,
+        "explanation": "That election had taken place on 12 June."
+       },
+       {
+        "id": "c",
+        "text": "To prevent Ukraine's referendum",
+        "correct": false,
+        "explanation": "Ukraine's referendum was held on 1 December, after the coup."
+       },
+       {
+        "id": "d",
+        "text": "To restore Brezhnev to power",
+        "correct": false,
+        "explanation": "Brezhnev had died in 1982."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many demonstrators died in Moscow on the night of 20–21 August 1991? (number)",
+      "factIds": [
+       "F-COLLAPSE-14"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 3,
+        "tolerance": 0,
+        "explanation": "Three, in clashes with the army; the plotters gave up the next day."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “A majority of senior KGB officers refused to back Kryuchkov.” Which argument does it support best?",
+      "factIds": [
+       "F-COLLAPSE-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The plotters lacked control over the instruments of force",
+        "correct": true,
+        "explanation": "Correct: the coup's own institutions were divided."
+       },
+       {
+        "id": "b",
+        "text": "Yeltsin controlled the KGB",
+        "correct": false,
+        "explanation": "The fact concerns the officers' refusal, not Yeltsin's control."
+       },
+       {
+        "id": "c",
+        "text": "Gorbachev organised the coup",
+        "correct": false,
+        "explanation": "Gorbachev was held at his villa."
+       },
+       {
+        "id": "d",
+        "text": "The coup succeeded",
+        "correct": false,
+        "explanation": "It collapsed by 21 August."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "From coup to dissolution, August–December 1991",
+    "body": "Gorbachev returned to a different country. Judt describes him speaking to the cameras about perestroika and the indispensable role the party would continue to play, while crowds at the Russian Parliament shouted that the party was \"a criminal enterprise\". He was humiliated by Yeltsin and the deputies. On 23 August Yeltsin suspended the Russian Communist Party, and within days Gorbachev resigned as General Secretary. Judt's verdict is that Gorbachev \"had been overtaken by History and didn't know it\".\n\nThe republics now left. Between 24 August and 21 September nine of them, including Ukraine and Belarus, declared independence; Ukraine's parliament voted on 24 August. Gorbachev replaced the Congress with a State Council of republic leaders, which approved Baltic independence and achieved little else. Yeltsin, meanwhile, took over the Union's institutions one by one: by November, Judt writes, he controlled virtually all financial and economic activity on Russian territory. On 24 October the KGB itself was abolished. The Soviet Union was becoming, in Judt's phrase, \"a shell state\".\n\n**Ukraine** decided the outcome. On 1 December 1991 more than 92 per cent of Ukrainian voters approved independence, and Leonid Kravchuk, a former Communist boss turned nationalist, was elected president. Seventeen Moments calls the referendum \"widely regarded as the decisive deathblow to the USSR\": a Union without its second most populous republic made little sense to Russia either. A week later, on 8 December, Yeltsin, Kravchuk and the Belarusian leader Stanislav Shushkevich met at a hunting lodge in the Belovezha forest near Minsk, denounced the Union Treaty of 1922 and proposed a **Commonwealth of Independent States**. Gorbachev had not been consulted and called it \"illegal and dangerous\". On 21 December all the other republics except Georgia and the Baltic states declared their willingness to join. On 25 December Gorbachev resigned and the Russian flag replaced the Soviet one over the Kremlin. At midnight on 31 December 1991 the USSR ceased to exist.\n\nWas this inevitable? Seventeen Moments argues that there was \"no inevitability\" about replacing the Union with the Commonwealth, a decision made \"hastily if not whimsically\". Archie Brown sees the disintegration as the ultimate unintended consequence of perestroika, but stresses what it left: fifteen independent states, and a Russia freer than at any point in its previous history. This mattered because the Union ended by agreement among its republics rather than by war, which meant that the collapse of a nuclear superpower was, for most of its territory, peaceful.",
+    "argumentsThatWork": [
+     {
+      "claim": "The coup's failure destroyed the party and handed the Union's power to Yeltsin's Russia.",
+      "evidence": [
+       "F-COLLAPSE-16",
+       "F-COLLAPSE-18",
+       "F-COLLAPSE-23"
+      ],
+      "strongestCounter": "Gorbachev remained President of the USSR until December, so the Union still had a legal centre."
+     },
+     {
+      "claim": "Ukraine's referendum of 1 December was the decisive blow.",
+      "evidence": [
+       "F-COLLAPSE-19",
+       "F-COLLAPSE-20"
+      ],
+      "strongestCounter": "Russia's leaders had already taken over the Union's institutions, so Ukraine confirmed rather than caused the end."
+     },
+     {
+      "claim": "The end of the Union was contingent, decided quickly by three leaders.",
+      "evidence": [
+       "F-COLLAPSE-25",
+       "F-COLLAPSE-20"
+      ],
+      "strongestCounter": "Judt's account of the shell state suggests that by December little was left to save."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the significance of Ukrainian independence for the end of the Soviet Union in 1991.",
+     "To what extent was the August coup responsible for the dissolution of the Soviet Union in 1991?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Ukraine's vote for independence on 1 December 1991 was the decisive blow to the Soviet Union.",
+     "prove": "More than 92 per cent of voters approved independence, and a week later Kravchuk joined Yeltsin and Shushkevich at Belovezha to denounce the Union Treaty of 1922.",
+     "explain": "This meant that a renewed Union would have had to exist without its second most populous republic, so Russia's leaders no longer had a reason to preserve it.",
+     "test": "However, the Union was already a shell by November, with the KGB abolished and Yeltsin controlling economic activity in Russia.",
+     "judge": "Ukraine's referendum was therefore decisive in timing, but it finished a collapse that the coup had begun."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "More than what percentage of Ukrainian voters approved independence on 1 December 1991? (number)",
+      "factIds": [
+       "F-COLLAPSE-19"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 92,
+        "tolerance": 0,
+        "explanation": "More than 92 per cent: Seventeen Moments calls the referendum the decisive deathblow to the USSR."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the leaders of Russia, Ukraine and Belarus do on 8 December 1991?",
+      "factIds": [
+       "F-COLLAPSE-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Denounced the Union Treaty of 1922 and proposed a Commonwealth of Independent States",
+        "correct": true,
+        "explanation": "Correct: the Belovezha meeting near Minsk."
+       },
+       {
+        "id": "b",
+        "text": "Signed the new Union Treaty",
+        "correct": false,
+        "explanation": "The Union Treaty was never signed."
+       },
+       {
+        "id": "c",
+        "text": "Elected Gorbachev President of the Commonwealth",
+        "correct": false,
+        "explanation": "Gorbachev was not consulted."
+       },
+       {
+        "id": "d",
+        "text": "Declared war on the coup plotters",
+        "correct": false,
+        "explanation": "The plotters had been arrested in August."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C12",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which historian wrote that Gorbachev 'had been overtaken by History and didn't know it'?",
+      "factIds": [
+       "F-COLLAPSE-23"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Tony Judt",
+        "correct": true,
+        "explanation": "Correct: describing Gorbachev after his return from the Crimea."
+       },
+       {
+        "id": "b",
+        "text": "Archie Brown",
+        "correct": false,
+        "explanation": "Brown stresses perestroika's unintended consequences and achievements."
+       },
+       {
+        "id": "c",
+        "text": "Leonid Kravchuk",
+        "correct": false,
+        "explanation": "Kravchuk was Ukraine's president, not a historian."
+       },
+       {
+        "id": "d",
+        "text": "Robert Campbell",
+        "correct": false,
+        "explanation": "Campbell wrote on the 500 Days Plan."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-B5-COLLAPSE-C13",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “On 21 December all the other republics except Georgia and the Baltic states declared their willingness to join the Commonwealth.” Which argument does it support best?",
+      "factIds": [
+       "F-COLLAPSE-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Most republics accepted the end of the Union by agreement",
+        "correct": true,
+        "explanation": "Correct: the Union ended by agreement among its republics."
+       },
+       {
+        "id": "b",
+        "text": "The Union was saved by the Commonwealth",
+        "correct": false,
+        "explanation": "The Commonwealth replaced the Union."
+       },
+       {
+        "id": "c",
+        "text": "Georgia led the Commonwealth",
+        "correct": false,
+        "explanation": "Georgia stayed out."
+       },
+       {
+        "id": "d",
+        "text": "Gorbachev organised the Commonwealth",
+        "correct": false,
+        "explanation": "He called it illegal and dangerous."
+       }
+      ]
+     }
+    ],
+    "media": [
+     "M-belovezha-signing-1991"
+    ]
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1990,
+      "month": 5,
+      "day": 29,
+      "text": "Yeltsin elected chairman of the Russian Supreme Soviet",
+      "factId": "F-COLLAPSE-01"
+     },
+     {
+      "year": 1990,
+      "month": 6,
+      "day": 12,
+      "text": "Russia declares state sovereignty",
+      "factId": "F-COLLAPSE-02"
+     },
+     {
+      "year": 1990,
+      "month": 7,
+      "day": 12,
+      "text": "Yeltsin leaves the Communist Party",
+      "factId": "F-COLLAPSE-03"
+     },
+     {
+      "year": 1990,
+      "month": 12,
+      "text": "Shevardnadze resigns, warning of dictatorship",
+      "factId": "F-COLLAPSE-05"
+     },
+     {
+      "year": 1991,
+      "month": 3,
+      "day": 17,
+      "text": "Referendum on a renewed Union; six republics boycott",
+      "factId": "F-COLLAPSE-06"
+     },
+     {
+      "year": 1991,
+      "month": 4,
+      "day": 23,
+      "text": "'Nine plus one' talks at Novo-Ogarevo",
+      "factId": "F-COLLAPSE-07"
+     },
+     {
+      "year": 1991,
+      "month": 6,
+      "day": 12,
+      "text": "Yeltsin elected President of Russia",
+      "factId": "F-COLLAPSE-08"
+     },
+     {
+      "year": 1991,
+      "month": 8,
+      "day": 19,
+      "text": "Emergency Committee seizes power; Yeltsin resists",
+      "factId": "F-COLLAPSE-11"
+     },
+     {
+      "year": 1991,
+      "month": 8,
+      "day": 21,
+      "text": "Coup collapses; Gorbachev returns",
+      "factId": "F-COLLAPSE-14"
+     },
+     {
+      "year": 1991,
+      "month": 12,
+      "day": 1,
+      "text": "Ukraine votes for independence",
+      "factId": "F-COLLAPSE-19"
+     },
+     {
+      "year": 1991,
+      "month": 12,
+      "day": 8,
+      "text": "Belovezha: Commonwealth of Independent States proposed",
+      "factId": "F-COLLAPSE-20"
+     },
+     {
+      "year": 1991,
+      "month": 12,
+      "day": 25,
+      "text": "Gorbachev resigns; Soviet flag lowered",
+      "factId": "F-COLLAPSE-22"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Russia declares sovereignty; dual power in Moscow",
+      "factId": "F-COLLAPSE-02"
+     },
+     {
+      "id": "n2",
+      "text": "Gorbachev concedes secession; new Union Treaty drafted",
+      "factId": "F-COLLAPSE-07"
+     },
+     {
+      "id": "n3",
+      "text": "Treaty due to be signed on 20 August",
+      "factId": "F-COLLAPSE-09"
+     },
+     {
+      "id": "n4",
+      "text": "Hardliners launch the coup; force will not obey them",
+      "factId": "F-COLLAPSE-13"
+     },
+     {
+      "id": "n5",
+      "text": "Yeltsin takes over Union institutions; republics declare independence",
+      "factId": "F-COLLAPSE-18"
+     },
+     {
+      "id": "n6",
+      "text": "Ukraine votes to leave; Belovezha ends the Union",
+      "factId": "F-COLLAPSE-20"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "The centre could keep the republics only by giving them power"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Nine republics agreed to a looser Union"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Conservatives saw the signing as the end of the state they served"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "The coup's failure discredited the party and the centre"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Without Ukraine, Russia saw no reason to keep a Union"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Mikhail Gorbachev",
+     "role": "President of the USSR until 25 December 1991",
+     "whyItMatters": "Tried to save the Union by treaty; the coup and its aftermath left him President of a shell state.",
+     "factIds": [
+      "F-COLLAPSE-07",
+      "F-COLLAPSE-16",
+      "F-COLLAPSE-22"
+     ]
+    },
+    {
+     "name": "Boris Yeltsin",
+     "role": "Chairman of the Russian Supreme Soviet from May 1990; President of Russia from June 1991",
+     "whyItMatters": "Built Russia into a rival centre, led the resistance to the coup, then took over the Union's institutions.",
+     "factIds": [
+      "F-COLLAPSE-02",
+      "F-COLLAPSE-08",
+      "F-COLLAPSE-12",
+      "F-COLLAPSE-18"
+     ]
+    },
+    {
+     "name": "Vladimir Kryuchkov",
+     "role": "KGB chairman; leading member of the Emergency Committee",
+     "whyItMatters": "Most of his own senior officers refused to back the coup.",
+     "factIds": [
+      "F-COLLAPSE-10",
+      "F-COLLAPSE-13"
+     ]
+    },
+    {
+     "name": "Gennadii Yanaev",
+     "role": "Vice-President of the USSR",
+     "whyItMatters": "Signed the decree stripping Gorbachev of power on 19 August 1991.",
+     "factIds": [
+      "F-COLLAPSE-11"
+     ]
+    },
+    {
+     "name": "Leonid Kravchuk",
+     "role": "Chairman of Ukraine's parliament from July 1990; elected President of Ukraine on 1 December 1991",
+     "whyItMatters": "Led Ukraine to independence and co-signed the Belovezha declaration.",
+     "factIds": [
+      "F-COLLAPSE-19",
+      "F-COLLAPSE-20",
+      "F-COLLAPSE-36"
+     ]
+    },
+    {
+     "name": "Eduard Shevardnadze",
+     "role": "Soviet Foreign Minister until December 1990",
+     "whyItMatters": "His resignation warning of dictatorship marked the reformers' break with Gorbachev.",
+     "factIds": [
+      "F-COLLAPSE-05"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Gorbachev",
+     "Yeltsin"
+    ],
+    "rows": [
+     {
+      "criterion": "Source of authority",
+      "cells": [
+       "Elected President by the Congress (1990)",
+       "Elected President by Russia's voters (June 1991)"
+      ],
+      "factIds": [
+       "F-COLLAPSE-35",
+       "F-COLLAPSE-08"
+      ]
+     },
+     {
+      "criterion": "Strategy, 1990–1991",
+      "cells": [
+       "A new, looser Union by treaty",
+       "Russian sovereignty and alliance with the republics"
+      ],
+      "factIds": [
+       "F-COLLAPSE-02",
+       "F-COLLAPSE-07"
+      ]
+     },
+     {
+      "criterion": "During the coup",
+      "cells": [
+       "Held at his Crimean villa",
+       "Led the resistance from the White House"
+      ],
+      "factIds": [
+       "F-COLLAPSE-11",
+       "F-COLLAPSE-12"
+      ]
+     },
+     {
+      "criterion": "After the coup",
+      "cells": [
+       "Defended the party, then resigned as its leader",
+       "Suspended the party in Russia and took over Union institutions"
+      ],
+      "factIds": [
+       "F-COLLAPSE-16",
+       "F-COLLAPSE-18"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-COLLAPSE-02",
+    "year": 1990,
+    "text": "12 June 1990: Russia's Declaration of State Sovereignty gave Russian authority precedence over Soviet rule; a dual power in Moscow.",
+    "supports": [
+     "Russia, not only the periphery, undermined the centre"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B4-GLASNOST"
+    ],
+    "lexicon": [
+     "sovereignty",
+     "dual power"
+    ]
+   },
+   {
+    "factId": "F-COLLAPSE-08",
+    "year": 1991,
+    "text": "12 June 1991: Yeltsin elected President of Russia, 'the first ever democratically chosen leader of Russia' (Judt).",
+    "supports": [
+     "Yeltsin had a popular mandate Gorbachev lacked"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B5-YELTSIN"
+    ],
+    "lexicon": [
+     "President of Russia",
+     "mandate"
+    ]
+   },
+   {
+    "factId": "F-COLLAPSE-09",
+    "year": 1991,
+    "text": "The new Union Treaty, due to be signed on 20 August 1991, gave the republics their natural resources and made their laws supreme.",
+    "supports": [
+     "Gorbachev tried to save the Union by giving its power away",
+     "The treaty triggered the coup"
+    ],
+    "lexicon": [
+     "Union Treaty",
+     "Novo-Ogarevo"
+    ]
+   },
+   {
+    "factId": "F-COLLAPSE-13",
+    "year": 1991,
+    "text": "A majority of senior KGB officers refused to back Kryuchkov; soldiers refused to fire on the demonstrators.",
+    "supports": [
+     "The coup failed because force would not obey it"
+    ],
+    "lexicon": [
+     "Emergency Committee",
+     "State Committee for the State of Emergency"
+    ]
+   },
+   {
+    "factId": "F-COLLAPSE-14",
+    "year": 1991,
+    "text": "Night of 20–21 August 1991: three demonstrators died; Estonia (20 August) and Latvia (21 August) declared independence; the coup collapsed on 21 August.",
+    "supports": [
+     "The republics used the coup to leave"
+    ],
+    "lexicon": [
+     "White House",
+     "August coup"
+    ]
+   },
+   {
+    "factId": "F-COLLAPSE-18",
+    "year": 1991,
+    "text": "By November 1991 Yeltsin controlled virtually all financial and economic activity on Russian territory; the KGB was abolished on 24 October.",
+    "supports": [
+     "After the coup the Union became a shell"
+    ],
+    "lexicon": [
+     "shell state"
+    ]
+   },
+   {
+    "factId": "F-COLLAPSE-19",
+    "year": 1991,
+    "text": "1 December 1991: more than 92 per cent of Ukrainian voters approved independence.",
+    "supports": [
+     "Ukraine's vote was the decisive deathblow"
+    ],
+    "lexicon": [
+     "Ukrainian referendum",
+     "Kravchuk"
+    ]
+   },
+   {
+    "factId": "F-COLLAPSE-20",
+    "year": 1991,
+    "text": "8 December 1991: at Belovezha, Russia, Ukraine and Belarus denounced the 1922 Union Treaty and proposed the CIS; Gorbachev called it 'illegal and dangerous'.",
+    "supports": [
+     "The Union ended by agreement among the republics"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B5-YELTSIN"
+    ],
+    "lexicon": [
+     "Belovezha Accords",
+     "Commonwealth of Independent States"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "For many Russians August 1991 was a popular uprising not for the reformers and their party but against them; Gorbachev, still defending the party's role, 'had been overtaken by History and didn't know it'.",
+    "useItLikeThis": "Judt's view supports the claim that the coup's failure ended Gorbachev's authority as well as the plotters', which suggests that the collapse was driven from below and from Russia, not managed from the centre.",
+    "factId": "F-COLLAPSE-23"
+   },
+   {
+    "historian": "Archie Brown",
+    "argument": "The disintegration of the Soviet Union was the ultimate unintended consequence of perestroika, but its results, fifteen independent states and a Russia freer than ever, are major achievements.",
+    "useItLikeThis": "Brown's argument challenges a verdict of pure failure, which suggests that Gorbachev's role in the collapse should be judged by its peaceful outcome as well as its unintended causes.",
+    "factId": "F-COLLAPSE-24"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The coup plotters wanted to overthrow Communism.",
+    "right": "They were **hardline Communists** trying to stop the Union Treaty and save the old Union."
+   },
+   {
+    "wrong": "Gorbachev defeated the coup.",
+    "right": "He was held in the Crimea; **Yeltsin**, the crowd and the soldiers' refusal to fire defeated it."
+   },
+   {
+    "wrong": "The March 1991 referendum showed the Union was finished.",
+    "right": "An overwhelming majority of participating voters **backed a renewed Union**; six republics boycotted it."
+   },
+   {
+    "wrong": "The Soviet Union collapsed in August 1991.",
+    "right": "The coup failed in August; the Union ended in **December 1991** (Belovezha on 8 December, Gorbachev's resignation on 25 December)."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1990,
+     "month": 6,
+     "day": 12,
+     "text": "Russian sovereignty"
+    },
+    {
+     "year": 1990,
+     "month": 7,
+     "day": 12,
+     "text": "Yeltsin leaves the party"
+    },
+    {
+     "year": 1991,
+     "month": 3,
+     "day": 17,
+     "text": "Union referendum"
+    },
+    {
+     "year": 1991,
+     "month": 6,
+     "day": 12,
+     "text": "Yeltsin President of Russia"
+    },
+    {
+     "year": 1991,
+     "month": 8,
+     "day": 19,
+     "text": "Coup begins"
+    },
+    {
+     "year": 1991,
+     "month": 8,
+     "day": 21,
+     "text": "Coup collapses"
+    },
+    {
+     "year": 1991,
+     "month": 12,
+     "day": 1,
+     "text": "Ukrainian referendum"
+    },
+    {
+     "year": 1991,
+     "month": 12,
+     "day": 8,
+     "text": "Belovezha"
+    },
+    {
+     "year": 1991,
+     "month": 12,
+     "day": 25,
+     "text": "Gorbachev resigns"
+    }
+   ],
+   "keyArguments": [
+    "Russian sovereignty (June 1990) created a dual power: the centre lost its core.",
+    "Gorbachev tried to save the Union by giving its power away; the treaty triggered the coup.",
+    "The coup failed because force would not obey it and Yeltsin led the resistance.",
+    "Its failure destroyed the party and handed the Union's institutions to Russia (Judt).",
+    "Ukraine's vote was the deathblow; the end by agreement was contingent but peaceful (Brown)."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1990 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Yeltsin elected chairman of the Russian Supreme Soviet",
+     "year": 1990,
+     "month": 5,
+     "factId": "F-COLLAPSE-01"
+    },
+    {
+     "id": "b",
+     "text": "Russia declares sovereignty",
+     "year": 1990,
+     "month": 6,
+     "factId": "F-COLLAPSE-02"
+    },
+    {
+     "id": "c",
+     "text": "Yeltsin leaves the Communist Party",
+     "year": 1990,
+     "month": 7,
+     "factId": "F-COLLAPSE-03"
+    },
+    {
+     "id": "d",
+     "text": "Shevardnadze resigns",
+     "year": 1990,
+     "month": 12,
+     "factId": "F-COLLAPSE-05"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1991 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Union referendum",
+     "year": 1991,
+     "month": 3,
+     "factId": "F-COLLAPSE-06"
+    },
+    {
+     "id": "b",
+     "text": "Yeltsin elected President of Russia",
+     "year": 1991,
+     "month": 6,
+     "factId": "F-COLLAPSE-08"
+    },
+    {
+     "id": "c",
+     "text": "August coup",
+     "year": 1991,
+     "month": 8,
+     "factId": "F-COLLAPSE-11"
+    },
+    {
+     "id": "d",
+     "text": "Belovezha meeting",
+     "year": 1991,
+     "month": 12,
+     "factId": "F-COLLAPSE-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R03",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who led the resistance to the coup from the Russian Parliament building?",
+   "factIds": [
+    "F-COLLAPSE-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Boris Yeltsin",
+     "correct": true,
+     "explanation": "Correct: he denounced the coup as illegal on 19 August."
+    },
+    {
+     "id": "b",
+     "text": "Mikhail Gorbachev",
+     "correct": false,
+     "explanation": "Gorbachev was held at his villa in the Crimea."
+    },
+    {
+     "id": "c",
+     "text": "Gennadii Yanaev",
+     "correct": false,
+     "explanation": "Yanaev signed the coup's decree."
+    },
+    {
+     "id": "d",
+     "text": "Leonid Kravchuk",
+     "correct": false,
+     "explanation": "Kravchuk led Ukraine's parliament, not the Moscow resistance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R04",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these men was a member of the Emergency Committee?",
+   "factIds": [
+    "F-COLLAPSE-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Vladimir Kryuchkov, head of the KGB",
+     "correct": true,
+     "explanation": "Correct: one of the eight members."
+    },
+    {
+     "id": "b",
+     "text": "Eduard Shevardnadze",
+     "correct": false,
+     "explanation": "He had resigned in December 1990, warning of dictatorship."
+    },
+    {
+     "id": "c",
+     "text": "Boris Yeltsin",
+     "correct": false,
+     "explanation": "He led the resistance."
+    },
+    {
+     "id": "d",
+     "text": "Stanislav Shushkevich",
+     "correct": false,
+     "explanation": "He was the Belarusian leader at Belovezha."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many members did the State Committee for the State of Emergency have, according to Seventeen Moments? (number)",
+   "factIds": [
+    "F-COLLAPSE-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 8,
+     "tolerance": 0,
+     "explanation": "Eight, several of them appointed by Gorbachev himself."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many republics declared independence between 24 August and 21 September 1991, according to Judt? (number)",
+   "factIds": [
+    "F-COLLAPSE-17"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 9,
+     "tolerance": 0,
+     "explanation": "Nine, following the Baltic republics."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How long was the state of emergency declared on 19 August 1991 meant to last? (months)",
+   "factIds": [
+    "F-COLLAPSE-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 6,
+     "tolerance": 0,
+     "explanation": "Six months; the coup collapsed within three days."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R08",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role in 1991.",
+   "pairs": [
+    {
+     "left": "Gennadii Yanaev",
+     "right": "Vice-President who signed the decree removing Gorbachev",
+     "explanation": "On 19 August 1991."
+    },
+    {
+     "left": "Boris Pugo",
+     "right": "Interior Minister and plotter who committed suicide",
+     "explanation": "On 21 August 1991."
+    },
+    {
+     "left": "Leonid Kravchuk",
+     "right": "Elected President of Ukraine on 1 December 1991",
+     "explanation": "He co-signed the Belovezha declaration."
+    },
+    {
+     "left": "Stanislav Shushkevich",
+     "right": "Belarusian leader at Belovezha",
+     "explanation": "He met Yeltsin and Kravchuk near Minsk."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these helped the coup fail? Choose all that apply.",
+   "factIds": [
+    "F-COLLAPSE-12",
+    "F-COLLAPSE-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Most senior KGB officers refused to back Kryuchkov",
+     "correct": true,
+     "explanation": "Yes: Judt's evidence."
+    },
+    {
+     "id": "b",
+     "text": "Soldiers refused to fire on demonstrators",
+     "correct": true,
+     "explanation": "Yes: Seventeen Moments records the refusal."
+    },
+    {
+     "id": "c",
+     "text": "Yeltsin's resistance at the White House",
+     "correct": true,
+     "explanation": "Yes: he denounced the coup as illegal."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev ordered the army to arrest the plotters",
+     "correct": false,
+     "explanation": "No: Gorbachev was held in the Crimea."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What would the new Union Treaty of August 1991 have done? Choose all that apply.",
+   "factIds": [
+    "F-COLLAPSE-09",
+    "F-COLLAPSE-32"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Given the republics ownership of virtually all natural resources",
+     "correct": true,
+     "explanation": "Yes: including mineral deposits."
+    },
+    {
+     "id": "b",
+     "text": "Made republic laws supreme over Union laws",
+     "correct": true,
+     "explanation": "Yes: symbolised by the new name."
+    },
+    {
+     "id": "c",
+     "text": "Replaced 'Socialist' with 'Sovereign' in the state's name",
+     "correct": true,
+     "explanation": "Yes: a Union of Sovereign States."
+    },
+    {
+     "id": "d",
+     "text": "Abolished the presidency of the Union",
+     "correct": false,
+     "explanation": "No: it called for a popularly elected Union president."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Gorbachev had been elected President by the Congress; Yeltsin was elected by Russia's voters.” Which argument does it support?",
+   "factIds": [
+    "F-COLLAPSE-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Yeltsin had greater democratic legitimacy than Gorbachev by 1991",
+     "correct": true,
+     "explanation": "Correct: a popular mandate Gorbachev never had."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was more popular than Yeltsin",
+     "correct": false,
+     "explanation": "The fact concerns how they were elected."
+    },
+    {
+     "id": "c",
+     "text": "The Congress opposed Gorbachev",
+     "correct": false,
+     "explanation": "It elected him."
+    },
+    {
+     "id": "d",
+     "text": "Yeltsin was a Communist hardliner",
+     "correct": false,
+     "explanation": "He had left the party in 1990."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Estonia declared independence on 20 August and Latvia on 21 August 1991.” Which argument does it support?",
+   "factIds": [
+    "F-COLLAPSE-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The republics used the coup to break away",
+     "correct": true,
+     "explanation": "Correct: they acted while the centre was paralysed."
+    },
+    {
+     "id": "b",
+     "text": "The coup strengthened the Union",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The Baltic states supported the plotters",
+     "correct": false,
+     "explanation": "They used the chaos to leave."
+    },
+    {
+     "id": "d",
+     "text": "Ukraine's referendum came first",
+     "correct": false,
+     "explanation": "Ukraine voted on 1 December."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “After the coup, Gorbachev returned to Moscow and praised Yeltsin for saving the Communist Party.”",
+   "factIds": [
+    "F-COLLAPSE-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He defended the party's role, and Yeltsin suspended the Russian Communist Party",
+     "correct": true,
+     "explanation": "Correct: the party was blamed for the coup."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev never returned to Moscow",
+     "correct": false,
+     "explanation": "He flew back on 21 August."
+    },
+    {
+     "id": "c",
+     "text": "The coup happened in 1990",
+     "correct": false,
+     "explanation": "It happened in August 1991."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Yeltsin turned against the party."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “On 8 December 1991 Gorbachev met the leaders of Russia, Ukraine and Belarus to found the Commonwealth of Independent States.”",
+   "factIds": [
+    "F-COLLAPSE-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev was not consulted; the three republic leaders met without him",
+     "correct": true,
+     "explanation": "Correct: he called the agreement illegal and dangerous."
+    },
+    {
+     "id": "b",
+     "text": "The meeting was in Moscow",
+     "correct": false,
+     "explanation": "The sentence does not say where; it was near Minsk, and the error is Gorbachev's presence."
+    },
+    {
+     "id": "c",
+     "text": "The date was 25 December",
+     "correct": false,
+     "explanation": "25 December is when Gorbachev resigned."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Gorbachev's role."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the collapse of the Soviet Union between 1990 and 1991. Is the 1993 storming of the Russian parliament inside or outside the timeframe?",
+   "timeframe": [
+    1990,
+    1991
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: it belongs to Yeltsin's Russia, after the USSR had ended."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: the USSR ceased to exist on 31 December 1991."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because the same building was involved",
+     "correct": false,
+     "explanation": "The building does not change the date."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "When did the Soviet Union formally cease to exist?",
+   "factIds": [
+    "F-COLLAPSE-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "At midnight on 31 December 1991",
+     "correct": true,
+     "explanation": "Correct: Judt's date."
+    },
+    {
+     "id": "b",
+     "text": "21 August 1991",
+     "correct": false,
+     "explanation": "That is when the coup collapsed."
+    },
+    {
+     "id": "c",
+     "text": "1 December 1991",
+     "correct": false,
+     "explanation": "That is the Ukrainian referendum."
+    },
+    {
+     "id": "d",
+     "text": "12 June 1990",
+     "correct": false,
+     "explanation": "That is Russia's declaration of sovereignty."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which body was abolished on 24 October 1991?",
+   "factIds": [
+    "F-COLLAPSE-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The KGB",
+     "correct": true,
+     "explanation": "Correct: one of the Union's core institutions."
+    },
+    {
+     "id": "b",
+     "text": "The Russian Parliament",
+     "correct": false,
+     "explanation": "It continued; it was Yeltsin's base."
+    },
+    {
+     "id": "c",
+     "text": "The Commonwealth of Independent States",
+     "correct": false,
+     "explanation": "It was proposed only in December."
+    },
+    {
+     "id": "d",
+     "text": "The Ukrainian parliament",
+     "correct": false,
+     "explanation": "It declared Ukraine's independence on 24 August."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What reason did the Emergency Committee give for removing Gorbachev?",
+   "factIds": [
+    "F-COLLAPSE-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He was unable to exercise his authority 'for health reasons'",
+     "correct": true,
+     "explanation": "Correct: a pretext; he refused to cooperate."
+    },
+    {
+     "id": "b",
+     "text": "He had resigned",
+     "correct": false,
+     "explanation": "He had not resigned; he refused to cooperate."
+    },
+    {
+     "id": "c",
+     "text": "He had been defeated in an election",
+     "correct": false,
+     "explanation": "There was no election."
+    },
+    {
+     "id": "d",
+     "text": "He had joined Yeltsin",
+     "correct": false,
+     "explanation": "Not the reason the committee gave."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Seventeen Moments call the Ukrainian referendum of 1 December 1991?",
+   "factIds": [
+    "F-COLLAPSE-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The decisive deathblow to the USSR",
+     "correct": true,
+     "explanation": "Correct: it preceded Belovezha by one week."
+    },
+    {
+     "id": "b",
+     "text": "A victory for the Union",
+     "correct": false,
+     "explanation": "It was a vote for independence."
+    },
+    {
+     "id": "c",
+     "text": "A boycotted vote",
+     "correct": false,
+     "explanation": "More than 92 per cent of voters approved independence."
+    },
+    {
+     "id": "d",
+     "text": "A coup",
+     "correct": false,
+     "explanation": "It was a referendum."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which republics stayed out of the Commonwealth when the others agreed to join on 21 December 1991?",
+   "factIds": [
+    "F-COLLAPSE-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Georgia and the three Baltic states",
+     "correct": true,
+     "explanation": "Correct: Seventeen Moments."
+    },
+    {
+     "id": "b",
+     "text": "Russia and Ukraine",
+     "correct": false,
+     "explanation": "They founded it."
+    },
+    {
+     "id": "c",
+     "text": "Belarus and Kazakhstan",
+     "correct": false,
+     "explanation": "Belarus was a founder; Kazakhstan was among those willing to join."
+    },
+    {
+     "id": "d",
+     "text": "Armenia and Azerbaijan",
+     "correct": false,
+     "explanation": "They were among those willing to join."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the August coup responsible for the dissolution of the Soviet Union in 1991?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far, with degree language."
+    },
+    {
+     "id": "s2",
+     "text": "the August coup",
+     "answer": "factor",
+     "explanation": "The named factor: weigh it first."
+    },
+    {
+     "id": "s3",
+     "text": "the dissolution of the Soviet Union",
+     "answer": "scope",
+     "explanation": "What the factor must explain."
+    },
+    {
+     "id": "s4",
+     "text": "in 1991",
+     "answer": "timeframe",
+     "explanation": "Only 1991: earlier background briefly, nothing after December."
+    },
+    {
+     "id": "s5",
+     "text": "responsible for",
+     "answer": "judgement",
+     "explanation": "How far the coup, compared with other factors, caused the dissolution."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“‘Yeltsin, not the coup plotters, destroyed the Soviet Union.’ Discuss with reference to the period 1990 to 1991.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim for and against, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "Yeltsin",
+     "answer": "factor",
+     "explanation": "The named factor: the claim's main subject."
+    },
+    {
+     "id": "s3",
+     "text": "not the coup plotters, destroyed the Soviet Union",
+     "answer": "scope",
+     "explanation": "The claim compares two causes."
+    },
+    {
+     "id": "s4",
+     "text": "1990 to 1991",
+     "answer": "timeframe",
+     "explanation": "Yeltsin's later presidency is outside."
+    },
+    {
+     "id": "s5",
+     "text": "destroyed",
+     "answer": "judgement",
+     "explanation": "How far Yeltsin, rather than the plotters, ended the Union."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the August coup responsible for the dissolution of the Soviet Union in 1991?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The coup was largely responsible, because its failure destroyed the party and handed the Union's institutions to Russia; but the republics' drive for sovereignty, sealed by Ukraine's vote, decided that the Union would not be rebuilt.",
+     "correct": true,
+     "explanation": "Correct: degree, mechanism and the strongest alternative."
+    },
+    {
+     "id": "b",
+     "text": "The coup began on 19 August and ended on 21 August.",
+     "correct": false,
+     "explanation": "Narrative: no judgement."
+    },
+    {
+     "id": "c",
+     "text": "There were many causes of the collapse.",
+     "correct": false,
+     "explanation": "No judgement about the coup's weight."
+    },
+    {
+     "id": "d",
+     "text": "The coup was responsible because Yeltsin later fought a war in Chechnya.",
+     "correct": false,
+     "explanation": "Wrong timeframe: Chechnya is 1994–1996."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the roles of Gorbachev and Yeltsin in the collapse of the Soviet Union between 1990 and 1991.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Both weakened the centre, but in opposite ways: Gorbachev by conceding power to save the Union, Yeltsin by building Russia into a rival centre; Yeltsin's role became decisive after the coup.",
+     "correct": true,
+     "explanation": "Correct: similarity, difference and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was President of the USSR and Yeltsin was President of Russia.",
+     "correct": false,
+     "explanation": "Facts, not a comparison."
+    },
+    {
+     "id": "c",
+     "text": "Yeltsin was better than Gorbachev.",
+     "correct": false,
+     "explanation": "A judgement without a criterion."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev introduced glasnost in 1986.",
+     "correct": false,
+     "explanation": "Outside the question's timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 19 August 1991 the Emergency Committee announced that Gorbachev was ill.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because most senior KGB officers refused to back Kryuchkov, the plotters could not use force.",
+     "answer": "analysis",
+     "explanation": "Explains a cause."
+    },
+    {
+     "id": "s3",
+     "text": "On 8 December the three Slav leaders met at Belovezha.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the Union ended by agreement among its republics, which explains why the collapse was largely peaceful.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Russia declared sovereignty on 12 June 1990",
+     "right": "Russia, not only the periphery, undermined the centre",
+     "explanation": "A dual power in Moscow."
+    },
+    {
+     "left": "The Union Treaty was due to be signed on 20 August",
+     "right": "The treaty triggered the coup",
+     "explanation": "The plotters acted to stop it."
+    },
+    {
+     "left": "Soldiers refused to fire on demonstrators",
+     "right": "The coup failed because force would not obey it",
+     "explanation": "The plotters lacked the instruments of power."
+    },
+    {
+     "left": "Over 92 per cent of Ukrainians voted for independence",
+     "right": "Ukraine's vote was the deathblow",
+     "explanation": "Belovezha followed a week later."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The coup made the Soviet Union collapse.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The coup's failure discredited the party that had launched it and let Yeltsin take over the Union's institutions, so by November the Union was, in Judt's phrase, a shell state.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and a historian."
+    },
+    {
+     "id": "b",
+     "text": "The coup was very important for the collapse.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The coup happened in August 1991.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The coup was the only reason the Soviet Union collapsed.",
+     "correct": false,
+     "explanation": "Overstated and without evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The collapse of the Soviet Union was inevitable by 1991.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "In March 1991 an overwhelming majority of participating voters backed a renewed Union, nine republics agreed a treaty, and Seventeen Moments argues the final decision was made 'hastily if not whimsically'.",
+     "correct": true,
+     "explanation": "Correct: evidence of an alternative outcome."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was a good leader.",
+     "correct": false,
+     "explanation": "Not an argument about inevitability."
+    },
+    {
+     "id": "c",
+     "text": "Some historians disagree.",
+     "correct": false,
+     "explanation": "Name-dropping without an argument."
+    },
+    {
+     "id": "d",
+     "text": "The Union lasted until December.",
+     "correct": false,
+     "explanation": "A fact consistent with the claim."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the significance of Ukrainian independence for the end of the Soviet Union in 1991.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether the Union could have survived without it, Ukraine's vote was decisive: once the second most populous republic left, Russia's leaders saw no reason to keep a Union, though the coup had already emptied the centre.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and limit."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Ukraine voted on 1 December and Belovezha followed on 8 December.",
+     "correct": false,
+     "explanation": "A recap of dates with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Ukraine was very significant.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Ukraine was the largest republic.",
+     "correct": false,
+     "explanation": "Inaccurate: Ukraine was the second most populous, and this is not a judgement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons for, and the consequences of, the failure of the August coup of 1991.” Sort each plan point into REASONS or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons (causes)"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences (effects)"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Most senior KGB officers refused to back Kryuchkov",
+     "answer": "causes",
+     "explanation": "A reason the coup failed."
+    },
+    {
+     "id": "s2",
+     "text": "Yeltsin led resistance from the White House",
+     "answer": "causes",
+     "explanation": "A reason the coup failed."
+    },
+    {
+     "id": "s3",
+     "text": "Yeltsin suspended the Russian Communist Party",
+     "answer": "effects",
+     "explanation": "A consequence of the failure."
+    },
+    {
+     "id": "s4",
+     "text": "Nine republics declared independence by 21 September",
+     "answer": "effects",
+     "explanation": "A consequence of the failure."
+    },
+    {
+     "id": "s5",
+     "text": "The plotters could not say what they were for",
+     "answer": "causes",
+     "explanation": "Judt's explanation of their weakness."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-16-B5-COLLAPSE-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the August coup responsible for the dissolution of the Soviet Union in 1991?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the August coup",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1991,
+    1991
+   ],
+   "scope": "Soviet Union; dissolution",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The August coup, weighed first",
+    "timeframe": "1991",
+    "scope": "The dissolution of the Soviet Union",
+    "judgement": "How far the coup, compared with Russian sovereignty, the republics and Gorbachev's concessions, caused the dissolution"
+   },
+   "modelPlan": {
+    "thesis": "The coup was largely responsible, because its failure destroyed the party and handed the Union's institutions to Yeltsin's Russia; but the republics' drive for sovereignty, sealed by Ukraine's vote, made the end final.",
+    "arguments": [
+     {
+      "claim": "The coup's failure discredited the party and the centre (named factor first).",
+      "evidence": [
+       "F-COLLAPSE-14",
+       "F-COLLAPSE-16",
+       "F-COLLAPSE-23"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Yeltsin used the aftermath to take over the Union's institutions.",
+      "evidence": [
+       "F-COLLAPSE-18"
+      ]
+     },
+     {
+      "claim": "The republics had been claiming sovereignty since 1990.",
+      "evidence": [
+       "F-COLLAPSE-02",
+       "F-COLLAPSE-06"
+      ]
+     },
+     {
+      "claim": "Ukraine's vote and Belovezha ended the Union.",
+      "evidence": [
+       "F-COLLAPSE-19",
+       "F-COLLAPSE-20"
+      ]
+     }
+    ],
+    "counter": "The Union Treaty would itself have reduced the centre to a shell, so the Union was ending by agreement before the coup.",
+    "judgementCriterion": "Without the coup, would the Union have dissolved in 1991? Probably not: nine republics were about to sign a treaty, so the coup was the decisive cause of dissolution in 1991."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The August coup was largely responsible for the dissolution of the Soviet Union, because its failure destroyed the authority of the centre it had tried to save.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After the coup collapsed on 21 August, Yeltsin suspended the Russian Communist Party, nine republics declared independence by 21 September, and the KGB was abolished on 24 October.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the party and the security services, the institutions that held the Union together, were discredited or dismantled, so Yeltsin's Russia could take over what remained.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Russia had claimed sovereignty in June 1990 and the Union Treaty would already have made republic laws supreme, so the centre was weakening before the coup.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The coup was therefore the decisive cause of dissolution in 1991, even though it accelerated a process already under way.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "coup"
+    ],
+    "synonyms": [
+     "putsch",
+     "Emergency Committee"
+    ],
+    "historians": [
+     "Judt",
+     "Brown"
+    ],
+    "extraLexicon": [
+     "Belovezha",
+     "Union Treaty",
+     "Kryuchkov"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B5-COLLAPSE-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Yeltsin, not the coup plotters, destroyed the Soviet Union.” Discuss with reference to the period 1990 to 1991.",
+   "commandTerm": "discuss",
+   "namedFactor": "Yeltsin",
+   "features": [
+    "proposition",
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1990,
+    1991
+   ],
+   "scope": "Soviet Union; responsibility for its end",
+   "decodeKey": {
+    "verb": "Discuss: test the claim for and against, then judge",
+    "factorOrTask": "Yeltsin's role, weighed first",
+    "timeframe": "1990–1991",
+    "scope": "The destruction of the Soviet Union",
+    "judgement": "How far Yeltsin, rather than the plotters, ended the Union"
+   },
+   "modelPlan": {
+    "thesis": "The claim is largely right: Yeltsin built Russia into a rival centre and dismantled the Union after August; but the plotters gave him the opportunity, and Ukraine's choice decided the end.",
+    "arguments": [
+     {
+      "claim": "Yeltsin made Russia a rival centre of power (named factor first).",
+      "evidence": [
+       "F-COLLAPSE-02",
+       "F-COLLAPSE-03",
+       "F-COLLAPSE-08"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "After the coup Yeltsin took over the Union's institutions and co-founded the CIS.",
+      "evidence": [
+       "F-COLLAPSE-18",
+       "F-COLLAPSE-20"
+      ]
+     },
+     {
+      "claim": "The plotters' coup discredited the centre and the party.",
+      "evidence": [
+       "F-COLLAPSE-13",
+       "F-COLLAPSE-14",
+       "F-COLLAPSE-16"
+      ]
+     },
+     {
+      "claim": "Ukraine's referendum, not Yeltsin, was the decisive blow.",
+      "evidence": [
+       "F-COLLAPSE-19"
+      ]
+     }
+    ],
+    "counter": "Yeltsin joined the Novo-Ogarevo talks and planned to sign the Union Treaty, so before August he was willing to keep a looser Union.",
+    "judgementCriterion": "Who removed the last chance of a Union? Yeltsin at Belovezha, but only after the plotters had destroyed the treaty and Ukraine had voted to leave."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Yeltsin did more than the plotters to destroy the Soviet Union, because he turned the coup's failure into the dismantling of the centre.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "By November 1991 he controlled virtually all financial and economic activity on Russian territory, and on 8 December he joined Kravchuk and Shushkevich in denouncing the Union Treaty of 1922.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the Union lost its largest republic's institutions and then its legal basis, so nothing remained for Gorbachev to govern.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Yeltsin had planned to sign the Union Treaty on 20 August; it was the plotters who destroyed it and discredited the centre.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore largely valid: the plotters created the opportunity, but Yeltsin used it to end the Union.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Yeltsin"
+    ],
+    "synonyms": [
+     "Russian President",
+     "Russia"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "sovereignty",
+     "Belovezha",
+     "White House"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B5-COLLAPSE-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the reasons for, and the consequences of, the failure of the August coup of 1991.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1991,
+    1991
+   ],
+   "scope": "Soviet Union; the August coup",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "Two tasks: reasons AND consequences",
+    "timeframe": "1991",
+    "scope": "The failure of the August coup",
+    "judgement": "Which reason mattered most, and which consequence was decisive"
+   },
+   "modelPlan": {
+    "thesis": "The coup failed mainly because the armed forces and KGB would not obey it; its most important consequence was the transfer of the Union's authority to Yeltsin's Russia, which made dissolution almost certain.",
+    "arguments": [
+     {
+      "claim": "Reason: the plotters lacked the support of the KGB and the army.",
+      "evidence": [
+       "F-COLLAPSE-13"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: Yeltsin's resistance and the plotters' lack of a programme.",
+      "evidence": [
+       "F-COLLAPSE-12",
+       "F-COLLAPSE-15"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Consequence: the party discredited and suspended; Gorbachev overtaken.",
+      "evidence": [
+       "F-COLLAPSE-16",
+       "F-COLLAPSE-23"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Consequence: the republics declared independence and the Union became a shell.",
+      "evidence": [
+       "F-COLLAPSE-17",
+       "F-COLLAPSE-18"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Yeltsin's leadership might be seen as the main reason, but without the soldiers' refusal his resistance would have been crushed.",
+    "judgementCriterion": "Which reason, if removed, would have let the coup succeed? The refusal of force: so it ranks first."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The August coup failed mainly because the forces the plotters commanded would not act for them.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Judt notes that a majority of senior KGB officers refused to back Kryuchkov, and the soldiers sent into Moscow refused to fire on the demonstrators.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Yeltsin's stand at the White House could not be crushed, so the plotters lost their crucial asset, fear.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Yeltsin's leadership gave the resistance its focus and its international support, without which the refusal of force might not have been tested.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The refusal of force was therefore the decisive reason, and Yeltsin's resistance the decisive occasion.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "coup"
+    ],
+    "synonyms": [
+     "putsch",
+     "plotters"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Kryuchkov",
+     "White House",
+     "Pugo"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "failed"
+      ]
+     },
+     {
+      "name": "consequences",
+      "terms": [
+       "consequence",
+       "result",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B5-COLLAPSE-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the roles of Gorbachev and Yeltsin in the collapse of the Soviet Union between 1990 and 1991.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "leader"
+   ],
+   "timeframe": [
+    1990,
+    1991
+   ],
+   "scope": "Soviet Union; Gorbachev and Yeltsin",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences, explicitly linked",
+    "factorOrTask": "The roles of Gorbachev and Yeltsin",
+    "timeframe": "1990–1991",
+    "scope": "The collapse of the Soviet Union",
+    "judgement": "Whose role was decisive, and why"
+   },
+   "modelPlan": {
+    "thesis": "Both weakened the centre, but in opposite ways: Gorbachev by conceding power to save the Union, Yeltsin by building Russia into a rival centre; Yeltsin's role became decisive after the coup.",
+    "arguments": [
+     {
+      "claim": "Similarity: both moved power from the centre to the republics.",
+      "evidence": [
+       "F-COLLAPSE-07",
+       "F-COLLAPSE-02"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Similarity: both negotiated the Union Treaty of 1991.",
+      "evidence": [
+       "F-COLLAPSE-07",
+       "F-COLLAPSE-09",
+       "F-COLLAPSE-37"
+      ],
+      "part": "similarities"
+     },
+     {
+      "claim": "Difference: Yeltsin had a popular mandate and led the resistance; Gorbachev was elected by the Congress and held in the Crimea.",
+      "evidence": [
+       "F-COLLAPSE-08",
+       "F-COLLAPSE-35",
+       "F-COLLAPSE-11",
+       "F-COLLAPSE-12"
+      ],
+      "part": "differences"
+     },
+     {
+      "claim": "Difference: after the coup Gorbachev defended the party; Yeltsin suspended it and ended the Union.",
+      "evidence": [
+       "F-COLLAPSE-16",
+       "F-COLLAPSE-20"
+      ],
+      "part": "differences"
+     }
+    ],
+    "counter": "Gorbachev's earlier reforms made Yeltsin's rise possible, so the deepest role was Gorbachev's.",
+    "judgementCriterion": "Whose actions ended the Union in 1991? Yeltsin's, at Belovezha, though Gorbachev's concessions had prepared the way."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Gorbachev and Yeltsin both weakened the Soviet centre, but Gorbachev did so to save the Union and Yeltsin to replace it.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Gorbachev conceded the right of secession in April 1991 and negotiated a treaty giving the republics their resources, whereas Yeltsin declared Russian sovereignty in June 1990 and was elected President of Russia in June 1991.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Gorbachev gave away power to keep a Union, while Yeltsin gathered power for Russia, so the same process strengthened one and weakened the other.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both men took part in the Novo-Ogarevo talks, so until August their roles were more similar than their rivalry suggests.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The decisive difference came after the coup, when Yeltsin used his mandate to end the Union and Gorbachev could not stop him.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Gorbachev",
+     "Yeltsin"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike"
+    ],
+    "historians": [
+     "Judt",
+     "Brown"
+    ],
+    "extraLexicon": [
+     "Novo-Ogarevo",
+     "sovereignty",
+     "Belovezha"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B5-COLLAPSE-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the significance of Ukrainian independence for the end of the Soviet Union in 1991.",
+   "commandTerm": "examine",
+   "namedFactor": "Ukrainian independence",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1991,
+    1991
+   ],
+   "scope": "Soviet Union; Ukraine",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Ukrainian independence, weighed first",
+    "timeframe": "1991",
+    "scope": "The end of the Soviet Union",
+    "judgement": "How far Ukraine's choice, compared with the coup and Russia, ended the Union"
+   },
+   "modelPlan": {
+    "thesis": "Ukrainian independence was decisive in timing and in removing any basis for a renewed Union, but it completed a collapse that the coup and Yeltsin's takeover of the centre had begun.",
+    "arguments": [
+     {
+      "claim": "The referendum of 1 December: over 92 per cent for independence (named factor first).",
+      "evidence": [
+       "F-COLLAPSE-19",
+       "F-COLLAPSE-36"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Belovezha followed one week later, with Kravchuk a co-founder of the CIS.",
+      "evidence": [
+       "F-COLLAPSE-20"
+      ]
+     },
+     {
+      "claim": "The coup had already discredited the centre.",
+      "evidence": [
+       "F-COLLAPSE-14",
+       "F-COLLAPSE-16"
+      ]
+     },
+     {
+      "claim": "By November the Union was a shell under Russian control.",
+      "evidence": [
+       "F-COLLAPSE-18"
+      ]
+     }
+    ],
+    "counter": "The Union was already a shell before Ukraine voted, so Ukraine's choice confirmed rather than caused its end.",
+    "judgementCriterion": "Could a Union have survived without Ukraine? Not one Russia wanted, so Ukraine's vote was decisive for the form and timing of the end."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Ukrainian independence was the decisive blow to the Soviet Union because it removed any basis for a renewed Union.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "On 1 December 1991 more than 92 per cent of Ukrainian voters approved independence, and a week later Kravchuk joined Yeltsin at Belovezha to denounce the Union Treaty of 1922.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Russia's leaders faced a Union without its second most populous republic, so they chose a Commonwealth instead.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Union was already a shell by November, with the KGB abolished and Yeltsin controlling economic activity in Russia.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Ukraine's independence was therefore decisive for the end of the Union in December 1991, though not its first cause.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Ukraine"
+    ],
+    "synonyms": [
+     "Ukrainian",
+     "Kravchuk"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "referendum",
+     "Belovezha",
+     "Commonwealth of Independent States"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-B5-COLLAPSE-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons why Gorbachev's attempt to agree a new Union Treaty failed between 1990 and 1991.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1990,
+    1991
+   ],
+   "scope": "Soviet Union; the Union Treaty",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its reasons and show how they connect",
+    "factorOrTask": "The reasons the Union Treaty failed",
+    "timeframe": "1990–1991",
+    "scope": "Gorbachev's attempt at a new Union",
+    "judgement": "Which reason was decisive"
+   },
+   "modelPlan": {
+    "thesis": "The treaty failed mainly because the coup, launched to stop it, destroyed the centre that was to sign it; the republics' sovereignty and Yeltsin's rival authority made it impossible to revive.",
+    "arguments": [
+     {
+      "claim": "The coup was launched to prevent the signing on 20 August.",
+      "evidence": [
+       "F-COLLAPSE-09",
+       "F-COLLAPSE-10"
+      ]
+     },
+     {
+      "claim": "The republics, led by Russia, wanted sovereignty, not a renewed Union.",
+      "evidence": [
+       "F-COLLAPSE-02",
+       "F-COLLAPSE-06"
+      ]
+     },
+     {
+      "claim": "Gorbachev's turn to the right had cost him the reformers.",
+      "evidence": [
+       "F-COLLAPSE-05",
+       "F-COLLAPSE-26"
+      ]
+     },
+     {
+      "claim": "After the coup Yeltsin and then Ukraine chose independence.",
+      "evidence": [
+       "F-COLLAPSE-18",
+       "F-COLLAPSE-19",
+       "F-COLLAPSE-20"
+      ]
+     }
+    ],
+    "counter": "Six republics refused even to take part, so the treaty could never have saved the whole Union.",
+    "judgementCriterion": "Which reason ended the treaty's chances? The coup, because nine republics had agreed it before 19 August."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Gorbachev's Union Treaty failed mainly because the coup, launched to stop it, destroyed the centre that was to sign it.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The treaty was due to be signed on 20 August 1991, and the Emergency Committee seized power on 19 August.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the treaty's main supporter, Gorbachev, returned without authority, while the republics used the chaos to declare independence.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, six republics had boycotted the March referendum, so even a signed treaty would not have kept the whole Union.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The coup was therefore the decisive reason the treaty failed, though the treaty could only ever have saved part of the Union.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Union Treaty"
+    ],
+    "synonyms": [
+     "treaty",
+     "Novo-Ogarevo"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "nine plus one",
+     "referendum",
+     "sovereignty"
+    ]
+   }
+  }
+ ]
+}
