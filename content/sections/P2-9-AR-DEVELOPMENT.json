@@ -1,0 +1,2732 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-9-AR-DEVELOPMENT",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "Between 1930 and 1983 Argentina had 25 presidents and 22 years of military rule. Between 1983 and 1999 it held four presidential elections, survived four military revolts and two economic collapses, and in 1999 the governing party handed over power peacefully. Did Argentine democracy consolidate, or merely survive?",
+   "predictionPrompt": "Your prediction in one line: consolidated or merely survived?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "success_failure",
+    "title": "Justice and its limits: the Trial of the Juntas, 1985",
+    "body": "Alfonsín's government set out to do what no Latin American democracy had done before: put the leaders of the previous dictatorship on trial in a civilian court. The **Trial of the Juntas** opened on 22 April 1985. The prosecutors, Julio César Strassera and Luis Moreno Ocampo, presented 709 cases, of which 280 were heard, and 833 witnesses testified. It was the first major trial of its kind since Nuremberg and Tokyo after the Second World War.\n\nOn **9 December 1985** the court sentenced General Jorge Videla and Admiral Emilio Massera to life imprisonment. General Roberto Viola received seventeen years, and two other commanders shorter terms. Four were acquitted, including Galtieri, though he was court-martialled separately for the conduct of the Falklands war.\n\nAt the same time Alfonsín faced an economic emergency. When he took office, inflation was nearly 30 per cent a month and the country was close to default. He warned that democracy had little to offer \"unless the economic question is definitely resolved\". In 1985 his minister Juan Sourrouille launched the **Austral plan**: prices and wages were frozen, money printing stopped, and a new currency, the austral, replaced the peso. Inflation fell at once, and the governing UCR won the 1985 midterm elections.\n\nThis mattered because 1985 was the high point of Alfonsín's presidency, which meant that democracy appeared able to deliver both justice and economic stability, for a time.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Trial of the Juntas was a landmark in justice.",
+      "evidence": [
+       "F-ARD-02",
+       "F-ARD-03"
+      ],
+      "strongestCounter": "Four commanders were acquitted."
+     },
+     {
+      "claim": "The Austral plan brought a brief recovery.",
+      "evidence": [
+       "F-ARD-04"
+      ],
+      "strongestCounter": "Inflation returned in 1986."
+     },
+     {
+      "claim": "The economy threatened democracy.",
+      "evidence": [
+       "F-ARD-05"
+      ],
+      "strongestCounter": "Alfonsín's party won in 1985."
+     }
+    ],
+    "howItGetsAsked": [
+     "“Alfonsín sacrificed justice to save democracy.” Discuss with reference to the period 1985 to 1987.",
+     "Analyse the reasons for the economic crisis that ended Alfonsín's presidency between 1985 and 1989."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Trial of the Juntas was the greatest achievement of Argentina's new democracy.",
+     "prove": "Opened on 22 April 1985, it heard 833 witnesses, and on 9 December Videla and Massera were sentenced to life imprisonment.",
+     "explain": "This meant that a civilian court had judged a former dictatorship, so the principle that no one stood above the law was established.",
+     "test": "However, four commanders were acquitted, and hundreds of lower-ranking officers still awaited trial.",
+     "judge": "The trial was therefore a landmark in justice that also raised the question of how far prosecutions could go."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many witnesses testified at the Trial of the Juntas? (number)",
+      "factIds": [
+       "F-ARD-02"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 833,
+        "tolerance": 0,
+        "explanation": "833 witnesses."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What sentence did Videla and Massera receive on 9 December 1985?",
+      "factIds": [
+       "F-ARD-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Life imprisonment",
+        "correct": true,
+        "explanation": "Correct: Viola received seventeen years."
+       },
+       {
+        "id": "b",
+        "text": "Acquittal",
+        "correct": false,
+        "explanation": "Four others were acquitted."
+       },
+       {
+        "id": "c",
+        "text": "Exile",
+        "correct": false,
+        "explanation": "Not the sentence."
+       },
+       {
+        "id": "d",
+        "text": "A fine",
+        "correct": false,
+        "explanation": "Not the sentence."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Austral plan froze prices and wages and inflation fell at once; the UCR won the 1985 midterms.” Which argument does it support best?",
+      "factIds": [
+       "F-ARD-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Economic stabilisation strengthened support for the democratic government",
+        "correct": true,
+        "explanation": "Correct: for a time."
+       },
+       {
+        "id": "b",
+        "text": "The Austral plan failed immediately",
+        "correct": false,
+        "explanation": "It succeeded at first."
+       },
+       {
+        "id": "c",
+        "text": "Inflation rose in 1985",
+        "correct": false,
+        "explanation": "Inflation fell at once in 1985."
+       },
+       {
+        "id": "d",
+        "text": "The Peronists won in 1985",
+        "correct": false,
+        "explanation": "The UCR won."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "Military pressure: Full Stop, Due Obedience and the Carapintadas, 1986–1990",
+    "body": "Prosecutions did not stop with the junta leaders. Hundreds of other officers faced charges, and the armed forces grew restless. On **24 December 1986** Congress passed the **Full Stop Law**, which limited prosecutions to those indicted within sixty days.\n\nThe army's anger erupted at Easter 1987. On **15 April** Lieutenant Colonel Aldo Rico led an uprising of the **Carapintadas** (\"painted faces\") at the Campo de Mayo infantry school, demanding an end to the trials. Some 200,000 people gathered at the presidential palace to defend democracy, and Alfonsín went in person to negotiate with the rebels, who surrendered on 19 April. But on **4 June 1987** Congress passed the **Law of Due Obedience**, which in effect exempted officers below the rank of colonel from punishment because they had been obeying orders. Many human rights groups saw it as a concession to the remnants of authoritarian rule.\n\nFurther revolts followed in January and December 1988; after the second, the government conceded some of the rebels' demands. Menem, who became president in 1989, went further. In October 1989 he pardoned 39 military men held for crimes of the dictatorship and 164 Carapintadas. After a last, violent uprising on 3 December 1990, which loyal forces crushed within 36 hours, he pardoned the most important people convicted for the crimes of the Dirty War, including the junta leaders.\n\nThis mattered because military pressure narrowed justice step by step, which meant that by 1990 democracy had survived but most of those responsible for the repression were free.",
+    "argumentsThatWork": [
+     {
+      "claim": "Military revolts forced concessions.",
+      "evidence": [
+       "F-ARD-07",
+       "F-ARD-09"
+      ],
+      "strongestCounter": "Civilians rallied to defend democracy."
+     },
+     {
+      "claim": "The amnesty laws limited justice.",
+      "evidence": [
+       "F-ARD-06",
+       "F-ARD-08"
+      ],
+      "strongestCounter": "They were struck down in 2005."
+     },
+     {
+      "claim": "Menem's pardons completed the retreat from justice.",
+      "evidence": [
+       "F-ARD-11"
+      ],
+      "strongestCounter": "Menem crushed the 1990 revolt."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the military the main threat to Argentine democracy between 1983 and 1990?",
+     "“Alfonsín sacrificed justice to save democracy.” Discuss with reference to the period 1985 to 1987."
+    ],
+    "useItInAnEssay": {
+     "claim": "Military pressure forced Argentina's democracy to give up much of its programme of justice.",
+     "prove": "After the Full Stop Law of December 1986 and the Carapintada uprising of April 1987, Congress passed the Law of Due Obedience on 4 June 1987.",
+     "explain": "This meant that most officers below the rank of colonel could no longer be punished, so justice was limited to a handful of leaders.",
+     "test": "However, the uprisings were not coups: 200,000 people rallied to defend democracy, and the rebels surrendered.",
+     "judge": "Democracy therefore survived the military, but at the cost of justice for most victims."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what day in June 1987 was the Law of Due Obedience passed? (day of the month)",
+      "factIds": [
+       "F-ARD-08"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 4,
+        "tolerance": 0,
+        "explanation": "4 June 1987."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Carapintadas demand in April 1987?",
+      "factIds": [
+       "F-ARD-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "An end to the human rights trials",
+        "correct": true,
+        "explanation": "Correct: and the removal of the army chief."
+       },
+       {
+        "id": "b",
+        "text": "A return of Isabel Perón",
+        "correct": false,
+        "explanation": "Not their demand."
+       },
+       {
+        "id": "c",
+        "text": "Higher taxes",
+        "correct": false,
+        "explanation": "Not their demand."
+       },
+       {
+        "id": "d",
+        "text": "Elections",
+        "correct": false,
+        "explanation": "Elections had already been held."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Some 200,000 people gathered at the presidential palace during the 1987 uprising.” Which argument does it support best?",
+      "factIds": [
+       "F-ARD-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Popular support for democracy limited the military's options",
+        "correct": true,
+        "explanation": "Correct: the rebels surrendered."
+       },
+       {
+        "id": "b",
+        "text": "The public supported the rebels",
+        "correct": false,
+        "explanation": "They rallied for democracy."
+       },
+       {
+        "id": "c",
+        "text": "The uprising was a successful coup",
+        "correct": false,
+        "explanation": "It failed."
+       },
+       {
+        "id": "d",
+        "text": "No one cared about the uprising",
+        "correct": false,
+        "explanation": "Huge crowds gathered."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "Hyperinflation and the Menem revolution, 1989–1995",
+    "body": "The Austral plan did not last. Provinces and state enterprises ran deficits, the government began printing money again, and inflation returned in 1986. The UCR lost the 1987 midterm elections, and by 1989 inflation had turned into **hyperinflation**, with riots in the streets. The Peronist **Carlos Menem** won the presidential election of 14 May 1989. Alfonsín resigned and handed over power on **8 July 1989**, five months early. The US Congressional Research Service nonetheless credits Alfonsín with restoring democratic institutions.\n\nMenem surprised his own party. He broke with Peronist protectionism and, in the words of the CRS, transformed Argentina \"from a state-dominated protectionist economy to one committed to free market principles\". Most state enterprises were privatized. In 1991 his economy minister, **Domingo Cavallo**, introduced **Convertibility**, a law fixing the peso one-to-one to the US dollar and limiting the printing of money. Hyperinflation was eliminated and the early 1990s brought growth. Argentina restored diplomatic relations with Britain and became a close partner of the United States.\n\nThere were costs. Large numbers of workers in privatized enterprises lost their jobs, and unemployment rose above 10 per cent. The currency board left Argentina exposed to fiscal deficits, high foreign debt and an overvalued peso.\n\nThis mattered because Menem's reforms ended hyperinflation and gave democracy economic credibility, which meant that his government won popular support even as inequality and unemployment grew.",
+    "argumentsThatWork": [
+     {
+      "claim": "Hyperinflation ended Alfonsín's presidency early.",
+      "evidence": [
+       "F-ARD-01",
+       "F-ARD-10"
+      ],
+      "strongestCounter": "He was credited with restoring democratic institutions."
+     },
+     {
+      "claim": "Convertibility ended hyperinflation.",
+      "evidence": [
+       "F-ARD-12",
+       "F-ARD-13"
+      ],
+      "strongestCounter": "It created long-term vulnerabilities."
+     },
+     {
+      "claim": "Privatisation raised unemployment.",
+      "evidence": [
+       "F-ARD-14"
+      ],
+      "strongestCounter": "Growth returned in the early 1990s."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the success of Menem's economic policies between 1989 and 1999.",
+     "Analyse the reasons for the economic crisis that ended Alfonsín's presidency between 1985 and 1989."
+    ],
+    "useItInAnEssay": {
+     "claim": "Menem's economic policies succeeded in ending hyperinflation but at a heavy social cost.",
+     "prove": "In 1991 Cavallo's Convertibility law fixed the peso to the dollar, most state enterprises were privatized, and hyperinflation was eliminated.",
+     "explain": "This meant that the economy stabilised and grew in the early 1990s, so Menem gained the popularity to win again in 1995.",
+     "test": "However, workers in privatized firms lost their jobs, unemployment rose above 10 per cent, and the dollar peg left Argentina exposed to debt.",
+     "judge": "The policies were therefore a success in stabilisation but stored up the problems that later broke the economy."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what date in July 1989 did Menem take office? (day of the month)",
+      "factIds": [
+       "F-ARD-10"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 8,
+        "tolerance": 0,
+        "explanation": "8 July 1989, five months early."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the 1991 Convertibility law do?",
+      "factIds": [
+       "F-ARD-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Fixed the peso one-to-one to the US dollar and limited money printing",
+        "correct": true,
+        "explanation": "Correct: designed by Cavallo."
+       },
+       {
+        "id": "b",
+        "text": "Nationalised the banks",
+        "correct": false,
+        "explanation": "Menem privatized."
+       },
+       {
+        "id": "c",
+        "text": "Introduced the austral",
+        "correct": false,
+        "explanation": "That was the 1985 Austral plan."
+       },
+       {
+        "id": "d",
+        "text": "Abolished the peso",
+        "correct": false,
+        "explanation": "It pegged the peso."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Unemployment grew to over 10 per cent as privatized enterprises fired workers.” Which argument does it support best?",
+      "factIds": [
+       "F-ARD-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Menem's reforms carried heavy social costs",
+        "correct": true,
+        "explanation": "Correct: unions were unable to resist."
+       },
+       {
+        "id": "b",
+        "text": "Menem's reforms created full employment",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Privatisation protected jobs",
+        "correct": false,
+        "explanation": "It cut them."
+       },
+       {
+        "id": "d",
+        "text": "Unemployment fell in the 1990s",
+        "correct": false,
+        "explanation": "Unemployment rose above 10 per cent."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "A new constitution and a peaceful handover, 1993–1999",
+    "body": "Menem wanted a second term, which the constitution forbade. In the **Pact of Olivos** of 17 November 1993 he and Alfonsín agreed on a constitutional reform: the UCR would support one presidential re-election, and in exchange Menem accepted measures to limit presidential power, including a four-year term, a third senator for each province, a Council of Magistracy to oversee judges, and an autonomous government for Buenos Aires.\n\nA constituent assembly elected in April 1994 approved the reform on **22 August 1994**. International human rights treaties were given constitutional status. The president would be elected directly, with a run-off. The doctrine that had legitimised *de facto* governments was repealed: any break in constitutional order was declared illegal, and citizens were given the right to resist a coup. An ombudsman was created.\n\nMenem was re-elected in May 1995. His critics called his government authoritarian, claiming that it weakened Congress and the judiciary; the Supreme Court had been filled with his supporters. Corruption charges multiplied, and the bombings of the Israeli embassy in 1992 and of the AMIA Jewish community centre in 1994, which killed 85 people, remained unsolved.\n\nYet democracy held. On **24 October 1999** Fernando de la Rúa of the UCR-led Alliance won the presidency with 48.5 per cent, defeating the Peronists amid anger over corruption and unemployment. It was the fourth presidential election since 1983. The CRS called Argentina's return to stable civilian rule \"remarkable\" for a country that had seen 25 presidents and 22 years of military rule between 1930 and 1983.\n\nThis mattered because elections and a reformed constitution survived economic crisis, military revolts and a dominant president, which meant that by 1999 democracy had been consolidated in its institutions, if not in public trust.",
+    "argumentsThatWork": [
+     {
+      "claim": "The 1994 constitution strengthened democratic rules.",
+      "evidence": [
+       "F-ARD-15",
+       "F-ARD-17"
+      ],
+      "strongestCounter": "It also allowed Menem's re-election."
+     },
+     {
+      "claim": "Menem's rule weakened checks and balances.",
+      "evidence": [
+       "F-ARD-18",
+       "F-ARD-19"
+      ],
+      "strongestCounter": "He won free elections."
+     },
+     {
+      "claim": "Power changed hands peacefully in 1999.",
+      "evidence": [
+       "F-ARD-20",
+       "F-ARD-21"
+      ],
+      "strongestCounter": "Corruption and unemployment remained."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for, and the results of, Argentina's constitutional reform between 1993 and 1999.",
+     "To what extent had democracy been consolidated in Argentina between 1983 and 1999?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The 1994 reform both strengthened democratic rules and served Menem's ambition.",
+     "prove": "Under the Pact of Olivos, Menem gained the right to one re-election, while the reform declared any break in constitutional order illegal and gave human rights treaties constitutional status.",
+     "explain": "This meant that future coups were outlawed, so the constitution itself now defended democracy.",
+     "test": "However, critics claimed Menem weakened Congress and the judiciary, and the Supreme Court was filled with his supporters.",
+     "judge": "The reform therefore strengthened democracy's rules more than the practice of checks and balances."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What share of the vote did de la Rúa win in October 1999? (number, e.g. 48.5)",
+      "factIds": [
+       "F-ARD-20"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 48.5,
+        "tolerance": 0.1,
+        "explanation": "48.5 per cent."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the 1994 constitutional reform do?",
+      "factIds": [
+       "F-ARD-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Allowed one presidential re-election, cut the term to four years and declared any break in constitutional order illegal",
+        "correct": true,
+        "explanation": "Correct: agreed in the Pact of Olivos."
+       },
+       {
+        "id": "b",
+        "text": "Abolished elections",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Restored military courts",
+        "correct": false,
+        "explanation": "Not what it did."
+       },
+       {
+        "id": "d",
+        "text": "Made the president a monarch",
+        "correct": false,
+        "explanation": "Not what it did."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-DEVELOPMENT-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1999 the governing Peronists lost and power passed peacefully to de la Rúa.” Which argument does it support best?",
+      "factIds": [
+       "F-ARD-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Democracy was consolidated enough for power to change hands peacefully",
+        "correct": true,
+        "explanation": "Correct: the fourth election since 1983."
+       },
+       {
+        "id": "b",
+        "text": "The military took power in 1999",
+        "correct": false,
+        "explanation": "Power passed to an elected president."
+       },
+       {
+        "id": "c",
+        "text": "Menem refused to leave office",
+        "correct": false,
+        "explanation": "He left after two terms."
+       },
+       {
+        "id": "d",
+        "text": "Elections had ended",
+        "correct": false,
+        "explanation": "The 1999 election was free."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1985,
+      "month": 4,
+      "day": 22,
+      "text": "Trial of the Juntas opens",
+      "factId": "F-ARD-02"
+     },
+     {
+      "year": 1985,
+      "month": 12,
+      "day": 9,
+      "text": "Videla and Massera sentenced to life",
+      "factId": "F-ARD-03"
+     },
+     {
+      "year": 1986,
+      "month": 12,
+      "day": 24,
+      "text": "Full Stop Law",
+      "factId": "F-ARD-06"
+     },
+     {
+      "year": 1987,
+      "month": 4,
+      "day": 15,
+      "text": "First Carapintada uprising",
+      "factId": "F-ARD-07"
+     },
+     {
+      "year": 1987,
+      "month": 6,
+      "day": 4,
+      "text": "Law of Due Obedience",
+      "factId": "F-ARD-08"
+     },
+     {
+      "year": 1989,
+      "month": 7,
+      "day": 8,
+      "text": "Menem takes office early",
+      "factId": "F-ARD-10"
+     },
+     {
+      "year": 1989,
+      "month": 10,
+      "text": "First pardons",
+      "factId": "F-ARD-11"
+     },
+     {
+      "year": 1990,
+      "month": 12,
+      "day": 3,
+      "text": "Last Carapintada uprising crushed",
+      "factId": "F-ARD-11"
+     },
+     {
+      "year": 1991,
+      "text": "Convertibility law",
+      "factId": "F-ARD-12"
+     },
+     {
+      "year": 1993,
+      "month": 11,
+      "day": 17,
+      "text": "Pact of Olivos",
+      "factId": "F-ARD-15"
+     },
+     {
+      "year": 1994,
+      "month": 8,
+      "day": 22,
+      "text": "Constitutional reform approved",
+      "factId": "F-ARD-17"
+     },
+     {
+      "year": 1999,
+      "month": 10,
+      "day": 24,
+      "text": "De la Rúa elected",
+      "factId": "F-ARD-20"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Trial of the Juntas (1985)",
+      "factId": "F-ARD-02"
+     },
+     {
+      "id": "n2",
+      "text": "Military pressure and Carapintada revolts",
+      "factId": "F-ARD-07"
+     },
+     {
+      "id": "n3",
+      "text": "Full Stop and Due Obedience laws",
+      "factId": "F-ARD-08"
+     },
+     {
+      "id": "n4",
+      "text": "Hyperinflation and Menem's early accession",
+      "factId": "F-ARD-10"
+     },
+     {
+      "id": "n5",
+      "text": "Pardons, Convertibility and privatisation",
+      "factId": "F-ARD-12"
+     },
+     {
+      "id": "n6",
+      "text": "1994 constitution and peaceful handover (1999)",
+      "factId": "F-ARD-20"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Prosecutions of lower officers angered the army"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "The government limited trials to avoid a coup"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Economic failure weakened Alfonsín further"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Menem traded justice for military calm and stabilised the economy"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Stability allowed reform and regular elections"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Raúl Alfonsín",
+     "role": "President 1983–1989",
+     "whyItMatters": "Trial of the Juntas; then the Full Stop and Due Obedience laws.",
+     "factIds": [
+      "F-ARD-01",
+      "F-ARD-06",
+      "F-ARD-08"
+     ]
+    },
+    {
+     "name": "Julio César Strassera",
+     "role": "Chief prosecutor",
+     "whyItMatters": "Led the 1985 prosecution of the juntas.",
+     "factIds": [
+      "F-ARD-02"
+     ]
+    },
+    {
+     "name": "Aldo Rico",
+     "role": "Carapintada leader",
+     "whyItMatters": "Led the April 1987 uprising; later formed MODIN.",
+     "factIds": [
+      "F-ARD-07",
+      "F-ARD-24"
+     ]
+    },
+    {
+     "name": "Carlos Menem",
+     "role": "President 1989–1999",
+     "whyItMatters": "Pardons, Convertibility and privatisation; re-elected 1995.",
+     "factIds": [
+      "F-ARD-11",
+      "F-ARD-12",
+      "F-ARD-18"
+     ]
+    },
+    {
+     "name": "Domingo Cavallo",
+     "role": "Economy minister from 1991",
+     "whyItMatters": "Pegged the peso to the dollar.",
+     "factIds": [
+      "F-ARD-12"
+     ]
+    },
+    {
+     "name": "Fernando de la Rúa",
+     "role": "President from December 1999",
+     "whyItMatters": "Won the 1999 election for the UCR-led Alliance.",
+     "factIds": [
+      "F-ARD-20"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Alfonsín (1983–1989)",
+     "Menem (1989–1999)"
+    ],
+    "rows": [
+     {
+      "criterion": "Justice",
+      "cells": [
+       "Trial of the Juntas; then Full Stop and Due Obedience",
+       "Pardons of 1989–90"
+      ],
+      "factIds": [
+       "F-ARD-03",
+       "F-ARD-11"
+      ]
+     },
+     {
+      "criterion": "Economy",
+      "cells": [
+       "Austral plan, then hyperinflation",
+       "Convertibility and privatisation"
+      ],
+      "factIds": [
+       "F-ARD-04",
+       "F-ARD-12"
+      ]
+     },
+     {
+      "criterion": "Military",
+      "cells": [
+       "Carapintada revolts, 1987–88",
+       "Last revolt crushed in 36 hours (1990)"
+      ],
+      "factIds": [
+       "F-ARD-07",
+       "F-ARD-11"
+      ]
+     },
+     {
+      "criterion": "Institutions",
+      "cells": [
+       "Credited with restoring democratic institutions",
+       "1994 reform; accused of weakening Congress and courts"
+      ],
+      "factIds": [
+       "F-ARD-01",
+       "F-ARD-18"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-ARD-03",
+    "year": 1985,
+    "text": "9 December 1985: Videla and Massera sentenced to life imprisonment.",
+    "supports": [
+     "Democracy delivered justice"
+    ],
+    "alsoWorksFor": [
+     "P2-9-AR-EMERGENCE"
+    ],
+    "lexicon": [
+     "Trial of the Juntas",
+     "Videla"
+    ]
+   },
+   {
+    "factId": "F-ARD-08",
+    "year": 1987,
+    "text": "Due Obedience (4 June 1987): officers below colonel exempted.",
+    "supports": [
+     "Military pressure limited justice"
+    ],
+    "lexicon": [
+     "Due Obedience",
+     "Carapintadas"
+    ]
+   },
+   {
+    "factId": "F-ARD-10",
+    "year": 1989,
+    "text": "Hyperinflation: Alfonsín handed power to Menem five months early (8 July 1989).",
+    "supports": [
+     "Economic failure weakened democracy"
+    ],
+    "lexicon": [
+     "hyperinflation",
+     "Menem"
+    ]
+   },
+   {
+    "factId": "F-ARD-11",
+    "year": 1990,
+    "text": "Menem's pardons of 1989–90 freed the junta leaders.",
+    "supports": [
+     "Justice was sacrificed for military calm"
+    ],
+    "lexicon": [
+     "pardons",
+     "Menem"
+    ]
+   },
+   {
+    "factId": "F-ARD-12",
+    "year": 1991,
+    "text": "Convertibility (1991): peso pegged to the dollar; hyperinflation eliminated.",
+    "supports": [
+     "Menem stabilised the economy"
+    ],
+    "lexicon": [
+     "Convertibility",
+     "Cavallo"
+    ]
+   },
+   {
+    "factId": "F-ARD-17",
+    "year": 1994,
+    "text": "1994 reform: any break in constitutional order declared illegal.",
+    "supports": [
+     "The constitution defended democracy"
+    ],
+    "lexicon": [
+     "constitution",
+     "Pact of Olivos"
+    ]
+   },
+   {
+    "factId": "F-ARD-20",
+    "year": 1999,
+    "text": "October 1999: de la Rúa won with 48.5 per cent; peaceful transfer of power.",
+    "supports": [
+     "Democracy consolidated"
+    ],
+    "lexicon": [
+     "election",
+     "de la Rúa"
+    ]
+   }
+  ],
+  "historiography": [],
+  "misconceptions": [
+   {
+    "wrong": "The Trial of the Juntas punished all those responsible for the repression.",
+    "right": "Only the commanders were sentenced; the **Full Stop** and **Due Obedience** laws protected most other officers."
+   },
+   {
+    "wrong": "The Carapintada revolts were coups that overthrew Alfonsín.",
+    "right": "The rebels **surrendered**; Alfonsín left office in 1989 because of **hyperinflation**."
+   },
+   {
+    "wrong": "Menem followed traditional Peronist economic policy.",
+    "right": "He broke with Peronist protectionism: **privatisation** and **Convertibility**."
+   },
+   {
+    "wrong": "Menem's pardons were overturned during the 1990s.",
+    "right": "The amnesty laws were struck down only in **2005**, outside this period."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1985,
+     "month": 4,
+     "text": "Trial of the Juntas opens"
+    },
+    {
+     "year": 1986,
+     "month": 12,
+     "text": "Full Stop Law"
+    },
+    {
+     "year": 1987,
+     "month": 4,
+     "text": "Carapintada uprising"
+    },
+    {
+     "year": 1987,
+     "month": 6,
+     "text": "Due Obedience"
+    },
+    {
+     "year": 1989,
+     "month": 7,
+     "text": "Menem takes office"
+    },
+    {
+     "year": 1991,
+     "text": "Convertibility"
+    },
+    {
+     "year": 1994,
+     "month": 8,
+     "text": "Constitutional reform"
+    },
+    {
+     "year": 1999,
+     "month": 10,
+     "text": "De la Rúa elected"
+    }
+   ],
+   "keyArguments": [
+    "The Trial of the Juntas (1985) was a landmark: the first civilian trial of a former dictatorship.",
+    "Military revolts led to the Full Stop (1986) and Due Obedience (1987) laws; Menem's pardons followed.",
+    "Hyperinflation ended Alfonsín's presidency early; Menem's Convertibility ended hyperinflation.",
+    "The 1994 reform outlawed coups and allowed one re-election; critics said Menem weakened checks.",
+    "In 1999 power passed peacefully to the opposition: democracy consolidated in its institutions."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Trial of the Juntas opens",
+     "year": 1985,
+     "month": 4,
+     "factId": "F-ARD-02"
+    },
+    {
+     "id": "b",
+     "text": "Junta leaders sentenced",
+     "year": 1985,
+     "month": 12,
+     "factId": "F-ARD-03"
+    },
+    {
+     "id": "c",
+     "text": "Full Stop Law",
+     "year": 1986,
+     "month": 12,
+     "factId": "F-ARD-06"
+    },
+    {
+     "id": "d",
+     "text": "First Carapintada uprising",
+     "year": 1987,
+     "month": 4,
+     "factId": "F-ARD-07"
+    },
+    {
+     "id": "e",
+     "text": "Law of Due Obedience",
+     "year": 1987,
+     "month": 6,
+     "factId": "F-ARD-08"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Menem elected",
+     "year": 1989,
+     "month": 5,
+     "factId": "F-ARD-10"
+    },
+    {
+     "id": "b",
+     "text": "Menem takes office",
+     "year": 1989,
+     "month": 7,
+     "factId": "F-ARD-10"
+    },
+    {
+     "id": "c",
+     "text": "First pardons",
+     "year": 1989,
+     "month": 10,
+     "factId": "F-ARD-11"
+    },
+    {
+     "id": "d",
+     "text": "Last Carapintada uprising",
+     "year": 1990,
+     "month": 12,
+     "factId": "F-ARD-11"
+    },
+    {
+     "id": "e",
+     "text": "Convertibility law",
+     "year": 1991,
+     "factId": "F-ARD-12"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Pact of Olivos",
+     "year": 1993,
+     "month": 11,
+     "factId": "F-ARD-15"
+    },
+    {
+     "id": "b",
+     "text": "Constituent assembly elected",
+     "year": 1994,
+     "month": 4,
+     "factId": "F-ARD-16"
+    },
+    {
+     "id": "c",
+     "text": "Constitutional reform approved",
+     "year": 1994,
+     "month": 8,
+     "factId": "F-ARD-17"
+    },
+    {
+     "id": "d",
+     "text": "Menem re-elected",
+     "year": 1995,
+     "month": 5,
+     "factId": "F-ARD-18"
+    },
+    {
+     "id": "e",
+     "text": "De la Rúa elected",
+     "year": 1999,
+     "month": 10,
+     "factId": "F-ARD-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each measure to what it did.",
+   "pairs": [
+    {
+     "left": "Full Stop Law (1986)",
+     "right": "Limited prosecutions to those indicted within 60 days",
+     "explanation": "24 December 1986."
+    },
+    {
+     "left": "Law of Due Obedience (1987)",
+     "right": "Exempted officers below colonel who obeyed orders",
+     "explanation": "4 June 1987."
+    },
+    {
+     "left": "Convertibility (1991)",
+     "right": "Fixed the peso one-to-one to the dollar",
+     "explanation": "Cavallo."
+    },
+    {
+     "left": "Pact of Olivos (1993)",
+     "right": "Agreed a constitutional reform allowing one re-election",
+     "explanation": "Menem and Alfonsín."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many cases were presented at the Trial of the Juntas? (number)",
+   "factIds": [
+    "F-ARD-02"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 709,
+     "tolerance": 0,
+     "explanation": "709, of which 280 were heard."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Carapintadas did Menem pardon in October 1989? (number)",
+   "factIds": [
+    "F-ARD-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 164,
+     "tolerance": 0,
+     "explanation": "164, with 39 military men held for the dictatorship's crimes."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many articles did the 1994 reform change? (number)",
+   "factIds": [
+    "F-ARD-17"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 43,
+     "tolerance": 0,
+     "explanation": "Forty-three."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people were killed in the 1994 AMIA bombing, according to the CRS? (number)",
+   "factIds": [
+    "F-ARD-19"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 85,
+     "tolerance": 0,
+     "explanation": "Eighty-five."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these limited justice for the crimes of the dictatorship? Choose all that apply.",
+   "factIds": [
+    "F-ARD-06",
+    "F-ARD-08",
+    "F-ARD-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Full Stop Law",
+     "correct": true,
+     "explanation": "Yes: a sixty-day limit."
+    },
+    {
+     "id": "b",
+     "text": "The Law of Due Obedience",
+     "correct": true,
+     "explanation": "Yes: officers below colonel exempted."
+    },
+    {
+     "id": "c",
+     "text": "Menem's pardons",
+     "correct": true,
+     "explanation": "Yes: 1989–90."
+    },
+    {
+     "id": "d",
+     "text": "The Trial of the Juntas",
+     "correct": false,
+     "explanation": "No: it convicted the junta leaders."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the 1994 constitutional reform? Choose all that apply.",
+   "factIds": [
+    "F-ARD-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Human rights treaties given constitutional status",
+     "correct": true,
+     "explanation": "Yes: equal to the constitution."
+    },
+    {
+     "id": "b",
+     "text": "A four-year presidential term with one re-election",
+     "correct": true,
+     "explanation": "Yes: down from six years."
+    },
+    {
+     "id": "c",
+     "text": "Any break in constitutional order declared illegal",
+     "correct": true,
+     "explanation": "Yes: the de facto doctrine was repealed."
+    },
+    {
+     "id": "d",
+     "text": "Abolition of the Senate",
+     "correct": false,
+     "explanation": "No: each province gained a third senator."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Menem crushed the December 1990 uprising within 36 hours, then pardoned the junta leaders.” Which argument does it support?",
+   "factIds": [
+    "F-ARD-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Menem ended the military threat by combining firmness with concessions",
+     "correct": true,
+     "explanation": "Correct: revolts ceased after 1990."
+    },
+    {
+     "id": "b",
+     "text": "Menem supported the Carapintadas",
+     "correct": false,
+     "explanation": "He crushed their revolt."
+    },
+    {
+     "id": "c",
+     "text": "The junta leaders stayed in prison",
+     "correct": false,
+     "explanation": "They were pardoned."
+    },
+    {
+     "id": "d",
+     "text": "The military took power in 1990",
+     "correct": false,
+     "explanation": "The revolt failed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Some observers called Menem's government authoritarian, claiming it weakened Congress and the judiciary.” Which argument does it support?",
+   "factIds": [
+    "F-ARD-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Democracy's checks and balances remained weak in the 1990s",
+     "correct": true,
+     "explanation": "Correct: the Supreme Court was filled with his supporters."
+    },
+    {
+     "id": "b",
+     "text": "Menem abolished elections",
+     "correct": false,
+     "explanation": "Elections continued."
+    },
+    {
+     "id": "c",
+     "text": "Congress grew stronger under Menem",
+     "correct": false,
+     "explanation": "Critics claimed the opposite."
+    },
+    {
+     "id": "d",
+     "text": "The judiciary was fully independent",
+     "correct": false,
+     "explanation": "Critics disputed this."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Alfonsín was overthrown by the Carapintadas in 1987.”",
+   "factIds": [
+    "F-ARD-07",
+    "F-ARD-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The rebels surrendered; Alfonsín left office early in 1989 because of hyperinflation",
+     "correct": true,
+     "explanation": "Correct: he handed power to an elected successor."
+    },
+    {
+     "id": "b",
+     "text": "The Carapintadas were civilians",
+     "correct": false,
+     "explanation": "They were army mutineers."
+    },
+    {
+     "id": "c",
+     "text": "The uprising was in 1997",
+     "correct": false,
+     "explanation": "It was in 1987."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Alfonsín was not overthrown."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Menem continued traditional Peronist protectionism and nationalised industries.”",
+   "factIds": [
+    "F-ARD-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He broke with Peronist protectionism and privatized most state enterprises",
+     "correct": true,
+     "explanation": "Correct: a free-market transformation."
+    },
+    {
+     "id": "b",
+     "text": "Menem was a Radical",
+     "correct": false,
+     "explanation": "He was a Peronist."
+    },
+    {
+     "id": "c",
+     "text": "Menem was elected in 1979",
+     "correct": false,
+     "explanation": "He was elected in 1989."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: he privatized."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the development of democracy in Argentina between 1983 and 1999. Is the 2005 Supreme Court ruling against the amnesty laws inside or outside the timeframe?",
+   "factIds": [
+    "F-ARD-23"
+   ],
+   "timeframe": [
+    1983,
+    1999
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later outcome",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1999."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 2005 is after 1999."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because the laws were passed in the 1980s",
+     "correct": false,
+     "explanation": "The ruling itself came later."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who were the main prosecutors at the Trial of the Juntas?",
+   "factIds": [
+    "F-ARD-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Julio César Strassera and Luis Moreno Ocampo",
+     "correct": true,
+     "explanation": "Correct: Moreno Ocampo later led the ICC prosecution."
+    },
+    {
+     "id": "b",
+     "text": "Raúl Alfonsín and Carlos Menem",
+     "correct": false,
+     "explanation": "They were presidents."
+    },
+    {
+     "id": "c",
+     "text": "Ernesto Sabato and Aldo Rico",
+     "correct": false,
+     "explanation": "Not prosecutors."
+    },
+    {
+     "id": "d",
+     "text": "Domingo Cavallo and Juan Sourrouille",
+     "correct": false,
+     "explanation": "They were economy ministers."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Alfonsín hand power to Menem early in 1989?",
+   "factIds": [
+    "F-ARD-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hyperinflation and riots made his position untenable",
+     "correct": true,
+     "explanation": "Correct: five months early, on 8 July."
+    },
+    {
+     "id": "b",
+     "text": "A military coup removed him",
+     "correct": false,
+     "explanation": "He resigned."
+    },
+    {
+     "id": "c",
+     "text": "He lost a referendum",
+     "correct": false,
+     "explanation": "Not the reason."
+    },
+    {
+     "id": "d",
+     "text": "The constitution required it",
+     "correct": false,
+     "explanation": "Not the reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Pact of Olivos of 1993 agree?",
+   "factIds": [
+    "F-ARD-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A constitutional reform allowing one re-election in exchange for limits on presidential power",
+     "correct": true,
+     "explanation": "Correct: between Menem and Alfonsín."
+    },
+    {
+     "id": "b",
+     "text": "Peace with Britain over the Falklands",
+     "correct": false,
+     "explanation": "Not the Pact of Olivos."
+    },
+    {
+     "id": "c",
+     "text": "The end of Convertibility",
+     "correct": false,
+     "explanation": "Convertibility lasted until 2002."
+    },
+    {
+     "id": "d",
+     "text": "Amnesty for the Carapintadas",
+     "correct": false,
+     "explanation": "That was the 1989 pardon."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were the main vulnerabilities of Convertibility, according to the CRS?",
+   "factIds": [
+    "F-ARD-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The fiscal deficit, high external debt and an overvalued peso",
+     "correct": true,
+     "explanation": "Correct: clear from the outset."
+    },
+    {
+     "id": "b",
+     "text": "Too little foreign investment",
+     "correct": false,
+     "explanation": "Not one of the three."
+    },
+    {
+     "id": "c",
+     "text": "Rising hyperinflation",
+     "correct": false,
+     "explanation": "It ended hyperinflation."
+    },
+    {
+     "id": "d",
+     "text": "A weak dollar",
+     "correct": false,
+     "explanation": "Not one of the three."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did the CRS describe Argentina's return to stable civilian rule?",
+   "factIds": [
+    "F-ARD-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "As remarkable, given its long history of coups",
+     "correct": true,
+     "explanation": "Correct: 25 presidents in 1930–83."
+    },
+    {
+     "id": "b",
+     "text": "As a failure",
+     "correct": false,
+     "explanation": "Not its description."
+    },
+    {
+     "id": "c",
+     "text": "As temporary",
+     "correct": false,
+     "explanation": "Not its description."
+    },
+    {
+     "id": "d",
+     "text": "As imposed by the United States",
+     "correct": false,
+     "explanation": "Not its description."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the military the main threat to Argentine democracy between 1983 and 1990?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the military",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main threat to Argentine democracy",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1983 and 1990",
+     "answer": "timeframe",
+     "explanation": "From Alfonsín's election to the last revolt."
+    },
+    {
+     "id": "s5",
+     "text": "main threat",
+     "answer": "judgement",
+     "explanation": "Did the military outweigh economic crisis?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the success of Menem's economic policies between 1989 and 1999.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Evaluate",
+     "answer": "verb",
+     "explanation": "Weigh strengths and limits, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "Menem's economic policies",
+     "answer": "factor",
+     "explanation": "The policies to evaluate."
+    },
+    {
+     "id": "s3",
+     "text": "success",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1989 and 1999",
+     "answer": "timeframe",
+     "explanation": "Menem's two terms."
+    },
+    {
+     "id": "s5",
+     "text": "success",
+     "answer": "judgement",
+     "explanation": "Stabilisation, growth, or social costs?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the military the main threat to Argentine democracy between 1983 and 1990?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The military was the most visible threat, forcing the amnesty laws and the pardons, but economic collapse posed the greater danger, since hyperinflation, not a revolt, cut short Alfonsín's presidency.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against another."
+    },
+    {
+     "id": "b",
+     "text": "The military revolted in 1987.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The military was dangerous.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The military was the only threat.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the success of Menem's economic policies between 1989 and 1999.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Menem's policies succeeded in ending hyperinflation and restoring growth, but privatisation raised unemployment above 10 per cent and the dollar peg left Argentina exposed to debt.",
+     "correct": true,
+     "explanation": "Correct: success with a limit."
+    },
+    {
+     "id": "b",
+     "text": "Menem was president from 1989.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Menem's policies were good.",
+     "correct": false,
+     "explanation": "Not a judgement with criteria."
+    },
+    {
+     "id": "d",
+     "text": "Menem's policies failed completely.",
+     "correct": false,
+     "explanation": "Ignores the end of hyperinflation."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 4 June 1987 Congress passed the Law of Due Obedience.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the army threatened revolt, the government limited prosecutions to protect democracy.",
+     "answer": "analysis",
+     "explanation": "Explains a cause."
+    },
+    {
+     "id": "s3",
+     "text": "In 1991 Cavallo pegged the peso to the dollar.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that hyperinflation ended, so Menem gained the support to win again in 1995.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Life sentences for Videla and Massera",
+     "right": "Democracy delivered justice",
+     "explanation": "1985."
+    },
+    {
+     "left": "Law of Due Obedience",
+     "right": "Military pressure limited justice",
+     "explanation": "1987."
+    },
+    {
+     "left": "Menem takes office five months early",
+     "right": "Economic failure weakened democracy",
+     "explanation": "1989."
+    },
+    {
+     "left": "De la Rúa's victory in 1999",
+     "right": "Power could change hands peacefully",
+     "explanation": "The fourth election since 1983."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Alfonsín gave in to the army.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the April 1987 Carapintada uprising showed the army would resist further trials, Alfonsín accepted the Law of Due Obedience in June, which protected most officers; human rights groups saw it as a concession, but it may have prevented a coup.",
+     "correct": true,
+     "explanation": "Correct: cause, evidence and qualification."
+    },
+    {
+     "id": "b",
+     "text": "Alfonsín was weak.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Alfonsín was president from 1983.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Alfonsín did everything the army wanted.",
+     "correct": false,
+     "explanation": "Overstated: the junta leaders had been convicted."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Argentine democracy was never secure between 1983 and 1999.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Every military revolt failed, power changed hands between parties in 1989 and 1999, and the 1994 constitution declared any break in constitutional order illegal.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Argentina is a democracy now.",
+     "correct": false,
+     "explanation": "Not evidence for the period."
+    },
+    {
+     "id": "c",
+     "text": "People liked Menem.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "There were elections.",
+     "correct": false,
+     "explanation": "Too vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent had democracy been consolidated in Argentina between 1983 and 1999?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by elections and the end of military intervention, democracy was consolidated; judged by justice for past crimes and checks on presidential power, it remained incomplete.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there were elections in 1983, 1989, 1995 and 1999.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Menem was popular.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, democracy is always fragile.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-DEVELOPMENT-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, Argentina's constitutional reform between 1993 and 1999.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Menem's wish for a second term",
+     "answer": "causes",
+     "explanation": "The old constitution forbade it."
+    },
+    {
+     "id": "s2",
+     "text": "Alfonsín's wish to limit presidential power",
+     "answer": "causes",
+     "explanation": "The Pact of Olivos."
+    },
+    {
+     "id": "s3",
+     "text": "Coups declared illegal",
+     "answer": "effects",
+     "explanation": "The de facto doctrine repealed."
+    },
+    {
+     "id": "s4",
+     "text": "Menem re-elected in 1995",
+     "answer": "effects",
+     "explanation": "For four years."
+    },
+    {
+     "id": "s5",
+     "text": "Human rights treaties given constitutional status",
+     "answer": "effects",
+     "explanation": "1994."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-9-AR-DEVELOPMENT-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the military the main threat to Argentine democracy between 1983 and 1990?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the military",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1983,
+    1990
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The military, weighed first",
+    "timeframe": "1983–1990",
+    "scope": "Threats to democracy",
+    "judgement": "Did the military outweigh economic crisis?"
+   },
+   "modelPlan": {
+    "thesis": "The military was the most visible threat, forcing the amnesty laws and the pardons, but economic collapse posed the greater danger, since hyperinflation, not a revolt, cut short Alfonsín's presidency.",
+    "arguments": [
+     {
+      "claim": "The military: Carapintada revolts (named factor first).",
+      "evidence": [
+       "F-ARD-07",
+       "F-ARD-09"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Concessions: Full Stop, Due Obedience and pardons.",
+      "evidence": [
+       "F-ARD-06",
+       "F-ARD-08",
+       "F-ARD-11"
+      ]
+     },
+     {
+      "claim": "The economy: the Austral plan and hyperinflation.",
+      "evidence": [
+       "F-ARD-04",
+       "F-ARD-10"
+      ]
+     },
+     {
+      "claim": "Popular defence of democracy.",
+      "evidence": [
+       "F-ARD-07"
+      ]
+     }
+    ],
+    "counter": "Every military revolt failed, and 200,000 people rallied to defend democracy in 1987.",
+    "judgementCriterion": "Which threat came closer to ending a government? Hyperinflation."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The military was a serious threat to democracy, but not the most dangerous one.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Carapintada uprisings of 1987 and 1988 forced Congress to pass the Law of Due Obedience, and Menem pardoned the junta leaders after the last revolt in 1990.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the military could limit justice, so democracy survived by giving up much of its programme of prosecutions.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, every revolt failed, while hyperinflation forced Alfonsín to hand over power five months early in July 1989.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The military was therefore the main threat to justice, but economic collapse was the main threat to democratic government.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "military",
+     "army"
+    ],
+    "synonyms": [
+     "Carapintadas",
+     "revolt"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Due Obedience",
+     "Full Stop",
+     "hyperinflation"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-DEVELOPMENT-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Alfonsín sacrificed justice to save democracy.” Discuss with reference to the period 1985 to 1987.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition",
+    "leader"
+   ],
+   "timeframe": [
+    1985,
+    1987
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: justice sacrificed for democracy",
+    "timeframe": "1985–1987",
+    "scope": "Alfonsín's choices",
+    "judgement": "Was justice sacrificed, or limited?"
+   },
+   "modelPlan": {
+    "thesis": "Alfonsín limited rather than sacrificed justice: the Trial of the Juntas convicted the commanders, but under military pressure the Full Stop and Due Obedience laws protected most other officers.",
+    "arguments": [
+     {
+      "claim": "Against: the Trial of the Juntas.",
+      "evidence": [
+       "F-ARD-02",
+       "F-ARD-03"
+      ]
+     },
+     {
+      "claim": "For: the Full Stop Law.",
+      "evidence": [
+       "F-ARD-06"
+      ]
+     },
+     {
+      "claim": "For: the Carapintada uprising and Due Obedience.",
+      "evidence": [
+       "F-ARD-07",
+       "F-ARD-08"
+      ]
+     },
+     {
+      "claim": "Judgement: democracy survived.",
+      "evidence": [
+       "F-ARD-07"
+      ]
+     }
+    ],
+    "counter": "Human rights groups saw Due Obedience as a concession to authoritarianism.",
+    "judgementCriterion": "Sacrificed or limited? Limited: the leaders were convicted."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Alfonsín limited justice to protect democracy, but did not sacrifice it entirely.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In December 1985 the Trial of the Juntas sentenced Videla and Massera to life imprisonment.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the principle of accountability was established for the commanders, so the claim of complete sacrifice is overstated.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, after the April 1987 Carapintada uprising, the Law of Due Obedience exempted officers below colonel, which human rights groups saw as a concession.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore partly valid: Alfonsín traded wider justice for the survival of democracy.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Alfonsín"
+    ],
+    "synonyms": [
+     "justice",
+     "trials"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Due Obedience",
+     "Full Stop",
+     "Carapintadas"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-DEVELOPMENT-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the success of Menem's economic policies between 1989 and 1999.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1989,
+    1999
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The success of Menem's economic policies",
+    "timeframe": "1989–1999",
+    "scope": "Argentina's economy",
+    "judgement": "Stabilisation, growth, or social costs?"
+   },
+   "modelPlan": {
+    "thesis": "Menem's policies succeeded in ending hyperinflation and restoring growth, but privatisation raised unemployment above 10 per cent and the dollar peg left Argentina exposed to debt.",
+    "arguments": [
+     {
+      "claim": "Ending hyperinflation.",
+      "evidence": [
+       "F-ARD-12",
+       "F-ARD-13"
+      ]
+     },
+     {
+      "claim": "Privatisation and openness.",
+      "evidence": [
+       "F-ARD-12"
+      ]
+     },
+     {
+      "claim": "Unemployment.",
+      "evidence": [
+       "F-ARD-14"
+      ]
+     },
+     {
+      "claim": "Vulnerabilities and the 1999 defeat.",
+      "evidence": [
+       "F-ARD-13",
+       "F-ARD-20"
+      ]
+     }
+    ],
+    "counter": "High unemployment and corruption contributed to the Peronists' defeat in 1999.",
+    "judgementCriterion": "Success by what criterion? Stability, yes; social and long-term sustainability, no."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Menem's economic policies succeeded in ending hyperinflation but at a heavy cost.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Cavallo's 1991 Convertibility law pegged the peso to the dollar, most state enterprises were privatized, and hyperinflation was eliminated.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the economy grew in the early 1990s, so Menem was re-elected in 1995.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, unemployment rose above 10 per cent, and the CRS identifies the fiscal deficit, debt and an overvalued peso as vulnerabilities from the outset.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The policies were therefore successful in the short term, but their costs helped defeat the Peronists in 1999.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic policies"
+    ],
+    "synonyms": [
+     "Convertibility",
+     "privatisation"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Cavallo",
+     "hyperinflation",
+     "unemployment"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-DEVELOPMENT-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, Argentina's constitutional reform between 1993 and 1999.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1993,
+    1999
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1993–1999",
+    "scope": "The constitutional reform",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The reform was driven by Menem's wish for re-election, traded in the Pact of Olivos for Alfonsín's limits on presidential power; its most significant result was a constitution that outlawed coups and protected rights, though it also gave Menem a second term.",
+    "arguments": [
+     {
+      "claim": "Reason: Menem's re-election.",
+      "evidence": [
+       "F-ARD-15"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: Alfonsín's limits on power.",
+      "evidence": [
+       "F-ARD-15"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: coups outlawed; rights protected.",
+      "evidence": [
+       "F-ARD-17"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: Menem re-elected; criticism of his rule.",
+      "evidence": [
+       "F-ARD-18",
+       "F-ARD-19"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Critics claimed Menem weakened Congress and the judiciary after 1994.",
+    "judgementCriterion": "Which result mattered most? A constitution that defended itself against coups."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The 1994 reform was driven by Menem's ambition but strengthened democratic rules.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In the Pact of Olivos of November 1993, the UCR agreed to allow one re-election in exchange for a four-year term, a Council of Magistracy and autonomy for Buenos Aires.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the new constitution of August 1994 declared any break in constitutional order illegal and gave human rights treaties constitutional status.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Menem was re-elected in 1995, and critics claimed his government weakened Congress and the judiciary.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore a constitution designed to prevent a return to military rule.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "constitutional reform",
+     "1994"
+    ],
+    "synonyms": [
+     "Pact of Olivos",
+     "constitution"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "re-election",
+     "Menem",
+     "Alfonsín"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-DEVELOPMENT-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons for the economic crisis that ended Alfonsín's presidency between 1985 and 1989.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1985,
+    1989
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Reasons for the economic crisis",
+    "timeframe": "1985–1989",
+    "scope": "Alfonsín's presidency",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "The crisis came because the Austral plan's early success could not be sustained: deficits in the provinces and state enterprises, renewed money printing and political opposition brought inflation back, turning into hyperinflation by 1989.",
+    "arguments": [
+     {
+      "claim": "The inheritance of debt and inflation.",
+      "evidence": [
+       "F-ARD-05"
+      ]
+     },
+     {
+      "claim": "The Austral plan and its limits.",
+      "evidence": [
+       "F-ARD-04"
+      ]
+     },
+     {
+      "claim": "Political opposition and the 1987 defeat.",
+      "evidence": [
+       "F-ARD-04"
+      ]
+     },
+     {
+      "claim": "Hyperinflation and early handover.",
+      "evidence": [
+       "F-ARD-10"
+      ]
+     }
+    ],
+    "counter": "The Austral plan brought inflation down at first and won the 1985 midterms.",
+    "judgementCriterion": "Which reason mattered most? The failure to control deficits, which forced money printing."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Alfonsín's presidency ended early because his government could not control deficits.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Austral plan of 1985 froze prices and wages and stopped money printing, but provinces and state enterprises kept running deficits, and inflation returned in 1986.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the government began printing money again, so by 1989 inflation turned into hyperinflation and riots.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Alfonsín had inherited near-default and inflation of nearly 30 per cent a month from the military, which limited what any government could do.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The failure to control deficits was therefore the decisive reason, worsened by the debts left by the dictatorship.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic crisis"
+    ],
+    "synonyms": [
+     "hyperinflation",
+     "inflation"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Austral plan",
+     "deficit",
+     "Alfonsín"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-DEVELOPMENT-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent had democracy been consolidated in Argentina between 1983 and 1999?",
+   "commandTerm": "to what extent",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1983,
+    1999
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Consolidation of democracy",
+    "timeframe": "1983–1999",
+    "scope": "Argentina",
+    "judgement": "Consolidated, or merely survived?"
+   },
+   "modelPlan": {
+    "thesis": "Democracy was consolidated in its institutions, since military revolts failed, power changed hands peacefully in 1989 and 1999, and the 1994 constitution outlawed coups; but justice for past crimes and checks on presidential power remained weak.",
+    "arguments": [
+     {
+      "claim": "Elections and peaceful transfers.",
+      "evidence": [
+       "F-ARD-10",
+       "F-ARD-20"
+      ]
+     },
+     {
+      "claim": "The end of military intervention.",
+      "evidence": [
+       "F-ARD-11"
+      ]
+     },
+     {
+      "claim": "The 1994 constitution.",
+      "evidence": [
+       "F-ARD-17"
+      ]
+     },
+     {
+      "claim": "Limits: impunity and weak checks.",
+      "evidence": [
+       "F-ARD-08",
+       "F-ARD-18",
+       "F-ARD-19"
+      ]
+     }
+    ],
+    "counter": "The CRS calls the return to stable civilian rule 'remarkable' given Argentina's history.",
+    "judgementCriterion": "Consolidated or survived? Consolidated in institutions; incomplete in justice and accountability."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "By 1999 Argentine democracy had been consolidated in its institutions, if not in its practice.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Power passed between parties in 1989 and 1999, the last military revolt was crushed in 1990, and the 1994 constitution declared any break in constitutional order illegal.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the cycle of coups that had produced 25 presidents between 1930 and 1983 had been broken.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the amnesty laws and pardons left most perpetrators free, and critics claimed Menem weakened Congress and the courts.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Democracy had therefore consolidated as a system of government, while justice and accountability remained incomplete.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "consolidated",
+     "consolidation"
+    ],
+    "synonyms": [
+     "democracy",
+     "stability"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "elections",
+     "constitution",
+     "pardons"
+    ]
+   }
+  }
+ ]
+}

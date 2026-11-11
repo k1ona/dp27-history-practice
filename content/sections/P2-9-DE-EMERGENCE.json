@@ -1,0 +1,2727 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-9-DE-EMERGENCE",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In 1945 the four Allies agreed to run Germany as a single unit and to make it democratic. By October 1949 there were two German states, one a parliamentary democracy and one a Soviet-backed dictatorship. Why did a democratic West German state emerge, and why only in the West?",
+   "predictionPrompt": "Your prediction in one line: what created a separate West German democracy?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "Occupation and denazification, 1945–1946",
+    "body": "When Germany surrendered unconditionally in May 1945, the country was in ruins and its government had ceased to exist. Sovereignty passed to the four victorious powers, the USA, Britain, France and the USSR, which divided Germany into four zones. Berlin, deep inside the Soviet zone, was itself split into four sectors.\n\nAt **Potsdam** in July and August 1945 the Allies agreed on broad goals: \"democratization\", \"denazification\" and \"decartelization\". They agreed to treat the German economy as a single unit, but also allowed the Soviets to take goods and plant from their own zone and a share of reparations from the western zones. This contradiction made reparations divisive from the start.\n\n**Denazification** showed how hard it was to rebuild democracy. On 8 May 1945 there were 8 million Nazis in Germany; in Bonn, 102 of 112 doctors had been Party members. Sixteen million questionnaires were completed in the western zones, and the Americans listed 3.5 million \"chargeable cases\". But the people with the skills to run the country were often former Nazis, and the questionnaires frequently served to whitewash them. In Bavaria about half the secondary teachers sacked by 1946 were back at work two years later. Konrad Adenauer, the future chancellor, publicly opposed denazification in May 1946, believing that confronting Germans with Nazi crimes would provoke a nationalist backlash. In 1949 the new Federal Republic ended all investigations into the past of civil servants and army officers.\n\nThis mattered because the Allies wanted a democratic Germany but needed experienced Germans to govern it, which meant that West German democracy was built with many people who had served the Nazi state.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Allies agreed on goals but not on methods.",
+      "evidence": [
+       "F-DEE-03",
+       "F-DEE-23"
+      ],
+      "strongestCounter": "Potsdam did agree on democratization and denazification."
+     },
+     {
+      "claim": "Denazification was extensive on paper.",
+      "evidence": [
+       "F-DEE-04"
+      ],
+      "strongestCounter": "Many cases never came before tribunals."
+     },
+     {
+      "claim": "Denazification was limited in practice.",
+      "evidence": [
+       "F-DEE-05",
+       "F-DEE-06"
+      ],
+      "strongestCounter": "The Nazi party itself was abolished and banned."
+     }
+    ],
+    "howItGetsAsked": [
+     "“Denazification failed.” Discuss with reference to the period 1945 to 1949.",
+     "To what extent was the Cold War the main reason for the emergence of a separate West German state between 1945 and 1949?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Denazification failed to remove former Nazis from German public life.",
+     "prove": "Sixteen million questionnaires were completed, yet in Bavaria about half the secondary teachers sacked by 1946 were back two years later, and in 1949 the Federal Republic ended all investigations of civil servants.",
+     "explain": "This meant that the new democracy was staffed by many former Nazis, because their skills were needed to rebuild the country.",
+     "test": "However, Adenauer argued that confronting Germans with their crimes would provoke a backlash, so leniency may have helped democracy take root.",
+     "judge": "Denazification therefore failed as a purge but may have succeeded in avoiding a nationalist reaction."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many questionnaires (in millions) were completed in the western zones? (number)",
+      "factIds": [
+       "F-DEE-04"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 16,
+        "tolerance": 0,
+        "explanation": "Sixteen million Fragebogen."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which three goals did the Allies agree at Potsdam in 1945?",
+      "factIds": [
+       "F-DEE-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Democratization, denazification and decartelization",
+        "correct": true,
+        "explanation": "Correct: beyond these, the difficulties began."
+       },
+       {
+        "id": "b",
+        "text": "Rearmament, reunification and reparations",
+        "correct": false,
+        "explanation": "Not the Potsdam goals."
+       },
+       {
+        "id": "c",
+        "text": "Nationalisation, collectivisation and planning",
+        "correct": false,
+        "explanation": "Those were Soviet-style policies."
+       },
+       {
+        "id": "d",
+        "text": "Independence, sovereignty and NATO membership",
+        "correct": false,
+        "explanation": "These came later, in 1955."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In May 1946 Adenauer demanded that 'Nazi fellow travellers' be left in peace.” Which argument does it support best?",
+      "factIds": [
+       "F-DEE-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "German leaders preferred silence about the past to a thorough purge",
+        "correct": true,
+        "explanation": "Correct: he feared a nationalist backlash."
+       },
+       {
+        "id": "b",
+        "text": "Adenauer strongly supported denazification",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Denazification was demanded by German politicians",
+        "correct": false,
+        "explanation": "Adenauer opposed it."
+       },
+       {
+        "id": "d",
+        "text": "Adenauer was a Nazi",
+        "correct": false,
+        "explanation": "He had been removed by the Nazis in 1933."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "causes",
+    "title": "The road to division, 1946–1947",
+    "body": "Cooperation between the occupying powers broke down quickly. The western zones could not feed themselves: the British occupation cost $80 million a year against at most $29 million in reparations, and in May 1946 the American military governor, General Clay, stopped reparations deliveries from the US zone, accusing the Soviets of breaking the Potsdam agreement. Britain followed two months later.\n\nIn the Soviet zone, the Social Democrats were merged with the Communists in 1946, a move condemned by the SPD in the west. The communist leader Walter Ulbricht summed up the method: \"it has to look democratic, but everything must be in our hands\". When free elections were held in Berlin in October 1946, the Communists came far behind both the SPD and the Christian Democrats, and Soviet policy hardened.\n\nWestern policy shifted. In September 1946 the US Secretary of State, **James Byrnes**, told a German audience in Stuttgart that American forces would stay as long as an occupation was needed. At the end of 1946 the Americans and British fused the economies of their zones into the **Bizone**, whose federal structure became the prototype for the West German state. The decisive break came at the Moscow conference of foreign ministers in March–April 1947. Britain and the USA wanted to rebuild the western German economy; the Soviets wanted reparations from the west. In May 1947 the Bizone gained a German Economic Council, the first step towards a West German government.\n\nTwo party leaders shaped the new politics. **Konrad Adenauer** founded the Christian Democratic Union (CDU) in 1945 to unite Catholics and Protestants in a Christian, democratic party. **Kurt Schumacher**, who had spent the Nazi years in concentration camps, rebuilt the Social Democrats (SPD) and demanded a united, neutral Germany, opposing Adenauer's turn to the West. The historian Mary Fulbrook calls division \"an ad hoc unintended result of the emerging Cold War\", not a planned outcome.\n\nThis mattered because the occupiers' disagreements over reparations and the economy hardened into rival systems, which meant that two German states became likely well before 1949.",
+    "argumentsThatWork": [
+     {
+      "claim": "Economic disputes divided the occupiers.",
+      "evidence": [
+       "F-DEE-07",
+       "F-DEE-12"
+      ],
+      "strongestCounter": "The Allies still formally sought German unity in early 1947."
+     },
+     {
+      "claim": "Soviet methods alienated Germans in the west.",
+      "evidence": [
+       "F-DEE-08",
+       "F-DEE-09"
+      ],
+      "strongestCounter": "Communists had real support in some industrial areas."
+     },
+     {
+      "claim": "The Bizone was the prototype of West Germany.",
+      "evidence": [
+       "F-DEE-11",
+       "F-DEE-12"
+      ],
+      "strongestCounter": "It did not yet signify a firm division."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the Cold War the main reason for the emergence of a separate West German state between 1945 and 1949?",
+     "Examine the reasons for, and the results of, the creation of the Bizone between 1946 and 1949."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Bizone was created because the western occupiers could no longer afford to run their zones separately.",
+     "prove": "The British occupation cost far more than it earned in reparations, and in May 1946 Clay stopped reparations to the Soviets; at the end of 1946 the British and American zones were fused.",
+     "explain": "This meant that the western economy began to be managed as one unit, so the Bizone's federal structure became the prototype for West Germany.",
+     "test": "However, Judt notes that the Bizone did not yet signify a firm division; the real break came at the Moscow conference of 1947.",
+     "judge": "The Bizone was therefore an economic necessity that became a political foundation."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did the Moscow conference of foreign ministers mark 'the real break' over Germany? (year)",
+      "factIds": [
+       "F-DEE-12"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1947,
+        "tolerance": 0,
+        "explanation": "March–April 1947."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the Bizone?",
+      "factIds": [
+       "F-DEE-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The fusion of the American and British zones' economies",
+        "correct": true,
+        "explanation": "Correct: agreed at the end of 1946."
+       },
+       {
+        "id": "b",
+        "text": "The Soviet and French zones combined",
+        "correct": false,
+        "explanation": "France joined only in 1949; the Soviets never did."
+       },
+       {
+        "id": "c",
+        "text": "A new name for Berlin",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "d",
+        "text": "The first West German army",
+        "correct": false,
+        "explanation": "The Bundeswehr came in 1955."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In the Berlin elections of October 1946 the Communists came far behind the SPD and CDU.” Which argument does it support best?",
+      "factIds": [
+       "F-DEE-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Communism lacked democratic support, so the Soviets could secure control only by force",
+        "correct": true,
+        "explanation": "Correct: Soviet policy hardened."
+       },
+       {
+        "id": "b",
+        "text": "The Communists won Berlin",
+        "correct": false,
+        "explanation": "They came far behind."
+       },
+       {
+        "id": "c",
+        "text": "Germans rejected all parties",
+        "correct": false,
+        "explanation": "The SPD and CDU did well."
+       },
+       {
+        "id": "d",
+        "text": "Free elections were banned in Berlin",
+        "correct": false,
+        "explanation": "This election was free."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Currency reform and blockade, 1948–1949",
+    "body": "In 1948 the Western Allies moved decisively. On 1 June, meeting in London, they announced plans for a separate West German state. On 18 June a new currency, the **Deutsche Mark**, was announced, and three days later it went into circulation. Ludwig Erhard, director of the Bizone's Economic Council, oversaw its introduction. The reform was unpopular at first, because it destroyed savings and pushed up prices, but it was quickly accepted as shops filled with goods that farmers and traders were now willing to sell.\n\nStalin's answer was the **Berlin blockade**. On 23 June the Soviets cut the rail links to the city. The Western powers responded with an airlift, which from 26 June 1948 to 12 May 1949 delivered about 2.3 million tons of supplies on 277,500 flights, at the cost of 73 Allied airmen. Stalin wanted to force the West either to leave Berlin or to abandon a West German state. He achieved neither.\n\nInstead, the blockade made the Western powers more determined, and it made division more acceptable to Germans themselves. In April 1949 France joined the Bizone, creating a western economic unit of 49 million people against 17 million in the Soviet zone. Judt concludes that the Berlin crisis led directly to the creation of two German states, an outcome none of the Allies had sought four years earlier.\n\nThis mattered because the currency reform created a western economy and the blockade turned Western Germans and the Allies into partners, which meant that a separate West German state became both possible and popular.",
+    "argumentsThatWork": [
+     {
+      "claim": "The currency reform created a separate western economy.",
+      "evidence": [
+       "F-DEE-15",
+       "F-DEE-22"
+      ],
+      "strongestCounter": "It was unpopular at first."
+     },
+     {
+      "claim": "The blockade failed.",
+      "evidence": [
+       "F-DEE-16"
+      ],
+      "strongestCounter": "It cost 73 Allied airmen."
+     },
+     {
+      "claim": "The blockade made division acceptable.",
+      "evidence": [
+       "F-DEE-17"
+      ],
+      "strongestCounter": "Few Allies had wanted division in 1945."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the significance of the currency reform for the emergence of the Federal Republic between 1948 and 1949.",
+     "To what extent was the Cold War the main reason for the emergence of a separate West German state between 1945 and 1949?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The currency reform was the decisive economic step towards a West German state.",
+     "prove": "Announced on 18 June 1948 and overseen by Erhard, the Deutsche Mark was quickly accepted as shops filled with goods.",
+     "explain": "This meant that the western zones now had their own economy, so Stalin answered with the Berlin blockade.",
+     "test": "However, it was the blockade that made division politically acceptable, as Judt argues, and France joined the Bizone only in April 1949.",
+     "judge": "The currency reform was therefore significant because it made division economic before it became political."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many Allied airmen died during the Berlin airlift, according to Judt? (number)",
+      "factIds": [
+       "F-DEE-16"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 73,
+        "tolerance": 0,
+        "explanation": "Seventy-three."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Stalin hope to achieve with the Berlin blockade?",
+      "factIds": [
+       "F-DEE-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To force the West to quit Berlin or abandon a West German state",
+        "correct": true,
+        "explanation": "Correct: he achieved neither."
+       },
+       {
+        "id": "b",
+        "text": "To introduce the Deutsche Mark",
+        "correct": false,
+        "explanation": "That was the Western reform he opposed."
+       },
+       {
+        "id": "c",
+        "text": "To join NATO",
+        "correct": false,
+        "explanation": "Not what he wanted."
+       },
+       {
+        "id": "d",
+        "text": "To reunite Germany under Adenauer",
+        "correct": false,
+        "explanation": "Not his aim."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “France joined the Bizone in April 1949, creating a western unit of 49 million people.” Which argument does it support best?",
+      "factIds": [
+       "F-DEE-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "By 1949 the three western zones had united against the Soviet zone",
+        "correct": true,
+        "explanation": "Correct: 49 million against 17 million."
+       },
+       {
+        "id": "b",
+        "text": "France opposed any West German state",
+        "correct": false,
+        "explanation": "France joined."
+       },
+       {
+        "id": "c",
+        "text": "The blockade united Germany",
+        "correct": false,
+        "explanation": "It deepened division."
+       },
+       {
+        "id": "d",
+        "text": "The Soviet zone was larger",
+        "correct": false,
+        "explanation": "It had 17 million people."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "nature_methods",
+    "title": "The Basic Law and the birth of the Federal Republic, 1948–1949",
+    "body": "In 1948 a **Parliamentary Council** met in Bonn, under Adenauer's presidency and close Allied supervision, to draft a constitution for the western zones. Bottaro and Stanley describe the **Basic Law** (Grundgesetz) as a provisional constitution for the western zones; until 1990 it applied only to West Germany. Its authors set out to avoid the weaknesses that had destroyed the Weimar Republic.\n\nThe president was to be largely ceremonial, elected by parliament for five years and re-electable only once, without the emergency powers of Weimar's Article 48. The Bundestag could remove a chancellor only through a **constructive vote of no confidence**, which required a majority for a named successor. Half the Bundestag was elected in constituencies and half by proportional representation from party lists, and parties that worked against the constitution could be banned. There were to be no referenda or plebiscites, which the Nazis had exploited. Power was divided with the federal states (Länder).\n\nThe Parliamentary Council approved the Basic Law on 8 May 1949, and it came into force later that month. In the first Bundestag election on **14 August 1949** the CDU/CSU won 139 seats, the SPD 131 and the Free Democrats 52. On 15 September Adenauer was elected chancellor by a majority of one vote, heading a coalition with the FDP, whose leader Theodor Heuss became president. Stalin responded by creating the **German Democratic Republic** on 7 October 1949. West Germany was not yet sovereign: Allied High Commissioners replaced military government and kept powers to intervene.\n\nThis mattered because the Basic Law combined strong, stable government with protections against extremism, which meant that West Germany's second attempt at democracy began with lessons learned from the first.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Basic Law corrected Weimar's weaknesses.",
+      "evidence": [
+       "F-DEE-19"
+      ],
+      "strongestCounter": "It was drafted under Allied influence."
+     },
+     {
+      "claim": "The 1949 election gave democracy a narrow start.",
+      "evidence": [
+       "F-DEE-20"
+      ],
+      "strongestCounter": "Adenauer won by a single vote."
+     },
+     {
+      "claim": "Two German states emerged in 1949.",
+      "evidence": [
+       "F-DEE-21"
+      ],
+      "strongestCounter": "West Germany was not yet sovereign."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the ways in which the Basic Law of 1949 sought to avoid the weaknesses of the Weimar constitution.",
+     "Evaluate the significance of the currency reform for the emergence of the Federal Republic between 1948 and 1949."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Basic Law strengthened government against the instability that had destroyed Weimar.",
+     "prove": "It introduced the constructive vote of no confidence and replaced pure PR with a mixed system, while the president lost Weimar's Article 48 emergency powers.",
+     "explain": "This meant that a chancellor could not be removed without a majority for a successor, so governments lasted longer.",
+     "test": "However, the Basic Law was drafted under Allied supervision, and Adenauer was elected in 1949 by only one vote.",
+     "judge": "The Basic Law therefore created the structures for stability, even before stability itself had been achieved."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "By how many votes was Adenauer elected chancellor on 15 September 1949? (number)",
+      "factIds": [
+       "F-DEE-20"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "A majority of just one vote."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the 'constructive vote of no confidence'?",
+      "factIds": [
+       "F-DEE-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A rule that the Bundestag could remove a chancellor only by electing a successor",
+        "correct": true,
+        "explanation": "Correct: it prevented Weimar-style instability."
+       },
+       {
+        "id": "b",
+        "text": "A plebiscite on the chancellor",
+        "correct": false,
+        "explanation": "Plebiscites were not permitted."
+       },
+       {
+        "id": "c",
+        "text": "A power of the president to dismiss parliament",
+        "correct": false,
+        "explanation": "The president was largely ceremonial."
+       },
+       {
+        "id": "d",
+        "text": "A vote of the Allied High Commissioners",
+        "correct": false,
+        "explanation": "Not what it was."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-EMERGENCE-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Basic Law did not permit referenda or plebiscites, which the Nazis had used to influence people.” Which argument does it support best?",
+      "factIds": [
+       "F-DEE-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Basic Law was designed to prevent the abuse of democracy seen before 1945",
+        "correct": true,
+        "explanation": "Correct: a lesson from the Nazi era."
+       },
+       {
+        "id": "b",
+        "text": "The Basic Law gave the people more direct power",
+        "correct": false,
+        "explanation": "It limited direct democracy."
+       },
+       {
+        "id": "c",
+        "text": "The Basic Law copied the Weimar constitution",
+        "correct": false,
+        "explanation": "It corrected Weimar's defects."
+       },
+       {
+        "id": "d",
+        "text": "The Allies opposed parliamentary democracy",
+        "correct": false,
+        "explanation": "They supervised its creation."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1945,
+      "month": 5,
+      "text": "Unconditional surrender; four zones",
+      "factId": "F-DEE-01"
+     },
+     {
+      "year": 1945,
+      "month": 7,
+      "text": "Potsdam Conference",
+      "factId": "F-DEE-03"
+     },
+     {
+      "year": 1946,
+      "month": 5,
+      "text": "Clay stops reparations to the Soviets",
+      "factId": "F-DEE-07"
+     },
+     {
+      "year": 1946,
+      "month": 9,
+      "day": 6,
+      "text": "Byrnes speech at Stuttgart",
+      "factId": "F-DEE-10"
+     },
+     {
+      "year": 1946,
+      "month": 10,
+      "day": 20,
+      "text": "Berlin elections: Communists far behind",
+      "factId": "F-DEE-08"
+     },
+     {
+      "year": 1947,
+      "month": 3,
+      "text": "Moscow conference: 'the real break'",
+      "factId": "F-DEE-12"
+     },
+     {
+      "year": 1948,
+      "month": 6,
+      "text": "Deutsche Mark; Berlin blockade begins",
+      "factId": "F-DEE-15"
+     },
+     {
+      "year": 1949,
+      "month": 5,
+      "text": "Basic Law; blockade ends",
+      "factId": "F-DEE-18"
+     },
+     {
+      "year": 1949,
+      "month": 8,
+      "day": 14,
+      "text": "First Bundestag election",
+      "factId": "F-DEE-20"
+     },
+     {
+      "year": 1949,
+      "month": 10,
+      "day": 7,
+      "text": "German Democratic Republic created",
+      "factId": "F-DEE-21"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Four-power occupation with conflicting aims",
+      "factId": "F-DEE-03"
+     },
+     {
+      "id": "n2",
+      "text": "Reparations dispute and the cost of occupation",
+      "factId": "F-DEE-07"
+     },
+     {
+      "id": "n3",
+      "text": "Bizone and the Economic Council",
+      "factId": "F-DEE-12"
+     },
+     {
+      "id": "n4",
+      "text": "Currency reform (June 1948)",
+      "factId": "F-DEE-15"
+     },
+     {
+      "id": "n5",
+      "text": "Berlin blockade makes division acceptable",
+      "factId": "F-DEE-17"
+     },
+     {
+      "id": "n6",
+      "text": "Basic Law and the Federal Republic (1949)",
+      "factId": "F-DEE-20"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Potsdam treated the economy as one unit but let each power take reparations"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "The western zones had to be run as one economy"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "A western economy needed a stable currency"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Stalin answered with the blockade"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Germans and Allies moved ahead with a West German state"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Konrad Adenauer",
+     "role": "CDU founder; president of the Parliamentary Council; chancellor from 1949",
+     "whyItMatters": "Opposed denazification; led the drafting of the Basic Law.",
+     "factIds": [
+      "F-DEE-06",
+      "F-DEE-13",
+      "F-DEE-18"
+     ]
+    },
+    {
+     "name": "Kurt Schumacher",
+     "role": "SPD leader",
+     "whyItMatters": "Demanded a united, neutral Germany; opposed Western orientation.",
+     "factIds": [
+      "F-DEE-14"
+     ]
+    },
+    {
+     "name": "Ludwig Erhard",
+     "role": "Director of the Bizone Economic Council",
+     "whyItMatters": "Oversaw the Deutsche Mark.",
+     "factIds": [
+      "F-DEE-22"
+     ]
+    },
+    {
+     "name": "General Lucius Clay",
+     "role": "US military governor",
+     "whyItMatters": "Stopped reparations to the Soviets in May 1946.",
+     "factIds": [
+      "F-DEE-07"
+     ]
+    },
+    {
+     "name": "James Byrnes",
+     "role": "US Secretary of State",
+     "whyItMatters": "Stuttgart speech, September 1946.",
+     "factIds": [
+      "F-DEE-10"
+     ]
+    },
+    {
+     "name": "Walter Ulbricht",
+     "role": "Communist leader in the Soviet zone",
+     "whyItMatters": "'It has to look democratic, but everything must be in our hands'.",
+     "factIds": [
+      "F-DEE-09"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Western zones",
+     "Soviet zone"
+    ],
+    "rows": [
+     {
+      "criterion": "Parties",
+      "cells": [
+       "Competing CDU, SPD and FDP",
+       "SPD merged with the Communists (1946)"
+      ],
+      "factIds": [
+       "F-DEE-13",
+       "F-DEE-09"
+      ]
+     },
+     {
+      "criterion": "Economy",
+      "cells": [
+       "Bizone; Deutsche Mark (1948)",
+       "Reparations extracted; separate currency"
+      ],
+      "factIds": [
+       "F-DEE-11",
+       "F-DEE-15"
+      ]
+     },
+     {
+      "criterion": "Constitution",
+      "cells": [
+       "Basic Law (May 1949)",
+       "GDR created (7 October 1949)"
+      ],
+      "factIds": [
+       "F-DEE-18",
+       "F-DEE-21"
+      ]
+     },
+     {
+      "criterion": "Population (1949)",
+      "cells": [
+       "49 million",
+       "17 million"
+      ],
+      "factIds": [
+       "F-DEE-17"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-DEE-04",
+    "year": 1946,
+    "text": "Denazification: 16 million questionnaires; 3.5 million 'chargeable cases' in the US zone.",
+    "supports": [
+     "Denazification was extensive on paper"
+    ],
+    "lexicon": [
+     "denazification",
+     "Fragebogen"
+    ]
+   },
+   {
+    "factId": "F-DEE-05",
+    "year": 1949,
+    "text": "1949: the Federal Republic ended investigations into civil servants' Nazi pasts.",
+    "supports": [
+     "Denazification was limited in practice"
+    ],
+    "lexicon": [
+     "denazification",
+     "former Nazis"
+    ]
+   },
+   {
+    "factId": "F-DEE-11",
+    "year": 1946,
+    "text": "End of 1946: the American and British zones fused into the Bizone.",
+    "supports": [
+     "Economic necessity drove western integration"
+    ],
+    "lexicon": [
+     "Bizone",
+     "federal structure"
+    ]
+   },
+   {
+    "factId": "F-DEE-15",
+    "year": 1948,
+    "text": "June 1948: the Deutsche Mark created a separate western economy.",
+    "supports": [
+     "Currency reform made division economic"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-BERLIN-BLOCKADE"
+    ],
+    "lexicon": [
+     "Deutsche Mark",
+     "currency reform"
+    ]
+   },
+   {
+    "factId": "F-DEE-17",
+    "year": 1949,
+    "text": "The blockade made division acceptable to Germans; two German states followed.",
+    "supports": [
+     "The Cold War crisis produced two states"
+    ],
+    "alsoWorksFor": [
+     "P2-12-CRISIS-BERLIN-BLOCKADE"
+    ],
+    "lexicon": [
+     "Berlin blockade",
+     "division"
+    ]
+   },
+   {
+    "factId": "F-DEE-19",
+    "year": 1949,
+    "text": "Basic Law: constructive vote of no confidence; ceremonial president; no plebiscites.",
+    "supports": [
+     "The Basic Law corrected Weimar's weaknesses"
+    ],
+    "lexicon": [
+     "Basic Law",
+     "constructive vote of no confidence"
+    ]
+   },
+   {
+    "factId": "F-DEE-20",
+    "year": 1949,
+    "text": "14 August 1949: CDU/CSU 139 seats, SPD 131; Adenauer chancellor by one vote.",
+    "supports": [
+     "Democracy began on a narrow base"
+    ],
+    "lexicon": [
+     "Bundestag",
+     "Adenauer"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Mary Fulbrook",
+    "argument": "The division of Germany was 'an ad hoc unintended result of the emerging Cold War between the superpowers, rather than the outcome of conscious allied plans for Germany' (as quoted by Bottaro and Stanley).",
+    "useItLikeThis": "Fulbrook's view supports the claim that the Cold War, not deliberate planning, created West Germany, which suggests the emergence of the Federal Republic was a by-product of superpower conflict.",
+    "factId": "F-DEE-23"
+   },
+   {
+    "historian": "Frank B. Tipton",
+    "argument": "The four Allies sought to restructure German government and society but disagreed over both the policies to be implemented and the manner of their implementation (as summarised by Bottaro and Stanley).",
+    "useItLikeThis": "Tipton's view supports the claim that disagreements among the occupiers from 1945 explain division, which suggests the problem began before the Cold War hardened.",
+    "factId": "F-DEE-23"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Allies planned to divide Germany into two states in 1945.",
+    "right": "At Potsdam they agreed to treat Germany as **a single economic unit**; division was, in Fulbrook's words, unintended."
+   },
+   {
+    "wrong": "Denazification removed former Nazis from public life.",
+    "right": "In 1949 the Federal Republic **ended all investigations** of civil servants, and many ex-Nazis returned to office."
+   },
+   {
+    "wrong": "West Germany was fully sovereign from 1949.",
+    "right": "Allied **High Commissioners** kept powers of intervention until 1955."
+   },
+   {
+    "wrong": "The Basic Law copied the Weimar constitution.",
+    "right": "It deliberately corrected Weimar's defects, for example with the **constructive vote of no confidence**."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1945,
+     "month": 7,
+     "text": "Potsdam"
+    },
+    {
+     "year": 1946,
+     "month": 5,
+     "text": "Clay stops reparations"
+    },
+    {
+     "year": 1946,
+     "month": 9,
+     "text": "Byrnes at Stuttgart"
+    },
+    {
+     "year": 1947,
+     "month": 3,
+     "text": "Moscow conference"
+    },
+    {
+     "year": 1948,
+     "month": 6,
+     "text": "Deutsche Mark; blockade"
+    },
+    {
+     "year": 1949,
+     "month": 5,
+     "text": "Basic Law"
+    },
+    {
+     "year": 1949,
+     "month": 8,
+     "text": "First Bundestag election"
+    },
+    {
+     "year": 1949,
+     "month": 10,
+     "text": "GDR created"
+    }
+   ],
+   "keyArguments": [
+    "Potsdam agreed goals but contained contradictions over reparations and the economy.",
+    "Denazification was extensive on paper but limited in practice.",
+    "Economic necessity produced the Bizone; Moscow 1947 was 'the real break'.",
+    "The currency reform and the Berlin blockade made a separate West German state possible and acceptable.",
+    "The Basic Law corrected Weimar's defects; Adenauer began with a one-vote majority."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Potsdam Conference",
+     "year": 1945,
+     "month": 7,
+     "factId": "F-DEE-03"
+    },
+    {
+     "id": "b",
+     "text": "Clay stops reparations deliveries",
+     "year": 1946,
+     "month": 5,
+     "factId": "F-DEE-07"
+    },
+    {
+     "id": "c",
+     "text": "Byrnes speaks at Stuttgart",
+     "year": 1946,
+     "month": 9,
+     "factId": "F-DEE-10"
+    },
+    {
+     "id": "d",
+     "text": "Berlin city elections",
+     "year": 1946,
+     "month": 10,
+     "factId": "F-DEE-08"
+    },
+    {
+     "id": "e",
+     "text": "Moscow conference of foreign ministers",
+     "year": 1947,
+     "month": 3,
+     "factId": "F-DEE-12"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Bizone Economic Council agreed",
+     "year": 1947,
+     "month": 5,
+     "factId": "F-DEE-12"
+    },
+    {
+     "id": "b",
+     "text": "Deutsche Mark introduced",
+     "year": 1948,
+     "month": 6,
+     "factId": "F-DEE-15"
+    },
+    {
+     "id": "c",
+     "text": "France joins the Bizone",
+     "year": 1949,
+     "month": 4,
+     "factId": "F-DEE-17"
+    },
+    {
+     "id": "d",
+     "text": "Berlin blockade ends",
+     "year": 1949,
+     "month": 5,
+     "factId": "F-DEE-16"
+    },
+    {
+     "id": "e",
+     "text": "First Bundestag election",
+     "year": 1949,
+     "month": 8,
+     "factId": "F-DEE-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Unconditional surrender",
+     "year": 1945,
+     "month": 5,
+     "factId": "F-DEE-01"
+    },
+    {
+     "id": "b",
+     "text": "Adenauer's Wuppertal speech against denazification",
+     "year": 1946,
+     "month": 5,
+     "factId": "F-DEE-06"
+    },
+    {
+     "id": "c",
+     "text": "Adenauer elected chancellor",
+     "year": 1949,
+     "month": 9,
+     "factId": "F-DEE-20"
+    },
+    {
+     "id": "d",
+     "text": "German Democratic Republic created",
+     "year": 1949,
+     "month": 10,
+     "factId": "F-DEE-21"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Konrad Adenauer",
+     "right": "President of the Parliamentary Council; first chancellor",
+     "explanation": "From 1949."
+    },
+    {
+     "left": "Kurt Schumacher",
+     "right": "SPD leader who wanted a united, neutral Germany",
+     "explanation": "Opposed Western orientation."
+    },
+    {
+     "left": "Ludwig Erhard",
+     "right": "Director of the Bizone Economic Council",
+     "explanation": "Oversaw the Deutsche Mark."
+    },
+    {
+     "left": "Theodor Heuss",
+     "right": "First president of the Federal Republic",
+     "explanation": "FDP politician."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many seats did the CDU/CSU win in the 1949 Bundestag election? (number)",
+   "factIds": [
+    "F-DEE-20"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 139,
+     "tolerance": 0,
+     "explanation": "139, against the SPD's 131."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Nazis were there in Germany on 8 May 1945, according to Judt? (millions)",
+   "factIds": [
+    "F-DEE-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 8,
+     "tolerance": 0,
+     "explanation": "Eight million."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many flights did the Berlin airlift make, according to Judt? (number)",
+   "factIds": [
+    "F-DEE-16"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 277500,
+     "tolerance": 500,
+     "explanation": "About 277,500 flights."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many years was the president's term under the Basic Law? (number)",
+   "factIds": [
+    "F-DEE-19"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 5,
+     "tolerance": 0,
+     "explanation": "Five years, re-electable once."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the Basic Law? Choose all that apply.",
+   "factIds": [
+    "F-DEE-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A constructive vote of no confidence",
+     "correct": true,
+     "explanation": "Yes: a chancellor could be removed only by electing a successor."
+    },
+    {
+     "id": "b",
+     "text": "A ceremonial president without Article 48 powers",
+     "correct": true,
+     "explanation": "Yes: a lesson from Weimar."
+    },
+    {
+     "id": "c",
+     "text": "The banning of anti-democratic parties",
+     "correct": true,
+     "explanation": "Yes: parties working against the constitution could be banned."
+    },
+    {
+     "id": "d",
+     "text": "Frequent national referenda",
+     "correct": false,
+     "explanation": "No: plebiscites were not permitted."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these pushed the western zones towards a separate state? Choose all that apply.",
+   "factIds": [
+    "F-DEE-07",
+    "F-DEE-11",
+    "F-DEE-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The dispute over reparations",
+     "correct": true,
+     "explanation": "Yes: Clay stopped deliveries in 1946."
+    },
+    {
+     "id": "b",
+     "text": "The creation of the Bizone",
+     "correct": true,
+     "explanation": "Yes: the prototype of West Germany."
+    },
+    {
+     "id": "c",
+     "text": "The currency reform of 1948",
+     "correct": true,
+     "explanation": "Yes: a separate western economy."
+    },
+    {
+     "id": "d",
+     "text": "Communist victory in the Berlin elections of 1946",
+     "correct": false,
+     "explanation": "No: the Communists came far behind."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In Bavaria in 1951, 94 per cent of judges and prosecutors were ex-Nazis.” Which argument does it support?",
+   "factIds": [
+    "F-DEE-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Denazification failed to purge the state",
+     "correct": true,
+     "explanation": "Correct: the judiciary was barely touched."
+    },
+    {
+     "id": "b",
+     "text": "Denazification removed all Nazis",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The Allies ran the courts in 1951",
+     "correct": false,
+     "explanation": "German courts were run by Germans."
+    },
+    {
+     "id": "d",
+     "text": "Judges had resisted Hitler",
+     "correct": false,
+     "explanation": "Not what the fact shows."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Basic Law applied only to West Germany until 1990.” Which argument does it support?",
+   "factIds": [
+    "F-DEE-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Federal Republic was built as a provisional state for part of Germany",
+     "correct": true,
+     "explanation": "Correct: it was called a Basic Law, not a constitution."
+    },
+    {
+     "id": "b",
+     "text": "The Basic Law governed all Germany from 1949",
+     "correct": false,
+     "explanation": "Only the west."
+    },
+    {
+     "id": "c",
+     "text": "East Germany accepted the Basic Law in 1949",
+     "correct": false,
+     "explanation": "The GDR had its own constitution."
+    },
+    {
+     "id": "d",
+     "text": "The Basic Law was abolished in 1990",
+     "correct": false,
+     "explanation": "It was extended to the east."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Deutsche Mark was introduced in the Soviet zone in June 1948.”",
+   "factIds": [
+    "F-DEE-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was introduced in the western zones; the Soviets responded with their own currency and the blockade",
+     "correct": true,
+     "explanation": "Correct: it was a Western reform."
+    },
+    {
+     "id": "b",
+     "text": "It was introduced in 1958",
+     "correct": false,
+     "explanation": "It was introduced in 1948."
+    },
+    {
+     "id": "c",
+     "text": "It was introduced by Stalin",
+     "correct": false,
+     "explanation": "It was a Western reform."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it was the western zones."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Adenauer won the 1949 vote for chancellor by a large majority.”",
+   "factIds": [
+    "F-DEE-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He was elected by a majority of just one vote",
+     "correct": true,
+     "explanation": "Correct: 15 September 1949."
+    },
+    {
+     "id": "b",
+     "text": "Adenauer was not chancellor",
+     "correct": false,
+     "explanation": "He was the first chancellor."
+    },
+    {
+     "id": "c",
+     "text": "The vote was in 1955",
+     "correct": false,
+     "explanation": "It was in 1949."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: his majority was one vote."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the emergence of democracy in West Germany between 1945 and 1949. Is West Germany's entry into NATO inside or outside the timeframe?",
+   "factIds": [
+    "F-DEE-01"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: NATO entry came in 1955",
+     "correct": true,
+     "explanation": "Correct: it can only be mentioned as a later outcome."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1955 is after 1949."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because NATO was founded in 1949",
+     "correct": false,
+     "explanation": "West Germany joined only in 1955."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, what was 'the real break' over Germany?",
+   "factIds": [
+    "F-DEE-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Moscow conference of foreign ministers in spring 1947",
+     "correct": true,
+     "explanation": "Correct: the fault lines were clear."
+    },
+    {
+     "id": "b",
+     "text": "The Potsdam Conference",
+     "correct": false,
+     "explanation": "Potsdam still sought a single economic unit."
+    },
+    {
+     "id": "c",
+     "text": "The creation of the GDR",
+     "correct": false,
+     "explanation": "That came in October 1949."
+    },
+    {
+     "id": "d",
+     "text": "The Byrnes speech",
+     "correct": false,
+     "explanation": "That reflected frustration, not the break."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened in the Soviet zone's SPD in 1946?",
+   "factIds": [
+    "F-DEE-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was amalgamated with the Communist Party, a move condemned by the western SPD",
+     "correct": true,
+     "explanation": "Correct: the Socialist Unity Party."
+    },
+    {
+     "id": "b",
+     "text": "It won free elections across Germany",
+     "correct": false,
+     "explanation": "No all-German elections were held."
+    },
+    {
+     "id": "c",
+     "text": "It joined the CDU",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "It moved to Bonn",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Mary Fulbrook call the division of Germany, according to Bottaro and Stanley?",
+   "factIds": [
+    "F-DEE-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'An ad hoc unintended result of the emerging Cold War'",
+     "correct": true,
+     "explanation": "Correct: not a planned outcome."
+    },
+    {
+     "id": "b",
+     "text": "A deliberate Allied plan from 1945",
+     "correct": false,
+     "explanation": "The opposite of her view."
+    },
+    {
+     "id": "c",
+     "text": "A German decision",
+     "correct": false,
+     "explanation": "Not her view."
+    },
+    {
+     "id": "d",
+     "text": "A result of the Treaty of Versailles",
+     "correct": false,
+     "explanation": "Not her view."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Adenauer oppose denazification in 1946?",
+   "factIds": [
+    "F-DEE-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He believed confronting Germans with Nazi crimes would provoke a nationalist backlash",
+     "correct": true,
+     "explanation": "Correct: he preferred silence."
+    },
+    {
+     "id": "b",
+     "text": "He had been a Nazi",
+     "correct": false,
+     "explanation": "He had been removed by the Nazis."
+    },
+    {
+     "id": "c",
+     "text": "The Allies ordered him to",
+     "correct": false,
+     "explanation": "The Allies ran denazification."
+    },
+    {
+     "id": "d",
+     "text": "He wanted harsher punishment",
+     "correct": false,
+     "explanation": "The opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Western Allies announce in London on 1 June 1948?",
+   "factIds": [
+    "F-DEE-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Plans to establish a separate West German state",
+     "correct": true,
+     "explanation": "Correct: the currency reform followed."
+    },
+    {
+     "id": "b",
+     "text": "The end of the occupation",
+     "correct": false,
+     "explanation": "The occupation continued."
+    },
+    {
+     "id": "c",
+     "text": "The Berlin airlift",
+     "correct": false,
+     "explanation": "That began on 26 June."
+    },
+    {
+     "id": "d",
+     "text": "German membership of NATO",
+     "correct": false,
+     "explanation": "That came in 1955."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the Cold War the main reason for the emergence of a separate West German state between 1945 and 1949?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the Cold War",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for the emergence of a separate West German state",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1949",
+     "answer": "timeframe",
+     "explanation": "From surrender to the Federal Republic."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Did the Cold War outweigh economic necessity and German choices?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Analyse the ways in which the Basic Law of 1949 sought to avoid the weaknesses of the Weimar constitution.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Analyse",
+     "answer": "verb",
+     "explanation": "Break into parts and show how they connect."
+    },
+    {
+     "id": "s2",
+     "text": "the Basic Law of 1949",
+     "answer": "factor",
+     "explanation": "The constitution to analyse."
+    },
+    {
+     "id": "s3",
+     "text": "the ways in which … sought to avoid the weaknesses",
+     "answer": "scope",
+     "explanation": "What must be explained."
+    },
+    {
+     "id": "s4",
+     "text": "1949",
+     "answer": "timeframe",
+     "explanation": "The drafting and adoption of the Basic Law."
+    },
+    {
+     "id": "s5",
+     "text": "the Weimar constitution",
+     "answer": "judgement",
+     "explanation": "Which Weimar weaknesses, and how far each was corrected?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Cold War the main reason for the emergence of a separate West German state between 1945 and 1949?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Cold War was the main reason, since the blockade made division acceptable and led directly to two states; but economic necessity, seen in the Bizone and the currency reform, had already pushed the western zones together.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against another."
+    },
+    {
+     "id": "b",
+     "text": "The Cold War began after 1945.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Cold War was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Cold War was the only reason.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'Denazification failed.' Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Denazification failed as a purge, since many former Nazis returned to office and the Federal Republic ended investigations in 1949; but its leniency may have helped democracy by avoiding the nationalist backlash Adenauer feared.",
+     "correct": true,
+     "explanation": "Correct: tests the claim with a qualification."
+    },
+    {
+     "id": "b",
+     "text": "Denazification began in 1945.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Denazification was bad.",
+     "correct": false,
+     "explanation": "Not a judgement with criteria."
+    },
+    {
+     "id": "d",
+     "text": "Denazification removed every Nazi.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 18 June 1948 the Deutsche Mark was announced.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the new currency created a separate western economy, Stalin answered with the blockade.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 15 September 1949 Adenauer became chancellor.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that a chancellor could be removed only if parliament agreed on a successor, so governments lasted longer.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Clay stops reparations in May 1946",
+     "right": "Economic disputes divided the occupiers",
+     "explanation": "A first parting of the ways."
+    },
+    {
+     "left": "Communists come far behind in Berlin, 1946",
+     "right": "Communism lacked democratic support",
+     "explanation": "October 1946."
+    },
+    {
+     "left": "France joins the Bizone, April 1949",
+     "right": "The western zones united",
+     "explanation": "49 million people."
+    },
+    {
+     "left": "Constructive vote of no confidence",
+     "right": "The Basic Law corrected Weimar's weaknesses",
+     "explanation": "1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Berlin blockade caused the division of Germany.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the blockade turned the Western Allies and West Germans into partners against Stalin, it made a separate state more acceptable to Germans; but the Bizone and the currency reform had already created a separate western economy.",
+     "correct": true,
+     "explanation": "Correct: mechanism and qualification."
+    },
+    {
+     "id": "b",
+     "text": "The blockade was very important.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The blockade began in June 1948.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The blockade caused everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Allies always intended to create a separate West German state.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "At Potsdam in 1945 the Allies agreed to treat Germany as a single economic unit, and Fulbrook calls division 'an ad hoc unintended result of the emerging Cold War'.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "The Allies were friends.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "Germany is a large country.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Some Germans wanted unity.",
+     "correct": false,
+     "explanation": "Too vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Cold War the main reason for the emergence of a separate West German state?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what made division politically acceptable, the Cold War was the main reason; judged by what created a separate western economy, the occupiers' economic needs mattered more.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Germany was divided in 1949.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Adenauer was a great man.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, wars always divide countries.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-EMERGENCE-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the creation of the Bizone between 1946 and 1949.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The cost of the British occupation",
+     "answer": "causes",
+     "explanation": "Far more than reparations."
+    },
+    {
+     "id": "s2",
+     "text": "The reparations dispute with the Soviets",
+     "answer": "causes",
+     "explanation": "Clay, May 1946."
+    },
+    {
+     "id": "s3",
+     "text": "The German Economic Council (1947)",
+     "answer": "effects",
+     "explanation": "A prelude to government."
+    },
+    {
+     "id": "s4",
+     "text": "The currency reform of 1948",
+     "answer": "effects",
+     "explanation": "Overseen by Erhard."
+    },
+    {
+     "id": "s5",
+     "text": "A federal prototype for the West German state",
+     "answer": "effects",
+     "explanation": "Bottaro and Stanley."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-9-DE-EMERGENCE-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the Cold War the main reason for the emergence of a separate West German state between 1945 and 1949?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the Cold War",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The Cold War, weighed first",
+    "timeframe": "1945–1949",
+    "scope": "A separate West German state",
+    "judgement": "Did the Cold War outweigh economic necessity and German choices?"
+   },
+   "modelPlan": {
+    "thesis": "The Cold War was the main reason, since the blockade made division acceptable and led directly to two states; but economic necessity, seen in the Bizone and the currency reform, had already pushed the western zones together.",
+    "arguments": [
+     {
+      "claim": "The Cold War: Moscow 1947 and the blockade (named factor first).",
+      "evidence": [
+       "F-DEE-12",
+       "F-DEE-16",
+       "F-DEE-17"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Economic necessity: reparations and the Bizone.",
+      "evidence": [
+       "F-DEE-07",
+       "F-DEE-11"
+      ]
+     },
+     {
+      "claim": "The currency reform.",
+      "evidence": [
+       "F-DEE-15"
+      ]
+     },
+     {
+      "claim": "German choices: Adenauer and the Basic Law.",
+      "evidence": [
+       "F-DEE-13",
+       "F-DEE-18"
+      ]
+     }
+    ],
+    "counter": "At Potsdam the Allies agreed to treat Germany as one economic unit, which suggests division was not inevitable.",
+    "judgementCriterion": "What made division acceptable? The Cold War; what made it practical? The western economy."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Cold War was the main reason for the emergence of a separate West German state.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Stalin's blockade of Berlin from June 1948 to May 1949 failed, and Judt concludes that the crisis led directly to the creation of two German states.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that West Germans came to see the Western Allies as protectors, so division became acceptable to Germans themselves.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, economic necessity had already produced the Bizone in 1946 and the Deutsche Mark in June 1948, before the blockade began.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Cold War was therefore the main reason, because it turned an economic arrangement into a political state.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Cold War"
+    ],
+    "synonyms": [
+     "blockade",
+     "Soviet",
+     "Stalin"
+    ],
+    "historians": [
+     "Fulbrook",
+     "Tipton",
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Bizone",
+     "currency reform",
+     "Basic Law"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-EMERGENCE-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Denazification failed.” Discuss with reference to the period 1945 to 1949.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: denazification failed",
+    "timeframe": "1945–1949",
+    "scope": "Denazification",
+    "judgement": "Failed by what criterion?"
+   },
+   "modelPlan": {
+    "thesis": "Denazification failed as a purge, since many former Nazis returned to office and the Federal Republic ended investigations in 1949; but its leniency may have helped democracy by avoiding the nationalist backlash Adenauer feared.",
+    "arguments": [
+     {
+      "claim": "For: the scale of the task.",
+      "evidence": [
+       "F-DEE-04"
+      ]
+     },
+     {
+      "claim": "For: whitewashing and reinstatement.",
+      "evidence": [
+       "F-DEE-05"
+      ]
+     },
+     {
+      "claim": "Against: the goal of avoiding a backlash.",
+      "evidence": [
+       "F-DEE-06"
+      ]
+     },
+     {
+      "claim": "Against: democracy took root anyway.",
+      "evidence": [
+       "F-DEE-19",
+       "F-DEE-20"
+      ]
+     }
+    ],
+    "counter": "The Nazi party was abolished and successor parties were banned under the Basic Law.",
+    "judgementCriterion": "Failed by what criterion? As a purge, yes; as a way of securing democracy, less clearly."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Denazification failed to remove former Nazis from German public life.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Although 16 million questionnaires were completed, many served to whitewash suspects, and in 1949 the Federal Republic ended investigations into civil servants.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that former Nazis staffed the new state, because their skills were needed to rebuild it.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Adenauer argued that confronting Germans with their crimes would provoke a nationalist backlash, and the new democracy survived.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid for denazification as a purge, but not for its effect on the survival of democracy.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "denazification"
+    ],
+    "synonyms": [
+     "Fragebogen",
+     "former Nazis"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Adenauer",
+     "Persil",
+     "tribunals"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-EMERGENCE-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of the currency reform for the emergence of the Federal Republic between 1948 and 1949.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1948,
+    1949
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The significance of the currency reform",
+    "timeframe": "1948–1949",
+    "scope": "The emergence of the Federal Republic",
+    "judgement": "Decisive step, or one among several?"
+   },
+   "modelPlan": {
+    "thesis": "The currency reform was highly significant, because it created a separate western economy and provoked the blockade that made division acceptable; but the political decision for a West German state had already been taken in London in June 1948.",
+    "arguments": [
+     {
+      "claim": "A separate western economy.",
+      "evidence": [
+       "F-DEE-15",
+       "F-DEE-22"
+      ]
+     },
+     {
+      "claim": "The blockade it provoked.",
+      "evidence": [
+       "F-DEE-16"
+      ]
+     },
+     {
+      "claim": "The blockade's political results.",
+      "evidence": [
+       "F-DEE-17"
+      ]
+     },
+     {
+      "claim": "Limits: the London decision and the Basic Law.",
+      "evidence": [
+       "F-DEE-15",
+       "F-DEE-18"
+      ]
+     }
+    ],
+    "counter": "The Allies had announced plans for a West German state on 1 June 1948, before the currency reform.",
+    "judgementCriterion": "Was it decisive? It made division economic and provoked the crisis that made it political."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The currency reform was the decisive economic step towards the Federal Republic.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Announced on 18 June 1948 and overseen by Erhard, the Deutsche Mark was quickly accepted as shops filled with goods.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the western zones had their own economy, so Stalin answered with the blockade, which made division acceptable to Germans.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Western Allies had already announced plans for a separate state on 1 June 1948, and the Basic Law came only in 1949.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The currency reform was therefore significant as the point at which division became practical as well as planned.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "currency reform"
+    ],
+    "synonyms": [
+     "Deutsche Mark"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Erhard",
+     "blockade",
+     "Bizone"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-EMERGENCE-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the creation of the Bizone between 1946 and 1949.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1946,
+    1949
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1946–1949",
+    "scope": "The Bizone",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The Bizone was created because the occupation was too costly and the reparations dispute had broken four-power cooperation; its main result was a federal prototype for the West German state.",
+    "arguments": [
+     {
+      "claim": "Reason: the cost of the occupation.",
+      "evidence": [
+       "F-DEE-07"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: the reparations dispute.",
+      "evidence": [
+       "F-DEE-07",
+       "F-DEE-03"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: the Economic Council and the currency reform.",
+      "evidence": [
+       "F-DEE-12",
+       "F-DEE-22"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: the West German prototype.",
+      "evidence": [
+       "F-DEE-11",
+       "F-DEE-17"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Judt notes the Bizone did not yet signify a firm division.",
+    "judgementCriterion": "Which result mattered most? The federal prototype for the Federal Republic."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Bizone was created because the western occupiers could not afford to run their zones separately.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The British occupation cost far more than it earned in reparations, and Clay stopped reparations to the Soviets in May 1946.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that fusing the economies was the only practical way to feed Germans, so the zones were combined at the end of 1946.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt notes that the Bizone did not yet signify a firm division; that came after the Moscow conference of 1947.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore the federal structure that became the prototype for the West German state.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Bizone"
+    ],
+    "synonyms": [
+     "fusion",
+     "Economic Council"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "reparations",
+     "Clay",
+     "federal"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-EMERGENCE-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the ways in which the Basic Law of 1949 sought to avoid the weaknesses of the Weimar constitution.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1949,
+    1949
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Ways the Basic Law avoided Weimar's weaknesses",
+    "timeframe": "1949",
+    "scope": "The Basic Law",
+    "judgement": "Which change mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "The Basic Law avoided Weimar's weaknesses by strengthening the chancellor, weakening the president, reducing pure proportional representation and allowing anti-democratic parties to be banned.",
+    "arguments": [
+     {
+      "claim": "The constructive vote of no confidence.",
+      "evidence": [
+       "F-DEE-19"
+      ]
+     },
+     {
+      "claim": "A ceremonial president without Article 48.",
+      "evidence": [
+       "F-DEE-19"
+      ]
+     },
+     {
+      "claim": "The electoral system.",
+      "evidence": [
+       "F-DEE-19"
+      ]
+     },
+     {
+      "claim": "Protections against extremism and plebiscites.",
+      "evidence": [
+       "F-DEE-19",
+       "F-DEE-24"
+      ]
+     }
+    ],
+    "counter": "The Basic Law was drafted under Allied supervision, which suggests its design was not entirely German.",
+    "judgementCriterion": "Which change mattered most? The constructive vote of no confidence, which secured stable government."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Basic Law's most important change was to make governments harder to bring down.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Under the constructive vote of no confidence, the Bundestag could remove a chancellor only by electing a successor, and the president lost Weimar's Article 48 emergency powers.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the serial instability of Weimar could not recur, so strong chancellors such as Adenauer could govern for long periods.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Basic Law was drafted under close Allied supervision, and it was a provisional constitution for the western zones only.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Basic Law therefore corrected Weimar's main weakness, unstable government, while guarding against extremism.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Basic Law"
+    ],
+    "synonyms": [
+     "Grundgesetz",
+     "constitution"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Weimar",
+     "constructive vote of no confidence",
+     "Article 48"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-EMERGENCE-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the role of Konrad Adenauer in the emergence of a democratic West German state between 1945 and 1949.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Adenauer's role",
+    "timeframe": "1945–1949",
+    "scope": "A democratic West German state",
+    "judgement": "How far did the outcome depend on him?"
+   },
+   "modelPlan": {
+    "thesis": "Adenauer played a central role by founding the CDU, presiding over the Parliamentary Council and winning the first chancellorship; but the framework was set by the Allies and the Cold War.",
+    "arguments": [
+     {
+      "claim": "Founding the CDU.",
+      "evidence": [
+       "F-DEE-13"
+      ]
+     },
+     {
+      "claim": "Opposing denazification.",
+      "evidence": [
+       "F-DEE-06"
+      ]
+     },
+     {
+      "claim": "The Parliamentary Council.",
+      "evidence": [
+       "F-DEE-18"
+      ]
+     },
+     {
+      "claim": "Limits: Allied control and the one-vote majority.",
+      "evidence": [
+       "F-DEE-20",
+       "F-DEE-21"
+      ]
+     }
+    ],
+    "counter": "The Allies supervised the drafting of the Basic Law and kept powers of intervention.",
+    "judgementCriterion": "How far did it depend on him? On the shape of the new state, much; on its existence, little."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Adenauer shaped the new democracy, but did not create the conditions for it.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He founded the CDU in 1945 to unite Catholics and Protestants, presided over the Parliamentary Council from 1948, and became chancellor in September 1949.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that West Germany began with a broad centre-right party committed to democracy and the West.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Allies supervised the Basic Law and kept powers of intervention, and Adenauer won the chancellorship by only one vote.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Adenauer's role was therefore decisive for the character of the new state, while the Cold War decided its existence.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Adenauer"
+    ],
+    "synonyms": [
+     "CDU",
+     "chancellor"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Parliamentary Council",
+     "Basic Law",
+     "Schumacher"
+    ]
+   }
+  }
+ ]
+}

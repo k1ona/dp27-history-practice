@@ -1,0 +1,2849 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-9-COMPARATIVE",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 22,
+  "openingProblem": {
+   "problem": "West Germany became a democracy after total defeat and occupation; Spain after a dictator's death; Argentina after a lost war; South Africa after decades of resistance and four years of negotiation. Is there a common recipe for democracy, or does each state make its own?",
+   "predictionPrompt": "Your prediction in one line: what do all four transitions have in common?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "comparison",
+    "title": "Why did democracy emerge? Four sets of conditions",
+    "body": "Topic 9 asks you to explain the **conditions** in which democratic states emerged. The four states in this course show four different routes.\n\nIn **West Germany**, democracy followed total defeat. After the unconditional surrender of May 1945, sovereignty passed to the Allies, who supervised the drafting of the Basic Law. Mary Fulbrook argues that the division that produced a separate West German state was \"an ad hoc unintended result of the emerging Cold War\". Democracy here was shaped by outside powers.\n\nIn **Spain** and **Argentina**, democracy followed the end of a dictatorship, but in very different ways. In Spain the dictator died in office in November 1975, and the transition was managed from inside the regime. In Argentina, the military regime that seized power in March 1976 collapsed after its defeat in the Falklands war of 1982 and handed over power to an elected president in December 1983.\n\nIn **South Africa**, democracy had to be won for the majority from a minority government that had denied it to them since 1948. Historians disagree about the decisive pressure: Chris Saunders stresses the mass uprising of the 1980s, while Nigel Worden sees the fall of the Berlin Wall as critical to the timing of De Klerk's announcement in February 1990. Francis Wilson argues that the end of the Cold War \"facilitated\" change but \"did not cause it\".\n\nComparing these routes shows a pattern: democracy emerged when the old order lost its legitimacy, through military defeat (Germany, Argentina), the death of a dictator in a changed society (Spain), or mass resistance combined with international isolation (South Africa).\n\nThis mattered because the way democracy emerged shaped what it had to deal with, which meant that each new democracy inherited different problems: occupation, impunity, an unreformed state, or deep inequality.",
+    "argumentsThatWork": [
+     {
+      "claim": "Defeat produced democracy in Germany and Argentina.",
+      "evidence": [
+       "F-CMP-11",
+       "F-CMP-20"
+      ],
+      "strongestCounter": "Germany was occupied; Argentina was not."
+     },
+     {
+      "claim": "Spain's transition came from inside the regime.",
+      "evidence": [
+       "F-CMP-28"
+      ],
+      "strongestCounter": "Society had already changed."
+     },
+     {
+      "claim": "South Africa's change came from pressure and negotiation.",
+      "evidence": [
+       "F-CMP-02",
+       "F-CMP-03"
+      ],
+      "strongestCounter": "Historians disagree on the decisive factor."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was international pressure the main reason for the emergence of democracy in two states between 1945 and 1994?",
+     "Compare and contrast the role of leaders in the emergence of democracy in two states, each chosen from a different region, between 1945 and 1994."
+    ],
+    "useItInAnEssay": {
+     "claim": "Military defeat created the conditions for democracy in both Germany and Argentina, but in different ways.",
+     "prove": "Germany surrendered unconditionally in May 1945 and lost its sovereignty to the Allies, whereas Argentina's junta fell into disrepute after the Falklands defeat of 1982 but kept control until handing power to Alfonsín in December 1983.",
+     "explain": "This meant that German democracy was designed under Allied supervision, while Argentine democracy was built by Argentines who had to deal with a military that was still intact.",
+     "test": "However, in both cases defeat discredited the old rulers, which removed the main obstacle to democracy.",
+     "judge": "Defeat was therefore a common cause, but occupation made Germany's emergence more controlled than Argentina's."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-COMPARATIVE-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In which state did democracy emerge under foreign occupation?",
+      "factIds": [
+       "F-CMP-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West Germany",
+        "correct": true,
+        "explanation": "Correct: sovereignty was restored only in 1955."
+       },
+       {
+        "id": "b",
+        "text": "Spain",
+        "correct": false,
+        "explanation": "Spain's transition was managed from within."
+       },
+       {
+        "id": "c",
+        "text": "Argentina",
+        "correct": false,
+        "explanation": "Argentina was not occupied."
+       },
+       {
+        "id": "d",
+        "text": "South Africa",
+        "correct": false,
+        "explanation": "South Africa negotiated its own transition."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-COMPARATIVE-C02",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The military fell into disrepute after its failure in the 1982 Falklands war.” Which argument does it support best?",
+      "factIds": [
+       "F-CMP-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Military defeat discredited the Argentine dictatorship",
+        "correct": true,
+        "explanation": "Correct: elections followed in 1983."
+       },
+       {
+        "id": "b",
+        "text": "The Falklands war strengthened the junta",
+        "correct": false,
+        "explanation": "Only briefly."
+       },
+       {
+        "id": "c",
+        "text": "Argentina became democratic in 1982",
+        "correct": false,
+        "explanation": "Alfonsín took office in December 1983."
+       },
+       {
+        "id": "d",
+        "text": "Defeat had no political effect",
+        "correct": false,
+        "explanation": "It ended military rule."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-COMPARATIVE-C03",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did Franco die? (year)",
+      "factIds": [
+       "F-CMP-28"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1975,
+        "tolerance": 0,
+        "explanation": "On 20 November 1975."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "comparison",
+    "title": "Who made the transition? Negotiation, imposition and collapse",
+    "body": "Transitions can be compared by asking **who made them**.\n\n**Spain** is the clearest case of a transition from above. Adolfo Suárez, a former Francoist official, persuaded the Francoist assembly to vote for reform, which passed by referendum on 15 December 1976 with over 94 per cent. Tony Judt argues that democracy was made \"by conservative statesmen from the old regime itself\". But once elections were held, consensus with the left and unions, in the Moncloa Pacts and the 1978 Constitution, completed it.\n\n**South Africa** was a negotiated transition between enemies. De Klerk's announcement of 2 February 1990 opened four years of talks with the ANC. The breakthrough was the Record of Understanding of 1992, with Joe Slovo's \"sunset clauses\" guaranteeing power-sharing for five years. The result was the election of April 1994.\n\n**West Germany** was a supervised transition: German politicians drafted the Basic Law, but under close Allied monitoring.\n\n**Argentina** was a transition by collapse: the discredited junta called elections and handed over power to Alfonsín, who won 51.75 per cent in October 1983. There was no negotiated pact with the military, which later forced the Law of Due Obedience on the new democracy.\n\nEach route had a price. Negotiation required concessions to the old rulers (South Africa's sunset clauses, Spain's continuity of personnel). Collapse left the old rulers intact and resentful (Argentina). Supervision limited sovereignty (Germany).\n\nThis mattered because the terms of the transition decided how far the new democracy could deal with the old regime, which meant that negotiated transitions bought stability at the cost of justice.",
+    "argumentsThatWork": [
+     {
+      "claim": "Spain's transition was made from above.",
+      "evidence": [
+       "F-CMP-29",
+       "F-CMP-36"
+      ],
+      "strongestCounter": "The left completed it by consensus."
+     },
+     {
+      "claim": "South Africa's transition was negotiated between enemies.",
+      "evidence": [
+       "F-CMP-04",
+       "F-CMP-05"
+      ],
+      "strongestCounter": "Violence repeatedly halted talks."
+     },
+     {
+      "claim": "Argentina's transition came through collapse.",
+      "evidence": [
+       "F-CMP-21"
+      ],
+      "strongestCounter": "The military remained powerful."
+     }
+    ],
+    "howItGetsAsked": [
+     "“Democratic transitions succeed when they are negotiated with the old regime.” Discuss with reference to two states between 1975 and 1994.",
+     "Compare and contrast the role of leaders in the emergence of democracy in two states, each chosen from a different region, between 1945 and 1994."
+    ],
+    "useItInAnEssay": {
+     "claim": "Spain and South Africa both negotiated their transitions with the old regime, but from opposite starting points.",
+     "prove": "In Spain, Suárez, a former Francoist official, won a reform referendum in December 1976; in South Africa, the National Party negotiated with its banned enemy, the ANC, from 1990.",
+     "explain": "This meant that in Spain reform came from inside the regime, whereas in South Africa it came from a pact between the regime and the majority it had excluded.",
+     "test": "However, both required concessions: Spain kept Franco's officials, and South Africa's sunset clauses guaranteed the National Party a share of power until 1999.",
+     "judge": "Both transitions therefore succeeded because the old rulers were reassured, though South Africa's change of power was far greater."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-COMPARATIVE-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What percentage voted for Spain's political reform in December 1976? (over … per cent)",
+      "factIds": [
+       "F-CMP-29"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 94,
+        "tolerance": 0,
+        "explanation": "Over 94 per cent."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-COMPARATIVE-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What provided the breakthrough in South Africa's negotiations?",
+      "factIds": [
+       "F-CMP-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Record of Understanding and the sunset clauses",
+        "correct": true,
+        "explanation": "Correct: September 1992."
+       },
+       {
+        "id": "b",
+        "text": "The Moncloa Pacts",
+        "correct": false,
+        "explanation": "Those were Spanish."
+       },
+       {
+        "id": "c",
+        "text": "The Basic Law",
+        "correct": false,
+        "explanation": "That was West German."
+       },
+       {
+        "id": "d",
+        "text": "CONADEP",
+        "correct": false,
+        "explanation": "That was Argentine."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-COMPARATIVE-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Judt argues that Spanish democracy was made by conservative statesmen from the old regime itself.” Which argument does it support best?",
+      "factIds": [
+       "F-CMP-36"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Transitions from above can produce democracy if the old elite chooses reform",
+        "correct": true,
+        "explanation": "Correct: Suárez is the example."
+       },
+       {
+        "id": "b",
+        "text": "Spain's democracy was won by revolution",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The left had no role in Spain",
+        "correct": false,
+        "explanation": "The left completed the transition."
+       },
+       {
+        "id": "d",
+        "text": "Franco planned democracy",
+        "correct": false,
+        "explanation": "Not Judt's argument."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "comparison",
+    "title": "Dealing with the past: truth, trials, amnesty and silence",
+    "body": "Every new democracy had to decide what to do about the crimes of the regime before it. The four states made four different choices.\n\n**Argentina** went furthest at first. CONADEP listed 8,960 disappeared people, and in December 1985 the Trial of the Juntas sentenced Videla and Massera to life imprisonment. But under military pressure the Law of Due Obedience of 1987 protected most officers, and in 1989–90 Menem pardoned the junta leaders.\n\n**South Africa** chose **restorative justice**. The Truth and Reconciliation Commission heard more than 22,000 victims in 1996–98 and granted amnesty to perpetrators who made a full disclosure; only 1,167 of 7,116 applications succeeded.\n\n**West Germany** at first avoided its past. In 1949 the Federal Republic ended investigations into the Nazi past of civil servants, and in 1951 most Bavarian judges were ex-Nazis. Only with the Eichmann trial of 1961 and the Frankfurt Auschwitz trials of 1963–65 did Nazi crimes come to wide public attention.\n\n**Spain** chose silence. Judt notes the absence of any reference to the recent past in post-transition Spain, and democratic governments themselves committed abuses: the GAL killed twenty-six ETA members in 1983–87.\n\nComparing them shows a dilemma. Trials, as in Argentina, risked provoking the military; amnesty or silence, as in Spain and early West Germany, bought stability but left injustice; South Africa's TRC tried to find a path between them, offering truth in exchange for amnesty.\n\nThis mattered because how a democracy dealt with the past affected its legitimacy, which meant that justice, truth and stability had to be balanced differently in each state.",
+    "argumentsThatWork": [
+     {
+      "claim": "Argentina tried trials, then retreated.",
+      "evidence": [
+       "F-CMP-23",
+       "F-CMP-24"
+      ],
+      "strongestCounter": "The junta leaders were convicted first."
+     },
+     {
+      "claim": "South Africa chose truth and amnesty.",
+      "evidence": [
+       "F-CMP-08"
+      ],
+      "strongestCounter": "Many victims felt justice was denied."
+     },
+     {
+      "claim": "Germany and Spain at first avoided the past.",
+      "evidence": [
+       "F-CMP-14",
+       "F-CMP-33"
+      ],
+      "strongestCounter": "Germany later held the Auschwitz trials."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for, and the results of, the ways in which two democratic states dealt with the crimes of previous regimes between 1945 and 1999.",
+     "“Democratic transitions succeed when they are negotiated with the old regime.” Discuss with reference to two states between 1975 and 1994."
+    ],
+    "useItInAnEssay": {
+     "claim": "Argentina and South Africa both confronted the crimes of the old regime, but with different methods and results.",
+     "prove": "Argentina put the juntas on trial and sentenced Videla and Massera to life in 1985, whereas South Africa's TRC heard over 22,000 victims and granted amnesty for full disclosure.",
+     "explain": "This meant that Argentina pursued retributive justice and provoked military revolts, while South Africa's restorative approach avoided confrontation with the security forces.",
+     "test": "However, Argentina's retreat through the Due Obedience law and Menem's pardons left most perpetrators free, much as South Africa's amnesties did.",
+     "judge": "Both therefore ended with limited punishment, but South Africa gained more truth with less conflict."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-COMPARATIVE-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many disappeared people did CONADEP list? (number)",
+      "factIds": [
+       "F-CMP-22"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 8960,
+        "tolerance": 0,
+        "explanation": "8,960, and the figure was not final."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-COMPARATIVE-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which state used a Truth and Reconciliation Commission based on restorative justice?",
+      "factIds": [
+       "F-CMP-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "South Africa",
+        "correct": true,
+        "explanation": "Correct: 1996–98 hearings."
+       },
+       {
+        "id": "b",
+        "text": "Argentina",
+        "correct": false,
+        "explanation": "Argentina used CONADEP and trials."
+       },
+       {
+        "id": "c",
+        "text": "Spain",
+        "correct": false,
+        "explanation": "Spain avoided the past."
+       },
+       {
+        "id": "d",
+        "text": "West Germany",
+        "correct": false,
+        "explanation": "West Germany held later trials."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-COMPARATIVE-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1949 the Federal Republic ended all investigations into the past of civil servants.” Which argument does it support best?",
+      "factIds": [
+       "F-CMP-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West Germany at first chose stability over confronting the past",
+        "correct": true,
+        "explanation": "Correct: the trials came only in the 1960s."
+       },
+       {
+        "id": "b",
+        "text": "West Germany punished all former Nazis",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "West Germany held a truth commission in 1949",
+        "correct": false,
+        "explanation": "Not true for 1949."
+       },
+       {
+        "id": "d",
+        "text": "Denazification was completed in 1949",
+        "correct": false,
+        "explanation": "It was abandoned."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "comparison",
+    "title": "Consolidating democracy: constitutions, alternation and economic policy",
+    "body": "A democracy is often called **consolidated** when its rules are accepted by all major forces and power changes hands peacefully. The four states reached this point by different paths.\n\n**Constitutions** were central. West Germany's Basic Law of 1949 corrected Weimar's weaknesses with a constructive vote of no confidence and allowed anti-democratic parties to be banned. Spain's 1978 Constitution created a parliamentary monarchy with regional autonomy. South Africa's 1996 constitution created a Bill of Rights and a Constitutional Court. Argentina's 1994 reform declared any break in constitutional order illegal.\n\n**Alternation in power** was the test. West Germany passed it in 1969, when the SPD took office. Spain passed it in 1982 and again in 1996, when the Socialists lost to the People's Party. Argentina passed it in 1989 and in 1999, when de la Rúa defeated the Peronists. South Africa, where the ANC won 66.36 per cent in 1999, had not yet passed it: Thompson calls it a \"one-party democracy\", though with strong checks.\n\n**Economic policy** shaped public support. West Germany's social market economy doubled GNP by 1955. Spain's Moncloa Pacts eased the economic crisis of the transition, and EC entry in 1986 anchored Spain in Europe. Menem's Convertibility ended Argentina's hyperinflation, but privatisation pushed unemployment above 10 per cent; South Africa's GEAR shifted policy towards growth, but the Gini index of inequality rose.\n\nThis mattered because democracy proved most secure where prosperity and peaceful alternation went together, which meant that West Germany and Spain consolidated faster than Argentina and South Africa.",
+    "argumentsThatWork": [
+     {
+      "claim": "Constitutions protected democracy.",
+      "evidence": [
+       "F-CMP-13",
+       "F-CMP-26"
+      ],
+      "strongestCounter": "Rules alone did not guarantee stability."
+     },
+     {
+      "claim": "Peaceful alternation showed consolidation.",
+      "evidence": [
+       "F-CMP-17",
+       "F-CMP-35",
+       "F-CMP-27"
+      ],
+      "strongestCounter": "South Africa had no change of governing party by 2000."
+     },
+     {
+      "claim": "Economic success supported democracy.",
+      "evidence": [
+       "F-CMP-15",
+       "F-CMP-25"
+      ],
+      "strongestCounter": "Unemployment and inequality remained in Argentina and South Africa."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the role of constitutions in consolidating democracy in two states, each chosen from a different region, between 1949 and 1996.",
+     "Evaluate the success of economic policies in two democratic states between 1949 and 1999."
+    ],
+    "useItInAnEssay": {
+     "claim": "West Germany and South Africa both used constitutions to protect democracy, but they faced different threats.",
+     "prove": "West Germany's Basic Law introduced the constructive vote of no confidence against Weimar-style instability, whereas South Africa's 1996 constitution created a Bill of Rights and a Constitutional Court to protect rights after apartheid.",
+     "explain": "This meant that the Basic Law was designed above all for stable government, while South Africa's constitution was designed above all for equal rights.",
+     "test": "However, both relied on more than rules: West Germany on prosperity and South Africa on checks such as a free press and civil society.",
+     "judge": "Constitutions were therefore necessary in both, but their design reflected the failures each state was trying to avoid."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-COMPARATIVE-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which state had not experienced a change of governing party by 2000?",
+      "factIds": [
+       "F-CMP-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "South Africa",
+        "correct": true,
+        "explanation": "Correct: the ANC won again in 1999."
+       },
+       {
+        "id": "b",
+        "text": "West Germany",
+        "correct": false,
+        "explanation": "The SPD took office in 1969."
+       },
+       {
+        "id": "c",
+        "text": "Spain",
+        "correct": false,
+        "explanation": "The PP won in 1996."
+       },
+       {
+        "id": "d",
+        "text": "Argentina",
+        "correct": false,
+        "explanation": "De la Rúa won in 1999."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-COMPARATIVE-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which constitution introduced the constructive vote of no confidence?",
+      "factIds": [
+       "F-CMP-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West Germany's Basic Law of 1949",
+        "correct": true,
+        "explanation": "Correct: against Weimar-style instability."
+       },
+       {
+        "id": "b",
+        "text": "Spain's 1978 Constitution",
+        "correct": false,
+        "explanation": "Not this feature."
+       },
+       {
+        "id": "c",
+        "text": "South Africa's 1996 constitution",
+        "correct": false,
+        "explanation": "Not this feature."
+       },
+       {
+        "id": "d",
+        "text": "Argentina's 1994 reform",
+        "correct": false,
+        "explanation": "Not this feature."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-COMPARATIVE-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Argentina's 1994 reform declared any break of the constitutional order illegal.” Which argument does it support best?",
+      "factIds": [
+       "F-CMP-26"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Argentina's constitution was redesigned to prevent a return to military rule",
+        "correct": true,
+        "explanation": "Correct: the de facto doctrine was repealed."
+       },
+       {
+        "id": "b",
+        "text": "Argentina welcomed military coups",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The reform abolished elections",
+        "correct": false,
+        "explanation": "Not what it did."
+       },
+       {
+        "id": "d",
+        "text": "The reform copied the Basic Law",
+        "correct": false,
+        "explanation": "Not what the fact shows."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1945,
+      "month": 5,
+      "text": "Germany: unconditional surrender",
+      "factId": "F-CMP-11"
+     },
+     {
+      "year": 1948,
+      "text": "South Africa: apartheid introduced",
+      "factId": "F-CMP-01"
+     },
+     {
+      "year": 1949,
+      "month": 5,
+      "text": "Germany: Basic Law",
+      "factId": "F-CMP-13"
+     },
+     {
+      "year": 1975,
+      "month": 11,
+      "day": 20,
+      "text": "Spain: Franco dies",
+      "factId": "F-CMP-28"
+     },
+     {
+      "year": 1976,
+      "month": 3,
+      "day": 24,
+      "text": "Argentina: military coup",
+      "factId": "F-CMP-19"
+     },
+     {
+      "year": 1978,
+      "month": 12,
+      "text": "Spain: Constitution",
+      "factId": "F-CMP-30"
+     },
+     {
+      "year": 1981,
+      "month": 2,
+      "day": 23,
+      "text": "Spain: coup fails",
+      "factId": "F-CMP-31"
+     },
+     {
+      "year": 1983,
+      "month": 12,
+      "day": 10,
+      "text": "Argentina: Alfonsín sworn in",
+      "factId": "F-CMP-21"
+     },
+     {
+      "year": 1985,
+      "month": 12,
+      "day": 9,
+      "text": "Argentina: junta leaders sentenced",
+      "factId": "F-CMP-23"
+     },
+     {
+      "year": 1990,
+      "month": 2,
+      "day": 2,
+      "text": "South Africa: De Klerk unbans the ANC",
+      "factId": "F-CMP-04"
+     },
+     {
+      "year": 1994,
+      "month": 4,
+      "text": "South Africa: first democratic election",
+      "factId": "F-CMP-06"
+     },
+     {
+      "year": 1999,
+      "month": 10,
+      "day": 24,
+      "text": "Argentina: de la Rúa elected",
+      "factId": "F-CMP-27"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "The old order loses legitimacy",
+      "factId": "F-CMP-20"
+     },
+     {
+      "id": "n2",
+      "text": "A route to transition: imposed, from above, negotiated or by collapse",
+      "factId": "F-CMP-29"
+     },
+     {
+      "id": "n3",
+      "text": "A new constitution",
+      "factId": "F-CMP-30"
+     },
+     {
+      "id": "n4",
+      "text": "A choice about the past: trials, truth or silence",
+      "factId": "F-CMP-08"
+     },
+     {
+      "id": "n5",
+      "text": "Economic policy wins or loses support",
+      "factId": "F-CMP-15"
+     },
+     {
+      "id": "n6",
+      "text": "Peaceful alternation shows consolidation",
+      "factId": "F-CMP-35"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Defeat, death or resistance opened the way"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Each route produced new rules"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Democracy then had to face the crimes of the old regime"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Stability depended on prosperity as well as justice"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Accepted rules allowed power to change hands"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Konrad Adenauer",
+     "role": "West Germany",
+     "whyItMatters": "Led the Parliamentary Council and the first government.",
+     "factIds": [
+      "F-CMP-13"
+     ]
+    },
+    {
+     "name": "Adolfo Suárez",
+     "role": "Spain",
+     "whyItMatters": "A former Francoist who dismantled Francoism.",
+     "factIds": [
+      "F-CMP-29"
+     ]
+    },
+    {
+     "name": "King Juan Carlos",
+     "role": "Spain",
+     "whyItMatters": "Defeated the 1981 coup.",
+     "factIds": [
+      "F-CMP-31"
+     ]
+    },
+    {
+     "name": "Raúl Alfonsín",
+     "role": "Argentina",
+     "whyItMatters": "Elected in 1983; the Trial of the Juntas.",
+     "factIds": [
+      "F-CMP-21",
+      "F-CMP-23"
+     ]
+    },
+    {
+     "name": "F.W. de Klerk",
+     "role": "South Africa",
+     "whyItMatters": "Unbanned the ANC in 1990.",
+     "factIds": [
+      "F-CMP-04"
+     ]
+    },
+    {
+     "name": "Joe Slovo",
+     "role": "South Africa",
+     "whyItMatters": "Proposed the sunset clauses.",
+     "factIds": [
+      "F-CMP-05"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "West Germany",
+     "Spain",
+     "Argentina",
+     "South Africa"
+    ],
+    "rows": [
+     {
+      "criterion": "Route to democracy",
+      "cells": [
+       "Defeat and Allied supervision",
+       "Reform from above",
+       "Collapse after defeat",
+       "Negotiation"
+      ],
+      "factIds": [
+       "F-CMP-11",
+       "F-CMP-28",
+       "F-CMP-20",
+       "F-CMP-05"
+      ]
+     },
+     {
+      "criterion": "Founding constitution",
+      "cells": [
+       "Basic Law, 1949",
+       "Constitution, 1978",
+       "1853 constitution reformed, 1994",
+       "Constitution, 1996"
+      ],
+      "factIds": [
+       "F-CMP-13",
+       "F-CMP-30",
+       "F-CMP-26",
+       "F-CMP-07"
+      ]
+     },
+     {
+      "criterion": "Dealing with the past",
+      "cells": [
+       "Early silence; trials from 1963",
+       "Silence",
+       "Trials, then amnesty and pardons",
+       "Truth commission with amnesty"
+      ],
+      "factIds": [
+       "F-CMP-14",
+       "F-CMP-33",
+       "F-CMP-24",
+       "F-CMP-08"
+      ]
+     },
+     {
+      "criterion": "Alternation by 2000",
+      "cells": [
+       "Yes (1969)",
+       "Yes (1982, 1996)",
+       "Yes (1989, 1999)",
+       "Not yet"
+      ],
+      "factIds": [
+       "F-CMP-17",
+       "F-CMP-35",
+       "F-CMP-27",
+       "F-CMP-09"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-CMP-11",
+    "year": 1945,
+    "text": "Germany: unconditional surrender; Allied sovereignty until 1955.",
+    "supports": [
+     "Democracy emerged under occupation"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-EMERGENCE"
+    ],
+    "lexicon": [
+     "occupation",
+     "Basic Law"
+    ]
+   },
+   {
+    "factId": "F-CMP-29",
+    "year": 1976,
+    "text": "Spain: reform referendum passed with over 94 per cent.",
+    "supports": [
+     "Spain's transition came from above"
+    ],
+    "alsoWorksFor": [
+     "P2-9-ES"
+    ],
+    "lexicon": [
+     "Suárez",
+     "referendum"
+    ]
+   },
+   {
+    "factId": "F-CMP-21",
+    "year": 1983,
+    "text": "Argentina: Alfonsín elected with 51.75 per cent.",
+    "supports": [
+     "Argentina's transition came through collapse"
+    ],
+    "alsoWorksFor": [
+     "P2-9-AR-EMERGENCE"
+    ],
+    "lexicon": [
+     "Alfonsín",
+     "election"
+    ]
+   },
+   {
+    "factId": "F-CMP-05",
+    "year": 1992,
+    "text": "South Africa: sunset clauses broke the deadlock.",
+    "supports": [
+     "South Africa's transition was negotiated"
+    ],
+    "alsoWorksFor": [
+     "P2-9-SA-TRANSITION"
+    ],
+    "lexicon": [
+     "sunset clauses",
+     "Record of Understanding"
+    ]
+   },
+   {
+    "factId": "F-CMP-08",
+    "year": 1998,
+    "text": "South Africa: TRC heard over 22,000 victims; 1,167 of 7,116 amnesties granted.",
+    "supports": [
+     "Truth was exchanged for amnesty"
+    ],
+    "alsoWorksFor": [
+     "P2-9-SA-POLICIES"
+    ],
+    "lexicon": [
+     "TRC",
+     "restorative justice"
+    ]
+   },
+   {
+    "factId": "F-CMP-24",
+    "year": 1990,
+    "text": "Argentina: Due Obedience (1987) and pardons (1989–90).",
+    "supports": [
+     "Military pressure limited justice"
+    ],
+    "alsoWorksFor": [
+     "P2-9-AR-DEVELOPMENT"
+    ],
+    "lexicon": [
+     "Due Obedience",
+     "pardons"
+    ]
+   },
+   {
+    "factId": "F-CMP-17",
+    "year": 1969,
+    "text": "West Germany: SPD in government in 1969; the CDU in opposition.",
+    "supports": [
+     "Peaceful alternation showed consolidation"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-DEVELOPMENT"
+    ],
+    "lexicon": [
+     "alternation",
+     "Brandt"
+    ]
+   },
+   {
+    "factId": "F-CMP-15",
+    "year": 1955,
+    "text": "West Germany: social market economy; GNP doubled by 1955.",
+    "supports": [
+     "Prosperity supported democracy"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-POLICIES"
+    ],
+    "lexicon": [
+     "social market economy",
+     "Erhard"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "Democracy in Spain was made possible 'not by cultural or political radicals and innovators but by conservative statesmen from the old regime itself'.",
+    "useItLikeThis": "Judt's view supports the claim that transitions from above can succeed, which suggests a useful contrast with South Africa, where change was negotiated between the regime and its excluded majority.",
+    "factId": "F-CMP-36"
+   },
+   {
+    "historian": "Mary Fulbrook",
+    "argument": "The division that produced West Germany was 'an ad hoc unintended result of the emerging Cold War between the superpowers' (as quoted by Bottaro and Stanley).",
+    "useItLikeThis": "Fulbrook's view supports the claim that international forces shaped the emergence of some democracies, which suggests a comparison with South Africa, where Worden and Wilson debate the weight of the end of the Cold War.",
+    "factId": "F-CMP-12"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "All four democracies emerged in the same way.",
+    "right": "They followed **four routes**: occupation, reform from above, collapse, and negotiation."
+   },
+   {
+    "wrong": "Every new democracy punished the crimes of the old regime.",
+    "right": "Only Argentina held major trials early, and it then **retreated** through amnesty laws and pardons."
+   },
+   {
+    "wrong": "A new constitution is enough to consolidate democracy.",
+    "right": "Consolidation also needs **peaceful alternation** and public support, often through prosperity."
+   },
+   {
+    "wrong": "South Africa's democracy was not genuine because the ANC always won.",
+    "right": "Thompson calls it a 'one-party democracy' but notes **strong checks**: a free press and civil society."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1949,
+     "month": 5,
+     "text": "Basic Law"
+    },
+    {
+     "year": 1975,
+     "month": 11,
+     "text": "Franco dies"
+    },
+    {
+     "year": 1978,
+     "month": 12,
+     "text": "Spanish Constitution"
+    },
+    {
+     "year": 1983,
+     "month": 12,
+     "text": "Alfonsín takes office"
+    },
+    {
+     "year": 1990,
+     "month": 2,
+     "text": "De Klerk unbans the ANC"
+    },
+    {
+     "year": 1994,
+     "month": 4,
+     "text": "South African election"
+    },
+    {
+     "year": 1996,
+     "month": 3,
+     "text": "Spanish alternation"
+    },
+    {
+     "year": 1999,
+     "month": 10,
+     "text": "Argentine alternation"
+    }
+   ],
+   "keyArguments": [
+    "Democracy emerged when the old order lost legitimacy: defeat, a dictator's death, or resistance.",
+    "Four routes: supervised (Germany), from above (Spain), collapse (Argentina), negotiated (South Africa).",
+    "Dealing with the past: trials then pardons (Argentina), truth for amnesty (South Africa), silence (Spain, early Germany).",
+    "Constitutions were redesigned against each state's past failures.",
+    "Peaceful alternation and prosperity consolidated democracy fastest in West Germany and Spain."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-9-COMPARATIVE-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Germany: unconditional surrender",
+     "year": 1945,
+     "month": 5,
+     "factId": "F-CMP-11"
+    },
+    {
+     "id": "b",
+     "text": "South Africa: apartheid introduced",
+     "year": 1948,
+     "factId": "F-CMP-01"
+    },
+    {
+     "id": "c",
+     "text": "Germany: Basic Law",
+     "year": 1949,
+     "month": 5,
+     "factId": "F-CMP-13"
+    },
+    {
+     "id": "d",
+     "text": "Spain: Franco dies",
+     "year": 1975,
+     "month": 11,
+     "factId": "F-CMP-28"
+    },
+    {
+     "id": "e",
+     "text": "Argentina: military coup",
+     "year": 1976,
+     "month": 3,
+     "factId": "F-CMP-19"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Spain: reform referendum",
+     "year": 1976,
+     "month": 12,
+     "factId": "F-CMP-29"
+    },
+    {
+     "id": "b",
+     "text": "Spain: Constitution confirmed",
+     "year": 1978,
+     "month": 12,
+     "factId": "F-CMP-30"
+    },
+    {
+     "id": "c",
+     "text": "Spain: coup fails",
+     "year": 1981,
+     "month": 2,
+     "factId": "F-CMP-31"
+    },
+    {
+     "id": "d",
+     "text": "Argentina: Alfonsín sworn in",
+     "year": 1983,
+     "month": 12,
+     "factId": "F-CMP-21"
+    },
+    {
+     "id": "e",
+     "text": "Argentina: junta leaders sentenced",
+     "year": 1985,
+     "month": 12,
+     "factId": "F-CMP-23"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "South Africa: De Klerk unbans the ANC",
+     "year": 1990,
+     "month": 2,
+     "factId": "F-CMP-04"
+    },
+    {
+     "id": "b",
+     "text": "Germany: unification",
+     "year": 1990,
+     "month": 10,
+     "factId": "F-CMP-18"
+    },
+    {
+     "id": "c",
+     "text": "South Africa: first democratic election",
+     "year": 1994,
+     "month": 4,
+     "factId": "F-CMP-06"
+    },
+    {
+     "id": "d",
+     "text": "Spain: People's Party wins",
+     "year": 1996,
+     "month": 3,
+     "factId": "F-CMP-35"
+    },
+    {
+     "id": "e",
+     "text": "Argentina: de la Rúa elected",
+     "year": 1999,
+     "month": 10,
+     "factId": "F-CMP-27"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each state to its route to democracy.",
+   "pairs": [
+    {
+     "left": "West Germany",
+     "right": "Defeat and Allied supervision",
+     "explanation": "Basic Law, 1949."
+    },
+    {
+     "left": "Spain",
+     "right": "Reform from above",
+     "explanation": "Suárez, 1976."
+    },
+    {
+     "left": "Argentina",
+     "right": "Collapse after military defeat",
+     "explanation": "Alfonsín, 1983."
+    },
+    {
+     "left": "South Africa",
+     "right": "Negotiation between regime and opposition",
+     "explanation": "1990–1994."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R05",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each state to how it dealt with the old regime's crimes.",
+   "pairs": [
+    {
+     "left": "Argentina",
+     "right": "Trials of the junta, then amnesty laws and pardons",
+     "explanation": "1985–1990."
+    },
+    {
+     "left": "South Africa",
+     "right": "A truth commission offering amnesty for full disclosure",
+     "explanation": "TRC, 1996–98."
+    },
+    {
+     "left": "Spain",
+     "right": "Little reference to the recent past",
+     "explanation": "Judt."
+    },
+    {
+     "left": "West Germany",
+     "right": "Investigations ended in 1949; trials from 1963",
+     "explanation": "The Auschwitz trials."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of the vote did the ANC win in 1999? (number, e.g. 66.36)",
+   "factIds": [
+    "F-CMP-09"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 66.36,
+     "tolerance": 0.1,
+     "explanation": "66.36 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of the vote did Alfonsín win in 1983? (number, e.g. 51.75)",
+   "factIds": [
+    "F-CMP-21"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 51.75,
+     "tolerance": 0.1,
+     "explanation": "51.75 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many amnesty applications did South Africa's TRC grant? (number)",
+   "factIds": [
+    "F-CMP-08"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1167,
+     "tolerance": 0,
+     "explanation": "1,167 of 7,116."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R09",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the SPD first lead a West German government? (year)",
+   "factIds": [
+    "F-CMP-17"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1969,
+     "tolerance": 0,
+     "explanation": "1969, under Brandt."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which of these states had power changed hands between parties by election before 2000? Choose all that apply.",
+   "factIds": [
+    "F-CMP-17",
+    "F-CMP-35",
+    "F-CMP-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "West Germany",
+     "correct": true,
+     "explanation": "Yes: 1969."
+    },
+    {
+     "id": "b",
+     "text": "Spain",
+     "correct": true,
+     "explanation": "Yes: 1982 and 1996."
+    },
+    {
+     "id": "c",
+     "text": "Argentina",
+     "correct": true,
+     "explanation": "Yes: 1989 and 1999."
+    },
+    {
+     "id": "d",
+     "text": "South Africa",
+     "correct": false,
+     "explanation": "No: the ANC won both elections, in 1994 and 1999."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R11",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which of these states did military defeat help end the old regime? Choose all that apply.",
+   "factIds": [
+    "F-CMP-11",
+    "F-CMP-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Germany",
+     "correct": true,
+     "explanation": "Yes: unconditional surrender in 1945."
+    },
+    {
+     "id": "b",
+     "text": "Argentina",
+     "correct": true,
+     "explanation": "Yes: the Falklands defeat of 1982."
+    },
+    {
+     "id": "c",
+     "text": "Spain",
+     "correct": false,
+     "explanation": "No: Franco died in office."
+    },
+    {
+     "id": "d",
+     "text": "South Africa",
+     "correct": false,
+     "explanation": "No: change came through pressure and negotiation."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Spain's 1978 Constitution gave the historic regions a right to autonomy.” Which argument does it support?",
+   "factIds": [
+    "F-CMP-30"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Spain's constitution was designed to answer regional demands repressed under Franco",
+     "correct": true,
+     "explanation": "Correct: seventeen regions followed."
+    },
+    {
+     "id": "b",
+     "text": "Spain became a centralised state",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The constitution ignored the regions",
+     "correct": false,
+     "explanation": "It recognised them."
+    },
+    {
+     "id": "d",
+     "text": "Spain abolished the monarchy",
+     "correct": false,
+     "explanation": "It became a parliamentary monarchy."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R13",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Basic Law was drafted under close Allied monitoring.” Which argument does it support?",
+   "factIds": [
+    "F-CMP-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "West German democracy was shaped by outside powers",
+     "correct": true,
+     "explanation": "Correct: unlike Spain or South Africa."
+    },
+    {
+     "id": "b",
+     "text": "West Germans had no role in their constitution",
+     "correct": false,
+     "explanation": "German politicians drafted it."
+    },
+    {
+     "id": "c",
+     "text": "The Allies opposed democracy in Germany",
+     "correct": false,
+     "explanation": "They supported it."
+    },
+    {
+     "id": "d",
+     "text": "The Basic Law was written in 1990",
+     "correct": false,
+     "explanation": "It was adopted in 1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Like Argentina, Spain put the leaders of its dictatorship on trial after the transition.”",
+   "factIds": [
+    "F-CMP-33",
+    "F-CMP-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Spain held no such trials; post-transition Spain largely avoided reference to the recent past",
+     "correct": true,
+     "explanation": "Correct: only Argentina tried its junta."
+    },
+    {
+     "id": "b",
+     "text": "Argentina held no trials",
+     "correct": false,
+     "explanation": "It held the Trial of the Juntas."
+    },
+    {
+     "id": "c",
+     "text": "Spain's transition was in 1990",
+     "correct": false,
+     "explanation": "It began in 1975."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Spain held no trials."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R15",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “South Africa's TRC granted amnesty to everyone who applied.”",
+   "factIds": [
+    "F-CMP-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Only 1,167 of 7,116 applications were granted, and full disclosure was required",
+     "correct": true,
+     "explanation": "Correct: amnesty was not automatic."
+    },
+    {
+     "id": "b",
+     "text": "The TRC was set up in 1976",
+     "correct": false,
+     "explanation": "It was set up in 1996."
+    },
+    {
+     "id": "c",
+     "text": "The TRC punished all perpetrators",
+     "correct": false,
+     "explanation": "It was based on restorative justice."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: most applications failed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R16",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks you to compare the emergence of democracy in two states between 1975 and 1994. Is West Germany's Basic Law of 1949 inside or outside the timeframe?",
+   "factIds": [
+    "F-CMP-13"
+   ],
+   "timeframe": [
+    1975,
+    1994
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: West Germany's emergence falls before 1975, so it does not fit this question",
+     "correct": true,
+     "explanation": "Correct: choose states whose emergence falls inside the dates."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1949 is before 1975."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Germany unified in 1990",
+     "correct": false,
+     "explanation": "Unification is development, not emergence."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of the four states became a democracy after a dictator died in office?",
+   "factIds": [
+    "F-CMP-28"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Spain",
+     "correct": true,
+     "explanation": "Correct: Franco died in November 1975."
+    },
+    {
+     "id": "b",
+     "text": "Argentina",
+     "correct": false,
+     "explanation": "The junta collapsed after defeat."
+    },
+    {
+     "id": "c",
+     "text": "South Africa",
+     "correct": false,
+     "explanation": "The regime negotiated."
+    },
+    {
+     "id": "d",
+     "text": "West Germany",
+     "correct": false,
+     "explanation": "Germany was defeated in war."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which state did a king defeat a military coup in 1981?",
+   "factIds": [
+    "F-CMP-31"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Spain",
+     "correct": true,
+     "explanation": "Correct: Juan Carlos defended the Constitution."
+    },
+    {
+     "id": "b",
+     "text": "Argentina",
+     "correct": false,
+     "explanation": "Argentina had revolts in 1987–90."
+    },
+    {
+     "id": "c",
+     "text": "South Africa",
+     "correct": false,
+     "explanation": "Not this event."
+    },
+    {
+     "id": "d",
+     "text": "West Germany",
+     "correct": false,
+     "explanation": "Not this event."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which economic policy ended hyperinflation in Argentina?",
+   "factIds": [
+    "F-CMP-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Convertibility, pegging the peso to the dollar (1991)",
+     "correct": true,
+     "explanation": "Correct: under Cavallo."
+    },
+    {
+     "id": "b",
+     "text": "The social market economy",
+     "correct": false,
+     "explanation": "That was West German."
+    },
+    {
+     "id": "c",
+     "text": "GEAR",
+     "correct": false,
+     "explanation": "That was South African."
+    },
+    {
+     "id": "d",
+     "text": "The Moncloa Pacts",
+     "correct": false,
+     "explanation": "Those were Spanish."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which historian sees the fall of the Berlin Wall as critical to the timing of De Klerk's reforms?",
+   "factIds": [
+    "F-CMP-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Nigel Worden",
+     "correct": true,
+     "explanation": "Correct: Wilson argues it facilitated but did not cause change."
+    },
+    {
+     "id": "b",
+     "text": "Mary Fulbrook",
+     "correct": false,
+     "explanation": "Fulbrook writes on Germany's division."
+    },
+    {
+     "id": "c",
+     "text": "Tony Judt",
+     "correct": false,
+     "explanation": "Judt is cited here on Spain and Germany."
+    },
+    {
+     "id": "d",
+     "text": "Chris Saunders",
+     "correct": false,
+     "explanation": "Saunders stresses the mass uprising."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-9-COMPARATIVE-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the role of leaders in the emergence of democracy in two states, each chosen from a different region, between 1945 and 1994.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, throughout."
+    },
+    {
+     "id": "s2",
+     "text": "the role of leaders",
+     "answer": "factor",
+     "explanation": "The factor to compare."
+    },
+    {
+     "id": "s3",
+     "text": "in the emergence of democracy",
+     "answer": "scope",
+     "explanation": "The strand: emergence."
+    },
+    {
+     "id": "s4",
+     "text": "in two states, each chosen from a different region, between 1945 and 1994",
+     "answer": "timeframe",
+     "explanation": "Two regions; dates."
+    },
+    {
+     "id": "s5",
+     "text": "role",
+     "answer": "judgement",
+     "explanation": "How decisive were leaders in each state?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was international pressure the main reason for the emergence of democracy in two states between 1945 and 1994?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "international pressure",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for the emergence of democracy",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "in two states between 1945 and 1994",
+     "answer": "timeframe",
+     "explanation": "Choose two states."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Did outside pressure outweigh internal forces in each?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the role of leaders in the emergence of democracy in Spain and South Africa.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "In both states leaders from the old regime chose to negotiate, Suárez and Juan Carlos in Spain and De Klerk in South Africa, but South Africa's transition also depended on an opposition leader, Mandela, and on pressure from below that Spain's did not face to the same degree.",
+     "correct": true,
+     "explanation": "Correct: similarity and difference with a judgement."
+    },
+    {
+     "id": "b",
+     "text": "Spain had Suárez and South Africa had De Klerk.",
+     "correct": false,
+     "explanation": "Lists, does not compare."
+    },
+    {
+     "id": "c",
+     "text": "Leaders were important in both.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Leaders did everything in both states.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the ways in which two democratic states dealt with the crimes of previous regimes.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Argentina chose trials because its military had been discredited, but military revolts forced a retreat into amnesty; South Africa chose truth for amnesty because its transition was negotiated, which produced more truth and less conflict.",
+     "correct": true,
+     "explanation": "Correct: reasons and results for both."
+    },
+    {
+     "id": "b",
+     "text": "Argentina and South Africa had commissions.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Both dealt with the past.",
+     "correct": false,
+     "explanation": "No reasons or results."
+    },
+    {
+     "id": "d",
+     "text": "Both punished all perpetrators.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Spain's Constitution was confirmed in December 1978.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Whereas Spain reformed from above, Argentina's junta simply collapsed, so Argentina's military remained a threat.",
+     "answer": "analysis",
+     "explanation": "Compares and explains."
+    },
+    {
+     "id": "s3",
+     "text": "In 1994 South Africa held its first democratic election.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "Both negotiated transitions bought stability at the cost of justice.",
+     "answer": "analysis",
+     "explanation": "A comparative judgement."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the comparative claim it supports.",
+   "pairs": [
+    {
+     "left": "Basic Law drafted under Allied monitoring",
+     "right": "Germany's democracy was shaped from outside",
+     "explanation": "1949."
+    },
+    {
+     "left": "Suárez's reform referendum",
+     "right": "Spain's transition came from above",
+     "explanation": "1976."
+    },
+    {
+     "left": "Due Obedience and pardons",
+     "right": "Argentina's military limited justice",
+     "explanation": "1987–90."
+    },
+    {
+     "left": "Sunset clauses",
+     "right": "South Africa's transition was negotiated",
+     "explanation": "1992."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague comparative sentence: “Spain and Argentina both became democracies.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Both became democracies after dictatorship, but whereas Spain's transition was managed from inside the regime, which reassured the army, Argentina's junta collapsed after defeat, leaving a resentful military that forced amnesty laws in 1986–87.",
+     "correct": true,
+     "explanation": "Correct: similarity, difference and consequence."
+    },
+    {
+     "id": "b",
+     "text": "Spain and Argentina were both very important.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Spain became a democracy in 1977 and Argentina in 1983.",
+     "correct": false,
+     "explanation": "Narrative, no comparison."
+    },
+    {
+     "id": "d",
+     "text": "Spain and Argentina were the same.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Negotiated transitions always produce stable democracies.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "South Africa's negotiated transition left the ANC dominant with no change of governing party by 2000, while Argentina's transition by collapse produced peaceful alternation in 1989 and 1999.",
+     "correct": true,
+     "explanation": "Correct: specific comparative counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Negotiations are difficult.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "Some countries are unstable.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "Democracy is good.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the role of leaders in the emergence of democracy in two states.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by the decision to begin reform, leaders from the old regime were decisive in both Spain and South Africa; judged by what made reform irreversible, pressure from society mattered more in South Africa than in Spain.",
+     "correct": true,
+     "explanation": "Correct: two criteria, a comparative judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, both states had leaders.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Mandela was a hero.",
+     "correct": false,
+     "explanation": "One state only."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, leaders always matter.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-COMPARATIVE-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the ways in which two democratic states dealt with the crimes of previous regimes.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Argentina: a discredited military after the Falklands",
+     "answer": "causes",
+     "explanation": "Trials became possible."
+    },
+    {
+     "id": "s2",
+     "text": "South Africa: a negotiated transition",
+     "answer": "causes",
+     "explanation": "Amnesty was part of the bargain."
+    },
+    {
+     "id": "s3",
+     "text": "Argentina: Due Obedience and pardons",
+     "answer": "effects",
+     "explanation": "Most perpetrators freed."
+    },
+    {
+     "id": "s4",
+     "text": "South Africa: over 22,000 victims heard",
+     "answer": "effects",
+     "explanation": "Truth established."
+    },
+    {
+     "id": "s5",
+     "text": "South Africa: only 1,167 amnesties granted",
+     "answer": "effects",
+     "explanation": "Amnesty was not automatic."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-9-COMPARATIVE-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the role of leaders in the emergence of democracy in two states, each chosen from a different region, between 1945 and 1994.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region",
+    "leader"
+   ],
+   "timeframe": [
+    1945,
+    1994
+   ],
+   "scope": "Spain and South Africa (or any two of the four states from different regions)",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "The role of leaders",
+    "timeframe": "1945–1994",
+    "scope": "Two states from two regions",
+    "judgement": "How decisive were leaders in each?"
+   },
+   "modelPlan": {
+    "thesis": "In both Spain and South Africa leaders from the old regime chose to negotiate, Suárez and Juan Carlos in Spain and De Klerk in South Africa, but South Africa's transition also depended on Mandela and the ANC and on pressure from below.",
+    "arguments": [
+     {
+      "claim": "Similarity: reformers from the old regime (Suárez; De Klerk).",
+      "evidence": [
+       "F-CMP-29",
+       "F-CMP-04"
+      ]
+     },
+     {
+      "claim": "Similarity: decisive moments (the 1981 coup; the 1992 breakthrough).",
+      "evidence": [
+       "F-CMP-31",
+       "F-CMP-05"
+      ]
+     },
+     {
+      "claim": "Difference: transition from above versus negotiation between enemies.",
+      "evidence": [
+       "F-CMP-36",
+       "F-CMP-05"
+      ]
+     },
+     {
+      "claim": "Difference: pressure from below.",
+      "evidence": [
+       "F-CMP-02",
+       "F-CMP-33"
+      ]
+     }
+    ],
+    "counter": "Leaders acted within conditions they did not create: social change in Spain, mass resistance and the end of the Cold War in South Africa.",
+    "judgementCriterion": "Which mattered more in each? Leaders from above in Spain; leaders on both sides in South Africa."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "In both Spain and South Africa leaders from the old regime chose to begin reform, but the role of leaders differed.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In Spain Suárez, a former Francoist official, won a reform referendum in December 1976, whereas in South Africa De Klerk unbanned the ANC on 2 February 1990.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that in Spain the transition came from above, while in South Africa it was negotiated between the regime and its excluded majority, so opposition leaders such as Mandela and Slovo were equally decisive.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in both states leaders acted under pressure: Spanish society had changed under late Francoism, and Saunders stresses South Africa's mass uprising.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Leaders were therefore decisive in both, but in South Africa leadership was shared between enemies, which made the change greater.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "leaders",
+     "leadership"
+    ],
+    "synonyms": [
+     "whereas",
+     "both",
+     "unlike"
+    ],
+    "historians": [
+     "Judt",
+     "Saunders"
+    ],
+    "extraLexicon": [
+     "Suárez",
+     "De Klerk",
+     "Juan Carlos"
+    ]
+   },
+   "requiresTwoRegions": true
+  },
+  {
+   "questionId": "P2-9-COMPARATIVE-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was international pressure the main reason for the emergence of democracy in two states between 1945 and 1994?",
+   "commandTerm": "to what extent",
+   "namedFactor": "international pressure",
+   "features": [
+    "named_factor",
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1945,
+    1994
+   ],
+   "scope": "West Germany and South Africa (or any two of the four states)",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "International pressure, weighed first",
+    "timeframe": "1945–1994",
+    "scope": "Two states",
+    "judgement": "Did outside pressure outweigh internal forces in each?"
+   },
+   "modelPlan": {
+    "thesis": "International pressure was decisive in West Germany, where the Allies occupied the country and supervised the Basic Law, but only contributory in South Africa, where sanctions and the end of the Cold War helped while mass resistance supplied the main pressure.",
+    "arguments": [
+     {
+      "claim": "West Germany: occupation and the Cold War (named factor first).",
+      "evidence": [
+       "F-CMP-11",
+       "F-CMP-12"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "West Germany: the Basic Law under supervision.",
+      "evidence": [
+       "F-CMP-13"
+      ]
+     },
+     {
+      "claim": "South Africa: the end of the Cold War.",
+      "evidence": [
+       "F-CMP-03"
+      ]
+     },
+     {
+      "claim": "South Africa: internal pressure.",
+      "evidence": [
+       "F-CMP-02"
+      ]
+     }
+    ],
+    "counter": "Wilson argues the end of the Cold War facilitated but did not cause South Africa's change.",
+    "judgementCriterion": "Main reason in which state? Germany: yes; South Africa: no."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "International pressure was the main reason for democracy in West Germany, but not in South Africa.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "West Germany's sovereignty passed to the Allies in 1945 and its Basic Law was drafted under close Allied monitoring, whereas in South Africa, Worden sees the fall of the Berlin Wall as critical only to the timing of De Klerk's speech.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that German democracy was shaped from outside, while South African democracy was forced mainly from inside.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Fulbrook stresses that even Germany's division was an unintended result of the Cold War, and Saunders argues South Africa's mass uprising was the most significant factor.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "International pressure was therefore decisive in West Germany and contributory in South Africa.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "international pressure",
+     "international"
+    ],
+    "synonyms": [
+     "Allies",
+     "Cold War",
+     "sanctions"
+    ],
+    "historians": [
+     "Fulbrook",
+     "Worden",
+     "Wilson",
+     "Saunders"
+    ],
+    "extraLexicon": [
+     "occupation",
+     "Basic Law",
+     "De Klerk"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-COMPARATIVE-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Democratic transitions succeed when they are negotiated with the old regime.” Discuss with reference to two states between 1975 and 1994.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition",
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1975,
+    1994
+   ],
+   "scope": "Spain and Argentina (or any two of the four states)",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: negotiation brings success",
+    "timeframe": "1975–1994",
+    "scope": "Two states",
+    "judgement": "Succeed by what measure?"
+   },
+   "modelPlan": {
+    "thesis": "Spain supports the claim, since its negotiated transition from above survived a coup and produced peaceful alternation; Argentina partly challenges it, since a transition by collapse also produced democracy, though one weakened by military revolts and impunity.",
+    "arguments": [
+     {
+      "claim": "For: Spain's negotiated reform.",
+      "evidence": [
+       "F-CMP-29",
+       "F-CMP-32"
+      ]
+     },
+     {
+      "claim": "For: Spain's survival of the 1981 coup.",
+      "evidence": [
+       "F-CMP-31"
+      ]
+     },
+     {
+      "claim": "Against: Argentina's transition by collapse.",
+      "evidence": [
+       "F-CMP-21",
+       "F-CMP-27"
+      ]
+     },
+     {
+      "claim": "Qualification: Argentina's military pressure.",
+      "evidence": [
+       "F-CMP-24"
+      ]
+     }
+    ],
+    "counter": "Argentina's democracy also survived and alternated power in 1989 and 1999.",
+    "judgementCriterion": "Succeed by what measure? Stability: negotiation helped; survival: both succeeded."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Negotiation with the old regime made transitions smoother, but it was not the only route to democracy.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Spain's reform referendum of December 1976 and the Moncloa Pacts reassured the old regime, whereas Argentina's junta simply collapsed and handed power to Alfonsín in 1983.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Spain's army largely accepted democracy after 1981, while Argentina's resentful military forced the Due Obedience law in 1987.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Argentina's democracy also survived, alternating power peacefully in 1989 and 1999.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid for the stability of transitions, but overstated as a condition of success.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "negotiated",
+     "negotiation"
+    ],
+    "synonyms": [
+     "whereas",
+     "both",
+     "pact"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Suárez",
+     "Moncloa Pacts",
+     "Alfonsín"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-COMPARATIVE-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the ways in which two democratic states dealt with the crimes of previous regimes between 1945 and 1999.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part",
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1945,
+    1999
+   ],
+   "scope": "Argentina and South Africa (or any two of the four states)",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results, in two states",
+    "timeframe": "1945–1999",
+    "scope": "Dealing with the past",
+    "judgement": "Which approach produced more truth, justice and stability?"
+   },
+   "modelPlan": {
+    "thesis": "Argentina chose trials because its military had been discredited, but revolts forced a retreat into amnesty and pardons; South Africa chose truth for amnesty because its transition was negotiated, which produced more truth and less conflict.",
+    "arguments": [
+     {
+      "claim": "Reasons: Argentina's discredited military.",
+      "evidence": [
+       "F-CMP-20",
+       "F-CMP-22"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reasons: South Africa's negotiated settlement.",
+      "evidence": [
+       "F-CMP-05"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Results: Argentina's trials, then pardons.",
+      "evidence": [
+       "F-CMP-23",
+       "F-CMP-24"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Results: South Africa's TRC.",
+      "evidence": [
+       "F-CMP-08"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "In both, most perpetrators were never punished.",
+    "judgementCriterion": "Which result mattered most? South Africa gained more truth with less conflict."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Argentina and South Africa dealt with the past differently because their transitions were different.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Argentina's junta had collapsed after the Falklands, so Alfonsín could put it on trial, whereas South Africa's negotiated settlement required amnesty, offered by the TRC in exchange for full disclosure.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Argentina sentenced Videla and Massera to life in 1985 but provoked military revolts, while South Africa's TRC heard over 22,000 victims without such a backlash.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Argentina's Due Obedience law and Menem's pardons left most perpetrators free, much as amnesty did in South Africa.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The results were therefore similar for punishment, but South Africa's approach produced more truth and stability.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "crimes",
+     "past"
+    ],
+    "synonyms": [
+     "trials",
+     "truth commission",
+     "amnesty"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "TRC",
+     "CONADEP",
+     "pardons"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-COMPARATIVE-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the success of economic policies in two democratic states between 1949 and 1999.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1949,
+    1999
+   ],
+   "scope": "West Germany and Argentina (or any two of the four states)",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The success of economic policies",
+    "timeframe": "1949–1999",
+    "scope": "Two democratic states",
+    "judgement": "Growth, stability, or equality?"
+   },
+   "modelPlan": {
+    "thesis": "West Germany's social market economy was the more successful, combining growth with social security and so strengthening democracy; Argentina's Convertibility ended hyperinflation but raised unemployment and debt.",
+    "arguments": [
+     {
+      "claim": "West Germany: the social market economy.",
+      "evidence": [
+       "F-CMP-15"
+      ]
+     },
+     {
+      "claim": "Argentina: Convertibility and privatisation.",
+      "evidence": [
+       "F-CMP-25",
+       "F-CMP-38"
+      ]
+     },
+     {
+      "claim": "Comparison: effects on democracy.",
+      "evidence": [
+       "F-CMP-17",
+       "F-CMP-27"
+      ]
+     },
+     {
+      "claim": "Comparison: inequality (South Africa as a further case).",
+      "evidence": [
+       "F-CMP-10"
+      ]
+     }
+    ],
+    "counter": "Both policies brought stability after economic disaster: post-war collapse in Germany, hyperinflation in Argentina.",
+    "judgementCriterion": "Success by what criterion? Growth with social security: Germany; stability alone: both."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "West Germany's economic policy was more successful than Argentina's, because it combined growth with social security.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Erhard's social market economy doubled GNP by 1955, whereas Menem's Convertibility of 1991 ended hyperinflation but was followed by privatisation and rising unemployment.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that West Germans associated democracy with prosperity, while in Argentina unemployment and corruption helped defeat the Peronists in 1999.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both policies succeeded in their first aim, stabilising an economy after disaster.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "West Germany's policy was therefore more successful because its social side spread the benefits of growth.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic policies",
+     "economy"
+    ],
+    "synonyms": [
+     "social market",
+     "Convertibility",
+     "whereas"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Erhard",
+     "Menem",
+     "hyperinflation"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-COMPARATIVE-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the role of constitutions in consolidating democracy in two states, each chosen from a different region, between 1949 and 1996.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1949,
+    1996
+   ],
+   "scope": "West Germany and South Africa (or any two of the four states from different regions)",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The role of constitutions",
+    "timeframe": "1949–1996",
+    "scope": "Two states from two regions",
+    "judgement": "How far did the rules secure democracy?"
+   },
+   "modelPlan": {
+    "thesis": "Constitutions were designed against each state's past failures, the Basic Law against Weimar's instability and South Africa's 1996 constitution against apartheid's denial of rights; both secured democracy only together with peaceful politics and social support.",
+    "arguments": [
+     {
+      "claim": "West Germany: the Basic Law.",
+      "evidence": [
+       "F-CMP-13"
+      ]
+     },
+     {
+      "claim": "South Africa: the 1996 constitution.",
+      "evidence": [
+       "F-CMP-07"
+      ]
+     },
+     {
+      "claim": "Comparison: stability versus rights.",
+      "evidence": [
+       "F-CMP-13",
+       "F-CMP-07"
+      ]
+     },
+     {
+      "claim": "Limits: alternation and dominance.",
+      "evidence": [
+       "F-CMP-17",
+       "F-CMP-09"
+      ]
+     }
+    ],
+    "counter": "South Africa had no change of governing party by 2000 despite its constitution.",
+    "judgementCriterion": "Which constitution did more? The Basic Law, because it worked with alternation in 1969."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Both constitutions were designed against the failures of the past, but they protected democracy in different ways.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Basic Law introduced the constructive vote of no confidence, whereas South Africa's 1996 constitution created a Bill of Rights and a Constitutional Court that abolished the death penalty.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that West Germany's constitution secured stable government, while South Africa's secured individual rights against the state.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, West Germany saw a peaceful change of government in 1969, whereas South Africa's ANC won 66.36 per cent in 1999, which Thompson calls a 'one-party democracy'.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Constitutions were therefore essential in both, but consolidation also depended on alternation, which only West Germany achieved within the period.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "constitutions",
+     "constitution"
+    ],
+    "synonyms": [
+     "Basic Law",
+     "Bill of Rights",
+     "whereas"
+    ],
+    "historians": [
+     "Thompson"
+    ],
+    "extraLexicon": [
+     "Constitutional Court",
+     "constructive vote of no confidence",
+     "consolidation"
+    ]
+   },
+   "requiresTwoRegions": true
+  }
+ ]
+}

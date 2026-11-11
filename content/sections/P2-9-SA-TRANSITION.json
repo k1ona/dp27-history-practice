@@ -1,0 +1,2741 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-9-SA-TRANSITION",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 20,
+  "openingProblem": {
+   "problem": "Between 1990 and 1994 some 15,000 people died in political violence, yet in April 1994 nearly twenty million people voted peacefully in a 'free and fair' election. How did a country on the edge of civil war negotiate its way to democracy?",
+   "predictionPrompt": "Your prediction in one line: what held the negotiations together?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "Talks about talks, 1990–1992",
+    "body": "De Klerk's announcement of **2 February 1990** opened the way to negotiation, but a peaceful outcome was far from certain. It took four years of negotiations and some **15,000 deaths** in political violence before a settlement was reached. The two main sides had conflicting visions. The ANC wanted majority rule and a constitution drawn up by an elected constituent assembly. The government wanted power-sharing that would protect \"minority interests\" and a leading role for the National Party in writing the new constitution.\n\nTalks began in Cape Town in May 1990 and produced the **Groote Schuur Minute**, a commitment to further negotiations. In the **Pretoria Minute** of August 1990 the ANC agreed to suspend the armed struggle and the government lifted the state of emergency. De Klerk's government also repealed the remaining apartheid laws, including the Group Areas Act and the Population Registration Act.\n\nFormal negotiations began in December 1991 at the **Convention for a Democratic South Africa** (CODESA). Nearly 300 delegates from nineteen political groupings attended, but the ANC and the National Party dominated, through their chief negotiators Cyril Ramaphosa and Roelf Meyer. Parties on the extremes, the Pan Africanist Congress (PAC) on the left and the Conservative Party on the right, boycotted the talks. CODESA agreed on a two-stage process: an interim constitution, then a final constitution drawn up by the first elected parliament.\n\nDe Klerk faced a revolt from conservatives in his own party. In 1992 he held a referendum among white voters, and **69 per cent** voted to continue reform. The result made the National Party more confident, and it took a tougher line at CODESA, demanding special protection for minorities and a coalition government.\n\nThis mattered because both sides wanted a settlement but on very different terms, which meant that negotiation was always vulnerable to a breakdown in trust.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Pretoria Minute ended the armed struggle and the state of emergency.",
+      "evidence": [
+       "F-SAT-02"
+      ],
+      "strongestCounter": "Talks took place amid mutual suspicion."
+     },
+     {
+      "claim": "CODESA brought most parties to the table.",
+      "evidence": [
+       "F-SAT-03"
+      ],
+      "strongestCounter": "The PAC and the Conservative Party boycotted it."
+     },
+     {
+      "claim": "The 1992 referendum strengthened De Klerk.",
+      "evidence": [
+       "F-SAT-14"
+      ],
+      "strongestCounter": "It also made the NP harder to negotiate with."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was violence the main obstacle to a negotiated settlement in South Africa between 1990 and 1994?",
+     "Examine the significance of the Record of Understanding for the negotiations between 1992 and 1994."
+    ],
+    "useItInAnEssay": {
+     "claim": "The early talks succeeded in removing the main obstacles to formal negotiation.",
+     "prove": "In the Pretoria Minute of August 1990 the ANC suspended the armed struggle and the government lifted the state of emergency, and in December 1991 nearly 300 delegates met at CODESA.",
+     "explain": "This meant that both sides had committed themselves to a negotiated constitution, agreed in two stages.",
+     "test": "However, the ANC wanted majority rule and the National Party wanted power-sharing, and the 1992 referendum made the NP take a tougher line.",
+     "judge": "The early talks therefore created a process but not yet an agreement."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-TRANSITION-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What percentage of white voters supported continuing reform in the 1992 referendum? (number)",
+      "factIds": [
+       "F-SAT-14"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 69,
+        "tolerance": 0,
+        "explanation": "69 per cent."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-TRANSITION-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the ANC agree to in the Pretoria Minute of August 1990?",
+      "factIds": [
+       "F-SAT-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To suspend the armed struggle",
+        "correct": true,
+        "explanation": "Correct: the government lifted the state of emergency in return."
+       },
+       {
+        "id": "b",
+        "text": "To join the National Party",
+        "correct": false,
+        "explanation": "Not what it agreed."
+       },
+       {
+        "id": "c",
+        "text": "To accept the tricameral parliament",
+        "correct": false,
+        "explanation": "Not what it agreed."
+       },
+       {
+        "id": "d",
+        "text": "To boycott CODESA",
+        "correct": false,
+        "explanation": "The ANC dominated CODESA."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-TRANSITION-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The ANC wanted majority rule; the government wanted power-sharing to protect 'minority interests'.” Which argument does it support best?",
+      "factIds": [
+       "F-SAT-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The two sides came to the talks with conflicting visions of the future",
+        "correct": true,
+        "explanation": "Correct: compromise would be needed."
+       },
+       {
+        "id": "b",
+        "text": "The two sides agreed from the start",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The ANC wanted to protect minority interests",
+        "correct": false,
+        "explanation": "That was the government's aim."
+       },
+       {
+        "id": "d",
+        "text": "The government wanted majority rule",
+        "correct": false,
+        "explanation": "That was the ANC's aim."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "success_failure",
+    "title": "Violence and breakthrough, 1992–1994",
+    "body": "Violence threatened the process throughout. Rivalry between the ANC and the Zulu nationalist **Inkatha Freedom Party** caused much of it, and many suspected a sinister \"Third Force\" of security personnel secretly stirring up conflict. In May 1992 the ANC broke off negotiations. In June, at **Boipatong**, Inkatha supporters helped by the police attacked ANC members attending a funeral, killing dozens. Mandela suspended talks. The Goldstone Report later confirmed police involvement and the existence of a Third Force. The ANC, SACP and COSATU launched \"rolling mass action\", and in September 1992 soldiers in the Ciskei homeland fired on unarmed protesters at **Bisho**.\n\nBisho persuaded both sides that talks had to resume. In September 1992 they signed a **Record of Understanding**. The government released more political prisoners and banned \"traditional weapons\" at Inkatha rallies. The ANC accepted a Government of National Unity including the National Party for five years, and agreed to honour the contracts of civil servants, judges, police and soldiers. These **\"sunset clauses\"**, proposed by the SACP leader Joe Slovo, provided the crucial breakthrough. Historians disagree about the turning point: Leonard Thompson sees the Record of Understanding as the moment Mandela gained the upper hand over De Klerk; Giliomee and Mbenga point to Boipatong.\n\nThe violence went on. In April 1993 **Chris Hani**, a popular MK, ANC and SACP leader, was assassinated by Janusz Walus with a gun supplied by a Conservative Party member. Mandela's televised appeal for calm on 10 April defused the crisis. White extremists of the AWB stormed the World Trade Centre in June 1993 and, shortly before the election, 5,000 armed AWB members invaded the homeland of Bophuthatswana. The PAC's armed wing attacked a church congregation in Cape Town. Inkatha's leader, Buthelezi, threatened to boycott the election.\n\nEven so, in November 1993 the negotiators agreed an **interim constitution**, and a Transitional Executive Council oversaw the run-up to the election. One week before the vote, Inkatha agreed to take part.\n\nThis mattered because each crisis pushed the main parties closer together rather than apart, which meant that violence delayed the settlement but did not destroy it.",
+    "argumentsThatWork": [
+     {
+      "claim": "Violence repeatedly halted the negotiations.",
+      "evidence": [
+       "F-SAT-05",
+       "F-SAT-08"
+      ],
+      "strongestCounter": "Each crisis was followed by renewed talks."
+     },
+     {
+      "claim": "The sunset clauses were the crucial breakthrough.",
+      "evidence": [
+       "F-SAT-07"
+      ],
+      "strongestCounter": "Giliomee and Mbenga see Boipatong as the turning point."
+     },
+     {
+      "claim": "Mandela's leadership defused the Hani crisis.",
+      "evidence": [
+       "F-SAT-08",
+       "F-SAT-17"
+      ],
+      "strongestCounter": "Mandela had also suspended talks after Boipatong."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was violence the main obstacle to a negotiated settlement in South Africa between 1990 and 1994?",
+     "Examine the significance of the Record of Understanding for the negotiations between 1992 and 1994."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Record of Understanding was the turning point because it found a compromise acceptable to both sides.",
+     "prove": "Signed in September 1992 after Bisho, it committed the ANC to a Government of National Unity for five years and protected the jobs of civil servants and police, through Slovo's sunset clauses.",
+     "explain": "This meant that white fears of majority rule were reduced, so the National Party could accept elections.",
+     "test": "However, Giliomee and Mbenga argue that Boipatong was the real turning point, because the ANC had the upper hand from then on.",
+     "judge": "The Record of Understanding was therefore the moment a settlement became possible, whatever the shift in power before it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-TRANSITION-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who proposed the 'sunset clauses'?",
+      "factIds": [
+       "F-SAT-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Joe Slovo, the SACP leader",
+        "correct": true,
+        "explanation": "Correct: they provided the crucial breakthrough."
+       },
+       {
+        "id": "b",
+        "text": "F.W. de Klerk",
+        "correct": false,
+        "explanation": "Slovo proposed them."
+       },
+       {
+        "id": "c",
+        "text": "Mangosuthu Buthelezi",
+        "correct": false,
+        "explanation": "Buthelezi threatened a boycott."
+       },
+       {
+        "id": "d",
+        "text": "Chris Hani",
+        "correct": false,
+        "explanation": "Hani was assassinated in 1993."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-TRANSITION-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened at Boipatong in June 1992?",
+      "factIds": [
+       "F-SAT-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Inkatha supporters, helped by the police, killed dozens of ANC members at a funeral",
+        "correct": true,
+        "explanation": "Correct: Mandela suspended talks."
+       },
+       {
+        "id": "b",
+        "text": "The interim constitution was signed",
+        "correct": false,
+        "explanation": "That was in November 1993."
+       },
+       {
+        "id": "c",
+        "text": "Chris Hani was assassinated",
+        "correct": false,
+        "explanation": "That was in April 1993."
+       },
+       {
+        "id": "d",
+        "text": "The first election was held",
+        "correct": false,
+        "explanation": "That was in April 1994."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-TRANSITION-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Mandela's televised appeal for calm after Hani's assassination defused the situation.” Which argument does it support best?",
+      "factIds": [
+       "F-SAT-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Mandela's leadership held the transition together at moments of crisis",
+        "correct": true,
+        "explanation": "Correct: April 1993."
+       },
+       {
+        "id": "b",
+        "text": "Mandela wanted to continue the armed struggle",
+        "correct": false,
+        "explanation": "He argued against it."
+       },
+       {
+        "id": "c",
+        "text": "Hani's death ended the negotiations",
+        "correct": false,
+        "explanation": "Talks continued."
+       },
+       {
+        "id": "d",
+        "text": "Mandela played no role after 1990",
+        "correct": false,
+        "explanation": "The opposite."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "nature_methods",
+    "title": "Election and a new constitution, 1994–1996",
+    "body": "From 27 to 29 April 1994 nearly **twenty million** people, most of whom had never voted before, took part in South Africa's first election based on universal suffrage. Despite the violence that preceded it, the vote was remarkably peaceful, and foreign observers declared it \"free and fair\". The ANC won **62.65 per cent**, the National Party 20.39 per cent and Inkatha 10.54 per cent. The National Party won the Western Cape and Inkatha narrowly won KwaZulu-Natal.\n\nUnder the sunset clause, every party with at least 5 per cent of the vote joined a **Government of National Unity** for five years: twelve ANC ministers, six from the National Party and three from Inkatha. De Klerk and Thabo Mbeki served as deputy presidents, and Buthelezi became minister of home affairs. The government had to rebuild the state: the homelands were absorbed into nine new provinces, and a new defence force integrated MK and APLA guerrillas with the old army.\n\nThe elected parliament sat as a **Constitutional Assembly**, chaired by Cyril Ramaphosa, from May 1994 to May 1996. It received 1.7 million written submissions from the public. The **1996 constitution** created a National Assembly of 400 members and a National Council of Provinces, with elections every five years by proportional representation from party lists. Amendments needed a two-thirds majority. A comprehensive **Bill of Rights** listed economic as well as civil and political rights, and copies were distributed in all eleven official languages. A **Constitutional Court** protected the constitution: in its first case it abolished the death penalty, and in 1999 it ruled that prisoners had the right to vote. The historian Tom Lodge suggests one weakness: because party leaders controlled the lists, ANC MPs were reluctant to question government policy.\n\nThis mattered because the constitution was negotiated, popular and protected by an independent court, which meant that South Africa's democracy rested on firm legal foundations.",
+    "argumentsThatWork": [
+     {
+      "claim": "The 1994 election was free, fair and peaceful.",
+      "evidence": [
+       "F-SAT-13"
+      ],
+      "strongestCounter": "There were doubts about procedures in KwaZulu-Natal."
+     },
+     {
+      "claim": "The Government of National Unity shared power.",
+      "evidence": [
+       "F-SAT-18"
+      ],
+      "strongestCounter": "The ANC held a clear majority of ministers."
+     },
+     {
+      "claim": "The 1996 constitution protected rights.",
+      "evidence": [
+       "F-SAT-20",
+       "F-SAT-21"
+      ],
+      "strongestCounter": "Lodge argues the list system weakened parliament."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the success of the Government of National Unity between 1994 and 1996.",
+     "Analyse the ways in which the 1996 constitution protected democracy in South Africa between 1996 and 1999."
+    ],
+    "useItInAnEssay": {
+     "claim": "The 1996 constitution protected democracy through rights and an independent court.",
+     "prove": "It included a Bill of Rights covering economic as well as civil rights, and the Constitutional Court abolished the death penalty and in 1999 gave prisoners the vote.",
+     "explain": "This meant that citizens could challenge the government in court, so power was limited by law.",
+     "test": "However, Tom Lodge argues that the party list system made ANC MPs reluctant to question government policy.",
+     "judge": "The constitution therefore protected rights strongly, while weakening parliament's check on the executive."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-TRANSITION-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many million people voted in the April 1994 election? (number)",
+      "factIds": [
+       "F-SAT-13"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 20,
+        "tolerance": 1,
+        "explanation": "Nearly twenty million."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-TRANSITION-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many members did the National Assembly have under the 1996 constitution?",
+      "factIds": [
+       "F-SAT-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "400",
+        "correct": true,
+        "explanation": "Correct: with a National Council of Provinces."
+       },
+       {
+        "id": "b",
+        "text": "90",
+        "correct": false,
+        "explanation": "Ninety was the Senate's size."
+       },
+       {
+        "id": "c",
+        "text": "266",
+        "correct": false,
+        "explanation": "That was the ANC's 1999 total."
+       },
+       {
+        "id": "d",
+        "text": "1,000",
+        "correct": false,
+        "explanation": "Not correct."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-TRANSITION-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Constitutional Assembly received 1.7 million written submissions.” Which argument does it support best?",
+      "factIds": [
+       "F-SAT-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The constitution was drawn up with wide public participation",
+        "correct": true,
+        "explanation": "Correct: public meetings and a media campaign."
+       },
+       {
+        "id": "b",
+        "text": "The constitution was imposed by the National Party",
+        "correct": false,
+        "explanation": "It was drawn up by the elected assembly."
+       },
+       {
+        "id": "c",
+        "text": "Few people took an interest",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "The constitution was written before 1994",
+        "correct": false,
+        "explanation": "Only the interim constitution was."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "A dominant-party democracy, 1996–1999",
+    "body": "Shortly after the constitution was adopted, the Government of National Unity broke up. In **May 1996** the National Party withdrew, claiming it had little influence as a minority partner and wanted to form a strong opposition. De Klerk stepped down as deputy president and retired from party politics in 1997. The party re-formed as the New National Party but struggled to attract support. Historians explain its collapse differently: Leonard Thompson argues the new constitution was the final straw, because it made no provision for power-sharing after 1999; Nigel Worden blames De Klerk's miscalculation; Hermann Giliomee thinks the Truth and Reconciliation Commission hearings \"probably destroyed\" the party.\n\nInkatha stayed in government, and the violence between its supporters and the ANC's subsided. In 1997 **Thabo Mbeki** took over the ANC leadership, and in the **1999 election** the ANC increased its support to **66.36 per cent**, winning 266 of the 400 seats. The Democratic Party, with less than 10 per cent, became the official opposition. Party politics remained largely split along racial lines. As president from 1999, Mbeki shifted the focus from reconciliation to transformation.\n\nWas South Africa a working democracy? Thompson calls it a \"one-party democracy\", but stresses strong checks on the abuse of power: a free press, a vigorous civil society, and powerful business organisations and trade unions. The political scientist David Welsh notes that, though a single dominant party had become entrenched, democratic constitutional forms had been maintained.\n\nThis mattered because democracy survived its first transfer of power from Mandela to Mbeki, which meant that the constitution worked even though no party could seriously challenge the ANC.",
+    "argumentsThatWork": [
+     {
+      "claim": "The National Party collapsed after 1996.",
+      "evidence": [
+       "F-SAT-22",
+       "F-SAT-23"
+      ],
+      "strongestCounter": "Historians disagree about why."
+     },
+     {
+      "claim": "The ANC dominated the 1999 election.",
+      "evidence": [
+       "F-SAT-24"
+      ],
+      "strongestCounter": "Opposition parties were small and fragmented."
+     },
+     {
+      "claim": "Democracy had strong checks despite ANC dominance.",
+      "evidence": [
+       "F-SAT-26"
+      ],
+      "strongestCounter": "Thompson calls it a 'one-party democracy'."
+     }
+    ],
+    "howItGetsAsked": [
+     "Discuss the causes and effects of the decline of the National Party between 1996 and 1999.",
+     "Analyse the ways in which the 1996 constitution protected democracy in South Africa between 1996 and 1999."
+    ],
+    "useItInAnEssay": {
+     "claim": "The National Party declined because the new order gave it no special role.",
+     "prove": "It withdrew from the Government of National Unity in May 1996, and Thompson argues the constitution was the final straw because it made no provision for power-sharing after 1999.",
+     "explain": "This meant that the NP lost its influence and many supporters, so in 1999 the Democratic Party replaced it as the official opposition.",
+     "test": "However, Giliomee argues the TRC hearings 'probably destroyed' the party, and Worden blames De Klerk's miscalculation.",
+     "judge": "The NP's decline therefore left the ANC dominant, creating what Thompson calls a 'one-party democracy'."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-TRANSITION-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did the National Party withdraw from the Government of National Unity? (year)",
+      "factIds": [
+       "F-SAT-22"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1996,
+        "tolerance": 0,
+        "explanation": "In May 1996."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-TRANSITION-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What share of the vote did the ANC win in 1999?",
+      "factIds": [
+       "F-SAT-24"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "66.36 per cent",
+        "correct": true,
+        "explanation": "Correct: 266 of 400 seats."
+       },
+       {
+        "id": "b",
+        "text": "62.65 per cent",
+        "correct": false,
+        "explanation": "That was 1994."
+       },
+       {
+        "id": "c",
+        "text": "20.39 per cent",
+        "correct": false,
+        "explanation": "That was the NP in 1994."
+       },
+       {
+        "id": "d",
+        "text": "Less than 10 per cent",
+        "correct": false,
+        "explanation": "That was the Democratic Party."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-TRANSITION-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Thompson points to a free press, a vigorous civil society and powerful trade unions as checks on the ANC.” Which argument does it support best?",
+      "factIds": [
+       "F-SAT-26"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "South Africa remained a democracy despite one party's dominance",
+        "correct": true,
+        "explanation": "Correct: power was still checked."
+       },
+       {
+        "id": "b",
+        "text": "South Africa was a dictatorship",
+        "correct": false,
+        "explanation": "The checks show otherwise."
+       },
+       {
+        "id": "c",
+        "text": "The ANC lost power in 1999",
+        "correct": false,
+        "explanation": "It increased its share."
+       },
+       {
+        "id": "d",
+        "text": "There was no opposition at all",
+        "correct": false,
+        "explanation": "The DP was the official opposition."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1990,
+      "month": 2,
+      "day": 2,
+      "text": "De Klerk unbans the ANC",
+      "factId": "F-SAT-27"
+     },
+     {
+      "year": 1990,
+      "month": 8,
+      "text": "Pretoria Minute: armed struggle suspended",
+      "factId": "F-SAT-02"
+     },
+     {
+      "year": 1991,
+      "month": 12,
+      "text": "CODESA opens",
+      "factId": "F-SAT-03"
+     },
+     {
+      "year": 1992,
+      "month": 6,
+      "text": "Boipatong massacre",
+      "factId": "F-SAT-05"
+     },
+     {
+      "year": 1992,
+      "month": 9,
+      "text": "Record of Understanding",
+      "factId": "F-SAT-07"
+     },
+     {
+      "year": 1993,
+      "month": 4,
+      "day": 10,
+      "text": "Hani assassinated; Mandela's televised appeal",
+      "factId": "F-SAT-08"
+     },
+     {
+      "year": 1993,
+      "month": 11,
+      "text": "Interim constitution agreed",
+      "factId": "F-SAT-12"
+     },
+     {
+      "year": 1994,
+      "month": 4,
+      "text": "First democratic election",
+      "factId": "F-SAT-13"
+     },
+     {
+      "year": 1996,
+      "month": 5,
+      "text": "Constitution adopted; NP leaves the GNU",
+      "factId": "F-SAT-22"
+     },
+     {
+      "year": 1999,
+      "text": "Second election; Mbeki president",
+      "factId": "F-SAT-24"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "ANC and NP agree to negotiate but want different outcomes",
+      "factId": "F-SAT-01"
+     },
+     {
+      "id": "n2",
+      "text": "CODESA opens but violence and Boipatong break off talks",
+      "factId": "F-SAT-05"
+     },
+     {
+      "id": "n3",
+      "text": "Record of Understanding and sunset clauses",
+      "factId": "F-SAT-07"
+     },
+     {
+      "id": "n4",
+      "text": "Interim constitution and the 1994 election",
+      "factId": "F-SAT-13"
+     },
+     {
+      "id": "n5",
+      "text": "Government of National Unity and the 1996 constitution",
+      "factId": "F-SAT-20"
+     },
+     {
+      "id": "n6",
+      "text": "NP collapses; ANC dominance in 1999",
+      "factId": "F-SAT-24"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Mistrust and rival groups fed violence"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Bisho persuaded both sides talks had to resume"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Guaranteed power-sharing reduced white fears"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "The elected parliament wrote the final constitution"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "No power-sharing after 1999 left the NP without a role"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Nelson Mandela",
+     "role": "ANC president from 1991; president 1994–1999",
+     "whyItMatters": "Defused the Hani crisis; argued against continuing the armed struggle.",
+     "factIds": [
+      "F-SAT-08",
+      "F-SAT-17"
+     ]
+    },
+    {
+     "name": "F.W. de Klerk",
+     "role": "President to 1994; deputy president to 1996",
+     "whyItMatters": "Won the 1992 referendum; shared the 1993 Nobel Peace Prize.",
+     "factIds": [
+      "F-SAT-14",
+      "F-SAT-15"
+     ]
+    },
+    {
+     "name": "Joe Slovo",
+     "role": "SACP leader",
+     "whyItMatters": "Proposed the sunset clauses that broke the deadlock.",
+     "factIds": [
+      "F-SAT-07"
+     ]
+    },
+    {
+     "name": "Cyril Ramaphosa",
+     "role": "ANC chief negotiator",
+     "whyItMatters": "Led the ANC at CODESA; chaired the Constitutional Assembly.",
+     "factIds": [
+      "F-SAT-15",
+      "F-SAT-19"
+     ]
+    },
+    {
+     "name": "Mangosuthu Buthelezi",
+     "role": "Inkatha leader",
+     "whyItMatters": "Threatened a boycott; joined a week before the election.",
+     "factIds": [
+      "F-SAT-11",
+      "F-SAT-18"
+     ]
+    },
+    {
+     "name": "Chris Hani",
+     "role": "MK, ANC and SACP leader",
+     "whyItMatters": "His assassination in April 1993 threatened the settlement.",
+     "factIds": [
+      "F-SAT-08"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "ANC",
+     "National Party"
+    ],
+    "rows": [
+     {
+      "criterion": "Aim in 1990",
+      "cells": [
+       "Majority rule",
+       "Power-sharing to protect 'minority interests'"
+      ],
+      "factIds": [
+       "F-SAT-01"
+      ]
+     },
+     {
+      "criterion": "Concession",
+      "cells": [
+       "Sunset clauses: five-year coalition, jobs protected",
+       "More prisoners released; traditional weapons banned"
+      ],
+      "factIds": [
+       "F-SAT-07"
+      ]
+     },
+     {
+      "criterion": "1994 result",
+      "cells": [
+       "62.65 per cent",
+       "20.39 per cent"
+      ],
+      "factIds": [
+       "F-SAT-13"
+      ]
+     },
+     {
+      "criterion": "By 1999",
+      "cells": [
+       "66.36 per cent and 266 seats",
+       "Left the GNU in 1996; re-formed as the NNP"
+      ],
+      "factIds": [
+       "F-SAT-24",
+       "F-SAT-22"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-SAT-02",
+    "year": 1990,
+    "text": "Pretoria Minute (August 1990): ANC suspended armed struggle; state of emergency lifted.",
+    "supports": [
+     "Early talks removed obstacles"
+    ],
+    "lexicon": [
+     "Pretoria Minute",
+     "armed struggle"
+    ]
+   },
+   {
+    "factId": "F-SAT-05",
+    "year": 1992,
+    "text": "Boipatong (June 1992): dozens killed; Goldstone confirmed a 'Third Force'.",
+    "supports": [
+     "Violence threatened the settlement"
+    ],
+    "lexicon": [
+     "Boipatong",
+     "Third Force"
+    ]
+   },
+   {
+    "factId": "F-SAT-07",
+    "year": 1992,
+    "text": "Record of Understanding (September 1992): Slovo's sunset clauses broke the deadlock.",
+    "supports": [
+     "Compromise made a settlement possible"
+    ],
+    "lexicon": [
+     "sunset clauses",
+     "Record of Understanding"
+    ]
+   },
+   {
+    "factId": "F-SAT-08",
+    "year": 1993,
+    "text": "Hani assassinated (April 1993); Mandela's televised appeal for calm.",
+    "supports": [
+     "Leadership held the transition together"
+    ],
+    "lexicon": [
+     "Hani",
+     "Mandela"
+    ]
+   },
+   {
+    "factId": "F-SAT-13",
+    "year": 1994,
+    "text": "April 1994 election: nearly 20 million voted; ANC 62.65 per cent.",
+    "supports": [
+     "The transition produced a free and fair election"
+    ],
+    "lexicon": [
+     "election",
+     "universal suffrage"
+    ]
+   },
+   {
+    "factId": "F-SAT-20",
+    "year": 1996,
+    "text": "1996 constitution: Bill of Rights, proportional representation, two-thirds for amendments.",
+    "supports": [
+     "Democracy rested on firm legal foundations"
+    ],
+    "lexicon": [
+     "constitution",
+     "Bill of Rights"
+    ]
+   },
+   {
+    "factId": "F-SAT-26",
+    "year": 1999,
+    "text": "Thompson: a 'one-party democracy' with strong checks.",
+    "supports": [
+     "Democracy survived ANC dominance"
+    ],
+    "alsoWorksFor": [
+     "P2-9-SA-CONDITIONS"
+    ],
+    "lexicon": [
+     "one-party democracy",
+     "civil society"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Leonard Thompson",
+    "argument": "The Record of Understanding was the moment the government lost control of the transition and Mandela gained ascendancy over De Klerk (as summarised by Bottaro and Stanley); Giliomee and Mbenga instead see Boipatong as the turning point.",
+    "useItLikeThis": "Thompson's view supports the claim that compromise, not violence, decided the balance of power, which suggests the sunset clauses mattered most.",
+    "factId": "F-SAT-16"
+   },
+   {
+    "historian": "Tom Lodge",
+    "argument": "The party-list system weakened parliamentary democracy, because ANC MPs whose places depended on the party leadership were reluctant to question government policy (as summarised by Bottaro and Stanley).",
+    "useItLikeThis": "Lodge's view supports the claim that the 1996 constitution protected rights but weakened parliament's check on the government, which suggests democracy was formal rather than fully competitive.",
+    "factId": "F-SAT-20"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Apartheid ended peacefully on the day Mandela was released.",
+    "right": "Four years of negotiation followed, with some **15,000 deaths** in political violence."
+   },
+   {
+    "wrong": "The ANC governed alone from 1994.",
+    "right": "A **Government of National Unity** with the NP and Inkatha ruled until the NP withdrew in 1996."
+   },
+   {
+    "wrong": "The 1996 constitution was written by the National Party.",
+    "right": "An elected **Constitutional Assembly** chaired by Ramaphosa wrote it, with 1.7 million public submissions."
+   },
+   {
+    "wrong": "The ANC's dominance meant South Africa was a dictatorship.",
+    "right": "Thompson notes **strong checks**: a free press, civil society, business and trade unions."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1990,
+     "month": 2,
+     "day": 2,
+     "text": "ANC unbanned"
+    },
+    {
+     "year": 1990,
+     "month": 8,
+     "text": "Pretoria Minute"
+    },
+    {
+     "year": 1991,
+     "month": 12,
+     "text": "CODESA"
+    },
+    {
+     "year": 1992,
+     "month": 9,
+     "text": "Record of Understanding"
+    },
+    {
+     "year": 1993,
+     "month": 4,
+     "text": "Hani assassinated"
+    },
+    {
+     "year": 1994,
+     "month": 4,
+     "text": "First democratic election"
+    },
+    {
+     "year": 1996,
+     "month": 5,
+     "text": "Constitution; NP leaves GNU"
+    },
+    {
+     "year": 1999,
+     "text": "ANC 66.36 per cent"
+    }
+   ],
+   "keyArguments": [
+    "The ANC wanted majority rule; the NP wanted power-sharing: compromise was needed.",
+    "Violence (Boipatong, Hani, the AWB) repeatedly halted talks but never destroyed them.",
+    "Slovo's sunset clauses in the Record of Understanding were the crucial breakthrough.",
+    "The 1996 constitution, Bill of Rights and Constitutional Court gave democracy firm foundations.",
+    "After 1996 the NP collapsed and the ANC dominated: Thompson's 'one-party democracy' with strong checks."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-9-SA-TRANSITION-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Talks begin in Cape Town",
+     "year": 1990,
+     "month": 5,
+     "factId": "F-SAT-02"
+    },
+    {
+     "id": "b",
+     "text": "Pretoria Minute",
+     "year": 1990,
+     "month": 8,
+     "factId": "F-SAT-02"
+    },
+    {
+     "id": "c",
+     "text": "CODESA opens",
+     "year": 1991,
+     "month": 12,
+     "factId": "F-SAT-03"
+    },
+    {
+     "id": "d",
+     "text": "Boipatong massacre",
+     "year": 1992,
+     "month": 6,
+     "factId": "F-SAT-05"
+    },
+    {
+     "id": "e",
+     "text": "Bisho massacre",
+     "year": 1992,
+     "month": 9,
+     "factId": "F-SAT-06"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Hani assassinated",
+     "year": 1993,
+     "month": 4,
+     "factId": "F-SAT-08"
+    },
+    {
+     "id": "b",
+     "text": "AWB storms the World Trade Centre",
+     "year": 1993,
+     "month": 6,
+     "factId": "F-SAT-09"
+    },
+    {
+     "id": "c",
+     "text": "Interim constitution agreed",
+     "year": 1993,
+     "month": 11,
+     "factId": "F-SAT-12"
+    },
+    {
+     "id": "d",
+     "text": "First democratic election",
+     "year": 1994,
+     "month": 4,
+     "factId": "F-SAT-13"
+    },
+    {
+     "id": "e",
+     "text": "Final constitution adopted",
+     "year": 1996,
+     "month": 5,
+     "factId": "F-SAT-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Constitutional Assembly begins work",
+     "year": 1994,
+     "month": 5,
+     "factId": "F-SAT-19"
+    },
+    {
+     "id": "b",
+     "text": "NP withdraws from the GNU",
+     "year": 1996,
+     "month": 5,
+     "factId": "F-SAT-22"
+    },
+    {
+     "id": "c",
+     "text": "Mbeki becomes ANC leader",
+     "year": 1997,
+     "factId": "F-SAT-25"
+    },
+    {
+     "id": "d",
+     "text": "Second democratic election",
+     "year": 1999,
+     "factId": "F-SAT-24"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role in the transition.",
+   "pairs": [
+    {
+     "left": "Joe Slovo",
+     "right": "Proposed the sunset clauses",
+     "explanation": "SACP leader."
+    },
+    {
+     "left": "Cyril Ramaphosa",
+     "right": "ANC chief negotiator; chaired the Constitutional Assembly",
+     "explanation": "At CODESA and after 1994."
+    },
+    {
+     "left": "Roelf Meyer",
+     "right": "National Party chief negotiator",
+     "explanation": "At CODESA."
+    },
+    {
+     "left": "Mangosuthu Buthelezi",
+     "right": "Inkatha leader who threatened to boycott the election",
+     "explanation": "Joined one week before."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people died in political violence between 1990 and 1994, according to Bottaro and Stanley? (number)",
+   "factIds": [
+    "F-SAT-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 15000,
+     "tolerance": 500,
+     "explanation": "About 15,000."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how many delegates attended CODESA? (number)",
+   "factIds": [
+    "F-SAT-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 300,
+     "tolerance": 10,
+     "explanation": "Nearly 300, from nineteen groupings."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many seats did the ANC win in the 1999 election? (number)",
+   "factIds": [
+    "F-SAT-24"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 266,
+     "tolerance": 0,
+     "explanation": "266 of 400."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many written submissions (in millions) did the Constitutional Assembly receive? (number, e.g. 2.5)",
+   "factIds": [
+    "F-SAT-19"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1.7,
+     "tolerance": 0.1,
+     "explanation": "1.7 million."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these threatened the negotiations? Choose all that apply.",
+   "factIds": [
+    "F-SAT-05",
+    "F-SAT-08",
+    "F-SAT-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Boipatong massacre",
+     "correct": true,
+     "explanation": "Yes: Mandela suspended talks."
+    },
+    {
+     "id": "b",
+     "text": "The assassination of Chris Hani",
+     "correct": true,
+     "explanation": "Yes: April 1993."
+    },
+    {
+     "id": "c",
+     "text": "The AWB's invasion of Bophuthatswana",
+     "correct": true,
+     "explanation": "Yes: shortly before the election."
+    },
+    {
+     "id": "d",
+     "text": "The 1992 white referendum result",
+     "correct": false,
+     "explanation": "No: it strengthened De Klerk's reforms."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the 1996 constitution? Choose all that apply.",
+   "factIds": [
+    "F-SAT-20",
+    "F-SAT-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A Bill of Rights including economic rights",
+     "correct": true,
+     "explanation": "Yes: such as access to housing and water."
+    },
+    {
+     "id": "b",
+     "text": "Proportional representation by party lists",
+     "correct": true,
+     "explanation": "Yes: Lodge criticised the effect."
+    },
+    {
+     "id": "c",
+     "text": "A Constitutional Court",
+     "correct": true,
+     "explanation": "Yes: it abolished the death penalty."
+    },
+    {
+     "id": "d",
+     "text": "A whites-only Senate",
+     "correct": false,
+     "explanation": "No: the NCOP represented the provinces."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The ANC accepted a Government of National Unity including the National Party for five years.” Which argument does it support?",
+   "factIds": [
+    "F-SAT-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The ANC compromised to reassure white South Africans",
+     "correct": true,
+     "explanation": "Correct: the sunset clauses."
+    },
+    {
+     "id": "b",
+     "text": "The ANC refused to share power",
+     "correct": false,
+     "explanation": "It agreed to share power."
+    },
+    {
+     "id": "c",
+     "text": "The NP won the 1994 election",
+     "correct": false,
+     "explanation": "The ANC won."
+    },
+    {
+     "id": "d",
+     "text": "Power-sharing was permanent",
+     "correct": false,
+     "explanation": "It lasted five years at most."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Democratic Party won less than 10 per cent in 1999 and became the official opposition.” Which argument does it support?",
+   "factIds": [
+    "F-SAT-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Opposition to the ANC was weak and fragmented",
+     "correct": true,
+     "explanation": "Correct: hence 'one-party democracy'."
+    },
+    {
+     "id": "b",
+     "text": "The DP nearly won the election",
+     "correct": false,
+     "explanation": "It won under 10 per cent."
+    },
+    {
+     "id": "c",
+     "text": "There was no opposition",
+     "correct": false,
+     "explanation": "The DP was the official opposition."
+    },
+    {
+     "id": "d",
+     "text": "The NP remained the main opposition",
+     "correct": false,
+     "explanation": "The DP replaced it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In the Pretoria Minute of August 1990 the government agreed to suspend the armed struggle.”",
+   "factIds": [
+    "F-SAT-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was the ANC that suspended the armed struggle; the government lifted the state of emergency",
+     "correct": true,
+     "explanation": "Correct: each side made a concession."
+    },
+    {
+     "id": "b",
+     "text": "The Pretoria Minute was in 1994",
+     "correct": false,
+     "explanation": "It was in August 1990."
+    },
+    {
+     "id": "c",
+     "text": "The Pretoria Minute ended negotiations",
+     "correct": false,
+     "explanation": "It advanced them."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the ANC suspended the armed struggle."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The National Party stayed in the Government of National Unity until the 1999 election.”",
+   "factIds": [
+    "F-SAT-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The National Party withdrew in May 1996",
+     "correct": true,
+     "explanation": "Correct: Inkatha stayed."
+    },
+    {
+     "id": "b",
+     "text": "There was no Government of National Unity",
+     "correct": false,
+     "explanation": "There was, from 1994."
+    },
+    {
+     "id": "c",
+     "text": "The GNU was led by De Klerk",
+     "correct": false,
+     "explanation": "Mandela was president."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the NP left in 1996."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the transition to democracy in South Africa between 1990 and 1994. Is the 1976 Soweto uprising inside or outside the timeframe?",
+   "factIds": [
+    "F-SAT-27"
+   ],
+   "timeframe": [
+    1990,
+    1994
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be used briefly as background",
+     "correct": true,
+     "explanation": "Correct: the question starts in 1990."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1976 is before 1990."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it caused the transition",
+     "correct": false,
+     "explanation": "Background, not the focus."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were the 'sunset clauses'?",
+   "factIds": [
+    "F-SAT-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Concessions including a five-year power-sharing government and protection of civil servants' jobs",
+     "correct": true,
+     "explanation": "Correct: proposed by Slovo."
+    },
+    {
+     "id": "b",
+     "text": "Clauses ending the death penalty",
+     "correct": false,
+     "explanation": "The Constitutional Court did that."
+    },
+    {
+     "id": "c",
+     "text": "Clauses setting up homelands",
+     "correct": false,
+     "explanation": "Homelands were abolished."
+    },
+    {
+     "id": "d",
+     "text": "A timetable for the AWB",
+     "correct": false,
+     "explanation": "Not what they were."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which historians see Boipatong as the turning point in the negotiations, according to Bottaro and Stanley?",
+   "factIds": [
+    "F-SAT-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hermann Giliomee and Bernard Mbenga",
+     "correct": true,
+     "explanation": "Correct: Thompson points to the Record of Understanding."
+    },
+    {
+     "id": "b",
+     "text": "Leonard Thompson",
+     "correct": false,
+     "explanation": "Thompson points to the Record of Understanding."
+    },
+    {
+     "id": "c",
+     "text": "Tom Lodge",
+     "correct": false,
+     "explanation": "Lodge wrote about the list system."
+    },
+    {
+     "id": "d",
+     "text": "David Welsh",
+     "correct": false,
+     "explanation": "Welsh wrote about the survival of democracy."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How was the Government of National Unity made up?",
+   "factIds": [
+    "F-SAT-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Twelve ANC, six National Party and three Inkatha representatives",
+     "correct": true,
+     "explanation": "Correct: every party with 5 per cent or more."
+    },
+    {
+     "id": "b",
+     "text": "ANC ministers only",
+     "correct": false,
+     "explanation": "It was a coalition."
+    },
+    {
+     "id": "c",
+     "text": "Equal numbers from each party",
+     "correct": false,
+     "explanation": "The ANC had most."
+    },
+    {
+     "id": "d",
+     "text": "National Party ministers only",
+     "correct": false,
+     "explanation": "The ANC had won."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Constitutional Court rule in its first case?",
+   "factIds": [
+    "F-SAT-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That the death penalty was unconstitutional",
+     "correct": true,
+     "explanation": "Correct: a landmark ruling."
+    },
+    {
+     "id": "b",
+     "text": "That the ANC must share power",
+     "correct": false,
+     "explanation": "Not what it ruled."
+    },
+    {
+     "id": "c",
+     "text": "That the election was invalid",
+     "correct": false,
+     "explanation": "Not what it ruled."
+    },
+    {
+     "id": "d",
+     "text": "That prisoners could not vote",
+     "correct": false,
+     "explanation": "In 1999 it ruled prisoners could vote."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Inkatha's decision one week before the election matter?",
+   "factIds": [
+    "F-SAT-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Millions feared more bloodshed in KwaZulu-Natal if Inkatha stayed out",
+     "correct": true,
+     "explanation": "Correct: its participation reduced the risk."
+    },
+    {
+     "id": "b",
+     "text": "It meant Inkatha won the election",
+     "correct": false,
+     "explanation": "The ANC won."
+    },
+    {
+     "id": "c",
+     "text": "It ended the National Party",
+     "correct": false,
+     "explanation": "Not what it did."
+    },
+    {
+     "id": "d",
+     "text": "It cancelled the election",
+     "correct": false,
+     "explanation": "The election went ahead."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-9-SA-TRANSITION-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was violence the main obstacle to a negotiated settlement in South Africa between 1990 and 1994?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "violence",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main obstacle to a negotiated settlement",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1990 and 1994",
+     "answer": "timeframe",
+     "explanation": "From De Klerk's speech to the election."
+    },
+    {
+     "id": "s5",
+     "text": "main obstacle",
+     "answer": "judgement",
+     "explanation": "Whether violence outweighed conflicting aims and mistrust."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the success of the Government of National Unity between 1994 and 1996.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Evaluate",
+     "answer": "verb",
+     "explanation": "Weigh strengths and limits, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "the Government of National Unity",
+     "answer": "factor",
+     "explanation": "The government to evaluate."
+    },
+    {
+     "id": "s3",
+     "text": "success",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1994 and 1996",
+     "answer": "timeframe",
+     "explanation": "From the election to the NP's withdrawal."
+    },
+    {
+     "id": "s5",
+     "text": "success",
+     "answer": "judgement",
+     "explanation": "Success by what criterion: stability, constitution, or power-sharing?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was violence the main obstacle to a negotiated settlement between 1990 and 1994?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Violence was the most visible obstacle and repeatedly halted talks, but the deeper obstacle was the clash between majority rule and power-sharing, which only the sunset clauses resolved.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against another."
+    },
+    {
+     "id": "b",
+     "text": "There was a lot of violence between 1990 and 1994.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Violence was bad.",
+     "correct": false,
+     "explanation": "Not a historical judgement."
+    },
+    {
+     "id": "d",
+     "text": "Violence was the only obstacle.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the success of the Government of National Unity between 1994 and 1996.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The GNU succeeded in its main goal, a negotiated constitution with wide participation, but failed as a lasting coalition, since the National Party withdrew in 1996.",
+     "correct": true,
+     "explanation": "Correct: success with a limit."
+    },
+    {
+     "id": "b",
+     "text": "The GNU was formed in 1994.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The GNU was good.",
+     "correct": false,
+     "explanation": "Not a judgement with criteria."
+    },
+    {
+     "id": "d",
+     "text": "The GNU failed completely.",
+     "correct": false,
+     "explanation": "Ignores the constitution."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In September 1992 the two sides signed a Record of Understanding.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the sunset clauses guaranteed power-sharing, they reduced white fears of majority rule.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In 1999 the ANC won 66.36 per cent of the vote.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that no party could seriously challenge the ANC, which is why Thompson calls it a 'one-party democracy'.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Mandela's televised appeal after Hani's death",
+     "right": "Leadership held the transition together",
+     "explanation": "April 1993."
+    },
+    {
+     "left": "Slovo's sunset clauses",
+     "right": "Compromise made a settlement possible",
+     "explanation": "September 1992."
+    },
+    {
+     "left": "1.7 million public submissions",
+     "right": "The constitution was drawn up with wide participation",
+     "explanation": "1994–1996."
+    },
+    {
+     "left": "The NP's withdrawal in May 1996",
+     "right": "Power-sharing did not last",
+     "explanation": "Inkatha stayed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Mandela was important in the transition.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Mandela argued against continuing the armed struggle and defused the Hani crisis with a televised appeal for calm, he kept the ANC committed to negotiation at its most dangerous moments; but the breakthrough itself came from Slovo's sunset clauses.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and qualification."
+    },
+    {
+     "id": "b",
+     "text": "Mandela was very important.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Mandela was released in 1990.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Mandela did everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Violence made a negotiated settlement impossible.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "After every crisis the parties returned to talks: Bisho led to the Record of Understanding, Hani's assassination was followed by agreement on an interim constitution, and the 1994 election was peaceful.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Violence is never important.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "South Africa is a large country.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Some people were peaceful.",
+     "correct": false,
+     "explanation": "Too vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was violence the main obstacle to a negotiated settlement between 1990 and 1994?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what stopped the talks, violence was the main obstacle; judged by what had to be resolved before agreement, the conflict between majority rule and power-sharing mattered more.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there was violence and then an election.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Mandela was a hero.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, violence always stops negotiations.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-TRANSITION-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the causes and effects of the decline of the National Party between 1996 and 1999.” Sort each plan point into CAUSES or EFFECTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Effects"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "No power-sharing after 1999 in the new constitution",
+     "answer": "causes",
+     "explanation": "Thompson's view."
+    },
+    {
+     "id": "s2",
+     "text": "The TRC hearings",
+     "answer": "causes",
+     "explanation": "Giliomee's view."
+    },
+    {
+     "id": "s3",
+     "text": "De Klerk's miscalculation",
+     "answer": "causes",
+     "explanation": "Worden's view."
+    },
+    {
+     "id": "s4",
+     "text": "The DP becomes the official opposition in 1999",
+     "answer": "effects",
+     "explanation": "Under 10 per cent."
+    },
+    {
+     "id": "s5",
+     "text": "ANC dominance: a 'one-party democracy'",
+     "answer": "effects",
+     "explanation": "Thompson's phrase."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-9-SA-TRANSITION-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was violence the main obstacle to a negotiated settlement in South Africa between 1990 and 1994?",
+   "commandTerm": "to what extent",
+   "namedFactor": "violence",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1990,
+    1994
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Violence, weighed first",
+    "timeframe": "1990–1994",
+    "scope": "A negotiated settlement",
+    "judgement": "Whether violence outweighed conflicting aims and mistrust"
+   },
+   "modelPlan": {
+    "thesis": "Violence was the most visible obstacle and repeatedly halted talks, but the deeper obstacle was the clash between majority rule and power-sharing, which only the sunset clauses resolved.",
+    "arguments": [
+     {
+      "claim": "Violence: Inkatha, the Third Force and Boipatong (named factor first).",
+      "evidence": [
+       "F-SAT-04",
+       "F-SAT-05"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Violence: Hani, the AWB and APLA.",
+      "evidence": [
+       "F-SAT-08",
+       "F-SAT-09",
+       "F-SAT-10"
+      ]
+     },
+     {
+      "claim": "Conflicting aims: majority rule versus power-sharing.",
+      "evidence": [
+       "F-SAT-01",
+       "F-SAT-14"
+      ]
+     },
+     {
+      "claim": "The sunset clauses resolve the deadlock.",
+      "evidence": [
+       "F-SAT-07"
+      ]
+     }
+    ],
+    "counter": "Each act of violence was followed by renewed talks, which suggests violence delayed rather than blocked a settlement.",
+    "judgementCriterion": "What had to be overcome before agreement? The conflict over power-sharing, not the violence."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Violence was the most visible obstacle to a settlement, but not the most fundamental one.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "At Boipatong in June 1992 Inkatha supporters, helped by the police, killed dozens of ANC members, and Mandela suspended the talks.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that violence destroyed trust, so the ANC suspected the government of using a 'Third Force' to weaken it.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, talks resumed within months, and the real deadlock, majority rule against power-sharing, was broken only by Slovo's sunset clauses.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Violence therefore delayed the settlement, while the conflict over power-sharing was the main obstacle.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "violence"
+    ],
+    "synonyms": [
+     "Boipatong",
+     "Third Force",
+     "Hani",
+     "AWB"
+    ],
+    "historians": [
+     "Thompson",
+     "Giliomee",
+     "Mbenga"
+    ],
+    "extraLexicon": [
+     "sunset clauses",
+     "power-sharing",
+     "majority rule"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-TRANSITION-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Mandela was the most important individual in South Africa's transition to democracy.” Discuss with reference to the period 1990 to 1994.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition",
+    "leader"
+   ],
+   "timeframe": [
+    1990,
+    1994
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: Mandela mattered most",
+    "timeframe": "1990–1994",
+    "scope": "The transition to democracy",
+    "judgement": "Compared with De Klerk, Slovo and others"
+   },
+   "modelPlan": {
+    "thesis": "Mandela was the most important individual because he kept the ANC committed to negotiation and held the country together after Hani's assassination; but De Klerk started the process and Slovo's sunset clauses broke the deadlock.",
+    "arguments": [
+     {
+      "claim": "For: Mandela against the armed struggle.",
+      "evidence": [
+       "F-SAT-17"
+      ]
+     },
+     {
+      "claim": "For: the Hani crisis.",
+      "evidence": [
+       "F-SAT-08"
+      ]
+     },
+     {
+      "claim": "Against: De Klerk and the referendum.",
+      "evidence": [
+       "F-SAT-14",
+       "F-SAT-15"
+      ]
+     },
+     {
+      "claim": "Against: Slovo's sunset clauses.",
+      "evidence": [
+       "F-SAT-07"
+      ]
+     }
+    ],
+    "counter": "The transition depended on compromise by both sides, not on one individual.",
+    "judgementCriterion": "Most important by what measure? Mandela for holding the process together, Slovo for the breakthrough."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Mandela was the most important individual because he held the transition together at its most dangerous moments.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He argued against those in the ANC who wanted to continue the armed struggle, and after Hani's assassination in April 1993 his televised appeal for calm defused the crisis.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the ANC stayed committed to negotiation, so the process survived the violence.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, De Klerk began the process and won the 1992 referendum, and Slovo's sunset clauses provided the crucial breakthrough.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Mandela was therefore the most important individual, though the settlement needed several leaders willing to compromise.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Mandela"
+    ],
+    "synonyms": [
+     "leader",
+     "individual"
+    ],
+    "historians": [
+     "Thompson"
+    ],
+    "extraLexicon": [
+     "De Klerk",
+     "Slovo",
+     "Hani"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-TRANSITION-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the success of the Government of National Unity between 1994 and 1996.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1994,
+    1996
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The success of the GNU",
+    "timeframe": "1994–1996",
+    "scope": "South Africa",
+    "judgement": "Success by what criterion?"
+   },
+   "modelPlan": {
+    "thesis": "The GNU succeeded in its main goal, a negotiated constitution with wide participation, but failed as a lasting coalition, since the National Party withdrew in 1996.",
+    "arguments": [
+     {
+      "claim": "Power-sharing in practice.",
+      "evidence": [
+       "F-SAT-18"
+      ]
+     },
+     {
+      "claim": "Rebuilding the state.",
+      "evidence": [
+       "F-SAT-19"
+      ]
+     },
+     {
+      "claim": "The 1996 constitution.",
+      "evidence": [
+       "F-SAT-19",
+       "F-SAT-20"
+      ]
+     },
+     {
+      "claim": "Limits: the NP's withdrawal.",
+      "evidence": [
+       "F-SAT-22"
+      ]
+     }
+    ],
+    "counter": "The NP claimed it had little influence, which suggests power-sharing was more formal than real.",
+    "judgementCriterion": "Judged by its main goal, a constitution, the GNU was a success."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Government of National Unity succeeded in its main task, though not as a lasting coalition.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Its Constitutional Assembly, chaired by Ramaphosa, received 1.7 million submissions and adopted the final constitution in May 1996.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that South Africa gained a constitution with wide public support, so democracy rested on firm foundations.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in May 1996 the National Party withdrew, claiming it had little influence as a minority partner.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The GNU was therefore a success, because it achieved the constitution before power-sharing broke down.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Government of National Unity",
+     "GNU"
+    ],
+    "synonyms": [
+     "coalition",
+     "power-sharing"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "constitution",
+     "Ramaphosa",
+     "National Party"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-TRANSITION-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Discuss the causes and effects of the decline of the National Party between 1996 and 1999.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1996,
+    1999
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Discuss: weigh the causes and effects, then judge",
+    "factorOrTask": "Two tasks: causes AND effects",
+    "timeframe": "1996–1999",
+    "scope": "The decline of the National Party",
+    "judgement": "Which cause mattered most, and which effect was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The National Party declined because the new constitution gave it no guaranteed role after 1999 and the TRC damaged its reputation; the main effect was the ANC's dominance in a 'one-party democracy'.",
+    "arguments": [
+     {
+      "claim": "Cause: no power-sharing after 1999.",
+      "evidence": [
+       "F-SAT-23"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Cause: De Klerk's miscalculation and the TRC.",
+      "evidence": [
+       "F-SAT-23"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Effect: withdrawal from the GNU and the NNP.",
+      "evidence": [
+       "F-SAT-22"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Effect: ANC dominance in 1999.",
+      "evidence": [
+       "F-SAT-24",
+       "F-SAT-26"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Thompson notes strong checks on the ANC, which suggests the NP's decline did not end democracy.",
+    "judgementCriterion": "Which cause mattered most? The constitution, which ended guaranteed power-sharing."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The National Party declined because the new order gave it no guaranteed role.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "It withdrew from the GNU in May 1996, and Thompson argues the constitution was the final straw because it made no provision for power-sharing after 1999.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the NP could only be a minority opposition, so many supporters moved to the Democratic Party, which became the official opposition in 1999.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Giliomee argues the TRC hearings 'probably destroyed' the party, and Worden blames De Klerk's miscalculation.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant effect was therefore the ANC's dominance, which Thompson calls a 'one-party democracy'.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "National Party"
+    ],
+    "synonyms": [
+     "NP",
+     "New National Party"
+    ],
+    "historians": [
+     "Thompson",
+     "Worden",
+     "Giliomee"
+    ],
+    "extraLexicon": [
+     "one-party democracy",
+     "TRC",
+     "Democratic Party"
+    ],
+    "parts": [
+     {
+      "name": "causes",
+      "terms": [
+       "cause",
+       "because",
+       "reason"
+      ]
+     },
+     {
+      "name": "effects",
+      "terms": [
+       "effect",
+       "result",
+       "consequence"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-TRANSITION-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the ways in which the 1996 constitution protected democracy in South Africa between 1996 and 1999.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1996,
+    1999
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Ways the constitution protected democracy",
+    "timeframe": "1996–1999",
+    "scope": "The 1996 constitution",
+    "judgement": "Which protection mattered most, and any weakness"
+   },
+   "modelPlan": {
+    "thesis": "The 1996 constitution protected democracy through a Bill of Rights, a Constitutional Court and proportional elections, though the party-list system weakened parliament's check on the government.",
+    "arguments": [
+     {
+      "claim": "The Bill of Rights.",
+      "evidence": [
+       "F-SAT-20"
+      ]
+     },
+     {
+      "claim": "The Constitutional Court.",
+      "evidence": [
+       "F-SAT-21"
+      ]
+     },
+     {
+      "claim": "Proportional representation and the amendment rule.",
+      "evidence": [
+       "F-SAT-20"
+      ]
+     },
+     {
+      "claim": "Limits: the list system and ANC dominance.",
+      "evidence": [
+       "F-SAT-20",
+       "F-SAT-26"
+      ]
+     }
+    ],
+    "counter": "Tom Lodge argues the list system weakened parliamentary democracy.",
+    "judgementCriterion": "Which protection mattered most? The Constitutional Court, which could overrule parliament."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The 1996 constitution protected democracy chiefly through an independent Constitutional Court.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The court could strike down unconstitutional laws; it abolished the death penalty in its first case and in 1999 ruled that prisoners had the right to vote.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that citizens could enforce their rights against the government, so power was limited by law.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Tom Lodge argues that the party-list system made ANC MPs reluctant to question government policy.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The constitution therefore protected rights strongly, while leaving parliament weaker than the courts.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "constitution"
+    ],
+    "synonyms": [
+     "Bill of Rights",
+     "Constitutional Court"
+    ],
+    "historians": [
+     "Lodge"
+    ],
+    "extraLexicon": [
+     "proportional representation",
+     "two-thirds",
+     "rights"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-TRANSITION-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the significance of the Record of Understanding for the negotiations between 1992 and 1994.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1992,
+    1994
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "The significance of the Record of Understanding",
+    "timeframe": "1992–1994",
+    "scope": "The negotiations",
+    "judgement": "Turning point, or one step among several?"
+   },
+   "modelPlan": {
+    "thesis": "The Record of Understanding was the turning point of the negotiations, because Slovo's sunset clauses reconciled majority rule with temporary power-sharing; but violence continued, and Giliomee and Mbenga see Boipatong as the real shift in power.",
+    "arguments": [
+     {
+      "claim": "The deadlock before September 1992.",
+      "evidence": [
+       "F-SAT-05",
+       "F-SAT-06"
+      ]
+     },
+     {
+      "claim": "The sunset clauses.",
+      "evidence": [
+       "F-SAT-07"
+      ]
+     },
+     {
+      "claim": "The road to the interim constitution.",
+      "evidence": [
+       "F-SAT-12"
+      ]
+     },
+     {
+      "claim": "Historians on the turning point.",
+      "evidence": [
+       "F-SAT-16"
+      ]
+     }
+    ],
+    "counter": "Violence continued into 1994, with Hani's assassination and the AWB.",
+    "judgementCriterion": "Was it the turning point? Yes for agreement; Boipatong may have shifted power first."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Record of Understanding was the turning point in the negotiations.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Signed in September 1992 after Bisho, it committed the ANC to a five-year Government of National Unity and protected civil servants' jobs through Slovo's sunset clauses.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that white fears were reduced, so the National Party could accept elections, and Thompson sees it as the moment Mandela gained the upper hand.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Giliomee and Mbenga argue that Boipatong was the turning point, and violence continued with Hani's assassination in 1993.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Record of Understanding was therefore significant as the moment agreement became possible.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Record of Understanding"
+    ],
+    "synonyms": [
+     "sunset clauses",
+     "Slovo"
+    ],
+    "historians": [
+     "Thompson",
+     "Giliomee",
+     "Mbenga"
+    ],
+    "extraLexicon": [
+     "Boipatong",
+     "power-sharing",
+     "interim constitution"
+    ]
+   }
+  }
+ ]
+}

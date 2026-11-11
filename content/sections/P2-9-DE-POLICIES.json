@@ -1,0 +1,2679 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-9-DE-POLICIES",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In 1949 West German living standards were back at pre-1914 levels. By 1960 industrial production had more than doubled and West Germany was one of the world's biggest traders. Who gained from the 'economic miracle', and who was left out?",
+   "predictionPrompt": "Your prediction in one line: did the economic miracle make West Germany more equal?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "success_failure",
+    "title": "The social market economy and the 'economic miracle'",
+    "body": "When the Federal Republic was founded in 1949, living standards in western Germany had fallen to pre-1914 levels, with food shortages and a black market. The new government's main economic aim was recovery, and its chosen instrument was Ludwig Erhard's **social market economy**. In Geoff Layton's words, it aimed to combine \"political and economic freedom with social justice and security\": private property and enterprise would be encouraged, but a strong state could intervene to protect the common interests of individuals. Erhard saw it as a \"third way\" between unrestrained capitalism and an over-regulated socialist economy.\n\nRecovery was uneven at first. In 1951 more than two million West Germans were unemployed, over 10 per cent of the workforce. But by the end of 1951 output had regained pre-war levels, and by 1955 unemployment had fallen to about one million and gross national product had doubled. By 1960 industrial production was more than twice the level of 1950, and West Germany was the world's third biggest trading power. This was the **Wirtschaftswunder**, the \"economic miracle\".\n\nThe \"social\" side mattered too. The **Co-determination Law** of 1951 put workers' representatives on the boards of iron, coal and steel companies, and the Works' Constitution Law of 1952 created works councils in large firms. Unions and employers worked as partners. Judt adds that the state itself owned or controlled large parts of industry and banking, and that conflict was rare because \"the economic cake grew fast enough\".\n\nHistorians debate the causes. Layton and Mary Fulbrook stress the help of the **Marshall Plan**, which gave Germany more than $1.5 billion. But economists estimate that Marshall aid contributed less than 5 per cent of West German national income, and Britain received twice as much. Erhard's reforms and good industrial relations are now seen as more important.\n\nThis mattered because rapid growth gave the new democracy jobs and goods, which meant that West Germans came to associate democracy with prosperity, unlike in the Weimar years.",
+    "argumentsThatWork": [
+     {
+      "claim": "The social market economy produced rapid growth.",
+      "evidence": [
+       "F-DEP-03",
+       "F-DEP-07"
+      ],
+      "strongestCounter": "Unemployment was over 10 per cent in 1951."
+     },
+     {
+      "claim": "Co-determination brought industrial peace.",
+      "evidence": [
+       "F-DEP-04",
+       "F-DEP-05"
+      ],
+      "strongestCounter": "It applied first only to heavy industry."
+     },
+     {
+      "claim": "Marshall aid was less decisive than once thought.",
+      "evidence": [
+       "F-DEP-06"
+      ],
+      "strongestCounter": "Layton and Fulbrook stress its importance."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the social market economy responsible for West Germany's economic recovery between 1949 and 1960?",
+     "To what extent did economic recovery lead to a more equal distribution of wealth in West Germany between 1949 and 1960?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The social market economy was the main reason for West Germany's recovery.",
+     "prove": "Under Erhard, GNP doubled by 1955, and by 1960 industrial production was more than twice its 1950 level.",
+     "explain": "This meant that the combination of free markets with co-determination and social protection produced growth without the class conflict of Weimar.",
+     "test": "However, Layton and Fulbrook argue that the Marshall Plan helped enormously, though economists estimate it supplied less than 5 per cent of national income.",
+     "judge": "The social market economy was therefore the main cause, with Marshall aid an important but secondary help."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-POLICIES-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year was the Co-determination Law passed? (year)",
+      "factIds": [
+       "F-DEP-04"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1951,
+        "tolerance": 0,
+        "explanation": "1951, for iron, coal and steel."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-POLICIES-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the social market economy aim to combine, according to Layton?",
+      "factIds": [
+       "F-DEP-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Political and economic freedom with social justice and security",
+        "correct": true,
+        "explanation": "Correct: a 'third way'."
+       },
+       {
+        "id": "b",
+        "text": "State ownership of all industry",
+        "correct": false,
+        "explanation": "It protected private property."
+       },
+       {
+        "id": "c",
+        "text": "Unregulated capitalism with no welfare",
+        "correct": false,
+        "explanation": "The state could intervene."
+       },
+       {
+        "id": "d",
+        "text": "Rearmament and reparations",
+        "correct": false,
+        "explanation": "Not its aims."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-POLICIES-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Economists estimate that Marshall aid contributed less than 5 per cent of West German national income.” Which argument does it support best?",
+      "factIds": [
+       "F-DEP-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Domestic policy mattered more than foreign aid in the recovery",
+        "correct": true,
+        "explanation": "Correct: Erhard's reforms are now seen as more pivotal."
+       },
+       {
+        "id": "b",
+        "text": "Marshall aid was the only cause of recovery",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "West Germany received no Marshall aid",
+        "correct": false,
+        "explanation": "It received more than $1.5 billion."
+       },
+       {
+        "id": "d",
+        "text": "West Germany received more aid than Britain",
+        "correct": false,
+        "explanation": "Britain received twice as much."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "impact_consequences",
+    "title": "Housing, refugees, welfare and education",
+    "body": "The social market economy also had social aims. The most urgent was **housing**. With cities in ruins and millions of refugees, the state and private builders together built a million new homes by the mid-1950s, and six million new flats in the decade from 1950, more than half of them social housing. Erhard introduced strict rent controls and tenants' rights.\n\nThe integration of almost **nine million refugees** and expellees from the East was a remarkable achievement. A booming economy absorbed them, which smoothed differences of class and religion and weakened radical nationalist parties. Unemployment benefit, sickness and accident insurance and child benefit were introduced. By 1955 unemployment had fallen to about one million, the start of near full employment that lasted until the 1970s.\n\nThe cornerstone of welfare was the **Dynamic Pension** of 1957, which linked old-age pensions to wages, so that pensioners could maintain their standard of living. Economists called it \"the most important social reform of the 1950s\". West Germany did not follow Britain in creating a tax-funded National Health Service; health care remained based on insurance and run largely by the medical profession.\n\n**Education** was left to the Länder, a reaction against the centralised Nazi system, which produced differing school systems. Reforms in 1953 and the Düsseldorf Agreement of 1955 standardised examinations, and by 1960 school fees had been abolished. But universities remained largely the preserve of an academic elite.\n\nThis mattered because welfare was tied to work and growth, which meant that the system rewarded those in employment and expanded only as fast as the economy did.",
+    "argumentsThatWork": [
+     {
+      "claim": "Housing policy met an acute shortage.",
+      "evidence": [
+       "F-DEP-08"
+      ],
+      "strongestCounter": "Shortages remained in the early 1950s."
+     },
+     {
+      "claim": "Refugees were integrated through growth.",
+      "evidence": [
+       "F-DEP-09",
+       "F-DEP-11"
+      ],
+      "strongestCounter": "Two million were unemployed in 1951."
+     },
+     {
+      "claim": "The Dynamic Pension was the key welfare reform.",
+      "evidence": [
+       "F-DEP-14"
+      ],
+      "strongestCounter": "There was no British-style NHS."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the success of West German social policies between 1949 and 1960.",
+     "To what extent did economic recovery lead to a more equal distribution of wealth in West Germany between 1949 and 1960?"
+    ],
+    "useItInAnEssay": {
+     "claim": "West German social policy succeeded because it was carried by economic growth.",
+     "prove": "Six million flats were built in the 1950s, nine million refugees were integrated, and the 1957 Dynamic Pension linked pensions to wages.",
+     "explain": "This meant that the losers of the war shared in recovery, so radical nationalist parties lost their appeal.",
+     "test": "However, there was no national health service, and universities remained an elite preserve.",
+     "judge": "Social policy was therefore successful in integration and housing, but conservative in its structure."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-POLICIES-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many million new flats were built in the decade from 1950? (number)",
+      "factIds": [
+       "F-DEP-08"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 6,
+        "tolerance": 0,
+        "explanation": "Six million, more than half social housing."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-POLICIES-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the 1957 Dynamic Pension do?",
+      "factIds": [
+       "F-DEP-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Linked old-age pensions to wages and salaries",
+        "correct": true,
+        "explanation": "Correct: 'the most important social reform of the 1950s'."
+       },
+       {
+        "id": "b",
+        "text": "Abolished pensions",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Created a National Health Service",
+        "correct": false,
+        "explanation": "West Germany had no NHS."
+       },
+       {
+        "id": "d",
+        "text": "Paid pensions only to men",
+        "correct": false,
+        "explanation": "Not what it did."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-POLICIES-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The economy absorbed almost nine million displaced persons, which stifled the appeal of radical nationalist parties.” Which argument does it support best?",
+      "factIds": [
+       "F-DEP-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Economic growth helped stabilise democracy",
+        "correct": true,
+        "explanation": "Correct: integration through jobs."
+       },
+       {
+        "id": "b",
+        "text": "The refugees destroyed the economy",
+        "correct": false,
+        "explanation": "The economy absorbed them."
+       },
+       {
+        "id": "c",
+        "text": "Nationalist parties grew in the 1950s",
+        "correct": false,
+        "explanation": "Their appeal was stifled."
+       },
+       {
+        "id": "d",
+        "text": "Refugees were sent back east",
+        "correct": false,
+        "explanation": "They were integrated."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "Women and the victims of Nazism",
+    "body": "The Basic Law of 1949 declared that **men and women were equal**. Yet policy assumed a male breadwinner. Women could be dismissed from the civil service when they married, and an equality law of the late 1950s was needed before a wife could take a job without her husband's permission or keep control of her property. Women's average pay remained 40 per cent below men's. The share of women entering higher education rose from 19 per cent in 1949 to about a third by the late 1960s, and the 1954 Weisser Report presented working women as a positive model. But even in the 1980s women were only just over 10 per cent of Bundestag members. Mary Fulbrook notes that women remained concentrated in lower-status, less well-paid, part-time or temporary work.\n\nPolicy towards the **victims of Nazism** was selective. The Basic Law granted automatic citizenship to those persecuted by the Nazis. In September 1951 Adenauer acknowledged \"the immeasurable suffering endured by the Jews\", and under the **Luxembourg Agreement** of September 1952 West Germany agreed to pay Israel three billion marks and a further 450 million marks to Jewish organisations. Other victims were treated very differently. In 1950 judges in Baden-Württemberg were told that Sinti and Roma had been persecuted \"not for any racial reason\" but for an \"asocial and criminal record\", so most had little hope of compensation. The Federal Republic kept Paragraph 175, which criminalised sex between men in the form Hitler had broadened; about 100,000 men faced court cases between 1945 and 1969.\n\nThis mattered because the new democracy promised equal rights in law but applied them unevenly in practice, which meant that equality for women and recognition for some victims came only slowly.",
+    "argumentsThatWork": [
+     {
+      "claim": "Legal equality for women was not matched in practice.",
+      "evidence": [
+       "F-DEP-17",
+       "F-DEP-19"
+      ],
+      "strongestCounter": "Women's access to higher education grew."
+     },
+     {
+      "claim": "Compensation to Jews was substantial.",
+      "evidence": [
+       "F-DEP-20"
+      ],
+      "strongestCounter": "Money could not compensate for lives."
+     },
+     {
+      "claim": "Other victims were neglected.",
+      "evidence": [
+       "F-DEP-21",
+       "F-DEP-22"
+      ],
+      "strongestCounter": "The Basic Law promised equal rights."
+     }
+    ],
+    "howItGetsAsked": [
+     "“West German governments did little to improve the position of women between 1949 and 1969.” Discuss.",
+     "Analyse the policies of the Federal Republic towards victims of Nazi persecution between 1949 and 1969."
+    ],
+    "useItInAnEssay": {
+     "claim": "West German governments improved women's legal position but did little to change their economic position.",
+     "prove": "The Basic Law declared men and women equal, yet women could be dismissed from the civil service on marriage and earned on average 40 per cent less than men.",
+     "explain": "This meant that legal equality coexisted with a policy built around the male breadwinner, so women stayed in lower-status work, as Fulbrook notes.",
+     "test": "However, an equality law of the late 1950s removed the need for a husband's permission to work, and women's entry to higher education rose to about a third by the late 1960s.",
+     "judge": "The claim is therefore valid for women's economic position, but not for their legal rights."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-POLICIES-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How much less, on average, did women earn than men in the late 1950s? (per cent)",
+      "factIds": [
+       "F-DEP-17"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 40,
+        "tolerance": 0,
+        "explanation": "About 40 per cent less."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-POLICIES-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Luxembourg Agreement of 1952 provide?",
+      "factIds": [
+       "F-DEP-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Payment of three billion marks to Israel and 450 million marks to Jewish groups",
+        "correct": true,
+        "explanation": "Correct: signed by Adenauer."
+       },
+       {
+        "id": "b",
+        "text": "Compensation for Sinti and Roma",
+        "correct": false,
+        "explanation": "They had little hope of redress."
+       },
+       {
+        "id": "c",
+        "text": "West German membership of NATO",
+        "correct": false,
+        "explanation": "That came in 1955."
+       },
+       {
+        "id": "d",
+        "text": "The end of Paragraph 175",
+        "correct": false,
+        "explanation": "Paragraph 175 was retained."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-POLICIES-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1950 Baden-Württemberg judges were told that Gypsies had been persecuted 'not for any racial reason'.” Which argument does it support best?",
+      "factIds": [
+       "F-DEP-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Federal Republic compensated some victims of Nazism while ignoring others",
+        "correct": true,
+        "explanation": "Correct: a selective policy."
+       },
+       {
+        "id": "b",
+        "text": "All victims were treated equally",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Sinti and Roma received full compensation",
+        "correct": false,
+        "explanation": "Most had scant hope of redress."
+       },
+       {
+        "id": "d",
+        "text": "The directive recognised racial persecution",
+        "correct": false,
+        "explanation": "It denied it."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "Wealth, guest workers and the costs of unity",
+    "body": "Did prosperity mean equality? Bottaro and Stanley suggest that wealth became more widely shared, not by narrowing the income gap, but by bringing more people into the middle class. In 1955 many still lived modestly: a third of Germans had never had a holiday, only 10 per cent owned a fridge and half lived in one-bedroom flats. And by 1959, 1.8 per cent of households controlled 35 per cent of private wealth.\n\nGrowth also created a demand for labour that West Germany met with **foreign workers**. By the peak year of 1973 there were 2.8 million, one in eight of the workforce, including 605,000 Turks. They had no permanent right of residence and were kept in entry-level jobs and wages. When recession came in 1974–75 they were the first to be laid off. In 1975 the Federal Republic closed its recruiting offices, and in 1977 a federal commission declared that \"Germany is not an immigrant country\".\n\nThe last great policy decision of the period came with unification. The **monetary, economic and social union** of 1 July 1990 allowed East Germans to exchange their marks, up to the equivalent of DM 40,000, at 1:1, and paid East German wages in Deutschmarks at parity. It kept East Germans from moving west, but Judt notes that it had grim long-term consequences for East German jobs and for the West German budget.\n\nThis mattered because West German prosperity rested partly on people who did not fully share in it, which meant that the limits of the social market economy showed most clearly at its edges: among guest workers, and in the East after 1990.",
+    "argumentsThatWork": [
+     {
+      "claim": "Wealth remained unequally distributed.",
+      "evidence": [
+       "F-DEP-23"
+      ],
+      "strongestCounter": "More people joined the middle class."
+     },
+     {
+      "claim": "Guest workers met labour demand without equal rights.",
+      "evidence": [
+       "F-DEP-12",
+       "F-DEP-13"
+      ],
+      "strongestCounter": "They earned far more than at home."
+     },
+     {
+      "claim": "Monetary union had long-term costs.",
+      "evidence": [
+       "F-DEP-25"
+      ],
+      "strongestCounter": "It kept East Germans at home."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent did economic recovery lead to a more equal distribution of wealth in West Germany between 1949 and 1960?",
+     "Examine the reasons for, and the results of, the recruitment of foreign workers in West Germany between 1955 and 1977."
+    ],
+    "useItInAnEssay": {
+     "claim": "Guest workers were recruited to meet the demand for labour created by growth, but were never treated as permanent residents.",
+     "prove": "By 1973 there were 2.8 million foreign workers, one in eight of the labour force, held back at entry-level jobs and wages.",
+     "explain": "This meant that West Germany gained cheap, flexible labour, so when recession came in 1974–75 guest workers were the first laid off.",
+     "test": "However, the 1977 commission's statement that 'Germany is not an immigrant country' ignored the fact that many had stayed.",
+     "judge": "Recruitment therefore fuelled growth while creating a population without full rights."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-POLICIES-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many foreign workers (in millions) were there in West Germany in 1973, according to Judt? (number, e.g. 2.8)",
+      "factIds": [
+       "F-DEP-12"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 2.8,
+        "tolerance": 0.1,
+        "explanation": "2.8 million, one in eight workers."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-POLICIES-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did a federal commission declare in 1977?",
+      "factIds": [
+       "F-DEP-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "'Germany is not an immigrant country'",
+        "correct": true,
+        "explanation": "Correct: guest workers were expected to return home."
+       },
+       {
+        "id": "b",
+        "text": "That all guest workers would become citizens",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "That recruitment would double",
+        "correct": false,
+        "explanation": "Recruiting offices closed in 1975."
+       },
+       {
+        "id": "d",
+        "text": "That Germany needed more Turkish workers",
+        "correct": false,
+        "explanation": "Not what it said."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-POLICIES-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “By 1959, 1.8 per cent of households controlled 35 per cent of private wealth.” Which argument does it support best?",
+      "factIds": [
+       "F-DEP-23"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The economic miracle did not produce an equal distribution of wealth",
+        "correct": true,
+        "explanation": "Correct: disparity clearly existed."
+       },
+       {
+        "id": "b",
+        "text": "Wealth was evenly shared",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The economy shrank in the 1950s",
+        "correct": false,
+        "explanation": "It grew rapidly."
+       },
+       {
+        "id": "d",
+        "text": "Most households were very rich",
+        "correct": false,
+        "explanation": "Wealth was concentrated."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1951,
+      "text": "Co-determination Law",
+      "factId": "F-DEP-04"
+     },
+     {
+      "year": 1952,
+      "month": 9,
+      "text": "Luxembourg Agreement",
+      "factId": "F-DEP-20"
+     },
+     {
+      "year": 1952,
+      "text": "Equalisation of Burdens Law; Works' Constitution Law",
+      "factId": "F-DEP-24"
+     },
+     {
+      "year": 1955,
+      "text": "Düsseldorf Agreement on education",
+      "factId": "F-DEP-16"
+     },
+     {
+      "year": 1957,
+      "text": "Dynamic Pension",
+      "factId": "F-DEP-14"
+     },
+     {
+      "year": 1960,
+      "text": "Industrial production more than double 1950",
+      "factId": "F-DEP-07"
+     },
+     {
+      "year": 1973,
+      "text": "2.8 million foreign workers",
+      "factId": "F-DEP-12"
+     },
+     {
+      "year": 1975,
+      "text": "Recruiting offices closed",
+      "factId": "F-DEP-13"
+     },
+     {
+      "year": 1977,
+      "text": "'Germany is not an immigrant country'",
+      "factId": "F-DEP-13"
+     },
+     {
+      "year": 1990,
+      "month": 7,
+      "day": 1,
+      "text": "Monetary union with East Germany",
+      "factId": "F-DEP-25"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Post-war poverty and refugees",
+      "factId": "F-DEP-01"
+     },
+     {
+      "id": "n2",
+      "text": "Social market economy and co-determination",
+      "factId": "F-DEP-02"
+     },
+     {
+      "id": "n3",
+      "text": "Rapid growth: the economic miracle",
+      "factId": "F-DEP-07"
+     },
+     {
+      "id": "n4",
+      "text": "Housing, pensions and refugee integration",
+      "factId": "F-DEP-14"
+     },
+     {
+      "id": "n5",
+      "text": "Labour shortage and guest workers",
+      "factId": "F-DEP-12"
+     },
+     {
+      "id": "n6",
+      "text": "Prosperity, but unequal wealth and rights",
+      "factId": "F-DEP-23"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Recovery needed growth with social peace"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Markets plus cooperation between unions and employers"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Growth paid for social policy"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Full employment created demand for labour"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Some groups shared less in the gains"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Ludwig Erhard",
+     "role": "Economics minister 1949–1963",
+     "whyItMatters": "Architect of the social market economy.",
+     "factIds": [
+      "F-DEP-02"
+     ]
+    },
+    {
+     "name": "Konrad Adenauer",
+     "role": "Chancellor 1949–1963",
+     "whyItMatters": "Signed the Luxembourg Agreement in 1952.",
+     "factIds": [
+      "F-DEP-20"
+     ]
+    },
+    {
+     "name": "Trade unions",
+     "role": "Partners in co-determination",
+     "whyItMatters": "Worked with employers rather than against them.",
+     "factIds": [
+      "F-DEP-04"
+     ]
+    },
+    {
+     "name": "Expellees and refugees",
+     "role": "Almost nine million newcomers",
+     "whyItMatters": "Integrated through the booming economy.",
+     "factIds": [
+      "F-DEP-09"
+     ]
+    },
+    {
+     "name": "Guest workers",
+     "role": "2.8 million foreign workers by 1973",
+     "whyItMatters": "Met labour demand without permanent rights.",
+     "factIds": [
+      "F-DEP-12",
+      "F-DEP-13"
+     ]
+    },
+    {
+     "name": "Mary Fulbrook",
+     "role": "Historian",
+     "whyItMatters": "Women stayed in lower-status, less well-paid work.",
+     "factIds": [
+      "F-DEP-19"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Aim",
+     "Result"
+    ],
+    "rows": [
+     {
+      "criterion": "Economy",
+      "cells": [
+       "Growth with social security",
+       "GNP doubled by 1955; production doubled by 1960"
+      ],
+      "factIds": [
+       "F-DEP-02",
+       "F-DEP-03"
+      ]
+     },
+     {
+      "criterion": "Housing",
+      "cells": [
+       "End the acute shortage",
+       "Six million flats in the 1950s"
+      ],
+      "factIds": [
+       "F-DEP-08"
+      ]
+     },
+     {
+      "criterion": "Women",
+      "cells": [
+       "Equality in the Basic Law",
+       "Pay 40 per cent below men's"
+      ],
+      "factIds": [
+       "F-DEP-17"
+      ]
+     },
+     {
+      "criterion": "Victims of Nazism",
+      "cells": [
+       "Restitution to Jews",
+       "Sinti and Roma largely denied redress"
+      ],
+      "factIds": [
+       "F-DEP-20",
+       "F-DEP-21"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-DEP-03",
+    "year": 1955,
+    "text": "GNP doubled by 1955; unemployment fell to about one million.",
+    "supports": [
+     "The social market economy produced growth"
+    ],
+    "lexicon": [
+     "social market economy",
+     "economic miracle"
+    ]
+   },
+   {
+    "factId": "F-DEP-04",
+    "year": 1951,
+    "text": "Co-determination Law (1951): workers on the boards of iron, coal and steel firms.",
+    "supports": [
+     "Policy promoted industrial peace"
+    ],
+    "lexicon": [
+     "co-determination",
+     "works councils"
+    ]
+   },
+   {
+    "factId": "F-DEP-06",
+    "year": 1952,
+    "text": "Marshall aid: under 5 per cent of national income.",
+    "supports": [
+     "Domestic policy mattered more than aid"
+    ],
+    "lexicon": [
+     "Marshall Plan",
+     "Erhard"
+    ]
+   },
+   {
+    "factId": "F-DEP-14",
+    "year": 1957,
+    "text": "Dynamic Pension (1957): pensions linked to wages.",
+    "supports": [
+     "Welfare expanded with growth"
+    ],
+    "lexicon": [
+     "Dynamic Pension",
+     "welfare"
+    ]
+   },
+   {
+    "factId": "F-DEP-17",
+    "year": 1958,
+    "text": "Women: equal in law, but pay 40 per cent below men's.",
+    "supports": [
+     "Equality for women was limited in practice"
+    ],
+    "lexicon": [
+     "Article 3",
+     "equality law"
+    ]
+   },
+   {
+    "factId": "F-DEP-20",
+    "year": 1952,
+    "text": "Luxembourg Agreement (1952): three billion marks to Israel.",
+    "supports": [
+     "The Federal Republic made restitution to Jews"
+    ],
+    "lexicon": [
+     "Luxembourg Agreement",
+     "restitution"
+    ]
+   },
+   {
+    "factId": "F-DEP-12",
+    "year": 1973,
+    "text": "1973: 2.8 million foreign workers, one in eight of the workforce.",
+    "supports": [
+     "Growth depended on guest workers"
+    ],
+    "alsoWorksFor": [
+     "P2-9-DE-DEVELOPMENT"
+    ],
+    "lexicon": [
+     "Gastarbeiter",
+     "guest workers"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Mary Fulbrook",
+    "argument": "Women in the BRD continued to have their social class measured by their father's or husband's occupation and tended to remain in lower-status, less well-paid, often part-time or temporary employment (as quoted by Bottaro and Stanley).",
+    "useItLikeThis": "Fulbrook's view supports the claim that legal equality did little to change women's economic position, which suggests West German policy was conservative on gender.",
+    "factId": "F-DEP-19"
+   },
+   {
+    "historian": "Geoff Layton",
+    "argument": "The social market aimed to combine political and economic freedom with social justice and security, with a strong state able to intervene in the market (as quoted by Bottaro and Stanley); Layton and Fulbrook also argue that the Marshall Plan helped the recovery enormously.",
+    "useItLikeThis": "Layton's view supports the claim that recovery came from a deliberate policy combining market and state, though his stress on Marshall aid can be weighed against economists' lower estimates.",
+    "factId": "F-DEP-02"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The social market economy meant unregulated capitalism.",
+    "right": "It combined free markets with **co-determination**, welfare and state intervention."
+   },
+   {
+    "wrong": "The Marshall Plan explains the economic miracle.",
+    "right": "Economists estimate it supplied **less than 5 per cent** of national income; Erhard's reforms mattered more."
+   },
+   {
+    "wrong": "The Basic Law made women equal in practice.",
+    "right": "Women's average pay was still **40 per cent** below men's."
+   },
+   {
+    "wrong": "West Germany compensated all victims of Nazism.",
+    "right": "Jews received restitution, but **Sinti and Roma** were largely denied it."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1951,
+     "text": "Co-determination Law"
+    },
+    {
+     "year": 1952,
+     "month": 9,
+     "text": "Luxembourg Agreement"
+    },
+    {
+     "year": 1955,
+     "text": "Düsseldorf Agreement"
+    },
+    {
+     "year": 1957,
+     "text": "Dynamic Pension"
+    },
+    {
+     "year": 1973,
+     "text": "2.8 million foreign workers"
+    },
+    {
+     "year": 1975,
+     "text": "Recruiting offices closed"
+    },
+    {
+     "year": 1990,
+     "month": 7,
+     "text": "Monetary union"
+    }
+   ],
+   "keyArguments": [
+    "The social market economy combined markets with social security and co-determination.",
+    "Growth (GNP doubled by 1955) paid for housing, pensions and refugee integration.",
+    "Marshall aid helped, but economists rank Erhard's reforms higher.",
+    "Women gained legal equality but not economic equality; some victims of Nazism were neglected.",
+    "Guest workers fuelled growth without equal rights; monetary union in 1990 had long-term costs."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-9-DE-POLICIES-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Co-determination Law",
+     "year": 1951,
+     "factId": "F-DEP-04"
+    },
+    {
+     "id": "b",
+     "text": "Luxembourg Agreement",
+     "year": 1952,
+     "month": 9,
+     "factId": "F-DEP-20"
+    },
+    {
+     "id": "c",
+     "text": "Düsseldorf Agreement on education",
+     "year": 1955,
+     "factId": "F-DEP-16"
+    },
+    {
+     "id": "d",
+     "text": "Dynamic Pension",
+     "year": 1957,
+     "factId": "F-DEP-14"
+    },
+    {
+     "id": "e",
+     "text": "School fees abolished",
+     "year": 1960,
+     "factId": "F-DEP-16"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Peak of 2.8 million foreign workers",
+     "year": 1973,
+     "factId": "F-DEP-12"
+    },
+    {
+     "id": "b",
+     "text": "Recruiting offices closed",
+     "year": 1975,
+     "factId": "F-DEP-13"
+    },
+    {
+     "id": "c",
+     "text": "'Germany is not an immigrant country'",
+     "year": 1977,
+     "factId": "F-DEP-13"
+    },
+    {
+     "id": "d",
+     "text": "Monetary union with East Germany",
+     "year": 1990,
+     "month": 7,
+     "factId": "F-DEP-25"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Living standards at pre-1914 levels",
+     "year": 1949,
+     "factId": "F-DEP-01"
+    },
+    {
+     "id": "b",
+     "text": "Over two million unemployed",
+     "year": 1951,
+     "factId": "F-DEP-10"
+    },
+    {
+     "id": "c",
+     "text": "Unemployment down to about one million",
+     "year": 1955,
+     "factId": "F-DEP-03"
+    },
+    {
+     "id": "d",
+     "text": "1.8 per cent of households hold 35 per cent of wealth",
+     "year": 1959,
+     "factId": "F-DEP-23"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each policy to what it did.",
+   "pairs": [
+    {
+     "left": "Co-determination Law (1951)",
+     "right": "Workers' representatives on boards in iron, coal and steel",
+     "explanation": "Industrial peace."
+    },
+    {
+     "left": "Dynamic Pension (1957)",
+     "right": "Linked pensions to wages",
+     "explanation": "'The most important social reform of the 1950s'."
+    },
+    {
+     "left": "Luxembourg Agreement (1952)",
+     "right": "Compensation to Israel and Jewish groups",
+     "explanation": "Three billion marks to Israel."
+    },
+    {
+     "left": "Düsseldorf Agreement (1955)",
+     "right": "Defined examination standards across the Länder",
+     "explanation": "Education."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By what year had West German GNP doubled, according to Bottaro and Stanley? (year)",
+   "factIds": [
+    "F-DEP-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1955,
+     "tolerance": 0,
+     "explanation": "By 1955."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many billion dollars of Marshall aid did Germany receive? (more than … )",
+   "factIds": [
+    "F-DEP-06"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1.5,
+     "tolerance": 0.1,
+     "explanation": "More than $1.5 billion."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of new university entrants were women in 1949? (number)",
+   "factIds": [
+    "F-DEP-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 19,
+     "tolerance": 0,
+     "explanation": "19 per cent, rising to about 33 per cent by the late 1960s."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Turkish workers were in West Germany in 1973, according to Judt? (number)",
+   "factIds": [
+    "F-DEP-12"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 605000,
+     "tolerance": 5000,
+     "explanation": "605,000."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the social market economy? Choose all that apply.",
+   "factIds": [
+    "F-DEP-02",
+    "F-DEP-04",
+    "F-DEP-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Protection of private property and enterprise",
+     "correct": true,
+     "explanation": "Yes: markets were encouraged."
+    },
+    {
+     "id": "b",
+     "text": "Co-determination in heavy industry",
+     "correct": true,
+     "explanation": "Yes: from 1951."
+    },
+    {
+     "id": "c",
+     "text": "Rent controls and social housing",
+     "correct": true,
+     "explanation": "Yes: more than half of the new flats."
+    },
+    {
+     "id": "d",
+     "text": "Nationalisation of all industry",
+     "correct": false,
+     "explanation": "No: that was the SPD's old aim."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these show limits to equality in West Germany? Choose all that apply.",
+   "factIds": [
+    "F-DEP-17",
+    "F-DEP-21",
+    "F-DEP-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Women's pay 40 per cent below men's",
+     "correct": true,
+     "explanation": "Yes: in the late 1950s."
+    },
+    {
+     "id": "b",
+     "text": "Sinti and Roma denied compensation",
+     "correct": true,
+     "explanation": "Yes: a 1950 directive."
+    },
+    {
+     "id": "c",
+     "text": "1.8 per cent of households owning 35 per cent of wealth",
+     "correct": true,
+     "explanation": "Yes: by 1959."
+    },
+    {
+     "id": "d",
+     "text": "The Dynamic Pension",
+     "correct": false,
+     "explanation": "No: it extended security to pensioners."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Six million new flats were built in the decade from 1950, more than half of them social housing.” Which argument does it support?",
+   "factIds": [
+    "F-DEP-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The state played an active social role in the economic miracle",
+     "correct": true,
+     "explanation": "Correct: the 'social' in social market."
+    },
+    {
+     "id": "b",
+     "text": "The state left housing entirely to the market",
+     "correct": false,
+     "explanation": "The state built and subsidised housing."
+    },
+    {
+     "id": "c",
+     "text": "Housing was not a problem",
+     "correct": false,
+     "explanation": "The shortage was acute."
+    },
+    {
+     "id": "d",
+     "text": "Few homes were built",
+     "correct": false,
+     "explanation": "Six million flats were built."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Guest workers were the first to be laid off in 1974–75.” Which argument does it support?",
+   "factIds": [
+    "F-DEP-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Foreign workers were treated as a temporary, disposable labour force",
+     "correct": true,
+     "explanation": "Correct: recruitment stopped in 1975."
+    },
+    {
+     "id": "b",
+     "text": "Guest workers had full job security",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "German workers were laid off first",
+     "correct": false,
+     "explanation": "Four in five BMW job losses were non-Germans."
+    },
+    {
+     "id": "d",
+     "text": "Recruitment increased in 1975",
+     "correct": false,
+     "explanation": "Recruiting offices closed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “West Germany created a tax-funded National Health Service like Britain's.”",
+   "factIds": [
+    "F-DEP-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Health care remained insurance-based and run largely by the medical profession",
+     "correct": true,
+     "explanation": "Correct: there was no NHS."
+    },
+    {
+     "id": "b",
+     "text": "West Germany had no health care",
+     "correct": false,
+     "explanation": "It had insurance-based care."
+    },
+    {
+     "id": "c",
+     "text": "The NHS was created in 1990",
+     "correct": false,
+     "explanation": "Not relevant to West Germany."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: there was no NHS."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Federal Republic abolished Paragraph 175 in 1949.”",
+   "factIds": [
+    "F-DEP-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It retained Paragraph 175 in the form broadened by Hitler",
+     "correct": true,
+     "explanation": "Correct: about 100,000 men faced court cases."
+    },
+    {
+     "id": "b",
+     "text": "Paragraph 175 concerned women's pay",
+     "correct": false,
+     "explanation": "It criminalised sex between men."
+    },
+    {
+     "id": "c",
+     "text": "The Federal Republic was founded in 1959",
+     "correct": false,
+     "explanation": "It was founded in 1949."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it was retained."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about West German economic policy between 1949 and 1960. Is the 1948 currency reform inside or outside the timeframe?",
+   "factIds": [
+    "F-DEP-01"
+   ],
+   "timeframe": [
+    1949,
+    1960
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be used as background to the recovery",
+     "correct": true,
+     "explanation": "Correct: the question starts in 1949."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1948 is before 1949."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it caused the recovery",
+     "correct": false,
+     "explanation": "Background, not the focus."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Works' Constitution Law of 1952 provide?",
+   "factIds": [
+    "F-DEP-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Works councils for employees in companies with more than 500 workers",
+     "correct": true,
+     "explanation": "Correct: alongside co-determination."
+    },
+    {
+     "id": "b",
+     "text": "The abolition of trade unions",
+     "correct": false,
+     "explanation": "Unions were partners."
+    },
+    {
+     "id": "c",
+     "text": "State ownership of all firms",
+     "correct": false,
+     "explanation": "Not what it did."
+    },
+    {
+     "id": "d",
+     "text": "A minimum wage",
+     "correct": false,
+     "explanation": "Not what it did."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By 1960, how did West German industrial production compare with 1950?",
+   "factIds": [
+    "F-DEP-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was more than twice the 1950 level",
+     "correct": true,
+     "explanation": "Correct: the third biggest trading power."
+    },
+    {
+     "id": "b",
+     "text": "It had fallen",
+     "correct": false,
+     "explanation": "It rose sharply."
+    },
+    {
+     "id": "c",
+     "text": "It was unchanged",
+     "correct": false,
+     "explanation": "It more than doubled."
+    },
+    {
+     "id": "d",
+     "text": "It was half the 1950 level",
+     "correct": false,
+     "explanation": "The opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who controlled education in the Federal Republic under the Basic Law?",
+   "factIds": [
+    "F-DEP-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Länder (federal states)",
+     "correct": true,
+     "explanation": "Correct: a reaction against Nazi centralisation."
+    },
+    {
+     "id": "b",
+     "text": "The federal chancellor",
+     "correct": false,
+     "explanation": "Not under the Basic Law."
+    },
+    {
+     "id": "c",
+     "text": "The Allied High Commissioners",
+     "correct": false,
+     "explanation": "Not after 1949."
+    },
+    {
+     "id": "d",
+     "text": "The churches alone",
+     "correct": false,
+     "explanation": "Not correct."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Adenauer acknowledge in September 1951?",
+   "factIds": [
+    "F-DEP-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'The immeasurable suffering endured by the Jews'",
+     "correct": true,
+     "explanation": "Correct: moral and material restitution followed."
+    },
+    {
+     "id": "b",
+     "text": "That denazification had succeeded",
+     "correct": false,
+     "explanation": "Not what he said."
+    },
+    {
+     "id": "c",
+     "text": "That Germany would rearm",
+     "correct": false,
+     "explanation": "Not this statement."
+    },
+    {
+     "id": "d",
+     "text": "That women were equal",
+     "correct": false,
+     "explanation": "Not this statement."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the 1990 monetary union allow East Germans to do?",
+   "factIds": [
+    "F-DEP-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Exchange their marks at 1:1 up to the equivalent of DM 40,000",
+     "correct": true,
+     "explanation": "Correct: with grim long-term costs."
+    },
+    {
+     "id": "b",
+     "text": "Keep the East German mark",
+     "correct": false,
+     "explanation": "The Deutschmark replaced it."
+    },
+    {
+     "id": "c",
+     "text": "Move west without passports",
+     "correct": false,
+     "explanation": "Not what the union did."
+    },
+    {
+     "id": "d",
+     "text": "Avoid all taxes",
+     "correct": false,
+     "explanation": "Not what it did."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-9-DE-POLICIES-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the social market economy responsible for West Germany's economic recovery between 1949 and 1960?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the social market economy",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "responsible for West Germany's economic recovery",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1949 and 1960",
+     "answer": "timeframe",
+     "explanation": "From the founding of the Republic to the doubling of production."
+    },
+    {
+     "id": "s5",
+     "text": "responsible",
+     "answer": "judgement",
+     "explanation": "Did policy outweigh Marshall aid, refugees and the world boom?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“'West German governments did little to improve the position of women between 1949 and 1969.' Discuss.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "West German governments",
+     "answer": "factor",
+     "explanation": "The actors."
+    },
+    {
+     "id": "s3",
+     "text": "did little to improve the position of women",
+     "answer": "scope",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s4",
+     "text": "between 1949 and 1969",
+     "answer": "timeframe",
+     "explanation": "Two decades."
+    },
+    {
+     "id": "s5",
+     "text": "did little",
+     "answer": "judgement",
+     "explanation": "In law, in work, or in politics?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the social market economy responsible for West Germany's economic recovery between 1949 and 1960?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The social market economy was the main reason for recovery, combining markets with co-determination and social security; Marshall aid helped but supplied less than 5 per cent of national income.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against another."
+    },
+    {
+     "id": "b",
+     "text": "The social market economy was created by Erhard.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The social market economy was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Marshall Plan did everything.",
+     "correct": false,
+     "explanation": "Overstated and contradicted by the evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'West German governments did little to improve the position of women.' Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Governments improved women's legal position, through the Basic Law and an equality law of the late 1950s, but did little to change their economic position, since pay and status remained far below men's.",
+     "correct": true,
+     "explanation": "Correct: tests the claim with a distinction."
+    },
+    {
+     "id": "b",
+     "text": "Women lived in West Germany.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Women's lives were hard.",
+     "correct": false,
+     "explanation": "Not a judgement on policy."
+    },
+    {
+     "id": "d",
+     "text": "Women became fully equal by 1960.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1957 the Dynamic Pension was introduced.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because pensions were linked to wages, pensioners shared in the economic miracle.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In 1973 there were 2.8 million foreign workers.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that growth depended on workers who did not share full rights.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "GNP doubled by 1955",
+     "right": "The social market economy produced growth",
+     "explanation": "Erhard's policy."
+    },
+    {
+     "left": "Marshall aid under 5 per cent of national income",
+     "right": "Domestic policy mattered more than aid",
+     "explanation": "Economists' estimate."
+    },
+    {
+     "left": "Women's pay 40 per cent below men's",
+     "right": "Legal equality was not economic equality",
+     "explanation": "Late 1950s."
+    },
+    {
+     "left": "Luxembourg Agreement, 1952",
+     "right": "The Republic made restitution to Jews",
+     "explanation": "Three billion marks to Israel."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The economy did well because of Erhard.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Erhard's social market economy combined free markets with co-determination and social housing, it produced growth without class conflict: GNP doubled by 1955, while economists estimate Marshall aid supplied under 5 per cent of national income.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and qualification."
+    },
+    {
+     "id": "b",
+     "text": "Erhard was very good at economics.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Erhard was economics minister from 1949.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Erhard did everything himself.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The economic miracle benefited all West Germans equally.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "By 1959, 1.8 per cent of households controlled 35 per cent of private wealth, women earned 40 per cent less than men, and guest workers were kept in entry-level jobs and laid off first.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Some people were sad.",
+     "correct": false,
+     "explanation": "Not evidence."
+    },
+    {
+     "id": "c",
+     "text": "Germany lost the war.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Prices changed.",
+     "correct": false,
+     "explanation": "Too vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did economic recovery lead to a more equal distribution of wealth?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by how many people shared in rising living standards, recovery spread wealth more widely; judged by the concentration of wealth and the position of women and guest workers, it did not make West Germany more equal.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the economy grew.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Erhard was clever.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, growth is always good.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-POLICIES-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the recruitment of foreign workers in West Germany between 1955 and 1977.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Near full employment from the mid-1950s",
+     "answer": "causes",
+     "explanation": "A labour shortage."
+    },
+    {
+     "id": "s2",
+     "text": "Demand in building, metalworking and car manufacture",
+     "answer": "causes",
+     "explanation": "Where most foreign workers worked."
+    },
+    {
+     "id": "s3",
+     "text": "2.8 million foreign workers by 1973",
+     "answer": "effects",
+     "explanation": "One in eight workers."
+    },
+    {
+     "id": "s4",
+     "text": "Guest workers laid off first in 1974–75",
+     "answer": "effects",
+     "explanation": "A disposable workforce."
+    },
+    {
+     "id": "s5",
+     "text": "Recruiting offices closed in 1975",
+     "answer": "effects",
+     "explanation": "Policy reversed."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-9-DE-POLICIES-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the social market economy responsible for West Germany's economic recovery between 1949 and 1960?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the social market economy",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1949,
+    1960
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The social market economy, weighed first",
+    "timeframe": "1949–1960",
+    "scope": "Economic recovery",
+    "judgement": "Did policy outweigh Marshall aid and the refugee workforce?"
+   },
+   "modelPlan": {
+    "thesis": "The social market economy was the main reason for recovery, combining markets with co-determination and social security; Marshall aid helped but supplied less than 5 per cent of national income.",
+    "arguments": [
+     {
+      "claim": "The social market economy (named factor first).",
+      "evidence": [
+       "F-DEP-02",
+       "F-DEP-03"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Co-determination and industrial peace.",
+      "evidence": [
+       "F-DEP-04",
+       "F-DEP-05"
+      ]
+     },
+     {
+      "claim": "Marshall aid.",
+      "evidence": [
+       "F-DEP-06"
+      ]
+     },
+     {
+      "claim": "The refugee workforce.",
+      "evidence": [
+       "F-DEP-09"
+      ]
+     }
+    ],
+    "counter": "Layton and Fulbrook argue that Marshall aid helped enormously.",
+    "judgementCriterion": "What drove growth? Domestic policy and industrial peace more than foreign aid."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The social market economy was the main reason for West Germany's recovery.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Under Erhard, GNP doubled by 1955, and by 1960 industrial production was more than twice its 1950 level.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that free markets, combined with co-determination from 1951, produced growth without the industrial conflict of Weimar.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Layton and Fulbrook stress the Marshall Plan, and nine million refugees provided a ready workforce.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The social market economy was therefore the main cause, since economists estimate Marshall aid supplied less than 5 per cent of national income.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "social market economy",
+     "social market"
+    ],
+    "synonyms": [
+     "Erhard",
+     "economic miracle"
+    ],
+    "historians": [
+     "Layton",
+     "Fulbrook"
+    ],
+    "extraLexicon": [
+     "Marshall Plan",
+     "co-determination",
+     "GNP"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-POLICIES-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“West German governments did little to improve the position of women between 1949 and 1969.” Discuss.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1949,
+    1969
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: little was done for women",
+    "timeframe": "1949–1969",
+    "scope": "The position of women",
+    "judgement": "In law, in work, or in politics?"
+   },
+   "modelPlan": {
+    "thesis": "Governments improved women's legal position, through the Basic Law and an equality law of the late 1950s, but did little to change their economic position, since pay and status remained far below men's.",
+    "arguments": [
+     {
+      "claim": "For: the male-breadwinner model.",
+      "evidence": [
+       "F-DEP-17"
+      ]
+     },
+     {
+      "claim": "For: low pay and status.",
+      "evidence": [
+       "F-DEP-17",
+       "F-DEP-19"
+      ]
+     },
+     {
+      "claim": "Against: legal equality.",
+      "evidence": [
+       "F-DEP-17"
+      ]
+     },
+     {
+      "claim": "Against: higher education.",
+      "evidence": [
+       "F-DEP-18"
+      ]
+     }
+    ],
+    "counter": "Women's share of university entrants rose from 19 per cent to about a third.",
+    "judgementCriterion": "Did little? In the economy, yes; in law, no."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "West German governments improved women's legal rights but did little to change their economic position.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Although the Basic Law declared men and women equal, women could be dismissed from the civil service on marriage and earned on average 40 per cent less than men.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that policy remained built around the male breadwinner, so, as Fulbrook notes, women stayed in lower-status, part-time work.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, an equality law of the late 1950s ended the need for a husband's permission to work, and women's share of university entrants rose to about a third by the late 1960s.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid for women's economic position but overstated for their legal rights.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "women"
+    ],
+    "synonyms": [
+     "equality",
+     "gender"
+    ],
+    "historians": [
+     "Fulbrook"
+    ],
+    "extraLexicon": [
+     "Basic Law",
+     "Article 3",
+     "pay"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-POLICIES-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the success of West German social policies between 1949 and 1960.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1949,
+    1960
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The success of social policies",
+    "timeframe": "1949–1960",
+    "scope": "Housing, welfare, refugees, education",
+    "judgement": "Success by what criterion?"
+   },
+   "modelPlan": {
+    "thesis": "West German social policies succeeded in housing, refugee integration and pensions, because they were carried by growth; but they left health care and universities largely unreformed.",
+    "arguments": [
+     {
+      "claim": "Housing.",
+      "evidence": [
+       "F-DEP-08"
+      ]
+     },
+     {
+      "claim": "Refugee integration and benefits.",
+      "evidence": [
+       "F-DEP-09",
+       "F-DEP-11"
+      ]
+     },
+     {
+      "claim": "The Dynamic Pension.",
+      "evidence": [
+       "F-DEP-14"
+      ]
+     },
+     {
+      "claim": "Limits: health and education.",
+      "evidence": [
+       "F-DEP-15",
+       "F-DEP-16"
+      ]
+     }
+    ],
+    "counter": "Universities remained an elite preserve, and there was no national health service.",
+    "judgementCriterion": "Success by what criterion? Integration and security, yes; structural reform, less."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "West German social policies were successful because economic growth paid for them.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Six million flats were built in the 1950s, nine million refugees were integrated, and the 1957 Dynamic Pension linked pensions to wages.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the losers of the war shared in recovery, so radical nationalist parties lost their appeal.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, there was no national health service, and universities remained largely the preserve of an academic elite.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Social policy was therefore a success in integration and security, though conservative in structure.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "social policies"
+    ],
+    "synonyms": [
+     "welfare",
+     "housing",
+     "pensions"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Dynamic Pension",
+     "refugees",
+     "Düsseldorf Agreement"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-POLICIES-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the recruitment of foreign workers in West Germany between 1955 and 1977.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1955,
+    1977
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1955–1977",
+    "scope": "Foreign workers",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "Foreign workers were recruited because near full employment created a labour shortage; the results were faster growth but a large population without full rights, the first to lose jobs in the recession of 1974–75.",
+    "arguments": [
+     {
+      "claim": "Reason: full employment.",
+      "evidence": [
+       "F-DEP-11"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: demand in industry.",
+      "evidence": [
+       "F-DEP-12"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: 2.8 million workers by 1973.",
+      "evidence": [
+       "F-DEP-12"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: lay-offs and the end of recruitment.",
+      "evidence": [
+       "F-DEP-13"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Guest workers earned many times what they could at home, which suggests benefits for them too.",
+    "judgementCriterion": "Which result mattered most? A permanent population treated as temporary."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Foreign workers were recruited because the economic miracle created a shortage of labour.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "By 1955 unemployment had fallen to about one million, and by 1973 there were 2.8 million foreign workers, one in eight of the labour force.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that West Germany gained a flexible workforce, so guest workers were kept at entry-level jobs and were the first laid off in 1974–75.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, many stayed, while a 1977 commission insisted that 'Germany is not an immigrant country'.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore a large population whose position policy refused to recognise.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "foreign workers",
+     "guest workers"
+    ],
+    "synonyms": [
+     "Gastarbeiter",
+     "Turks"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "full employment",
+     "recruitment",
+     "immigrant"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-POLICIES-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the policies of the Federal Republic towards victims of Nazi persecution between 1949 and 1969.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1949,
+    1969
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Policies towards victims",
+    "timeframe": "1949–1969",
+    "scope": "Victims of Nazi persecution",
+    "judgement": "Which groups gained, which did not, and why?"
+   },
+   "modelPlan": {
+    "thesis": "The Federal Republic made substantial restitution to Jews and Israel, but denied recognition to Sinti and Roma and continued to prosecute gay men, which shows a selective approach to the Nazi past.",
+    "arguments": [
+     {
+      "claim": "Citizenship and Adenauer's statement.",
+      "evidence": [
+       "F-DEP-20"
+      ]
+     },
+     {
+      "claim": "The Luxembourg Agreement.",
+      "evidence": [
+       "F-DEP-20"
+      ]
+     },
+     {
+      "claim": "Sinti and Roma.",
+      "evidence": [
+       "F-DEP-21"
+      ]
+     },
+     {
+      "claim": "Paragraph 175.",
+      "evidence": [
+       "F-DEP-22"
+      ]
+     }
+    ],
+    "counter": "Jewish delegations argued that no material restitution could compensate for lost lives.",
+    "judgementCriterion": "Why selective? Restitution to Jews was tied to Western acceptance; other victims had no such advocates."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Federal Republic's policy towards victims of Nazism was generous to some and harsh to others.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Under the Luxembourg Agreement of 1952 it agreed to pay Israel three billion marks, yet a 1950 directive in Baden-Württemberg denied that Sinti and Roma had suffered racial persecution.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that restitution depended on which victims West Germany and its Western partners recognised, so Sinti and Roma had little hope of redress.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Basic Law did give automatic citizenship to all those persecuted by the Nazis, regardless of group.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The policy was therefore selective, shaped by politics as much as by justice.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "victims"
+    ],
+    "synonyms": [
+     "restitution",
+     "compensation"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Luxembourg Agreement",
+     "Sinti and Roma",
+     "Paragraph 175"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-POLICIES-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent did economic recovery lead to a more equal distribution of wealth in West Germany between 1949 and 1960?",
+   "commandTerm": "to what extent",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1949,
+    1960
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Economic recovery and equality",
+    "timeframe": "1949–1960",
+    "scope": "Distribution of wealth",
+    "judgement": "Wider prosperity, or narrower inequality?"
+   },
+   "modelPlan": {
+    "thesis": "Recovery spread prosperity more widely, bringing more people into the middle class and paying for housing and pensions, but it did not narrow inequality: wealth remained highly concentrated.",
+    "arguments": [
+     {
+      "claim": "Rising living standards.",
+      "evidence": [
+       "F-DEP-03",
+       "F-DEP-23"
+      ]
+     },
+     {
+      "claim": "Housing and pensions.",
+      "evidence": [
+       "F-DEP-08",
+       "F-DEP-14"
+      ]
+     },
+     {
+      "claim": "Concentration of wealth.",
+      "evidence": [
+       "F-DEP-23"
+      ]
+     },
+     {
+      "claim": "Women's pay.",
+      "evidence": [
+       "F-DEP-17"
+      ]
+     }
+    ],
+    "counter": "In 1955 a third of Germans had never had a holiday and only 10 per cent owned a fridge.",
+    "judgementCriterion": "More equal? More widely shared, but not more evenly distributed."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Economic recovery spread prosperity but did not make West Germany more equal.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Growth paid for six million new flats and the Dynamic Pension, yet by 1959 1.8 per cent of households controlled 35 per cent of private wealth.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that more people joined the middle class while the richest kept a large share, so the gap at the top remained.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Bottaro and Stanley note that class gaps seemed narrower as more ordinary people shared in Erhard's social economy.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Recovery therefore widened access to prosperity but did not produce a more equal distribution of wealth.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "distribution of wealth",
+     "wealth"
+    ],
+    "synonyms": [
+     "inequality",
+     "prosperity"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "middle class",
+     "housing",
+     "pensions"
+    ]
+   }
+  }
+ ]
+}

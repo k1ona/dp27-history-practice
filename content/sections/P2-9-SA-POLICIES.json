@@ -1,0 +1,2679 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-9-SA-POLICIES",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 22,
+  "openingProblem": {
+   "problem": "In 1994 every South African gained the vote. Four years later the deputy president said the country was still 'two nations', one white and prosperous, the other black and poor. How far did the new democracy's policies change the lives of most South Africans by 2000?",
+   "predictionPrompt": "Your prediction in one line: did policy close the gap between the 'two nations'?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "Building a nation: symbols and the TRC",
+    "body": "In 1994 South Africa had been, in Bottaro and Stanley's words, the most divided society in the world. Archbishop Desmond Tutu called the new democracy \"the rainbow nation\", but turning a people divided by race into one nation was a huge task. The government began with **symbols**. The new national anthem combined the old anthem with the African liberation hymn \"Nkosi Sikelel' iAfrika\", sung in Xhosa, Zulu, Sesotho, Afrikaans and English. A new flag, new public holidays and new monuments commemorated the struggle against apartheid, while old monuments such as the Voortrekker Monument were left standing.\n\nThe boldest step was the **Truth and Reconciliation Commission** (TRC), set up in 1996 and chaired by Tutu. Unlike the Nuremberg trials, it was based on **restorative** rather than retributive justice: its purpose was to uncover the truth and so bring about reconciliation. Between 1996 and 1998 more than 22,000 victims told their stories at hearings broadcast live on radio and television. Perpetrators on all sides, including the liberation movements, could receive amnesty if their acts were politically motivated and they made a full disclosure; 1,167 of 7,116 applications were granted. Justice Richard Goldstone argued that trials or a blanket amnesty would each have wrecked the negotiations, and called the TRC \"a bridge from the old to the new\".\n\nThe TRC was controversial. P.W. Botha refused to appear; De Klerk apologised for apartheid but denied authorising the security forces' brutality. The ANC was angry that the TRC treated the crimes of the state and of the liberation movements alike, and applied for amnesty only when Tutu threatened to resign. The final report blamed Botha's government for torture, arson, abduction and sabotage, but also criticised abuses in ANC camps. Some whites denounced the TRC as a witch-hunt, while many black South Africans felt that justice had not been done and victims received little compensation.\n\nThis mattered because the TRC exposed the truth without punishing most perpetrators, which meant that it helped secure peace but left many people feeling that reconciliation had come at the expense of justice.",
+    "argumentsThatWork": [
+     {
+      "claim": "New symbols aimed to create a common identity.",
+      "evidence": [
+       "F-SAP-02"
+      ],
+      "strongestCounter": "Old monuments remained to reassure whites."
+     },
+     {
+      "claim": "The TRC uncovered the truth through restorative justice.",
+      "evidence": [
+       "F-SAP-03",
+       "F-SAP-05"
+      ],
+      "strongestCounter": "It was not a court and could not punish."
+     },
+     {
+      "claim": "The TRC was criticised from all sides.",
+      "evidence": [
+       "F-SAP-07",
+       "F-SAP-09"
+      ],
+      "strongestCounter": "Goldstone argued there was no alternative."
+     }
+    ],
+    "howItGetsAsked": [
+     "“The Truth and Reconciliation Commission achieved reconciliation.” Discuss with reference to the period 1996 to 1998.",
+     "Evaluate the success of the social policies of the ANC government between 1994 and 1999."
+    ],
+    "useItInAnEssay": {
+     "claim": "The TRC succeeded in revealing the truth but only partly in achieving reconciliation.",
+     "prove": "Between 1996 and 1998 more than 22,000 victims told their stories in hearings broadcast live, and the final report blamed Botha's government for torture and sabotage.",
+     "explain": "This meant that the crimes of apartheid could no longer be denied, so the TRC became, in Goldstone's words, 'a bridge from the old to the new'.",
+     "test": "However, many black South Africans felt justice had not been done, some whites called it a witch-hunt, and the ANC tried to block the report.",
+     "judge": "The TRC therefore achieved truth more fully than reconciliation."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-POLICIES-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many amnesty applications did the TRC grant? (number)",
+      "factIds": [
+       "F-SAP-06"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1167,
+        "tolerance": 0,
+        "explanation": "1,167 out of 7,116."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-POLICIES-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what principle was the TRC based?",
+      "factIds": [
+       "F-SAP-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Restorative justice, rather than retributive justice",
+        "correct": true,
+        "explanation": "Correct: truth in exchange for amnesty."
+       },
+       {
+        "id": "b",
+        "text": "Retributive justice, like the Nuremberg trials",
+        "correct": false,
+        "explanation": "The TRC was deliberately different."
+       },
+       {
+        "id": "c",
+        "text": "A blanket amnesty for everyone",
+        "correct": false,
+        "explanation": "Amnesty required full disclosure."
+       },
+       {
+        "id": "d",
+        "text": "Military courts",
+        "correct": false,
+        "explanation": "It was not a court."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-POLICIES-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The ANC was angered that the TRC made no distinction between crimes of the apartheid state and of the liberation movements.” Which argument does it support best?",
+      "factIds": [
+       "F-SAP-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The TRC's even-handedness made it controversial even with the new government",
+        "correct": true,
+        "explanation": "Correct: the ANC tried to block the report."
+       },
+       {
+        "id": "b",
+        "text": "The TRC investigated only the apartheid state",
+        "correct": false,
+        "explanation": "It investigated all sides."
+       },
+       {
+        "id": "c",
+        "text": "The ANC fully supported the TRC",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "The TRC was controlled by the ANC",
+        "correct": false,
+        "explanation": "It acted independently."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "success_failure",
+    "title": "From the RDP to GEAR: economic policy",
+    "body": "The ANC's historic programme, the Freedom Charter of 1955, had called for state ownership of key sectors of the economy. By 1994 the ANC had abandoned nationalisation, despite calls for it from its allies the SACP and COSATU. Instead, the Government of National Unity implemented the **Reconstruction and Development Programme** (RDP), an ambitious plan to redistribute wealth: it promised 300,000 new houses a year and access to clean water, sanitation and electricity for the whole population. It soon became clear that its goals were unrealistic, because there was not enough money.\n\nIn 1996 the RDP office was closed, and the finance minister **Trevor Manuel** announced the **Growth, Employment and Reconstruction** programme (GEAR). Based on free-market principles, it included the privatisation of state-owned enterprises, and the government hoped it would attract foreign investment, increase exports and create jobs. Business leaders credited Manuel and the Reserve Bank governor Tito Mboweni with creating a stable economy: from 1995 growth averaged 3.2 per cent a year and inflation fell to around 6 per cent.\n\nBut neither the RDP nor GEAR created enough jobs. COSATU blamed GEAR's privatisation for the loss, it claimed in 2000, of half a million jobs since 1994. The 2001 census put unemployment at 41.6 per cent. The government did transform **labour relations**: NEDLAC brought government, unions and business together; the Labour Relations Act of 1995 created a body (the CCMA) that handled more than 81,000 disputes in 1998; and strikes declined. The Basic Conditions of Employment Act of 1997 regulated hours and wages, and the Employment Equity Act of 1998 favoured historically disadvantaged workers. Critics saw costs: Nigel Worden notes that wage levels stayed well above those in Asia and Latin America, making South Africa less competitive, and Leonard Thompson that the laws gave unions unusual power.\n\nThis mattered because the government chose growth and stability over redistribution, which meant that the economy recovered while unemployment and poverty remained.",
+    "argumentsThatWork": [
+     {
+      "claim": "GEAR stabilised the economy.",
+      "evidence": [
+       "F-SAP-15",
+       "F-SAP-16"
+      ],
+      "strongestCounter": "COSATU blamed it for job losses."
+     },
+     {
+      "claim": "Neither the RDP nor GEAR reduced unemployment.",
+      "evidence": [
+       "F-SAP-17"
+      ],
+      "strongestCounter": "The informal sector employed many people."
+     },
+     {
+      "claim": "Labour laws protected workers.",
+      "evidence": [
+       "F-SAP-18",
+       "F-SAP-19"
+      ],
+      "strongestCounter": "Worden argues they reduced competitiveness."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent did economic policy reduce inequality in South Africa between 1994 and 2000?",
+     "Examine the reasons for, and the results of, the government's change of economic policy between 1996 and 2000."
+    ],
+    "useItInAnEssay": {
+     "claim": "The change from the RDP to GEAR brought stability but not jobs.",
+     "prove": "In 1996 Trevor Manuel replaced the RDP with GEAR, a free-market programme; growth then averaged 3.2 per cent a year and inflation fell to around 6 per cent.",
+     "explain": "This meant that the bankrupt economy inherited in 1994 was stabilised, so business confidence returned.",
+     "test": "However, COSATU claimed half a million jobs had been lost by 2000, and unemployment reached 41.6 per cent in 2001.",
+     "judge": "GEAR was therefore a success for the economy but a failure for the poor."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-POLICIES-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many new houses a year did the RDP plan to build? (number)",
+      "factIds": [
+       "F-SAP-14"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 300000,
+        "tolerance": 0,
+        "explanation": "300,000 a year."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-POLICIES-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did GEAR, announced in 1996, emphasise?",
+      "factIds": [
+       "F-SAP-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Free-market growth, including privatisation",
+        "correct": true,
+        "explanation": "Correct: announced by Trevor Manuel."
+       },
+       {
+        "id": "b",
+        "text": "Nationalisation of the mines",
+        "correct": false,
+        "explanation": "The ANC had abandoned nationalisation."
+       },
+       {
+        "id": "c",
+        "text": "A return to apartheid economics",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "d",
+        "text": "Redistribution through land seizures",
+        "correct": false,
+        "explanation": "Property rights were protected."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-POLICIES-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The 2001 census put unemployment at 41.6 per cent.” Which argument does it support best?",
+      "factIds": [
+       "F-SAP-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Economic policy failed to create enough jobs",
+        "correct": true,
+        "explanation": "Correct: neither the RDP nor GEAR succeeded."
+       },
+       {
+        "id": "b",
+        "text": "GEAR created full employment",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Unemployment was not a problem",
+        "correct": false,
+        "explanation": "It was a serious problem."
+       },
+       {
+        "id": "d",
+        "text": "Unemployment fell sharply after 1996",
+        "correct": false,
+        "explanation": "COSATU claimed job losses."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Welfare, education and health",
+    "body": "The constitution promised everyone the right to social security, but the government could not afford the level of benefits previously given to whites. Before 1994, 2.6 million people received a grant on racially unequal terms. The new government increased pensions and introduced a **child support grant**. By 2002 seven million people out of forty-five million depended on social grants. Under the RDP, a 2001 government report recorded 1.2 million houses built, more than seven million people given access to free basic water, and 3.5 million electricity connections, though millions still lacked these services.\n\n**Education** was one of apartheid's worst legacies, with fifteen separate education departments and overcrowded, under-resourced black schools. The new government built thousands of schools, made primary schooling compulsory and increased the education budget substantially. Yet results worsened at first. Many experienced teachers took retrenchment packages in 1996, and the school-leaving pass rate fell from **58 per cent in 1994 to 49 per cent in 1998**. A UNESCO study in 2000 found that South African children aged eight and nine had among the worst literacy and numeracy in Africa, which Thompson called a serious omen.\n\nIn **health**, the focus shifted from costly city hospitals to clinics and primary health care in deprived areas, reaching thousands who had never had care before. But public hospital standards declined, and those who could afford it moved to private care. The gravest failure was **AIDS**. Neither the apartheid government nor the Government of National Unity took appropriate steps to control the spread of HIV, and Thabo Mbeki, deputy president and then president, questioned the effectiveness of antiretroviral drugs. The historian John Iliffe suggests the rise in HIV could not have been prevented, but experts agree that Mbeki's stance made its impact worse.\n\nThis mattered because social policy extended services to millions for the first time, which meant that the quality of those services, rather than access to them, became the main problem.",
+    "argumentsThatWork": [
+     {
+      "claim": "Welfare and services reached millions.",
+      "evidence": [
+       "F-SAP-21",
+       "F-SAP-28"
+      ],
+      "strongestCounter": "Millions still lacked water and electricity."
+     },
+     {
+      "claim": "Education expanded but results fell.",
+      "evidence": [
+       "F-SAP-22",
+       "F-SAP-23"
+      ],
+      "strongestCounter": "Thousands of new schools were built."
+     },
+     {
+      "claim": "Health policy failed on AIDS.",
+      "evidence": [
+       "F-SAP-24"
+      ],
+      "strongestCounter": "Primary health care reached thousands."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the success of the social policies of the ANC government between 1994 and 1999.",
+     "To what extent did economic policy reduce inequality in South Africa between 1994 and 2000?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The government's social policies widened access but failed to raise quality.",
+     "prove": "Thousands of new schools were built and primary schooling made compulsory, yet the school-leaving pass rate fell from 58 per cent in 1994 to 49 per cent in 1998.",
+     "explain": "This meant that more children attended school but learned less, so the skills shortage Thompson warned about persisted.",
+     "test": "However, the problem partly reflected apartheid's legacy of fifteen education departments and under-resourced black schools.",
+     "judge": "Social policy was therefore a success in access and a failure in quality by 1999."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-POLICIES-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the school-leaving pass rate in 1998, according to Bottaro and Stanley? (percentage)",
+      "factIds": [
+       "F-SAP-22"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 49,
+        "tolerance": 0,
+        "explanation": "49 per cent, down from 58 per cent in 1994."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-POLICIES-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What new grant did the government introduce?",
+      "factIds": [
+       "F-SAP-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A child support grant",
+        "correct": true,
+        "explanation": "Correct: initially for children up to seven."
+       },
+       {
+        "id": "b",
+        "text": "A grant for white farmers only",
+        "correct": false,
+        "explanation": "Benefits were no longer racial."
+       },
+       {
+        "id": "c",
+        "text": "A grant to the National Party",
+        "correct": false,
+        "explanation": "Not a welfare grant."
+       },
+       {
+        "id": "d",
+        "text": "No new grants",
+        "correct": false,
+        "explanation": "Grants expanded."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-POLICIES-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Mbeki questioned the effectiveness of antiretroviral drugs.” Which argument does it support best?",
+      "factIds": [
+       "F-SAP-24"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Government policy made the impact of AIDS worse",
+        "correct": true,
+        "explanation": "Correct: experts agree his stance aggravated it."
+       },
+       {
+        "id": "b",
+        "text": "The government handled AIDS well",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "AIDS did not affect South Africa",
+        "correct": false,
+        "explanation": "It was a growing crisis."
+       },
+       {
+        "id": "d",
+        "text": "Mandela's government supplied antiretrovirals widely",
+        "correct": false,
+        "explanation": "Not what the source says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Two nations? Inequality, land, affirmative action and women",
+    "body": "On 29 May 1998 the deputy president, **Thabo Mbeki**, told parliament that South Africa was \"a country of two nations\": one white and relatively prosperous, the other black and poor. Reconciliation, he warned, was not being realised. The evidence supported him. About 57 per cent of the population lived below the poverty line in both 1996 and 2001, and the Gini index of inequality rose from 0.69 to 0.77. Meredith (2005) estimates that perhaps 5 per cent of the black community reached middle-class status, while the majority remained poor.\n\n**Land** showed the limits of reform. Nearly four million people had been forcibly removed under apartheid, and in 1994 black farmers controlled only about 16 per cent of arable land. The government aimed to transfer 30 per cent of farmland within five years and set up a Land Claims Commission and a Land Claims Court. But the constitution protected property rights, so owners could not be forced to sell, and less than 2 per cent of land was reallocated in five years.\n\n**Affirmative action** changed the state faster. The government advertised 11,000 affirmative action posts and granted nearly 57,000 early retirement packages by the end of 1998; between 1994 and 1999 the share of civil service posts held by whites fell from 44 to 18 per cent. Black Economic Empowerment aimed to increase black ownership of companies. Historians disagree about the principle: Giliomee and Mbenga argue that affirmative action compromised the constitution's commitment to equality, while Christopher Saunders points out that the constitution itself allowed race-based measures to remedy past injustice.\n\n**Women** gained legal rights. A Commission on Gender Equality was set up, laws covered domestic violence and the right to terminate a pregnancy, and a 1998 law recognising customary marriages ended rural women's status as legal minors, though not their unequal rights to inherit or own communal land. By 2000 women held 30 per cent of the seats in parliament.\n\nThis mattered because political equality had been won but economic inequality persisted, which meant that by 2000 democracy had changed who governed South Africa more than how most people lived.",
+    "argumentsThatWork": [
+     {
+      "claim": "Inequality persisted and even grew.",
+      "evidence": [
+       "F-SAP-10",
+       "F-SAP-11"
+      ],
+      "strongestCounter": "A black middle class emerged."
+     },
+     {
+      "claim": "Land reform fell far short of its target.",
+      "evidence": [
+       "F-SAP-13"
+      ],
+      "strongestCounter": "Urban land claims were largely settled."
+     },
+     {
+      "claim": "Affirmative action transformed the civil service.",
+      "evidence": [
+       "F-SAP-25",
+       "F-SAP-26"
+      ],
+      "strongestCounter": "Giliomee and Mbenga argue it compromised equality."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent did economic policy reduce inequality in South Africa between 1994 and 2000?",
+     "Analyse the impact of affirmative action on South African society between 1994 and 1999."
+    ],
+    "useItInAnEssay": {
+     "claim": "The new government transformed political power but not the distribution of wealth.",
+     "prove": "In 1998 Mbeki described 'two nations', the Gini index rose from 0.69 to 0.77, and less than 2 per cent of land was reallocated in five years.",
+     "explain": "This meant that most black South Africans remained poor, so, as Meredith estimates, only perhaps 5 per cent reached the middle class.",
+     "test": "However, affirmative action cut the white share of civil service posts from 44 to 18 per cent, and welfare reached millions.",
+     "judge": "Policy therefore reduced inequality in the state, but not in society as a whole."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-POLICIES-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What percentage of land was reallocated to black owners in the first five years? (less than … per cent)",
+      "factIds": [
+       "F-SAP-13"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 2,
+        "tolerance": 0,
+        "explanation": "Less than 2 per cent, against a 30 per cent target."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-POLICIES-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Mbeki mean by 'two nations' in 1998?",
+      "factIds": [
+       "F-SAP-10"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A white, relatively prosperous nation and a black, poor nation",
+        "correct": true,
+        "explanation": "Correct: reconciliation was not being realised."
+       },
+       {
+        "id": "b",
+        "text": "South Africa and Namibia",
+        "correct": false,
+        "explanation": "Not what he meant."
+       },
+       {
+        "id": "c",
+        "text": "The ANC and the National Party",
+        "correct": false,
+        "explanation": "Not what he meant."
+       },
+       {
+        "id": "d",
+        "text": "English and Afrikaans speakers",
+        "correct": false,
+        "explanation": "Not what he meant."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-POLICIES-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Between 1994 and 1999 the percentage of civil service posts held by whites dropped from 44 to 18 per cent.” Which argument does it support best?",
+      "factIds": [
+       "F-SAP-25"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Affirmative action rapidly transformed the state",
+        "correct": true,
+        "explanation": "Correct: the civil service changed dramatically."
+       },
+       {
+        "id": "b",
+        "text": "The civil service stayed mostly white",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Affirmative action had no effect",
+        "correct": false,
+        "explanation": "The fact shows a large effect."
+       },
+       {
+        "id": "d",
+        "text": "The sunset clauses were ignored",
+        "correct": false,
+        "explanation": "Retirement packages were offered instead."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1994,
+      "text": "RDP launched",
+      "factId": "F-SAP-14"
+     },
+     {
+      "year": 1995,
+      "text": "Labour Relations Act",
+      "factId": "F-SAP-18"
+     },
+     {
+      "year": 1996,
+      "month": 4,
+      "text": "TRC's first hearing",
+      "factId": "F-SAP-03"
+     },
+     {
+      "year": 1996,
+      "text": "GEAR replaces the RDP",
+      "factId": "F-SAP-15"
+     },
+     {
+      "year": 1997,
+      "text": "Basic Conditions of Employment Act",
+      "factId": "F-SAP-19"
+     },
+     {
+      "year": 1998,
+      "month": 5,
+      "day": 29,
+      "text": "Mbeki's 'two nations' speech",
+      "factId": "F-SAP-10"
+     },
+     {
+      "year": 1998,
+      "text": "Employment Equity Act; customary marriages law",
+      "factId": "F-SAP-27"
+     },
+     {
+      "year": 2000,
+      "text": "Women hold 30 per cent of seats in parliament",
+      "factId": "F-SAP-27"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Apartheid legacy: two unequal societies",
+      "factId": "F-SAP-13"
+     },
+     {
+      "id": "n2",
+      "text": "RDP promises redistribution",
+      "factId": "F-SAP-14"
+     },
+     {
+      "id": "n3",
+      "text": "Lack of funds; GEAR shifts to growth",
+      "factId": "F-SAP-15"
+     },
+     {
+      "id": "n4",
+      "text": "Stable growth but high unemployment",
+      "factId": "F-SAP-17"
+     },
+     {
+      "id": "n5",
+      "text": "Services and welfare widen, quality lags",
+      "factId": "F-SAP-28"
+     },
+     {
+      "id": "n6",
+      "text": "'Two nations': inequality persists",
+      "factId": "F-SAP-11"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "The ANC promised to reverse apartheid's inequality"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Its goals were unrealistic without more money"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Privatisation and competitiveness cost jobs"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Grants and services cushioned the poor"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Access improved faster than incomes and jobs"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Nelson Mandela",
+     "role": "President 1994–1999",
+     "whyItMatters": "Led a government focused on reconciliation.",
+     "factIds": [
+      "F-SAP-01"
+     ]
+    },
+    {
+     "name": "Desmond Tutu",
+     "role": "Chair of the TRC",
+     "whyItMatters": "Coined 'the rainbow nation'; threatened to resign to make the ANC cooperate.",
+     "factIds": [
+      "F-SAP-03",
+      "F-SAP-07"
+     ]
+    },
+    {
+     "name": "Thabo Mbeki",
+     "role": "Deputy president; president from 1999",
+     "whyItMatters": "Gave the 'two nations' speech; questioned antiretroviral drugs.",
+     "factIds": [
+      "F-SAP-10",
+      "F-SAP-24"
+     ]
+    },
+    {
+     "name": "Trevor Manuel",
+     "role": "Finance minister",
+     "whyItMatters": "Announced GEAR in 1996; credited with a stable economy.",
+     "factIds": [
+      "F-SAP-15",
+      "F-SAP-16"
+     ]
+    },
+    {
+     "name": "COSATU",
+     "role": "Trade union federation and ANC ally",
+     "whyItMatters": "Blamed GEAR for half a million lost jobs.",
+     "factIds": [
+      "F-SAP-17"
+     ]
+    },
+    {
+     "name": "Commission on Gender Equality",
+     "role": "Constitutional body",
+     "whyItMatters": "Promoted equality for the most disadvantaged women.",
+     "factIds": [
+      "F-SAP-27"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Achievement",
+     "Limit"
+    ],
+    "rows": [
+     {
+      "criterion": "Economy",
+      "cells": [
+       "Growth averaging 3.2 per cent; inflation around 6 per cent",
+       "Unemployment 41.6 per cent (2001)"
+      ],
+      "factIds": [
+       "F-SAP-16",
+       "F-SAP-17"
+      ]
+     },
+     {
+      "criterion": "Services",
+      "cells": [
+       "1.2 million houses; 7 million with free basic water",
+       "Millions still without water or electricity"
+      ],
+      "factIds": [
+       "F-SAP-28"
+      ]
+     },
+     {
+      "criterion": "Education",
+      "cells": [
+       "Thousands of new schools; primary schooling compulsory",
+       "Pass rate fell from 58 to 49 per cent"
+      ],
+      "factIds": [
+       "F-SAP-22"
+      ]
+     },
+     {
+      "criterion": "Land",
+      "cells": [
+       "Land Claims Commission and Court",
+       "Less than 2 per cent reallocated in five years"
+      ],
+      "factIds": [
+       "F-SAP-13"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-SAP-05",
+    "year": 1996,
+    "text": "TRC hearings (1996–98): more than 22,000 victims told their stories.",
+    "supports": [
+     "The TRC uncovered the truth"
+    ],
+    "lexicon": [
+     "TRC",
+     "restorative justice"
+    ]
+   },
+   {
+    "factId": "F-SAP-06",
+    "year": 1998,
+    "text": "TRC amnesty: 1,167 of 7,116 applications granted, for full disclosure.",
+    "supports": [
+     "Amnesty was not automatic"
+    ],
+    "lexicon": [
+     "amnesty",
+     "full disclosure"
+    ]
+   },
+   {
+    "factId": "F-SAP-15",
+    "year": 1996,
+    "text": "GEAR (1996): free-market growth and privatisation replaced the RDP.",
+    "supports": [
+     "The government chose growth over redistribution"
+    ],
+    "lexicon": [
+     "GEAR",
+     "privatisation"
+    ]
+   },
+   {
+    "factId": "F-SAP-17",
+    "year": 2000,
+    "text": "COSATU: half a million jobs lost; unemployment 41.6 per cent in 2001.",
+    "supports": [
+     "Economic policy failed to create jobs"
+    ],
+    "lexicon": [
+     "unemployment",
+     "COSATU"
+    ]
+   },
+   {
+    "factId": "F-SAP-11",
+    "year": 1996,
+    "text": "Gini index rose from 0.69 (1996) to 0.77 (2001); 57 per cent below the poverty line.",
+    "supports": [
+     "Inequality persisted"
+    ],
+    "lexicon": [
+     "Gini",
+     "poverty"
+    ]
+   },
+   {
+    "factId": "F-SAP-13",
+    "year": 1999,
+    "text": "Land: target 30 per cent in five years; less than 2 per cent reallocated.",
+    "supports": [
+     "Land reform failed"
+    ],
+    "lexicon": [
+     "land reform",
+     "restitution"
+    ]
+   },
+   {
+    "factId": "F-SAP-25",
+    "year": 1999,
+    "text": "White share of civil service posts fell from 44 to 18 per cent (1994–99).",
+    "supports": [
+     "Affirmative action transformed the state"
+    ],
+    "alsoWorksFor": [
+     "P2-9-SA-TRANSITION"
+    ],
+    "lexicon": [
+     "affirmative action",
+     "BEE"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Christopher Saunders",
+    "argument": "The constitution itself permitted race-based legislation to remedy the inequalities of the past (as summarised by Bottaro and Stanley), against Giliomee and Mbenga's view that affirmative action compromised the principle of equality.",
+    "useItLikeThis": "Saunders's view supports the claim that affirmative action fulfilled rather than broke the constitution, which suggests it was a legitimate tool of transformation.",
+    "factId": "F-SAP-26"
+   },
+   {
+    "historian": "Nigel Worden",
+    "argument": "The new labour laws kept wage levels well above those in Asia and Latin America, making South Africa less competitive in the global economy (as summarised by Bottaro and Stanley).",
+    "useItLikeThis": "Worden's view supports the claim that protecting employed workers came at the cost of jobs for the unemployed, which suggests labour policy deepened the divide between insiders and outsiders.",
+    "factId": "F-SAP-20"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The ANC nationalised the economy in 1994.",
+    "right": "By 1994 the ANC had **abandoned nationalisation**; from 1996 GEAR followed free-market principles."
+   },
+   {
+    "wrong": "The TRC put apartheid leaders on trial.",
+    "right": "It was **not a court**: it granted amnesty for full disclosure of politically motivated acts."
+   },
+   {
+    "wrong": "Land was rapidly redistributed after 1994.",
+    "right": "Less than **2 per cent** of land was reallocated in five years, against a 30 per cent target."
+   },
+   {
+    "wrong": "Inequality fell quickly after 1994.",
+    "right": "The **Gini index rose** from 0.69 in 1996 to 0.77 in 2001."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1994,
+     "text": "RDP"
+    },
+    {
+     "year": 1995,
+     "text": "Labour Relations Act"
+    },
+    {
+     "year": 1996,
+     "month": 4,
+     "text": "TRC hearings begin"
+    },
+    {
+     "year": 1996,
+     "text": "GEAR"
+    },
+    {
+     "year": 1998,
+     "month": 5,
+     "day": 29,
+     "text": "'Two nations' speech"
+    },
+    {
+     "year": 1999,
+     "text": "Mbeki president"
+    },
+    {
+     "year": 2000,
+     "text": "Women 30 per cent of MPs"
+    }
+   ],
+   "keyArguments": [
+    "Symbols and the TRC aimed at reconciliation; the TRC achieved truth more than justice.",
+    "The RDP's redistribution gave way in 1996 to GEAR's free-market growth.",
+    "The economy stabilised, but unemployment and poverty remained.",
+    "Services and welfare reached millions, but education and health quality lagged; AIDS policy failed.",
+    "Affirmative action transformed the state; land reform and inequality changed little: Mbeki's 'two nations'."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-9-SA-POLICIES-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "RDP launched",
+     "year": 1994,
+     "factId": "F-SAP-14"
+    },
+    {
+     "id": "b",
+     "text": "Labour Relations Act",
+     "year": 1995,
+     "factId": "F-SAP-18"
+    },
+    {
+     "id": "c",
+     "text": "TRC's first hearing",
+     "year": 1996,
+     "month": 4,
+     "factId": "F-SAP-03"
+    },
+    {
+     "id": "d",
+     "text": "Basic Conditions of Employment Act",
+     "year": 1997,
+     "factId": "F-SAP-19"
+    },
+    {
+     "id": "e",
+     "text": "Mbeki's 'two nations' speech",
+     "year": 1998,
+     "month": 5,
+     "factId": "F-SAP-10"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "GEAR announced",
+     "year": 1996,
+     "factId": "F-SAP-15"
+    },
+    {
+     "id": "b",
+     "text": "Employment Equity Act",
+     "year": 1998,
+     "factId": "F-SAP-19"
+    },
+    {
+     "id": "c",
+     "text": "Mbeki becomes president",
+     "year": 1999,
+     "factId": "F-SAP-24"
+    },
+    {
+     "id": "d",
+     "text": "Women hold 30 per cent of seats in parliament",
+     "year": 2000,
+     "factId": "F-SAP-27"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Child support grant and RDP begin",
+     "year": 1994,
+     "factId": "F-SAP-21"
+    },
+    {
+     "id": "b",
+     "text": "Teachers take retrenchment packages",
+     "year": 1996,
+     "factId": "F-SAP-22"
+    },
+    {
+     "id": "c",
+     "text": "CCMA receives more than 81,000 cases",
+     "year": 1998,
+     "factId": "F-SAP-18"
+    },
+    {
+     "id": "d",
+     "text": "UNESCO literacy study",
+     "year": 2000,
+     "factId": "F-SAP-23"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each policy to what it did.",
+   "pairs": [
+    {
+     "left": "RDP",
+     "right": "Planned 300,000 houses a year and services for all",
+     "explanation": "1994."
+    },
+    {
+     "left": "GEAR",
+     "right": "Free-market growth, including privatisation",
+     "explanation": "1996."
+    },
+    {
+     "left": "Employment Equity Act",
+     "right": "Gave preference to historically disadvantaged workers",
+     "explanation": "1998."
+    },
+    {
+     "left": "Black Economic Empowerment",
+     "right": "Aimed to increase black ownership of companies",
+     "explanation": "With access to capital."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many victims told their stories at the TRC hearings? (more than … )",
+   "factIds": [
+    "F-SAP-05"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 22000,
+     "tolerance": 500,
+     "explanation": "More than 22,000."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of the population lived below the poverty line in 1996 and 2001, according to the HSRC study? (number)",
+   "factIds": [
+    "F-SAP-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 57,
+     "tolerance": 0,
+     "explanation": "About 57 per cent, unchanged."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of arable land did black farmers control in 1994? (number)",
+   "factIds": [
+    "F-SAP-13"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 16,
+     "tolerance": 0,
+     "explanation": "About 16 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of seats in parliament did women hold by 2000? (number)",
+   "factIds": [
+    "F-SAP-27"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 30,
+     "tolerance": 0,
+     "explanation": "30 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were limits of the new government's policies? Choose all that apply.",
+   "factIds": [
+    "F-SAP-13",
+    "F-SAP-17",
+    "F-SAP-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Less than 2 per cent of land reallocated in five years",
+     "correct": true,
+     "explanation": "Yes: against a 30 per cent target."
+    },
+    {
+     "id": "b",
+     "text": "Unemployment of 41.6 per cent in 2001",
+     "correct": true,
+     "explanation": "Yes: neither RDP nor GEAR created enough jobs."
+    },
+    {
+     "id": "c",
+     "text": "A falling school-leaving pass rate",
+     "correct": true,
+     "explanation": "Yes: 58 to 49 per cent, 1994–98."
+    },
+    {
+     "id": "d",
+     "text": "Inflation of around 6 per cent",
+     "correct": false,
+     "explanation": "No: that was an achievement."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these improved the position of women? Choose all that apply.",
+   "factIds": [
+    "F-SAP-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A Commission on Gender Equality",
+     "correct": true,
+     "explanation": "Yes: it focused on the most disadvantaged women."
+    },
+    {
+     "id": "b",
+     "text": "The 1998 law recognising customary marriages",
+     "correct": true,
+     "explanation": "Yes: it ended women's minority status."
+    },
+    {
+     "id": "c",
+     "text": "Laws on domestic violence",
+     "correct": true,
+     "explanation": "Yes: among several new laws."
+    },
+    {
+     "id": "d",
+     "text": "Equal rights to own communal land",
+     "correct": false,
+     "explanation": "No: the 1998 law did not secure this."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Black farmers controlled about 16 per cent of arable land in 1994, and less than 2 per cent was reallocated in five years.” Which argument does it support?",
+   "factIds": [
+    "F-SAP-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Land reform failed to undo apartheid's inequality",
+     "correct": true,
+     "explanation": "Correct: property rights limited it."
+    },
+    {
+     "id": "b",
+     "text": "Land reform succeeded",
+     "correct": false,
+     "explanation": "The target was missed badly."
+    },
+    {
+     "id": "c",
+     "text": "Black farmers owned most land",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "The constitution required land seizures",
+     "correct": false,
+     "explanation": "It protected property rights."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “From 1995 growth averaged 3.2 per cent a year and inflation fell to around 6 per cent.” Which argument does it support?",
+   "factIds": [
+    "F-SAP-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic policy brought stability and growth",
+     "correct": true,
+     "explanation": "Correct: credited to Manuel and Mboweni."
+    },
+    {
+     "id": "b",
+     "text": "The economy collapsed after 1994",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "GEAR created full employment",
+     "correct": false,
+     "explanation": "Unemployment stayed high."
+    },
+    {
+     "id": "d",
+     "text": "Inflation rose sharply",
+     "correct": false,
+     "explanation": "Inflation fell to around 6 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The TRC put apartheid leaders on trial and sentenced them to prison.”",
+   "factIds": [
+    "F-SAP-05",
+    "F-SAP-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The TRC was not a court; it granted amnesty for full disclosure",
+     "correct": true,
+     "explanation": "Correct: restorative justice."
+    },
+    {
+     "id": "b",
+     "text": "The TRC was set up in 1990",
+     "correct": false,
+     "explanation": "It was set up in 1996."
+    },
+    {
+     "id": "c",
+     "text": "Tutu did not chair it",
+     "correct": false,
+     "explanation": "He did chair it."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it was not a court."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In 1994 the ANC nationalised the mines and banks, as the Freedom Charter demanded.”",
+   "factIds": [
+    "F-SAP-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "By 1994 the ANC had abandoned nationalisation",
+     "correct": true,
+     "explanation": "Correct: despite SACP and COSATU calls."
+    },
+    {
+     "id": "b",
+     "text": "The Freedom Charter was written in 1994",
+     "correct": false,
+     "explanation": "It was written in 1955."
+    },
+    {
+     "id": "c",
+     "text": "The ANC was not in government in 1994",
+     "correct": false,
+     "explanation": "It led the GNU."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: nationalisation was abandoned."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about government policies in South Africa between 1994 and 2000. Is the 1976 Soweto uprising inside or outside the timeframe?",
+   "factIds": [
+    "F-SAP-22"
+   ],
+   "timeframe": [
+    1994,
+    2000
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be used briefly as background on Bantu Education",
+     "correct": true,
+     "explanation": "Correct: the question starts in 1994."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1976 is before 1994."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because education was a policy area",
+     "correct": false,
+     "explanation": "The topic is relevant, the date is not."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who called the TRC 'a bridge from the old to the new'?",
+   "factIds": [
+    "F-SAP-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Justice Richard Goldstone",
+     "correct": true,
+     "explanation": "Correct: he argued trials would have wrecked the negotiations."
+    },
+    {
+     "id": "b",
+     "text": "P.W. Botha",
+     "correct": false,
+     "explanation": "Botha refused to appear."
+    },
+    {
+     "id": "c",
+     "text": "Thabo Mbeki",
+     "correct": false,
+     "explanation": "Mbeki objected to the TRC's even-handedness."
+    },
+    {
+     "id": "d",
+     "text": "Nigel Worden",
+     "correct": false,
+     "explanation": "Worden wrote about labour laws."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did De Klerk do at the TRC?",
+   "factIds": [
+    "F-SAP-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Apologised for apartheid but denied authorising the security forces' brutality",
+     "correct": true,
+     "explanation": "Correct: he later took legal action over the report."
+    },
+    {
+     "id": "b",
+     "text": "Refused to appear",
+     "correct": false,
+     "explanation": "That was P.W. Botha."
+    },
+    {
+     "id": "c",
+     "text": "Chaired the hearings",
+     "correct": false,
+     "explanation": "Tutu chaired them."
+    },
+    {
+     "id": "d",
+     "text": "Received a prison sentence",
+     "correct": false,
+     "explanation": "The TRC was not a court."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Bottaro and Stanley, what did Meredith estimate about the black middle class?",
+   "factIds": [
+    "F-SAP-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Perhaps 5 per cent of the black community reached middle-class status",
+     "correct": true,
+     "explanation": "Correct: the majority remained poor."
+    },
+    {
+     "id": "b",
+     "text": "Most black South Africans joined the middle class",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "No black middle class emerged",
+     "correct": false,
+     "explanation": "A small one did."
+    },
+    {
+     "id": "d",
+     "text": "Half of black South Africans became middle class",
+     "correct": false,
+     "explanation": "Far too high."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to the Gini index between 1996 and 2001?",
+   "factIds": [
+    "F-SAP-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It rose from 0.69 to 0.77, showing greater inequality",
+     "correct": true,
+     "explanation": "Correct: one of the most unequal societies."
+    },
+    {
+     "id": "b",
+     "text": "It fell sharply",
+     "correct": false,
+     "explanation": "It rose: inequality grew."
+    },
+    {
+     "id": "c",
+     "text": "It stayed the same",
+     "correct": false,
+     "explanation": "It rose from 0.69 to 0.77."
+    },
+    {
+     "id": "d",
+     "text": "It was not measured",
+     "correct": false,
+     "explanation": "The HSRC measured it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which organisation was set up to resolve industrial disputes under the 1995 Labour Relations Act?",
+   "factIds": [
+    "F-SAP-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The CCMA",
+     "correct": true,
+     "explanation": "Correct: more than 81,000 cases in 1998."
+    },
+    {
+     "id": "b",
+     "text": "The TRC",
+     "correct": false,
+     "explanation": "The TRC investigated human rights abuses."
+    },
+    {
+     "id": "c",
+     "text": "The Land Claims Court",
+     "correct": false,
+     "explanation": "That settled land disputes."
+    },
+    {
+     "id": "d",
+     "text": "The Constitutional Court",
+     "correct": false,
+     "explanation": "That upheld the constitution."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-9-SA-POLICIES-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent did economic policy reduce inequality in South Africa between 1994 and 2000?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "economic policy",
+     "answer": "factor",
+     "explanation": "The named factor: RDP and GEAR."
+    },
+    {
+     "id": "s3",
+     "text": "reduce inequality",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1994 and 2000",
+     "answer": "timeframe",
+     "explanation": "From the RDP to the end of the period."
+    },
+    {
+     "id": "s5",
+     "text": "to what extent … reduce",
+     "answer": "judgement",
+     "explanation": "Did inequality fall, stay the same or grow?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“'The Truth and Reconciliation Commission achieved reconciliation.' Discuss with reference to the period 1996 to 1998.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "The Truth and Reconciliation Commission",
+     "answer": "factor",
+     "explanation": "The body to assess."
+    },
+    {
+     "id": "s3",
+     "text": "achieved reconciliation",
+     "answer": "scope",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s4",
+     "text": "1996 to 1998",
+     "answer": "timeframe",
+     "explanation": "The years of the hearings."
+    },
+    {
+     "id": "s5",
+     "text": "achieved",
+     "answer": "judgement",
+     "explanation": "Truth, justice or reconciliation: which did it achieve?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did economic policy reduce inequality in South Africa between 1994 and 2000?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic policy did little to reduce inequality: GEAR brought growth and stability but not jobs, and the Gini index rose; welfare and services eased poverty without closing the gap.",
+     "correct": true,
+     "explanation": "Correct: a clear judgement with evidence."
+    },
+    {
+     "id": "b",
+     "text": "There were two economic policies, the RDP and GEAR.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Inequality is bad.",
+     "correct": false,
+     "explanation": "Not a historical judgement."
+    },
+    {
+     "id": "d",
+     "text": "Economic policy ended inequality.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'The TRC achieved reconciliation.' Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The TRC achieved truth more than reconciliation: its hearings exposed apartheid's crimes and helped secure a peaceful transition, but many black South Africans felt justice was denied and many whites dismissed it.",
+     "correct": true,
+     "explanation": "Correct: tests the claim with a distinction."
+    },
+    {
+     "id": "b",
+     "text": "The TRC was set up in 1996.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The TRC was good.",
+     "correct": false,
+     "explanation": "Not a judgement with criteria."
+    },
+    {
+     "id": "d",
+     "text": "The TRC achieved complete reconciliation.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1996 Trevor Manuel announced GEAR.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because GEAR favoured privatisation and competitiveness, it stabilised the economy but cost jobs.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In 1998 the pass rate was 49 per cent.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that wider access to schooling did not yet bring better skills.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Gini index from 0.69 to 0.77",
+     "right": "Inequality grew",
+     "explanation": "1996–2001."
+    },
+    {
+     "left": "1.2 million houses built",
+     "right": "Services reached millions",
+     "explanation": "Under the RDP."
+    },
+    {
+     "left": "White share of posts from 44 to 18 per cent",
+     "right": "Affirmative action transformed the state",
+     "explanation": "1994–99."
+    },
+    {
+     "left": "Less than 2 per cent of land reallocated",
+     "right": "Land reform fell short",
+     "explanation": "In five years."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “GEAR was bad for workers.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because GEAR's privatisation and focus on competitiveness cut public-sector jobs, COSATU claimed half a million jobs were lost by 2000; yet the same policy produced growth averaging 3.2 per cent and inflation around 6 per cent, so it helped the economy more than the unemployed.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and qualification."
+    },
+    {
+     "id": "b",
+     "text": "GEAR was very bad.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "GEAR began in 1996.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "GEAR destroyed everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The new government's policies achieved nothing for the poor.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "By 2001 1.2 million houses had been built and more than seven million people given free basic water, while by 2002 seven million received social grants, compared with 2.6 million before 1994.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "The government meant well.",
+     "correct": false,
+     "explanation": "Not evidence."
+    },
+    {
+     "id": "c",
+     "text": "South Africa is rich.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Some people became rich.",
+     "correct": false,
+     "explanation": "Not about the poor."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did economic policy reduce inequality between 1994 and 2000?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by access to services, policy reduced inequality; judged by income, jobs and land, it did not, since the Gini index rose and unemployment stayed high.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there was the RDP and then GEAR.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Mandela was a great leader.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, inequality is always hard to reduce.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-POLICIES-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the government's change of economic policy between 1996 and 2000.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The RDP's goals were unrealistic without more funding",
+     "answer": "causes",
+     "explanation": "Not enough money."
+    },
+    {
+     "id": "s2",
+     "text": "The hope of attracting foreign investment",
+     "answer": "causes",
+     "explanation": "Free-market principles."
+    },
+    {
+     "id": "s3",
+     "text": "Growth averaging 3.2 per cent",
+     "answer": "effects",
+     "explanation": "From 1995."
+    },
+    {
+     "id": "s4",
+     "text": "COSATU's claim of half a million lost jobs",
+     "answer": "effects",
+     "explanation": "By 2000."
+    },
+    {
+     "id": "s5",
+     "text": "Inflation down to around 6 per cent",
+     "answer": "effects",
+     "explanation": "A stable economy."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-9-SA-POLICIES-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent did economic policy reduce inequality in South Africa between 1994 and 2000?",
+   "commandTerm": "to what extent",
+   "namedFactor": "economic policy",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1994,
+    2000
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Economic policy, weighed first",
+    "timeframe": "1994–2000",
+    "scope": "Inequality",
+    "judgement": "Did inequality fall, stay the same or grow?"
+   },
+   "modelPlan": {
+    "thesis": "Economic policy did little to reduce inequality: GEAR brought growth and stability but not jobs, and the Gini index rose; welfare and services eased poverty without closing the gap.",
+    "arguments": [
+     {
+      "claim": "The RDP's aims and limits (named factor first).",
+      "evidence": [
+       "F-SAP-14"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "GEAR: growth and stability.",
+      "evidence": [
+       "F-SAP-15",
+       "F-SAP-16"
+      ]
+     },
+     {
+      "claim": "Unemployment and the Gini index.",
+      "evidence": [
+       "F-SAP-17",
+       "F-SAP-11"
+      ]
+     },
+     {
+      "claim": "Welfare, services and affirmative action.",
+      "evidence": [
+       "F-SAP-21",
+       "F-SAP-28",
+       "F-SAP-25"
+      ]
+     }
+    ],
+    "counter": "Welfare grants and services reached millions, which suggests policy reduced poverty even if not inequality.",
+    "judgementCriterion": "Judged by income and jobs, policy failed; by access to services, it succeeded in part."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Economic policy did little to reduce inequality between 1994 and 2000.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "GEAR, introduced in 1996, produced growth of 3.2 per cent a year, yet COSATU claimed half a million jobs were lost and the Gini index rose from 0.69 to 0.77.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that growth benefited those with jobs and capital, so the gap Mbeki called 'two nations' widened.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, by 2001 1.2 million houses had been built and welfare grants reached millions, which reduced the worst poverty.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Economic policy therefore eased poverty for some but did not reduce inequality overall.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic policy"
+    ],
+    "synonyms": [
+     "RDP",
+     "GEAR"
+    ],
+    "historians": [
+     "Worden",
+     "Thompson",
+     "Meredith"
+    ],
+    "extraLexicon": [
+     "Gini",
+     "unemployment",
+     "two nations"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-POLICIES-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Truth and Reconciliation Commission achieved reconciliation.” Discuss with reference to the period 1996 to 1998.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1996,
+    1998
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: the TRC achieved reconciliation",
+    "timeframe": "1996–1998",
+    "scope": "Reconciliation",
+    "judgement": "Truth, justice or reconciliation?"
+   },
+   "modelPlan": {
+    "thesis": "The TRC achieved truth more than reconciliation: its hearings exposed apartheid's crimes and helped secure a peaceful transition, but many black South Africans felt justice was denied and many whites dismissed it.",
+    "arguments": [
+     {
+      "claim": "For: truth through public hearings.",
+      "evidence": [
+       "F-SAP-05"
+      ]
+     },
+     {
+      "claim": "For: Goldstone's 'bridge'.",
+      "evidence": [
+       "F-SAP-04"
+      ]
+     },
+     {
+      "claim": "Against: refusals and anger from all sides.",
+      "evidence": [
+       "F-SAP-07"
+      ]
+     },
+     {
+      "claim": "Against: justice and compensation denied.",
+      "evidence": [
+       "F-SAP-09"
+      ]
+     }
+    ],
+    "counter": "Mbeki himself said in 1998 that national reconciliation was not being realised.",
+    "judgementCriterion": "Did it achieve reconciliation? Truth, yes; reconciliation only in part."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The TRC achieved truth more fully than reconciliation.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Between 1996 and 1998 more than 22,000 victims told their stories in hearings broadcast live, and only 1,167 of 7,116 amnesty applications were granted.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that apartheid's crimes could no longer be denied, so Goldstone called it 'a bridge from the old to the new'.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Botha refused to appear, the ANC tried to block the report, and many victims felt justice had not been done.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore only partly valid: the TRC made reconciliation possible but did not achieve it.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Truth and Reconciliation Commission",
+     "TRC"
+    ],
+    "synonyms": [
+     "reconciliation",
+     "amnesty"
+    ],
+    "historians": [
+     "Goldstone"
+    ],
+    "extraLexicon": [
+     "Tutu",
+     "restorative justice",
+     "truth"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-POLICIES-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the success of the social policies of the ANC government between 1994 and 1999.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1994,
+    1999
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The success of social policies",
+    "timeframe": "1994–1999",
+    "scope": "Welfare, education, health",
+    "judgement": "Access or quality?"
+   },
+   "modelPlan": {
+    "thesis": "Social policy succeeded in widening access to welfare, schooling and primary health care, but failed to improve quality, and its response to AIDS was a serious failure.",
+    "arguments": [
+     {
+      "claim": "Welfare and services.",
+      "evidence": [
+       "F-SAP-21",
+       "F-SAP-28"
+      ]
+     },
+     {
+      "claim": "Education: access and results.",
+      "evidence": [
+       "F-SAP-22"
+      ]
+     },
+     {
+      "claim": "Health: clinics and AIDS.",
+      "evidence": [
+       "F-SAP-24",
+       "F-SAP-29"
+      ]
+     },
+     {
+      "claim": "Women's rights.",
+      "evidence": [
+       "F-SAP-27"
+      ]
+     }
+    ],
+    "counter": "The legacy of apartheid's fifteen education departments limited what could be achieved in five years.",
+    "judgementCriterion": "Judged by access, a success; judged by quality, a failure."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The ANC government's social policies succeeded in access but failed in quality.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Thousands of new schools were built and primary schooling made compulsory, yet the pass rate fell from 58 per cent in 1994 to 49 per cent in 1998.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that more children attended school without learning more, so the skills shortage persisted.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, welfare grants and primary health care reached millions who had never had them, though the response to AIDS was a serious failure.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Social policy was therefore a partial success, measured more by who was reached than by what they received.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "social policies"
+    ],
+    "synonyms": [
+     "welfare",
+     "education",
+     "health"
+    ],
+    "historians": [
+     "Thompson",
+     "Iliffe"
+    ],
+    "extraLexicon": [
+     "child support grant",
+     "AIDS",
+     "pass rate"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-POLICIES-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the government's change of economic policy between 1996 and 2000.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1996,
+    2000
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1996–2000",
+    "scope": "The change from the RDP to GEAR",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The government replaced the RDP with GEAR because the RDP was unaffordable and it hoped free-market policies would attract investment; the results were stability and growth but continued high unemployment.",
+    "arguments": [
+     {
+      "claim": "Reason: the RDP was unaffordable.",
+      "evidence": [
+       "F-SAP-14"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: free-market hopes of investment.",
+      "evidence": [
+       "F-SAP-15"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: growth and low inflation.",
+      "evidence": [
+       "F-SAP-16"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: job losses and unemployment.",
+      "evidence": [
+       "F-SAP-17"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "COSATU and the SACP opposed the change, which shows it divided the ANC's alliance.",
+    "judgementCriterion": "Which result mattered most? Continued unemployment, which limited the reduction of inequality."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The government changed economic policy because the RDP could not be paid for.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1996 the RDP office was closed and Trevor Manuel announced GEAR, which included privatisation and aimed to attract overseas investment.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that redistribution gave way to growth, which averaged 3.2 per cent a year with inflation falling to around 6 per cent.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, COSATU claimed half a million jobs had been lost by 2000, and unemployment remained very high.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore a stable economy that still failed to create jobs.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "GEAR"
+    ],
+    "synonyms": [
+     "economic policy",
+     "RDP"
+    ],
+    "historians": [
+     "Worden"
+    ],
+    "extraLexicon": [
+     "privatisation",
+     "Manuel",
+     "unemployment"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-POLICIES-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the impact of affirmative action on South African society between 1994 and 1999.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1994,
+    1999
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The impact of affirmative action",
+    "timeframe": "1994–1999",
+    "scope": "South African society",
+    "judgement": "Which impact mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "Affirmative action rapidly transformed the civil service and helped create a black middle class, but it benefited a small elite and raised disputes about constitutional equality.",
+    "arguments": [
+     {
+      "claim": "The civil service.",
+      "evidence": [
+       "F-SAP-25"
+      ]
+     },
+     {
+      "claim": "Employment equity and BEE.",
+      "evidence": [
+       "F-SAP-19",
+       "F-SAP-25"
+      ]
+     },
+     {
+      "claim": "A new black middle class.",
+      "evidence": [
+       "F-SAP-12"
+      ]
+     },
+     {
+      "claim": "The debate over equality.",
+      "evidence": [
+       "F-SAP-26"
+      ]
+     }
+    ],
+    "counter": "Giliomee and Mbenga argue that affirmative action compromised constitutional equality.",
+    "judgementCriterion": "Which impact mattered most? The transformation of the state, which changed who governed."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Affirmative action transformed the state more than society as a whole.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The government advertised 11,000 affirmative action posts and granted nearly 57,000 early retirement packages, and the white share of civil service posts fell from 44 to 18 per cent between 1994 and 1999.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the civil service began to reflect the population, while Meredith estimates that only perhaps 5 per cent of black South Africans reached the middle class.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Giliomee and Mbenga argue it compromised equality, while Saunders notes the constitution allowed such measures.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Affirmative action's main impact was therefore on the state and a new elite, not on the poor majority.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "affirmative action"
+    ],
+    "synonyms": [
+     "employment equity",
+     "BEE"
+    ],
+    "historians": [
+     "Saunders",
+     "Giliomee",
+     "Mbenga",
+     "Meredith"
+    ],
+    "extraLexicon": [
+     "civil service",
+     "middle class",
+     "equality"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-POLICIES-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent did the position of women in South Africa improve between 1994 and 2000?",
+   "commandTerm": "to what extent",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1994,
+    2000
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The position of women",
+    "timeframe": "1994–2000",
+    "scope": "Legal, political and economic position",
+    "judgement": "Law changed faster than custom and the economy"
+   },
+   "modelPlan": {
+    "thesis": "Women's legal and political position improved substantially, with a gender commission, new laws and 30 per cent of parliamentary seats by 2000, but customary law and economic inequality limited the change for rural women.",
+    "arguments": [
+     {
+      "claim": "The Commission on Gender Equality and new laws.",
+      "evidence": [
+       "F-SAP-27"
+      ]
+     },
+     {
+      "claim": "Political representation.",
+      "evidence": [
+       "F-SAP-27"
+      ]
+     },
+     {
+      "claim": "Customary marriages law and its limits.",
+      "evidence": [
+       "F-SAP-27"
+      ]
+     },
+     {
+      "claim": "Employment equity.",
+      "evidence": [
+       "F-SAP-19"
+      ]
+     }
+    ],
+    "counter": "The 1998 law did nothing about women's right to inherit or own communal land.",
+    "judgementCriterion": "How far? Far in law and politics; less far for rural women under customary law."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The position of women improved substantially in law and politics.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "A Commission on Gender Equality was set up, new laws covered domestic violence and the right to terminate pregnancies, and by 2000 women held 30 per cent of seats in parliament.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that women's equality was protected by the state, so their voice in government grew quickly.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the 1998 customary marriages law did not give rural women equal rights to inherit or own communal land.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Women's position therefore improved greatly in law, but less for the rural women who were most disadvantaged.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "women"
+    ],
+    "synonyms": [
+     "gender",
+     "equality"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Commission on Gender Equality",
+     "customary law",
+     "parliament"
+    ]
+   }
+  }
+ ]
+}

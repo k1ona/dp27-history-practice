@@ -1,0 +1,48 @@
+# Verification log: P2-9-DE-POLICIES
+
+Section: Germany: the aims and results of policies in the Federal Republic (1949–1990).
+Rows marked Judt were checked against `reference/Judt_Postwar_A_History_of_Europe_Since_1945.md` (line numbers in that file). Rows marked Bottaro and Stanley were checked against `reference/History_for_the_IB_Diploma_Democratic_States_1848-2000.md` (J. Bottaro and J. Stanley, *Evolution and Development of Democratic States (1848–2000)*, Cambridge University Press, 2nd edition; line numbers in that file). All checks were made on the date in the last column. Historians' views are cited as summarised or quoted in those books.
+
+Not used because the source conflicts with itself: the year of the law on the equality of the sexes (Bottaro and Stanley give 1957 at lines 2824 and 3252, but quote S. Berger naming an 'Equality Law of 1958' at line 2212); the section therefore says only 'an equality law of the late 1950s'. Also not used: the content of the 1952 Equalisation of Burdens Law, which the source names in a chronology (line 2365) but does not describe, and the start date of guest-worker recruitment, which the passages read do not give.
+
+## Facts
+
+| factId | Claim as used | Source | Location | Accessed |
+|---|---|---|---|---|
+| F-DEP-01 | After 1945 Germany entered 'Stunde Null' (Zero Hour); when the BRD was formed in 1949 living standards had regressed to a pre-1914 level, with food shortages and a black market | Bottaro and Stanley | lines 2485–2487 | 2026-11-11 |
+| F-DEP-02 | Geoff Layton writes that Erhard's 'social market' aimed to combine political and economic freedom with social justice and security: private property and enterprise were supported, but a strong state could intervene in the free market to defend the common interests of the individual; Erhard sought a 'third way' between unrestrained capitalism and an over-regulated socialist economy | Bottaro and Stanley | lines 1116; 2505–2509 | 2026-11-11 |
+| F-DEP-03 | After an initial recession, by 1952 job creation was rising; unemployment fell to about one million (around 4.25 per cent) by 1955, and GNP had doubled by 1955 | Bottaro and Stanley | line 2511 | 2026-11-11 |
+| F-DEP-04 | The 1951 Co-determination Law gave workers representation on managerial boards in iron, coal and steel; the 1952 Works' Constitution Law provided works councils in companies with more than 500 workers; unions worked as partners to employers | Bottaro and Stanley | lines 2513–2523 | 2026-11-11 |
+| F-DEP-05 | The Christian Democratic state of the 1950s owned or controlled 40 per cent of coal and iron production, two-thirds of electricity-generating plants and a majority of banks; trade unions and business groups mostly cooperated because 'the economic cake grew fast enough' to meet most demands | Judt | lines 16530–16573 | 2026-11-11 |
+| F-DEP-06 | Under the Marshall Plan the USA gave $13 billion to Europe, more than $1.5 billion to Germany; Layton and Fulbrook argue it helped the recovery enormously, but economists estimate it contributed less than 5 per cent of national income and Britain received twice as much; Erhard's financial reforms and good industrial relations are now seen as more pivotal | Bottaro and Stanley | line 2541 | 2026-11-11 |
+| F-DEP-07 | By 1960 industrial production was more than twice the level of 1950 and the BRD was the third biggest trading power behind the USA and Britain | Bottaro and Stanley | line 2527 | 2026-11-11 |
+| F-DEP-08 | The private sector, working with the state, built a million new homes by the mid-1950s; Erhard introduced strict rent controls and tenants' rights; six million new flats were built in the decade from 1950, more than half of them social housing | Bottaro and Stanley | lines 2609–2617 | 2026-11-11 |
+| F-DEP-09 | The economy absorbed almost nine million displaced persons from the East; this smoothed differences of class and religion and stifled the appeal of radical nationalist parties | Bottaro and Stanley | lines 1810–1814 | 2026-11-11 |
+| F-DEP-10 | By 1951 more than two million West Germans were unemployed, over 10 per cent of the workforce; yet pre-war (1936) levels of GDP and industrial productivity were reached by the end of 1951 | Bottaro and Stanley | lines 1820; 3164–3170 | 2026-11-11 |
+| F-DEP-11 | Unemployment benefit, sickness and accident insurance, and child benefit were introduced; by 1955 unemployment had fallen to one million, beginning near full employment that lasted until the 1970s; recruitment of foreign workers (Gastarbeiter) from Turkey later became a feature of policy | Bottaro and Stanley | line 3174 | 2026-11-11 |
+| F-DEP-12 | In 1973 West Germany had 2.8 million foreign workers, one in eight of the labour force, mostly in building, metalworking and car manufacture, including 605,000 Turks; they had no permanent residence rights and were held back at entry-level positions and wages, though their pay was worth many times their earning potential at home | Judt | lines 20625–20665 | 2026-11-11 |
+| F-DEP-13 | In 1974–75 guest workers were the first to be laid off (four out of five BMW employees who lost their jobs were not German citizens); in 1975 the Federal Republic closed its recruiting offices; a 1977 Federal Commission declared 'Germany is not an immigrant country' | Judt | lines 27615–27629 | 2026-11-11 |
+| F-DEP-14 | The 1957 Dynamic Pension index-linked old-age pensions to wages and salaries; economists called it 'the most important social reform of the 1950s'; the 1957 Pensions Reform Act became the cornerstone of the welfare state | Bottaro and Stanley | lines 2773; 3213 | 2026-11-11 |
+| F-DEP-15 | West Germany did not create a National Health Service like Britain's: health care remained insurance-based and self-governed by the medical profession, though a 'social state' was enshrined in the 1949 constitution | Bottaro and Stanley | lines 2754–2773 | 2026-11-11 |
+| F-DEP-16 | The Basic Law gave the Länder control of education; reforms of 1953 standardised education across the Länder and the 1955 Düsseldorf Agreement defined examination standards; by 1960 school fees were abolished; universities remained largely an elite preserve | Bottaro and Stanley | lines 2675–2693; 3203 | 2026-11-11 |
+| F-DEP-17 | Article 3 of the Basic Law stated that men and women were equal, yet women could be dismissed from the civil service on marriage; an equality law of the late 1950s let women work without their husbands' permission; women's average pay was 40 per cent below men's; even in the 1980s women were just over 10 per cent of Bundestag members | Bottaro and Stanley | lines 2212–2222; 2820–2837; 3250–3252 | 2026-11-11 |
+| F-DEP-18 | Female entry into higher education rose from 19 per cent in 1949 to around 33 per cent by the late 1960s; the 1954 Weisser Report presented women in paid employment as a positive role model | Bottaro and Stanley | line 3254 | 2026-11-11 |
+| F-DEP-19 | Mary Fulbrook writes that women in the BRD tended to remain in lower-status, less well-paid, often part-time or temporary employment | Bottaro and Stanley | lines 2843–2845 | 2026-11-11 |
+| F-DEP-20 | The Basic Law gave automatic citizenship to those persecuted by the Nazis; in September 1951 Adenauer acknowledged 'the immeasurable suffering endured by the Jews'; the Luxembourg Agreement of September 1952 obliged the BRD to pay Israel three billion marks and 450 million marks to Jewish groups | Bottaro and Stanley | lines 2969–2981 | 2026-11-11 |
+| F-DEP-21 | A 1950 directive in Baden-Württemberg told judges that Gypsies had been persecuted 'not for any racial reason, but because of an asocial and criminal record'; Sinti and Roma had scant hope of redress | Bottaro and Stanley | lines 2992–2994 | 2026-11-11 |
+| F-DEP-22 | The BRD retained Paragraph 175, criminalising sexual acts between men, in the form broadened by Hitler; 100,000 men were involved in court cases from 1945 to 1969 and nearly half were convicted | Bottaro and Stanley | lines 2998–3000 | 2026-11-11 |
+| F-DEP-23 | Wealth was distributed more equitably not by narrowing the income gap but by more ordinary people joining the middle class, and class gaps seemed narrower; as of 1955 a third of Germans had never had a holiday, only 10 per cent owned a fridge and half lived in one-bedroom flats; by 1959, 1.8 per cent of households controlled 35 per cent of private wealth | Bottaro and Stanley | lines 3096; 3277; 3300 | 2026-11-11 |
+| F-DEP-24 | The 1952 Equalisation of Burdens Law and the Works' Constitution Law were implemented | Bottaro and Stanley | line 2365 | 2026-11-11 |
+| F-DEP-25 | The monetary, economic and social union took effect on 1 July 1990: East Germans could exchange marks up to the equivalent of DM 40,000 at 1:1, and wages were paid in Deutschmarks at parity, with grim long-term consequences for East German jobs and the West German budget | Judt | lines 38231–38243 | 2026-11-11 |
+| F-DEP-26 | By the time it joined NATO in 1955, the Federal Republic was well on the way to its Wirtschaftswunder (economic miracle) | Judt | lines 16485–16495 | 2026-11-11 |
+
+## Historiography
+
+| Historian | Argument as used | Source | Location | Accessed |
+|---|---|---|---|---|
+| Mary Fulbrook (as quoted by Bottaro and Stanley) | Women remained in lower-status, less well-paid work (F-DEP-19) | Bottaro and Stanley | lines 2843–2845 | 2026-11-11 |
+| Geoff Layton (as quoted by Bottaro and Stanley) | The social market combined freedom with social justice and security (F-DEP-02) | Bottaro and Stanley | lines 2505–2509 | 2026-11-11 |
+
+## Media
+
+No images are used in this section.

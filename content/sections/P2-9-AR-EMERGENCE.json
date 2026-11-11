@@ -1,0 +1,2701 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-9-AR-EMERGENCE",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In 1976 many Argentines accepted a military coup as the end of chaos. Seven years later the same military handed power to an elected president, who ordered its leaders to be prosecuted. Why did the dictatorship collapse, and on what foundations did the new democracy build?",
+   "predictionPrompt": "Your prediction in one line: what brought the dictatorship down?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "From Perón to the coup, 1946–1976",
+    "body": "Argentina had little experience of stable democracy. Between 1930 and 1983 it had numerous military coups, 25 presidents and 22 years of military rule. Its dominant political force was **Peronism**. Juan Perón built a mass following among trade unions from the 1940s, was overthrown by the military in 1955, and returned after eighteen years of exile to win the presidency again in 1973. He died a year later. His widow and successor, **Isabel Perón**, had little political experience. Economic and political chaos followed: political violence surged and Argentina suffered its first bout of hyperinflation.\n\nThe violence came from both sides. The *Nunca Más* report of 1984 describes a country \"torn by terror from both the extreme right and the far left\" in the 1970s. On **24 March 1976** the armed forces overthrew Isabel Perón. Congress was suspended, political parties were banned and civil rights were restricted. The junta called its regime the **Process of National Reorganization** (*el Proceso*).\n\nThe new government promised order and economic recovery. General **Jorge Videla** left the economy to José Alfredo Martínez de Hoz, who introduced free trade and deregulation. But the foreign debt increased fourfold during his tenure, and the gap between rich and poor grew much wider.\n\nThis mattered because many Argentines first accepted military rule as a response to chaos, which meant that the demand for democracy grew only when the regime itself was seen to have failed.",
+    "argumentsThatWork": [
+     {
+      "claim": "Argentina had a long tradition of military intervention.",
+      "evidence": [
+       "F-ARE-02"
+      ],
+      "strongestCounter": "Peronism had a large democratic following."
+     },
+     {
+      "claim": "Chaos under Isabel Perón opened the way to the coup.",
+      "evidence": [
+       "F-ARE-01",
+       "F-ARE-05"
+      ],
+      "strongestCounter": "Violence came from both left and right."
+     },
+     {
+      "claim": "The junta's economic policy failed to bring lasting recovery.",
+      "evidence": [
+       "F-ARE-04"
+      ],
+      "strongestCounter": "It ended shortages and the black market."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the methods used by the military government to control Argentina between 1976 and 1983.",
+     "To what extent did economic failure undermine the military government between 1976 and 1983?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The 1976 coup was made possible by the collapse of order under Isabel Perón.",
+     "prove": "After Perón's death in 1974, political violence surged and Argentina suffered its first bout of hyperinflation; on 24 March 1976 the armed forces seized power.",
+     "explain": "This meant that the military could present itself as restoring order, so Congress was suspended and parties banned with little resistance.",
+     "test": "However, Argentina had a long history of coups, with 22 years of military rule between 1930 and 1983, so 1976 continued a pattern rather than breaking one.",
+     "judge": "The coup was therefore the product both of immediate chaos and of a weak democratic tradition."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what day in March 1976 did the military seize power? (day of the month)",
+      "factIds": [
+       "F-ARE-03"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 24,
+        "tolerance": 0,
+        "explanation": "24 March 1976."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who succeeded Juan Perón as president after his death?",
+      "factIds": [
+       "F-ARE-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "His widow, Isabel Perón",
+        "correct": true,
+        "explanation": "Correct: she had little political experience."
+       },
+       {
+        "id": "b",
+        "text": "Jorge Videla",
+        "correct": false,
+        "explanation": "Videla led the 1976 junta."
+       },
+       {
+        "id": "c",
+        "text": "Raúl Alfonsín",
+        "correct": false,
+        "explanation": "Alfonsín was elected in 1983."
+       },
+       {
+        "id": "d",
+        "text": "Carlos Menem",
+        "correct": false,
+        "explanation": "Menem was elected in 1989."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Under Martínez de Hoz the foreign debt increased fourfold.” Which argument does it support best?",
+      "factIds": [
+       "F-ARE-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The junta's economic policy stored up problems for the future",
+        "correct": true,
+        "explanation": "Correct: debt burdened its successors."
+       },
+       {
+        "id": "b",
+        "text": "The junta paid off Argentina's debts",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The economy was nationalised",
+        "correct": false,
+        "explanation": "Policy was free-market."
+       },
+       {
+        "id": "d",
+        "text": "Inequality fell under the junta",
+        "correct": false,
+        "explanation": "Disparities grew."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "The Proceso: state terror, 1976–1981",
+    "body": "The junta claimed to be fighting a war against subversion. In practice, as CONADEP later found, it built a **planned system of repression**. The typical sequence was \"abduction - disappearance - torture\". People were seized by security forces who hid their identity and taken to one of some **340 secret detention centres**, run by senior officers. Many were murdered and their bodies destroyed so they could never be identified.\n\nThe victims were not only armed guerrillas. CONADEP found that thousands had no link with terrorism: trade unionists, students, journalists, intellectuals, priests and nuns, or simply relatives and friends of suspects. A US Embassy officer reported that the security forces were targeting people who, \"in Videla's definition\", were guilty of \"bad thoughts\". Women were among the disappeared, and 10 per cent of the women who disappeared were pregnant.\n\nThe regime also controlled public life. It closed the legislature, imposed severe censorship, and used the **1978 World Cup**, which Argentina hosted and won, as nationalist propaganda. Opposition came from victims' families. The **Mothers of the Plaza de Mayo** demanded to know where their children were. Between 8 and 10 December 1977, one of their founders, Azucena Villaflor de Vicenti, and eleven others, including two French nuns, were kidnapped by government forces and never seen again. Abroad, President Carter's administration secured a cutoff of US arms transfers in 1978.\n\nCONADEP listed **8,960** disappeared people, while stressing that the true figure was higher; Argentine human rights groups estimate up to 30,000.\n\nThis mattered because the junta relied on secret terror rather than open law, which meant that, once it fell, the demand for democracy became inseparable from the demand for truth about the disappeared.",
+    "argumentsThatWork": [
+     {
+      "claim": "Repression was planned and systematic.",
+      "evidence": [
+       "F-ARE-06"
+      ],
+      "strongestCounter": "The junta claimed it was fighting a war."
+     },
+     {
+      "claim": "Most victims had no link to terrorism.",
+      "evidence": [
+       "F-ARE-07",
+       "F-ARE-10"
+      ],
+      "strongestCounter": "Guerrilla groups did exist."
+     },
+     {
+      "claim": "Families of the disappeared led the opposition.",
+      "evidence": [
+       "F-ARE-11"
+      ],
+      "strongestCounter": "The regime silenced them by force."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the methods used by the military government to control Argentina between 1976 and 1983.",
+     "“Nunca Más was more important as a political act than as a historical record.” Discuss with reference to the period 1983 to 1984."
+    ],
+    "useItInAnEssay": {
+     "claim": "The junta controlled Argentina chiefly through secret terror.",
+     "prove": "CONADEP found that people were abducted, held in some 340 secret detention centres and tortured, and it listed 8,960 disappeared.",
+     "explain": "This meant that no one could feel safe, because the state denied all knowledge of its victims, so open opposition was almost impossible.",
+     "test": "However, the junta also used propaganda, such as the 1978 World Cup, and censorship to win acceptance, and families such as the Mothers of the Plaza de Mayo still protested.",
+     "judge": "Terror was therefore the main method of control, supported by propaganda and censorship."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many secret detention centres did CONADEP identify? (number)",
+      "factIds": [
+       "F-ARE-06"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 340,
+        "tolerance": 10,
+        "explanation": "Approximately 340."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the typical sequence of repression found by CONADEP?",
+      "factIds": [
+       "F-ARE-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Abduction, disappearance, torture",
+        "correct": true,
+        "explanation": "Correct: a planned system."
+       },
+       {
+        "id": "b",
+        "text": "Arrest, trial, prison",
+        "correct": false,
+        "explanation": "There were almost no trials."
+       },
+       {
+        "id": "c",
+        "text": "Exile, amnesty, return",
+        "correct": false,
+        "explanation": "Not the pattern."
+       },
+       {
+        "id": "d",
+        "text": "Warning, fine, release",
+        "correct": false,
+        "explanation": "Not the pattern."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Between 8 and 10 December 1977 a founder of the Mothers of the Plaza de Mayo and eleven others were kidnapped and never seen again.” Which argument does it support best?",
+      "factIds": [
+       "F-ARE-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The regime used terror even against peaceful opponents",
+        "correct": true,
+        "explanation": "Correct: the Mothers were a civil protest group."
+       },
+       {
+        "id": "b",
+        "text": "The Mothers were armed guerrillas",
+        "correct": false,
+        "explanation": "They were relatives of victims."
+       },
+       {
+        "id": "c",
+        "text": "The regime tolerated protest",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "The US supported the kidnapping",
+        "correct": false,
+        "explanation": "The Embassy sought the victims."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "causes",
+    "title": "Defeat and collapse, 1981–1983",
+    "body": "By the early 1980s the regime was in trouble. In 1981 General Viola was removed in a \"palace coup\" by General **Leopoldo Galtieri**. Facing military rivals and a failing economy, Galtieri planned a dramatic gamble: the invasion of the **Falkland Islands** (Islas Malvinas), long claimed by Argentina. The invasion in April 1982 gave the junta a huge boost in popularity. But a British naval task force retook the islands, and Argentina surrendered in June. The military, the US Congressional Research Service concludes, \"fell into disrepute\".\n\nThe economy was in deep crisis. Six years of intermittent wage freezes had left real wages around 40 per cent lower, and GDP per capita had fallen to its lowest level since 1968. When the new president, General **Reynaldo Bignone**, restored some freedoms, a wave of strikes followed, including two general strikes. On 16 December 1982 police repressed a mass demonstration in the Plaza de Mayo, killing one protester; Bignone's hope of postponing elections indefinitely was gone.\n\nThe junta prepared to protect itself. On 18 April 1983 it passed a **Self-Amnesty Law** and secretly ordered the destruction of records of its crimes. Elections were finally called for October 1983.\n\nThis mattered because military defeat destroyed the junta's claim to defend the nation, which meant that economic failure and public anger could no longer be held back by force.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Falklands defeat destroyed the junta's legitimacy.",
+      "evidence": [
+       "F-ARE-14",
+       "F-ARE-15"
+      ],
+      "strongestCounter": "The invasion was popular at first."
+     },
+     {
+      "claim": "Economic failure fuelled protest.",
+      "evidence": [
+       "F-ARE-16"
+      ],
+      "strongestCounter": "Wage freezes had lasted six years."
+     },
+     {
+      "claim": "Mass protest forced elections.",
+      "evidence": [
+       "F-ARE-17"
+      ],
+      "strongestCounter": "The junta tried to protect itself with an amnesty."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the Falklands defeat the main reason for the end of military rule in Argentina between 1976 and 1983?",
+     "To what extent did economic failure undermine the military government between 1976 and 1983?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The Falklands defeat was the decisive reason for the end of military rule.",
+     "prove": "Galtieri invaded the islands in April 1982 to boost the regime, but after the surrender in June, the CRS notes, the military 'fell into disrepute'.",
+     "explain": "This meant that the junta lost its claim to defend the nation, so it could no longer resist demands for elections.",
+     "test": "However, the economy had already collapsed, with real wages around 40 per cent lower, and the invasion was itself a gamble by a failing regime.",
+     "judge": "The defeat was therefore the trigger, while economic failure was the underlying cause."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did Galtieri invade the Falklands, according to the sources?",
+      "factIds": [
+       "F-ARE-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "He was opposed by military factions and feared a new coup, and hoped to boost the regime",
+        "correct": true,
+        "explanation": "Correct: it brought a brief popularity boost."
+       },
+       {
+        "id": "b",
+        "text": "Britain had attacked Argentina",
+        "correct": false,
+        "explanation": "Argentina invaded first."
+       },
+       {
+        "id": "c",
+        "text": "The UN ordered it",
+        "correct": false,
+        "explanation": "Not the reason."
+       },
+       {
+        "id": "d",
+        "text": "Alfonsín demanded it",
+        "correct": false,
+        "explanation": "Alfonsín was in opposition."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "By about what percentage had real wages fallen after six years of wage freezes? (number)",
+      "factIds": [
+       "F-ARE-16"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 40,
+        "tolerance": 0,
+        "explanation": "Around 40 per cent."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “On 18 April 1983 the junta passed a Self-Amnesty Law and secretly ordered records destroyed.” Which argument does it support best?",
+      "factIds": [
+       "F-ARE-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The military tried to escape justice before giving up power",
+        "correct": true,
+        "explanation": "Correct: Alfonsín condemned the amnesty."
+       },
+       {
+        "id": "b",
+        "text": "The junta wanted its crimes investigated",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The amnesty was passed by an elected Congress",
+        "correct": false,
+        "explanation": "Congress was suspended."
+       },
+       {
+        "id": "d",
+        "text": "The junta had no crimes to hide",
+        "correct": false,
+        "explanation": "It destroyed evidence."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "Alfonsín, CONADEP and Nunca Más, 1983–1984",
+    "body": "On **30 October 1983** Argentines voted in free elections, with a turnout of 85.6 per cent. **Raúl Alfonsín** of the Radical Civic Union (UCR), who had been among the first to condemn the military's self-amnesty, won 51.75 per cent of the vote, defeating the Peronist Ítalo Luder. He was sworn in on **10 December 1983**.\n\nAlfonsín acted at once. On 13 December he ordered the prosecution of the nine officers of the first three juntas. Two days later he created the **National Commission on the Disappearance of Persons (CONADEP)**. Its members were chosen for their prestige and record of defending human rights, and the writer Ernesto Sabato was elected its president. CONADEP was not a court: its task was to establish the fate of the disappeared and pass evidence to the courts, not to judge guilt.\n\nThe commission worked against obstacles: records had been destroyed, and it was insulted and threatened by those it investigated. It prepared 7,380 files and gave the courts 1,086 dossiers on the main detention centres. On 20 September 1984 it presented its report, ***Nunca Más*** (\"Never Again\"). It concluded that the repression had been a deliberate plan, not a matter of \"excesses\", and recommended reparations for victims' families and compulsory human rights teaching. Sabato's prologue ended with a statement of democratic faith: \"it is only democracy which can save a people from horror on this scale\".\n\n*Nunca Más* can be read in two ways. It is evidence about the dictatorship, based on thousands of testimonies. It is also evidence about how the new democracy chose to account for its past: by establishing the truth and leaving justice to the courts.\n\nThis mattered because the new democracy founded its legitimacy on truth about the disappeared, which meant that its later handling of justice for the military would test that commitment.",
+    "argumentsThatWork": [
+     {
+      "claim": "The 1983 election gave democracy a clear mandate.",
+      "evidence": [
+       "F-ARE-19"
+      ],
+      "strongestCounter": "The Peronists won over 40 per cent."
+     },
+     {
+      "claim": "CONADEP established the truth about the disappeared.",
+      "evidence": [
+       "F-ARE-21",
+       "F-ARE-23"
+      ],
+      "strongestCounter": "It could not determine individual responsibility."
+     },
+     {
+      "claim": "Nunca Más tied democracy to human rights.",
+      "evidence": [
+       "F-ARE-24",
+       "F-ARE-25"
+      ],
+      "strongestCounter": "Critics accused it of partiality."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for, and the results of, the creation of CONADEP between 1983 and 1984.",
+     "“Nunca Más was more important as a political act than as a historical record.” Discuss with reference to the period 1983 to 1984."
+    ],
+    "useItInAnEssay": {
+     "claim": "CONADEP was created because the new democracy needed the truth about the disappeared before it could deliver justice.",
+     "prove": "Two days after ordering the prosecution of the juntas in December 1983, Alfonsín set up CONADEP, which prepared 7,380 files and presented its report on 20 September 1984.",
+     "explain": "This meant that the scale of repression was officially established, so the courts received 1,086 dossiers of evidence.",
+     "test": "However, CONADEP was not a court and could not determine responsibility, and the military had destroyed many records.",
+     "judge": "The most significant result was therefore an official record that made denial impossible."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What share of the vote (per cent) did Alfonsín win in 1983? (number, e.g. 51.75)",
+      "factIds": [
+       "F-ARE-19"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 51.75,
+        "tolerance": 0.1,
+        "explanation": "51.75 per cent."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was CONADEP's task?",
+      "factIds": [
+       "F-ARE-22"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To investigate the fate of the disappeared and pass evidence to the courts",
+        "correct": true,
+        "explanation": "Correct: not to judge guilt."
+       },
+       {
+        "id": "b",
+        "text": "To try the junta leaders",
+        "correct": false,
+        "explanation": "That was the courts' task."
+       },
+       {
+        "id": "c",
+        "text": "To run the 1983 election",
+        "correct": false,
+        "explanation": "Not its task."
+       },
+       {
+        "id": "d",
+        "text": "To grant amnesty",
+        "correct": false,
+        "explanation": "It opposed impunity."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-AR-EMERGENCE-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “CONADEP listed 8,960 disappeared and stated the figure was not final.” Which argument does it support best?",
+      "factIds": [
+       "F-ARE-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The scale of repression was large, and the true figure was likely higher",
+        "correct": true,
+        "explanation": "Correct: many cases were never reported."
+       },
+       {
+        "id": "b",
+        "text": "The figure is exact and final",
+        "correct": false,
+        "explanation": "CONADEP said it was not."
+       },
+       {
+        "id": "c",
+        "text": "Few people disappeared",
+        "correct": false,
+        "explanation": "Thousands did."
+       },
+       {
+        "id": "d",
+        "text": "Human rights groups agreed exactly",
+        "correct": false,
+        "explanation": "They estimate up to 30,000."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1976,
+      "month": 3,
+      "day": 24,
+      "text": "Military coup against Isabel Perón",
+      "factId": "F-ARE-03"
+     },
+     {
+      "year": 1977,
+      "month": 12,
+      "text": "Mothers of the Plaza de Mayo kidnapped",
+      "factId": "F-ARE-11"
+     },
+     {
+      "year": 1978,
+      "text": "World Cup; US arms cutoff",
+      "factId": "F-ARE-12"
+     },
+     {
+      "year": 1981,
+      "text": "Galtieri replaces Viola",
+      "factId": "F-ARE-14"
+     },
+     {
+      "year": 1982,
+      "month": 4,
+      "text": "Invasion of the Falklands",
+      "factId": "F-ARE-27"
+     },
+     {
+      "year": 1982,
+      "month": 12,
+      "day": 16,
+      "text": "Plaza de Mayo demonstration repressed",
+      "factId": "F-ARE-17"
+     },
+     {
+      "year": 1983,
+      "month": 4,
+      "day": 18,
+      "text": "Self-Amnesty Law",
+      "factId": "F-ARE-18"
+     },
+     {
+      "year": 1983,
+      "month": 10,
+      "day": 30,
+      "text": "Free elections: Alfonsín wins",
+      "factId": "F-ARE-19"
+     },
+     {
+      "year": 1983,
+      "month": 12,
+      "day": 10,
+      "text": "Alfonsín sworn in",
+      "factId": "F-ARE-19"
+     },
+     {
+      "year": 1983,
+      "month": 12,
+      "day": 15,
+      "text": "CONADEP created",
+      "factId": "F-ARE-21"
+     },
+     {
+      "year": 1984,
+      "month": 9,
+      "day": 20,
+      "text": "Nunca Más presented",
+      "factId": "F-ARE-21"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Chaos under Isabel Perón",
+      "factId": "F-ARE-01"
+     },
+     {
+      "id": "n2",
+      "text": "1976 coup and the Proceso",
+      "factId": "F-ARE-03"
+     },
+     {
+      "id": "n3",
+      "text": "Planned state terror; thousands disappeared",
+      "factId": "F-ARE-06"
+     },
+     {
+      "id": "n4",
+      "text": "Economic failure and debt",
+      "factId": "F-ARE-16"
+     },
+     {
+      "id": "n5",
+      "text": "Falklands defeat (1982)",
+      "factId": "F-ARE-15"
+     },
+     {
+      "id": "n6",
+      "text": "1983 election, CONADEP and Nunca Más",
+      "factId": "F-ARE-21"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "The military promised order"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "The junta ruled by secret repression"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Terror could not fix the economy"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Galtieri gambled on a popular war"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Defeat destroyed the junta's legitimacy"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Jorge Videla",
+     "role": "Junta leader from 1976",
+     "whyItMatters": "Presided over the height of the repression.",
+     "factIds": [
+      "F-ARE-03",
+      "F-ARE-10"
+     ]
+    },
+    {
+     "name": "Leopoldo Galtieri",
+     "role": "Junta leader from 1981",
+     "whyItMatters": "Ordered the Falklands invasion of 1982.",
+     "factIds": [
+      "F-ARE-14"
+     ]
+    },
+    {
+     "name": "Reynaldo Bignone",
+     "role": "Last military president",
+     "whyItMatters": "Forced to call elections in 1983.",
+     "factIds": [
+      "F-ARE-17",
+      "F-ARE-19"
+     ]
+    },
+    {
+     "name": "Mothers of the Plaza de Mayo",
+     "role": "Families of the disappeared",
+     "whyItMatters": "Demanded to know their children's fate.",
+     "factIds": [
+      "F-ARE-11"
+     ]
+    },
+    {
+     "name": "Raúl Alfonsín",
+     "role": "President from December 1983",
+     "whyItMatters": "Ordered prosecutions and created CONADEP.",
+     "factIds": [
+      "F-ARE-19",
+      "F-ARE-21"
+     ]
+    },
+    {
+     "name": "Ernesto Sabato",
+     "role": "President of CONADEP",
+     "whyItMatters": "Wrote the prologue to Nunca Más.",
+     "factIds": [
+      "F-ARE-22",
+      "F-ARE-24"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Military rule (1976–1983)",
+     "Democracy (1983–1984)"
+    ],
+    "rows": [
+     {
+      "criterion": "Power",
+      "cells": [
+       "Junta; Congress suspended, parties banned",
+       "Elected president; 85.6 per cent turnout"
+      ],
+      "factIds": [
+       "F-ARE-03",
+       "F-ARE-19"
+      ]
+     },
+     {
+      "criterion": "Treatment of opponents",
+      "cells": [
+       "Abduction, disappearance, torture",
+       "Prosecution of junta leaders ordered"
+      ],
+      "factIds": [
+       "F-ARE-06",
+       "F-ARE-21"
+      ]
+     },
+     {
+      "criterion": "Information",
+      "cells": [
+       "Censorship; records destroyed",
+       "CONADEP: 7,380 files; Nunca Más"
+      ],
+      "factIds": [
+       "F-ARE-12",
+       "F-ARE-23"
+      ]
+     },
+     {
+      "criterion": "Amnesty",
+      "cells": [
+       "Self-Amnesty Law (April 1983)",
+       "Condemned by Alfonsín"
+      ],
+      "factIds": [
+       "F-ARE-18",
+       "F-ARE-20"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-ARE-03",
+    "year": 1976,
+    "text": "24 March 1976: coup; Congress suspended, parties banned.",
+    "supports": [
+     "The military seized power amid chaos"
+    ],
+    "lexicon": [
+     "coup",
+     "Proceso"
+    ]
+   },
+   {
+    "factId": "F-ARE-06",
+    "year": 1976,
+    "text": "CONADEP: 'abduction - disappearance - torture'; about 340 secret centres.",
+    "supports": [
+     "Repression was planned and systematic"
+    ],
+    "lexicon": [
+     "disappearance",
+     "secret detention centres"
+    ]
+   },
+   {
+    "factId": "F-ARE-08",
+    "year": 1984,
+    "text": "CONADEP listed 8,960 disappeared; the true figure was higher.",
+    "supports": [
+     "The scale of repression was vast"
+    ],
+    "lexicon": [
+     "desaparecidos",
+     "CONADEP"
+    ]
+   },
+   {
+    "factId": "F-ARE-15",
+    "year": 1982,
+    "text": "Falklands defeat: the military 'fell into disrepute'.",
+    "supports": [
+     "Defeat destroyed the junta's legitimacy"
+    ],
+    "lexicon": [
+     "Falklands",
+     "Malvinas"
+    ]
+   },
+   {
+    "factId": "F-ARE-16",
+    "year": 1983,
+    "text": "Real wages around 40 per cent lower; general strikes.",
+    "supports": [
+     "Economic failure fuelled protest"
+    ],
+    "lexicon": [
+     "wage freezes",
+     "general strike"
+    ]
+   },
+   {
+    "factId": "F-ARE-19",
+    "year": 1983,
+    "text": "30 October 1983: Alfonsín won 51.75 per cent.",
+    "supports": [
+     "Democracy began with a clear mandate"
+    ],
+    "lexicon": [
+     "Alfonsín",
+     "election"
+    ]
+   },
+   {
+    "factId": "F-ARE-21",
+    "year": 1984,
+    "text": "CONADEP created December 1983; Nunca Más presented 20 September 1984.",
+    "supports": [
+     "The new democracy built on truth"
+    ],
+    "alsoWorksFor": [
+     "P2-9-AR-DEVELOPMENT"
+    ],
+    "lexicon": [
+     "Nunca Más",
+     "CONADEP"
+    ]
+   }
+  ],
+  "historiography": [],
+  "misconceptions": [
+   {
+    "wrong": "The junta only targeted armed guerrillas.",
+    "right": "CONADEP found **thousands of victims** with no links to terrorism: unionists, students, journalists, priests."
+   },
+   {
+    "wrong": "CONADEP was a court that convicted the junta.",
+    "right": "CONADEP **investigated and passed evidence to the courts**; the trials came later."
+   },
+   {
+    "wrong": "The Falklands war was unpopular from the start.",
+    "right": "The invasion gave the junta **a huge popularity boost** before the defeat."
+   },
+   {
+    "wrong": "The 8,960 figure is the exact number of the disappeared.",
+    "right": "CONADEP said the figure was **not final**; human rights groups estimate up to 30,000."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1976,
+     "month": 3,
+     "text": "Coup"
+    },
+    {
+     "year": 1977,
+     "month": 12,
+     "text": "Mothers kidnapped"
+    },
+    {
+     "year": 1978,
+     "text": "World Cup"
+    },
+    {
+     "year": 1982,
+     "month": 4,
+     "text": "Falklands invasion"
+    },
+    {
+     "year": 1983,
+     "month": 4,
+     "text": "Self-Amnesty Law"
+    },
+    {
+     "year": 1983,
+     "month": 10,
+     "text": "Election"
+    },
+    {
+     "year": 1983,
+     "month": 12,
+     "text": "Alfonsín; CONADEP"
+    },
+    {
+     "year": 1984,
+     "month": 9,
+     "text": "Nunca Más"
+    }
+   ],
+   "keyArguments": [
+    "Chaos under Isabel Perón and a long tradition of coups opened the way to the 1976 junta.",
+    "The Proceso ruled by planned secret terror: 8,960 listed disappeared, probably many more.",
+    "Economic failure and the Falklands defeat destroyed the junta's legitimacy.",
+    "Alfonsín won the 1983 election with 51.75 per cent and ordered prosecutions.",
+    "CONADEP and Nunca Más founded democracy on the truth about the disappeared."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Military coup",
+     "year": 1976,
+     "month": 3,
+     "factId": "F-ARE-03"
+    },
+    {
+     "id": "b",
+     "text": "Mothers of the Plaza de Mayo kidnapped",
+     "year": 1977,
+     "month": 12,
+     "factId": "F-ARE-11"
+    },
+    {
+     "id": "c",
+     "text": "World Cup hosted and won",
+     "year": 1978,
+     "factId": "F-ARE-12"
+    },
+    {
+     "id": "d",
+     "text": "Invasion of the Falklands",
+     "year": 1982,
+     "month": 4,
+     "factId": "F-ARE-14"
+    },
+    {
+     "id": "e",
+     "text": "Plaza de Mayo demonstration repressed",
+     "year": 1982,
+     "month": 12,
+     "factId": "F-ARE-17"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Self-Amnesty Law",
+     "year": 1983,
+     "month": 4,
+     "factId": "F-ARE-18"
+    },
+    {
+     "id": "b",
+     "text": "Free elections",
+     "year": 1983,
+     "month": 10,
+     "factId": "F-ARE-19"
+    },
+    {
+     "id": "c",
+     "text": "Alfonsín sworn in",
+     "year": 1983,
+     "month": 12,
+     "factId": "F-ARE-19"
+    },
+    {
+     "id": "d",
+     "text": "Nunca Más presented",
+     "year": 1984,
+     "month": 9,
+     "factId": "F-ARE-21"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "US arms cutoff under Carter",
+     "year": 1978,
+     "factId": "F-ARE-13"
+    },
+    {
+     "id": "b",
+     "text": "Galtieri replaces Viola",
+     "year": 1981,
+     "factId": "F-ARE-14"
+    },
+    {
+     "id": "c",
+     "text": "Argentine surrender in the Falklands",
+     "year": 1982,
+     "month": 6,
+     "factId": "F-ARE-27"
+    },
+    {
+     "id": "d",
+     "text": "Ernesto Sabato elected president of CONADEP",
+     "year": 1983,
+     "month": 12,
+     "factId": "F-ARE-22"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Jorge Videla",
+     "right": "Led the junta from 1976",
+     "explanation": "The height of repression."
+    },
+    {
+     "left": "Leopoldo Galtieri",
+     "right": "Ordered the Falklands invasion",
+     "explanation": "1982."
+    },
+    {
+     "left": "Raúl Alfonsín",
+     "right": "Elected president in 1983",
+     "explanation": "UCR."
+    },
+    {
+     "left": "Ernesto Sabato",
+     "right": "President of CONADEP",
+     "explanation": "Wrote the prologue to Nunca Más."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many disappeared people did CONADEP list? (number)",
+   "factIds": [
+    "F-ARE-08"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 8960,
+     "tolerance": 0,
+     "explanation": "8,960, though the true figure was higher."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the turnout (per cent) in the October 1983 election? (number, e.g. 85.6)",
+   "factIds": [
+    "F-ARE-19"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 85.6,
+     "tolerance": 0.1,
+     "explanation": "85.6 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many files did CONADEP prepare? (number)",
+   "factIds": [
+    "F-ARE-23"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 7380,
+     "tolerance": 0,
+     "explanation": "7,380 files."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Between 1930 and 1983, how many years of military rule did Argentina experience, according to the CRS? (number)",
+   "factIds": [
+    "F-ARE-02"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 22,
+     "tolerance": 0,
+     "explanation": "Twenty-two years, with 25 presidents."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these weakened the junta by 1983? Choose all that apply.",
+   "factIds": [
+    "F-ARE-15",
+    "F-ARE-16",
+    "F-ARE-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Defeat in the Falklands",
+     "correct": true,
+     "explanation": "Yes: the military fell into disrepute."
+    },
+    {
+     "id": "b",
+     "text": "Real wages around 40 per cent lower",
+     "correct": true,
+     "explanation": "Yes: strikes followed."
+    },
+    {
+     "id": "c",
+     "text": "Mass protest in the Plaza de Mayo",
+     "correct": true,
+     "explanation": "Yes: 16 December 1982."
+    },
+    {
+     "id": "d",
+     "text": "Winning the 1978 World Cup",
+     "correct": false,
+     "explanation": "No: it was used as propaganda for the regime."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these did CONADEP do? Choose all that apply.",
+   "factIds": [
+    "F-ARE-23",
+    "F-ARE-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Prepared 7,380 files",
+     "correct": true,
+     "explanation": "Yes: depositions and testimonies."
+    },
+    {
+     "id": "b",
+     "text": "Presented 1,086 dossiers to the courts",
+     "correct": true,
+     "explanation": "Yes: on the main detention centres."
+    },
+    {
+     "id": "c",
+     "text": "Recommended human rights teaching",
+     "correct": true,
+     "explanation": "Yes: in state schools."
+    },
+    {
+     "id": "d",
+     "text": "Sentenced the junta leaders",
+     "correct": false,
+     "explanation": "No: CONADEP was not a court."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Military courts set up to judge these crimes sentenced only about 356 individuals.” Which argument does it support?",
+   "factIds": [
+    "F-ARE-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The regime's 'war on subversion' was carried out outside the law",
+     "correct": true,
+     "explanation": "Correct: thousands were killed without trial."
+    },
+    {
+     "id": "b",
+     "text": "The junta followed legal procedures",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Few people were affected",
+     "correct": false,
+     "explanation": "Thousands disappeared."
+    },
+    {
+     "id": "d",
+     "text": "CONADEP ran the military courts",
+     "correct": false,
+     "explanation": "CONADEP was a civilian commission set up in 1983."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Alfonsín was among the first prominent figures to condemn the military's amnesty.” Which argument does it support?",
+   "factIds": [
+    "F-ARE-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Alfonsín won support by promising to confront the military's crimes",
+     "correct": true,
+     "explanation": "Correct: he ordered prosecutions in December 1983."
+    },
+    {
+     "id": "b",
+     "text": "Alfonsín supported the amnesty",
+     "correct": false,
+     "explanation": "He condemned it."
+    },
+    {
+     "id": "c",
+     "text": "Alfonsín was a military officer",
+     "correct": false,
+     "explanation": "He was a UCR politician."
+    },
+    {
+     "id": "d",
+     "text": "The amnesty was popular with all parties",
+     "correct": false,
+     "explanation": "Not what the fact shows."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “CONADEP was a court that tried and sentenced the junta leaders in 1984.”",
+   "factIds": [
+    "F-ARE-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "CONADEP investigated and passed evidence to the courts; it did not judge guilt",
+     "correct": true,
+     "explanation": "Correct: the trials came later."
+    },
+    {
+     "id": "b",
+     "text": "CONADEP was created in 1976",
+     "correct": false,
+     "explanation": "It was created in December 1983."
+    },
+    {
+     "id": "c",
+     "text": "Sabato was a general",
+     "correct": false,
+     "explanation": "He was a writer."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: CONADEP was not a court."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Falklands invasion was unpopular in Argentina from the start.”",
+   "factIds": [
+    "F-ARE-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The invasion gave the junta a huge popularity boost at first",
+     "correct": true,
+     "explanation": "Correct: support collapsed after the surrender."
+    },
+    {
+     "id": "b",
+     "text": "The invasion was in 1976",
+     "correct": false,
+     "explanation": "It was in 1982."
+    },
+    {
+     "id": "c",
+     "text": "Argentina won the war",
+     "correct": false,
+     "explanation": "Britain retook the islands."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it was popular at first."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the emergence of democracy in Argentina between 1976 and 1984. Is Menem's 1991 Convertibility plan inside or outside the timeframe?",
+   "factIds": [
+    "F-ARE-19"
+   ],
+   "timeframe": [
+    1976,
+    1984
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it belongs to the development of democracy after 1984",
+     "correct": true,
+     "explanation": "Correct: it can only be mentioned briefly."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1991 is after 1984."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it ended hyperinflation",
+     "correct": false,
+     "explanation": "Relevant later, not here."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the junta call its regime?",
+   "factIds": [
+    "F-ARE-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Process of National Reorganization",
+     "correct": true,
+     "explanation": "Correct: el Proceso."
+    },
+    {
+     "id": "b",
+     "text": "The Government of National Unity",
+     "correct": false,
+     "explanation": "That was South Africa's coalition."
+    },
+    {
+     "id": "c",
+     "text": "The Bonn Republic",
+     "correct": false,
+     "explanation": "That was West Germany."
+    },
+    {
+     "id": "d",
+     "text": "The Second Republic",
+     "correct": false,
+     "explanation": "Not its name."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to the foreign debt under Martínez de Hoz?",
+   "factIds": [
+    "F-ARE-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It increased fourfold",
+     "correct": true,
+     "explanation": "Correct: inequality also grew."
+    },
+    {
+     "id": "b",
+     "text": "It was paid off",
+     "correct": false,
+     "explanation": "It grew fourfold instead."
+    },
+    {
+     "id": "c",
+     "text": "It halved",
+     "correct": false,
+     "explanation": "It grew fourfold instead."
+    },
+    {
+     "id": "d",
+     "text": "It stayed the same",
+     "correct": false,
+     "explanation": "It grew fourfold."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did a US Embassy officer report about the targets of repression?",
+   "factIds": [
+    "F-ARE-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They included people guilty, in Videla's definition, of 'bad thoughts'",
+     "correct": true,
+     "explanation": "Correct: intellectuals and students."
+    },
+    {
+     "id": "b",
+     "text": "Only armed guerrillas were targeted",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "No one was targeted",
+     "correct": false,
+     "explanation": "Thousands were."
+    },
+    {
+     "id": "d",
+     "text": "Only foreigners were targeted",
+     "correct": false,
+     "explanation": "Not what he reported."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the junta do on 18 April 1983?",
+   "factIds": [
+    "F-ARE-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Passed a Self-Amnesty Law and secretly ordered records destroyed",
+     "correct": true,
+     "explanation": "Correct: to protect itself."
+    },
+    {
+     "id": "b",
+     "text": "Released all political prisoners",
+     "correct": false,
+     "explanation": "Not what it did."
+    },
+    {
+     "id": "c",
+     "text": "Invaded the Falklands",
+     "correct": false,
+     "explanation": "That was April 1982."
+    },
+    {
+     "id": "d",
+     "text": "Created CONADEP",
+     "correct": false,
+     "explanation": "Alfonsín created CONADEP."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Sabato's prologue to Nunca Más conclude?",
+   "factIds": [
+    "F-ARE-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That only democracy can save a people from horror on such a scale",
+     "correct": true,
+     "explanation": "Correct: 'NEVER AGAIN'."
+    },
+    {
+     "id": "b",
+     "text": "That the military had saved the nation",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "That the past should be forgotten",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "That the guerrillas were innocent",
+     "correct": false,
+     "explanation": "It repudiated their terror too."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the Falklands defeat the main reason for the end of military rule in Argentina between 1976 and 1983?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the Falklands defeat",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for the end of military rule",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1976 and 1983",
+     "answer": "timeframe",
+     "explanation": "The whole Proceso."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Did the defeat outweigh economic failure and protest?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the reasons for, and the results of, the creation of CONADEP between 1983 and 1984.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine",
+     "answer": "verb",
+     "explanation": "Break into parts and consider how they connect."
+    },
+    {
+     "id": "s2",
+     "text": "the creation of CONADEP",
+     "answer": "factor",
+     "explanation": "The commission."
+    },
+    {
+     "id": "s3",
+     "text": "the reasons for, and the results of",
+     "answer": "scope",
+     "explanation": "Two tasks."
+    },
+    {
+     "id": "s4",
+     "text": "between 1983 and 1984",
+     "answer": "timeframe",
+     "explanation": "From creation to the report."
+    },
+    {
+     "id": "s5",
+     "text": "results",
+     "answer": "judgement",
+     "explanation": "Which result mattered most for democracy?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Falklands defeat the main reason for the end of military rule between 1976 and 1983?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Falklands defeat was the trigger that destroyed the junta's legitimacy, but the underlying cause was economic failure, which had already provoked strikes and which Galtieri's invasion was meant to distract from.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against another."
+    },
+    {
+     "id": "b",
+     "text": "The Falklands war was in 1982.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Falklands defeat was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Falklands defeat was the only reason.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'Nunca Más was more important as a political act than as a historical record.' Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Nunca Más was both: as a record it established the scale of disappearance from thousands of testimonies, and as a political act it founded the new democracy on truth; its political importance was greater, because it shaped what democracy would stand for.",
+     "correct": true,
+     "explanation": "Correct: tests the claim with criteria."
+    },
+    {
+     "id": "b",
+     "text": "Nunca Más was published in 1984.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Nunca Más was sad.",
+     "correct": false,
+     "explanation": "Not a historical judgement."
+    },
+    {
+     "id": "d",
+     "text": "Nunca Más was only a political act.",
+     "correct": false,
+     "explanation": "Ignores its value as evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 24 March 1976 the military seized power.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the junta denied all knowledge of its victims, families had no legal way to find them.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 30 October 1983 Alfonsín won the election.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the new democracy's legitimacy rested on confronting the military's crimes.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "About 340 secret detention centres",
+     "right": "Repression was planned and systematic",
+     "explanation": "CONADEP."
+    },
+    {
+     "left": "Real wages around 40 per cent lower",
+     "right": "Economic failure fuelled protest",
+     "explanation": "By 1983."
+    },
+    {
+     "left": "Surrender in June 1982",
+     "right": "Defeat destroyed the junta's legitimacy",
+     "explanation": "The Falklands."
+    },
+    {
+     "left": "51.75 per cent for Alfonsín",
+     "right": "Democracy began with a clear mandate",
+     "explanation": "October 1983."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The junta was very cruel.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the junta relied on secret abduction, torture and disappearance in some 340 detention centres, it could terrorise society while denying responsibility; this is why CONADEP concluded the repression was a deliberate plan rather than 'excesses'.",
+     "correct": true,
+     "explanation": "Correct: method, evidence and significance."
+    },
+    {
+     "id": "b",
+     "text": "The junta was extremely cruel.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The junta took power in 1976.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Everyone in Argentina was cruel.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The junta fell only because it lost the Falklands war.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Real wages had fallen around 40 per cent and general strikes had begun, and the invasion itself was a gamble by a regime already facing military rivals and economic crisis.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Wars are bad.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "Argentina is a big country.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Some people liked the junta.",
+     "correct": false,
+     "explanation": "Too vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Falklands defeat the main reason for the end of military rule?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what triggered the collapse, the Falklands defeat was decisive; judged by what had weakened the regime, economic failure mattered more.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the junta fell in 1983.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Alfonsín was good.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, wars always end regimes.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-AR-EMERGENCE-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the creation of CONADEP between 1983 and 1984.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Thousands of families demanding the fate of the disappeared",
+     "answer": "causes",
+     "explanation": "The Mothers."
+    },
+    {
+     "id": "s2",
+     "text": "The junta's self-amnesty and destroyed records",
+     "answer": "causes",
+     "explanation": "April 1983."
+    },
+    {
+     "id": "s3",
+     "text": "7,380 files prepared",
+     "answer": "effects",
+     "explanation": "Testimonies."
+    },
+    {
+     "id": "s4",
+     "text": "1,086 dossiers passed to the courts",
+     "answer": "effects",
+     "explanation": "Evidence for trials."
+    },
+    {
+     "id": "s5",
+     "text": "Nunca Más presented on 20 September 1984",
+     "answer": "effects",
+     "explanation": "An official record."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-9-AR-EMERGENCE-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the Falklands defeat the main reason for the end of military rule in Argentina between 1976 and 1983?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the Falklands defeat",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1976,
+    1983
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The Falklands defeat, weighed first",
+    "timeframe": "1976–1983",
+    "scope": "The end of military rule",
+    "judgement": "Did the defeat outweigh economic failure and protest?"
+   },
+   "modelPlan": {
+    "thesis": "The Falklands defeat was the trigger that destroyed the junta's legitimacy, but the underlying cause was economic failure, which had already provoked strikes and which Galtieri's invasion was meant to distract from.",
+    "arguments": [
+     {
+      "claim": "The Falklands defeat (named factor first).",
+      "evidence": [
+       "F-ARE-14",
+       "F-ARE-15"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Economic failure and debt.",
+      "evidence": [
+       "F-ARE-04",
+       "F-ARE-16"
+      ]
+     },
+     {
+      "claim": "Protest and the Plaza de Mayo.",
+      "evidence": [
+       "F-ARE-11",
+       "F-ARE-17"
+      ]
+     },
+     {
+      "claim": "International pressure.",
+      "evidence": [
+       "F-ARE-13"
+      ]
+     }
+    ],
+    "counter": "The invasion was itself a gamble by a regime already in trouble.",
+    "judgementCriterion": "What triggered the collapse? The defeat; what caused it? Economic failure and loss of support."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Falklands defeat was the decisive trigger for the end of military rule, though not its only cause.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Galtieri invaded the islands in April 1982 to boost the regime, but after the surrender in June the military 'fell into disrepute'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the junta lost its claim to defend the nation, so it could no longer resist demands for elections.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, real wages had fallen around 40 per cent, general strikes followed, and the invasion was itself a sign of a failing regime.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The defeat was therefore the main immediate reason, while economic failure explains why the junta gambled and lost.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Falklands",
+     "Malvinas"
+    ],
+    "synonyms": [
+     "defeat",
+     "war"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Galtieri",
+     "junta",
+     "Bignone"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-EMERGENCE-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Nunca Más was more important as a political act than as a historical record.” Discuss with reference to the period 1983 to 1984.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1983,
+    1984
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: political act over historical record",
+    "timeframe": "1983–1984",
+    "scope": "Nunca Más",
+    "judgement": "Evidence about the dictatorship, or about the new democracy?"
+   },
+   "modelPlan": {
+    "thesis": "Nunca Más was both: as a record it established the scale of disappearance from thousands of testimonies, and as a political act it founded the new democracy on truth; its political importance was greater, because it shaped what democracy would stand for.",
+    "arguments": [
+     {
+      "claim": "For: a democratic founding statement.",
+      "evidence": [
+       "F-ARE-24"
+      ]
+     },
+     {
+      "claim": "For: recommendations for the new state.",
+      "evidence": [
+       "F-ARE-25"
+      ]
+     },
+     {
+      "claim": "Against: a record built on testimony.",
+      "evidence": [
+       "F-ARE-23",
+       "F-ARE-08"
+      ]
+     },
+     {
+      "claim": "Against: evidence for the courts.",
+      "evidence": [
+       "F-ARE-23"
+      ]
+     }
+    ],
+    "counter": "Critics accused CONADEP of partiality, which suggests its political role could weaken its authority as a record.",
+    "judgementCriterion": "More important by what measure? For the courts, the record; for democracy, the act."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Nunca Más mattered most as a political act, because it defined what the new democracy stood for.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Sabato's prologue concluded that 'only democracy' could prevent such horror, and the report recommended reparations and compulsory human rights teaching.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the new state founded its legitimacy on truth about the disappeared, so denial of the repression became politically impossible.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, as a record it was also vital: CONADEP prepared 7,380 files and gave the courts 1,086 dossiers.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid, but only because the record was strong enough to support the political act.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Nunca Más"
+    ],
+    "synonyms": [
+     "CONADEP",
+     "report"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Sabato",
+     "disappeared",
+     "truth"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-EMERGENCE-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of the 1983 election for the emergence of democracy in Argentina.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1983,
+    1983
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The significance of the 1983 election",
+    "timeframe": "1983",
+    "scope": "The emergence of democracy",
+    "judgement": "Turning point, or the start of a fragile process?"
+   },
+   "modelPlan": {
+    "thesis": "The 1983 election was highly significant: a high turnout and Alfonsín's clear majority gave democracy legitimacy and a mandate to confront the military; but the military's self-amnesty and destroyed records showed the obstacles ahead.",
+    "arguments": [
+     {
+      "claim": "Turnout and result.",
+      "evidence": [
+       "F-ARE-19"
+      ]
+     },
+     {
+      "claim": "Alfonsín's stance on the amnesty.",
+      "evidence": [
+       "F-ARE-20"
+      ]
+     },
+     {
+      "claim": "Immediate action: prosecutions and CONADEP.",
+      "evidence": [
+       "F-ARE-21"
+      ]
+     },
+     {
+      "claim": "Limits: the military's protection.",
+      "evidence": [
+       "F-ARE-18",
+       "F-ARE-23"
+      ]
+     }
+    ],
+    "counter": "The Peronists won over 40 per cent, so the new president faced a strong opposition.",
+    "judgementCriterion": "Turning point or start? A turning point in legitimacy, the start of a fragile process."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The 1983 election was the turning point in the emergence of Argentine democracy.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "On 30 October 1983, with a turnout of 85.6 per cent, Alfonsín won 51.75 per cent after condemning the military's self-amnesty.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the new government had a clear mandate, so within days it ordered the prosecution of the juntas and created CONADEP.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the military had passed a self-amnesty and destroyed records, so the election could not by itself secure justice.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The election was therefore significant as the moment democracy gained legitimacy, not the moment it was secure.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "1983 election",
+     "election"
+    ],
+    "synonyms": [
+     "Alfonsín",
+     "vote"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "turnout",
+     "amnesty",
+     "CONADEP"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-EMERGENCE-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the creation of CONADEP between 1983 and 1984.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1983,
+    1984
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1983–1984",
+    "scope": "CONADEP",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "CONADEP was created because thousands of families demanded the truth and the military had tried to bury it through amnesty and destroyed records; its main result was Nunca Más, an official record that made denial impossible.",
+    "arguments": [
+     {
+      "claim": "Reason: the demand for truth.",
+      "evidence": [
+       "F-ARE-11",
+       "F-ARE-08"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: the military's attempt at impunity.",
+      "evidence": [
+       "F-ARE-18"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: files and dossiers for the courts.",
+      "evidence": [
+       "F-ARE-23"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: Nunca Más and its recommendations.",
+      "evidence": [
+       "F-ARE-24",
+       "F-ARE-25"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "CONADEP could not determine individual responsibility.",
+    "judgementCriterion": "Which result mattered most? An official record that made denial impossible."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "CONADEP was created because the new democracy needed the truth about the disappeared.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Families such as the Mothers of the Plaza de Mayo had demanded answers, while the junta had passed a self-amnesty and destroyed records.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that only an independent commission could rebuild the evidence, so CONADEP prepared 7,380 files and passed 1,086 dossiers to the courts.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, CONADEP was not a court and could not determine responsibility, and it was accused of partiality.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore Nunca Más, which established the truth on which later justice depended.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "CONADEP"
+    ],
+    "synonyms": [
+     "commission",
+     "Nunca Más"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "disappeared",
+     "Sabato",
+     "courts"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-EMERGENCE-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the methods used by the military government to control Argentina between 1976 and 1983.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1976,
+    1983
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Methods of control",
+    "timeframe": "1976–1983",
+    "scope": "The military government",
+    "judgement": "Which method mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "The junta controlled Argentina chiefly through secret terror, supported by the suspension of political life, censorship and nationalist propaganda.",
+    "arguments": [
+     {
+      "claim": "Suspension of political life.",
+      "evidence": [
+       "F-ARE-03"
+      ]
+     },
+     {
+      "claim": "Secret terror and disappearance.",
+      "evidence": [
+       "F-ARE-06",
+       "F-ARE-07"
+      ]
+     },
+     {
+      "claim": "Censorship and propaganda.",
+      "evidence": [
+       "F-ARE-12"
+      ]
+     },
+     {
+      "claim": "Limits: protest and international pressure.",
+      "evidence": [
+       "F-ARE-11",
+       "F-ARE-13"
+      ]
+     }
+    ],
+    "counter": "Families of the disappeared still protested, which shows the limits of control.",
+    "judgementCriterion": "Which mattered most? Secret terror, because it silenced opposition while denying responsibility."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The military government's main method of control was secret terror.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "CONADEP found a planned system of 'abduction - disappearance - torture' in some 340 secret detention centres, and listed 8,960 disappeared.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that no one could feel safe, because the state denied all knowledge of its victims, so organised opposition was almost impossible.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the junta also relied on suspending Congress and parties, censorship and propaganda such as the 1978 World Cup, and the Mothers of the Plaza de Mayo still protested.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Terror was therefore the core method, with propaganda and censorship making it harder to resist.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "methods"
+    ],
+    "synonyms": [
+     "terror",
+     "disappearance",
+     "censorship"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "junta",
+     "Proceso",
+     "World Cup"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-AR-EMERGENCE-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent did economic failure undermine the military government between 1976 and 1983?",
+   "commandTerm": "to what extent",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1976,
+    1983
+   ],
+   "scope": "Argentina",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Economic failure",
+    "timeframe": "1976–1983",
+    "scope": "The military government",
+    "judgement": "Underlying cause, or one factor among several?"
+   },
+   "modelPlan": {
+    "thesis": "Economic failure seriously undermined the junta, as debt grew fourfold and real wages fell around 40 per cent, provoking strikes; but the decisive blow was the Falklands defeat.",
+    "arguments": [
+     {
+      "claim": "Debt and inequality.",
+      "evidence": [
+       "F-ARE-04"
+      ]
+     },
+     {
+      "claim": "Wages and strikes.",
+      "evidence": [
+       "F-ARE-16"
+      ]
+     },
+     {
+      "claim": "Protest in the Plaza de Mayo.",
+      "evidence": [
+       "F-ARE-17"
+      ]
+     },
+     {
+      "claim": "The Falklands defeat.",
+      "evidence": [
+       "F-ARE-14",
+       "F-ARE-15"
+      ]
+     }
+    ],
+    "counter": "The junta survived economic difficulties for years until the Falklands defeat.",
+    "judgementCriterion": "How far? Economic failure weakened the junta; the defeat finished it."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Economic failure was a major cause of the junta's decline.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Under Martínez de Hoz the foreign debt grew fourfold, and by 1983 wage freezes had left real wages around 40 per cent lower.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the regime lost its claim to bring prosperity, so when freedoms were restored, general strikes followed.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the junta survived its economic problems until the Falklands defeat of 1982 destroyed its legitimacy.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Economic failure therefore undermined the junta, but the defeat decided when it fell.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic failure",
+     "economy"
+    ],
+    "synonyms": [
+     "debt",
+     "wages",
+     "inflation"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Martínez de Hoz",
+     "strikes",
+     "Falklands"
+    ]
+   }
+  }
+ ]
+}

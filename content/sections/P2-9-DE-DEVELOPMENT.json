@@ -1,0 +1,2722 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-9-DE-DEVELOPMENT",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 22,
+  "openingProblem": {
+   "problem": "Weimar democracy lasted fourteen years. West German democracy, founded in 1949 by many of the same generation, survived a narrow start, a former Nazi chancellor, student revolt and terrorism, and in 1990 absorbed East Germany. Why did Germany's second democracy prove so durable?",
+   "predictionPrompt": "Your prediction in one line: what made West German democracy durable?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "role_of_leader",
+    "title": "Chancellor democracy: the Adenauer era, 1949–1963",
+    "body": "Konrad Adenauer governed West Germany for fourteen years. The Basic Law helped him: because the Bundestag could remove a chancellor only by electing a successor, strong chancellors could govern for long periods. Adenauer used this position so forcefully that his rule was called **\"chancellor democracy\"**, a term, Geoff Layton notes, read positively or negatively depending on one's politics.\n\nHis foreign policy tied West Germany to the West. He secured membership of the Council of Europe in 1951 and helped create the European Coal and Steel Community in 1952. On **5 May 1955** West Germany regained its sovereignty and joined NATO, and a new army, the Bundeswehr, was created with conscription. Towards the East, Adenauer was unbending: under the **Hallstein Doctrine** of 1955, Bonn refused relations with any state that recognised East Germany, except the Soviet Union.\n\nAt home the **CDU** became a new kind of German party. It drew Catholics and Protestants, rural and urban voters, employers and workers. In Judt's phrase, the CDU \"colonized the issues\". Its vote almost doubled between 1949 and 1957, when it won more than half the votes cast. The opposition SPD, led by Kurt Schumacher, opposed Adenauer's Western policy and demanded a united, neutral Germany; its vote stagnated. The party system narrowed: from 1953 parties with less than 5 per cent of the vote were excluded from parliament, and in 1956 the Constitutional Court banned the Communist Party. Adenauer also courted the millions of expellees from the East, avoiding direct criticism of the German past.\n\nThe era ended badly. In the **Spiegel Affair** of 1962 the government, with Adenauer's authorisation, arrested the publisher of the news magazine *Der Spiegel* after it criticised defence policy. Even the conservative *Frankfurter Allgemeine Zeitung* called it \"an embarrassment to our democracy\". Adenauer stood down in 1963 and was succeeded by Ludwig Erhard.\n\nThis mattered because Adenauer's long rule gave the new democracy stability and Western security, which meant that West Germans came to associate democracy with prosperity and order, though at the cost of silence about the past.",
+    "argumentsThatWork": [
+     {
+      "claim": "Adenauer gave democracy stability.",
+      "evidence": [
+       "F-DED-02",
+       "F-DED-05"
+      ],
+      "strongestCounter": "His rule was labelled 'chancellor democracy'."
+     },
+     {
+      "claim": "The CDU became a broad people's party.",
+      "evidence": [
+       "F-DED-06"
+      ],
+      "strongestCounter": "It was culturally conservative."
+     },
+     {
+      "claim": "The party system narrowed around the centre.",
+      "evidence": [
+       "F-DED-09",
+       "F-DED-27"
+      ],
+      "strongestCounter": "Critics opposed the 5 per cent rule and party bans."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the role of Konrad Adenauer in the development of West German democracy between 1949 and 1963.",
+     "To what extent was the Basic Law the main reason for the stability of West German democracy between 1949 and 1969?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Adenauer stabilised West German democracy by giving it strong government and Western security.",
+     "prove": "He won four elections up to 1961, led West Germany into NATO in 1955, and by 1957 the CDU/CSU won more than half the vote.",
+     "explain": "This meant that democracy became associated with prosperity and security, so extremist parties lost ground.",
+     "test": "However, his style was called 'chancellor democracy', and in the Spiegel Affair of 1962 his government arrested a publisher for criticising defence policy.",
+     "judge": "Adenauer therefore secured democracy's stability more than its liberal culture."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did West Germany regain its sovereignty and join NATO? (year)",
+      "factIds": [
+       "F-DED-01"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1955,
+        "tolerance": 0,
+        "explanation": "On 5 May 1955."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the Hallstein Doctrine?",
+      "factIds": [
+       "F-DED-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West Germany's refusal of relations with states that recognised the GDR",
+        "correct": true,
+        "explanation": "Correct: the USSR was the exception."
+       },
+       {
+        "id": "b",
+        "text": "The policy of Ostpolitik",
+        "correct": false,
+        "explanation": "Ostpolitik reversed it."
+       },
+       {
+        "id": "c",
+        "text": "The 5 per cent rule",
+        "correct": false,
+        "explanation": "That concerned elections."
+       },
+       {
+        "id": "d",
+        "text": "The banning of the Communist Party",
+        "correct": false,
+        "explanation": "That was a court ruling."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In the Spiegel Affair of 1962 the government arrested the magazine's publisher.” Which argument does it support best?",
+      "factIds": [
+       "F-DED-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Adenauer's government was willing to abuse power against a free press",
+        "correct": true,
+        "explanation": "Correct: it drew universal condemnation."
+       },
+       {
+        "id": "b",
+        "text": "The press had no freedom in West Germany",
+        "correct": false,
+        "explanation": "The FAZ and others protested freely."
+       },
+       {
+        "id": "c",
+        "text": "Der Spiegel supported the government",
+        "correct": false,
+        "explanation": "It criticised defence policy."
+       },
+       {
+        "id": "d",
+        "text": "The affair strengthened Adenauer",
+        "correct": false,
+        "explanation": "He stood down the following year."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "Opposition renewed: Bad Godesberg and the Grand Coalition, 1959–1969",
+    "body": "For a decade the Social Democrats seemed unable to compete. In **1959**, at their congress at **Bad Godesberg**, a new generation of leaders abandoned the party's commitment to Marxism. The new programme accepted the free market (\"The totalitarian directed economy destroys freedom\") and the Western Alliance, and turned the SPD into a cross-class people's party (*Volkspartei*).\n\nThe change worked. Improved results in 1961 and 1965 led in 1966 to a **\"grand coalition\"** of CDU/CSU and SPD, with the Social Democrats, led by Willy Brandt, in government for the first time since Weimar. But the price was high. The new chancellor, chosen in December 1966, was **Kurt-Georg Kiesinger**, who had been a member of the Nazi Party for twelve years. With both big parties in government, there was almost no parliamentary opposition, and, Judt argues, a space opened *outside* parliament for a new generation of radicals.\n\nThat generation was angry about the past. The Eichmann trial of 1961 and the Frankfurt **Auschwitz trials** of 1963–65, with 273 witnesses, brought Nazi crimes to public attention. In 1967 Alexander and Margarete Mitscherlich argued that West Germany's official condemnation of Nazism had never been matched by individual acceptance of responsibility. The student movement of the late 1960s, the \"extra-parliamentary Left\", accused the Bonn Republic of hiding its founders' past. The film-maker Fassbinder complained that \"our democracy was decreed for the Western occupation zone, we didn't fight for it ourselves\".\n\nIn **1969** the SPD under Brandt formed a coalition with the Free Democrats. For the first time since 1949 the Christian Democrats were in opposition. Power had changed hands peacefully.\n\nThis mattered because the SPD's acceptance of the Federal Republic's basic choices made a change of government possible, which meant that West German democracy proved it could survive the defeat of its founding party.",
+    "argumentsThatWork": [
+     {
+      "claim": "Bad Godesberg made the SPD electable.",
+      "evidence": [
+       "F-DED-08"
+      ],
+      "strongestCounter": "Many in the SPD remained unhappy with the EEC."
+     },
+     {
+      "claim": "The Grand Coalition weakened parliamentary opposition.",
+      "evidence": [
+       "F-DED-12",
+       "F-DED-13"
+      ],
+      "strongestCounter": "It brought the SPD into government for the first time since Weimar."
+     },
+     {
+      "claim": "The 1969 change of government showed democracy's maturity.",
+      "evidence": [
+       "F-DED-16"
+      ],
+      "strongestCounter": "Radicals rejected the system altogether."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for, and the results of, the SPD's Bad Godesberg programme between 1959 and 1969.",
+     "“The challenges of the years 1962 to 1977 showed the weakness of West German democracy.” Discuss."
+    ],
+    "useItInAnEssay": {
+     "claim": "Bad Godesberg was the turning point that made a peaceful change of government possible.",
+     "prove": "In 1959 the SPD abandoned Marxism and accepted the free market and the Western Alliance; it entered government in 1966 and led it from 1969.",
+     "explain": "This meant that both main parties accepted the Federal Republic's basic choices, so power could change hands without threatening the system.",
+     "test": "However, Judt argues that once the SPD joined the government, a space opened outside parliament for radicals.",
+     "judge": "Bad Godesberg therefore strengthened democracy in parliament while helping to create opposition outside it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did the SPD adopt its Bad Godesberg programme? (year)",
+      "factIds": [
+       "F-DED-08"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1959,
+        "tolerance": 0,
+        "explanation": "1959."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why was Kiesinger's appointment as chancellor in 1966 controversial?",
+      "factIds": [
+       "F-DED-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "He had been a member of the Nazi Party for twelve years",
+        "correct": true,
+        "explanation": "Correct: many saw it as proof of cynicism."
+       },
+       {
+        "id": "b",
+        "text": "He was a Communist",
+        "correct": false,
+        "explanation": "He was a Christian Democrat."
+       },
+       {
+        "id": "c",
+        "text": "He came from East Germany",
+        "correct": false,
+        "explanation": "Not the reason."
+       },
+       {
+        "id": "d",
+        "text": "He opposed the Basic Law",
+        "correct": false,
+        "explanation": "Not the reason."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1969 the SPD took office with the FDP, pushing the CDU into opposition for the first time.” Which argument does it support best?",
+      "factIds": [
+       "F-DED-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West German democracy could survive a peaceful change of government",
+        "correct": true,
+        "explanation": "Correct: a sign of maturity."
+       },
+       {
+        "id": "b",
+        "text": "The CDU abolished elections",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The SPD seized power by force",
+        "correct": false,
+        "explanation": "It won an election."
+       },
+       {
+        "id": "d",
+        "text": "Democracy collapsed in 1969",
+        "correct": false,
+        "explanation": "It changed government peacefully."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "Ostpolitik and terrorism, 1969–1982",
+    "body": "Brandt's government changed West Germany's policy towards the East. With his adviser Egon Bahr, he pursued **Ostpolitik**, \"change through rapprochement\". Brandt dropped the claim that East Germany was illegitimate, speaking instead of \"one German nation, two German states\". Treaties with Moscow and Warsaw in 1970 accepted the post-war frontiers; a four-power agreement on Berlin followed in 1971, and a **Basic Treaty** with East Germany was ratified in 1973. In Warsaw Brandt knelt at the memorial to the Warsaw Ghetto, and he was awarded the Nobel Peace Prize. In 1972 the SPD became the largest party in parliament for the first time. Contacts across the border grew: phone calls from West to East rose from half a million in 1969 to some forty million twenty years later. But reunification faded as a political goal: from the mid-1970s, never more than 1 per cent of West Germans called it the most important question.\n\nAt home, democracy faced its most violent challenge. The **Red Army Fraction** (the Baader-Meinhof Group) set out to destroy the Federal Republic by force. Between 1970 and 1978 it killed 28 people and took 162 hostages, and in 1977 it murdered the industrialist Hans Martin Schleyer, the Attorney General Siegfried Buback and the banker Jürgen Ponto. The state responded firmly: in 1972 Brandt's government introduced the *Berufsverbot*, excluding people judged hostile to the constitution from public employment, which critics feared would lead to censorship. Judt concludes that the terrorists failed, as did the neo-Nazi Right, whose bomb at the 1980 Munich Oktoberfest killed 13 people: neither destabilised the Republic.\n\nBrandt resigned in 1974 after a spy scandal. His successor, **Helmut Schmidt**, kept to the line of Ostpolitik, as did the Christian Democrat **Helmut Kohl**, who became chancellor in 1982.\n\nThis mattered because West Germany both reduced tension with the East and withstood terrorism without abandoning democracy, which meant that the Federal Republic emerged from the 1970s more secure than its critics had feared.",
+    "argumentsThatWork": [
+     {
+      "claim": "Ostpolitik normalised relations with the East.",
+      "evidence": [
+       "F-DED-17",
+       "F-DED-19"
+      ],
+      "strongestCounter": "It accepted the division of Germany."
+     },
+     {
+      "claim": "Terrorism failed to destabilise the Republic.",
+      "evidence": [
+       "F-DED-21",
+       "F-DED-22"
+      ],
+      "strongestCounter": "The Berufsverbot raised fears for civil liberties."
+     },
+     {
+      "claim": "Ostpolitik outlasted its author.",
+      "evidence": [
+       "F-DED-18"
+      ],
+      "strongestCounter": "Brandt fell in 1974."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the success of Ostpolitik between 1969 and 1974.",
+     "“The challenges of the years 1962 to 1977 showed the weakness of West German democracy.” Discuss."
+    ],
+    "useItInAnEssay": {
+     "claim": "Ostpolitik succeeded in normalising relations with the East, at the price of accepting division.",
+     "prove": "Treaties with Moscow and Warsaw in 1970 and the Basic Treaty with the GDR in 1973 accepted the post-war frontiers, and phone calls between the two Germanies rose from half a million in 1969 to forty million twenty years later.",
+     "explain": "This meant that human contacts grew and fears of West German revanchism eased, so even Kohl kept the policy.",
+     "test": "However, the GDR gained international recognition, and from the mid-1970s fewer than 1 per cent of West Germans saw unification as the most important question.",
+     "judge": "Ostpolitik was therefore a success in reducing tension, but it seemed to make division permanent."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Bahr's phrase 'change through rapprochement' describe?",
+      "factIds": [
+       "F-DED-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Ostpolitik: improving relations with the East to change it over time",
+        "correct": true,
+        "explanation": "Correct: the aim was to 'overcome Yalta'."
+       },
+       {
+        "id": "b",
+        "text": "The Hallstein Doctrine",
+        "correct": false,
+        "explanation": "Ostpolitik reversed it."
+       },
+       {
+        "id": "c",
+        "text": "The Berufsverbot",
+        "correct": false,
+        "explanation": "That concerned public employment."
+       },
+       {
+        "id": "d",
+        "text": "The Grand Coalition",
+        "correct": false,
+        "explanation": "Not what it described."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people did the RAF kill between 1970 and 1978, according to Judt? (number)",
+      "factIds": [
+       "F-DED-21"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 28,
+        "tolerance": 0,
+        "explanation": "Twenty-eight, with 162 hostages taken."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Neither the terrorist Left nor the neo-Nazi Right succeeded in destabilising the Republic.” Which argument does it support best?",
+      "factIds": [
+       "F-DED-22"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "West German democracy was resilient under violent challenge",
+        "correct": true,
+        "explanation": "Correct: Judt's conclusion."
+       },
+       {
+        "id": "b",
+        "text": "Terrorism destroyed West German democracy",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The government suspended elections",
+        "correct": false,
+        "explanation": "Elections continued."
+       },
+       {
+        "id": "d",
+        "text": "There was no terrorism in West Germany",
+        "correct": false,
+        "explanation": "There was, especially in 1977."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "New parties and unification, 1982–1990",
+    "body": "By the 1980s the party system was changing. The **Greens**, a movement of environmentalists, pacifists and others, won 5.6 per cent of the vote and twenty-seven seats in the federal election of **1983**, entering parliament for the first time. By 1985 they were governing the state of Hesse in coalition with the SPD. The 5 per cent rule, designed to keep small extremist parties out, now let a new democratic party in once it reached the threshold.\n\nHelmut Kohl, chancellor since 1982, was at first cautious when the Berlin Wall opened in November 1989. On 28 November he presented a *five-year* programme of steps towards unity. But as East Germans continued to flee west, Kohl accelerated. In the East German elections of **March 1990** the CDU-led \"Alliance for Germany\" won 48 per cent of the vote on a promise of unification. A monetary, economic and social union took effect on **1 July 1990**, bringing the Deutsche Mark to the East. On 23 August the East German parliament voted to join the Federal Republic, and on **3 October 1990** the GDR ceased to exist, acceding under Article 23 of the Basic Law.\n\nUnification needed the consent of the four victorious powers. In the \"4+2\" talks of 1990 the USA backed Kohl, and the **Treaty on the Final Settlement with Respect to Germany**, signed in Moscow on 12 September 1990, recognised Germany's borders, ended four-power status in Berlin and allowed a united Germany to remain in NATO.\n\nThis mattered because East Germany joined the Federal Republic under its existing constitution, which meant that the democracy built in the West after 1949 became the democracy of all Germany.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Greens showed the system could absorb new movements.",
+      "evidence": [
+       "F-DED-23"
+      ],
+      "strongestCounter": "The 5 per cent rule was criticised."
+     },
+     {
+      "claim": "Kohl drove the pace of unification.",
+      "evidence": [
+       "F-DED-25"
+      ],
+      "strongestCounter": "He was cautious at first."
+     },
+     {
+      "claim": "Unification needed international consent.",
+      "evidence": [
+       "F-DED-26"
+      ],
+      "strongestCounter": "The US support was decisive."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was Helmut Kohl responsible for German unification between 1989 and 1990?",
+     "To what extent was the Basic Law the main reason for the stability of West German democracy between 1949 and 1969?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Kohl was responsible for the speed and form of unification, though not for the opportunity.",
+     "prove": "After presenting a five-year programme on 28 November 1989, he accelerated; the Alliance for Germany won 48 per cent in March 1990, and the GDR acceded on 3 October 1990.",
+     "explain": "This meant that unification took place within the Federal Republic's Basic Law, so West German democracy was extended to the East.",
+     "test": "However, unification depended on the collapse of the GDR and on international consent, secured by US backing in the 4+2 talks.",
+     "judge": "Kohl was therefore responsible for how and when Germany united, but not for why it became possible."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What percentage of the vote did the Greens win in the 1983 federal election? (number, e.g. 5.6)",
+      "factIds": [
+       "F-DED-23"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 5.6,
+        "tolerance": 0.1,
+        "explanation": "5.6 per cent and twenty-seven seats."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Under which article of the Basic Law did the GDR accede to the Federal Republic?",
+      "factIds": [
+       "F-DED-25"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Article 23",
+        "correct": true,
+        "explanation": "Correct: on 3 October 1990."
+       },
+       {
+        "id": "b",
+        "text": "Article 48",
+        "correct": false,
+        "explanation": "That was Weimar's emergency article."
+       },
+       {
+        "id": "c",
+        "text": "Article 5",
+        "correct": false,
+        "explanation": "That guaranteed press freedom."
+       },
+       {
+        "id": "d",
+        "text": "Article 3",
+        "correct": false,
+        "explanation": "That stated equality of men and women."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-DE-DEVELOPMENT-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Treaty on the Final Settlement allowed a united Germany to remain in NATO.” Which argument does it support best?",
+      "factIds": [
+       "F-DED-26"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "United Germany remained tied to the West",
+        "correct": true,
+        "explanation": "Correct: the outcome the US wanted."
+       },
+       {
+        "id": "b",
+        "text": "United Germany became neutral",
+        "correct": false,
+        "explanation": "It stayed in NATO."
+       },
+       {
+        "id": "c",
+        "text": "The Soviets vetoed unification",
+        "correct": false,
+        "explanation": "They agreed to it."
+       },
+       {
+        "id": "d",
+        "text": "NATO was dissolved in 1990",
+        "correct": false,
+        "explanation": "It was not."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1949,
+      "month": 9,
+      "text": "Adenauer becomes chancellor",
+      "factId": "F-DED-05"
+     },
+     {
+      "year": 1955,
+      "month": 5,
+      "day": 5,
+      "text": "Sovereignty; NATO membership",
+      "factId": "F-DED-01"
+     },
+     {
+      "year": 1956,
+      "text": "Communist Party banned",
+      "factId": "F-DED-09"
+     },
+     {
+      "year": 1959,
+      "text": "SPD's Bad Godesberg programme",
+      "factId": "F-DED-08"
+     },
+     {
+      "year": 1962,
+      "text": "Spiegel Affair",
+      "factId": "F-DED-15"
+     },
+     {
+      "year": 1966,
+      "month": 12,
+      "text": "Grand Coalition under Kiesinger",
+      "factId": "F-DED-13"
+     },
+     {
+      "year": 1969,
+      "text": "Brandt leads SPD–FDP coalition",
+      "factId": "F-DED-16"
+     },
+     {
+      "year": 1970,
+      "text": "Moscow and Warsaw treaties",
+      "factId": "F-DED-17"
+     },
+     {
+      "year": 1977,
+      "text": "RAF kills Schleyer, Buback and Ponto",
+      "factId": "F-DED-21"
+     },
+     {
+      "year": 1982,
+      "text": "Kohl becomes chancellor",
+      "factId": "F-DED-24"
+     },
+     {
+      "year": 1983,
+      "text": "Greens enter the Bundestag",
+      "factId": "F-DED-23"
+     },
+     {
+      "year": 1990,
+      "month": 10,
+      "day": 3,
+      "text": "Unification: the GDR accedes",
+      "factId": "F-DED-25"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Basic Law gives strong, stable government",
+      "factId": "F-DED-04"
+     },
+     {
+      "id": "n2",
+      "text": "Adenauer and the CDU build a broad centre",
+      "factId": "F-DED-06"
+     },
+     {
+      "id": "n3",
+      "text": "SPD accepts the system at Bad Godesberg",
+      "factId": "F-DED-08"
+     },
+     {
+      "id": "n4",
+      "text": "Peaceful change of government in 1969",
+      "factId": "F-DED-16"
+     },
+     {
+      "id": "n5",
+      "text": "Democracy withstands terrorism",
+      "factId": "F-DED-22"
+     },
+     {
+      "id": "n6",
+      "text": "GDR accedes under the Basic Law (1990)",
+      "factId": "F-DED-25"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Chancellors could govern for long periods"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "The SPD's old programme kept losing"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Both big parties accepted the Republic's basic choices"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Radicals outside parliament turned to violence but failed"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "A stable democracy could absorb the collapsing GDR"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Konrad Adenauer",
+     "role": "Chancellor 1949–1963",
+     "whyItMatters": "'Chancellor democracy'; NATO entry in 1955.",
+     "factIds": [
+      "F-DED-02",
+      "F-DED-03"
+     ]
+    },
+    {
+     "name": "Willy Brandt",
+     "role": "SPD leader; chancellor 1969–1974",
+     "whyItMatters": "Ostpolitik; Nobel Peace Prize.",
+     "factIds": [
+      "F-DED-16",
+      "F-DED-17"
+     ]
+    },
+    {
+     "name": "Kurt-Georg Kiesinger",
+     "role": "Chancellor 1966–1969",
+     "whyItMatters": "Former Nazi Party member; led the Grand Coalition.",
+     "factIds": [
+      "F-DED-13"
+     ]
+    },
+    {
+     "name": "Helmut Schmidt",
+     "role": "Chancellor from 1974",
+     "whyItMatters": "Continued Ostpolitik.",
+     "factIds": [
+      "F-DED-18"
+     ]
+    },
+    {
+     "name": "Helmut Kohl",
+     "role": "Chancellor from 1982",
+     "whyItMatters": "Drove the pace of unification in 1990.",
+     "factIds": [
+      "F-DED-24",
+      "F-DED-25"
+     ]
+    },
+    {
+     "name": "Red Army Fraction",
+     "role": "Left-wing terrorist group",
+     "whyItMatters": "Killed 28 people in 1970–78 but failed to destabilise the Republic.",
+     "factIds": [
+      "F-DED-21",
+      "F-DED-22"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Strength of democracy",
+     "Weakness or criticism"
+    ],
+    "rows": [
+     {
+      "criterion": "Government",
+      "cells": [
+       "Strong, long-serving chancellors",
+       "'Chancellor democracy'; the Spiegel Affair"
+      ],
+      "factIds": [
+       "F-DED-04",
+       "F-DED-15"
+      ]
+     },
+     {
+      "criterion": "Parties",
+      "cells": [
+       "Broad CDU and SPD; Greens enter in 1983",
+       "Communist Party banned; 5 per cent rule criticised"
+      ],
+      "factIds": [
+       "F-DED-06",
+       "F-DED-09"
+      ]
+     },
+     {
+      "criterion": "The past",
+      "cells": [
+       "Auschwitz trials, 1963–65",
+       "Former Nazi as chancellor, 1966"
+      ],
+      "factIds": [
+       "F-DED-14",
+       "F-DED-13"
+      ]
+     },
+     {
+      "criterion": "Security",
+      "cells": [
+       "Terrorism failed to destabilise",
+       "Berufsverbot raised fears for liberties"
+      ],
+      "factIds": [
+       "F-DED-22"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-DED-04",
+    "year": 1949,
+    "text": "Constructive vote of no confidence: strong chancellors such as Adenauer, Schmidt and Kohl.",
+    "supports": [
+     "The Basic Law gave stable government"
+    ],
+    "lexicon": [
+     "constructive vote of no confidence",
+     "chancellor"
+    ]
+   },
+   {
+    "factId": "F-DED-05",
+    "year": 1957,
+    "text": "By 1957 the CDU/CSU won more than 50 per cent of the vote.",
+    "supports": [
+     "The CDU dominated the 1950s"
+    ],
+    "lexicon": [
+     "CDU",
+     "Adenauer"
+    ]
+   },
+   {
+    "factId": "F-DED-08",
+    "year": 1959,
+    "text": "Bad Godesberg (1959): the SPD abandoned Marxism.",
+    "supports": [
+     "The SPD accepted the Republic's basic choices"
+    ],
+    "lexicon": [
+     "Bad Godesberg",
+     "Volkspartei"
+    ]
+   },
+   {
+    "factId": "F-DED-15",
+    "year": 1962,
+    "text": "Spiegel Affair (1962): 'an embarrassment to our democracy'.",
+    "supports": [
+     "Adenauer's government abused power"
+    ],
+    "lexicon": [
+     "Spiegel Affair",
+     "press freedom"
+    ]
+   },
+   {
+    "factId": "F-DED-17",
+    "year": 1970,
+    "text": "Ostpolitik: Moscow and Warsaw treaties (1970); Basic Treaty (1973).",
+    "supports": [
+     "Ostpolitik normalised relations with the East"
+    ],
+    "alsoWorksFor": [
+     "P2-12-DETENTE"
+    ],
+    "lexicon": [
+     "Ostpolitik",
+     "Basic Treaty"
+    ]
+   },
+   {
+    "factId": "F-DED-22",
+    "year": 1977,
+    "text": "Terrorism failed to destabilise the Republic.",
+    "supports": [
+     "Democracy was resilient"
+    ],
+    "lexicon": [
+     "RAF",
+     "Berufsverbot"
+    ]
+   },
+   {
+    "factId": "F-DED-25",
+    "year": 1990,
+    "text": "3 October 1990: the GDR acceded under Article 23 of the Basic Law.",
+    "supports": [
+     "West German democracy became all-German"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "unification",
+     "Article 23"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Geoff Layton",
+    "argument": "Adenauer's style of government was labelled 'chancellor democracy', a term interpreted positively or negatively depending on political standing; his practical approach helped him integrate different interest groups (as quoted by Bottaro and Stanley).",
+    "useItLikeThis": "Layton's view supports the claim that Adenauer's personal authority was central to stability, which suggests democracy depended on strong leadership in its early years.",
+    "factId": "F-DED-03"
+   },
+   {
+    "historian": "Tony Judt",
+    "argument": "West Germany was 'the most dramatic instance of political stabilization in post-war Europe', navigating between neo-Nazism and pro-Soviet neutralism under Adenauer.",
+    "useItLikeThis": "Judt's view supports the claim that the Federal Republic's stability was an achievement rather than a certainty, which suggests leadership and Western integration mattered alongside the constitution.",
+    "factId": "F-DED-28"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The CDU governed West Germany for its whole history.",
+    "right": "The SPD led governments from **1969** to 1982, under Brandt and Schmidt."
+   },
+   {
+    "wrong": "Ostpolitik aimed at immediate reunification.",
+    "right": "It accepted 'one German nation, **two German states**' and the post-war frontiers."
+   },
+   {
+    "wrong": "Terrorism nearly destroyed West German democracy.",
+    "right": "Judt concludes that neither left nor right terrorism **destabilised** the Republic."
+   },
+   {
+    "wrong": "East and West Germany wrote a new constitution in 1990.",
+    "right": "The GDR **acceded** to the Federal Republic under Article 23 of the existing Basic Law."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1955,
+     "month": 5,
+     "text": "Sovereignty; NATO"
+    },
+    {
+     "year": 1959,
+     "text": "Bad Godesberg"
+    },
+    {
+     "year": 1962,
+     "text": "Spiegel Affair"
+    },
+    {
+     "year": 1966,
+     "month": 12,
+     "text": "Grand Coalition"
+    },
+    {
+     "year": 1969,
+     "text": "Brandt chancellor"
+    },
+    {
+     "year": 1977,
+     "text": "RAF's peak year"
+    },
+    {
+     "year": 1983,
+     "text": "Greens enter Bundestag"
+    },
+    {
+     "year": 1990,
+     "month": 10,
+     "day": 3,
+     "text": "Unification"
+    }
+   ],
+   "keyArguments": [
+    "The Basic Law and Adenauer's 'chancellor democracy' gave stability.",
+    "The CDU 'colonized the issues'; the SPD accepted the Republic at Bad Godesberg in 1959.",
+    "The 1969 change of government showed democracy's maturity.",
+    "Ostpolitik normalised relations with the East; terrorism failed to destabilise the Republic.",
+    "In 1990 the GDR acceded under Article 23: West German democracy became all-German."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "West Germany joins NATO",
+     "year": 1955,
+     "month": 5,
+     "factId": "F-DED-01"
+    },
+    {
+     "id": "b",
+     "text": "Communist Party banned",
+     "year": 1956,
+     "factId": "F-DED-09"
+    },
+    {
+     "id": "c",
+     "text": "Bad Godesberg programme",
+     "year": 1959,
+     "factId": "F-DED-08"
+    },
+    {
+     "id": "d",
+     "text": "Spiegel Affair",
+     "year": 1962,
+     "factId": "F-DED-15"
+    },
+    {
+     "id": "e",
+     "text": "Adenauer stands down",
+     "year": 1963,
+     "factId": "F-DED-02"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Grand Coalition formed",
+     "year": 1966,
+     "month": 12,
+     "factId": "F-DED-13"
+    },
+    {
+     "id": "b",
+     "text": "Brandt leads SPD–FDP coalition",
+     "year": 1969,
+     "factId": "F-DED-16"
+    },
+    {
+     "id": "c",
+     "text": "Berlin four-power agreement",
+     "year": 1971,
+     "factId": "F-DED-17"
+    },
+    {
+     "id": "d",
+     "text": "Basic Treaty ratified",
+     "year": 1973,
+     "factId": "F-DED-17"
+    },
+    {
+     "id": "e",
+     "text": "Brandt resigns after spy scandal",
+     "year": 1974,
+     "factId": "F-DED-18"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Kohl becomes chancellor",
+     "year": 1982,
+     "factId": "F-DED-24"
+    },
+    {
+     "id": "b",
+     "text": "Greens enter the Bundestag",
+     "year": 1983,
+     "factId": "F-DED-23"
+    },
+    {
+     "id": "c",
+     "text": "Monetary union takes effect",
+     "year": 1990,
+     "month": 7,
+     "factId": "F-DED-25"
+    },
+    {
+     "id": "d",
+     "text": "GDR accedes to the Federal Republic",
+     "year": 1990,
+     "month": 10,
+     "factId": "F-DED-25"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each chancellor to a feature of his time in office.",
+   "pairs": [
+    {
+     "left": "Konrad Adenauer",
+     "right": "'Chancellor democracy' and NATO entry",
+     "explanation": "1949–1963."
+    },
+    {
+     "left": "Kurt-Georg Kiesinger",
+     "right": "Grand Coalition with the SPD",
+     "explanation": "1966–1969."
+    },
+    {
+     "left": "Willy Brandt",
+     "right": "Ostpolitik and the Basic Treaty",
+     "explanation": "1969–1974."
+    },
+    {
+     "left": "Helmut Kohl",
+     "right": "Unification in 1990",
+     "explanation": "From 1982."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of the vote did the SPD win in 1949, according to Judt? (number, e.g. 29.2)",
+   "factIds": [
+    "F-DED-07"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 29.2,
+     "tolerance": 0.1,
+     "explanation": "29.2 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many seats did the Greens win in 1983? (number)",
+   "factIds": [
+    "F-DED-23"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 27,
+     "tolerance": 0,
+     "explanation": "Twenty-seven."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of the vote did the Alliance for Germany win in the East German election of March 1990? (number)",
+   "factIds": [
+    "F-DED-25"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 48,
+     "tolerance": 0,
+     "explanation": "48 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the minimum share of the vote (per cent) a party needed to enter the Bundestag after 1953? (number)",
+   "factIds": [
+    "F-DED-27"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 5,
+     "tolerance": 0,
+     "explanation": "5 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were part of Ostpolitik? Choose all that apply.",
+   "factIds": [
+    "F-DED-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Treaties with Moscow and Warsaw in 1970",
+     "correct": true,
+     "explanation": "Yes: accepting post-war frontiers."
+    },
+    {
+     "id": "b",
+     "text": "A Basic Treaty with the GDR",
+     "correct": true,
+     "explanation": "Yes: ratified in 1973."
+    },
+    {
+     "id": "c",
+     "text": "A four-power agreement on Berlin",
+     "correct": true,
+     "explanation": "Yes: 1971."
+    },
+    {
+     "id": "d",
+     "text": "The Hallstein Doctrine",
+     "correct": false,
+     "explanation": "No: Ostpolitik abandoned it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these challenged West German democracy between 1962 and 1977? Choose all that apply.",
+   "factIds": [
+    "F-DED-15",
+    "F-DED-13",
+    "F-DED-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Spiegel Affair",
+     "correct": true,
+     "explanation": "Yes: an abuse of police powers."
+    },
+    {
+     "id": "b",
+     "text": "A former Nazi Party member as chancellor",
+     "correct": true,
+     "explanation": "Yes: Kiesinger, 1966–69."
+    },
+    {
+     "id": "c",
+     "text": "RAF terrorism",
+     "correct": true,
+     "explanation": "Yes: its peak year was 1977."
+    },
+    {
+     "id": "d",
+     "text": "The Bad Godesberg programme",
+     "correct": false,
+     "explanation": "No: it strengthened democracy."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “From the mid-1970s, never more than 1 per cent of West Germans called unification the most important question.” Which argument does it support?",
+   "factIds": [
+    "F-DED-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ostpolitik made division seem permanent",
+     "correct": true,
+     "explanation": "Correct: unification faded as a goal."
+    },
+    {
+     "id": "b",
+     "text": "West Germans demanded immediate unification",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Unification was certain by 1975",
+     "correct": false,
+     "explanation": "No one expected it."
+    },
+    {
+     "id": "d",
+     "text": "Ostpolitik failed to reduce tension",
+     "correct": false,
+     "explanation": "It did reduce tension."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By 1957 the CDU/CSU vote had almost doubled and topped 50 per cent.” Which argument does it support?",
+   "factIds": [
+    "F-DED-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Adenauer's CDU dominated West German politics in the 1950s",
+     "correct": true,
+     "explanation": "Correct: it ruled until 1966."
+    },
+    {
+     "id": "b",
+     "text": "The SPD won the 1957 election",
+     "correct": false,
+     "explanation": "The CDU/CSU won."
+    },
+    {
+     "id": "c",
+     "text": "West Germany had a multi-party coalition crisis",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "Voters rejected Adenauer",
+     "correct": false,
+     "explanation": "They rewarded him."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Christian Democrats governed without interruption from 1949 to 1990.”",
+   "factIds": [
+    "F-DED-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The SPD under Brandt took power in 1969 and the CDU went into opposition",
+     "correct": true,
+     "explanation": "Correct: the CDU returned under Kohl in 1982."
+    },
+    {
+     "id": "b",
+     "text": "The CDU was founded in 1969",
+     "correct": false,
+     "explanation": "It was founded in 1945."
+    },
+    {
+     "id": "c",
+     "text": "Adenauer was chancellor until 1990",
+     "correct": false,
+     "explanation": "He stood down in 1963."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the SPD governed from 1969."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “East and West Germany negotiated a completely new constitution in 1990.”",
+   "factIds": [
+    "F-DED-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The GDR acceded to the Federal Republic under Article 23 of the existing Basic Law",
+     "correct": true,
+     "explanation": "Correct: it ceased to exist."
+    },
+    {
+     "id": "b",
+     "text": "Unification happened in 1989",
+     "correct": false,
+     "explanation": "It happened on 3 October 1990."
+    },
+    {
+     "id": "c",
+     "text": "Kohl opposed unification",
+     "correct": false,
+     "explanation": "He drove it."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the Basic Law was extended."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the development of West German democracy between 1949 and 1990. Is the Berlin blockade of 1948–49 inside or outside the timeframe?",
+   "factIds": [
+    "F-DED-01"
+   ],
+   "timeframe": [
+    1949,
+    1990
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mostly outside: it began in 1948, so it can only be used as background",
+     "correct": true,
+     "explanation": "Correct: the question starts in 1949."
+    },
+    {
+     "id": "b",
+     "text": "Fully inside",
+     "correct": false,
+     "explanation": "No: it began in 1948."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because West Germany was born in 1949",
+     "correct": false,
+     "explanation": "The blockade was its background."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened at Bad Godesberg in 1959?",
+   "factIds": [
+    "F-DED-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The SPD abandoned Marxism and accepted the free market",
+     "correct": true,
+     "explanation": "Correct: it became a people's party."
+    },
+    {
+     "id": "b",
+     "text": "The CDU was founded",
+     "correct": false,
+     "explanation": "It was founded in 1945."
+    },
+    {
+     "id": "c",
+     "text": "The Basic Treaty was signed",
+     "correct": false,
+     "explanation": "That came in 1972–73."
+    },
+    {
+     "id": "d",
+     "text": "The Greens were founded",
+     "correct": false,
+     "explanation": "They emerged later."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Brandt resign in 1974?",
+   "factIds": [
+    "F-DED-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A spy scandal forced him out",
+     "correct": true,
+     "explanation": "Correct: Schmidt succeeded him."
+    },
+    {
+     "id": "b",
+     "text": "He lost an election",
+     "correct": false,
+     "explanation": "The SPD won in 1972."
+    },
+    {
+     "id": "c",
+     "text": "He opposed Ostpolitik",
+     "correct": false,
+     "explanation": "He created it."
+    },
+    {
+     "id": "d",
+     "text": "Terrorists forced him out",
+     "correct": false,
+     "explanation": "Not the reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the Berufsverbot of 1972?",
+   "factIds": [
+    "F-DED-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A decree excluding people judged hostile to the constitution from state employment",
+     "correct": true,
+     "explanation": "Correct: critics feared censorship."
+    },
+    {
+     "id": "b",
+     "text": "A ban on the Greens",
+     "correct": false,
+     "explanation": "The Greens entered parliament in 1983."
+    },
+    {
+     "id": "c",
+     "text": "A treaty with the GDR",
+     "correct": false,
+     "explanation": "That was the Basic Treaty."
+    },
+    {
+     "id": "d",
+     "text": "A law creating the Bundeswehr",
+     "correct": false,
+     "explanation": "That was in 1955."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Treaty on the Final Settlement of 12 September 1990 allow?",
+   "factIds": [
+    "F-DED-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A united Germany to remain in NATO",
+     "correct": true,
+     "explanation": "Correct: and it ended four-power status in Berlin."
+    },
+    {
+     "id": "b",
+     "text": "A neutral united Germany",
+     "correct": false,
+     "explanation": "Germany stayed in NATO."
+    },
+    {
+     "id": "c",
+     "text": "The GDR to keep its army",
+     "correct": false,
+     "explanation": "Not what it allowed."
+    },
+    {
+     "id": "d",
+     "text": "Soviet troops to stay permanently",
+     "correct": false,
+     "explanation": "Withdrawal was agreed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, what happened once the SPD joined the government in 1966?",
+   "factIds": [
+    "F-DED-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A space opened outside parliament for a new generation of radicals",
+     "correct": true,
+     "explanation": "Correct: the extra-parliamentary Left."
+    },
+    {
+     "id": "b",
+     "text": "The SPD lost all its seats",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "The CDU was banned",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "The Basic Law was suspended",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the Basic Law the main reason for the stability of West German democracy between 1949 and 1969?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the Basic Law",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for the stability of West German democracy",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1949 and 1969",
+     "answer": "timeframe",
+     "explanation": "From the first chancellor to the first change of government."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Did the constitution outweigh leadership, parties and prosperity?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the success of Ostpolitik between 1969 and 1974.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Evaluate",
+     "answer": "verb",
+     "explanation": "Weigh strengths and limits, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "Ostpolitik",
+     "answer": "factor",
+     "explanation": "The policy to evaluate."
+    },
+    {
+     "id": "s3",
+     "text": "success",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1969 and 1974",
+     "answer": "timeframe",
+     "explanation": "Brandt's chancellorship."
+    },
+    {
+     "id": "s5",
+     "text": "success",
+     "answer": "judgement",
+     "explanation": "Success by what criterion: reduced tension, human contacts, or unification?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Basic Law the main reason for the stability of West German democracy between 1949 and 1969?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Basic Law provided the framework for stability through strong chancellors and limits on extremism, but stability also depended on Adenauer's leadership, the CDU's broad appeal and the SPD's acceptance of the system in 1959.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against others."
+    },
+    {
+     "id": "b",
+     "text": "The Basic Law was adopted in 1949.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Basic Law was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Basic Law was the only reason.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the success of Ostpolitik between 1969 and 1974.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ostpolitik succeeded in reducing tension and increasing contacts between the two Germanies, but by accepting 'two German states' it appeared to make division permanent.",
+     "correct": true,
+     "explanation": "Correct: success with a limit."
+    },
+    {
+     "id": "b",
+     "text": "Ostpolitik was Brandt's policy.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Ostpolitik was good.",
+     "correct": false,
+     "explanation": "Not a judgement with criteria."
+    },
+    {
+     "id": "d",
+     "text": "Ostpolitik reunified Germany in 1974.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1959 the SPD adopted the Bad Godesberg programme.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the SPD now accepted the free market and the Western Alliance, voters no longer saw it as a risk.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 3 October 1990 the GDR ceased to exist.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the democracy built in the West became the democracy of all Germany.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "CDU/CSU above 50 per cent in 1957",
+     "right": "The CDU dominated the 1950s",
+     "explanation": "Adenauer's peak."
+    },
+    {
+     "left": "Spiegel Affair, 1962",
+     "right": "Adenauer's government abused power",
+     "explanation": "A publisher arrested."
+    },
+    {
+     "left": "SPD–FDP government in 1969",
+     "right": "Power could change hands peacefully",
+     "explanation": "The CDU in opposition."
+    },
+    {
+     "left": "Phone calls rose to forty million",
+     "right": "Ostpolitik increased contact",
+     "explanation": "By 1989."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Terrorism was a big problem for West Germany.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the RAF killed 28 people between 1970 and 1978 and murdered leading figures in 1977, it tested whether the state could defend itself without abandoning liberty; the Berufsverbot raised fears, but Judt concludes the Republic was not destabilised.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and judgement."
+    },
+    {
+     "id": "b",
+     "text": "Terrorism was very bad.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The RAF was founded in 1970.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Terrorism destroyed democracy.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “West German democracy was weak in the 1960s and 1970s.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Power changed hands peacefully in 1969, the press forced a retreat after the Spiegel Affair, and terrorism failed to destabilise the Republic, which suggests resilience rather than weakness.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Germany is a strong country.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "West Germany was rich.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "Some people liked the government.",
+     "correct": false,
+     "explanation": "Too vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Basic Law the main reason for the stability of West German democracy?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by the rules of government, the Basic Law was decisive; judged by whether voters accepted democracy, leadership, prosperity and the SPD's compromise mattered more.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the Basic Law was adopted in 1949.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Adenauer was old.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, constitutions always work.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-DE-DEVELOPMENT-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the SPD's Bad Godesberg programme between 1959 and 1969.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Stagnating SPD votes in 1953 and 1957",
+     "answer": "causes",
+     "explanation": "The old programme kept losing."
+    },
+    {
+     "id": "s2",
+     "text": "West Germany firmly tied to the West",
+     "answer": "causes",
+     "explanation": "Neutrality was no longer realistic."
+    },
+    {
+     "id": "s3",
+     "text": "Better SPD results in 1961 and 1965",
+     "answer": "effects",
+     "explanation": "Before the Grand Coalition."
+    },
+    {
+     "id": "s4",
+     "text": "The Grand Coalition of 1966",
+     "answer": "effects",
+     "explanation": "The SPD in government."
+    },
+    {
+     "id": "s5",
+     "text": "The SPD–FDP government of 1969",
+     "answer": "effects",
+     "explanation": "Brandt chancellor."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-9-DE-DEVELOPMENT-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the Basic Law the main reason for the stability of West German democracy between 1949 and 1969?",
+   "commandTerm": "to what extent",
+   "namedFactor": "the Basic Law",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1949,
+    1969
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "The Basic Law, weighed first",
+    "timeframe": "1949–1969",
+    "scope": "Stability of democracy",
+    "judgement": "Did the constitution outweigh leadership, parties and the SPD's compromise?"
+   },
+   "modelPlan": {
+    "thesis": "The Basic Law provided the framework for stability through strong chancellors and limits on extremism, but stability also depended on Adenauer's leadership, the CDU's broad appeal and the SPD's acceptance of the system in 1959.",
+    "arguments": [
+     {
+      "claim": "The Basic Law: strong chancellors and the 5 per cent rule (named factor first).",
+      "evidence": [
+       "F-DED-04",
+       "F-DED-27"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Adenauer's leadership and Western integration.",
+      "evidence": [
+       "F-DED-02",
+       "F-DED-03"
+      ]
+     },
+     {
+      "claim": "The CDU as a broad people's party.",
+      "evidence": [
+       "F-DED-05",
+       "F-DED-06"
+      ]
+     },
+     {
+      "claim": "The SPD's acceptance of the system.",
+      "evidence": [
+       "F-DED-08",
+       "F-DED-16"
+      ]
+     }
+    ],
+    "counter": "Weimar had a democratic constitution too, which suggests rules alone could not guarantee stability.",
+    "judgementCriterion": "What made stability possible? The Basic Law; what made it real? Voters' acceptance of democracy."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Basic Law was the foundation of West German stability, but not its main cause.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The constructive vote of no confidence allowed strong chancellors such as Adenauer to govern for long periods, and from 1953 the 5 per cent rule kept splinter parties out.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the instability of Weimar could not recur, so government was continuous.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, stability also depended on the CDU, which 'colonized the issues', and on the SPD's acceptance of the system at Bad Godesberg in 1959, which made the peaceful change of 1969 possible.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Basic Law was therefore necessary but not sufficient: stability came from voters and parties accepting democracy.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Basic Law"
+    ],
+    "synonyms": [
+     "constitution",
+     "constructive vote of no confidence"
+    ],
+    "historians": [
+     "Judt",
+     "Layton"
+    ],
+    "extraLexicon": [
+     "Adenauer",
+     "CDU",
+     "Bad Godesberg"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-DEVELOPMENT-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The challenges of the years 1962 to 1977 showed the weakness of West German democracy.” Discuss.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1962,
+    1977
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: challenges showed weakness",
+    "timeframe": "1962–1977",
+    "scope": "West German democracy",
+    "judgement": "Weakness, or resilience under strain?"
+   },
+   "modelPlan": {
+    "thesis": "The challenges of 1962–77 exposed weaknesses, notably the Spiegel Affair, a former Nazi as chancellor and the Berufsverbot, but democracy's survival of a peaceful change of government and of terrorism showed its resilience.",
+    "arguments": [
+     {
+      "claim": "For: the Spiegel Affair.",
+      "evidence": [
+       "F-DED-15"
+      ]
+     },
+     {
+      "claim": "For: Kiesinger and the Grand Coalition.",
+      "evidence": [
+       "F-DED-13",
+       "F-DED-12"
+      ]
+     },
+     {
+      "claim": "Against: the peaceful change of 1969.",
+      "evidence": [
+       "F-DED-16"
+      ]
+     },
+     {
+      "claim": "Against: terrorism failed.",
+      "evidence": [
+       "F-DED-21",
+       "F-DED-22"
+      ]
+     }
+    ],
+    "counter": "The Berufsverbot raised fears for civil liberties, which supports the claim.",
+    "judgementCriterion": "Weakness or resilience? Strains showed limits; survival showed strength."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The challenges of 1962 to 1977 revealed weaknesses but proved West German democracy's resilience.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1962 the government arrested the publisher of Der Spiegel, and in 1966 a former Nazi Party member, Kiesinger, became chancellor.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that critics could accuse the Republic of authoritarian habits and silence about the past, so a radical opposition grew outside parliament.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, power changed hands peacefully in 1969, and Judt concludes that RAF terrorism, at its peak in 1977, failed to destabilise the Republic.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore only partly valid: the challenges showed flaws, but democracy's survival showed its strength.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "challenges"
+    ],
+    "synonyms": [
+     "Spiegel",
+     "terrorism",
+     "Kiesinger"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Berufsverbot",
+     "RAF",
+     "Grand Coalition"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-DEVELOPMENT-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the success of Ostpolitik between 1969 and 1974.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1969,
+    1974
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The success of Ostpolitik",
+    "timeframe": "1969–1974",
+    "scope": "Relations with the East",
+    "judgement": "Success by what criterion?"
+   },
+   "modelPlan": {
+    "thesis": "Ostpolitik succeeded in reducing tension and increasing contacts between the two Germanies, but by accepting 'two German states' it appeared to make division permanent.",
+    "arguments": [
+     {
+      "claim": "Treaties and recognition of frontiers.",
+      "evidence": [
+       "F-DED-17"
+      ]
+     },
+     {
+      "claim": "Human contacts.",
+      "evidence": [
+       "F-DED-19"
+      ]
+     },
+     {
+      "claim": "Popularity at home.",
+      "evidence": [
+       "F-DED-17"
+      ]
+     },
+     {
+      "claim": "Limits: division accepted.",
+      "evidence": [
+       "F-DED-19",
+       "F-DED-20"
+      ]
+     }
+    ],
+    "counter": "The GDR gained international recognition, and in 1973 both states joined the UN.",
+    "judgementCriterion": "By what criterion? Reducing tension: success; reunification: none."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Ostpolitik was a success in reducing tension, but at the cost of accepting division.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Moscow and Warsaw treaties of 1970 accepted the post-war frontiers, and the Basic Treaty with the GDR was ratified in 1973.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that fears of West German revanchism eased and contacts between the Germanies grew, so Brandt won the 1972 election and the Nobel Peace Prize.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the GDR gained international recognition, and from the mid-1970s fewer than 1 per cent of West Germans saw unification as the main question.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Ostpolitik was therefore successful by its own aims, which were normalisation, not unification.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Ostpolitik"
+    ],
+    "synonyms": [
+     "Brandt",
+     "rapprochement"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Basic Treaty",
+     "GDR",
+     "frontiers"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-DEVELOPMENT-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the SPD's Bad Godesberg programme between 1959 and 1969.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1959,
+    1969
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1959–1969",
+    "scope": "The Bad Godesberg programme",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The SPD adopted the Bad Godesberg programme because its old Marxist and neutralist programme kept losing to the CDU; the result was entry into government in 1966 and leadership of it in 1969.",
+    "arguments": [
+     {
+      "claim": "Reason: electoral stagnation.",
+      "evidence": [
+       "F-DED-07"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: West Germany's Western ties.",
+      "evidence": [
+       "F-DED-02",
+       "F-DED-07"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: the Grand Coalition.",
+      "evidence": [
+       "F-DED-12"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: the SPD in power in 1969.",
+      "evidence": [
+       "F-DED-16"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Judt argues that joining the government cost the SPD the far Left.",
+    "judgementCriterion": "Which result mattered most? The peaceful change of government in 1969."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The SPD changed its programme because its old one could not win.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Its vote stagnated in 1953 and 1957, so in 1959 at Bad Godesberg it abandoned Marxism and accepted the free market and the Western Alliance.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that it could appeal beyond the working class, so its results improved in 1961 and 1965 and it entered government in 1966.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt argues that once the SPD joined the Grand Coalition, a space opened for radicals outside parliament.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore the SPD–FDP government of 1969, which proved power could change hands peacefully.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Bad Godesberg"
+    ],
+    "synonyms": [
+     "SPD",
+     "Volkspartei"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Marxism",
+     "Grand Coalition",
+     "Brandt"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-DEVELOPMENT-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the role of Konrad Adenauer in the development of West German democracy between 1949 and 1963.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1949,
+    1963
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Adenauer's role",
+    "timeframe": "1949–1963",
+    "scope": "West German democracy",
+    "judgement": "Which contribution mattered most, and its costs"
+   },
+   "modelPlan": {
+    "thesis": "Adenauer's main contribution was stability, through long, strong government, Western integration and a broad CDU; but his 'chancellor democracy' and the Spiegel Affair showed authoritarian limits.",
+    "arguments": [
+     {
+      "claim": "Strong government.",
+      "evidence": [
+       "F-DED-04",
+       "F-DED-03"
+      ]
+     },
+     {
+      "claim": "Western integration and sovereignty.",
+      "evidence": [
+       "F-DED-01",
+       "F-DED-02"
+      ]
+     },
+     {
+      "claim": "The CDU as a people's party.",
+      "evidence": [
+       "F-DED-05",
+       "F-DED-06"
+      ]
+     },
+     {
+      "claim": "Limits: the past and the Spiegel Affair.",
+      "evidence": [
+       "F-DED-10",
+       "F-DED-15"
+      ]
+     }
+    ],
+    "counter": "Adenauer avoided criticising the German past to win expellee votes.",
+    "judgementCriterion": "Which contribution mattered most? Stability through Western integration."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Adenauer's central role was to make democracy stable and Western.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He led West Germany into NATO in 1955, won four elections up to 1961, and by 1957 the CDU/CSU won more than half the vote.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that democracy became associated with security and prosperity, so nationalist and communist parties declined.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, his rule was called 'chancellor democracy', he avoided criticising the Nazi past, and his government abused power in the Spiegel Affair of 1962.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Adenauer therefore secured democracy's stability, while its liberal culture developed after him.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Adenauer"
+    ],
+    "synonyms": [
+     "chancellor",
+     "CDU"
+    ],
+    "historians": [
+     "Layton",
+     "Judt"
+    ],
+    "extraLexicon": [
+     "chancellor democracy",
+     "NATO",
+     "Spiegel"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-DE-DEVELOPMENT-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was Helmut Kohl responsible for German unification between 1989 and 1990?",
+   "commandTerm": "to what extent",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1989,
+    1990
+   ],
+   "scope": "Germany",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Kohl's responsibility",
+    "timeframe": "1989–1990",
+    "scope": "German unification",
+    "judgement": "How far did the outcome depend on him?"
+   },
+   "modelPlan": {
+    "thesis": "Kohl was responsible for the speed and form of unification, accelerating from a five-year plan to accession within a year; but the opportunity came from the GDR's collapse and international consent, especially US backing.",
+    "arguments": [
+     {
+      "claim": "Kohl's acceleration.",
+      "evidence": [
+       "F-DED-25"
+      ]
+     },
+     {
+      "claim": "The March 1990 election and monetary union.",
+      "evidence": [
+       "F-DED-25"
+      ]
+     },
+     {
+      "claim": "International consent: the 4+2 talks.",
+      "evidence": [
+       "F-DED-26"
+      ]
+     },
+     {
+      "claim": "The framework of the Basic Law.",
+      "evidence": [
+       "F-DED-25"
+      ]
+     }
+    ],
+    "counter": "Kohl was at first cautious, proposing a five-year programme on 28 November 1989.",
+    "judgementCriterion": "How far did it depend on him? The timing and form, yes; the opportunity, no."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Kohl was largely responsible for how quickly and in what form Germany united.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After presenting a five-year programme on 28 November 1989 he accelerated: the Alliance for Germany won 48 per cent in March 1990 and monetary union took effect on 1 July.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that East Germany joined the Federal Republic under Article 23, so unification came on West German terms on 3 October 1990.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, unification also required international consent, secured in the Treaty on the Final Settlement with US support.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Kohl was therefore responsible for the form and pace of unification, but not for the conditions that made it possible.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Kohl"
+    ],
+    "synonyms": [
+     "chancellor"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "unification",
+     "Article 23",
+     "4+2"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,2744 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P2-9-SA-CONDITIONS",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In 1960 the South African government banned the ANC and jailed its leaders. Thirty years later it unbanned the ANC and freed Mandela. Why did a regime that had crushed every challenge decide in 1990 to negotiate away white minority rule?",
+   "predictionPrompt": "Your prediction in one line: what forced the apartheid government to negotiate?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "Apartheid: a racial state, 1948–1960",
+    "body": "Until 1994 South Africa was ruled by a white minority. Racial discrimination long predated apartheid. The Union of South Africa, created in 1910, gave the vote to all white men but allowed only whites into parliament, though whites were only 21 per cent of the population. The 1913 Land Act confined African land ownership to reserves covering less than a tenth of the country, and in 1936 Africans in the Cape lost the vote in general elections.\n\nIn 1948 an Afrikaner nationalist government, the **National Party**, came to power determined to go further. Its system of **apartheid** classified every South African into one of four \"race groups\": white, coloured, Indian and African. Schools, universities, hospitals, residential areas, transport, sports facilities, public amenities and even cemeteries were segregated, and those for \"non-whites\" were always inferior. A battery of laws enforced the system: the Population Registration Act recorded everyone's race; the Mixed Marriages Act and the Immorality Act banned relationships across racial lines; the Group Areas Act forced thousands from their homes.\n\nAfricans suffered most. The reserves were turned into \"homelands\", one for each \"tribal\" group, as part of a strategy of divide and rule, and millions were forcibly moved there. Every African had to carry a pass that restricted movement to the cities; urban Africans lived in poorly serviced townships. **Bantu Education** gave African children a separate curriculum designed, Bottaro and Stanley write, \"to produce an uncritical, unskilled workforce\". In 1956 coloured voters in the Cape lost the vote, ending a century-old tradition. From then on only whites had democratic rights.\n\nThis mattered because apartheid denied democratic rights to the great majority of South Africans by law, which meant that the demand for democracy in South Africa was inseparable from the struggle against racial oppression.",
+    "argumentsThatWork": [
+     {
+      "claim": "Apartheid built on earlier discrimination.",
+      "evidence": [
+       "F-SAC-02",
+       "F-SAC-03"
+      ],
+      "strongestCounter": "The Cape had a non-racial franchise tradition until 1956."
+     },
+     {
+      "claim": "Apartheid classified and segregated every South African by race.",
+      "evidence": [
+       "F-SAC-04",
+       "F-SAC-06"
+      ],
+      "strongestCounter": "Its laws were enforced unevenly across regions."
+     },
+     {
+      "claim": "Homelands, passes and Bantu Education entrenched inequality.",
+      "evidence": [
+       "F-SAC-05"
+      ],
+      "strongestCounter": "The government claimed homelands offered 'separate development'."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the nature of apartheid between 1948 and 1960.",
+     "To what extent was mass protest the main reason for the collapse of apartheid between 1976 and 1990?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Apartheid was a system designed to make racial inequality permanent by law.",
+     "prove": "From 1948 the Population Registration Act classified everyone by race, the Group Areas Act forced thousands from their homes, and Bantu Education aimed to produce an unskilled workforce.",
+     "explain": "This meant that every part of life, from schooling to residence, was fixed by race, so Africans were confined to homelands and townships with inferior services.",
+     "test": "However, apartheid built on earlier discrimination, such as the 1913 Land Act, so it intensified rather than created white domination.",
+     "judge": "Apartheid was therefore the most systematic form of a racial order that had existed since the Union of 1910."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Into how many 'race groups' did apartheid classify the population?",
+      "factIds": [
+       "F-SAC-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Four: white, coloured, Indian and African",
+        "correct": true,
+        "explanation": "Correct: every aspect of life followed this classification."
+       },
+       {
+        "id": "b",
+        "text": "Two: white and black",
+        "correct": false,
+        "explanation": "Apartheid used four groups."
+       },
+       {
+        "id": "c",
+        "text": "Nine, one for each province",
+        "correct": false,
+        "explanation": "Provinces came after 1994."
+       },
+       {
+        "id": "d",
+        "text": "None: apartheid ignored race",
+        "correct": false,
+        "explanation": "Race was its basis."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did coloured voters in the Cape lose the vote? (year)",
+      "factIds": [
+       "F-SAC-05"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1956,
+        "tolerance": 0,
+        "explanation": "1956, ending the Cape's liberal tradition."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Bantu Education was designed to produce an uncritical, unskilled workforce.” Which argument does it support best?",
+      "factIds": [
+       "F-SAC-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Apartheid used education to keep Africans in subordinate economic roles",
+        "correct": true,
+        "explanation": "Correct: a deliberate policy."
+       },
+       {
+        "id": "b",
+        "text": "Apartheid provided equal education",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Bantu Education was chosen by African parents",
+        "correct": false,
+        "explanation": "It was imposed."
+       },
+       {
+        "id": "d",
+        "text": "Apartheid did not affect schools",
+        "correct": false,
+        "explanation": "Schools were segregated."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "causes",
+    "title": "From protest to armed struggle, 1955–1976",
+    "body": "Resistance was as old as segregation. The **African National Congress** (ANC), founded in 1912, spent five decades using peaceful methods, including delegations to the British government, without success. After the Second World War its demands became more assertive. In 1955 the ANC and its allies drew up the **Freedom Charter**, setting out a vision of a democratic South Africa based on equality and non-racialism. It became the blueprint for the constitution the resistance hoped one day to write.\n\nPeaceful protest failed to change government policy. In 1960 police opened fire on a crowd protesting against the pass laws at **Sharpeville**, killing sixty-nine people and injuring more than a hundred. The government banned the ANC and used increasing force against its opponents. The ANC set up its headquarters in exile and formed an armed wing, **Umkhonto we Sizwe** (MK, \"Spear of the Nation\"), to carry on underground resistance. Nelson Mandela and other MK leaders were arrested, found guilty of trying to overthrow the government and sentenced to life imprisonment.\n\nBy the mid-1960s the government seemed firmly in control. But a new generation emerged. Inspired by **Steve Biko's** Black Consciousness Movement, which promoted pride in black identity, students in Soweto protested in 1976 against inferior Bantu Education. In the **Soweto uprising** an estimated 1,000 people died. Thousands of young people left the country to train as MK guerrillas. Biko himself was murdered in police custody in 1977. The historian André Odendaal argues that the uprisings \"forever changed the balance of power\", and many historians see Soweto as the turning point after which the apartheid government never fully regained control.\n\nThis mattered because the failure of peaceful protest and the brutality of the state's response turned the struggle into an armed and mass movement, which meant that by the late 1970s apartheid faced both guerrilla warfare and a generation of young people who rejected it completely.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Freedom Charter defined the democratic goal.",
+      "evidence": [
+       "F-SAC-07"
+      ],
+      "strongestCounter": "Peaceful methods failed for five decades."
+     },
+     {
+      "claim": "Sharpeville ended peaceful protest and led to armed struggle.",
+      "evidence": [
+       "F-SAC-08"
+      ],
+      "strongestCounter": "MK's leaders were soon imprisoned."
+     },
+     {
+      "claim": "Soweto changed the balance of power.",
+      "evidence": [
+       "F-SAC-09"
+      ],
+      "strongestCounter": "The state still crushed the uprising in 1976."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the significance of the Soweto uprising of 1976 in the struggle for democracy in South Africa.",
+     "To what extent was mass protest the main reason for the collapse of apartheid between 1976 and 1990?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The Soweto uprising was a turning point because it showed that a new generation could no longer be governed in the old way.",
+     "prove": "In 1976 students inspired by Black Consciousness protested against Bantu Education; an estimated 1,000 people died, and thousands left to train as MK guerrillas.",
+     "explain": "This meant that the armed struggle gained new recruits and the state lost its aura of invincibility, so Odendaal argues the uprisings 'forever changed the balance of power'.",
+     "test": "However, the government crushed the uprising and banned Black Consciousness organisations, so apartheid survived for another fourteen years.",
+     "judge": "Soweto was therefore significant as the beginning of the end, rather than the end itself."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many people were killed at Sharpeville in 1960? (number)",
+      "factIds": [
+       "F-SAC-08"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 69,
+        "tolerance": 0,
+        "explanation": "Sixty-nine, with more than a hundred injured."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the Freedom Charter of 1955?",
+      "factIds": [
+       "F-SAC-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A vision of a democratic, non-racial South Africa drawn up by the ANC and its allies",
+        "correct": true,
+        "explanation": "Correct: a blueprint for a future constitution."
+       },
+       {
+        "id": "b",
+        "text": "The apartheid constitution",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "A treaty with Britain",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "d",
+        "text": "The 1996 constitution",
+        "correct": false,
+        "explanation": "That came much later."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “After the Soweto uprising thousands of young people left the country to train as guerrillas in MK camps.” Which argument does it support best?",
+      "factIds": [
+       "F-SAC-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Repression strengthened the armed struggle",
+        "correct": true,
+        "explanation": "Correct: Soweto fed MK."
+       },
+       {
+        "id": "b",
+        "text": "Soweto ended resistance",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "MK had no support among the young",
+        "correct": false,
+        "explanation": "Thousands joined."
+       },
+       {
+        "id": "d",
+        "text": "The uprising was organised by the government",
+        "correct": false,
+        "explanation": "Not what the fact says."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Reform, revolt and stalemate, 1976–1989",
+    "body": "After Soweto the state tried both repression and limited reform. It banned Black Consciousness organisations, allowed the police to detain suspects indefinitely without trial, spent huge sums on arms and conscripted every young white man for two years.\n\nThe most important reform was a new constitution in 1983. It created a **tricameral** (three-chamber) parliament, with separate houses for coloureds and Indians, while whites kept most of the power and Africans were excluded altogether. The government hoped to win coloured and Indian support. Instead the reform provoked mass protest. A non-racial **United Democratic Front** (UDF) was formed to oppose it and soon had about three million members; fewer than 20 per cent of coloured and Indian voters took part in the first tricameral elections in 1984. In 1985 the new black unions united in the Congress of South African Trade Unions (**COSATU**).\n\nThe exclusion of Africans enraged the townships, and from 1984 a sustained uprising began: rent boycotts, stayaways, consumer boycotts, school boycotts under the slogan \"liberation before education\", and street committees that took over local administration. The government declared a **state of emergency** and sent the army into the townships. Thousands were killed, but repression failed to crush the protests. For most of the 1980s, Bottaro and Stanley conclude, South Africa was in a state of virtual civil war.\n\nIn 1989 the UDF and COSATU formed the Mass Democratic Movement, which launched a nationwide defiance campaign. People ignored banning orders, opened segregated facilities and openly flew the flag of the banned ANC. Huge \"Freedom Marches\" filled the cities. The government, which had always used force against such protests, now did nothing.\n\nThis mattered because limited reform without African rights only intensified resistance, which meant that by 1989 neither repression nor reform could restore the government's control.",
+    "argumentsThatWork": [
+     {
+      "claim": "The tricameral reform backfired.",
+      "evidence": [
+       "F-SAC-11"
+      ],
+      "strongestCounter": "It did give coloureds and Indians some representation."
+     },
+     {
+      "claim": "The township uprising made South Africa ungovernable.",
+      "evidence": [
+       "F-SAC-12"
+      ],
+      "strongestCounter": "The state of emergency kept the regime in power."
+     },
+     {
+      "claim": "By 1989 the government no longer used force against mass protest.",
+      "evidence": [
+       "F-SAC-13"
+      ],
+      "strongestCounter": "It still controlled the army and police."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was mass protest the main reason for the collapse of apartheid between 1976 and 1990?",
+     "Analyse the reasons why the tricameral constitution failed to win support between 1983 and 1989."
+    ],
+    "useItInAnEssay": {
+     "claim": "The tricameral constitution failed because it excluded the African majority while trying to divide the opposition.",
+     "prove": "It gave coloureds and Indians separate houses with little power, but the UDF, with about three million members, persuaded over 80 per cent of coloured and Indian voters to boycott the 1984 election.",
+     "explain": "This meant that the reform won no legitimacy, while the exclusion of Africans provoked a township uprising from 1984.",
+     "test": "However, the reform did divide the regime's opponents for a time, and the state of emergency kept the government in power.",
+     "judge": "The constitution therefore failed because it reformed apartheid without ending it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the 1983 constitution create?",
+      "factIds": [
+       "F-SAC-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A three-chamber parliament with separate houses for whites, coloureds and Indians, excluding Africans",
+        "correct": true,
+        "explanation": "Correct: the 'tricameral' parliament."
+       },
+       {
+        "id": "b",
+        "text": "Universal suffrage",
+        "correct": false,
+        "explanation": "That came in 1994."
+       },
+       {
+        "id": "c",
+        "text": "Independent homelands",
+        "correct": false,
+        "explanation": "Not what it created."
+       },
+       {
+        "id": "d",
+        "text": "A Government of National Unity",
+        "correct": false,
+        "explanation": "That came in 1994."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C08",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many million members did the United Democratic Front have? (number)",
+      "factIds": [
+       "F-SAC-11"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 3,
+        "tolerance": 0,
+        "explanation": "About three million."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In 1989 the government, which had previously used force against such protests, took no action against the Freedom Marches.” Which argument does it support best?",
+      "factIds": [
+       "F-SAC-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "By 1989 the government was preparing to change course",
+        "correct": true,
+        "explanation": "Correct: the stage was set for change."
+       },
+       {
+        "id": "b",
+        "text": "The government had defeated the protests",
+        "correct": false,
+        "explanation": "The protests grew."
+       },
+       {
+        "id": "c",
+        "text": "The marches were banned and stopped",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "d",
+        "text": "The UDF supported apartheid",
+        "correct": false,
+        "explanation": "The opposite."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "causes",
+    "title": "Why did change come in 1990?",
+    "body": "On **2 February 1990** President **F.W. de Klerk** told parliament that the ANC and other banned parties would be legalised, political prisoners released, the death penalty suspended and a democratic constitution negotiated. Shortly afterwards Nelson Mandela walked free. Why did change come then? Historians agree that several factors combined, but disagree about which mattered most.\n\n**The armed struggle and isolation.** MK attacked high-profile targets such as the Sasolburg oil refinery and the Koeberg nuclear power station, supported by the \"frontline states\". South Africa had left the Commonwealth in 1961, was expelled from the Olympic Movement and suspended from the UN General Assembly, and faced sporting, cultural and academic boycotts. In 1988 South African forces were defeated by Cuban troops at Cuito Cuanavale in Angola, and the government accepted Namibian independence in 1990.\n\n**The economy and sanctions.** In 1985 overseas banks cancelled loans and the rand collapsed. The US Comprehensive Anti-Apartheid Act of 1986 banned new investment, and about two-thirds of US companies with South African investments withdrew.\n\n**The end of the Cold War.** Thatcher and Reagan had resisted sanctions, seeing the government as an anti-Communist ally; that justification now vanished, while the ANC lost Soviet backing. Nigel Worden sees the fall of the Berlin Wall as critical to the timing of De Klerk's announcement. Hermann Giliomee calls the loss of Soviet funding the \"decisive factor in the ANC's abandonment of the revolutionary struggle\". Francis Wilson disagrees: the end of the Cold War \"facilitated the process of change ... but ... did not cause it\".\n\n**Mass protest and stalemate.** Chris Saunders believes the mass uprising of the 1980s was the most important factor. Leonard Thompson argues that by 1989 both sides accepted that neither could win militarily. De Klerk, who replaced P.W. Botha in 1989, was more open to reform, and the National Party believed it could control the negotiations. Contacts had already begun: Mandela had held secret talks with the government since 1985, while refusing any release with conditions attached (\"Only free men can negotiate\").\n\nThis mattered because no single factor forced the change, which meant that historians' judgements depend on whether they stress pressure from inside South Africa or the changing world outside it.",
+    "argumentsThatWork": [
+     {
+      "claim": "Internal mass protest made the country ungovernable.",
+      "evidence": [
+       "F-SAC-12",
+       "F-SAC-19"
+      ],
+      "strongestCounter": "Protest had been crushed before, in 1960 and 1976."
+     },
+     {
+      "claim": "The economy and sanctions raised the cost of apartheid.",
+      "evidence": [
+       "F-SAC-18"
+      ],
+      "strongestCounter": "Thatcher and Reagan resisted sanctions for years."
+     },
+     {
+      "claim": "The end of the Cold War decided the timing.",
+      "evidence": [
+       "F-SAC-17"
+      ],
+      "strongestCounter": "Wilson argues it facilitated but did not cause change."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was mass protest the main reason for the collapse of apartheid between 1976 and 1990?",
+     "Examine the reasons for, and the results of, F.W. de Klerk's announcement of 2 February 1990."
+    ],
+    "useItInAnEssay": {
+     "claim": "Change came in 1990 because internal pressure and a changed world removed the government's options at the same moment.",
+     "prove": "The township uprising had made the country ungovernable, the 1985 debt crisis and 1986 US sanctions had weakened the economy, and the fall of the Berlin Wall ended the Cold War justification for apartheid.",
+     "explain": "This meant that repression no longer worked and Western support had gone, so De Klerk, who replaced Botha in 1989, chose to negotiate on 2 February 1990.",
+     "test": "However, historians differ: Saunders stresses mass protest, Worden the fall of the Berlin Wall, and Wilson argues the end of the Cold War facilitated but did not cause change.",
+     "judge": "The timing was therefore set by the end of the Cold War, while the pressure for change came from inside South Africa."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did De Klerk announce on 2 February 1990?",
+      "factIds": [
+       "F-SAC-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The unbanning of the ANC, the release of political prisoners and negotiations for a democratic constitution",
+        "correct": true,
+        "explanation": "Correct: a dramatic turning point."
+       },
+       {
+        "id": "b",
+        "text": "A new state of emergency",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The tricameral constitution",
+        "correct": false,
+        "explanation": "That was in 1983."
+       },
+       {
+        "id": "d",
+        "text": "His resignation",
+        "correct": false,
+        "explanation": "He remained president."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Bottaro and Stanley, which historian sees the fall of the Berlin Wall as critical to the timing of De Klerk's reforms?",
+      "factIds": [
+       "F-SAC-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Nigel Worden",
+        "correct": true,
+        "explanation": "Correct: Giliomee and Wilson weigh the Cold War differently."
+       },
+       {
+        "id": "b",
+        "text": "Chris Saunders",
+        "correct": false,
+        "explanation": "Saunders stresses the mass uprising."
+       },
+       {
+        "id": "c",
+        "text": "Leonard Thompson",
+        "correct": false,
+        "explanation": "Thompson stresses military stalemate."
+       },
+       {
+        "id": "d",
+        "text": "André Odendaal",
+        "correct": false,
+        "explanation": "Odendaal writes about Soweto."
+       }
+      ]
+     },
+     {
+      "itemId": "P2-9-SA-CONDITIONS-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “About two-thirds of US companies with investments in South Africa withdrew.” Which argument does it support best?",
+      "factIds": [
+       "F-SAC-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Economic pressure raised the cost of maintaining apartheid",
+        "correct": true,
+        "explanation": "Correct: sanctions and disinvestment."
+       },
+       {
+        "id": "b",
+        "text": "US companies supported apartheid",
+        "correct": false,
+        "explanation": "They withdrew."
+       },
+       {
+        "id": "c",
+        "text": "Sanctions had no effect",
+        "correct": false,
+        "explanation": "The fact shows effect."
+       },
+       {
+        "id": "d",
+        "text": "South Africa's economy grew in the late 1980s",
+        "correct": false,
+        "explanation": "It was in decline."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1948,
+      "text": "National Party introduces apartheid",
+      "factId": "F-SAC-04"
+     },
+     {
+      "year": 1955,
+      "text": "Freedom Charter",
+      "factId": "F-SAC-07"
+     },
+     {
+      "year": 1956,
+      "text": "Coloured voters in the Cape lose the vote",
+      "factId": "F-SAC-05"
+     },
+     {
+      "year": 1960,
+      "text": "Sharpeville; ANC banned",
+      "factId": "F-SAC-08"
+     },
+     {
+      "year": 1976,
+      "text": "Soweto uprising",
+      "factId": "F-SAC-09"
+     },
+     {
+      "year": 1983,
+      "text": "Tricameral constitution; UDF formed",
+      "factId": "F-SAC-11"
+     },
+     {
+      "year": 1984,
+      "text": "Township uprising begins",
+      "factId": "F-SAC-12"
+     },
+     {
+      "year": 1985,
+      "text": "Debt crisis; COSATU formed",
+      "factId": "F-SAC-18"
+     },
+     {
+      "year": 1986,
+      "text": "US Comprehensive Anti-Apartheid Act",
+      "factId": "F-SAC-18"
+     },
+     {
+      "year": 1988,
+      "text": "Cuito Cuanavale",
+      "factId": "F-SAC-16"
+     },
+     {
+      "year": 1989,
+      "text": "De Klerk president; Mass Democratic Movement",
+      "factId": "F-SAC-19"
+     },
+     {
+      "year": 1990,
+      "month": 2,
+      "day": 2,
+      "text": "De Klerk unbans the ANC",
+      "factId": "F-SAC-14"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Apartheid denies democratic rights to the majority",
+      "factId": "F-SAC-05"
+     },
+     {
+      "id": "n2",
+      "text": "Peaceful protest fails; Sharpeville; armed struggle",
+      "factId": "F-SAC-08"
+     },
+     {
+      "id": "n3",
+      "text": "Soweto shifts the balance of power",
+      "factId": "F-SAC-09"
+     },
+     {
+      "id": "n4",
+      "text": "Tricameral reform provokes a township uprising",
+      "factId": "F-SAC-12"
+     },
+     {
+      "id": "n5",
+      "text": "Sanctions, debt and the end of the Cold War",
+      "factId": "F-SAC-17"
+     },
+     {
+      "id": "n6",
+      "text": "De Klerk announces negotiations (February 1990)",
+      "factId": "F-SAC-14"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "The majority had no legal way to win rights"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "A new generation rejected the system"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Limited reform without African rights intensified revolt"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Internal pressure combined with international isolation"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Neither side could win; the Cold War excuse had gone"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Nelson Mandela",
+     "role": "ANC leader, imprisoned 1962–1990",
+     "whyItMatters": "Refused conditional release; held secret talks from 1985.",
+     "factIds": [
+      "F-SAC-08",
+      "F-SAC-20"
+     ]
+    },
+    {
+     "name": "Steve Biko",
+     "role": "Black Consciousness leader",
+     "whyItMatters": "Inspired the Soweto students; murdered in custody in 1977.",
+     "factIds": [
+      "F-SAC-09"
+     ]
+    },
+    {
+     "name": "P.W. Botha",
+     "role": "President to 1989",
+     "whyItMatters": "Combined repression with the tricameral reform.",
+     "factIds": [
+      "F-SAC-19"
+     ]
+    },
+    {
+     "name": "F.W. de Klerk",
+     "role": "President from 1989",
+     "whyItMatters": "Announced the unbanning of the ANC on 2 February 1990.",
+     "factIds": [
+      "F-SAC-14",
+      "F-SAC-19"
+     ]
+    },
+    {
+     "name": "United Democratic Front",
+     "role": "Non-racial opposition from 1983",
+     "whyItMatters": "About three million members; led the 1980s protests.",
+     "factIds": [
+      "F-SAC-11",
+      "F-SAC-13"
+     ]
+    },
+    {
+     "name": "COSATU",
+     "role": "Trade union federation from 1985",
+     "whyItMatters": "Organised workers in the resistance.",
+     "factIds": [
+      "F-SAC-11",
+      "F-SAC-13"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Internal factors",
+     "External factors"
+    ],
+    "rows": [
+     {
+      "criterion": "Pressure",
+      "cells": [
+       "Township uprising and the Mass Democratic Movement",
+       "Sanctions, boycotts and diplomatic isolation"
+      ],
+      "factIds": [
+       "F-SAC-12",
+       "F-SAC-15"
+      ]
+     },
+     {
+      "criterion": "Military",
+      "cells": [
+       "MK attacks on high-profile targets",
+       "Defeat at Cuito Cuanavale (1988)"
+      ],
+      "factIds": [
+       "F-SAC-15",
+       "F-SAC-16"
+      ]
+     },
+     {
+      "criterion": "Economic",
+      "cells": [
+       "The cost of defending apartheid",
+       "1985 debt crisis; US companies withdraw"
+      ],
+      "factIds": [
+       "F-SAC-18"
+      ]
+     },
+     {
+      "criterion": "Historian who stresses it",
+      "cells": [
+       "Saunders (mass uprising); Thompson (stalemate)",
+       "Worden (Berlin Wall); Giliomee (Soviet funding)"
+      ],
+      "factIds": [
+       "F-SAC-19",
+       "F-SAC-17"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-SAC-04",
+    "year": 1948,
+    "text": "1948: apartheid classified everyone into four race groups and segregated all public life.",
+    "supports": [
+     "Apartheid denied democracy to the majority"
+    ],
+    "alsoWorksFor": [
+     "P3-17-B4-SPAIN"
+    ],
+    "lexicon": [
+     "apartheid",
+     "Population Registration Act"
+    ]
+   },
+   {
+    "factId": "F-SAC-07",
+    "year": 1955,
+    "text": "The Freedom Charter (1955): a democratic, non-racial South Africa.",
+    "supports": [
+     "The resistance had a democratic vision"
+    ],
+    "lexicon": [
+     "Freedom Charter",
+     "ANC"
+    ]
+   },
+   {
+    "factId": "F-SAC-08",
+    "year": 1960,
+    "text": "Sharpeville (1960): sixty-nine killed; ANC banned; MK formed.",
+    "supports": [
+     "Peaceful protest gave way to armed struggle"
+    ],
+    "lexicon": [
+     "Sharpeville",
+     "MK"
+    ]
+   },
+   {
+    "factId": "F-SAC-09",
+    "year": 1976,
+    "text": "Soweto (1976): about 1,000 died; Odendaal: 'forever changed the balance of power'.",
+    "supports": [
+     "Soweto was a turning point"
+    ],
+    "lexicon": [
+     "Soweto",
+     "Black Consciousness"
+    ]
+   },
+   {
+    "factId": "F-SAC-11",
+    "year": 1983,
+    "text": "Tricameral constitution (1983); UDF with about three million members.",
+    "supports": [
+     "Limited reform intensified resistance"
+    ],
+    "lexicon": [
+     "tricameral",
+     "UDF"
+    ]
+   },
+   {
+    "factId": "F-SAC-17",
+    "year": 1989,
+    "text": "End of the Cold War: Worden, Giliomee and Wilson disagree on its weight.",
+    "supports": [
+     "International change set the timing"
+    ],
+    "alsoWorksFor": [
+     "P2-12-END"
+    ],
+    "lexicon": [
+     "Cold War",
+     "Berlin Wall"
+    ]
+   },
+   {
+    "factId": "F-SAC-18",
+    "year": 1986,
+    "text": "1985 debt crisis; 1986 US Comprehensive Anti-Apartheid Act; two-thirds of US firms withdrew.",
+    "supports": [
+     "Economic pressure raised the cost of apartheid"
+    ],
+    "lexicon": [
+     "sanctions",
+     "disinvestment"
+    ]
+   },
+   {
+    "factId": "F-SAC-14",
+    "year": 1990,
+    "text": "2 February 1990: De Klerk unbanned the ANC and offered negotiations.",
+    "supports": [
+     "The regime chose to negotiate"
+    ],
+    "alsoWorksFor": [
+     "P2-9-SA-TRANSITION"
+    ],
+    "lexicon": [
+     "De Klerk",
+     "unbanning"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Chris Saunders",
+    "argument": "The mass uprising of the 1980s was the most significant factor in putting pressure on the government to negotiate (as summarised by Bottaro and Stanley).",
+    "useItLikeThis": "Saunders's view supports the claim that change was won from below, which suggests internal resistance mattered more than international events.",
+    "factId": "F-SAC-19"
+   },
+   {
+    "historian": "Francis Wilson",
+    "argument": "The end of the Cold War 'facilitated the process of change in South Africa, but ... did not cause it' (as quoted by Bottaro and Stanley), against Giliomee's view that the loss of Soviet funding was decisive for the ANC.",
+    "useItLikeThis": "Wilson's view supports the claim that the end of the Cold War explains the timing but not the cause, which suggests internal factors were fundamental.",
+    "factId": "F-SAC-17"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Racial discrimination in South Africa began in 1948.",
+    "right": "It long predated apartheid: the **1913 Land Act** and the whites-only parliament of 1910."
+   },
+   {
+    "wrong": "The ANC always used armed struggle.",
+    "right": "It used **peaceful methods** for five decades, until it was banned after Sharpeville in 1960."
+   },
+   {
+    "wrong": "The 1983 constitution gave Africans the vote.",
+    "right": "The tricameral parliament **excluded Africans** entirely."
+   },
+   {
+    "wrong": "De Klerk's reforms came out of nowhere.",
+    "right": "Mandela had held **secret talks** with the government since 1985."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1948,
+     "text": "Apartheid"
+    },
+    {
+     "year": 1955,
+     "text": "Freedom Charter"
+    },
+    {
+     "year": 1960,
+     "text": "Sharpeville"
+    },
+    {
+     "year": 1976,
+     "text": "Soweto"
+    },
+    {
+     "year": 1983,
+     "text": "Tricameral; UDF"
+    },
+    {
+     "year": 1986,
+     "text": "US sanctions"
+    },
+    {
+     "year": 1988,
+     "text": "Cuito Cuanavale"
+    },
+    {
+     "year": 1990,
+     "month": 2,
+     "day": 2,
+     "text": "ANC unbanned"
+    }
+   ],
+   "keyArguments": [
+    "Apartheid systematised older discrimination and denied the majority democratic rights.",
+    "Peaceful protest failed; Sharpeville led to armed struggle; Soweto shifted the balance.",
+    "Tricameral reform without African rights provoked a township uprising.",
+    "Sanctions, debt, isolation and the end of the Cold War raised the cost of apartheid.",
+    "Historians differ: Saunders (mass protest), Worden (Berlin Wall), Wilson (Cold War facilitated, did not cause)."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Apartheid introduced",
+     "year": 1948,
+     "factId": "F-SAC-04"
+    },
+    {
+     "id": "b",
+     "text": "Freedom Charter",
+     "year": 1955,
+     "factId": "F-SAC-07"
+    },
+    {
+     "id": "c",
+     "text": "Coloured voters lose the vote",
+     "year": 1956,
+     "factId": "F-SAC-05"
+    },
+    {
+     "id": "d",
+     "text": "Sharpeville",
+     "year": 1960,
+     "factId": "F-SAC-08"
+    },
+    {
+     "id": "e",
+     "text": "Soweto uprising",
+     "year": 1976,
+     "factId": "F-SAC-09"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Biko murdered in custody",
+     "year": 1977,
+     "factId": "F-SAC-09"
+    },
+    {
+     "id": "b",
+     "text": "Tricameral constitution",
+     "year": 1983,
+     "factId": "F-SAC-11"
+    },
+    {
+     "id": "c",
+     "text": "Township uprising begins",
+     "year": 1984,
+     "factId": "F-SAC-12"
+    },
+    {
+     "id": "d",
+     "text": "COSATU formed",
+     "year": 1985,
+     "factId": "F-SAC-11"
+    },
+    {
+     "id": "e",
+     "text": "US Comprehensive Anti-Apartheid Act",
+     "year": 1986,
+     "factId": "F-SAC-18"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Mandela moved to a mainland prison",
+     "year": 1982,
+     "factId": "F-SAC-20"
+    },
+    {
+     "id": "b",
+     "text": "Cuito Cuanavale",
+     "year": 1988,
+     "factId": "F-SAC-16"
+    },
+    {
+     "id": "c",
+     "text": "Mass Democratic Movement's defiance campaign",
+     "year": 1989,
+     "factId": "F-SAC-13"
+    },
+    {
+     "id": "d",
+     "text": "De Klerk unbans the ANC",
+     "year": 1990,
+     "month": 2,
+     "factId": "F-SAC-14"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each apartheid law to what it did.",
+   "pairs": [
+    {
+     "left": "Population Registration Act",
+     "right": "Classified everyone by race",
+     "explanation": "With an identity card."
+    },
+    {
+     "left": "Group Areas Act",
+     "right": "Set aside separate residential areas for each race",
+     "explanation": "Forced removals."
+    },
+    {
+     "left": "Bantu Education Act",
+     "right": "Gave African schools a separate, inferior curriculum",
+     "explanation": "Less money per pupil."
+    },
+    {
+     "left": "Separate Amenities Act",
+     "right": "Separated facilities for 'whites' and 'non-whites'",
+     "explanation": "Public amenities."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year was the ANC founded? (year)",
+   "factIds": [
+    "F-SAC-07"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1912,
+     "tolerance": 0,
+     "explanation": "1912."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how many people died in the Soweto uprising, according to Bottaro and Stanley? (number)",
+   "factIds": [
+    "F-SAC-09"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1000,
+     "tolerance": 50,
+     "explanation": "An estimated 1,000."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of the population were white in 1910, according to Bottaro and Stanley? (number)",
+   "factIds": [
+    "F-SAC-02"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 21,
+     "tolerance": 0,
+     "explanation": "21 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Under the 1913 Land Act, African land ownership was limited to reserves covering less than what percentage of the land? (number)",
+   "factIds": [
+    "F-SAC-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 10,
+     "tolerance": 0,
+     "explanation": "Less than 10 per cent (13 per cent by the 1950s)."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these helped force change by 1990? Choose all that apply.",
+   "factIds": [
+    "F-SAC-12",
+    "F-SAC-17",
+    "F-SAC-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The township uprising",
+     "correct": true,
+     "explanation": "Yes: the country was ungovernable."
+    },
+    {
+     "id": "b",
+     "text": "Sanctions and the 1985 debt crisis",
+     "correct": true,
+     "explanation": "Yes: the economy declined."
+    },
+    {
+     "id": "c",
+     "text": "The end of the Cold War",
+     "correct": true,
+     "explanation": "Yes: Western support vanished."
+    },
+    {
+     "id": "d",
+     "text": "Thatcher's enthusiasm for sanctions",
+     "correct": false,
+     "explanation": "No: she resisted sanctions."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of apartheid? Choose all that apply.",
+   "factIds": [
+    "F-SAC-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Homelands for each 'tribal' group",
+     "correct": true,
+     "explanation": "Yes: divide and rule."
+    },
+    {
+     "id": "b",
+     "text": "Pass laws restricting Africans' movement",
+     "correct": true,
+     "explanation": "Yes: failure to carry a pass meant prison."
+    },
+    {
+     "id": "c",
+     "text": "Bantu Education",
+     "correct": true,
+     "explanation": "Yes: an inferior curriculum."
+    },
+    {
+     "id": "d",
+     "text": "Votes for all adults",
+     "correct": false,
+     "explanation": "No: only whites voted from 1956."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Fewer than 20 per cent of coloured and Indian voters took part in the first tricameral elections in 1984.” Which argument does it support?",
+   "factIds": [
+    "F-SAC-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The tricameral reform failed to win legitimacy",
+     "correct": true,
+     "explanation": "Correct: the UDF boycott succeeded."
+    },
+    {
+     "id": "b",
+     "text": "Coloured and Indian voters supported the reform",
+     "correct": false,
+     "explanation": "Most boycotted it."
+    },
+    {
+     "id": "c",
+     "text": "Africans voted in 1984",
+     "correct": false,
+     "explanation": "They were excluded."
+    },
+    {
+     "id": "d",
+     "text": "The UDF supported the reform",
+     "correct": false,
+     "explanation": "It opposed it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Mandela rejected any release with conditions: 'Only free men can negotiate'.” Which argument does it support?",
+   "factIds": [
+    "F-SAC-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The ANC would negotiate only once it was legal and its leaders free",
+     "correct": true,
+     "explanation": "Correct: 1985."
+    },
+    {
+     "id": "b",
+     "text": "Mandela refused all negotiation",
+     "correct": false,
+     "explanation": "He held secret talks."
+    },
+    {
+     "id": "c",
+     "text": "Mandela accepted conditions in 1985",
+     "correct": false,
+     "explanation": "He rejected them."
+    },
+    {
+     "id": "d",
+     "text": "The government never offered release",
+     "correct": false,
+     "explanation": "It offered a conditional release."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The tricameral parliament of 1983 gave Africans their own house of parliament.”",
+   "factIds": [
+    "F-SAC-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Africans were totally excluded; the houses were for whites, coloureds and Indians",
+     "correct": true,
+     "explanation": "Correct: which enraged the townships."
+    },
+    {
+     "id": "b",
+     "text": "The tricameral parliament was created in 1994",
+     "correct": false,
+     "explanation": "It was created in 1983."
+    },
+    {
+     "id": "c",
+     "text": "The UDF supported it",
+     "correct": false,
+     "explanation": "The UDF opposed it."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Africans were excluded."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “After Sharpeville in 1960 the ANC continued peaceful protest inside South Africa.”",
+   "factIds": [
+    "F-SAC-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The ANC was banned, went into exile and formed the armed wing MK",
+     "correct": true,
+     "explanation": "Correct: peaceful protest ended."
+    },
+    {
+     "id": "b",
+     "text": "Sharpeville was in 1976",
+     "correct": false,
+     "explanation": "It was in 1960."
+    },
+    {
+     "id": "c",
+     "text": "No one was killed at Sharpeville",
+     "correct": false,
+     "explanation": "Sixty-nine were killed."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the ANC turned to armed struggle."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the conditions for democratic demand in South Africa between 1948 and 1990. Is the 1994 election inside or outside the timeframe?",
+   "factIds": [
+    "F-SAC-14"
+   ],
+   "timeframe": [
+    1948,
+    1990
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as an outcome",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1990."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1994 is after 1990."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it ended apartheid",
+     "correct": false,
+     "explanation": "The outcome is outside the dates."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the Mass Democratic Movement of 1989?",
+   "factIds": [
+    "F-SAC-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A union of the UDF and COSATU that led a nationwide defiance campaign",
+     "correct": true,
+     "explanation": "Correct: with Freedom Marches."
+    },
+    {
+     "id": "b",
+     "text": "The apartheid security police",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "A homeland government",
+     "correct": false,
+     "explanation": "Not what it was."
+    },
+    {
+     "id": "d",
+     "text": "The National Party's youth wing",
+     "correct": false,
+     "explanation": "Not what it was."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened at Cuito Cuanavale in 1988?",
+   "factIds": [
+    "F-SAC-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "South African forces were defeated by Cuban forces in Angola",
+     "correct": true,
+     "explanation": "Correct: Namibian independence followed."
+    },
+    {
+     "id": "b",
+     "text": "The ANC was unbanned",
+     "correct": false,
+     "explanation": "That was in 1990."
+    },
+    {
+     "id": "c",
+     "text": "Soweto students rose up",
+     "correct": false,
+     "explanation": "That was in 1976."
+    },
+    {
+     "id": "d",
+     "text": "Mandela was released",
+     "correct": false,
+     "explanation": "That was in 1990."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Giliomee call the loss of Soviet funding, according to Bottaro and Stanley?",
+   "factIds": [
+    "F-SAC-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The 'decisive factor in the ANC's abandonment of the revolutionary struggle'",
+     "correct": true,
+     "explanation": "Correct: a contested view."
+    },
+    {
+     "id": "b",
+     "text": "Irrelevant to South Africa",
+     "correct": false,
+     "explanation": "Not his view."
+    },
+    {
+     "id": "c",
+     "text": "The cause of apartheid",
+     "correct": false,
+     "explanation": "Not his view."
+    },
+    {
+     "id": "d",
+     "text": "A reason to continue armed struggle",
+     "correct": false,
+     "explanation": "The opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the state do after the Soweto uprising?",
+   "factIds": [
+    "F-SAC-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Banned Black Consciousness groups, allowed detention without trial and conscripted young white men",
+     "correct": true,
+     "explanation": "Correct: a complete clampdown."
+    },
+    {
+     "id": "b",
+     "text": "Abolished apartheid",
+     "correct": false,
+     "explanation": "Not until 1990–94."
+    },
+    {
+     "id": "c",
+     "text": "Released Mandela",
+     "correct": false,
+     "explanation": "Not until 1990."
+    },
+    {
+     "id": "d",
+     "text": "Held free elections",
+     "correct": false,
+     "explanation": "Not until 1994."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was Umkhonto we Sizwe (MK)?",
+   "factIds": [
+    "F-SAC-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The ANC's armed wing, formed after the ANC was banned in 1960",
+     "correct": true,
+     "explanation": "Correct: 'Spear of the Nation'."
+    },
+    {
+     "id": "b",
+     "text": "The apartheid army",
+     "correct": false,
+     "explanation": "MK fought against the government."
+    },
+    {
+     "id": "c",
+     "text": "A homeland government",
+     "correct": false,
+     "explanation": "Not what it was."
+    },
+    {
+     "id": "d",
+     "text": "A trade union federation",
+     "correct": false,
+     "explanation": "That was COSATU, formed in 1985."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was mass protest the main reason for the collapse of apartheid between 1976 and 1990?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "mass protest",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for the collapse of apartheid",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1976 and 1990",
+     "answer": "timeframe",
+     "explanation": "From Soweto to De Klerk's speech."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Whether internal protest outweighed sanctions, the economy and the end of the Cold War."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the significance of the Soweto uprising of 1976 in the struggle for democracy in South Africa.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Evaluate",
+     "answer": "verb",
+     "explanation": "Weigh strengths and limits, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "the Soweto uprising of 1976",
+     "answer": "factor",
+     "explanation": "The event to evaluate."
+    },
+    {
+     "id": "s3",
+     "text": "significance … in the struggle for democracy",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "1976",
+     "answer": "timeframe",
+     "explanation": "And its effects."
+    },
+    {
+     "id": "s5",
+     "text": "significance",
+     "answer": "judgement",
+     "explanation": "Turning point, or one stage among many?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was mass protest the main reason for the collapse of apartheid between 1976 and 1990?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Mass protest made South Africa ungovernable and was the main source of pressure, as Saunders argues; but sanctions, debt and the end of the Cold War explain why the government chose to negotiate in 1990.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor and timing."
+    },
+    {
+     "id": "b",
+     "text": "There was mass protest in the 1980s.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Mass protest was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Mass protest was the only cause.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the significance of the Soweto uprising of 1976.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Soweto was significant as the start of a shift in the balance of power, as Odendaal argues, because it fed the armed struggle and broke the myth of white invincibility; but the regime survived it for fourteen years.",
+     "correct": true,
+     "explanation": "Correct: significance with a limit."
+    },
+    {
+     "id": "b",
+     "text": "Soweto happened in 1976.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Soweto was sad.",
+     "correct": false,
+     "explanation": "Not a historical judgement."
+    },
+    {
+     "id": "d",
+     "text": "Soweto ended apartheid.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1983 a tricameral constitution was introduced.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because it excluded Africans while claiming reform, the constitution provoked a township uprising.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 2 February 1990 De Klerk unbanned the ANC.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the government accepted it could no longer rule by force, so negotiations became possible.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Sixty-nine killed at Sharpeville",
+     "right": "Peaceful protest was met with violence",
+     "explanation": "1960."
+    },
+    {
+     "left": "UDF with about three million members",
+     "right": "Opposition became a mass movement",
+     "explanation": "1983 onwards."
+    },
+    {
+     "left": "Two-thirds of US companies withdrew",
+     "right": "Economic pressure raised the cost of apartheid",
+     "explanation": "After 1986."
+    },
+    {
+     "left": "Cuito Cuanavale, 1988",
+     "right": "Military options were closing",
+     "explanation": "Namibian independence followed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The end of the Cold War caused the end of apartheid.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the end of the Cold War removed the anti-Communist case for Western support and cost the ANC its Soviet backing, it made negotiation easier for both sides in 1990; but, as Wilson argues, it facilitated rather than caused change, which came from internal pressure.",
+     "correct": true,
+     "explanation": "Correct: mechanism, historian and qualification."
+    },
+    {
+     "id": "b",
+     "text": "The end of the Cold War caused everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    },
+    {
+     "id": "c",
+     "text": "The Cold War ended in 1989.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The end of the Cold War was very important.",
+     "correct": false,
+     "explanation": "Still vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “International sanctions alone forced the end of apartheid.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Thatcher and Reagan resisted sanctions for years, yet pressure kept growing through the township uprising and MK; Saunders argues the mass uprising was the most important factor, and Thompson that both sides recognised a military stalemate.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Sanctions are bad.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "South Africa is large.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Some companies stayed.",
+     "correct": false,
+     "explanation": "Too narrow."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was mass protest the main reason for the collapse of apartheid between 1976 and 1990?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what made apartheid unworkable, mass protest was the main reason; judged by what decided the moment of change, the end of the Cold War and economic decline mattered more.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there were many protests and apartheid ended.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, apartheid was wrong.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, protest always works.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-9-SA-CONDITIONS-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, F.W. de Klerk's announcement of 2 February 1990.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The township uprising and defiance campaign",
+     "answer": "causes",
+     "explanation": "The country was ungovernable."
+    },
+    {
+     "id": "s2",
+     "text": "The fall of the Berlin Wall",
+     "answer": "causes",
+     "explanation": "Worden's view."
+    },
+    {
+     "id": "s3",
+     "text": "Economic decline and sanctions",
+     "answer": "causes",
+     "explanation": "From 1985."
+    },
+    {
+     "id": "s4",
+     "text": "The release of Mandela",
+     "answer": "effects",
+     "explanation": "Shortly afterwards."
+    },
+    {
+     "id": "s5",
+     "text": "The start of negotiations with the ANC",
+     "answer": "effects",
+     "explanation": "Talks began in 1990."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P2-9-SA-CONDITIONS-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was mass protest the main reason for the collapse of apartheid between 1976 and 1990?",
+   "commandTerm": "to what extent",
+   "namedFactor": "mass protest",
+   "features": [
+    "named_factor"
+   ],
+   "timeframe": [
+    1976,
+    1990
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Mass protest, weighed first",
+    "timeframe": "1976–1990",
+    "scope": "The collapse of apartheid",
+    "judgement": "Whether internal protest outweighed sanctions, the economy and the end of the Cold War"
+   },
+   "modelPlan": {
+    "thesis": "Mass protest made South Africa ungovernable and was the main source of pressure, as Saunders argues; but sanctions, debt and the end of the Cold War explain why the government chose to negotiate in 1990.",
+    "arguments": [
+     {
+      "claim": "Mass protest: Soweto, the UDF and the township uprising (named factor first).",
+      "evidence": [
+       "F-SAC-09",
+       "F-SAC-11",
+       "F-SAC-12"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "The armed struggle and isolation.",
+      "evidence": [
+       "F-SAC-15",
+       "F-SAC-16"
+      ]
+     },
+     {
+      "claim": "The economy and sanctions.",
+      "evidence": [
+       "F-SAC-18"
+      ]
+     },
+     {
+      "claim": "The end of the Cold War and De Klerk.",
+      "evidence": [
+       "F-SAC-17",
+       "F-SAC-19"
+      ]
+     }
+    ],
+    "counter": "Protest had been crushed before, in 1960 and 1976, so protest alone could not explain the change in 1990.",
+    "judgementCriterion": "What made apartheid unworkable? Mass protest; what decided the timing? The end of the Cold War."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Mass protest was the main reason for the collapse of apartheid because it made the country ungovernable.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "From 1984 the township uprising, organised by the UDF with about three million members, defeated even a state of emergency, and by 1989 the government no longer used force against the Freedom Marches.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that repression no longer worked, so, as Saunders argues, the government was pushed towards negotiation.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the timing owed much to outside forces: the 1985 debt crisis, US sanctions in 1986 and the fall of the Berlin Wall, which Worden sees as critical.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Mass protest was therefore the main reason, while external change decided when the government gave way.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "mass protest",
+     "protest"
+    ],
+    "synonyms": [
+     "UDF",
+     "township uprising",
+     "defiance"
+    ],
+    "historians": [
+     "Saunders",
+     "Worden",
+     "Wilson",
+     "Giliomee",
+     "Thompson"
+    ],
+    "extraLexicon": [
+     "sanctions",
+     "Cold War",
+     "De Klerk"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-CONDITIONS-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The end of the Cold War was the decisive reason why the apartheid government agreed to negotiate.” Discuss with reference to the period 1985 to 1990.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1985,
+    1990
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: the Cold War was decisive",
+    "timeframe": "1985–1990",
+    "scope": "The decision to negotiate",
+    "judgement": "Cause or catalyst?"
+   },
+   "modelPlan": {
+    "thesis": "The end of the Cold War was decisive for the timing of negotiations, as Worden and Giliomee argue, but it facilitated rather than caused the change, as Wilson argues: the pressure came from mass protest, the economy and military stalemate.",
+    "arguments": [
+     {
+      "claim": "For: the loss of Western and Soviet backing.",
+      "evidence": [
+       "F-SAC-17"
+      ]
+     },
+     {
+      "claim": "For: De Klerk's timing after the Berlin Wall.",
+      "evidence": [
+       "F-SAC-17",
+       "F-SAC-14"
+      ]
+     },
+     {
+      "claim": "Against: mass protest and stalemate.",
+      "evidence": [
+       "F-SAC-12",
+       "F-SAC-19"
+      ]
+     },
+     {
+      "claim": "Against: economic decline from 1985.",
+      "evidence": [
+       "F-SAC-18"
+      ]
+     }
+    ],
+    "counter": "Secret talks with Mandela began in 1985, before the Cold War ended.",
+    "judgementCriterion": "Cause or catalyst? A catalyst: it changed when, not whether."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The end of the Cold War was the catalyst, not the cause, of the decision to negotiate.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Worden sees the fall of the Berlin Wall as critical to the timing of De Klerk's speech of 2 February 1990, and Giliomee argues the loss of Soviet funding pushed the ANC to negotiate.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that both sides lost their Cold War backers, so the risks of negotiation fell for each.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Wilson argues it 'facilitated' but 'did not cause' change, and secret talks with Mandela had begun in 1985.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid for the timing, but the causes lay in South Africa itself.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Cold War"
+    ],
+    "synonyms": [
+     "Berlin Wall",
+     "Soviet"
+    ],
+    "historians": [
+     "Worden",
+     "Giliomee",
+     "Wilson"
+    ],
+    "extraLexicon": [
+     "De Klerk",
+     "negotiation",
+     "sanctions"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-CONDITIONS-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of the Soweto uprising of 1976 in the struggle for democracy in South Africa.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1976,
+    1976
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The significance of Soweto",
+    "timeframe": "1976",
+    "scope": "The struggle for democracy",
+    "judgement": "Turning point, or one stage among many?"
+   },
+   "modelPlan": {
+    "thesis": "Soweto was significant as the start of a shift in the balance of power, as Odendaal argues, because it fed the armed struggle and broke the myth of white invincibility; but the regime survived it for fourteen years.",
+    "arguments": [
+     {
+      "claim": "A new generation: Black Consciousness.",
+      "evidence": [
+       "F-SAC-09"
+      ]
+     },
+     {
+      "claim": "Recruits for MK.",
+      "evidence": [
+       "F-SAC-09"
+      ]
+     },
+     {
+      "claim": "Limits: the clampdown that followed.",
+      "evidence": [
+       "F-SAC-10"
+      ]
+     },
+     {
+      "claim": "Later stages: the UDF and township uprising.",
+      "evidence": [
+       "F-SAC-11",
+       "F-SAC-12"
+      ]
+     }
+    ],
+    "counter": "The decisive pressure came only in the 1980s, with the UDF and the township uprising.",
+    "judgementCriterion": "Was Soweto a turning point? Yes for the balance of power, no for the regime's survival in the short term."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Soweto uprising was a turning point in the struggle for democracy, though not its end.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Students inspired by Black Consciousness protested against Bantu Education; an estimated 1,000 died, and thousands left to train as MK guerrillas.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the armed struggle gained new recruits and the government lost its aura of invincibility, so Odendaal argues the uprisings 'forever changed the balance of power'.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the state crushed the uprising, and apartheid survived until the township revolt of the 1980s made the country ungovernable.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Soweto was therefore significant as the beginning of the end, rather than the end itself.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Soweto"
+    ],
+    "synonyms": [
+     "uprising",
+     "1976",
+     "students"
+    ],
+    "historians": [
+     "Odendaal"
+    ],
+    "extraLexicon": [
+     "Black Consciousness",
+     "Biko",
+     "Bantu Education"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-CONDITIONS-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the nature of apartheid between 1948 and 1960.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1948,
+    1960
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "The nature of apartheid",
+    "timeframe": "1948–1960",
+    "scope": "South Africa",
+    "judgement": "How its parts fitted together"
+   },
+   "modelPlan": {
+    "thesis": "Apartheid was a comprehensive legal system that classified everyone by race, segregated every area of life and denied the majority political rights, building on and intensifying earlier discrimination.",
+    "arguments": [
+     {
+      "claim": "Racial classification and segregation.",
+      "evidence": [
+       "F-SAC-04",
+       "F-SAC-06"
+      ]
+     },
+     {
+      "claim": "Homelands and passes.",
+      "evidence": [
+       "F-SAC-05"
+      ]
+     },
+     {
+      "claim": "Education and work.",
+      "evidence": [
+       "F-SAC-05"
+      ]
+     },
+     {
+      "claim": "Political exclusion.",
+      "evidence": [
+       "F-SAC-05",
+       "F-SAC-03"
+      ]
+     }
+    ],
+    "counter": "Apartheid intensified rather than created discrimination, which dated back to 1910 and 1913.",
+    "judgementCriterion": "How did the parts connect? Classification made segregation possible, and segregation justified political exclusion."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Apartheid was a system that made racial inequality permanent by law.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Population Registration Act classified everyone by race, the Group Areas Act forced thousands from their homes, and Bantu Education aimed to produce an unskilled workforce.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that every area of life was fixed by race, so Africans were confined to homelands and townships and denied political rights.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, apartheid built on earlier discrimination, such as the 1913 Land Act and the whites-only parliament of 1910.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Apartheid was therefore the most systematic form of an older racial order, completed when coloured voters lost the vote in 1956.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "apartheid"
+    ],
+    "synonyms": [
+     "segregation",
+     "race"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Population Registration Act",
+     "Group Areas Act",
+     "homelands"
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-CONDITIONS-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, F.W. de Klerk's announcement of 2 February 1990.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part",
+    "leader"
+   ],
+   "timeframe": [
+    1990,
+    1990
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1990",
+    "scope": "De Klerk's announcement",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "De Klerk acted because mass protest, economic decline and the end of the Cold War had closed the government's options, and because he believed the National Party could control negotiations; the result was the unbanning of the ANC, Mandela's release and the start of talks.",
+    "arguments": [
+     {
+      "claim": "Reason: ungovernability and stalemate.",
+      "evidence": [
+       "F-SAC-12",
+       "F-SAC-19"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: the end of the Cold War.",
+      "evidence": [
+       "F-SAC-17"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: unbanning and release of prisoners.",
+      "evidence": [
+       "F-SAC-14"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: negotiations begin.",
+      "evidence": [
+       "F-SAC-14",
+       "F-SAC-20"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "De Klerk believed he could control the process, which suggests he did not expect majority rule.",
+    "judgementCriterion": "Which result mattered most? The start of negotiations, which led to the 1994 election."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "De Klerk announced reform because the government's options had run out.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The township uprising had defeated repression, the economy had declined since 1985, and the fall of the Berlin Wall had removed the Cold War case for apartheid.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that negotiation offered the National Party its best chance to protect white interests, which it believed it could control.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, De Klerk was also more open to reform than Botha, and secret talks with Mandela had begun in 1985.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore the start of negotiations that would end white minority rule.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "De Klerk"
+    ],
+    "synonyms": [
+     "announcement",
+     "unbanning"
+    ],
+    "historians": [
+     "Worden",
+     "Thompson"
+    ],
+    "extraLexicon": [
+     "Mandela",
+     "negotiations",
+     "ANC"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P2-9-SA-CONDITIONS-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons why the tricameral constitution failed to win support between 1983 and 1989.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1983,
+    1989
+   ],
+   "scope": "South Africa",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Reasons for failure",
+    "timeframe": "1983–1989",
+    "scope": "The tricameral constitution",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "The tricameral constitution failed because it excluded the African majority while trying to divide the opposition, which provoked a mass, non-racial movement and a township uprising that repression could not crush.",
+    "arguments": [
+     {
+      "claim": "The exclusion of Africans.",
+      "evidence": [
+       "F-SAC-11"
+      ]
+     },
+     {
+      "claim": "The UDF and the boycott.",
+      "evidence": [
+       "F-SAC-11"
+      ]
+     },
+     {
+      "claim": "The township uprising.",
+      "evidence": [
+       "F-SAC-12"
+      ]
+     },
+     {
+      "claim": "The defiance campaign of 1989.",
+      "evidence": [
+       "F-SAC-13"
+      ]
+     }
+    ],
+    "counter": "The constitution did give coloureds and Indians some representation, which a minority accepted.",
+    "judgementCriterion": "Which reason mattered most? The exclusion of Africans, which turned the reform into a provocation."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The tricameral constitution failed because it reformed apartheid without ending it.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "It gave coloureds and Indians separate houses with little power and excluded Africans, and fewer than 20 per cent of coloured and Indian voters took part in 1984.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the reform won no legitimacy and united opponents in the UDF, so from 1984 the townships rose in revolt.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the government kept power through the state of emergency, so the constitution failed politically but not immediately.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The exclusion of Africans was therefore the decisive reason for its failure.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "tricameral"
+    ],
+    "synonyms": [
+     "constitution",
+     "1983"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "UDF",
+     "boycott",
+     "state of emergency"
+    ]
+   }
+  }
+ ]
+}
