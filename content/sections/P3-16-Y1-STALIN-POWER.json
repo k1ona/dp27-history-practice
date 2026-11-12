@@ -1,0 +1,2717 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-16-Y1-STALIN-POWER",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "In 1924 Trotsky was the Red Army's creator and the revolution's best-known orator, while Stalin ran an unglamorous office and had been warned against by Lenin himself. By 1929 Trotsky had been deported and Stalin led the party. How did the least impressive contender win?",
+   "predictionPrompt": "Your prediction in one line: what gave Stalin victory?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "Lenin's death and Lenin's legacy, 1924",
+    "body": "Lenin died on **21 January 1924**, after three strokes. For more than a year before his death, the party had governed without him. Against his own wishes, the Politburo embalmed his body and displayed it in a mausoleum on Red Square, and Petrograd became Leningrad. Lenin became a cult, and every contender for power claimed to be his most loyal follower. As one historian puts it, each \"invented his own Lenin to suit his purposes\".\n\nLenin's own judgement was a danger to **Stalin**. In notes dictated in December 1922 and January 1923, later called his \"Testament\", Lenin wrote that \"Stalin is too rude\" and urged his removal as General Secretary. But the Testament also criticised **Trotsky** for \"excessive self-assurance\". When the notes were read to the Central Committee in May 1924, Stalin was protected by a **triumvirate** with **Zinoviev** and **Kamenev**, who were more afraid of Trotsky, and the issue was sidetracked at the Thirteenth Party Congress.\n\nTrotsky had other weaknesses. He had clashed with Lenin before 1917 and joined the Bolsheviks only in mid-1917, so he was at a disadvantage in arguments about who was the truest Leninist. When he struck back in November 1924 with \"The Lessons of October\", reminding the party that Zinoviev and Kamenev had opposed the October rising, he only deepened his rivals' hostility.\n\nThis mattered because the succession was fought in the language of loyalty to Lenin, which meant that Stalin's apparently dull post as General Secretary, and his rivals' fear of Trotsky, counted for more than Lenin's warning.",
+    "argumentsThatWork": [
+     {
+      "claim": "Lenin's cult made loyalty to Lenin the test of leadership.",
+      "evidence": [
+       "F-SPW-02",
+       "F-SPW-03"
+      ],
+      "strongestCounter": "Each rival claimed Lenin's authority."
+     },
+     {
+      "claim": "Lenin's Testament threatened Stalin.",
+      "evidence": [
+       "F-SPW-05"
+      ],
+      "strongestCounter": "It also criticised Trotsky."
+     },
+     {
+      "claim": "The triumvirate protected Stalin in 1924.",
+      "evidence": [
+       "F-SPW-06",
+       "F-SPW-07"
+      ],
+      "strongestCounter": "It was an alliance of convenience."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the role of Lenin's legacy in the struggle for power between 1924 and 1929.",
+     "“Stalin won the struggle for power because his rivals underestimated him.” Discuss with reference to the period 1924 to 1929."
+    ],
+    "useItInAnEssay": {
+     "claim": "Lenin's legacy was a weapon that Stalin used better than his rivals.",
+     "prove": "The Testament of 1922–23 urged Stalin's removal, yet in May 1924 the triumvirate of Stalin, Zinoviev and Kamenev sidetracked it at the Thirteenth Congress.",
+     "explain": "This meant that Stalin survived the greatest threat to his career because his allies feared Trotsky more than him.",
+     "test": "However, the Testament also criticised Trotsky, and Trotsky's late entry into the Bolsheviks weakened his claim to be Lenin's heir.",
+     "judge": "Lenin's legacy therefore helped Stalin, because his rivals could not use it against him without damaging themselves."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did Lenin die? (year)",
+      "factIds": [
+       "F-SPW-01"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1924,
+        "tolerance": 0,
+        "explanation": "21 January 1924."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Lenin's postscript of January 1923 say about Stalin?",
+      "factIds": [
+       "F-SPW-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That he was 'too rude' and should be removed as General Secretary",
+        "correct": true,
+        "explanation": "Correct: the most dangerous part of the Testament for Stalin."
+       },
+       {
+        "id": "b",
+        "text": "That he should succeed Lenin",
+        "correct": false,
+        "explanation": "Lenin named no successor."
+       },
+       {
+        "id": "c",
+        "text": "That he was the best theorist in the party",
+        "correct": false,
+        "explanation": "Lenin praised no one so highly."
+       },
+       {
+        "id": "d",
+        "text": "That he should lead the Red Army",
+        "correct": false,
+        "explanation": "Trotsky led the Red Army."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “When Lenin's notes were read in May 1924, the triumvirate of Stalin, Zinoviev and Kamenev sidetracked the issue.” Which argument does it support best?",
+      "factIds": [
+       "F-SPW-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Stalin survived because his rivals feared Trotsky more than him",
+        "correct": true,
+        "explanation": "Correct: the triumvirate was aimed at Trotsky."
+       },
+       {
+        "id": "b",
+        "text": "Lenin's Testament was never read",
+        "correct": false,
+        "explanation": "It was read to the Central Committee."
+       },
+       {
+        "id": "c",
+        "text": "Zinoviev and Kamenev wanted Stalin removed",
+        "correct": false,
+        "explanation": "They protected him in 1924."
+       },
+       {
+        "id": "d",
+        "text": "Trotsky led the triumvirate",
+        "correct": false,
+        "explanation": "It was formed against him."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "The machine and the debate, 1924–1926",
+    "body": "Stalin's office gave him a quiet but decisive advantage. When he became **General Secretary** in 1922, the Secretariat was not a prestigious body, and Stalin seemed to lack the brilliance and oratory of a party leader. But it let him bring supporters of \"the party line\" into the central apparatus and control appointments in the provinces. Factions had been banned since 1921.\n\nThe contest was also about policy. In the **industrialisation debate** of 1923–27, all leaders wanted industry, but they disagreed about how fast and at whose expense. The economist Preobrazhenskii, linked to Trotsky's **Left Opposition**, argued for \"super-industrialisation\" financed by squeezing the peasants. **Bukharin** argued that the Soviet Union could \"grow into socialism\" through a steady link (*smychka*) with the peasantry under the New Economic Policy (NEP). Stalin sided with Bukharin and championed \"socialism in one country\", which made Trotsky's \"permanent revolution\" look like a lack of faith in the USSR.\n\nStalin moved against his rivals one at a time. Trotsky lost control of the Red Army's Revolutionary Military Council in January 1925. By the end of 1925 Zinoviev and Kamenev had broken with Stalin and were criticising his ambitions, but at the Fourteenth Congress in December 1925 they were outvoted. In early 1926 they joined Trotsky in the **United Opposition**, demanding freer debate, an end to NEP and faster industrialisation.\n\nThis mattered because Stalin combined control of the party machine with a popular, moderate policy, which meant that his opponents appeared both divisive and dangerous.",
+    "argumentsThatWork": [
+     {
+      "claim": "Control of appointments gave Stalin a reliable majority.",
+      "evidence": [
+       "F-SPW-04",
+       "F-SPW-08"
+      ],
+      "strongestCounter": "The Secretariat was not prestigious at first."
+     },
+     {
+      "claim": "Stalin's moderate policy isolated the Left.",
+      "evidence": [
+       "F-SPW-09",
+       "F-SPW-03"
+      ],
+      "strongestCounter": "He later adopted much of the Left's programme."
+     },
+     {
+      "claim": "Stalin defeated rivals one at a time.",
+      "evidence": [
+       "F-SPW-08",
+       "F-SPW-11"
+      ],
+      "strongestCounter": "The United Opposition united them too late."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was Stalin's control of the party apparatus the main reason for his victory in the struggle for power between 1924 and 1929?",
+     "Evaluate the significance of the industrialization debate in Stalin's rise to power between 1924 and 1928."
+    ],
+    "useItInAnEssay": {
+     "claim": "Stalin's control of the party apparatus was the foundation of his victory.",
+     "prove": "As General Secretary he brought supporters into the central apparatus and controlled provincial appointments, while factions had been banned since 1921.",
+     "explain": "This meant that congresses voted with him, so the Fourteenth Congress of December 1925 outvoted Zinoviev and Kamenev.",
+     "test": "However, Stalin also won the argument, presenting 'socialism in one country' as Leninist and allying with Bukharin's popular defence of NEP.",
+     "judge": "The apparatus therefore gave Stalin his majority, while policy gave that majority a reason to follow him."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which policy did Stalin champion against Trotsky's 'permanent revolution'?",
+      "factIds": [
+       "F-SPW-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "'Socialism in one country'",
+        "correct": true,
+        "explanation": "Correct: it presented the USSR as self-sufficient."
+       },
+       {
+        "id": "b",
+        "text": "World revolution first",
+        "correct": false,
+        "explanation": "That was closer to Trotsky's position."
+       },
+       {
+        "id": "c",
+        "text": "Immediate abolition of NEP in 1924",
+        "correct": false,
+        "explanation": "Stalin defended NEP until 1928."
+       },
+       {
+        "id": "d",
+        "text": "Rearmament against Germany",
+        "correct": false,
+        "explanation": "Not the issue in 1924."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C05",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did the United Opposition form? (year)",
+      "factIds": [
+       "F-SPW-11"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1926,
+        "tolerance": 0,
+        "explanation": "Early 1926."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Stalin brought supporters of 'the party line' into the central apparatus and controlled provincial appointments.” Which argument does it support best?",
+      "factIds": [
+       "F-SPW-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Control of the party machine gave Stalin a loyal majority",
+        "correct": true,
+        "explanation": "Correct: officials owed him their posts."
+       },
+       {
+        "id": "b",
+        "text": "Stalin had no influence over the party",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Trotsky controlled appointments",
+        "correct": false,
+        "explanation": "Stalin did, as General Secretary."
+       },
+       {
+        "id": "d",
+        "text": "Appointments were decided by elections only",
+        "correct": false,
+        "explanation": "The Secretariat controlled them."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "Defeat of the Left, 1926–1929",
+    "body": "The United Opposition never threatened Stalin's majority. Its leaders demanded the freedom to argue inside the party, but the ban on factions made organised opposition illegal. Its programme had defenders: the historian Vadim Rogovin argues that its 1927 proposals for worker representation would have developed democracy in the workplace. But in **November 1927**, after the Opposition held its own street demonstration on the tenth anniversary of the revolution, **Trotsky and Zinoviev were expelled** from the party. The Fifteenth Congress in December 1927 completed the defeat.\n\nThe defeated responded differently. Zinoviev and Kamenev recanted and were readmitted in 1928, though they never regained their influence. Trotsky refused to capitulate. In early 1928 he was exiled to a remote region, and in **February 1929** he was expelled from the Soviet Union altogether.\n\nStalin had now removed the Left, and his alliance with Bukharin had served its purpose. Over the next two years he would turn against the Right as well.\n\nThis mattered because Stalin used the party's own rules against unity to destroy his rivals, which meant that by 1928 no organised opposition was left on the Left.",
+    "argumentsThatWork": [
+     {
+      "claim": "The ban on factions made opposition illegal.",
+      "evidence": [
+       "F-SPW-12",
+       "F-SPW-11"
+      ],
+      "strongestCounter": "Opposition leaders were still party members until 1927."
+     },
+     {
+      "claim": "Expulsion ended the Left's challenge.",
+      "evidence": [
+       "F-SPW-13"
+      ],
+      "strongestCounter": "Zinoviev and Kamenev were readmitted."
+     },
+     {
+      "claim": "Trotsky's refusal to recant led to exile.",
+      "evidence": [
+       "F-SPW-13"
+      ],
+      "strongestCounter": "He remained a critic abroad."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for, and the results of, Stalin's defeat of the Left and United Oppositions between 1924 and 1927.",
+     "To what extent was Stalin's control of the party apparatus the main reason for his victory in the struggle for power between 1924 and 1929?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Stalin defeated the United Opposition because the party's rules made organised opposition illegal.",
+     "prove": "Factions had been banned since 1921, and in November 1927, after the Opposition's own demonstration, Trotsky and Zinoviev were expelled.",
+     "explain": "This meant that the Opposition could be presented as splitting the party, so its leaders lost their membership rather than an argument.",
+     "test": "However, Rogovin argues that its programme offered genuine democratic proposals, which suggests it was defeated by organisation rather than ideas.",
+     "judge": "The Left was therefore defeated mainly by the party's own discipline, which Stalin controlled."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year was Trotsky expelled from the Soviet Union? (year)",
+      "factIds": [
+       "F-SPW-13"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1929,
+        "tolerance": 0,
+        "explanation": "February 1929, to Turkey."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened to Zinoviev and Kamenev after their expulsion in 1927?",
+      "factIds": [
+       "F-SPW-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "They recanted and were readmitted in 1928, without regaining influence",
+        "correct": true,
+        "explanation": "Correct: Trotsky refused to recant."
+       },
+       {
+        "id": "b",
+        "text": "They became leaders of the Right",
+        "correct": false,
+        "explanation": "Bukharin led the Right."
+       },
+       {
+        "id": "c",
+        "text": "They were exiled abroad with Trotsky",
+        "correct": false,
+        "explanation": "Only Trotsky was deported."
+       },
+       {
+        "id": "d",
+        "text": "They replaced Stalin",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Trotsky and Zinoviev were expelled in November 1927 after holding their own street demonstration.” Which argument does it support best?",
+      "factIds": [
+       "F-SPW-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Stalin could present the Opposition as breaking party discipline",
+        "correct": true,
+        "explanation": "Correct: open factional activity was forbidden."
+       },
+       {
+        "id": "b",
+        "text": "The Opposition won popular support",
+        "correct": false,
+        "explanation": "It was expelled."
+       },
+       {
+        "id": "c",
+        "text": "The party welcomed open debate",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "Trotsky led the party in 1927",
+        "correct": false,
+        "explanation": "He was expelled."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "causes",
+    "title": "Turning on the Right and the 'Great Change', 1928–1929",
+    "body": "With the Left gone, Stalin changed course. In the winter of 1927–28 grain procurements fell short, and Stalin personally supervised \"extraordinary\" (coercive) measures to seize grain in the Urals and western Siberia. This broke with Bukharin's policy of conciliating the peasants. The industrialisation debate had already shown the logic: once the Left was defeated, a faster tempo of heavy industry became politically attractive, and that meant more pressure on the countryside.\n\n**Bukharin**, **Rykov** and **Tomsky** resisted, and in 1928 Stalin attacked their \"rightist deviation\". Between 1928 and 1930 they were sidelined and removed from their key posts. By 1927 the Politburo already contained men such as Molotov and Kaganovich, who would stand beside Stalin throughout the 1930s.\n\nIn November 1929, on the twelfth anniversary of the revolution, *Pravda* published Stalin's article **\"A Year of Great Change\"**. It justified a radical break with NEP and served as a manifesto for the First Five-Year Plan, already in its second year. Stalin had adopted much of the Left's programme after defeating the Left, and destroyed the Right by attacking the policy he had once defended.\n\nThis mattered because Stalin's flexibility over policy served one constant aim, power, which meant that by the end of 1929 he faced no organised opposition at the top of the party.",
+    "argumentsThatWork": [
+     {
+      "claim": "Stalin turned on the Right once the Left was defeated.",
+      "evidence": [
+       "F-SPW-14",
+       "F-SPW-08"
+      ],
+      "strongestCounter": "He had defended NEP with Bukharin until 1927."
+     },
+     {
+      "claim": "Coercion of the peasants signalled the change.",
+      "evidence": [
+       "F-SPW-15",
+       "F-SPW-10"
+      ],
+      "strongestCounter": "Grain shortages were real."
+     },
+     {
+      "claim": "By 1929 Stalin had broken with NEP.",
+      "evidence": [
+       "F-SPW-16"
+      ],
+      "strongestCounter": "The Five-Year Plan was already under way."
+     }
+    ],
+    "howItGetsAsked": [
+     "“Stalin won the struggle for power because his rivals underestimated him.” Discuss with reference to the period 1924 to 1929.",
+     "Compare and contrast the political positions of Trotsky and Bukharin between 1924 and 1929."
+    ],
+    "useItInAnEssay": {
+     "claim": "Stalin defeated the Right by adopting the policy of the Left he had already destroyed.",
+     "prove": "After supervising 'extraordinary' grain seizures in the winter of 1927–28, he attacked Bukharin's 'rightist deviation' in 1928, and Bukharin, Rykov and Tomsky were removed from key posts by 1930.",
+     "explain": "This meant that Stalin appeared as the defender of rapid industrialisation, so the Right looked like defenders of the kulaks.",
+     "test": "However, Stalin's change of course was also a response to real grain shortages, not only to the struggle for power.",
+     "judge": "Stalin therefore used policy as a weapon, changing it to isolate whichever rival remained."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who led the 'Right' that Stalin attacked in 1928?",
+      "factIds": [
+       "F-SPW-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Bukharin, Rykov and Tomsky",
+        "correct": true,
+        "explanation": "Correct: they were removed from key posts by 1930."
+       },
+       {
+        "id": "b",
+        "text": "Trotsky, Zinoviev and Kamenev",
+        "correct": false,
+        "explanation": "They formed the United Opposition."
+       },
+       {
+        "id": "c",
+        "text": "Molotov and Kaganovich",
+        "correct": false,
+        "explanation": "They were Stalin's allies."
+       },
+       {
+        "id": "d",
+        "text": "Kirov and Ordzhonikidze",
+        "correct": false,
+        "explanation": "Not the Right Opposition."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did Pravda publish Stalin's article 'A Year of Great Change'? (year)",
+      "factIds": [
+       "F-SPW-16"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1929,
+        "tolerance": 0,
+        "explanation": "November 1929."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-POWER-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “In the winter of 1927–28 Stalin supervised coercive grain seizures in the Urals and western Siberia.” Which argument does it support best?",
+      "factIds": [
+       "F-SPW-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Stalin abandoned Bukharin's conciliation of the peasants",
+        "correct": true,
+        "explanation": "Correct: the break with NEP had begun."
+       },
+       {
+        "id": "b",
+        "text": "Stalin defended NEP in 1928",
+        "correct": false,
+        "explanation": "He was undermining it."
+       },
+       {
+        "id": "c",
+        "text": "The peasants volunteered their grain",
+        "correct": false,
+        "explanation": "The measures were coercive."
+       },
+       {
+        "id": "d",
+        "text": "Bukharin ordered the seizures",
+        "correct": false,
+        "explanation": "Stalin supervised them."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1924,
+      "month": 1,
+      "day": 21,
+      "text": "Lenin dies",
+      "factId": "F-SPW-01"
+     },
+     {
+      "year": 1924,
+      "month": 5,
+      "text": "Testament read; Thirteenth Congress",
+      "factId": "F-SPW-06"
+     },
+     {
+      "year": 1924,
+      "month": 11,
+      "text": "Trotsky's 'Lessons of October'",
+      "factId": "F-SPW-07"
+     },
+     {
+      "year": 1925,
+      "month": 1,
+      "text": "Trotsky loses the Revolutionary Military Council",
+      "factId": "F-SPW-08"
+     },
+     {
+      "year": 1925,
+      "month": 12,
+      "text": "Fourteenth Congress",
+      "factId": "F-SPW-10"
+     },
+     {
+      "year": 1926,
+      "text": "United Opposition formed",
+      "factId": "F-SPW-11"
+     },
+     {
+      "year": 1927,
+      "month": 11,
+      "text": "Trotsky and Zinoviev expelled",
+      "factId": "F-SPW-13"
+     },
+     {
+      "year": 1928,
+      "text": "Attack on the 'rightist deviation'",
+      "factId": "F-SPW-14"
+     },
+     {
+      "year": 1929,
+      "month": 2,
+      "text": "Trotsky deported",
+      "factId": "F-SPW-13"
+     },
+     {
+      "year": 1929,
+      "month": 11,
+      "text": "'A Year of Great Change'",
+      "factId": "F-SPW-16"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Lenin dies with no named successor",
+      "factId": "F-SPW-01"
+     },
+     {
+      "id": "n2",
+      "text": "Triumvirate shields Stalin from the Testament",
+      "factId": "F-SPW-06"
+     },
+     {
+      "id": "n3",
+      "text": "Control of appointments builds a majority",
+      "factId": "F-SPW-08"
+     },
+     {
+      "id": "n4",
+      "text": "'Socialism in one country' isolates the Left",
+      "factId": "F-SPW-03"
+     },
+     {
+      "id": "n5",
+      "text": "United Opposition expelled (1927)",
+      "factId": "F-SPW-13"
+     },
+     {
+      "id": "n6",
+      "text": "Right defeated; break with NEP (1928–29)",
+      "factId": "F-SPW-14"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Rivals feared Trotsky more than Stalin"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Stalin kept the General Secretary's post"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "A loyal majority backed a moderate policy"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "The ban on factions made opposition illegal"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "With the Left gone, Stalin turned on his allies"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Joseph Stalin",
+     "role": "General Secretary from 1922",
+     "whyItMatters": "Controlled appointments; defeated Left and Right in turn.",
+     "factIds": [
+      "F-SPW-04",
+      "F-SPW-08"
+     ]
+    },
+    {
+     "name": "Leon Trotsky",
+     "role": "Leader of the Left Opposition",
+     "whyItMatters": "Expelled 1927, deported 1929.",
+     "factIds": [
+      "F-SPW-07",
+      "F-SPW-13"
+     ]
+    },
+    {
+     "name": "Grigorii Zinoviev",
+     "role": "Triumvir, then oppositionist",
+     "whyItMatters": "Joined Trotsky in 1926; recanted in 1928.",
+     "factIds": [
+      "F-SPW-06",
+      "F-SPW-13"
+     ]
+    },
+    {
+     "name": "Lev Kamenev",
+     "role": "Triumvir, then oppositionist",
+     "whyItMatters": "Broke with Stalin in 1925.",
+     "factIds": [
+      "F-SPW-08",
+      "F-SPW-11"
+     ]
+    },
+    {
+     "name": "Nikolai Bukharin",
+     "role": "Leader of the Right",
+     "whyItMatters": "Theorist of NEP; Stalin's ally until 1928.",
+     "factIds": [
+      "F-SPW-09",
+      "F-SPW-14"
+     ]
+    },
+    {
+     "name": "Evgenii Preobrazhenskii",
+     "role": "Left economist",
+     "whyItMatters": "Argued for 'socialist accumulation' at the peasants' expense.",
+     "factIds": [
+      "F-SPW-09"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Trotsky and the Left",
+     "Bukharin and the Right"
+    ],
+    "rows": [
+     {
+      "criterion": "Economic policy",
+      "cells": [
+       "Super-industrialisation, squeezing the peasants",
+       "'Growing into socialism' through NEP"
+      ],
+      "factIds": [
+       "F-SPW-09"
+      ]
+     },
+     {
+      "criterion": "Relationship with Stalin",
+      "cells": [
+       "Opposed by the triumvirate from 1924",
+       "Allied with Stalin from late 1924 to 1928"
+      ],
+      "factIds": [
+       "F-SPW-06",
+       "F-SPW-14"
+      ]
+     },
+     {
+      "criterion": "Fate",
+      "cells": [
+       "Expelled 1927; Trotsky deported 1929",
+       "Removed from key posts 1928–30"
+      ],
+      "factIds": [
+       "F-SPW-13",
+       "F-SPW-14"
+      ]
+     },
+     {
+      "criterion": "What Stalin took from them",
+      "cells": [
+       "Rapid industrialisation after 1928",
+       "'Socialism in one country'"
+      ],
+      "factIds": [
+       "F-SPW-10",
+       "F-SPW-03"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-SPW-05",
+    "year": 1923,
+    "text": "Lenin's Testament: 'Stalin is too rude'; urged his removal.",
+    "supports": [
+     "Lenin's legacy threatened Stalin"
+    ],
+    "lexicon": [
+     "Testament",
+     "General Secretary"
+    ]
+   },
+   {
+    "factId": "F-SPW-06",
+    "year": 1924,
+    "text": "May 1924: the triumvirate sidetracked the Testament.",
+    "supports": [
+     "Rivals feared Trotsky more than Stalin"
+    ],
+    "lexicon": [
+     "triumvirate",
+     "Thirteenth Congress"
+    ]
+   },
+   {
+    "factId": "F-SPW-08",
+    "year": 1925,
+    "text": "Stalin controlled appointments; Trotsky lost the army post in January 1925.",
+    "supports": [
+     "The apparatus gave Stalin a majority"
+    ],
+    "lexicon": [
+     "General Secretary",
+     "appointments"
+    ]
+   },
+   {
+    "factId": "F-SPW-09",
+    "year": 1926,
+    "text": "Industrialisation debate: Preobrazhenskii's squeeze versus Bukharin's smychka.",
+    "supports": [
+     "Policy divided Stalin's rivals"
+    ],
+    "lexicon": [
+     "NEP",
+     "socialism in one country"
+    ]
+   },
+   {
+    "factId": "F-SPW-13",
+    "year": 1929,
+    "text": "Trotsky expelled from the party (1927) and the USSR (1929).",
+    "supports": [
+     "The Left was destroyed"
+    ],
+    "lexicon": [
+     "United Opposition",
+     "expulsion"
+    ]
+   },
+   {
+    "factId": "F-SPW-14",
+    "year": 1929,
+    "text": "Bukharin, Rykov and Tomsky removed from key posts, 1928–30.",
+    "supports": [
+     "Stalin turned on the Right"
+    ],
+    "lexicon": [
+     "Right Opposition",
+     "rightist deviation"
+    ]
+   },
+   {
+    "factId": "F-SPW-16",
+    "year": 1929,
+    "text": "'A Year of Great Change' (November 1929): the break with NEP.",
+    "supports": [
+     "Stalin adopted the Left's programme"
+    ],
+    "alsoWorksFor": [
+     "P3-16-Y1-STALIN-ECONOMY"
+    ],
+    "lexicon": [
+     "Five-Year Plan",
+     "NEP"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Vadim Rogovin",
+    "argument": "The United Opposition's 1927 proposals for worker representation would have developed democracy in production and helped establish workers' control over economic management (as summarised in the Wikipedia article 'United Opposition').",
+    "useItLikeThis": "Rogovin's view supports the claim that the Opposition offered a real democratic alternative, which suggests Stalin won through control of the party rather than the strength of his arguments.",
+    "factId": "F-SPW-17"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Lenin named Stalin as his successor.",
+    "right": "Lenin's Testament urged Stalin's **removal** as General Secretary."
+   },
+   {
+    "wrong": "Stalin always wanted rapid industrialisation.",
+    "right": "He defended NEP with **Bukharin** until 1927, then adopted much of the Left's programme."
+   },
+   {
+    "wrong": "Trotsky was defeated in a single battle in 1924.",
+    "right": "He lost step by step: the army post in 1925, expulsion in **1927**, deportation in **1929**."
+   },
+   {
+    "wrong": "The General Secretary was the most prestigious post in 1922.",
+    "right": "The Secretariat was **not particularly exalted**; its power lay in appointments."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1924,
+     "month": 1,
+     "text": "Lenin dies"
+    },
+    {
+     "year": 1924,
+     "month": 5,
+     "text": "Testament sidetracked"
+    },
+    {
+     "year": 1925,
+     "month": 1,
+     "text": "Trotsky loses army post"
+    },
+    {
+     "year": 1926,
+     "text": "United Opposition"
+    },
+    {
+     "year": 1927,
+     "month": 11,
+     "text": "Expulsions"
+    },
+    {
+     "year": 1928,
+     "text": "Attack on the Right"
+    },
+    {
+     "year": 1929,
+     "month": 2,
+     "text": "Trotsky deported"
+    },
+    {
+     "year": 1929,
+     "month": 11,
+     "text": "'Year of Great Change'"
+    }
+   ],
+   "keyArguments": [
+    "Lenin's death left no rule of succession; each rival claimed Lenin's legacy.",
+    "The triumvirate shielded Stalin from the Testament because his allies feared Trotsky more.",
+    "As General Secretary, Stalin controlled appointments and so the party majority.",
+    "He defeated the Left with Bukharin's help, then the Right by adopting the Left's programme.",
+    "The 1921 ban on factions turned opposition into indiscipline."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Lenin dies",
+     "year": 1924,
+     "month": 1,
+     "factId": "F-SPW-01"
+    },
+    {
+     "id": "b",
+     "text": "Testament read to the Central Committee",
+     "year": 1924,
+     "month": 5,
+     "factId": "F-SPW-06"
+    },
+    {
+     "id": "c",
+     "text": "'The Lessons of October'",
+     "year": 1924,
+     "month": 11,
+     "factId": "F-SPW-07"
+    },
+    {
+     "id": "d",
+     "text": "Trotsky loses the Revolutionary Military Council",
+     "year": 1925,
+     "month": 1,
+     "factId": "F-SPW-08"
+    },
+    {
+     "id": "e",
+     "text": "Fourteenth Party Congress",
+     "year": 1925,
+     "month": 12,
+     "factId": "F-SPW-10"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "United Opposition formed",
+     "year": 1926,
+     "factId": "F-SPW-11"
+    },
+    {
+     "id": "b",
+     "text": "Trotsky and Zinoviev expelled",
+     "year": 1927,
+     "month": 11,
+     "factId": "F-SPW-13"
+    },
+    {
+     "id": "c",
+     "text": "Fifteenth Party Congress",
+     "year": 1927,
+     "month": 12,
+     "factId": "F-SPW-13"
+    },
+    {
+     "id": "d",
+     "text": "Trotsky deported to Turkey",
+     "year": 1929,
+     "month": 2,
+     "factId": "F-SPW-13"
+    },
+    {
+     "id": "e",
+     "text": "'A Year of Great Change'",
+     "year": 1929,
+     "month": 11,
+     "factId": "F-SPW-16"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Leningrad renamed",
+     "year": 1924,
+     "month": 1,
+     "factId": "F-SPW-02"
+    },
+    {
+     "id": "b",
+     "text": "Triumvirate collapses",
+     "year": 1925,
+     "factId": "F-SPW-08"
+    },
+    {
+     "id": "c",
+     "text": "Zinoviev and Kamenev readmitted",
+     "year": 1928,
+     "factId": "F-SPW-13"
+    },
+    {
+     "id": "d",
+     "text": "Trotsky expelled from the USSR",
+     "year": 1929,
+     "month": 2,
+     "factId": "F-SPW-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each leader to his position.",
+   "pairs": [
+    {
+     "left": "Trotsky",
+     "right": "'Permanent revolution'; leader of the Left Opposition",
+     "explanation": "Expelled 1927."
+    },
+    {
+     "left": "Bukharin",
+     "right": "'Growing into socialism' through NEP",
+     "explanation": "Leader of the Right."
+    },
+    {
+     "left": "Preobrazhenskii",
+     "right": "'Socialist accumulation' at the peasants' expense",
+     "explanation": "Left economist."
+    },
+    {
+     "left": "Stalin",
+     "right": "'Socialism in one country'; General Secretary",
+     "explanation": "Controlled appointments."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year was Stalin appointed General Secretary? (year)",
+   "factIds": [
+    "F-SPW-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1922,
+     "tolerance": 0,
+     "explanation": "1922, two months before Lenin's first stroke."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "At which numbered party congress was the Testament sidetracked in May 1924? (number)",
+   "factIds": [
+    "F-SPW-06"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 13,
+     "tolerance": 0,
+     "explanation": "The Thirteenth Congress."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year were factions banned in the party? (year)",
+   "factIds": [
+    "F-SPW-12"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1921,
+     "tolerance": 0,
+     "explanation": "At the Tenth Congress in 1921."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How old was Lenin when he died, to the nearest year? (number)",
+   "factIds": [
+    "F-SPW-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 54,
+     "tolerance": 1,
+     "explanation": "Not quite fifty-four."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these helped Stalin win the struggle for power? Choose all that apply.",
+   "factIds": [
+    "F-SPW-06",
+    "F-SPW-08",
+    "F-SPW-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Control of party appointments",
+     "correct": true,
+     "explanation": "Yes: as General Secretary."
+    },
+    {
+     "id": "b",
+     "text": "The triumvirate's protection in 1924",
+     "correct": true,
+     "explanation": "Yes: it sidetracked the Testament."
+    },
+    {
+     "id": "c",
+     "text": "The 1921 ban on factions",
+     "correct": true,
+     "explanation": "Yes: opposition became indiscipline."
+    },
+    {
+     "id": "d",
+     "text": "Lenin's endorsement",
+     "correct": false,
+     "explanation": "No: Lenin urged his removal."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these did the United Opposition demand? Choose all that apply.",
+   "factIds": [
+    "F-SPW-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "More freedom of expression in the party",
+     "correct": true,
+     "explanation": "Yes: against bureaucracy."
+    },
+    {
+     "id": "b",
+     "text": "An end to NEP",
+     "correct": true,
+     "explanation": "Yes: it wanted NEP dismantled."
+    },
+    {
+     "id": "c",
+     "text": "More heavy industry",
+     "correct": true,
+     "explanation": "Yes: faster industrialisation."
+    },
+    {
+     "id": "d",
+     "text": "Socialism in one country",
+     "correct": false,
+     "explanation": "No: that was Stalin's slogan."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Trotsky had joined the Bolsheviks only in mid-1917.” Which argument does it support?",
+   "factIds": [
+    "F-SPW-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Trotsky was vulnerable in arguments about loyalty to Lenin",
+     "correct": true,
+     "explanation": "Correct: his rivals used his past against him."
+    },
+    {
+     "id": "b",
+     "text": "Trotsky was Lenin's oldest ally",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Trotsky did not take part in the revolution",
+     "correct": false,
+     "explanation": "He took a leading part in October 1917."
+    },
+    {
+     "id": "d",
+     "text": "Trotsky was a Menshevik in 1924",
+     "correct": false,
+     "explanation": "He was a Bolshevik leader by then."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Once the Left had been defeated, raising investment in heavy industry became politically attractive.” Which argument does it support?",
+   "factIds": [
+    "F-SPW-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin's policy shifts followed the needs of the power struggle",
+     "correct": true,
+     "explanation": "Correct: he adopted the Left's ideas after defeating it."
+    },
+    {
+     "id": "b",
+     "text": "Stalin never changed policy",
+     "correct": false,
+     "explanation": "He changed it in 1928."
+    },
+    {
+     "id": "c",
+     "text": "The Left won the industrialisation debate in 1925",
+     "correct": false,
+     "explanation": "It was defeated."
+    },
+    {
+     "id": "d",
+     "text": "Bukharin wanted faster industrialisation than Trotsky",
+     "correct": false,
+     "explanation": "The opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Lenin's Testament recommended Stalin as his successor.”",
+   "factIds": [
+    "F-SPW-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Lenin urged Stalin's removal as General Secretary",
+     "correct": true,
+     "explanation": "Correct: 'Stalin is too rude'."
+    },
+    {
+     "id": "b",
+     "text": "Lenin died in 1929",
+     "correct": false,
+     "explanation": "He died in 1924."
+    },
+    {
+     "id": "c",
+     "text": "The Testament praised Trotsky without criticism",
+     "correct": false,
+     "explanation": "It criticised his self-assurance."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Lenin urged Stalin's removal."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Stalin and Trotsky formed the triumvirate in 1924.”",
+   "factIds": [
+    "F-SPW-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The triumvirate was Stalin, Zinoviev and Kamenev, formed against Trotsky",
+     "correct": true,
+     "explanation": "Correct: it shielded Stalin in 1924."
+    },
+    {
+     "id": "b",
+     "text": "The triumvirate was formed in 1929",
+     "correct": false,
+     "explanation": "It existed by May 1924."
+    },
+    {
+     "id": "c",
+     "text": "Bukharin led the triumvirate",
+     "correct": false,
+     "explanation": "He was not a member."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Trotsky was its target."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the struggle for power between 1924 and 1929. Is the Great Terror of 1936–38 inside or outside the timeframe?",
+   "factIds": [
+    "F-SPW-16"
+   ],
+   "timeframe": [
+    1924,
+    1929
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1929."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1936 is after 1929."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Zinoviev and Kamenev were killed",
+     "correct": false,
+     "explanation": "Their deaths came later."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the 'smychka' that Bukharin defended?",
+   "factIds": [
+    "F-SPW-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The link between town and countryside under NEP",
+     "correct": true,
+     "explanation": "Correct: 'growing into socialism'."
+    },
+    {
+     "id": "b",
+     "text": "The secret police",
+     "correct": false,
+     "explanation": "Not what it was."
+    },
+    {
+     "id": "c",
+     "text": "Trotsky's army command",
+     "correct": false,
+     "explanation": "Not what it was."
+    },
+    {
+     "id": "d",
+     "text": "A Five-Year Plan target",
+     "correct": false,
+     "explanation": "Not what it was."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Trotsky's 'The Lessons of October' (1924) remind the party of?",
+   "factIds": [
+    "F-SPW-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Zinoviev's and Kamenev's opposition to the October insurrection",
+     "correct": true,
+     "explanation": "Correct: it deepened their hostility."
+    },
+    {
+     "id": "b",
+     "text": "Stalin's rudeness",
+     "correct": false,
+     "explanation": "That was Lenin's Testament."
+    },
+    {
+     "id": "c",
+     "text": "Bukharin's support for NEP",
+     "correct": false,
+     "explanation": "Not the subject."
+    },
+    {
+     "id": "d",
+     "text": "The ban on factions",
+     "correct": false,
+     "explanation": "Not the subject."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Stalin supervise in the winter of 1927–28?",
+   "factIds": [
+    "F-SPW-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'Extraordinary' coercive grain seizures in the Urals and western Siberia",
+     "correct": true,
+     "explanation": "Correct: a break with NEP's methods."
+    },
+    {
+     "id": "b",
+     "text": "Trotsky's return from exile",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "The first show trial",
+     "correct": false,
+     "explanation": "That came later."
+    },
+    {
+     "id": "d",
+     "text": "Lenin's funeral",
+     "correct": false,
+     "explanation": "That was 1924."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did the triumvirate collapse by the end of 1925?",
+   "factIds": [
+    "F-SPW-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "With Trotsky weakened, Zinoviev and Kamenev began to criticise Stalin's ambitions",
+     "correct": true,
+     "explanation": "Correct: they joined Trotsky in 1926."
+    },
+    {
+     "id": "b",
+     "text": "Lenin returned to power",
+     "correct": false,
+     "explanation": "Lenin had died."
+    },
+    {
+     "id": "c",
+     "text": "Stalin resigned",
+     "correct": false,
+     "explanation": "He did not."
+    },
+    {
+     "id": "d",
+     "text": "Bukharin joined Trotsky",
+     "correct": false,
+     "explanation": "Bukharin backed Stalin."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to the historian Vadim Rogovin, what would the United Opposition's 1927 proposals have done?",
+   "factIds": [
+    "F-SPW-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Developed democracy in production and helped establish workers' control",
+     "correct": true,
+     "explanation": "Correct: a sympathetic view."
+    },
+    {
+     "id": "b",
+     "text": "Restored the monarchy",
+     "correct": false,
+     "explanation": "Not his view."
+    },
+    {
+     "id": "c",
+     "text": "Ended industrialisation",
+     "correct": false,
+     "explanation": "The Opposition wanted more industry."
+    },
+    {
+     "id": "d",
+     "text": "Abolished the party",
+     "correct": false,
+     "explanation": "Not his view."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was Stalin's control of the party apparatus the main reason for his victory in the struggle for power between 1924 and 1929?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Stalin's control of the party apparatus",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for his victory in the struggle for power",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1924 and 1929",
+     "answer": "timeframe",
+     "explanation": "From Lenin's death to the 'Great Change'."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Did the apparatus outweigh policy, his rivals' mistakes and Lenin's legacy?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the political positions of Trotsky and Bukharin between 1924 and 1929.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences throughout."
+    },
+    {
+     "id": "s2",
+     "text": "the political positions",
+     "answer": "factor",
+     "explanation": "Ideas and policies."
+    },
+    {
+     "id": "s3",
+     "text": "of Trotsky and Bukharin",
+     "answer": "scope",
+     "explanation": "Two leaders."
+    },
+    {
+     "id": "s4",
+     "text": "between 1924 and 1929",
+     "answer": "timeframe",
+     "explanation": "The struggle for power."
+    },
+    {
+     "id": "s5",
+     "text": "political positions",
+     "answer": "judgement",
+     "explanation": "Where did they agree, and why did both lose?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Stalin's control of the party apparatus the main reason for his victory between 1924 and 1929?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Control of appointments gave Stalin his majority and was the main reason for victory, but he also won by appearing the most loyal Leninist and by exploiting his rivals' divisions.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against others."
+    },
+    {
+     "id": "b",
+     "text": "Stalin was General Secretary.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The apparatus was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The apparatus was the only reason.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'Stalin won because his rivals underestimated him.' Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "His rivals did underestimate him, as Zinoviev and Kamenev's protection of him in 1924 shows, but Stalin also won through control of appointments and a flexible policy that isolated each rival in turn.",
+     "correct": true,
+     "explanation": "Correct: tests the claim and adds other factors."
+    },
+    {
+     "id": "b",
+     "text": "Stalin's rivals were Trotsky, Zinoviev and Bukharin.",
+     "correct": false,
+     "explanation": "A list, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Stalin was underestimated.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Stalin won only by luck.",
+     "correct": false,
+     "explanation": "Unsupported."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In May 1924 Lenin's notes were read to the Central Committee.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because Zinoviev and Kamenev feared Trotsky more, they shielded Stalin from Lenin's warning.",
+     "answer": "analysis",
+     "explanation": "Explains a cause."
+    },
+    {
+     "id": "s3",
+     "text": "In February 1929 Trotsky was deported to Turkey.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the ban on factions turned political opposition into a breach of discipline.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Control of provincial appointments",
+     "right": "The apparatus gave Stalin a majority",
+     "explanation": "General Secretary."
+    },
+    {
+     "left": "The Testament sidetracked in May 1924",
+     "right": "Rivals feared Trotsky more than Stalin",
+     "explanation": "The triumvirate."
+    },
+    {
+     "left": "Expulsions of November 1927",
+     "right": "The ban on factions destroyed the Left",
+     "explanation": "After the demonstration."
+    },
+    {
+     "left": "'A Year of Great Change'",
+     "right": "Stalin adopted the Left's programme",
+     "explanation": "November 1929."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Stalin was a clever politician.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Stalin allied first with Zinoviev and Kamenev against Trotsky, then with Bukharin against them, and finally turned on Bukharin, he never faced a united opposition; his control of appointments ensured the party majority followed each shift.",
+     "correct": true,
+     "explanation": "Correct: mechanism and evidence."
+    },
+    {
+     "id": "b",
+     "text": "Stalin was very clever.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Stalin became General Secretary in 1922.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Stalin tricked everyone.",
+     "correct": false,
+     "explanation": "Unsupported."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Stalin won because the party agreed with his policies.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin changed his policies, defending NEP with Bukharin until 1927 and then adopting rapid industrialisation, so his success came from controlling the party majority rather than from a consistent programme.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Policies do not matter.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "c",
+     "text": "The party was large.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Some members disliked Stalin.",
+     "correct": false,
+     "explanation": "Too vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Stalin's control of the party apparatus the main reason for his victory?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what decided the votes, control of the apparatus was the main reason; judged by why his rivals let him keep it, their mutual fear and divisions mattered more.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Stalin won by 1929.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Trotsky was brilliant.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, power always goes to the ruthless.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, Stalin's defeat of the Left and United Oppositions between 1924 and 1927.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Control of party appointments",
+     "answer": "causes",
+     "explanation": "A loyal majority."
+    },
+    {
+     "id": "s2",
+     "text": "The 1921 ban on factions",
+     "answer": "causes",
+     "explanation": "Opposition as indiscipline."
+    },
+    {
+     "id": "s3",
+     "text": "Trotsky and Zinoviev expelled",
+     "answer": "effects",
+     "explanation": "November 1927."
+    },
+    {
+     "id": "s4",
+     "text": "Zinoviev and Kamenev recant",
+     "answer": "effects",
+     "explanation": "Readmitted in 1928."
+    },
+    {
+     "id": "s5",
+     "text": "Stalin free to turn on the Right",
+     "answer": "effects",
+     "explanation": "From 1928."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-16-Y1-STALIN-POWER-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was Stalin's control of the party apparatus the main reason for his victory in the struggle for power between 1924 and 1929?",
+   "commandTerm": "to what extent",
+   "namedFactor": "Stalin's control of the party apparatus",
+   "features": [
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1924,
+    1929
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Control of the apparatus, weighed first",
+    "timeframe": "1924–1929",
+    "scope": "Stalin's victory",
+    "judgement": "Did the apparatus outweigh policy, rivals' mistakes and Lenin's legacy?"
+   },
+   "modelPlan": {
+    "thesis": "Control of appointments gave Stalin his majority and was the main reason for victory, but he also won by appearing the most loyal Leninist and by exploiting his rivals' divisions.",
+    "arguments": [
+     {
+      "claim": "The apparatus: appointments and the ban on factions (named factor first).",
+      "evidence": [
+       "F-SPW-08",
+       "F-SPW-12"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Lenin's legacy and the triumvirate.",
+      "evidence": [
+       "F-SPW-03",
+       "F-SPW-06"
+      ]
+     },
+     {
+      "claim": "Policy: socialism in one country and NEP.",
+      "evidence": [
+       "F-SPW-09",
+       "F-SPW-10"
+      ]
+     },
+     {
+      "claim": "Rivals' divisions and mistakes.",
+      "evidence": [
+       "F-SPW-07",
+       "F-SPW-13"
+      ]
+     }
+    ],
+    "counter": "In 1922 the Secretariat was not prestigious, which suggests the apparatus became decisive only because rivals failed to see its value.",
+    "judgementCriterion": "What decided the votes? The apparatus; what let Stalin keep it? His rivals' divisions."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Control of the party apparatus was the main reason for Stalin's victory.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "As General Secretary he brought supporters into the central apparatus and controlled provincial appointments, and factions had been banned since 1921.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that congresses voted with him, so opponents could be defeated as breakers of discipline, as in the expulsions of November 1927.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Stalin kept this power only because Zinoviev and Kamenev shielded him from Lenin's Testament in 1924, fearing Trotsky more.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The apparatus was therefore decisive, but it was his rivals' divisions that allowed him to keep it.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "apparatus",
+     "appointments"
+    ],
+    "synonyms": [
+     "General Secretary",
+     "party machine"
+    ],
+    "historians": [
+     "Rogovin"
+    ],
+    "extraLexicon": [
+     "triumvirate",
+     "Testament",
+     "factions"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-POWER-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Stalin won the struggle for power because his rivals underestimated him.” Discuss with reference to the period 1924 to 1929.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1924,
+    1929
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: rivals underestimated Stalin",
+    "timeframe": "1924–1929",
+    "scope": "The struggle for power",
+    "judgement": "Underestimation, or Stalin's own skill?"
+   },
+   "modelPlan": {
+    "thesis": "His rivals did underestimate him, as Zinoviev and Kamenev's protection of him in 1924 shows, but Stalin also won through control of appointments and a flexible policy that isolated each rival in turn.",
+    "arguments": [
+     {
+      "claim": "For: the unglamorous Secretariat.",
+      "evidence": [
+       "F-SPW-04"
+      ]
+     },
+     {
+      "claim": "For: the triumvirate's protection.",
+      "evidence": [
+       "F-SPW-06"
+      ]
+     },
+     {
+      "claim": "Against: control of appointments.",
+      "evidence": [
+       "F-SPW-08"
+      ]
+     },
+     {
+      "claim": "Against: shifting alliances and policy.",
+      "evidence": [
+       "F-SPW-14",
+       "F-SPW-16"
+      ]
+     }
+    ],
+    "counter": "Lenin himself had warned against Stalin, so the danger was visible to anyone who read the Testament.",
+    "judgementCriterion": "Underestimation or skill? Underestimation gave Stalin his chance; skill exploited it."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Stalin's rivals did underestimate him, but that only explains why he had the chance to win.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1922 the Secretariat seemed unimportant, and in May 1924 Zinoviev and Kamenev shielded Stalin from Lenin's call for his removal.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Stalin kept the post that controlled appointments, so the party majority became his.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Stalin then defeated the Left with Bukharin's help and the Right by adopting the Left's policies, which shows his own tactical skill.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore partly valid: underestimation gave Stalin his opportunity, but his skill decided the outcome.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "underestimated"
+    ],
+    "synonyms": [
+     "rivals",
+     "Trotsky",
+     "Zinoviev"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Testament",
+     "triumvirate",
+     "Bukharin"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-POWER-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of the industrialization debate in Stalin's rise to power between 1924 and 1928.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1924,
+    1928
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The significance of the industrialization debate",
+    "timeframe": "1924–1928",
+    "scope": "Stalin's rise to power",
+    "judgement": "Decisive, or a weapon in a contest decided elsewhere?"
+   },
+   "modelPlan": {
+    "thesis": "The debate was significant because Stalin used it to isolate the Left as a threat to the peasants and then to isolate the Right as a brake on industry; but the votes that decided it were secured through the party apparatus.",
+    "arguments": [
+     {
+      "claim": "The two positions.",
+      "evidence": [
+       "F-SPW-09"
+      ]
+     },
+     {
+      "claim": "Stalin with Bukharin against the Left.",
+      "evidence": [
+       "F-SPW-03",
+       "F-SPW-14"
+      ]
+     },
+     {
+      "claim": "Stalin's turn to rapid industrialisation.",
+      "evidence": [
+       "F-SPW-10",
+       "F-SPW-15"
+      ]
+     },
+     {
+      "claim": "Limits: the apparatus decided votes.",
+      "evidence": [
+       "F-SPW-08"
+      ]
+     }
+    ],
+    "counter": "Stalin changed sides in the debate, which suggests it was a tool rather than a cause of his victory.",
+    "judgementCriterion": "Decisive or a tool? A tool that gave each step of the struggle a justification."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The industrialization debate was significant because it gave Stalin a justification at each stage of the struggle.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Until 1927 Stalin backed Bukharin's 'growing into socialism' against Preobrazhenskii's squeeze on the peasants; after the Left's defeat he adopted rapid heavy industrialisation.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that he could present the Left as a danger to the alliance with the peasants, and then the Right as a brake on industry.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Stalin's victories were secured by votes in party bodies whose members he had appointed.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The debate was therefore significant as a weapon, not as the cause of Stalin's rise.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "industrialization debate"
+    ],
+    "synonyms": [
+     "industrialisation",
+     "NEP"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Preobrazhenskii",
+     "Bukharin",
+     "smychka"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-POWER-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, Stalin's defeat of the Left and United Oppositions between 1924 and 1927.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1924,
+    1927
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1924–1927",
+    "scope": "The defeat of the Left",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "Stalin defeated the Left because he controlled the party majority, the 1921 ban on factions made opposition illegal, and his rivals were divided until 1926; the result was the expulsion of the Opposition and Stalin's freedom to turn on the Right.",
+    "arguments": [
+     {
+      "claim": "Reason: control of the majority.",
+      "evidence": [
+       "F-SPW-08"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: the ban on factions and rivals' divisions.",
+      "evidence": [
+       "F-SPW-12",
+       "F-SPW-06"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: expulsion and exile.",
+      "evidence": [
+       "F-SPW-13"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: the turn against the Right.",
+      "evidence": [
+       "F-SPW-14"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Rogovin argues the Opposition's programme was genuinely democratic, so its defeat was not a defeat of its ideas.",
+    "judgementCriterion": "Which result mattered most? Stalin's freedom to turn on the Right."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Stalin defeated the Left mainly because he controlled the party majority and its rules.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Factions had been banned since 1921, and in November 1927, after the Opposition's own demonstration, Trotsky and Zinoviev were expelled.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the Opposition was defeated as a breach of discipline rather than in argument, so its leaders recanted or were exiled.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the Left also weakened itself: Zinoviev and Kamenev helped Stalin against Trotsky in 1924 and united with him only in 1926.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore that Stalin, free of the Left, could turn on Bukharin and the Right.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Left",
+     "United Opposition"
+    ],
+    "synonyms": [
+     "Trotsky",
+     "Zinoviev",
+     "Kamenev"
+    ],
+    "historians": [
+     "Rogovin"
+    ],
+    "extraLexicon": [
+     "expulsion",
+     "factions",
+     "Fifteenth Congress"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-POWER-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the political positions of Trotsky and Bukharin between 1924 and 1929.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1924,
+    1929
+   ],
+   "scope": "Trotsky and Bukharin",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Political positions",
+    "timeframe": "1924–1929",
+    "scope": "Trotsky and Bukharin",
+    "judgement": "Where did they agree, and why did both lose?"
+   },
+   "modelPlan": {
+    "thesis": "Trotsky and Bukharin held opposite economic positions, rapid industrialisation at the peasants' expense against 'growing into socialism' through NEP, but both were defeated by Stalin, who used each against the other and then adopted Trotsky's programme without Trotsky.",
+    "arguments": [
+     {
+      "claim": "Difference: industrialisation and the peasants.",
+      "evidence": [
+       "F-SPW-09"
+      ]
+     },
+     {
+      "claim": "Difference: permanent revolution versus socialism in one country.",
+      "evidence": [
+       "F-SPW-03"
+      ]
+     },
+     {
+      "claim": "Similarity: both defeated by Stalin's majority.",
+      "evidence": [
+       "F-SPW-13",
+       "F-SPW-14"
+      ]
+     },
+     {
+      "claim": "Stalin's use of both programmes.",
+      "evidence": [
+       "F-SPW-10",
+       "F-SPW-16"
+      ]
+     }
+    ],
+    "counter": "By 1928 Bukharin too opposed Stalin's methods, which brought the two former opponents closer.",
+    "judgementCriterion": "Why did both lose? Because Stalin controlled the majority and changed policy to isolate each."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Trotsky and Bukharin stood at opposite ends of the debate, but they shared the same fate.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Trotsky's Left wanted rapid industrialisation financed by squeezing the peasants, whereas Bukharin defended NEP and 'growing into socialism' through the smychka.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Stalin could ally with Bukharin to defeat Trotsky in 1927, and then turn on Bukharin's 'rightist deviation' in 1928.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both were also defeated because they relied on argument while Stalin controlled the party majority.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Their positions were therefore opposed, but their defeats were alike: each was isolated by Stalin's shifting alliances.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Trotsky",
+     "Bukharin"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "NEP",
+     "permanent revolution",
+     "socialism in one country"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-POWER-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the role of Lenin's legacy in the struggle for power between 1924 and 1929.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1924,
+    1929
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "The role of Lenin's legacy",
+    "timeframe": "1924–1929",
+    "scope": "The struggle for power",
+    "judgement": "Weapon, obstacle, or both?"
+   },
+   "modelPlan": {
+    "thesis": "Lenin's legacy shaped the struggle as a contest over loyalty to Lenin; it threatened Stalin through the Testament, but Stalin turned it into a weapon by presenting 'socialism in one country' as Leninist and Trotsky as a late convert.",
+    "arguments": [
+     {
+      "claim": "The Lenin cult.",
+      "evidence": [
+       "F-SPW-02",
+       "F-SPW-03"
+      ]
+     },
+     {
+      "claim": "The Testament.",
+      "evidence": [
+       "F-SPW-05",
+       "F-SPW-06"
+      ]
+     },
+     {
+      "claim": "Trotsky's past and the Lessons of October.",
+      "evidence": [
+       "F-SPW-07"
+      ]
+     },
+     {
+      "claim": "The ban on factions as Lenin's rule.",
+      "evidence": [
+       "F-SPW-12"
+      ]
+     }
+    ],
+    "counter": "The Testament criticised all the leading contenders, so it could not decide the succession by itself.",
+    "judgementCriterion": "Weapon or obstacle? An obstacle to Stalin in 1924, a weapon for him thereafter."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Lenin's legacy was both a threat to Stalin and his most useful weapon.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Lenin's Testament urged Stalin's removal, but in May 1924 the triumvirate sidetracked it, and Stalin presented 'socialism in one country' as consistent with Lenin's outlook.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the contest was fought over who was the truest Leninist, so Trotsky, who joined the Bolsheviks only in 1917, was at a disadvantage.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Lenin's legacy did not decide the outcome alone: the Testament also criticised Trotsky, and the votes were won through the apparatus.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Lenin's legacy therefore framed the struggle, and Stalin used that frame better than his rivals.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Lenin's legacy",
+     "Lenin"
+    ],
+    "synonyms": [
+     "Testament",
+     "Leninism"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "cult",
+     "socialism in one country",
+     "triumvirate"
+    ]
+   }
+  }
+ ]
+}

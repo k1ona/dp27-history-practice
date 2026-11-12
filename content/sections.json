@@ -1332,11 +1332,11 @@
       },
       "planCodes": [],
       "timeframe": [
-        1929,
+        1928,
         1941
       ],
-      "timeframeBasis": "Todd ch.3 'Stalin's Revolution, 1929–41'. Start year provisional until the first Five-Year Plan date is verified",
-      "timeframeProvisional": true,
+      "timeframeBasis": "Todd ch.3 'Stalin's Revolution, 1929–41'; start moved to 1928 because Seventeen Moments (1929/year-of-great-change, paragraph 2) dates the First Five-Year Plan 1928–32 (checked 2026-11-12)",
+      "timeframeProvisional": false,
       "status": "taught",
       "yearTaught": 1,
       "levels": [

@@ -1,0 +1,2772 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-16-Y1-KHRUSHCHEV",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 22,
+  "openingProblem": {
+   "problem": "In 1956 Khrushchev told the party that Stalin had been a criminal tyrant. In the same year Soviet tanks crushed Hungary, and in 1962 Soviet troops fired on Soviet workers. How far did Khrushchev really change the system Stalin built?",
+   "predictionPrompt": "Your prediction in one line: reformer or Stalinist in a new style?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "The succession to Stalin, 1953–1957",
+    "body": "When Stalin died in March 1953, power passed to a \"collective leadership\". **Georgii Malenkov** became head of government, **Lavrentii Beria** kept the secret police, and **Nikita Khrushchev**, by no means the best-known of Stalin's heirs, was a party secretary. Beria moved fastest to change policy: he repudiated the Doctors' Plot and backed the release of prisoners. Fearing his power, Khrushchev conspired with Malenkov and others to have Beria arrested on 26 June 1953; he was secretly tried and shot in December. Khrushchev was confirmed as First Secretary.\n\nMalenkov's \"New Course\" promised more consumer goods. Khrushchev countered with the **Virgin Lands** scheme and built alliances with Mikoian, Bulganin and Marshal Zhukov, and in February 1955 Malenkov was forced out as prime minister. As Lewis Siegelbaum puts it, Khrushchev won \"by reviving the party apparatus and reasserting its control\" over the state.\n\nIn 1957 he faced his greatest challenge. After he broke up the central industrial ministries into 107 regional economic councils, Molotov, Kaganovich and other Stalinists tried to remove him in the Presidium. Khrushchev appealed to the full Central Committee; with Zhukov's help in flying in his supporters, it denounced his opponents as an \"**anti-Party group**\". The losers were demoted, not shot, and Zhukov himself was retired in October.\n\nThis mattered because Khrushchev rose through the party apparatus, as Stalin had, but after Beria without killing his rivals, which meant that defeated opponents lost their posts rather than their lives.",
+    "argumentsThatWork": [
+     {
+      "claim": "Beria's removal decided the first round.",
+      "evidence": [
+       "F-KHR-02"
+      ],
+      "strongestCounter": "Beria had been the boldest reformer."
+     },
+     {
+      "claim": "The party apparatus gave Khrushchev victory.",
+      "evidence": [
+       "F-KHR-03"
+      ],
+      "strongestCounter": "Malenkov's programme was popular."
+     },
+     {
+      "claim": "The anti-Party group crisis confirmed his power.",
+      "evidence": [
+       "F-KHR-09"
+      ],
+      "strongestCounter": "He depended on Zhukov in 1957."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for, and the results of, Khrushchev's rise to power between 1953 and 1957.",
+     "To what extent was de-Stalinisation the main feature of Khrushchev's domestic policy between 1953 and 1964?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Khrushchev rose to power through the party apparatus, as Stalin had done, but after Beria without killing his rivals.",
+     "prove": "He conspired to remove Beria in June 1953, forced Malenkov out in February 1955, and in June 1957 the Central Committee defeated the 'anti-Party group'.",
+     "explain": "This meant that Khrushchev controlled the institution that decided leadership contests, so his rivals were outvoted.",
+     "test": "However, Beria was executed, and in 1957 Khrushchev depended on Zhukov's help, whom he then retired.",
+     "judge": "Khrushchev's rise therefore combined Stalin's method of controlling the apparatus with a new reluctance to kill defeated rivals."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year was the 'anti-Party group' defeated? (year)",
+      "factIds": [
+       "F-KHR-09"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1957,
+        "tolerance": 0,
+        "explanation": "June 1957."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who was arrested on 26 June 1953?",
+      "factIds": [
+       "F-KHR-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Lavrentii Beria",
+        "correct": true,
+        "explanation": "Correct: he was executed in December 1953."
+       },
+       {
+        "id": "b",
+        "text": "Georgii Malenkov",
+        "correct": false,
+        "explanation": "He resigned in 1955."
+       },
+       {
+        "id": "c",
+        "text": "Viacheslav Molotov",
+        "correct": false,
+        "explanation": "He was demoted in 1957."
+       },
+       {
+        "id": "d",
+        "text": "Georgii Zhukov",
+        "correct": false,
+        "explanation": "He was retired in 1957."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The Central Committee denounced Molotov and Kaganovich as an 'anti-Party group', and they were given minor posts.” Which argument does it support best?",
+      "factIds": [
+       "F-KHR-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Post-Stalin power struggles ended in demotion rather than death",
+        "correct": true,
+        "explanation": "Correct: a break with Stalin's methods."
+       },
+       {
+        "id": "b",
+        "text": "Khrushchev executed his rivals",
+        "correct": false,
+        "explanation": "Not in 1957."
+       },
+       {
+        "id": "c",
+        "text": "The Presidium removed Khrushchev in 1957",
+        "correct": false,
+        "explanation": "The Central Committee saved him."
+       },
+       {
+        "id": "d",
+        "text": "Molotov led the party after 1957",
+        "correct": false,
+        "explanation": "He was demoted."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "De-Stalinisation and its limits",
+    "body": "The new leaders could not rule as Stalin had. An amnesty in March 1953 freed over 1.5 million prisoners within three months, revolts broke out in camps such as Norilsk and Vorkuta, and between 1953 and 1956 some five million prisoners left the Gulag.\n\nIn February 1956, at a closed session of the **Twentieth Party Congress**, Khrushchev delivered his \"**Secret Speech**\". He detailed the arrest and execution of loyal communists in the 1930s, the unpreparedness of 1941, wartime blunders and the deportation of whole peoples, and blamed Stalin's \"cult of personality\". But he said nothing of collectivisation and the famine, and nothing of the responsibility of other leaders, including himself. Judt warns that the speech's significance \"should not be overstated\": Khrushchev was a true believer who blamed Stalin in order to save the Leninist system and his own generation.\n\nThe speech shook the communist world. In Poland workers demonstrated at Poznań, and in October 1956 a revolution broke out in Hungary. When Imre Nagy announced Hungary's withdrawal from the Warsaw Pact, Soviet troops attacked Budapest on 4 November; as many as 200,000 Hungarians fled and Nagy was executed in 1958.\n\nAt home the **Thaw** brought cautious cultural freedom. In 1962 Solzhenitsyn's account of a labour camp, *One Day in the Life of Ivan Denisovich*, was published. Yet Khrushchev also defended socialist realism, crudely attacked abstract art at the Manege exhibition in 1962, and allowed no direct criticism of the leadership.\n\nThis mattered because de-Stalinisation ended mass terror without ending the party's monopoly, which meant that reform was always limited by the need to protect the system Stalin had built.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Secret Speech broke with Stalin's cult.",
+      "evidence": [
+       "F-KHR-05"
+      ],
+      "strongestCounter": "It protected Lenin and the party."
+     },
+     {
+      "claim": "De-Stalinisation released millions.",
+      "evidence": [
+       "F-KHR-04"
+      ],
+      "strongestCounter": "Rehabilitation was slow."
+     },
+     {
+      "claim": "The Thaw had firm limits.",
+      "evidence": [
+       "F-KHR-18",
+       "F-KHR-19",
+       "F-KHR-08"
+      ],
+      "strongestCounter": "Solzhenitsyn was published in 1962."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the significance of Khrushchev's Secret Speech for the Soviet Union between 1956 and 1964.",
+     "To what extent was de-Stalinisation the main feature of Khrushchev's domestic policy between 1953 and 1964?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The Secret Speech was significant because it ended the cult of Stalin while preserving the system he built.",
+     "prove": "In February 1956 Khrushchev denounced the terror against loyal communists and the 'cult of personality', but said nothing of collectivisation or of his colleagues' responsibility.",
+     "explain": "This meant that the party could reject Stalin's crimes without questioning its own monopoly, so, as Judt argues, the speech strengthened Khrushchev within the party.",
+     "test": "However, it shook the communist world, contributing to the uprising in Hungary that Soviet troops crushed in November 1956.",
+     "judge": "The speech was therefore significant as a controlled break with Stalinism whose effects Khrushchev could not fully control."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many million prisoners were released from the Gulag in 1953–56, according to Judt? (number)",
+      "factIds": [
+       "F-KHR-04"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 5,
+        "tolerance": 0,
+        "explanation": "Some five million."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Secret Speech leave out?",
+      "factIds": [
+       "F-KHR-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Collectivisation and the famine, and the responsibility of other leaders",
+        "correct": true,
+        "explanation": "Correct: it blamed Stalin alone."
+       },
+       {
+        "id": "b",
+        "text": "The terror against party members",
+        "correct": false,
+        "explanation": "It described this in detail."
+       },
+       {
+        "id": "c",
+        "text": "The cult of personality",
+        "correct": false,
+        "explanation": "It denounced it."
+       },
+       {
+        "id": "d",
+        "text": "The deportations of nationalities",
+        "correct": false,
+        "explanation": "It mentioned them."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Soviet troops attacked Budapest on 4 November 1956 after Nagy announced withdrawal from the Warsaw Pact.” Which argument does it support best?",
+      "factIds": [
+       "F-KHR-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "De-Stalinisation did not extend to tolerating challenges to Soviet control",
+        "correct": true,
+        "explanation": "Correct: reform had firm limits."
+       },
+       {
+        "id": "b",
+        "text": "Khrushchev allowed Hungary to leave the Warsaw Pact",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The Secret Speech had no effect abroad",
+        "correct": false,
+        "explanation": "It helped trigger unrest."
+       },
+       {
+        "id": "d",
+        "text": "Nagy was protected by Moscow",
+        "correct": false,
+        "explanation": "He was executed in 1958."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "Agriculture, welfare and the economy",
+    "body": "Khrushchev's great passion was agriculture. His **Virgin Lands** campaign ploughed 19 million hectares of steppe in Kazakhstan and Siberia in 1954 and 14 million more in 1955. In 1956 the harvest was the largest in Soviet history, with more than half its grain from the new lands. But single-crop farming exhausted the soil: Judt reports half a million tons of topsoil washing away each year. His **corn campaign** expanded maize to 37 million hectares by 1962, much of it in unsuitable climates, and in the cool, wet year of 1962 most of the crop died. After the disastrous harvest of 1963, the USSR had to import grain from the West. Meanwhile the tiny private plots, 3 per cent of the land, produced over a third of agricultural output.\n\nIn welfare, Khrushchev's record was better. In 1956 the 1940 law that made leaving a job a crime was abolished; a minimum wage, a shorter working day, maternity leave and a national pension scheme followed. Housing became a priority: in 1956–60 it took 23.5 per cent of all investment, and millions moved into cheap prefabricated blocks, mocked as *khrushcheby*. But the 1961 promise to end the housing shortage within a decade was not kept.\n\nThe economy remained fragile. When meat and dairy prices were raised in 1962, workers at **Novocherkassk** protested; troops opened fire on 2 June, killing twenty-four people, and seven protesters were later executed.\n\nThis mattered because Khrushchev raised living standards but failed to fix agriculture, which meant that his promises of plenty made his failures more visible.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Virgin Lands brought brief success.",
+      "evidence": [
+       "F-KHR-10"
+      ],
+      "strongestCounter": "Erosion followed."
+     },
+     {
+      "claim": "Agricultural campaigns ended in failure.",
+      "evidence": [
+       "F-KHR-11",
+       "F-KHR-12"
+      ],
+      "strongestCounter": "Private plots were very productive."
+     },
+     {
+      "claim": "Welfare and housing improved.",
+      "evidence": [
+       "F-KHR-14",
+       "F-KHR-15"
+      ],
+      "strongestCounter": "Promises outran results."
+     }
+    ],
+    "howItGetsAsked": [
+     "“Khrushchev's agricultural policies were a failure.” Discuss with reference to the period 1953 to 1964.",
+     "Analyse the reasons why Khrushchev was removed from power between 1962 and 1964."
+    ],
+    "useItInAnEssay": {
+     "claim": "Khrushchev's agricultural policies brought short-term success and long-term failure.",
+     "prove": "The Virgin Lands produced over half of the record 125-million-ton harvest of 1956, but by January 1964, after the disastrous 1963 harvest, the USSR was importing grain.",
+     "explain": "This meant that his campaigns raised output briefly while exhausting the soil, so the promised food surpluses never came.",
+     "test": "However, his reforms improved peasants' and workers' lives in other ways, and private plots produced over a third of agricultural output.",
+     "judge": "His agricultural policies were therefore a failure measured against his own promises."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many million hectares were ploughed in the Virgin Lands in 1954? (number)",
+      "factIds": [
+       "F-KHR-10"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 19,
+        "tolerance": 0,
+        "explanation": "19 million hectares."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened at Novocherkassk on 2 June 1962?",
+      "factIds": [
+       "F-KHR-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Troops fired on workers protesting price rises, killing twenty-four",
+        "correct": true,
+        "explanation": "Correct: seven were later executed."
+       },
+       {
+        "id": "b",
+        "text": "Gagarin landed after his flight",
+        "correct": false,
+        "explanation": "That was April 1961, elsewhere."
+       },
+       {
+        "id": "c",
+        "text": "A Virgin Lands harvest record",
+        "correct": false,
+        "explanation": "Not what happened."
+       },
+       {
+        "id": "d",
+        "text": "The anti-Party group was defeated",
+        "correct": false,
+        "explanation": "That was 1957."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The 3 per cent of land in private hands produced over a third of agricultural output.” Which argument does it support best?",
+      "factIds": [
+       "F-KHR-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Collective agriculture was far less productive than private plots",
+        "correct": true,
+        "explanation": "Correct: socialism depended on the private sector."
+       },
+       {
+        "id": "b",
+        "text": "Collective farms were highly efficient",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Private plots were insignificant",
+        "correct": false,
+        "explanation": "They were very productive."
+       },
+       {
+        "id": "d",
+        "text": "Khrushchev abolished private plots",
+        "correct": false,
+        "explanation": "Not what the fact shows."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "Prestige abroad and the fall of 1964",
+    "body": "Khrushchev wanted \"peaceful coexistence\" with the West. In 1955 he agreed the Austrian State Treaty and visited Tito's Yugoslavia to repair relations. Soviet science gave him propaganda triumphs: **Sputnik**, the first artificial satellite, was launched on 4 October 1957, and on 12 April 1961 **Iurii Gagarin** became the first man in space. But Khrushchev's boasts of missile strength were empty: by September 1961 US intelligence estimated that the Soviet Union had no more than twenty-five intercontinental missiles. The Twenty-Second Party Congress of October 1961 revealed a deep split with China.\n\nBy 1964 his colleagues had lost patience. Agricultural failure, grain imports, the shock of Novocherkassk and his reorganisation of economic administration had alienated them. In the Kremlin coup of **October 1964**, Judt writes, the plotters were irritated by his policy failures and his autocratic style, but above all by his inconsistencies: others might misread his unpredictable tolerance. Khrushchev was removed from office; he lived until 1971.\n\nThis mattered because Khrushchev was removed by his colleagues and lived on until 1971, which meant that his fall was itself evidence of how far the Soviet system had changed since Stalin.",
+    "argumentsThatWork": [
+     {
+      "claim": "Space triumphs brought prestige.",
+      "evidence": [
+       "F-KHR-16"
+      ],
+      "strongestCounter": "Missile strength was exaggerated."
+     },
+     {
+      "claim": "Foreign policy mixed coexistence with crisis.",
+      "evidence": [
+       "F-KHR-21",
+       "F-KHR-08"
+      ],
+      "strongestCounter": "The Sino-Soviet split deepened."
+     },
+     {
+      "claim": "Failures and inconsistency led to his removal.",
+      "evidence": [
+       "F-KHR-20",
+       "F-KHR-11",
+       "F-KHR-23"
+      ],
+      "strongestCounter": "He lived until 1971."
+     }
+    ],
+    "howItGetsAsked": [
+     "Analyse the reasons why Khrushchev was removed from power between 1962 and 1964.",
+     "Compare and contrast the successes and failures of Khrushchev's domestic and foreign policies between 1953 and 1964."
+    ],
+    "useItInAnEssay": {
+     "claim": "Khrushchev was removed because his failures and unpredictability alarmed his colleagues.",
+     "prove": "After the disastrous 1963 harvest the USSR imported grain by January 1964, and Judt writes that the plotters of October 1964 were irritated by his policy failures, autocratic style and inconsistencies.",
+     "explain": "This meant that the party leadership saw him as a risk to stability, so it used its power to remove him.",
+     "test": "However, the fact that he was removed and lived until 1971 showed that the system he had reformed no longer killed defeated leaders.",
+     "judge": "Khrushchev therefore fell because of his failures, in a manner that reflected his own reforms."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did Gagarin become the first man in space? (year)",
+      "factIds": [
+       "F-KHR-16"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1961,
+        "tolerance": 0,
+        "explanation": "12 April 1961."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Judt, what above all made the plotters of 1964 uneasy about Khrushchev?",
+      "factIds": [
+       "F-KHR-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "His inconsistencies",
+        "correct": true,
+        "explanation": "Correct: alongside policy failures and autocratic style."
+       },
+       {
+        "id": "b",
+        "text": "His support for Stalin",
+        "correct": false,
+        "explanation": "He had denounced Stalin."
+       },
+       {
+        "id": "c",
+        "text": "His age alone",
+        "correct": false,
+        "explanation": "Not Judt's explanation."
+       },
+       {
+        "id": "d",
+        "text": "His success in agriculture",
+        "correct": false,
+        "explanation": "Agriculture was a failure."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-KHRUSHCHEV-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “By September 1961 US intelligence estimated no more than twenty-five Soviet intercontinental missiles.” Which argument does it support best?",
+      "factIds": [
+       "F-KHR-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Khrushchev's claims of missile superiority were exaggerated",
+        "correct": true,
+        "explanation": "Correct: space success masked military weakness."
+       },
+       {
+        "id": "b",
+        "text": "The USSR led the arms race",
+        "correct": false,
+        "explanation": "Not in ICBMs."
+       },
+       {
+        "id": "c",
+        "text": "Sputnik was a failure",
+        "correct": false,
+        "explanation": "It was a triumph."
+       },
+       {
+        "id": "d",
+        "text": "The USSR had no rockets",
+        "correct": false,
+        "explanation": "It launched Sputnik and Gagarin."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1953,
+      "month": 3,
+      "text": "Stalin dies; amnesty",
+      "factId": "F-KHR-04"
+     },
+     {
+      "year": 1953,
+      "month": 6,
+      "day": 26,
+      "text": "Beria arrested",
+      "factId": "F-KHR-02"
+     },
+     {
+      "year": 1954,
+      "text": "Virgin Lands campaign begins",
+      "factId": "F-KHR-10"
+     },
+     {
+      "year": 1955,
+      "month": 2,
+      "day": 8,
+      "text": "Malenkov resigns",
+      "factId": "F-KHR-03"
+     },
+     {
+      "year": 1956,
+      "month": 2,
+      "text": "Secret Speech",
+      "factId": "F-KHR-05"
+     },
+     {
+      "year": 1956,
+      "month": 11,
+      "day": 4,
+      "text": "Soviet attack on Budapest",
+      "factId": "F-KHR-08"
+     },
+     {
+      "year": 1957,
+      "month": 6,
+      "text": "'Anti-Party group' defeated",
+      "factId": "F-KHR-09"
+     },
+     {
+      "year": 1957,
+      "month": 10,
+      "day": 4,
+      "text": "Sputnik launched",
+      "factId": "F-KHR-16"
+     },
+     {
+      "year": 1961,
+      "month": 4,
+      "day": 12,
+      "text": "Gagarin in space",
+      "factId": "F-KHR-16"
+     },
+     {
+      "year": 1962,
+      "month": 6,
+      "day": 2,
+      "text": "Novocherkassk shootings",
+      "factId": "F-KHR-17"
+     },
+     {
+      "year": 1964,
+      "month": 1,
+      "text": "Grain imported from the West",
+      "factId": "F-KHR-11"
+     },
+     {
+      "year": 1964,
+      "month": 10,
+      "text": "Khrushchev removed",
+      "factId": "F-KHR-20"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Stalin's death and collective leadership",
+      "factId": "F-KHR-01"
+     },
+     {
+      "id": "n2",
+      "text": "Khrushchev wins through the party apparatus",
+      "factId": "F-KHR-03"
+     },
+     {
+      "id": "n3",
+      "text": "Secret Speech and release of prisoners",
+      "factId": "F-KHR-05"
+     },
+     {
+      "id": "n4",
+      "text": "Agricultural campaigns: success, then failure",
+      "factId": "F-KHR-11"
+     },
+     {
+      "id": "n5",
+      "text": "Unrest and repression: Hungary, Novocherkassk",
+      "factId": "F-KHR-17"
+     },
+     {
+      "id": "n6",
+      "text": "Colleagues remove him (October 1964)",
+      "factId": "F-KHR-20"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Beria and Malenkov were outmanoeuvred"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "A secure leader could break with Stalin's cult"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "He staked his reputation on feeding the people"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Shortages and price rises provoked protest"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Failures and inconsistency alarmed the leadership"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Nikita Khrushchev",
+     "role": "First Secretary 1953–1964",
+     "whyItMatters": "Secret Speech; Virgin Lands; removed in 1964.",
+     "factIds": [
+      "F-KHR-05",
+      "F-KHR-10",
+      "F-KHR-20"
+     ]
+    },
+    {
+     "name": "Lavrentii Beria",
+     "role": "Secret police chief",
+     "whyItMatters": "Arrested June 1953, executed December 1953.",
+     "factIds": [
+      "F-KHR-02"
+     ]
+    },
+    {
+     "name": "Georgii Malenkov",
+     "role": "Prime minister 1953–1955",
+     "whyItMatters": "'New Course' for consumer goods; forced out in 1955.",
+     "factIds": [
+      "F-KHR-03"
+     ]
+    },
+    {
+     "name": "Viacheslav Molotov",
+     "role": "Stalinist veteran",
+     "whyItMatters": "Led the 'anti-Party group' in 1957.",
+     "factIds": [
+      "F-KHR-09"
+     ]
+    },
+    {
+     "name": "Georgii Zhukov",
+     "role": "Defence minister",
+     "whyItMatters": "Saved Khrushchev in 1957, then retired.",
+     "factIds": [
+      "F-KHR-09"
+     ]
+    },
+    {
+     "name": "Aleksandr Solzhenitsyn",
+     "role": "Writer",
+     "whyItMatters": "Ivan Denisovich published in 1962.",
+     "factIds": [
+      "F-KHR-18"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Successes",
+     "Failures"
+    ],
+    "rows": [
+     {
+      "criterion": "Repression",
+      "cells": [
+       "Millions released from the Gulag",
+       "Hungary crushed; Novocherkassk shootings"
+      ],
+      "factIds": [
+       "F-KHR-04",
+       "F-KHR-17"
+      ]
+     },
+     {
+      "criterion": "Agriculture",
+      "cells": [
+       "Record harvest of 1956",
+       "Erosion; corn disaster; grain imports in 1964"
+      ],
+      "factIds": [
+       "F-KHR-10",
+       "F-KHR-11"
+      ]
+     },
+     {
+      "criterion": "Living standards",
+      "cells": [
+       "Minimum wage, pensions, mass housing",
+       "Housing shortage not ended"
+      ],
+      "factIds": [
+       "F-KHR-14",
+       "F-KHR-15"
+      ]
+     },
+     {
+      "criterion": "Prestige",
+      "cells": [
+       "Sputnik and Gagarin",
+       "Missile boasts empty; split with China"
+      ],
+      "factIds": [
+       "F-KHR-16",
+       "F-KHR-22"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-KHR-03",
+    "year": 1955,
+    "text": "Khrushchev won the succession by 'reviving the party apparatus' (Siegelbaum).",
+    "supports": [
+     "The apparatus gave Khrushchev victory"
+    ],
+    "lexicon": [
+     "collective leadership",
+     "Malenkov"
+    ]
+   },
+   {
+    "factId": "F-KHR-05",
+    "year": 1956,
+    "text": "Secret Speech (February 1956): Stalin's terror and 'cult of personality' denounced.",
+    "supports": [
+     "Khrushchev broke with the cult"
+    ],
+    "alsoWorksFor": [
+     "P3-16-Y1-STALIN-CONTROL"
+    ],
+    "lexicon": [
+     "Secret Speech",
+     "de-Stalinisation"
+    ]
+   },
+   {
+    "factId": "F-KHR-04",
+    "year": 1956,
+    "text": "Some five million released from the Gulag, 1953–56.",
+    "supports": [
+     "Mass terror ended"
+    ],
+    "lexicon": [
+     "Gulag",
+     "amnesty"
+    ]
+   },
+   {
+    "factId": "F-KHR-08",
+    "year": 1956,
+    "text": "Hungary crushed (November 1956); Nagy executed in 1958.",
+    "supports": [
+     "De-Stalinisation had limits"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B2-PROTEST-TO-1968"
+    ],
+    "lexicon": [
+     "Hungarian uprising",
+     "Warsaw Pact"
+    ]
+   },
+   {
+    "factId": "F-KHR-10",
+    "year": 1956,
+    "text": "Virgin Lands: record harvest of 1956, then erosion.",
+    "supports": [
+     "Agriculture brought brief success"
+    ],
+    "lexicon": [
+     "Virgin Lands",
+     "harvest"
+    ]
+   },
+   {
+    "factId": "F-KHR-11",
+    "year": 1964,
+    "text": "Grain imported from the West by January 1964.",
+    "supports": [
+     "Agricultural policy failed"
+    ],
+    "lexicon": [
+     "grain imports",
+     "harvest failure"
+    ]
+   },
+   {
+    "factId": "F-KHR-20",
+    "year": 1964,
+    "text": "October 1964: removed for failures, autocratic style and inconsistency.",
+    "supports": [
+     "Khrushchev fell without violence"
+    ],
+    "alsoWorksFor": [
+     "P3-16-Y1-BREZHNEV"
+    ],
+    "lexicon": [
+     "Kremlin coup",
+     "removal"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "The Secret Speech's significance 'should not be overstated': Khrushchev was a Leninist true believer who confined responsibility to Stalin in order to confirm the legitimacy of the communist project and of Stalin's successors.",
+    "useItLikeThis": "Judt's view supports the claim that de-Stalinisation was a controlled reform to save the system, which suggests Khrushchev's break with Stalinism was limited by design.",
+    "factId": "F-KHR-06"
+   },
+   {
+    "historian": "Lewis Siegelbaum",
+    "argument": "Khrushchev won the battle over Stalin's succession 'by reviving the party apparatus and reasserting its control' (Seventeen Moments, 'Succession to Stalin').",
+    "useItLikeThis": "Siegelbaum's view supports the claim that Khrushchev's power rested on the party machine, which suggests his fall in 1964 came when that machine turned against him.",
+    "factId": "F-KHR-03"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Secret Speech condemned the whole Soviet system.",
+    "right": "It blamed **Stalin alone** and left out collectivisation and the party's responsibility."
+   },
+   {
+    "wrong": "De-Stalinisation brought political freedom.",
+    "right": "Hungary was **crushed** in 1956 and protesters were shot at **Novocherkassk** in 1962."
+   },
+   {
+    "wrong": "The Virgin Lands were a lasting success.",
+    "right": "After the record of 1956, **erosion** set in and grain was imported by 1964."
+   },
+   {
+    "wrong": "Khrushchev was overthrown by violence.",
+    "right": "His colleagues **removed him** in October 1964, and he lived until 1971."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1953,
+     "month": 6,
+     "text": "Beria arrested"
+    },
+    {
+     "year": 1955,
+     "month": 2,
+     "text": "Malenkov resigns"
+    },
+    {
+     "year": 1956,
+     "month": 2,
+     "text": "Secret Speech"
+    },
+    {
+     "year": 1956,
+     "month": 11,
+     "text": "Hungary crushed"
+    },
+    {
+     "year": 1957,
+     "month": 6,
+     "text": "Anti-Party group"
+    },
+    {
+     "year": 1957,
+     "month": 10,
+     "text": "Sputnik"
+    },
+    {
+     "year": 1962,
+     "month": 6,
+     "text": "Novocherkassk"
+    },
+    {
+     "year": 1964,
+     "month": 10,
+     "text": "Khrushchev removed"
+    }
+   ],
+   "keyArguments": [
+    "Khrushchev won the succession through the party apparatus; after Beria, rivals were demoted, not shot.",
+    "The Secret Speech denounced Stalin's crimes but protected the system (Judt).",
+    "Millions left the Gulag, yet Hungary was crushed and Novocherkassk shot.",
+    "Agricultural campaigns succeeded briefly and then failed; welfare and housing improved.",
+    "His colleagues removed him in 1964 for failures and inconsistency."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Amnesty releases prisoners",
+     "year": 1953,
+     "month": 3,
+     "factId": "F-KHR-04"
+    },
+    {
+     "id": "b",
+     "text": "Beria arrested",
+     "year": 1953,
+     "month": 6,
+     "factId": "F-KHR-02"
+    },
+    {
+     "id": "c",
+     "text": "Beria executed",
+     "year": 1953,
+     "month": 12,
+     "factId": "F-KHR-02"
+    },
+    {
+     "id": "d",
+     "text": "Malenkov resigns",
+     "year": 1955,
+     "month": 2,
+     "factId": "F-KHR-03"
+    },
+    {
+     "id": "e",
+     "text": "Secret Speech",
+     "year": 1956,
+     "month": 2,
+     "factId": "F-KHR-05"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Labour law of 1940 abolished",
+     "year": 1956,
+     "month": 4,
+     "factId": "F-KHR-14"
+    },
+    {
+     "id": "b",
+     "text": "Soviet attack on Budapest",
+     "year": 1956,
+     "month": 11,
+     "factId": "F-KHR-08"
+    },
+    {
+     "id": "c",
+     "text": "'Anti-Party group' defeated",
+     "year": 1957,
+     "month": 6,
+     "factId": "F-KHR-09"
+    },
+    {
+     "id": "d",
+     "text": "Sputnik launched",
+     "year": 1957,
+     "month": 10,
+     "factId": "F-KHR-16"
+    },
+    {
+     "id": "e",
+     "text": "Gagarin in space",
+     "year": 1961,
+     "month": 4,
+     "factId": "F-KHR-16"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Virgin Lands campaign begins",
+     "year": 1954,
+     "factId": "F-KHR-10"
+    },
+    {
+     "id": "b",
+     "text": "Record harvest",
+     "year": 1956,
+     "factId": "F-KHR-10"
+    },
+    {
+     "id": "c",
+     "text": "Novocherkassk shootings",
+     "year": 1962,
+     "month": 6,
+     "factId": "F-KHR-17"
+    },
+    {
+     "id": "d",
+     "text": "Grain imported from the West",
+     "year": 1964,
+     "month": 1,
+     "factId": "F-KHR-11"
+    },
+    {
+     "id": "e",
+     "text": "Khrushchev removed",
+     "year": 1964,
+     "month": 10,
+     "factId": "F-KHR-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role after Stalin's death.",
+   "pairs": [
+    {
+     "left": "Beria",
+     "right": "Secret police chief arrested in June 1953",
+     "explanation": "Executed in December."
+    },
+    {
+     "left": "Malenkov",
+     "right": "Head of government with a 'New Course' for consumer goods",
+     "explanation": "Resigned in 1955."
+    },
+    {
+     "left": "Molotov",
+     "right": "Leader of the 'anti-Party group'",
+     "explanation": "Defeated in 1957."
+    },
+    {
+     "left": "Zhukov",
+     "right": "Marshal who helped Khrushchev in 1957",
+     "explanation": "Retired in October 1957."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many regional economic councils (sovnarkhozy) did Khrushchev create in 1957? (number)",
+   "factIds": [
+    "F-KHR-09"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 107,
+     "tolerance": 0,
+     "explanation": "107."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many million prisoners were released within three months of the March 1953 amnesty? (over … million, e.g. 1.5)",
+   "factIds": [
+    "F-KHR-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1.5,
+     "tolerance": 0.1,
+     "explanation": "Over 1.5 million."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people were killed at Novocherkassk on 2 June 1962? (number)",
+   "factIds": [
+    "F-KHR-17"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 24,
+     "tolerance": 0,
+     "explanation": "Twenty-four."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of total capital investment went to housing in 1956–60? (per cent, e.g. 23.5)",
+   "factIds": [
+    "F-KHR-15"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 23.5,
+     "tolerance": 0.1,
+     "explanation": "23.5 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were part of de-Stalinisation? Choose all that apply.",
+   "factIds": [
+    "F-KHR-04",
+    "F-KHR-05",
+    "F-KHR-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The release of millions from the Gulag",
+     "correct": true,
+     "explanation": "Yes: some five million in 1953–56."
+    },
+    {
+     "id": "b",
+     "text": "The Secret Speech",
+     "correct": true,
+     "explanation": "Yes: February 1956."
+    },
+    {
+     "id": "c",
+     "text": "Abolishing the 1940 law criminalising leaving a job",
+     "correct": true,
+     "explanation": "Yes: April 1956."
+    },
+    {
+     "id": "d",
+     "text": "Free elections between parties",
+     "correct": false,
+     "explanation": "No: the party kept its monopoly."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these contributed to Khrushchev's fall? Choose all that apply.",
+   "factIds": [
+    "F-KHR-11",
+    "F-KHR-17",
+    "F-KHR-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Agricultural failure and grain imports",
+     "correct": true,
+     "explanation": "Yes: after the 1963 harvest."
+    },
+    {
+     "id": "b",
+     "text": "The Novocherkassk protests",
+     "correct": true,
+     "explanation": "Yes: food prices provoked unrest."
+    },
+    {
+     "id": "c",
+     "text": "His inconsistencies and autocratic style",
+     "correct": true,
+     "explanation": "Yes: Judt's explanation."
+    },
+    {
+     "id": "d",
+     "text": "Defeat in a general election",
+     "correct": false,
+     "explanation": "No: there were no competitive elections."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The 1956 harvest was the largest in Soviet history, with over half from the Virgin Lands.” Which argument does it support?",
+   "factIds": [
+    "F-KHR-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Virgin Lands brought real short-term success",
+     "correct": true,
+     "explanation": "Correct: before erosion set in."
+    },
+    {
+     "id": "b",
+     "text": "The Virgin Lands failed from the start",
+     "correct": false,
+     "explanation": "Not in 1956."
+    },
+    {
+     "id": "c",
+     "text": "Collectivisation was abolished",
+     "correct": false,
+     "explanation": "Not what the fact shows."
+    },
+    {
+     "id": "d",
+     "text": "The USSR imported grain in 1956",
+     "correct": false,
+     "explanation": "It did so in 1964."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Secret Speech said nothing of collectivisation or of other leaders' responsibility.” Which argument does it support?",
+   "factIds": [
+    "F-KHR-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Khrushchev's de-Stalinisation was designed to protect the party",
+     "correct": true,
+     "explanation": "Correct: Judt's point."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev rejected the whole Soviet system",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Collectivisation was abolished in 1956",
+     "correct": false,
+     "explanation": "Collective farms remained."
+    },
+    {
+     "id": "d",
+     "text": "The speech was published in Pravda",
+     "correct": false,
+     "explanation": "It was secret."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Khrushchev's Secret Speech of 1956 was published at once in the Soviet press.”",
+   "factIds": [
+    "F-KHR-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was delivered in a closed session and not published in the Soviet press",
+     "correct": true,
+     "explanation": "Correct: the US State Department released a copy."
+    },
+    {
+     "id": "b",
+     "text": "It was delivered in 1953",
+     "correct": false,
+     "explanation": "It was delivered in February 1956."
+    },
+    {
+     "id": "c",
+     "text": "It praised Stalin",
+     "correct": false,
+     "explanation": "It denounced him."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it was secret."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Khrushchev had his defeated rivals shot in 1957, as Stalin had done.”",
+   "factIds": [
+    "F-KHR-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The 'anti-Party group' were demoted to minor posts, not shot",
+     "correct": true,
+     "explanation": "Correct: a break with Stalin's methods."
+    },
+    {
+     "id": "b",
+     "text": "The anti-Party group won in 1957",
+     "correct": false,
+     "explanation": "It was defeated."
+    },
+    {
+     "id": "c",
+     "text": "Zhukov led the anti-Party group",
+     "correct": false,
+     "explanation": "He helped Khrushchev."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: they were demoted."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Khrushchev's domestic policies between 1953 and 1964. Is the Kosygin reform of 1965 inside or outside the timeframe?",
+   "factIds": [
+    "F-KHR-20"
+   ],
+   "timeframe": [
+    1953,
+    1964
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it belongs to the Brezhnev era",
+     "correct": true,
+     "explanation": "Correct: Khrushchev was removed in October 1964."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1965 is after 1964."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it continued his reforms",
+     "correct": false,
+     "explanation": "The dates fall outside."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was Malenkov's 'New Course'?",
+   "factIds": [
+    "F-KHR-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A policy stressing consumer goods production",
+     "correct": true,
+     "explanation": "Correct: more radical than Khrushchev's approach."
+    },
+    {
+     "id": "b",
+     "text": "The Virgin Lands campaign",
+     "correct": false,
+     "explanation": "That was Khrushchev's."
+    },
+    {
+     "id": "c",
+     "text": "A new purge",
+     "correct": false,
+     "explanation": "Not what it was."
+    },
+    {
+     "id": "d",
+     "text": "A military alliance",
+     "correct": false,
+     "explanation": "Not what it was."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to the corn crop in 1962?",
+   "factIds": [
+    "F-KHR-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Some 70–80 per cent of the planted acreage died in a cool, wet year",
+     "correct": true,
+     "explanation": "Correct: 'Mr Corn' lost credibility."
+    },
+    {
+     "id": "b",
+     "text": "It produced a record harvest",
+     "correct": false,
+     "explanation": "Not in 1962."
+    },
+    {
+     "id": "c",
+     "text": "It was abandoned before planting",
+     "correct": false,
+     "explanation": "37 million hectares were sown."
+    },
+    {
+     "id": "d",
+     "text": "It was exported to the US",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which book was published in Novy Mir in 1962?",
+   "factIds": [
+    "F-KHR-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Solzhenitsyn's One Day in the Life of Ivan Denisovich",
+     "correct": true,
+     "explanation": "Correct: a high point of the Thaw."
+    },
+    {
+     "id": "b",
+     "text": "Pasternak's Doctor Zhivago",
+     "correct": false,
+     "explanation": "It was rejected in 1956."
+    },
+    {
+     "id": "c",
+     "text": "The Short Course",
+     "correct": false,
+     "explanation": "That was 1938."
+    },
+    {
+     "id": "d",
+     "text": "Ehrenburg's The Thaw",
+     "correct": false,
+     "explanation": "That was 1954."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the 22nd Party Congress of October 1961 reveal?",
+   "factIds": [
+    "F-KHR-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The extent of the split between the USSR and China",
+     "correct": true,
+     "explanation": "Correct: the Sino-Soviet schism."
+    },
+    {
+     "id": "b",
+     "text": "Stalin's crimes for the first time",
+     "correct": false,
+     "explanation": "That was 1956."
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev's resignation",
+     "correct": false,
+     "explanation": "That came in 1964."
+    },
+    {
+     "id": "d",
+     "text": "A new Five-Year Plan",
+     "correct": false,
+     "explanation": "Not what Judt describes."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which welfare measures were introduced under Khrushchev?",
+   "factIds": [
+    "F-KHR-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A minimum wage, a shorter working day, maternity leave and a national pension scheme",
+     "correct": true,
+     "explanation": "Correct: an embryonic welfare state."
+    },
+    {
+     "id": "b",
+     "text": "Free private enterprise",
+     "correct": false,
+     "explanation": "Not introduced."
+    },
+    {
+     "id": "c",
+     "text": "Unemployment benefit for strikers",
+     "correct": false,
+     "explanation": "Not introduced."
+    },
+    {
+     "id": "d",
+     "text": "A ban on housing construction",
+     "correct": false,
+     "explanation": "Housing was a priority."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was de-Stalinisation the main feature of Khrushchev's domestic policy between 1953 and 1964?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "de-Stalinisation",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main feature of Khrushchev's domestic policy",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1953 and 1964",
+     "answer": "timeframe",
+     "explanation": "Khrushchev's period of power."
+    },
+    {
+     "id": "s5",
+     "text": "main feature",
+     "answer": "judgement",
+     "explanation": "Did de-Stalinisation outweigh agriculture, welfare and the economy?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“'Khrushchev's agricultural policies were a failure.' Discuss with reference to the period 1953 to 1964.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "Khrushchev's agricultural policies",
+     "answer": "factor",
+     "explanation": "The policies."
+    },
+    {
+     "id": "s3",
+     "text": "were a failure",
+     "answer": "scope",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s4",
+     "text": "1953 to 1964",
+     "answer": "timeframe",
+     "explanation": "From the Virgin Lands to grain imports."
+    },
+    {
+     "id": "s5",
+     "text": "failure",
+     "answer": "judgement",
+     "explanation": "By which measure: harvests, promises, or long-term effects?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was de-Stalinisation the main feature of Khrushchev's domestic policy between 1953 and 1964?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "De-Stalinisation defined Khrushchev's rule by ending mass terror and the cult, but his domestic policy was dominated in practice by agriculture and living standards, where his campaigns shaped his reputation and his fall.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against another."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev gave the Secret Speech.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "De-Stalinisation was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "De-Stalinisation was his only policy.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'Khrushchev's agricultural policies were a failure.' Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "They brought a short-term success, the record harvest of 1956, but erosion, the corn disaster and grain imports by 1964 show they failed against Khrushchev's own promises.",
+     "correct": true,
+     "explanation": "Correct: tests the claim with evidence."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev liked corn.",
+     "correct": false,
+     "explanation": "Not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Agriculture was hard.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "His policies were a complete success.",
+     "correct": false,
+     "explanation": "Contradicted by the evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In February 1956 Khrushchev delivered the Secret Speech.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because he blamed Stalin alone, he could reject the terror without questioning the party's rule.",
+     "answer": "analysis",
+     "explanation": "Explains a purpose."
+    },
+    {
+     "id": "s3",
+     "text": "In January 1964 the USSR imported grain from the West.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that his promises of plenty became evidence against him, so his colleagues lost confidence.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Five million released from the Gulag",
+     "right": "De-Stalinisation ended mass terror",
+     "explanation": "1953–56."
+    },
+    {
+     "left": "Budapest attacked on 4 November 1956",
+     "right": "De-Stalinisation had limits",
+     "explanation": "Hungary."
+    },
+    {
+     "left": "Record harvest of 1956",
+     "right": "The Virgin Lands brought brief success",
+     "explanation": "125 million tons."
+    },
+    {
+     "left": "Grain imported by January 1964",
+     "right": "Agricultural policy failed",
+     "explanation": "After the 1963 harvest."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Khrushchev was a reformer.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Khrushchev released millions from the Gulag, denounced Stalin's cult and introduced pensions and a minimum wage, he reformed the way the system treated its citizens; but by crushing Hungary and shooting protesters at Novocherkassk he showed that reform stopped where the party's power was challenged.",
+     "correct": true,
+     "explanation": "Correct: evidence and limits."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev was a big reformer.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev led the USSR from 1953.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Khrushchev changed everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Khrushchev ended Stalinism.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The party's monopoly remained: Soviet troops crushed Hungary in 1956, troops fired on workers at Novocherkassk in 1962, and the Thaw allowed no direct criticism of the leadership.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev was Stalin's colleague.",
+     "correct": false,
+     "explanation": "Not enough on its own."
+    },
+    {
+     "id": "c",
+     "text": "Stalinism is hard to define.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "d",
+     "text": "Some people liked Stalin.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was de-Stalinisation the main feature of Khrushchev's domestic policy?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by its impact on the system, de-Stalinisation was the main feature, since it ended mass terror; judged by what decided his fate, agriculture mattered more.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Khrushchev did many things.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Stalin was bad.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, reform is always difficult.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, Khrushchev's rise to power between 1953 and 1957.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Control of the party apparatus",
+     "answer": "causes",
+     "explanation": "Siegelbaum's view."
+    },
+    {
+     "id": "s2",
+     "text": "Alliance to remove Beria",
+     "answer": "causes",
+     "explanation": "June 1953."
+    },
+    {
+     "id": "s3",
+     "text": "Malenkov forced out",
+     "answer": "effects",
+     "explanation": "February 1955."
+    },
+    {
+     "id": "s4",
+     "text": "Secret Speech",
+     "answer": "effects",
+     "explanation": "Possible once he was secure."
+    },
+    {
+     "id": "s5",
+     "text": "Defeat of the 'anti-Party group'",
+     "answer": "effects",
+     "explanation": "June 1957."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-16-Y1-KHRUSHCHEV-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was de-Stalinisation the main feature of Khrushchev's domestic policy between 1953 and 1964?",
+   "commandTerm": "to what extent",
+   "namedFactor": "de-Stalinisation",
+   "features": [
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1953,
+    1964
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "De-Stalinisation, weighed first",
+    "timeframe": "1953–1964",
+    "scope": "Khrushchev's domestic policy",
+    "judgement": "Did it outweigh agriculture, welfare and economic reform?"
+   },
+   "modelPlan": {
+    "thesis": "De-Stalinisation defined Khrushchev's rule by ending mass terror and the cult, but his domestic policy was dominated in practice by agriculture and living standards, where his campaigns shaped his reputation and his fall.",
+    "arguments": [
+     {
+      "claim": "De-Stalinisation: releases and the Secret Speech (named factor first).",
+      "evidence": [
+       "F-KHR-04",
+       "F-KHR-05"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Limits of de-Stalinisation.",
+      "evidence": [
+       "F-KHR-18",
+       "F-KHR-17"
+      ]
+     },
+     {
+      "claim": "Agriculture.",
+      "evidence": [
+       "F-KHR-10",
+       "F-KHR-11"
+      ]
+     },
+     {
+      "claim": "Welfare and housing.",
+      "evidence": [
+       "F-KHR-14",
+       "F-KHR-15"
+      ]
+     }
+    ],
+    "counter": "Judt argues the Secret Speech was designed to protect the system, which limits how far it changed domestic policy.",
+    "judgementCriterion": "Main feature by what measure? Its impact on the system, yes; what decided his fate, no."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "De-Stalinisation was the most important feature of Khrushchev's domestic policy, though not the one that occupied him most.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Some five million prisoners left the Gulag in 1953–56, and in February 1956 the Secret Speech denounced Stalin's terror and cult.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that mass terror ended, so defeated rivals in 1957 were demoted rather than shot.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Khrushchev's energy went into agriculture, where the Virgin Lands and corn campaigns failed and grain had to be imported by January 1964, and his welfare and housing programmes shaped daily life more directly.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "De-Stalinisation was therefore the main feature in its effect on the system, while agriculture decided Khrushchev's own fate.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "de-Stalinisation",
+     "de-Stalinization"
+    ],
+    "synonyms": [
+     "Secret Speech",
+     "Thaw"
+    ],
+    "historians": [
+     "Judt",
+     "Siegelbaum"
+    ],
+    "extraLexicon": [
+     "Gulag",
+     "Virgin Lands",
+     "welfare"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-KHRUSHCHEV-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Khrushchev's agricultural policies were a failure.” Discuss with reference to the period 1953 to 1964.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition",
+    "leader"
+   ],
+   "timeframe": [
+    1953,
+    1964
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: agricultural failure",
+    "timeframe": "1953–1964",
+    "scope": "Khrushchev's agricultural policies",
+    "judgement": "Failure by what measure?"
+   },
+   "modelPlan": {
+    "thesis": "They brought a short-term success, the record harvest of 1956, but erosion, the corn disaster and grain imports by 1964 show they failed against Khrushchev's own promises.",
+    "arguments": [
+     {
+      "claim": "Against: the Virgin Lands record of 1956.",
+      "evidence": [
+       "F-KHR-10"
+      ]
+     },
+     {
+      "claim": "For: erosion and harvest failure.",
+      "evidence": [
+       "F-KHR-11"
+      ]
+     },
+     {
+      "claim": "For: the corn campaign.",
+      "evidence": [
+       "F-KHR-12"
+      ]
+     },
+     {
+      "claim": "For: dependence on private plots.",
+      "evidence": [
+       "F-KHR-13"
+      ]
+     }
+    ],
+    "counter": "Peasants' living conditions improved through pensions, which were extended to collective farmers after 1965.",
+    "judgementCriterion": "Failure by what measure? Against his promises, yes."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Khrushchev's agricultural policies were a failure, despite an early success.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Virgin Lands produced over half of the record 1956 harvest, but by the early 1960s half a million tons of topsoil were washing away each year, and in 1962 most of the corn crop died.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that his campaigns could not deliver lasting increases, so after the disastrous 1963 harvest the USSR imported grain from the West.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the record harvest of 1956 was real, and the private plots he sporadically encouraged produced over a third of output.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid: his policies failed by the standard he set himself, the promise of plenty.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "agricultural policies",
+     "agriculture"
+    ],
+    "synonyms": [
+     "Virgin Lands",
+     "corn"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "harvest",
+     "erosion",
+     "grain imports"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-KHRUSHCHEV-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of Khrushchev's Secret Speech for the Soviet Union between 1956 and 1964.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1956,
+    1964
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The significance of the Secret Speech",
+    "timeframe": "1956–1964",
+    "scope": "The Soviet Union",
+    "judgement": "A turning point, or a controlled reform?"
+   },
+   "modelPlan": {
+    "thesis": "The Secret Speech was significant because it broke the cult of Stalin, strengthened Khrushchev and encouraged the release of prisoners and the Thaw; but it was designed to protect the party, and its effects abroad led to the crushing of Hungary.",
+    "arguments": [
+     {
+      "claim": "Breaking the cult.",
+      "evidence": [
+       "F-KHR-05"
+      ]
+     },
+     {
+      "claim": "Securing Khrushchev's power.",
+      "evidence": [
+       "F-KHR-06"
+      ]
+     },
+     {
+      "claim": "Rehabilitation and the Thaw.",
+      "evidence": [
+       "F-KHR-04",
+       "F-KHR-18"
+      ]
+     },
+     {
+      "claim": "Limits: Hungary and censorship.",
+      "evidence": [
+       "F-KHR-08",
+       "F-KHR-18"
+      ]
+     }
+    ],
+    "counter": "Judt warns that the speech's significance should not be overstated.",
+    "judgementCriterion": "Turning point or controlled reform? A controlled reform with uncontrolled effects."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Secret Speech was a turning point in Soviet politics, but a deliberately limited one.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Khrushchev denounced the terror of the 1930s and the 'cult of personality', and afterwards the rehabilitation of prisoners intensified.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the party publicly rejected mass terror, so, as Judt argues, Khrushchev was left secure and free to reform.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the speech said nothing of collectivisation, and its shock waves helped cause the Hungarian uprising that Soviet troops crushed in November 1956.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The speech was therefore significant as a controlled break with Stalinism whose consequences Khrushchev could not fully control.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Secret Speech"
+    ],
+    "synonyms": [
+     "Twentieth Party Congress",
+     "de-Stalinisation"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "cult of personality",
+     "Hungary",
+     "rehabilitation"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-KHRUSHCHEV-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, Khrushchev's rise to power between 1953 and 1957.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part",
+    "leader"
+   ],
+   "timeframe": [
+    1953,
+    1957
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1953–1957",
+    "scope": "Khrushchev's rise",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "Khrushchev rose because he controlled the party apparatus and outmanoeuvred Beria, Malenkov and the Stalinist old guard in turn; the results were a secure leadership that could break with Stalin and a new practice of demoting rather than killing rivals.",
+    "arguments": [
+     {
+      "claim": "Reason: the party apparatus.",
+      "evidence": [
+       "F-KHR-03"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: alliances against Beria and Malenkov.",
+      "evidence": [
+       "F-KHR-02",
+       "F-KHR-03"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: the Secret Speech.",
+      "evidence": [
+       "F-KHR-05",
+       "F-KHR-06"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: the anti-Party group demoted, not shot.",
+      "evidence": [
+       "F-KHR-09"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Beria was executed in 1953, so the new practice was not immediate.",
+    "judgementCriterion": "Which result mattered most? A leadership secure enough to denounce Stalin."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Khrushchev rose to power mainly by reviving and controlling the party apparatus.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He conspired to remove Beria in June 1953, forced Malenkov out in February 1955, and in 1957 the Central Committee rescued him from the 'anti-Party group'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the party, not the secret police or the government, decided the succession, so Siegelbaum concludes that Khrushchev won by reasserting the party's control.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in 1957 he also depended on Marshal Zhukov's help, and Beria had been executed, not demoted.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore a leadership secure enough to denounce Stalin in 1956.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "rise to power"
+    ],
+    "synonyms": [
+     "succession",
+     "apparatus"
+    ],
+    "historians": [
+     "Siegelbaum"
+    ],
+    "extraLexicon": [
+     "Beria",
+     "Malenkov",
+     "anti-Party group"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-KHRUSHCHEV-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the successes and failures of Khrushchev's domestic and foreign policies between 1953 and 1964.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "leader"
+   ],
+   "timeframe": [
+    1953,
+    1964
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Successes and failures",
+    "timeframe": "1953–1964",
+    "scope": "Domestic and foreign policy",
+    "judgement": "Where did he succeed more?"
+   },
+   "modelPlan": {
+    "thesis": "In both spheres Khrushchev combined bold initiatives with failures: at home, de-Stalinisation and welfare against agricultural collapse; abroad, peaceful coexistence and space triumphs against Hungary, empty missile boasts and the split with China.",
+    "arguments": [
+     {
+      "claim": "Domestic successes: releases and welfare.",
+      "evidence": [
+       "F-KHR-04",
+       "F-KHR-14"
+      ]
+     },
+     {
+      "claim": "Domestic failures: agriculture and Novocherkassk.",
+      "evidence": [
+       "F-KHR-11",
+       "F-KHR-17"
+      ]
+     },
+     {
+      "claim": "Foreign successes: coexistence and space.",
+      "evidence": [
+       "F-KHR-21",
+       "F-KHR-16"
+      ]
+     },
+     {
+      "claim": "Foreign failures: Hungary and China.",
+      "evidence": [
+       "F-KHR-08",
+       "F-KHR-22"
+      ]
+     }
+    ],
+    "counter": "His space triumphs were domestic propaganda successes as well as foreign ones.",
+    "judgementCriterion": "Where did he succeed more? At home in humanising the system; abroad in prestige rather than power."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Khrushchev's record was mixed in both spheres, but his domestic successes were more lasting.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "At home some five million left the Gulag and pensions and a minimum wage were introduced, whereas abroad Sputnik and Gagarin brought prestige that his missile boasts could not back up.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that his domestic reforms changed how the system treated its citizens, while his foreign successes were largely symbolic.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both spheres also brought failures: grain imports and Novocherkassk at home, the crushing of Hungary and the split with China abroad.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "His domestic policy was therefore the more successful, because its reforms outlasted him.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "domestic",
+     "foreign"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Sputnik",
+     "Virgin Lands",
+     "Hungary"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-KHRUSHCHEV-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons why Khrushchev was removed from power between 1962 and 1964.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1962,
+    1964
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Reasons for removal",
+    "timeframe": "1962–1964",
+    "scope": "Khrushchev's fall",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "Khrushchev was removed because agricultural failure, unrest over prices and grain imports discredited his promises, while his autocratic style and unpredictability alarmed the colleagues whose support he depended on.",
+    "arguments": [
+     {
+      "claim": "Agricultural failure.",
+      "evidence": [
+       "F-KHR-11",
+       "F-KHR-12"
+      ]
+     },
+     {
+      "claim": "Unrest at Novocherkassk.",
+      "evidence": [
+       "F-KHR-17"
+      ]
+     },
+     {
+      "claim": "Autocratic style and inconsistency.",
+      "evidence": [
+       "F-KHR-20"
+      ]
+     },
+     {
+      "claim": "Cultural unpredictability.",
+      "evidence": [
+       "F-KHR-18",
+       "F-KHR-19"
+      ]
+     }
+    ],
+    "counter": "That he was removed and lived until 1971 was itself a product of his own reforms.",
+    "judgementCriterion": "Which reason mattered most? His inconsistency, which turned failures into a threat to his colleagues."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Khrushchev was removed because his failures and unpredictability made him a liability to the party leadership.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1962 most of the corn crop died and troops fired on protesters at Novocherkassk, and after the 1963 harvest the USSR imported grain by January 1964.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that his promises of plenty had visibly failed, so his colleagues could blame him for shortages and unrest.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Judt stresses that above all the plotters were uneasy at his inconsistencies, as his unpredictable tolerance might be misread.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Khrushchev was therefore removed because failure and inconsistency together convinced the leadership that he threatened the system's stability.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "removed",
+     "removal"
+    ],
+    "synonyms": [
+     "fall",
+     "Kremlin coup"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "harvest",
+     "Novocherkassk",
+     "inconsistency"
+    ]
+   }
+  }
+ ]
+}

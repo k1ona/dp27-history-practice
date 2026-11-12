@@ -1,0 +1,2753 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-16-Y1-BREZHNEV",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 21,
+  "openingProblem": {
+   "problem": "Brezhnev ruled for eighteen years without a famine, a purge or a sudden reversal of policy, and most Soviet families acquired a television and a refrigerator. Yet his successors called his rule an 'era of stagnation'. Was it stability or decline?",
+   "predictionPrompt": "Your prediction in one line: stability, stagnation, or both?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "Collective leadership and economic reform, 1964–1970",
+    "body": "In October 1964 Khrushchev's colleagues removed him. Power passed to a collective leadership in which **Leonid Brezhnev** led the party and **Aleksei Kosygin** headed the government.\n\nIn 1965 Kosygin launched an ambitious **economic reform**. Enterprises would now be judged by goods sold rather than goods produced, would pay interest on their capital and could reinvest their profits. The aim was a more flexible economy able to satisfy consumers. But the reform was undermined from the start. Managers still could not set prices, so they relied on unofficial fixers, the *tolkachi*. Workers saw tighter discipline as a breach of the unwritten social contract: \"they pretend to pay us, and we pretend to work\". Demand that the official economy could not meet turned to the illegal **second economy**, which the economist Gregory Grossman later named and which Vladimir Treml estimated at 10–12 per cent of GDP.\n\nThe new leaders did keep some of Khrushchev's social gains: his pension scheme was extended to collective farmers after 1965. And living standards rose. Between 1965 and 1980 refrigerators reached 86 per cent of urban families, televisions 85 per cent and washing machines 70 per cent, while car ownership more than tripled.\n\nThis mattered because reform was abandoned rather than deepened, which meant that rising consumption came to depend on the illegal economy rather than on a more efficient system.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Kosygin reform aimed at flexibility.",
+      "evidence": [
+       "F-BRZ-01"
+      ],
+      "strongestCounter": "Managers could not set prices."
+     },
+     {
+      "claim": "The second economy filled the gaps.",
+      "evidence": [
+       "F-BRZ-02",
+       "F-BRZ-15"
+      ],
+      "strongestCounter": "It bred cynicism."
+     },
+     {
+      "claim": "Living standards rose.",
+      "evidence": [
+       "F-BRZ-14",
+       "F-BRZ-21"
+      ],
+      "strongestCounter": "Quality remained low."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the Brezhnev era a period of stagnation between 1964 and 1982?",
+     "Examine the reasons for, and the results of, the failure of economic reform in the Soviet Union between 1965 and 1982."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Kosygin reform failed because it changed incentives without changing the system.",
+     "prove": "From 1965 enterprises were judged by goods sold and could reinvest profits, but managers still could not set prices and turned to unofficial fixers.",
+     "explain": "This meant that the central planners kept control of the most important economic signal, so enterprises could not respond to demand.",
+     "test": "However, living standards still rose, with refrigerators reaching 86 per cent of urban families by 1980.",
+     "judge": "The reform therefore failed as a reform, even though consumption grew without it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year did Kosygin introduce his economic reforms? (year)",
+      "factIds": [
+       "F-BRZ-01"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1965,
+        "tolerance": 0,
+        "explanation": "1965."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did the Kosygin reforms fail, according to von Geldern?",
+      "factIds": [
+       "F-BRZ-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Managers could not set prices, and workers resisted tighter discipline",
+        "correct": true,
+        "explanation": "Correct: the system's rigidities remained."
+       },
+       {
+        "id": "b",
+        "text": "They were too successful",
+        "correct": false,
+        "explanation": "Not his view."
+       },
+       {
+        "id": "c",
+        "text": "They abolished central planning",
+        "correct": false,
+        "explanation": "Planning remained."
+       },
+       {
+        "id": "d",
+        "text": "They banned consumer goods",
+        "correct": false,
+        "explanation": "They aimed to supply them."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Vladimir Treml estimated private and semi-legal labour at 10–12 per cent of GDP.” Which argument does it support best?",
+      "factIds": [
+       "F-BRZ-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The planned economy depended on an illegal second economy",
+        "correct": true,
+        "explanation": "Correct: the planned sector relied on it."
+       },
+       {
+        "id": "b",
+        "text": "The planned economy met all needs",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Private trade was legal",
+        "correct": false,
+        "explanation": "It was illegal."
+       },
+       {
+        "id": "d",
+        "text": "The second economy was tiny",
+        "correct": false,
+        "explanation": "It was substantial."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "impact_consequences",
+    "title": "The Brezhnev Doctrine and the end of reform hopes, 1965–1968",
+    "body": "Brezhnev's leadership quickly tightened control over ideas. In September 1965 the writers Andrei **Sinyavsky** and Yuli **Daniel** were arrested for publishing fiction abroad. Sentenced in February 1966 to seven and five years in labour camps, they were, Judt notes, the first people imprisoned solely for the content of their writing. Their trial produced protests inside the Soviet Union, and the **dissident movement** and *samizdat* (self-publishing) date from that moment.\n\nThe decisive test came in Czechoslovakia, which Brezhnev had long regarded as the least reliable member of the Warsaw Pact. In January 1968 **Alexander Dubček** became party leader and launched \"socialism with a human face\": cultural freedom, economic reform and limits on the secret police. The Soviet Politburo was alarmed, especially as many Soviet intellectuals hoped the \"Prague Spring\" would spread. On **21 August 1968** Warsaw Pact troops invaded, and Dubček was removed in April 1969. The **Brezhnev Doctrine** asserted the right of fraternal communist parties to intervene against \"antisocialist degeneration\": each party, Brezhnev said, was \"not free to deviate\" from Marxist-Leninist principles.\n\nJudt sees August 1968 as the definitive turning point: the illusion that communism could be reformed \"was crushed under the tanks on August 21st 1968 and it never recovered\". At home, he concludes, the regime settled in \"for an indefinite twilight of economic stagnation and moral decay\".\n\nThis mattered because Brezhnev's leadership chose control over reform both at home and in the bloc, which meant that change could no longer be expected from within the ruling party.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Sinyavsky–Daniel trial marked a crackdown.",
+      "evidence": [
+       "F-BRZ-03"
+      ],
+      "strongestCounter": "It also created the dissident movement."
+     },
+     {
+      "claim": "The Brezhnev Doctrine limited the bloc's sovereignty.",
+      "evidence": [
+       "F-BRZ-05",
+       "F-BRZ-06"
+      ],
+      "strongestCounter": "It was unpersuasive even to western communists."
+     },
+     {
+      "claim": "August 1968 ended hopes of reform from above.",
+      "evidence": [
+       "F-BRZ-07",
+       "F-BRZ-04"
+      ],
+      "strongestCounter": "Reform returned under Gorbachev."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the significance of the Brezhnev Doctrine for the Soviet Union and its allies between 1968 and 1982.",
+     "To what extent was the Brezhnev era a period of stagnation between 1964 and 1982?"
+    ],
+    "useItInAnEssay": {
+     "claim": "The invasion of Czechoslovakia ended the hope that communism could reform itself.",
+     "prove": "Warsaw Pact troops entered Prague on 21 August 1968, and the Brezhnev Doctrine claimed the right to intervene against 'antisocialist degeneration'.",
+     "explain": "This meant that any communist party that reformed too far would be overruled by force, so, as Judt argues, reformers stopped looking to the party.",
+     "test": "However, the invasion also damaged the Soviet Union's reputation, and even western communists condemned it.",
+     "judge": "August 1968 was therefore a victory for control that cost the regime its claim to reform."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year were Sinyavsky and Daniel sentenced? (year)",
+      "factIds": [
+       "F-BRZ-03"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1966,
+        "tolerance": 0,
+        "explanation": "February 1966."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Brezhnev Doctrine assert?",
+      "factIds": [
+       "F-BRZ-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The right of communist states to intervene against 'antisocialist degeneration' in a fraternal country",
+        "correct": true,
+        "explanation": "Correct: used to justify the 1968 invasion."
+       },
+       {
+        "id": "b",
+        "text": "The right of each country to leave the Warsaw Pact",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Peaceful coexistence with the West",
+        "correct": false,
+        "explanation": "Not this doctrine."
+       },
+       {
+        "id": "d",
+        "text": "An end to censorship",
+        "correct": false,
+        "explanation": "Not this doctrine."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Sinyavsky and Daniel were the first people imprisoned solely for the content of their fiction.” Which argument does it support best?",
+      "factIds": [
+       "F-BRZ-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Brezhnev leadership tightened control over ideas after the Thaw",
+        "correct": true,
+        "explanation": "Correct: a new kind of repression."
+       },
+       {
+        "id": "b",
+        "text": "Censorship ended in 1966",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Writers were never punished under Stalin",
+        "correct": false,
+        "explanation": "They were, but for alleged deeds."
+       },
+       {
+        "id": "d",
+        "text": "The trial had no effect",
+        "correct": false,
+        "explanation": "It created the dissident movement."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "Détente, dissent and Afghanistan, 1969–1980",
+    "body": "In foreign policy Brezhnev sought recognition. From the late 1960s to the mid-1970s **détente** eased tensions with the West. The **SALT I** treaty of 1972 limited strategic arms, and the **Helsinki Accords** of 1975 recognised Europe's post-war borders, a major Soviet aim. For Moscow, détente meant formal acceptance of military parity with the United States.\n\nBut Helsinki also contained human-rights promises. Soviet citizens formed groups to monitor compliance, and the regime decimated them with arrests: their founder Iurii Orlov was arrested in February 1977 and sentenced to seven years' hard labour. Dissidents never numbered more than a few thousand, but they had moral weight. The *Chronicle of Current Events* recorded abuses from 1968; Solzhenitsyn was deported in 1974. On 22 January 1980 **Andrei Sakharov**, father of the Soviet hydrogen bomb and a Nobel Peace Prize winner, was exiled to Gorky after protesting against the war in Afghanistan. The regime now preferred decrees to show trials, but by 1980 the dissident movement was in ruins.\n\nDétente did not survive Brezhnev's decline. In **December 1979** the Soviet Union invaded Afghanistan to restore a compliant regime on its southern border. The United States led a boycott of the 1980 Moscow Olympics, and détente was over.\n\nThis mattered because Brezhnev achieved recognition of Soviet power abroad while repressing those who invoked the same agreements at home, which meant that détente exposed the contradiction between the regime's image and its practice.",
+    "argumentsThatWork": [
+     {
+      "claim": "Détente brought recognition of Soviet power.",
+      "evidence": [
+       "F-BRZ-08"
+      ],
+      "strongestCounter": "It ended with Afghanistan."
+     },
+     {
+      "claim": "Helsinki gave dissidents a weapon.",
+      "evidence": [
+       "F-BRZ-10",
+       "F-BRZ-11"
+      ],
+      "strongestCounter": "The groups were crushed."
+     },
+     {
+      "claim": "Afghanistan ended détente.",
+      "evidence": [
+       "F-BRZ-09"
+      ],
+      "strongestCounter": "Brezhnev's decline weakened policy."
+     }
+    ],
+    "howItGetsAsked": [
+     "Compare and contrast the domestic and foreign policies of Brezhnev between 1964 and 1982.",
+     "Evaluate the significance of the Brezhnev Doctrine for the Soviet Union and its allies between 1968 and 1982."
+    ],
+    "useItInAnEssay": {
+     "claim": "Détente brought the Soviet Union recognition but also exposed it to criticism at home.",
+     "prove": "The Helsinki Accords of 1975 recognised Europe's post-war borders, a major Soviet aim, but their human-rights provisions inspired monitoring groups that the regime decimated with arrests.",
+     "explain": "This meant that détente gave dissidents an international standard to appeal to, so repression became more embarrassing for the regime.",
+     "test": "However, by 1980, with Orlov imprisoned and Sakharov exiled, the dissident movement was in ruins.",
+     "judge": "Détente therefore strengthened the regime abroad while creating a new kind of challenge at home."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In what year were the Helsinki Accords signed? (year)",
+      "factIds": [
+       "F-BRZ-08"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1975,
+        "tolerance": 0,
+        "explanation": "1975."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why was Andrei Sakharov exiled to Gorky in January 1980?",
+      "factIds": [
+       "F-BRZ-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Apparently for his open letter criticising the invasion of Afghanistan",
+        "correct": true,
+        "explanation": "Correct: by decree of the Supreme Soviet."
+       },
+       {
+        "id": "b",
+        "text": "For spying for the United States",
+        "correct": false,
+        "explanation": "Not the reason given."
+       },
+       {
+        "id": "c",
+        "text": "For supporting the invasion",
+        "correct": false,
+        "explanation": "He criticised it."
+       },
+       {
+        "id": "d",
+        "text": "For leading a strike",
+        "correct": false,
+        "explanation": "Not the reason."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The invasion of Afghanistan prompted a US boycott of the 1980 Moscow Olympics.” Which argument does it support best?",
+      "factIds": [
+       "F-BRZ-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Afghanistan ended détente",
+        "correct": true,
+        "explanation": "Correct: relations deteriorated sharply."
+       },
+       {
+        "id": "b",
+        "text": "Détente reached its peak in 1980",
+        "correct": false,
+        "explanation": "It had ended."
+       },
+       {
+        "id": "c",
+        "text": "The US welcomed the invasion",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "d",
+        "text": "The Olympics were cancelled",
+        "correct": false,
+        "explanation": "They took place without the US."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Stagnation or stability? The 'Little Deal'",
+    "body": "How should the Brezhnev years be judged? The word **stagnation** (*zastoi*) was coined only in the late 1980s, as part of Gorbachev's case for reform; at the time, the official term was \"developed socialism\", declared at the Twenty-Fourth Party Congress in 1971. For many citizens, the early 1970s felt like an era of quiet improvement: better-stocked shops, private flats instead of communal ones, and less demand for ideological fervour.\n\nThe economist James Millar called the arrangement the \"**Little Deal**\": the regime offered rising incomes, secure jobs, more consumption and tolerance of petty dealing on the side, in return for political quiet. The Ninth Five-Year Plan (1971–75) promised a 42 per cent rise in retail sales. But the deal rested on an economy that could not deliver quality, and on the illegal second economy to fill its gaps. The educated white-collar class, which grew from 3.3 to 21.4 million between 1950 and 1974, became quietly disillusioned.\n\nAt the top, the leadership aged. Brezhnev accumulated titles, marshal in 1976 and head of state in 1977, promulgated a new Constitution in 1977, and even received the Lenin Prize for literature, while his health and that of the ageing Politburo declined and corruption spread. Prestige projects such as the **Baikal-Amur Mainline**, revived in 1974, served no clear economic purpose. Brezhnev died in 1982.\n\nThis mattered because the regime bought stability with consumption and tolerance of corruption rather than with reform, which meant that historians can call the same years both a time of stability and the beginning of decline.",
+    "argumentsThatWork": [
+     {
+      "claim": "The 'Little Deal' bought stability.",
+      "evidence": [
+       "F-BRZ-12",
+       "F-BRZ-14"
+      ],
+      "strongestCounter": "It fell short of expectations."
+     },
+     {
+      "claim": "The economy and leadership stagnated.",
+      "evidence": [
+       "F-BRZ-16",
+       "F-BRZ-18"
+      ],
+      "strongestCounter": "Living standards rose."
+     },
+     {
+      "claim": "'Stagnation' is a later label.",
+      "evidence": [
+       "F-BRZ-13",
+       "F-BRZ-20"
+      ],
+      "strongestCounter": "Many remember the era fondly."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the Brezhnev era a period of stagnation between 1964 and 1982?",
+     "Compare and contrast the domestic and foreign policies of Brezhnev between 1964 and 1982."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Brezhnev era was stable on the surface and stagnant underneath.",
+     "prove": "Under the 'Little Deal' incomes and consumption rose, with televisions in 85 per cent of urban families by 1980, while the second economy supplied what the plan could not.",
+     "explain": "This meant that citizens accepted political quiet in exchange for comfort, so the regime faced little open protest.",
+     "test": "However, the term 'stagnation' was coined only in the late 1980s, and many citizens remember the early 1970s as an era of quiet improvement.",
+     "judge": "The era was therefore one of stability bought at the cost of the reforms the economy needed."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "By what percentage did the Ninth Five-Year Plan promise to raise retail sales? (number)",
+      "factIds": [
+       "F-BRZ-12"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 42,
+        "tolerance": 0,
+        "explanation": "42 per cent."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the 'Little Deal', according to James Millar?",
+      "factIds": [
+       "F-BRZ-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Rising incomes, secure jobs and consumption in exchange for political quiescence",
+        "correct": true,
+        "explanation": "Correct: as summarised in Seventeen Moments."
+       },
+       {
+        "id": "b",
+        "text": "A treaty with the United States",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "c",
+        "text": "Stalin's deal with managers",
+        "correct": false,
+        "explanation": "That was the 'Big Deal'."
+       },
+       {
+        "id": "d",
+        "text": "The Kosygin reform",
+        "correct": false,
+        "explanation": "Not what it was."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-BREZHNEV-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The term 'stagnation' was coined only in the late 1980s, as part of the political case for reform.” Which argument does it support best?",
+      "factIds": [
+       "F-BRZ-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The label 'stagnation' reflects Gorbachev-era politics as well as Brezhnev-era reality",
+        "correct": true,
+        "explanation": "Correct: historians should treat it critically."
+       },
+       {
+        "id": "b",
+        "text": "Brezhnev called his era stagnation",
+        "correct": false,
+        "explanation": "He called it developed socialism."
+       },
+       {
+        "id": "c",
+        "text": "There was no economic slowdown",
+        "correct": false,
+        "explanation": "Not what the fact shows."
+       },
+       {
+        "id": "d",
+        "text": "The term was coined in 1964",
+        "correct": false,
+        "explanation": "It came in the late 1980s."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1964,
+      "month": 10,
+      "text": "Khrushchev removed",
+      "factId": "F-BRZ-03"
+     },
+     {
+      "year": 1965,
+      "month": 9,
+      "text": "Sinyavsky and Daniel arrested",
+      "factId": "F-BRZ-03"
+     },
+     {
+      "year": 1965,
+      "text": "Kosygin reform",
+      "factId": "F-BRZ-01"
+     },
+     {
+      "year": 1968,
+      "month": 8,
+      "day": 21,
+      "text": "Invasion of Czechoslovakia",
+      "factId": "F-BRZ-07"
+     },
+     {
+      "year": 1971,
+      "text": "'Developed socialism' declared",
+      "factId": "F-BRZ-20"
+     },
+     {
+      "year": 1972,
+      "text": "SALT I",
+      "factId": "F-BRZ-08"
+     },
+     {
+      "year": 1974,
+      "month": 3,
+      "text": "Baikal-Amur Mainline revived",
+      "factId": "F-BRZ-18"
+     },
+     {
+      "year": 1975,
+      "text": "Helsinki Accords",
+      "factId": "F-BRZ-08"
+     },
+     {
+      "year": 1977,
+      "text": "New Constitution; Orlov arrested",
+      "factId": "F-BRZ-16"
+     },
+     {
+      "year": 1979,
+      "month": 12,
+      "text": "Invasion of Afghanistan",
+      "factId": "F-BRZ-09"
+     },
+     {
+      "year": 1980,
+      "month": 1,
+      "day": 22,
+      "text": "Sakharov exiled to Gorky",
+      "factId": "F-BRZ-11"
+     },
+     {
+      "year": 1982,
+      "text": "Brezhnev dies",
+      "factId": "F-BRZ-16"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Khrushchev removed; promise of stability",
+      "factId": "F-BRZ-03"
+     },
+     {
+      "id": "n2",
+      "text": "Kosygin reform undermined",
+      "factId": "F-BRZ-02"
+     },
+     {
+      "id": "n3",
+      "text": "Crackdown on dissent; August 1968",
+      "factId": "F-BRZ-07"
+     },
+     {
+      "id": "n4",
+      "text": "The 'Little Deal': consumption for quiet",
+      "factId": "F-BRZ-12"
+     },
+     {
+      "id": "n5",
+      "text": "Détente, then Afghanistan",
+      "factId": "F-BRZ-09"
+     },
+     {
+      "id": "n6",
+      "text": "Gerontocracy and stagnation",
+      "factId": "F-BRZ-16"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "The leadership avoided deep change"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Control mattered more than reform"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "The regime bought acceptance with comfort"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Abroad it sought recognition of parity"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "An ageing leadership could not adapt"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Leonid Brezhnev",
+     "role": "General Secretary 1964–1982",
+     "whyItMatters": "The Brezhnev Doctrine; détente; accumulated titles.",
+     "factIds": [
+      "F-BRZ-06",
+      "F-BRZ-16"
+     ]
+    },
+    {
+     "name": "Aleksei Kosygin",
+     "role": "Prime minister",
+     "whyItMatters": "Economic reform of 1965.",
+     "factIds": [
+      "F-BRZ-01"
+     ]
+    },
+    {
+     "name": "Alexander Dubček",
+     "role": "Czechoslovak party leader",
+     "whyItMatters": "'Socialism with a human face', crushed in 1968.",
+     "factIds": [
+      "F-BRZ-05"
+     ]
+    },
+    {
+     "name": "Andrei Sakharov",
+     "role": "Physicist and dissident",
+     "whyItMatters": "Exiled to Gorky in 1980.",
+     "factIds": [
+      "F-BRZ-11"
+     ]
+    },
+    {
+     "name": "Iurii Orlov",
+     "role": "Founder of the Helsinki group",
+     "whyItMatters": "Arrested in 1977; seven years' hard labour.",
+     "factIds": [
+      "F-BRZ-11"
+     ]
+    },
+    {
+     "name": "James Millar",
+     "role": "Economist",
+     "whyItMatters": "Named the 'Little Deal'.",
+     "factIds": [
+      "F-BRZ-12"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Domestic policy",
+     "Foreign policy"
+    ],
+    "rows": [
+     {
+      "criterion": "Aim",
+      "cells": [
+       "Stability through the 'Little Deal'",
+       "Recognition of parity and borders"
+      ],
+      "factIds": [
+       "F-BRZ-12",
+       "F-BRZ-08"
+      ]
+     },
+     {
+      "criterion": "Success",
+      "cells": [
+       "Rising consumption",
+       "SALT I and Helsinki"
+      ],
+      "factIds": [
+       "F-BRZ-14",
+       "F-BRZ-08"
+      ]
+     },
+     {
+      "criterion": "Coercion",
+      "cells": [
+       "Dissidents imprisoned and exiled",
+       "Czechoslovakia invaded (1968)"
+      ],
+      "factIds": [
+       "F-BRZ-11",
+       "F-BRZ-07"
+      ]
+     },
+     {
+      "criterion": "Failure",
+      "cells": [
+       "Reform abandoned; second economy",
+       "Afghanistan ends détente"
+      ],
+      "factIds": [
+       "F-BRZ-02",
+       "F-BRZ-09"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-BRZ-01",
+    "year": 1965,
+    "text": "Kosygin reform (1965): goods sold, interest on capital, reinvested profits.",
+    "supports": [
+     "Reform was attempted"
+    ],
+    "lexicon": [
+     "Kosygin reform",
+     "planning"
+    ]
+   },
+   {
+    "factId": "F-BRZ-03",
+    "year": 1966,
+    "text": "Sinyavsky and Daniel sentenced (1966): imprisoned for their fiction.",
+    "supports": [
+     "Control over ideas tightened"
+    ],
+    "lexicon": [
+     "dissidents",
+     "samizdat"
+    ]
+   },
+   {
+    "factId": "F-BRZ-07",
+    "year": 1968,
+    "text": "21 August 1968: invasion of Czechoslovakia.",
+    "supports": [
+     "Reform from above was crushed"
+    ],
+    "alsoWorksFor": [
+     "P3-18-B2-PROTEST-TO-1968"
+    ],
+    "lexicon": [
+     "Prague Spring",
+     "Brezhnev Doctrine"
+    ]
+   },
+   {
+    "factId": "F-BRZ-08",
+    "year": 1975,
+    "text": "SALT I (1972) and Helsinki (1975).",
+    "supports": [
+     "Détente brought recognition"
+    ],
+    "alsoWorksFor": [
+     "P2-12-DETENTE"
+    ],
+    "lexicon": [
+     "détente",
+     "Helsinki"
+    ]
+   },
+   {
+    "factId": "F-BRZ-12",
+    "year": 1975,
+    "text": "The 'Little Deal': consumption for quiet (Millar).",
+    "supports": [
+     "Stability was bought with comfort"
+    ],
+    "lexicon": [
+     "Little Deal",
+     "consumption"
+    ]
+   },
+   {
+    "factId": "F-BRZ-14",
+    "year": 1980,
+    "text": "By 1980: fridges 86 per cent, televisions 85 per cent of urban families.",
+    "supports": [
+     "Living standards rose"
+    ],
+    "lexicon": [
+     "living standards",
+     "consumer goods"
+    ]
+   },
+   {
+    "factId": "F-BRZ-16",
+    "year": 1982,
+    "text": "Brezhnev: titles, 'developed socialism', failing health; died 1982.",
+    "supports": [
+     "Leadership stagnated"
+    ],
+    "alsoWorksFor": [
+     "P3-16-B4-INHERITANCE"
+    ],
+    "lexicon": [
+     "gerontocracy",
+     "developed socialism"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Tony Judt",
+    "argument": "After the Sinyavsky–Daniel affair the regime was 'immovable, repressive and inflexible', settling in at home 'for an indefinite twilight of economic stagnation and moral decay'.",
+    "useItLikeThis": "Judt's view supports the claim that the Brezhnev era was one of stagnation, which suggests the regime's decline began long before Gorbachev.",
+    "factId": "F-BRZ-04"
+   },
+   {
+    "historian": "James Millar",
+    "argument": "The Brezhnev regime offered a 'Little Deal': rising incomes, secure employment and consumption in exchange for political quiescence (as summarised in Seventeen Moments, 'The Little Deal').",
+    "useItLikeThis": "Millar's view supports the claim that the era was a period of stability that satisfied many citizens, which suggests 'stagnation' describes the system's potential more than people's experience.",
+    "factId": "F-BRZ-12"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Brezhnev never attempted economic reform.",
+    "right": "Kosygin's reform of **1965** tried to make enterprises respond to sales, but it was undermined."
+   },
+   {
+    "wrong": "Living standards fell under Brezhnev.",
+    "right": "Consumption rose: televisions reached **85 per cent** of urban families by 1980."
+   },
+   {
+    "wrong": "'Stagnation' was the official name of the period.",
+    "right": "The official term was **'developed socialism'**; 'stagnation' was coined in the late 1980s."
+   },
+   {
+    "wrong": "Dissent was crushed by show trials, as under Stalin.",
+    "right": "Sakharov was exiled **by decree**, and the regime cared about 'socialist legality'."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1964,
+     "month": 10,
+     "text": "Khrushchev removed"
+    },
+    {
+     "year": 1965,
+     "text": "Kosygin reform"
+    },
+    {
+     "year": 1968,
+     "month": 8,
+     "text": "Czechoslovakia invaded"
+    },
+    {
+     "year": 1972,
+     "text": "SALT I"
+    },
+    {
+     "year": 1975,
+     "text": "Helsinki Accords"
+    },
+    {
+     "year": 1979,
+     "month": 12,
+     "text": "Afghanistan"
+    },
+    {
+     "year": 1980,
+     "month": 1,
+     "text": "Sakharov exiled"
+    },
+    {
+     "year": 1982,
+     "text": "Brezhnev dies"
+    }
+   ],
+   "keyArguments": [
+    "The Kosygin reform of 1965 was undermined; the second economy filled the gaps.",
+    "The Brezhnev Doctrine and August 1968 ended hopes of reform from above (Judt).",
+    "Détente brought recognition abroad, while Helsinki groups were crushed at home.",
+    "The 'Little Deal' traded consumption for political quiet (Millar).",
+    "'Stagnation' is a later label; the era was stable but unreformed."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Khrushchev removed",
+     "year": 1964,
+     "month": 10,
+     "factId": "F-BRZ-03"
+    },
+    {
+     "id": "b",
+     "text": "Sinyavsky and Daniel arrested",
+     "year": 1965,
+     "month": 9,
+     "factId": "F-BRZ-03"
+    },
+    {
+     "id": "c",
+     "text": "Sinyavsky and Daniel sentenced",
+     "year": 1966,
+     "month": 2,
+     "factId": "F-BRZ-03"
+    },
+    {
+     "id": "d",
+     "text": "Dubček becomes party leader",
+     "year": 1968,
+     "month": 1,
+     "factId": "F-BRZ-05"
+    },
+    {
+     "id": "e",
+     "text": "Invasion of Czechoslovakia",
+     "year": 1968,
+     "month": 8,
+     "factId": "F-BRZ-07"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Dubček removed",
+     "year": 1969,
+     "month": 4,
+     "factId": "F-BRZ-05"
+    },
+    {
+     "id": "b",
+     "text": "SALT I",
+     "year": 1972,
+     "factId": "F-BRZ-08"
+    },
+    {
+     "id": "c",
+     "text": "Baikal-Amur Mainline revived",
+     "year": 1974,
+     "month": 3,
+     "factId": "F-BRZ-18"
+    },
+    {
+     "id": "d",
+     "text": "Helsinki Accords",
+     "year": 1975,
+     "factId": "F-BRZ-08"
+    },
+    {
+     "id": "e",
+     "text": "Orlov arrested",
+     "year": 1977,
+     "month": 2,
+     "factId": "F-BRZ-11"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "'Developed socialism' declared",
+     "year": 1971,
+     "factId": "F-BRZ-20"
+    },
+    {
+     "id": "b",
+     "text": "Brezhnev becomes a marshal",
+     "year": 1976,
+     "factId": "F-BRZ-16"
+    },
+    {
+     "id": "c",
+     "text": "Invasion of Afghanistan",
+     "year": 1979,
+     "month": 12,
+     "factId": "F-BRZ-09"
+    },
+    {
+     "id": "d",
+     "text": "Sakharov exiled",
+     "year": 1980,
+     "month": 1,
+     "factId": "F-BRZ-11"
+    },
+    {
+     "id": "e",
+     "text": "Brezhnev dies",
+     "year": 1982,
+     "factId": "F-BRZ-16"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their significance.",
+   "pairs": [
+    {
+     "left": "Aleksei Kosygin",
+     "right": "Economic reform of 1965",
+     "explanation": "Prime minister."
+    },
+    {
+     "left": "Alexander Dubček",
+     "right": "'Socialism with a human face'",
+     "explanation": "Prague Spring, 1968."
+    },
+    {
+     "left": "Andrei Sakharov",
+     "right": "Physicist exiled to Gorky in 1980",
+     "explanation": "Nobel Peace Prize, 1975."
+    },
+    {
+     "left": "James Millar",
+     "right": "Economist who named the 'Little Deal'",
+     "explanation": "Consumption for quiet."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of urban families had a refrigerator by 1980? (number)",
+   "factIds": [
+    "F-BRZ-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 86,
+     "tolerance": 0,
+     "explanation": "86 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many years in a labour camp was Sinyavsky sentenced to? (number)",
+   "factIds": [
+    "F-BRZ-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 7,
+     "tolerance": 0,
+     "explanation": "Seven years; Daniel received five."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many million white-collar professionals were there in 1974, up from 3.3 million in 1950? (number, e.g. 21.4)",
+   "factIds": [
+    "F-BRZ-13"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 21.4,
+     "tolerance": 0.1,
+     "explanation": "21.4 million."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year was Sakharov exiled to Gorky? (year)",
+   "factIds": [
+    "F-BRZ-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1980,
+     "tolerance": 0,
+     "explanation": "22 January 1980."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the 'Little Deal'? Choose all that apply.",
+   "factIds": [
+    "F-BRZ-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rising incomes",
+     "correct": true,
+     "explanation": "Yes: and more consumption."
+    },
+    {
+     "id": "b",
+     "text": "Secure employment",
+     "correct": true,
+     "explanation": "Yes: part of the bargain."
+    },
+    {
+     "id": "c",
+     "text": "Tolerance of small-scale dealing",
+     "correct": true,
+     "explanation": "Yes: blat and goods 'on the side'."
+    },
+    {
+     "id": "d",
+     "text": "Free elections",
+     "correct": false,
+     "explanation": "No: the price was political quiescence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these show repression under Brezhnev? Choose all that apply.",
+   "factIds": [
+    "F-BRZ-03",
+    "F-BRZ-10",
+    "F-BRZ-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Sinyavsky–Daniel trial",
+     "correct": true,
+     "explanation": "Yes: 1966."
+    },
+    {
+     "id": "b",
+     "text": "Solzhenitsyn's deportation",
+     "correct": true,
+     "explanation": "Yes: 1974."
+    },
+    {
+     "id": "c",
+     "text": "Sakharov's exile",
+     "correct": true,
+     "explanation": "Yes: 1980."
+    },
+    {
+     "id": "d",
+     "text": "The Helsinki Accords",
+     "correct": false,
+     "explanation": "No: they were an international agreement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Between 1965 and 1980 car ownership more than tripled.” Which argument does it support?",
+   "factIds": [
+    "F-BRZ-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Brezhnev era raised living standards",
+     "correct": true,
+     "explanation": "Correct: consumer durables spread rapidly."
+    },
+    {
+     "id": "b",
+     "text": "Living standards fell",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Cars were banned",
+     "correct": false,
+     "explanation": "Car ownership tripled."
+    },
+    {
+     "id": "d",
+     "text": "The economy was reformed successfully",
+     "correct": false,
+     "explanation": "Consumption rose without successful reform."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Helsinki monitoring groups were decimated by arrests.” Which argument does it support?",
+   "factIds": [
+    "F-BRZ-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The regime would not tolerate citizens holding it to its own international promises",
+     "correct": true,
+     "explanation": "Correct: détente had limits at home."
+    },
+    {
+     "id": "b",
+     "text": "The regime supported the groups",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The Helsinki Accords had no human-rights provisions",
+     "correct": false,
+     "explanation": "They contained human-rights provisions."
+    },
+    {
+     "id": "d",
+     "text": "Dissent grew unchecked",
+     "correct": false,
+     "explanation": "It was repressed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Brezhnev officially called his era the 'era of stagnation'.”",
+   "factIds": [
+    "F-BRZ-13",
+    "F-BRZ-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The official term was 'developed socialism'; 'stagnation' was coined in the late 1980s",
+     "correct": true,
+     "explanation": "Correct: by Gorbachev."
+    },
+    {
+     "id": "b",
+     "text": "Brezhnev ruled from 1953",
+     "correct": false,
+     "explanation": "He ruled from 1964."
+    },
+    {
+     "id": "c",
+     "text": "The economy collapsed in 1970",
+     "correct": false,
+     "explanation": "No collapse is recorded in 1970."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the label came later."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Sakharov was put on trial and sent to a labour camp in 1980.”",
+   "factIds": [
+    "F-BRZ-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He was exiled to Gorky by decree of the Supreme Soviet, without trial",
+     "correct": true,
+     "explanation": "Correct: 'socialist legality' by decree."
+    },
+    {
+     "id": "b",
+     "text": "Sakharov was a writer, not a scientist",
+     "correct": false,
+     "explanation": "He was a physicist."
+    },
+    {
+     "id": "c",
+     "text": "He was exiled in 1970",
+     "correct": false,
+     "explanation": "He was exiled on 22 January 1980."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: he was exiled by decree."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Brezhnev's rule between 1964 and 1982. Is Gorbachev's glasnost inside or outside the timeframe?",
+   "factIds": [
+    "F-BRZ-16"
+   ],
+   "timeframe": [
+    1964,
+    1982
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: glasnost came after 1985",
+     "correct": true,
+     "explanation": "Correct: it can only be mentioned as a later contrast."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: it came after Brezhnev's death."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it responded to stagnation",
+     "correct": false,
+     "explanation": "Relevant, but its dates fall outside."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Helsinki Accords of 1975 recognise?",
+   "factIds": [
+    "F-BRZ-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Europe's post-war borders",
+     "correct": true,
+     "explanation": "Correct: a major Soviet aim."
+    },
+    {
+     "id": "b",
+     "text": "German reunification",
+     "correct": false,
+     "explanation": "That came in 1990."
+    },
+    {
+     "id": "c",
+     "text": "Soviet withdrawal from eastern Europe",
+     "correct": false,
+     "explanation": "Not what they did."
+    },
+    {
+     "id": "d",
+     "text": "The end of the Warsaw Pact",
+     "correct": false,
+     "explanation": "Not what they did."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why, according to Judt, did the Soviet Union invade Afghanistan in December 1979?",
+   "factIds": [
+    "F-BRZ-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To restore a stable and compliant regime on its southern border, largely at Gromyko's instigation",
+     "correct": true,
+     "explanation": "Correct: it ended détente."
+    },
+    {
+     "id": "b",
+     "text": "To seize oil fields",
+     "correct": false,
+     "explanation": "Not Judt's explanation."
+    },
+    {
+     "id": "c",
+     "text": "To support the mujahideen",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "At the request of the United States",
+     "correct": false,
+     "explanation": "The US opposed the invasion."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the Baikal-Amur Mainline?",
+   "factIds": [
+    "F-BRZ-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A Siberian railway revived in 1974 as a hero project, with no clear economic function",
+     "correct": true,
+     "explanation": "Correct: a symbol of the era."
+    },
+    {
+     "id": "b",
+     "text": "A pipeline to western Europe",
+     "correct": false,
+     "explanation": "Not what it was."
+    },
+    {
+     "id": "c",
+     "text": "A canal",
+     "correct": false,
+     "explanation": "It was a railway."
+    },
+    {
+     "id": "d",
+     "text": "A military alliance",
+     "correct": false,
+     "explanation": "Not what it was."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which titles did Brezhnev accumulate in the late 1970s?",
+   "factIds": [
+    "F-BRZ-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Marshal of the Soviet Union (1976) and chairman of the Supreme Soviet (1977)",
+     "correct": true,
+     "explanation": "Correct: he also received the Lenin Prize for literature."
+    },
+    {
+     "id": "b",
+     "text": "President of the United States",
+     "correct": false,
+     "explanation": "An absurd option: he led the USSR."
+    },
+    {
+     "id": "c",
+     "text": "Head of the KGB",
+     "correct": false,
+     "explanation": "That was Andropov."
+    },
+    {
+     "id": "d",
+     "text": "Prime minister only",
+     "correct": false,
+     "explanation": "Kosygin was prime minister."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to the pension scheme after 1965?",
+   "factIds": [
+    "F-BRZ-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was extended to collective farmers",
+     "correct": true,
+     "explanation": "Correct: continuing Khrushchev's welfare reforms."
+    },
+    {
+     "id": "b",
+     "text": "It was abolished",
+     "correct": false,
+     "explanation": "It was extended."
+    },
+    {
+     "id": "c",
+     "text": "It was privatised",
+     "correct": false,
+     "explanation": "Pensions remained a state scheme."
+    },
+    {
+     "id": "d",
+     "text": "It was limited to party members",
+     "correct": false,
+     "explanation": "It covered collective farmers too."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the Brezhnev era a period of stagnation between 1964 and 1982?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "stagnation",
+     "answer": "factor",
+     "explanation": "The named characterisation."
+    },
+    {
+     "id": "s3",
+     "text": "the Brezhnev era",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1964 and 1982",
+     "answer": "timeframe",
+     "explanation": "Brezhnev's rule."
+    },
+    {
+     "id": "s5",
+     "text": "a period of stagnation",
+     "answer": "judgement",
+     "explanation": "Stagnation, stability, or both?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the domestic and foreign policies of Brezhnev between 1964 and 1982.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences throughout."
+    },
+    {
+     "id": "s2",
+     "text": "the domestic and foreign policies",
+     "answer": "factor",
+     "explanation": "Two spheres."
+    },
+    {
+     "id": "s3",
+     "text": "of Brezhnev",
+     "answer": "scope",
+     "explanation": "The leader."
+    },
+    {
+     "id": "s4",
+     "text": "between 1964 and 1982",
+     "answer": "timeframe",
+     "explanation": "His rule."
+    },
+    {
+     "id": "s5",
+     "text": "compare",
+     "answer": "judgement",
+     "explanation": "Was the same logic of control and recognition at work in both?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Brezhnev era a period of stagnation between 1964 and 1982?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The era was one of stagnation in reform, ideas and leadership, but not in living standards, which rose under the 'Little Deal'; 'stagnation' describes the system's failure to adapt more than people's experience.",
+     "correct": true,
+     "explanation": "Correct: distinguishes dimensions and judges."
+    },
+    {
+     "id": "b",
+     "text": "Brezhnev ruled from 1964 to 1982.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The era was boring.",
+     "correct": false,
+     "explanation": "Not a historical judgement."
+    },
+    {
+     "id": "d",
+     "text": "Nothing happened under Brezhnev.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the significance of the Brezhnev Doctrine.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Brezhnev Doctrine was significant because it held the bloc together by force and, as Judt argues, ended hopes of reform from within the party; but it damaged Soviet prestige and could not make its allies' regimes legitimate.",
+     "correct": true,
+     "explanation": "Correct: significance with a limit."
+    },
+    {
+     "id": "b",
+     "text": "The Doctrine was announced in 1968.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Doctrine was bad.",
+     "correct": false,
+     "explanation": "Not a historical judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Doctrine was never used.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1965 Kosygin introduced economic reforms.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because managers still could not set prices, the reforms could not make enterprises respond to demand.",
+     "answer": "analysis",
+     "explanation": "Explains a cause."
+    },
+    {
+     "id": "s3",
+     "text": "On 21 August 1968 Warsaw Pact troops invaded Czechoslovakia.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that reformers stopped looking to the party to carry their hopes.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Fridges in 86 per cent of urban families",
+     "right": "Living standards rose",
+     "explanation": "By 1980."
+    },
+    {
+     "left": "Second economy at 10–12 per cent of GDP",
+     "right": "The plan relied on illegal trade",
+     "explanation": "Treml."
+    },
+    {
+     "left": "Invasion of 21 August 1968",
+     "right": "Control mattered more than reform",
+     "explanation": "Czechoslovakia."
+    },
+    {
+     "left": "Brezhnev's Lenin Prize for literature",
+     "right": "The leadership's cult had grown empty",
+     "explanation": "1979."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The economy stagnated under Brezhnev.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the 1965 reform left prices under central control, enterprises could not respond to demand, so the plan relied increasingly on an illegal second economy; yet consumption still rose, with televisions in 85 per cent of urban families by 1980.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and qualification."
+    },
+    {
+     "id": "b",
+     "text": "The economy was very bad.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Brezhnev ran the economy.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The economy stopped completely.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Brezhnev era was a time of decline for ordinary Soviet citizens.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Between 1965 and 1980 refrigerators, televisions and washing machines spread to most urban families, car ownership tripled, and many citizens remember the early 1970s as a time of quiet improvement.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Brezhnev was popular.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "c",
+     "text": "The Soviet Union was large.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "Some people were happy.",
+     "correct": false,
+     "explanation": "Too vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Brezhnev era a period of stagnation?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by the system's capacity to reform, the era was stagnant; judged by citizens' material lives, it was a period of improvement, which explains why both 'stagnation' and nostalgia describe it.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Brezhnev died in 1982.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, communism was bad.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, all eras stagnate.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the failure of economic reform in the Soviet Union between 1965 and 1982.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Managers could not set prices",
+     "answer": "causes",
+     "explanation": "Central control kept."
+    },
+    {
+     "id": "s2",
+     "text": "Weak labour discipline",
+     "answer": "causes",
+     "explanation": "'They pretend to pay us'."
+    },
+    {
+     "id": "s3",
+     "text": "Growth of the second economy",
+     "answer": "effects",
+     "explanation": "10–12 per cent of GDP."
+    },
+    {
+     "id": "s4",
+     "text": "Low-quality production",
+     "answer": "effects",
+     "explanation": "Preference for foreign goods."
+    },
+    {
+     "id": "s5",
+     "text": "Cynicism and loss of trust",
+     "answer": "effects",
+     "explanation": "A disillusioned white-collar class."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-16-Y1-BREZHNEV-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the Brezhnev era a period of stagnation between 1964 and 1982?",
+   "commandTerm": "to what extent",
+   "namedFactor": "stagnation",
+   "features": [
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1964,
+    1982
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Stagnation, weighed first",
+    "timeframe": "1964–1982",
+    "scope": "The Brezhnev era",
+    "judgement": "Stagnation, stability, or both?"
+   },
+   "modelPlan": {
+    "thesis": "The era was one of stagnation in reform, ideas and leadership, but not in living standards, which rose under the 'Little Deal'; 'stagnation' describes the system's failure to adapt more than people's experience.",
+    "arguments": [
+     {
+      "claim": "Stagnation: failed reform and the second economy (named factor first).",
+      "evidence": [
+       "F-BRZ-02",
+       "F-BRZ-15"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Stagnation: repression and an ageing leadership.",
+      "evidence": [
+       "F-BRZ-03",
+       "F-BRZ-16"
+      ]
+     },
+     {
+      "claim": "Stability: the Little Deal and consumption.",
+      "evidence": [
+       "F-BRZ-12",
+       "F-BRZ-14"
+      ]
+     },
+     {
+      "claim": "The label itself.",
+      "evidence": [
+       "F-BRZ-13",
+       "F-BRZ-20"
+      ]
+     }
+    ],
+    "counter": "The term 'stagnation' was coined in the late 1980s to justify reform.",
+    "judgementCriterion": "Stagnation of what? The system, yes; living standards, no."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Brezhnev era was a period of stagnation in the system, though not in daily life.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The 1965 Kosygin reform was undermined because managers could not set prices, and the second economy grew to an estimated 10–12 per cent of GDP.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the economy could not reform itself, so it relied on illegal trade to meet demand, as Judt's 'twilight of economic stagnation' suggests.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, under the 'Little Deal' living standards rose: by 1980 televisions were in 85 per cent of urban families, and the term 'stagnation' was coined only in the late 1980s.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The era was therefore stagnant in its capacity to change, and stable in what it gave ordinary citizens.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "stagnation"
+    ],
+    "synonyms": [
+     "zastoi",
+     "developed socialism"
+    ],
+    "historians": [
+     "Judt",
+     "Millar"
+    ],
+    "extraLexicon": [
+     "Little Deal",
+     "Kosygin",
+     "second economy"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-BREZHNEV-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Brezhnev's regime bought stability with consumption rather than reform.” Discuss with reference to the period 1964 to 1982.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition",
+    "leader"
+   ],
+   "timeframe": [
+    1964,
+    1982
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: consumption instead of reform",
+    "timeframe": "1964–1982",
+    "scope": "Brezhnev's regime",
+    "judgement": "Was there any real reform?"
+   },
+   "modelPlan": {
+    "thesis": "The claim is largely valid: after the Kosygin reform was undermined, the regime relied on the 'Little Deal' of rising consumption and tolerance of petty dealing, backed by repression of the few who demanded more.",
+    "arguments": [
+     {
+      "claim": "For: the Little Deal.",
+      "evidence": [
+       "F-BRZ-12"
+      ]
+     },
+     {
+      "claim": "For: rising consumption.",
+      "evidence": [
+       "F-BRZ-14"
+      ]
+     },
+     {
+      "claim": "Against: the 1965 reform attempt.",
+      "evidence": [
+       "F-BRZ-01"
+      ]
+     },
+     {
+      "claim": "Stability also relied on repression.",
+      "evidence": [
+       "F-BRZ-03",
+       "F-BRZ-11"
+      ]
+     }
+    ],
+    "counter": "Stability also rested on repression, from the Sinyavsky–Daniel trial to Sakharov's exile.",
+    "judgementCriterion": "Valid? Largely: consumption and repression replaced reform."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Brezhnev's regime did buy stability with consumption, after its one serious reform failed.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Millar's 'Little Deal' offered rising incomes, secure jobs and tolerance of small-scale dealing, and by 1980 refrigerators reached 86 per cent of urban families.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that citizens accepted political quiet in exchange for comfort, so the regime faced little open protest.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Kosygin did attempt reform in 1965, and stability also rested on repression, from the Sinyavsky–Daniel trial to Sakharov's exile.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore largely valid, provided that repression is added to consumption as the regime's second support.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "consumption",
+     "stability"
+    ],
+    "synonyms": [
+     "Little Deal",
+     "living standards"
+    ],
+    "historians": [
+     "Millar",
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Kosygin",
+     "reform",
+     "repression"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-BREZHNEV-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of the Brezhnev Doctrine for the Soviet Union and its allies between 1968 and 1982.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [
+    "leader"
+   ],
+   "timeframe": [
+    1968,
+    1982
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The significance of the Brezhnev Doctrine",
+    "timeframe": "1968–1982",
+    "scope": "The Soviet Union and its allies",
+    "judgement": "Strength through force, or weakness exposed?"
+   },
+   "modelPlan": {
+    "thesis": "The Brezhnev Doctrine was significant because it held the bloc together by force and, as Judt argues, ended hopes of reform from within the party; but it damaged Soviet prestige and could not make its allies' regimes legitimate.",
+    "arguments": [
+     {
+      "claim": "The invasion of Czechoslovakia.",
+      "evidence": [
+       "F-BRZ-05",
+       "F-BRZ-07"
+      ]
+     },
+     {
+      "claim": "The Doctrine stated.",
+      "evidence": [
+       "F-BRZ-06"
+      ]
+     },
+     {
+      "claim": "End of reform hopes.",
+      "evidence": [
+       "F-BRZ-07"
+      ]
+     },
+     {
+      "claim": "Costs to Soviet prestige.",
+      "evidence": [
+       "F-BRZ-05"
+      ]
+     }
+    ],
+    "counter": "Even western communists condemned the 1968 invasion.",
+    "judgementCriterion": "Strength or weakness? Short-term strength; long-term loss of legitimacy."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Brezhnev Doctrine secured Soviet control of its allies at the cost of communism's claim to reform.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "On 21 August 1968 Warsaw Pact troops invaded Czechoslovakia, and the Doctrine asserted the right to intervene against 'antisocialist degeneration'.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that no allied party could reform beyond Moscow's limits, so, as Judt argues, the illusion that communism was reformable never recovered.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the invasion was a public relations disaster, and the Doctrine was unpersuasive even to western communists.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The Doctrine was therefore significant as a guarantee of control that destroyed the regimes' legitimacy.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Brezhnev Doctrine"
+    ],
+    "synonyms": [
+     "intervention",
+     "Czechoslovakia"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Prague Spring",
+     "Dubček",
+     "Warsaw Pact"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-BREZHNEV-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the failure of economic reform in the Soviet Union between 1965 and 1982.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1965,
+    1982
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1965–1982",
+    "scope": "Economic reform",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "Reform failed because central control of prices remained and labour discipline was weak; the results were low quality, a growing second economy and a cynicism that undermined trust in the system.",
+    "arguments": [
+     {
+      "claim": "Reason: central control of prices.",
+      "evidence": [
+       "F-BRZ-01",
+       "F-BRZ-02"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: weak labour discipline.",
+      "evidence": [
+       "F-BRZ-02"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: the second economy.",
+      "evidence": [
+       "F-BRZ-15"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: disillusion of the educated.",
+      "evidence": [
+       "F-BRZ-13"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Consumption still rose without reform.",
+    "judgementCriterion": "Which result mattered most? The loss of trust, which outlasted the regime's material gains."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Economic reform failed because it left the core of central planning untouched.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The 1965 Kosygin reform judged enterprises by sales and let them reinvest profits, but managers could not set prices and relied on unofficial fixers.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that enterprises could not respond to demand, so consumers turned to a second economy estimated at 10–12 per cent of GDP.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, consumption still rose, which reduced the pressure on the leadership to try again.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore cynicism, as citizens learned that the system worked only when its rules were broken.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic reform"
+    ],
+    "synonyms": [
+     "Kosygin reform",
+     "planning"
+    ],
+    "historians": [
+     "Millar"
+    ],
+    "extraLexicon": [
+     "second economy",
+     "prices",
+     "tolkachi"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-BREZHNEV-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the domestic and foreign policies of Brezhnev between 1964 and 1982.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "leader"
+   ],
+   "timeframe": [
+    1964,
+    1982
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Domestic and foreign policies",
+    "timeframe": "1964–1982",
+    "scope": "Brezhnev",
+    "judgement": "The same logic of control and recognition?"
+   },
+   "modelPlan": {
+    "thesis": "In both spheres Brezhnev sought stability and recognition, at home through the 'Little Deal' and abroad through détente, and in both he used force against challenges; but abroad he won formal recognition, while at home he avoided reform and the system stagnated.",
+    "arguments": [
+     {
+      "claim": "Similarity: stability as the aim.",
+      "evidence": [
+       "F-BRZ-12",
+       "F-BRZ-08"
+      ]
+     },
+     {
+      "claim": "Similarity: force against challenges.",
+      "evidence": [
+       "F-BRZ-11",
+       "F-BRZ-07"
+      ]
+     },
+     {
+      "claim": "Difference: recognition abroad versus stagnation at home.",
+      "evidence": [
+       "F-BRZ-08",
+       "F-BRZ-02"
+      ]
+     },
+     {
+      "claim": "Collapse of détente and decline at home.",
+      "evidence": [
+       "F-BRZ-09",
+       "F-BRZ-16"
+      ]
+     }
+    ],
+    "counter": "Helsinki linked the two spheres, giving dissidents an international standard.",
+    "judgementCriterion": "Same logic? Yes: stability first, enforced by coercion."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Brezhnev's domestic and foreign policies shared one aim: stability.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "At home the 'Little Deal' traded consumption for quiet, whereas abroad détente produced SALT I in 1972 and the Helsinki Accords of 1975, recognising post-war borders.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that in both spheres the regime sought acceptance of the status quo, so it crushed challenges, from Czechoslovakia in 1968 to Sakharov in 1980.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, abroad Brezhnev won formal gains, while at home stability came without reform, and the invasion of Afghanistan in 1979 ended détente.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "His policies were therefore alike in aim and method, but more successful abroad until 1979 than at home.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "domestic",
+     "foreign"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Judt",
+     "Millar"
+    ],
+    "extraLexicon": [
+     "détente",
+     "Little Deal",
+     "Helsinki"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-BREZHNEV-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the methods used by the Soviet regime to deal with dissent between 1965 and 1982.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1965,
+    1982
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Methods against dissent",
+    "timeframe": "1965–1982",
+    "scope": "The Soviet regime",
+    "judgement": "Which method mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "The regime dealt with dissent through trials, labour camps and exile, deportation abroad, administrative decrees and propaganda, preferring methods with a veneer of legality to Stalin's terror.",
+    "arguments": [
+     {
+      "claim": "Trials and camps.",
+      "evidence": [
+       "F-BRZ-03"
+      ]
+     },
+     {
+      "claim": "Deportation and exile.",
+      "evidence": [
+       "F-BRZ-10",
+       "F-BRZ-11"
+      ]
+     },
+     {
+      "claim": "Arrests of Helsinki groups.",
+      "evidence": [
+       "F-BRZ-10",
+       "F-BRZ-11"
+      ]
+     },
+     {
+      "claim": "Tolerating private discontent.",
+      "evidence": [
+       "F-BRZ-12",
+       "F-BRZ-13"
+      ]
+     }
+    ],
+    "counter": "Most Soviet citizens were not dissidents, which made repression easier.",
+    "judgementCriterion": "Which mattered most? Exile and imprisonment of leaders, which left the movement in ruins by 1980."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The regime defeated dissent by isolating its leaders rather than by mass terror.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Sinyavsky and Daniel were sentenced in 1966, Solzhenitsyn was deported in 1974, Orlov was imprisoned in 1977 and Sakharov exiled to Gorky by decree in 1980.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that dissent was punished with an appearance of legality, so by 1980 the dissident movement was in ruins.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the 'Little Deal' mattered as much: by offering comfort in exchange for quiet, the regime kept most citizens from joining dissidents.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Repression of leaders and the 'Little Deal' therefore worked together to contain dissent.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "dissent",
+     "dissidents"
+    ],
+    "synonyms": [
+     "samizdat",
+     "Helsinki groups"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Sakharov",
+     "Solzhenitsyn",
+     "exile"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,2749 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-16-Y1-GPW-POSTWAR",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 22,
+  "openingProblem": {
+   "problem": "In 1941 the German army captured millions of Soviet soldiers and reached the outskirts of Moscow and Leningrad. Four years later the Red Army stood in Berlin. How did Stalin's state survive and win, and what did victory cost its people?",
+   "predictionPrompt": "Your prediction in one line: what explains Soviet victory?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "impact_consequences",
+    "title": "Catastrophe and survival, 1941–1942",
+    "body": "In June 1941 Germany invaded the Soviet Union. The first months were a catastrophe. The Germans captured some 5.5 million Soviet soldiers during the war, three-quarters of them in the first seven months; at Kiev in September 1941 alone they took 750,000 prisoners, of whom only 22,000 survived. In 1956 Khrushchev would accuse Stalin of leaving the country unprepared for the invasion.\n\nThe state fought back by moving the economy east. Between 17 and 25 million people, and 1,523 large defence factories, were evacuated to the Urals, Western Siberia and Central Asia. Because Stalin had feared that planning for evacuation would encourage defeatism, it was improvised and chaotic, and many evacuees died of hunger and disease. Yet the relocation of industry made possible the defence production on which victory depended; the Russian historian G. A. Kumanev concludes that its main goal \"was achieved\".\n\n**Leningrad** was besieged from September 1941 for two and a half years. Supplies came only across the frozen Lake Ladoga, the \"road of life\". In March 1942 the city buried 89,968 people and in April 102,497. Stalin rallied the population not only with communist slogans but with the language of Russian nationalism and history.\n\nThis mattered because the regime survived the first catastrophic year by mobilising people and industry on an enormous scale, which meant that the war became a test the Soviet system passed at a terrible human cost.",
+    "argumentsThatWork": [
+     {
+      "claim": "The invasion caught the USSR unprepared.",
+      "evidence": [
+       "F-GPW-01",
+       "F-GPW-20"
+      ],
+      "strongestCounter": "The Red Army did not collapse."
+     },
+     {
+      "claim": "Evacuation saved Soviet industry.",
+      "evidence": [
+       "F-GPW-04"
+      ],
+      "strongestCounter": "It was chaotic and costly."
+     },
+     {
+      "claim": "Russian patriotism rallied the population.",
+      "evidence": [
+       "F-GPW-09"
+      ],
+      "strongestCounter": "Communist ideology was not abandoned."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was the Soviet victory in the Great Patriotic War due to Stalin's leadership between 1941 and 1945?",
+     "Analyse the reasons for Soviet victory in the Great Patriotic War between 1941 and 1945."
+    ],
+    "useItInAnEssay": {
+     "claim": "The evacuation of industry was one of the foundations of Soviet victory.",
+     "prove": "Between 17 and 25 million people and 1,523 large defence plants were moved to the Urals, Western Siberia and Central Asia.",
+     "explain": "This meant that the Soviet Union could continue arms production beyond German reach, so it survived the loss of its western territories.",
+     "test": "However, the evacuation was improvised because Stalin had forbidden planning for it, and many evacuees died of hunger and disease.",
+     "judge": "The evacuation therefore succeeded despite, not because of, Stalin's leadership before the war."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many large defence enterprises were evacuated in 1941–42? (number)",
+      "factIds": [
+       "F-GPW-04"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1523,
+        "tolerance": 0,
+        "explanation": "1,523."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why was the evacuation of 1941 poorly planned?",
+      "factIds": [
+       "F-GPW-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Stalin feared that planning for evacuation would encourage defeatism",
+        "correct": true,
+        "explanation": "Correct: it was improvised."
+       },
+       {
+        "id": "b",
+        "text": "The Germans had captured the planners",
+        "correct": false,
+        "explanation": "Not the reason."
+       },
+       {
+        "id": "c",
+        "text": "Industry was already in the east",
+        "correct": false,
+        "explanation": "It had to be moved east."
+       },
+       {
+        "id": "d",
+        "text": "Lend-Lease paid for new factories",
+        "correct": false,
+        "explanation": "Not the reason."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Of 750,000 Soviet soldiers captured at Kiev in September 1941, just 22,000 survived the war.” Which argument does it support best?",
+      "factIds": [
+       "F-GPW-01"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The first months of the war were a catastrophe for the Red Army",
+        "correct": true,
+        "explanation": "Correct: three-quarters of prisoners were taken in the first seven months."
+       },
+       {
+        "id": "b",
+        "text": "The Red Army won at Kiev",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Prisoners were well treated",
+        "correct": false,
+        "explanation": "3.3 million died."
+       },
+       {
+        "id": "d",
+        "text": "The invasion came in 1943",
+        "correct": false,
+        "explanation": "It came in June 1941."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "causes",
+    "title": "Turning the tide: Stalingrad and Kursk, 1942–1943",
+    "body": "In summer 1942 Germany struck south towards the Caucasus oil fields, and the German Sixth Army attacked **Stalingrad** on the Volga. After two months of bombardment it held nine-tenths of the ruined city, but the defenders, bound by Stalin's **Order No. 227** (\"Not One Step Back!\"), fought house by house. On 19 November about a million Soviet troops under **Zhukov** attacked both German flanks and trapped some 250,000 enemy soldiers. On **2 February 1943** Paulus surrendered with 110,000 survivors. Soviet casualties were about 750,000. After Stalingrad, the war's outcome was no longer in doubt.\n\nIn July 1943 the Germans tried once more at **Kursk**, in the largest tank battle of the war. The Red Army, with 1.3 million men and 3,600 tanks, held the attacks and went over to the offensive; the Germans lost 30 of their 50 divisions. Kiev was liberated on 6 November 1943. The historian James von Geldern argues that Kursk, rather than the Normandy landings that western historians usually stress, was the more likely turning point of the war.\n\nThe Soviet Union did not fight alone. From October 1941 the United States sent Lend-Lease aid, and by the end of 1943 the Big Three met at **Tehran**, where they agreed the outlines of post-war Europe. But Stalin repeatedly complained that the western allies delayed the \"second front\" in France until 1944.\n\nThis mattered because the Red Army broke the German offensive on its own soil in 1942–43, which meant that the Soviet Union emerged from the war as a victor with a decisive claim on the shape of post-war Europe.",
+    "argumentsThatWork": [
+     {
+      "claim": "Stalingrad turned the tide.",
+      "evidence": [
+       "F-GPW-06"
+      ],
+      "strongestCounter": "It cost about 750,000 Soviet casualties."
+     },
+     {
+      "claim": "Kursk confirmed Soviet superiority.",
+      "evidence": [
+       "F-GPW-07"
+      ],
+      "strongestCounter": "Western historians stress D-Day."
+     },
+     {
+      "claim": "Allied aid helped the Soviet war effort.",
+      "evidence": [
+       "F-GPW-10"
+      ],
+      "strongestCounter": "The second front came only in 1944."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the significance of the Battle of Stalingrad for the Soviet war effort between 1942 and 1943.",
+     "Analyse the reasons for Soviet victory in the Great Patriotic War between 1941 and 1945."
+    ],
+    "useItInAnEssay": {
+     "claim": "Stalingrad was the turning point of the Soviet war.",
+     "prove": "On 19 November 1942 about a million Soviet troops encircled some 250,000 Germans, and Paulus surrendered on 2 February 1943 with 110,000 survivors.",
+     "explain": "This meant that the German advance to the Caucasus oil fields was stopped, so the Red Army could begin the offensives that took it to Berlin.",
+     "test": "However, Kursk in July 1943 decisively broke German offensive power, and von Geldern sees it as the more likely turning point.",
+     "judge": "Stalingrad was therefore the moment the tide turned, and Kursk the moment it became irreversible."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what day in February 1943 did Paulus surrender at Stalingrad? (day of the month)",
+      "factIds": [
+       "F-GPW-06"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 2,
+        "tolerance": 0,
+        "explanation": "2 February 1943."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was Order No. 227?",
+      "factIds": [
+       "F-GPW-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Stalin's order 'Not One Step Back!'",
+        "correct": true,
+        "explanation": "Correct: defenders fought house by house."
+       },
+       {
+        "id": "b",
+        "text": "The order to evacuate Moscow",
+        "correct": false,
+        "explanation": "Not this order."
+       },
+       {
+        "id": "c",
+        "text": "The order to invade Germany",
+        "correct": false,
+        "explanation": "Not this order."
+       },
+       {
+        "id": "d",
+        "text": "The Lend-Lease agreement",
+        "correct": false,
+        "explanation": "That was an American law."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “At Kursk the Germans lost 30 of their 50 divisions.” Which argument does it support best?",
+      "factIds": [
+       "F-GPW-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Kursk broke Germany's ability to attack in the east",
+        "correct": true,
+        "explanation": "Correct: the Red Army then took the offensive."
+       },
+       {
+        "id": "b",
+        "text": "Germany won at Kursk",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Kursk was a minor battle",
+        "correct": false,
+        "explanation": "It was the largest tank battle of the war."
+       },
+       {
+        "id": "d",
+        "text": "The Soviets lost Kiev after Kursk",
+        "correct": false,
+        "explanation": "They liberated it on 6 November 1943."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "nature_methods",
+    "title": "The regime at war: nationalism and deportation",
+    "body": "The war changed the regime's language but not its methods. Stalin rallied the population with traditional Russian patriotism: heroes of the Russian past such as Ivan the Terrible were celebrated, and Eisenstein's film of Ivan's life won a Stalin Prize in 1944. In May 1943 the Comintern, the organisation of world communist parties, was dissolved, a gesture welcomed by Stalin's western allies.\n\nAt the same time the NKVD pursued whole peoples. In 1941 at least 400,000 Volga Germans were deported east. In 1943–44 about **one million** Chechens, Ingush, Karachai, Balkars, Kalmyks, Meskhetian Turks and Crimean Tatars were deported to Kazakhstan and Central Asia, collectively accused of collaborating with the Germans. In February 1944 almost the entire Chechen and Ingush populations were deported in a single night; many died on the way. Only in 1957 were most allowed to return, and the Crimean Tatars and Meskhetian Turks were not.\n\nSoviet prisoners of war were also treated as suspects. Of 5.5 million Soviet citizens repatriated by 1953, one in five was shot or sent to the Gulag.\n\nThis mattered because the regime combined patriotic mobilisation with collective punishment, which meant that victory strengthened the state's claim to legitimacy without ending its habits of repression.",
+    "argumentsThatWork": [
+     {
+      "claim": "Patriotism replaced revolutionary internationalism in wartime propaganda.",
+      "evidence": [
+       "F-GPW-09",
+       "F-GPW-11"
+      ],
+      "strongestCounter": "The party's control continued."
+     },
+     {
+      "claim": "Whole nations were punished collectively.",
+      "evidence": [
+       "F-GPW-08"
+      ],
+      "strongestCounter": "Most were allowed home in 1957."
+     },
+     {
+      "claim": "Returning prisoners were treated as suspects.",
+      "evidence": [
+       "F-GPW-17"
+      ],
+      "strongestCounter": "Most returned home."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for, and the results of, the deportation of national minorities between 1941 and 1944.",
+     "“The Great Patriotic War strengthened Stalin's regime.” Discuss with reference to the period 1941 to 1953."
+    ],
+    "useItInAnEssay": {
+     "claim": "The deportations of 1941–44 showed that wartime emergency intensified the regime's repression.",
+     "prove": "About one million people of seven nationalities were deported in 1943–44, and in February 1944 almost all Chechens and Ingush were deported in a single night.",
+     "explain": "This meant that whole peoples were punished for the alleged collaboration of some, so ethnic identity itself became a crime.",
+     "test": "However, the regime presented the deportations as security measures, and in 1957 most deported peoples were allowed to return.",
+     "judge": "The deportations therefore show that victory in war was accompanied by collective punishment on an enormous scale."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "About how many people were deported from the North Caucasus and Crimea in 1943–44? (millions)",
+      "factIds": [
+       "F-GPW-08"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "About one million."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which peoples were deported in 1943–44?",
+      "factIds": [
+       "F-GPW-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Chechens, Ingush, Karachai, Balkars, Kalmyks, Meskhetian Turks and Crimean Tatars",
+        "correct": true,
+        "explanation": "Correct: charged collectively with collaboration."
+       },
+       {
+        "id": "b",
+        "text": "Russians and Ukrainians",
+        "correct": false,
+        "explanation": "Not deported as peoples."
+       },
+       {
+        "id": "c",
+        "text": "Poles and Finns only",
+        "correct": false,
+        "explanation": "They were deported earlier, in the 1930s."
+       },
+       {
+        "id": "d",
+        "text": "Georgians and Armenians",
+        "correct": false,
+        "explanation": "Not deported as peoples."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Eisenstein's film of Ivan the Terrible won a Stalin Prize in 1944.” Which argument does it support best?",
+      "factIds": [
+       "F-GPW-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Wartime propaganda drew on the Russian national past",
+        "correct": true,
+        "explanation": "Correct: strong rulers as models."
+       },
+       {
+        "id": "b",
+        "text": "Propaganda ignored history",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Stalin disliked all films about the past",
+        "correct": false,
+        "explanation": "He admired part one."
+       },
+       {
+        "id": "d",
+        "text": "The Comintern made the film",
+        "correct": false,
+        "explanation": "Not what happened."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "success_failure",
+    "title": "Victory and hardship: the post-war years, 1945–1953",
+    "body": "Victory came at a staggering price. The Soviet Union lost **8.6 million** men and women under arms and, in total, about **27 million** people, around one in eleven of its pre-war population.\n\nPeace brought new hardship. By 1945 collective farms had only 42 per cent of their pre-war horses and 38 per cent of their working-age men. In 1946 a drought cut the grain harvest to 39.6 million tons, against 95.5 million in 1940; yet procurement quotas stayed high and private plots were taken back, and famine struck in 1946–47. When rationing was abolished on 14 December 1947, a currency reform wiped out many people's savings, and the change, Lewis Siegelbaum writes, \"belied hopes for improvements in living conditions\". Of eleven million soldiers, 8.5 million were demobilised over three years, many into unemployment and homelessness.\n\nPolitically, the regime tightened its grip. Andrei Zhdanov's campaign of 1946–48 attacked writers and \"cosmopolitanism\"; a 1947 law banned marriage to foreigners; Lysenko's triumph in 1948 halted genetics; and after Zhdanov's death a purge struck the Leningrad party. When Stalin died on **5 March 1953**, the \"Doctors' Plot\" seemed to herald a new purge; his successors formed a \"collective leadership\".\n\nThis mattered because victory brought the Soviet Union great-power status but little relief for its people, which meant that Stalin's successors inherited a strong state and an exhausted, impoverished society.",
+    "argumentsThatWork": [
+     {
+      "claim": "The war's human cost was enormous.",
+      "evidence": [
+       "F-GPW-02",
+       "F-GPW-03"
+      ],
+      "strongestCounter": "Figures remain disputed."
+     },
+     {
+      "claim": "Post-war recovery brought new hardship.",
+      "evidence": [
+       "F-GPW-12",
+       "F-GPW-13"
+      ],
+      "strongestCounter": "Rationing ended in 1947."
+     },
+     {
+      "claim": "Repression intensified after victory.",
+      "evidence": [
+       "F-GPW-15",
+       "F-GPW-16"
+      ],
+      "strongestCounter": "There was no repeat of 1937."
+     }
+    ],
+    "howItGetsAsked": [
+     "“The Great Patriotic War strengthened Stalin's regime.” Discuss with reference to the period 1941 to 1953.",
+     "Compare and contrast the economic situation of the Soviet people during the war and in the post-war years, between 1941 and 1953."
+    ],
+    "useItInAnEssay": {
+     "claim": "Victory strengthened the Soviet state but brought little relief to its people.",
+     "prove": "In 1946 drought cut the harvest to 39.6 million tons against 95.5 million in 1940, yet procurement quotas stayed high, and famine followed in 1946–47.",
+     "explain": "This meant that the regime continued to put the state's needs before the population's, so peace did not bring the improvement many expected.",
+     "test": "However, rationing was abolished in December 1947, which the regime presented as a sign of recovery.",
+     "judge": "The post-war years therefore showed a victorious state ruling an exhausted society."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many million Soviet military personnel are thought to have died in the war, according to Judt? (number, e.g. 8.6)",
+      "factIds": [
+       "F-GPW-02"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 8.6,
+        "tolerance": 0.1,
+        "explanation": "8.6 million."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened on 14 December 1947?",
+      "factIds": [
+       "F-GPW-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Rationing was abolished together with a currency reform that wiped out many savings",
+        "correct": true,
+        "explanation": "Correct: hopes for better living conditions were disappointed."
+       },
+       {
+        "id": "b",
+        "text": "Stalin died",
+        "correct": false,
+        "explanation": "He died on 5 March 1953."
+       },
+       {
+        "id": "c",
+        "text": "The war ended",
+        "correct": false,
+        "explanation": "It ended in 1945."
+       },
+       {
+        "id": "d",
+        "text": "The Doctors' Plot was announced",
+        "correct": false,
+        "explanation": "That was January 1953."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-GPW-POSTWAR-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “By 1945 collective farms had only 38 per cent of their pre-war working-age men.” Which argument does it support best?",
+      "factIds": [
+       "F-GPW-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The war left Soviet agriculture desperately short of labour",
+        "correct": true,
+        "explanation": "Correct: one cause of the 1946–47 famine."
+       },
+       {
+        "id": "b",
+        "text": "Agriculture recovered quickly",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "Men left farms for the cities only",
+        "correct": false,
+        "explanation": "War losses were the main cause."
+       },
+       {
+        "id": "d",
+        "text": "The farms had more horses than before the war",
+        "correct": false,
+        "explanation": "Only 42 per cent."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1941,
+      "month": 6,
+      "text": "German invasion",
+      "factId": "F-GPW-01"
+     },
+     {
+      "year": 1941,
+      "month": 9,
+      "text": "Siege of Leningrad begins; Kiev falls",
+      "factId": "F-GPW-05"
+     },
+     {
+      "year": 1941,
+      "month": 10,
+      "text": "US Congress approves Lend-Lease for the USSR",
+      "factId": "F-GPW-10"
+     },
+     {
+      "year": 1942,
+      "month": 8,
+      "text": "Battle of Stalingrad begins",
+      "factId": "F-GPW-06"
+     },
+     {
+      "year": 1943,
+      "month": 2,
+      "day": 2,
+      "text": "Paulus surrenders at Stalingrad",
+      "factId": "F-GPW-06"
+     },
+     {
+      "year": 1943,
+      "month": 5,
+      "text": "Comintern dissolved",
+      "factId": "F-GPW-11"
+     },
+     {
+      "year": 1943,
+      "month": 7,
+      "day": 5,
+      "text": "Battle of Kursk begins",
+      "factId": "F-GPW-07"
+     },
+     {
+      "year": 1943,
+      "month": 11,
+      "text": "Kiev liberated; Tehran Conference",
+      "factId": "F-GPW-07"
+     },
+     {
+      "year": 1944,
+      "month": 2,
+      "text": "Chechens and Ingush deported",
+      "factId": "F-GPW-08"
+     },
+     {
+      "year": 1946,
+      "month": 8,
+      "text": "Zhdanov's attack on writers",
+      "factId": "F-GPW-15"
+     },
+     {
+      "year": 1947,
+      "month": 12,
+      "day": 14,
+      "text": "Rationing abolished; currency reform",
+      "factId": "F-GPW-13"
+     },
+     {
+      "year": 1953,
+      "month": 3,
+      "day": 5,
+      "text": "Stalin dies",
+      "factId": "F-GPW-19"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Unprepared for invasion; catastrophic losses",
+      "factId": "F-GPW-01"
+     },
+     {
+      "id": "n2",
+      "text": "Evacuation of industry to the east",
+      "factId": "F-GPW-04"
+     },
+     {
+      "id": "n3",
+      "text": "Patriotic mobilisation and repression",
+      "factId": "F-GPW-09"
+     },
+     {
+      "id": "n4",
+      "text": "Stalingrad and Kursk turn the tide",
+      "factId": "F-GPW-06"
+     },
+     {
+      "id": "n5",
+      "text": "Victory at the cost of about 27 million lives",
+      "factId": "F-GPW-03"
+     },
+     {
+      "id": "n6",
+      "text": "Post-war hardship and renewed control",
+      "factId": "F-GPW-12"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Industry had to be saved from the German advance"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "The state mobilised every resource and suspected disloyalty"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Production and endurance supported the counter-offensives"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "The Red Army fought its way to Berlin"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Recovery was paid for by the population"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Joseph Stalin",
+     "role": "Supreme leader",
+     "whyItMatters": "Order No. 227; accused in 1956 of leaving the country unprepared.",
+     "factIds": [
+      "F-GPW-06",
+      "F-GPW-20"
+     ]
+    },
+    {
+     "name": "Georgii Zhukov",
+     "role": "Marshal",
+     "whyItMatters": "Commanded the Stalingrad counter-offensive.",
+     "factIds": [
+      "F-GPW-06"
+     ]
+    },
+    {
+     "name": "Friedrich Paulus",
+     "role": "German Sixth Army commander",
+     "whyItMatters": "Surrendered on 2 February 1943.",
+     "factIds": [
+      "F-GPW-06"
+     ]
+    },
+    {
+     "name": "Andrei Zhdanov",
+     "role": "Ideology chief",
+     "whyItMatters": "Led the post-war cultural crackdown.",
+     "factIds": [
+      "F-GPW-15"
+     ]
+    },
+    {
+     "name": "G. A. Kumanev",
+     "role": "Russian military historian",
+     "whyItMatters": "The evacuation's main goal 'was achieved'.",
+     "factIds": [
+      "F-GPW-04"
+     ]
+    },
+    {
+     "name": "James von Geldern",
+     "role": "Historian",
+     "whyItMatters": "Kursk a more likely turning point than D-Day.",
+     "factIds": [
+      "F-GPW-07"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "War (1941–1945)",
+     "Post-war (1945–1953)"
+    ],
+    "rows": [
+     {
+      "criterion": "Economy",
+      "cells": [
+       "Industry evacuated east; total mobilisation",
+       "Drought, famine 1946–47, currency reform"
+      ],
+      "factIds": [
+       "F-GPW-04",
+       "F-GPW-12"
+      ]
+     },
+     {
+      "criterion": "Propaganda",
+      "cells": [
+       "Russian patriotism; Comintern dissolved",
+       "Campaign against 'cosmopolitanism'"
+      ],
+      "factIds": [
+       "F-GPW-09",
+       "F-GPW-15"
+      ]
+     },
+     {
+      "criterion": "Repression",
+      "cells": [
+       "Deportation of whole peoples",
+       "Repatriated citizens shot or sent to the Gulag"
+      ],
+      "factIds": [
+       "F-GPW-08",
+       "F-GPW-17"
+      ]
+     },
+     {
+      "criterion": "Human cost",
+      "cells": [
+       "About 27 million dead",
+       "Veterans unemployed and homeless"
+      ],
+      "factIds": [
+       "F-GPW-03",
+       "F-GPW-14"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-GPW-01",
+    "year": 1941,
+    "text": "1941: three-quarters of 5.5 million Soviet POWs taken in seven months.",
+    "supports": [
+     "The USSR was unprepared"
+    ],
+    "lexicon": [
+     "Operation Barbarossa",
+     "prisoners of war"
+    ]
+   },
+   {
+    "factId": "F-GPW-04",
+    "year": 1942,
+    "text": "17–25 million evacuated with 1,523 large factories.",
+    "supports": [
+     "Evacuation saved industry"
+    ],
+    "lexicon": [
+     "evacuation",
+     "Urals"
+    ]
+   },
+   {
+    "factId": "F-GPW-06",
+    "year": 1943,
+    "text": "Stalingrad: Paulus surrendered on 2 February 1943.",
+    "supports": [
+     "Stalingrad turned the tide"
+    ],
+    "alsoWorksFor": [
+     "P2-12-GRAND-ALLIANCE"
+    ],
+    "lexicon": [
+     "Stalingrad",
+     "Order No. 227"
+    ]
+   },
+   {
+    "factId": "F-GPW-07",
+    "year": 1943,
+    "text": "Kursk (July–August 1943): Germans lost 30 of 50 divisions.",
+    "supports": [
+     "Kursk confirmed Soviet superiority"
+    ],
+    "lexicon": [
+     "Kursk",
+     "tank battle"
+    ]
+   },
+   {
+    "factId": "F-GPW-08",
+    "year": 1944,
+    "text": "About one million deported from the Caucasus and Crimea in 1943–44.",
+    "supports": [
+     "Wartime repression targeted whole peoples"
+    ],
+    "lexicon": [
+     "deportations",
+     "Chechens"
+    ]
+   },
+   {
+    "factId": "F-GPW-03",
+    "year": 1945,
+    "text": "About 27 million Soviet war losses.",
+    "supports": [
+     "Victory came at an enormous cost"
+    ],
+    "lexicon": [
+     "casualties",
+     "Great Patriotic War"
+    ]
+   },
+   {
+    "factId": "F-GPW-12",
+    "year": 1946,
+    "text": "1946 harvest 39.6 million tons against 95.5 million in 1940; famine 1946–47.",
+    "supports": [
+     "Peace brought hardship"
+    ],
+    "alsoWorksFor": [
+     "P3-16-Y1-STALIN-ECONOMY"
+    ],
+    "lexicon": [
+     "famine",
+     "drought"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "G. A. Kumanev",
+    "argument": "The wartime evacuation's 'main goal - to save millions of Soviet citizens, a major amount of industrial and agricultural resources, and other material riches - was achieved' (as quoted in Seventeen Moments, 'Wartime Evacuation of Soviet Civilians').",
+    "useItLikeThis": "Kumanev's view supports the claim that the regime's mobilisation of industry made victory possible, which suggests the Soviet system proved effective in total war despite its pre-war failures.",
+    "factId": "F-GPW-04"
+   },
+   {
+    "historian": "James von Geldern",
+    "argument": "Although western historiography traditionally dates Germany's downfall to D-Day, 'the crushing defeat of Kursk makes a more likely turning point for the war' (Seventeen Moments, 'Battle of Kursk').",
+    "useItLikeThis": "Von Geldern's view supports the claim that the Red Army's victories were decisive for the defeat of Germany, which suggests the Soviet contribution has been underestimated in the West.",
+    "factId": "F-GPW-07"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "The Soviet Union was well prepared for the German invasion.",
+    "right": "Three-quarters of the 5.5 million Soviet prisoners were taken in the **first seven months**."
+   },
+   {
+    "wrong": "Wartime propaganda relied only on communist ideas.",
+    "right": "Stalin drew heavily on **Russian national history and patriotism**."
+   },
+   {
+    "wrong": "Victory brought prosperity.",
+    "right": "Drought and high quotas brought **famine in 1946–47**."
+   },
+   {
+    "wrong": "Repression stopped during the war.",
+    "right": "About **one million** people were deported as whole nations in 1943–44."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1941,
+     "month": 6,
+     "text": "Invasion"
+    },
+    {
+     "year": 1941,
+     "month": 9,
+     "text": "Leningrad siege begins"
+    },
+    {
+     "year": 1943,
+     "month": 2,
+     "text": "Stalingrad surrender"
+    },
+    {
+     "year": 1943,
+     "month": 7,
+     "text": "Kursk"
+    },
+    {
+     "year": 1944,
+     "month": 2,
+     "text": "Chechen deportation"
+    },
+    {
+     "year": 1946,
+     "month": 8,
+     "text": "Zhdanovshchina"
+    },
+    {
+     "year": 1947,
+     "month": 12,
+     "text": "Rationing ends"
+    },
+    {
+     "year": 1953,
+     "month": 3,
+     "text": "Stalin dies"
+    }
+   ],
+   "keyArguments": [
+    "The USSR was unprepared in 1941, but evacuation saved its industry.",
+    "Stalingrad turned the tide; Kursk made it irreversible (von Geldern).",
+    "Patriotism and collective punishment went together in wartime.",
+    "Victory cost about 27 million lives; peace brought famine and hardship.",
+    "Repression and ideological control intensified until Stalin's death."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "German invasion",
+     "year": 1941,
+     "month": 6,
+     "factId": "F-GPW-01"
+    },
+    {
+     "id": "b",
+     "text": "Siege of Leningrad begins",
+     "year": 1941,
+     "month": 9,
+     "factId": "F-GPW-05"
+    },
+    {
+     "id": "c",
+     "text": "Lend-Lease approved for the USSR",
+     "year": 1941,
+     "month": 10,
+     "factId": "F-GPW-10"
+    },
+    {
+     "id": "d",
+     "text": "Battle of Stalingrad begins",
+     "year": 1942,
+     "month": 8,
+     "factId": "F-GPW-06"
+    },
+    {
+     "id": "e",
+     "text": "Paulus surrenders",
+     "year": 1943,
+     "month": 2,
+     "factId": "F-GPW-06"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Comintern dissolved",
+     "year": 1943,
+     "month": 5,
+     "factId": "F-GPW-11"
+    },
+    {
+     "id": "b",
+     "text": "Battle of Kursk begins",
+     "year": 1943,
+     "month": 7,
+     "factId": "F-GPW-07"
+    },
+    {
+     "id": "c",
+     "text": "Kiev liberated",
+     "year": 1943,
+     "month": 11,
+     "factId": "F-GPW-07"
+    },
+    {
+     "id": "d",
+     "text": "Chechens and Ingush deported",
+     "year": 1944,
+     "month": 2,
+     "factId": "F-GPW-08"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Zhdanov attacks Zvezda and Leningrad",
+     "year": 1946,
+     "month": 8,
+     "factId": "F-GPW-15"
+    },
+    {
+     "id": "b",
+     "text": "Decree reclaiming private plots",
+     "year": 1946,
+     "month": 9,
+     "factId": "F-GPW-12"
+    },
+    {
+     "id": "c",
+     "text": "Marriage to foreigners banned",
+     "year": 1947,
+     "month": 2,
+     "factId": "F-GPW-16"
+    },
+    {
+     "id": "d",
+     "text": "Rationing abolished",
+     "year": 1947,
+     "month": 12,
+     "factId": "F-GPW-13"
+    },
+    {
+     "id": "e",
+     "text": "Stalin dies",
+     "year": 1953,
+     "month": 3,
+     "factId": "F-GPW-19"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each battle or event to its significance.",
+   "pairs": [
+    {
+     "left": "Stalingrad",
+     "right": "Stopped the German southern advance",
+     "explanation": "August 1942–February 1943."
+    },
+    {
+     "left": "Kursk",
+     "right": "Largest tank battle of the war",
+     "explanation": "July–August 1943."
+    },
+    {
+     "left": "Siege of Leningrad",
+     "right": "Two and a half years of starvation",
+     "explanation": "From September 1941."
+    },
+    {
+     "left": "Tehran Conference",
+     "right": "Big Three agreed outlines of post-war Europe",
+     "explanation": "Late 1943."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how many million Soviet people died in the war, according to the Wikipedia article? (number)",
+   "factIds": [
+    "F-GPW-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 27,
+     "tolerance": 0,
+     "explanation": "About 27 million, though figures are disputed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Soviet soldiers did the Germans capture during the war, according to Judt? (millions, e.g. 5.5)",
+   "factIds": [
+    "F-GPW-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 5.5,
+     "tolerance": 0.1,
+     "explanation": "Some 5.5 million."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people did Leningrad's funeral trust bury in April 1942? (number)",
+   "factIds": [
+    "F-GPW-05"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 102497,
+     "tolerance": 100,
+     "explanation": "102,497."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many veterans were demobilised over the three years after the war? (millions, e.g. 8.5)",
+   "factIds": [
+    "F-GPW-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 8.5,
+     "tolerance": 0.1,
+     "explanation": "8.5 million."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these helped the Soviet Union win the war? Choose all that apply.",
+   "factIds": [
+    "F-GPW-04",
+    "F-GPW-06",
+    "F-GPW-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Evacuation of industry to the east",
+     "correct": true,
+     "explanation": "Yes: 1,523 large defence plants."
+    },
+    {
+     "id": "b",
+     "text": "Victory at Stalingrad",
+     "correct": true,
+     "explanation": "Yes: the tide turned."
+    },
+    {
+     "id": "c",
+     "text": "Lend-Lease aid from the United States",
+     "correct": true,
+     "explanation": "Yes: from October 1941."
+    },
+    {
+     "id": "d",
+     "text": "Careful pre-war planning for evacuation",
+     "correct": false,
+     "explanation": "No: Stalin forbade it as defeatist."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of post-war Stalinism? Choose all that apply.",
+   "factIds": [
+    "F-GPW-15",
+    "F-GPW-16",
+    "F-GPW-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Zhdanov's attack on writers",
+     "correct": true,
+     "explanation": "Yes: August 1946."
+    },
+    {
+     "id": "b",
+     "text": "A ban on marriage to foreigners",
+     "correct": true,
+     "explanation": "Yes: February 1947."
+    },
+    {
+     "id": "c",
+     "text": "Lysenko's victory over the geneticists",
+     "correct": true,
+     "explanation": "Yes: August 1948."
+    },
+    {
+     "id": "d",
+     "text": "Free elections between parties",
+     "correct": false,
+     "explanation": "No: the party's monopoly continued."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In 1946 the grain harvest was 39.6 million tons, but procurement quotas remained high.” Which argument does it support?",
+   "factIds": [
+    "F-GPW-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "State policy worsened the post-war famine",
+     "correct": true,
+     "explanation": "Correct: the state still took grain."
+    },
+    {
+     "id": "b",
+     "text": "The harvest was excellent",
+     "correct": false,
+     "explanation": "It was less than half of 1940's."
+    },
+    {
+     "id": "c",
+     "text": "Quotas were cut to zero",
+     "correct": false,
+     "explanation": "They stayed high."
+    },
+    {
+     "id": "d",
+     "text": "There was no hardship after the war",
+     "correct": false,
+     "explanation": "Famine followed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Of 5.5 million citizens repatriated by 1953, one in five was shot or sent to the Gulag.” Which argument does it support?",
+   "factIds": [
+    "F-GPW-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The regime treated contact with the West as a threat even after victory",
+     "correct": true,
+     "explanation": "Correct: suspicion of returning prisoners."
+    },
+    {
+     "id": "b",
+     "text": "Repatriated citizens were rewarded",
+     "correct": false,
+     "explanation": "Many were punished."
+    },
+    {
+     "id": "c",
+     "text": "Repression ended in 1945",
+     "correct": false,
+     "explanation": "It continued."
+    },
+    {
+     "id": "d",
+     "text": "No one returned to the USSR",
+     "correct": false,
+     "explanation": "5.5 million were repatriated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Leningrad fell to the Germans in September 1941.”",
+   "factIds": [
+    "F-GPW-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Leningrad did not fall: it was besieged for two and a half years",
+     "correct": true,
+     "explanation": "Correct: supplied across Lake Ladoga."
+    },
+    {
+     "id": "b",
+     "text": "The siege began in 1943",
+     "correct": false,
+     "explanation": "It began in September 1941."
+    },
+    {
+     "id": "c",
+     "text": "Leningrad was in Ukraine",
+     "correct": false,
+     "explanation": "Leningrad is in north-west Russia."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the city held out."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Rationing ended in 1945 and living standards rose at once.”",
+   "factIds": [
+    "F-GPW-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rationing ended on 14 December 1947, with a currency reform that wiped out many savings",
+     "correct": true,
+     "explanation": "Correct: hopes were disappointed."
+    },
+    {
+     "id": "b",
+     "text": "Rationing was never introduced",
+     "correct": false,
+     "explanation": "It was imposed from 1941."
+    },
+    {
+     "id": "c",
+     "text": "The war ended in 1947",
+     "correct": false,
+     "explanation": "It ended in 1945."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the date and effect are wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Soviet war effort between 1941 and 1945. Is the zhdanovshchina of 1946–48 inside or outside the timeframe?",
+   "factIds": [
+    "F-GPW-15"
+   ],
+   "timeframe": [
+    1941,
+    1945
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a post-war consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1945."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1946 is after 1945."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Zhdanov defended Leningrad",
+     "correct": false,
+     "explanation": "His campaign came after the war."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Soviet troops did Zhukov's counter-offensive at Stalingrad involve, approximately?",
+   "factIds": [
+    "F-GPW-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "About a million",
+     "correct": true,
+     "explanation": "Correct: launched on 19 November 1942."
+    },
+    {
+     "id": "b",
+     "text": "About 10,000",
+     "correct": false,
+     "explanation": "Far too few."
+    },
+    {
+     "id": "c",
+     "text": "About 100 million",
+     "correct": false,
+     "explanation": "Impossible."
+    },
+    {
+     "id": "d",
+     "text": "None: the Germans withdrew",
+     "correct": false,
+     "explanation": "The Germans were encircled."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to the Volga Germans in 1941?",
+   "factIds": [
+    "F-GPW-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "At least 400,000 were deported east to Central Asia and Siberia",
+     "correct": true,
+     "explanation": "Correct: within months of the invasion."
+    },
+    {
+     "id": "b",
+     "text": "They joined the German army",
+     "correct": false,
+     "explanation": "They were deported."
+    },
+    {
+     "id": "c",
+     "text": "They were given autonomy",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "They were evacuated as war workers",
+     "correct": false,
+     "explanation": "They were deported as suspects."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Stalin demand repeatedly from his western allies?",
+   "factIds": [
+    "F-GPW-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A 'second front' in France",
+     "correct": true,
+     "explanation": "Correct: it came in 1944."
+    },
+    {
+     "id": "b",
+     "text": "Recognition of the Comintern",
+     "correct": false,
+     "explanation": "He dissolved it in 1943."
+    },
+    {
+     "id": "c",
+     "text": "An end to Lend-Lease",
+     "correct": false,
+     "explanation": "He wanted more aid."
+    },
+    {
+     "id": "d",
+     "text": "A separate peace with Germany",
+     "correct": false,
+     "explanation": "Not what he demanded."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Khrushchev accuse Stalin of in 1956 concerning the war?",
+   "factIds": [
+    "F-GPW-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Leaving the country unprepared for the invasion and making wartime blunders",
+     "correct": true,
+     "explanation": "Correct: in the Secret Speech."
+    },
+    {
+     "id": "b",
+     "text": "Losing the war",
+     "correct": false,
+     "explanation": "The USSR won."
+    },
+    {
+     "id": "c",
+     "text": "Refusing Lend-Lease",
+     "correct": false,
+     "explanation": "Not the accusation."
+    },
+    {
+     "id": "d",
+     "text": "Surrendering Leningrad",
+     "correct": false,
+     "explanation": "Leningrad held out."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the decree of 19 September 1946 require?",
+   "factIds": [
+    "F-GPW-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The return to collective farms of land used for private plots",
+     "correct": true,
+     "explanation": "Correct: one cause of the 1946–47 famine."
+    },
+    {
+     "id": "b",
+     "text": "The end of rationing",
+     "correct": false,
+     "explanation": "That came on 14 December 1947."
+    },
+    {
+     "id": "c",
+     "text": "The release of Gulag prisoners",
+     "correct": false,
+     "explanation": "Not what it required."
+    },
+    {
+     "id": "d",
+     "text": "Higher wages for peasants",
+     "correct": false,
+     "explanation": "Not what it required."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was the Soviet victory in the Great Patriotic War due to Stalin's leadership between 1941 and 1945?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Stalin's leadership",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the Soviet victory in the Great Patriotic War",
+     "answer": "scope",
+     "explanation": "What must be explained."
+    },
+    {
+     "id": "s4",
+     "text": "between 1941 and 1945",
+     "answer": "timeframe",
+     "explanation": "The war years."
+    },
+    {
+     "id": "s5",
+     "text": "due to",
+     "answer": "judgement",
+     "explanation": "Did his leadership outweigh mobilisation, the generals, allied aid and German mistakes?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“'The Great Patriotic War strengthened Stalin's regime.' Discuss with reference to the period 1941 to 1953.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "The Great Patriotic War",
+     "answer": "factor",
+     "explanation": "The event."
+    },
+    {
+     "id": "s3",
+     "text": "strengthened Stalin's regime",
+     "answer": "scope",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s4",
+     "text": "1941 to 1953",
+     "answer": "timeframe",
+     "explanation": "War and post-war years."
+    },
+    {
+     "id": "s5",
+     "text": "strengthened",
+     "answer": "judgement",
+     "explanation": "Stronger in legitimacy, power, or the economy?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Soviet victory due to Stalin's leadership between 1941 and 1945?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin's leadership contributed through ruthless mobilisation and patriotic appeals, but his pre-war failures made 1941 a catastrophe, and victory owed more to the evacuation of industry, generals such as Zhukov and the endurance of the population.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against others."
+    },
+    {
+     "id": "b",
+     "text": "Stalin led the Soviet Union in the war.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Stalin was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Stalin won the war alone.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'The Great Patriotic War strengthened Stalin's regime.' Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The war strengthened the regime's legitimacy and international power, but it left the economy and population exhausted, and the regime responded by intensifying control rather than relaxing it.",
+     "correct": true,
+     "explanation": "Correct: distinguishes kinds of strength."
+    },
+    {
+     "id": "b",
+     "text": "The war ended in 1945.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The war was terrible.",
+     "correct": false,
+     "explanation": "Not a judgement on the regime."
+    },
+    {
+     "id": "d",
+     "text": "The war destroyed the regime.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 2 February 1943 Paulus surrendered at Stalingrad.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because industry had been moved east, the Red Army could be re-equipped beyond German reach.",
+     "answer": "analysis",
+     "explanation": "Explains a cause."
+    },
+    {
+     "id": "s3",
+     "text": "In 1946 the harvest was 39.6 million tons.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that peace brought famine rather than relief, so hopes of a better life were disappointed.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Three-quarters of POWs taken in seven months",
+     "right": "The USSR was unprepared in 1941",
+     "explanation": "Judt."
+    },
+    {
+     "left": "1,523 large factories evacuated",
+     "right": "Evacuation saved industry",
+     "explanation": "1941–42."
+    },
+    {
+     "left": "Germans lost 30 of 50 divisions at Kursk",
+     "right": "Soviet victories were decisive",
+     "explanation": "1943."
+    },
+    {
+     "left": "Famine of 1946–47",
+     "right": "Victory brought little relief",
+     "explanation": "Drought and quotas."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Soviet Union won because of its huge population.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the regime could mobilise and evacuate on a vast scale, moving 1,523 large factories and between 17 and 25 million people east, it survived losses that would have broken a smaller state; but this capacity to mobilise mattered more than numbers alone.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and qualification."
+    },
+    {
+     "id": "b",
+     "text": "The Soviet Union had many people.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The war lasted four years.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Population decides every war.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Stalin's leadership won the war.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin's pre-war failures left the country unprepared, as Khrushchev later charged, and he had forbidden evacuation planning; victory depended on improvised evacuation, commanders such as Zhukov and enormous popular sacrifice.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Stalin was a dictator.",
+     "correct": false,
+     "explanation": "Not an argument about victory."
+    },
+    {
+     "id": "c",
+     "text": "Wars are won by generals.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "d",
+     "text": "Some soldiers were brave.",
+     "correct": false,
+     "explanation": "Too vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Soviet victory due to Stalin's leadership?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by the disasters of 1941, Stalin's leadership hindered victory; judged by the ruthless mobilisation that followed, it contributed to it, so his role was decisive in organisation but not in strategy.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the Soviet Union won in 1945.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, war is terrible.",
+     "correct": false,
+     "explanation": "Not the question."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, leaders always win wars.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the deportation of national minorities between 1941 and 1944.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Charges of collective collaboration with the Germans",
+     "answer": "causes",
+     "explanation": "1943–44."
+    },
+    {
+     "id": "s2",
+     "text": "Earlier Soviet practice of removing 'stigmatised' groups",
+     "answer": "causes",
+     "explanation": "Since the mid-1930s."
+    },
+    {
+     "id": "s3",
+     "text": "About one million people deported",
+     "answer": "effects",
+     "explanation": "To Kazakhstan and Central Asia."
+    },
+    {
+     "id": "s4",
+     "text": "Many died in transit",
+     "answer": "effects",
+     "explanation": "Cattle cars and trucks."
+    },
+    {
+     "id": "s5",
+     "text": "Return allowed for most only in 1957",
+     "answer": "effects",
+     "explanation": "Not the Crimean Tatars."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-16-Y1-GPW-POSTWAR-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was the Soviet victory in the Great Patriotic War due to Stalin's leadership between 1941 and 1945?",
+   "commandTerm": "to what extent",
+   "namedFactor": "Stalin's leadership",
+   "features": [
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1941,
+    1945
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Stalin's leadership, weighed first",
+    "timeframe": "1941–1945",
+    "scope": "Soviet victory",
+    "judgement": "Did his leadership outweigh mobilisation, generals, allies and the population?"
+   },
+   "modelPlan": {
+    "thesis": "Stalin's leadership contributed through ruthless mobilisation and patriotic appeals, but his pre-war failures made 1941 a catastrophe, and victory owed more to the evacuation of industry, generals such as Zhukov and the endurance of the population.",
+    "arguments": [
+     {
+      "claim": "Stalin's leadership: Order No. 227 and patriotic mobilisation (named factor first).",
+      "evidence": [
+       "F-GPW-06",
+       "F-GPW-09"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Stalin's failures: 1941.",
+      "evidence": [
+       "F-GPW-01",
+       "F-GPW-20"
+      ]
+     },
+     {
+      "claim": "Evacuation and industry.",
+      "evidence": [
+       "F-GPW-04"
+      ]
+     },
+     {
+      "claim": "Generals, allies and sacrifice.",
+      "evidence": [
+       "F-GPW-06",
+       "F-GPW-10",
+       "F-GPW-03"
+      ]
+     }
+    ],
+    "counter": "Without Stalin's centralised control, the evacuation and mobilisation might not have been possible.",
+    "judgementCriterion": "Decisive in what? In organisation and endurance, yes; in strategy before 1942, no."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Stalin's leadership was one cause of Soviet victory, but not the main one.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "His Order No. 227 ('Not One Step Back!') held the defenders at Stalingrad, and he rallied the population with Russian patriotism.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the state demanded and obtained total resistance, so the German advance was halted on the Volga.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, three-quarters of Soviet prisoners were taken in the first seven months, Khrushchev later blamed Stalin for this unpreparedness, and victory depended on evacuated industry and Zhukov's counter-offensive.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Stalin's leadership therefore contributed to victory through ruthless mobilisation, while his earlier failures nearly caused defeat.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Stalin's leadership",
+     "Stalin"
+    ],
+    "synonyms": [
+     "leadership",
+     "Order No. 227"
+    ],
+    "historians": [
+     "Kumanev",
+     "von Geldern"
+    ],
+    "extraLexicon": [
+     "Stalingrad",
+     "evacuation",
+     "Zhukov"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-GPW-POSTWAR-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“The Great Patriotic War strengthened Stalin's regime.” Discuss with reference to the period 1941 to 1953.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition"
+   ],
+   "timeframe": [
+    1941,
+    1953
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: the war strengthened the regime",
+    "timeframe": "1941–1953",
+    "scope": "Stalin's regime",
+    "judgement": "Stronger in legitimacy and power, weaker in economy and society?"
+   },
+   "modelPlan": {
+    "thesis": "The war strengthened the regime's legitimacy and international power, but it left the economy and population exhausted, and the regime responded by intensifying control rather than relaxing it.",
+    "arguments": [
+     {
+      "claim": "For: victory and great-power status.",
+      "evidence": [
+       "F-GPW-06",
+       "F-GPW-10"
+      ]
+     },
+     {
+      "claim": "For: patriotism and legitimacy.",
+      "evidence": [
+       "F-GPW-09"
+      ]
+     },
+     {
+      "claim": "Against: human and economic losses.",
+      "evidence": [
+       "F-GPW-03",
+       "F-GPW-12"
+      ]
+     },
+     {
+      "claim": "Against: suspicion and renewed repression.",
+      "evidence": [
+       "F-GPW-15",
+       "F-GPW-17"
+      ]
+     }
+    ],
+    "counter": "Renewed repression after 1945 may show insecurity rather than strength.",
+    "judgementCriterion": "Strengthened in what sense? Politically, yes; economically and socially, no."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The war strengthened Stalin's regime politically while weakening the country it ruled.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Victory at Stalingrad and Kursk made the USSR a great power, and at Tehran in 1943 Stalin helped decide the shape of post-war Europe.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the regime could claim to have saved the nation, so its legitimacy rested on victory as well as revolution.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, about 27 million died, famine struck in 1946–47, and the regime renewed repression, sending one in five repatriated citizens to the Gulag or execution.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid for the regime's power, but not for the condition of Soviet society.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "war",
+     "strengthened"
+    ],
+    "synonyms": [
+     "Great Patriotic War",
+     "victory"
+    ],
+    "historians": [
+     "von Geldern"
+    ],
+    "extraLexicon": [
+     "legitimacy",
+     "famine",
+     "zhdanovshchina"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-GPW-POSTWAR-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the significance of the Battle of Stalingrad for the Soviet war effort between 1942 and 1943.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1942,
+    1943
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "The significance of Stalingrad",
+    "timeframe": "1942–1943",
+    "scope": "The Soviet war effort",
+    "judgement": "The turning point, or one of two?"
+   },
+   "modelPlan": {
+    "thesis": "Stalingrad was the turning point of the Soviet war, ending the German advance and destroying an army, but Kursk in 1943 completed the shift by breaking Germany's offensive power.",
+    "arguments": [
+     {
+      "claim": "Halting the southern advance.",
+      "evidence": [
+       "F-GPW-06"
+      ]
+     },
+     {
+      "claim": "Encirclement and surrender.",
+      "evidence": [
+       "F-GPW-06"
+      ]
+     },
+     {
+      "claim": "Cost: about 750,000 Soviet casualties.",
+      "evidence": [
+       "F-GPW-06"
+      ]
+     },
+     {
+      "claim": "Kursk as the other turning point.",
+      "evidence": [
+       "F-GPW-07"
+      ]
+     }
+    ],
+    "counter": "Von Geldern sees Kursk as the more likely turning point.",
+    "judgementCriterion": "Turning point? Yes, for the direction of the war; Kursk made it irreversible."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Stalingrad was the turning point of the Soviet war effort.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Zhukov's counter-offensive of 19 November 1942 encircled some 250,000 Germans, and Paulus surrendered on 2 February 1943.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the German advance to the Caucasus oil fields was stopped, so the Red Army began the offensives that led to Berlin.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, it cost about 750,000 Soviet casualties, and von Geldern argues that Kursk was the more likely turning point.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Stalingrad was therefore significant as the moment the war changed direction, with Kursk confirming that change.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Stalingrad"
+    ],
+    "synonyms": [
+     "turning point",
+     "Paulus"
+    ],
+    "historians": [
+     "von Geldern"
+    ],
+    "extraLexicon": [
+     "Zhukov",
+     "Kursk",
+     "encirclement"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-GPW-POSTWAR-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the deportation of national minorities between 1941 and 1944.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1941,
+    1944
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1941–1944",
+    "scope": "Deportations",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The regime deported whole peoples because it treated them as collectively disloyal, extending pre-war practice under wartime emergency; the results were mass death, decades of exile and lasting grievance.",
+    "arguments": [
+     {
+      "claim": "Reason: charges of collective collaboration.",
+      "evidence": [
+       "F-GPW-08"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: wartime suspicion of 'enemy' nationalities.",
+      "evidence": [
+       "F-GPW-08"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: one million deported; many died.",
+      "evidence": [
+       "F-GPW-08"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: exile until 1957, or permanently.",
+      "evidence": [
+       "F-GPW-08"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "The regime justified the deportations as security measures in wartime.",
+    "judgementCriterion": "Which result mattered most? Exile that lasted until 1957, and for some peoples longer."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The deportations were driven by the regime's habit of treating whole peoples as enemies.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1943–44 about one million Chechens, Ingush, Crimean Tatars and others were charged collectively with collaboration and deported to Kazakhstan and Central Asia.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that guilt was assigned by nationality, so women, children and the old were deported with alleged collaborators, and many died on the way.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the regime presented them as wartime security measures, and the practice had begun with the Volga Germans in 1941 and border peoples in the 1930s.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore long exile: most could return only in 1957, and the Crimean Tatars not even then.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "deportation"
+    ],
+    "synonyms": [
+     "deported",
+     "national minorities"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Chechens",
+     "Crimean Tatars",
+     "collaboration"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-GPW-POSTWAR-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the economic situation of the Soviet people during the war and in the post-war years, between 1941 and 1953.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1941,
+    1953
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Economic situation of the people",
+    "timeframe": "1941–1953",
+    "scope": "War and post-war years",
+    "judgement": "Did peace bring relief?"
+   },
+   "modelPlan": {
+    "thesis": "Both periods brought severe hardship, rationing and hunger, but in war the state mobilised everything for victory, whereas after 1945 drought, high quotas and a currency reform disappointed hopes of improvement.",
+    "arguments": [
+     {
+      "claim": "Similarity: hunger and rationing.",
+      "evidence": [
+       "F-GPW-05",
+       "F-GPW-13"
+      ]
+     },
+     {
+      "claim": "Difference: wartime mobilisation versus post-war reconstruction.",
+      "evidence": [
+       "F-GPW-04",
+       "F-GPW-12"
+      ]
+     },
+     {
+      "claim": "Difference: famine of 1946–47 in peacetime.",
+      "evidence": [
+       "F-GPW-12"
+      ]
+     },
+     {
+      "claim": "Similarity: the state's needs first.",
+      "evidence": [
+       "F-GPW-12",
+       "F-GPW-14"
+      ]
+     }
+    ],
+    "counter": "The end of rationing in 1947 was presented as a sign of recovery.",
+    "judgementCriterion": "Did peace bring relief? Little: hardship continued under different causes."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Peace brought the Soviet people little economic relief after the hardships of war.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "During the war Leningrad buried over 100,000 people a month in spring 1942, whereas after it the 1946 drought and high quotas caused famine in 1946–47.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that hunger continued in peacetime, so the end of rationing in December 1947 belied hopes for better living conditions.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the causes differed: wartime hardship came from invasion and siege, post-war hardship from drought, labour shortages and state policy.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The two periods were therefore alike in hardship but different in cause, with the state's priorities making peace almost as hard as war.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic situation"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Siegelbaum"
+    ],
+    "extraLexicon": [
+     "rationing",
+     "famine",
+     "currency reform"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-GPW-POSTWAR-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the reasons for Soviet victory in the Great Patriotic War between 1941 and 1945.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1941,
+    1945
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Reasons for victory",
+    "timeframe": "1941–1945",
+    "scope": "The Great Patriotic War",
+    "judgement": "Which reason mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "The Soviet Union won because it saved and expanded its war industry through evacuation, mobilised its population through patriotism and coercion, defeated the Germans in decisive battles at Stalingrad and Kursk, and received allied aid.",
+    "arguments": [
+     {
+      "claim": "Evacuation and war industry.",
+      "evidence": [
+       "F-GPW-04"
+      ]
+     },
+     {
+      "claim": "Patriotism and coercion.",
+      "evidence": [
+       "F-GPW-09",
+       "F-GPW-06"
+      ]
+     },
+     {
+      "claim": "Stalingrad and Kursk.",
+      "evidence": [
+       "F-GPW-06",
+       "F-GPW-07"
+      ]
+     },
+     {
+      "claim": "Allied aid.",
+      "evidence": [
+       "F-GPW-10"
+      ]
+     }
+    ],
+    "counter": "Victory came at the cost of about 27 million lives.",
+    "judgementCriterion": "Which mattered most? War industry, without which the battles could not have been won."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Soviet victory rested above all on the survival and growth of its war industry.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In 1941–42 between 17 and 25 million people and 1,523 large defence plants were moved east, and Kumanev concludes the evacuation achieved its goal.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the Red Army could be re-equipped beyond German reach, so it could fight and win at Stalingrad and Kursk.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, victory also required patriotic and coercive mobilisation, Lend-Lease aid from October 1941, and enormous sacrifice, with about 27 million dead.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "War industry was therefore the foundation, with mobilisation and the decisive battles building on it.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "reasons for victory",
+     "victory"
+    ],
+    "synonyms": [
+     "evacuation",
+     "mobilisation"
+    ],
+    "historians": [
+     "Kumanev",
+     "von Geldern"
+    ],
+    "extraLexicon": [
+     "Stalingrad",
+     "Kursk",
+     "Lend-Lease"
+    ]
+   }
+  }
+ ]
+}

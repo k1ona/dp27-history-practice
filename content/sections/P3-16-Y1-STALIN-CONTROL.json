@@ -1,0 +1,2758 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P3-16-Y1-STALIN-CONTROL",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 22,
+  "openingProblem": {
+   "problem": "In 1934 the party congress hailed Stalin as the leader of a victorious revolution. Within four years more than half its delegates had been arrested, and hundreds of thousands of ordinary citizens had been shot. Why did Stalin's regime turn on its own party and people, and how did it keep their loyalty at the same time?",
+   "predictionPrompt": "Your prediction in one line: terror, belief, or both?",
+   "revisitPrompt": "Look back at your prediction. Which piece of evidence most changed or confirmed it?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "causes",
+    "title": "From the Congress of Victors to Kirov's murder, 1934",
+    "body": "By 1934 Stalin's victory over the oppositions seemed complete. At the **Seventeenth Party Congress** in January–February 1934, the \"Congress of Victors\", former oppositionists praised him and delegates celebrated a good harvest and new factories. Yet some historians claim that regional party secretaries privately discussed replacing Stalin with **Sergei Kirov**, the popular Leningrad party leader. The evidence for this, and for reports that Stalin received fewer votes than Kirov, is thin. What is certain is grim: within four years, 1,108 of the 1,966 delegates had been arrested, and most disappeared into the Gulag or were shot.\n\nOn **1 December 1934** Kirov was shot dead in Leningrad by Leonid Nikolaev, a frustrated party official. Stalin personally supervised the investigation and quickly blamed supporters of Zinoviev. Zinoviev, Kamenev and many associates were arrested. Many western historians long believed that Stalin had arranged the murder himself to justify a terror against the party. But investigations in the 1960s and in 1989 failed to prove his complicity, and Lewis Siegelbaum judges the link between the murder and the later Terror \"more circumstantial than direct\".\n\nThe murder nevertheless created an atmosphere of vigilance and suspicion. Secret police reports on public reactions show that many ordinary people cared more about food shortages than politics, and some even hoped Stalin would share Kirov's fate.\n\nThis mattered because Kirov's murder gave Stalin a pretext to treat former opponents as terrorists, which meant that the Terror could be presented as the defence of the state.",
+    "argumentsThatWork": [
+     {
+      "claim": "Stalin's position in 1934 was strong but not unquestioned.",
+      "evidence": [
+       "F-SCT-01"
+      ],
+      "strongestCounter": "Evidence of a plot against him is thin."
+     },
+     {
+      "claim": "Kirov's murder gave Stalin a pretext.",
+      "evidence": [
+       "F-SCT-02"
+      ],
+      "strongestCounter": "His complicity has not been proved."
+     },
+     {
+      "claim": "Ordinary people were not loyal enthusiasts.",
+      "evidence": [
+       "F-SCT-21"
+      ],
+      "strongestCounter": "Kirov became a martyr in the party."
+     }
+    ],
+    "howItGetsAsked": [
+     "Examine the reasons for, and the results of, the Great Terror between 1934 and 1939.",
+     "“Stalin was personally responsible for the Great Terror.” Discuss with reference to the period 1936 to 1938."
+    ],
+    "useItInAnEssay": {
+     "claim": "Kirov's murder was significant as a pretext rather than as a cause of the Terror.",
+     "prove": "Stalin blamed supporters of Zinoviev for the shooting of 1 December 1934, and Zinoviev and Kamenev were arrested and later put on trial in 1936.",
+     "explain": "This meant that former oppositionists could be treated as terrorists, so a political defeat became a criminal charge.",
+     "test": "However, investigations in the 1960s and 1989 failed to prove Stalin arranged the murder, and Siegelbaum calls its link to the Terror circumstantial.",
+     "judge": "Kirov's murder therefore opened the way to the Terror without explaining why it reached the scale it did."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C01",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many of the 1,966 delegates to the Seventeenth Congress were arrested within four years? (number)",
+      "factIds": [
+       "F-SCT-01"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 1108,
+        "tolerance": 0,
+        "explanation": "1,108."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who did Stalin blame for Kirov's murder?",
+      "factIds": [
+       "F-SCT-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Supporters of Zinoviev",
+        "correct": true,
+        "explanation": "Correct: Zinoviev and Kamenev were arrested."
+       },
+       {
+        "id": "b",
+        "text": "The German government",
+        "correct": false,
+        "explanation": "Not who he blamed."
+       },
+       {
+        "id": "c",
+        "text": "Bukharin's Right",
+        "correct": false,
+        "explanation": "They were accused later."
+       },
+       {
+        "id": "d",
+        "text": "The Red Army",
+        "correct": false,
+        "explanation": "Not who he blamed."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Investigations in the 1960s and 1989 failed to establish Stalin's complicity in Kirov's murder.” Which argument does it support best?",
+      "factIds": [
+       "F-SCT-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Stalin exploited Kirov's murder rather than, as far as can be proved, arranging it",
+        "correct": true,
+        "explanation": "Correct: the link is circumstantial."
+       },
+       {
+        "id": "b",
+        "text": "Stalin certainly ordered the murder",
+        "correct": false,
+        "explanation": "Not proved."
+       },
+       {
+        "id": "c",
+        "text": "Kirov was not murdered",
+        "correct": false,
+        "explanation": "He was shot on 1 December 1934."
+       },
+       {
+        "id": "d",
+        "text": "Kirov's murder had no political effect",
+        "correct": false,
+        "explanation": "It led to arrests."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "The Great Terror, 1936–1938",
+    "body": "The **Great Terror** of 1936–38, also called the Ezhovshchina after the secret police chief Nikolai **Ezhov**, was a wave of state-organised killing that swept through the party and society. Its public face was three **show trials** of former leaders. In August 1936 Zinoviev, Kamenev and fourteen others were convicted of forming a terrorist centre. In September Stalin replaced the NKVD chief Iagoda with Ezhov. Piatakov and other economic leaders were tried in January 1937. In March 1938 Bukharin, Rykov and Iagoda himself were sentenced to death.\n\nBehind the trials, arrests spread far wider. The leadership of the **Red Army** was devastated, as were provincial party secretaries, industrial managers and officials among the national minorities. Prisoners, under severe physical and psychological pressure, named others and confessed to absurd crimes. On **3 July 1937** the Politburo ordered \"mass operations\" against ex-kulaks, criminals and other \"anti-Soviet elements\". Ezhov set quotas for each district, 177,500 to be exiled and 72,950 shot, and these were exceeded.\n\nOfficial figures record **681,692 executions** in 1937 and 1938, and estimates of total deaths range from about 950,000 to 1.2 million. Nobody at the top could stop it: Siegelbaum notes that no important issue was decided by the Politburo without Stalin, \"and certainly not against his will\", and in 1937 a small inner circle of Stalin, Molotov and Kaganovich replaced the full Politburo.\n\nThis mattered because the Terror destroyed the party's old elite and spread fear through society, which meant that by 1939 Stalin ruled over a party, army and state whose leaders owed everything to him.",
+    "argumentsThatWork": [
+     {
+      "claim": "The show trials destroyed the old Bolsheviks.",
+      "evidence": [
+       "F-SCT-04"
+      ],
+      "strongestCounter": "The accused confessed to invented crimes."
+     },
+     {
+      "claim": "Mass operations extended the Terror to society.",
+      "evidence": [
+       "F-SCT-05"
+      ],
+      "strongestCounter": "They followed quotas."
+     },
+     {
+      "claim": "Stalin controlled the decisions.",
+      "evidence": [
+       "F-SCT-10",
+       "F-SCT-08"
+      ],
+      "strongestCounter": "Some historians stress pressures from below."
+     }
+    ],
+    "howItGetsAsked": [
+     "To what extent was terror the main method by which Stalin controlled the Soviet Union between 1934 and 1941?",
+     "Analyse the purposes of the show trials held between 1936 and 1938."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Great Terror destroyed any possible alternative to Stalin's rule.",
+     "prove": "Three show trials between 1936 and 1938 condemned Zinoviev, Kamenev, Bukharin and Rykov, while the army's leadership and provincial party secretaries were decimated.",
+     "explain": "This meant that the generation who had known Stalin as an equal was eliminated, so those who remained owed their positions to him.",
+     "test": "However, the mass operations ordered in July 1937 struck ex-kulaks and 'anti-Soviet elements' far beyond the elite, which suggests the Terror had wider aims.",
+     "judge": "The Terror therefore secured Stalin's personal power while spreading fear through the whole of society."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C04",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many executions in 1937 and 1938 do official figures record? (number)",
+      "factIds": [
+       "F-SCT-06"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 681692,
+        "tolerance": 1000,
+        "explanation": "681,692."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who was sentenced to death at the third show trial in March 1938?",
+      "factIds": [
+       "F-SCT-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Bukharin, Rykov and Iagoda",
+        "correct": true,
+        "explanation": "Correct: leaders of the former Right and the former NKVD chief."
+       },
+       {
+        "id": "b",
+        "text": "Trotsky and Zinoviev",
+        "correct": false,
+        "explanation": "Zinoviev was tried in 1936; Trotsky was abroad."
+       },
+       {
+        "id": "c",
+        "text": "Kirov and Ordzhonikidze",
+        "correct": false,
+        "explanation": "Not tried in 1938."
+       },
+       {
+        "id": "d",
+        "text": "Molotov and Kaganovich",
+        "correct": false,
+        "explanation": "They were Stalin's closest allies."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Ezhov set quotas for arrests in each district, and they were exceeded.” Which argument does it support best?",
+      "factIds": [
+       "F-SCT-05"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The Terror was organised from the centre as well as driven by local zeal",
+        "correct": true,
+        "explanation": "Correct: quotas came from above and were overfulfilled below."
+       },
+       {
+        "id": "b",
+        "text": "Arrests were based only on evidence of crimes",
+        "correct": false,
+        "explanation": "Quotas show otherwise."
+       },
+       {
+        "id": "c",
+        "text": "The Terror ended in 1936",
+        "correct": false,
+        "explanation": "It peaked in 1937–38."
+       },
+       {
+        "id": "d",
+        "text": "Local officials resisted the Terror",
+        "correct": false,
+        "explanation": "They exceeded quotas."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "nature_methods",
+    "title": "Propaganda, the constitution and the cult",
+    "body": "Terror was not Stalin's only instrument. The regime also tried to win belief. In **August 1934** the First Congress of Soviet Writers declared **socialist realism** the method of Soviet literature: art had to be accessible, rooted in the people and loyal to the party, and its heroes increasingly included Stalin himself.\n\nIn **December 1936**, in the middle of the Terror, the regime adopted the \"**Stalin Constitution**\". It gave all citizens equal rights and the vote, including former kulaks and priests, and its draft was officially discussed at 623,334 meetings attended by over 42 million people. It did not prevent arbitrary repression, but later protesters would appeal to its words against the state.\n\nBy the end of the 1930s the **cult of personality** was in full swing. Historians rewrote party history to place Stalin at its centre; the *Short Course* history of the party, published in 1938, sold forty million copies. Stalin Prizes rewarded loyal achievement from 1939, and strong rulers of the Russian past such as Peter the Great were rehabilitated as models. During the war Stalin admired Eisenstein's film of Ivan the Terrible, awarding part one a Stalin Prize in 1944, then condemned part two in 1946.\n\nThis mattered because propaganda gave the regime a positive image of strong leadership and a happy socialist society, which meant that terror and belief worked together rather than as alternatives.",
+    "argumentsThatWork": [
+     {
+      "claim": "Socialist realism made culture serve the party.",
+      "evidence": [
+       "F-SCT-11"
+      ],
+      "strongestCounter": "It took many forms in practice."
+     },
+     {
+      "claim": "The 1936 Constitution offered rights on paper.",
+      "evidence": [
+       "F-SCT-12"
+      ],
+      "strongestCounter": "It did not stop the Terror."
+     },
+     {
+      "claim": "The cult placed Stalin at the centre of history.",
+      "evidence": [
+       "F-SCT-13",
+       "F-SCT-14"
+      ],
+      "strongestCounter": "It drew on Russian traditions of strong rule."
+     }
+    ],
+    "howItGetsAsked": [
+     "Evaluate the importance of propaganda and the cult of personality in maintaining Stalin's power between 1934 and 1953.",
+     "To what extent was terror the main method by which Stalin controlled the Soviet Union between 1934 and 1941?"
+    ],
+    "useItInAnEssay": {
+     "claim": "Propaganda gave Stalin's rule a positive face that terror alone could not.",
+     "prove": "The 1936 Constitution was discussed at 623,334 meetings, and the Short Course of 1938 sold forty million copies and placed Stalin at the centre of party history.",
+     "explain": "This meant that citizens were offered an image of rights, progress and wise leadership, so loyalty could rest on belief as well as fear.",
+     "test": "However, the Constitution did not prevent the Terror, and NKVD reports show many people cared more about food than politics.",
+     "judge": "Propaganda was therefore important in building Stalin's authority, but it worked alongside terror rather than replacing it."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C07",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many million copies did the Short Course sell? (number)",
+      "factIds": [
+       "F-SCT-13"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 40,
+        "tolerance": 0,
+        "explanation": "Forty million."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C08",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was declared at the First Congress of Soviet Writers in August 1934?",
+      "factIds": [
+       "F-SCT-11"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Socialist realism as the method of Soviet literature",
+        "correct": true,
+        "explanation": "Correct: accessibility, the people and the party."
+       },
+       {
+        "id": "b",
+        "text": "Freedom of the press",
+        "correct": false,
+        "explanation": "The opposite."
+       },
+       {
+        "id": "c",
+        "text": "The Great Terror",
+        "correct": false,
+        "explanation": "Not declared there."
+       },
+       {
+        "id": "d",
+        "text": "The Stalin Constitution",
+        "correct": false,
+        "explanation": "That came in 1936."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “The 1936 Constitution gave all citizens equal rights but did not prevent the Great Terror.” Which argument does it support best?",
+      "factIds": [
+       "F-SCT-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Rights on paper served propaganda while repression continued",
+        "correct": true,
+        "explanation": "Correct: image and reality diverged."
+       },
+       {
+        "id": "b",
+        "text": "The Constitution ended repression",
+        "correct": false,
+        "explanation": "The Terror peaked after it."
+       },
+       {
+        "id": "c",
+        "text": "Citizens had no formal rights",
+        "correct": false,
+        "explanation": "They had them on paper."
+       },
+       {
+        "id": "d",
+        "text": "The Constitution was never adopted",
+        "correct": false,
+        "explanation": "It was adopted on 5 December 1936."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "Post-war Stalinism and the historians' debate, 1945–1953",
+    "body": "Victory in 1945 did not bring relaxation. Of five and a half million Soviet citizens repatriated by 1953, one in five was shot or sent to the Gulag. From 1946 to 1948 the **zhdanovshchina**, led by Andrei Zhdanov, tightened ideological control: in August 1946 the journals *Zvezda* and *Leningrad* were attacked for publishing the satirist Zoshchenko and the poet Akhmatova, and a campaign against \"cosmopolitanism\" followed. A 1947 law banned marriage to foreigners, and almost all information became a state secret. In 1948 Lysenko's victory halted genetic research. After Zhdanov's death that August, a purge struck thousands of Leningrad officials. In January 1953 nine eminent doctors, many of them Jewish, were accused of plotting to poison the Soviet leadership. Only Stalin's death on **5 March 1953** stopped the \"Doctors' Plot\"; the new leaders declared it a fabrication.\n\nHow far was Stalin personally responsible for the terror? The opening of the archives has strengthened the case against him. Oleg **Khlevniuk** says theories of a spontaneous, uncontrolled terror \"are simply not supported by the historical record\": Stalin signed 357 lists in 1937–38 authorising the execution of about 40,000 people. Revisionists such as Robert W. **Thurston** argue that Stalin initiated or reacted to events rather than acting as a \"cold mastermind\", and that the purge was aimed at elite opposition. Robert Conquest's estimate of about one million executions is broadly supported by the official figure of 681,692 for 1937–38, while J. Arch Getty stresses that the archives rule out the highest estimates.\n\nThis mattered because terror remained central to Stalin's rule until his death, which meant that the debate among historians is about the degree of his control, not whether repression was systematic.",
+    "argumentsThatWork": [
+     {
+      "claim": "Post-war Stalinism renewed ideological control.",
+      "evidence": [
+       "F-SCT-15",
+       "F-SCT-16"
+      ],
+      "strongestCounter": "There was no return to mass terror on the 1937 scale."
+     },
+     {
+      "claim": "Late Stalinism targeted new enemies.",
+      "evidence": [
+       "F-SCT-18",
+       "F-SCT-19"
+      ],
+      "strongestCounter": "The Doctors' Plot ended with his death."
+     },
+     {
+      "claim": "Archives strengthen the case for Stalin's responsibility.",
+      "evidence": [
+       "F-SCT-08",
+       "F-SCT-07"
+      ],
+      "strongestCounter": "Revisionists stress pressures from below."
+     }
+    ],
+    "howItGetsAsked": [
+     "Compare and contrast Stalin's methods of control before and after the Second World War, between 1934 and 1953.",
+     "“Stalin was personally responsible for the Great Terror.” Discuss with reference to the period 1936 to 1938."
+    ],
+    "useItInAnEssay": {
+     "claim": "Stalin's methods after 1945 continued those of the 1930s in a narrower form.",
+     "prove": "Zhdanov's attack of August 1946 on Zoshchenko and Akhmatova renewed control of culture, and the Doctors' Plot of January 1953 revived the language of conspiracy.",
+     "explain": "This meant that ideological discipline and the search for enemies remained central, so the post-war years brought no relaxation.",
+     "test": "However, there was no repeat of the mass operations of 1937–38, and the Doctors' Plot was dropped after Stalin's death.",
+     "judge": "Post-war Stalinism therefore kept the methods of the 1930s while applying terror more selectively."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C10",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How many execution lists did Stalin sign in 1937 and 1938, according to Khlevniuk's research as reported? (number)",
+      "factIds": [
+       "F-SCT-08"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": 357,
+        "tolerance": 0,
+        "explanation": "357 lists, covering about 40,000 people."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the 'Doctors' Plot' of January 1953?",
+      "factIds": [
+       "F-SCT-18"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "An antisemitic campaign accusing nine eminent doctors of plotting to poison Soviet leaders",
+        "correct": true,
+        "explanation": "Correct: declared a fabrication after Stalin's death."
+       },
+       {
+        "id": "b",
+        "text": "A real attempt to kill Stalin",
+        "correct": false,
+        "explanation": "It was fabricated."
+       },
+       {
+        "id": "c",
+        "text": "A reform of Soviet medicine",
+        "correct": false,
+        "explanation": "Not what it was."
+       },
+       {
+        "id": "d",
+        "text": "Lysenko's campaign against geneticists",
+        "correct": false,
+        "explanation": "That was 1948."
+       }
+      ]
+     },
+     {
+      "itemId": "P3-16-Y1-STALIN-CONTROL-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: “Robert Thurston argues that Stalin initiated or reacted to developments rather than acting as a 'cold mastermind'.” Which argument does it support best?",
+      "factIds": [
+       "F-SCT-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Stalin's responsibility for the Terror was real but shared with pressures within the system",
+        "correct": true,
+        "explanation": "Correct: the revisionist view."
+       },
+       {
+        "id": "b",
+        "text": "Stalin had no role in the Terror",
+        "correct": false,
+        "explanation": "Thurston does not claim this."
+       },
+       {
+        "id": "c",
+        "text": "The Terror was planned in every detail",
+        "correct": false,
+        "explanation": "That is the view Thurston rejects."
+       },
+       {
+        "id": "d",
+        "text": "The Terror never happened",
+        "correct": false,
+        "explanation": "Not his view."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1934,
+      "month": 1,
+      "day": 26,
+      "text": "'Congress of Victors' opens",
+      "factId": "F-SCT-01"
+     },
+     {
+      "year": 1934,
+      "month": 8,
+      "text": "Socialist realism declared",
+      "factId": "F-SCT-11"
+     },
+     {
+      "year": 1934,
+      "month": 12,
+      "day": 1,
+      "text": "Kirov assassinated",
+      "factId": "F-SCT-02"
+     },
+     {
+      "year": 1936,
+      "month": 8,
+      "text": "First show trial",
+      "factId": "F-SCT-04"
+     },
+     {
+      "year": 1936,
+      "month": 12,
+      "day": 5,
+      "text": "Stalin Constitution adopted",
+      "factId": "F-SCT-12"
+     },
+     {
+      "year": 1937,
+      "month": 1,
+      "text": "Second show trial",
+      "factId": "F-SCT-04"
+     },
+     {
+      "year": 1937,
+      "month": 7,
+      "day": 3,
+      "text": "'Mass operations' ordered",
+      "factId": "F-SCT-05"
+     },
+     {
+      "year": 1938,
+      "month": 3,
+      "text": "Third show trial: Bukharin",
+      "factId": "F-SCT-04"
+     },
+     {
+      "year": 1938,
+      "month": 10,
+      "text": "Short Course published",
+      "factId": "F-SCT-13"
+     },
+     {
+      "year": 1946,
+      "month": 8,
+      "text": "Zhdanov attacks Zvezda and Leningrad",
+      "factId": "F-SCT-15"
+     },
+     {
+      "year": 1953,
+      "month": 1,
+      "day": 13,
+      "text": "Doctors' Plot announced",
+      "factId": "F-SCT-18"
+     },
+     {
+      "year": 1953,
+      "month": 3,
+      "day": 5,
+      "text": "Stalin dies",
+      "factId": "F-SCT-20"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Victory over the oppositions; doubts at the 1934 Congress",
+      "factId": "F-SCT-01"
+     },
+     {
+      "id": "n2",
+      "text": "Kirov's murder as pretext",
+      "factId": "F-SCT-02"
+     },
+     {
+      "id": "n3",
+      "text": "Show trials of former leaders",
+      "factId": "F-SCT-04"
+     },
+     {
+      "id": "n4",
+      "text": "Mass operations against society",
+      "factId": "F-SCT-05"
+     },
+     {
+      "id": "n5",
+      "text": "Cult and constitution build belief",
+      "factId": "F-SCT-13"
+     },
+     {
+      "id": "n6",
+      "text": "Post-war ideological control until 1953",
+      "factId": "F-SCT-15"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "Stalin feared rivals within the party"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Former oppositionists could be charged as terrorists"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Arrests fed on confessions and quotas"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Fear was paired with an image of wise leadership"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "Victory brought no relaxation"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Joseph Stalin",
+     "role": "General Secretary",
+     "whyItMatters": "Signed 357 execution lists in 1937–38.",
+     "factIds": [
+      "F-SCT-08",
+      "F-SCT-10"
+     ]
+    },
+    {
+     "name": "Sergei Kirov",
+     "role": "Leningrad party leader",
+     "whyItMatters": "His murder in 1934 became a pretext for repression.",
+     "factIds": [
+      "F-SCT-02"
+     ]
+    },
+    {
+     "name": "Nikolai Ezhov",
+     "role": "NKVD chief from September 1936",
+     "whyItMatters": "Ran the Terror; set arrest quotas.",
+     "factIds": [
+      "F-SCT-04",
+      "F-SCT-05"
+     ]
+    },
+    {
+     "name": "Nikolai Bukharin",
+     "role": "Former leader of the Right",
+     "whyItMatters": "Sentenced to death at the 1938 show trial.",
+     "factIds": [
+      "F-SCT-04"
+     ]
+    },
+    {
+     "name": "Andrei Zhdanov",
+     "role": "Ideology chief after 1945",
+     "whyItMatters": "Led the zhdanovshchina, 1946–48.",
+     "factIds": [
+      "F-SCT-15"
+     ]
+    },
+    {
+     "name": "Oleg Khlevniuk",
+     "role": "Historian",
+     "whyItMatters": "Archives show central control of the Terror.",
+     "factIds": [
+      "F-SCT-08"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "1934–1941",
+     "1945–1953"
+    ],
+    "rows": [
+     {
+      "criterion": "Terror",
+      "cells": [
+       "Show trials and mass operations; 681,692 executions in 1937–38",
+       "Repatriated citizens shot or sent to the Gulag; Leningrad purge"
+      ],
+      "factIds": [
+       "F-SCT-06",
+       "F-SCT-19"
+      ]
+     },
+     {
+      "criterion": "Culture",
+      "cells": [
+       "Socialist realism declared (1934)",
+       "Zhdanov's attack on writers (1946)"
+      ],
+      "factIds": [
+       "F-SCT-11",
+       "F-SCT-15"
+      ]
+     },
+     {
+      "criterion": "Image",
+      "cells": [
+       "Stalin Constitution; Short Course",
+       "Campaign against 'cosmopolitanism'"
+      ],
+      "factIds": [
+       "F-SCT-12",
+       "F-SCT-15"
+      ]
+     },
+     {
+      "criterion": "Enemies",
+      "cells": [
+       "Former oppositionists, 'anti-Soviet elements'",
+       "Foreigners' influence; the 'Doctors' Plot'"
+      ],
+      "factIds": [
+       "F-SCT-05",
+       "F-SCT-18"
+      ]
+     }
+    ]
+   },
+   "archival": []
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-SCT-01",
+    "year": 1934,
+    "text": "Seventeenth Congress: 1,108 of 1,966 delegates later arrested.",
+    "supports": [
+     "The Terror struck the party elite"
+    ],
+    "lexicon": [
+     "Congress of Victors",
+     "Kirov"
+    ]
+   },
+   {
+    "factId": "F-SCT-04",
+    "year": 1938,
+    "text": "Three show trials, 1936–38: Zinoviev, Kamenev, Piatakov, Bukharin.",
+    "supports": [
+     "The old Bolsheviks were destroyed"
+    ],
+    "lexicon": [
+     "show trials",
+     "Ezhov"
+    ]
+   },
+   {
+    "factId": "F-SCT-05",
+    "year": 1937,
+    "text": "3 July 1937: 'mass operations' with district quotas, exceeded.",
+    "supports": [
+     "The Terror reached society"
+    ],
+    "lexicon": [
+     "mass operations",
+     "NKVD"
+    ]
+   },
+   {
+    "factId": "F-SCT-06",
+    "year": 1938,
+    "text": "Official figure: 681,692 executions in 1937–38.",
+    "supports": [
+     "The Terror was vast"
+    ],
+    "lexicon": [
+     "Great Terror",
+     "executions"
+    ]
+   },
+   {
+    "factId": "F-SCT-08",
+    "year": 1938,
+    "text": "Stalin signed 357 lists authorising about 40,000 executions.",
+    "supports": [
+     "Stalin directed the Terror"
+    ],
+    "lexicon": [
+     "Khlevniuk",
+     "execution lists"
+    ]
+   },
+   {
+    "factId": "F-SCT-13",
+    "year": 1938,
+    "text": "Short Course (1938): forty million copies.",
+    "supports": [
+     "Propaganda built the cult"
+    ],
+    "lexicon": [
+     "cult of personality",
+     "Short Course"
+    ]
+   },
+   {
+    "factId": "F-SCT-15",
+    "year": 1946,
+    "text": "Zhdanovshchina (1946–48): attack on Zoshchenko and Akhmatova.",
+    "supports": [
+     "Post-war control tightened"
+    ],
+    "alsoWorksFor": [
+     "P3-16-Y1-GPW-POSTWAR"
+    ],
+    "lexicon": [
+     "Zhdanov",
+     "cosmopolitanism"
+    ]
+   }
+  ],
+  "historiography": [
+   {
+    "historian": "Oleg Khlevniuk",
+    "argument": "Theories about a spontaneous terror or a loss of central control 'are simply not supported by the historical record'; Stalin signed 357 execution lists in 1937–38 (as reported in the Wikipedia article 'Great Purge').",
+    "useItLikeThis": "Khlevniuk's view supports the claim that Stalin was personally responsible for the Terror, which suggests it was a planned policy rather than a process out of control.",
+    "factId": "F-SCT-08"
+   },
+   {
+    "historian": "Robert W. Thurston",
+    "argument": "The purge was aimed at opposition among the elites rather than at subduing the masses, and Stalin initiated or reacted to developments rather than acting as a 'cold mastermind' (as summarised in the Wikipedia article 'Great Purge').",
+    "useItLikeThis": "Thurston's view supports the claim that Stalin's responsibility was shared with pressures inside the system, which suggests the Terror cannot be explained by one man's plan alone.",
+    "factId": "F-SCT-09"
+   }
+  ],
+  "misconceptions": [
+   {
+    "wrong": "Stalin certainly ordered Kirov's murder.",
+    "right": "Investigations in the 1960s and **1989** failed to establish his complicity."
+   },
+   {
+    "wrong": "The Terror struck only party leaders.",
+    "right": "The **mass operations** of July 1937 targeted ex-kulaks, criminals and 'anti-Soviet elements'."
+   },
+   {
+    "wrong": "The 1936 Constitution limited Stalin's power.",
+    "right": "It gave rights **on paper** but did not prevent the Terror."
+   },
+   {
+    "wrong": "Repression ended after the war.",
+    "right": "The **zhdanovshchina**, the Leningrad purge and the Doctors' Plot continued it until 1953."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1934,
+     "month": 1,
+     "text": "Congress of Victors"
+    },
+    {
+     "year": 1934,
+     "month": 12,
+     "text": "Kirov murdered"
+    },
+    {
+     "year": 1936,
+     "month": 8,
+     "text": "First show trial"
+    },
+    {
+     "year": 1936,
+     "month": 12,
+     "text": "Stalin Constitution"
+    },
+    {
+     "year": 1937,
+     "month": 7,
+     "text": "Mass operations"
+    },
+    {
+     "year": 1938,
+     "month": 3,
+     "text": "Bukharin trial"
+    },
+    {
+     "year": 1946,
+     "month": 8,
+     "text": "Zhdanovshchina begins"
+    },
+    {
+     "year": 1953,
+     "month": 1,
+     "text": "Doctors' Plot"
+    }
+   ],
+   "keyArguments": [
+    "Kirov's murder gave Stalin a pretext; his complicity is unproved.",
+    "Show trials destroyed the old Bolsheviks; mass operations spread terror through society.",
+    "Official figures: 681,692 executions in 1937–38.",
+    "Propaganda (socialist realism, the Constitution, the cult) worked alongside terror.",
+    "Khlevniuk stresses Stalin's control; Thurston stresses reaction and elite targets."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R01",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "'Congress of Victors'",
+     "year": 1934,
+     "month": 1,
+     "factId": "F-SCT-01"
+    },
+    {
+     "id": "b",
+     "text": "Socialist realism declared",
+     "year": 1934,
+     "month": 8,
+     "factId": "F-SCT-11"
+    },
+    {
+     "id": "c",
+     "text": "Kirov assassinated",
+     "year": 1934,
+     "month": 12,
+     "factId": "F-SCT-02"
+    },
+    {
+     "id": "d",
+     "text": "First show trial",
+     "year": 1936,
+     "month": 8,
+     "factId": "F-SCT-04"
+    },
+    {
+     "id": "e",
+     "text": "Ezhov replaces Iagoda",
+     "year": 1936,
+     "month": 9,
+     "factId": "F-SCT-04"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Stalin Constitution adopted",
+     "year": 1936,
+     "month": 12,
+     "factId": "F-SCT-12"
+    },
+    {
+     "id": "b",
+     "text": "Second show trial",
+     "year": 1937,
+     "month": 1,
+     "factId": "F-SCT-04"
+    },
+    {
+     "id": "c",
+     "text": "'Mass operations' ordered",
+     "year": 1937,
+     "month": 7,
+     "factId": "F-SCT-05"
+    },
+    {
+     "id": "d",
+     "text": "Third show trial",
+     "year": 1938,
+     "month": 3,
+     "factId": "F-SCT-04"
+    },
+    {
+     "id": "e",
+     "text": "Short Course published",
+     "year": 1938,
+     "month": 10,
+     "factId": "F-SCT-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R03",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Zhdanov attacks Zvezda and Leningrad",
+     "year": 1946,
+     "month": 8,
+     "factId": "F-SCT-15"
+    },
+    {
+     "id": "b",
+     "text": "Marriage to foreigners banned",
+     "year": 1947,
+     "month": 2,
+     "factId": "F-SCT-16"
+    },
+    {
+     "id": "c",
+     "text": "Lysenko triumphs over the geneticists",
+     "year": 1948,
+     "month": 8,
+     "factId": "F-SCT-17"
+    },
+    {
+     "id": "d",
+     "text": "Doctors' Plot announced",
+     "year": 1953,
+     "month": 1,
+     "factId": "F-SCT-18"
+    },
+    {
+     "id": "e",
+     "text": "Stalin dies",
+     "year": 1953,
+     "month": 3,
+     "factId": "F-SCT-20"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Nikolai Ezhov",
+     "right": "NKVD chief during the Great Terror",
+     "explanation": "From September 1936."
+    },
+    {
+     "left": "Sergei Kirov",
+     "right": "Leningrad leader murdered in 1934",
+     "explanation": "1 December 1934."
+    },
+    {
+     "left": "Andrei Zhdanov",
+     "right": "Led post-war ideological campaigns",
+     "explanation": "1946–48."
+    },
+    {
+     "left": "Trofim Lysenko",
+     "right": "Agronomist whose victory halted genetics",
+     "explanation": "1948."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many delegates attended the Seventeenth Party Congress? (number)",
+   "factIds": [
+    "F-SCT-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1966,
+     "tolerance": 0,
+     "explanation": "1,966."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R06",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many meetings officially discussed the 1936 Constitution? (number)",
+   "factIds": [
+    "F-SCT-12"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 623334,
+     "tolerance": 1000,
+     "explanation": "623,334."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R07",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many execution lists did Stalin sign in 1937–38, as reported? (number)",
+   "factIds": [
+    "F-SCT-08"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 357,
+     "tolerance": 0,
+     "explanation": "357."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Moscow doctors were accused in the Doctors' Plot of January 1953? (number)",
+   "factIds": [
+    "F-SCT-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 9,
+     "tolerance": 0,
+     "explanation": "Nine."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R09",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which groups were struck by the Great Terror? Choose all that apply.",
+   "factIds": [
+    "F-SCT-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The upper ranks of the Red Army",
+     "correct": true,
+     "explanation": "Yes: decimated."
+    },
+    {
+     "id": "b",
+     "text": "Provincial party secretaries",
+     "correct": true,
+     "explanation": "Yes: and industrial managers."
+    },
+    {
+     "id": "c",
+     "text": "Ex-kulaks and 'anti-Soviet elements'",
+     "correct": true,
+     "explanation": "Yes: the mass operations of 1937."
+    },
+    {
+     "id": "d",
+     "text": "Stalin's inner circle of Molotov and Kaganovich",
+     "correct": false,
+     "explanation": "No: they survived at his side."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R10",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the cult of personality? Choose all that apply.",
+   "factIds": [
+    "F-SCT-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Party history rewritten around Stalin",
+     "correct": true,
+     "explanation": "Yes: the Short Course."
+    },
+    {
+     "id": "b",
+     "text": "Stalin Prizes",
+     "correct": true,
+     "explanation": "Yes: from December 1939."
+    },
+    {
+     "id": "c",
+     "text": "Rehabilitation of strong rulers such as Peter the Great",
+     "correct": true,
+     "explanation": "Yes: as models of leadership."
+    },
+    {
+     "id": "d",
+     "text": "Open criticism of Stalin in the press",
+     "correct": false,
+     "explanation": "No: it was impossible."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “1,108 of the 1,966 delegates to the 1934 Congress were arrested within four years.” Which argument does it support?",
+   "factIds": [
+    "F-SCT-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Terror destroyed the party's own elite",
+     "correct": true,
+     "explanation": "Correct: the Congress of Victors became a congress of victims."
+    },
+    {
+     "id": "b",
+     "text": "The party elite was safe from repression",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Only ordinary citizens were arrested",
+     "correct": false,
+     "explanation": "The elite suffered heavily."
+    },
+    {
+     "id": "d",
+     "text": "The Congress opposed the Terror openly",
+     "correct": false,
+     "explanation": "No such opposition is recorded."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R12",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Getty and Naumov write that the archives reject the astronomically high estimates of executions.” Which argument does it support?",
+   "factIds": [
+    "F-SCT-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The archives have narrowed the range of estimates of the Terror's scale",
+     "correct": true,
+     "explanation": "Correct: hundreds of thousands rather than millions shot in 1937–38."
+    },
+    {
+     "id": "b",
+     "text": "There were no executions",
+     "correct": false,
+     "explanation": "Official figures record 681,692."
+    },
+    {
+     "id": "c",
+     "text": "Conquest's figures were invented",
+     "correct": false,
+     "explanation": "Conquest's estimate of about one million is broadly consistent."
+    },
+    {
+     "id": "d",
+     "text": "The Terror was mild",
+     "correct": false,
+     "explanation": "Not what the fact shows."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Stalin Constitution of 1936 ended arbitrary arrests.”",
+   "factIds": [
+    "F-SCT-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It did not prevent the Great Terror, which peaked in 1937–38",
+     "correct": true,
+     "explanation": "Correct: rights existed on paper."
+    },
+    {
+     "id": "b",
+     "text": "The Constitution was adopted in 1924",
+     "correct": false,
+     "explanation": "It was adopted on 5 December 1936."
+    },
+    {
+     "id": "c",
+     "text": "The Constitution denied the vote to all",
+     "correct": false,
+     "explanation": "It gave universal suffrage on paper."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: arrests continued."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Repression ended in the Soviet Union when the war ended in 1945.”",
+   "factIds": [
+    "F-SCT-15",
+    "F-SCT-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Post-war repression continued, from repatriated citizens sent to the Gulag to the zhdanovshchina and the Doctors' Plot",
+     "correct": true,
+     "explanation": "Correct: it lasted until Stalin's death."
+    },
+    {
+     "id": "b",
+     "text": "The war ended in 1941",
+     "correct": false,
+     "explanation": "It ended in 1945."
+    },
+    {
+     "id": "c",
+     "text": "Zhdanov was a liberal reformer",
+     "correct": false,
+     "explanation": "He led an ideological crackdown."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: repression continued."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R15",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Stalin's methods of control between 1934 and 1941. Is the Doctors' Plot of 1953 inside or outside the timeframe?",
+   "factIds": [
+    "F-SCT-18"
+   ],
+   "timeframe": [
+    1934,
+    1941
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later example",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1941."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1953 is after 1941."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it was part of Stalin's terror",
+     "correct": false,
+     "explanation": "Relevant in theme but outside the dates."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R16",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were the 'mass operations' ordered on 3 July 1937?",
+   "factIds": [
+    "F-SCT-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Arrests and executions of ex-kulaks, criminals and 'anti-Soviet elements' by quota",
+     "correct": true,
+     "explanation": "Correct: the quotas were exceeded."
+    },
+    {
+     "id": "b",
+     "text": "Military manoeuvres",
+     "correct": false,
+     "explanation": "Not what they were."
+    },
+    {
+     "id": "c",
+     "text": "Collectivisation campaigns",
+     "correct": false,
+     "explanation": "Not what they were."
+    },
+    {
+     "id": "d",
+     "text": "Elections under the new Constitution",
+     "correct": false,
+     "explanation": "Not what they were."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were the watchwords of socialist realism?",
+   "factIds": [
+    "F-SCT-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Accessibility, the spirit of the people, and the spirit of the party",
+     "correct": true,
+     "explanation": "Correct: dostupnost', narodnost', partiinost'."
+    },
+    {
+     "id": "b",
+     "text": "Freedom, experiment and individualism",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Religion, monarchy and tradition",
+     "correct": false,
+     "explanation": "Not its watchwords."
+    },
+    {
+     "id": "d",
+     "text": "Profit, markets and competition",
+     "correct": false,
+     "explanation": "Not its watchwords."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened after Zhdanov's death in August 1948?",
+   "factIds": [
+    "F-SCT-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A purge executed or imprisoned thousands of officials, mostly from Leningrad",
+     "correct": true,
+     "explanation": "Correct: the Leningrad purge."
+    },
+    {
+     "id": "b",
+     "text": "A thaw in culture",
+     "correct": false,
+     "explanation": "That came after 1953."
+    },
+    {
+     "id": "c",
+     "text": "Zhdanov's faction took power",
+     "correct": false,
+     "explanation": "It was purged."
+    },
+    {
+     "id": "d",
+     "text": "The Doctors' Plot was dropped",
+     "correct": false,
+     "explanation": "That came in 1953."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to the Kirov affair essay, what did NKVD reports show about popular reactions to Kirov's murder?",
+   "factIds": [
+    "F-SCT-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Many cared more about food shortages, and some hoped Stalin would share Kirov's fate",
+     "correct": true,
+     "explanation": "Correct: loyalty was not universal."
+    },
+    {
+     "id": "b",
+     "text": "Everyone mourned Kirov",
+     "correct": false,
+     "explanation": "Not what the reports show."
+    },
+    {
+     "id": "c",
+     "text": "People demanded more show trials",
+     "correct": false,
+     "explanation": "Not what the reports show."
+    },
+    {
+     "id": "d",
+     "text": "No reports were made",
+     "correct": false,
+     "explanation": "The NKVD reported on attitudes."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R20",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to Soviet citizens repatriated after the war, according to Judt?",
+   "factIds": [
+    "F-SCT-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Of 5.5 million repatriated by 1953, one in five was shot or sent to the Gulag",
+     "correct": true,
+     "explanation": "Correct: suspicion of contact with the West."
+    },
+    {
+     "id": "b",
+     "text": "All were welcomed as heroes",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "All were allowed to emigrate",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "None were repatriated",
+     "correct": false,
+     "explanation": "5.5 million were."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D01",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was terror the main method by which Stalin controlled the Soviet Union between 1934 and 1941?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "terror",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main method by which Stalin controlled the Soviet Union",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1934 and 1941",
+     "answer": "timeframe",
+     "explanation": "From Kirov's murder to the war."
+    },
+    {
+     "id": "s5",
+     "text": "main method",
+     "answer": "judgement",
+     "explanation": "Did terror outweigh propaganda, the cult and the party machine?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D02",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“'Stalin was personally responsible for the Great Terror.' Discuss with reference to the period 1936 to 1938.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Test the claim, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "Stalin",
+     "answer": "factor",
+     "explanation": "The individual."
+    },
+    {
+     "id": "s3",
+     "text": "was personally responsible for the Great Terror",
+     "answer": "scope",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s4",
+     "text": "1936 to 1938",
+     "answer": "timeframe",
+     "explanation": "The years of the Terror."
+    },
+    {
+     "id": "s5",
+     "text": "personally responsible",
+     "answer": "judgement",
+     "explanation": "Sole author, or one force among several?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D03",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was terror the main method by which Stalin controlled the Soviet Union between 1934 and 1941?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Terror was the decisive method, eliminating rivals and spreading fear, but it worked alongside propaganda and the cult, which offered citizens a reason to believe as well as to obey.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against others."
+    },
+    {
+     "id": "b",
+     "text": "Stalin used terror in the 1930s.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Terror was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Terror was the only method.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D04",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'Stalin was personally responsible for the Great Terror.' Discuss.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin was the central driver of the Terror, as the 357 execution lists he signed show, but local officials who exceeded quotas and a wider fear of enemies, stressed by revisionists, gave it its scale.",
+     "correct": true,
+     "explanation": "Correct: tests the claim with evidence and historians."
+    },
+    {
+     "id": "b",
+     "text": "The Terror happened in 1936–38.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Stalin was cruel.",
+     "correct": false,
+     "explanation": "Not a historical judgement."
+    },
+    {
+     "id": "d",
+     "text": "Stalin knew nothing of the Terror.",
+     "correct": false,
+     "explanation": "Contradicted by the evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D05",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 1 December 1934 Kirov was shot in Leningrad.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because Stalin blamed Zinoviev's supporters, former oppositionists could be treated as terrorists.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In March 1938 Bukharin was sentenced to death.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that no one who had known Stalin as an equal remained to challenge him.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D06",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "357 execution lists signed",
+     "right": "Stalin directed the Terror",
+     "explanation": "1937–38."
+    },
+    {
+     "left": "District quotas exceeded",
+     "right": "Local zeal enlarged the Terror",
+     "explanation": "Mass operations."
+    },
+    {
+     "left": "Short Course: forty million copies",
+     "right": "Propaganda built the cult",
+     "explanation": "1938."
+    },
+    {
+     "left": "Zhdanov's attack on Akhmatova",
+     "right": "Post-war control tightened",
+     "explanation": "August 1946."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D07",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Stalin used the show trials to stay in power.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the show trials made Zinoviev, Kamenev and Bukharin confess publicly to terrorism and treason, they turned Stalin's former rivals into enemies of the state, destroying any alternative leadership while justifying wider repression.",
+     "correct": true,
+     "explanation": "Correct: mechanism and evidence."
+    },
+    {
+     "id": "b",
+     "text": "The show trials were very important.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The first show trial was in 1936.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The show trials did everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D08",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Stalin ruled only through fear.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The regime also sought belief: the 1936 Constitution was discussed at 623,334 meetings, the Short Course sold forty million copies, and Stalin Prizes rewarded loyal achievement.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence."
+    },
+    {
+     "id": "b",
+     "text": "Some people liked Stalin.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "c",
+     "text": "Fear is not a method.",
+     "correct": false,
+     "explanation": "Not an argument."
+    },
+    {
+     "id": "d",
+     "text": "The Soviet Union was large.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D09",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was terror the main method by which Stalin controlled the Soviet Union?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what removed opposition, terror was the main method; judged by what secured willing participation, propaganda and the cult mattered more, so the two worked together.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there was terror and propaganda.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Stalin was evil.",
+     "correct": false,
+     "explanation": "Not a historical judgement."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, dictators always use terror.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D10",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the Great Terror between 1934 and 1939.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Stalin's fear of rivals within the party",
+     "answer": "causes",
+     "explanation": "Doubts at the 1934 Congress."
+    },
+    {
+     "id": "s2",
+     "text": "Fear of counter-revolution and foreign enemies",
+     "answer": "causes",
+     "explanation": "Harris's view."
+    },
+    {
+     "id": "s3",
+     "text": "Old Bolsheviks destroyed",
+     "answer": "effects",
+     "explanation": "Three show trials."
+    },
+    {
+     "id": "s4",
+     "text": "Army leadership decimated",
+     "answer": "effects",
+     "explanation": "Before the war."
+    },
+    {
+     "id": "s5",
+     "text": "A new elite loyal to Stalin",
+     "answer": "effects",
+     "explanation": "Inner circle of Stalin, Molotov, Kaganovich."
+    }
+   ]
+  }
+ ],
+ "essayQuestions": [
+  {
+   "questionId": "P3-16-Y1-STALIN-CONTROL-Q01",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "To what extent was terror the main method by which Stalin controlled the Soviet Union between 1934 and 1941?",
+   "commandTerm": "to what extent",
+   "namedFactor": "terror",
+   "features": [
+    "named_factor",
+    "leader"
+   ],
+   "timeframe": [
+    1934,
+    1941
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "To what extent: judge how far",
+    "factorOrTask": "Terror, weighed first",
+    "timeframe": "1934–1941",
+    "scope": "Stalin's control",
+    "judgement": "Did terror outweigh propaganda and the cult?"
+   },
+   "modelPlan": {
+    "thesis": "Terror was the decisive method, eliminating rivals and spreading fear, but it worked alongside propaganda and the cult, which offered citizens a reason to believe as well as to obey.",
+    "arguments": [
+     {
+      "claim": "Terror: show trials and mass operations (named factor first).",
+      "evidence": [
+       "F-SCT-04",
+       "F-SCT-05",
+       "F-SCT-06"
+      ],
+      "isNamedFactor": true
+     },
+     {
+      "claim": "Stalin's control of the Politburo.",
+      "evidence": [
+       "F-SCT-10"
+      ]
+     },
+     {
+      "claim": "Propaganda: socialist realism and the Constitution.",
+      "evidence": [
+       "F-SCT-11",
+       "F-SCT-12"
+      ]
+     },
+     {
+      "claim": "The cult of personality.",
+      "evidence": [
+       "F-SCT-13"
+      ]
+     }
+    ],
+    "counter": "NKVD reports on reactions to Kirov's murder suggest that propaganda did not win everyone's belief.",
+    "judgementCriterion": "What removed opposition? Terror; what secured participation? Propaganda."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Terror was the main method by which Stalin controlled the Soviet Union in the 1930s.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Three show trials between 1936 and 1938 destroyed the old Bolsheviks, and official figures record 681,692 executions in 1937–38.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that every possible rival and many ordinary citizens were removed, so fear made open opposition impossible.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the regime also built belief through the 1936 Constitution, discussed at 623,334 meetings, and the Short Course, which sold forty million copies.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Terror was therefore the main method, but it was reinforced by propaganda that gave the regime an image of rights and wise leadership.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "terror"
+    ],
+    "synonyms": [
+     "show trials",
+     "purges",
+     "NKVD"
+    ],
+    "historians": [
+     "Khlevniuk",
+     "Thurston",
+     "Conquest",
+     "Getty"
+    ],
+    "extraLexicon": [
+     "propaganda",
+     "cult of personality",
+     "Constitution"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-CONTROL-Q02",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "“Stalin was personally responsible for the Great Terror.” Discuss with reference to the period 1936 to 1938.",
+   "commandTerm": "discuss",
+   "namedFactor": null,
+   "features": [
+    "proposition",
+    "leader"
+   ],
+   "timeframe": [
+    1936,
+    1938
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Discuss: test the claim, then judge",
+    "factorOrTask": "The claim: Stalin personally responsible",
+    "timeframe": "1936–1938",
+    "scope": "The Great Terror",
+    "judgement": "Sole author, or central driver among several forces?"
+   },
+   "modelPlan": {
+    "thesis": "Stalin was the central driver of the Terror, as the 357 execution lists he signed show, but local officials who exceeded quotas and a wider fear of enemies, stressed by revisionists, gave it its scale.",
+    "arguments": [
+     {
+      "claim": "For: execution lists and central control.",
+      "evidence": [
+       "F-SCT-08",
+       "F-SCT-10"
+      ]
+     },
+     {
+      "claim": "For: Stalin's choice of Ezhov and the show trials.",
+      "evidence": [
+       "F-SCT-04"
+      ]
+     },
+     {
+      "claim": "Against: quotas exceeded below.",
+      "evidence": [
+       "F-SCT-05"
+      ]
+     },
+     {
+      "claim": "Against: revisionist interpretations.",
+      "evidence": [
+       "F-SCT-09"
+      ]
+     }
+    ],
+    "counter": "Thurston argues Stalin initiated or reacted to events rather than acting as a 'cold mastermind'.",
+    "judgementCriterion": "Personally responsible? Yes as the driver; not as the only cause of its scale."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Stalin was personally responsible for the Great Terror, though not for every arrest.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "He appointed Ezhov in September 1936, and research reported by Khlevniuk shows he signed 357 lists in 1937–38 authorising about 40,000 executions.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the Terror was directed from the top, so Khlevniuk concludes that theories of an uncontrolled terror are not supported by the record.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, district officials exceeded Ezhov's quotas, and Thurston argues that Stalin often reacted to developments rather than planning them.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The claim is therefore valid: Stalin drove the Terror, while others enlarged it.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Stalin",
+     "personally responsible"
+    ],
+    "synonyms": [
+     "responsibility",
+     "Ezhov"
+    ],
+    "historians": [
+     "Khlevniuk",
+     "Thurston",
+     "Conquest",
+     "Getty"
+    ],
+    "extraLexicon": [
+     "execution lists",
+     "quotas",
+     "Great Terror"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-CONTROL-Q03",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Evaluate the importance of propaganda and the cult of personality in maintaining Stalin's power between 1934 and 1953.",
+   "commandTerm": "evaluate",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1934,
+    1953
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Evaluate: weigh strengths and limits, then judge",
+    "factorOrTask": "Propaganda and the cult",
+    "timeframe": "1934–1953",
+    "scope": "Stalin's power",
+    "judgement": "Essential support, or a mask for terror?"
+   },
+   "modelPlan": {
+    "thesis": "Propaganda and the cult were important in giving Stalin authority and an image of wise, strong leadership, but they depended on terror to silence those they did not convince.",
+    "arguments": [
+     {
+      "claim": "Socialist realism and the cult.",
+      "evidence": [
+       "F-SCT-11",
+       "F-SCT-13"
+      ]
+     },
+     {
+      "claim": "The Constitution as image.",
+      "evidence": [
+       "F-SCT-12"
+      ]
+     },
+     {
+      "claim": "Wartime and post-war cult.",
+      "evidence": [
+       "F-SCT-14",
+       "F-SCT-15"
+      ]
+     },
+     {
+      "claim": "Limits: popular indifference.",
+      "evidence": [
+       "F-SCT-21"
+      ]
+     }
+    ],
+    "counter": "NKVD reports show many people cared more about food than politics.",
+    "judgementCriterion": "Essential or a mask? Essential for authority, insufficient without terror."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Propaganda and the cult gave Stalin authority that terror alone could not.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The Short Course of 1938 sold forty million copies and placed Stalin at the centre of party history, and Stalin Prizes rewarded loyal achievement from 1939.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Stalin appeared as the indispensable leader, so obedience could be presented as loyalty.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, NKVD reports show many citizens indifferent or hostile, and the regime still relied on the Terror and, after 1945, on the zhdanovshchina.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Propaganda was therefore important but secondary: it built authority, while terror enforced it.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "propaganda",
+     "cult of personality"
+    ],
+    "synonyms": [
+     "cult",
+     "socialist realism"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Short Course",
+     "Stalin Prizes",
+     "Constitution"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-CONTROL-Q04",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Examine the reasons for, and the results of, the Great Terror between 1934 and 1939.",
+   "commandTerm": "examine",
+   "namedFactor": null,
+   "features": [
+    "two_part"
+   ],
+   "timeframe": [
+    1934,
+    1939
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Examine: break the issue into parts and consider their interrelationship",
+    "factorOrTask": "Two tasks: reasons AND results",
+    "timeframe": "1934–1939",
+    "scope": "The Great Terror",
+    "judgement": "Which reason mattered most, and which result was most significant"
+   },
+   "modelPlan": {
+    "thesis": "The Terror arose from Stalin's determination to eliminate any rival, from fear of enemies at home and abroad, and from local zeal; its results were the destruction of the old Bolsheviks and army leaders and a party wholly dependent on Stalin.",
+    "arguments": [
+     {
+      "claim": "Reason: Stalin's fear of rivals.",
+      "evidence": [
+       "F-SCT-01",
+       "F-SCT-08"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Reason: fear of counter-revolution.",
+      "evidence": [
+       "F-SCT-09"
+      ],
+      "part": "causes"
+     },
+     {
+      "claim": "Result: old Bolsheviks and army leaders destroyed.",
+      "evidence": [
+       "F-SCT-04",
+       "F-SCT-05"
+      ],
+      "part": "effects"
+     },
+     {
+      "claim": "Result: an inner circle loyal to Stalin.",
+      "evidence": [
+       "F-SCT-10"
+      ],
+      "part": "effects"
+     }
+    ],
+    "counter": "Harris argues the Terror was driven by fear of counter-revolution rather than personal dictatorship.",
+    "judgementCriterion": "Which result mattered most? A party and army whose leaders owed everything to Stalin."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The Great Terror arose mainly from Stalin's determination to remove any possible rival.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "After doubts surfaced at the 1934 Congress, 1,108 of its 1,966 delegates were arrested within four years, and three show trials destroyed Zinoviev, Kamenev and Bukharin.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that every leader who had known Stalin as an equal was removed, so by 1939 the party and army were led by men who owed him everything.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, James Harris argues the Terror was driven by an exaggerated fear of counter-revolution, and the mass operations struck far beyond the elite.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The most significant result was therefore Stalin's unchallengeable power, bought at the cost of the army's leadership on the eve of war.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "Great Terror"
+    ],
+    "synonyms": [
+     "purges",
+     "Ezhovshchina"
+    ],
+    "historians": [
+     "Harris",
+     "Khlevniuk",
+     "Thurston"
+    ],
+    "extraLexicon": [
+     "show trials",
+     "Red Army",
+     "Ezhov"
+    ],
+    "parts": [
+     {
+      "name": "reasons",
+      "terms": [
+       "reason",
+       "because",
+       "cause"
+      ]
+     },
+     {
+      "name": "results",
+      "terms": [
+       "result",
+       "consequence",
+       "led to"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-CONTROL-Q05",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast Stalin's methods of control before and after the Second World War, between 1934 and 1953.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "leader"
+   ],
+   "timeframe": [
+    1934,
+    1953
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Methods of control",
+    "timeframe": "1934–1953",
+    "scope": "Before and after the war",
+    "judgement": "Continuity or change?"
+   },
+   "modelPlan": {
+    "thesis": "Stalin's methods showed strong continuity, terror, propaganda and the search for enemies, but after 1945 repression was more selective, aimed at returning citizens, intellectuals and foreign influence rather than at mass operations on the scale of 1937–38.",
+    "arguments": [
+     {
+      "claim": "Similarity: control of culture.",
+      "evidence": [
+       "F-SCT-11",
+       "F-SCT-15"
+      ]
+     },
+     {
+      "claim": "Similarity: invented conspiracies.",
+      "evidence": [
+       "F-SCT-02",
+       "F-SCT-18"
+      ]
+     },
+     {
+      "claim": "Difference: mass operations versus selective repression.",
+      "evidence": [
+       "F-SCT-05",
+       "F-SCT-19"
+      ]
+     },
+     {
+      "claim": "Difference: new targets: foreigners and 'cosmopolitans'.",
+      "evidence": [
+       "F-SCT-16",
+       "F-SCT-15"
+      ]
+     }
+    ],
+    "counter": "The Doctors' Plot may have been the prelude to a new wave of terror, stopped only by Stalin's death.",
+    "judgementCriterion": "Continuity or change? Continuity of methods, change of scale and targets."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Stalin's methods after 1945 continued those of the 1930s, but in a more selective form.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In the 1930s mass operations ordered in July 1937 struck hundreds of thousands, whereas after 1945 repression targeted repatriated citizens, writers such as Akhmatova and, in 1953, Jewish doctors.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the search for enemies remained central, but its targets shifted from former oppositionists to foreign influence and 'cosmopolitanism'.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both periods relied on invented conspiracies, from the charge that Zinoviev's supporters killed Kirov to the Doctors' Plot.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The methods were therefore continuous, while the scale and targets of repression changed after the war.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "methods of control"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "zhdanovshchina",
+     "show trials",
+     "Doctors' Plot"
+    ]
+   }
+  },
+  {
+   "questionId": "P3-16-Y1-STALIN-CONTROL-Q06",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Analyse the purposes of the show trials held between 1936 and 1938.",
+   "commandTerm": "analyse",
+   "namedFactor": null,
+   "features": [],
+   "timeframe": [
+    1936,
+    1938
+   ],
+   "scope": "Soviet Union",
+   "decodeKey": {
+    "verb": "Analyse: break the question into its parts and show how they connect",
+    "factorOrTask": "Purposes of the show trials",
+    "timeframe": "1936–1938",
+    "scope": "The three Moscow trials",
+    "judgement": "Which purpose mattered most, and how they connect"
+   },
+   "modelPlan": {
+    "thesis": "The show trials eliminated Stalin's former rivals, blamed economic and political failures on 'enemies', and justified the wider Terror by presenting it as the defence of the state against conspiracy.",
+    "arguments": [
+     {
+      "claim": "Eliminating former rivals.",
+      "evidence": [
+       "F-SCT-04"
+      ]
+     },
+     {
+      "claim": "Linking the opposition to Kirov's murder.",
+      "evidence": [
+       "F-SCT-02",
+       "F-SCT-04"
+      ]
+     },
+     {
+      "claim": "Justifying wider repression.",
+      "evidence": [
+       "F-SCT-05"
+      ]
+     },
+     {
+      "claim": "Confessions as propaganda.",
+      "evidence": [
+       "F-SCT-05"
+      ]
+     }
+    ],
+    "counter": "The trials were a small, public part of a Terror that mostly took place in secret.",
+    "judgementCriterion": "Which purpose mattered most? Removing rivals, which the other purposes justified."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The show trials served above all to destroy Stalin's former rivals in a way that justified their destruction.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Zinoviev and Kamenev were convicted in 1936 of forming a terrorist centre blamed for Kirov's murder, and Bukharin and Rykov were sentenced to death in 1938.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that former leaders confessed publicly to treason, so their elimination appeared as the defence of the state rather than a political purge.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, the trials were only the public face of a far wider secret Terror, including the mass operations of 1937.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The trials therefore removed rivals and provided the justification for repression on a much larger scale.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "show trials"
+    ],
+    "synonyms": [
+     "Moscow trials",
+     "confessions"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Zinoviev",
+     "Bukharin",
+     "Kirov"
+    ]
+   }
+  }
+ ]
+}
