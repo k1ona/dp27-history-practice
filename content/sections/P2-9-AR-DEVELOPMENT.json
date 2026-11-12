@@ -2727,6 +2727,130 @@
      "pardons"
     ]
    }
+  },
+  {
+   "questionId": "P2-9-AR-DEVELOPMENT-Q07",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast how Argentina and South Africa dealt with the crimes of their former regimes between 1983 and 1998.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1983,
+    1998
+   ],
+   "scope": "Argentina and South Africa",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Dealing with the crimes of former regimes",
+    "timeframe": "1983–1998",
+    "scope": "Argentina and South Africa",
+    "judgement": "Truth, justice, or stability: which did each achieve?"
+   },
+   "modelPlan": {
+    "thesis": "Argentina began with retributive justice, trying and convicting the junta leaders, but military pressure forced amnesty laws and pardons; South Africa chose restorative justice from the start, exchanging amnesty for truth; both left most perpetrators unpunished, but South Africa gained more truth with less conflict.",
+    "arguments": [
+     {
+      "claim": "Difference: trials versus a truth commission.",
+      "evidence": [
+       "F-ARD-02",
+       "F-ARD-03",
+       "F-ARD-25"
+      ]
+     },
+     {
+      "claim": "Difference: how far the truth was heard.",
+      "evidence": [
+       "F-ARD-26"
+      ]
+     },
+     {
+      "claim": "Similarity: most perpetrators went unpunished.",
+      "evidence": [
+       "F-ARD-08",
+       "F-ARD-11",
+       "F-ARD-27"
+      ]
+     },
+     {
+      "claim": "Similarity: victims' sense of injustice.",
+      "evidence": [
+       "F-ARD-08",
+       "F-ARD-28"
+      ]
+     }
+    ],
+    "counter": "Argentina's trials established that former rulers could be judged by a civilian court, which South Africa's amnesty did not.",
+    "judgementCriterion": "Which approach achieved more? South Africa's for truth and stability; Argentina's, briefly, for justice."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Argentina and South Africa took opposite approaches to the crimes of their former regimes, but ended with similar limits.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Argentina's Trial of the Juntas sentenced Videla and Massera to life in December 1985, whereas South Africa's TRC, based on restorative justice, heard more than 22,000 victims in 1996–98.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Argentina pursued punishment and provoked military revolts, while South Africa exchanged amnesty for full disclosure and avoided confrontation with its security forces.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in both states most perpetrators went unpunished: Argentina's Due Obedience law and Menem's pardons freed them, while in South Africa many victims felt justice had not been done.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The two approaches therefore differed in method, but South Africa's produced more truth with less risk to democracy.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "crimes",
+     "justice"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [],
+    "extraLexicon": [
+     "Trial of the Juntas",
+     "TRC",
+     "amnesty"
+    ]
+   }
   }
  ]
 }

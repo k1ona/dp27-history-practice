@@ -2674,6 +2674,131 @@
      "pensions"
     ]
    }
+  },
+  {
+   "questionId": "P2-9-DE-POLICIES-Q07",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the role of labour migration in the economies of West Germany and Spain between 1959 and 1975.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1959,
+    1975
+   ],
+   "scope": "West Germany and Spain",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "The role of labour migration",
+    "timeframe": "1959–1975",
+    "scope": "West Germany and Spain",
+    "judgement": "Who gained from migration, and on what terms?"
+   },
+   "modelPlan": {
+    "thesis": "Labour migration linked the two economies in opposite directions: West Germany imported foreign workers to sustain full employment, whereas Spain exported workers whose remittances funded its growth; in both, migrants were treated as temporary, and West Germany's closure of recruitment in 1975 showed who controlled the terms.",
+    "arguments": [
+     {
+      "claim": "Difference: importer versus exporter of labour.",
+      "evidence": [
+       "F-DEP-11",
+       "F-DEP-27"
+      ]
+     },
+     {
+      "claim": "Difference: what migration supplied: labour versus foreign cash.",
+      "evidence": [
+       "F-DEP-12",
+       "F-DEP-28"
+      ]
+     },
+     {
+      "claim": "Similarity: migrants treated as temporary.",
+      "evidence": [
+       "F-DEP-12",
+       "F-DEP-13"
+      ]
+     },
+     {
+      "claim": "The end of recruitment in 1975.",
+      "evidence": [
+       "F-DEP-13",
+       "F-DEP-29"
+      ]
+     }
+    ],
+    "counter": "Guest workers' pay was worth many times what they could earn at home, which suggests both sides gained.",
+    "judgementCriterion": "Who gained more? West Germany, which gained flexible labour and could end recruitment when it chose."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Labour migration was important to both economies, but it worked in opposite directions.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "By 1973 West Germany had 2.8 million foreign workers, one in eight of its labour force, whereas after Spain's 1959 Stabilization Plan tens of thousands of Spaniards sought work abroad.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that migration gave West Germany the workers it needed for full employment, while it gave Spain remittances that, Judt argues, made its modernisation 'largely a by-product of other nations' prosperity'.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, in both economies migrants were treated as temporary: in West Germany they had no permanent right of residence, and in 1975 it closed its recruiting offices in Spain and elsewhere.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Migration therefore benefited both economies, but on terms set by the richer state.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "labour migration",
+     "migration"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "guest workers",
+     "remittances",
+     "Stabilization Plan"
+    ]
+   }
   }
  ]
 }

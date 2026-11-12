@@ -2722,6 +2722,133 @@
      "Schumacher"
     ]
    }
+  },
+  {
+   "questionId": "P2-9-DE-EMERGENCE-Q07",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the political development of the western zones and the Soviet zone of Germany between 1945 and 1949.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative"
+   ],
+   "timeframe": [
+    1945,
+    1949
+   ],
+   "scope": "the western zones and the Soviet zone of Germany",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Political development",
+    "timeframe": "1945–1949",
+    "scope": "The western zones and the Soviet zone",
+    "judgement": "How and why did the two parts diverge?"
+   },
+   "modelPlan": {
+    "thesis": "Both parts of Germany began under four-power occupation with the shared aims agreed at Potsdam, but the western zones developed competing parties, free elections and a democratic Basic Law, whereas in the Soviet zone the SPD was merged with the Communists and power was kept in Communist hands, producing two states in 1949.",
+    "arguments": [
+     {
+      "claim": "Similarity: a common starting point at Potsdam.",
+      "evidence": [
+       "F-DEE-02",
+       "F-DEE-03"
+      ]
+     },
+     {
+      "claim": "Difference: party politics.",
+      "evidence": [
+       "F-DEE-09",
+       "F-DEE-13",
+       "F-DEE-14"
+      ]
+     },
+     {
+      "claim": "Difference: elections and the Basic Law.",
+      "evidence": [
+       "F-DEE-08",
+       "F-DEE-18",
+       "F-DEE-20"
+      ]
+     },
+     {
+      "claim": "Outcome: two states.",
+      "evidence": [
+       "F-DEE-17",
+       "F-DEE-21"
+      ]
+     }
+    ],
+    "counter": "Both parts were governed under occupation, and the western Basic Law itself was drafted under close Allied monitoring.",
+    "judgementCriterion": "Why did they diverge? Because the occupiers' aims diverged, as Fulbrook's 'unintended result of the emerging Cold War' suggests."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The western zones and the Soviet zone began together but developed opposite political systems.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In the Soviet zone the SPD was amalgamated with the Communists in 1946, and Ulbricht insisted 'it has to look democratic, but everything must be in our hands', whereas in the west the CDU, SPD and FDP competed in the free election of 14 August 1949.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that the west developed genuine party competition, so the Basic Law could found a parliamentary democracy, while the east was controlled by one party.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both parts were shaped by their occupiers, and the western Basic Law was itself drafted under close Allied monitoring.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The two parts therefore diverged because their occupiers did, producing a democratic Federal Republic and a Communist GDR in 1949.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "western zones",
+     "Soviet zone"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Fulbrook",
+     "Judt"
+    ],
+    "extraLexicon": [
+     "SPD",
+     "Ulbricht",
+     "Basic Law"
+    ]
+   }
   }
  ]
 }

@@ -1,7 +1,7 @@
 # Verification log: P2-9-SA-CONDITIONS
 
 Section: South Africa: apartheid and the conditions for democratic demand (1948–1990).
-Every row was checked against `reference/History_for_the_IB_Diploma_Democratic_States_1848-2000.md` (J. Bottaro and J. Stanley, *Evolution and Development of Democratic States (1848–2000)*, Cambridge University Press, 2nd edition; "Bottaro and Stanley"; line numbers in that file) on the date in the last column. Historians' views are cited as summarised or quoted in that book.
+Every row was checked against `reference/History_for_the_IB_Diploma_Democratic_States_1848-2000.md` (J. Bottaro and J. Stanley, *Evolution and Development of Democratic States (1848–2000)*, Cambridge University Press, 2nd edition; "Bottaro and Stanley"; line numbers in that file) on the date in the last column. Historians' views are cited as summarised or quoted in that book. Rows 21–23 support the comparative question on Argentina: they repeat checks recorded in `content/_verification/P2-9-AR-EMERGENCE.md` (rows F-ARE-15, -16 and -17), with the same source, location and check date.
 
 Not used: Mandela's date of arrest and the exact date of the Rivonia trial, the number killed in the 1984–89 uprising beyond 'thousands', and exact dates for the 1950s laws, which the lines read do not give clearly (the scanned text is fragmentary in places, so only clearly legible statements were used).
 
@@ -29,6 +29,9 @@ Not used: Mandela's date of arrest and the exact date of the Rivonia trial, the 
 | F-SAC-18 | The economy declined after a financial crisis in 1985, when overseas banks cancelled loans and the rand collapsed; the US Comprehensive Anti-Apartheid Act of 1986 banned new investment; about two-thirds of US companies with investments withdrew | Bottaro and Stanley | lines 9572–9598 | 2026-11-11 |
 | F-SAC-19 | Chris Saunders believes the mass uprising of the 1980s was the most significant factor; Leonard Thompson argues that by 1989 both sides accepted a military solution was unlikely; De Klerk, president from 1989, was more open to reform than P.W. Botha, and the National Party believed it could control negotiations | Bottaro and Stanley | lines 9612–9637 | 2026-11-11 |
 | F-SAC-20 | Mandela had been moved from Robben Island to a mainland prison in 1982; there had been secret talks with the government since 1985, and he met Botha in 1989 and De Klerk before his release; in 1985 he rejected a conditional release: 'Only free men can negotiate'; ANC exiles met business leaders in Lusaka (1985) and Afrikaners in Dakar (1987) | Bottaro and Stanley | lines 9651–9671 | 2026-11-11 |
+| F-SAC-21 | Argentina's military occupied the Falklands (Malvinas) in 1982 until a British naval task force retook them; the military fell into disrepute after this failure | Congressional Research Service | Report R43816 (2017), https://www.everycrsreport.com/reports/R43816.html, background and South Atlantic paragraphs | 2026-11-11 |
+| F-SAC-22 | Argentina: six years of intermittent wage freezes had left real wages around 40 per cent lower and GDP per capita at its lowest since 1968; restored freedoms led to strikes, including two general strikes led by Saúl Ubaldini of the CGT | Wikipedia | '1983 Argentine general election', background section, https://en.wikipedia.org/wiki/1983_Argentine_general_election | 2026-11-11 |
+| F-SAC-23 | Argentina: police repressed a demonstration in the Plaza de Mayo on 16 December 1982, killing one protester and ending Bignone's hopes of postponing elections indefinitely | Wikipedia | '1983 Argentine general election', background section, https://en.wikipedia.org/wiki/1983_Argentine_general_election | 2026-11-11 |
 
 ## Historiography
 

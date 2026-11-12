@@ -2674,6 +2674,134 @@
      "parliament"
     ]
    }
+  },
+  {
+   "questionId": "P2-9-SA-POLICIES-Q07",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the economic policies of the democratic governments of South Africa and Argentina between 1994 and 1999.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1994,
+    1999
+   ],
+   "scope": "South Africa and Argentina",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Economic policies",
+    "timeframe": "1994–1999",
+    "scope": "South Africa and Argentina",
+    "judgement": "Which succeeded more, and for whom?"
+   },
+   "modelPlan": {
+    "thesis": "Both governments turned to free-market policies that brought stability but not jobs: South Africa's GEAR and Argentina's Convertibility and privatisation; but South Africa kept strong labour protections, whereas Argentine unions could not resist, and only in Argentina did unemployment help defeat the governing party in 1999.",
+    "arguments": [
+     {
+      "claim": "Similarity: a turn to free-market policies by parties with other traditions.",
+      "evidence": [
+       "F-SAP-15",
+       "F-SAP-30"
+      ]
+     },
+     {
+      "claim": "Similarity: stability and lower inflation.",
+      "evidence": [
+       "F-SAP-16",
+       "F-SAP-31"
+      ]
+     },
+     {
+      "claim": "Similarity: unemployment.",
+      "evidence": [
+       "F-SAP-17",
+       "F-SAP-32"
+      ]
+     },
+     {
+      "claim": "Difference: labour protection and political consequences.",
+      "evidence": [
+       "F-SAP-18",
+       "F-SAP-19",
+       "F-SAP-32",
+       "F-SAP-33"
+      ]
+     }
+    ],
+    "counter": "Both governments inherited economic crises: South Africa a bankrupt economy in 1994, and Argentina the hyperinflation that Menem's policies eliminated.",
+    "judgementCriterion": "Which policy succeeded more? Both stabilised the economy; neither created enough jobs."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "South Africa and Argentina both turned to free-market policies in the 1990s, with similar successes and failures.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "South Africa replaced the RDP with GEAR in 1996, including privatisation, whereas Menem privatized most state enterprises and pegged the peso to the dollar in 1991.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that both economies stabilised, with South African inflation falling to around 6 per cent and Argentine hyperinflation eliminated, but unemployment rose in both.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, South Africa's new labour laws gave unions unusual power, as Thompson notes, whereas Argentine unions were unable to resist, and high unemployment helped defeat the Peronists in 1999.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The policies were therefore similar in their economic results but different in their treatment of organised labour.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "economic policies",
+     "economy"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Thompson",
+     "Worden"
+    ],
+    "extraLexicon": [
+     "GEAR",
+     "Convertibility",
+     "privatisation"
+    ]
+   }
   }
  ]
 }

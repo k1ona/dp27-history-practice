@@ -2736,6 +2736,131 @@
      "interim constitution"
     ]
    }
+  },
+  {
+   "questionId": "P2-9-SA-TRANSITION-Q07",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the constitutional changes made in South Africa and Argentina between 1993 and 1996.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1993,
+    1996
+   ],
+   "scope": "South Africa and Argentina",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Constitutional changes",
+    "timeframe": "1993–1996",
+    "scope": "South Africa and Argentina",
+    "judgement": "How far did each change strengthen democracy?"
+   },
+   "modelPlan": {
+    "thesis": "Both states changed their constitutions through agreements between rival parties and both strengthened the protection of rights, but South Africa wrote an entirely new constitution with mass participation to create democracy, whereas Argentina amended an existing one, partly to allow its president a second term.",
+    "arguments": [
+     {
+      "claim": "Similarity: agreements between rival parties.",
+      "evidence": [
+       "F-SAT-12",
+       "F-SAT-28"
+      ]
+     },
+     {
+      "claim": "Similarity: stronger protection of rights.",
+      "evidence": [
+       "F-SAT-20",
+       "F-SAT-29"
+      ]
+     },
+     {
+      "claim": "Difference: a new constitution with public participation versus an amendment.",
+      "evidence": [
+       "F-SAT-19",
+       "F-SAT-29"
+      ]
+     },
+     {
+      "claim": "Difference: purpose: founding democracy versus re-election and limits on power.",
+      "evidence": [
+       "F-SAT-20",
+       "F-SAT-28"
+      ]
+     }
+    ],
+    "counter": "Argentina's reform also limited presidential power, through a Council of Magistracy and a shorter term.",
+    "judgementCriterion": "Which change did more for democracy? South Africa's, because it created democratic rights for the majority for the first time."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "South Africa and Argentina both used negotiated constitutional change to strengthen democracy, but for different purposes.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "South Africa's 1996 constitution, drafted by an elected Constitutional Assembly that received 1.7 million submissions, created a Bill of Rights, whereas Argentina's 1994 amendment, agreed by Menem and Alfonsín in the Pact of Olivos, gave human rights treaties constitutional status.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that both constitutions protected rights more strongly, but South Africa's founded a democracy for the whole population, while Argentina's reformed an existing democracy.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Argentina's amendment was driven partly by Menem's wish for re-election, while South Africa's process was driven by the need to replace apartheid.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The two changes were therefore similar in method but different in scale: South Africa's was a refoundation, Argentina's a renegotiation.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "constitution",
+     "constitutional"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Lodge"
+    ],
+    "extraLexicon": [
+     "Pact of Olivos",
+     "Bill of Rights",
+     "re-election"
+    ]
+   }
   }
  ]
 }

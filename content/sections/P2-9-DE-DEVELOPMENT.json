@@ -2717,6 +2717,131 @@
      "4+2"
     ]
    }
+  },
+  {
+   "questionId": "P2-9-DE-DEVELOPMENT-Q07",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the threat posed by terrorism to democracy in West Germany and Spain between 1970 and 1987.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_state"
+   ],
+   "timeframe": [
+    1970,
+    1987
+   ],
+   "scope": "West Germany and Spain",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "The threat of terrorism",
+    "timeframe": "1970–1987",
+    "scope": "West Germany and Spain",
+    "judgement": "How serious was each threat, and how did each democracy respond?"
+   },
+   "modelPlan": {
+    "thesis": "Terrorism failed to destroy democracy in both states, but the threats differed: West Germany's RAF had no defined goals and little popular base, whereas Spain's ETA fought for Basque independence and killed far more people; both governments responded with measures that raised doubts about civil liberties, more seriously in Spain.",
+    "arguments": [
+     {
+      "claim": "Similarity: both campaigns failed politically.",
+      "evidence": [
+       "F-DED-22",
+       "F-DED-31"
+      ]
+     },
+     {
+      "claim": "Difference: aims and scale.",
+      "evidence": [
+       "F-DED-21",
+       "F-DED-30",
+       "F-DED-31"
+      ]
+     },
+     {
+      "claim": "Similarity: responses that raised doubts about liberty.",
+      "evidence": [
+       "F-DED-22",
+       "F-DED-32"
+      ]
+     },
+     {
+      "claim": "Difference: legal versus illegal responses.",
+      "evidence": [
+       "F-DED-22",
+       "F-DED-32"
+      ]
+     }
+    ],
+    "counter": "Judt calls the Spanish response 'arguably a remarkably moderate response' in the circumstances.",
+    "judgementCriterion": "Which threat was greater? ETA's, because it had a cause with regional support and killed far more people."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Terrorism threatened democracy in both West Germany and Spain, but ETA was the greater danger.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "The RAF killed 28 people between 1970 and 1978, whereas ETA killed 181 people in 1979–80 alone, after assassinating Franco's prime minister in 1973.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that ETA, fighting for Basque independence, posed a lasting challenge to the new Spanish state, while the RAF, with no defined goals, failed to disrupt the Federal Republic.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both democracies answered with measures that worried liberals: West Germany's Berufsverbot of 1972 was legal, whereas Spain's GAL killed twenty-six ETA operatives illegally in 1983–87.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Both democracies therefore survived terrorism, but Spain's younger democracy was more seriously tested and more seriously compromised by its response.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "terrorism"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "RAF",
+     "ETA",
+     "Berufsverbot"
+    ]
+   }
   }
  ]
 }

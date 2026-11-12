@@ -2753,6 +2753,134 @@
      "GAL"
     ]
    }
+  },
+  {
+   "questionId": "P2-9-ES-Q07",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the threat posed by the armed forces to democracy in Spain and Argentina between 1981 and 1990.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1981,
+    1990
+   ],
+   "scope": "Spain and Argentina",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "The threat from the armed forces",
+    "timeframe": "1981–1990",
+    "scope": "Spain and Argentina",
+    "judgement": "How serious was each threat, and how was it overcome?"
+   },
+   "modelPlan": {
+    "thesis": "Both democracies faced military revolts that failed, but Spain's single coup attempt of 1981 was defeated outright by the king and followed by cuts to the military budget, whereas Argentina's repeated revolts of 1987–90 won concessions on justice before Menem crushed the last one and pardoned the officers.",
+    "arguments": [
+     {
+      "claim": "Similarity: revolts against the new democracy failed.",
+      "evidence": [
+       "F-ES-28",
+       "F-ES-43",
+       "F-ES-45"
+      ]
+     },
+     {
+      "claim": "Difference: one defeat versus repeated revolts.",
+      "evidence": [
+       "F-ES-28",
+       "F-ES-43"
+      ]
+     },
+     {
+      "claim": "Difference: concessions.",
+      "evidence": [
+       "F-ES-30",
+       "F-ES-44",
+       "F-ES-45"
+      ]
+     },
+     {
+      "claim": "Difference: the role of the head of state.",
+      "evidence": [
+       "F-ES-29",
+       "F-ES-43"
+      ]
+     }
+    ],
+    "counter": "No revolt took power in either state, and in Argentina an estimated 200,000 people gathered to defend democracy in 1987.",
+    "judgementCriterion": "Which threat was greater? Argentina's, because its army forced concessions repeatedly."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Military revolts threatened democracy in both Spain and Argentina, but Argentina's army extracted far more.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In Spain Tejero seized the Cortes on 23 February 1981 but King Juan Carlos defended the Constitution, whereas in Argentina Aldo Rico's revolt of April 1987 was followed by the Law of Due Obedience in June.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that Spain's coup discredited military intervention, so the Cortes could then cut the military budget, while Argentina's revolts limited the prosecution of officers.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both threats ended in failure: Argentina's last revolt, in December 1990, was crushed within 36 hours, though Menem then pardoned the most important convicted officers.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The armed forces were therefore a weaker threat in Spain, where the monarchy held them in check, than in Argentina, where democracy survived only by giving ground on justice.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "armed forces",
+     "military",
+     "army"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "Tejero",
+     "Carapintadas",
+     "Due Obedience"
+    ]
+   }
   }
  ]
 }

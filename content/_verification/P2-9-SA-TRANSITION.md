@@ -1,7 +1,7 @@
 # Verification log: P2-9-SA-TRANSITION
 
 Section: South Africa: the negotiated transition and the working of democracy (1990–2000).
-Every row was checked against `reference/History_for_the_IB_Diploma_Democratic_States_1848-2000.md` (J. Bottaro and J. Stanley, *Evolution and Development of Democratic States (1848–2000)*, Cambridge University Press, 2nd edition; "Bottaro and Stanley"; line numbers in that file) on the date in the last column. Historians' views are cited as summarised or quoted in that book.
+Every row was checked against `reference/History_for_the_IB_Diploma_Democratic_States_1848-2000.md` (J. Bottaro and J. Stanley, *Evolution and Development of Democratic States (1848–2000)*, Cambridge University Press, 2nd edition; "Bottaro and Stanley"; line numbers in that file) on the date in the last column. Historians' views are cited as summarised or quoted in that book. Rows 28–29 support the comparative question on Argentina: they repeat checks recorded in `content/_verification/P2-9-AR-DEVELOPMENT.md` (rows F-ARD-15 and F-ARD-17), with the same source, location and check date.
 
 Not used: the exact death tolls at Bisho ('several' in the source) and Boipatong ('dozens'); the Democratic Party's exact 1999 percentage, which is missing from the scanned table (the text says 'less than 10 per cent'); the date of the 1992 referendum; and the Constitutional Court's later rulings on antiretroviral medicines and same-sex marriage, which the source does not date.
 
@@ -36,6 +36,8 @@ Not used: the exact death tolls at Bisho ('several' in the source) and Boipatong
 | F-SAT-25 | Mbeki took over the ANC leadership in 1997 and became president in 1999; the government's focus shifted from reconciliation to transformation | Bottaro and Stanley | lines 9921; 9939 | 2026-11-11 |
 | F-SAT-26 | Thompson calls South Africa a 'one-party democracy' but notes strong checks such as a free press, a vigorous civil society, business organisations and trade unions; David Welsh notes that democratic constitutional forms had been maintained | Bottaro and Stanley | line 9951 | 2026-11-11 |
 | F-SAT-27 | On 2 February 1990 De Klerk announced the unbanning of the ANC, the release of political prisoners and negotiations for a democratic constitution | Bottaro and Stanley | line 9309 | 2026-11-11 |
+| F-SAT-28 | Argentina: in the Pact of Olivos of 17 November 1993, Menem and Alfonsín agreed that the UCR would support a constitutional amendment allowing one presidential re-election, in exchange for a four-year term, a third senator for each province, a Council of Magistracy and autonomy for Buenos Aires | Wikipedia | 'Pact of Olivos', https://en.wikipedia.org/wiki/Pact_of_Olivos | 2026-11-11 |
+| F-SAT-29 | Argentina: the 1994 amendment, approved on 22 August 1994, reformed 43 articles: international human rights treaties gained constitutional status; the presidential term was cut from six to four years with one consecutive re-election; the president was elected directly with a run-off; the de facto government doctrine was repealed and any break of the constitutional order declared illegal; an ombudsman and a Council of Magistracy were created | Wikipedia | '1994 amendment of the Constitution of Argentina', main points, https://en.wikipedia.org/wiki/1994_amendment_of_the_Constitution_of_Argentina | 2026-11-11 |
 
 ## Historiography
 

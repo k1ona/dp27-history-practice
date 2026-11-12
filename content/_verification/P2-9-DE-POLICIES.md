@@ -1,7 +1,7 @@
 # Verification log: P2-9-DE-POLICIES
 
 Section: Germany: the aims and results of policies in the Federal Republic (1949–1990).
-Rows marked Judt were checked against `reference/Judt_Postwar_A_History_of_Europe_Since_1945.md` (line numbers in that file). Rows marked Bottaro and Stanley were checked against `reference/History_for_the_IB_Diploma_Democratic_States_1848-2000.md` (J. Bottaro and J. Stanley, *Evolution and Development of Democratic States (1848–2000)*, Cambridge University Press, 2nd edition; line numbers in that file). All checks were made on the date in the last column. Historians' views are cited as summarised or quoted in those books.
+Rows marked Judt were checked against `reference/Judt_Postwar_A_History_of_Europe_Since_1945.md` (line numbers in that file). Rows marked Bottaro and Stanley were checked against `reference/History_for_the_IB_Diploma_Democratic_States_1848-2000.md` (J. Bottaro and J. Stanley, *Evolution and Development of Democratic States (1848–2000)*, Cambridge University Press, 2nd edition; line numbers in that file). All checks were made on the date in the last column. Historians' views are cited as summarised or quoted in those books. Rows 27–28 support the comparative question on Spain: they repeat checks recorded in `content/_verification/P3-17-B4-SPAIN.md` (rows 10 and 12, checked 2026-11-10), with the same source and location. Row 29 was read with row 13 (Judt lines 27615–27629) on 2026-11-11.
 
 Not used because the source conflicts with itself: the year of the law on the equality of the sexes (Bottaro and Stanley give 1957 at lines 2824 and 3252, but quote S. Berger naming an 'Equality Law of 1958' at line 2212); the section therefore says only 'an equality law of the late 1950s'. Also not used: the content of the 1952 Equalisation of Burdens Law, which the source names in a chronology (line 2365) but does not describe, and the start date of guest-worker recruitment, which the passages read do not give.
 
@@ -35,6 +35,9 @@ Not used because the source conflicts with itself: the year of the law on the eq
 | F-DEP-24 | The 1952 Equalisation of Burdens Law and the Works' Constitution Law were implemented | Bottaro and Stanley | line 2365 | 2026-11-11 |
 | F-DEP-25 | The monetary, economic and social union took effect on 1 July 1990: East Germans could exchange marks up to the equivalent of DM 40,000 at 1:1, and wages were paid in Deutschmarks at parity, with grim long-term consequences for East German jobs and the West German budget | Judt | lines 38231–38243 | 2026-11-11 |
 | F-DEP-26 | By the time it joined NATO in 1955, the Federal Republic was well on the way to its Wirtschaftswunder (economic miracle) | Judt | lines 16485–16495 | 2026-11-11 |
+| F-DEP-27 | Spain: in 1959, at the instigation of a group of Opus Dei ministers, Spain abandoned two decades of autarky and adopted a National Stabilization Plan; its first effects were harsh (devaluation, budget cuts, a credit freeze and wage restrictions) and tens of thousands of Spaniards sought work abroad | Judt | lines 31119–31129 | 2026-11-10 |
+| F-DEP-28 | Spain: the 'economic miracle' should not be overstated: most foreign cash came from emigrants' remittances and northern European holiday-makers, so modernisation was 'largely a by-product of other nations' prosperity'; in 1973 income per head was still lower than Ireland's and less than half the EEC average | Judt | lines 31150–31161 | 2026-11-10 |
+| F-DEP-29 | In 1975 the Federal Republic permanently closed its recruiting offices in North Africa, Portugal, Spain and Yugoslavia | Judt | lines 27615–27629 | 2026-11-11 |
 
 ## Historiography
 

@@ -2696,6 +2696,133 @@
      "Falklands"
     ]
    }
+  },
+  {
+   "questionId": "P2-9-AR-EMERGENCE-Q07",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the role of the armed forces in the transitions to democracy in Argentina and Spain between 1976 and 1983.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1976,
+    1983
+   ],
+   "scope": "Argentina and Spain",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "The role of the armed forces",
+    "timeframe": "1976–1983",
+    "scope": "Argentina and Spain",
+    "judgement": "Obstacle, enabler, or both?"
+   },
+   "modelPlan": {
+    "thesis": "The armed forces mattered in both transitions, but in opposite ways: in Argentina the military ruled and its defeat in war ended its rule, whereas in Spain a largely ceremonial army stood aside, and its one serious attempt to intervene, in 1981, failed when the king defended the Constitution.",
+    "arguments": [
+     {
+      "claim": "Difference: the army in power versus the army in reserve.",
+      "evidence": [
+       "F-ARE-03",
+       "F-ARE-29"
+      ]
+     },
+     {
+      "claim": "Difference: how military rule ended in Argentina.",
+      "evidence": [
+       "F-ARE-14",
+       "F-ARE-15",
+       "F-ARE-19"
+      ]
+     },
+     {
+      "claim": "Similarity: soldiers who tried to protect themselves or halt change.",
+      "evidence": [
+       "F-ARE-18",
+       "F-ARE-30"
+      ]
+     },
+     {
+      "claim": "Difference: the monarchy's role in Spain.",
+      "evidence": [
+       "F-ARE-29",
+       "F-ARE-31"
+      ]
+     }
+    ],
+    "counter": "Both armies were privileged institutions: Spain's had 300 generals, and Argentina's passed a self-amnesty to protect itself.",
+    "judgementCriterion": "Which army helped democracy more? Spain's, by largely staying out of politics; Argentina's only by failing."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "The armed forces shaped both transitions, but as rulers in Argentina and as a reserve power in Spain.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "Argentina's military seized power in March 1976 and fell into disrepute after the Falklands defeat of 1982, whereas Franco's army had become largely ceremonial and enthusiastic for the monarchy.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that in Argentina democracy came only when the military failed, while in Spain the army's loyalty to the king allowed reform from above.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, both armies resisted change: Argentina's junta passed a self-amnesty in April 1983, and in Spain Tejero seized the Cortes on 23 February 1981 before King Juan Carlos defended the Constitution.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "The armed forces were therefore an obstacle in both states, but Spain's could be contained by the monarchy, while Argentina's had to be defeated.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "armed forces",
+     "military",
+     "army"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Judt"
+    ],
+    "extraLexicon": [
+     "junta",
+     "Tejero",
+     "Juan Carlos"
+    ]
+   }
   }
  ]
 }

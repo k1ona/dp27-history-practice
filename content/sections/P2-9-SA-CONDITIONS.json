@@ -2739,6 +2739,134 @@
      "state of emergency"
     ]
    }
+  },
+  {
+   "questionId": "P2-9-SA-CONDITIONS-Q07",
+   "paper": "P3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "text": "Compare and contrast the reasons for the end of authoritarian rule in South Africa and Argentina between 1976 and 1990.",
+   "commandTerm": "compare and contrast",
+   "namedFactor": null,
+   "features": [
+    "comparative",
+    "two_region"
+   ],
+   "timeframe": [
+    1976,
+    1990
+   ],
+   "scope": "South Africa and Argentina",
+   "decodeKey": {
+    "verb": "Compare and contrast: similarities and differences throughout",
+    "factorOrTask": "Reasons for the end of authoritarian rule",
+    "timeframe": "1976–1990",
+    "scope": "South Africa and Argentina",
+    "judgement": "Which reasons were shared, and which decided each case?"
+   },
+   "modelPlan": {
+    "thesis": "In both states economic decline, mass protest and military setbacks undermined authoritarian rule, but Argentina's junta collapsed after a single defeat, whereas South Africa's government chose to negotiate after years of resistance, sanctions and the end of the Cold War.",
+    "arguments": [
+     {
+      "claim": "Similarity: economic decline.",
+      "evidence": [
+       "F-SAC-18",
+       "F-SAC-22"
+      ]
+     },
+     {
+      "claim": "Similarity: mass protest.",
+      "evidence": [
+       "F-SAC-12",
+       "F-SAC-23"
+      ]
+     },
+     {
+      "claim": "Similarity and difference: military setbacks (Cuito Cuanavale; the Falklands).",
+      "evidence": [
+       "F-SAC-16",
+       "F-SAC-21"
+      ]
+     },
+     {
+      "claim": "Difference: negotiation from strength versus collapse.",
+      "evidence": [
+       "F-SAC-14",
+       "F-SAC-19",
+       "F-SAC-17"
+      ]
+     }
+    ],
+    "counter": "Argentina's regime ended within about eighteen months of its defeat, while South Africa's resisted pressure for well over a decade.",
+    "judgementCriterion": "Which reason decided each case? Defeat in Argentina; the combination of pressures in South Africa."
+   },
+   "modelParagraph": {
+    "segments": [
+     {
+      "text": "Both regimes were weakened by the same kinds of pressure, but they ended in different ways.",
+      "tags": [
+       "ARGUMENT",
+       "QUESTION WORDS"
+      ]
+     },
+     {
+      "text": "In South Africa the 1985 debt crisis and the township uprising coincided with defeat at Cuito Cuanavale in 1988, whereas in Argentina wage freezes left real wages around 40 per cent lower before the Falklands defeat of 1982.",
+      "tags": [
+       "EVIDENCE"
+      ]
+     },
+     {
+      "text": "This meant that both governments lost the ability to rule by force alone, so each had to give way to demands for change.",
+      "tags": [
+       "ANALYSIS"
+      ]
+     },
+     {
+      "text": "However, Argentina's junta fell into disrepute after one military defeat, while South Africa's National Party negotiated from a position it believed it could control, after the end of the Cold War removed its Western protectors.",
+      "tags": [
+       "COUNTER"
+      ]
+     },
+     {
+      "text": "Authoritarian rule therefore ended for similar reasons in both states, but defeat caused a collapse in Argentina, while a combination of pressures produced a negotiated change in South Africa.",
+      "tags": [
+       "JUDGEMENT",
+       "QUESTION WORDS"
+      ]
+     }
+    ]
+   },
+   "selfCheck": [
+    "exact_question",
+    "decoded",
+    "precise_evidence",
+    "mechanism",
+    "counter",
+    "judgement_criterion",
+    "question_words",
+    "explicit_comparison"
+   ],
+   "autoCheck": {
+    "factorTerms": [
+     "South Africa",
+     "Argentina"
+    ],
+    "synonyms": [
+     "both",
+     "whereas",
+     "unlike",
+     "similarly"
+    ],
+    "historians": [
+     "Saunders",
+     "Worden",
+     "Wilson"
+    ],
+    "extraLexicon": [
+     "Falklands",
+     "Cuito Cuanavale",
+     "sanctions"
+    ]
+   }
   }
  ]
 }

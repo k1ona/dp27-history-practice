@@ -1,7 +1,7 @@
 # Verification log: P2-9-DE-DEVELOPMENT
 
 Section: Germany: the development of democracy in the Federal Republic (1949–1990).
-Rows marked Judt were checked against `reference/Judt_Postwar_A_History_of_Europe_Since_1945.md` (line numbers in that file). Rows marked Bottaro and Stanley were checked against `reference/History_for_the_IB_Diploma_Democratic_States_1848-2000.md` (J. Bottaro and J. Stanley, *Evolution and Development of Democratic States (1848–2000)*, Cambridge University Press, 2nd edition; line numbers in that file). All checks were made on the date in the last column. Historians' views are cited as summarised or quoted in those books, or (for Judt) from his own text.
+Rows marked Judt were checked against `reference/Judt_Postwar_A_History_of_Europe_Since_1945.md` (line numbers in that file). Rows marked Bottaro and Stanley were checked against `reference/History_for_the_IB_Diploma_Democratic_States_1848-2000.md` (J. Bottaro and J. Stanley, *Evolution and Development of Democratic States (1848–2000)*, Cambridge University Press, 2nd edition; line numbers in that file). All checks were made on the date in the last column. Historians' views are cited as summarised or quoted in those books, or (for Judt) from his own text. Rows 30–32 support the comparative question on Spain: they repeat checks recorded in `content/_verification/P3-17-B4-SPAIN.md` (rows 30–31, checked 2026-11-10) and `content/_verification/P2-9-ES.md` (row 32, F-ES-36, checked 2026-11-11), with the same source and location.
 
 Not used: the name of the official whose spying forced Brandt out in 1974, and the dates of Schmidt's chancellorship beyond its start in 1974, which the passages read do not give.
 
@@ -38,6 +38,9 @@ Not used: the name of the official whose spying forced Brandt out in 1974, and t
 | F-DED-27 | From 1953 any party winning less than 5 per cent of the popular vote was barred from parliament, tilting the system towards larger parties; there was some criticism of the 5 per cent rule and of the banning of extremist parties | Bottaro and Stanley | lines 1202–1210 | 2026-11-11 |
 | F-DED-28 | Judt calls West Germany's stabilisation 'the most dramatic instance of political stabilization in post-war Europe'; by 1955 it was well on the way to its 'economic miracle' and had avoided both neo-Nazism and pro-Soviet neutralism | Judt | lines 16485–16495 | 2026-11-11 |
 | F-DED-29 | The film-maker Rainer Werner Fassbinder, one of a younger radical cohort, said: 'Our democracy was decreed for the Western occupation zone, we didn't fight for it ourselves' | Judt | lines 25419–25437 | 2026-11-11 |
+| F-DED-30 | Spain: by the early 1970s a quarter of Spain's armed police were stationed in the Basque country; ETA assassinated Franco's Prime Minister, Admiral Luis Carrero Blanco, in Madrid on 20 December 1973; five ETA gunmen were executed in September 1975 | Judt | lines 28098–28107 | 2026-11-10 |
+| F-DED-31 | Spain: a Basque Statute of Autonomy was approved by referendum in 1979; ETA, wanting full independence, stepped up its campaign and killed 181 people in 1979–80, but failed to turn terror into political advantage | Judt | lines 28111–28123 | 2026-11-10 |
+| F-DED-32 | Spain: ETA's actions prompted González to allow counter-terrorist hit men (the GAL) to operate illegally from French soil; twenty-six ETA operatives were killed between 1983 and 1987; Judt calls it, in the circumstances, 'arguably a remarkably moderate response', though it cast a shadow over the early democracy | Judt | lines 28141–28157 | 2026-11-11 |
 
 ## Historiography
 
