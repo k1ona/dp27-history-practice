@@ -784,7 +784,7 @@
      ]
     },
     {
-     "name": "Franklin D. Roosevelt",
+     "name": "Roosevelt",
      "role": "US President",
      "whyItMatters": "Gave the Quarantine address in 1937 and froze Japanese assets in July 1941.",
      "factIds": [
@@ -2866,7 +2866,7 @@
      "type": "text",
      "verificationRef": "SRC-SS03-A",
      "provenance": {
-      "creator": "Franklin D. Roosevelt, US President",
+      "creator": "Roosevelt, US President",
       "sourceType": "public address delivered at Chicago",
       "date": "5 October 1937",
       "contextNote": "Japan's war in China had begun in July 1937. The address does not name any country."

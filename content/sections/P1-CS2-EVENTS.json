@@ -1,0 +1,3365 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P1-CS2-EVENTS",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 18,
+  "openingProblem": {
+   "problem": "In March 1935 Germany's ambassador in Washington denied, one by one, every territorial aim attributed to his government. Four years later Germany had absorbed Austria and the Czech lands, Italy had conquered Ethiopia and Albania, and the two dictators were bound by a military alliance. In September 1939 Britain and France went to war over Poland.\n\nWas this a planned sequence, or did each success make the next step possible?",
+   "predictionPrompt": "Your prediction in one line: did German and Italian expansion follow a plan, or did each step depend on the last? Give one reason.",
+   "revisitPrompt": "Look back at your prediction. Which event or source changed or confirmed your view?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "How did Hitler challenge the post-war settlements, 1933–1936?",
+    "body": "Hitler became Chancellor on 30 January 1933, and the challenges to the post-war settlements began within months. On 14 October 1933 Germany withdrew from the Disarmament Conference and gave notice that it would leave the League of Nations. In March 1935 Hitler announced the existence of a German air force and the return of conscription, sweeping away the disarmament clauses of the Treaty of Versailles. Twelve days after conscription was announced, Secretary of State Hull asked the German Ambassador about reported German aims: union with Austria, the return of Memel, parts of Czechoslovakia. The Ambassador “disclaimed and denied” each one and insisted that his government favoured peace.\n\nThe boldest step came on 7 March 1936, when German troops marched unopposed into the demilitarised Rhineland, in violation of the Locarno Treaty. That morning Germany handed Britain a memorandum claiming that the Franco-Soviet Pact had destroyed Locarno, so Germany was no longer bound by it. The same document offered non-aggression pacts for 25 years and a return to the League. The British Foreign Secretary, Eden, told the German Ambassador it was “the unilateral repudiation of a treaty freely negotiated and freely signed”.\n\nThis matters because Hitler's method paired a fait accompli with offers of peace, which made any forceful response look like the aggression. By January 1936 the US Minister in Switzerland reported that European statesmen had turned their attention from Abyssinia to “the intensity of the rearmament of Germany”. In October 1936 Germany and Italy signed a treaty of friendship, soon called the Rome–Berlin Axis, and in November Germany and Japan signed the Anti-Comintern Pact.\n\nBy the end of 1936 Germany had rearmed openly, remilitarised its western frontier and found a partner in Italy, without meeting armed resistance. Each challenge was presented as restoring equality rather than as expansion, which made it harder for other powers to agree that a line had been crossed.",
+    "argumentsThatWork": [
+     {
+      "claim": "Hitler broke the treaties step by step while offering peace.",
+      "evidence": [
+       "F-CS2E-03",
+       "F-CS2E-05",
+       "F-CS2E-06"
+      ],
+      "strongestCounter": "Each step could be defended as restoring German equality, so it was not obviously aggression."
+     },
+     {
+      "claim": "German denials of territorial aims could not be trusted.",
+      "evidence": [
+       "F-CS2E-04",
+       "F-CS2E-14"
+      ],
+      "strongestCounter": "In 1935 no annexation had yet taken place, so the denials could not then be tested."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the methods Germany used to challenge the post-war settlements between 1933 and 1936.",
+     "To what extent was the remilitarisation of the Rhineland a turning point in German expansion?",
+     "Compare and contrast what two sources reveal about German claims of peaceful intentions."
+    ],
+    "useItInAnEssay": {
+     "claim": "Germany challenged the settlements by a series of faits accomplis combined with offers of peace.",
+     "prove": "On 7 March 1936 troops entered the Rhineland while the German memorandum offered 25-year non-aggression pacts and a return to the League.",
+     "explain": "Because each breach came with an offer, other powers could treat it as a basis for negotiation rather than as a reason to act.",
+     "test": "However, Eden called it “the unilateral repudiation of a treaty freely negotiated and freely signed”, so the breach was clearly recognised.",
+     "judge": "The method worked because it divided the response, not because the breach was hidden."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS2-EVENTS-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Germany do on 14 October 1933?",
+      "factIds": [
+       "F-CS2E-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Withdrew from the Disarmament Conference and gave notice of leaving the League",
+        "correct": true,
+        "explanation": "Correct: the first open challenge."
+       },
+       {
+        "id": "b",
+        "text": "Reoccupied the Rhineland",
+        "correct": false,
+        "explanation": "That was 7 March 1936."
+       },
+       {
+        "id": "c",
+        "text": "Signed the Anti-Comintern Pact",
+        "correct": false,
+        "explanation": "That was 25 November 1936."
+       },
+       {
+        "id": "d",
+        "text": "Annexed Austria",
+        "correct": false,
+        "explanation": "That was March 1938."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-EVENTS-C02",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: the German memorandum of 7 March 1936 offered non-aggression pacts and a return to the League on the same day troops entered the Rhineland. Which argument does it support?",
+      "factIds": [
+       "F-CS2E-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Hitler combined treaty-breaking with offers of peace to divide opposition",
+        "correct": true,
+        "explanation": "Correct: the offer made a forceful reply harder."
+       },
+       {
+        "id": "b",
+        "text": "Germany had no interest in the Rhineland",
+        "correct": false,
+        "explanation": "Troops entered the Rhineland that day."
+       },
+       {
+        "id": "c",
+        "text": "Britain encouraged the reoccupation",
+        "correct": false,
+        "explanation": "Eden deeply regretted it."
+       },
+       {
+        "id": "d",
+        "text": "Germany wanted to leave the League",
+        "correct": false,
+        "explanation": "The memorandum offered to re-enter it."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-EVENTS-C03",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In which year did Germany reintroduce conscription?",
+      "factIds": [
+       "F-CS2E-03"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1935",
+        "tolerance": 0,
+        "explanation": "16 March 1935, together with the announcement of an air force."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "causes",
+    "title": "Why did Italy conquer Abyssinia, and with what result?",
+    "body": "Italy's war in Ethiopia (Abyssinia) was prepared for months, and it was watched closely. In February 1935 the US Ambassador in Rome, Breckinridge Long, reported factories near Milan working day and night and 30,000 troops leaving Naples. By 10 September he had “no vestige of doubt” that Italy was “irrevocably determined to proceed in Africa”. More than 200,000 men were already south of the Suez Canal, and withdrawing them, he wrote, would be a defeat for the government. He described “a carefully prepared, well-calculated, hard, cold, and cruel prosecution of preconceived plans” and judged that a compromise was possible only on Mussolini's own terms. He also noted Italy being hurried on by “a gradually approaching domestic economic crisis”.\n\nLong showed how Mussolini built support. The expedition, he reported on 13 September, had not been popular in 1934–35, but once the press began attacking Britain the people became united in “fanatic adherence to Mussolini”. Italian forces invaded on 3 October 1935. The League decided that Italy had broken the Covenant and recommended sanctions, but Italy carried on, and Addis Ababa fell on 5 May 1936.\n\nThis matters because the war changed the alignment of Europe. Long warned that the settled friendship between Britain and Italy “has gone and will not reappear for generations”. In 1936 Italy and Germany drew closer after the League's sanctions, signing a treaty of friendship on 25 October, and Italy joined the Anti-Comintern Pact in November 1937. The United States never recognised Italian sovereignty over Ethiopia.\n\nThe causes therefore combined Mussolini's ambition with economic pressure and a press campaign that made war popular. The result was a conquest that showed the League could not protect a member state, and that pushed Italy towards Germany.",
+    "argumentsThatWork": [
+     {
+      "claim": "The invasion was a long-planned project of Mussolini's regime.",
+      "evidence": [
+       "F-CS2E-08",
+       "F-CS2E-40"
+      ],
+      "strongestCounter": "Long also noted domestic economic pressure, so planning was not the only motive."
+     },
+     {
+      "claim": "The conquest pushed Italy away from Britain and towards Germany.",
+      "evidence": [
+       "F-CS2E-08",
+       "F-CS2E-12",
+       "F-CS2E-13"
+      ],
+      "strongestCounter": "Italy still announced in September 1939 that it would not join the war, so the alignment had limits."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the reasons for Italy's invasion of Abyssinia in 1935.",
+     "To what extent did the Abyssinian war change the alignment of the European powers?",
+     "Compare and contrast what two sources reveal about Italian support for the war in Abyssinia."
+    ],
+    "useItInAnEssay": {
+     "claim": "Italy invaded Abyssinia because Mussolini's long-prepared plan had built up a momentum his regime could not reverse.",
+     "prove": "In September 1935 Long reported more than 200,000 men south of Suez and judged that withdrawal would be a defeat for the government.",
+     "explain": "Because a press campaign against Britain had made the war popular, retreat would have damaged the regime itself.",
+     "test": "However, Long also linked the timing to a coming domestic economic crisis.",
+     "judge": "Ambition set the goal; prestige and economic pressure made it urgent."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS2-EVENTS-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did Italian forces invade Ethiopia?",
+      "factIds": [
+       "F-CS2E-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "3 October 1935",
+        "correct": true,
+        "explanation": "Correct: after months of open preparation."
+       },
+       {
+        "id": "b",
+        "text": "5 May 1936",
+        "correct": false,
+        "explanation": "That is when Addis Ababa fell."
+       },
+       {
+        "id": "c",
+        "text": "7 April 1939",
+        "correct": false,
+        "explanation": "That is the invasion of Albania."
+       },
+       {
+        "id": "d",
+        "text": "10 June 1940",
+        "correct": false,
+        "explanation": "That is when Italy declared war on France and Britain."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-EVENTS-C05",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: Long reported on 13 September 1935 that the war had not been popular until the press began attacking Britain. Which argument does it support?",
+      "factIds": [
+       "F-CS2E-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Propaganda was used to build popular support for the war",
+        "correct": true,
+        "explanation": "Correct: opinion changed when the press campaign began."
+       },
+       {
+        "id": "b",
+        "text": "Italians had always wanted the war",
+        "correct": false,
+        "explanation": "Long says it was not popular at first."
+       },
+       {
+        "id": "c",
+        "text": "Britain supported the invasion",
+        "correct": false,
+        "explanation": "The press attacked Britain."
+       },
+       {
+        "id": "d",
+        "text": "The war was unplanned",
+        "correct": false,
+        "explanation": "Long describes long preparation."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-EVENTS-C06",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what date in 1936 did Addis Ababa fall to Italian forces? (day and month)",
+      "factIds": [
+       "F-CS2E-10"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "5 May",
+        "tolerance": 0,
+        "explanation": "5 May 1936; the US never recognised Italian sovereignty over Ethiopia.",
+        "accept": [
+         "5 may",
+         "may 5",
+         "5th may",
+         "5/5"
+        ]
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "nature_methods",
+    "title": "How did Germany and Italy expand in 1938–1939?",
+    "body": "On 11 March 1938 German forces entered Austria, and on 13 March Hitler proclaimed the union of Germany and Austria, breaking his declaration of three years earlier that he had no wish to annex it. Chamberlain explained to the Commons how it was done. Nazi ministers in the Austrian government delivered an ultimatum; Chancellor Schuschnigg was told that German troops would move at 5 o'clock if his answer was unsatisfactory; he gave way, saying he had “yielded to force”, and Austrian troops were ordered not to resist. When Britain protested, Germany replied that Austria was “an internal affair of the German people”.\n\nCzechoslovakia came next. Through the summer of 1938 Germany waged a “war of nerves” over the Sudetenland. Chamberlain went to Germany for talks with Hitler, and on 29 September Germany, Italy, Britain and France signed the Munich agreement, which handed the Sudetenland to Germany. Hitler had promised that he then had no more territorial claims in Europe, yet on 14 March 1939 German troops occupied the rest of the Czech lands. The US Acting Secretary of State, Welles, condemned “the temporary extinguishment of the liberties of a free and independent people”.\n\nItaly followed. On Good Friday, 7 April 1939, Mussolini sent troops into Albania, which Hull called a “forcible and violent invasion”. On 22 May Germany and Italy signed the Pact of Steel, a military alliance.\n\nThis matters because the character of expansion changed. Austria could be presented as “an internal affair of the German people”; the occupation of the Czech lands broke a signed agreement and Hitler's own promise, and the invasion of Albania had no such pretext at all. After March 1939 Britain and France pledged assistance to Poland, Greece and Rumania, so the next move by either dictator was likely to mean war.",
+    "argumentsThatWork": [
+     {
+      "claim": "Germany used threats of force and local Nazis rather than open war in 1938.",
+      "evidence": [
+       "F-CS2E-15",
+       "F-CS2E-38"
+      ],
+      "strongestCounter": "In March 1939 Germany occupied the Czech lands outright."
+     },
+     {
+      "claim": "The occupation of the Czech lands in March 1939 showed that Hitler's promises meant nothing.",
+      "evidence": [
+       "F-CS2E-17",
+       "F-CS2E-19",
+       "F-CS2E-23"
+      ],
+      "strongestCounter": "Hitler could argue that Czechoslovakia had already been dismantled at Munich."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the methods Germany and Italy used to expand between 1938 and 1939.",
+     "To what extent was the occupation of the Czech lands in March 1939 a turning point?",
+     "Compare and contrast what two sources reveal about international views of German and Italian aggression in 1939."
+    ],
+    "useItInAnEssay": {
+     "claim": "In 1938–1939 the dictators moved from threats to outright conquest.",
+     "prove": "Austria was taken in March 1938 after an ultimatum backed by the threat that German troops would move at 5 o'clock; the Czech lands were occupied on 14 March 1939.",
+     "explain": "Because the second step broke the Munich agreement and Hitler's promise of no further claims, it could no longer be presented as uniting German people.",
+     "test": "However, both steps were taken without fighting, so the method of threat still worked.",
+     "judge": "March 1939 was the turning point because it changed how other powers saw Hitler, not how he acted."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS2-EVENTS-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "According to Chamberlain, what was Chancellor Schuschnigg told on 11 March 1938?",
+      "factIds": [
+       "F-CS2E-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That German troops would move at 5 o'clock if his answer was unsatisfactory",
+        "correct": true,
+        "explanation": "Correct: he then yielded to force."
+       },
+       {
+        "id": "b",
+        "text": "That Britain would defend Austria",
+        "correct": false,
+        "explanation": "Britain only protested."
+       },
+       {
+        "id": "c",
+        "text": "That the plebiscite must go ahead",
+        "correct": false,
+        "explanation": "The ultimatum demanded its abandonment."
+       },
+       {
+        "id": "d",
+        "text": "That Italy would send troops",
+        "correct": false,
+        "explanation": "Italy is not mentioned in the ultimatum."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-EVENTS-C08",
+      "kind": "checkpoint",
+      "type": "chronology",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Put these events in order.",
+      "sequence": [
+       {
+        "id": "a",
+        "text": "Union of Germany and Austria proclaimed",
+        "year": 1938,
+        "month": 3,
+        "factId": "F-CS2E-14"
+       },
+       {
+        "id": "b",
+        "text": "Munich agreement",
+        "year": 1938,
+        "month": 9,
+        "factId": "F-CS2E-16"
+       },
+       {
+        "id": "c",
+        "text": "German occupation of the Czech lands",
+        "year": 1939,
+        "month": 3,
+        "factId": "F-CS2E-17"
+       },
+       {
+        "id": "d",
+        "text": "Italian invasion of Albania",
+        "year": 1939,
+        "month": 4,
+        "factId": "F-CS2E-20"
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-EVENTS-C09",
+      "kind": "checkpoint",
+      "type": "spot_error",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: “The Pact of Steel was signed by Germany and the Soviet Union in May 1939.”",
+      "factIds": [
+       "F-CS2E-22"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It was signed by Germany and Italy",
+        "correct": true,
+        "explanation": "Correct: the Soviet Union signed a non-aggression pact with Germany in August."
+       },
+       {
+        "id": "b",
+        "text": "It was signed in 1936",
+        "correct": false,
+        "explanation": "That is not the error: it was 22 May 1939."
+       },
+       {
+        "id": "c",
+        "text": "It was a trade agreement",
+        "correct": false,
+        "explanation": "That is not the error in the statement."
+       },
+       {
+        "id": "d",
+        "text": "It was signed in Munich",
+        "correct": false,
+        "explanation": "That is not the error in the statement."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "causes",
+    "title": "Why did war break out in September 1939, and how did it spread in 1940?",
+    "body": "In April 1939 Hitler demanded the return of Danzig and concessions in the Polish Corridor. Britain and France warned clearly that aggression against Poland meant war, and they began talks with the Soviet Union for a common front against aggression. Those talks were overtaken. On 23 August 1939 Germany and the Soviet Union signed a non-aggression treaty in Moscow: each promised not to attack the other or to support any third power that attacked it. A secret protocol divided eastern Europe into spheres of influence and split Poland along the rivers Narew, Vistula and San.\n\nThis matters because Hitler no longer faced the prospect of a Soviet alliance with Britain and France, and Poland could be divided. On 1 September 1939 Germany invaded Poland. Only that afternoon did a German note reach the US State Department, claiming that Hitler had “left nothing untried” and blaming the Polish government. Britain sent a final note requiring assurances by 11 a.m. on 3 September; none came, and Chamberlain told the Commons that “this country is at war with Germany”. France declared war the same day. Italy, although Germany's ally, announced that it would not take part.\n\nThe war widened in 1940. On 9 April Germany invaded Denmark and Norway, and on 10 May it attacked Belgium, Luxembourg and the Netherlands; by the end of May British and French troops were withdrawing from Dunkirk. Mussolini told Roosevelt on 18 May that Italy “cannot remain absent at a moment in which the fate of Europe is at stake”, and on 10 June Italy declared war on France and Britain. German troops entered Paris on 14 June, and on 17 June the French government asked for armistice terms.\n\nThe outbreak of war followed from Hitler's demands on Poland and the Anglo-French guarantee; the Nazi–Soviet Pact decided its timing by removing the Soviet danger. In 1940 Italy's entry turned German aggression into combined aggression.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Nazi–Soviet Pact cleared the way for the invasion of Poland.",
+      "evidence": [
+       "F-CS2E-24",
+       "F-CS2E-25"
+      ],
+      "strongestCounter": "Hitler had demanded Danzig since April and planned expansion long before the pact."
+     },
+     {
+      "claim": "Italy joined the war only when German victory seemed certain.",
+      "evidence": [
+       "F-CS2E-32",
+       "F-CS2E-31",
+       "F-CS2E-39"
+      ],
+      "strongestCounter": "Mussolini spoke of loyalty to the alliance, not only of opportunity."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, to what extent was the Nazi–Soviet Pact the main cause of the outbreak of war in September 1939?",
+     "Examine the reasons why Italy entered the war in June 1940.",
+     "Compare and contrast what two sources reveal about responsibility for the outbreak of war in 1939."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Nazi–Soviet Pact decided when war broke out, but Hitler's demands on Poland decided that it would.",
+     "prove": "On 23 August 1939 the secret protocol divided Poland along the Narew, Vistula and San; Germany invaded on 1 September.",
+     "explain": "Because the Soviet Union would no longer join Britain and France, Hitler could attack Poland without fearing a wider coalition.",
+     "test": "However, he had demanded Danzig in April, and Britain and France had already warned that aggression against Poland meant war.",
+     "judge": "The pact was the trigger; German expansion was the cause."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS2-EVENTS-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the secret protocol of 23 August 1939 do?",
+      "factIds": [
+       "F-CS2E-25"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Divided eastern Europe into German and Soviet spheres of influence, splitting Poland",
+        "correct": true,
+        "explanation": "Correct: along the Narew, Vistula and San."
+       },
+       {
+        "id": "b",
+        "text": "Created an alliance against Britain",
+        "correct": false,
+        "explanation": "It divided spheres; it was not an alliance against Britain."
+       },
+       {
+        "id": "c",
+        "text": "Guaranteed Polish independence",
+        "correct": false,
+        "explanation": "It left Poland's future open."
+       },
+       {
+        "id": "d",
+        "text": "Brought Italy into the pact",
+        "correct": false,
+        "explanation": "Italy was not a party."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-EVENTS-C11",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did Britain and France declare war on Germany?",
+      "factIds": [
+       "F-CS2E-28"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "3 September 1939",
+        "correct": true,
+        "explanation": "Correct: two days after the invasion of Poland."
+       },
+       {
+        "id": "b",
+        "text": "1 September 1939",
+        "correct": false,
+        "explanation": "That is when Germany invaded Poland."
+       },
+       {
+        "id": "c",
+        "text": "23 August 1939",
+        "correct": false,
+        "explanation": "That is the Nazi–Soviet Pact."
+       },
+       {
+        "id": "d",
+        "text": "10 June 1940",
+        "correct": false,
+        "explanation": "That is when Italy declared war."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-EVENTS-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: on 18 May 1940 Mussolini told Roosevelt that Italy “cannot remain absent at a moment in which the fate of Europe is at stake”. Which argument does it support?",
+      "factIds": [
+       "F-CS2E-32"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Italy joined the war once German victories seemed to decide Europe's future",
+        "correct": true,
+        "explanation": "Correct: he wrote eight days after the attack on the Low Countries."
+       },
+       {
+        "id": "b",
+        "text": "Italy wanted to stay neutral",
+        "correct": false,
+        "explanation": "He confirmed Italy would not stay out."
+       },
+       {
+        "id": "c",
+        "text": "Italy had entered the war in 1939",
+        "correct": false,
+        "explanation": "Italy declared war on 10 June 1940."
+       },
+       {
+        "id": "d",
+        "text": "Italy was allied to Britain",
+        "correct": false,
+        "explanation": "He said Italy was allied with Germany."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1933,
+      "month": 10,
+      "day": 14,
+      "text": "Germany leaves the Disarmament Conference and gives notice to leave the League",
+      "factId": "F-CS2E-02"
+     },
+     {
+      "year": 1935,
+      "month": 3,
+      "day": 16,
+      "text": "Germany reintroduces conscription",
+      "factId": "F-CS2E-03"
+     },
+     {
+      "year": 1935,
+      "month": 10,
+      "day": 3,
+      "text": "Italy invades Ethiopia",
+      "factId": "F-CS2E-07"
+     },
+     {
+      "year": 1936,
+      "month": 3,
+      "day": 7,
+      "text": "German troops enter the Rhineland",
+      "factId": "F-CS2E-05"
+     },
+     {
+      "year": 1936,
+      "month": 10,
+      "day": 25,
+      "text": "German–Italian treaty of friendship (Rome–Berlin Axis)",
+      "factId": "F-CS2E-12"
+     },
+     {
+      "year": 1938,
+      "month": 3,
+      "day": 13,
+      "text": "Union of Germany and Austria proclaimed",
+      "factId": "F-CS2E-14"
+     },
+     {
+      "year": 1938,
+      "month": 9,
+      "day": 29,
+      "text": "Munich agreement",
+      "factId": "F-CS2E-16"
+     },
+     {
+      "year": 1939,
+      "month": 3,
+      "day": 14,
+      "text": "German troops occupy the Czech lands",
+      "factId": "F-CS2E-17"
+     },
+     {
+      "year": 1939,
+      "month": 4,
+      "day": 7,
+      "text": "Italy invades Albania",
+      "factId": "F-CS2E-20"
+     },
+     {
+      "year": 1939,
+      "month": 8,
+      "day": 23,
+      "text": "Nazi–Soviet Pact",
+      "factId": "F-CS2E-24"
+     },
+     {
+      "year": 1939,
+      "month": 9,
+      "day": 1,
+      "text": "Germany invades Poland",
+      "factId": "F-CS2E-27"
+     },
+     {
+      "year": 1940,
+      "month": 6,
+      "day": 10,
+      "text": "Italy declares war on France and Britain",
+      "factId": "F-CS2E-31"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Germany leaves the League and rearms (1933–35)",
+      "factId": "F-CS2E-03"
+     },
+     {
+      "id": "n2",
+      "text": "Rhineland reoccupied without resistance (1936)",
+      "factId": "F-CS2E-05"
+     },
+     {
+      "id": "n3",
+      "text": "Abyssinia: sanctions fail; Italy turns to Germany (1935–36)",
+      "factId": "F-CS2E-12"
+     },
+     {
+      "id": "n4",
+      "text": "Austria and Munich: gains by threat (1938)",
+      "factId": "F-CS2E-16"
+     },
+     {
+      "id": "n5",
+      "text": "Czech lands and Albania seized; guarantees to Poland (1939)",
+      "factId": "F-CS2E-23"
+     },
+     {
+      "id": "n6",
+      "text": "Nazi–Soviet Pact, invasion of Poland, war (1939–40)",
+      "factId": "F-CS2E-25"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "rearmament made a military move possible and the response to earlier breaches had been words"
+     },
+     {
+      "from": "n3",
+      "to": "n2",
+      "because": "the Abyssinian crisis divided Britain, France and Italy at the moment Germany moved"
+     },
+     {
+      "from": "n2",
+      "to": "n4",
+      "because": "unopposed success encouraged the use of threats against Austria and Czechoslovakia"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "Munich did not satisfy Hitler; the occupation of the Czech lands led Britain and France to give guarantees"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "with the Soviet Union neutralised, Hitler attacked Poland despite the guarantees"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Adolf Hitler",
+     "role": "German Chancellor from 30 January 1933",
+     "whyItMatters": "Broke the post-war treaties step by step and ordered the invasion of Poland.",
+     "factIds": [
+      "F-CS2E-01",
+      "F-CS2E-17"
+     ]
+    },
+    {
+     "name": "Benito Mussolini",
+     "role": "Head of the Italian government",
+     "whyItMatters": "Conquered Ethiopia and Albania and took Italy into the war in June 1940.",
+     "factIds": [
+      "F-CS2E-07",
+      "F-CS2E-20",
+      "F-CS2E-32"
+     ]
+    },
+    {
+     "name": "Schuschnigg",
+     "role": "Austrian Chancellor in March 1938",
+     "whyItMatters": "Yielded to a German ultimatum, so Austria was taken without fighting.",
+     "factIds": [
+      "F-CS2E-15"
+     ]
+    },
+    {
+     "name": "Chamberlain",
+     "role": "British Prime Minister",
+     "whyItMatters": "Signed the Munich agreement and announced war on 3 September 1939.",
+     "factIds": [
+      "F-CS2E-16",
+      "F-CS2E-29"
+     ]
+    },
+    {
+     "name": "Ribbentrop and Molotov",
+     "role": "German and Soviet foreign ministers who signed the pact of 23 August 1939",
+     "whyItMatters": "Their secret protocol divided Poland and the Baltic.",
+     "mediaId": "M-stalin-ribbentrop-kremlin-1939",
+     "factIds": [
+      "F-CS2E-25"
+     ]
+    },
+    {
+     "name": "Breckinridge Long",
+     "role": "US Ambassador in Rome",
+     "whyItMatters": "His reports trace Italy's preparations for the Abyssinian war.",
+     "factIds": [
+      "F-CS2E-08",
+      "F-CS2E-09"
+     ]
+    }
+   ],
+   "archival": [
+    "M-nuremberg-rally-wehrmacht-1936",
+    "M-al-musawwar-cartoon-1935",
+    "M-vienna-german-troops-1938",
+    "M-stalin-ribbentrop-kremlin-1939"
+   ]
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-CS2E-06",
+    "year": 1936,
+    "text": "9 March 1936 (Eden): Germany's memorandum declared Locarno void, restored sovereignty in the Rhineland and offered 25-year non-aggression pacts; Eden called it “the unilateral repudiation of a treaty freely negotiated and freely signed”.",
+    "supports": [
+     "Hitler broke treaties while offering peace"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-RESPONSES"
+    ],
+    "lexicon": [
+     "Rhineland",
+     "Locarno",
+     "Eden",
+     "Franco-Soviet Pact",
+     "non-aggression"
+    ]
+   },
+   {
+    "factId": "F-CS2E-08",
+    "year": 1935,
+    "text": "10 September 1935 (Long): Italy “irrevocably determined to proceed in Africa”; more than 200,000 men south of Suez; withdrawal would be a defeat.",
+    "supports": [
+     "The invasion of Abyssinia was long planned"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-CAUSES"
+    ],
+    "lexicon": [
+     "Long",
+     "Suez",
+     "200,000",
+     "Mussolini"
+    ]
+   },
+   {
+    "factId": "F-CS2E-15",
+    "year": 1938,
+    "text": "11 March 1938: an ultimatum threatened that German troops would move at 5 o'clock; Schuschnigg “yielded to force” and Austrian troops did not resist.",
+    "supports": [
+     "Germany expanded by threat rather than war in 1938"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-RESPONSES"
+    ],
+    "lexicon": [
+     "Anschluss",
+     "Schuschnigg",
+     "Seyss-Inquart",
+     "ultimatum",
+     "plebiscite"
+    ]
+   },
+   {
+    "factId": "F-CS2E-17",
+    "year": 1939,
+    "text": "14 March 1939: German troops occupied the Czech lands, although Hitler had said he had no more territorial claims in Europe.",
+    "supports": [
+     "Hitler's promises could not be trusted",
+     "March 1939 was a turning point"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-RESPONSES"
+    ],
+    "lexicon": [
+     "Prague",
+     "Czech lands",
+     "Munich",
+     "Sudetenland"
+    ]
+   },
+   {
+    "factId": "F-CS2E-20",
+    "year": 1939,
+    "text": "7 April 1939: Italy invaded Albania; Hull called it a “forcible and violent invasion”.",
+    "supports": [
+     "Italy expanded alongside Germany"
+    ],
+    "lexicon": [
+     "Albania",
+     "Good Friday",
+     "Mussolini"
+    ]
+   },
+   {
+    "factId": "F-CS2E-25",
+    "year": 1939,
+    "text": "23 August 1939: the Nazi–Soviet treaty and secret protocol divided Poland along the Narew, Vistula and San.",
+    "supports": [
+     "The Nazi–Soviet Pact cleared the way for war"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-RESPONSES"
+    ],
+    "lexicon": [
+     "Nazi-Soviet Pact",
+     "Molotov",
+     "Ribbentrop",
+     "secret protocol",
+     "Narew",
+     "Vistula"
+    ]
+   },
+   {
+    "factId": "F-CS2E-29",
+    "year": 1939,
+    "text": "3 September 1939: Britain's final note expired at 11 a.m.; Chamberlain told the Commons “this country is at war with Germany”.",
+    "supports": [
+     "Britain went to war to honour its guarantee to Poland"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-RESPONSES"
+    ],
+    "lexicon": [
+     "ultimatum",
+     "3 September",
+     "Chamberlain",
+     "Poland"
+    ]
+   },
+   {
+    "factId": "F-CS2E-32",
+    "year": 1940,
+    "text": "18 May 1940: Mussolini told Roosevelt that Italy “is and intends to remain allied with Germany”; Italy declared war on 10 June.",
+    "supports": [
+     "Italy joined when German victory seemed certain"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-RESPONSES"
+    ],
+    "lexicon": [
+     "Mussolini",
+     "10 June 1940",
+     "non-belligerency"
+    ]
+   }
+  ],
+  "historiography": [],
+  "misconceptions": [
+   {
+    "wrong": "The Rhineland was annexed from France in 1936.",
+    "right": "The Rhineland was German territory; in **March 1936** Germany sent troops into the **demilitarised** zone, breaking the Locarno Treaty."
+   },
+   {
+    "wrong": "Austria fought the German invasion in 1938.",
+    "right": "Chancellor Schuschnigg **yielded to force**, and Austrian troops were told **not to resist**."
+   },
+   {
+    "wrong": "The Pact of Steel linked Germany and the Soviet Union.",
+    "right": "The **Pact of Steel (22 May 1939)** was a German–Italian alliance; the **Nazi–Soviet Pact** came on **23 August 1939**."
+   },
+   {
+    "wrong": "Italy entered the war in September 1939 with Germany.",
+    "right": "Italy announced it would not take part and declared war only on **10 June 1940**."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1933,
+     "month": 10,
+     "day": 14,
+     "text": "Germany leaves the Disarmament Conference"
+    },
+    {
+     "year": 1935,
+     "month": 3,
+     "day": 16,
+     "text": "Conscription"
+    },
+    {
+     "year": 1935,
+     "month": 10,
+     "day": 3,
+     "text": "Italy invades Ethiopia"
+    },
+    {
+     "year": 1936,
+     "month": 3,
+     "day": 7,
+     "text": "Rhineland"
+    },
+    {
+     "year": 1936,
+     "month": 5,
+     "day": 5,
+     "text": "Addis Ababa falls"
+    },
+    {
+     "year": 1938,
+     "month": 3,
+     "day": 13,
+     "text": "Union with Austria proclaimed"
+    },
+    {
+     "year": 1938,
+     "month": 9,
+     "day": 29,
+     "text": "Munich"
+    },
+    {
+     "year": 1939,
+     "month": 3,
+     "day": 14,
+     "text": "Czech lands occupied"
+    },
+    {
+     "year": 1939,
+     "month": 4,
+     "day": 7,
+     "text": "Albania"
+    },
+    {
+     "year": 1939,
+     "month": 5,
+     "day": 22,
+     "text": "Pact of Steel"
+    },
+    {
+     "year": 1939,
+     "month": 8,
+     "day": 23,
+     "text": "Nazi–Soviet Pact"
+    },
+    {
+     "year": 1939,
+     "month": 9,
+     "day": 3,
+     "text": "Britain and France declare war"
+    },
+    {
+     "year": 1940,
+     "month": 6,
+     "day": 10,
+     "text": "Italy declares war"
+    }
+   ],
+   "keyArguments": [
+    "Germany broke the treaties step by step, pairing each breach with an offer of peace (Rhineland, 1936).",
+    "Italy's long-planned conquest of Abyssinia (1935–36) split Italy from Britain and pushed it towards Germany.",
+    "In 1938 Germany expanded by threat; in March 1939 the occupation of the Czech lands broke the Munich agreement and led to guarantees for Poland.",
+    "The Nazi–Soviet Pact (23 August 1939) decided the timing of war; Italy's entry in June 1940 made the aggression combined."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P1-CS2-EVENTS-R01",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "When did German troops enter the demilitarised Rhineland?",
+   "factIds": [
+    "F-CS2E-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "7 March 1936",
+     "correct": true,
+     "explanation": "Correct: in violation of the Locarno Treaty."
+    },
+    {
+     "id": "b",
+     "text": "16 March 1935",
+     "correct": false,
+     "explanation": "That is the reintroduction of conscription."
+    },
+    {
+     "id": "c",
+     "text": "13 March 1938",
+     "correct": false,
+     "explanation": "That is the proclamation of union with Austria."
+    },
+    {
+     "id": "d",
+     "text": "14 March 1939",
+     "correct": false,
+     "explanation": "That is the occupation of the Czech lands."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Germany leaves the Disarmament Conference",
+     "year": 1933,
+     "month": 10,
+     "factId": "F-CS2E-02"
+    },
+    {
+     "id": "b",
+     "text": "Italy invades Ethiopia",
+     "year": 1935,
+     "month": 10,
+     "factId": "F-CS2E-07"
+    },
+    {
+     "id": "c",
+     "text": "Rhineland reoccupied",
+     "year": 1936,
+     "month": 3,
+     "factId": "F-CS2E-05"
+    },
+    {
+     "id": "d",
+     "text": "Munich agreement",
+     "year": 1938,
+     "month": 9,
+     "factId": "F-CS2E-16"
+    },
+    {
+     "id": "e",
+     "text": "Nazi–Soviet Pact",
+     "year": 1939,
+     "month": 8,
+     "factId": "F-CS2E-24"
+    },
+    {
+     "id": "f",
+     "text": "Italy declares war",
+     "year": 1940,
+     "month": 6,
+     "factId": "F-CS2E-31"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R03",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which German aims did the Ambassador deny to Hull on 28 March 1935? Choose all that apply.",
+   "factIds": [
+    "F-CS2E-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic union with Austria",
+     "correct": true,
+     "explanation": "Yes: he disclaimed it."
+    },
+    {
+     "id": "b",
+     "text": "The return of Memel",
+     "correct": true,
+     "explanation": "Yes: he disclaimed it."
+    },
+    {
+     "id": "c",
+     "text": "Parts of Czechoslovakia",
+     "correct": true,
+     "explanation": "Yes: he disclaimed it."
+    },
+    {
+     "id": "d",
+     "text": "Rearmament",
+     "correct": false,
+     "explanation": "He said Germany would disarm only on relative equality with others."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R04",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Breckinridge Long",
+     "right": "US Ambassador in Rome who reported Italian war preparations",
+     "explanation": "His telegram of 10 September 1935 had “no vestige of doubt”."
+    },
+    {
+     "left": "Eden",
+     "right": "British Foreign Secretary who reported the Rhineland memorandum to the Commons",
+     "explanation": "He spoke on 9 March 1936."
+    },
+    {
+     "left": "Schuschnigg",
+     "right": "Austrian Chancellor who yielded to a German ultimatum",
+     "explanation": "11 March 1938."
+    },
+    {
+     "left": "Welles",
+     "right": "US Acting Secretary of State who condemned the occupation of the Czech lands",
+     "explanation": "17 March 1939."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Italian soldiers did Long report south of the Suez Canal on 10 September 1935? (number)",
+   "factIds": [
+    "F-CS2E-08"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "200000",
+     "tolerance": 0,
+     "explanation": "More than 200,000, with three more divisions preparing to go.",
+     "accept": [
+      "200,000",
+      "200 000",
+      "more than 200,000"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R06",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: in 1936 Italy and Germany drew closer after League sanctions, signing a treaty of friendship on 25 October. Which argument does it support?",
+   "factIds": [
+    "F-CS2E-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Abyssinian crisis pushed Italy towards Germany",
+     "correct": true,
+     "explanation": "Correct: sanctions ended Italy's alignment with Britain and France."
+    },
+    {
+     "id": "b",
+     "text": "Italy and Germany had always been allies",
+     "correct": false,
+     "explanation": "They drew closer only in 1936."
+    },
+    {
+     "id": "c",
+     "text": "Sanctions made Italy withdraw from Ethiopia",
+     "correct": false,
+     "explanation": "Addis Ababa fell on 5 May 1936."
+    },
+    {
+     "id": "d",
+     "text": "Germany opposed Italy in Ethiopia",
+     "correct": false,
+     "explanation": "The fact shows the opposite trend."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R07",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Austrian troops resisted the German army in March 1938.”",
+   "factIds": [
+    "F-CS2E-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Austrian troops were instructed to offer no resistance",
+     "correct": true,
+     "explanation": "Correct: the Chancellor yielded to force."
+    },
+    {
+     "id": "b",
+     "text": "The month should be May",
+     "correct": false,
+     "explanation": "That is not the error: it was March."
+    },
+    {
+     "id": "c",
+     "text": "Germany did not send troops",
+     "correct": false,
+     "explanation": "That is not the error; German troops entered Austria."
+    },
+    {
+     "id": "d",
+     "text": "Austria was annexed by Italy",
+     "correct": false,
+     "explanation": "That is not the error in the statement."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which British Prime Minister announced on 3 September 1939 that Britain was at war with Germany?",
+   "factIds": [
+    "F-CS2E-29"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Chamberlain",
+     "tolerance": 0,
+     "explanation": "Chamberlain, the Prime Minister, in the House of Commons."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R09",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Case Study 2 runs from 1933 to 1940. Is the German invasion of the Soviet Union (June 1941) inside or outside the timeframe?",
+   "timeframe": [
+    1933,
+    1940
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: the case study ends in 1940."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1941 is after the case study ends."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because the Nazi–Soviet Pact was signed in 1939",
+     "correct": false,
+     "explanation": "The timeframe decides, not the link to an earlier event."
+    },
+    {
+     "id": "d",
+     "text": "Inside, as background",
+     "correct": false,
+     "explanation": "Later events are outside the case study, not background."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R10",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Munich agreement of 29 September 1938 decide?",
+   "factIds": [
+    "F-CS2E-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That Czechoslovakia's border regions (the Sudetenland) go to Germany",
+     "correct": true,
+     "explanation": "Correct: signed by Germany, Italy, Britain and France."
+    },
+    {
+     "id": "b",
+     "text": "That Austria join Germany",
+     "correct": false,
+     "explanation": "That happened in March 1938."
+    },
+    {
+     "id": "c",
+     "text": "That Poland lose Danzig",
+     "correct": false,
+     "explanation": "Danzig was not part of Munich."
+    },
+    {
+     "id": "d",
+     "text": "That Germany leave the League",
+     "correct": false,
+     "explanation": "Germany had given notice in 1933."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Hitler had said that after the Sudetenland he had no more territorial claims in Europe, yet in March 1939 he occupied the Czech lands. Which argument does it support?",
+   "factIds": [
+    "F-CS2E-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hitler's promises could not be relied on",
+     "correct": true,
+     "explanation": "Correct: this broke both the promise and the Munich agreement."
+    },
+    {
+     "id": "b",
+     "text": "Munich satisfied Hitler",
+     "correct": false,
+     "explanation": "The fact shows it did not."
+    },
+    {
+     "id": "c",
+     "text": "The Czech lands were German territory",
+     "correct": false,
+     "explanation": "They were part of Czechoslovakia."
+    },
+    {
+     "id": "d",
+     "text": "Britain approved the occupation",
+     "correct": false,
+     "explanation": "The occupation led to new guarantees."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R12",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Name the rivers along which the secret protocol of 23 August 1939 divided Poland (one of them is enough).",
+   "factIds": [
+    "F-CS2E-25"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Vistula",
+     "tolerance": 0,
+     "explanation": "The Narew, Vistula and San.",
+     "accept": [
+      "narew",
+      "san",
+      "vistula",
+      "narew, vistula and san",
+      "narew vistula san"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R13",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the German note delivered on 1 September 1939 claim?",
+   "factIds": [
+    "F-CS2E-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That Hitler had left nothing untried for a friendly settlement, and Poland was to blame",
+     "correct": true,
+     "explanation": "Correct: it arrived after the invasion had begun."
+    },
+    {
+     "id": "b",
+     "text": "That Germany would withdraw from Poland",
+     "correct": false,
+     "explanation": "No: the invasion had begun."
+    },
+    {
+     "id": "c",
+     "text": "That Germany would attack the Soviet Union",
+     "correct": false,
+     "explanation": "Germany had just signed a pact with it."
+    },
+    {
+     "id": "d",
+     "text": "That Italy would join the war",
+     "correct": false,
+     "explanation": "Italy stayed out in 1939."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R14",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each date to the event.",
+   "pairs": [
+    {
+     "left": "7 April 1939",
+     "right": "Italy invades Albania",
+     "explanation": "Good Friday."
+    },
+    {
+     "left": "22 May 1939",
+     "right": "Pact of Steel",
+     "explanation": "German–Italian military alliance."
+    },
+    {
+     "left": "23 August 1939",
+     "right": "Nazi–Soviet Pact",
+     "explanation": "With a secret protocol."
+    },
+    {
+     "left": "3 September 1939",
+     "right": "Britain and France declare war on Germany",
+     "explanation": "Two days after the invasion of Poland."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R15",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened in 1940? Choose all that apply.",
+   "factIds": [
+    "F-CS2E-30",
+    "F-CS2E-31",
+    "F-CS2E-33"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Germany invaded Denmark and Norway",
+     "correct": true,
+     "explanation": "Yes: 9 April 1940."
+    },
+    {
+     "id": "b",
+     "text": "Italy declared war on France and Britain",
+     "correct": true,
+     "explanation": "Yes: 10 June 1940."
+    },
+    {
+     "id": "c",
+     "text": "German troops entered Paris",
+     "correct": true,
+     "explanation": "Yes: 14 June 1940."
+    },
+    {
+     "id": "d",
+     "text": "Germany invaded Poland",
+     "correct": false,
+     "explanation": "No: that was 1 September 1939."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R16",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Italy declared war on Britain and France in September 1939, alongside Germany.”",
+   "factIds": [
+    "F-CS2E-39",
+    "F-CS2E-31"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Italy stayed out in 1939 and declared war on 10 June 1940",
+     "correct": true,
+     "explanation": "Correct: it announced it would not take part at first."
+    },
+    {
+     "id": "b",
+     "text": "Italy declared war on the United States",
+     "correct": false,
+     "explanation": "That is not the error in the statement."
+    },
+    {
+     "id": "c",
+     "text": "Germany did not declare war",
+     "correct": false,
+     "explanation": "That is not the error; Britain and France declared war on Germany."
+    },
+    {
+     "id": "d",
+     "text": "Italy was allied with Britain",
+     "correct": false,
+     "explanation": "That is not the error in the statement."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R17",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the US Minister in Switzerland report in January 1936?",
+   "factIds": [
+    "F-CS2E-36"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "European statesmen had turned their attention to the intensity of German rearmament",
+     "correct": true,
+     "explanation": "Correct: from Africa to Germany's return as a military power."
+    },
+    {
+     "id": "b",
+     "text": "Germany had disarmed",
+     "correct": false,
+     "explanation": "He reported the opposite."
+    },
+    {
+     "id": "c",
+     "text": "Italy had withdrawn from Ethiopia",
+     "correct": false,
+     "explanation": "The war continued until May 1936."
+    },
+    {
+     "id": "d",
+     "text": "The League had dissolved",
+     "correct": false,
+     "explanation": "The League Council was in session."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R18",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which month of 1938 was the union of Germany and Austria proclaimed?",
+   "factIds": [
+    "F-CS2E-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "March",
+     "tolerance": 0,
+     "explanation": "German forces entered on 11 March; the union was proclaimed on 13 March 1938."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R19",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Long reported in September 1935 that Italy was being hurried on by “a gradually approaching domestic economic crisis”. Which argument does it support?",
+   "factIds": [
+    "F-CS2E-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic pressure helped decide the timing of Italian expansion",
+     "correct": true,
+     "explanation": "Correct: he linked the urgency to the economy."
+    },
+    {
+     "id": "b",
+     "text": "Italy's economy was booming",
+     "correct": false,
+     "explanation": "He describes a coming crisis."
+    },
+    {
+     "id": "c",
+     "text": "Italy invaded only for prestige",
+     "correct": false,
+     "explanation": "The fact adds an economic motive."
+    },
+    {
+     "id": "d",
+     "text": "Britain caused the crisis",
+     "correct": false,
+     "explanation": "The fact names no cause of the crisis."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R20",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps of 1939 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Czech lands occupied",
+     "year": 1939,
+     "month": 3,
+     "factId": "F-CS2E-17"
+    },
+    {
+     "id": "b",
+     "text": "Albania invaded",
+     "year": 1939,
+     "month": 4,
+     "factId": "F-CS2E-20"
+    },
+    {
+     "id": "c",
+     "text": "Pact of Steel",
+     "year": 1939,
+     "month": 5,
+     "factId": "F-CS2E-22"
+    },
+    {
+     "id": "d",
+     "text": "Nazi–Soviet Pact",
+     "year": 1939,
+     "month": 8,
+     "factId": "F-CS2E-24"
+    },
+    {
+     "id": "e",
+     "text": "Britain and France declare war",
+     "year": 1939,
+     "month": 9,
+     "factId": "F-CS2E-28"
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P1-CS2-EVENTS-D01",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct German aim that the Ambassador denied (Hull's memorandum, 28 March 1935).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "the alleged objective of the German Government with respect to the Polish Corridor",
+     "answer": "point",
+     "explanation": "Point: the Polish Corridor."
+    },
+    {
+     "id": "s2",
+     "text": "the economic union with Austria",
+     "answer": "point",
+     "explanation": "Point: union with Austria."
+    },
+    {
+     "id": "s3",
+     "text": "the return of Memel",
+     "answer": "point",
+     "explanation": "Point: Memel."
+    },
+    {
+     "id": "s4",
+     "text": "the restoration of certain portions of Czechoslovakia with 3-1/2 million inhabitants",
+     "answer": "point",
+     "explanation": "Point: parts of Czechoslovakia."
+    },
+    {
+     "id": "s5",
+     "text": "The German Ambassador during his call casually stated",
+     "answer": "not_point",
+     "explanation": "How the conversation began, not an aim."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D02",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct reason Long gave for thinking Italy would not turn back (telegram, 10 September 1935).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "more than 200,000 men south of the Suez Canal",
+     "answer": "point",
+     "explanation": "Point: the size of the force already sent."
+    },
+    {
+     "id": "s2",
+     "text": "The withdrawal of those troops would be a defeat and its effect upon the government here a disaster.",
+     "answer": "point",
+     "explanation": "Point: withdrawal would damage the regime."
+    },
+    {
+     "id": "s3",
+     "text": "Hurried on by a gradually approaching domestic economic crisis",
+     "answer": "point",
+     "explanation": "Point: economic pressure."
+    },
+    {
+     "id": "s4",
+     "text": "Malta is only a few minutes by air from the Italian posts in Sicily",
+     "answer": "not_point",
+     "explanation": "Geography, not a reason Italy would not turn back."
+    },
+    {
+     "id": "s5",
+     "text": "an army and navy which is almost fanatic in idolatry of and devotion to one man",
+     "answer": "point",
+     "explanation": "Point: the forces' devotion to Mussolini."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D03",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct step in the German takeover of Austria (Chamberlain, 14 March 1938).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "presented an ultimatum to the Chancellor",
+     "answer": "point",
+     "explanation": "Step: the ultimatum."
+    },
+    {
+     "id": "s2",
+     "text": "They demanded the abandonment of the plebiscite",
+     "answer": "point",
+     "explanation": "Step: the plebiscite cancelled."
+    },
+    {
+     "id": "s3",
+     "text": "German troops would be ordered to move at 5 o'clock",
+     "answer": "point",
+     "explanation": "Step: the threat of invasion."
+    },
+    {
+     "id": "s4",
+     "text": "Provision for that plebiscite is made in the Austrian Constitution of 1934.",
+     "answer": "not_point",
+     "explanation": "Background, not a step in the takeover."
+    },
+    {
+     "id": "s5",
+     "text": "Austrian troops had been instructed to oppose no resistance",
+     "answer": "point",
+     "explanation": "Step: no resistance."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D04",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct term of the secret protocol (Moscow, 23 August 1939).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "the northern boundary of Lithuania shall represent the boundary of the spheres of influence",
+     "answer": "point",
+     "explanation": "Term: the Baltic line."
+    },
+    {
+     "id": "s2",
+     "text": "bounded approximately by the line of the rivers Narew, Vistula, and San",
+     "answer": "point",
+     "explanation": "Term: the division of Poland."
+    },
+    {
+     "id": "s3",
+     "text": "attention is called by the Soviet side to its interest in Bessarabia",
+     "answer": "point",
+     "explanation": "Term: Bessarabia."
+    },
+    {
+     "id": "s4",
+     "text": "This protocol shall be treated by both parties as strictly secret.",
+     "answer": "point",
+     "explanation": "Term: secrecy."
+    },
+    {
+     "id": "s5",
+     "text": "Moscow, August 23, 1939.",
+     "answer": "not_point",
+     "explanation": "The date and place, not a term."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D05",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Eden's Commons statement of 9 March 1936? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To inform MPs of Germany's memorandum and set out the government's response, two days after troops entered the Rhineland",
+     "correct": true,
+     "explanation": "Correct: audience (MPs), action (inform and set out policy), moment (after 7 March)."
+    },
+    {
+     "id": "b",
+     "text": "To declare war on Germany",
+     "correct": false,
+     "explanation": "Britain did not go to war over the Rhineland."
+    },
+    {
+     "id": "c",
+     "text": "To give information about Locarno",
+     "correct": false,
+     "explanation": "Too vague: no audience or moment."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is the Rhineland",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D06",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the German note delivered on 1 September 1939? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To persuade the US President that Germany had sought peace and Poland was to blame, after the invasion had already begun",
+     "correct": true,
+     "explanation": "Correct: audience (Roosevelt), action (shift blame), moment (1 September)."
+    },
+    {
+     "id": "b",
+     "text": "To ask the US to mediate",
+     "correct": false,
+     "explanation": "The invasion had already begun."
+    },
+    {
+     "id": "c",
+     "text": "To announce a ceasefire",
+     "correct": false,
+     "explanation": "There was no ceasefire."
+    },
+    {
+     "id": "d",
+     "text": "To inform people about Danzig",
+     "correct": false,
+     "explanation": "Too vague; Danzig is not mentioned."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D07",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Welles's statement of 17 March 1939? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To condemn publicly, before the world and the American public, the German occupation of the Czech lands, three days after it began",
+     "correct": true,
+     "explanation": "Correct: it states the US condemnation."
+    },
+    {
+     "id": "b",
+     "text": "To recognise German rule in Prague",
+     "correct": false,
+     "explanation": "It condemned it."
+    },
+    {
+     "id": "c",
+     "text": "To give information about Czechoslovakia",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "To declare war on Germany",
+     "correct": false,
+     "explanation": "The US remained at peace."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D08",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Long's telegram of 10 September 1935? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To convince the Secretary of State that Italy would not be stopped short of force, weeks before the invasion",
+     "correct": true,
+     "explanation": "Correct: audience (Hull), action (warn), moment (September 1935)."
+    },
+    {
+     "id": "b",
+     "text": "To persuade Mussolini to stop",
+     "correct": false,
+     "explanation": "It was sent to Washington, not to Mussolini."
+    },
+    {
+     "id": "c",
+     "text": "To report the fall of Addis Ababa",
+     "correct": false,
+     "explanation": "Wrong date: that was May 1936."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is Italy",
+     "correct": false,
+     "explanation": "A topic, not a purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D09",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Eden, 9 March 1936): which sentence moves from a feature to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Eden had received the German memorandum himself, his statement gives a first-hand account of how Germany justified the move and how Britain reacted on the day.",
+     "correct": true,
+     "explanation": "Correct: feature (first-hand) → consequence → value."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1936.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is useful because it is a speech.",
+     "correct": false,
+     "explanation": "Generic: the type alone does not show value."
+    },
+    {
+     "id": "d",
+     "text": "It is about Germany.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D10",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Eden, 9 March 1936): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Eden was speaking publicly while the response was still being decided, he summarises the German proposals selectively and does not reveal what Britain was prepared to do.",
+     "correct": true,
+     "explanation": "Correct: feature (public, early) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is biased because it is British.",
+     "correct": false,
+     "explanation": "Generic: it does not say why."
+    },
+    {
+     "id": "c",
+     "text": "It is a summary.",
+     "correct": false,
+     "explanation": "A label: it does not say what is lost."
+    },
+    {
+     "id": "d",
+     "text": "It is old.",
+     "correct": false,
+     "explanation": "Age is not a limitation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D11",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Chamberlain, 3 September 1939): which sentence explains a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "As the Prime Minister's own announcement, it records the exact terms of the final note and the moment Britain went to war.",
+     "correct": true,
+     "explanation": "Correct: feature (origin) → consequence (exact record) → value."
+    },
+    {
+     "id": "b",
+     "text": "It was given in London.",
+     "correct": false,
+     "explanation": "A fact, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is valuable because it is famous.",
+     "correct": false,
+     "explanation": "Fame does not make a source valuable."
+    },
+    {
+     "id": "d",
+     "text": "It is about Poland.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D12",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Chamberlain, 3 September 1939): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Chamberlain was defending his own conduct after doubts in the House, he stresses that there was no hesitation and says nothing of the failure of his earlier policy.",
+     "correct": true,
+     "explanation": "Correct: feature (purpose) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is limited because it is emotional.",
+     "correct": false,
+     "explanation": "Too vague: it does not say what is missed."
+    },
+    {
+     "id": "c",
+     "text": "It is a speech.",
+     "correct": false,
+     "explanation": "A label, not an evaluation."
+    },
+    {
+     "id": "d",
+     "text": "It is from Britain.",
+     "correct": false,
+     "explanation": "Nationality alone is not a limitation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D13",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, so that you compare Sources A (Hull and Luther, 1935) and C (Eden, 1936).",
+   "categories": [
+    {
+     "id": "peace",
+     "label": "Issue 1: German claims of peace"
+    },
+    {
+     "id": "treaties",
+     "label": "Issue 2: treaty obligations"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "A: insisted that his Government favored peace",
+     "answer": "peace",
+     "explanation": "A: a claim of peace."
+    },
+    {
+     "id": "s2",
+     "text": "C: Germany is willing to re-enter the League of Nations",
+     "answer": "peace",
+     "explanation": "C: an offer presented as peaceful."
+    },
+    {
+     "id": "s3",
+     "text": "A: willing to disarm on relative equality with other governments",
+     "answer": "treaties",
+     "explanation": "A: equality, not existing treaties."
+    },
+    {
+     "id": "s4",
+     "text": "C: the unilateral repudiation of a treaty freely negotiated and freely signed",
+     "answer": "treaties",
+     "explanation": "C: a treaty broken."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D14",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: sort each statement into a similarity or a difference between Long's reports of 10 and 13 September 1935.",
+   "categories": [
+    {
+     "id": "same",
+     "label": "Similarity"
+    },
+    {
+     "id": "diff",
+     "label": "Difference"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Both describe fanatical devotion to Mussolini.",
+     "answer": "same",
+     "explanation": "Each uses the word fanatic."
+    },
+    {
+     "id": "s2",
+     "text": "10 September stresses military commitment; 13 September stresses propaganda against England.",
+     "answer": "diff",
+     "explanation": "Different explanations of the war's momentum."
+    },
+    {
+     "id": "s3",
+     "text": "Both predict lasting damage to relations with Britain.",
+     "answer": "same",
+     "explanation": "Each sees hostility to England."
+    },
+    {
+     "id": "s4",
+     "text": "13 September says the war was once unpopular; 10 September does not.",
+     "answer": "diff",
+     "explanation": "Only one traces how opinion changed."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D15",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Chamberlain (3 September 1939) and the German note (31 August 1939).",
+   "categories": [
+    {
+     "id": "blame",
+     "label": "Issue 1: who is to blame"
+    },
+    {
+     "id": "peace",
+     "label": "Issue 2: efforts for peace"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Chamberlain: German attacks upon Poland have been continued and intensified",
+     "answer": "blame",
+     "explanation": "Blames Germany."
+    },
+    {
+     "id": "s2",
+     "text": "German note: Owing to the attitude of the Polish Government",
+     "answer": "blame",
+     "explanation": "Blames Poland."
+    },
+    {
+     "id": "s3",
+     "text": "Chamberlain: Everything that I have worked for … has crashed into ruins",
+     "answer": "peace",
+     "explanation": "His peace efforts failed."
+    },
+    {
+     "id": "s4",
+     "text": "German note: left nothing untried for the purpose of settling the dispute",
+     "answer": "peace",
+     "explanation": "Claims Germany sought peace."
+    }
+   ]
+  }
+ ],
+ "sourceSets": [
+  {
+   "sourceSetId": "P1-CS2-EVENTS-SS01",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS2",
+   "part": "events",
+   "focus": "German challenges to the post-war settlements, 1933–1936",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS01-A",
+     "provenance": {
+      "creator": "Cordell Hull, US Secretary of State",
+      "sourceType": "memorandum of a conversation with the German Ambassador, Luther",
+      "date": "28 March 1935",
+      "contextNote": "Twelve days earlier Germany had announced the return of conscription."
+     },
+     "text": "The German Ambassador during his call casually stated that he trusted there would be no misunderstanding about the true attitude of the German Government on political and peace questions. … I asked the Ambassador what about the news reports as to the alleged objective of the German Government with respect to the Polish Corridor. He instantly disclaimed and denied as to this. I then referred to the reported objectives, such as the economic union with Austria, the return of Memel, the restoration of certain portions of Czechoslovakia with 3-1/2 million inhabitants, and certain other reported objectives. The Ambassador promptly disclaimed and denied as to each of these and insisted that his Government favored peace. I said, “What about disarmament?” He replied that his Government was and would be willing to disarm on relative equality with other governments."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS01-B",
+     "mediaId": "M-nuremberg-rally-wehrmacht-1936",
+     "provenance": {
+      "creator": "Scherl picture agency, Germany",
+      "sourceType": "photograph",
+      "date": "September 1936",
+      "contextNote": "The parade of the armed forces (Wehrmacht) on the Zeppelin Field at the Nazi Party rally in Nuremberg."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS01-C",
+     "provenance": {
+      "creator": "Eden, British Foreign Secretary",
+      "sourceType": "statement in the House of Commons",
+      "date": "9 March 1936",
+      "contextNote": "German troops had entered the demilitarised Rhineland on 7 March 1936. The German Ambassador had handed Eden the memorandum that morning."
+     },
+     "text": "The Memorandum falls into two parts. In the first part the German Government have developed at considerable length their objections to the Franco-Soviet Pact and the reasons why, in their view, the intention of the French Government to conclude this pact has created an entirely new situation and destroyed the political system of the Locarno Treaty. The German Government hold that for these reasons the Locarno Treaty has ceased in practice to exist, and that Germany consequently regards herself for her part as no longer bound by this no longer valid Treaty. The Memorandum then announces that the German Government has restored the full and unrestricted sovereignty of Germany in the demilitarised zone of the Rhineland. … I told His Excellency that there was one observation which I must make at once. … The Ambassador would appreciate that this amounted to the unilateral repudiation of a treaty freely negotiated and freely signed."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS01-D",
+     "provenance": {
+      "creator": "Hugh Wilson, US Minister in Switzerland",
+      "sourceType": "private letter to the US Secretary of State, Cordell Hull, after a meeting of the League Council",
+      "date": "27 January 1936"
+     },
+     "text": "Three months ago the thoughts of the statesmen of Europe were concentrated on Africa; the Abyssinian question was paramount. A month ago a phase of that question, namely the military situation in the Eastern Mediterranean, was the focus of all thought. Today a further evolution has fixed the minds of these men on the intensity of the rearmament of Germany, leading to the realization of the implications throughout the whole of Europe of the return of Germany as a first class military power. … They believe that however stout an effort the Italians are making from a military point of view, nevertheless this effort is exceedingly costly, and that the sanctions already in effect are rapidly curtailing Italy's resources … Hence they can turn their minds to the question of German rearmament, a question which causes them more profound concern—if not more immediate concern—than a threat by Mussolini."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS2-EVENTS-SS01-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, which German aims did the Ambassador deny?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Aims regarding the Polish Corridor.",
+       "Economic union with Austria.",
+       "The return of Memel.",
+       "Parts of Czechoslovakia with 3½ million inhabitants."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "Polish Corridor",
+       "Austria",
+       "Memel",
+       "Czechoslovakia",
+       "peace"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS01-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the German armed forces by 1936?",
+     "model": {
+      "type": "points",
+      "points": [
+       "They had become large and disciplined, and Germany displayed them openly.",
+       "The armed forces were presented as part of the Nazi Party's public display of power."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Wehrmacht",
+       "parade",
+       "rally",
+       "Nuremberg"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS01-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the remilitarisation of the Rhineland.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the British Foreign Secretary received the German memorandum himself and reported it to Parliament two days after the troops moved.",
+       "Value (content): it shows Germany's official justification (the Franco-Soviet Pact had destroyed Locarno) and Britain's immediate reaction (“unilateral repudiation”).",
+       "Limitation (purpose): a public statement made while Britain's response was still being decided, so it does not reveal what Britain was prepared to do.",
+       "Limitation (content): it summarises the memorandum selectively, through British eyes; it cannot show why Hitler chose March 1936."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS01-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "C"
+     ],
+     "text": "Compare and contrast what Sources A and C reveal about German claims of peaceful intentions.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources show German representatives presenting Germany as peaceful: in Source A the Ambassador “insisted that his Government favored peace”, and in Source C the memorandum offered a return to the League.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also show Germany basing its case on equality: A records willingness to disarm “on relative equality”, and C Germany's claim to “full and unrestricted sovereignty” in the Rhineland.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, in Source A the Ambassador denies all territorial aims, while in Source C Germany has already acted, declaring Locarno void and occupying the zone.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A records only words, which Hull could not yet test, whereas Source C shows Eden judging the action as “the unilateral repudiation of a treaty freely negotiated and freely signed”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "claims of peace",
+       "equality",
+       "denial or action",
+       "judgement"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS01-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the methods Germany used to challenge the post-war settlements between 1933 and 1936.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "Germany challenged the settlements by a sequence of faits accomplis, each paired with assurances or offers of peace.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "The first steps were withdrawals and open rearmament: Germany left the Disarmament Conference and gave notice to leave the League on 14 October 1933, and announced conscription and an air force in March 1935. Source B shows the armed forces displayed openly by 1936.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Assurances accompanied each step: Source A shows the Ambassador denying aims towards Austria, Memel and Czechoslovakia twelve days after conscription was announced.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "On 7 March 1936 troops entered the Rhineland unopposed; Source C shows the memorandum declaring Locarno void while offering pacts and a return to the League. Source D shows why the timing worked: Europe's attention had been on Abyssinia.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The method succeeded because it combined force with offers that divided potential opponents, so Germany gained each step without fighting.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "14 October 1933",
+       "League",
+       "conscription",
+       "March 1935",
+       "7 March 1936",
+       "Locarno",
+       "Abyssinia"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS2-EVENTS-SS02",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS2",
+   "part": "events",
+   "focus": "Italian expansion in Abyssinia, 1935–1936",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS02-A",
+     "provenance": {
+      "creator": "Breckinridge Long, US Ambassador in Italy",
+      "sourceType": "telegram to the US Secretary of State (State Department paraphrase)",
+      "date": "10 September 1935"
+     },
+     "text": "In my mind there remains no vestige of doubt that Italy is irrevocably determined to proceed in Africa and that from whatever quarter opposition is offered it will be met by subjected mass attack. … The Italian plans have developed step by step over a period of many months. Now they find themselves with more than 200,000 men south of the Suez Canal and there are more than three more divisions preparing to go. The withdrawal of those troops would be a defeat and its effect upon the government here a disaster. Hurried on by a gradually approaching domestic economic crisis I have a distinct impression that opposition from England would be welcomed by the Italians … There is every indication of a carefully prepared, well-calculated, hard, cold, and cruel prosecution of preconceived plans by the use of an army and navy which is almost fanatic in idolatry of and devotion to one man …"
+    },
+    {
+     "letter": "B",
+     "type": "cartoon",
+     "verificationRef": "SRC-SS02-B",
+     "mediaId": "M-al-musawwar-cartoon-1935",
+     "provenance": {
+      "creator": "al-Musawwar, an Egyptian weekly magazine",
+      "sourceType": "front-page cartoon",
+      "date": "6 September 1935",
+      "contextNote": "The caption reads: “With his foot, Mussolini is crushing the dove of peace.”"
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS02-C",
+     "provenance": {
+      "creator": "Breckinridge Long, US Ambassador in Italy",
+      "sourceType": "despatch to the US Secretary of State",
+      "date": "13 September 1935"
+     },
+     "text": "The propaganda which has been developed in the Italian press against England during the last three or four months has been very intensive. The expedition against Abyssinia in itself was not particularly popular in Italy during the fall of 1934 and the winter and spring of 1935. Various attempts were made in the press to attribute to it characteristics of popularity but as a matter of fact the project was not very warmly received by the people. However, as soon as the attack was commenced on England in the Italian papers there was noticeable a distinct change in the attitude of the people. As this propaganda has continued and has increased in intensity, the people have responded to it and today are united … to an extent which is tantamount to a fanatic adherence to Mussolini and his plans, with an antagonism against England which each Italian seems to take personally."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS02-D",
+     "provenance": {
+      "creator": "Cordell Hull, US Secretary of State",
+      "sourceType": "public statement",
+      "date": "15 November 1935",
+      "contextNote": "Italy had invaded Ethiopia on 3 October 1935."
+     },
+     "text": "The American people are entitled to know that there are certain commodities such as oil, copper, trucks, tractors, scrap iron, and scrap steel which are essential war materials, although not actually “arms, ammunition, or implements of war”, and that according to recent Government trade reports a considerably increased amount of these is being exported for war purposes. This class of trade is directly contrary to the policy of this Government as announced in official statements of the President and Secretary of State, as it is also contrary to the general spirit of the recent neutrality act."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS2-EVENTS-SS02-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, why was Italy unlikely to turn back from war in September 1935?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Italy was irrevocably determined, and plans had been developed over many months.",
+       "More than 200,000 men were already south of the Suez Canal.",
+       "Withdrawal would be a defeat and a disaster for the government.",
+       "A domestic economic crisis was hurrying Italy on."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "200,000",
+       "Suez",
+       "defeat",
+       "economic crisis",
+       "irrevocably"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS02-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about how Italy's actions were seen outside Europe in 1935?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Mussolini was seen as destroying peace.",
+       "The cartoon, from an Egyptian magazine, shows hostility to Italy's plans in a country close to the conflict."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Mussolini",
+       "dove",
+       "peace",
+       "Egyptian"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS02-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying Italian support for the war in Abyssinia.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the US Ambassador in Rome was an informed observer who watched Italian opinion and the press over many months.",
+       "Value (content): it traces a change in opinion: the war was not popular in 1934–35 but became so once the press attacked England.",
+       "Limitation (origin): Long judged opinion “as far as can be judged from the various contacts and reports” available to him, so he could not measure it.",
+       "Limitation (purpose): a despatch analysing European alignments for Washington, so it stresses anti-British feeling over other motives."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS02-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "C"
+     ],
+     "text": "Compare and contrast what Sources A and C reveal about Italian support for the war in Abyssinia.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources describe intense devotion to Mussolini: Source A speaks of forces “almost fanatic in idolatry of and devotion to one man”, and Source C of “a fanatic adherence to Mussolini and his plans”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also link the war to hostility towards Britain: A expects opposition from England to be welcomed, and C describes “an antagonism against England”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source A explains the momentum by military commitment and economic pressure, while Source C explains it by a press campaign that changed public opinion.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source C says the war was not popular in 1934–35, whereas Source A presents a long-prepared plan with no sign of earlier doubts.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "devotion to Mussolini",
+       "hostility to Britain",
+       "cause of momentum",
+       "change over time"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS02-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the reasons for Italy's invasion of Abyssinia in 1935.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "Italy invaded Abyssinia because Mussolini's long-prepared plan, made popular by propaganda and pressed by economic difficulty, could not be abandoned without damaging the regime.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Preparation was long and open: in February 1935 Long reported factories near Milan working day and night and 30,000 troops leaving Naples, and Source A shows more than 200,000 men south of Suez by September.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source C shows how support was built, by press attacks on England, and Source A adds the pressure of a coming economic crisis.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source B and Source D show the international disapproval that Italy ignored. Italy invaded on 3 October 1935, the League recommended sanctions, but Addis Ababa fell on 5 May 1936.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Ambition set the aim, but prestige and economic pressure made retreat impossible by the autumn of 1935.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Milan",
+       "Naples",
+       "30,000",
+       "3 October 1935",
+       "sanctions",
+       "5 May 1936"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS2-EVENTS-SS03",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS2",
+   "part": "events",
+   "focus": "Austria, Czechoslovakia and Albania, 1938–1939",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS03-A",
+     "provenance": {
+      "creator": "Chamberlain, British Prime Minister",
+      "sourceType": "statement in the House of Commons",
+      "date": "14 March 1938",
+      "contextNote": "The Austrian Chancellor was Schuschnigg. He had called a plebiscite on Austria's future."
+     },
+     "text": "Matters appear to have come to a head on the morning of 11th March when Herr von Seyss-Inquart, who had been appointed Minister of the Interior as a result of the Berchtesgaden meeting, together with his colleague Dr. Glaise-Horstenau presented an ultimatum to the Chancellor. They demanded the abandonment of the plebiscite … It appears that the Austrian Chancellor was given until 4.30 p.m., Greenwich time, in which to reply and was informed that if his reply was not satisfactory, German troops would be ordered to move at 5 o'clock. This fact seems to show that Germany was behind the ultimatum. … To these demands the Austrian Chancellor announced, a little later on the wireless, that he had, in view of the German threatened invasion, yielded in order to avoid the shedding of German blood. He said that he wished the world to know that the President and he had yielded to force and that Austrian troops had been instructed to oppose no resistance to German troops if and when the latter crossed the frontier."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS03-B",
+     "mediaId": "M-vienna-german-troops-1938",
+     "provenance": {
+      "creator": "German press photograph",
+      "sourceType": "photograph",
+      "date": "March 1938",
+      "contextNote": "German armoured cars on the Mariahilfer Straße in Vienna. The archive caption describes cheering people giving the Hitler salute."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS03-C",
+     "provenance": {
+      "creator": "Welles, Acting US Secretary of State",
+      "sourceType": "public statement",
+      "date": "17 March 1939",
+      "contextNote": "German troops had occupied the Czech lands on 14 and 15 March 1939."
+     },
+     "text": "The Government of the United States has on frequent occasions stated its conviction that only through international support of a program of order based upon law can world peace be assured. This Government, founded upon and dedicated to the principles of human liberty and of democracy, cannot refrain from making known this country's condemnation of the acts which have resulted in the temporary extinguishment of the liberties of a free and independent people with whom, from the day when the Republic of Czechoslovakia attained its independence, the people of the United States have maintained specially close and friendly relations. … It is manifest that acts of wanton lawlessness and of arbitrary force are threatening world peace and the very structure of modern civilization."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS03-D",
+     "provenance": {
+      "creator": "Cordell Hull, US Secretary of State",
+      "sourceType": "public statement",
+      "date": "8 April 1939",
+      "contextNote": "Italian troops had invaded Albania on 7 April 1939."
+     },
+     "text": "The forcible and violent invasion of Albania is unquestionably an additional threat to the peace of the world. It would be shortsighted not to take notice of this further development. Any threat to peace seriously concerns all nations and violates the will of all peoples in the world that their governments shall lead them, not toward war, but along paths of peace. It is scarcely necessary to add that the inevitable effect of this incident, taken with other similar incidents, is further to destroy confidence and to undermine economic stability in every country in the world, thus affecting our own welfare."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS2-EVENTS-SS03-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, how did Germany gain control of Austria in March 1938?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Austrian Nazi ministers presented an ultimatum to the Chancellor.",
+       "They demanded that the plebiscite be abandoned.",
+       "The Chancellor was told German troops would move at 5 o'clock if his reply was unsatisfactory.",
+       "He yielded to force and Austrian troops were told not to resist."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "ultimatum",
+       "plebiscite",
+       "5 o'clock",
+       "yielded to force",
+       "no resistance"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS03-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the German entry into Vienna in March 1938?",
+     "model": {
+      "type": "points",
+      "points": [
+       "German troops entered Vienna with military vehicles, but without fighting.",
+       "Parts of the population welcomed them, cheering and giving the Hitler salute."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "armoured cars",
+       "Vienna",
+       "cheering",
+       "salute"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS03-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying international reactions to the German occupation of the Czech lands.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): an official statement by the US Acting Secretary of State, issued within three days, records the US Government's position.",
+       "Value (content): its strong language (“wanton lawlessness and of arbitrary force”) shows how far US opinion had moved against Germany.",
+       "Limitation (purpose): a public statement of principle that commits the US to no action, so it shows attitudes rather than policy.",
+       "Limitation (content): it speaks for one non-European power; it cannot show how Britain or France responded."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS03-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "C",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources C and D reveal about US views of German and Italian aggression in 1939.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources condemn aggression as a threat to world peace: Source C speaks of acts “threatening world peace”, and Source D calls the invasion of Albania “an additional threat to the peace of the world”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both stress the use of force: C condemns “arbitrary force”, and D a “forcible and violent invasion”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source C appeals to principles of liberty and democracy and to friendship with Czechoslovakia, while Source D stresses practical effects on confidence and economic stability, “thus affecting our own welfare”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source D also links the event to “other similar incidents”, presenting a pattern of aggression, whereas Source C treats the occupation of Czechoslovakia on its own.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "threat to peace",
+       "use of force",
+       "principle or self-interest",
+       "single event or pattern"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS03-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the methods Germany and Italy used to expand between 1938 and 1939.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "Germany and Italy moved from expansion by threat in 1938 to open seizure of non-German territory in 1939.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows the method in Austria: an ultimatum backed by the threat of invasion, so that German troops entered without resistance, and Source B shows them welcomed in Vienna. The union was proclaimed on 13 March 1938.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "At Munich on 29 September 1938 the Sudetenland was handed to Germany after months of pressure; Hitler then said he had no more territorial claims in Europe.",
+        "tags": [
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Sources C and D show the change in 1939: the occupation of the Czech lands in March and the Italian invasion of Albania on 7 April were seen abroad as “arbitrary force”. On 22 May 1939 the Pact of Steel bound the two dictators together.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The methods worked without war until March 1939, but the open seizure of non-German lands convinced other powers that the next move had to be resisted.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "13 March 1938",
+       "Munich",
+       "Sudetenland",
+       "29 September 1938",
+       "Pact of Steel",
+       "22 May 1939"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS2-EVENTS-SS04",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS2",
+   "part": "events",
+   "focus": "The Nazi–Soviet Pact and the outbreak of war, 1939",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS04-A",
+     "provenance": {
+      "creator": "Ribbentrop (Germany) and Molotov (USSR)",
+      "sourceType": "secret additional protocol to the Treaty of Nonaggression between Germany and the USSR",
+      "date": "23 August 1939",
+      "contextNote": "The protocol was signed in Moscow with the published Treaty of Nonaggression."
+     },
+     "text": "1. In the event of a territorial and political rearrangement in the areas belonging to the Baltic States (Finland, Estonia, Latvia, Lithuania), the northern boundary of Lithuania shall represent the boundary of the spheres of influence of Germany and the U.S.S.R. … 2. In the event of a territorial and political rearrangement of the areas belonging to the Polish state the spheres of influence of Germany and the U.S.S.R. shall be bounded approximately by the line of the rivers Narew, Vistula, and San. The question of whether the interests of both parties make desirable the maintenance of an independent Polish state and how such a state should be bounded can only be definitely determined in the course of further political developments. … 3. With regard to Southeastern Europe attention is called by the Soviet side to its interest in Bessarabia. … This protocol shall be treated by both parties as strictly secret."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS04-B",
+     "mediaId": "M-stalin-ribbentrop-kremlin-1939",
+     "provenance": {
+      "creator": "Helmut Laux, German photographer",
+      "sourceType": "photograph",
+      "date": "23 August 1939",
+      "contextNote": "Stalin (left) and the German Foreign Minister, Ribbentrop, in the Kremlin in Moscow after the signing of the non-aggression treaty."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS04-C",
+     "provenance": {
+      "creator": "Chamberlain, British Prime Minister",
+      "sourceType": "statement in the House of Commons",
+      "date": "3 September 1939",
+      "contextNote": "Germany had invaded Poland on 1 September 1939."
+     },
+     "text": "We were in consultation all day yesterday with the French Government and we felt that the intensified action which the Germans were taking against Poland allowed no delay in making our own position clear. Accordingly, we decided to send to our Ambassador in Berlin instructions which he was to hand at nine o'clock this morning to the German Foreign Secretary … Although this communication was made more than 24 hours ago, no reply has been received, but German attacks upon Poland have been continued and intensified. … That was the final Note. No such undertaking was received by the time stipulated, and, consequently, this country is at war with Germany. … This is a sad day for all of us, and to none is it sadder than to me. Everything that I have worked for, everything that I have hoped for, everything that I have believed in during my public life, has crashed into ruins."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS04-D",
+     "provenance": {
+      "creator": "Thomsen, German Chargé d'Affaires in Washington",
+      "sourceType": "note to the US Secretary of State",
+      "date": "31 August 1939 (delivered on the afternoon of 1 September)",
+      "contextNote": "Roosevelt had appealed to Hitler and to the President of Poland in late August 1939 to settle the dispute peacefully. The note arrived after the German invasion of Poland had begun."
+     },
+     "text": "By order of my Government, I wish to use your kind intermediary for the purpose of stating to the President of the United States that his messages of August 25 and 26 addressed to the German Fuehrer and Reich Chancellor have been greatly appreciated by the latter. The German Fuehrer and Reich Chancellor has also, on his side, left nothing untried for the purpose of settling the dispute between Germany and Poland in a friendly manner. Even at the last hour he accepted an offer from the Government of Great Britain to mediate in this dispute. Owing to the attitude of the Polish Government however, all these endeavors have remained without result."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS2-EVENTS-SS04-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, how did Germany and the USSR agree to divide eastern Europe?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The northern boundary of Lithuania would separate their spheres in the Baltic.",
+       "Poland would be divided approximately along the Narew, Vistula and San.",
+       "Whether an independent Poland should remain was left open.",
+       "The Soviet interest in Bessarabia was recognised."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "Lithuania",
+       "Narew",
+       "Vistula",
+       "San",
+       "Polish state",
+       "Bessarabia"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS04-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about relations between Germany and the Soviet Union in August 1939?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The agreement was settled at the highest level, with Stalin personally involved.",
+       "The two former enemies presented their new relationship as friendly and cordial."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Stalin",
+       "Ribbentrop",
+       "Kremlin",
+       "handshake"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS04-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the outbreak of war in 1939.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the Prime Minister's own announcement to Parliament records the exact sequence of the final note and the moment Britain went to war.",
+       "Value (content): it shows that Britain acted together with France and that the trigger was Germany's continued attack on Poland.",
+       "Limitation (purpose): Chamberlain was answering doubts in the House about hesitation, so he stresses firmness and does not discuss the failure of his earlier policy.",
+       "Limitation (content): it shows Britain's decision, not German intentions or the effect of the Nazi–Soviet Pact."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS04-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "C",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources C and D reveal about responsibility for the outbreak of war in 1939.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources refer to last-minute diplomacy: Source C describes the final note to Germany, and Source D claims Hitler accepted a British offer “to mediate in this dispute”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both present their own side as having sought peace: Chamberlain says everything he had worked for “has crashed into ruins”, and Source D says Hitler “left nothing untried”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, they place responsibility in opposite places: Source C blames Germany, whose “attacks upon Poland have been continued and intensified”, while Source D blames “the attitude of the Polish Government”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source D does not mention the invasion at all, although it arrived after it had begun, whereas Source C is built on it.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "last-minute diplomacy",
+       "claims of seeking peace",
+       "blame",
+       "the invasion"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-EVENTS-SS04-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, to what extent was the Nazi–Soviet Pact the main cause of the outbreak of war in September 1939?",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "The Nazi–Soviet Pact decided when war broke out, but the main cause was Hitler's determination to take Polish territory, which Britain and France had pledged to resist.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Sources A and B show what the pact gave Hitler: Soviet friendship and a secret agreement dividing Poland along the Narew, Vistula and San. Britain and France had been negotiating with the Soviet Union for a common front against aggression.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "But the conflict over Poland came first: in April 1939 Hitler demanded Danzig and concessions in the Polish Corridor, and after the occupation of the Czech lands Britain and France had pledged assistance to Poland.",
+        "tags": [
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Germany invaded on 1 September; Source D shows Germany blaming Poland, while Source C shows Britain going to war on 3 September because German attacks continued.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The pact was the decisive trigger, but war came because German expansion met a guarantee that Britain and France were now willing to honour.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Danzig",
+       "Polish Corridor",
+       "April 1939",
+       "guarantee",
+       "1 September 1939",
+       "common front"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

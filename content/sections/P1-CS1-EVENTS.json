@@ -753,7 +753,7 @@
      ]
     },
     {
-     "name": "Franklin D. Roosevelt",
+     "name": "Roosevelt",
      "role": "US President",
      "whyItMatters": "Froze Japanese assets in July 1941 and asked Congress to declare war on 8 December.",
      "factIds": [
@@ -3109,7 +3109,7 @@
      "type": "text",
      "verificationRef": "SRC-SS04-C",
      "provenance": {
-      "creator": "Franklin D. Roosevelt, US President",
+      "creator": "Roosevelt, US President",
       "sourceType": "address to a joint session of Congress",
       "date": "8 December 1941"
      },

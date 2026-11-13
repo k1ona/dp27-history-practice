@@ -113,7 +113,8 @@
    "widthPx": 800,
    "bytes": 82456,
    "usedIn": [
-    "P1-CS2-CAUSES"
+    "P1-CS2-CAUSES",
+    "P1-CS2-EVENTS"
    ]
   },
   {
@@ -159,7 +160,8 @@
    "widthPx": 800,
    "bytes": 51260,
    "usedIn": [
-    "P1-CS2-CAUSES"
+    "P1-CS2-CAUSES",
+    "P1-CS2-RESPONSES"
    ]
   },
   {
@@ -182,7 +184,8 @@
    "widthPx": 521,
    "bytes": 35580,
    "usedIn": [
-    "P1-CS2-CAUSES"
+    "P1-CS2-CAUSES",
+    "P1-CS2-EVENTS"
    ]
   },
   {
@@ -482,6 +485,121 @@
    "bytes": 122322,
    "usedIn": [
     "P1-CS1-RESPONSES"
+   ]
+  },
+  {
+   "mediaId": "M-vienna-german-troops-1938",
+   "file": "content/_media/vienna-german-troops-1938.webp",
+   "kind": "archival",
+   "title": "Vienna, German troops enter the city, March 1938",
+   "creator": "Unknown photographer",
+   "date": "March 1938",
+   "repository": "Bundesarchiv via Wikimedia Commons",
+   "recordId": "Bild 183-1987-0922-503",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1987-0922-503,_Wien,_Einmarsch_deutscher_Truppen,_Sp%C3%A4hpanzer.jpg",
+   "licence": {
+    "name": "CC BY-SA 3.0 DE",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+   },
+   "licenceCheckedOn": "2026-11-13",
+   "creditLine": "Bundesarchiv, Bild 183-1987-0922-503 / CC BY-SA 3.0 DE",
+   "altText": "Black-and-white photograph of German armoured cars driving along a tram-lined street in Vienna past crowds of people with raised arms.",
+   "widthPx": 798,
+   "bytes": 82238,
+   "usedIn": [
+    "P1-CS2-EVENTS"
+   ]
+  },
+  {
+   "mediaId": "M-stalin-ribbentrop-kremlin-1939",
+   "file": "content/_media/stalin-ribbentrop-kremlin-1939.webp",
+   "kind": "archival",
+   "title": "Stalin and Ribbentrop in the Kremlin, 23 August 1939",
+   "creator": "Helmut Laux",
+   "date": "23 August 1939",
+   "repository": "Bundesarchiv via Wikimedia Commons",
+   "recordId": "Bild 183-H27337",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H27337,_Moskau,_Stalin_und_Ribbentrop_im_Kreml.jpg",
+   "licence": {
+    "name": "CC BY-SA 3.0 DE",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+   },
+   "licenceCheckedOn": "2026-11-13",
+   "creditLine": "Bundesarchiv, Bild 183-H27337 / Helmut Laux / CC BY-SA 3.0 DE",
+   "altText": "Black-and-white photograph of Stalin, in a light tunic, shaking hands with Ribbentrop, in a dark suit, in a panelled room.",
+   "widthPx": 800,
+   "bytes": 154918,
+   "usedIn": [
+    "P1-CS2-EVENTS"
+   ]
+  },
+  {
+   "mediaId": "M-italian-parade-addis-ababa-1936",
+   "file": "content/_media/italian-parade-addis-ababa-1936.webp",
+   "kind": "archival",
+   "title": "Military parade of Italian troops in Addis Ababa, May 1936",
+   "creator": "Unknown Italian photographer",
+   "date": "May 1936",
+   "repository": "Polish National Digital Archive (NAC) via Wikimedia Commons",
+   "recordId": "NAC 1-E-199-1",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Military_Parade_of_Italian_Troops_in_Addis_Ababa_(1936).jpg",
+   "licence": {
+    "name": "Public domain (stated by the archive; PD-because on Commons)",
+    "url": "https://commons.wikimedia.org/wiki/File:Military_Parade_of_Italian_Troops_in_Addis_Ababa_(1936).jpg"
+   },
+   "licenceCheckedOn": "2026-11-13",
+   "creditLine": "Photo: unknown photographer, 1936, Narodowe Archiwum Cyfrowe, public domain",
+   "altText": "Black-and-white photograph of a long column of soldiers in pith helmets marching along a dirt road past low buildings.",
+   "widthPx": 1000,
+   "bytes": 149118,
+   "usedIn": [
+    "P1-CS2-RESPONSES"
+   ]
+  },
+  {
+   "mediaId": "M-berryman-honeymoon-cartoon-1939",
+   "file": "content/_media/berryman-honeymoon-cartoon-1939.webp",
+   "kind": "archival",
+   "title": "“Wonder how long the honeymoon will last?”",
+   "creator": "Clifford Berryman",
+   "date": "9 October 1939",
+   "repository": "Library of Congress via Wikimedia Commons",
+   "recordId": "https://www.loc.gov/item/2016679213/",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hitler_and_Stalin._Wonder_how_long_the_honeymoon_will_last%3F.jpg",
+   "licence": {
+    "name": "Public domain (PD-Art, PD-old-70)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-old-70"
+   },
+   "licenceCheckedOn": "2026-11-13",
+   "creditLine": "Cartoon: Clifford Berryman, The Washington Star, 1939, public domain",
+   "altText": "Ink cartoon of Hitler as a groom and Stalin as a bride in a veil and holding flowers, beside a wedding cake marked with swastikas and hammers and sickles.",
+   "widthPx": 960,
+   "bytes": 195134,
+   "usedIn": [
+    "P1-CS2-RESPONSES"
+   ]
+  },
+  {
+   "mediaId": "M-paris-arc-de-triomphe-1940",
+   "file": "content/_media/paris-arc-de-triomphe-1940.webp",
+   "kind": "archival",
+   "title": "German troops at the Arc de Triomphe, Paris, 14 June 1940",
+   "creator": "Gutjahr",
+   "date": "14 June 1940",
+   "repository": "Bundesarchiv via Wikimedia Commons",
+   "recordId": "Bild 101I-126-0347-09A",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-126-0347-09A,_Paris,_Deutsche_Truppen_am_Arc_de_Triomphe.jpg",
+   "licence": {
+    "name": "CC BY-SA 3.0 DE",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+   },
+   "licenceCheckedOn": "2026-11-13",
+   "creditLine": "Bundesarchiv, Bild 101I-126-0347-09A / Gutjahr / CC BY-SA 3.0 DE",
+   "altText": "Black-and-white photograph of German soldiers in helmets marching in front of the Arc de Triomphe.",
+   "widthPx": 536,
+   "bytes": 69198,
+   "usedIn": [
+    "P1-CS2-RESPONSES"
    ]
   }
  ]

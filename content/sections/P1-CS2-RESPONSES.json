@@ -1,0 +1,3386 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P1-CS2-RESPONSES",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 18,
+  "openingProblem": {
+   "problem": "In 1935 the League of Nations imposed sanctions on Italy, yet Addis Ababa fell within seven months. In 1938 Britain and France accepted the union of Germany and Austria and gave Germany the Sudetenland. In March 1939 Britain suddenly promised to defend Poland, and in September it went to war, while the United States declared itself neutral.\n\nWhy did the responses of the League and the democracies fail to deter Germany and Italy, and what finally changed them?",
+   "predictionPrompt": "Your prediction in one line: did the democracies fail because they lacked power, will, or unity? Give one reason.",
+   "revisitPrompt": "Look back at your prediction. Which source or fact changed or confirmed your judgement?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "success_failure",
+    "title": "Why did the League fail to stop Italy in Abyssinia?",
+    "body": "When Italy invaded Ethiopia on 3 October 1935, the League of Nations decided that Italy had broken the Covenant and recommended commercial and financial sanctions. The United States, not a member, imposed its own embargo on arms to both sides under its Neutrality Act, but Secretary of State Hull told the League that the US would “follow our course independently” and did not wish to be invited onto any sanctions committee. By November Hull was warning that American exports of oil, copper, trucks and scrap metal to the belligerents were rising.\n\nThe decisive question was oil. In December 1935 the British Foreign Secretary, Sir Samuel Hoare, explained why he had resigned. An oil embargo, he said, might force an end to the war if non-member states took a full part, but every report said Italy would treat it as an act of war, and no member state except Britain had taken military precautions. To avoid an isolated war with Italy he had agreed a basis for negotiation with Laval of France in Paris. In January 1936 the US Minister in Switzerland reported that most delegates saw the oil embargo as “the test of strength between the League of Nations and Mussolini”, but that League states would not apply it unless American supplies stopped too.\n\nThis matters because the sanctions that were applied were never decisive. Italy carried on, and Addis Ababa fell on 5 May 1936. The United States never recognised Italian sovereignty, but non-recognition did not change the outcome. In 1936 Italy and Germany drew closer after the League's sanctions.\n\nThe League failed in Abyssinia because its members feared a wider war more than an Italian victory, and because the most powerful sanction depended on states outside the League. The failure also showed Hitler that collective security would not be enforced.",
+    "argumentsThatWork": [
+     {
+      "claim": "The League's members would not risk war with Italy.",
+      "evidence": [
+       "F-CS2R-06",
+       "F-CS2R-07"
+      ],
+      "strongestCounter": "The League did recommend commercial and financial sanctions, so it did act."
+     },
+     {
+      "claim": "Sanctions depended on non-members, especially the United States.",
+      "evidence": [
+       "F-CS2R-03",
+       "F-CS2R-05",
+       "F-CS2R-07"
+      ],
+      "strongestCounter": "Hull did try to discourage exports of war materials."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the reasons why League sanctions failed to stop Italy in 1935–1936.",
+     "To what extent did the United States weaken the League's response to the Abyssinian crisis?",
+     "Compare and contrast what two sources reveal about the proposed oil sanction."
+    ],
+    "useItInAnEssay": {
+     "claim": "League sanctions failed because members would not risk war and the decisive sanction, oil, depended on non-members.",
+     "prove": "Hoare told the Commons in December 1935 that Italy would treat an oil embargo as an act of war and that only Britain had taken military precautions.",
+     "explain": "Because no state would face war with Italy, the oil embargo was not imposed, and Italy finished the conquest by May 1936.",
+     "test": "However, the League did recommend sanctions, which showed that collective security was not yet dead in 1935.",
+     "judge": "The League acted, but not with the one measure that might have worked."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS2-RESPONSES-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Hull tell the League on 9 October 1935?",
+      "factIds": [
+       "F-CS2R-03"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "That the US would follow its course independently and did not wish to join a sanctions committee",
+        "correct": true,
+        "explanation": "Correct: the US acted under its own Neutrality Act."
+       },
+       {
+        "id": "b",
+        "text": "That the US would impose an oil embargo",
+        "correct": false,
+        "explanation": "No: Hull only warned about rising exports in November."
+       },
+       {
+        "id": "c",
+        "text": "That the US would join the League",
+        "correct": false,
+        "explanation": "The US remained outside the League."
+       },
+       {
+        "id": "d",
+        "text": "That the US supported Italy",
+        "correct": false,
+        "explanation": "The US never recognised Italian sovereignty."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-RESPONSES-C02",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: Hoare told the Commons that Italy would regard an oil embargo as a military sanction or an act of war. Which argument does it support?",
+      "factIds": [
+       "F-CS2R-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Fear of war with Italy limited the League's sanctions",
+        "correct": true,
+        "explanation": "Correct: the strongest sanction was held back."
+       },
+       {
+        "id": "b",
+        "text": "The oil embargo was imposed in 1935",
+        "correct": false,
+        "explanation": "It was not imposed."
+       },
+       {
+        "id": "c",
+        "text": "Italy welcomed sanctions",
+        "correct": false,
+        "explanation": "The fact suggests the opposite."
+       },
+       {
+        "id": "d",
+        "text": "Britain wanted to leave the League",
+        "correct": false,
+        "explanation": "Hoare spoke of preserving the League."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-RESPONSES-C03",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In which year did Addis Ababa fall to Italy?",
+      "factIds": [
+       "F-CS2R-08"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1936",
+        "tolerance": 0,
+        "explanation": "5 May 1936; Italy's conquest was complete despite sanctions."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "success_failure",
+    "title": "How did Britain, France and the United States respond to German expansion, 1936–1938?",
+    "body": "When German troops entered the Rhineland in March 1936, Britain responded with words and procedure. Foreign Secretary Eden told the Commons that Germany had “profoundly shaken confidence” in any future German promise, but that there was “no reason to suppose that the present German action implies a threat of hostilities”. Britain promised to help France or Belgium if they were attacked, referred the matter to the League Council, and said it would examine Hitler's new proposals.\n\nThe pattern was repeated in March 1938. Lord Halifax warned the German Foreign Minister about Austria, and the British Ambassador protested against “coercion, backed by force”. Germany replied that Austria was an internal German affair. Chamberlain then told the Commons the “hard fact” that “nothing could have arrested this action by Germany unless we and others with us had been prepared to use force to prevent it”. Three days later Secretary of State Hull warned Americans that isolation was “a fruitful source of insecurity”, but he also said the US would avoid “undesirable political involvements”.\n\nThis matters because the democracies recognised each breach but were not prepared to use force. During the Czech crisis of September 1938 Roosevelt appealed to the governments involved to continue negotiating, and on 29 September Germany, Italy, Britain and France signed the Munich agreement, handing the Sudetenland to Germany. Chamberlain told the Commons on 3 October that “the path which leads to appeasement is long and bristles with obstacles”, and he spoke of a great programme of rearmament.\n\nAppeasement was therefore not simply weakness. It rested on the judgement that only force could stop Germany and that Britain and France were not ready to use it, while the United States would offer only principles. But each concession was followed by a larger demand, and in March 1939 the German occupation of the Czech lands showed that Munich had not satisfied Hitler.",
+    "argumentsThatWork": [
+     {
+      "claim": "The democracies condemned each breach but would not use force.",
+      "evidence": [
+       "F-CS2R-12",
+       "F-CS2R-13"
+      ],
+      "strongestCounter": "Britain did promise to help France and Belgium if attacked, so it drew a line at its own treaty partners."
+     },
+     {
+      "claim": "Appeasement was a calculated policy, combined with rearmament.",
+      "evidence": [
+       "F-CS2R-15",
+       "F-CS2R-16"
+      ],
+      "strongestCounter": "The occupation of the Czech lands showed that concessions did not satisfy Hitler."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, to what extent was appeasement the main response of Britain and France to German expansion between 1936 and 1938?",
+     "Examine the reasons why Britain did not resist the remilitarisation of the Rhineland.",
+     "Compare and contrast what two sources reveal about British and American responses to the Anschluss."
+    ],
+    "useItInAnEssay": {
+     "claim": "Britain and France responded to German expansion with protest and negotiation because they judged that only force could stop Germany.",
+     "prove": "In March 1938 Chamberlain told the Commons that nothing could have arrested the German action unless Britain and others were prepared to use force.",
+     "explain": "Because they were not prepared, they accepted the Anschluss and then gave Germany the Sudetenland at Munich in September 1938.",
+     "test": "However, Chamberlain combined appeasement with rearmament, and Britain did promise to help France and Belgium if they were attacked.",
+     "judge": "Appeasement was the main response, but it was a choice about timing and readiness, not simply a lack of will."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS2-RESPONSES-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Chamberlain call the “hard fact” about the Anschluss on 14 March 1938?",
+      "factIds": [
+       "F-CS2R-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Nothing could have stopped Germany unless Britain and others were prepared to use force",
+        "correct": true,
+        "explanation": "Correct: and they were not."
+       },
+       {
+        "id": "b",
+        "text": "Austria had asked to join Germany",
+        "correct": false,
+        "explanation": "He described an ultimatum and the threat of force."
+       },
+       {
+        "id": "c",
+        "text": "Britain would go to war over Austria",
+        "correct": false,
+        "explanation": "Britain only protested."
+       },
+       {
+        "id": "d",
+        "text": "The League would restore Austria",
+        "correct": false,
+        "explanation": "He did not say so."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-RESPONSES-C05",
+      "kind": "checkpoint",
+      "type": "spot_error",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: “Eden told the Commons in March 1936 that the German action in the Rhineland was a threat of hostilities and that Britain would go to war.”",
+      "factIds": [
+       "F-CS2R-12"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "He said there was no reason to suppose the action implied a threat of hostilities",
+        "correct": true,
+        "explanation": "Correct: Britain referred the matter to the League Council."
+       },
+       {
+        "id": "b",
+        "text": "Eden was Prime Minister",
+        "correct": false,
+        "explanation": "That is not the error; he was Foreign Secretary."
+       },
+       {
+        "id": "c",
+        "text": "The year should be 1938",
+        "correct": false,
+        "explanation": "That is not the error: it was March 1936."
+       },
+       {
+        "id": "d",
+        "text": "He did not mention Locarno",
+        "correct": false,
+        "explanation": "That is not the error; he discussed Locarno at length."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-RESPONSES-C06",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: Hull said in March 1938 that the US would avoid both internationalism and isolationism. Which argument does it support?",
+      "factIds": [
+       "F-CS2R-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The United States offered principles but no commitments",
+        "correct": true,
+        "explanation": "Correct: it rejected isolation but also political involvements."
+       },
+       {
+        "id": "b",
+        "text": "The US was about to join an alliance against Germany",
+        "correct": false,
+        "explanation": "Hull rejected undesirable political involvements."
+       },
+       {
+        "id": "c",
+        "text": "The US approved the Anschluss",
+        "correct": false,
+        "explanation": "He condemned brute force."
+       },
+       {
+        "id": "d",
+        "text": "The US was fully isolationist",
+        "correct": false,
+        "explanation": "He called isolation a source of insecurity."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "causes",
+    "title": "Why did Britain and France abandon appeasement in 1939?",
+    "body": "The German occupation of the Czech lands on 14–15 March 1939 broke the Munich agreement and Hitler's promise that he had no more territorial claims in Europe. Italy invaded Albania on 7 April. These blows, the State Department later wrote, awoke Europe to the danger it faced. On 31 March Chamberlain told the Commons that if Polish independence were clearly threatened and Poland chose to resist, Britain “would feel themselves bound at once to lend the Polish Government all support in their power”, and that France stood in the same position. Guarantees to Greece and Rumania followed, and talks began with the Soviet Union for a common front.\n\nThe United States also spoke more plainly, but without commitments. On 14 April Roosevelt asked Hitler and Mussolini for assurances that they would not attack the independent nations of Europe and the Near East, pointing out that “three nations in Europe and one in Africa have seen their independent existence terminated”. Neither dictator replied directly.\n\nThis matters because the guarantee to Poland changed the question from whether to resist to when. The Nazi–Soviet Pact of 23 August removed the prospect of a common front with the Soviet Union, and on 1 September Germany invaded Poland. Britain and France declared war on 3 September, in compliance with their obligations to Poland. The same evening Roosevelt told Americans that the United States would remain neutral, though he could not ask every American to “remain neutral in thought”. In November 1939 Congress repealed the arms embargo, so Britain and France could buy American aircraft and munitions.\n\nAppeasement ended in 1939 because Hitler's seizure of non-German territory showed that his aims had no limit, and because British and French leaders now believed resistance had become unavoidable. The Nazi–Soviet Pact made that resistance harder, but it did not change the decision.",
+    "argumentsThatWork": [
+     {
+      "claim": "The occupation of the Czech lands showed that Hitler's aims had no limit.",
+      "evidence": [
+       "F-CS2R-18",
+       "F-CS2R-19",
+       "F-CS2R-20"
+      ],
+      "strongestCounter": "Britain's guarantee was limited to Polish independence, not Polish borders."
+     },
+     {
+      "claim": "The United States moved from appeals to support short of war.",
+      "evidence": [
+       "F-CS2R-21",
+       "F-CS2R-25",
+       "F-CS2R-26"
+      ],
+      "strongestCounter": "The US remained neutral and Congress alone could commit it to war."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the reasons why Britain and France abandoned appeasement in 1939.",
+     "To what extent did the United States change its response to German aggression in 1939?",
+     "Compare and contrast what two sources reveal about British and American responses to German aggression in 1939."
+    ],
+    "useItInAnEssay": {
+     "claim": "Britain and France abandoned appeasement because the occupation of the Czech lands showed that Hitler could not be satisfied.",
+     "prove": "On 31 March 1939 Chamberlain told the Commons that Britain would lend Poland “all support in their power” if its independence were threatened.",
+     "explain": "Because the guarantee committed Britain and France in advance, the German invasion of Poland on 1 September led to war on 3 September.",
+     "test": "However, the guarantee did not deter Hitler, especially once the Nazi–Soviet Pact removed the Soviet danger.",
+     "judge": "The change of policy made war likely rather than preventing it, but it ended the cycle of concessions."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS2-RESPONSES-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Chamberlain announce on 31 March 1939?",
+      "factIds": [
+       "F-CS2R-19"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Britain would support Poland if its independence were clearly threatened and Poland resisted",
+        "correct": true,
+        "explanation": "Correct: France stood in the same position."
+       },
+       {
+        "id": "b",
+        "text": "Britain would give Danzig to Germany",
+        "correct": false,
+        "explanation": "He announced support for Poland."
+       },
+       {
+        "id": "c",
+        "text": "Britain had declared war",
+        "correct": false,
+        "explanation": "That was 3 September 1939."
+       },
+       {
+        "id": "d",
+        "text": "Britain would join the Nazi–Soviet Pact",
+        "correct": false,
+        "explanation": "The pact came in August, between Germany and the USSR."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-RESPONSES-C08",
+      "kind": "checkpoint",
+      "type": "chronology",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Put these events in order.",
+      "sequence": [
+       {
+        "id": "a",
+        "text": "Czech lands occupied",
+        "year": 1939,
+        "month": 3,
+        "factId": "F-CS2R-18"
+       },
+       {
+        "id": "b",
+        "text": "Roosevelt's appeal to Hitler and Mussolini",
+        "year": 1939,
+        "month": 4,
+        "factId": "F-CS2R-21"
+       },
+       {
+        "id": "c",
+        "text": "Nazi–Soviet Pact",
+        "year": 1939,
+        "month": 8,
+        "factId": "F-CS2R-22"
+       },
+       {
+        "id": "d",
+        "text": "Arms embargo repealed",
+        "year": 1939,
+        "month": 11,
+        "factId": "F-CS2R-26"
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-RESPONSES-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: on 3 September 1939 Roosevelt said the US would remain neutral but he could not ask every American to remain neutral in thought. Which argument does it support?",
+      "factIds": [
+       "F-CS2R-25"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The US stayed out of the war while openly sympathising with Britain and France",
+        "correct": true,
+        "explanation": "Correct: neutral in law, not in opinion."
+       },
+       {
+        "id": "b",
+        "text": "The US declared war in 1939",
+        "correct": false,
+        "explanation": "It remained neutral."
+       },
+       {
+        "id": "c",
+        "text": "The US supported Germany",
+        "correct": false,
+        "explanation": "Roosevelt's words point the other way."
+       },
+       {
+        "id": "d",
+        "text": "Roosevelt wanted Americans to ignore the war",
+        "correct": false,
+        "explanation": "He said a neutral need not close his mind."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "How did the world respond to combined German and Italian aggression in 1940?",
+    "body": "After a quiet winter, the war spread in the spring of 1940. Germany invaded Denmark and Norway on 9 April; Britain and France sent forces to Norway but were pushed back. On 10 May Germany attacked Belgium, Luxembourg and the Netherlands, and the British and French troops sent to help them were forced to withdraw from Dunkirk at the end of May.\n\nRoosevelt tried to keep Italy out. On 29 April and again on 14 May he appealed to Mussolini to stay apart from the war. Mussolini replied on 18 May that Italy “is and intends to remain allied with Germany” and “cannot remain absent at a moment in which the fate of Europe is at stake”. On 10 June Italy declared war on France and Britain. That day Roosevelt said at Charlottesville that “the hand that held the dagger has struck it into the back of its neighbor”, and he promised to “extend to the opponents of force the material resources of this Nation”. The US sent the British and French large quantities of aircraft, rifles, artillery and ammunition.\n\nThis matters because American support stopped short of war. On 14 June, the day German troops entered Paris, the French Premier, Paul Reynaud, begged Roosevelt for the certainty that the United States would enter the war “within a very short time”. Roosevelt replied that supplies would continue in ever-increasing quantities, but that his statements carried no military commitment, which only Congress could make. On 17 June the French government under Marshal Pétain asked Germany for armistice terms.\n\nThe responses of 1940 therefore came too late to save France. Combined aggression was met by British resistance and by American material aid, but not by American military power, which left Britain to fight on alone after June 1940.",
+    "argumentsThatWork": [
+     {
+      "claim": "Italy joined the war when German victory seemed certain, despite US appeals.",
+      "evidence": [
+       "F-CS2R-29",
+       "F-CS2R-30"
+      ],
+      "strongestCounter": "Mussolini also spoke of loyalty to the German alliance."
+     },
+     {
+      "claim": "US aid in 1940 was material, not military.",
+      "evidence": [
+       "F-CS2R-31",
+       "F-CS2R-32",
+       "F-CS2R-33"
+      ],
+      "strongestCounter": "The repeal of the arms embargo and the speed of deliveries were real help."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, evaluate international responses to German and Italian aggression in 1940.",
+     "To what extent did the United States change its policy towards the war in Europe in 1940?",
+     "Compare and contrast what two sources reveal about American help to France in June 1940."
+    ],
+    "useItInAnEssay": {
+     "claim": "In 1940 the democracies responded to combined aggression with resistance and material aid, but too late to save France.",
+     "prove": "On 10 June 1940 Roosevelt promised the “material resources of this Nation”, but on 14 June Reynaud's request for American entry into the war was refused.",
+     "explain": "Because only Congress could commit the US to war, France could not be given the certainty it asked for, and on 17 June it sought an armistice.",
+     "test": "However, American aircraft and munitions did reach the Allies after the arms embargo was repealed in November 1939.",
+     "judge": "The response changed in scale in 1940 but not in kind: material help, not intervention."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS2-RESPONSES-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Mussolini tell Roosevelt on 18 May 1940?",
+      "factIds": [
+       "F-CS2R-29"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Italy was and would remain allied with Germany and could not stay absent",
+        "correct": true,
+        "explanation": "Correct: Italy declared war on 10 June."
+       },
+       {
+        "id": "b",
+        "text": "Italy would stay neutral",
+        "correct": false,
+        "explanation": "He said the opposite."
+       },
+       {
+        "id": "c",
+        "text": "Italy would mediate a peace",
+        "correct": false,
+        "explanation": "He rejected Roosevelt's appeal."
+       },
+       {
+        "id": "d",
+        "text": "Italy would join Britain",
+        "correct": false,
+        "explanation": "He confirmed the German alliance."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-RESPONSES-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what date in 1940 did Italy declare war on France and Britain? (day and month)",
+      "factIds": [
+       "F-CS2R-30"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "10 June",
+        "tolerance": 0,
+        "explanation": "10 June 1940, the day of Roosevelt's Charlottesville address.",
+        "accept": [
+         "10 jun",
+         "june 10",
+         "10th june",
+         "10/6"
+        ]
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS2-RESPONSES-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: Roosevelt told Reynaud that his promises of supplies carried no implication of military commitments, which only Congress could make. Which argument does it support?",
+      "factIds": [
+       "F-CS2R-33"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "US help in 1940 was limited to material aid",
+        "correct": true,
+        "explanation": "Correct: France asked for more than the President could give."
+       },
+       {
+        "id": "b",
+        "text": "The US entered the war in June 1940",
+        "correct": false,
+        "explanation": "It did not."
+       },
+       {
+        "id": "c",
+        "text": "Roosevelt refused all help to France",
+        "correct": false,
+        "explanation": "He promised ever-increasing supplies."
+       },
+       {
+        "id": "d",
+        "text": "France did not ask for help",
+        "correct": false,
+        "explanation": "Reynaud asked for American entry into the war."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1935,
+      "month": 10,
+      "day": 5,
+      "text": "US arms embargo on Italy and Ethiopia",
+      "factId": "F-CS2R-04"
+     },
+     {
+      "year": 1935,
+      "month": 12,
+      "day": 19,
+      "text": "Hoare explains his resignation",
+      "factId": "F-CS2R-06"
+     },
+     {
+      "year": 1936,
+      "month": 3,
+      "day": 9,
+      "text": "Eden's statement on the Rhineland",
+      "factId": "F-CS2R-12"
+     },
+     {
+      "year": 1936,
+      "month": 5,
+      "day": 5,
+      "text": "Addis Ababa falls despite sanctions",
+      "factId": "F-CS2R-08"
+     },
+     {
+      "year": 1938,
+      "month": 3,
+      "day": 14,
+      "text": "Chamberlain: only force could have stopped the Anschluss",
+      "factId": "F-CS2R-13"
+     },
+     {
+      "year": 1938,
+      "month": 9,
+      "day": 29,
+      "text": "Munich agreement",
+      "factId": "F-CS2R-15"
+     },
+     {
+      "year": 1939,
+      "month": 3,
+      "day": 31,
+      "text": "British and French guarantee to Poland",
+      "factId": "F-CS2R-19"
+     },
+     {
+      "year": 1939,
+      "month": 4,
+      "day": 14,
+      "text": "Roosevelt's appeal to Hitler and Mussolini",
+      "factId": "F-CS2R-21"
+     },
+     {
+      "year": 1939,
+      "month": 9,
+      "day": 3,
+      "text": "Britain and France declare war on Germany",
+      "factId": "F-CS2R-24"
+     },
+     {
+      "year": 1939,
+      "month": 11,
+      "day": 4,
+      "text": "US repeals the arms embargo",
+      "factId": "F-CS2R-26"
+     },
+     {
+      "year": 1940,
+      "month": 6,
+      "day": 10,
+      "text": "Italy enters the war; Charlottesville address",
+      "factId": "F-CS2R-31"
+     },
+     {
+      "year": 1940,
+      "month": 6,
+      "day": 17,
+      "text": "France asks for armistice terms",
+      "factId": "F-CS2R-34"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "League sanctions on Italy, but no oil embargo (1935)",
+      "factId": "F-CS2R-06"
+     },
+     {
+      "id": "n2",
+      "text": "Italy conquers Ethiopia; collective security discredited (1936)",
+      "factId": "F-CS2R-08"
+     },
+     {
+      "id": "n3",
+      "text": "Rhineland and Anschluss met with protests only (1936–38)",
+      "factId": "F-CS2R-13"
+     },
+     {
+      "id": "n4",
+      "text": "Munich: appeasement at its height (1938)",
+      "factId": "F-CS2R-15"
+     },
+     {
+      "id": "n5",
+      "text": "Czech lands seized; guarantee to Poland (March 1939)",
+      "factId": "F-CS2R-19"
+     },
+     {
+      "id": "n6",
+      "text": "War over Poland; US neutral but supplying the Allies (1939–40)",
+      "factId": "F-CS2R-26"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "members would not risk war over oil, so sanctions could not stop the conquest"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "the failure showed that collective security would not be enforced"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "Britain and France judged only force could stop Germany and were not ready to use it"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "the occupation of the Czech lands showed that concessions did not satisfy Hitler"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "the guarantee committed Britain and France to war when Germany invaded Poland"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Sir Samuel Hoare",
+     "role": "British Foreign Secretary to December 1935",
+     "whyItMatters": "Agreed proposals with Laval to end the Abyssinian war and resigned over them.",
+     "factIds": [
+      "F-CS2R-06"
+     ]
+    },
+    {
+     "name": "Eden",
+     "role": "British Foreign Secretary in March 1936",
+     "whyItMatters": "Condemned the Rhineland breach but saw no threat of hostilities.",
+     "factIds": [
+      "F-CS2R-12"
+     ]
+    },
+    {
+     "name": "Chamberlain",
+     "role": "British Prime Minister from 1937",
+     "whyItMatters": "Led appeasement at Munich, then gave the guarantee to Poland in March 1939.",
+     "factIds": [
+      "F-CS2R-13",
+      "F-CS2R-19"
+     ]
+    },
+    {
+     "name": "Cordell Hull",
+     "role": "US Secretary of State",
+     "whyItMatters": "Kept the US independent of League sanctions while condemning force.",
+     "factIds": [
+      "F-CS2R-03",
+      "F-CS2R-14"
+     ]
+    },
+    {
+     "name": "Roosevelt",
+     "role": "US President",
+     "whyItMatters": "Appealed to the dictators, kept the US neutral, and sent material aid in 1940.",
+     "factIds": [
+      "F-CS2R-21",
+      "F-CS2R-25",
+      "F-CS2R-31"
+     ]
+    },
+    {
+     "name": "Paul Reynaud",
+     "role": "French Premier in June 1940",
+     "whyItMatters": "Begged the US to enter the war as France collapsed.",
+     "factIds": [
+      "F-CS2R-33"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Britain and France",
+     "United States"
+    ],
+    "rows": [
+     {
+      "criterion": "Italy in Abyssinia (1935–36)",
+      "cells": [
+       "League sanctions, but no oil embargo; Hoare–Laval proposals",
+       "Arms embargo on both sides; independent of the League"
+      ],
+      "factIds": [
+       "F-CS2R-06",
+       "F-CS2R-03"
+      ]
+     },
+     {
+      "criterion": "Germany (1936–38)",
+      "cells": [
+       "Protests; Munich agreement",
+       "Principles and appeals; no commitments"
+      ],
+      "factIds": [
+       "F-CS2R-13",
+       "F-CS2R-14",
+       "F-CS2R-17"
+      ]
+     },
+     {
+      "criterion": "1939–40",
+      "cells": [
+       "Guarantee to Poland; war from 3 September 1939",
+       "Neutrality; arms embargo repealed; material aid in 1940"
+      ],
+      "factIds": [
+       "F-CS2R-19",
+       "F-CS2R-25",
+       "F-CS2R-26",
+       "F-CS2R-32"
+      ]
+     }
+    ]
+   },
+   "archival": [
+    "M-italian-parade-addis-ababa-1936",
+    "M-munich-conference-1938",
+    "M-berryman-honeymoon-cartoon-1939",
+    "M-paris-arc-de-triomphe-1940"
+   ]
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-CS2R-06",
+    "year": 1935,
+    "text": "19 December 1935 (Hoare): an oil embargo might end the war, but Italy would treat it as an act of war, and only Britain had taken military precautions.",
+    "supports": [
+     "Fear of war limited League sanctions"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-EVENTS"
+    ],
+    "lexicon": [
+     "Hoare",
+     "oil embargo",
+     "Laval",
+     "sanctions"
+    ]
+   },
+   {
+    "factId": "F-CS2R-07",
+    "year": 1936,
+    "text": "27 January 1936 (Wilson): delegates saw the oil embargo as “the test of strength between the League of Nations and Mussolini”, but it depended on the US.",
+    "supports": [
+     "Sanctions depended on non-members"
+    ],
+    "lexicon": [
+     "Wilson",
+     "oil",
+     "League",
+     "test of strength"
+    ]
+   },
+   {
+    "factId": "F-CS2R-12",
+    "year": 1936,
+    "text": "9 March 1936 (Eden): German action “profoundly shaken confidence”, but there was “no reason to suppose” a threat of hostilities; the matter went to the League Council.",
+    "supports": [
+     "The democracies condemned breaches but would not use force"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-EVENTS"
+    ],
+    "lexicon": [
+     "Eden",
+     "Rhineland",
+     "Locarno",
+     "League Council"
+    ]
+   },
+   {
+    "factId": "F-CS2R-13",
+    "year": 1938,
+    "text": "14 March 1938 (Chamberlain): “nothing could have arrested this action by Germany unless we and others with us had been prepared to use force”.",
+    "supports": [
+     "Appeasement rested on unwillingness to use force"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-EVENTS",
+     "P1-CS2-CAUSES"
+    ],
+    "lexicon": [
+     "Anschluss",
+     "Chamberlain",
+     "hard fact",
+     "appeasement"
+    ]
+   },
+   {
+    "factId": "F-CS2R-19",
+    "year": 1939,
+    "text": "31 March 1939 (Chamberlain): Britain, with France, would lend Poland “all support in their power” if its independence were threatened.",
+    "supports": [
+     "Appeasement ended after the occupation of the Czech lands"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-EVENTS"
+    ],
+    "lexicon": [
+     "guarantee",
+     "Poland",
+     "31 March 1939"
+    ]
+   },
+   {
+    "factId": "F-CS2R-25",
+    "year": 1939,
+    "text": "3 September 1939 (Roosevelt): “This Nation will remain a neutral nation, but I cannot ask that every American remain neutral in thought as well.”",
+    "supports": [
+     "The US stayed neutral but sympathetic"
+    ],
+    "lexicon": [
+     "neutral",
+     "Roosevelt",
+     "radio"
+    ]
+   },
+   {
+    "factId": "F-CS2R-26",
+    "year": 1939,
+    "text": "4 November 1939: the arms embargo was repealed, so Britain and France could buy American war materials.",
+    "supports": [
+     "US support moved from words to supplies"
+    ],
+    "lexicon": [
+     "Neutrality Act",
+     "arms embargo",
+     "cash"
+    ]
+   },
+   {
+    "factId": "F-CS2R-33",
+    "year": 1940,
+    "text": "14 June 1940: Reynaud asked for the certainty that the US would enter the war; Roosevelt promised supplies but no military commitment.",
+    "supports": [
+     "US help in 1940 was material, not military"
+    ],
+    "alsoWorksFor": [
+     "P1-CS2-EVENTS"
+    ],
+    "lexicon": [
+     "Reynaud",
+     "Paris",
+     "armistice",
+     "Congress"
+    ]
+   }
+  ],
+  "historiography": [],
+  "misconceptions": [
+   {
+    "wrong": "The League did nothing when Italy invaded Ethiopia.",
+    "right": "The League **recommended commercial and financial sanctions**; it did not impose the **oil embargo**, which members feared would mean war."
+   },
+   {
+    "wrong": "The United States applied League sanctions against Italy.",
+    "right": "The US was not a League member; it imposed its **own arms embargo on both sides** and acted **independently**."
+   },
+   {
+    "wrong": "Britain went to war when Germany occupied the Czech lands.",
+    "right": "Britain responded with a **guarantee to Poland (31 March 1939)**; it declared war only on **3 September 1939**, after the invasion of Poland."
+   },
+   {
+    "wrong": "The United States entered the war in 1940 to save France.",
+    "right": "Roosevelt promised **supplies**, but told Reynaud there was **no military commitment**; France asked for an armistice on **17 June 1940**."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1935,
+     "month": 10,
+     "day": 5,
+     "text": "US arms embargo on both belligerents"
+    },
+    {
+     "year": 1935,
+     "month": 12,
+     "day": 19,
+     "text": "Hoare explains his resignation"
+    },
+    {
+     "year": 1936,
+     "month": 3,
+     "day": 9,
+     "text": "Eden on the Rhineland"
+    },
+    {
+     "year": 1936,
+     "month": 5,
+     "day": 5,
+     "text": "Addis Ababa falls"
+    },
+    {
+     "year": 1938,
+     "month": 3,
+     "day": 14,
+     "text": "Chamberlain on the Anschluss"
+    },
+    {
+     "year": 1938,
+     "month": 9,
+     "day": 29,
+     "text": "Munich"
+    },
+    {
+     "year": 1939,
+     "month": 3,
+     "day": 31,
+     "text": "Guarantee to Poland"
+    },
+    {
+     "year": 1939,
+     "month": 4,
+     "day": 14,
+     "text": "Roosevelt's appeal"
+    },
+    {
+     "year": 1939,
+     "month": 9,
+     "day": 3,
+     "text": "War declared"
+    },
+    {
+     "year": 1939,
+     "month": 11,
+     "day": 4,
+     "text": "Arms embargo repealed"
+    },
+    {
+     "year": 1940,
+     "month": 6,
+     "day": 10,
+     "text": "Italy enters the war"
+    },
+    {
+     "year": 1940,
+     "month": 6,
+     "day": 17,
+     "text": "France asks for an armistice"
+    }
+   ],
+   "keyArguments": [
+    "League sanctions failed in 1935–36 because members feared war over oil and the embargo depended on non-members such as the US.",
+    "Britain and France protested at each German breach (1936–38) but judged that only force could stop Germany and were not ready to use it.",
+    "The occupation of the Czech lands (March 1939) ended appeasement: the guarantee to Poland led to war on 3 September 1939.",
+    "In 1940 the US gave material aid but no military commitment, which could not save France from defeat."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P1-CS2-RESPONSES-R01",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the League do after Italy invaded Ethiopia?",
+   "factIds": [
+    "F-CS2R-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Decided Italy had broken the Covenant and recommended commercial and financial sanctions",
+     "correct": true,
+     "explanation": "Correct: but no oil embargo was imposed."
+    },
+    {
+     "id": "b",
+     "text": "Sent an army to Ethiopia",
+     "correct": false,
+     "explanation": "The League had no army."
+    },
+    {
+     "id": "c",
+     "text": "Expelled Germany",
+     "correct": false,
+     "explanation": "Germany had already given notice to leave."
+    },
+    {
+     "id": "d",
+     "text": "Recognised Italian rule",
+     "correct": false,
+     "explanation": "The League judged Italy an aggressor."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these responses in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "US arms embargo on both belligerents",
+     "year": 1935,
+     "month": 10,
+     "factId": "F-CS2R-04"
+    },
+    {
+     "id": "b",
+     "text": "Hoare explains his resignation",
+     "year": 1935,
+     "month": 12,
+     "factId": "F-CS2R-06"
+    },
+    {
+     "id": "c",
+     "text": "Eden on the Rhineland",
+     "year": 1936,
+     "month": 3,
+     "factId": "F-CS2R-12"
+    },
+    {
+     "id": "d",
+     "text": "Chamberlain on the Anschluss",
+     "year": 1938,
+     "month": 3,
+     "factId": "F-CS2R-13"
+    },
+    {
+     "id": "e",
+     "text": "Guarantee to Poland",
+     "year": 1939,
+     "month": 3,
+     "factId": "F-CS2R-19"
+    },
+    {
+     "id": "f",
+     "text": "Charlottesville address",
+     "year": 1940,
+     "month": 6,
+     "factId": "F-CS2R-31"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R03",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which commodities did Hull say on 15 November 1935 were being exported for war purposes? Choose all that apply.",
+   "factIds": [
+    "F-CS2R-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Oil",
+     "correct": true,
+     "explanation": "Yes: he named it first."
+    },
+    {
+     "id": "b",
+     "text": "Scrap iron and scrap steel",
+     "correct": true,
+     "explanation": "Yes: essential war materials."
+    },
+    {
+     "id": "c",
+     "text": "Trucks and tractors",
+     "correct": true,
+     "explanation": "Yes: he listed them."
+    },
+    {
+     "id": "d",
+     "text": "Aircraft",
+     "correct": false,
+     "explanation": "Aircraft are not in his list."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R04",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which British Foreign Secretary resigned in December 1935 after agreeing proposals with Laval in Paris?",
+   "factIds": [
+    "F-CS2R-06"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Hoare",
+     "tolerance": 0,
+     "explanation": "Sir Samuel Hoare explained his resignation to the Commons on 19 December 1935.",
+     "accept": [
+      "samuel hoare",
+      "sir samuel hoare"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R05",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Wilson reported in January 1936 that League states would not apply an oil embargo unless American supplies stopped too. Which argument does it support?",
+   "factIds": [
+    "F-CS2R-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The League's strongest sanction depended on a non-member",
+     "correct": true,
+     "explanation": "Correct: the US was outside the League."
+    },
+    {
+     "id": "b",
+     "text": "The US led the League",
+     "correct": false,
+     "explanation": "The US acted independently."
+    },
+    {
+     "id": "c",
+     "text": "Italy had plenty of its own oil",
+     "correct": false,
+     "explanation": "The fact concerns supplies from outside."
+    },
+    {
+     "id": "d",
+     "text": "The embargo was imposed in January 1936",
+     "correct": false,
+     "explanation": "It was not imposed."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R06",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The United States recognised Italy's conquest of Ethiopia in 1936.”",
+   "factIds": [
+    "F-CS2R-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The United States never recognised Italian sovereignty over Ethiopia",
+     "correct": true,
+     "explanation": "Correct: non-recognition, as over Manchuria."
+    },
+    {
+     "id": "b",
+     "text": "The conquest ended in 1938",
+     "correct": false,
+     "explanation": "That is not the error; Addis Ababa fell in May 1936."
+    },
+    {
+     "id": "c",
+     "text": "Ethiopia conquered Italy",
+     "correct": false,
+     "explanation": "That is not the error in the statement."
+    },
+    {
+     "id": "d",
+     "text": "The US was a League member",
+     "correct": false,
+     "explanation": "That is not the error in the statement."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R07",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Britain respond to the Rhineland reoccupation in March 1936?",
+   "factIds": [
+    "F-CS2R-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It condemned the breach, referred the matter to the League Council and promised to help France or Belgium if attacked",
+     "correct": true,
+     "explanation": "Correct: it saw no threat of hostilities."
+    },
+    {
+     "id": "b",
+     "text": "It declared war on Germany",
+     "correct": false,
+     "explanation": "No: Britain did not fight."
+    },
+    {
+     "id": "c",
+     "text": "It accepted Germany's return to the League at once",
+     "correct": false,
+     "explanation": "It said it would examine the proposals."
+    },
+    {
+     "id": "d",
+     "text": "It sent troops into the Rhineland",
+     "correct": false,
+     "explanation": "No British troops were sent."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R08",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each statement to its speaker.",
+   "pairs": [
+    {
+     "left": "“The hard fact is … nothing could have arrested this action”",
+     "right": "Chamberlain, 14 March 1938",
+     "explanation": "On the Anschluss."
+    },
+    {
+     "left": "“profoundly shaken confidence”",
+     "right": "Eden, 9 March 1936",
+     "explanation": "On the Rhineland."
+    },
+    {
+     "left": "“the test of strength between the League of Nations and Mussolini”",
+     "right": "Wilson, January 1936",
+     "explanation": "On the oil embargo."
+    },
+    {
+     "left": "“the hand that held the dagger has struck it into the back of its neighbor”",
+     "right": "Roosevelt, 10 June 1940",
+     "explanation": "On Italy's entry into the war."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R09",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Case Study 2 runs from 1933 to 1940. Is the Lend-Lease Act (March 1941) inside or outside the timeframe?",
+   "timeframe": [
+    1933,
+    1940
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: 1941 is after the case study ends."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: it is after 1940."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because US aid began in 1940",
+     "correct": false,
+     "explanation": "The timeframe, not the link, decides."
+    },
+    {
+     "id": "d",
+     "text": "Inside, as background",
+     "correct": false,
+     "explanation": "Later events are outside, not background."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R10",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Hull say about isolation in his address of 17 March 1938?",
+   "factIds": [
+    "F-CS2R-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That the US would avoid both isolationism and undesirable political involvements",
+     "correct": true,
+     "explanation": "Correct: a middle course with no commitments."
+    },
+    {
+     "id": "b",
+     "text": "That the US would join the League",
+     "correct": false,
+     "explanation": "He did not say so."
+    },
+    {
+     "id": "c",
+     "text": "That the US would defend Austria",
+     "correct": false,
+     "explanation": "No commitment was made."
+    },
+    {
+     "id": "d",
+     "text": "That isolation was the best security",
+     "correct": false,
+     "explanation": "He called isolation a source of insecurity."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: on 3 October 1938 Chamberlain said “the path which leads to appeasement is long and bristles with obstacles” and spoke of rearmament. Which argument does it support?",
+   "factIds": [
+    "F-CS2R-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Appeasement was a deliberate policy combined with rearmament",
+     "correct": true,
+     "explanation": "Correct: he did not present Munich as final."
+    },
+    {
+     "id": "b",
+     "text": "Chamberlain thought Munich guaranteed peace for ever",
+     "correct": false,
+     "explanation": "He spoke of obstacles ahead."
+    },
+    {
+     "id": "c",
+     "text": "Britain was disarming",
+     "correct": false,
+     "explanation": "He spoke of rearmament."
+    },
+    {
+     "id": "d",
+     "text": "Chamberlain opposed appeasement",
+     "correct": false,
+     "explanation": "He defended it."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R12",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date in 1939 did Chamberlain announce the guarantee to Poland? (day and month)",
+   "factIds": [
+    "F-CS2R-19"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "31 March",
+     "tolerance": 0,
+     "explanation": "31 March 1939; France stood in the same position.",
+     "accept": [
+      "31 mar",
+      "march 31",
+      "31st march",
+      "31/3"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R13",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Roosevelt ask of Hitler and Mussolini on 14 April 1939?",
+   "factIds": [
+    "F-CS2R-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Assurances that they would not attack or invade the independent nations of Europe and the Near East",
+     "correct": true,
+     "explanation": "Correct: neither replied directly."
+    },
+    {
+     "id": "b",
+     "text": "That they join the League",
+     "correct": false,
+     "explanation": "He did not ask this."
+    },
+    {
+     "id": "c",
+     "text": "That they declare war on the Soviet Union",
+     "correct": false,
+     "explanation": "No such request."
+    },
+    {
+     "id": "d",
+     "text": "That they hand back Ethiopia",
+     "correct": false,
+     "explanation": "He did not ask this."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R14",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “On 3 September 1939 Roosevelt declared that the United States was at war with Germany.”",
+   "factIds": [
+    "F-CS2R-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He declared that the United States would remain neutral",
+     "correct": true,
+     "explanation": "Correct: the US entered the war only in December 1941."
+    },
+    {
+     "id": "b",
+     "text": "The date should be 1938",
+     "correct": false,
+     "explanation": "That is not the error in the statement."
+    },
+    {
+     "id": "c",
+     "text": "Roosevelt was not President",
+     "correct": false,
+     "explanation": "That is not the error; he was President."
+    },
+    {
+     "id": "d",
+     "text": "He spoke about Japan",
+     "correct": false,
+     "explanation": "That is not the error in the statement."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R15",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which month of 1939 was the US arms embargo repealed?",
+   "factIds": [
+    "F-CS2R-26"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "November",
+     "tolerance": 0,
+     "explanation": "4 November 1939: Britain and France could then buy American war materials."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R16",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were responses to aggression in 1940? Choose all that apply.",
+   "factIds": [
+    "F-CS2R-28",
+    "F-CS2R-31",
+    "F-CS2R-32"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Britain and France sent forces to Norway",
+     "correct": true,
+     "explanation": "Yes: in April 1940."
+    },
+    {
+     "id": "b",
+     "text": "Roosevelt promised material resources to the opponents of force",
+     "correct": true,
+     "explanation": "Yes: at Charlottesville, 10 June 1940."
+    },
+    {
+     "id": "c",
+     "text": "The US sent aircraft, rifles, artillery and ammunition to Britain and France",
+     "correct": true,
+     "explanation": "Yes: after Italy entered the war."
+    },
+    {
+     "id": "d",
+     "text": "The US declared war on Italy",
+     "correct": false,
+     "explanation": "No: the US stayed out of the war in 1940."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R17",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: on 14 June 1940 Reynaud told Roosevelt that France could continue only if American intervention made an Allied victory certain. Which argument does it support?",
+   "factIds": [
+    "F-CS2R-33"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Material aid alone could not save France",
+     "correct": true,
+     "explanation": "Correct: France needed military intervention."
+    },
+    {
+     "id": "b",
+     "text": "France expected to win alone",
+     "correct": false,
+     "explanation": "Reynaud says the opposite."
+    },
+    {
+     "id": "c",
+     "text": "The US had already declared war",
+     "correct": false,
+     "explanation": "It had not."
+    },
+    {
+     "id": "d",
+     "text": "Britain had surrendered",
+     "correct": false,
+     "explanation": "Reynaud calls Britain France's loyal ally still fighting."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R18",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Hoare",
+     "right": "British Foreign Secretary who resigned in December 1935",
+     "explanation": "Over the Paris proposals."
+    },
+    {
+     "left": "Hull",
+     "right": "US Secretary of State who kept the US independent of League sanctions",
+     "explanation": "9 October 1935."
+    },
+    {
+     "left": "Reynaud",
+     "right": "French Premier who appealed to Roosevelt in June 1940",
+     "explanation": "14 June 1940."
+    },
+    {
+     "left": "Pétain",
+     "right": "Head of the French Cabinet that asked for armistice terms",
+     "explanation": "17 June 1940."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R19",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who drew the cartoon “Wonder how long the honeymoon will last?” (Washington Star, 1939)? (surname)",
+   "factIds": [
+    "F-CS2R-27"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Berryman",
+     "tolerance": 0,
+     "explanation": "Clifford Berryman, The Washington Star, 9 October 1939."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R20",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1940 in order.",
+   "sequence": [
+    {
+     "id": "d",
+     "text": "Britain and France declare war on Germany",
+     "year": 1939,
+     "month": 9,
+     "factId": "F-CS2R-24"
+    },
+    {
+     "id": "a",
+     "text": "Germany invades Denmark and Norway",
+     "year": 1940,
+     "month": 4,
+     "factId": "F-CS2R-28"
+    },
+    {
+     "id": "b",
+     "text": "Mussolini confirms the German alliance to Roosevelt",
+     "year": 1940,
+     "month": 5,
+     "factId": "F-CS2R-29"
+    },
+    {
+     "id": "c",
+     "text": "France asks for armistice terms",
+     "year": 1940,
+     "month": 6,
+     "factId": "F-CS2R-34"
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P1-CS2-RESPONSES-D01",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct point about the US position (Hull to the delegation at Geneva, 9 October 1935).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "we are determined that war shall not involve us",
+     "answer": "point",
+     "explanation": "Point: keeping out of war."
+    },
+    {
+     "id": "s2",
+     "text": "definite measures have already been taken by the United States in accordance with our own limitations and policies",
+     "answer": "point",
+     "explanation": "Point: measures already taken."
+    },
+    {
+     "id": "s3",
+     "text": "these measures include long steps in restricting commercial and financial transactions with the belligerents",
+     "answer": "point",
+     "explanation": "Point: trade restrictions."
+    },
+    {
+     "id": "s4",
+     "text": "It would be useful if you would inform orally and with great discretion the Secretary General",
+     "answer": "not_point",
+     "explanation": "An instruction to the delegation, not the US position."
+    },
+    {
+     "id": "s5",
+     "text": "inadvisable … to invite us to join in any committee organized to consider sanctions",
+     "answer": "point",
+     "explanation": "Point: no part in a sanctions committee."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D02",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct reason Hoare gives for caution over the oil embargo (Commons, 19 December 1935).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Italy would regard the oil embargo as a military sanction or an act involving war against her",
+     "answer": "point",
+     "explanation": "Reason: risk of war."
+    },
+    {
+     "id": "s2",
+     "text": "no member State except ourselves had taken any military precautions",
+     "answer": "point",
+     "explanation": "Reason: Britain would stand alone."
+    },
+    {
+     "id": "s3",
+     "text": "an isolated attack … would, it seemed to me, almost inevitably lead to the dissolution of the League",
+     "answer": "point",
+     "explanation": "Reason: danger to the League."
+    },
+    {
+     "id": "s4",
+     "text": "I was in urgent need of a period of rest",
+     "answer": "not_point",
+     "explanation": "Personal detail, not a reason."
+    },
+    {
+     "id": "s5",
+     "text": "it seemed to me that Anglo-French co-operation was essential",
+     "answer": "point",
+     "explanation": "Reason: keeping France on side."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D03",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct condition of the guarantee to Poland (Chamberlain, 31 March 1939).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "in the event of any action which clearly threatened Polish independence",
+     "answer": "point",
+     "explanation": "Condition: a clear threat to independence."
+    },
+    {
+     "id": "s2",
+     "text": "and which the Polish Government accordingly considered it vital to resist with their national forces",
+     "answer": "point",
+     "explanation": "Condition: Poland chooses to resist."
+    },
+    {
+     "id": "s3",
+     "text": "His Majesty's Government would feel themselves bound at once to lend the Polish Government all support in their power",
+     "answer": "point",
+     "explanation": "Commitment: all support in their power."
+    },
+    {
+     "id": "s4",
+     "text": "As I said this morning, His Majesty's Government have no official confirmation of the rumours",
+     "answer": "not_point",
+     "explanation": "Background, not a condition."
+    },
+    {
+     "id": "s5",
+     "text": "the French Government … stand in the same position in this matter",
+     "answer": "point",
+     "explanation": "Point: France joins the guarantee."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D04",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct point Reynaud makes about France's situation (14 June 1940).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Our army is now cut into several parts.",
+     "answer": "point",
+     "explanation": "Point: the army is divided."
+    },
+    {
+     "id": "s2",
+     "text": "Our divisions are decimated.",
+     "answer": "point",
+     "explanation": "Point: heavy losses."
+    },
+    {
+     "id": "s3",
+     "text": "The Reichswehr has just entered Paris.",
+     "answer": "point",
+     "explanation": "Point: Paris has fallen."
+    },
+    {
+     "id": "s4",
+     "text": "I thank you for having published in America the message I sent you on June 10.",
+     "answer": "not_point",
+     "explanation": "Thanks, not a point about the situation."
+    },
+    {
+     "id": "s5",
+     "text": "France can continue the struggle only if American intervention reverses the situation",
+     "answer": "point",
+     "explanation": "Point: dependence on US intervention."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D05",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Hoare's statement of 19 December 1935? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To justify to MPs the Paris proposals that had forced his resignation, days after public criticism of them",
+     "correct": true,
+     "explanation": "Correct: a personal explanation to the House."
+    },
+    {
+     "id": "b",
+     "text": "To announce oil sanctions",
+     "correct": false,
+     "explanation": "He explained why they were dangerous."
+    },
+    {
+     "id": "c",
+     "text": "To declare war on Italy",
+     "correct": false,
+     "explanation": "Britain did not go to war."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is Abyssinia",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D06",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Chamberlain's statement of 31 March 1939? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To warn Germany, and reassure Poland and MPs, that Britain and France would support Polish independence, amid rumours of an attack on Poland",
+     "correct": true,
+     "explanation": "Correct: an interim pledge while talks went on."
+    },
+    {
+     "id": "b",
+     "text": "To announce war on Germany",
+     "correct": false,
+     "explanation": "That came on 3 September 1939."
+    },
+    {
+     "id": "c",
+     "text": "To give Danzig to Germany",
+     "correct": false,
+     "explanation": "He pledged support for Poland."
+    },
+    {
+     "id": "d",
+     "text": "To inform people about Poland",
+     "correct": false,
+     "explanation": "Too vague: no audience or moment."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D07",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Roosevelt's message to Hitler of 14 April 1939? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To press Hitler, before world opinion, to give assurances against further aggression, weeks after the occupation of the Czech lands",
+     "correct": true,
+     "explanation": "Correct: it was also published."
+    },
+    {
+     "id": "b",
+     "text": "To offer the US as Germany's ally",
+     "correct": false,
+     "explanation": "It asked for assurances against aggression."
+    },
+    {
+     "id": "c",
+     "text": "To declare war",
+     "correct": false,
+     "explanation": "The US remained at peace."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is peace",
+     "correct": false,
+     "explanation": "Too vague: no audience or moment."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D08",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Reynaud's message of 14 June 1940? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To persuade Roosevelt to promise US entry into the war, on the day German troops entered Paris",
+     "correct": true,
+     "explanation": "Correct: he asked for that certainty."
+    },
+    {
+     "id": "b",
+     "text": "To thank Roosevelt only",
+     "correct": false,
+     "explanation": "Thanks open the message, but the purpose is a request."
+    },
+    {
+     "id": "c",
+     "text": "To announce an armistice",
+     "correct": false,
+     "explanation": "That came on 17 June under Pétain."
+    },
+    {
+     "id": "d",
+     "text": "To report military news",
+     "correct": false,
+     "explanation": "News supports the request; it is not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D09",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Hoare, 19 December 1935): which sentence moves from a feature to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Hoare had negotiated the Paris proposals himself, his statement shows from the inside why the British Foreign Office feared an oil embargo.",
+     "correct": true,
+     "explanation": "Correct: feature (author's role) → consequence → value."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1935.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is valuable because it is a speech.",
+     "correct": false,
+     "explanation": "Generic: it does not say why."
+    },
+    {
+     "id": "d",
+     "text": "It is about oil.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D10",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Hoare, 19 December 1935): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Hoare was defending himself after his resignation, he stresses the dangers of the oil embargo and the pressure he was under, and may play down the concessions to Italy.",
+     "correct": true,
+     "explanation": "Correct: feature (self-defence) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is biased.",
+     "correct": false,
+     "explanation": "Generic: it does not say how."
+    },
+    {
+     "id": "c",
+     "text": "It is British.",
+     "correct": false,
+     "explanation": "Nationality alone is not a limitation."
+    },
+    {
+     "id": "d",
+     "text": "It is long.",
+     "correct": false,
+     "explanation": "Length is not a limitation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D11",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Mussolini to Roosevelt, 18 May 1940): which sentence explains a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "As Mussolini's own reply to the President, it states in his words the two reasons Italy gave for joining Germany: the alliance and the fate of Europe.",
+     "correct": true,
+     "explanation": "Correct: feature (origin) → consequence → value."
+    },
+    {
+     "id": "b",
+     "text": "It is short.",
+     "correct": false,
+     "explanation": "Length is not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is valuable because it is Italian.",
+     "correct": false,
+     "explanation": "Generic: it does not say why."
+    },
+    {
+     "id": "d",
+     "text": "It is a telegram.",
+     "correct": false,
+     "explanation": "A label, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D12",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Mussolini to Roosevelt, 18 May 1940): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because it was a brief diplomatic reply meant to end the exchange, it gives no account of Italy's own interests, which Mussolini had described to the US Ambassador as a “new map of Europe”.",
+     "correct": true,
+     "explanation": "Correct: feature (purpose and brevity) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is limited because Mussolini was a dictator.",
+     "correct": false,
+     "explanation": "Too vague: it does not say what is hidden."
+    },
+    {
+     "id": "c",
+     "text": "It is old.",
+     "correct": false,
+     "explanation": "Age is not a limitation."
+    },
+    {
+     "id": "d",
+     "text": "It is about Germany.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D13",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Hoare (Source C) and Wilson (Source D) on the oil sanction.",
+   "categories": [
+    {
+     "id": "effect",
+     "label": "Issue 1: would the oil sanction work?"
+    },
+    {
+     "id": "risk",
+     "label": "Issue 2: the obstacles to it"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "C: the oil embargo might have such an effect upon the hostilities as to force their termination",
+     "answer": "effect",
+     "explanation": "Hoare: it could end the war."
+    },
+    {
+     "id": "s2",
+     "text": "D: it is the test of strength between the League of Nations and Mussolini",
+     "answer": "effect",
+     "explanation": "Wilson: the decisive test."
+    },
+    {
+     "id": "s3",
+     "text": "C: Italy would regard the oil embargo as a military sanction or an act involving war against her",
+     "answer": "risk",
+     "explanation": "Hoare: risk of war."
+    },
+    {
+     "id": "s4",
+     "text": "D: dependent largely upon the decision of the United States Congress",
+     "answer": "risk",
+     "explanation": "Wilson: dependence on the US."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D14",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: sort each statement into a similarity or a difference between Chamberlain (14 March 1938) and Hull (17 March 1938).",
+   "categories": [
+    {
+     "id": "same",
+     "label": "Similarity"
+    },
+    {
+     "id": "diff",
+     "label": "Difference"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Both condemn the use of force.",
+     "answer": "same",
+     "explanation": "Chamberlain: “coercion, backed by force”; Hull: “brute force”."
+    },
+    {
+     "id": "s2",
+     "text": "Chamberlain speaks only of Austria; Hull speaks of world order and names no country.",
+     "answer": "diff",
+     "explanation": "Specific against general."
+    },
+    {
+     "id": "s3",
+     "text": "Both expect greater insecurity.",
+     "answer": "same",
+     "explanation": "Each foresees a more dangerous world."
+    },
+    {
+     "id": "s4",
+     "text": "Chamberlain admits only force could have stopped Germany; Hull rejects political involvements.",
+     "answer": "diff",
+     "explanation": "Different conclusions about action."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D15",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Roosevelt at Charlottesville (Source A) and Reynaud (Source D).",
+   "categories": [
+    {
+     "id": "help",
+     "label": "Issue 1: what help is offered or asked"
+    },
+    {
+     "id": "italy",
+     "label": "Issue 2: the situation of the Allies"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "A: we will extend to the opponents of force the material resources of this Nation",
+     "answer": "help",
+     "explanation": "Material aid offered."
+    },
+    {
+     "id": "s2",
+     "text": "D: the certainty that the United States will come into the war within a very short time",
+     "answer": "help",
+     "explanation": "Military entry asked for."
+    },
+    {
+     "id": "s3",
+     "text": "A: the hand that held the dagger has struck it into the back of its neighbor",
+     "answer": "italy",
+     "explanation": "Italy's attack on France."
+    },
+    {
+     "id": "s4",
+     "text": "D: Our army is now cut into several parts",
+     "answer": "italy",
+     "explanation": "France's collapse."
+    }
+   ]
+  }
+ ],
+ "sourceSets": [
+  {
+   "sourceSetId": "P1-CS2-RESPONSES-SS01",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS2",
+   "part": "responses",
+   "focus": "The League, sanctions and the Abyssinian crisis, 1935–1936",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS01-A",
+     "provenance": {
+      "creator": "Cordell Hull, US Secretary of State",
+      "sourceType": "telegram to the US delegation at Geneva (State Department paraphrase)",
+      "date": "9 October 1935",
+      "contextNote": "The League was preparing sanctions against Italy, which had invaded Ethiopia on 3 October 1935."
+     },
+     "text": "For ourselves it should be more and more clear that we have used all our influence and support for the preservation of peace; that now we take the position that we are determined that war shall not involve us; that in pursuance of this policy we will not overlook any possible step that would be consistent with our position. Considering our policy as evidenced by what we have already done and said, with the complete support of American public opinion, we regard it advisable in every respect for the League to understand that definite measures have already been taken by the United States in accordance with our own limitations and policies; that these measures include long steps in restricting commercial and financial transactions with the belligerents; and that we desire to follow our course independently according as circumstances develop. … it would appear not only unnecessary but at this time inadvisable from the viewpoint of this government to invite us to join in any committee organized to consider sanctions."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS01-B",
+     "mediaId": "M-italian-parade-addis-ababa-1936",
+     "provenance": {
+      "creator": "Italian photographer (the print carries the mark of the Istituto Luce)",
+      "sourceType": "photograph",
+      "date": "May 1936",
+      "contextNote": "A military parade of Italian troops in Addis Ababa, the Ethiopian capital, with Somali ascari (colonial soldiers) in the background."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS01-C",
+     "provenance": {
+      "creator": "Sir Samuel Hoare, who had just resigned as British Foreign Secretary",
+      "sourceType": "personal explanation to the House of Commons",
+      "date": "19 December 1935",
+      "contextNote": "Hoare had agreed proposals for a settlement with Laval of France in Paris; when they became public, he resigned."
+     },
+     "text": "In both these fields, in both the field of collective action and also in the field of peaceful negotiations, we reached a turning point about a fortnight ago. … It seemed clear that, supposing an oil embargo were to be imposed and that the non-member States took an effective part in it, the oil embargo might have such an effect upon the hostilities as to force their termination. Just because of the effectiveness of the oil sanction, provided that the non-member States had a full part in it, the situation immediately became more dangerous from the point of view of Italian resistance. From all sides we received reports that no responsible Government could disregard that Italy would regard the oil embargo as a military sanction or an act involving war against her. … It was a moment when, while most member States had taken a part in the economic sanctions, no member State except ourselves had taken any military precautions."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS01-D",
+     "provenance": {
+      "creator": "Hugh Wilson, US Minister in Switzerland",
+      "sourceType": "private letter to the US Secretary of State, after a meeting of the League Council",
+      "date": "27 January 1936"
+     },
+     "text": "I cannot conceal from myself the belief that the actual application of an embargo on petroleum by the League States will be dependent largely upon the decision of the United States Congress in respect to the Neutrality legislation. … I doubt whether the embargo will be applied by the League States unless they feel that in some way the supply from the United States will not replace that which they cut off. The reverse also appears true. If the United States curtails its shipments, the States of the League will feel it not only expedient, but morally imperative to put on the embargo. … Suffice it to say that in the minds of most of the Delegates, it is the test of strength between the League of Nations and Mussolini and must be established as a precedent for use against Germany, if necessity arises."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS2-RESPONSES-SS01-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, what was the US position on League sanctions against Italy?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The US was determined that war should not involve it.",
+       "It had already taken its own measures, restricting trade and finance with the belligerents.",
+       "It would follow its course independently.",
+       "It did not wish to be invited to join any sanctions committee."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "independently",
+       "restricting",
+       "belligerents",
+       "committee",
+       "sanctions"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS01-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the outcome of the Abyssinian crisis by May 1936?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Italy had won: its troops were parading in the Ethiopian capital.",
+       "Italy used colonial troops, showing the scale of its empire in East Africa."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "parade",
+       "Addis Ababa",
+       "Italian troops",
+       "ascari"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS01-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the failure of League sanctions against Italy.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the British Foreign Secretary who handled the crisis explains, days later, why Britain hesitated over the oil embargo.",
+       "Value (content): it shows the central dilemma: oil might end the war, but Italy would treat it as an act of war and only Britain had taken military precautions.",
+       "Limitation (purpose): a personal explanation defending himself after resigning, so it stresses the dangers and may play down the concessions offered to Italy.",
+       "Limitation (content): it gives the British view only and cannot show how France or Italy judged the risks."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS01-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "C",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources C and D reveal about the proposed oil sanction against Italy.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources see the oil embargo as decisive: Source C says it might “force their termination”, and Source D calls it “the test of strength between the League of Nations and Mussolini”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also see that it depended on states outside the League: C says it would work “provided that the non-member States had a full part in it”, and D that it depended largely on the US Congress.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source C stresses the danger, that Italy would treat the embargo as an act of war, while Source D stresses the opportunity, a precedent “for use against Germany”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source C points to Britain's isolation among League members, whereas Source D suggests League states would feel it “morally imperative” to act if the US cut its shipments.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "decisive sanction",
+       "dependence on non-members",
+       "danger or opportunity",
+       "who would act"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS01-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the reasons why League sanctions failed to stop Italian expansion in Abyssinia in 1935–1936.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "League sanctions failed because members would not risk war over the one decisive measure, oil, and because that measure depended on non-members.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Sources C and D show the dilemma: an oil embargo might end the war, but Italy would treat it as an act of war, and League states would not act unless US supplies stopped too.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows why US supplies did not stop: the US acted independently under its Neutrality Act, with an arms embargo on both sides from 5 October 1935; in November Hull warned that exports of oil and other war materials were rising.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The result is shown in Source B: Addis Ababa fell on 5 May 1936. Hoare's attempt to negotiate with Laval cost him his post, and in October 1936 Italy and Germany signed a treaty of friendship.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The League acted against Italy, but not decisively, because its leading members feared war more than an Italian victory.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Neutrality Act",
+       "5 October 1935",
+       "Hull",
+       "oil",
+       "5 May 1936",
+       "Laval",
+       "Axis"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS2-RESPONSES-SS02",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS2",
+   "part": "responses",
+   "focus": "Responses to German expansion: the Rhineland, Austria and Munich, 1936–1938",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS02-A",
+     "provenance": {
+      "creator": "Eden, British Foreign Secretary",
+      "sourceType": "statement in the House of Commons",
+      "date": "9 March 1936",
+      "contextNote": "German troops had entered the demilitarised Rhineland on 7 March 1936."
+     },
+     "text": "Let us not delude ourselves. The course taken by the German Government in unilaterally repudiating obligations into which they have freely entered and in simultaneously acting as if they did not exist both complicates and aggravates the international situation. The abrogation of the Locarno Treaty and the occupation of the demilitarised zone have profoundly shaken confidence in any engagement into which the Government of Germany may in future enter. … There is, I am thankful to say, no reason to suppose that the present German action implies a threat of hostilities. … should there take place … any actual attack upon France or Belgium which would constitute a violation of Article II of Locarno, His Majesty's Government in the United Kingdom, notwithstanding the German repudiation of the Treaty, would regard themselves as in honour bound to come in the manner provided in the Treaty to the assistance of the country attacked."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS02-B",
+     "mediaId": "M-munich-conference-1938",
+     "provenance": {
+      "creator": "German picture agency (Scherl Bilderdienst)",
+      "sourceType": "photograph",
+      "date": "29 September 1938",
+      "contextNote": "Munich. From left: Chamberlain, Daladier, Hitler, Mussolini and the Italian Foreign Minister, Ciano."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS02-C",
+     "provenance": {
+      "creator": "Chamberlain, British Prime Minister",
+      "sourceType": "statement in the House of Commons",
+      "date": "14 March 1938",
+      "contextNote": "German troops had entered Austria after Germany threatened invasion; the union of Germany and Austria was proclaimed on 13 March 1938."
+     },
+     "text": "Late on 11th March our Ambassador in Berlin registered a protest in strong terms with the German Government against such use of coercion, backed by force, against an independent State in order to create a situation incompatible with its national independence. … The hard fact is—and of its truth every hon. Member can judge for himself—that nothing could have arrested this action by Germany unless we and others with us had been prepared to use force to prevent it. I imagine that according to the temperament of the individual the events which are in our minds to-day will be the cause of regret, of sorrow, perhaps of indignation. They cannot be regarded by His Majesty's Government with indifference or equanimity. They are bound to have effects which cannot yet be measured. The immediate result must be to intensify the sense of uncertainty and insecurity in Europe."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS02-D",
+     "provenance": {
+      "creator": "Cordell Hull, US Secretary of State",
+      "sourceType": "public address delivered in Washington",
+      "date": "17 March 1938",
+      "contextNote": "The address was given four days after the union of Germany and Austria was proclaimed."
+     },
+     "text": "The crucial issue today is whether these principles will be vitalized and be firmly established as the foundation of an international order or whether international anarchy based on brute force will inundate the world and ultimately sweep away the very bases of civilization and progress. That issue is universal. … I stated clearly that we are fully determined to avoid the extremes either of internationalism or of isolationism. Internationalism would mean undesirable political involvements; isolationism would either compel us to confine all activities of our people within our own frontiers, with incalculable injury to the standard of living and the general welfare of our people, or else expose our nationals and our legitimate interests abroad to injustice or outrage wherever lawless conditions arise."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS2-RESPONSES-SS02-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, what were the consequences of the German action in the Rhineland?",
+     "model": {
+      "type": "points",
+      "points": [
+       "It complicated and aggravated the international situation.",
+       "It profoundly shook confidence in any future German engagement.",
+       "It did not, Eden believed, imply a threat of hostilities.",
+       "Britain would still help France or Belgium if they were attacked."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "repudiating",
+       "shaken confidence",
+       "threat of hostilities",
+       "France",
+       "Belgium",
+       "Locarno"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS02-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the Munich Conference?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The leaders of Britain, France, Germany and Italy settled the crisis together.",
+       "Czechoslovakia, whose territory was at stake, is not shown among the leaders."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Chamberlain",
+       "Daladier",
+       "Hitler",
+       "Mussolini"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS02-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying British responses to the Anschluss.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the Prime Minister's statement to Parliament gives the government's official account two days after the event.",
+       "Value (content): it reveals the reasoning behind appeasement: only force could have stopped Germany, and Britain was not prepared to use it.",
+       "Limitation (purpose): Chamberlain was justifying inaction to MPs, so he presents the outcome as unavoidable.",
+       "Limitation (content): it shows Britain's view, not France's or Austria's, and gives no evidence of whether force was in fact considered."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS02-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "C",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources C and D reveal about British and American responses to the Anschluss.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources condemn force: Source C reports a protest against “coercion, backed by force”, and Source D warns against “international anarchy based on brute force”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both expect a more dangerous world: C foresees “uncertainty and insecurity in Europe”, and D a threat to “the very bases of civilization and progress”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source C speaks directly of Germany and Austria, while Source D names no country and speaks in general principles.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source C concludes that only force could have stopped Germany, whereas Source D rules out “undesirable political involvements”, so the US offered principles without commitments.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "condemnation of force",
+       "insecurity",
+       "specific or general",
+       "action"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS02-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, to what extent was appeasement the main response of Britain and France to German expansion between 1936 and 1938?",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "Appeasement was the main response of Britain and France in 1936–1938, but it was combined with protests, limited guarantees and rearmament.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows the Rhineland response: condemnation, a promise to help France or Belgium if attacked, and referral to the League Council, but no force. Source C shows the same over Austria: protests, then acceptance because only force could have stopped Germany.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source B shows appeasement at its height: at Munich on 29 September 1938 the Sudetenland was handed to Germany. On 3 October Chamberlain called appeasement a long path that “bristles with obstacles” and spoke of rearmament.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source D shows that the United States offered only principles, which left Britain and France without American support; Roosevelt's appeals in September 1938 asked only for continued negotiation.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Appeasement was the main response, but it was a calculated choice by powers that judged they were not ready to fight, and it ended when Germany occupied the Czech lands in March 1939.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Munich",
+       "Sudetenland",
+       "29 September 1938",
+       "rearmament",
+       "League Council",
+       "March 1939"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS2-RESPONSES-SS03",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS2",
+   "part": "responses",
+   "focus": "The end of appeasement and the outbreak of war, 1939",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS03-A",
+     "provenance": {
+      "creator": "Chamberlain, British Prime Minister",
+      "sourceType": "statement in the House of Commons",
+      "date": "31 March 1939",
+      "contextNote": "German troops had occupied the Czech lands two weeks earlier."
+     },
+     "text": "I am glad to take this opportunity of stating again the general policy of His Majesty's Government. They have constantly advocated the adjustment, by way of free negotiation between the parties concerned, of any differences that may arise between them. … As the House is aware, certain consultations are now proceeding with other Governments. In order to make perfectly clear the position of His Majesty's Government in the meantime before those consultations are concluded, I now have to inform the House that during that period, in the event of any action which clearly threatened Polish independence, and which the Polish Government accordingly considered it vital to resist with their national forces, His Majesty's Government would feel themselves bound at once to lend the Polish Government all support in their power. They have given the Polish Government an assurance to this effect. I may add that the French Government have authorised me to make it plain that they stand in the same position in this matter as do His Majesty's Government."
+    },
+    {
+     "letter": "B",
+     "type": "cartoon",
+     "verificationRef": "SRC-SS03-B",
+     "mediaId": "M-berryman-honeymoon-cartoon-1939",
+     "provenance": {
+      "creator": "Clifford Berryman, American cartoonist",
+      "sourceType": "cartoon published in The Washington Star",
+      "date": "9 October 1939",
+      "contextNote": "Hitler and Stalin as a bride and groom. The caption reads: “Wonder how long the honeymoon will last?”"
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS03-C",
+     "provenance": {
+      "creator": "Roosevelt, US President",
+      "sourceType": "telegram to Hitler (an identical message was sent to Mussolini)",
+      "date": "14 April 1939",
+      "contextNote": "The message was also made public."
+     },
+     "text": "You realize I am sure that throughout the world hundreds of millions of human beings are living today in constant fear of a new war or even a series of wars. … It is, however, unfortunately necessary to take cognizance of recent facts. Three nations in Europe and one in Africa have seen their independent existence terminated. A vast territory in another independent nation of the Far East has been occupied by a neighboring state. Reports, which we trust are not true, insist that further acts of aggression are contemplated against still other independent nations. Plainly the world is moving toward the moment when this situation must end in catastrophe unless a more rational way of guiding events is found. You have repeatedly asserted that you and the German people have no desire for war. If this is true there need be no war."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS03-D",
+     "provenance": {
+      "creator": "Roosevelt, US President",
+      "sourceType": "radio address to the American people",
+      "date": "3 September 1939",
+      "contextNote": "Britain and France had declared war on Germany that day."
+     },
+     "text": "Until 4:30 this morning I had hoped against hope that some miracle would prevent a devastating war in Europe and bring to an end the invasion of Poland by Germany. … This Nation will remain a neutral nation, but I cannot ask that every American remain neutral in thought as well. Even a neutral has a right to take account of facts. Even a neutral cannot be asked to close his mind or his conscience. I have said not once but many times that I have seen war and that I hate war. I say that again and again. I hope the United States will keep out of this war. I believe that it will. And I give you assurances that every effort of your Government will be directed toward that end."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS2-RESPONSES-SS03-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, what did Britain promise Poland?",
+     "model": {
+      "type": "points",
+      "points": [
+       "If an action clearly threatened Polish independence, and Poland chose to resist, Britain would support Poland at once.",
+       "Britain would lend Poland “all support in their power”.",
+       "The assurance applied while consultations with other governments went on.",
+       "France stood in the same position as Britain."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "Polish independence",
+       "all support",
+       "assurance",
+       "French Government",
+       "consultations"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS03-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What is the message of Source B?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The alliance between Hitler and Stalin is an unnatural match.",
+       "It is unlikely to last."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Hitler",
+       "Stalin",
+       "honeymoon",
+       "last"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS03-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying international responses to German aggression in 1939.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): a message from the US President to Hitler shows the American government's response at the highest level.",
+       "Value (content): its list of independent nations “terminated” shows that by April 1939 the US saw a pattern of aggression, not isolated incidents.",
+       "Limitation (purpose): it was published to influence world opinion, so it is an appeal, not a statement of what the US would do.",
+       "Limitation (content): it commits the US to nothing, so it cannot show whether the US was willing to act; neither dictator replied directly."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS03-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources A and D reveal about British and American responses to German aggression in 1939.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources show leaders who had hoped for a peaceful settlement: Source A says Britain “constantly advocated” free negotiation, and in Source D Roosevelt “hoped against hope” that war could be avoided.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also respond to German action against Poland: A to a threat to “Polish independence”, D to “the invasion of Poland by Germany”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source A commits Britain in advance to “all support in their power” if Poland resists, while Source D declares that the United States “will remain a neutral nation”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A is a promise made with France before war, whereas Source D is a public reassurance made after war had begun, aimed at keeping the US out.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "hope of peace",
+       "Poland",
+       "commitment or neutrality",
+       "timing"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS03-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, evaluate the responses of the democracies to German aggression in 1939.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "In 1939 Britain and France moved from appeasement to resistance, while the United States moved from appeals to neutrality with sympathy; neither change deterred Hitler.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "After the occupation of the Czech lands on 14–15 March, Source A shows Britain and France guaranteeing Polish independence; guarantees to Greece and Rumania and talks with the Soviet Union followed.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source C shows Roosevelt's appeal for assurances, which neither dictator answered directly. The Nazi–Soviet Pact of 23 August, mocked in Source B, ended the hope of a common front with the Soviet Union.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "When Germany invaded Poland, Britain and France declared war on 3 September, but Source D shows the US remaining neutral. In November 1939 the arms embargo was repealed so Britain and France could buy American arms.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The responses were firmer than in 1938 but came too late to deter Germany; their value was that Germany could no longer expand without war.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "14 March 1939",
+       "Greece",
+       "Rumania",
+       "Nazi-Soviet Pact",
+       "23 August 1939",
+       "3 September 1939",
+       "arms embargo"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS2-RESPONSES-SS04",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS2",
+   "part": "responses",
+   "focus": "Responses to combined aggression, 1940",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS04-A",
+     "provenance": {
+      "creator": "Roosevelt, US President",
+      "sourceType": "address at the University of Virginia, Charlottesville",
+      "date": "10 June 1940",
+      "contextNote": "Italy had declared war on France and Britain that day."
+     },
+     "text": "The Government of Italy has now chosen to preserve what it terms its “freedom of action” and to fulfill what it states are its promises to Germany. In so doing it has manifested disregard for the rights and security of other nations, disregard for the lives of the peoples of those nations which are directly threatened by this spread of the war; and has evidenced its unwillingness to find the means through pacific negotiations for the satisfaction of what it believes are its legitimate aspirations. On this tenth day of June 1940, the hand that held the dagger has struck it into the back of its neighbor. … in our American unity, we will pursue two obvious and simultaneous courses; we will extend to the opponents of force the material resources of this Nation and, at the same time, we will harness and speed up the use of those resources in order that we ourselves in the Americas may have equipment and training equal to the task of any emergency and every defense."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS04-B",
+     "mediaId": "M-paris-arc-de-triomphe-1940",
+     "provenance": {
+      "creator": "Gutjahr, German army war reporter",
+      "sourceType": "photograph",
+      "date": "14 June 1940",
+      "contextNote": "German troops parading past their generals at the Arc de Triomphe in Paris, on the day they entered the city."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS04-C",
+     "provenance": {
+      "creator": "Benito Mussolini, head of the Italian government",
+      "sourceType": "telegram to President Roosevelt",
+      "date": "18 May 1940",
+      "contextNote": "Roosevelt had asked Mussolini on 14 May to “stay wholly apart from any war”. Germany had attacked Belgium, Luxembourg and the Netherlands on 10 May."
+     },
+     "text": "I reply to the message which you sent me at noon on the fourteenth instant. I understand perfectly the motives by which it was inspired and I consider it worthy of much respect and of the greatest consideration but there are two fundamental motives which cannot escape your spirit of political realism and those are that Italy is and intends to remain allied with Germany and that Italy cannot remain absent at a moment in which the fate of Europe is at stake. I cannot therefore but reconfirm the substance of my first message."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS04-D",
+     "provenance": {
+      "creator": "Paul Reynaud, Premier of France",
+      "sourceType": "telegram to President Roosevelt",
+      "date": "14 June 1940",
+      "contextNote": "“Then” refers to Reynaud's earlier appeal of 10 June 1940."
+     },
+     "text": "I told you then that for six days and six nights our troops had been fighting without an hour of respite, and at one against three, with war material five times less powerful. Four days of bloody fighting have gone by since then. Our army is now cut into several parts. Our divisions are decimated. … The Reichswehr has just entered Paris. … At the most tragic hour of its history France must choose. … From that time on France can continue the struggle only if American intervention reverses the situation by making an Allied victory certain. … I know that the declaration of war does not depend on you alone. But I must tell you at this hour, so grave in our history as in yours, that if you cannot give to France in the hours to come the certainty that the United States will come into the war within a very short time, the fate of the world will change."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS2-RESPONSES-SS04-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, how had Italy acted, and how would the United States respond?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Italy had disregarded the rights and security of other nations.",
+       "It had refused to seek its aims through peaceful negotiation.",
+       "Roosevelt said Italy had struck a dagger into the back of its neighbour.",
+       "The US would extend its material resources to the opponents of force while building its own defences."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "freedom of action",
+       "dagger",
+       "material resources",
+       "opponents of force",
+       "defense"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS04-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the situation of France on 14 June 1940?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Germany had taken Paris and was displaying its victory at a national monument.",
+       "French resistance in the capital had ended."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Paris",
+       "Arc de Triomphe",
+       "German troops",
+       "parade"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS04-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying Italy's entry into the war.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): Mussolini's own reply to the US President records the reasons he gave at the time.",
+       "Value (content): it shows that by 18 May he had decided Italy would not stay out, naming loyalty to the German alliance and the fate of Europe.",
+       "Limitation (purpose): a short diplomatic reply meant to end the exchange politely, so it hides Italy's own territorial aims.",
+       "Limitation (content): it does not say when Italy would act, or show the influence of German victories in France and the Low Countries."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS04-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources A and D reveal about American help to France in June 1940.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources show that American help was central to the Allies' hopes: Source A promises “the material resources of this Nation”, and Source D says France can continue only through “American intervention”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both describe the crisis as grave: A condemns the spread of the war, and D speaks of “the most tragic hour” of France's history.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source A offers material aid only, while Source D asks for the certainty that the United States will “come into the war within a very short time”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A also stresses American defence (“equipment and training equal to the task of any emergency”), whereas Source D warns that without US entry “the fate of the world will change”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "importance of US help",
+       "gravity",
+       "aid or intervention",
+       "US defence"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS2-RESPONSES-SS04-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, evaluate international responses to German and Italian aggression in 1940.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "International responses in 1940 were too limited and too late to stop combined German and Italian aggression, though they kept Britain in the war.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Britain and France fought: they sent forces to Norway in April and to the Low Countries in May, but were pushed back and had to withdraw from Dunkirk.",
+        "tags": [
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The United States tried diplomacy and aid: Roosevelt appealed to Mussolini, but Source C shows Italy's refusal, and Italy entered the war on 10 June. Source A shows the US offering material resources, and it sent aircraft, rifles, artillery and ammunition.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source D shows the limit: France needed American entry into the war, which Roosevelt said only Congress could decide. Source B shows the result: German troops in Paris on 14 June; on 17 June France asked for an armistice.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The responses could not save France, but American material aid prepared the way for continued resistance by Britain.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Norway",
+       "Dunkirk",
+       "10 June 1940",
+       "aircraft",
+       "Congress",
+       "17 June 1940",
+       "armistice"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
