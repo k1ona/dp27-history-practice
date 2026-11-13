@@ -1,0 +1,3386 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P1-CS1-CAUSES",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 18,
+  "openingProblem": {
+   "problem": "On 24 September 1931 the Japanese Cabinet declared that Japan “harbors no territorial designs in Manchuria”. Six months later the new state of Manchukuo was proclaimed there, and by 1941 Japanese troops stood in southern Indochina. Some observers blamed army officers who acted on their own; others pointed to Japan's economic crisis, or to a divided China that seemed easy to push around.\n\nSo what drove Japanese expansion: militarism and nationalism, economic need, or the weakness of China?",
+   "predictionPrompt": "Your prediction in one line: which mattered most — militarism, economics or China's instability? Give one reason.",
+   "revisitPrompt": "Look back at your prediction. Which source or fact changed or confirmed your judgement?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "named_factor",
+    "title": "How far did militarism and nationalism drive Japanese expansion?",
+    "body": "On the night of 18 September 1931 an explosion damaged the South Manchuria Railway near Mukden. The Japanese, who owned the railway, blamed Chinese nationalists and used the incident as the reason to invade Manchuria. The plan had been prepared by two officers of the Kwantung Army, Colonel Itagaki and Lieutenant Colonel Ishiwara; their commander, General Honjō, was at first appalled that it had gone ahead without his permission, but approved it after the act. Four days later the US Minister in China, Johnson, reported that the occupation was “an aggressive act by Japan apparently long planned”, not an accident or the work of “minor and irresponsible officials”.\n\nThis matters because it shows that expansion began with the army acting ahead of the government. The Cabinet still said that Japan had no territorial designs in Manchuria, yet Manchukuo was formally established on 1 March 1932.\n\nThe army's success then changed Japanese politics. In August 1932 the US Ambassador, Joseph Grew, reported that hostility to foreign nations was being built up deliberately “to strengthen the hand of the military in its Manchurian venture”, and that the military machine had been “built for war… and would welcome war”. Political violence followed: on 15 May 1932 young naval officers assassinated Prime Minister Inukai, and their light sentences strengthened militarism. In January 1933 the Japanese Ambassador told Secretary of State Stimson that no Cabinet which advocated a compromise over Manchukuo could survive in Japan. After the failed army coup of 26 February 1936, nineteen leaders were executed, but the military increased its control over the civilian government.\n\nBy 1937 nationalism was official policy. Prime Minister Konoe told the Diet that all policy must stem from “the spirit of the solemn and superb polity of our Empire” and called for perfecting national defence. Militarism therefore explains who started expansion and why civilian leaders found it hard to stop. It explains less about why so many Japanese supported it, which the economic crisis helps to answer.",
+    "argumentsThatWork": [
+     {
+      "claim": "Army officers, not the Cabinet, started the conquest of Manchuria.",
+      "evidence": [
+       "F-CS1C-02",
+       "F-CS1C-03"
+      ],
+      "strongestCounter": "The Cabinet and later governments accepted and built on the army's action, so civilian leaders shared responsibility."
+     },
+     {
+      "claim": "Political violence pushed governments towards the army's line after 1931.",
+      "evidence": [
+       "F-CS1C-07",
+       "F-CS1C-08",
+       "F-CS1C-09"
+      ],
+      "strongestCounter": "Some violence (the 1936 coup) failed and was punished, so the army did not simply take over."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the role of militarism in Japanese expansion, 1931–1941.",
+     "To what extent did the Kwantung Army drive Japanese policy in Manchuria in 1931–1932?",
+     "Compare and contrast what two sources reveal about the role of the Japanese military."
+    ],
+    "useItInAnEssay": {
+     "claim": "Militarism started Japanese expansion and made it hard to reverse.",
+     "prove": "In September 1931 Kwantung Army officers staged the Mukden explosion, and the US Minister in China reported an aggressive act “apparently long planned”.",
+     "explain": "Because the army acted first, the government faced a fait accompli; after Inukai's assassination in May 1932 no Cabinet dared to compromise over Manchukuo.",
+     "test": "However, Grew linked the military's power to the economic crisis, which suggests that militarism fed on wider discontent.",
+     "judge": "Militarism was the main cause of how expansion began, but not the only reason it gained support."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-CAUSES-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Who planned the Mukden incident of 18 September 1931?",
+      "factIds": [
+       "F-CS1C-02"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Kwantung Army officers, Colonel Itagaki and Lieutenant Colonel Ishiwara",
+        "correct": true,
+        "explanation": "Correct: they planned it; their commander approved only after the act."
+       },
+       {
+        "id": "b",
+        "text": "The Japanese Cabinet in Tokyo",
+        "correct": false,
+        "explanation": "No: the Cabinet said Japan had no territorial designs in Manchuria."
+       },
+       {
+        "id": "c",
+        "text": "Chinese nationalists, as Japan claimed",
+        "correct": false,
+        "explanation": "That was the Japanese claim, which the sources show to be false."
+       },
+       {
+        "id": "d",
+        "text": "The League of Nations",
+        "correct": false,
+        "explanation": "The League investigated the incident; it did not plan it."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-CAUSES-C02",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened to Prime Minister Inukai on 15 May 1932?",
+      "factIds": [
+       "F-CS1C-07"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "He was assassinated by young naval officers",
+        "correct": true,
+        "explanation": "Correct: the light sentences that followed strengthened militarism."
+       },
+       {
+        "id": "b",
+        "text": "He resigned in protest at the invasion of Manchuria",
+        "correct": false,
+        "explanation": "No: he was killed in office."
+       },
+       {
+        "id": "c",
+        "text": "He signed Japan's withdrawal from the League",
+        "correct": false,
+        "explanation": "Japan gave notice to leave the League in March 1933."
+       },
+       {
+        "id": "d",
+        "text": "He led the February 1936 coup",
+        "correct": false,
+        "explanation": "The 1936 coup was led by army officers; Inukai had died in 1932."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-CAUSES-C03",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: in January 1933 the Japanese Ambassador said that no Cabinet which advocated a compromise over Manchukuo could survive in Japan. Which argument does it support?",
+      "factIds": [
+       "F-CS1C-09"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Military and nationalist pressure limited what civilian governments could do",
+        "correct": true,
+        "explanation": "Correct: compromise had become politically impossible."
+       },
+       {
+        "id": "b",
+        "text": "Japan wanted to compromise with the League",
+        "correct": false,
+        "explanation": "The fact shows the opposite."
+       },
+       {
+        "id": "c",
+        "text": "Economic problems were Japan's only motive",
+        "correct": false,
+        "explanation": "The fact is about political pressure, not economics."
+       },
+       {
+        "id": "d",
+        "text": "China's government controlled Manchuria in 1933",
+        "correct": false,
+        "explanation": "Manchukuo had been established in March 1932."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "causes",
+    "title": "Did economic problems push Japan to expand?",
+    "body": "Japan's economy was in serious trouble in the early 1930s. In August 1932 Grew described farmers in a very bad plight, industries “at low ebb”, rising unemployment and a falling yen, with no money to be borrowed abroad. At the same time, he noted, millions of yen were being spent on the “Manchurian venture”, whose economic advantage was “highly problematical”. This matters because it shows two sides of the economic argument: hardship made people receptive to the promise of expansion, but expansion itself was costly.\n\nManchuria was resource-rich, and the Japanese state encouraged its people to settle there. Posters of the Manchuria Emigration Association (founded in 1935) called “Go to Manchuria!” and offered a government subsidy of 1,000 yen per household to young, fit farmers. In July 1937 Prime Minister Konoe told the Diet that Japan must develop its economic power on “the conception of Japan and Manchukuo as a single unit”. By late 1937 Japan had lost much of its gold reserves through a trade imbalance, and Konoe believed that exploiting northern China's resources was the only way to stop the deterioration. His statement of 22 December 1938 duly demanded that China give Japan facilities to develop its natural resources in North China and Inner Mongolia.\n\nThe need for raw materials grew as the war in China dragged on. In September 1940 Grew reported that some Japanese sought security by securing raw material sources and markets “entirely within Japanese control”. In August 1940 Japan's leaders announced a “Greater East Asia Co-Prosperity Sphere”, designed to free Japan from dependence on Western supplies. When Japan moved into southern Indochina in July 1941, Ambassador Nomura explained that Japan needed an “uninterrupted” supply of rice and raw materials.\n\nEconomics therefore explains why expansion attracted support and why it accelerated after 1937. But economic arguments were often used to justify decisions already taken by the army, and the war in China created many of the shortages that later expansion was meant to solve.",
+    "argumentsThatWork": [
+     {
+      "claim": "Economic crisis made expansion attractive in the early 1930s.",
+      "evidence": [
+       "F-CS1C-06",
+       "F-CS1C-31"
+      ],
+      "strongestCounter": "Grew also said the Manchurian venture was a costly drain, so expansion worsened the crisis rather than solving it."
+     },
+     {
+      "claim": "The search for raw materials drove the southward advance of 1940–1941.",
+      "evidence": [
+       "F-CS1C-20",
+       "F-CS1C-21",
+       "F-CS1C-28"
+      ],
+      "strongestCounter": "Nomura's explanation was given to justify the move; the same memorandum also cites military security."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, to what extent were economic problems the main cause of Japanese expansion?",
+     "Examine the importance of the need for raw materials in Japanese expansion, 1937–1941.",
+     "Compare and contrast what two sources reveal about Japan's economic motives."
+    ],
+    "useItInAnEssay": {
+     "claim": "Economic need made expansion popular and drove its later stages.",
+     "prove": "In 1932 Grew described farmers in a very bad plight and rising unemployment; in July 1941 Nomura said Japan needed an uninterrupted supply of rice and raw materials from Indochina.",
+     "explain": "Because Japan lacked raw materials and foreign credit, control of Manchuria, North China and later South-East Asia promised secure supplies.",
+     "test": "However, Grew thought the economic advantage of Manchuria “highly problematical”, and the war in China itself created the shortages.",
+     "judge": "Economics explains the appeal and the direction of expansion more than its start."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-CAUSES-C04",
+      "kind": "checkpoint",
+      "type": "multi_select",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which economic problems did Grew report from Japan in August 1932? Choose all that apply.",
+      "factIds": [
+       "F-CS1C-06"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The plight of the farmers was very bad",
+        "correct": true,
+        "explanation": "Yes: it is the first problem he lists."
+       },
+       {
+        "id": "b",
+        "text": "Unemployment was steadily increasing",
+        "correct": true,
+        "explanation": "Yes: he says so directly."
+       },
+       {
+        "id": "c",
+        "text": "The yen was falling",
+        "correct": true,
+        "explanation": "Yes: and prices had not yet risen in proportion."
+       },
+       {
+        "id": "d",
+        "text": "Japan had too much oil to sell",
+        "correct": false,
+        "explanation": "No: oil is not mentioned, and Japan imported oil."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-CAUSES-C05",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why did Ambassador Nomura say Japan was moving into southern Indochina in July 1941?",
+      "factIds": [
+       "F-CS1C-21"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To secure supplies of rice and raw materials, and for military security",
+        "correct": true,
+        "explanation": "Correct: he gave both reasons."
+       },
+       {
+        "id": "b",
+        "text": "To help France defend the colony against Germany",
+        "correct": false,
+        "explanation": "No: he spoke of Japan's own needs."
+       },
+       {
+        "id": "c",
+        "text": "To prepare to withdraw from China",
+        "correct": false,
+        "explanation": "No: nothing in the memorandum suggests withdrawal."
+       },
+       {
+        "id": "d",
+        "text": "Because the League of Nations had asked Japan to do so",
+        "correct": false,
+        "explanation": "Japan had left the League in 1933."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-CAUSES-C06",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What subsidy per household did the Manchuria emigration poster offer? (number of yen)",
+      "factIds": [
+       "F-CS1C-31"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1000",
+        "tolerance": 0,
+        "explanation": "1,000 yen per household, for applicants aged 33 or under and physically strong.",
+        "accept": [
+         "1,000",
+         "1 000",
+         "1000 yen",
+         "1,000 yen"
+        ]
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "causes",
+    "title": "Did China's divisions invite Japanese expansion?",
+    "body": "Background before 1931: China had been fragmented since the revolution of 1911. In 1926 the Kuomintang (Nationalist Party) launched the Northern Expedition under Chiang Kai-shek to reunify the country, and in December 1928 Zhang Xueliang, the ruler of Manchuria, accepted the Nationalist government's authority. But the Nationalists and the Communists had been fighting a civil war since 1927, and regional generals kept much of their power.\n\nThese divisions shaped Chinese and Japanese choices after 1931. Chiang believed that “the Japanese are a disease of the skin” while “the Communists are a disease of the heart”, and he ordered Zhang not to resist the invasion of Manchuria. Japan used China's condition to justify its actions. In October 1931 Tokyo blamed the crisis on “a deep-rooted anti-Japanese feeling in China”, organised, it said, by the Nationalist Party itself. At the League of Nations in February 1933 the Japanese delegate, Matsuoka, argued the opposite point too: that “the disorganized status of China” made the League's recommendations impossible to carry out. China was presented as both too hostile and too weak to be trusted with Manchuria.\n\nThe weakness was real but changing. In May 1937 the US Ambassador in China, Johnson, reported that Kwangsi province was still “virtually autonomous” and that the Communist problem could tear the country apart. Yet he also argued that Japanese pressure to separate five northern provinces had “done more than anything else to create in the Chinese people a desire for national unity”. In December 1936 two of Chiang's own generals seized him at Xi'an and demanded an end to the civil war and an alliance with the Communists against Japan; the crisis led to the Second United Front of 1937.\n\nChina's instability therefore made expansion look easy and gave Japan a ready justification. But it was not a cause on its own: Japan chose to exploit China's weakness, and by 1937 Japanese pressure was making China more united, not less, which helps explain why the war of 1937 did not end quickly.",
+    "argumentsThatWork": [
+     {
+      "claim": "China's civil war and regional divisions made it hard to resist Japan in 1931–1933.",
+      "evidence": [
+       "F-CS1C-12",
+       "F-CS1C-13",
+       "F-CS1C-14",
+       "F-CS1C-35"
+      ],
+      "strongestCounter": "Japanese pressure was itself creating Chinese unity by 1936–1937, so weakness was declining."
+     },
+     {
+      "claim": "Japan used China's condition as a justification for expansion.",
+      "evidence": [
+       "F-CS1C-05",
+       "F-CS1C-15"
+      ],
+      "strongestCounter": "These were arguments for an international audience; they do not prove that China's weakness caused Japanese decisions."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the importance of political instability in China as a cause of Japanese expansion.",
+     "To what extent was Chinese disunity responsible for the loss of Manchuria in 1931–1933?",
+     "Compare and contrast how two sources describe the situation in China."
+    ],
+    "useItInAnEssay": {
+     "claim": "China's divisions made expansion easier and gave Japan a justification.",
+     "prove": "Chiang ordered Zhang Xueliang not to resist in 1931 because he saw the Communists as the greater danger; Matsuoka cited “the disorganized status of China” at Geneva in 1933.",
+     "explain": "Because China was fighting a civil war, it could not defend Manchuria, and Japan could claim to be restoring order.",
+     "test": "However, Johnson reported in 1937 that Japanese pressure was creating a desire for national unity in China.",
+     "judge": "Instability was a permissive condition that Japan exploited, not the driving cause."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-CAUSES-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How did Chiang Kai-shek respond to the Japanese invasion of Manchuria in 1931?",
+      "factIds": [
+       "F-CS1C-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "He ordered Zhang Xueliang not to resist",
+        "correct": true,
+        "explanation": "Correct: he saw the Communists as the greater threat."
+       },
+       {
+        "id": "b",
+        "text": "He declared war on Japan at once",
+        "correct": false,
+        "explanation": "No: full-scale war began only in 1937."
+       },
+       {
+        "id": "c",
+        "text": "He formed a united front with the Communists",
+        "correct": false,
+        "explanation": "The Second United Front came in 1937."
+       },
+       {
+        "id": "d",
+        "text": "He asked Japan to establish Manchukuo",
+        "correct": false,
+        "explanation": "No: Manchukuo was a Japanese creation."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-CAUSES-C08",
+      "kind": "checkpoint",
+      "type": "spot_error",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: “At Geneva in 1933 Matsuoka argued that China was too well organised to need help.”",
+      "factIds": [
+       "F-CS1C-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "He argued that the disorganized status of China made the recommendations impossible",
+        "correct": true,
+        "explanation": "Correct: he stressed China's disorder, not its organisation."
+       },
+       {
+        "id": "b",
+        "text": "The year should be 1937",
+        "correct": false,
+        "explanation": "The Assembly debate was on 24 February 1933."
+       },
+       {
+        "id": "c",
+        "text": "Matsuoka represented China",
+        "correct": false,
+        "explanation": "That is not the error in the statement; he led the Japanese delegation."
+       },
+       {
+        "id": "d",
+        "text": "The meeting was in Tokyo",
+        "correct": false,
+        "explanation": "The statement says Geneva, which is correct."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-CAUSES-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: in May 1937 Johnson reported that Japanese pressure had done more than anything else to create a desire for national unity in China. Which argument does it support?",
+      "factIds": [
+       "F-CS1C-14"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Japanese aggression was strengthening Chinese nationalism",
+        "correct": true,
+        "explanation": "Correct: pressure produced unity rather than collapse."
+       },
+       {
+        "id": "b",
+        "text": "China was becoming more divided in 1937",
+        "correct": false,
+        "explanation": "The fact suggests the opposite trend."
+       },
+       {
+        "id": "c",
+        "text": "Japan wanted a united China",
+        "correct": false,
+        "explanation": "Japan sought to separate northern provinces."
+       },
+       {
+        "id": "d",
+        "text": "The League had united China",
+        "correct": false,
+        "explanation": "The fact credits Japanese pressure, not the League."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "impact_consequences",
+    "title": "What did the “new order” and the Axis link add to the causes of expansion?",
+    "body": "By 1938 Japan's leaders were explaining expansion as the building of a “new order in East Asia”. On 3 November 1938, after capturing Canton and the cities of Wuhan, the government announced that the Kuomintang government was now “a mere local régime” and that the ultimate purpose of the campaign was a new order resting on a “tripartite relationship” of Japan, Manchoukuo and China, with joint defence against Communism and close economic cohesion. On 22 December Konoe spelled out the price for China: recognise Manchoukuo, sign an anti-Comintern agreement, accept Japanese troops and open its natural resources to Japan. He insisted that Japan sought “neither territory nor indemnity”.\n\nThe United States rejected the idea. In a note dated 30 December 1938 it denied that any one power had a right “to prescribe what shall be the terms and conditions of a ‘new order’ in areas not under its sovereignty”. This matters because the new order was a cause of conflict as well as a description of Japan's aims: it closed the door to a compromise peace with Chiang and set Japan against the Western powers.\n\nThe ideological language connected Japan with Germany and Italy. Japan and Germany had signed the Anti-Comintern Pact on 25 November 1936, and Italy joined in 1937. German victories in 1940 then changed Japanese calculations. In September 1940 Grew reported that the military saw a “golden opportunity” to carry out its “dreams of expansion”, since the German victories had gone to their heads “like strong wine”. On 27 September 1940 the Tripartite Pact recognised Japan's leadership of a new order in Greater East Asia.\n\nThe new order and the Axis link therefore turned a war in China into a programme for the whole region. In January 1941 Secretary of State Hull told a committee of the House of Representatives that Japan aimed at a dominant position “in the entire region of the Western Pacific”. Ideas and alliances explain the scale of expansion after 1938; they do not explain its origins in 1931.",
+    "argumentsThatWork": [
+     {
+      "claim": "The “new order” turned the China war into a regional programme.",
+      "evidence": [
+       "F-CS1C-16",
+       "F-CS1C-17",
+       "F-CS1C-26"
+      ],
+      "strongestCounter": "Konoe denied any territorial aims, so Japanese leaders presented it as cooperation, not conquest."
+     },
+     {
+      "claim": "German victories in 1940 encouraged further expansion.",
+      "evidence": [
+       "F-CS1C-20",
+       "F-CS1C-26"
+      ],
+      "strongestCounter": "Grew also reported doubts in Japan about whether Germany would win."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, to what extent was the aim of a “new order” a cause of Japanese expansion after 1937?",
+     "Examine the impact of Japan's alignment with Germany and Italy on its expansion, 1936–1941.",
+     "Compare and contrast what two sources reveal about Japan's “new order in East Asia”."
+    ],
+    "useItInAnEssay": {
+     "claim": "The “new order” gave expansion a regional goal after 1938.",
+     "prove": "On 3 November 1938 Japan declared that the ultimate purpose of its campaign was a new order of Japan, Manchoukuo and China.",
+     "explain": "Because this goal required China's submission and the exclusion of Western influence, it ruled out a compromise peace and set Japan against the United States.",
+     "test": "However, the slogan followed the army's conquests and was partly a justification for them.",
+     "judge": "The new order explains the scale of expansion after 1938 more than its causes in 1931."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-CAUSES-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Japanese Government announce on 3 November 1938?",
+      "factIds": [
+       "F-CS1C-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "A new order in East Asia based on Japan, Manchoukuo and China",
+        "correct": true,
+        "explanation": "Correct: it called this the ultimate purpose of the campaign."
+       },
+       {
+        "id": "b",
+        "text": "Japan's withdrawal from the League of Nations",
+        "correct": false,
+        "explanation": "That notice was given on 27 March 1933."
+       },
+       {
+        "id": "c",
+        "text": "The Tripartite Pact",
+        "correct": false,
+        "explanation": "That was signed on 27 September 1940."
+       },
+       {
+        "id": "d",
+        "text": "An alliance with Chiang Kai-shek",
+        "correct": false,
+        "explanation": "It called his government a mere local régime."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-CAUSES-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In which year did Germany and Japan sign the Anti-Comintern Pact?",
+      "factIds": [
+       "F-CS1C-18"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1936",
+        "tolerance": 0,
+        "explanation": "25 November 1936; Italy joined in 1937."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-CAUSES-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: in September 1940 Grew reported that Japanese military elements saw a “golden opportunity” for expansion after German victories. Which argument does it support?",
+      "factIds": [
+       "F-CS1C-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Events in Europe encouraged Japanese expansion",
+        "correct": true,
+        "explanation": "Correct: German success seemed to open the way south."
+       },
+       {
+        "id": "b",
+        "text": "Japan wanted to end the war in China at any price",
+        "correct": false,
+        "explanation": "The fact is about new opportunities, not peace."
+       },
+       {
+        "id": "c",
+        "text": "The United States had encouraged Japan",
+        "correct": false,
+        "explanation": "Grew said the military discounted US opposition, not that the US encouraged it."
+       },
+       {
+        "id": "d",
+        "text": "Japan's army opposed expansion",
+        "correct": false,
+        "explanation": "The fact shows the opposite."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1931,
+      "month": 9,
+      "day": 18,
+      "text": "Mukden explosion; Japanese invasion of Manchuria begins",
+      "factId": "F-CS1C-01"
+     },
+     {
+      "year": 1932,
+      "month": 3,
+      "day": 1,
+      "text": "Manchukuo formally established",
+      "factId": "F-CS1C-22"
+     },
+     {
+      "year": 1932,
+      "month": 5,
+      "day": 15,
+      "text": "Prime Minister Inukai assassinated by young naval officers",
+      "factId": "F-CS1C-07"
+     },
+     {
+      "year": 1933,
+      "month": 3,
+      "day": 27,
+      "text": "Japan gives notice of withdrawal from the League",
+      "factId": "F-CS1C-23"
+     },
+     {
+      "year": 1934,
+      "month": 12,
+      "text": "Japan gives notice to end the Washington Naval Treaty",
+      "factId": "F-CS1C-24"
+     },
+     {
+      "year": 1936,
+      "month": 2,
+      "day": 26,
+      "text": "Failed army coup in Tokyo",
+      "factId": "F-CS1C-08"
+     },
+     {
+      "year": 1936,
+      "month": 11,
+      "day": 25,
+      "text": "Anti-Comintern Pact with Germany",
+      "factId": "F-CS1C-18"
+     },
+     {
+      "year": 1937,
+      "month": 7,
+      "day": 7,
+      "text": "Clash near Peiping (Marco Polo Bridge); war in China",
+      "factId": "F-CS1C-25"
+     },
+     {
+      "year": 1938,
+      "month": 11,
+      "day": 3,
+      "text": "“New order in East Asia” statement",
+      "factId": "F-CS1C-16"
+     },
+     {
+      "year": 1940,
+      "month": 9,
+      "day": 27,
+      "text": "Tripartite Pact with Germany and Italy",
+      "factId": "F-CS1C-26"
+     },
+     {
+      "year": 1941,
+      "month": 7,
+      "text": "Japanese troops move into southern Indochina",
+      "factId": "F-CS1C-27"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Economic crisis: farmers' plight, unemployment, falling yen (1932)",
+      "factId": "F-CS1C-06"
+     },
+     {
+      "id": "n2",
+      "text": "Kwantung Army stages the Mukden incident (1931)",
+      "factId": "F-CS1C-02"
+     },
+     {
+      "id": "n3",
+      "text": "Nationalist fervour and political violence: no Cabinet can compromise (1932–36)",
+      "factId": "F-CS1C-09"
+     },
+     {
+      "id": "n4",
+      "text": "Divided China cannot resist; Japan claims to restore order",
+      "factId": "F-CS1C-15"
+     },
+     {
+      "id": "n5",
+      "text": "War in China from 1937; “new order” proclaimed (1938)",
+      "factId": "F-CS1C-16"
+     },
+     {
+      "id": "n6",
+      "text": "Shortages and German victories: Tripartite Pact and move south (1940–41)",
+      "factId": "F-CS1C-20"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n3",
+      "because": "hardship made people receptive to nationalist claims that foreign powers were thwarting Japan"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "the army's success created a fait accompli that governments could not reverse"
+     },
+     {
+      "from": "n4",
+      "to": "n2",
+      "because": "Chiang's priority of fighting the Communists meant Manchuria was not defended"
+     },
+     {
+      "from": "n3",
+      "to": "n5",
+      "because": "governments followed the army's line and demanded China's submission"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "the long war created a need for raw materials that Japan sought further south"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Kwantung Army officers (Itagaki and Ishiwara)",
+     "role": "Planned the Mukden incident of September 1931",
+     "whyItMatters": "Showed that army officers could start expansion without government approval.",
+     "factIds": [
+      "F-CS1C-02"
+     ]
+    },
+    {
+     "name": "Inukai Tsuyoshi",
+     "role": "Prime Minister, assassinated on 15 May 1932",
+     "whyItMatters": "His murder, and the light sentences, strengthened militarism.",
+     "factIds": [
+      "F-CS1C-07"
+     ]
+    },
+    {
+     "name": "Prince Konoe (Konoye) Fumimaro",
+     "role": "Prime Minister 1937–1939 and 1940–1941",
+     "whyItMatters": "Proclaimed the “new order in East Asia” and led Japan into the Tripartite Pact.",
+     "factIds": [
+      "F-CS1C-11",
+      "F-CS1C-16",
+      "F-CS1C-17"
+     ]
+    },
+    {
+     "name": "Chiang Kai-shek",
+     "role": "Nationalist (Kuomintang) leader of China",
+     "whyItMatters": "Put fighting the Communists before resisting Japan in 1931.",
+     "factIds": [
+      "F-CS1C-13"
+     ]
+    },
+    {
+     "name": "Joseph C. Grew",
+     "role": "US Ambassador to Japan (his reports cover 1932–1941)",
+     "whyItMatters": "His reports link Japanese militarism to economic crisis and to German victories.",
+     "factIds": [
+      "F-CS1C-06",
+      "F-CS1C-20"
+     ]
+    },
+    {
+     "name": "Matsuoka Yōsuke",
+     "role": "Led Japan's delegation at the League Assembly, February 1933",
+     "whyItMatters": "Justified Japan's actions by pointing to China's disorder, then walked out.",
+     "factIds": [
+      "F-CS1C-15"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "Japanese government explanation",
+     "US diplomats' explanation"
+    ],
+    "rows": [
+     {
+      "criterion": "Manchuria, 1931",
+      "cells": [
+       "Self-defence after Chinese troops destroyed railway track; no territorial designs",
+       "An aggressive act “apparently long planned” (Johnson)"
+      ],
+      "factIds": [
+       "F-CS1C-04",
+       "F-CS1C-03"
+      ]
+     },
+     {
+      "criterion": "China",
+      "cells": [
+       "Anti-Japanese agitation directed by the Nationalist Party; China disorganised",
+       "Japanese pressure was creating a desire for national unity (Johnson, 1937)"
+      ],
+      "factIds": [
+       "F-CS1C-05",
+       "F-CS1C-14"
+      ]
+     },
+     {
+      "criterion": "Southward advance, 1941",
+      "cells": [
+       "Uninterrupted supply of rice and raw materials; fear of encirclement (Nomura)",
+       "Military elements saw a “golden opportunity” (Grew, 1940)"
+      ],
+      "factIds": [
+       "F-CS1C-21",
+       "F-CS1C-20"
+      ]
+     }
+    ]
+   },
+   "archival": [
+    "M-february-26-incident-1936",
+    "M-manchuria-emigration-poster",
+    "M-pro-japanese-poster-1938",
+    "M-nakayoshi-sangoku-postcard"
+   ]
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-CS1C-02",
+    "year": 1931,
+    "text": "September 1931: Kwantung Army officers Itagaki and Ishiwara staged the Mukden explosion; their commander approved only after the act.",
+    "supports": [
+     "The army, not the Cabinet, started expansion",
+     "Militarism was the main cause"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-EVENTS"
+    ],
+    "lexicon": [
+     "Kwantung Army",
+     "Itagaki",
+     "Ishiwara",
+     "Mukden",
+     "Honjo",
+     "Honjō"
+    ]
+   },
+   {
+    "factId": "F-CS1C-06",
+    "year": 1932,
+    "text": "13 August 1932 (Grew): public animosity was built up to strengthen the military's Manchurian venture; farmers in a very bad plight, unemployment rising, the yen falling.",
+    "supports": [
+     "Militarism and economic crisis reinforced each other",
+     "Economic problems made expansion attractive"
+    ],
+    "lexicon": [
+     "Grew",
+     "farmers",
+     "unemployment",
+     "yen",
+     "Manchurian venture"
+    ]
+   },
+   {
+    "factId": "F-CS1C-07",
+    "year": 1932,
+    "text": "15 May 1932: Prime Minister Inukai was assassinated by young naval officers; light sentences strengthened militarism.",
+    "supports": [
+     "Political violence pushed governments towards the army's line"
+    ],
+    "lexicon": [
+     "Inukai",
+     "May 15",
+     "naval officers",
+     "assassination"
+    ]
+   },
+   {
+    "factId": "F-CS1C-13",
+    "year": 1931,
+    "text": "Chiang Kai-shek saw the Communists as “a disease of the heart” and ordered Zhang Xueliang not to resist the invasion of Manchuria.",
+    "supports": [
+     "China's divisions made expansion easier"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-RESPONSES"
+    ],
+    "lexicon": [
+     "Chiang",
+     "Zhang Xueliang",
+     "non-resistance",
+     "civil war",
+     "disease of the heart"
+    ]
+   },
+   {
+    "factId": "F-CS1C-16",
+    "year": 1938,
+    "text": "3 November 1938: Japan declared a “new order in East Asia” based on Japan, Manchoukuo and China, calling the Kuomintang government a mere local régime.",
+    "supports": [
+     "Ideas of a new order widened the war",
+     "Japan rejected a compromise peace"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-EVENTS"
+    ],
+    "lexicon": [
+     "new order",
+     "Manchoukuo",
+     "Kuomintang",
+     "Wuhan",
+     "Canton",
+     "anti-Comintern"
+    ]
+   },
+   {
+    "factId": "F-CS1C-20",
+    "year": 1940,
+    "text": "12 September 1940 (Grew): military elements saw a “golden opportunity” after German victories; some sought raw materials and markets entirely within Japanese control.",
+    "supports": [
+     "Events in Europe encouraged expansion",
+     "The need for raw materials drove the move south"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-EVENTS"
+    ],
+    "lexicon": [
+     "golden opportunity",
+     "Grew",
+     "raw materials",
+     "German victories"
+    ]
+   },
+   {
+    "factId": "F-CS1C-21",
+    "year": 1941,
+    "text": "23 July 1941 (Nomura to Welles): Japan needed an uninterrupted supply of rice and raw materials from Indochina and feared encirclement.",
+    "supports": [
+     "The need for raw materials drove the move south"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-RESPONSES"
+    ],
+    "lexicon": [
+     "Nomura",
+     "Indochina",
+     "rice",
+     "raw materials",
+     "encirclement"
+    ]
+   },
+   {
+    "factId": "F-CS1C-26",
+    "year": 1940,
+    "text": "27 September 1940: the Tripartite Pact recognised Japan's leadership of a new order in Greater East Asia.",
+    "supports": [
+     "Alignment with Germany widened Japan's aims"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-EVENTS"
+    ],
+    "lexicon": [
+     "Tripartite Pact",
+     "Three-Power Pact",
+     "Greater East Asia"
+    ]
+   }
+  ],
+  "historiography": [],
+  "misconceptions": [
+   {
+    "wrong": "The Japanese government planned the Mukden incident.",
+    "right": "It was planned by **Kwantung Army officers**; their own commander approved only after the act, and the Cabinet publicly denied any territorial designs."
+   },
+   {
+    "wrong": "Japanese expansion began in 1937.",
+    "right": "It began with the invasion of **Manchuria in September 1931**; 1937 marks the start of full-scale war with China."
+   },
+   {
+    "wrong": "China was united under Chiang Kai-shek in 1931.",
+    "right": "China was split by a **civil war since 1927** and by regional generals; even in 1937 Kwangsi was “virtually autonomous”."
+   },
+   {
+    "wrong": "The Tripartite Pact of 1940 was Japan's first agreement with Germany.",
+    "right": "Japan and Germany signed the **Anti-Comintern Pact on 25 November 1936**."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1931,
+     "month": 9,
+     "day": 18,
+     "text": "Mukden incident"
+    },
+    {
+     "year": 1932,
+     "month": 3,
+     "day": 1,
+     "text": "Manchukuo established"
+    },
+    {
+     "year": 1932,
+     "month": 5,
+     "day": 15,
+     "text": "Inukai assassinated"
+    },
+    {
+     "year": 1933,
+     "month": 3,
+     "day": 27,
+     "text": "Notice to leave the League"
+    },
+    {
+     "year": 1936,
+     "month": 2,
+     "day": 26,
+     "text": "Failed army coup"
+    },
+    {
+     "year": 1936,
+     "month": 11,
+     "day": 25,
+     "text": "Anti-Comintern Pact"
+    },
+    {
+     "year": 1937,
+     "month": 7,
+     "day": 7,
+     "text": "Clash near Peiping; war in China"
+    },
+    {
+     "year": 1938,
+     "month": 11,
+     "day": 3,
+     "text": "“New order” statement"
+    },
+    {
+     "year": 1940,
+     "month": 9,
+     "day": 27,
+     "text": "Tripartite Pact"
+    },
+    {
+     "year": 1941,
+     "month": 7,
+     "text": "Move into southern Indochina"
+    }
+   ],
+   "keyArguments": [
+    "Militarism started expansion: Kwantung Army officers acted first (1931) and political violence made compromise impossible.",
+    "Economic crisis made expansion attractive; the need for raw materials drove the move south after 1937.",
+    "China's divisions made expansion easier and gave Japan a justification, though Japanese pressure was uniting China by 1937.",
+    "The “new order” and the Axis link turned the China war into a regional programme after 1938."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P1-CS1-CAUSES-R01",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "When did the Mukden incident take place?",
+   "factIds": [
+    "F-CS1C-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "18 September 1931",
+     "correct": true,
+     "explanation": "Correct: an explosion damaged the South Manchuria Railway near Mukden."
+    },
+    {
+     "id": "b",
+     "text": "7 July 1937",
+     "correct": false,
+     "explanation": "That is the clash near Peiping that began full-scale war."
+    },
+    {
+     "id": "c",
+     "text": "1 March 1932",
+     "correct": false,
+     "explanation": "That is when Manchukuo was formally established."
+    },
+    {
+     "id": "d",
+     "text": "27 March 1933",
+     "correct": false,
+     "explanation": "That is when Japan gave notice of leaving the League."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Mukden incident",
+     "year": 1931,
+     "month": 9,
+     "factId": "F-CS1C-01"
+    },
+    {
+     "id": "b",
+     "text": "Inukai assassinated",
+     "year": 1932,
+     "month": 5,
+     "factId": "F-CS1C-07"
+    },
+    {
+     "id": "c",
+     "text": "Failed army coup in Tokyo",
+     "year": 1936,
+     "month": 2,
+     "factId": "F-CS1C-08"
+    },
+    {
+     "id": "d",
+     "text": "“New order in East Asia” statement",
+     "year": 1938,
+     "month": 11,
+     "factId": "F-CS1C-16"
+    },
+    {
+     "id": "e",
+     "text": "Tripartite Pact",
+     "year": 1940,
+     "month": 9,
+     "factId": "F-CS1C-26"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R03",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Itagaki and Ishiwara",
+     "right": "Kwantung Army officers who planned the Mukden incident",
+     "explanation": "They staged the explosion of 18 September 1931."
+    },
+    {
+     "left": "Inukai Tsuyoshi",
+     "right": "Prime Minister assassinated on 15 May 1932",
+     "explanation": "Killed by young naval officers."
+    },
+    {
+     "left": "Konoe (Konoye) Fumimaro",
+     "right": "Prime Minister who proclaimed the “new order” in 1938",
+     "explanation": "Prime Minister 1937–1939 and 1940–1941."
+    },
+    {
+     "left": "Joseph C. Grew",
+     "right": "US Ambassador to Japan who reported on its military and economy",
+     "explanation": "His letter of 13 August 1932 and telegram of 12 September 1940 are key sources."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R04",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date in 1932 was Manchukuo formally established? (day and month, for example 1 May)",
+   "factIds": [
+    "F-CS1C-22"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "1 March",
+     "tolerance": 0,
+     "explanation": "1 March 1932; Japan recognised it on 15 September 1932.",
+     "accept": [
+      "1 mar",
+      "march 1",
+      "1st march",
+      "1/3"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R05",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Japanese Cabinet say on 24 September 1931?",
+   "factIds": [
+    "F-CS1C-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That Japan harboured no territorial designs in Manchuria",
+     "correct": true,
+     "explanation": "Correct: six months later Manchukuo was proclaimed."
+    },
+    {
+     "id": "b",
+     "text": "That Japan would annex Manchuria",
+     "correct": false,
+     "explanation": "No: it denied any territorial designs."
+    },
+    {
+     "id": "c",
+     "text": "That Japan would leave the League at once",
+     "correct": false,
+     "explanation": "Notice to leave was given in March 1933."
+    },
+    {
+     "id": "d",
+     "text": "That the army had acted without orders",
+     "correct": false,
+     "explanation": "No: it blamed Chinese troops for the incident."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R06",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which reasons for expansion appear in Konoe's Diet address of 27 July 1937? Choose all that apply.",
+   "factIds": [
+    "F-CS1C-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Policy should stem from the spirit of the Empire's polity",
+     "correct": true,
+     "explanation": "Yes: he called this the underlying principle."
+    },
+    {
+     "id": "b",
+     "text": "Japan must perfect its national defence and develop its economic power",
+     "correct": true,
+     "explanation": "Yes: he called it a most urgent necessity."
+    },
+    {
+     "id": "c",
+     "text": "Japan and Manchukuo should be planned as a single economic unit",
+     "correct": true,
+     "explanation": "Yes: he said investigations were under way on that basis."
+    },
+    {
+     "id": "d",
+     "text": "Japan intended to annex all of China",
+     "correct": false,
+     "explanation": "No: he said troops were sent only to preserve the peace of East Asia."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R07",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Grew reported in 1932 that millions of yen were being spent on the Manchurian venture, “of which the eventual economic advantage is highly problematical”. Which argument does it support?",
+   "factIds": [
+    "F-CS1C-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Expansion was costly and its economic benefits were doubtful",
+     "correct": true,
+     "explanation": "Correct: it questions the economic case for expansion."
+    },
+    {
+     "id": "b",
+     "text": "Manchuria made Japan rich at once",
+     "correct": false,
+     "explanation": "The fact says the opposite."
+    },
+    {
+     "id": "c",
+     "text": "Japan was borrowing heavily from Britain",
+     "correct": false,
+     "explanation": "Grew said money could not be obtained from abroad."
+    },
+    {
+     "id": "d",
+     "text": "China paid for the Manchurian venture",
+     "correct": false,
+     "explanation": "Grew says Japan was paying."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R08",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “After the failed coup of 26 February 1936 the army lost all influence over the government.”",
+   "factIds": [
+    "F-CS1C-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The military increased its control over the civilian government",
+     "correct": true,
+     "explanation": "Correct: one faction lost influence, but the military as a whole gained."
+    },
+    {
+     "id": "b",
+     "text": "The coup took place in 1932",
+     "correct": false,
+     "explanation": "1932 was Inukai's assassination; the coup was in 1936."
+    },
+    {
+     "id": "c",
+     "text": "No one was punished",
+     "correct": false,
+     "explanation": "That is not the error in the statement; in fact 19 leaders were executed."
+    },
+    {
+     "id": "d",
+     "text": "The coup succeeded",
+     "correct": false,
+     "explanation": "The statement correctly calls it failed."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R09",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Case Study 1 runs from 1931 to 1941. Is the Northern Expedition (1926–1928) inside or outside the timeframe?",
+   "timeframe": [
+    1931,
+    1941
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it is background that may be used only as labelled context",
+     "correct": true,
+     "explanation": "Correct: it explains China's divisions but happened before 1931."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: it ended in 1928."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it involved Manchuria",
+     "correct": false,
+     "explanation": "The timeframe, not the place, decides."
+    },
+    {
+     "id": "d",
+     "text": "Outside, so it can never be mentioned",
+     "correct": false,
+     "explanation": "It can be used as clearly labelled background."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R10",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Matsuoka argue at the League Assembly on 24 February 1933?",
+   "factIds": [
+    "F-CS1C-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That China's disorganized status made the League's recommendations impossible to carry out",
+     "correct": true,
+     "explanation": "Correct: he also said Manchuria was not understood."
+    },
+    {
+     "id": "b",
+     "text": "That Japan accepted the Lytton findings",
+     "correct": false,
+     "explanation": "No: he said Japan could not accept the report."
+    },
+    {
+     "id": "c",
+     "text": "That Japan would return Manchuria to China",
+     "correct": false,
+     "explanation": "No: Japan kept Manchukuo."
+    },
+    {
+     "id": "d",
+     "text": "That the United States should mediate",
+     "correct": false,
+     "explanation": "He did not propose US mediation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R11",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which year did Japan give notice that it would end the Washington Naval Treaty?",
+   "factIds": [
+    "F-CS1C-24"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "1934",
+     "tolerance": 0,
+     "explanation": "At the end of 1934; Hull regretted the notice on 29 December 1934."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R12",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each source to its main claim.",
+   "pairs": [
+    {
+     "left": "Japanese memorandum, 9 October 1931",
+     "right": "Anti-Japanese agitation directed by the Nationalist Party caused the crisis",
+     "explanation": "It blamed the Chinese Government."
+    },
+    {
+     "left": "Johnson, 22 September 1931",
+     "right": "The occupation of South Manchuria was a long-planned aggressive act",
+     "explanation": "He found no evidence of accident."
+    },
+    {
+     "left": "US note, 30 December 1938",
+     "right": "No single power may prescribe a “new order” outside its sovereignty",
+     "explanation": "The US rejected the new order."
+    },
+    {
+     "left": "Nomura to Welles, 23 July 1941",
+     "right": "Japan needed an uninterrupted supply of rice and raw materials",
+     "explanation": "He also cited fear of encirclement."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R13",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Johnson in May 1937, what was the main effect of Japanese pressure on China?",
+   "factIds": [
+    "F-CS1C-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It created a desire for national unity",
+     "correct": true,
+     "explanation": "Correct: he said it did more than anything else to unite opinion."
+    },
+    {
+     "id": "b",
+     "text": "It broke China into five states",
+     "correct": false,
+     "explanation": "Japan tried to separate five provinces but the effect was greater unity."
+    },
+    {
+     "id": "c",
+     "text": "It ended Chiang's career",
+     "correct": false,
+     "explanation": "He said Chiang had become indispensable."
+    },
+    {
+     "id": "d",
+     "text": "It made Kwangsi loyal to Japan",
+     "correct": false,
+     "explanation": "He described Kwangsi as virtually autonomous, not pro-Japanese."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R14",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Chiang Kai-shek ordered Zhang Xueliang not to resist the invasion of Manchuria in 1931. Which argument does it support?",
+   "factIds": [
+    "F-CS1C-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "China's civil war weakened its resistance to Japan",
+     "correct": true,
+     "explanation": "Correct: Chiang put fighting the Communists first."
+    },
+    {
+     "id": "b",
+     "text": "China was ready for war with Japan in 1931",
+     "correct": false,
+     "explanation": "The fact suggests the opposite."
+    },
+    {
+     "id": "c",
+     "text": "The League ordered China not to resist",
+     "correct": false,
+     "explanation": "The order came from Chiang."
+    },
+    {
+     "id": "d",
+     "text": "Japan and China were allies",
+     "correct": false,
+     "explanation": "Japan was invading China."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R15",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Grew said Japanese military elements saw the world situation in 1940 as a golden what?",
+   "factIds": [
+    "F-CS1C-20"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "opportunity",
+     "tolerance": 0,
+     "explanation": "“Golden opportunity”, because German victories had gone to their heads “like strong wine”."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R16",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which demands on China did Konoe set out on 22 December 1938? Choose all that apply.",
+   "factIds": [
+    "F-CS1C-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Recognise Manchoukuo",
+     "correct": true,
+     "explanation": "Yes: he called for complete diplomatic relations with Manchoukuo."
+    },
+    {
+     "id": "b",
+     "text": "Conclude an anti-Comintern agreement",
+     "correct": true,
+     "explanation": "Yes: as a condition of adjusting relations."
+    },
+    {
+     "id": "c",
+     "text": "Give Japan facilities to develop natural resources in North China and Inner Mongolia",
+     "correct": true,
+     "explanation": "Yes: this was his economic demand."
+    },
+    {
+     "id": "d",
+     "text": "Pay an indemnity for the costs of the war",
+     "correct": false,
+     "explanation": "No: he said Japan sought neither territory nor indemnity."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R17",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The US note of December 1938 accepted Japan's right to build a new order in East Asia.”",
+   "factIds": [
+    "F-CS1C-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The note denied that any one power could prescribe a new order outside its sovereignty",
+     "correct": true,
+     "explanation": "Correct: the US rejected the idea."
+    },
+    {
+     "id": "b",
+     "text": "The note was sent in 1940",
+     "correct": false,
+     "explanation": "It is dated 30 December 1938."
+    },
+    {
+     "id": "c",
+     "text": "The note was sent by Germany",
+     "correct": false,
+     "explanation": "It was a US note delivered by Grew."
+    },
+    {
+     "id": "d",
+     "text": "Japan had not mentioned a new order",
+     "correct": false,
+     "explanation": "Japan proclaimed it on 3 November 1938."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Japan's leaders announce in August 1940, according to the State Department's Office of the Historian?",
+   "factIds": [
+    "F-CS1C-28"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Greater East Asia Co-Prosperity Sphere",
+     "correct": true,
+     "explanation": "Correct: it aimed to free Japan from dependence on Western supplies."
+    },
+    {
+     "id": "b",
+     "text": "The Anti-Comintern Pact",
+     "correct": false,
+     "explanation": "That was signed in November 1936."
+    },
+    {
+     "id": "c",
+     "text": "Withdrawal from China",
+     "correct": false,
+     "explanation": "Japan did not intend to withdraw from China."
+    },
+    {
+     "id": "d",
+     "text": "A neutrality pact with Britain",
+     "correct": false,
+     "explanation": "No such pact was made."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R19",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: by late 1937 Japan had lost much of its gold reserves through a trade imbalance, and Konoe saw exploiting northern China's resources as the remedy. Which argument does it support?",
+   "factIds": [
+    "F-CS1C-29"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic pressures pushed Japan to deepen its control of China",
+     "correct": true,
+     "explanation": "Correct: resources in China were seen as the solution."
+    },
+    {
+     "id": "b",
+     "text": "Japan's economy was strong in 1937",
+     "correct": false,
+     "explanation": "The fact describes a loss of reserves."
+    },
+    {
+     "id": "c",
+     "text": "Konoe opposed expansion",
+     "correct": false,
+     "explanation": "He favoured exploiting northern China's resources."
+    },
+    {
+     "id": "d",
+     "text": "The United States caused the gold losses",
+     "correct": false,
+     "explanation": "The fact names a trade imbalance, not the US."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R20",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps in Japanese–German alignment and the move south in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Anti-Comintern Pact",
+     "year": 1936,
+     "month": 11,
+     "factId": "F-CS1C-18"
+    },
+    {
+     "id": "b",
+     "text": "“New order” statement",
+     "year": 1938,
+     "month": 11,
+     "factId": "F-CS1C-16"
+    },
+    {
+     "id": "c",
+     "text": "Grew's “golden opportunity” telegram",
+     "year": 1940,
+     "month": 9,
+     "factId": "F-CS1C-20"
+    },
+    {
+     "id": "d",
+     "text": "Nomura explains the move into southern Indochina",
+     "year": 1941,
+     "month": 7,
+     "factId": "F-CS1C-21"
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P1-CS1-CAUSES-D01",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every part of this extract that gives a distinct reason why hostility to foreign nations was being built up in Japan (Grew, 13 August 1932).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Here in Japan the deliberate building up of public animosity against foreign nations",
+     "answer": "not_point",
+     "explanation": "This states what was happening, not why."
+    },
+    {
+     "id": "s2",
+     "text": "has doubtless a similar purpose—to strengthen the hand of the military in its Manchurian venture",
+     "answer": "point",
+     "explanation": "Point 1: to strengthen the military in Manchuria."
+    },
+    {
+     "id": "s3",
+     "text": "in the face of foreign, and especially American, opposition.",
+     "answer": "point",
+     "explanation": "Point 2: to resist foreign, especially American, opposition."
+    },
+    {
+     "id": "s4",
+     "text": "I believe that on the part of the Japanese it is a sign of weakness, not of strength.",
+     "answer": "not_point",
+     "explanation": "Grew's judgement, not a reason given for the hostility."
+    },
+    {
+     "id": "s5",
+     "text": "the best way to obscure these facts is to work the public into a patriotic and nationalistic fervor",
+     "answer": "point",
+     "explanation": "Point 3: to hide the economic facts by stirring nationalism."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D02",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct economic problem in this extract (Grew, 13 August 1932).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The internal economic and financial situation in Japan is serious and may become desperate.",
+     "answer": "not_point",
+     "explanation": "A general summary, not a specific problem."
+    },
+    {
+     "id": "s2",
+     "text": "The plight of the farmers is very bad,",
+     "answer": "point",
+     "explanation": "Point: the farmers' plight."
+    },
+    {
+     "id": "s3",
+     "text": "many industries are at low ebb,",
+     "answer": "point",
+     "explanation": "Point: weak industries."
+    },
+    {
+     "id": "s4",
+     "text": "unemployment is steadily increasing.",
+     "answer": "point",
+     "explanation": "Point: rising unemployment."
+    },
+    {
+     "id": "s5",
+     "text": "The yen is falling",
+     "answer": "point",
+     "explanation": "Point: a falling currency."
+    },
+    {
+     "id": "s6",
+     "text": "I am not an alarmist",
+     "answer": "not_point",
+     "explanation": "Grew describing himself, not a problem."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D03",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct reason the Ambassador gave for the move into southern Indochina (Welles's memorandum, 23 July 1941).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "He stated that I was well aware of the critical economic situation of Japan",
+     "answer": "point",
+     "explanation": "Point: Japan's critical economic situation."
+    },
+    {
+     "id": "s2",
+     "text": "and of the great difficulty which Japan had in procuring raw materials, particularly food supplies, from abroad.",
+     "answer": "point",
+     "explanation": "Point: difficulty in obtaining raw materials and food."
+    },
+    {
+     "id": "s3",
+     "text": "The Ambassador said that he had now received from press reports, but not as yet officially, information",
+     "answer": "not_point",
+     "explanation": "How he heard the news, not a reason."
+    },
+    {
+     "id": "s4",
+     "text": "the second reason for the occupation undertaken was the need for military security.",
+     "answer": "point",
+     "explanation": "Point: military security."
+    },
+    {
+     "id": "s5",
+     "text": "He stated that Japan believed that certain foreign powers were bent upon a policy of encirclement of Japan",
+     "answer": "point",
+     "explanation": "Point: fear of encirclement."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D04",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct feature of the “new order” in this extract (Japanese Government, 3 November 1938).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "By the august virtue of His Majesty, our naval and military forces have captured Canton and the three cities of Wuhan;",
+     "answer": "not_point",
+     "explanation": "Military news, not a feature of the new order."
+    },
+    {
+     "id": "s2",
+     "text": "a tripartite relationship of mutual aid and co-ordination between Japan, Manchoukuo and China",
+     "answer": "point",
+     "explanation": "Point: Japan, Manchoukuo and China linked together."
+    },
+    {
+     "id": "s3",
+     "text": "to perfect the joint defence against Communism,",
+     "answer": "point",
+     "explanation": "Point: joint anti-communism."
+    },
+    {
+     "id": "s4",
+     "text": "and to create a new culture and realize a close economic cohesion throughout East Asia.",
+     "answer": "point",
+     "explanation": "Point: economic cohesion (and a new culture)."
+    },
+    {
+     "id": "s5",
+     "text": "Japan wishes to express her profound gratitude.",
+     "answer": "not_point",
+     "explanation": "Thanks to friendly nations, not a feature."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D05",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Konoe's address to the Diet on 27 July 1937? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To win the Diet's and the nation's support for sending troops to North China, three weeks after fighting began near Peiping",
+     "correct": true,
+     "explanation": "Correct: audience (Diet and nation), action (win support), moment (July 1937)."
+    },
+    {
+     "id": "b",
+     "text": "To inform people about China",
+     "correct": false,
+     "explanation": "Too vague: no audience, action or moment."
+    },
+    {
+     "id": "c",
+     "text": "The purpose is about Japanese politics",
+     "correct": false,
+     "explanation": "That is a topic, not a purpose."
+    },
+    {
+     "id": "d",
+     "text": "To announce the Tripartite Pact",
+     "correct": false,
+     "explanation": "Wrong date: the pact was signed in 1940."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D06",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the Japanese memorandum of 9 October 1931? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To shift responsibility for the Manchurian crisis onto the Chinese Government, before the League and other powers, weeks after the invasion began",
+     "correct": true,
+     "explanation": "Correct: it blamed China while the League was considering the dispute."
+    },
+    {
+     "id": "b",
+     "text": "To describe Chinese culture",
+     "correct": false,
+     "explanation": "No: it is a diplomatic protest."
+    },
+    {
+     "id": "c",
+     "text": "To apologise for the Mukden incident",
+     "correct": false,
+     "explanation": "It blamed China; it did not apologise."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is anti-Japanese feeling",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D07",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Grew's letter of 13 August 1932? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To warn the Secretary of State privately that the Japanese military was dangerous, at a moment of anti-American press attacks",
+     "correct": true,
+     "explanation": "Correct: audience (Stimson), action (warn), moment (the press outburst of August 1932)."
+    },
+    {
+     "id": "b",
+     "text": "To persuade the Japanese public to oppose the army",
+     "correct": false,
+     "explanation": "It was a private letter to Washington, not to the Japanese public."
+    },
+    {
+     "id": "c",
+     "text": "To give information",
+     "correct": false,
+     "explanation": "Too vague: no audience or moment."
+    },
+    {
+     "id": "d",
+     "text": "To declare war on Japan",
+     "correct": false,
+     "explanation": "An ambassador's letter could not do this, and the US was at peace with Japan."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D08",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the Japanese statement of 22 December 1938? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To set out Japan's terms for China, and reassure audiences at home and abroad that Japan sought no territory, after the fall of Wuhan and Canton",
+     "correct": true,
+     "explanation": "Correct: it says it wants its intentions understood “both at home and abroad”."
+    },
+    {
+     "id": "b",
+     "text": "To surrender to China",
+     "correct": false,
+     "explanation": "No: it demanded China's acceptance of Japanese terms."
+    },
+    {
+     "id": "c",
+     "text": "The purpose is the new order",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    },
+    {
+     "id": "d",
+     "text": "To report military news",
+     "correct": false,
+     "explanation": "It sets out policy, not battle news."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D09",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Konoe's Diet address, 1937): which sentence moves from a feature of the source to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Konoe was the Prime Minister speaking to the Diet, the address is valuable for showing how the government officially justified the war and linked it to the Empire's polity.",
+     "correct": true,
+     "explanation": "Correct: feature (Prime Minister to the Diet) → consequence (official justification) → value."
+    },
+    {
+     "id": "b",
+     "text": "The origin is Konoe in 1937.",
+     "correct": false,
+     "explanation": "A label: it names the origin but says nothing about value."
+    },
+    {
+     "id": "c",
+     "text": "The source is useful because it is primary.",
+     "correct": false,
+     "explanation": "Generic: being primary does not make a source valuable."
+    },
+    {
+     "id": "d",
+     "text": "The content is about China.",
+     "correct": false,
+     "explanation": "A topic label, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D10",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Konoe's Diet address, 1937): which sentence moves from a feature to a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because it was a public speech meant to win support, its claim that troops were sent only to preserve peace may hide the government's real aims.",
+     "correct": true,
+     "explanation": "Correct: feature (public speech) → consequence (may conceal aims) → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is limited because it is biased.",
+     "correct": false,
+     "explanation": "Generic: it does not say how or why."
+    },
+    {
+     "id": "c",
+     "text": "It is limited because it is short.",
+     "correct": false,
+     "explanation": "Length alone is not a limitation for a specific inquiry."
+    },
+    {
+     "id": "d",
+     "text": "It was given in Tokyo.",
+     "correct": false,
+     "explanation": "A fact, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D11",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Grew's telegram, 12 September 1940): which sentence explains a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "As the US Ambassador in Tokyo reporting to his own government, Grew could report frankly on the mood of Japanese military circles after the German victories.",
+     "correct": true,
+     "explanation": "Correct: feature (confidential, from Tokyo) → consequence (frank reporting) → value."
+    },
+    {
+     "id": "b",
+     "text": "Grew was American.",
+     "correct": false,
+     "explanation": "A fact with no evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is valuable because it is from 1940.",
+     "correct": false,
+     "explanation": "The date alone does not explain value."
+    },
+    {
+     "id": "d",
+     "text": "It is a telegram.",
+     "correct": false,
+     "explanation": "A label, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D12",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Grew's telegram, 12 September 1940): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Grew was an outsider relying on contacts, he could only infer what the “military and other elements” intended, so the source shows US perceptions more than Japanese decisions.",
+     "correct": true,
+     "explanation": "Correct: feature (outsider) → consequence (inference) → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is limited because it is American.",
+     "correct": false,
+     "explanation": "Nationality alone does not explain a limitation."
+    },
+    {
+     "id": "c",
+     "text": "It is limited because it is a paraphrase.",
+     "correct": false,
+     "explanation": "Partly true, but it does not say what this prevents the historian from knowing."
+    },
+    {
+     "id": "d",
+     "text": "It does not mention Germany.",
+     "correct": false,
+     "explanation": "Wrong: it discusses German victories."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D13",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, so that you compare Sources A (Grew, 1932) and D (Johnson, 1931) on the same issue.",
+   "categories": [
+    {
+     "id": "planning",
+     "label": "Issue 1: was expansion deliberate?"
+    },
+    {
+     "id": "who",
+     "label": "Issue 2: who was responsible?"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "A: deliberate building up of public animosity",
+     "answer": "planning",
+     "explanation": "A sees deliberate preparation of opinion."
+    },
+    {
+     "id": "s2",
+     "text": "D: an aggressive act by Japan apparently long planned",
+     "answer": "planning",
+     "explanation": "D sees deliberate military planning."
+    },
+    {
+     "id": "s3",
+     "text": "A: to strengthen the hand of the military in its Manchurian venture",
+     "answer": "who",
+     "explanation": "A names the military."
+    },
+    {
+     "id": "s4",
+     "text": "D: nor were they the acts of minor and irresponsible officials",
+     "answer": "who",
+     "explanation": "D says it was not low-level officials, implying higher responsibility."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D14",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing the Japanese statements of 3 November and 22 December 1938.",
+   "categories": [
+    {
+     "id": "aims",
+     "label": "Issue 1: the aims of the new order"
+    },
+    {
+     "id": "china",
+     "label": "Issue 2: attitude to the Chinese government"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "3 Nov: a tripartite relationship between Japan, Manchoukuo and China",
+     "answer": "aims",
+     "explanation": "Both statements make the three-way link the core aim."
+    },
+    {
+     "id": "s2",
+     "text": "22 Dec: Japan, China and Manchoukuo will be united by the common aim of establishing the new order",
+     "answer": "aims",
+     "explanation": "The same aim, repeated."
+    },
+    {
+     "id": "s3",
+     "text": "3 Nov: the Kuomintang Government exists no longer except as a mere local régime",
+     "answer": "china",
+     "explanation": "Dismisses the Nationalist government."
+    },
+    {
+     "id": "s4",
+     "text": "22 Dec: the complete extermination of the anti-Japanese Kuomintang Government",
+     "answer": "china",
+     "explanation": "Goes further: destruction of the government."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D15",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: sort each statement into a similarity or a difference between the Japanese memorandum of 1931 and Matsuoka's argument of 1933.",
+   "categories": [
+    {
+     "id": "same",
+     "label": "Similarity"
+    },
+    {
+     "id": "diff",
+     "label": "Difference"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Both blame conditions in China for the crisis.",
+     "answer": "same",
+     "explanation": "Each places responsibility on China."
+    },
+    {
+     "id": "s2",
+     "text": "1931 describes an organised campaign directed by the Nationalist Party; 1933 describes a disorganised China.",
+     "answer": "diff",
+     "explanation": "China appears too organised in one, too weak in the other."
+    },
+    {
+     "id": "s3",
+     "text": "Both deny that Japan was responsible.",
+     "answer": "same",
+     "explanation": "Each defends Japan's actions."
+    },
+    {
+     "id": "s4",
+     "text": "1931 is addressed to the Chinese Government; 1933 is a speech to the League Assembly.",
+     "answer": "diff",
+     "explanation": "Different audiences, different emphasis."
+    }
+   ]
+  }
+ ],
+ "sourceSets": [
+  {
+   "sourceSetId": "P1-CS1-CAUSES-SS01",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "causes",
+   "focus": "Nationalism and militarism as causes of Japanese expansion",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS01-A",
+     "provenance": {
+      "creator": "Joseph C. Grew, US Ambassador to Japan",
+      "sourceType": "private letter to the US Secretary of State, Henry Stimson",
+      "date": "13 August 1932",
+      "contextNote": "“These facts” refers to Japan's economic difficulties, described earlier in the letter."
+     },
+     "text": "Here in Japan the deliberate building up of public animosity against foreign nations in general and the United States in particular has doubtless a similar purpose—to strengthen the hand of the military in its Manchurian venture in the face of foreign, and especially American, opposition. … It seems to be primarily this military element … who believe that the best way to obscure these facts is to work the public into a patriotic and nationalistic fervor by representing foreign nations, particularly the United States, as trying to thwart Japan's efforts for alleged self-preservation. … The Japanese military machine … has been built for war, feels prepared for war and would welcome war. It has never yet been beaten and possesses unlimited self confidence."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS01-B",
+     "mediaId": "M-february-26-incident-1936",
+     "provenance": {
+      "creator": "Unknown Japanese photographer",
+      "sourceType": "photograph",
+      "date": "February 1936",
+      "contextNote": "Rebel soldiers led by Lieutenant Kurihara Yasuhide (centre, in a cape) during the attempted army coup in Tokyo that began on 26 February 1936."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS01-C",
+     "provenance": {
+      "creator": "Prince Konoe (Konoye) Fumimaro, Prime Minister of Japan",
+      "sourceType": "address to the Imperial Diet, as reported by the Domei news agency",
+      "date": "27 July 1937",
+      "contextNote": "Fighting between Chinese and Japanese troops near Peiping (Beijing) had begun on 7 July 1937."
+     },
+     "text": "“I desire to elucidate, first of all, the principle which underlies the endeavors of the Government to fulfill its immense responsibilities. This principle is to make all our policies stem from a single source, namely, the spirit of the solemn and superb polity of our Empire. … I am very grateful, however, that the Government has been accorded the united support of the nation at this critical moment. In sending troops to North China, of course, the Government has no other purpose … than to preserve the peace of East Asia. … In view of the current circumstances at home and abroad, it is of the most urgent necessity for us to perfect our national defense and develop the economic power of our country.”"
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS01-D",
+     "provenance": {
+      "creator": "Johnson, US Minister in China",
+      "sourceType": "telegram to the US Secretary of State, sent from Peiping (Beijing)",
+      "date": "22 September 1931",
+      "contextNote": "Japanese forces had begun occupying South Manchuria after an explosion on the South Manchuria Railway near Mukden on 18 September 1931."
+     },
+     "text": "1. According to all information available to me here, I am driven to the conclusion that the forceful occupation of all strategic points in South Manchuria, including the taking over and operation of public utilities, banks, and in Mukden at least the functions of civil government, is an aggressive act by Japan apparently long planned and when decided upon most carefully and systematically put into effect. I find no evidence that these events were the result of accident nor were they the acts of minor and irresponsible officials. … 3. It is my conviction that the steps taken by Japan in Manchuria must fall within any definition of war and certainly may not be considered as a pacific means of settling a dispute with China …"
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-CAUSES-SS01-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, why was hostility towards foreign nations being built up in Japan?",
+     "model": {
+      "type": "points",
+      "points": [
+       "To strengthen the hand of the military in its Manchurian venture.",
+       "To resist foreign, and especially American, opposition.",
+       "To hide (“obscure”) Japan's difficulties by working the public into patriotic and nationalistic fervour.",
+       "By presenting the United States as trying to thwart Japan's self-preservation."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "military",
+       "Manchurian venture",
+       "American",
+       "opposition",
+       "patriotic",
+       "nationalistic",
+       "self-preservation"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS01-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the position of the army in Japanese politics in 1936?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Junior officers were prepared to lead armed troops against the government in the capital.",
+       "The rebels appear organised and confident, marching openly with rifles.",
+       "Parts of the army saw themselves as entitled to act outside civilian control."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "rebel",
+       "soldiers",
+       "Kurihara",
+       "Tokyo",
+       "coup"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS01-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the role of nationalism in Japanese expansion.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the Prime Minister's address to the Diet shows how the government officially presented its policy.",
+       "Value (content): it ties all policy to “the spirit of the solemn and superb polity of our Empire”, showing nationalism as official doctrine.",
+       "Limitation (purpose): a public speech meant to win support, so its claim that troops were sent only “to preserve the peace” may conceal real aims.",
+       "Limitation (origin): a news-agency report of a speech at the start of the war, so it shows intentions in July 1937 but not how policy developed."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS01-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources A and D reveal about the role of the Japanese military in Japanese expansion.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources present Japanese expansion as deliberate rather than accidental: Source A describes the “deliberate building up” of hostility, and Source D an act “apparently long planned”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also point to the military as the driving force: A names “the military in its Manchurian venture”, and D sees a carefully executed military operation, not the work of “minor and irresponsible officials”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source A focuses on how the military manipulated public opinion at home, while Source D focuses on the operation in Manchuria and its legality, calling it war under the Kellogg Pact.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A also distinguishes a “military element” from the rest of Japan, whereas Source D treats the occupation simply as “an aggressive act by Japan”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "deliberate planning",
+       "military responsibility",
+       "public opinion",
+       "legality"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS01-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the view that militarism was the main cause of Japanese expansion between 1931 and 1941.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "Militarism was the main cause of how Japanese expansion began and why it was not reversed, although economic need and China's weakness explain why it attracted support.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source D shows that the occupation of Manchuria was “apparently long planned”; in fact it was staged by Kwantung Army officers Itagaki and Ishiwara, and their own commander approved only after the act.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source A explains how the military kept control: by stirring “patriotic and nationalistic fervor”. Political violence reinforced this; Prime Minister Inukai was assassinated by naval officers on 15 May 1932, and Source B shows armed rebels in Tokyo in February 1936.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Yet Source C shows a civilian Prime Minister, Konoe, presenting expansion as national policy with “the united support of the nation”, and Grew himself linked the military's power to Japan's economic crisis of farmers' hardship and unemployment.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Militarism was therefore the main cause in 1931–1936, but by 1937 expansion had become the policy of the whole state, supported by economic and nationalist arguments.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Kwantung Army",
+       "Itagaki",
+       "Ishiwara",
+       "Inukai",
+       "May 1932",
+       "February 1936",
+       "Kellogg"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS1-CAUSES-SS02",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "causes",
+   "focus": "Domestic economic problems and the drive for resources",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS02-A",
+     "provenance": {
+      "creator": "Joseph C. Grew, US Ambassador to Japan",
+      "sourceType": "private letter to the US Secretary of State, Henry Stimson",
+      "date": "13 August 1932"
+     },
+     "text": "I believe that on the part of the Japanese it is a sign of weakness, not of strength. The internal economic and financial situation in Japan is serious and may become desperate. The plight of the farmers is very bad, many industries are at low ebb, unemployment is steadily increasing. The yen is falling and prices have not yet risen proportionately. Money cannot be obtained from abroad … Meanwhile millions of yen are being squandered to support the Manchurian venture, of which the eventual economic advantage is highly problematical, and when the full purport of these expenses becomes known to the people, in their own serious deprivation, there is no telling what effect it will create."
+    },
+    {
+     "letter": "B",
+     "type": "poster",
+     "verificationRef": "SRC-SS02-B",
+     "mediaId": "M-manchuria-emigration-poster",
+     "provenance": {
+      "creator": "Manchuria Emigration Association, Tokyo",
+      "sourceType": "recruiting poster",
+      "date": "between 1935 and 1945 (exact year unknown)",
+      "contextNote": "The large slogan reads: “Open up Manchuria and Mongolia! Go to Manchuria!” The red panel reads: “Ministry of Colonial Affairs: recruitment of agricultural emigrants to Manchuria.” Smaller text offers a government subsidy of 1,000 yen per household to applicants aged 33 or under and physically strong."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS02-C",
+     "provenance": {
+      "creator": "Welles, Acting US Secretary of State",
+      "sourceType": "memorandum of a conversation with the Japanese Ambassador, Admiral Nomura",
+      "date": "23 July 1941",
+      "contextNote": "Japan had just agreed with the French government at Vichy to send troops into southern Indochina."
+     },
+     "text": "He stated that I was well aware of the critical economic situation of Japan and of the great difficulty which Japan had in procuring raw materials, particularly food supplies, from abroad. … He stated that Japan was now importing a million tons of rice a year from Indochina. He went on to say that one of the two reasons for the step taken was to assure to Japan an uninterrupted source of supply of rice and other food stuffs, which Indochina afforded, as well as an uninterrupted supply of other raw materials which they required from that region. … The Ambassador then said that the second reason for the occupation undertaken was the need for military security. He stated that Japan believed that certain foreign powers were bent upon a policy of encirclement of Japan …"
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS02-D",
+     "provenance": {
+      "creator": "Joseph C. Grew, US Ambassador to Japan",
+      "sourceType": "telegram to the US Secretary of State (State Department paraphrase)",
+      "date": "12 September 1940",
+      "contextNote": "German forces had defeated France in June 1940."
+     },
+     "text": "3. Whatever the intentions of the present Japanese Government may be there cannot be any doubt that the military and other elements in Japan see in the present world situation a “golden opportunity” to carry their dreams of expansion into effect; the German victories, like strong wine, have gone to their heads … 4. … They see that Britain and the United States are steadily drawing closer together in mutual defense measures … They tend on the one hand to emphasize the potential danger facing Japan from the United States and Great Britain eventually acting together in positive action … They furnish cogent arguments on the other hand for those Japanese elements who seek political and economic security by securing raw material sources and markets entirely within Japanese control."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-CAUSES-SS02-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, what economic problems did Japan face in 1932?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The plight of the farmers was very bad.",
+       "Many industries were at low ebb.",
+       "Unemployment was steadily increasing.",
+       "The yen was falling and money could not be obtained from abroad."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "farmers",
+       "industries",
+       "unemployment",
+       "yen",
+       "abroad"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS02-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about Japanese aims in Manchuria?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Manchuria was seen as land to be settled and farmed by Japanese emigrants.",
+       "The Japanese state actively sponsored settlement, with a government ministry and a subsidy of 1,000 yen per household.",
+       "It sought young, fit settlers, suggesting long-term colonisation."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Manchuria",
+       "emigrants",
+       "Ministry",
+       "subsidy",
+       "1,000 yen"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS02-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "D"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source D for a historian studying the economic motives for Japanese expansion.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): a telegram from the US Ambassador in Tokyo to his own government, who was well placed to report the mood of Japanese political circles.",
+       "Value (content): it identifies a group seeking security through raw materials and markets “entirely within Japanese control”, linking economics to expansion.",
+       "Limitation (purpose): written to advise Washington on a firmer policy, so it may stress Japanese opportunism.",
+       "Limitation (origin): a State Department paraphrase of an outsider's judgement; it cannot show how Japanese leaders weighed economic against strategic motives."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS02-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "C",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources C and D reveal about Japan's need for raw materials.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources link Japanese expansion to raw materials: Source C reports Nomura's wish for “an uninterrupted supply of other raw materials”, and Source D describes elements seeking raw material sources “entirely within Japanese control”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also connect economic needs to security: C mentions fear of “encirclement”, and D the danger of Britain and the United States acting together.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source C presents the need as defensive and urgent (food and a million tons of rice a year), while Source D presents expansion as opportunism, a “golden opportunity” produced by German victories.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source C gives a Japanese explanation, reported by an American official, whereas Source D is entirely the American Ambassador's own interpretation.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "raw materials",
+       "security",
+       "defensive or opportunist",
+       "perspective"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS02-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, to what extent were economic problems the main cause of Japanese expansion between 1931 and 1941?",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "Economic problems were an important cause because they made expansion attractive and shaped its direction, but they were not the main cause of its start in 1931.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows a serious crisis in 1932, with farmers in a very bad plight and rising unemployment, and Source B shows the state offering 1,000 yen per household to settle Manchuria, so expansion promised land and work.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "After 1937 the need grew: by late 1937 Japan had lost much of its gold reserves, and Sources C and D show the search for raw materials behind the move into southern Indochina in July 1941.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "However, Source A also says the economic advantage of Manchuria was “highly problematical”, and the invasion itself was started by Kwantung Army officers in September 1931, not by economic planners.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Economic problems therefore explain the appeal and the later direction of expansion more than its origins, which lay with the army.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "gold reserves",
+       "Co-Prosperity Sphere",
+       "Kwantung Army",
+       "September 1931",
+       "Indochina",
+       "1937"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS1-CAUSES-SS03",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "causes",
+   "focus": "Political instability in China and Japanese justifications",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS03-A",
+     "provenance": {
+      "creator": "Japanese Government",
+      "sourceType": "memorandum to the Chinese Government, also communicated to the US State Department",
+      "date": "9 October 1931"
+     },
+     "text": "(1) The Japanese Government has already made it clear that the Manchurian affair is nothing but the outcome of a deep-rooted anti-Japanese feeling in China which has taken a specially provocative form in the recent challenge to Japanese troops compelling the latter to resort to measures of self-defence. The responsibility for the present situation naturally lies with the Chinese Government. … (2) It is to be noted that the anti-Japanese movement in China is conducted as an instrument of national policy under the direction of the Nationalist Party which in view of the peculiar political organization of China is inseparable in function from the Government."
+    },
+    {
+     "letter": "B",
+     "type": "poster",
+     "verificationRef": "SRC-SS03-B",
+     "mediaId": "M-pro-japanese-poster-1938",
+     "provenance": {
+      "creator": "Unknown artist",
+      "sourceType": "pro-Japanese propaganda poster, Japanese-occupied China",
+      "date": "1938",
+      "contextNote": "The slogan reads: “Oppose communism, overthrow Chiang, end the war, save the nation.” At the feet of a man raising a flag lie Chiang Kai-shek, holding a knife, and Stalin, with a hammer and sickle."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS03-C",
+     "provenance": {
+      "creator": "Johnson, US Ambassador in China",
+      "sourceType": "despatch to the US Secretary of State, sent from Nanking",
+      "date": "11 May 1937",
+      "contextNote": "In December 1936 Chiang Kai-shek had been detained at Xi'an (Sian) by two of his own generals."
+     },
+     "text": "For the past several years there has been growing among Chinese, irrespective of their political and personal inclinations, a feeling that the continuance of Chiang Kai-shek in power is essential to the salvation of the Chinese nation. This feeling has been intensified and its growth promoted by aggressive Japanese activities in and with reference to China … Japanese pressure exerted to partition China by alienating five northern provinces has done more than anything else to create in the Chinese people a desire for national unity … While Chiang Kai-shek has enjoyed success in nominally unifying China … the transitional period from so called feudalism and individualism has not completely passed. … Kwangsi is virtually an autonomous province."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS03-D",
+     "provenance": {
+      "creator": "Gilbert, US Consul at Geneva",
+      "sourceType": "telegram to the US Secretary of State reporting the League of Nations Assembly",
+      "date": "24 February 1933",
+      "contextNote": "Matsuoka Yōsuke led the Japanese delegation. The draft report was based on the findings of the League's Lytton Commission."
+     },
+     "text": "4. Matsuoka declared that Japan could not accept the draft report. Then in a forceful speech he appealed to the Assembly not to accept the draft report basing his contention on: (1) The special historical and present situation in Manchuria was not sufficiently understood by the members of the Assembly for them to pronounce a competent opinion; (2) The disorganized status of China rendered the recommendations inapplicable and their carrying out impossible, in particular that no mere technical assistance to China would suffice to restore order …"
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-CAUSES-SS03-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, who was responsible for the Manchurian crisis?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The Chinese Government.",
+       "A deep-rooted anti-Japanese feeling in China.",
+       "The Nationalist Party, which directed the anti-Japanese movement as national policy.",
+       "Chinese provocation, which compelled Japanese troops to act in self-defence."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "Chinese Government",
+       "anti-Japanese",
+       "Nationalist Party",
+       "self-defence"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS03-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What is the message of Source B?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Chinese people should reject both Chiang Kai-shek and communism (Stalin).",
+       "Ending the war and “saving the nation” means accepting a new, pro-Japanese leadership.",
+       "Chiang is portrayed as violent and defeated."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Chiang",
+       "Stalin",
+       "communism",
+       "save the nation"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS03-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the political situation in China before the war of 1937.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the US Ambassador in Nanking had direct access to Chinese officials and reported regularly on Chinese politics.",
+       "Value (content): it shows both continuing division (Kwangsi “virtually autonomous”) and growing national unity under pressure from Japan.",
+       "Limitation (purpose): written to assess what would happen if Chiang died, so it may overstate his importance.",
+       "Limitation (origin): an outside observer's view, written two months before the war began, so it cannot show how Chinese groups acted once war came."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS03-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources A and D reveal about how Japan presented the situation in China.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources show Japan blaming conditions in China for the crisis rather than its own actions: Source A blames “a deep-rooted anti-Japanese feeling”, and Source D Matsuoka's claim that China's “disorganized status” made the League's plan impossible.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both reject outside judgement of Japan's actions: A says responsibility “naturally lies with the Chinese Government”, and D records Matsuoka's refusal to accept the League's report.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, they describe China in opposite ways. Source A presents an organised campaign directed by the Nationalist Party “as an instrument of national policy”, while Source D presents a China too disorganised to keep order.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A is a direct Japanese government statement, whereas Source D is a US consul's summary of a Japanese speech.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "blame on China",
+       "rejection of outside judgement",
+       "organised or disorganised",
+       "type of source"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS03-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the importance of political instability in China as a cause of Japanese expansion between 1931 and 1941.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "China's instability was an important permissive cause: it made expansion easier and gave Japan a justification, but Japan chose to exploit it.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source C shows that even in 1937 China was not fully unified, with Kwangsi “virtually autonomous”. In 1931 Chiang, fighting a civil war against the Communists since 1927, ordered Zhang Xueliang not to resist in Manchuria.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Japan used this condition: Sources A and D blame Chinese agitation and disorder, and Source B shows propaganda in occupied China calling for Chiang's overthrow and an end to communism.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source C also argues that Japanese pressure had created a desire for national unity; after the Xi'an incident of December 1936 the Nationalists and Communists moved towards cooperation, yet Japan still expanded in 1937.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Instability was therefore a condition and a justification rather than the driving cause, which lay in Japanese decisions.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "civil war",
+       "1927",
+       "Zhang Xueliang",
+       "Xi'an",
+       "December 1936",
+       "Communists"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS1-CAUSES-SS04",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "causes",
+   "focus": "The “new order in East Asia” and alignment with Germany and Italy",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS04-A",
+     "provenance": {
+      "creator": "Japanese Government",
+      "sourceType": "statement released by the Foreign Office for publication",
+      "date": "3 November 1938",
+      "contextNote": "Prince Konoe was Prime Minister."
+     },
+     "text": "By the august virtue of His Majesty, our naval and military forces have captured Canton and the three cities of Wuhan; and all the vital areas of China have thus fallen into our hands. The Kuomintang Government exists no longer except as a mere local régime. … What Japan seeks is the establishment of a new order which will insure the permanent stability of East Asia. In this lies the ultimate purpose of our present military campaign. This new order has for its foundation a tripartite relationship of mutual aid and co-ordination between Japan, Manchoukuo and China in political, economic, cultural and other fields. Its object is to secure international justice, to perfect the joint defence against Communism, and to create a new culture and realize a close economic cohesion throughout East Asia."
+    },
+    {
+     "letter": "B",
+     "type": "poster",
+     "verificationRef": "SRC-SS04-B",
+     "mediaId": "M-nakayoshi-sangoku-postcard",
+     "provenance": {
+      "creator": "Unknown Japanese artist",
+      "sourceType": "propaganda picture postcard",
+      "date": "about 1940",
+      "contextNote": "The title reads “Good friends: three countries”. The portraits are labelled Hitler, Prime Minister Konoe and Mussolini. Children wave Japanese, German and Italian flags."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS04-C",
+     "provenance": {
+      "creator": "US Government",
+      "sourceType": "note delivered by Ambassador Grew to the Japanese Foreign Minister, Arita",
+      "date": "30 December 1938"
+     },
+     "text": "The admonition that enjoyment by the nationals of the United States of non-discriminatory treatment in China—a general and well established right—is henceforth to be contingent upon an admission by the Government of the United States of the validity of the conception of Japanese authorities of a “new situation” and a “new order” in East Asia, is, in the opinion of this Government, highly paradoxical. … This Government is well aware that the situation has changed. This Government is also well aware that many of the changes have been brought about by the action of Japan. This Government does not admit, however, that there is need or warrant for any one Power to take upon itself to prescribe what shall be the terms and conditions of a “new order” in areas not under its sovereignty …"
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS04-D",
+     "provenance": {
+      "creator": "Prince Konoe (Konoye) Fumimaro, Prime Minister of Japan",
+      "sourceType": "statement released by the Japanese Foreign Office",
+      "date": "22 December 1938"
+     },
+     "text": "Japan, China and Manchoukuo will be united by the common aim of establishing the new order in East Asia and of realizing a relationship of neighbourly amity, common defence against Communism, and economic co-operation. For that purpose it is necessary first of all that China should cast aside all narrow and prejudiced views belonging to the past and do away with the folly of anti-Japanism, and resentment regarding Manchoukuo. … Japan demands … that China … should extend to Japan facilities for the development of China's natural resources, especially in the regions of North China and Inner Mongolia. … what she seeks is neither territory nor indemnity for the costs of military operations."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-CAUSES-SS04-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, what were the aims of Japan's “new order”?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The permanent stability of East Asia.",
+       "A tripartite relationship of Japan, Manchoukuo and China.",
+       "Joint defence against Communism.",
+       "A new culture and close economic cohesion throughout East Asia."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "stability",
+       "tripartite",
+       "Manchoukuo",
+       "Communism",
+       "economic cohesion"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS04-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about Japan's relations with Germany and Italy?",
+     "model": {
+      "type": "points",
+      "points": [
+       "They are presented as a friendship between equal partners, with the three leaders side by side.",
+       "The image aims to make the alignment popular with ordinary Japanese, using children and flags."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Hitler",
+       "Konoe",
+       "Mussolini",
+       "flags",
+       "friends"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS04-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "D"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source D for a historian studying Japanese aims in China.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): an official statement by the Prime Minister sets out the government's declared terms for China.",
+       "Value (content): it lists concrete demands (recognising Manchoukuo, access to resources in North China and Inner Mongolia).",
+       "Limitation (purpose): released for audiences at home and abroad, so the claim that Japan sought “neither territory nor indemnity” is meant to reassure.",
+       "Limitation (content): it shows declared aims in December 1938, not the private views of the army, which controlled policy in occupied China."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS04-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources A and D reveal about Japan's “new order in East Asia”.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources describe the new order as a union of Japan, Manchoukuo and China, with “joint defence against Communism” in A and “common defence against Communism” in D.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both stress economic links: A speaks of “close economic cohesion”, and D of “economic co-operation” and access to China's natural resources.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source A emphasises military conquest, with “all the vital areas of China” in Japanese hands, while Source D emphasises cooperation and denies seeking territory.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source D also sets specific conditions for China, such as recognising Manchoukuo and giving up “anti-Japanism”, whereas A gives only general objects.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "union of three states",
+       "anti-communism",
+       "economic aims",
+       "conquest or cooperation"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-CAUSES-SS04-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, to what extent was the aim of a “new order” in East Asia a cause of Japanese expansion between 1937 and 1941?",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "The aim of a new order was an important cause of the scale of expansion after 1938, although it grew out of conquests that had other causes.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Sources A and D show that by late 1938 Japan's declared aim was a new order of Japan, Manchoukuo and China, which required China's submission and access to its resources.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source C shows why this aim widened the conflict: the United States denied any power the right to prescribe a new order outside its sovereignty. Source B reflects the link with Germany and Italy, formalised in the Tripartite Pact of 27 September 1940, which recognised Japan's leadership in Greater East Asia.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "However, the new order was proclaimed only after the capture of Wuhan and Canton, so it partly justified conquests already made; economic need, such as the search for raw materials in Indochina in 1941, also drove the advance south.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The new order was therefore a major cause of the widening of expansion after 1938, but a justification as much as a motive.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Tripartite Pact",
+       "27 September 1940",
+       "Greater East Asia",
+       "Indochina",
+       "Co-Prosperity Sphere",
+       "Wuhan"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

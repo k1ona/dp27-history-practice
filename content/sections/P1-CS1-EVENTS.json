@@ -1,0 +1,3351 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P1-CS1-EVENTS",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 18,
+  "openingProblem": {
+   "problem": "In September 1931 Japan's government insisted that “nowhere does a state of military occupation as such exist” in Manchuria. Ten years later, on 7 December 1941, Japanese aircraft struck Pearl Harbor an hour before Japan's ambassador handed over a note ending the talks with the United States.\n\nHow did a railway incident in Manchuria turn, step by step, into a war across the Pacific? Was each step planned, or did each one create the next?",
+   "predictionPrompt": "Your prediction in one line: was the road from Mukden to Pearl Harbor planned in advance, or a chain of reactions? Give one reason.",
+   "revisitPrompt": "Look back at your prediction. Which event or source changed or confirmed your view?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "nature_methods",
+    "title": "How did Japan take Manchuria and push into northern China, 1931–1933?",
+    "body": "On 18 September 1931 Kwantung Army officers staged an explosion on the South Manchuria Railway near Mukden and blamed Chinese troops. The next morning Japanese soldiers held positions on the walls of Mukden. Tokyo said the army had to act swiftly to forestall disaster: only 10,400 Japanese railway guards, it said, faced some 220,000 Chinese soldiers, and “nowhere does a state of military occupation as such exist”. The US Chargé in Tokyo, Neville, saw it differently. On 22 September he reported that 4,000 troops had been sent from Korea to Mukden, that the occupation was “out of proportion to the alleged cause”, and that the Foreign Office seemed “genuinely surprised by the action of the Army”.\n\nThis matters because the army created facts on the ground faster than diplomats could respond. Within a few months the Japanese Army had overrun Manchuria, meeting next to no resistance from an untrained Chinese army. In October 1931 Japanese planes bombed Chinchow, and by January 1932 the last Chinese administrative authority in South Manchuria had been destroyed. Manchukuo was formally established on 1 March 1932, and Japan recognised it in September.\n\nThe fighting also spread. Early in 1932 hostilities broke out around Shanghai, the home of China's largest international settlements, before a ceasefire agreement was signed on 5 May 1932. In early January 1933 Japanese forces occupied the province of Jehol. When Ambassador Debuchi assured Secretary Stimson that Japan had no territorial ambition south of the Great Wall, Stimson reminded him that a year earlier he had said the same about Manchuria.\n\nThe Tanggu Truce of 31 May 1933 ended the invasion of Manchuria but left the Japanese firmly in control there. The method was now clear: a local army action, a justification of self-defence, then a political settlement that confirmed the gains. That pattern made each advance look limited while the total grew.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Kwantung Army created a fait accompli that the government then accepted.",
+      "evidence": [
+       "F-CS1E-02",
+       "F-CS1E-04",
+       "F-CS1E-07"
+      ],
+      "strongestCounter": "The government recognised Manchukuo in September 1932, so it chose to keep the gains."
+     },
+     {
+      "claim": "Japanese assurances of limited aims were repeatedly overtaken by further advances.",
+      "evidence": [
+       "F-CS1E-03",
+       "F-CS1E-08",
+       "F-CS1E-09"
+      ],
+      "strongestCounter": "Japan stopped at the Tanggu Truce in 1933 and did not launch full-scale war until 1937."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the methods Japan used to take control of Manchuria in 1931–1933.",
+     "To what extent was the invasion of Manchuria the work of the Kwantung Army alone?",
+     "Compare and contrast what two sources reveal about the events of September 1931."
+    ],
+    "useItInAnEssay": {
+     "claim": "Japan took Manchuria by a series of army actions presented as self-defence.",
+     "prove": "On 22 September 1931 Neville reported that 4,000 troops had been sent from Korea and that the occupation was “out of proportion to the alleged cause”.",
+     "explain": "Because the army acted first, Tokyo faced a fait accompli; each advance was then justified and confirmed by a settlement such as the Tanggu Truce of May 1933.",
+     "test": "However, the government did not reverse the action: it recognised Manchukuo in September 1932.",
+     "judge": "The army led, but the state accepted and secured the gains."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-EVENTS-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the US Chargé in Tokyo, Neville, report on 22 September 1931?",
+      "factIds": [
+       "F-CS1E-04"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The occupation seemed out of proportion to the alleged cause, and the Foreign Office seemed surprised by the army",
+        "correct": true,
+        "explanation": "Correct: he suspected the army had seized on the incident."
+       },
+       {
+        "id": "b",
+        "text": "Chinese troops had invaded Korea",
+        "correct": false,
+        "explanation": "No: he reported Japanese troops sent from Korea to Mukden."
+       },
+       {
+        "id": "c",
+        "text": "Japan had withdrawn all its troops",
+        "correct": false,
+        "explanation": "No: he reported reinforcements."
+       },
+       {
+        "id": "d",
+        "text": "The League had ordered a ceasefire",
+        "correct": false,
+        "explanation": "His telegram does not mention a League order."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-EVENTS-C02",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In which year was the Tanggu Truce signed?",
+      "factIds": [
+       "F-CS1E-09"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1933",
+        "tolerance": 0,
+        "explanation": "31 May 1933: it ended the invasion of Manchuria."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-EVENTS-C03",
+      "kind": "checkpoint",
+      "type": "spot_error",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: “Ambassador Debuchi told Stimson in January 1933 that Japan had territorial ambitions south of the Great Wall.”",
+      "factIds": [
+       "F-CS1E-08"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Debuchi said Japan had no territorial ambition south of the Great Wall",
+        "correct": true,
+        "explanation": "Correct: and Stimson reminded him of a similar promise about Manchuria."
+       },
+       {
+        "id": "b",
+        "text": "The date should be 1937",
+        "correct": false,
+        "explanation": "The conversation took place on 5 January 1933."
+       },
+       {
+        "id": "c",
+        "text": "Debuchi was the Chinese ambassador",
+        "correct": false,
+        "explanation": "That is not the error in the statement: he was Japan's ambassador."
+       },
+       {
+        "id": "d",
+        "text": "Stimson was President",
+        "correct": false,
+        "explanation": "That is not the error in the statement: he was Secretary of State."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "causes",
+    "title": "Why did the clash near Peiping in July 1937 become a full-scale war?",
+    "body": "On the night of 7 July 1937 Chinese and Japanese troops clashed near Peiping (Beijing), at Lukow Kiao, the Marco Polo Bridge. Japan's embassy in Washington blamed the Chinese 29th Army for attacking “for no cause at all” and announced on 12 July that Japan would send more troops to North China. It demanded Chinese apologies and guarantees. On 27 July Prime Minister Konoe told the Diet that the troops had “no other purpose” than to preserve the peace of East Asia.\n\nThe local clash grew because neither side would retreat. Japan poured men and equipment into China, and by September 1937 it announced the aim of destroying China's will and capacity to resist and overthrowing its government. China, now moving towards unity between Nationalists and Communists, chose to fight. In November 1937 the Japanese captured Shanghai; by then Chinese wounded alone were reported at 150,000. As they marched on Nanjing they committed atrocities; the massacre traditionally dated from 13 December 1937 killed, by newer estimates, between 100,000 and 200,000 people.\n\nThis matters because Japan expected a short campaign and found a long war instead. On 16 January 1938 Tokyo declared that it would “cease from henceforward to deal with” Chiang's government and looked to a new Chinese regime. By November 1938 Japanese forces had taken Canton and the three cities of Wuhan, but Chiang's government moved inland to Chungking and fought on.\n\nThe brutality of the campaign also changed opinion abroad. In September 1937 Secretary of State Hull wrote that American opinion had been “outraged” by the methods of the Japanese military, and that Japan was “destroying the good will of the world”. The war in China therefore escalated because Japan's leaders sought a decisive victory that China's new unity denied them, and the stalemate pushed Japan to look for resources and allies elsewhere.",
+    "argumentsThatWork": [
+     {
+      "claim": "Japan's decision to send large forces and to seek China's surrender turned a clash into war.",
+      "evidence": [
+       "F-CS1E-12",
+       "F-CS1E-14",
+       "F-CS1E-16"
+      ],
+      "strongestCounter": "Japan said it hoped for a peaceful settlement in July 1937, and the first clash may not have been planned in Tokyo."
+     },
+     {
+      "claim": "China's resistance turned a quick campaign into a long war.",
+      "evidence": [
+       "F-CS1E-17",
+       "F-CS1E-19",
+       "F-CS1E-45"
+      ],
+      "strongestCounter": "Japan captured the main cities, so in military terms it was winning until 1938."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the reasons why the clash of July 1937 became a full-scale war between Japan and China.",
+     "To what extent was Japan responsible for the escalation of the conflict with China in 1937–1938?",
+     "Compare and contrast what two sources reveal about Japanese aims in China in 1937–1938."
+    ],
+    "useItInAnEssay": {
+     "claim": "Japan's pursuit of a decisive victory turned a local clash into a long war.",
+     "prove": "On 12 July 1937 Japan announced additional forces for North China, and on 16 January 1938 it refused to deal with Chiang's government.",
+     "explain": "Because Japan demanded China's submission, while China was becoming more united, neither side could accept a compromise.",
+     "test": "However, Japan's leaders spoke of preserving peace and hoped the war would be short.",
+     "judge": "Japan bears the main responsibility for escalation because it widened its aims as the war went on."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-EVENTS-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Japan announce on 16 January 1938?",
+      "factIds": [
+       "F-CS1E-16"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "It would cease to deal with the Chinese National Government",
+        "correct": true,
+        "explanation": "Correct: it looked to a new Chinese regime instead."
+       },
+       {
+        "id": "b",
+        "text": "It would withdraw from China",
+        "correct": false,
+        "explanation": "No: it would continue the war."
+       },
+       {
+        "id": "c",
+        "text": "It would accept US mediation",
+        "correct": false,
+        "explanation": "Japan had not responded to US offers of good offices."
+       },
+       {
+        "id": "d",
+        "text": "It recognised Chiang as China's leader",
+        "correct": false,
+        "explanation": "It refused to deal with his government."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-EVENTS-C05",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: by November 1938 Japan held Canton and the three cities of Wuhan, but Chiang's government fought on. Which argument does it support?",
+      "factIds": [
+       "F-CS1E-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Military victories did not bring Japan the decisive peace it wanted",
+        "correct": true,
+        "explanation": "Correct: taking cities did not end Chinese resistance."
+       },
+       {
+        "id": "b",
+        "text": "China surrendered in 1938",
+        "correct": false,
+        "explanation": "The fact shows China fought on."
+       },
+       {
+        "id": "c",
+        "text": "Japan withdrew from southern China",
+        "correct": false,
+        "explanation": "Japan had just taken Canton."
+       },
+       {
+        "id": "d",
+        "text": "The war ended at Wuhan",
+        "correct": false,
+        "explanation": "The war continued until 1945."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-EVENTS-C06",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what date in 1937 did Chinese and Japanese troops clash near Peiping? (day and month)",
+      "factIds": [
+       "F-CS1E-11"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "7 July",
+        "tolerance": 0,
+        "explanation": "7 July 1937, near the Marco Polo Bridge (Lukow Kiao).",
+        "accept": [
+         "7 jul",
+         "july 7",
+         "7th july",
+         "7/7"
+        ]
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "impact_consequences",
+    "title": "How did the Tripartite Pact and the move south widen the conflict, 1939–1941?",
+    "body": "Japan's war in China was a stalemate by 1939, and in the border battles of Khalkhin Gol (Nomonhan) that year its army was defeated by Soviet and Mongolian forces. Events in Europe then offered a way out. After France fell in June 1940, Japan pressed the French colony of Indochina; on 22 September 1940, after an ultimatum, a military agreement gave Japan the use of three airfields and transit for its troops, and Japanese forces went on to occupy strategic points.\n\nFive days later, on 27 September 1940, Japan signed the Tripartite Pact with Germany and Italy. Each recognised the other's leadership of a “new order”, Japan's in Greater East Asia, and they promised to assist one another if attacked by a power not yet involved in the European war or the China conflict. The obvious such power was the United States. Secretary of State Hull answered that the alliance did not “substantially alter a situation which has existed for several years”.\n\nThis matters because the pact linked the wars in Europe and Asia, and it turned Japan's southern ambitions into a challenge to the Western powers. On 13 April 1941 Japan signed a Neutrality Pact with the Soviet Union, which made it clear that its forces would move south rather than north. In late July 1941, under an agreement with Vichy France, Japanese troops occupied southern Indochina. Ambassador Nomura explained the move as a search for secure supplies of rice and raw materials. The Acting Secretary of State, Welles, replied that it could only be seen as assisting Hitler and as “the last step” before expansion into the South Seas.\n\nOn 26 July 1941 the United States froze Japanese assets, and trade between the two countries soon virtually stopped. The move south was therefore the decisive step: it brought Japanese forces within reach of Western colonies and led directly to the economic measures that Japan's leaders later used to justify war.",
+    "argumentsThatWork": [
+     {
+      "claim": "The Tripartite Pact linked Japan's war to Germany's and made the US a likely enemy.",
+      "evidence": [
+       "F-CS1E-22",
+       "F-CS1E-23"
+      ],
+      "strongestCounter": "Hull said the pact changed little, because the relationship already existed in effect."
+     },
+     {
+      "claim": "The occupation of southern Indochina triggered the US freeze that cut trade.",
+      "evidence": [
+       "F-CS1E-26",
+       "F-CS1E-27"
+      ],
+      "strongestCounter": "Japan argued that it needed the region's rice and raw materials, so the move was partly defensive."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the significance of the Tripartite Pact for Japanese expansion.",
+     "To what extent was the occupation of southern Indochina in 1941 the turning point in relations between Japan and the United States?",
+     "Compare and contrast what two sources reveal about the Tripartite Pact."
+    ],
+    "useItInAnEssay": {
+     "claim": "The move into southern Indochina was the decisive step towards war.",
+     "prove": "In July 1941 Japanese troops occupied southern Indochina; Welles called it “the last step” before expansion into the South Seas, and on 26 July the US froze Japanese assets.",
+     "explain": "Because trade then virtually stopped, Japan faced a choice between retreat and seizing resources by force.",
+     "test": "However, the Tripartite Pact of September 1940 had already set Japan against the United States.",
+     "judge": "The pact made conflict likely; the move south made it urgent."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-EVENTS-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Article 2 of the Tripartite Pact say?",
+      "factIds": [
+       "F-CS1E-22"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Germany and Italy recognised Japan's leadership of a new order in Greater East Asia",
+        "correct": true,
+        "explanation": "Correct: Article 1 recognised Germany and Italy's leadership in Europe."
+       },
+       {
+        "id": "b",
+        "text": "Japan would attack the Soviet Union",
+        "correct": false,
+        "explanation": "Article 5 said the pact did not affect relations with Soviet Russia."
+       },
+       {
+        "id": "c",
+        "text": "Japan would leave China",
+        "correct": false,
+        "explanation": "The pact said nothing of the kind."
+       },
+       {
+        "id": "d",
+        "text": "The pact would last one year",
+        "correct": false,
+        "explanation": "Article 6 set ten years."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-EVENTS-C08",
+      "kind": "checkpoint",
+      "type": "chronology",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Put these events in order.",
+      "sequence": [
+       {
+        "id": "a",
+        "text": "Fall of France",
+        "year": 1940,
+        "month": 6,
+        "factId": "F-CS1E-21"
+       },
+       {
+        "id": "b",
+        "text": "Franco-Japanese military agreement on Indochina",
+        "year": 1940,
+        "month": 9,
+        "factId": "F-CS1E-21"
+       },
+       {
+        "id": "c",
+        "text": "Soviet–Japanese Neutrality Pact",
+        "year": 1941,
+        "month": 4,
+        "factId": "F-CS1E-24"
+       },
+       {
+        "id": "d",
+        "text": "Japanese occupation of southern Indochina",
+        "year": 1941,
+        "month": 7,
+        "factId": "F-CS1E-26"
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-EVENTS-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: Hull said on 27 September 1940 that the alliance did not substantially alter a situation which had existed for several years. Which argument does it support?",
+      "factIds": [
+       "F-CS1E-23"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "The US had long seen Japan as aligned with Germany and Italy",
+        "correct": true,
+        "explanation": "Correct: he said the pact made clear a relationship that existed in effect."
+       },
+       {
+        "id": "b",
+        "text": "The US welcomed the pact",
+        "correct": false,
+        "explanation": "He did not welcome it."
+       },
+       {
+        "id": "c",
+        "text": "The pact surprised the US completely",
+        "correct": false,
+        "explanation": "He said its conclusion had been well known for some time."
+       },
+       {
+        "id": "d",
+        "text": "The US was allied to Japan",
+        "correct": false,
+        "explanation": "The fact suggests the opposite."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "causes",
+    "title": "Why did Japan attack the United States in December 1941?",
+    "body": "After July 1941 Japan's leaders faced serious shortages. The freeze on Japanese assets brought trade with the United States, Japan's main supplier of oil, steel and iron, to a virtual stop. Prince Konoe tried diplomacy: on 28 August he proposed a personal meeting with President Roosevelt. Hull insisted on agreement on the essential points first, including withdrawal from China, and the summit was not arranged. On 18 October 1941 General Tōjō Hideki replaced him as Prime Minister.\n\nThe negotiations in Washington continued but made little headway, because the United States insisted on Japanese withdrawal from China, which Japan's military leaders would not accept. On 26 November Hull handed Ambassador Nomura and the special envoy Kurusu a proposed basis for agreement that included the withdrawal of “all military, naval, air and police forces from China and from Indochina”. Kurusu said his government would be likely to “throw up its hands”. Japan's leaders, unable to retreat and convinced that further talks were useless, concluded that they had to act swiftly. Ambassador Grew had warned on 3 November that Japan might act “with dangerous and dramatic suddenness”.\n\nOn Sunday 7 December 1941, at 7:50 a.m. Honolulu time, aircraft from six Japanese carriers attacked the US fleet at Pearl Harbor. All eight battleships there were damaged and four were sunk; 2,403 Americans were killed. Within hours Japan also struck Malaya, Hong Kong, Guam, the Philippines and Wake Island. An hour after the attack began, Nomura and Kurusu handed Hull a memorandum declaring it “impossible to reach an agreement through further negotiations”; Hull called it “crowded with infamous falsehoods and distortions”.\n\nThis matters because the attack united American opinion. On 8 December Roosevelt called 7 December “a date which will live in infamy”, and Congress declared war with one dissenting vote. Germany then declared war on the United States. Japan's leaders had chosen war because they saw economic strangulation and humiliating terms as worse; the attack turned a regional war into part of a world war.",
+    "argumentsThatWork": [
+     {
+      "claim": "US economic pressure left Japan's leaders choosing between retreat and war.",
+      "evidence": [
+       "F-CS1E-27",
+       "F-CS1E-32"
+      ],
+      "strongestCounter": "The pressure followed Japan's own move into southern Indochina, so Japan created the crisis it then blamed on the US."
+     },
+     {
+      "claim": "The demand for withdrawal from China made a negotiated settlement impossible.",
+      "evidence": [
+       "F-CS1E-31",
+       "F-CS1E-34"
+      ],
+      "strongestCounter": "Konoe had sought a summit in August 1941, so a compromise was not ruled out until Tōjō took over."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the reasons why Japan attacked the United States in December 1941.",
+     "To what extent was the US proposal of 26 November 1941 responsible for the outbreak of war in the Pacific?",
+     "Compare and contrast what two sources reveal about responsibility for the breakdown of US–Japanese negotiations."
+    ],
+    "useItInAnEssay": {
+     "claim": "Japan attacked because its leaders saw war as the only alternative to retreat from China.",
+     "prove": "After the freeze of 26 July 1941 trade virtually stopped, and Hull's proposal of 26 November required withdrawal from China and Indochina.",
+     "explain": "Because Japan's military leaders would not accept withdrawal, and shortages were growing, they chose to strike before their position weakened further.",
+     "test": "However, the crisis followed Japan's own decision to occupy southern Indochina, which had triggered the freeze.",
+     "judge": "The attack was a Japanese choice, made under pressure that Japan's own expansion had created."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-EVENTS-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did Hull's proposal of 26 November 1941 ask of Japan?",
+      "factIds": [
+       "F-CS1E-31"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To withdraw all military, naval, air and police forces from China and Indochina",
+        "correct": true,
+        "explanation": "Correct: and to support no Chinese government other than Chungking."
+       },
+       {
+        "id": "b",
+        "text": "To join the Tripartite Pact",
+        "correct": false,
+        "explanation": "Japan was already a member; the US opposed the pact."
+       },
+       {
+        "id": "c",
+        "text": "To leave Manchuria only",
+        "correct": false,
+        "explanation": "The proposal named China and Indochina."
+       },
+       {
+        "id": "d",
+        "text": "To declare war on Germany",
+        "correct": false,
+        "explanation": "No such demand was made."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-EVENTS-C11",
+      "kind": "checkpoint",
+      "type": "multi_select",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Which places did Roosevelt list as attacked by Japan, in his address of 8 December 1941? Choose all that apply.",
+      "factIds": [
+       "F-CS1E-36"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Malaya",
+        "correct": true,
+        "explanation": "Yes: attacked on 7 December."
+       },
+       {
+        "id": "b",
+        "text": "Hong Kong",
+        "correct": true,
+        "explanation": "Yes: attacked overnight."
+       },
+       {
+        "id": "c",
+        "text": "The Philippine Islands",
+        "correct": true,
+        "explanation": "Yes: attacked overnight."
+       },
+       {
+        "id": "d",
+        "text": "Australia",
+        "correct": false,
+        "explanation": "No: Australia is not in his list."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-EVENTS-C12",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what date in 1941 did Tōjō become Prime Minister of Japan? (day and month)",
+      "factIds": [
+       "F-CS1E-29"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "18 October",
+        "tolerance": 0,
+        "explanation": "18 October 1941, the day Konoe's second term ended.",
+        "accept": [
+         "18 oct",
+         "october 18",
+         "18th october",
+         "18/10"
+        ]
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1931,
+      "month": 9,
+      "day": 18,
+      "text": "Mukden incident; invasion of Manchuria",
+      "factId": "F-CS1E-01"
+     },
+     {
+      "year": 1932,
+      "month": 3,
+      "day": 1,
+      "text": "Manchukuo established",
+      "factId": "F-CS1E-07"
+     },
+     {
+      "year": 1933,
+      "month": 5,
+      "day": 31,
+      "text": "Tanggu Truce ends the invasion of Manchuria",
+      "factId": "F-CS1E-09"
+     },
+     {
+      "year": 1937,
+      "month": 7,
+      "day": 7,
+      "text": "Clash near Peiping; full-scale war with China",
+      "factId": "F-CS1E-11"
+     },
+     {
+      "year": 1937,
+      "month": 12,
+      "day": 13,
+      "text": "Nanjing captured; massacre begins",
+      "factId": "F-CS1E-15"
+     },
+     {
+      "year": 1938,
+      "month": 1,
+      "day": 16,
+      "text": "Japan refuses to deal with Chiang's government",
+      "factId": "F-CS1E-16"
+     },
+     {
+      "year": 1940,
+      "month": 9,
+      "day": 27,
+      "text": "Tripartite Pact",
+      "factId": "F-CS1E-22"
+     },
+     {
+      "year": 1941,
+      "month": 4,
+      "day": 13,
+      "text": "Soviet–Japanese Neutrality Pact",
+      "factId": "F-CS1E-24"
+     },
+     {
+      "year": 1941,
+      "month": 7,
+      "day": 26,
+      "text": "US freezes Japanese assets after the move into southern Indochina",
+      "factId": "F-CS1E-27"
+     },
+     {
+      "year": 1941,
+      "month": 10,
+      "day": 18,
+      "text": "Tōjō becomes Prime Minister",
+      "factId": "F-CS1E-29"
+     },
+     {
+      "year": 1941,
+      "month": 12,
+      "day": 7,
+      "text": "Attack on Pearl Harbor",
+      "factId": "F-CS1E-33"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "Army action in Manchuria (1931) confirmed by Manchukuo and the Tanggu Truce",
+      "factId": "F-CS1E-09"
+     },
+     {
+      "id": "n2",
+      "text": "Clash near Peiping (July 1937) escalates into full-scale war",
+      "factId": "F-CS1E-14"
+     },
+     {
+      "id": "n3",
+      "text": "Stalemate in China after Wuhan and Canton (1938)",
+      "factId": "F-CS1E-17"
+     },
+     {
+      "id": "n4",
+      "text": "German victories: Tripartite Pact and Indochina (1940)",
+      "factId": "F-CS1E-22"
+     },
+     {
+      "id": "n5",
+      "text": "Move into southern Indochina; US freeze (July 1941)",
+      "factId": "F-CS1E-27"
+     },
+     {
+      "id": "n6",
+      "text": "Talks fail over China (26 November); Pearl Harbor (7 December 1941)",
+      "factId": "F-CS1E-31"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "the army's method of local action and later settlement was repeated in North China"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "Japan sought a decisive victory, but China fought on from the interior"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "the stalemate pushed Japan to seek resources and allies elsewhere"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "the pact and Soviet neutrality freed Japan to move south"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "with trade cut off, Japan's leaders chose war rather than withdrawal from China"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Kwantung Army",
+     "role": "Japanese army in Manchuria",
+     "whyItMatters": "Staged the Mukden incident and overran Manchuria in 1931–1932.",
+     "factIds": [
+      "F-CS1E-02",
+      "F-CS1E-04"
+     ]
+    },
+    {
+     "name": "Prince Konoe (Konoye) Fumimaro",
+     "role": "Prime Minister 1937–1939 and 1940–1941",
+     "whyItMatters": "Led Japan into full-scale war with China and into the Tripartite Pact; proposed a summit with Roosevelt in August 1941.",
+     "factIds": [
+      "F-CS1E-13",
+      "F-CS1E-28"
+     ]
+    },
+    {
+     "name": "Tōjō Hideki",
+     "role": "Prime Minister from 18 October 1941",
+     "whyItMatters": "Headed the government that decided on war with the United States.",
+     "factIds": [
+      "F-CS1E-29"
+     ]
+    },
+    {
+     "name": "Nomura and Kurusu",
+     "role": "Japanese Ambassador and special envoy in Washington, 1941",
+     "whyItMatters": "Negotiated with Hull and delivered the memorandum ending talks on 7 December.",
+     "factIds": [
+      "F-CS1E-31",
+      "F-CS1E-33"
+     ]
+    },
+    {
+     "name": "Cordell Hull",
+     "role": "US Secretary of State",
+     "whyItMatters": "His proposal of 26 November 1941 demanded withdrawal from China and Indochina.",
+     "factIds": [
+      "F-CS1E-31",
+      "F-CS1E-35"
+     ]
+    },
+    {
+     "name": "Franklin D. Roosevelt",
+     "role": "US President",
+     "whyItMatters": "Froze Japanese assets in July 1941 and asked Congress to declare war on 8 December.",
+     "factIds": [
+      "F-CS1E-27",
+      "F-CS1E-36"
+     ]
+    },
+    {
+     "name": "Chiang Kai-shek",
+     "role": "Leader of China's National Government",
+     "whyItMatters": "Fought on from Chungking, so Japan could not end the war in China.",
+     "factIds": [
+      "F-CS1E-16",
+      "F-CS1E-31"
+     ]
+    }
+   ],
+   "archival": [
+    "M-mukden-little-west-gate-1931",
+    "M-japanese-army-postcard-1938",
+    "M-japanese-troops-saigon-1941",
+    "M-uss-shaw-pearl-harbor-1941"
+   ]
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-CS1E-04",
+    "year": 1931,
+    "text": "22 September 1931 (Neville): 4,000 troops sent from Korea to Mukden; the occupation “out of proportion to the alleged cause”; the Foreign Office “genuinely surprised by the action of the Army”.",
+    "supports": [
+     "The army created a fait accompli",
+     "Expansion began with the army, not the Cabinet"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-CAUSES"
+    ],
+    "lexicon": [
+     "Neville",
+     "Mukden",
+     "Chosen",
+     "Korea",
+     "out of proportion"
+    ]
+   },
+   {
+    "factId": "F-CS1E-09",
+    "year": 1933,
+    "text": "31 May 1933: the Tanggu Truce ended the invasion of Manchuria and left Japan firmly in control there.",
+    "supports": [
+     "Settlements confirmed Japan's gains"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-RESPONSES"
+    ],
+    "lexicon": [
+     "Tanggu",
+     "truce",
+     "Great Wall"
+    ]
+   },
+   {
+    "factId": "F-CS1E-16",
+    "year": 1938,
+    "text": "16 January 1938: Japan declared it would “cease from henceforward to deal with” the Chinese National Government.",
+    "supports": [
+     "Japan's widening aims made compromise impossible"
+    ],
+    "lexicon": [
+     "16 January 1938",
+     "National Government",
+     "new regime",
+     "Konoe"
+    ]
+   },
+   {
+    "factId": "F-CS1E-15",
+    "year": 1937,
+    "text": "The Japanese took Shanghai in November 1937; the Nanjing massacre is traditionally dated from 13 December 1937, with newer estimates of 100,000–200,000 killed.",
+    "supports": [
+     "The brutality of the war turned opinion against Japan"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-RESPONSES"
+    ],
+    "lexicon": [
+     "Shanghai",
+     "Nanjing",
+     "Nanking",
+     "massacre"
+    ]
+   },
+   {
+    "factId": "F-CS1E-22",
+    "year": 1940,
+    "text": "27 September 1940: the Tripartite Pact recognised Japan's leadership of a new order in Greater East Asia and promised mutual assistance against a power not yet in the war.",
+    "supports": [
+     "The pact linked the wars in Europe and Asia"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-CAUSES"
+    ],
+    "lexicon": [
+     "Tripartite Pact",
+     "Three-Power Pact",
+     "Article 3",
+     "Greater East Asia"
+    ]
+   },
+   {
+    "factId": "F-CS1E-27",
+    "year": 1941,
+    "text": "26 July 1941: after Japan occupied southern Indochina, Roosevelt froze Japanese assets, and trade soon virtually stopped.",
+    "supports": [
+     "The move south triggered decisive US economic pressure"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-RESPONSES"
+    ],
+    "lexicon": [
+     "freezing",
+     "assets",
+     "Indochina",
+     "Executive order"
+    ]
+   },
+   {
+    "factId": "F-CS1E-31",
+    "year": 1941,
+    "text": "26 November 1941: Hull's proposal required Japan to withdraw all forces from China and Indochina; Kurusu said Japan would “throw up its hands”.",
+    "supports": [
+     "The demand for withdrawal from China made agreement impossible"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-RESPONSES"
+    ],
+    "lexicon": [
+     "Hull note",
+     "26 November",
+     "Kurusu",
+     "Nomura",
+     "withdraw"
+    ]
+   },
+   {
+    "factId": "F-CS1E-38",
+    "year": 1941,
+    "text": "7 December 1941: aircraft from six carriers damaged all eight battleships at Pearl Harbor and sank four; 2,403 Americans were killed.",
+    "supports": [
+     "Pearl Harbor turned a regional war into a world war"
+    ],
+    "lexicon": [
+     "Pearl Harbor",
+     "battleships",
+     "2,403",
+     "carriers"
+    ]
+   }
+  ],
+  "historiography": [],
+  "misconceptions": [
+   {
+    "wrong": "Japan declared war on China in 1937.",
+    "right": "The war that began on **7 July 1937** was undeclared: the US called it “Japan's undeclared war on China”, and Japan called it the China “incident”."
+   },
+   {
+    "wrong": "The Tanggu Truce (1933) returned Manchuria to China.",
+    "right": "It ended the invasion but **left Japan firmly in control** of Manchuria."
+   },
+   {
+    "wrong": "The Tripartite Pact made Japan go to war with the Soviet Union.",
+    "right": "Article 5 left relations with Soviet Russia unchanged, and Japan signed a **Neutrality Pact with the USSR on 13 April 1941**."
+   },
+   {
+    "wrong": "Japan declared war before attacking Pearl Harbor.",
+    "right": "The memorandum ending talks was handed over **about an hour after** the attack began, and it did not declare war."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1931,
+     "month": 9,
+     "day": 18,
+     "text": "Mukden incident"
+    },
+    {
+     "year": 1932,
+     "month": 3,
+     "day": 1,
+     "text": "Manchukuo"
+    },
+    {
+     "year": 1932,
+     "month": 5,
+     "day": 5,
+     "text": "Shanghai ceasefire"
+    },
+    {
+     "year": 1933,
+     "month": 5,
+     "day": 31,
+     "text": "Tanggu Truce"
+    },
+    {
+     "year": 1937,
+     "month": 7,
+     "day": 7,
+     "text": "Clash near Peiping"
+    },
+    {
+     "year": 1937,
+     "month": 12,
+     "day": 13,
+     "text": "Nanjing captured"
+    },
+    {
+     "year": 1938,
+     "month": 1,
+     "day": 16,
+     "text": "No dealings with Chiang's government"
+    },
+    {
+     "year": 1940,
+     "month": 9,
+     "day": 27,
+     "text": "Tripartite Pact"
+    },
+    {
+     "year": 1941,
+     "month": 4,
+     "day": 13,
+     "text": "Neutrality Pact with the USSR"
+    },
+    {
+     "year": 1941,
+     "month": 7,
+     "day": 26,
+     "text": "US freeze"
+    },
+    {
+     "year": 1941,
+     "month": 11,
+     "day": 26,
+     "text": "Hull's proposal"
+    },
+    {
+     "year": 1941,
+     "month": 12,
+     "day": 7,
+     "text": "Pearl Harbor"
+    }
+   ],
+   "keyArguments": [
+    "The army set the pattern in 1931: local action, a claim of self-defence, then a settlement confirming the gains.",
+    "The clash of July 1937 became a long war because Japan sought China's submission while China was becoming more united.",
+    "The Tripartite Pact and the move south linked Japan's war to Europe's and triggered the US freeze of July 1941.",
+    "Japan attacked in December 1941 because its leaders preferred war to withdrawal from China under economic pressure."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P1-CS1-EVENTS-R01",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Japanese Cabinet claim on 24 September 1931?",
+   "factIds": [
+    "F-CS1E-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That Chinese troops had destroyed railway track and that no military occupation as such existed",
+     "correct": true,
+     "explanation": "Correct: it presented the action as self-defence."
+    },
+    {
+     "id": "b",
+     "text": "That the army had acted without orders",
+     "correct": false,
+     "explanation": "No: it defended the army's action."
+    },
+    {
+     "id": "c",
+     "text": "That Manchukuo had been established",
+     "correct": false,
+     "explanation": "Manchukuo came on 1 March 1932."
+    },
+    {
+     "id": "d",
+     "text": "That Japan would leave the League",
+     "correct": false,
+     "explanation": "Notice was given in March 1933."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Mukden incident",
+     "year": 1931,
+     "month": 9,
+     "factId": "F-CS1E-01"
+    },
+    {
+     "id": "b",
+     "text": "Manchukuo established",
+     "year": 1932,
+     "month": 3,
+     "factId": "F-CS1E-07"
+    },
+    {
+     "id": "c",
+     "text": "Tanggu Truce",
+     "year": 1933,
+     "month": 5,
+     "factId": "F-CS1E-09"
+    },
+    {
+     "id": "d",
+     "text": "Clash near Peiping",
+     "year": 1937,
+     "month": 7,
+     "factId": "F-CS1E-11"
+    },
+    {
+     "id": "e",
+     "text": "Tripartite Pact",
+     "year": 1940,
+     "month": 9,
+     "factId": "F-CS1E-22"
+    },
+    {
+     "id": "f",
+     "text": "Pearl Harbor",
+     "year": 1941,
+     "month": 12,
+     "factId": "F-CS1E-33"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R03",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Japanese troops did Neville report had been sent from Korea (Chosen) to Mukden by 22 September 1931?",
+   "factIds": [
+    "F-CS1E-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "4000",
+     "tolerance": 0,
+     "explanation": "Four thousand troops, as well as a brigade sent from Changchun to Kirin.",
+     "accept": [
+      "4,000",
+      "four thousand",
+      "4 000"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R04",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened in the Shanghai area early in 1932?",
+   "factIds": [
+    "F-CS1E-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Fighting between Japanese and Chinese forces, ended by a ceasefire agreement on 5 May 1932",
+     "correct": true,
+     "explanation": "Correct: hostilities spread there from Manchuria."
+    },
+    {
+     "id": "b",
+     "text": "The Tripartite Pact was signed",
+     "correct": false,
+     "explanation": "That was in Berlin in 1940."
+    },
+    {
+     "id": "c",
+     "text": "The Nanjing massacre",
+     "correct": false,
+     "explanation": "That followed the capture of Nanjing in December 1937."
+    },
+    {
+     "id": "d",
+     "text": "The Lytton Commission was founded there",
+     "correct": false,
+     "explanation": "The League appointed the commission; Shanghai was not its founding place."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R05",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Tanggu Truce of 1933 forced Japan to return Manchuria to China.”",
+   "factIds": [
+    "F-CS1E-09",
+    "F-CS1E-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The truce left Japan firmly in control of Manchuria",
+     "correct": true,
+     "explanation": "Correct: it ended the invasion but kept Japan's gains."
+    },
+    {
+     "id": "b",
+     "text": "The truce was signed in 1937",
+     "correct": false,
+     "explanation": "It was signed on 31 May 1933."
+    },
+    {
+     "id": "c",
+     "text": "The truce was between Japan and the USSR",
+     "correct": false,
+     "explanation": "That is not the error in the statement; it was Chinese–Japanese."
+    },
+    {
+     "id": "d",
+     "text": "There was no truce",
+     "correct": false,
+     "explanation": "There was: the Tanggu Truce."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R06",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each date to the event.",
+   "pairs": [
+    {
+     "left": "7 July 1937",
+     "right": "Clash near Peiping (Marco Polo Bridge)",
+     "explanation": "The start of full-scale war with China."
+    },
+    {
+     "left": "16 January 1938",
+     "right": "Japan refuses to deal with Chiang's government",
+     "explanation": "It looked to a new Chinese regime."
+    },
+    {
+     "left": "27 September 1940",
+     "right": "Tripartite Pact signed in Berlin",
+     "explanation": "Japan, Germany and Italy."
+    },
+    {
+     "left": "13 April 1941",
+     "right": "Soviet–Japanese Neutrality Pact",
+     "explanation": "It freed Japan to move south."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R07",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: in September 1937 Japan announced its intention to destroy the Chinese will and capacity to resist and to overthrow the existing Chinese Government. Which argument does it support?",
+   "factIds": [
+    "F-CS1E-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japan's aims widened from a local clash to the defeat of China",
+     "correct": true,
+     "explanation": "Correct: the goal became China's submission."
+    },
+    {
+     "id": "b",
+     "text": "Japan sought only to protect railway guards",
+     "correct": false,
+     "explanation": "The fact shows much wider aims."
+    },
+    {
+     "id": "c",
+     "text": "Japan accepted Chiang's government",
+     "correct": false,
+     "explanation": "It aimed to overthrow it."
+    },
+    {
+     "id": "d",
+     "text": "Japan wanted US mediation",
+     "correct": false,
+     "explanation": "Japan had not responded to US offers of good offices."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R08",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which Chinese city was captured by Japan in November 1937, before the march on Nanjing?",
+   "factIds": [
+    "F-CS1E-15"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Shanghai",
+     "tolerance": 0,
+     "explanation": "Shanghai fell in November 1937; Nanjing followed in December."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R09",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Case Study 1 runs from 1931 to 1941. Is the Japanese surrender of 1945 inside or outside the timeframe?",
+   "timeframe": [
+    1931,
+    1941
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside",
+     "correct": true,
+     "explanation": "Correct: the case study ends with Pearl Harbor and the outbreak of war in 1941."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1945 is after 1941."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because the war in China began in 1937",
+     "correct": false,
+     "explanation": "The timeframe, not the war's start, decides."
+    },
+    {
+     "id": "d",
+     "text": "Inside, as background",
+     "correct": false,
+     "explanation": "Later events are not background; they fall outside the case study."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R10",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Article 3 of the Tripartite Pact promise?",
+   "factIds": [
+    "F-CS1E-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mutual assistance if one partner was attacked by a power not involved in the European war or the Sino-Japanese conflict",
+     "correct": true,
+     "explanation": "Correct: it was aimed at the United States in practice."
+    },
+    {
+     "id": "b",
+     "text": "Joint war against the Soviet Union",
+     "correct": false,
+     "explanation": "Article 5 left relations with the USSR unchanged."
+    },
+    {
+     "id": "c",
+     "text": "Japan's withdrawal from China",
+     "correct": false,
+     "explanation": "The pact said nothing of the kind."
+    },
+    {
+     "id": "d",
+     "text": "A Japanese protectorate over France",
+     "correct": false,
+     "explanation": "No: France is not mentioned."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R11",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened in 1941? Choose all that apply.",
+   "factIds": [
+    "F-CS1E-24",
+    "F-CS1E-27",
+    "F-CS1E-29"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Soviet–Japanese Neutrality Pact",
+     "correct": true,
+     "explanation": "Yes: 13 April 1941."
+    },
+    {
+     "id": "b",
+     "text": "The US freeze of Japanese assets",
+     "correct": true,
+     "explanation": "Yes: 26 July 1941."
+    },
+    {
+     "id": "c",
+     "text": "Tōjō became Prime Minister",
+     "correct": true,
+     "explanation": "Yes: 18 October 1941."
+    },
+    {
+     "id": "d",
+     "text": "The Tripartite Pact",
+     "correct": false,
+     "explanation": "No: that was 27 September 1940."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R12",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Welles interpret Japan's move into southern Indochina in July 1941?",
+   "factIds": [
+    "F-CS1E-44"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "As the last step before a policy of expansion and conquest in the South Seas",
+     "correct": true,
+     "explanation": "Correct: he also linked it to Hitler's aims."
+    },
+    {
+     "id": "b",
+     "text": "As a purely defensive measure",
+     "correct": false,
+     "explanation": "He rejected the defensive explanation."
+    },
+    {
+     "id": "c",
+     "text": "As a step towards peace with China",
+     "correct": false,
+     "explanation": "He did not say so."
+    },
+    {
+     "id": "d",
+     "text": "As a French initiative",
+     "correct": false,
+     "explanation": "He said Vichy acted under pressure from Berlin."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R13",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which month of 1941 did the United States freeze Japanese assets?",
+   "factIds": [
+    "F-CS1E-27"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "July",
+     "tolerance": 0,
+     "explanation": "26 July 1941, after the move into southern Indochina."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R14",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: on 3 November 1941 Grew warned that Japan might act “with dangerous and dramatic suddenness”. Which argument does it support?",
+   "factIds": [
+    "F-CS1E-30"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "US officials were warned that economic pressure might provoke a sudden Japanese attack",
+     "correct": true,
+     "explanation": "Correct: he doubted that embargoes would avert war."
+    },
+    {
+     "id": "b",
+     "text": "Grew was sure Japan would collapse",
+     "correct": false,
+     "explanation": "He rejected the theory of collapse."
+    },
+    {
+     "id": "c",
+     "text": "Japan had already attacked",
+     "correct": false,
+     "explanation": "The attack came on 7 December."
+    },
+    {
+     "id": "d",
+     "text": "Grew wanted appeasement",
+     "correct": false,
+     "explanation": "He said he did not advocate appeasement."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R15",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Japan handed over its memorandum ending the negotiations an hour before the attack on Pearl Harbor.”",
+   "factIds": [
+    "F-CS1E-33"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was handed over about an hour after the attack began",
+     "correct": true,
+     "explanation": "Correct: the attack began at 1:20 p.m. Washington time; Hull received the envoys at 2:20."
+    },
+    {
+     "id": "b",
+     "text": "The memorandum was handed to Roosevelt",
+     "correct": false,
+     "explanation": "That is not the error in the statement: it went to Hull."
+    },
+    {
+     "id": "c",
+     "text": "The attack was on Manila",
+     "correct": false,
+     "explanation": "That is not the error in the statement."
+    },
+    {
+     "id": "d",
+     "text": "The memorandum accepted the US terms",
+     "correct": false,
+     "explanation": "That is not the error in the statement: it rejected them."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R16",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many US battleships were sunk at Pearl Harbor? (number)",
+   "factIds": [
+    "F-CS1E-38"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "4",
+     "tolerance": 0,
+     "explanation": "All eight battleships present were damaged, and four were sunk.",
+     "accept": [
+      "four"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R17",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role in 1941.",
+   "pairs": [
+    {
+     "left": "Nomura",
+     "right": "Japanese Ambassador in Washington",
+     "explanation": "He negotiated with Hull through 1941."
+    },
+    {
+     "left": "Kurusu",
+     "right": "Japanese special envoy sent to Washington",
+     "explanation": "He said Japan would “throw up its hands” at the US proposal."
+    },
+    {
+     "left": "Welles",
+     "right": "Acting US Secretary of State in July 1941",
+     "explanation": "He replied to Nomura on 23 July 1941."
+    },
+    {
+     "left": "Tōjō",
+     "right": "Japanese Prime Minister from 18 October 1941",
+     "explanation": "He replaced Konoe."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R18",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Congress respond on 8 December 1941?",
+   "factIds": [
+    "F-CS1E-37"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It declared war on Japan with one dissenting vote",
+     "correct": true,
+     "explanation": "Correct: the President approved the resolution at 4:10 p.m."
+    },
+    {
+     "id": "b",
+     "text": "It refused to declare war",
+     "correct": false,
+     "explanation": "It declared war the same day."
+    },
+    {
+     "id": "c",
+     "text": "It declared war on Germany first",
+     "correct": false,
+     "explanation": "Germany declared war on the United States."
+    },
+    {
+     "id": "d",
+     "text": "It asked the League to intervene",
+     "correct": false,
+     "explanation": "The US was not a League member, and Congress acted itself."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R19",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps of 1941 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Neutrality Pact with the USSR",
+     "year": 1941,
+     "month": 4,
+     "factId": "F-CS1E-24"
+    },
+    {
+     "id": "b",
+     "text": "US freeze of Japanese assets",
+     "year": 1941,
+     "month": 7,
+     "factId": "F-CS1E-27"
+    },
+    {
+     "id": "c",
+     "text": "Konoe proposes a summit with Roosevelt",
+     "year": 1941,
+     "month": 8,
+     "factId": "F-CS1E-28"
+    },
+    {
+     "id": "d",
+     "text": "Tōjō becomes Prime Minister",
+     "year": 1941,
+     "month": 10,
+     "factId": "F-CS1E-29"
+    },
+    {
+     "id": "e",
+     "text": "Hull's proposal",
+     "year": 1941,
+     "month": 11,
+     "factId": "F-CS1E-31"
+    },
+    {
+     "id": "f",
+     "text": "Pearl Harbor",
+     "year": 1941,
+     "month": 12,
+     "factId": "F-CS1E-33"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R20",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Japan's leaders, facing serious shortages after the embargo and unable to retreat, concluded that they had to act swiftly. Which argument does it support?",
+   "factIds": [
+    "F-CS1E-32"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic pressure pushed Japan's leaders towards war",
+     "correct": true,
+     "explanation": "Correct: shortages narrowed their choices."
+    },
+    {
+     "id": "b",
+     "text": "Japan attacked because it had plenty of oil",
+     "correct": false,
+     "explanation": "The fact speaks of shortages."
+    },
+    {
+     "id": "c",
+     "text": "US leaders expected an attack on Hawaii",
+     "correct": false,
+     "explanation": "US leaders doubted Japan could attack US territory."
+    },
+    {
+     "id": "d",
+     "text": "Japan wanted to withdraw from China",
+     "correct": false,
+     "explanation": "The fact says they were unable to retreat."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P1-CS1-EVENTS-D01",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct point Neville makes about the Japanese action (telegram, Tokyo, 22 September 1931).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "four thousand troops from Chosen have been sent to Mukden",
+     "answer": "point",
+     "explanation": "Point: reinforcements from Korea."
+    },
+    {
+     "id": "s2",
+     "text": "The Government states orally that there have been no disturbances in any of the occupied areas in the past two days.",
+     "answer": "not_point",
+     "explanation": "The Japanese government's claim, not Neville's point."
+    },
+    {
+     "id": "s3",
+     "text": "The occupation of so large an area seems out of proportion to the alleged cause.",
+     "answer": "point",
+     "explanation": "Point: out of proportion."
+    },
+    {
+     "id": "s4",
+     "text": "the incident referred to was seized upon by the Army authorities",
+     "answer": "point",
+     "explanation": "Point: the army exploited the incident."
+    },
+    {
+     "id": "s5",
+     "text": "the Foreign Office … have been genuinely surprised by the action of the Army",
+     "answer": "point",
+     "explanation": "Point: civilian officials were surprised."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D02",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct demand or decision in the Japanese Embassy statement of 12 July 1937.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "At 11:40 p.m. Chinese troops under the command of Feng Chih-an (29th Army) made an attack upon the Japanese soldiers for no cause at all.",
+     "answer": "not_point",
+     "explanation": "An accusation about 7 July, not a demand or decision."
+    },
+    {
+     "id": "s2",
+     "text": "the Japanese Government has decided to take precautionary steps to meet all situations, including the dispatch of additional military forces to North China.",
+     "answer": "point",
+     "explanation": "Decision: more troops to North China."
+    },
+    {
+     "id": "s3",
+     "text": "An amicable solution can yet be attained if China agrees to offer apologies for the recent lawless action",
+     "answer": "point",
+     "explanation": "Demand: Chinese apologies."
+    },
+    {
+     "id": "s4",
+     "text": "and to give adequate guarantees against such outrages in future.",
+     "answer": "point",
+     "explanation": "Demand: guarantees for the future."
+    },
+    {
+     "id": "s5",
+     "text": "The Japanese Government, desirous as ever to preserve peace in East Asia,",
+     "answer": "not_point",
+     "explanation": "A claim of good intentions, not a demand."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D03",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct place Roosevelt says Japan attacked (address to Congress, 8 December 1941).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Yesterday the Japanese Government also launched an attack against Malaya.",
+     "answer": "point",
+     "explanation": "Point: Malaya."
+    },
+    {
+     "id": "s2",
+     "text": "Last night Japanese forces attacked Hong Kong.",
+     "answer": "point",
+     "explanation": "Point: Hong Kong."
+    },
+    {
+     "id": "s3",
+     "text": "Last night Japanese forces attacked Guam.",
+     "answer": "point",
+     "explanation": "Point: Guam."
+    },
+    {
+     "id": "s4",
+     "text": "The facts of yesterday speak for themselves.",
+     "answer": "not_point",
+     "explanation": "A comment, not a place attacked."
+    },
+    {
+     "id": "s5",
+     "text": "This morning the Japanese attacked Midway Island.",
+     "answer": "point",
+     "explanation": "Point: Midway."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D04",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct complaint against the United States in Japan's memorandum of 7 December 1941.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "both the United States and Great Britain have resorted to every possible measure to assist the Chungking regime",
+     "answer": "point",
+     "explanation": "Complaint: aid to Chiang's government."
+    },
+    {
+     "id": "s2",
+     "text": "they enforced the assets freezing order, thus severing economic relations with Japan.",
+     "answer": "point",
+     "explanation": "Complaint: the freeze."
+    },
+    {
+     "id": "s3",
+     "text": "these countries have strengthened their military preparations perfecting an encirclement of Japan",
+     "answer": "point",
+     "explanation": "Complaint: military encirclement."
+    },
+    {
+     "id": "s4",
+     "text": "The Government of Japan, prompted by a genuine desire to come to an amicable understanding",
+     "answer": "not_point",
+     "explanation": "Japan's claim about itself, not a complaint."
+    },
+    {
+     "id": "s5",
+     "text": "the American Government … failed to display in the slightest degree a spirit of conciliation.",
+     "answer": "point",
+     "explanation": "Complaint: no spirit of conciliation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D05",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the Japanese Cabinet statement of 24 September 1931? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To persuade foreign governments and the League that the army acted in self-defence and that Japan had no territorial aims, days after the occupation began",
+     "correct": true,
+     "explanation": "Correct: it was handed to the US and aimed at international opinion."
+    },
+    {
+     "id": "b",
+     "text": "To announce the creation of Manchukuo",
+     "correct": false,
+     "explanation": "Wrong date: Manchukuo came in March 1932."
+    },
+    {
+     "id": "c",
+     "text": "To give information about railways",
+     "correct": false,
+     "explanation": "Too vague: no audience, action or moment."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is the Mukden incident",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D06",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Roosevelt's address of 8 December 1941? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To persuade Congress to declare war on Japan, the day after the attack on Pearl Harbor",
+     "correct": true,
+     "explanation": "Correct: he ends by asking Congress to declare a state of war."
+    },
+    {
+     "id": "b",
+     "text": "To inform people about Hawaii",
+     "correct": false,
+     "explanation": "Too vague: no audience, action or moment."
+    },
+    {
+     "id": "c",
+     "text": "To negotiate with Japan",
+     "correct": false,
+     "explanation": "He said diplomatic talks had been used to deceive."
+    },
+    {
+     "id": "d",
+     "text": "To declare war on Germany",
+     "correct": false,
+     "explanation": "Germany declared war on the United States."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D07",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Japan's statement of 16 January 1938? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To announce to China, the Japanese people and other powers that Japan would no longer deal with Chiang's government, after the capture of Nanking",
+     "correct": true,
+     "explanation": "Correct: it also calls on the Japanese people for greater efforts."
+    },
+    {
+     "id": "b",
+     "text": "To offer peace to Chiang",
+     "correct": false,
+     "explanation": "It refused to deal with his government."
+    },
+    {
+     "id": "c",
+     "text": "The purpose is the war in China",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    },
+    {
+     "id": "d",
+     "text": "To report on the Panay incident",
+     "correct": false,
+     "explanation": "The statement does not mention the Panay."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D08",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Welles's reply to Nomura on 23 July 1941? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To warn the Japanese Ambassador that the US saw the move into southern Indochina as conquest and would end the talks, as the occupation began",
+     "correct": true,
+     "explanation": "Correct: he said Hull saw no basis for further conversations."
+    },
+    {
+     "id": "b",
+     "text": "To agree to Japan's occupation",
+     "correct": false,
+     "explanation": "He rejected Japan's explanation."
+    },
+    {
+     "id": "c",
+     "text": "To give information about rice",
+     "correct": false,
+     "explanation": "Too vague, and rice was Nomura's argument."
+    },
+    {
+     "id": "d",
+     "text": "To declare war",
+     "correct": false,
+     "explanation": "The US did not declare war until December."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D09",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Debuchi conversation, 5 January 1933, recorded by Stimson): which sentence moves from a feature to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Stimson recorded a private conversation with the Japanese Ambassador, the memorandum shows what a Japanese diplomat admitted in confidence about the army's power.",
+     "correct": true,
+     "explanation": "Correct: feature (private conversation) → consequence (admissions) → value."
+    },
+    {
+     "id": "b",
+     "text": "The origin is Stimson.",
+     "correct": false,
+     "explanation": "A label, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is valuable because it is a memorandum.",
+     "correct": false,
+     "explanation": "Generic: the type alone does not make it valuable."
+    },
+    {
+     "id": "d",
+     "text": "The content is about the Great Wall.",
+     "correct": false,
+     "explanation": "A topic label, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D10",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Debuchi conversation, 5 January 1933): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Stimson wrote the record himself, it may stress his own firmness and Debuchi's embarrassment, so it is one-sided on the tone of the meeting.",
+     "correct": true,
+     "explanation": "Correct: feature (author is a participant) → consequence (self-presentation) → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is limited because it is American.",
+     "correct": false,
+     "explanation": "Nationality alone is not a limitation."
+    },
+    {
+     "id": "c",
+     "text": "It is limited because it is old.",
+     "correct": false,
+     "explanation": "Age is not a limitation."
+    },
+    {
+     "id": "d",
+     "text": "It does not mention Japan.",
+     "correct": false,
+     "explanation": "Wrong: it is about Japan."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D11",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Japan's statement of 16 January 1938): which sentence explains a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "As an official government statement, it shows precisely when and how Japan publicly abandoned negotiations with Chiang's government.",
+     "correct": true,
+     "explanation": "Correct: feature (official statement) → consequence (shows the decision) → value."
+    },
+    {
+     "id": "b",
+     "text": "It was written in 1938.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is useful because it is Japanese.",
+     "correct": false,
+     "explanation": "Generic: nationality alone does not show value."
+    },
+    {
+     "id": "d",
+     "text": "It is about China.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D12",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Roosevelt's address, 8 December 1941): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Roosevelt wanted Congress to declare war, he presents the attack as unprovoked and does not mention the US freeze or the demand for withdrawal from China.",
+     "correct": true,
+     "explanation": "Correct: feature (purpose) → consequence (omissions) → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is biased.",
+     "correct": false,
+     "explanation": "Generic: it does not say how."
+    },
+    {
+     "id": "c",
+     "text": "It is a speech.",
+     "correct": false,
+     "explanation": "A label, not an evaluation."
+    },
+    {
+     "id": "d",
+     "text": "It is limited because Roosevelt was President.",
+     "correct": false,
+     "explanation": "The role alone does not explain a limitation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D13",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, so that you compare Sources A (Japanese statement, 24 September 1931) and D (Neville, 22 September 1931).",
+   "categories": [
+    {
+     "id": "cause",
+     "label": "Issue 1: the cause of the action"
+    },
+    {
+     "id": "scale",
+     "label": "Issue 2: the scale of the action"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "A: a detachment of Chinese troops destroyed tracks of the South Manchurian Railway",
+     "answer": "cause",
+     "explanation": "A blames China."
+    },
+    {
+     "id": "s2",
+     "text": "D: the incident referred to was seized upon by the Army authorities",
+     "answer": "cause",
+     "explanation": "D suggests the army exploited it."
+    },
+    {
+     "id": "s3",
+     "text": "A: nowhere does a state of military occupation as such exist",
+     "answer": "scale",
+     "explanation": "A minimises the action."
+    },
+    {
+     "id": "s4",
+     "text": "D: the occupation of so large an area seems out of proportion",
+     "answer": "scale",
+     "explanation": "D stresses its size."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D14",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: sort each statement into a similarity or a difference between Japan's memorandum of 7 December 1941 and Roosevelt's address of 8 December 1941.",
+   "categories": [
+    {
+     "id": "same",
+     "label": "Similarity"
+    },
+    {
+     "id": "diff",
+     "label": "Difference"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Both say the negotiations had failed.",
+     "answer": "same",
+     "explanation": "Japan calls agreement impossible; Roosevelt says talks had been used to deceive."
+    },
+    {
+     "id": "s2",
+     "text": "Japan blames US aid to Chungking and the freeze; Roosevelt blames a deliberately planned Japanese attack.",
+     "answer": "diff",
+     "explanation": "They assign responsibility differently."
+    },
+    {
+     "id": "s3",
+     "text": "Both present their own government as having sought peace.",
+     "answer": "same",
+     "explanation": "Each claims it wanted peace in the Pacific."
+    },
+    {
+     "id": "s4",
+     "text": "Japan says nothing of the attack; Roosevelt lists the places attacked.",
+     "answer": "diff",
+     "explanation": "Different content."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D15",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing the Tripartite Pact (Source A) with Hull's press statement (Source D).",
+   "categories": [
+    {
+     "id": "aims",
+     "label": "Issue 1: what the pact does"
+    },
+    {
+     "id": "change",
+     "label": "Issue 2: how much it changes"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "A: Germany and Italy recognize and respect the leadership of Japan in the establishment of a new order in Greater East Asia",
+     "answer": "aims",
+     "explanation": "The pact's purpose."
+    },
+    {
+     "id": "s2",
+     "text": "D: Announcement of the alliance merely makes clear to all a relationship which has long existed in effect",
+     "answer": "change",
+     "explanation": "Hull says little has changed."
+    },
+    {
+     "id": "s3",
+     "text": "A: to assist one another with all political, economic and military means",
+     "answer": "aims",
+     "explanation": "Mutual assistance."
+    },
+    {
+     "id": "s4",
+     "text": "D: does not … substantially alter a situation which has existed for several years",
+     "answer": "change",
+     "explanation": "Hull minimises the change."
+    }
+   ]
+  }
+ ],
+ "sourceSets": [
+  {
+   "sourceSetId": "P1-CS1-EVENTS-SS01",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "events",
+   "focus": "The invasion of Manchuria and northern China, 1931–1933",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS01-A",
+     "provenance": {
+      "creator": "Japanese Government",
+      "sourceType": "statement issued after an extraordinary Cabinet meeting, handed to the US State Department",
+      "date": "24 September 1931"
+     },
+     "text": "… a detachment of Chinese troops destroyed tracks of the South Manchurian Railway in the vicinity of Mukden and attacked our railway guards at midnight of September 18th. A clash between Japanese and Chinese troops then took place. (2) The situation became critical as the number of Japanese guards stationed along the entire railway did not then exceed ten thousand four hundred while there were in juxtaposition some two hundred twenty thousand Chinese soldiers. … In order to forestall imminent disaster the Japanese army had to act swiftly. … (3) … But nowhere does a state of military occupation as such exist. … (5) It may be superfluous to repeat that the Japanese Government harbors no territorial designs in Manchuria."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS01-B",
+     "mediaId": "M-mukden-little-west-gate-1931",
+     "provenance": {
+      "creator": "Unknown Japanese photographer",
+      "sourceType": "photograph with a Japanese caption",
+      "date": "19 September 1931",
+      "contextNote": "Japanese soldiers of the 29th Regiment in an attacking position at the Little West Gate of Mukden, the morning after the railway explosion."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS01-C",
+     "provenance": {
+      "creator": "Henry L. Stimson, US Secretary of State",
+      "sourceType": "memorandum of a conversation with the Japanese Ambassador, Debuchi",
+      "date": "5 January 1933",
+      "contextNote": "Fighting had broken out at Shanhaikwan, and Japanese forces were about to occupy the province of Jehol."
+     },
+     "text": "He said that in any event Japan had no territorial ambition south of the Great Wall. I reminded the Ambassador that a year ago he had told me Japan had no territorial ambitions in Manchuria. He became flustered and said that that was so but the situation had changed greatly. … I reminded the Ambassador that just before he went away he told me that the Japanese Government was in the control of a group of younger officers, none of them of a higher rank than a Lieutenant-Colonel … But he said he must in all frankness tell me that no Japanese Cabinet which advocated a compromise of the “Manchukuo” question could survive in Japan; that must be regarded as a closed incident."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS01-D",
+     "provenance": {
+      "creator": "Neville, US Chargé d'Affaires in Japan",
+      "sourceType": "telegram to the US Secretary of State, sent from Tokyo",
+      "date": "22 September 1931",
+      "contextNote": "Chosen was the Japanese name for Korea, then a Japanese colony."
+     },
+     "text": "I am informed that (1) four thousand troops from Chosen have been sent to Mukden and (2) one brigade has been sent from Changchun to Kirin at the request of the Japanese residents there. … The occupation of so large an area seems out of proportion to the alleged cause. The military undoubtedly had detailed plans like every army for every contingency they could think of. It seems probable that the incident referred to was seized upon by the Army authorities and the whole area occupied as a military measure to force a general liquidation of outstanding issues. I am inclined to think that the Foreign Office and perhaps other branches of the Government here have been genuinely surprised by the action of the Army at this time."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-EVENTS-SS01-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, why did the Japanese army act in Manchuria in September 1931?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Chinese troops had destroyed railway track near Mukden.",
+       "Chinese troops had attacked Japanese railway guards.",
+       "The guards (about 10,400) were heavily outnumbered by some 220,000 Chinese soldiers.",
+       "To forestall imminent disaster to Japanese lives."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "Chinese troops",
+       "tracks",
+       "railway guards",
+       "ten thousand four hundred",
+       "two hundred twenty thousand",
+       "disaster"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS01-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the Japanese action at Mukden on 19 September 1931?",
+     "model": {
+      "type": "points",
+      "points": [
+       "It was a planned military operation, with troops already in attacking positions the morning after the explosion.",
+       "The army was ready to attack the city itself, not only to guard the railway."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "soldiers",
+       "Mukden",
+       "attacking",
+       "gate"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS01-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying Japanese expansion in northern China in 1931–1933.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the US Secretary of State's own record of a private meeting with the Japanese Ambassador, made at the time.",
+       "Value (content): it records the Ambassador's admissions that “younger officers” controlled policy and that no Cabinet could compromise over Manchukuo.",
+       "Limitation (purpose): written by Stimson for the State Department's files, so it may stress his own firmness and Debuchi's embarrassment.",
+       "Limitation (content): it reports Debuchi's words second-hand and cannot show what the army in the field actually planned."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS01-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources A and D reveal about the Japanese action in Manchuria in September 1931.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources agree that Japanese forces quickly took control of a large area around the railway: Source A admits that the army “had to act swiftly”, and Source D reports the occupation of “so large an area”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also mention reinforcements beyond the railway guards: A notes the troops sent in, and D reports 4,000 troops from Korea and a brigade sent to Kirin.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, they disagree on the cause: Source A blames Chinese troops for destroying the track, while Source D suggests that the army “seized upon” the incident to force a settlement of outstanding issues.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "They also differ on scale and control: A insists that “nowhere does a state of military occupation as such exist”, while D calls the occupation “out of proportion” and suggests the Foreign Office was surprised by the army.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "speed and extent",
+       "reinforcements",
+       "cause",
+       "scale and civilian control"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS01-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the methods Japan used to take control of Manchuria and northern China between 1931 and 1933.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "Japan took control by a sequence of army actions justified as self-defence and then confirmed by political settlements.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Sources A and B show the first step: an incident blamed on China, followed by rapid military action; in fact Kwantung Army officers had staged the explosion. Source D shows that the army moved faster than the Foreign Office.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Political steps followed. Manchukuo was established on 1 March 1932 and recognised by Japan in September 1932, and fighting spread to Shanghai before a ceasefire on 5 May 1932.",
+        "tags": [
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source C shows the next advance into Jehol and the pattern of assurances: Japan had “no territorial ambition south of the Great Wall”, as it had once said of Manchuria. The Tanggu Truce of 31 May 1933 then confirmed Japan's control.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The method combined military force, claims of self-defence and diplomatic assurances, which together made each advance seem limited while the total grew.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Kwantung Army",
+       "Manchukuo",
+       "1 March 1932",
+       "Shanghai",
+       "Jehol",
+       "Tanggu Truce",
+       "31 May 1933"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS1-EVENTS-SS02",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "events",
+   "focus": "From the clash near Peiping to full-scale war, 1937–1938",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS02-A",
+     "provenance": {
+      "creator": "Japanese Embassy in Washington",
+      "sourceType": "statement handed to the US State Department",
+      "date": "12 July 1937",
+      "contextNote": "Lukow Kiao is the Marco Polo Bridge."
+     },
+     "text": "1. In the evening of July 7, 1937 a detachment of the Japanese troops stationed at Fengtai, near Peiping, was engaged in a night maneuver in the vicinity of Lukow Kiao. At 11:40 p.m. Chinese troops under the command of Feng Chih-an (29th Army) made an attack upon the Japanese soldiers for no cause at all. … 5. The presence of disorderly Chinese troops in the Peiping and Tientsin area not only disturbs peace and order in North China which is of vital importance to Japan but also endangers the lives and property of the Japanese nationals there. In the circumstances, the Japanese Government has decided to take precautionary steps to meet all situations, including the dispatch of additional military forces to North China."
+    },
+    {
+     "letter": "B",
+     "type": "cartoon",
+     "verificationRef": "SRC-SS02-B",
+     "mediaId": "M-japanese-army-postcard-1938",
+     "provenance": {
+      "creator": "Unknown Japanese artist",
+      "sourceType": "humorous picture postcard",
+      "date": "1938",
+      "contextNote": "Japanese troops march into a Chinese walled town. The speech bubbles say “Nippon banzai!” and “Banzai!” (“Long live Japan!”); the banner reads “Triumphant entry into ○○”, with the town's name left blank."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS02-C",
+     "provenance": {
+      "creator": "Japanese Government",
+      "sourceType": "public statement",
+      "date": "16 January 1938",
+      "contextNote": "Prince Konoe was Prime Minister."
+     },
+     "text": "Even after the capture of Nanking, the Japanese Government have till now continued to be patient with a view to affording a final opportunity to the Chinese National Government for a reconsideration of their attitude. However, the Chinese Government, without appreciating the true intentions of Japan, blindly persist in their opposition against Japan, with no consideration either internally for the people in their miserable plight or externally for the peace and tranquility of all East Asia. Accordingly, the Japanese Government will cease from henceforward to deal with that Government, and they look forward to the establishment and growth of a new Chinese regime, harmonious co-ordination with which can really be counted upon."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS02-D",
+     "provenance": {
+      "creator": "Cordell Hull, US Secretary of State",
+      "sourceType": "telegram to the US Ambassador in Japan, Grew (State Department paraphrase)",
+      "date": "2 September 1937"
+     },
+     "text": "In view of the methods employed by the Japanese military forces, particularly of their entire lack of responsiveness in their acts to suggestions quietly and patiently made them by the United States and other Governments … it may be doubted that the elements actually controlling Japan's policies and action value appreciably the friendship of other nations … American public opinion has been outraged by the methods and strategy employed by the combatants, particularly by the Japanese military, and has become gradually more critical of Japan. … Japan, by the course it is pursuing, is destroying the good will of the world and is laying up for itself among the peoples of the world a liability of distrust, suspicion, popular antipathy, and potential ostracism …"
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-EVENTS-SS02-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, why did Japan send more troops to North China in July 1937?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Chinese troops of the 29th Army had attacked Japanese soldiers “for no cause at all”.",
+       "Disorderly Chinese troops disturbed peace and order in North China, which was vital to Japan.",
+       "The lives and property of Japanese nationals there were in danger.",
+       "As precautionary steps to meet all situations."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "29th Army",
+       "no cause",
+       "disorderly",
+       "North China",
+       "Japanese nationals",
+       "precautionary"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS02-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What is the message of Source B?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Japanese troops are welcomed as liberators by Chinese civilians, who wave Japanese flags.",
+       "The army's advance is presented as a cheerful, triumphant success."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "welcomed",
+       "flags",
+       "banzai",
+       "triumphant"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS02-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the escalation of the war between Japan and China.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): an official statement of the Japanese Government records a key decision in the war.",
+       "Value (content): it shows that by January 1938 Japan had decided to stop dealing with Chiang's government and to seek a new regime, which ruled out a negotiated peace.",
+       "Limitation (purpose): a public statement meant to blame China (“blindly persist”) and justify continuing the war, so it presents Japan as patient.",
+       "Limitation (content): it gives no details of the fighting or of the capture of Nanking, so it cannot show the human cost of escalation."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS02-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "C"
+     ],
+     "text": "Compare and contrast what Sources A and C reveal about Japanese explanations of the war in China.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources blame China for the conflict: Source A says Chinese troops attacked “for no cause at all”, and Source C says the Chinese Government “blindly persist in their opposition against Japan”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both present Japan as acting for wider peace and order, “peace and order in North China” in A and “the peace and tranquility of all East Asia” in C.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source A describes a limited response, “precautionary steps” and more troops, while Source C announces a political goal: no more dealings with the Chinese Government and a new regime.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A blames local troops of the 29th Army, whereas Source C blames the National Government itself.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "blame on China",
+       "claims of peace",
+       "limited or total aims",
+       "who is blamed"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS02-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the reasons why the clash of July 1937 became a full-scale war between Japan and China.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "The clash became a full-scale war mainly because Japan widened its aims from local security to the defeat of Chiang's government, and China would not submit.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows the first escalation: within five days Japan decided to send additional forces to North China. By September Japan had announced its intention to destroy China's capacity to resist and overthrow its government.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source C shows the decisive political step: after the capture of Nanking, Japan would “cease from henceforward to deal with” the National Government. Japan took Shanghai in November 1937, Nanking in December, and Wuhan and Canton by November 1938, yet China fought on.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source B suggests Japanese confidence in quick, welcomed victories, while Source D shows the cost abroad: American opinion was “outraged” by the Japanese military's methods, which included the massacre at Nanjing.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Escalation therefore came from Japanese decisions to seek total victory, while growing Chinese unity meant that victory could not be achieved.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Shanghai",
+       "Nanking",
+       "Nanjing",
+       "Wuhan",
+       "Canton",
+       "29th Army",
+       "September 1937"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS1-EVENTS-SS03",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "events",
+   "focus": "The Tripartite Pact and the move into Indochina, 1940–1941",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS03-A",
+     "provenance": {
+      "creator": "Governments of Japan, Germany and Italy",
+      "sourceType": "Three-Power (Tripartite) Pact, signed in Berlin (summary as received from the Japanese Foreign Ministry)",
+      "date": "27 September 1940"
+     },
+     "text": "The Governments of Japan, Germany and Italy, considering it as the condition precedent of any lasting peace that all nations of the world be given each its own proper place, have decided to stand by and co-operate with one another in regard to their efforts in Greater East Asia and the regions of Europe respectively … Article 1. Japan recognizes and respects the leadership of Germany and Italy in the establishment of a new order in Europe. Article 2. Germany and Italy recognize and respect the leadership of Japan in the establishment of a new order in Greater East Asia. Article 3. … They further undertake to assist one another with all political, economic and military means when one of the three Contracting Parties is attacked by a power at present not involved in the European War or in the Sino-Japanese Conflict."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS03-B",
+     "mediaId": "M-japanese-troops-saigon-1941",
+     "provenance": {
+      "creator": "Japanese Army photographer",
+      "sourceType": "photograph",
+      "date": "1941",
+      "contextNote": "Japanese troops with horse-drawn carts enter Saigon, in the south of French Indochina."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS03-C",
+     "provenance": {
+      "creator": "Welles, Acting US Secretary of State",
+      "sourceType": "memorandum of his conversation with the Japanese Ambassador, Admiral Nomura",
+      "date": "23 July 1941",
+      "contextNote": "Japan had just agreed with the French government at Vichy to station troops in southern Indochina."
+     },
+     "text": "I said it was very clear to this Government that any agreement which Japan might have reached with the Vichy Government could only have been reached as a result of pressure brought to bear upon the Vichy Government by Berlin. Since that was the case in our judgment, the reaching of this agreement by Japan could only be regarded as offering assistance to Hitler in his obvious policy of world conquest and of world domination … I said that the movement now undertaken by Japan could only be regarded by the United States as having two probable purposes … First, the United States could only assume that the occupation of Indochina by Japan constituted notice to the United States that the Japanese Government intended to pursue a policy of force and of conquest, and, second, … that the Japanese Government was taking the last step before proceeding upon a policy of totalitarian expansion in the South Seas …"
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS03-D",
+     "provenance": {
+      "creator": "Cordell Hull, US Secretary of State",
+      "sourceType": "answer to questions at a press conference, issued as a State Department press release",
+      "date": "27 September 1940"
+     },
+     "text": "“The reported agreement of alliance does not, in the view of the Government of the United States, substantially alter a situation which has existed for several years. Announcement of the alliance merely makes clear to all a relationship which has long existed in effect and to which this Government has repeatedly called attention. That such an agreement has been in process of conclusion has been well known for some time, and that fact has been fully taken into account by the Government of the United States in the determining of this country's policies.”"
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-EVENTS-SS03-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, what did Japan, Germany and Italy agree?",
+     "model": {
+      "type": "points",
+      "points": [
+       "To cooperate in their efforts in Greater East Asia and in Europe.",
+       "Japan recognised the leadership of Germany and Italy in a new order in Europe.",
+       "Germany and Italy recognised Japan's leadership of a new order in Greater East Asia.",
+       "To assist one another if attacked by a power not yet involved in the European war or the Sino-Japanese conflict."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "Greater East Asia",
+       "Europe",
+       "new order",
+       "leadership",
+       "assist",
+       "attacked"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS03-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the Japanese presence in Indochina in 1941?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Japanese forces were moving openly into the main cities of southern Indochina.",
+       "The troops brought supplies and transport, suggesting they intended to stay."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "troops",
+       "Saigon",
+       "carts",
+       "Indochina"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS03-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the Japanese move into southern Indochina in 1941.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the Acting Secretary of State's own record of his meeting with the Japanese Ambassador, written on the day.",
+       "Value (content): it shows how the US interpreted the move, as help to Hitler and “the last step” before expansion into the South Seas, which explains the US response.",
+       "Limitation (purpose): written for the US record during a crisis, so it stresses the firmness of the US reply.",
+       "Limitation (content): it gives the US reading of Japan's purposes, not Japan's own reasons, which Nomura explained as supplies of food and raw materials."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS03-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources A and D reveal about the significance of the Tripartite Pact.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources treat the pact as an alliance between Japan, Germany and Italy: Source A sets out mutual assistance “with all political, economic and military means”, and Source D calls it an “agreement of alliance”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both imply that the United States was concerned: A's promise of help against a power “not involved in the European War” points to the US, and D shows the US Government explaining its view the same day.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source A presents the pact as a new step towards “lasting peace” and a new order, while Source D says it does not “substantially alter a situation which has existed for several years”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A divides the world into spheres of leadership, Europe and Greater East Asia, whereas D ignores the spheres and treats the pact as confirming an existing relationship.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "alliance",
+       "threat to the United States",
+       "new or old",
+       "spheres of leadership"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS03-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the significance of the Tripartite Pact and the move into Indochina for relations between Japan and the United States.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "The Tripartite Pact made conflict with the United States likely, and the move into southern Indochina made it urgent.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows that the pact promised assistance against a power not yet at war, in practice the US, and recognised Japan's leadership in Greater East Asia; Source D shows that the US saw it as confirming Japan's alignment with Germany.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "The pact followed Japan's first move into northern Indochina in September 1940. The Neutrality Pact with the Soviet Union on 13 April 1941 then secured Japan's northern flank for a move south.",
+        "tags": [
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Sources B and C show the next step: Japanese troops in southern Indochina in July 1941, which Welles called “the last step” before expansion into the South Seas. On 26 July the US froze Japanese assets and trade soon virtually stopped.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The pact set Japan against the United States, but the move south and the freeze turned that hostility into a crisis that ended in war.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Neutrality Pact",
+       "13 April 1941",
+       "northern Indochina",
+       "freeze",
+       "26 July 1941",
+       "Hitler"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS1-EVENTS-SS04",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "events",
+   "focus": "Pearl Harbor and the outbreak of war, December 1941",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS04-A",
+     "provenance": {
+      "creator": "Japanese Government",
+      "sourceType": "memorandum handed by Ambassador Nomura and Mr Kurusu to the US Secretary of State, Cordell Hull, at 2:20 p.m. Washington time",
+      "date": "7 December 1941",
+      "contextNote": "The Japanese attack on Pearl Harbor had begun about an hour earlier."
+     },
+     "text": "All the items demanded of Japan by the American Government regarding China such as wholesale evacuation of troops or unconditional application of the principle of non-discrimination in international commerce ignored the actual conditions of China, and are calculated to destroy Japan's position as the stabilizing factor of East Asia. … the proposal in question ignores Japan's sacrifices in the four years of the China affair, menaces the Empire's existence itself and disparages its honour and prestige. … Obviously it is the intention of the American Government to conspire with Great Britain and other countries to obstruct Japan's efforts toward the establishment of peace through the creation of a new order in East Asia … The Japanese Government regrets to have to notify hereby the American Government that in view of the attitude of the American Government it cannot but consider that it is impossible to reach an agreement through further negotiations."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS04-B",
+     "mediaId": "M-uss-shaw-pearl-harbor-1941",
+     "provenance": {
+      "creator": "US Navy",
+      "sourceType": "official photograph",
+      "date": "7 December 1941",
+      "contextNote": "The destroyer USS Shaw at Pearl Harbor, wrecked in a floating dry dock after Japanese dive-bombing set off the explosion of her forward magazines. The damaged battleship USS California is in the right distance."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS04-C",
+     "provenance": {
+      "creator": "Franklin D. Roosevelt, US President",
+      "sourceType": "address to a joint session of Congress",
+      "date": "8 December 1941"
+     },
+     "text": "Yesterday, December 7, 1941—a date which will live in infamy—the United States of America was suddenly and deliberately attacked by naval and air forces of the Empire of Japan. The United States was at peace with that Nation and, at the solicitation of Japan, was still in conversation with its Government and its Emperor looking toward the maintenance of peace in the Pacific. … It will be recorded that the distance of Hawaii from Japan makes it obvious that the attack was deliberately planned many days or even weeks ago. During the intervening time the Japanese Government has deliberately sought to deceive the United States by false statements and expressions of hope for continued peace. … I ask that the Congress declare that since the unprovoked and dastardly attack by Japan on Sunday, December 7, a state of war has existed between the United States and the Japanese Empire."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS04-D",
+     "provenance": {
+      "creator": "Joseph C. Grew, US Ambassador to Japan",
+      "sourceType": "telegram to the US Secretary of State (State Department paraphrase)",
+      "date": "3 November 1941"
+     },
+     "text": "(d) I and my staff have never been convinced by the theory that Japan's collapse as a militaristic power would shortly result from the depletion and the eventual exhaustion of Japan's financial and economic resources … What has happened to date therefore does not support the view that continuation of trade embargoes and imposition of a blockade (proposed by some) can best avert war in the Far East. … My purpose is only to ensure against the United States becoming involved in war with Japan because of any possible misconception of Japan's capacity to rush headlong into a suicidal struggle with the United States. While national sanity dictates against such action, Japanese sanity cannot be measured by American standards of logic. … Japan may resort with dangerous and dramatic suddenness to measures which might make inevitable war with the United States."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-EVENTS-SS04-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, why did Japan reject the American demands?",
+     "model": {
+      "type": "points",
+      "points": [
+       "They ignored the actual conditions of China.",
+       "They would destroy Japan's position as the stabilising factor of East Asia.",
+       "They ignored Japan's sacrifices in four years of the China affair and menaced the Empire's existence.",
+       "The US was conspiring with Britain to obstruct Japan's new order in East Asia."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "evacuation",
+       "conditions of China",
+       "stabilizing factor",
+       "sacrifices",
+       "Great Britain",
+       "new order"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS04-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the attack on Pearl Harbor?",
+     "model": {
+      "type": "points",
+      "points": [
+       "It caused severe destruction to US warships, with a destroyer wrecked and a battleship damaged.",
+       "The attack was a surprise that caught ships in harbour and in dry dock."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "destroyer",
+       "Shaw",
+       "dry dock",
+       "California",
+       "smoke"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS04-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the outbreak of war between Japan and the United States.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the President's address to Congress the day after the attack records the official US case for war.",
+       "Value (content): it shows how the US interpreted the attack, as planned “many days or even weeks ago” while Japan was negotiating.",
+       "Limitation (purpose): it was meant to persuade Congress to declare war and unite the nation, so it calls the attack “unprovoked” and omits US economic pressure on Japan.",
+       "Limitation (content): it gives no detail of the negotiations, such as the US proposal of 26 November, which Japan saw as unacceptable."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS04-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "C"
+     ],
+     "text": "Compare and contrast what Sources A and C reveal about responsibility for the breakdown of relations between Japan and the United States.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources agree that the negotiations had failed: Source A says it is “impossible to reach an agreement through further negotiations”, and Source C says the US was still in conversation “looking toward the maintenance of peace”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also claim that their own side sought peace: A speaks of Japan's efforts “toward the establishment of peace”, and C describes the US as “at peace with that Nation”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, they assign responsibility in opposite ways. Source A blames American demands that “ignored the actual conditions of China” and a conspiracy with Britain, while Source C blames a Japanese attack “deliberately planned” while Japan sought “to deceive the United States”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A does not mention the attack at all, whereas Source C is entirely built around it.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "failure of negotiations",
+       "claims to seek peace",
+       "who is responsible",
+       "the attack"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-EVENTS-SS04-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the reasons why Japan attacked the United States in December 1941.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "Japan attacked because its leaders preferred war to accepting US demands to withdraw from China while economic pressure grew.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows the central issue: Japan rejected the “wholesale evacuation of troops” from China demanded in Hull's proposal of 26 November 1941, which also required withdrawal from Indochina.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Economic pressure narrowed Japan's choices. After the freeze of 26 July 1941 trade virtually stopped, and Source D shows that embargoes had not caused Japan's collapse but might push it to act with “dangerous and dramatic suddenness”. On 18 October Tōjō replaced Konoe as Prime Minister.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source C and Source B show the result: a planned surprise attack that damaged all eight battleships at Pearl Harbor and killed 2,403 Americans, alongside attacks on Malaya, Hong Kong and the Philippines.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The attack was a deliberate Japanese choice, but one made under pressure that followed Japan's own move into southern Indochina.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "26 November",
+       "Hull",
+       "freeze",
+       "Tōjō",
+       "Tojo",
+       "2,403",
+       "battleships",
+       "Indochina"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

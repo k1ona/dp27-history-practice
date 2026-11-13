@@ -207,6 +207,282 @@
    "usedIn": [
     "P3-16-B5-COLLAPSE"
    ]
+  },
+  {
+   "mediaId": "M-february-26-incident-1936",
+   "file": "content/_media/february-26-incident-1936.webp",
+   "kind": "archival",
+   "title": "Rebel soldiers during the 26 February 1936 incident, Tokyo",
+   "creator": "Unknown photographer",
+   "date": "February 1936",
+   "repository": "Wikimedia Commons",
+   "recordId": "File:2 26 Incident.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2_26_Incident.jpg",
+   "licence": {
+    "name": "Public domain (PD-Japan-oldphoto)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Photo: unknown photographer, 1936, public domain, via Wikimedia Commons",
+   "altText": "Black-and-white photograph of uniformed soldiers walking along a street; the officer in the centre wears a long cape and some soldiers carry rifles.",
+   "widthPx": 500,
+   "bytes": 65004,
+   "usedIn": [
+    "P1-CS1-CAUSES"
+   ]
+  },
+  {
+   "mediaId": "M-manchuria-emigration-poster",
+   "file": "content/_media/manchuria-emigration-poster.webp",
+   "kind": "archival",
+   "title": "Poster recruiting Japanese agricultural emigrants to Manchuria",
+   "creator": "Manchuria Emigration Association (満州移住協会)",
+   "date": "between 1935 and 1945",
+   "repository": "Wikimedia Commons",
+   "recordId": "File:Poster for recruiting immigrants to Manchukuo from Japan.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poster_for_recruiting_immigrants_to_Manchukuo_from_Japan.jpg",
+   "licence": {
+    "name": "Public domain (PD-Japan)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-Japan"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Poster: Manchuria Emigration Association, public domain, via Wikimedia Commons",
+   "altText": "Poster with vertical Japanese text in black and a red central panel; large characters on the right call on readers to go to Manchuria.",
+   "widthPx": 523,
+   "bytes": 38744,
+   "usedIn": [
+    "P1-CS1-CAUSES"
+   ]
+  },
+  {
+   "mediaId": "M-pro-japanese-poster-1938",
+   "file": "content/_media/pro-japanese-poster-1938.webp",
+   "kind": "archival",
+   "title": "Pro-Japanese propaganda poster from occupied China",
+   "creator": "Unknown artist",
+   "date": "1938",
+   "repository": "Wikimedia Commons (from the Polish National Digital Archive)",
+   "recordId": "File:Pro-Japanese propaganda in the occupied territories of China.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pro-Japanese_propaganda_in_the_occupied_territories_of_China.jpg",
+   "licence": {
+    "name": "Public domain (PD-China, PD-Japan)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-China"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Poster: unknown artist, 1938, public domain, via Wikimedia Commons",
+   "altText": "Black-and-white poster: a man raises a large striped flag; caricatures of Chiang Kai-shek holding a knife and Stalin with a hammer and sickle lie at his feet; Chinese characters run down the right side.",
+   "widthPx": 900,
+   "bytes": 103390,
+   "usedIn": [
+    "P1-CS1-CAUSES"
+   ]
+  },
+  {
+   "mediaId": "M-nakayoshi-sangoku-postcard",
+   "file": "content/_media/nakayoshi-sangoku-postcard.webp",
+   "kind": "archival",
+   "title": "“Nakayoshi sangoku” (good friends, three countries) picture postcard",
+   "creator": "Unknown Japanese artist",
+   "date": "about 1940",
+   "repository": "Wikimedia Commons",
+   "recordId": "File:1938 Naka yoshi sangoku.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:1938_Naka_yoshi_sangoku.jpg",
+   "licence": {
+    "name": "Public domain (PD-old)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-old"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Postcard: unknown artist, public domain, via Wikimedia Commons",
+   "altText": "Colour postcard: oval portraits of Hitler, Konoe and Mussolini above a group of children dancing and waving Japanese, German and Italian flags.",
+   "widthPx": 356,
+   "bytes": 36576,
+   "usedIn": [
+    "P1-CS1-CAUSES"
+   ]
+  },
+  {
+   "mediaId": "M-mukden-little-west-gate-1931",
+   "file": "content/_media/mukden-little-west-gate-1931.webp",
+   "kind": "archival",
+   "title": "Japanese soldiers at the Little West Gate of Mukden, 19 September 1931",
+   "creator": "Unknown photographer",
+   "date": "19 September 1931",
+   "repository": "Wikimedia Commons",
+   "recordId": "File:Japanese soldiers ready to attack Mukden.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_soldiers_ready_to_attack_Mukden.jpg",
+   "licence": {
+    "name": "Public domain (PD-Japan-oldphoto)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Photo: unknown photographer, 1931, public domain, via Wikimedia Commons",
+   "altText": "Black-and-white photograph of Japanese soldiers in helmets kneeling and lying with rifles aimed beside a road near a city wall.",
+   "widthPx": 600,
+   "bytes": 58884,
+   "usedIn": [
+    "P1-CS1-EVENTS"
+   ]
+  },
+  {
+   "mediaId": "M-japanese-army-postcard-1938",
+   "file": "content/_media/japanese-army-postcard-1938.webp",
+   "kind": "archival",
+   "title": "Japanese humorous postcard of the army entering a Chinese town",
+   "creator": "Unknown Japanese artist",
+   "date": "1938",
+   "repository": "Wikimedia Commons",
+   "recordId": "File:Military manga 1938.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Military_manga_1938.jpg",
+   "licence": {
+    "name": "Public domain (PD-Japan-oldphoto, as tagged on the file page)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Postcard: unknown artist, 1938, public domain, via Wikimedia Commons",
+   "altText": "Black-and-white cartoon: smiling Japanese soldiers march through a town gate led by an officer on horseback, while townspeople wave Japanese flags; speech bubbles and a banner in Japanese.",
+   "widthPx": 483,
+   "bytes": 47614,
+   "usedIn": [
+    "P1-CS1-EVENTS"
+   ]
+  },
+  {
+   "mediaId": "M-japanese-troops-saigon-1941",
+   "file": "content/_media/japanese-troops-saigon-1941.webp",
+   "kind": "archival",
+   "title": "Japanese troops entering Saigon, 1941",
+   "creator": "Japanese Army",
+   "date": "1941",
+   "repository": "Wikimedia Commons",
+   "recordId": "File:Japanese troops entering Saigon in 1941.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_troops_entering_Saigon_in_1941.jpg",
+   "licence": {
+    "name": "Public domain (PD-Japan-oldphoto)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Photo: Japanese Army, 1941, public domain, via Wikimedia Commons",
+   "altText": "Black-and-white photograph of Japanese soldiers on horseback and with loaded horse-drawn carts moving along a city street lined with onlookers.",
+   "widthPx": 1200,
+   "bytes": 144046,
+   "usedIn": [
+    "P1-CS1-EVENTS"
+   ]
+  },
+  {
+   "mediaId": "M-uss-shaw-pearl-harbor-1941",
+   "file": "content/_media/uss-shaw-pearl-harbor-1941.webp",
+   "kind": "archival",
+   "title": "USS Shaw wrecked at Pearl Harbor, 7 December 1941",
+   "creator": "US Navy",
+   "date": "7 December 1941",
+   "repository": "US National Archives via Wikimedia Commons",
+   "recordId": "80-G-19939",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:USS_Shaw_Pearl_Harbor-7Dec41.jpg",
+   "licence": {
+    "name": "Public domain (US Navy photograph)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Navy"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Photo: US Navy 80-G-19939, National Archives, public domain",
+   "altText": "Black-and-white photograph of a wrecked destroyer, its bow torn away, in a half-sunken dry dock under heavy smoke.",
+   "widthPx": 1200,
+   "bytes": 130192,
+   "usedIn": [
+    "P1-CS1-EVENTS"
+   ]
+  },
+  {
+   "mediaId": "M-lytton-commission-tokyo-1932",
+   "file": "content/_media/lytton-commission-tokyo-1932.webp",
+   "kind": "archival",
+   "title": "Lytton Commission members with Prime Minister Inukai, Tokyo, 29 February 1932",
+   "creator": "Agence Meurisse",
+   "date": "29 February 1932",
+   "repository": "Bibliothèque nationale de France (Gallica) via Wikimedia Commons",
+   "recordId": "ark:/12148/btv1b90527407",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lytton_Commission_members_at_the_Japanese_Prime_Minister%27s_official_residence.jpg",
+   "licence": {
+    "name": "Public domain (PD-old; “domaine public” at the BnF)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-old"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Photo: Agence Meurisse, 1932, Bibliothèque nationale de France, public domain",
+   "altText": "Black-and-white group photograph of nine men in dark suits on the steps of a building; an older man sits in the centre of the front row.",
+   "widthPx": 1200,
+   "bytes": 156010,
+   "usedIn": [
+    "P1-CS1-RESPONSES"
+   ]
+  },
+  {
+   "mediaId": "M-xin-ke-poster-1938",
+   "file": "content/_media/xin-ke-poster-1938.webp",
+   "kind": "archival",
+   "title": "“The more I fight, the stronger I become – The more the enemy fights, the weaker he becomes”",
+   "creator": "Xin Ke",
+   "date": "1938",
+   "repository": "Milner Library, Illinois State University, via Wikimedia Commons",
+   "recordId": "ww2_2020_0081_china",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_more_I_fight,_the_stronger_I_become_-_The_more_the_enemy_fights,_the_weaker_he_becomes_-_DPLA_-_95b9c3eea716835afaeba0a816f4298d.jpg",
+   "licence": {
+    "name": "No copyright – United States (PD-US)",
+    "url": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Poster: Xin Ke, 1938, Milner Library, Illinois State University, no known US copyright",
+   "altText": "Red and black poster: a large Chinese soldier in a helmet with aircraft behind him; below, small caricatured Japanese soldiers among flames; Chinese characters at the top and bottom.",
+   "widthPx": 790,
+   "bytes": 103014,
+   "usedIn": [
+    "P1-CS1-RESPONSES"
+   ]
+  },
+  {
+   "mediaId": "M-panay-sinking-1937",
+   "file": "content/_media/panay-sinking-1937.webp",
+   "kind": "archival",
+   "title": "USS Panay sinking in the Yangtze River, 12 December 1937",
+   "creator": "US Navy",
+   "date": "12 December 1937",
+   "repository": "Naval History and Heritage Command via Wikimedia Commons",
+   "recordId": "NH 50802",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:USS_Panay_(PR-5)_sinking_in_the_Yangtze_River,_12_December_1937_(NH_50802).jpg",
+   "licence": {
+    "name": "Public domain (US Navy photograph)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Navy"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Photo: US Navy, NH 50802, Naval History and Heritage Command, public domain",
+   "altText": "Black-and-white photograph taken from a small boat of a river gunboat with two funnels low in the water; spray from the boat's wake in the foreground.",
+   "widthPx": 1200,
+   "bytes": 83240,
+   "usedIn": [
+    "P1-CS1-RESPONSES"
+   ]
+  },
+  {
+   "mediaId": "M-hull-nomura-kurusu-1941",
+   "file": "content/_media/hull-nomura-kurusu-1941.webp",
+   "kind": "archival",
+   "title": "Hull, Nomura and Kurusu on the way to meet Roosevelt, 17 November 1941",
+   "creator": "Mainichi Shimbun",
+   "date": "17 November 1941",
+   "repository": "Wikimedia Commons (source cited there: JACAR, Japan Center for Asian Historical Records)",
+   "recordId": "File:Hull, Nomura and Kurusu on 7 December 1941.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hull,_Nomura_and_Kurusu_on_7_December_1941.jpg",
+   "licence": {
+    "name": "Public domain (PD-Japan-oldphoto)",
+    "url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+   },
+   "licenceCheckedOn": "2026-11-12",
+   "creditLine": "Photo: Mainichi Shimbun, 1941, public domain, via Wikimedia Commons",
+   "altText": "Black-and-white photograph of three men in overcoats and hats walking along a path; the tall man in the centre is flanked by two men in glasses.",
+   "widthPx": 700,
+   "bytes": 122322,
+   "usedIn": [
+    "P1-CS1-RESPONSES"
+   ]
   }
  ]
 }

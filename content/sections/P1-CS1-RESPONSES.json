@@ -1,0 +1,3405 @@
+{
+ "schema": "dp27.section.v1",
+ "sectionId": "P1-CS1-RESPONSES",
+ "contentVersion": "1.0.0",
+ "context": {
+  "readingMinutes": 18,
+  "openingProblem": {
+   "problem": "In February 1933 the League of Nations voted 42 to 1 against Japan's actions in Manchuria, and Japan simply walked out. Eight years later the United States, which was not a member of the League, cut off almost all trade with Japan, and within five months the two countries were at war.\n\nWhy did words fail to stop Japan in 1931–1933, and did economic pressure in 1941 restrain Japan or provoke it?",
+   "predictionPrompt": "Your prediction in one line: which response did most to change Japan's course — the League, Chinese resistance, or US pressure? Give one reason.",
+   "revisitPrompt": "Look back at your prediction. Which source or fact changed or confirmed your judgement?"
+  },
+  "chunks": [
+   {
+    "chunkId": "K1",
+    "angle": "success_failure",
+    "title": "Why did the League of Nations fail to reverse the conquest of Manchuria?",
+    "body": "When Japan invaded Manchuria in September 1931, the League of Nations took up the dispute, and the United States, though not a member, offered support. On 5 October Secretary of State Stimson asked the League not to “relax its vigilance” and promised that the US would “endeavor to reinforce what the League does”; for the first time the US sat in on League Council meetings. But the world was in depression, and there was little support for economic sanctions.\n\nThe main responses were words. On 7 January 1932 Stimson told Japan and China that the US would not recognise any situation brought about against the Pact of Paris. On 11 March the League Assembly unanimously adopted the same principle of non-recognition. The League also sent a commission of enquiry under Lord Lytton, with members from Britain, the United States, Germany, Italy and France. It visited Tokyo on 29 February 1932, the day before Manchukuo was formally established.\n\nThe Lytton findings, announced on 2 October 1932, rejected Japan's claim of self-defence and refused to recognise Manchukuo, although they also blamed Chinese nationalism. Japan had already recognised Manchukuo in September. On 24 February 1933 the Assembly adopted the report by 42 votes to 1, with Siam abstaining; the Japanese delegate, Matsuoka, declared that Japan had reached “the limit” of cooperation, and his delegation left the hall. On 27 March Japan gave notice that it would leave the League.\n\nThis matters because the League had judged correctly but could not act. The United States agreed with the findings, yet in May 1933 Secretary of State Hull told the Senate that it would not use an arms embargo against Japan, because Japan made its own arms and could retaliate. Without sanctions or force, non-recognition had little effect. The crisis showed that the peace agreements of the 1920s could not stop a power determined to march forward, and Japan learned that aggression carried a low cost.",
+    "argumentsThatWork": [
+     {
+      "claim": "The League lacked the will and the means to enforce its judgement.",
+      "evidence": [
+       "F-CS1R-03",
+       "F-CS1R-10",
+       "F-CS1R-13"
+      ],
+      "strongestCounter": "The League did reach a clear judgement against Japan and isolated it diplomatically."
+     },
+     {
+      "claim": "Non-recognition was a moral response with little practical effect.",
+      "evidence": [
+       "F-CS1R-04",
+       "F-CS1R-05",
+       "F-CS1R-14"
+      ],
+      "strongestCounter": "Manchukuo was never recognised by most states, so the principle had some lasting force."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, examine the reasons why the League of Nations failed to reverse Japanese aggression in Manchuria.",
+     "To what extent was the Lytton report an effective response to the Manchurian crisis?",
+     "Compare and contrast what two sources reveal about the US response to the Manchurian crisis."
+    ],
+    "useItInAnEssay": {
+     "claim": "The League failed because it could judge Japan but could not compel it.",
+     "prove": "On 24 February 1933 the Assembly adopted the Lytton report 42 to 1; Japan walked out and gave notice to leave on 27 March.",
+     "explain": "Because no major power would apply sanctions in the depression, and the US ruled out even an arms embargo, Japan lost nothing but its League membership.",
+     "test": "However, the League did reach and publish a clear judgement, which most states upheld.",
+     "judge": "The failure lay in enforcement, not in judgement."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-RESPONSES-C01",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the result of the League Assembly vote on 24 February 1933?",
+      "factIds": [
+       "F-CS1R-10"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "42 states voted for the report; Japan voted against; Siam abstained",
+        "correct": true,
+        "explanation": "Correct: the Japanese delegation then left the room."
+       },
+       {
+        "id": "b",
+        "text": "The report was rejected",
+        "correct": false,
+        "explanation": "No: it was adopted."
+       },
+       {
+        "id": "c",
+        "text": "Japan abstained",
+        "correct": false,
+        "explanation": "Japan voted against."
+       },
+       {
+        "id": "d",
+        "text": "The vote was postponed",
+        "correct": false,
+        "explanation": "The vote took place that day."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-RESPONSES-C02",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: in May 1933 Hull told the Senate that the US would not use an arms embargo to restore peace between China and Japan. Which argument does it support?",
+      "factIds": [
+       "F-CS1R-13"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Major powers were unwilling to back the League's judgement with action",
+        "correct": true,
+        "explanation": "Correct: even the US, which agreed with the findings, ruled out sanctions."
+       },
+       {
+        "id": "b",
+        "text": "The US disagreed with the Lytton findings",
+        "correct": false,
+        "explanation": "Hull said the US concurred with them."
+       },
+       {
+        "id": "c",
+        "text": "An embargo would have hurt Japan most",
+        "correct": false,
+        "explanation": "Hull argued it would hurt China most."
+       },
+       {
+        "id": "d",
+        "text": "The US was a League member",
+        "correct": false,
+        "explanation": "The US was not a League member."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-RESPONSES-C03",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "In which year did Japan give notice that it would leave the League of Nations?",
+      "factIds": [
+       "F-CS1R-11"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1933",
+        "tolerance": 0,
+        "explanation": "27 March 1933, a month after the Assembly vote."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K2",
+    "angle": "nature_methods",
+    "title": "How did China respond: what did the Second United Front change?",
+    "body": "In 1931 Chiang Kai-shek's priority was the civil war against the Communists, and he did not resist in Manchuria. Pressure for a different policy grew. On 12 December 1936 two of his own generals, Chang Hsueh-liang (Zhang Xueliang) and Yang Hu-cheng, detained him at Xi'an and demanded a government including all factions and a united front against Japan. Most of the country rallied to Chiang, and his release on Christmas Day was greeted with enthusiasm.\n\nIn 1937 the two parties moved together. In June the Red troops were reported to be in the process of reorganisation into the national forces. After full-scale war began in July, the Communist Party issued a manifesto, reported in September, declaring that its aim was to resist invasion, that it supported Sun Yat-sen's Three Principles, and that it had cancelled its movement to overthrow the Kuomintang, stopped forcible land confiscation and abolished its soviet governments. The Red Army became the Eighth Route Army, under Chu Teh (Zhu De), and Communist forces south of the Yangzi became the New Fourth Army. Nationalist officials stressed that the Communists had “submerged themselves” and sworn allegiance to Chiang.\n\nThis matters because the united front allowed China to fight on after the loss of its great cities. Japan took Shanghai, Nanjing, Wuhan and Canton by November 1938, yet Chinese resistance continued, and by 1938 Chinese posters proclaimed that the longer the war lasted, the stronger China would become. Japan's hope of a quick victory, and of a new Chinese regime that would accept its terms, failed.\n\nBut the front was fragile. It functioned more as a non-aggression pact than a military alliance, and each side kept its own forces. In January 1941 Nationalist troops ambushed and defeated New Fourth Army units in southern Anhui. The Second United Front therefore strengthened China's resistance by ending the civil war for a time, but it did not create a united state, and tension between the two parties continued throughout the war.",
+    "argumentsThatWork": [
+     {
+      "claim": "The united front kept China fighting after the fall of its main cities.",
+      "evidence": [
+       "F-CS1R-17",
+       "F-CS1R-18",
+       "F-CS1R-19",
+       "F-CS1R-44"
+      ],
+      "strongestCounter": "China also depended on foreign aid and on its vast interior, not only on unity."
+     },
+     {
+      "claim": "The front was fragile and limited.",
+      "evidence": [
+       "F-CS1R-19",
+       "F-CS1R-20"
+      ],
+      "strongestCounter": "Despite clashes such as January 1941, neither party made peace with Japan."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, to what extent did the Second United Front strengthen Chinese resistance to Japan?",
+     "Examine the significance of the Xi'an incident for China's response to Japan.",
+     "Compare and contrast what two sources reveal about the terms of cooperation between the Nationalists and the Communists."
+    ],
+    "useItInAnEssay": {
+     "claim": "The Second United Front strengthened China's resistance by suspending the civil war.",
+     "prove": "In September 1937 the Communist forces became the Eighth Route Army under the National Government, and the Communist Party abolished its soviet governments.",
+     "explain": "Because both parties now fought Japan, China could continue the war after losing Shanghai, Nanjing and Wuhan, which defeated Japan's hope of a quick victory.",
+     "test": "However, the front functioned more as a non-aggression pact, and in January 1941 Nationalist troops attacked the New Fourth Army.",
+     "judge": "The front was essential to China's survival but never produced real unity."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-RESPONSES-C04",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened at Xi'an on 12 December 1936?",
+      "factIds": [
+       "F-CS1R-15"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Two of Chiang's generals detained him and demanded a united front against Japan",
+        "correct": true,
+        "explanation": "Correct: he was released on Christmas Day."
+       },
+       {
+        "id": "b",
+        "text": "Japan captured the city",
+        "correct": false,
+        "explanation": "No: the crisis was internal to China."
+       },
+       {
+        "id": "c",
+        "text": "The Communists surrendered",
+        "correct": false,
+        "explanation": "No: the generals were allied with the Communists."
+       },
+       {
+        "id": "d",
+        "text": "Chiang declared war on Japan",
+        "correct": false,
+        "explanation": "Full-scale war began in July 1937."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-RESPONSES-C05",
+      "kind": "checkpoint",
+      "type": "multi_select",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What did the Communist manifesto reported on 24 September 1937 announce? Choose all that apply.",
+      "factIds": [
+       "F-CS1R-17"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Support for Sun Yat-sen's Three Principles",
+        "correct": true,
+        "explanation": "Yes: it declared its support."
+       },
+       {
+        "id": "b",
+        "text": "The abolition of existing soviet governments",
+        "correct": true,
+        "explanation": "Yes: it abolished them."
+       },
+       {
+        "id": "c",
+        "text": "The reorganisation of the Red Army under the National Government's Military Council",
+        "correct": true,
+        "explanation": "Yes: the army awaited orders for the front."
+       },
+       {
+        "id": "d",
+        "text": "A merger of the two parties",
+        "correct": false,
+        "explanation": "No: the parties stayed separate."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-RESPONSES-C06",
+      "kind": "checkpoint",
+      "type": "spot_error",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: “The Second United Front ended all fighting between Nationalists and Communists until 1945.”",
+      "factIds": [
+       "F-CS1R-20"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Nationalist troops ambushed New Fourth Army units in January 1941",
+        "correct": true,
+        "explanation": "Correct: the front was a fragile truce."
+       },
+       {
+        "id": "b",
+        "text": "The front began in 1931",
+        "correct": false,
+        "explanation": "That is not the error; the front formed in 1937."
+       },
+       {
+        "id": "c",
+        "text": "The Communists led the front",
+        "correct": false,
+        "explanation": "That is not the error in the statement."
+       },
+       {
+        "id": "d",
+        "text": "There was no united front",
+        "correct": false,
+        "explanation": "There was one, from 1937."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K3",
+    "angle": "success_failure",
+    "title": "How effective were US responses to Japanese aggression, 1937–1940?",
+    "body": "Before 1937 most US officials believed the United States had no vital interests in China worth a war with Japan. When full-scale war began, Washington responded first with principles. On 16 July 1937 Hull issued a statement calling for peace, self-restraint and respect for treaties. On 5 October Roosevelt warned in Chicago that “the epidemic of world lawlessness is spreading” and spoke of a “quarantine”, though he named no country and stressed that the US was “determined to keep out of war”. The next day the League condemned Japan's action as a breach of its treaty obligations, and in November the US joined 18 other nations at a conference in Brussels, which Japan refused to attend.\n\nThe Panay incident tested these words. On 12 December 1937 Japanese aircraft sank the US gunboat Panay on the Yangtze, killing three. The US demanded regret, compensation and guarantees; Japan apologised on 14 December, claiming a mistake caused by poor visibility, and later paid in full. The American public overwhelmingly approved of this settlement, which showed its wish to stay out of war.\n\nThis matters because US policy shifted gradually from words to economic measures. From July 1938 a “moral embargo” discouraged the sale of aircraft to Japan, and credit was informally discouraged. In July 1939 the US gave notice to end the 1911 commercial treaty, which removed the legal obstacle to an embargo. The Export Control Act of July 1940 allowed licences for aviation gasoline and machine tools to be refused, and a scrap iron and steel embargo took effect on 16 October 1940. When Japan's ambassador called it an “unfriendly act”, Hull replied that Japan was “bent on the conquest by force of all worthwhile territory in the Pacific Ocean area”.\n\nThese measures did not stop Japanese expansion: Japan took Wuhan and Canton in 1938 and entered Indochina in 1940. Britain even closed the Burma Road, China's supply route, for three months in 1940. But US pressure made Japan's need for secure resources more urgent, which helps explain the move south.",
+    "argumentsThatWork": [
+     {
+      "claim": "Moral appeals and conferences did not change Japanese policy.",
+      "evidence": [
+       "F-CS1R-22",
+       "F-CS1R-24"
+      ],
+      "strongestCounter": "They kept the US out of war, which was what most Americans wanted."
+     },
+     {
+      "claim": "Economic measures grew from 1938 but came too slowly to stop expansion.",
+      "evidence": [
+       "F-CS1R-28",
+       "F-CS1R-29",
+       "F-CS1R-30",
+       "F-CS1R-45"
+      ],
+      "strongestCounter": "The measures cut Japan's supplies and pushed it to seek resources elsewhere, which raised the risk of war."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, evaluate the effectiveness of US responses to Japanese expansion between 1937 and 1940.",
+     "To what extent did the United States follow a policy of appeasement towards Japan in 1937–1940?",
+     "Compare and contrast what two sources reveal about the US attitude to Japanese aggression."
+    ],
+    "useItInAnEssay": {
+     "claim": "US responses in 1937–1940 were too limited to stop Japanese expansion.",
+     "prove": "After the Panay was sunk in December 1937 the US accepted an apology and indemnity, and only in October 1940 did a scrap embargo take effect.",
+     "explain": "Because public opinion wanted to avoid war, Washington moved slowly from words to economic pressure, which left Japan free to expand in China and into Indochina.",
+     "test": "However, the measures of 1939–1940 began to cut Japan's supplies and prepared the ground for the freeze of 1941.",
+     "judge": "The responses were cautious and ineffective as a deterrent, though they shaped Japan's later choices."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-RESPONSES-C07",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "How was the Panay incident of December 1937 settled?",
+      "factIds": [
+       "F-CS1R-25"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Japan apologised and later paid full indemnification",
+        "correct": true,
+        "explanation": "Correct: the American public approved the settlement."
+       },
+       {
+        "id": "b",
+        "text": "The US declared war",
+        "correct": false,
+        "explanation": "No: the US accepted Japan's apology."
+       },
+       {
+        "id": "c",
+        "text": "The US broke off relations",
+        "correct": false,
+        "explanation": "Relations continued."
+       },
+       {
+        "id": "d",
+        "text": "Japan denied any involvement",
+        "correct": false,
+        "explanation": "Japan admitted its aircraft sank the ship but called it a mistake."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-RESPONSES-C08",
+      "kind": "checkpoint",
+      "type": "chronology",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Put these US measures in order.",
+      "sequence": [
+       {
+        "id": "a",
+        "text": "Quarantine address",
+        "year": 1937,
+        "month": 10,
+        "factId": "F-CS1R-22"
+       },
+       {
+        "id": "b",
+        "text": "Moral embargo on aircraft",
+        "year": 1938,
+        "month": 7,
+        "factId": "F-CS1R-28"
+       },
+       {
+        "id": "c",
+        "text": "Notice to end the 1911 commercial treaty",
+        "year": 1939,
+        "month": 7,
+        "factId": "F-CS1R-29"
+       },
+       {
+        "id": "d",
+        "text": "Scrap iron and steel embargo takes effect",
+        "year": 1940,
+        "month": 10,
+        "factId": "F-CS1R-30"
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-RESPONSES-C09",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: Roosevelt's Quarantine address of October 1937 named no country and stressed that the US was determined to keep out of war. Which argument does it support?",
+      "factIds": [
+       "F-CS1R-22"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "US responses in 1937 were cautious and limited to words",
+        "correct": true,
+        "explanation": "Correct: no concrete measures followed at once."
+       },
+       {
+        "id": "b",
+        "text": "The US was preparing to fight Japan in 1937",
+        "correct": false,
+        "explanation": "The speech stressed keeping out of war."
+       },
+       {
+        "id": "c",
+        "text": "Roosevelt approved of Japan's actions",
+        "correct": false,
+        "explanation": "He condemned world lawlessness."
+       },
+       {
+        "id": "d",
+        "text": "The speech announced an embargo",
+        "correct": false,
+        "explanation": "Embargoes came later."
+       }
+      ]
+     }
+    ],
+    "media": []
+   },
+   {
+    "chunkId": "K4",
+    "angle": "causes",
+    "title": "Did US pressure in 1941 restrain Japan or push it to war?",
+    "body": "By 1941 the United States had become the decisive outside power in the Far East. It was giving China credits and, under Lend-Lease, war supplies, while slowly restricting what Japan could buy. Oil was the hardest question. In September 1940 Ambassador Grew had warned that drastic embargoes on products such as oil would be read in Japan as sanctions and that retaliation “might and probably would follow”.\n\nRoosevelt explained his oil policy directly to Ambassador Nomura on 24 July 1941. For more than two years, he said, oil had been allowed to go to Japan because cutting it off would have given Japan a pretext to move on the Netherlands East Indies, and an attack there would bring war with the Dutch and the British. But Japan was now moving into southern Indochina. Two days later, on 26 July, the President froze Japanese assets in the United States, and at Chiang Kai-shek's request froze Chinese assets too, to help China. Trade between the United States and Japan very soon virtually stopped.\n\nThis matters because the freeze changed the nature of the crisis. Japan could either accept American terms or seize resources by force. Talks continued, but on 26 November 1941 Hull's proposal required Japan to withdraw all its forces from China and Indochina. Japan's answer, handed over on 7 December after the attack on Pearl Harbor had begun, condemned the freezing order and described economic pressure as “at times more inhumane than military pressure”.\n\nUS pressure therefore did not restrain Japan; it narrowed Japan's choices. Yet the pressure was a response to Japan's own expansion, and the US had held back on oil for two years precisely to avoid provoking a southward move. Historians must weigh whether economic sanctions caused the war or whether Japan's refusal to leave China made war likely whatever the US did.",
+    "argumentsThatWork": [
+     {
+      "claim": "The freeze of July 1941 left Japan choosing between retreat and war.",
+      "evidence": [
+       "F-CS1R-35",
+       "F-CS1R-36",
+       "F-CS1R-39"
+      ],
+      "strongestCounter": "The freeze followed Japan's own move into southern Indochina."
+     },
+     {
+      "claim": "The US had tried to avoid provoking Japan by allowing oil exports for two years.",
+      "evidence": [
+       "F-CS1R-34",
+       "F-CS1R-37"
+      ],
+      "strongestCounter": "Critics in the US argued that this fed Japan's war in China."
+     }
+    ],
+    "howItGetsAsked": [
+     "Using the sources and your own knowledge, to what extent was US economic pressure responsible for the outbreak of war between Japan and the United States?",
+     "Examine the reasons for increasing tension between the United States and Japan in 1941.",
+     "Compare and contrast what two sources reveal about US economic measures against Japan."
+    ],
+    "useItInAnEssay": {
+     "claim": "US economic pressure narrowed Japan's choices but did not by itself cause the war.",
+     "prove": "On 26 July 1941 Roosevelt froze Japanese assets and trade soon virtually stopped; on 26 November Hull demanded withdrawal from China and Indochina.",
+     "explain": "Because Japan's leaders would not leave China, the freeze left them a choice between shortages and seizing resources by force.",
+     "test": "However, the freeze responded to Japan's move into southern Indochina, and Roosevelt had held back on oil for two years to keep peace.",
+     "judge": "Economic pressure was a trigger; Japan's refusal to give up its conquests was the deeper cause."
+    },
+    "checkpoint": [
+     {
+      "itemId": "P1-CS1-RESPONSES-C10",
+      "kind": "checkpoint",
+      "type": "mcq",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Why had the US allowed oil exports to Japan until July 1941, according to Roosevelt?",
+      "factIds": [
+       "F-CS1R-34"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "To avoid giving Japan a pretext to move on the Netherlands East Indies",
+        "correct": true,
+        "explanation": "Correct: he feared war with the Dutch and British would follow."
+       },
+       {
+        "id": "b",
+        "text": "Because the US needed Japanese money",
+        "correct": false,
+        "explanation": "He did not give this reason."
+       },
+       {
+        "id": "c",
+        "text": "Because Japan had stopped fighting in China",
+        "correct": false,
+        "explanation": "Japan was still at war in China."
+       },
+       {
+        "id": "d",
+        "text": "Because the League required it",
+        "correct": false,
+        "explanation": "The US was not a League member."
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-RESPONSES-C11",
+      "kind": "checkpoint",
+      "type": "cloze",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "On what date in 1941 did the US freeze Japanese assets? (day and month)",
+      "factIds": [
+       "F-CS1R-35"
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "26 July",
+        "tolerance": 0,
+        "explanation": "26 July 1941; Chinese assets were frozen too, at Chiang Kai-shek's request.",
+        "accept": [
+         "26 jul",
+         "july 26",
+         "26th july",
+         "26/7"
+        ]
+       }
+      ]
+     },
+     {
+      "itemId": "P1-CS1-RESPONSES-C12",
+      "kind": "checkpoint",
+      "type": "which_argument",
+      "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: Japan's memorandum of 7 December 1941 called economic pressure “at times more inhumane than military pressure”. Which argument does it support?",
+      "factIds": [
+       "F-CS1R-39"
+      ],
+      "options": [
+       {
+        "id": "a",
+        "text": "Japan's leaders presented US economic measures as a cause of the war",
+        "correct": true,
+        "explanation": "Correct: they blamed the freeze and the encirclement."
+       },
+       {
+        "id": "b",
+        "text": "Japan welcomed the freeze",
+        "correct": false,
+        "explanation": "It condemned it."
+       },
+       {
+        "id": "c",
+        "text": "The US had used military force first",
+        "correct": false,
+        "explanation": "The memorandum contrasts economic with military pressure."
+       },
+       {
+        "id": "d",
+        "text": "Japan accepted Hull's proposal",
+        "correct": false,
+        "explanation": "It rejected the proposal."
+       }
+      ]
+     }
+    ],
+    "media": []
+   }
+  ],
+  "visuals": {
+   "timeline": {
+    "kind": "diagram",
+    "events": [
+     {
+      "year": 1931,
+      "month": 10,
+      "day": 5,
+      "text": "Stimson promises to reinforce what the League does",
+      "factId": "F-CS1R-02"
+     },
+     {
+      "year": 1932,
+      "month": 1,
+      "day": 7,
+      "text": "Stimson non-recognition note",
+      "factId": "F-CS1R-04"
+     },
+     {
+      "year": 1932,
+      "month": 3,
+      "day": 11,
+      "text": "League resolution of non-recognition",
+      "factId": "F-CS1R-05"
+     },
+     {
+      "year": 1932,
+      "month": 10,
+      "day": 2,
+      "text": "Lytton findings announced",
+      "factId": "F-CS1R-07"
+     },
+     {
+      "year": 1933,
+      "month": 2,
+      "day": 24,
+      "text": "Assembly adopts the report 42–1; Japan walks out",
+      "factId": "F-CS1R-10"
+     },
+     {
+      "year": 1936,
+      "month": 12,
+      "day": 12,
+      "text": "Xi'an incident",
+      "factId": "F-CS1R-15"
+     },
+     {
+      "year": 1937,
+      "month": 9,
+      "day": 24,
+      "text": "Communist manifesto reported; Second United Front",
+      "factId": "F-CS1R-17"
+     },
+     {
+      "year": 1937,
+      "month": 10,
+      "day": 5,
+      "text": "Roosevelt's Quarantine address",
+      "factId": "F-CS1R-22"
+     },
+     {
+      "year": 1937,
+      "month": 12,
+      "day": 12,
+      "text": "Panay sunk",
+      "factId": "F-CS1R-25"
+     },
+     {
+      "year": 1939,
+      "month": 7,
+      "text": "US notice to end the 1911 commercial treaty",
+      "factId": "F-CS1R-29"
+     },
+     {
+      "year": 1940,
+      "month": 10,
+      "day": 16,
+      "text": "Scrap iron and steel embargo",
+      "factId": "F-CS1R-30"
+     },
+     {
+      "year": 1941,
+      "month": 7,
+      "day": 26,
+      "text": "US freezes Japanese assets",
+      "factId": "F-CS1R-35"
+     }
+    ]
+   },
+   "causalChain": {
+    "kind": "diagram",
+    "nodes": [
+     {
+      "id": "n1",
+      "text": "League judges Japan but no power will apply sanctions (1931–33)",
+      "factId": "F-CS1R-10"
+     },
+     {
+      "id": "n2",
+      "text": "Japan leaves the League and keeps Manchukuo (1933)",
+      "factId": "F-CS1R-11"
+     },
+     {
+      "id": "n3",
+      "text": "Xi'an and the Second United Front: China resists (1936–37)",
+      "factId": "F-CS1R-17"
+     },
+     {
+      "id": "n4",
+      "text": "US moves from words to economic measures (1937–40)",
+      "factId": "F-CS1R-30"
+     },
+     {
+      "id": "n5",
+      "text": "US freeze cuts trade after the move south (July 1941)",
+      "factId": "F-CS1R-36"
+     },
+     {
+      "id": "n6",
+      "text": "Japan chooses war rather than withdrawal (December 1941)",
+      "factId": "F-CS1R-39"
+     }
+    ],
+    "links": [
+     {
+      "from": "n1",
+      "to": "n2",
+      "because": "without enforcement, Japan lost nothing but its membership"
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "because": "further Japanese pressure in northern China pushed Chinese parties towards unity"
+     },
+     {
+      "from": "n3",
+      "to": "n4",
+      "because": "China's continued resistance turned the war into a long struggle that the US increasingly opposed"
+     },
+     {
+      "from": "n4",
+      "to": "n5",
+      "because": "each Japanese advance brought tighter US restrictions"
+     },
+     {
+      "from": "n5",
+      "to": "n6",
+      "because": "the freeze left Japan a choice between giving up its conquests and seizing resources"
+     }
+    ]
+   },
+   "actorCards": [
+    {
+     "name": "Henry L. Stimson",
+     "role": "US Secretary of State to 1933",
+     "whyItMatters": "Proclaimed non-recognition and backed the League's findings.",
+     "factIds": [
+      "F-CS1R-04",
+      "F-CS1R-12"
+     ]
+    },
+    {
+     "name": "Lord Lytton",
+     "role": "Chairman of the League's commission of enquiry",
+     "whyItMatters": "His commission rejected Japan's claim of self-defence.",
+     "mediaId": "M-lytton-commission-tokyo-1932",
+     "factIds": [
+      "F-CS1R-06",
+      "F-CS1R-08"
+     ]
+    },
+    {
+     "name": "Matsuoka Yōsuke",
+     "role": "Head of Japan's delegation at the League Assembly, 1933",
+     "whyItMatters": "Led the walk-out after the vote of 24 February 1933.",
+     "factIds": [
+      "F-CS1R-10"
+     ]
+    },
+    {
+     "name": "Chiang Kai-shek",
+     "role": "Leader of the Nationalist government",
+     "whyItMatters": "Moved from civil war to a united front after the Xi'an incident.",
+     "factIds": [
+      "F-CS1R-15",
+      "F-CS1R-18"
+     ]
+    },
+    {
+     "name": "Zhang Xueliang (Chang Hsueh-liang)",
+     "role": "General who detained Chiang at Xi'an, December 1936",
+     "whyItMatters": "Forced the issue of a united front against Japan.",
+     "factIds": [
+      "F-CS1R-15"
+     ]
+    },
+    {
+     "name": "Cordell Hull",
+     "role": "US Secretary of State from 1933",
+     "whyItMatters": "Moved US policy from principles to economic pressure and demanded withdrawal from China in 1941.",
+     "factIds": [
+      "F-CS1R-13",
+      "F-CS1R-31",
+      "F-CS1R-38"
+     ]
+    },
+    {
+     "name": "Franklin D. Roosevelt",
+     "role": "US President",
+     "whyItMatters": "Gave the Quarantine address in 1937 and froze Japanese assets in July 1941.",
+     "factIds": [
+      "F-CS1R-22",
+      "F-CS1R-35"
+     ]
+    }
+   ],
+   "comparisonGrid": {
+    "kind": "diagram",
+    "columns": [
+     "1931–1933 (Manchuria)",
+     "1937–1941 (war in China and the move south)"
+    ],
+    "rows": [
+     {
+      "criterion": "League of Nations",
+      "cells": [
+       "Lytton report adopted 42–1; Japan leaves; the US supports from outside",
+       "Condemns Japan (October 1937); no action"
+      ],
+      "factIds": [
+       "F-CS1R-10",
+       "F-CS1R-46",
+       "F-CS1R-23"
+      ]
+     },
+     {
+      "criterion": "United States",
+      "cells": [
+       "Non-recognition; arms embargo ruled out",
+       "Moral embargo, scrap embargo, then the freeze of July 1941"
+      ],
+      "factIds": [
+       "F-CS1R-04",
+       "F-CS1R-13",
+       "F-CS1R-30",
+       "F-CS1R-35"
+      ]
+     },
+     {
+      "criterion": "China",
+      "cells": [
+       "Civil war; no resistance in Manchuria",
+       "Second United Front; resistance continues"
+      ],
+      "factIds": [
+       "F-CS1R-17",
+       "F-CS1R-19"
+      ]
+     }
+    ]
+   },
+   "archival": [
+    "M-lytton-commission-tokyo-1932",
+    "M-xin-ke-poster-1938",
+    "M-panay-sinking-1937",
+    "M-hull-nomura-kurusu-1941"
+   ]
+  },
+  "evidenceBank": [
+   {
+    "factId": "F-CS1R-10",
+    "year": 1933,
+    "text": "24 February 1933: the League Assembly adopted the Lytton report 42–1 (Siam abstaining); Matsuoka's delegation left the hall.",
+    "supports": [
+     "The League judged Japan but could not enforce its judgement"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-CAUSES"
+    ],
+    "lexicon": [
+     "Lytton",
+     "Assembly",
+     "Matsuoka",
+     "42",
+     "Siam"
+    ]
+   },
+   {
+    "factId": "F-CS1R-13",
+    "year": 1933,
+    "text": "17 May 1933: Hull told the Senate the US would not use an arms embargo against Japan and would not join one without guarantees against retaliation.",
+    "supports": [
+     "Major powers would not back the League with sanctions"
+    ],
+    "lexicon": [
+     "Hull",
+     "arms embargo",
+     "Senate",
+     "retaliation"
+    ]
+   },
+   {
+    "factId": "F-CS1R-04",
+    "year": 1932,
+    "text": "7 January 1932: Stimson's note said the US would not recognise any situation brought about contrary to the Pact of Paris.",
+    "supports": [
+     "Non-recognition was a moral response with little practical effect"
+    ],
+    "lexicon": [
+     "Stimson",
+     "non-recognition",
+     "Stimson Doctrine",
+     "Pact of Paris",
+     "Kellogg"
+    ]
+   },
+   {
+    "factId": "F-CS1R-17",
+    "year": 1937,
+    "text": "September 1937: the Communist Party abolished its soviet governments and put the Red Army under the National Government; the Second United Front kept China fighting.",
+    "supports": [
+     "The united front strengthened Chinese resistance"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-EVENTS"
+    ],
+    "lexicon": [
+     "Second United Front",
+     "Eighth Route Army",
+     "manifesto",
+     "Three Principles"
+    ]
+   },
+   {
+    "factId": "F-CS1R-20",
+    "year": 1941,
+    "text": "January 1941: Nationalist troops ambushed and defeated New Fourth Army units in southern Anhui.",
+    "supports": [
+     "The united front was fragile"
+    ],
+    "lexicon": [
+     "New Fourth Army",
+     "Anhui",
+     "1941"
+    ]
+   },
+   {
+    "factId": "F-CS1R-25",
+    "year": 1937,
+    "text": "12 December 1937: Japanese aircraft sank the USS Panay; Japan apologised and paid in full, and the US accepted.",
+    "supports": [
+     "US responses in 1937 were cautious"
+    ],
+    "lexicon": [
+     "Panay",
+     "Yangtze",
+     "indemnity",
+     "apology"
+    ]
+   },
+   {
+    "factId": "F-CS1R-30",
+    "year": 1940,
+    "text": "Export Control Act (2 July 1940); aviation gasoline licences refused from August; scrap iron and steel embargo from 16 October 1940.",
+    "supports": [
+     "US policy moved from words to economic pressure"
+    ],
+    "lexicon": [
+     "Export Control Act",
+     "scrap",
+     "aviation gasoline",
+     "embargo"
+    ]
+   },
+   {
+    "factId": "F-CS1R-35",
+    "year": 1941,
+    "text": "26 July 1941: Roosevelt froze Japanese assets (and, at Chiang's request, Chinese assets); trade soon virtually stopped.",
+    "supports": [
+     "The freeze left Japan choosing between retreat and war"
+    ],
+    "alsoWorksFor": [
+     "P1-CS1-EVENTS"
+    ],
+    "lexicon": [
+     "freeze",
+     "assets",
+     "Executive order",
+     "oil"
+    ]
+   }
+  ],
+  "historiography": [],
+  "misconceptions": [
+   {
+    "wrong": "The Lytton report blamed Japan alone.",
+    "right": "It rejected Japan's claim of self-defence and refused to recognise Manchukuo, but it **also blamed Chinese nationalism**."
+   },
+   {
+    "wrong": "The United States was a member of the League and voted on the Lytton report.",
+    "right": "The US **was not a League member**; it cooperated from outside and said it was “in general accord” with the League's conclusions."
+   },
+   {
+    "wrong": "The United States cut off oil to Japan as soon as the war in China began.",
+    "right": "Oil exports continued until the **freeze of 26 July 1941**; Roosevelt said they had been allowed to avoid a Japanese move on the Netherlands East Indies."
+   },
+   {
+    "wrong": "The Second United Front merged the Nationalists and Communists into one party.",
+    "right": "The parties stayed separate and kept their own forces; it worked **more as a non-aggression pact** and broke down in clashes such as **January 1941**."
+   }
+  ],
+  "recallSheet": {
+   "chronology": [
+    {
+     "year": 1932,
+     "month": 1,
+     "day": 7,
+     "text": "Non-recognition note"
+    },
+    {
+     "year": 1932,
+     "month": 2,
+     "day": 29,
+     "text": "Lytton Commission in Tokyo"
+    },
+    {
+     "year": 1932,
+     "month": 10,
+     "day": 2,
+     "text": "Lytton findings announced"
+    },
+    {
+     "year": 1933,
+     "month": 2,
+     "day": 24,
+     "text": "Assembly vote; Japan walks out"
+    },
+    {
+     "year": 1933,
+     "month": 3,
+     "day": 27,
+     "text": "Japan gives notice to leave the League"
+    },
+    {
+     "year": 1933,
+     "month": 5,
+     "day": 17,
+     "text": "Hull rules out an arms embargo"
+    },
+    {
+     "year": 1936,
+     "month": 12,
+     "day": 12,
+     "text": "Xi'an incident"
+    },
+    {
+     "year": 1937,
+     "month": 10,
+     "day": 5,
+     "text": "Quarantine address"
+    },
+    {
+     "year": 1937,
+     "month": 12,
+     "day": 12,
+     "text": "Panay sunk"
+    },
+    {
+     "year": 1940,
+     "month": 10,
+     "day": 16,
+     "text": "Scrap embargo"
+    },
+    {
+     "year": 1941,
+     "month": 1,
+     "text": "New Fourth Army ambushed"
+    },
+    {
+     "year": 1941,
+     "month": 7,
+     "day": 26,
+     "text": "Freeze of Japanese assets"
+    }
+   ],
+   "keyArguments": [
+    "The League judged Japan correctly in 1933 but no power would enforce its judgement, so Japan simply left.",
+    "The Second United Front (1937) kept China fighting after the loss of its cities, but it was fragile and broke down in clashes such as January 1941.",
+    "US responses moved slowly from words (1937) to economic measures (1938–1940), too slowly to deter expansion.",
+    "The freeze of July 1941 narrowed Japan's choices to retreat or war; Japan chose war rather than leave China."
+   ]
+  }
+ },
+ "retrieval": [
+  {
+   "itemId": "P1-CS1-RESPONSES-R01",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Stimson's note of 7 January 1932 announce?",
+   "factIds": [
+    "F-CS1R-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That the US would not recognise any situation brought about contrary to the Pact of Paris",
+     "correct": true,
+     "explanation": "Correct: this became known as non-recognition."
+    },
+    {
+     "id": "b",
+     "text": "An arms embargo against Japan",
+     "correct": false,
+     "explanation": "The US ruled out an embargo in 1933."
+    },
+    {
+     "id": "c",
+     "text": "US membership of the League",
+     "correct": false,
+     "explanation": "The US was not a League member."
+    },
+    {
+     "id": "d",
+     "text": "A US alliance with China",
+     "correct": false,
+     "explanation": "There was no alliance in 1932."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R02",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these League and US responses in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Stimson's non-recognition note",
+     "year": 1932,
+     "month": 1,
+     "factId": "F-CS1R-04"
+    },
+    {
+     "id": "b",
+     "text": "League non-recognition resolution",
+     "year": 1932,
+     "month": 3,
+     "factId": "F-CS1R-05"
+    },
+    {
+     "id": "c",
+     "text": "Lytton findings announced",
+     "year": 1932,
+     "month": 10,
+     "factId": "F-CS1R-07"
+    },
+    {
+     "id": "d",
+     "text": "Assembly vote on the report",
+     "year": 1933,
+     "month": 2,
+     "factId": "F-CS1R-10"
+    },
+    {
+     "id": "e",
+     "text": "Hull rules out an arms embargo",
+     "year": 1933,
+     "month": 5,
+     "factId": "F-CS1R-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R03",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each member of the Lytton Commission to the country he came from.",
+   "pairs": [
+    {
+     "left": "Lord Lytton",
+     "right": "Britain",
+     "explanation": "He chaired the commission."
+    },
+    {
+     "left": "Frank Ross McCoy",
+     "right": "United States",
+     "explanation": "The US took part although not a League member."
+    },
+    {
+     "left": "Heinrich Schnee",
+     "right": "Germany",
+     "explanation": "He was the German member of the commission."
+    },
+    {
+     "left": "Henri Claudel",
+     "right": "France",
+     "explanation": "A French general."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R04",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Lytton Commission accepted Japan's claim that it acted in self-defence in Manchuria.”",
+   "factIds": [
+    "F-CS1R-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It said the Japanese operations could not be regarded as legitimate self-defence",
+     "correct": true,
+     "explanation": "Correct: it rejected the claim."
+    },
+    {
+     "id": "b",
+     "text": "The commission was sent by the United States",
+     "correct": false,
+     "explanation": "That is not the error; it was a League commission."
+    },
+    {
+     "id": "c",
+     "text": "The commission went to Africa",
+     "correct": false,
+     "explanation": "That is not the error in the statement."
+    },
+    {
+     "id": "d",
+     "text": "There was no commission",
+     "correct": false,
+     "explanation": "There was one, chaired by Lord Lytton."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R05",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many states voted for the Lytton report in the League Assembly on 24 February 1933? (number)",
+   "factIds": [
+    "F-CS1R-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "42",
+     "tolerance": 0,
+     "explanation": "42 for, Japan against, Siam abstaining."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R06",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Japan recognised Manchukuo in September 1932, before the Lytton findings were made public. Which argument does it support?",
+   "factIds": [
+    "F-CS1R-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japan was creating facts on the ground faster than the League could act",
+     "correct": true,
+     "explanation": "Correct: recognition pre-empted the report."
+    },
+    {
+     "id": "b",
+     "text": "Japan was waiting for the League's verdict",
+     "correct": false,
+     "explanation": "It acted before the verdict."
+    },
+    {
+     "id": "c",
+     "text": "The League recognised Manchukuo",
+     "correct": false,
+     "explanation": "The League refused to recognise it."
+    },
+    {
+     "id": "d",
+     "text": "China recognised Manchukuo",
+     "correct": false,
+     "explanation": "China did not recognise it."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R07",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Hull say in May 1933 that an arms embargo would not help China?",
+   "factIds": [
+    "F-CS1R-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japan made its own arms while China depended on imports, so an embargo would favour Japan",
+     "correct": true,
+     "explanation": "Correct: he also feared Japanese seizures of arms meant for China."
+    },
+    {
+     "id": "b",
+     "text": "China had enough arms already",
+     "correct": false,
+     "explanation": "He said China depended on imports."
+    },
+    {
+     "id": "c",
+     "text": "The League had forbidden embargoes",
+     "correct": false,
+     "explanation": "He said nothing of the kind."
+    },
+    {
+     "id": "d",
+     "text": "Japan had promised to stop fighting",
+     "correct": false,
+     "explanation": "He gave no such reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R08",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who detained Chiang Kai-shek at Xi'an in December 1936?",
+   "factIds": [
+    "F-CS1R-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "His own generals, Zhang Xueliang and Yang Hu-cheng",
+     "correct": true,
+     "explanation": "Correct: they demanded a united front against Japan."
+    },
+    {
+     "id": "b",
+     "text": "Japanese troops",
+     "correct": false,
+     "explanation": "No: it was an internal Chinese crisis."
+    },
+    {
+     "id": "c",
+     "text": "The League of Nations",
+     "correct": false,
+     "explanation": "The League had no forces."
+    },
+    {
+     "id": "d",
+     "text": "Mao's Red Army",
+     "correct": false,
+     "explanation": "The generals acted; the Communists were their allies."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R09",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the new name of the Communist forces in the north-west after September 1937? (… Route Army)",
+   "factIds": [
+    "F-CS1R-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Eighth",
+     "tolerance": 0,
+     "explanation": "The Eighth Route Army, under Chu Teh (Zhu De).",
+     "accept": [
+      "eighth route",
+      "8th",
+      "8th route",
+      "eighth route army"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R10",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Case Study 1 runs from 1931 to 1941. Is the Xi'an incident of December 1936 inside or outside the timeframe?",
+   "timeframe": [
+    1931,
+    1941
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside",
+     "correct": true,
+     "explanation": "Correct: 1936 is within 1931–1941."
+    },
+    {
+     "id": "b",
+     "text": "Outside",
+     "correct": false,
+     "explanation": "No: it falls within the case study."
+    },
+    {
+     "id": "c",
+     "text": "Outside, because it was internal to China",
+     "correct": false,
+     "explanation": "Chinese responses are part of the case study."
+    },
+    {
+     "id": "d",
+     "text": "Inside only as background",
+     "correct": false,
+     "explanation": "It is part of the case study itself, not background."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R11",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: the Second United Front functioned more as a non-aggression pact than a military alliance. Which argument does it support?",
+   "factIds": [
+    "F-CS1R-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Chinese unity against Japan was real but limited",
+     "correct": true,
+     "explanation": "Correct: the parties stopped fighting each other but kept separate forces."
+    },
+    {
+     "id": "b",
+     "text": "China was fully united by 1937",
+     "correct": false,
+     "explanation": "The fact shows the limits of unity."
+    },
+    {
+     "id": "c",
+     "text": "The Communists joined the Kuomintang",
+     "correct": false,
+     "explanation": "The parties remained separate."
+    },
+    {
+     "id": "d",
+     "text": "Japan welcomed the united front",
+     "correct": false,
+     "explanation": "Japan wanted Chinese division."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R12",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Roosevelt compare world lawlessness to in his Chicago address of October 1937?",
+   "factIds": [
+    "F-CS1R-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "An epidemic, requiring a quarantine",
+     "correct": true,
+     "explanation": "Correct: hence the name “Quarantine” address."
+    },
+    {
+     "id": "b",
+     "text": "A storm at sea",
+     "correct": false,
+     "explanation": "No: his image was disease."
+    },
+    {
+     "id": "c",
+     "text": "A fire",
+     "correct": false,
+     "explanation": "No: his image was disease."
+    },
+    {
+     "id": "d",
+     "text": "A war he was ready to join",
+     "correct": false,
+     "explanation": "He stressed keeping out of war."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R13",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “After the Panay was sunk in December 1937, the United States declared war on Japan.”",
+   "factIds": [
+    "F-CS1R-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The US accepted a Japanese apology and indemnity",
+     "correct": true,
+     "explanation": "Correct: public opinion wanted to stay out of war."
+    },
+    {
+     "id": "b",
+     "text": "The Panay was British",
+     "correct": false,
+     "explanation": "That is not the error: it was a US gunboat."
+    },
+    {
+     "id": "c",
+     "text": "The Panay sank in 1941",
+     "correct": false,
+     "explanation": "That is not the error: it sank on 12 December 1937."
+    },
+    {
+     "id": "d",
+     "text": "Japan refused to apologise",
+     "correct": false,
+     "explanation": "That is not the error; Japan did apologise."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R14",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each US measure to its date.",
+   "pairs": [
+    {
+     "left": "Moral embargo on aircraft",
+     "right": "July 1938",
+     "explanation": "Aircraft sales to states bombing civilians were discouraged."
+    },
+    {
+     "left": "Notice to end the 1911 commercial treaty",
+     "right": "July 1939",
+     "explanation": "It removed the legal obstacle to an embargo."
+    },
+    {
+     "left": "Scrap iron and steel embargo takes effect",
+     "right": "16 October 1940",
+     "explanation": "It applied to all but the Western Hemisphere and Britain."
+    },
+    {
+     "left": "Freeze of Japanese assets",
+     "right": "26 July 1941",
+     "explanation": "Trade soon virtually stopped."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R15",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Britain do with the Burma Road in July 1940?",
+   "factIds": [
+    "F-CS1R-32"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Closed it to certain goods for three months under an agreement with Japan",
+     "correct": true,
+     "explanation": "Correct: it reopened on 17 October 1940."
+    },
+    {
+     "id": "b",
+     "text": "Opened it for the first time",
+     "correct": false,
+     "explanation": "It already existed as China's supply route."
+    },
+    {
+     "id": "c",
+     "text": "Handed it to Japan",
+     "correct": false,
+     "explanation": "It closed it temporarily, not handed it over."
+    },
+    {
+     "id": "d",
+     "text": "Bombed it",
+     "correct": false,
+     "explanation": "No: it was closed by agreement."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R16",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Roosevelt told Nomura that oil had been allowed to go to Japan for two years to avoid giving Japan a pretext to move on the Netherlands East Indies. Which argument does it support?",
+   "factIds": [
+    "F-CS1R-34"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "US policy tried to avoid provoking Japan until July 1941",
+     "correct": true,
+     "explanation": "Correct: the oil policy was meant to keep peace."
+    },
+    {
+     "id": "b",
+     "text": "The US wanted war with Japan from 1939",
+     "correct": false,
+     "explanation": "The fact suggests the opposite."
+    },
+    {
+     "id": "c",
+     "text": "Japan had no interest in the Indies",
+     "correct": false,
+     "explanation": "Roosevelt feared exactly that interest."
+    },
+    {
+     "id": "d",
+     "text": "The Dutch had asked for oil sales",
+     "correct": false,
+     "explanation": "The fact says nothing about Dutch requests."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R17",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the White House statement of 26 July 1941 say? Choose all that apply.",
+   "factIds": [
+    "F-CS1R-35"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japanese assets in the United States were frozen",
+     "correct": true,
+     "explanation": "Yes: by Executive order."
+    },
+    {
+     "id": "b",
+     "text": "Chinese assets were also frozen, at Chiang Kai-shek's request",
+     "correct": true,
+     "explanation": "Yes: to help the Chinese Government."
+    },
+    {
+     "id": "c",
+     "text": "Trade transactions involving Japanese interests came under government control",
+     "correct": true,
+     "explanation": "Yes: with criminal penalties for violation."
+    },
+    {
+     "id": "d",
+     "text": "The US declared war on Japan",
+     "correct": false,
+     "explanation": "No: war came in December."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R18",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What, according to Japan's memorandum of 7 December 1941, was economic pressure at times more inhumane than? (… pressure)",
+   "factIds": [
+    "F-CS1R-39"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "military",
+     "tolerance": 0,
+     "explanation": "“More inhumane than military pressure”."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R19",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Grew warn in September 1940 about embargoes on oil?",
+   "factIds": [
+    "F-CS1R-37"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japan would see them as sanctions and retaliation might and probably would follow",
+     "correct": true,
+     "explanation": "Correct: he set out the risks of a strong policy."
+    },
+    {
+     "id": "b",
+     "text": "They would make Japan collapse at once",
+     "correct": false,
+     "explanation": "He did not predict collapse."
+    },
+    {
+     "id": "c",
+     "text": "They were illegal",
+     "correct": false,
+     "explanation": "He did not argue this."
+    },
+    {
+     "id": "d",
+     "text": "Japan had plenty of oil",
+     "correct": false,
+     "explanation": "He did not say so."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R20",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps of 1941 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "New Fourth Army ambushed",
+     "year": 1941,
+     "month": 1,
+     "factId": "F-CS1R-20"
+    },
+    {
+     "id": "b",
+     "text": "Freeze of Japanese assets",
+     "year": 1941,
+     "month": 7,
+     "factId": "F-CS1R-35"
+    },
+    {
+     "id": "c",
+     "text": "Hull's proposal requiring withdrawal from China",
+     "year": 1941,
+     "month": 11,
+     "factId": "F-CS1R-38"
+    },
+    {
+     "id": "d",
+     "text": "Pearl Harbor",
+     "year": 1941,
+     "month": 12,
+     "factId": "F-CS1R-40"
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "itemId": "P1-CS1-RESPONSES-D01",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct point about the outcome of the Assembly meeting (Gilbert's telegram, 24 February 1933).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "number of states voting affirmatively … 42",
+     "answer": "point",
+     "explanation": "Point: 42 states voted for the report."
+    },
+    {
+     "id": "s2",
+     "text": "number of states voting negatively 1, Japan",
+     "answer": "point",
+     "explanation": "Point: Japan alone voted against."
+    },
+    {
+     "id": "s3",
+     "text": "states present but abstaining 1, Siam",
+     "answer": "point",
+     "explanation": "Point: Siam abstained."
+    },
+    {
+     "id": "s4",
+     "text": "The Assembly adjourned until 5 p.m. this afternoon.",
+     "answer": "not_point",
+     "explanation": "A procedural detail, not part of the outcome."
+    },
+    {
+     "id": "s5",
+     "text": "the entire Japanese delegation left the Assembly room",
+     "answer": "point",
+     "explanation": "Point: the Japanese walk-out."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D02",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct reason Hull gave against an arms embargo (memorandum to the Senate committee, 17 May 1933).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Japan is an important producer of arms and munitions of war.",
+     "answer": "point",
+     "explanation": "Point: Japan makes its own arms."
+    },
+    {
+     "id": "s2",
+     "text": "China is dependent upon her importation of these commodities.",
+     "answer": "point",
+     "explanation": "Point: China depends on imports."
+    },
+    {
+     "id": "s3",
+     "text": "An embargo directed against Japan alone would probably result in a Japanese blockade of Chinese ports",
+     "answer": "point",
+     "explanation": "Point: risk of a Japanese blockade."
+    },
+    {
+     "id": "s4",
+     "text": "It is impossible to foresee all the circumstances under which the President might exercise the authority",
+     "answer": "not_point",
+     "explanation": "A general remark about the law, not about China and Japan."
+    },
+    {
+     "id": "s5",
+     "text": "unless we had secured substantial guarantees … against the effects of any retaliatory measures",
+     "answer": "point",
+     "explanation": "Point: fear of Japanese retaliation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D03",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct commitment in the Communist manifesto (Josselyn's telegram, 24 September 1937).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Hankow vernacular press has published manifesto",
+     "answer": "not_point",
+     "explanation": "How the news arrived, not a commitment."
+    },
+    {
+     "id": "s2",
+     "text": "Party declared its support of three principles of Sun Yat Sen",
+     "answer": "point",
+     "explanation": "Commitment: Sun Yat-sen's principles."
+    },
+    {
+     "id": "s3",
+     "text": "it has cancelled all movements for overthrowing political power of Kuomintang",
+     "answer": "point",
+     "explanation": "Commitment: no more attempts to overthrow the KMT."
+    },
+    {
+     "id": "s4",
+     "text": "abolished all existing Soviet governments",
+     "answer": "point",
+     "explanation": "Commitment: soviets abolished."
+    },
+    {
+     "id": "s5",
+     "text": "The Red Army is reorganized into National Revolutional Army",
+     "answer": "point",
+     "explanation": "Commitment: army under national command."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D04",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct reason Roosevelt gave for allowing oil exports to Japan (Welles's memorandum, 24 July 1941).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "if these oil supplies had been shut off … the Japanese Government and people would have been furnished with an incentive or a pretext",
+     "answer": "point",
+     "explanation": "Point: an embargo would give Japan a pretext."
+    },
+    {
+     "id": "s2",
+     "text": "for moving down upon the Netherlands East Indies in order to assure themselves of a greater oil supply",
+     "answer": "point",
+     "explanation": "Point: Japan might seize the Indies' oil."
+    },
+    {
+     "id": "s3",
+     "text": "the Dutch would, without the shadow of a doubt, resist, the British would immediately come to their assistance",
+     "answer": "point",
+     "explanation": "Point: a wider war would follow."
+    },
+    {
+     "id": "s4",
+     "text": "At the request of the Japanese Ambassador, the President received the Ambassador",
+     "answer": "not_point",
+     "explanation": "Setting, not a reason."
+    },
+    {
+     "id": "s5",
+     "text": "in view of our own policy of assisting Great Britain, an exceedingly serious situation would immediately result",
+     "answer": "point",
+     "explanation": "Point: the US itself could be drawn in."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D05",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Stimson's letter to the League of 25 February 1933? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To show the League and world opinion that the US backed its findings, the day after the Assembly adopted the report",
+     "correct": true,
+     "explanation": "Correct: audience (League, public), action (show support), moment (after the vote)."
+    },
+    {
+     "id": "b",
+     "text": "To join the League",
+     "correct": false,
+     "explanation": "The US was not a League member."
+    },
+    {
+     "id": "c",
+     "text": "To give information",
+     "correct": false,
+     "explanation": "Too vague: no audience or moment."
+    },
+    {
+     "id": "d",
+     "text": "To impose sanctions on Japan",
+     "correct": false,
+     "explanation": "The letter announces no sanctions."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D06",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Japan's note of 14 December 1937 about the Panay? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To calm the US Government by apologising and promising compensation, two days after the sinking",
+     "correct": true,
+     "explanation": "Correct: it hoped friendly relations would not be affected."
+    },
+    {
+     "id": "b",
+     "text": "To declare war on the United States",
+     "correct": false,
+     "explanation": "It sought to preserve friendly relations."
+    },
+    {
+     "id": "c",
+     "text": "To report the fall of Nanking",
+     "correct": false,
+     "explanation": "It mentions Nanking only to explain the mistake."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is the Panay",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D07",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Roosevelt's Quarantine address of 5 October 1937? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To warn the American public that isolation offered no escape from world lawlessness, months after Japan's war in China began",
+     "correct": true,
+     "explanation": "Correct: he called for a concerted effort by peace-loving nations."
+    },
+    {
+     "id": "b",
+     "text": "To declare war on Japan",
+     "correct": false,
+     "explanation": "He said the US was determined to keep out of war."
+    },
+    {
+     "id": "c",
+     "text": "To open a bridge in Chicago",
+     "correct": false,
+     "explanation": "That was the occasion, not the purpose."
+    },
+    {
+     "id": "d",
+     "text": "To inform people",
+     "correct": false,
+     "explanation": "Too vague: no audience, action or moment."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D08",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the White House statement of 26 July 1941? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To announce to the public and Japan that Japanese assets were frozen, while signalling support for China, as Japan moved into southern Indochina",
+     "correct": true,
+     "explanation": "Correct: it also froze Chinese assets to help China."
+    },
+    {
+     "id": "b",
+     "text": "To lift restrictions on Japan",
+     "correct": false,
+     "explanation": "It imposed them."
+    },
+    {
+     "id": "c",
+     "text": "To end aid to China",
+     "correct": false,
+     "explanation": "It called itself a continuation of aid to China."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is money",
+     "correct": false,
+     "explanation": "A topic, not a purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D09",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Stimson's letter, 25 February 1933): which sentence moves from a feature to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because it is the Secretary of State's formal reply to the League, it shows exactly how far the US was prepared to commit itself: agreement with the findings, but no action.",
+     "correct": true,
+     "explanation": "Correct: feature (formal reply) → consequence (official position) → value."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1933.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is useful because it is primary.",
+     "correct": false,
+     "explanation": "Generic: it does not say why."
+    },
+    {
+     "id": "d",
+     "text": "It is about the League.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D10",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Stimson's letter, 25 February 1933): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because it was written to be released to the press, it stresses agreement with the League and says nothing of US reluctance to use sanctions.",
+     "correct": true,
+     "explanation": "Correct: feature (public letter) → consequence (omission) → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is biased because it is American.",
+     "correct": false,
+     "explanation": "Generic: it does not say why."
+    },
+    {
+     "id": "c",
+     "text": "It is short.",
+     "correct": false,
+     "explanation": "Length alone is not a limitation."
+    },
+    {
+     "id": "d",
+     "text": "It is a letter.",
+     "correct": false,
+     "explanation": "A label, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D11",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Josselyn's telegram, 24 September 1937): which sentence explains a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because a US consul reported the manifesto as it appeared in the Hankow press, the source shows the terms of cooperation that the Communists announced publicly at the time.",
+     "correct": true,
+     "explanation": "Correct: feature (contemporary report) → consequence (public terms) → value."
+    },
+    {
+     "id": "b",
+     "text": "The consul was in Hankow.",
+     "correct": false,
+     "explanation": "A fact, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is valuable because it is a telegram.",
+     "correct": false,
+     "explanation": "Generic: it does not say why."
+    },
+    {
+     "id": "d",
+     "text": "It is about communism.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D12",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Josselyn's telegram, 24 September 1937): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because it summarises a manifesto “reported” in the local press, it gives only the Communists' public promises and cannot show whether they were sincere or carried out.",
+     "correct": true,
+     "explanation": "Correct: feature (second-hand summary of public statement) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is limited because it is American.",
+     "correct": false,
+     "explanation": "Nationality alone is not a limitation."
+    },
+    {
+     "id": "c",
+     "text": "It is limited because it is old.",
+     "correct": false,
+     "explanation": "Age is not a limitation."
+    },
+    {
+     "id": "d",
+     "text": "It does not mention China.",
+     "correct": false,
+     "explanation": "Wrong: it is about China."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D13",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Sources C (Josselyn, 24 September 1937) and D (Johnson, 13 September 1937).",
+   "categories": [
+    {
+     "id": "army",
+     "label": "Issue 1: the Communist army"
+    },
+    {
+     "id": "ideas",
+     "label": "Issue 2: Communist policy"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "C: The Red Army is reorganized into National Revolutional Army under command of Military Council of the National Government",
+     "answer": "army",
+     "explanation": "C: army under national command."
+    },
+    {
+     "id": "s2",
+     "text": "D: reorganized into Government forces as the Eighth Route Army",
+     "answer": "army",
+     "explanation": "D: the same reorganisation, with its new name."
+    },
+    {
+     "id": "s3",
+     "text": "C: declares it has cancelled all movements for overthrowing political power of Kuomintang",
+     "answer": "ideas",
+     "explanation": "C: political concession."
+    },
+    {
+     "id": "s4",
+     "text": "D: have relinquished the class struggle, have no longer their Communist character",
+     "answer": "ideas",
+     "explanation": "D: presented as giving up communism itself."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D14",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: sort each statement into a similarity or a difference between Roosevelt's Quarantine address (1937) and Hull's words to Horinouchi (1940).",
+   "categories": [
+    {
+     "id": "same",
+     "label": "Similarity"
+    },
+    {
+     "id": "diff",
+     "label": "Difference"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Both condemn the breaking of treaties and law.",
+     "answer": "same",
+     "explanation": "Each stresses treaty observance."
+    },
+    {
+     "id": "s2",
+     "text": "The 1937 address names no country; Hull accuses Japan directly.",
+     "answer": "diff",
+     "explanation": "A shift from general to specific."
+    },
+    {
+     "id": "s3",
+     "text": "The 1937 address offers moral appeal; Hull defends a concrete embargo.",
+     "answer": "diff",
+     "explanation": "A shift from words to economic measures."
+    },
+    {
+     "id": "s4",
+     "text": "Both present the US as standing for peace and law.",
+     "answer": "same",
+     "explanation": "Each claims the US upholds law and order."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D15",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Roosevelt to Nomura (24 July 1941) with Japan's memorandum (7 December 1941).",
+   "categories": [
+    {
+     "id": "oil",
+     "label": "Issue 1: economic measures"
+    },
+    {
+     "id": "blame",
+     "label": "Issue 2: who threatens whom"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "A: for more than two years the United States had been permitting oil to be exported … to Japan",
+     "answer": "oil",
+     "explanation": "A: the US had held back."
+    },
+    {
+     "id": "s2",
+     "text": "D: they enforced the assets freezing order, thus severing economic relations with Japan",
+     "answer": "oil",
+     "explanation": "D: the US cut economic ties."
+    },
+    {
+     "id": "s3",
+     "text": "A: if Japan attempted to seize oil supplies by force in the Netherlands East Indies, the Dutch would … resist",
+     "answer": "blame",
+     "explanation": "A: Japan is the threat."
+    },
+    {
+     "id": "s4",
+     "text": "D: these countries have strengthened their military preparations perfecting an encirclement of Japan",
+     "answer": "blame",
+     "explanation": "D: the West is the threat."
+    }
+   ]
+  }
+ ],
+ "sourceSets": [
+  {
+   "sourceSetId": "P1-CS1-RESPONSES-SS01",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "responses",
+   "focus": "The League of Nations and the Lytton report, 1931–1933",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS01-A",
+     "provenance": {
+      "creator": "Gilbert, US Consul at Geneva",
+      "sourceType": "telegram to the US Secretary of State reporting the special Assembly of the League of Nations",
+      "date": "24 February 1933",
+      "contextNote": "The Assembly was voting on a report based on the findings of the League's Lytton Commission. Words in square brackets are corrections printed in the published record or added for sense."
+     },
+     "text": "6. … The Assembly proceeded to a roll call vote with the following result: (1) Number of states voting 44; (2) number of states voting affirmatively (including all 12 Council members other [than] the parties to the dispute) and including China 42; (3) number of states voting negatively 1, Japan; (4) states present but abstaining 1, Siam … 8. Matsuoka made a “final declaration” in which he expressed the profound [regret] and disappointment of the Japanese delegation at the result of the Assembly's vote. He concluded in the following terms: “The Japanese now find themselves compelled to conclude that Japan and the other members of the League entertain different views on the manner to achieve peace in the Far East and the Japanese Government are obliged to feel that they have now reached the limit of their endeavors to cooperate with the League of Nations in reference to the Sino-Japanese differences.” … Immediately following the end of Matsuoka's declaration however the entire Japanese delegation left the Assembly room."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS01-B",
+     "mediaId": "M-lytton-commission-tokyo-1932",
+     "provenance": {
+      "creator": "Agence Meurisse, a French press photo agency",
+      "sourceType": "photograph",
+      "date": "29 February 1932",
+      "contextNote": "Members of the League of Nations commission of enquiry (the Lytton Commission) with the Japanese Prime Minister, Inukai Tsuyoshi (front row, centre), at the Prime Minister's official residence in Tokyo. Lord Lytton stands front left."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS01-C",
+     "provenance": {
+      "creator": "Henry L. Stimson, US Secretary of State",
+      "sourceType": "letter to the Secretary General of the League of Nations, released to the press",
+      "date": "25 February 1933"
+     },
+     "text": "In the situation which has developed out of the controversy between China and Japan, the purpose of the United States has coincided in general with that of the League of Nations, the common objective being maintenance of peace and settlement of international disputes by pacific means. In pursuance of that objective, while the League of Nations has been exercising jurisdiction over a controversy between two of its members, the Government of the United States has endeavored to give support, reserving to itself independence of judgment with regard to method and scope, to the efforts of the League on behalf of peace. The findings of fact arrived at by the League and the understanding of the facts derived by the American Government from reports made to it by its own representatives are in substantial accord. … With those conclusions the American Government is in general accord. In their affirmations respectively of the principle of non-recognition and their attitude in regard thereto the League and the United States are on common ground."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS01-D",
+     "provenance": {
+      "creator": "Cordell Hull, US Secretary of State",
+      "sourceType": "memorandum presented to the Committee on Foreign Relations of the US Senate",
+      "date": "17 May 1933",
+      "contextNote": "The Senate was considering a resolution allowing the President to ban arms exports to countries at war."
+     },
+     "text": "It has never been the intention and is not now the intention of this Government to use the authority which would be conferred upon the Executive by this Resolution as a means of restoring peace between China and Japan. An embargo on arms and munitions of war would not be an effective means of restoring peace in this case. Japan is an important producer of arms and munitions of war. … China is dependent upon her importation of these commodities. … An embargo directed against Japan alone would probably result in a Japanese blockade of Chinese ports, in the seizure by the Japanese of arms and munitions intended for China … we would not under any circumstances agree to participate in an international embargo of this kind unless we had secured substantial guarantees from the governments of all of the great powers which would ensure us against the effects of any retaliatory measures which the Japanese might undertake."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-RESPONSES-SS01-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, what happened at the League Assembly on 24 February 1933?",
+     "model": {
+      "type": "points",
+      "points": [
+       "42 states voted for the report, including China.",
+       "Japan alone voted against it.",
+       "Siam abstained.",
+       "Matsuoka declared that Japan had reached the limit of its cooperation with the League.",
+       "The whole Japanese delegation left the Assembly room."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "42",
+       "Japan",
+       "Siam",
+       "Matsuoka",
+       "limit",
+       "left the Assembly room"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS01-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the League's response to the Manchurian crisis?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The League sent a senior international commission, with members from several powers, to investigate.",
+       "The commission worked through formal meetings with the Japanese government, relying on enquiry and diplomacy rather than pressure."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "commission",
+       "Lytton",
+       "Inukai",
+       "Tokyo"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS01-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying international responses to the Manchurian crisis.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the US Secretary of State's formal reply to the League sets out the official US position.",
+       "Value (content): it shows that the US agreed with the League's findings and shared the principle of non-recognition, though it was not a member.",
+       "Limitation (purpose): written for publication, so it stresses agreement and says nothing about whether the US would support sanctions.",
+       "Limitation (content): it gives the US view only; it cannot show how other League members or Japan responded."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS01-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "C",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources C and D reveal about the US response to Japanese aggression in Manchuria.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources show that the US agreed with the League's judgement: Source C says the US is “in general accord” with the League's conclusions, and Source D that it “concurs in general in the findings” placing responsibility on Japan.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also show the US keeping its independence: C reserves “independence of judgment with regard to method and scope”, and D sets conditions before joining any embargo.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source C offers only moral support and the principle of non-recognition, while Source D explicitly rules out using an arms embargo to restore peace between China and Japan.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source C speaks to the League and world opinion, whereas Source D speaks to the Senate and stresses the risk of Japanese retaliation against the US.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "agreement with the findings",
+       "independence",
+       "words or action",
+       "audience"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS01-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, examine the reasons why the League of Nations failed to reverse Japanese aggression in Manchuria between 1931 and 1933.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "The League failed because it could judge Japan but no power was willing to enforce its judgement.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Sources B and A show the League's method: an international commission of enquiry, followed by a report adopted 42 to 1. The Lytton findings, announced on 2 October 1932, rejected Japan's claim of self-defence.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "But Japan had already recognised Manchukuo in September 1932, and Source A shows its response to the vote: the delegation simply left. Japan gave notice to leave the League on 27 March 1933.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Sources C and D explain the weakness: the US agreed with the findings but offered only non-recognition, and refused even an arms embargo for fear of retaliation. In the depression there was little support for economic sanctions.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The League's failure lay in enforcement rather than judgement: without sanctions, Japan lost nothing but its membership.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Manchukuo",
+       "September 1932",
+       "2 October 1932",
+       "27 March 1933",
+       "depression",
+       "sanctions",
+       "non-recognition"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS1-RESPONSES-SS02",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "responses",
+   "focus": "The Xi'an incident and the Second United Front, 1936–1937",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS02-A",
+     "provenance": {
+      "creator": "Johnson, US Ambassador in China",
+      "sourceType": "despatch to the US Secretary of State reviewing the second half of 1936, sent from Peiping",
+      "date": "12 January 1937",
+      "contextNote": "Sian is Xi'an. Chang Hsueh-liang is Zhang Xueliang."
+     },
+     "text": "On December 12 General Chang Hsueh-liang and General Yang Hu-cheng, the Pacification Commissioner of Shensi, revolted against Nanking and forcibly detained Chiang Kai-shek and other important Central Government officials who were in Sian with the Generalissimo. The leaders of the rebellion issued a statement demanding a reorganization of the Government to include all factions, presumably even the Communists, and for a united front against Japan. Shensi and Kansu responded to the plea, but the rest of the country loudly proclaimed its adherence to the Generalissimo and voiced the bitterest contempt for Chang Hsueh-liang and the revolt. The Generalissimo's release on Christmas day was greeted with enthusiasm throughout the country which had again become more closely knit through common patriotic zeal. A very regrettable aftermath of the Sian coup was the reported alliance between the mutineers and the communists who had been concentrated for some time in the vicinity of Sian."
+    },
+    {
+     "letter": "B",
+     "type": "poster",
+     "verificationRef": "SRC-SS02-B",
+     "mediaId": "M-xin-ke-poster-1938",
+     "provenance": {
+      "creator": "Xin Ke, Chinese artist",
+      "sourceType": "poster produced for the China branch of the International Anti-Aggression Association",
+      "date": "1938",
+      "contextNote": "The title reads: “The more I fight, the stronger I become; the more the enemy fights, the weaker he becomes.” A Chinese soldier, with aircraft behind him, towers over caricatures of Japanese soldiers in flames."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS02-C",
+     "provenance": {
+      "creator": "Josselyn, US Consul General at Hankow",
+      "sourceType": "telegram to the US Secretary of State",
+      "date": "24 September 1937",
+      "contextNote": "Full-scale war between Japan and China had begun in July 1937."
+     },
+     "text": "Hankow vernacular press has published manifesto reported issued by Central Committee of Chinese Communist Party in Shensi declaring that Communist Party objectives are to resist invasion, bring about popular government and improve welfare of people. Communist Party will now cooperate with whole nation in furthering these objectives. Party declared its support of three principles of Sun Yat Sen; declares it has cancelled all movements for overthrowing political power of Kuomintang including forcible confiscation of land and abolished all existing Soviet governments. The Red Army is reorganized into National Revolutional Army under command of Military Council of the National Government. Army is awaiting orders to undertake duty at the front."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS02-D",
+     "provenance": {
+      "creator": "Johnson, US Ambassador in China",
+      "sourceType": "telegram to the US Secretary of State, sent from Nanking",
+      "date": "13 September 1937",
+      "contextNote": "“Official sources” means the Nationalist government. Chu Teh is Zhu De."
+     },
+     "text": "Official sources confirm press reports from Sian that Military Affairs Commission has appointed Chu Teh, Commander and Peng Teh Hui, Vice Commander of the Chinese Communist forces in the northwest which have been reorganized into Government forces as the Eighth Route Army. According to official sources the cooperation of these forces with Government forces in present hostilities can not be described as formation of “popular front” because the Communists have submerged themselves in that they have promised not to engage in Communist propaganda, have relinquished the class struggle, have no longer their Communist character and Chu Teh and Peng have sworn their allegiance and obedience to Chiang Kai-shek."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-RESPONSES-SS02-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, how did China react to the Xi'an (Sian) incident?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Shensi and Kansu supported the rebels' plea.",
+       "The rest of the country proclaimed its loyalty to Chiang and showed contempt for Chang Hsueh-liang.",
+       "Chiang's release on Christmas Day was greeted with enthusiasm.",
+       "The country became “more closely knit through common patriotic zeal”."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "Shensi",
+       "Kansu",
+       "Generalissimo",
+       "contempt",
+       "Christmas",
+       "patriotic zeal"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS02-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What is the message of Source B?",
+     "model": {
+      "type": "points",
+      "points": [
+       "China will grow stronger the longer the war goes on, while Japan will grow weaker.",
+       "Chinese soldiers, backed by modern aircraft, will overcome the Japanese."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "stronger",
+       "weaker",
+       "soldier",
+       "aircraft",
+       "Japanese"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS02-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying the Second United Front.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): a US consul's report written at the time from Hankow, where the manifesto was published.",
+       "Value (content): it lists the Communist Party's public terms: support for Sun Yat-sen's principles, no more attempts to overthrow the Kuomintang, and the Red Army under national command.",
+       "Limitation (origin): it summarises a manifesto “reported” in the local press, so it is second-hand and abbreviated.",
+       "Limitation (purpose): a brief news telegram to Washington; it cannot show whether the Communists meant or kept these promises."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS02-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "C",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources C and D reveal about the terms of cooperation between the Communists and the Nationalists.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources agree that the Communist army was placed under the national government: Source C says the Red Army was reorganised “under command of Military Council of the National Government”, and Source D that it became the Eighth Route Army.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both also report that the Communists gave up revolutionary aims: C mentions the end of “forcible confiscation of land” and of soviet governments, and D says they “relinquished the class struggle”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source C presents a partnership, with the Party cooperating “with whole nation” for shared objectives, while Source D presents submission: the Communists “have submerged themselves” and “have no longer their Communist character”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source C reports the Communists' own manifesto, whereas Source D reports Nationalist “official sources”, which explains the different emphasis.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "army under national command",
+       "revolutionary aims abandoned",
+       "partnership or submission",
+       "whose view"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS02-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, to what extent did the Second United Front strengthen Chinese resistance to Japan between 1937 and 1941?",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "The Second United Front greatly strengthened Chinese resistance by suspending the civil war, but it remained a fragile truce rather than a true alliance.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows the pressure for unity after the Xi'an incident of December 1936, and Sources C and D show its terms in September 1937: the Red Army became the Eighth Route Army under the National Government.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "This allowed China to keep fighting after losing Shanghai, Nanjing, Wuhan and Canton by 1938, and Source B reflects the confidence that a long war favoured China, which defeated Japan's hope of a quick victory.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "However, the front worked more as a non-aggression pact; Source D shows the Nationalists treating it as Communist submission, and in January 1941 Nationalist troops ambushed New Fourth Army units in southern Anhui.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The front strengthened resistance to a large extent by preventing a Chinese collapse, but it never ended the rivalry between the two parties.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "New Fourth Army",
+       "January 1941",
+       "Anhui",
+       "Wuhan",
+       "Nanjing",
+       "non-aggression"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS1-RESPONSES-SS03",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "responses",
+   "focus": "US responses to Japanese aggression, 1937–1940",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS03-A",
+     "provenance": {
+      "creator": "Franklin D. Roosevelt, US President",
+      "sourceType": "public address delivered at Chicago",
+      "date": "5 October 1937",
+      "contextNote": "Japan's war in China had begun in July 1937. The address does not name any country."
+     },
+     "text": "The peace-loving nations must make a concerted effort in opposition to those violations of treaties and those ignorings of humane instincts which today are creating a state of international anarchy and instability from which there is no escape through mere isolation or neutrality. … It seems to be unfortunately true that the epidemic of world lawlessness is spreading. When an epidemic of physical disease starts to spread, the community approves and joins in a quarantine of the patients in order to protect the health of the community against the spread of the disease. It is my determination to pursue a policy of peace and to adopt every practicable measure to avoid involvement in war. … War is a contagion, whether it be declared or undeclared. … We are determined to keep out of war, yet we cannot insure ourselves against the disastrous effects of war and the danger of involvement."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS03-B",
+     "mediaId": "M-panay-sinking-1937",
+     "provenance": {
+      "creator": "US Navy",
+      "sourceType": "photograph",
+      "date": "12 December 1937",
+      "contextNote": "The US Navy river gunboat Panay sinking in the Yangtze River between Nanking and Wuhu after an attack by Japanese aircraft. A US flag is spread across the awnings on deck; a motor boat carries survivors away."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS03-C",
+     "provenance": {
+      "creator": "Hirota Kōki, Japanese Minister for Foreign Affairs",
+      "sourceType": "note to the US Ambassador, Joseph Grew (informal translation by the Japanese Foreign Office)",
+      "date": "14 December 1937"
+     },
+     "text": "From the reports subsequently received from our representatives in China, it has been established that the Japanese naval air force, acting upon information that the Chinese troops fleeing from Nanking were going up the river in steamers, took off to pursue them, and discovered such vessels at the above-mentioned point. Owing to poor visibility, however, the aircraft, although they descended to fairly low altitudes, were unable to discern any mark to show that any one of them was an American ship or man-of-war. … While it is clear, in the light of the above circumstances, that the present incident was entirely due to a mistake, the Japanese Government regret most profoundly that it has caused damages to the United States man-of-war and ships and casualties among those on board, and desire to present hereby sincere apologies. The Japanese Government will make indemnifications for all the losses and will deal appropriately with those responsible for the incident."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS03-D",
+     "provenance": {
+      "creator": "Cordell Hull, US Secretary of State",
+      "sourceType": "memorandum of a conversation with the Japanese Ambassador, Horinouchi",
+      "date": "8 October 1940",
+      "contextNote": "The Ambassador had protested against the US embargo on exports of iron and steel scrap."
+     },
+     "text": "I said that it was really amazing for the Government of Japan, which has been violating in the most aggravating manner valuable American rights and interests throughout most of China, and is doing so in many instances every day, to question the fullest privilege of this Government from every standpoint to impose the proposed scrap iron and steel embargo, and that to go still further and call it an unfriendly act was still more amazing in the light of the conduct of the Japanese Government in disregarding all law, treaty obligations and other rights and privileges and the safety of Americans while it proceeded at the same time to seize territory by force to an ever-increasing extent. … I went on to say that we have stood for law and order and treaty observance and justice along with genuine friendliness between our two countries; that it was clear now, however, that those who are dominating the external policies of Japan are, as we here have believed for some years, bent on the conquest by force of all worthwhile territory in the Pacific Ocean area without limit as to extent in the South …"
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-RESPONSES-SS03-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, what should peace-loving nations do about world lawlessness?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Make a concerted effort against violations of treaties.",
+       "Recognise that isolation or neutrality offers no escape.",
+       "Treat lawlessness like an epidemic and join in a “quarantine”.",
+       "Act while still trying to keep out of war."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "concerted effort",
+       "treaties",
+       "isolation",
+       "neutrality",
+       "quarantine",
+       "epidemic"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS03-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about the Panay incident?",
+     "model": {
+      "type": "points",
+      "points": [
+       "The US gunboat was clearly marked with a large US flag, yet it was sunk.",
+       "The attack forced the crew to abandon ship, with survivors taken off by boat."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "flag",
+       "Panay",
+       "sinking",
+       "survivors"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS03-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying relations between Japan and the United States after 1937.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): the Japanese Foreign Minister's official note shows Japan's formal response to the crisis.",
+       "Value (content): it shows Japan offering apologies, compensation and punishment, which reveals that Japan wished to avoid a break with the US in 1937.",
+       "Limitation (purpose): written to calm the US and limit damage, so its claim that the sinking was “entirely due to a mistake” caused by poor visibility is self-serving.",
+       "Limitation (content): it gives no independent evidence; the photograph in Source B shows a large US flag on the ship."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS03-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources A and D reveal about the US attitude to aggression in East Asia.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources condemn the breaking of treaties and law: Source A attacks “violations of treaties”, and Source D accuses Japan of “disregarding all law, treaty obligations”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both present the US as standing for peace and order: A speaks of “a policy of peace”, and D of US support for “law and order and treaty observance and justice”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source A names no country and calls only for a concerted moral effort while keeping out of war, whereas Source D accuses Japan directly of seeking “the conquest by force of all worthwhile territory in the Pacific Ocean area”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A offers no concrete measure, while Source D defends a specific economic weapon, the scrap iron and steel embargo, showing a shift from words to action between 1937 and 1940.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "treaty-breaking",
+       "US as defender of law",
+       "named or unnamed",
+       "words or measures"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS03-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, evaluate the effectiveness of US responses to Japanese expansion between 1937 and 1940.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "US responses in 1937–1940 were largely ineffective in stopping Japanese expansion, though they began to restrict Japan's supplies.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows the first response: moral appeal and a “quarantine” image, with no concrete measure; the Brussels Conference of November 1937, which Japan refused to attend, achieved nothing.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Sources B and C show the limits of US firmness: after the Panay was sunk the US accepted Japan's apology and indemnity, and Americans overwhelmingly approved because they wanted to stay out of war.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Pressure grew slowly: a moral embargo on aircraft in 1938, notice to end the commercial treaty in July 1939, and, as Source D shows, a scrap iron and steel embargo by October 1940. Yet Japan took Wuhan and Canton in 1938 and entered Indochina in 1940.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "The responses avoided war but did not deter Japan; by restricting supplies they increased Japan's urge to secure resources further south.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Brussels",
+       "moral embargo",
+       "1938",
+       "July 1939",
+       "commercial treaty",
+       "Indochina",
+       "Wuhan"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sourceSetId": "P1-CS1-RESPONSES-SS04",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "caseStudy": "CS1",
+   "part": "responses",
+   "focus": "US initiatives and rising tension with Japan, 1941",
+   "sources": [
+    {
+     "letter": "A",
+     "type": "text",
+     "verificationRef": "SRC-SS04-A",
+     "provenance": {
+      "creator": "Welles, Acting US Secretary of State",
+      "sourceType": "memorandum of President Roosevelt's meeting with the Japanese Ambassador, Admiral Nomura, at the White House",
+      "date": "24 July 1941",
+      "contextNote": "Japanese troops were moving into southern French Indochina."
+     },
+     "text": "The President said, referring to a talk which he had made this morning to a home defense group under the leadership of Mayor LaGuardia, that for more than two years the United States had been permitting oil to be exported from the United States to Japan. He said that this had been done because of the realization on the part of the United States that if these oil supplies had been shut off or restricted the Japanese Government and people would have been furnished with an incentive or a pretext for moving down upon the Netherlands East Indies in order to assure themselves of a greater oil supply than that which, under present conditions, they were able to obtain. … The President said that if Japan attempted to seize oil supplies by force in the Netherlands East Indies, the Dutch would, without the shadow of a doubt, resist, the British would immediately come to their assistance, war would then result between Japan, the British and the Dutch, and, in view of our own policy of assisting Great Britain, an exceedingly serious situation would immediately result."
+    },
+    {
+     "letter": "B",
+     "type": "photograph",
+     "verificationRef": "SRC-SS04-B",
+     "mediaId": "M-hull-nomura-kurusu-1941",
+     "provenance": {
+      "creator": "Photographer of the Japanese newspaper Mainichi Shimbun",
+      "sourceType": "photograph",
+      "date": "17 November 1941",
+      "contextNote": "The US Secretary of State, Cordell Hull (centre), walks with the Japanese Ambassador, Admiral Nomura Kichisaburō (left), and the special envoy Kurusu Saburō (right) to a meeting with President Roosevelt at the White House."
+     }
+    },
+    {
+     "letter": "C",
+     "type": "text",
+     "verificationRef": "SRC-SS04-C",
+     "provenance": {
+      "creator": "The White House",
+      "sourceType": "public statement",
+      "date": "26 July 1941"
+     },
+     "text": "In view of the unlimited national emergency declared by the President, he issued, on July 26, an Executive order freezing Japanese assets in the United States in the same manner in which assets of various European countries were frozen on June 14, 1941. This measure, in effect, brings all financial and import and export trade transactions in which Japanese interests are involved under the control of the Government and imposes criminal penalties for violation of the order. … At the specific request of Generalissimo Chiang Kai-shek, and for the purpose of helping the Chinese Government, the President has, at the same time, extended the freezing control to Chinese assets in the United States. … The inclusion of China in the Executive Order, in accordance with the wishes of the Chinese Government, is a continuation of this Government's policy of assisting China."
+    },
+    {
+     "letter": "D",
+     "type": "text",
+     "verificationRef": "SRC-SS04-D",
+     "provenance": {
+      "creator": "Japanese Government",
+      "sourceType": "memorandum handed to the US Secretary of State by Ambassador Nomura and Mr Kurusu",
+      "date": "7 December 1941",
+      "contextNote": "The memorandum was handed over about an hour after the Japanese attack on Pearl Harbor had begun."
+     },
+     "text": "Furthermore, when Japan in accordance with its protocol with France took measures of joint defence of French Indo-China, both American and British Governments, willfully misinterpreting it as a threat to their own possessions, and inducing the Netherlands Government to follow suit, they enforced the assets freezing order, thus severing economic relations with Japan. While manifesting thus an obviously hostile attitude, these countries have strengthened their military preparations perfecting an encirclement of Japan, and have brought about a situation which endangers the very existence of the Empire. … 3. Whereas the American Government, under the principles it rigidly upholds, objects to settle international issues through military pressure, it is exercising in conjunction with Great Britain and other nations pressure by economic power. Recourse to such pressure as a means of dealing with international relations should be condemned as it is at times more inhumane than military pressure."
+    }
+   ],
+   "questions": [
+    {
+     "questionId": "P1-CS1-RESPONSES-SS04-Q1A",
+     "part": "p1q1a",
+     "marks": 3,
+     "sources": [
+      "A"
+     ],
+     "text": "According to Source A, why had the United States allowed oil exports to Japan?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Cutting off oil would give Japan an incentive or pretext to move on the Netherlands East Indies.",
+       "Japan would then try to secure a greater oil supply by force.",
+       "The Dutch would resist and the British would help them, so war would follow.",
+       "Because the US was assisting Britain, the US itself would face an exceedingly serious situation."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 3,
+      "sourceTerms": [
+       "oil",
+       "pretext",
+       "Netherlands East Indies",
+       "Dutch",
+       "British",
+       "serious situation"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS04-Q1B",
+     "part": "p1q1b",
+     "marks": 2,
+     "sources": [
+      "B"
+     ],
+     "text": "What does Source B suggest about US–Japanese relations in November 1941?",
+     "model": {
+      "type": "points",
+      "points": [
+       "Negotiations were still taking place at the highest level, with the President.",
+       "Japan had sent a special envoy, showing the talks were urgent and serious."
+      ]
+     },
+     "selfCheck": [
+      "q1_points",
+      "q1_source",
+      "q1_no_ok"
+     ],
+     "autoCheck": {
+      "expectedPoints": 2,
+      "sourceTerms": [
+       "Hull",
+       "Nomura",
+       "Kurusu",
+       "White House",
+       "envoy"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS04-Q2",
+     "part": "p1q2",
+     "marks": 4,
+     "sources": [
+      "C"
+     ],
+     "text": "With reference to its origin, purpose and content, analyse the value and limitations of Source C for a historian studying US economic measures against Japan in 1941.",
+     "model": {
+      "type": "points",
+      "points": [
+       "Value (origin): an official White House statement issued on the day of the freeze gives the exact terms of the measure.",
+       "Value (content): it shows that the freeze brought all trade with Japanese interests under government control and that it was linked to aid for China.",
+       "Limitation (purpose): a public announcement that presents the measure as defensive and does not mention oil or the risk of war.",
+       "Limitation (content): it shows US intentions on 26 July, not the effect of the freeze, which very soon stopped nearly all trade."
+      ]
+     },
+     "selfCheck": [
+      "q2_value",
+      "q2_limitation",
+      "q2_opc",
+      "q2_feature"
+     ],
+     "autoCheck": {}
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS04-Q3",
+     "part": "p1q3",
+     "marks": 6,
+     "sources": [
+      "A",
+      "D"
+     ],
+     "text": "Compare and contrast what Sources A and D reveal about US economic pressure on Japan in 1941.",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 5–6 band in the plain-language paraphrase of the IB markbands: clear, valid points of both comparison and contrast.",
+      "segments": [
+       {
+        "text": "Both sources link economic measures to the danger of war: Source A explains that cutting off oil could lead Japan to seize the Netherlands East Indies, and Source D says the freeze created “a situation which endangers the very existence of the Empire”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Both mention the Netherlands and Britain as involved in the crisis: A predicts that the Dutch would resist and the British help them, and D accuses the US of “inducing the Netherlands Government to follow suit”.",
+        "tags": [
+         "COMPARE",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "However, Source A presents the US as having held back on oil for two years to preserve peace, while Source D presents US economic pressure as hostile, part of an “encirclement”, and “more inhumane than military pressure”.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A treats Japanese expansion as the threat, whereas Source D treats Japan's move into Indochina as “joint defence” and blames the West.",
+        "tags": [
+         "CONTRAST",
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q3_linked",
+      "q3_compare",
+      "q3_contrast"
+     ],
+     "autoCheck": {
+      "issueKeys": [
+       "economic measures and war",
+       "Netherlands and Britain",
+       "restraint or hostility",
+       "who threatens whom"
+      ]
+     }
+    },
+    {
+     "questionId": "P1-CS1-RESPONSES-SS04-Q4",
+     "part": "p1q4",
+     "marks": 9,
+     "sources": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "text": "Using the sources and your own knowledge, to what extent was US economic pressure responsible for the outbreak of war between Japan and the United States in December 1941?",
+     "model": {
+      "type": "band",
+      "bandNote": "Illustrates the 7–9 band in the plain-language paraphrase of the IB markbands: focused, uses the sources and accurate own knowledge as evidence, and reaches a judgement.",
+      "segments": [
+       {
+        "text": "US economic pressure was an important cause because it narrowed Japan's choices, but Japan's refusal to give up its conquests in China was the deeper cause.",
+        "tags": [
+         "SOURCE"
+        ]
+       },
+       {
+        "text": "Source A shows that the US had avoided an oil embargo for two years for fear of provoking Japan; the freeze in Source C came only after Japan moved into southern Indochina, and trade then virtually stopped.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Source D shows that Japan's leaders blamed the freeze and economic “encirclement” for the war, and Grew had warned in September 1940 that oil embargoes would provoke retaliation.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "However, Source B shows that talks were still going on in November; they failed because Hull's proposal of 26 November 1941 required Japan to withdraw all forces from China and Indochina, which Japan would not accept.",
+        "tags": [
+         "SOURCE",
+         "OWN KNOWLEDGE"
+        ]
+       },
+       {
+        "text": "Economic pressure turned tension into crisis, but war came because Japan chose to fight rather than give up its expansion.",
+        "tags": [
+         "SOURCE"
+        ]
+       }
+      ]
+     },
+     "selfCheck": [
+      "q4_focus",
+      "q4_sources",
+      "q4_ok",
+      "q4_argument",
+      "q4_judgement"
+     ],
+     "autoCheck": {
+      "ownKnowledgeLexicon": [
+       "Indochina",
+       "freeze",
+       "Grew",
+       "September 1940",
+       "26 November",
+       "Hull",
+       "China"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
