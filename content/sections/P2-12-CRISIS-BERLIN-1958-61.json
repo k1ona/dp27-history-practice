@@ -2036,7 +2036,7 @@
  "essayQuestions": [
   {
    "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q01",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "To what extent was the emigration of East Germans the main cause of the Berlin crisis of 1958–1961?",
    "commandTerm": "to what extent",
@@ -2156,7 +2156,7 @@
   },
   {
    "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q02",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "“The building of the Berlin Wall was a defeat for the Soviet Union.” Discuss with reference to the period 1958 to 1961.",
    "commandTerm": "discuss",
@@ -2275,7 +2275,7 @@
   },
   {
    "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q03",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Examine the causes and consequences of the building of the Berlin Wall in 1961.",
    "commandTerm": "examine",
@@ -2415,7 +2415,7 @@
   },
   {
    "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q04",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Evaluate Kennedy's handling of the Berlin crisis in 1961.",
    "commandTerm": "evaluate",
@@ -2533,7 +2533,7 @@
   },
   {
    "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q05",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Compare and contrast the aims of Khrushchev and Kennedy in the Berlin crisis of 1961.",
    "commandTerm": "compare and contrast",
@@ -2661,7 +2661,7 @@
   },
   {
    "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q06",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Analyse the reasons why the Berlin crisis of 1958–1961 did not lead to war.",
    "commandTerm": "analyse",

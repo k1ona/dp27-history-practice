@@ -2085,7 +2085,7 @@
  "essayQuestions": [
   {
    "questionId": "P2-9-COMPARATIVE-Q01",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Compare and contrast the role of leaders in the emergence of democracy in two states, each chosen from a different region, between 1945 and 1994.",
    "commandTerm": "compare and contrast",
@@ -2212,7 +2212,7 @@
   },
   {
    "questionId": "P2-9-COMPARATIVE-Q02",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "To what extent was international pressure the main reason for the emergence of democracy in two states between 1945 and 1994?",
    "commandTerm": "to what extent",
@@ -2338,7 +2338,7 @@
   },
   {
    "questionId": "P2-9-COMPARATIVE-Q03",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "“Democratic transitions succeed when they are negotiated with the old regime.” Discuss with reference to two states between 1975 and 1994.",
    "commandTerm": "discuss",
@@ -2461,7 +2461,7 @@
   },
   {
    "questionId": "P2-9-COMPARATIVE-Q04",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Examine the reasons for, and the results of, the ways in which two democratic states dealt with the crimes of previous regimes between 1945 and 1999.",
    "commandTerm": "examine",
@@ -2604,7 +2604,7 @@
   },
   {
    "questionId": "P2-9-COMPARATIVE-Q05",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Evaluate the success of economic policies in two democratic states between 1949 and 1999.",
    "commandTerm": "evaluate",
@@ -2724,7 +2724,7 @@
   },
   {
    "questionId": "P2-9-COMPARATIVE-Q06",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Analyse the role of constitutions in consolidating democracy in two states, each chosen from a different region, between 1949 and 1996.",
    "commandTerm": "analyse",

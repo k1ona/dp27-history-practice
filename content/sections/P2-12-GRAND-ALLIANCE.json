@@ -2090,7 +2090,7 @@
  "essayQuestions": [
   {
    "questionId": "P2-12-GRAND-ALLIANCE-Q01",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "To what extent was ideology the main cause of the breakdown of the Grand Alliance between 1943 and 1949?",
    "commandTerm": "to what extent",
@@ -2213,7 +2213,7 @@
   },
   {
    "questionId": "P2-12-GRAND-ALLIANCE-Q02",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "“The Soviet Union was more responsible than the United States for the breakdown of the Grand Alliance.” Discuss with reference to the period 1945 to 1949.",
    "commandTerm": "discuss",
@@ -2336,7 +2336,7 @@
   },
   {
    "questionId": "P2-12-GRAND-ALLIANCE-Q03",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Compare and contrast the roles of the United States and the Soviet Union in the emergence of superpower rivalry between 1945 and 1949.",
    "commandTerm": "compare and contrast",
@@ -2463,7 +2463,7 @@
   },
   {
    "questionId": "P2-12-GRAND-ALLIANCE-Q04",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Evaluate the significance of economic interests in the emergence of superpower rivalry in Europe between 1947 and 1949.",
    "commandTerm": "evaluate",
@@ -2580,7 +2580,7 @@
   },
   {
    "questionId": "P2-12-GRAND-ALLIANCE-Q05",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Examine the causes and consequences of the division of Germany between 1945 and 1949.",
    "commandTerm": "examine",
@@ -2721,7 +2721,7 @@
   },
   {
    "questionId": "P2-12-GRAND-ALLIANCE-Q06",
-   "paper": "P3",
+   "paper": "P2",
    "label": "Teacher-constructed practice material. Not an IB publication.",
    "text": "Analyse the reasons why superpower rivalry spread to Asia between 1945 and 1949.",
    "commandTerm": "analyse",

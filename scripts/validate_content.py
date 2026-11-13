@@ -319,6 +319,10 @@ def main():
                     errs.append(f"{sid}: {it['itemId']} single-answer item has {nc} correct options")
         qs = sec.get("essayQuestions", [])
         if qs:
+            want_paper = "P2" if sid.startswith("P2-") else "P3"
+            for q in qs:
+                if q["paper"] != want_paper:
+                    errs.append(f"{sid}: {q['questionId']} has paper {q['paper']}, expected {want_paper} (the task timer and the register use this field)")
             terms = {q["commandTerm"] for q in qs}
             if len(terms) < 4:
                 errs.append(f"{sid}: only {len(terms)} command terms (need 4)")
