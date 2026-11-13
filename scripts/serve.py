@@ -29,6 +29,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 class Server(socketserver.ThreadingMixIn, socketserver.TCPServer):
     allow_reuse_address = True
     daemon_threads = True
+    # The page loads about 20 JavaScript modules at once. With the default listen queue of 5, the operating system
+    # resets some of those connections when the server is busy, one module fails, and the app never starts.
+    request_queue_size = 128
 
 
 def make_server(port: int) -> Server:
