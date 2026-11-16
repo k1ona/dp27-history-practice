@@ -65,6 +65,8 @@ def test_offline_after_one_visit(page, context, site_url, content):
     expect(p2.locator("text=Timed full papers")).to_be_visible()
     p2.goto(site_url + "#/review")
     expect(p2.locator("text=Daily review")).to_be_visible()
+    p2.goto(site_url + "#/teacher")
+    expect(p2.locator("h1")).to_contain_text("Teacher mode")
     p2.close()
 
 
@@ -216,10 +218,11 @@ def test_sl_hides_paper3(page, site_url):
     expect(page.locator('[data-paper="P2"]')).to_be_visible()
 
 
-def test_coming_up_badge_is_shown(page, site_url):
+def test_no_taught_status_badge_anywhere(page, site_url):
+    """The app is standalone: no section is ever flagged by classroom teaching pace."""
     open_app(page, site_url)
-    card = page.locator('[data-section="P2-12-SINO"]')
-    expect(card.locator(".badge.coming")).to_have_text("Coming up in class")
+    expect(page.locator('[data-section="P2-12-SINO"] .badge.coming')).to_have_count(0)
+    expect(page.locator(".badge.coming")).to_have_count(0)
 
 
 # ---------------------------------------------------------------- sync, sign-in, inbox, restore
@@ -434,7 +437,7 @@ def test_no_horizontal_scroll(page, site_url, content, size):
     open_app(page, site_url)
     seed_gate(page, content[P1])
     for h in ["", f"#/s/{GLASNOST}/read/0", f"#/s/{P1}", f"#/s/{P1}/task/P1-CS2-CAUSES-SS01-Q4/p1q4", f"#/s/{GLASNOST}/recall",
-              "#/timed", "#/timed/start/P1-CS1-A", "#/timed/start/P2-A", "#/timed/start/P3-A", "#/review"]:
+              "#/timed", "#/timed/start/P1-CS1-A", "#/timed/start/P2-A", "#/timed/start/P3-A", "#/review", "#/teacher"]:
         page.goto(site_url + h)
         page.wait_for_timeout(500)
         over = page.evaluate("document.documentElement.scrollWidth - document.documentElement.clientWidth")

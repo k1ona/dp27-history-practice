@@ -10,6 +10,7 @@ import { settings, setup } from "./screens/settings.js";
 import { inbox } from "./screens/inbox.js";
 import { timedHome, timedStart, timedWriter, timedSummary } from "./screens/timed.js";
 import { reviewQueue, weeklyDrill } from "./screens/review.js";
+import { teacherGate } from "./screens/teacher.js";
 
 const routes = [
   [/^#\/?$/, () => dashboard()],
@@ -29,6 +30,7 @@ const routes = [
   [/^#\/timed\/summary\/([^/]+)$/, (m) => timedSummary(m[1])],
   [/^#\/review$/, () => reviewQueue()],
   [/^#\/review\/weekly$/, () => weeklyDrill()],
+  [/^#\/teacher$/, () => teacherGate()],
 ];
 
 let navToken = 0;

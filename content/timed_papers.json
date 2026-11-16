@@ -92,16 +92,16 @@
      "questionId": "P2-12-CONTAINMENT-Q01"
     },
     {
+     "sectionId": "P2-12-SINO",
+     "questionId": "P2-12-SINO-Q01"
+    },
+    {
+     "sectionId": "P2-12-DETENTE",
+     "questionId": "P2-12-DETENTE-Q01"
+    },
+    {
      "sectionId": "P2-12-LEADERS",
      "questionId": "P2-12-LEADERS-Q01"
-    },
-    {
-     "sectionId": "P2-12-CRISIS-BERLIN-BLOCKADE",
-     "questionId": "P2-12-CRISIS-BERLIN-BLOCKADE-Q01"
-    },
-    {
-     "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
-     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q01"
     }
    ]
   },
@@ -134,24 +134,24 @@
    ],
    "topic12": [
     {
+     "sectionId": "P2-12-SINO",
+     "questionId": "P2-12-SINO-Q02"
+    },
+    {
+     "sectionId": "P2-12-DETENTE",
+     "questionId": "P2-12-DETENTE-Q02"
+    },
+    {
      "sectionId": "P2-12-LEADERS",
      "questionId": "P2-12-LEADERS-Q02"
     },
     {
      "sectionId": "P2-12-CRISIS-BERLIN-BLOCKADE",
-     "questionId": "P2-12-CRISIS-BERLIN-BLOCKADE-Q02"
+     "questionId": "P2-12-CRISIS-BERLIN-BLOCKADE-Q01"
     },
     {
      "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
-     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q02"
-    },
-    {
-     "sectionId": "P2-12-CRISIS-KOREA",
-     "questionId": "P2-12-CRISIS-KOREA-Q01"
-    },
-    {
-     "sectionId": "P2-12-CRISIS-CUBA",
-     "questionId": "P2-12-CRISIS-CUBA-Q01"
+     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q01"
     }
    ]
   },
@@ -184,24 +184,24 @@
    ],
    "topic12": [
     {
+     "sectionId": "P2-12-LEADERS",
+     "questionId": "P2-12-LEADERS-Q03"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-BERLIN-BLOCKADE",
+     "questionId": "P2-12-CRISIS-BERLIN-BLOCKADE-Q02"
+    },
+    {
      "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
-     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q03"
+     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q02"
     },
     {
      "sectionId": "P2-12-CRISIS-KOREA",
-     "questionId": "P2-12-CRISIS-KOREA-Q02"
+     "questionId": "P2-12-CRISIS-KOREA-Q01"
     },
     {
      "sectionId": "P2-12-CRISIS-CUBA",
-     "questionId": "P2-12-CRISIS-CUBA-Q02"
-    },
-    {
-     "sectionId": "P2-12-CRISIS-NICARAGUA",
-     "questionId": "P2-12-CRISIS-NICARAGUA-Q01"
-    },
-    {
-     "sectionId": "P2-12-CRISIS-EASTERN-EUROPE",
-     "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q01"
+     "questionId": "P2-12-CRISIS-CUBA-Q01"
     }
    ]
   },
@@ -234,24 +234,24 @@
    ],
    "topic12": [
     {
+     "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
+     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q03"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-KOREA",
+     "questionId": "P2-12-CRISIS-KOREA-Q02"
+    },
+    {
      "sectionId": "P2-12-CRISIS-CUBA",
-     "questionId": "P2-12-CRISIS-CUBA-Q03"
+     "questionId": "P2-12-CRISIS-CUBA-Q02"
     },
     {
      "sectionId": "P2-12-CRISIS-NICARAGUA",
-     "questionId": "P2-12-CRISIS-NICARAGUA-Q02"
+     "questionId": "P2-12-CRISIS-NICARAGUA-Q01"
     },
     {
      "sectionId": "P2-12-CRISIS-EASTERN-EUROPE",
-     "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q02"
-    },
-    {
-     "sectionId": "P2-12-END",
-     "questionId": "P2-12-END-Q01"
-    },
-    {
-     "sectionId": "P2-12-GRAND-ALLIANCE",
-     "questionId": "P2-12-GRAND-ALLIANCE-Q02"
+     "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q01"
     }
    ]
   },
@@ -284,24 +284,24 @@
    ],
    "topic12": [
     {
+     "sectionId": "P2-12-CRISIS-CUBA",
+     "questionId": "P2-12-CRISIS-CUBA-Q03"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-NICARAGUA",
+     "questionId": "P2-12-CRISIS-NICARAGUA-Q02"
+    },
+    {
      "sectionId": "P2-12-CRISIS-EASTERN-EUROPE",
-     "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q03"
+     "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q02"
+    },
+    {
+     "sectionId": "P2-12-IMPACT",
+     "questionId": "P2-12-IMPACT-Q01"
     },
     {
      "sectionId": "P2-12-END",
-     "questionId": "P2-12-END-Q02"
-    },
-    {
-     "sectionId": "P2-12-GRAND-ALLIANCE",
-     "questionId": "P2-12-GRAND-ALLIANCE-Q03"
-    },
-    {
-     "sectionId": "P2-12-CONTAINMENT",
-     "questionId": "P2-12-CONTAINMENT-Q02"
-    },
-    {
-     "sectionId": "P2-12-LEADERS",
-     "questionId": "P2-12-LEADERS-Q03"
+     "questionId": "P2-12-END-Q01"
     }
    ]
   },
@@ -334,24 +334,24 @@
    ],
    "topic12": [
     {
+     "sectionId": "P2-12-CRISIS-EASTERN-EUROPE",
+     "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q03"
+    },
+    {
+     "sectionId": "P2-12-IMPACT",
+     "questionId": "P2-12-IMPACT-Q02"
+    },
+    {
+     "sectionId": "P2-12-END",
+     "questionId": "P2-12-END-Q02"
+    },
+    {
      "sectionId": "P2-12-GRAND-ALLIANCE",
-     "questionId": "P2-12-GRAND-ALLIANCE-Q04"
+     "questionId": "P2-12-GRAND-ALLIANCE-Q02"
     },
     {
      "sectionId": "P2-12-CONTAINMENT",
-     "questionId": "P2-12-CONTAINMENT-Q03"
-    },
-    {
-     "sectionId": "P2-12-LEADERS",
-     "questionId": "P2-12-LEADERS-Q04"
-    },
-    {
-     "sectionId": "P2-12-CRISIS-BERLIN-BLOCKADE",
-     "questionId": "P2-12-CRISIS-BERLIN-BLOCKADE-Q03"
-    },
-    {
-     "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
-     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q04"
+     "questionId": "P2-12-CONTAINMENT-Q02"
     }
    ]
   },
@@ -417,8 +417,8 @@
      "area": "18"
     },
     {
-     "sectionId": "P3-18-B1-SOVIET-CONTROL",
-     "questionId": "P3-18-B1-SOVIET-CONTROL-Q02",
+     "sectionId": "P3-18-B4-COLLAPSE",
+     "questionId": "P3-18-B4-COLLAPSE-Q01",
      "area": "18"
     }
    ]
@@ -480,13 +480,13 @@
      "area": "18"
     },
     {
-     "sectionId": "P3-18-B1-SOVIET-CONTROL",
-     "questionId": "P3-18-B1-SOVIET-CONTROL-Q03",
+     "sectionId": "P3-18-B4-COLLAPSE",
+     "questionId": "P3-18-B4-COLLAPSE-Q02",
      "area": "18"
     },
     {
-     "sectionId": "P3-18-B2-PROTEST-TO-1968",
-     "questionId": "P3-18-B2-PROTEST-TO-1968-Q03",
+     "sectionId": "P3-18-B5-BALKANS",
+     "questionId": "P3-18-B5-BALKANS-Q01",
      "area": "18"
     }
    ]
@@ -543,18 +543,18 @@
      "area": "18"
     },
     {
-     "sectionId": "P3-18-B1-SOVIET-CONTROL",
-     "questionId": "P3-18-B1-SOVIET-CONTROL-Q04",
+     "sectionId": "P3-18-B4-COLLAPSE",
+     "questionId": "P3-18-B4-COLLAPSE-Q03",
      "area": "18"
     },
     {
-     "sectionId": "P3-18-B2-PROTEST-TO-1968",
-     "questionId": "P3-18-B2-PROTEST-TO-1968-Q04",
+     "sectionId": "P3-18-B5-BALKANS",
+     "questionId": "P3-18-B5-BALKANS-Q02",
      "area": "18"
     },
     {
-     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
-     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q04",
+     "sectionId": "P3-18-B6-POLAND",
+     "questionId": "P3-18-B6-POLAND-Q01",
      "area": "18"
     }
    ]
@@ -606,23 +606,23 @@
      "area": "17"
     },
     {
+     "sectionId": "P3-18-B4-COLLAPSE",
+     "questionId": "P3-18-B4-COLLAPSE-Q04",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B5-BALKANS",
+     "questionId": "P3-18-B5-BALKANS-Q03",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B6-POLAND",
+     "questionId": "P3-18-B6-POLAND-Q02",
+     "area": "18"
+    },
+    {
      "sectionId": "P3-18-B1-SOVIET-CONTROL",
-     "questionId": "P3-18-B1-SOVIET-CONTROL-Q05",
-     "area": "18"
-    },
-    {
-     "sectionId": "P3-18-B2-PROTEST-TO-1968",
-     "questionId": "P3-18-B2-PROTEST-TO-1968-Q05",
-     "area": "18"
-    },
-    {
-     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
-     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q05",
-     "area": "18"
-    },
-    {
-     "sectionId": "P3-18-B1-SOVIET-CONTROL",
-     "questionId": "P3-18-B1-SOVIET-CONTROL-Q06",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q02",
      "area": "18"
     }
    ]
@@ -674,23 +674,23 @@
      "area": "17"
     },
     {
-     "sectionId": "P3-18-B2-PROTEST-TO-1968",
-     "questionId": "P3-18-B2-PROTEST-TO-1968-Q06",
+     "sectionId": "P3-18-B5-BALKANS",
+     "questionId": "P3-18-B5-BALKANS-Q04",
      "area": "18"
     },
     {
-     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
-     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q06",
+     "sectionId": "P3-18-B6-POLAND",
+     "questionId": "P3-18-B6-POLAND-Q03",
      "area": "18"
     },
     {
      "sectionId": "P3-18-B1-SOVIET-CONTROL",
-     "questionId": "P3-18-B1-SOVIET-CONTROL-Q01",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q03",
      "area": "18"
     },
     {
      "sectionId": "P3-18-B2-PROTEST-TO-1968",
-     "questionId": "P3-18-B2-PROTEST-TO-1968-Q01",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q03",
      "area": "18"
     }
    ]
@@ -742,23 +742,23 @@
      "area": "17"
     },
     {
-     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
-     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q01",
+     "sectionId": "P3-18-B6-POLAND",
+     "questionId": "P3-18-B6-POLAND-Q04",
      "area": "18"
     },
     {
      "sectionId": "P3-18-B1-SOVIET-CONTROL",
-     "questionId": "P3-18-B1-SOVIET-CONTROL-Q02",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q04",
      "area": "18"
     },
     {
      "sectionId": "P3-18-B2-PROTEST-TO-1968",
-     "questionId": "P3-18-B2-PROTEST-TO-1968-Q02",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q04",
      "area": "18"
     },
     {
      "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
-     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q02",
+     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q04",
      "area": "18"
     }
    ]

@@ -45,7 +45,7 @@
     "sectionRecord": {
       "type": "object",
       "required": ["sectionId", "title", "papers", "topic", "guideBullet", "planCodes", "timeframe", "timeframeBasis",
-                   "timeframeProvisional", "status", "levels", "contentFile"],
+                   "timeframeProvisional", "levels", "contentFile"],
       "properties": {
         "sectionId": { "$ref": "common.schema.json#/$defs/sectionId" },
         "title": { "type": "string" },
@@ -77,7 +77,6 @@
           "properties": { "timeframe": { "$ref": "common.schema.json#/$defs/timeframe" }, "note": { "type": "string" } },
           "description": "Optional labelled background years allowed in context chunks only, never in timelines or answers checked against the question timeframe"
         },
-        "status": { "enum": ["taught", "coming_up"] },
         "yearTaught": { "enum": [1, 2] },
         "levels": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/level" } },
         "contentFile": { "type": "string", "pattern": "^content/sections/.+\\.json$" },

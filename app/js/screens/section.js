@@ -18,7 +18,7 @@ export async function sectionHome(id) {
     el("div", { class: "callout small" }, el("strong", {}, "Syllabus bullet: "), rec.guideBullet.text,
       rec.guideBullet.flag ? el("span", { class: "muted" }, " (wording from the course plan)") : null));
   if (!avail.has(id)) {
-    root.append(el("p", {}, rec.status === "coming_up" ? "This section is coming up in class. Its practice will appear here." : "This section is in preparation."));
+    root.append(el("p", {}, "This section is in preparation."));
     return root;
   }
   const section = await content.section(id);

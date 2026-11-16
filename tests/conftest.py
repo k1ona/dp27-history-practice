@@ -1,4 +1,5 @@
 """Shared fixtures: build the site once, serve it on a free local port, and helpers for common steps."""
+import hashlib
 import json
 import re
 import subprocess
@@ -14,15 +15,20 @@ import serve  # noqa: E402
 
 GLASNOST = "P3-16-B4-GLASNOST"
 P1 = "P1-CS2-CAUSES"
+TEACHER_PIN = "0000"
+TEACHER_PIN_SALT = "test-salt"
 
 
 @pytest.fixture(scope="session")
 def site_url():
     subprocess.run([sys.executable, str(ROOT / "scripts" / "build.py")], check=True, capture_output=True)
     # Tests never talk to the real class server: device-only mode by default, a fake server where a test connects one.
+    # A fixed test-only teacher PIN is set too, so teacher mode can be exercised without touching the real one.
     cfg_path = ROOT / "site" / "config.json"
     cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
     cfg["syncEndpoint"] = ""
+    cfg["teacherPinSalt"] = TEACHER_PIN_SALT
+    cfg["teacherPinHash"] = hashlib.sha256(f"{TEACHER_PIN_SALT}:{TEACHER_PIN}".encode()).hexdigest()
     cfg_path.write_text(json.dumps(cfg, indent=2), encoding="utf-8")
     httpd = serve.make_server(0)
     port = httpd.server_address[1]

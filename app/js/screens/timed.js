@@ -17,18 +17,9 @@ async function inProgressSession() {
   return all.find((s) => !s.submittedAt) || null;
 }
 
-/** Whether any component of a paper is from a section still marked "Coming up in class". */
-async function paperStatus(paper, map) {
-  const recOf = (sid) => map.sections.find((s) => s.sectionId === sid);
-  const sids = paper.paper === "P1" ? [paper.sectionId]
-    : paper.paper === "P2" ? [...paper.topic9, ...paper.topic12].map((q) => q.sectionId)
-    : paper.questions.map((q) => q.sectionId);
-  return sids.some((sid) => recOf(sid)?.status === "coming_up") ? "coming_up" : "taught";
-}
-
 export async function timedHome() {
   const prof = await profile();
-  const [tp, map] = await Promise.all([content.timedPapers(), content.map()]);
+  const tp = await content.timedPapers();
   const sessions = await db.all("timed");
   const root = el("div", {});
   root.append(el("h1", {}, "Timed full papers"),
@@ -47,10 +38,8 @@ export async function timedHome() {
     const grid = el("div", { class: "grid" });
     for (const p of group) {
       const done = sessions.filter((s) => s.paperId === p.paperId && s.submittedAt);
-      const status = await paperStatus(p, map);
       const card = el("div", { class: "card", "data-timed-paper-id": p.paperId },
-        el("div", { class: "row" }, el("strong", {}, p.title), el("span", { class: "spacer" }),
-          status === "coming_up" ? el("span", { class: "badge coming" }, "Coming up in class") : null),
+        el("div", { class: "row" }, el("strong", {}, p.title)),
         el("p", { class: "small muted" }, done.length ? `Attempted ${done.length} time${done.length === 1 ? "" : "s"}` : "Not yet attempted"),
         active ? el("span", { class: "small muted" }, "Finish your paper in progress first") :
           el("a", { class: "btn", href: `#/timed/start/${p.paperId}` }, "Start"));

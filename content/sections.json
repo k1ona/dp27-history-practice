@@ -1,6 +1,6 @@
 {
   "schema": "dp27.sections.v1",
-  "label": "Section map for the DP27 History practice app. Edit 'status' to release a section.",
+  "label": "Section map for the DP27 History practice app.",
   "specification": "Legacy IB History guide (first assessment 2017). Never 2028-specification structures.",
   "updated": "2026-11-06",
   "papers": [
@@ -62,7 +62,6 @@
       ],
       "timeframeBasis": "Case-study dates in the verified case-study title",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -105,7 +104,6 @@
       ],
       "timeframeBasis": "Case-study dates in the verified case-study title",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -146,7 +144,6 @@
       ],
       "timeframeBasis": "Case-study dates in the verified case-study title",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -187,7 +184,6 @@
       ],
       "timeframeBasis": "Case-study dates in the case-study title (title verified on Parkside PDF; bullets not)",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -231,7 +227,6 @@
       ],
       "timeframeBasis": "Case-study dates in the case-study title",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -272,7 +267,6 @@
       ],
       "timeframeBasis": "Case-study dates in the case-study title",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -315,7 +309,6 @@
       ],
       "timeframeBasis": "Dates in the verified bullet",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -356,7 +349,6 @@
       ],
       "timeframeBasis": "Dates in the verified bullet",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -401,7 +393,6 @@
       ],
       "timeframeBasis": "Dates in the verified bullet (plan lesson R1 concentrates on 1956–1979)",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -444,7 +435,6 @@
       ],
       "timeframeBasis": "Dates in the verified bullet",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -485,7 +475,6 @@
       ],
       "timeframeBasis": "Dates in the verified bullet",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -526,7 +515,6 @@
       ],
       "timeframeBasis": "Span of the outline's leader dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -571,7 +559,6 @@
       ],
       "timeframeBasis": "Cold War span as given in the topic description (Parkside PDF p.1: end of the Second World War to the early 1990s)",
       "timeframeProvisional": true,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -614,7 +601,6 @@
       ],
       "timeframeBasis": "Outline dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -655,7 +641,6 @@
       ],
       "timeframeBasis": "Outline dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -696,7 +681,6 @@
       ],
       "timeframeBasis": "Outline dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -737,7 +721,6 @@
       ],
       "timeframeBasis": "Outline: 'Cuban Revolution context and Bay of Pigs (1961)', 'Cuban Missile Crisis (1962)'. 1959 start provisional until the revolution date is verified",
       "timeframeProvisional": true,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -778,7 +761,6 @@
       ],
       "timeframeBasis": "Outline dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -819,7 +801,6 @@
       ],
       "timeframeBasis": "Outline dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL",
@@ -863,7 +844,6 @@
       ],
       "timeframeBasis": "Plan P2.9.02 (1948–1990) and P2.9.03 (1976–1990)",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -907,7 +887,6 @@
       ],
       "timeframeBasis": "Plan P2.9.04 (1990–1994) and P2.9.05 (after 1994); topic ends 2000",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -950,7 +929,6 @@
       ],
       "timeframeBasis": "Plan P2.9.06 (post-1994 policies); topic ends 2000",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -993,7 +971,6 @@
       ],
       "timeframeBasis": "Plan P2.9.07 (1945–1949). 1990 is extension, never emergence",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -1036,7 +1013,6 @@
       ],
       "timeframeBasis": "Plan P2.9.08 (to 1990)",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -1079,7 +1055,6 @@
       ],
       "timeframeBasis": "Plan P2.9.09, drawing on P3.17.08 (1949–1990)",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -1123,7 +1098,6 @@
       ],
       "timeframeBasis": "Plan P2.9.10 (1976–1983); P2.9.11 (1983 election; CONADEP report of 1984 per routing doc R18). End year provisional until the Trial of the Juntas date is verified",
       "timeframeProvisional": true,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -1166,7 +1140,6 @@
       ],
       "timeframeBasis": "Plan P2.9.12 (to 1999)",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -1210,7 +1183,6 @@
       ],
       "timeframeBasis": "Plan P3.17.10 (1939–1978) and P3.17.11 (1978–2000)",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -1256,7 +1228,6 @@
       ],
       "timeframeBasis": "Earliest pre-existing situation among the four cases (Spain, 1939) to topic end 2000",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL",
@@ -1297,7 +1268,6 @@
       ],
       "timeframeBasis": "Outline dates; Todd ch.2 title 1924–29",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL"
@@ -1337,7 +1307,6 @@
       ],
       "timeframeBasis": "Todd ch.3 'Stalin's Revolution, 1929–41'; start moved to 1928 because Seventeen Moments (1929/year-of-great-change, paragraph 2) dates the First Five-Year Plan 1928–32 (checked 2026-11-12)",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL"
@@ -1377,7 +1346,6 @@
       ],
       "timeframeBasis": "Todd ch.3.3 (1929–41) and ch.4.2 (1945–53)",
       "timeframeProvisional": true,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL"
@@ -1417,7 +1385,6 @@
       ],
       "timeframeBasis": "Outline dates; Todd ch.4 1941–53",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL"
@@ -1457,7 +1424,6 @@
       ],
       "timeframeBasis": "Todd ch.5 1953–64",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL"
@@ -1497,7 +1463,6 @@
       ],
       "timeframeBasis": "Todd introduction: 'Brezhnev's rule from 1964 to 1982'",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 1,
       "levels": [
         "HL"
@@ -1539,7 +1504,6 @@
       ],
       "timeframeBasis": "Todd introduction: 'developments in the USSR between 1982 and 1985'",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1581,7 +1545,6 @@
       ],
       "timeframeBasis": "Todd ch.7 (1985–89) and ch.8.1 (1990–91)",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1623,7 +1586,6 @@
       ],
       "timeframeBasis": "Todd ch.7.2 and ch.8.2; matches the data-contract example",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1667,7 +1629,6 @@
       ],
       "timeframeBasis": "Plan title; Todd ch.8 1990–91",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1709,7 +1670,6 @@
       ],
       "timeframeBasis": "Todd ch.9 1992–2000",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1752,7 +1712,6 @@
       ],
       "timeframeBasis": "Plan P3.17.01 (1945–1949) and P3.17.02 (1948–1955)",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1796,7 +1755,6 @@
       ],
       "timeframeBasis": "Plan P3.17.05 (1945–1963)",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1841,7 +1799,6 @@
       ],
       "timeframeBasis": "Politics strand 1963–1990 (outline); society and culture strand 1949–1990 (plan P3.17.08)",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1884,7 +1841,6 @@
       ],
       "timeframeBasis": "Outline 'to 1982'. The plan's P3.17.11 runs to 2000; that later material is used in P2-9-ES",
       "timeframeProvisional": true,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1928,7 +1884,6 @@
       ],
       "timeframeBasis": "Outline and plan dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -1972,7 +1927,6 @@
       ],
       "timeframeBasis": "Outline dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -2015,7 +1969,6 @@
       ],
       "timeframeBasis": "Outline dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -2059,7 +2012,6 @@
       ],
       "timeframeBasis": "Outline dates",
       "timeframeProvisional": false,
-      "status": "taught",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -2104,7 +2056,6 @@
       ],
       "timeframeBasis": "Bullet undated. Plan: causes argued from Moscow outward (P3.16.C01–C05, from 1985); consequences 1990–93 (P3.18.10)",
       "timeframeProvisional": true,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -2146,7 +2097,6 @@
       ],
       "timeframeBasis": "Outline '1990s'",
       "timeframeProvisional": true,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL"
@@ -2188,7 +2138,6 @@
       ],
       "timeframeBasis": "Outline and plan dates",
       "timeframeProvisional": false,
-      "status": "coming_up",
       "yearTaught": 2,
       "levels": [
         "HL"

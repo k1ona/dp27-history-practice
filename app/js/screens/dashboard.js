@@ -9,7 +9,6 @@ export function visibleForLevel(record, level) {
 }
 
 export function statusBadge(record, available) {
-  if (record.status === "coming_up") return el("span", { class: "badge coming" }, "Coming up in class");
   if (!available) return el("span", { class: "badge prep" }, "In preparation");
   return null;
 }

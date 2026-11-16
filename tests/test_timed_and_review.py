@@ -38,19 +38,15 @@ def walk_timed_parts(page, n):
 
 
 # ---------------------------------------------------------------- curation / coming-up badges
-def test_timed_paper_coming_up_badges_reflect_taught_status(page, site_url):
-    """Regression test for the prefer_taught() fix in project_docs/builders/timed_papers_build.py:
-    a paper is only flagged "coming up" when it has no choice but to draw on untaught content."""
+def test_timed_papers_never_show_a_status_badge(page, site_url):
+    """The app is standalone: timed papers are never gated or flagged by classroom teaching pace."""
     open_app(page, site_url)
     page.goto(site_url + "#/timed")
     for cs in (1, 2):
         for letter in "ABC":
             expect(page.locator(f'[data-timed-paper-id="P1-CS{cs}-{letter}"] .badge.coming')).to_have_count(0)
-    # Every Topic 9 section is still "coming_up" in content/sections.json, so every P2 paper must draw on one.
     for letter in "ABCDEF":
-        expect(page.locator(f'[data-timed-paper-id="P2-{letter}"] .badge.coming')).to_be_visible()
-    # §16/§17/§18 each have enough taught sections, so no P3 paper needs to draw on a "coming_up" one.
-    for letter in "ABCDEF":
+        expect(page.locator(f'[data-timed-paper-id="P2-{letter}"] .badge.coming')).to_have_count(0)
         expect(page.locator(f'[data-timed-paper-id="P3-{letter}"] .badge.coming')).to_have_count(0)
 
 
