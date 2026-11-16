@@ -376,6 +376,71 @@ def main():
                     errs.append(f"{sid}: {f['factId']} alsoWorksFor unknown section {s}")
     r.check("8. Ids, cross-links, essay mix, Paper 1 structure", errs)
 
+    # 9. Timed papers (BUILD_PLAN SS5.3)
+    errs, detail = [], []
+    tp_path = CONTENT / "timed_papers.json"
+    if not tp_path.exists():
+        errs.append("content/timed_papers.json is missing")
+    else:
+        tp = load(tp_path)
+        errs += schema_errors(schemas["timedpapers.schema.json"], reg, tp, "timed_papers.json")
+        by_paper = Counter(p["paper"] for p in tp.get("papers", []))
+        for paper, want_n, want_minutes in [("P1", 6, 60), ("P2", 6, 90), ("P3", 6, 150)]:
+            if by_paper.get(paper, 0) != want_n:
+                errs.append(f"timed_papers.json: {by_paper.get(paper, 0)} {paper} papers, need {want_n}")
+        dup = [k for k, v in Counter(p["paperId"] for p in tp.get("papers", [])).items() if v > 1]
+        errs += [f"timed_papers.json: duplicate paperId {d}" for d in dup]
+
+        def ref_ok(ref, essay_only=True):
+            sid = ref["sectionId"]
+            if sid not in sections:
+                return f"unknown section {sid}"
+            if ref["questionId"] not in {q["questionId"] for q in sections[sid].get("essayQuestions", [])}:
+                return f"unknown essay question {ref['questionId']} in {sid}"
+            return None
+
+        for p in tp.get("papers", []):
+            pid = p["paperId"]
+            want_minutes = {"P1": 60, "P2": 90, "P3": 150}[p["paper"]]
+            if p["durationMinutes"] != want_minutes:
+                errs.append(f"{pid}: durationMinutes {p['durationMinutes']}, expected {want_minutes}")
+            if p["paper"] == "P1":
+                sid = p["sectionId"]
+                if sid not in sections:
+                    errs.append(f"{pid}: unknown section {sid}")
+                elif p["sourceSetId"] not in {s["sourceSetId"] for s in sections[sid]["sourceSets"]}:
+                    errs.append(f"{pid}: unknown source set {p['sourceSetId']} in {sid}")
+                elif not sid.startswith(f"P1-{p['caseStudy']}-"):
+                    errs.append(f"{pid}: sectionId {sid} does not match caseStudy {p['caseStudy']}")
+            elif p["paper"] == "P2":
+                if len(p["topic9"]) < 4:
+                    errs.append(f"{pid}: only {len(p['topic9'])} Topic 9 choices (need at least 4 for a real choice)")
+                if len(p["topic12"]) < 4:
+                    errs.append(f"{pid}: only {len(p['topic12'])} Topic 12 choices (need at least 4 for a real choice)")
+                for ref in p["topic9"]:
+                    e = ref_ok(ref)
+                    if e: errs.append(f"{pid} topic9: {e}")
+                    elif not ref["sectionId"].startswith("P2-9-"):
+                        errs.append(f"{pid} topic9: {ref['sectionId']} is not a Topic 9 section")
+                for ref in p["topic12"]:
+                    e = ref_ok(ref)
+                    if e: errs.append(f"{pid} topic12: {e}")
+                    elif not ref["sectionId"].startswith("P2-12-"):
+                        errs.append(f"{pid} topic12: {ref['sectionId']} is not a Topic 12 section")
+            else:  # P3
+                if len(p["questions"]) < 9:
+                    errs.append(f"{pid}: only {len(p['questions'])} essay choices (need at least 9 across SS16-18)")
+                areas = {q["area"] for q in p["questions"]}
+                if areas != {"16", "17", "18"}:
+                    errs.append(f"{pid}: covers areas {sorted(areas)}, needs questions from all of SS16, SS17 and SS18")
+                for ref in p["questions"]:
+                    e = ref_ok(ref)
+                    if e: errs.append(f"{pid} questions: {e}")
+                    elif not ref["sectionId"].startswith(f"P3-{ref['area']}-"):
+                        errs.append(f"{pid} questions: {ref['sectionId']} does not match its area {ref['area']}")
+        detail.append(f"{by_paper.get('P1', 0)} P1, {by_paper.get('P2', 0)} P2, {by_paper.get('P3', 0)} P3 papers")
+    r.check("9. Timed papers", errs, "; ".join(detail))
+
     if args.repo:
         errs = []
         try:

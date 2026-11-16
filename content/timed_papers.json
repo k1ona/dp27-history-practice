@@ -1,0 +1,767 @@
+{
+ "schema": "dp27.timedpapers.v1",
+ "papers": [
+  {
+   "paperId": "P1-CS1-A",
+   "paper": "P1",
+   "title": "Paper 1 practice paper A · Case Study 1",
+   "caseStudy": "CS1",
+   "durationMinutes": 60,
+   "sectionId": "P1-CS1-CAUSES",
+   "sourceSetId": "P1-CS1-CAUSES-SS01"
+  },
+  {
+   "paperId": "P1-CS1-B",
+   "paper": "P1",
+   "title": "Paper 1 practice paper B · Case Study 1",
+   "caseStudy": "CS1",
+   "durationMinutes": 60,
+   "sectionId": "P1-CS1-EVENTS",
+   "sourceSetId": "P1-CS1-EVENTS-SS02"
+  },
+  {
+   "paperId": "P1-CS1-C",
+   "paper": "P1",
+   "title": "Paper 1 practice paper C · Case Study 1",
+   "caseStudy": "CS1",
+   "durationMinutes": 60,
+   "sectionId": "P1-CS1-RESPONSES",
+   "sourceSetId": "P1-CS1-RESPONSES-SS03"
+  },
+  {
+   "paperId": "P1-CS2-A",
+   "paper": "P1",
+   "title": "Paper 1 practice paper A · Case Study 2",
+   "caseStudy": "CS2",
+   "durationMinutes": 60,
+   "sectionId": "P1-CS2-CAUSES",
+   "sourceSetId": "P1-CS2-CAUSES-SS01"
+  },
+  {
+   "paperId": "P1-CS2-B",
+   "paper": "P1",
+   "title": "Paper 1 practice paper B · Case Study 2",
+   "caseStudy": "CS2",
+   "durationMinutes": 60,
+   "sectionId": "P1-CS2-EVENTS",
+   "sourceSetId": "P1-CS2-EVENTS-SS02"
+  },
+  {
+   "paperId": "P1-CS2-C",
+   "paper": "P1",
+   "title": "Paper 1 practice paper C · Case Study 2",
+   "caseStudy": "CS2",
+   "durationMinutes": 60,
+   "sectionId": "P1-CS2-RESPONSES",
+   "sourceSetId": "P1-CS2-RESPONSES-SS03"
+  },
+  {
+   "paperId": "P2-A",
+   "paper": "P2",
+   "title": "Paper 2 practice paper A",
+   "durationMinutes": 90,
+   "topic9": [
+    {
+     "sectionId": "P2-9-SA-CONDITIONS",
+     "questionId": "P2-9-SA-CONDITIONS-Q01"
+    },
+    {
+     "sectionId": "P2-9-DE-EMERGENCE",
+     "questionId": "P2-9-DE-EMERGENCE-Q01"
+    },
+    {
+     "sectionId": "P2-9-AR-EMERGENCE",
+     "questionId": "P2-9-AR-EMERGENCE-Q01"
+    },
+    {
+     "sectionId": "P2-9-ES",
+     "questionId": "P2-9-ES-Q01"
+    },
+    {
+     "sectionId": "P2-9-COMPARATIVE",
+     "questionId": "P2-9-COMPARATIVE-Q01"
+    }
+   ],
+   "topic12": [
+    {
+     "sectionId": "P2-12-GRAND-ALLIANCE",
+     "questionId": "P2-12-GRAND-ALLIANCE-Q01"
+    },
+    {
+     "sectionId": "P2-12-CONTAINMENT",
+     "questionId": "P2-12-CONTAINMENT-Q01"
+    },
+    {
+     "sectionId": "P2-12-LEADERS",
+     "questionId": "P2-12-LEADERS-Q01"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-BERLIN-BLOCKADE",
+     "questionId": "P2-12-CRISIS-BERLIN-BLOCKADE-Q01"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
+     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q01"
+    }
+   ]
+  },
+  {
+   "paperId": "P2-B",
+   "paper": "P2",
+   "title": "Paper 2 practice paper B",
+   "durationMinutes": 90,
+   "topic9": [
+    {
+     "sectionId": "P2-9-AR-EMERGENCE",
+     "questionId": "P2-9-AR-EMERGENCE-Q02"
+    },
+    {
+     "sectionId": "P2-9-ES",
+     "questionId": "P2-9-ES-Q02"
+    },
+    {
+     "sectionId": "P2-9-COMPARATIVE",
+     "questionId": "P2-9-COMPARATIVE-Q02"
+    },
+    {
+     "sectionId": "P2-9-SA-POLICIES",
+     "questionId": "P2-9-SA-POLICIES-Q01"
+    },
+    {
+     "sectionId": "P2-9-DE-DEVELOPMENT",
+     "questionId": "P2-9-DE-DEVELOPMENT-Q01"
+    }
+   ],
+   "topic12": [
+    {
+     "sectionId": "P2-12-LEADERS",
+     "questionId": "P2-12-LEADERS-Q02"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-BERLIN-BLOCKADE",
+     "questionId": "P2-12-CRISIS-BERLIN-BLOCKADE-Q02"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
+     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q02"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-KOREA",
+     "questionId": "P2-12-CRISIS-KOREA-Q01"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-CUBA",
+     "questionId": "P2-12-CRISIS-CUBA-Q01"
+    }
+   ]
+  },
+  {
+   "paperId": "P2-C",
+   "paper": "P2",
+   "title": "Paper 2 practice paper C",
+   "durationMinutes": 90,
+   "topic9": [
+    {
+     "sectionId": "P2-9-COMPARATIVE",
+     "questionId": "P2-9-COMPARATIVE-Q03"
+    },
+    {
+     "sectionId": "P2-9-SA-POLICIES",
+     "questionId": "P2-9-SA-POLICIES-Q02"
+    },
+    {
+     "sectionId": "P2-9-DE-DEVELOPMENT",
+     "questionId": "P2-9-DE-DEVELOPMENT-Q02"
+    },
+    {
+     "sectionId": "P2-9-AR-DEVELOPMENT",
+     "questionId": "P2-9-AR-DEVELOPMENT-Q01"
+    },
+    {
+     "sectionId": "P2-9-SA-TRANSITION",
+     "questionId": "P2-9-SA-TRANSITION-Q01"
+    }
+   ],
+   "topic12": [
+    {
+     "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
+     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q03"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-KOREA",
+     "questionId": "P2-12-CRISIS-KOREA-Q02"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-CUBA",
+     "questionId": "P2-12-CRISIS-CUBA-Q02"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-NICARAGUA",
+     "questionId": "P2-12-CRISIS-NICARAGUA-Q01"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-EASTERN-EUROPE",
+     "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q01"
+    }
+   ]
+  },
+  {
+   "paperId": "P2-D",
+   "paper": "P2",
+   "title": "Paper 2 practice paper D",
+   "durationMinutes": 90,
+   "topic9": [
+    {
+     "sectionId": "P2-9-DE-DEVELOPMENT",
+     "questionId": "P2-9-DE-DEVELOPMENT-Q03"
+    },
+    {
+     "sectionId": "P2-9-AR-DEVELOPMENT",
+     "questionId": "P2-9-AR-DEVELOPMENT-Q02"
+    },
+    {
+     "sectionId": "P2-9-SA-TRANSITION",
+     "questionId": "P2-9-SA-TRANSITION-Q02"
+    },
+    {
+     "sectionId": "P2-9-DE-POLICIES",
+     "questionId": "P2-9-DE-POLICIES-Q01"
+    },
+    {
+     "sectionId": "P2-9-SA-CONDITIONS",
+     "questionId": "P2-9-SA-CONDITIONS-Q02"
+    }
+   ],
+   "topic12": [
+    {
+     "sectionId": "P2-12-CRISIS-CUBA",
+     "questionId": "P2-12-CRISIS-CUBA-Q03"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-NICARAGUA",
+     "questionId": "P2-12-CRISIS-NICARAGUA-Q02"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-EASTERN-EUROPE",
+     "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q02"
+    },
+    {
+     "sectionId": "P2-12-END",
+     "questionId": "P2-12-END-Q01"
+    },
+    {
+     "sectionId": "P2-12-GRAND-ALLIANCE",
+     "questionId": "P2-12-GRAND-ALLIANCE-Q02"
+    }
+   ]
+  },
+  {
+   "paperId": "P2-E",
+   "paper": "P2",
+   "title": "Paper 2 practice paper E",
+   "durationMinutes": 90,
+   "topic9": [
+    {
+     "sectionId": "P2-9-SA-TRANSITION",
+     "questionId": "P2-9-SA-TRANSITION-Q03"
+    },
+    {
+     "sectionId": "P2-9-DE-POLICIES",
+     "questionId": "P2-9-DE-POLICIES-Q02"
+    },
+    {
+     "sectionId": "P2-9-SA-CONDITIONS",
+     "questionId": "P2-9-SA-CONDITIONS-Q03"
+    },
+    {
+     "sectionId": "P2-9-DE-EMERGENCE",
+     "questionId": "P2-9-DE-EMERGENCE-Q02"
+    },
+    {
+     "sectionId": "P2-9-AR-EMERGENCE",
+     "questionId": "P2-9-AR-EMERGENCE-Q03"
+    }
+   ],
+   "topic12": [
+    {
+     "sectionId": "P2-12-CRISIS-EASTERN-EUROPE",
+     "questionId": "P2-12-CRISIS-EASTERN-EUROPE-Q03"
+    },
+    {
+     "sectionId": "P2-12-END",
+     "questionId": "P2-12-END-Q02"
+    },
+    {
+     "sectionId": "P2-12-GRAND-ALLIANCE",
+     "questionId": "P2-12-GRAND-ALLIANCE-Q03"
+    },
+    {
+     "sectionId": "P2-12-CONTAINMENT",
+     "questionId": "P2-12-CONTAINMENT-Q02"
+    },
+    {
+     "sectionId": "P2-12-LEADERS",
+     "questionId": "P2-12-LEADERS-Q03"
+    }
+   ]
+  },
+  {
+   "paperId": "P2-F",
+   "paper": "P2",
+   "title": "Paper 2 practice paper F",
+   "durationMinutes": 90,
+   "topic9": [
+    {
+     "sectionId": "P2-9-SA-CONDITIONS",
+     "questionId": "P2-9-SA-CONDITIONS-Q04"
+    },
+    {
+     "sectionId": "P2-9-DE-EMERGENCE",
+     "questionId": "P2-9-DE-EMERGENCE-Q03"
+    },
+    {
+     "sectionId": "P2-9-AR-EMERGENCE",
+     "questionId": "P2-9-AR-EMERGENCE-Q04"
+    },
+    {
+     "sectionId": "P2-9-ES",
+     "questionId": "P2-9-ES-Q03"
+    },
+    {
+     "sectionId": "P2-9-COMPARATIVE",
+     "questionId": "P2-9-COMPARATIVE-Q04"
+    }
+   ],
+   "topic12": [
+    {
+     "sectionId": "P2-12-GRAND-ALLIANCE",
+     "questionId": "P2-12-GRAND-ALLIANCE-Q04"
+    },
+    {
+     "sectionId": "P2-12-CONTAINMENT",
+     "questionId": "P2-12-CONTAINMENT-Q03"
+    },
+    {
+     "sectionId": "P2-12-LEADERS",
+     "questionId": "P2-12-LEADERS-Q04"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-BERLIN-BLOCKADE",
+     "questionId": "P2-12-CRISIS-BERLIN-BLOCKADE-Q03"
+    },
+    {
+     "sectionId": "P2-12-CRISIS-BERLIN-1958-61",
+     "questionId": "P2-12-CRISIS-BERLIN-1958-61-Q04"
+    }
+   ]
+  },
+  {
+   "paperId": "P3-A",
+   "paper": "P3",
+   "title": "Paper 3 practice paper A",
+   "durationMinutes": 150,
+   "questions": [
+    {
+     "sectionId": "P3-16-Y1-STALIN-POWER",
+     "questionId": "P3-16-Y1-STALIN-POWER-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-STALIN-ECONOMY",
+     "questionId": "P3-16-Y1-STALIN-ECONOMY-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-STALIN-CONTROL",
+     "questionId": "P3-16-Y1-STALIN-CONTROL-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-GPW-POSTWAR",
+     "questionId": "P3-16-Y1-GPW-POSTWAR-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-17-B1-GERMAN-QUESTION",
+     "questionId": "P3-17-B1-GERMAN-QUESTION-Q01",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B2-RECOVERY",
+     "questionId": "P3-17-B2-RECOVERY-Q01",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B3-WEST-GERMANY",
+     "questionId": "P3-17-B3-WEST-GERMANY-Q01",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B4-SPAIN",
+     "questionId": "P3-17-B4-SPAIN-Q01",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-18-B1-SOVIET-CONTROL",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q01",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B2-PROTEST-TO-1968",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q01",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q01",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B1-SOVIET-CONTROL",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q02",
+     "area": "18"
+    }
+   ]
+  },
+  {
+   "paperId": "P3-B",
+   "paper": "P3",
+   "title": "Paper 3 practice paper B",
+   "durationMinutes": 150,
+   "questions": [
+    {
+     "sectionId": "P3-16-Y1-STALIN-CONTROL",
+     "questionId": "P3-16-Y1-STALIN-CONTROL-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-GPW-POSTWAR",
+     "questionId": "P3-16-Y1-GPW-POSTWAR-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-KHRUSHCHEV",
+     "questionId": "P3-16-Y1-KHRUSHCHEV-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-BREZHNEV",
+     "questionId": "P3-16-Y1-BREZHNEV-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-17-B2-RECOVERY",
+     "questionId": "P3-17-B2-RECOVERY-Q02",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B3-WEST-GERMANY",
+     "questionId": "P3-17-B3-WEST-GERMANY-Q02",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B4-SPAIN",
+     "questionId": "P3-17-B4-SPAIN-Q02",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B5-ITALY",
+     "questionId": "P3-17-B5-ITALY-Q01",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-18-B2-PROTEST-TO-1968",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q02",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q02",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B1-SOVIET-CONTROL",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q03",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B2-PROTEST-TO-1968",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q03",
+     "area": "18"
+    }
+   ]
+  },
+  {
+   "paperId": "P3-C",
+   "paper": "P3",
+   "title": "Paper 3 practice paper C",
+   "durationMinutes": 150,
+   "questions": [
+    {
+     "sectionId": "P3-16-Y1-KHRUSHCHEV",
+     "questionId": "P3-16-Y1-KHRUSHCHEV-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-BREZHNEV",
+     "questionId": "P3-16-Y1-BREZHNEV-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-B4-INHERITANCE",
+     "questionId": "P3-16-B4-INHERITANCE-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-B4-ECONOMICS",
+     "questionId": "P3-16-B4-ECONOMICS-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-17-B3-WEST-GERMANY",
+     "questionId": "P3-17-B3-WEST-GERMANY-Q03",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B4-SPAIN",
+     "questionId": "P3-17-B4-SPAIN-Q03",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B5-ITALY",
+     "questionId": "P3-17-B5-ITALY-Q02",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B1-GERMAN-QUESTION",
+     "questionId": "P3-17-B1-GERMAN-QUESTION-Q02",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q03",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B1-SOVIET-CONTROL",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q04",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B2-PROTEST-TO-1968",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q04",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q04",
+     "area": "18"
+    }
+   ]
+  },
+  {
+   "paperId": "P3-D",
+   "paper": "P3",
+   "title": "Paper 3 practice paper D",
+   "durationMinutes": 150,
+   "questions": [
+    {
+     "sectionId": "P3-16-B4-INHERITANCE",
+     "questionId": "P3-16-B4-INHERITANCE-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-B4-ECONOMICS",
+     "questionId": "P3-16-B4-ECONOMICS-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-B4-GLASNOST",
+     "questionId": "P3-16-B4-GLASNOST-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-B5-COLLAPSE",
+     "questionId": "P3-16-B5-COLLAPSE-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-17-B4-SPAIN",
+     "questionId": "P3-17-B4-SPAIN-Q04",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B5-ITALY",
+     "questionId": "P3-17-B5-ITALY-Q03",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B1-GERMAN-QUESTION",
+     "questionId": "P3-17-B1-GERMAN-QUESTION-Q03",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B2-RECOVERY",
+     "questionId": "P3-17-B2-RECOVERY-Q03",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-18-B1-SOVIET-CONTROL",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q05",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B2-PROTEST-TO-1968",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q05",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q05",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B1-SOVIET-CONTROL",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q06",
+     "area": "18"
+    }
+   ]
+  },
+  {
+   "paperId": "P3-E",
+   "paper": "P3",
+   "title": "Paper 3 practice paper E",
+   "durationMinutes": 150,
+   "questions": [
+    {
+     "sectionId": "P3-16-B4-GLASNOST",
+     "questionId": "P3-16-B4-GLASNOST-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-B5-COLLAPSE",
+     "questionId": "P3-16-B5-COLLAPSE-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-B5-YELTSIN",
+     "questionId": "P3-16-B5-YELTSIN-Q01",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-STALIN-POWER",
+     "questionId": "P3-16-Y1-STALIN-POWER-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-17-B5-ITALY",
+     "questionId": "P3-17-B5-ITALY-Q04",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B1-GERMAN-QUESTION",
+     "questionId": "P3-17-B1-GERMAN-QUESTION-Q04",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B2-RECOVERY",
+     "questionId": "P3-17-B2-RECOVERY-Q04",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B3-WEST-GERMANY",
+     "questionId": "P3-17-B3-WEST-GERMANY-Q04",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-18-B2-PROTEST-TO-1968",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q06",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q06",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B1-SOVIET-CONTROL",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q01",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B2-PROTEST-TO-1968",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q01",
+     "area": "18"
+    }
+   ]
+  },
+  {
+   "paperId": "P3-F",
+   "paper": "P3",
+   "title": "Paper 3 practice paper F",
+   "durationMinutes": 150,
+   "questions": [
+    {
+     "sectionId": "P3-16-B5-YELTSIN",
+     "questionId": "P3-16-B5-YELTSIN-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-STALIN-POWER",
+     "questionId": "P3-16-Y1-STALIN-POWER-Q03",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-STALIN-ECONOMY",
+     "questionId": "P3-16-Y1-STALIN-ECONOMY-Q02",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-16-Y1-STALIN-CONTROL",
+     "questionId": "P3-16-Y1-STALIN-CONTROL-Q03",
+     "area": "16"
+    },
+    {
+     "sectionId": "P3-17-B1-GERMAN-QUESTION",
+     "questionId": "P3-17-B1-GERMAN-QUESTION-Q05",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B2-RECOVERY",
+     "questionId": "P3-17-B2-RECOVERY-Q05",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B3-WEST-GERMANY",
+     "questionId": "P3-17-B3-WEST-GERMANY-Q05",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-17-B4-SPAIN",
+     "questionId": "P3-17-B4-SPAIN-Q05",
+     "area": "17"
+    },
+    {
+     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q01",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B1-SOVIET-CONTROL",
+     "questionId": "P3-18-B1-SOVIET-CONTROL-Q02",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B2-PROTEST-TO-1968",
+     "questionId": "P3-18-B2-PROTEST-TO-1968-Q02",
+     "area": "18"
+    },
+    {
+     "sectionId": "P3-18-B3-ACCEPTANCE-OPPOSITION",
+     "questionId": "P3-18-B3-ACCEPTANCE-OPPOSITION-Q02",
+     "area": "18"
+    }
+   ]
+  }
+ ]
+}

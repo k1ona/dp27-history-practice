@@ -8,6 +8,8 @@ import { writtenTask } from "./screens/task.js";
 import { attemptScreen } from "./screens/attempt.js";
 import { settings, setup } from "./screens/settings.js";
 import { inbox } from "./screens/inbox.js";
+import { timedHome, timedStart, timedWriter, timedSummary } from "./screens/timed.js";
+import { reviewQueue, weeklyDrill } from "./screens/review.js";
 
 const routes = [
   [/^#\/?$/, () => dashboard()],
@@ -21,6 +23,12 @@ const routes = [
   [/^#\/s\/([^/]+)\/task\/([^/]+)\/(plan|paragraph|essay|p1q1a|p1q1b|p1q2|p1q3|p1q4)(?:\/redraft\/([^/]+))?$/,
     (m) => writtenTask(m[1], m[2], m[3], m[4] || null)],
   [/^#\/attempt\/([^/]+)(?:\/(selfcheck|feedback|model))?$/, (m) => attemptScreen(m[1], m[2] || "feedback")],
+  [/^#\/timed$/, () => timedHome()],
+  [/^#\/timed\/start\/([^/]+)$/, (m) => timedStart(m[1])],
+  [/^#\/timed\/write\/([^/]+)$/, (m) => timedWriter(m[1])],
+  [/^#\/timed\/summary\/([^/]+)$/, (m) => timedSummary(m[1])],
+  [/^#\/review$/, () => reviewQueue()],
+  [/^#\/review\/weekly$/, () => weeklyDrill()],
 ];
 
 let navToken = 0;

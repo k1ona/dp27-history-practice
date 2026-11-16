@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dp27.local/schema/timedpapers.schema.json",
+  "title": "content/timed_papers.json: the 18 timed full papers (BUILD_PLAN SS5.3). Every paper only names\nalready-built content (a Paper 1 source set, or essay questionIds from Paper 2/3 sections).",
+  "type": "object",
+  "required": ["schema", "papers"],
+  "properties": {
+    "schema": { "const": "dp27.timedpapers.v1" },
+    "papers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["paperId", "paper", "title", "durationMinutes"],
+        "properties": {
+          "paperId": { "type": "string", "pattern": "^P[123]-[A-Z0-9-]+$" },
+          "paper": { "$ref": "common.schema.json#/$defs/paper" },
+          "title": { "type": "string" },
+          "durationMinutes": { "type": "integer" },
+          "caseStudy": { "enum": ["CS1", "CS2"] },
+          "sectionId": { "$ref": "common.schema.json#/$defs/sectionId" },
+          "sourceSetId": { "type": "string" },
+          "topic9": { "type": "array", "items": { "$ref": "#/$defs/ref" } },
+          "topic12": { "type": "array", "items": { "$ref": "#/$defs/ref" } },
+          "questions": { "type": "array", "items": { "$ref": "#/$defs/ref" } }
+        },
+        "additionalProperties": false,
+        "allOf": [
+          { "if": { "properties": { "paper": { "const": "P1" } } },
+            "then": { "required": ["caseStudy", "sectionId", "sourceSetId"] } },
+          { "if": { "properties": { "paper": { "const": "P2" } } },
+            "then": { "required": ["topic9", "topic12"] } },
+          { "if": { "properties": { "paper": { "const": "P3" } } },
+            "then": { "required": ["questions"] } }
+        ]
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "ref": {
+      "type": "object",
+      "required": ["sectionId", "questionId"],
+      "properties": {
+        "sectionId": { "$ref": "common.schema.json#/$defs/sectionId" },
+        "questionId": { "$ref": "common.schema.json#/$defs/questionId" },
+        "area": { "enum": ["16", "17", "18"] }
+      },
+      "additionalProperties": false
+    }
+  }
+}

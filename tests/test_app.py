@@ -61,6 +61,10 @@ def test_offline_after_one_visit(page, context, site_url, content):
     p2 = context.new_page()
     p2.goto(site_url + f"#/s/{P1}")
     expect(p2.locator("h1")).to_contain_text("German and Italian expansion")
+    p2.goto(site_url + "#/timed")
+    expect(p2.locator("text=Timed full papers")).to_be_visible()
+    p2.goto(site_url + "#/review")
+    expect(p2.locator("text=Daily review")).to_be_visible()
     p2.close()
 
 
@@ -429,11 +433,25 @@ def test_no_horizontal_scroll(page, site_url, content, size):
     page.set_viewport_size({"width": size[0], "height": size[1]})
     open_app(page, site_url)
     seed_gate(page, content[P1])
-    for h in ["", f"#/s/{GLASNOST}/read/0", f"#/s/{P1}", f"#/s/{P1}/task/P1-CS2-CAUSES-SS01-Q4/p1q4", f"#/s/{GLASNOST}/recall"]:
+    for h in ["", f"#/s/{GLASNOST}/read/0", f"#/s/{P1}", f"#/s/{P1}/task/P1-CS2-CAUSES-SS01-Q4/p1q4", f"#/s/{GLASNOST}/recall",
+              "#/timed", "#/timed/start/P1-CS1-A", "#/timed/start/P2-A", "#/timed/start/P3-A", "#/review"]:
         page.goto(site_url + h)
         page.wait_for_timeout(500)
         over = page.evaluate("document.documentElement.scrollWidth - document.documentElement.clientWidth")
         assert over <= 1, f"{h or 'dashboard'} overflows by {over}px at {size}"
+
+
+@pytest.mark.parametrize("size", [(768, 1024), (1024, 768)], ids=["ipad-portrait", "ipad-landscape"])
+def test_timed_writer_no_horizontal_scroll(page, site_url, size):
+    """The Paper 1 writer screen (sources block, 5 stacked parts, sticky timer) is the widest and
+    most layout-risky view the timed-papers feature adds, so it gets its own iPad check."""
+    page.set_viewport_size({"width": size[0], "height": size[1]})
+    setup_profile(page, site_url)
+    page.goto(site_url + "#/timed/start/P1-CS1-A")
+    page.get_by_role("button", name="Start the timer").click()
+    page.wait_for_selector("#submit-paper")
+    over = page.evaluate("document.documentElement.scrollWidth - document.documentElement.clientWidth")
+    assert over <= 1, f"timed writer overflows by {over}px at {size}"
 
 
 def test_dark_mode(page, site_url):

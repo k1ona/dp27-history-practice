@@ -115,8 +115,14 @@ async function feedbackView(root, a, found, criteria) {
     root.insertBefore(teacherCard(teacher), root.children[2] || null);
     if (!teacher.readAt) { teacher.readAt = new Date().toISOString(); await db.put("feedback", teacher, a.submissionId); updateInboxBadge(); }
   }
+  if (a.timedSessionId) {
+    root.append(el("div", { class: "callout", "data-timed-paper": "" },
+      a.timedNext
+        ? el("a", { class: "btn", id: "timed-next", href: `#/attempt/${a.timedNext}/selfcheck` }, "Next part of this timed paper →")
+        : el("a", { class: "btn", id: "timed-finish", href: `#/timed/summary/${a.timedSessionId}` }, "Finish this timed paper →")));
+  }
   root.append(el("div", { class: "row" },
-    el("a", { class: "btn", id: "redraft", href: `#/s/${a.sectionId}/task/${a.questionId}/${nextMode}/redraft/${a.submissionId}` },
+    el("a", { class: "btn" + (a.timedSessionId ? " secondary" : ""), id: "redraft", href: `#/s/${a.sectionId}/task/${a.questionId}/${nextMode}/redraft/${a.submissionId}` },
       teacher ? "Redraft after teacher feedback" : "Redraft"),
     el("a", { class: "btn secondary", id: "see-model", href: `#/attempt/${a.submissionId}/model` }, "See the model"),
     el("a", { class: "btn secondary", href: `#/s/${a.sectionId}` }, "Try another question")));

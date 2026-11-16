@@ -17,6 +17,7 @@ export const content = {
   map: () => getJSON("content/sections.json"),
   available: () => getJSON("content/available.json").catch(() => ({ sections: [] })),
   markbands: () => getJSON("content/_markbands.json"),
+  timedPapers: () => getJSON("content/timed_papers.json"),
   credits: () => getJSON("content/_media/credits.json").catch(() => ({ media: [] })),
   section: (id) => getJSON(`content/sections/${id}.json`),
   async record(id) {

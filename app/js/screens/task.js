@@ -36,6 +36,49 @@ export async function sourcesBlock(set) {
   return wrap;
 }
 
+/**
+ * Builds (but does not save) a dp27.submission.v1 attempt for one answered question. Shared by the
+ * normal single-question flow below and the timed-paper writer (screens/timed.js), so both run
+ * through the exact same checks, copy-guard and contract shape.
+ */
+export async function buildAttempt({ id, rec, section, found, questionId, taskType, paper, text, startedAt, parent, profile, timed = false }) {
+  const cfg = await content.config();
+  const checks = runChecks({ taskType, text, q: found.q, set: found.set, section });
+  const copy = copyGuard(text, modelText(found), found.q.autoCheck || {});
+  const draft = parent ? parent.draft + 1 : 1;
+  return {
+    schema: "dp27.submission.v1",
+    submissionId: uuid(),
+    parentSubmissionId: parent ? parent.submissionId : null,
+    studentId: profile.studentId || "",
+    level: profile.level,
+    sectionId: id,
+    questionId,
+    paper,
+    taskType,
+    draft,
+    questionText: found.q.text,
+    commandTerm: found.kind === "essay" ? found.q.commandTerm : null,
+    namedFactor: found.kind === "essay" ? found.q.namedFactor : null,
+    timeframe: found.kind === "essay" ? found.q.timeframe : rec.timeframe,
+    sourceSetId: found.kind === "p1" ? found.set.sourceSetId : null,
+    responseText: text,
+    responses: [],
+    wordCount: wordCount(text),
+    minutesSpent: Math.max(1, Math.round((Date.now() - startedAt) / 60000)),
+    timed,
+    autoCheck: { met: checks.filter((c) => c.met === true).map((c) => c.id), notMet: checks.filter((c) => c.met === false).map((c) => c.id),
+      details: checks.filter((c) => c.met === false).map((c) => ({ id: c.id, quote: c.quote, missing: c.missing, action: c.action })) },
+    selfCheck: { met: [], notMet: [] },
+    createdAt: new Date().toISOString(),
+    appVersion: cfg.appVersion,
+    counted: !copy.tooClose,
+    afterFeedback: !!parent,
+    afterTeacherFeedback: !!(parent && (await db.get("feedback", parent.submissionId))),
+    local: { checks, copy, fixed: parent ? fixedSince(parent.local?.checks, checks) : [], stage: "selfcheck" },
+  };
+}
+
 export async function writtenTask(id, questionId, taskType, parentId) {
   const rec = await content.record(id);
   const section = await content.section(id);
@@ -101,41 +144,7 @@ export async function writtenTask(id, questionId, taskType, parentId) {
     const text = ta.value.trim();
     if (wordCount(text) < 10) { toast("Write your answer first (at least a couple of sentences)."); return; }
     submit.disabled = true;
-    const cfg = await content.config();
-    const checks = runChecks({ taskType, text, q, set: found.set, section });
-    const copy = copyGuard(text, modelText(found), q.autoCheck || {});
-    const draft = parent ? parent.draft + 1 : 1;
-    const attempt = {
-      schema: "dp27.submission.v1",
-      submissionId: uuid(),
-      parentSubmissionId: parent ? parent.submissionId : null,
-      studentId: profile.studentId || "",
-      level: profile.level,
-      sectionId: id,
-      questionId,
-      paper,
-      taskType,
-      draft,
-      questionText: q.text,
-      commandTerm: found.kind === "essay" ? q.commandTerm : null,
-      namedFactor: found.kind === "essay" ? q.namedFactor : null,
-      timeframe: found.kind === "essay" ? q.timeframe : rec.timeframe,
-      sourceSetId: found.kind === "p1" ? found.set.sourceSetId : null,
-      responseText: text,
-      responses: [],
-      wordCount: wordCount(text),
-      minutesSpent: Math.max(1, Math.round((Date.now() - startedAt) / 60000)),
-      timed: false,
-      autoCheck: { met: checks.filter((c) => c.met === true).map((c) => c.id), notMet: checks.filter((c) => c.met === false).map((c) => c.id),
-        details: checks.filter((c) => c.met === false).map((c) => ({ id: c.id, quote: c.quote, missing: c.missing, action: c.action })) },
-      selfCheck: { met: [], notMet: [] },
-      createdAt: new Date().toISOString(),
-      appVersion: cfg.appVersion,
-      counted: !copy.tooClose,
-      afterFeedback: !!parent,
-      afterTeacherFeedback: !!(parent && (await db.get("feedback", parent.submissionId))),
-      local: { checks, copy, fixed: parent ? fixedSince(parent.local?.checks, checks) : [], stage: "selfcheck" },
-    };
+    const attempt = await buildAttempt({ id, rec, section, found, questionId, taskType, paper, text, startedAt, parent, profile });
     await db.put("attempts", attempt);
     await db.del("meta", draftKey);
     location.hash = `#/attempt/${attempt.submissionId}/selfcheck`;

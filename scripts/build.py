@@ -33,6 +33,7 @@ def main() -> int:
     (out / "_media").mkdir(parents=True)
     shutil.copy2(CONTENT / "sections.json", out / "sections.json")
     shutil.copy2(CONTENT / "_markbands.json", out / "_markbands.json")
+    shutil.copy2(CONTENT / "timed_papers.json", out / "timed_papers.json")
     available = []
     for f in sorted((CONTENT / "sections").glob("*.json")):
         shutil.copy2(f, out / "sections" / f.name)
