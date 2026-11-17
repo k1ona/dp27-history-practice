@@ -33,8 +33,23 @@ def test_correct_pin_unlocks_teacher_mode(page, site_url):
     setup_profile(page, site_url)
     unlock(page, site_url)
     expect(page.locator("text=Import exported work")).to_be_visible()
-    expect(page.locator("text=No register link is set yet.")).to_be_visible()
+    expect(page.get_by_role("link", name="Open the Register Sheet")).to_be_visible()
     expect(page.locator("text=No files imported yet.")).to_be_visible()
+
+
+def test_no_register_url_shows_setup_note(context, site_url):
+    def cfg(route):
+        body = json.loads(route.fetch().text())
+        body["registerUrl"] = ""
+        route.fulfill(status=200, content_type="application/json", body=json.dumps(body))
+    context.route(re.compile(r".*/config\.json$"), cfg)
+    page = context.new_page()
+    setup_profile(page, site_url)
+    unlock(page, site_url)
+    expect(page.locator("text=No register link is set yet.")).to_be_visible()
+    expect(page.get_by_role("link", name="Open the Register Sheet")).to_have_count(0)
+    page.close()
+    context.unroute(re.compile(r".*/config\.json$"))
 
 
 def test_no_pin_set_shows_setup_instructions(context, site_url):

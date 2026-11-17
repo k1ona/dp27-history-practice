@@ -2,7 +2,7 @@
   "appVersion": "0.2.0",
   "classCode": "12A",
   "syncEndpoint": "https://script.google.com/macros/s/AKfycbz7w1j6C-Dc6erjAbJF3TGNvVOLGlUw4U2uu8tZlrtDJLLUtDrWdzmO6FiOrPVokNN5/exec",
-  "registerUrl": "",
+  "registerUrl": "https://docs.google.com/spreadsheets/d/1Mqc6r90PwEVXmjzNIGpA77fUSPNbO4qplExcjHly4To/edit?gid=0#gid=0",
   "teacherPinHash": "11107b30e07d2960100594b70d75707dcb9be2ed6fce92734f25c2c743bc59a7",
   "teacherPinSalt": "d61f9f4ff3d4d215299c126730765d0d"
 }
