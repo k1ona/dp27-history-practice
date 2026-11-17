@@ -99,6 +99,21 @@ def test_practice_gate_requires_reading_and_80_percent(page, site_url, content):
     expect(page.locator("#practice a", has_text="Retrieval")).to_be_visible()
 
 
+def test_continue_reading_resumes_at_the_first_unread_chunk(page, site_url):
+    """"Continue reading" must not send a student back to the start every time (regression)."""
+    open_app(page, site_url)
+    seed(page, "reading", [[GLASNOST, {"chunksRead": ["K1", "K2"], "prediction": "Partly.", "revisit": ""}]])
+    page.goto(site_url + f"#/s/{GLASNOST}")
+    link = page.get_by_role("link", name="Continue reading")
+    expect(link).to_have_attribute("href", f"#/s/{GLASNOST}/read/4")
+    link.click()
+    expect(page.locator("article.chunk p.small").first).to_contain_text("Chunk 3 of 4")
+    # Once every chunk is read, "Continue reading" goes straight to the wrap-up, not chunk 1 again.
+    seed(page, "reading", [[GLASNOST, {"chunksRead": ["K1", "K2", "K3", "K4"], "prediction": "Partly.", "revisit": ""}]])
+    page.goto(site_url + f"#/s/{GLASNOST}")
+    expect(page.get_by_role("link", name="Continue reading")).to_have_attribute("href", f"#/s/{GLASNOST}/read/6")
+
+
 # ---------------------------------------------------------------- retry and redraft
 def test_feedback_redraft_and_model_reveal(page, site_url, content):
     sec = content[GLASNOST]

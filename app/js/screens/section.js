@@ -24,6 +24,9 @@ export async function sectionHome(id) {
   const section = await content.section(id);
   const p = await sectionProgress(rec, section);
   const profile = (await db.get("profile", "me")) || { level: "HL" };
+  const chunkIds = section.context.chunks.map((c) => c.chunkId);
+  const nextChunkIdx = chunkIds.findIndex((cid) => !(p.reading.chunksRead || []).includes(cid));
+  const continueStep = nextChunkIdx === -1 ? chunkIds.length + 2 : nextChunkIdx + 2;
 
   root.append(el("section", { class: "card" },
     el("h2", { style: "margin-top:0" }, "1 · Context builder"),
@@ -31,7 +34,7 @@ export async function sectionHome(id) {
     el("ul", { class: "progress-list" },
       el("li", {}, el("span", {}, "Chunks read"), el("span", {}, `${p.chunksRead}/${p.chunkTotal}`)),
       el("li", {}, el("span", {}, "Checkpoint score (best attempt)"), el("span", { class: p.checkpoint >= PASS ? "ok" : "", "data-checkpoint": pct(p.checkpoint) }, pct(p.checkpoint)))),
-    el("div", { class: "row" }, el("a", { class: "btn", href: `#/s/${id}/read/0` }, p.chunksRead ? "Continue reading" : "Start reading"),
+    el("div", { class: "row" }, el("a", { class: "btn", href: `#/s/${id}/read/${p.chunksRead ? continueStep : 0}` }, p.chunksRead ? "Continue reading" : "Start reading"),
       el("a", { class: "btn secondary", href: `#/s/${id}/recall` }, "Recall sheet")),
     el("details", {}, el("summary", {}, "Retake a checkpoint"), el("div", { class: "row" },
       ...section.context.chunks.map((c) => el("a", { class: "btn secondary", href: `#/s/${id}/items/checkpoint-${c.chunkId}` }, `Checkpoint ${c.chunkId.slice(1)}`))))));
