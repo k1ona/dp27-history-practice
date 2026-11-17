@@ -1690,6 +1690,411 @@
      "explanation": "It was rejected in 1954."
     }
    ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R21",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were the three aims of initial American occupation policy in Germany? Choose all that apply.",
+   "factIds": [
+    "F-GERMQ-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Demilitarisation",
+     "correct": true,
+     "explanation": "Yes: the Wehrmacht was formally dissolved on 20 August 1946."
+    },
+    {
+     "id": "b",
+     "text": "Denazification",
+     "correct": true,
+     "explanation": "Yes: removing former Nazis from public life."
+    },
+    {
+     "id": "c",
+     "text": "Deindustrialisation",
+     "correct": true,
+     "explanation": "Yes: a March 1946 plan strictly limited German industry, especially steel."
+    },
+    {
+     "id": "d",
+     "text": "Reunification with Austria",
+     "correct": false,
+     "explanation": "Not an aim of occupation policy."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date was the Wehrmacht formally dissolved? (day month year, e.g. 1 January 1946)",
+   "factIds": [
+    "F-GERMQ-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "20 August 1946",
+     "accept": [
+      "20 august 1946",
+      "august 20 1946",
+      "20/8/1946"
+     ],
+     "explanation": "20 August 1946."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R23",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how much did occupying its zone cost Britain a year, against at most how much in reparations? ($ million occupation cost)",
+   "factIds": [
+    "F-GERMQ-05"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 80,
+     "tolerance": 0,
+     "explanation": "$80 million a year, against at most $29 million in reparations."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R24",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Dalton said Britain was 'paying reparations to the Germans', since occupation cost far more than reparations received.” Which argument does it support best?",
+   "factIds": [
+    "F-GERMQ-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Occupation was a heavy, even self-defeating, economic burden on the Western powers",
+     "correct": true,
+     "explanation": "Correct: Britain had to ration bread at home."
+    },
+    {
+     "id": "b",
+     "text": "Reparations greatly enriched Britain",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Germany paid no reparations at all",
+     "correct": false,
+     "explanation": "Some reparations were paid, just far less than the cost of occupation."
+    },
+    {
+     "id": "d",
+     "text": "Britain refused to occupy any zone",
+     "correct": false,
+     "explanation": "Britain held an occupation zone."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R25",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who suspended reparations deliveries from the American zone in May 1946, and why?",
+   "factIds": [
+    "F-GERMQ-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "General Clay, saying the Soviets had not kept their Potsdam undertakings",
+     "correct": true,
+     "explanation": "Correct: Britain followed two months later."
+    },
+    {
+     "id": "b",
+     "text": "Stalin, in protest at Marshall Aid",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "The United Nations",
+     "correct": false,
+     "explanation": "Not the actor here."
+    },
+    {
+     "id": "d",
+     "text": "The German government",
+     "correct": false,
+     "explanation": "There was no all-German government."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R26",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what month and year did the last Foreign Ministers' meeting on Germany break up without agreement? (month year)",
+   "factIds": [
+    "F-GERMQ-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "December 1947",
+     "accept": [
+      "december 1947",
+      "november 1947",
+      "nov-dec 1947"
+     ],
+     "explanation": "25 November – 16 December 1947, in London."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R27",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The London Foreign Ministers' meeting of November–December 1947 broke up without agreement or a further date.” Which argument does it support best?",
+   "factIds": [
+    "F-GERMQ-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "By the end of 1947 four-power cooperation on Germany had effectively ended",
+     "correct": true,
+     "explanation": "Correct: no further meeting was even scheduled."
+    },
+    {
+     "id": "b",
+     "text": "The four powers agreed on German reunification in 1947",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The meeting created the two German states directly",
+     "correct": false,
+     "explanation": "That followed from the Berlin crisis, not this meeting alone."
+    },
+    {
+     "id": "d",
+     "text": "The Soviets walked out before talks began",
+     "correct": false,
+     "explanation": "The meeting was held in full but reached no agreement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R28",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how many East German workers struck in June 1953? (number)",
+   "factIds": [
+    "F-GERMQ-22"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 400000,
+     "tolerance": 0,
+     "explanation": "About 400,000."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did the June 1953 East German rising end?",
+   "factIds": [
+    "F-GERMQ-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Red Army tanks crushed it; nearly 300 people were killed",
+     "correct": true,
+     "explanation": "Correct: a direct Soviet military intervention."
+    },
+    {
+     "id": "b",
+     "text": "The East German government resigned",
+     "correct": false,
+     "explanation": "It did not."
+    },
+    {
+     "id": "c",
+     "text": "West Germany intervened militarily",
+     "correct": false,
+     "explanation": "It did not."
+    },
+    {
+     "id": "d",
+     "text": "The workers won higher wages peacefully",
+     "correct": false,
+     "explanation": "The rising was crushed by force."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R30",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The US and Britain soon gave Germans responsibility for domestic affairs, which German politicians exploited.” Which argument does it support best?",
+   "factIds": [
+    "F-GERMQ-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Western strategy aimed to stop impoverished Germans turning to Nazism or Communism by giving them a stake in self-government",
+     "correct": true,
+     "explanation": "Correct: and German politicians used this opening."
+    },
+    {
+     "id": "b",
+     "text": "The Western powers planned permanent military government",
+     "correct": false,
+     "explanation": "The opposite: responsibility passed quickly to Germans."
+    },
+    {
+     "id": "c",
+     "text": "Germans were given no political role before 1955",
+     "correct": false,
+     "explanation": "Domestic responsibility came much earlier."
+    },
+    {
+     "id": "d",
+     "text": "Only the Soviets allowed German self-government",
+     "correct": false,
+     "explanation": "This describes US and British policy."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R31",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In 1945 the Allies planned from the start to divide Germany into two permanent states.”",
+   "factIds": [
+    "F-GERMQ-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Judt argues division was an outcome none of the Allies had sought in 1945",
+     "correct": true,
+     "explanation": "Correct: it resulted from the Berlin crisis, not an original plan."
+    },
+    {
+     "id": "b",
+     "text": "Germany was reunified in 1945",
+     "correct": false,
+     "explanation": "It was occupied in four zones."
+    },
+    {
+     "id": "c",
+     "text": "The Berlin crisis happened before 1945",
+     "correct": false,
+     "explanation": "It happened in 1948–49."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: division was not the original Allied aim."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R32",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1946–1947 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "General Clay suspends reparations deliveries from the American zone",
+     "year": 1946,
+     "month": 5,
+     "factId": "F-GERMQ-06"
+    },
+    {
+     "id": "b",
+     "text": "The Wehrmacht is formally dissolved",
+     "year": 1946,
+     "month": 8,
+     "factId": "F-GERMQ-03"
+    },
+    {
+     "id": "c",
+     "text": "The Communists come far behind the Social Democrats and Christian Democrats in the Berlin city elections",
+     "year": 1946,
+     "month": 10,
+     "factId": "F-GERMQ-04"
+    },
+    {
+     "id": "d",
+     "text": "The last Foreign Ministers' meeting breaks up without agreement",
+     "year": 1947,
+     "month": 12,
+     "factId": "F-GERMQ-10"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, what did the Berlin crisis lead directly to?",
+   "factIds": [
+    "F-GERMQ-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Two German states, an outcome none of the Allies had sought in 1945",
+     "correct": true,
+     "explanation": "Correct: the FRG and the GDR followed in 1949."
+    },
+    {
+     "id": "b",
+     "text": "German reunification",
+     "correct": false,
+     "explanation": "The opposite: it entrenched division."
+    },
+    {
+     "id": "c",
+     "text": "The end of the occupation zones in 1946",
+     "correct": false,
+     "explanation": "The zones persisted until 1949."
+    },
+    {
+     "id": "d",
+     "text": "A single all-German government",
+     "correct": false,
+     "explanation": "No such government was formed."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2056,6 +2461,297 @@
      "text": "No written guarantee of access to Berlin at Potsdam",
      "answer": "causes",
      "explanation": "The opening Stalin used."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the reasons why four-power cooperation on Germany broke down between 1945 and 1947.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine",
+     "answer": "verb",
+     "explanation": "Break the issue into parts and show how they connect."
+    },
+    {
+     "id": "s2",
+     "text": "four-power cooperation … broke down",
+     "answer": "factor",
+     "explanation": "The result to explain."
+    },
+    {
+     "id": "s3",
+     "text": "the reasons why",
+     "answer": "scope",
+     "explanation": "Causes, not consequences."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1947",
+     "answer": "timeframe",
+     "explanation": "From Potsdam to the last Foreign Ministers' meeting."
+    },
+    {
+     "id": "s5",
+     "text": "reasons",
+     "answer": "judgement",
+     "explanation": "Which reason mattered most?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was economic disagreement responsible for the division of Germany?” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic disagreement, such as Clay's suspension of reparations in May 1946 and disputes over the cost of occupation, was a major cause of division, though it combined with political distrust and the Berlin crisis to produce two states by 1949.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against others."
+    },
+    {
+     "id": "b",
+     "text": "The Allies disagreed about money.",
+     "correct": false,
+     "explanation": "Too vague, no judgement."
+    },
+    {
+     "id": "c",
+     "text": "Germany was divided in 1949.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "d",
+     "text": "Economic disagreement caused everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In May 1946 General Clay suspended reparations deliveries from the American zone.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "This mattered because it signalled that the Western powers no longer trusted the Soviets to keep their Potsdam undertakings, hardening the zonal split.",
+     "answer": "analysis",
+     "explanation": "Explains the significance."
+    },
+    {
+     "id": "s3",
+     "text": "Occupation cost Britain far more than it received in reparations, which is why Dalton said Britain was 'paying reparations to the Germans'.",
+     "answer": "analysis",
+     "explanation": "Draws out the implication of the cost."
+    },
+    {
+     "id": "s4",
+     "text": "The last Foreign Ministers' meeting broke up in December 1947 without a further date.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Clay suspended reparations from the American zone in May 1946",
+     "right": "Economic cooperation between the occupying powers broke down early",
+     "explanation": "Over a year before the last Foreign Ministers' meeting."
+    },
+    {
+     "left": "Occupation cost Britain $80 million a year against at most $29 million in reparations",
+     "right": "Occupation was a heavy burden that pushed the West towards reviving the German economy",
+     "explanation": "A practical, not only ideological, reason to rebuild Germany."
+    },
+    {
+     "left": "400,000 East German workers struck in June 1953",
+     "right": "Discontent in the GDR was deep enough to require Soviet tanks to suppress it",
+     "explanation": "Division did not mean the GDR was secure."
+    },
+    {
+     "left": "The US and Britain quickly gave Germans responsibility for domestic affairs",
+     "right": "Western policy shifted from punishing Germany to rebuilding it as a bulwark against Communism",
+     "explanation": "A change from the first, punitive aims of occupation."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The 1953 rising in East Germany was put down.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "When about 400,000 East German workers struck in June 1953, Red Army tanks crushed the rising and nearly 300 were killed, showing that Soviet control rested ultimately on force rather than consent.",
+     "correct": true,
+     "explanation": "Correct: precise evidence and a consequence."
+    },
+    {
+     "id": "b",
+     "text": "The rising was stopped quickly.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "There was a strike in 1953.",
+     "correct": false,
+     "explanation": "Narrative only."
+    },
+    {
+     "id": "d",
+     "text": "East Germans were always loyal to the regime.",
+     "correct": false,
+     "explanation": "Contradicted by the rising itself."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The division of Germany was planned by the Allies from the start in 1945.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judt argues division was an outcome none of the Allies had sought in 1945; it resulted from the breakdown of four-power cooperation over 1946–48 and then directly from the Berlin crisis.",
+     "correct": true,
+     "explanation": "Correct: evidence and an alternative explanation."
+    },
+    {
+     "id": "b",
+     "text": "Germany is a large country.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "c",
+     "text": "The Allies were friendly in 1945.",
+     "correct": false,
+     "explanation": "Too vague, and contradicted by growing distrust."
+    },
+    {
+     "id": "d",
+     "text": "Germany wanted to be divided.",
+     "correct": false,
+     "explanation": "Not supported by the evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the division of Germany by 1949 the result of economic rather than political disagreement?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what broke down first, economic disagreement mattered most: reparations disputes from 1946 preceded the political crisis over Berlin, though both fed into the final split.",
+     "correct": true,
+     "explanation": "Correct: a stated criterion and a weighed judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there was an economic disagreement and a political disagreement.",
+     "correct": false,
+     "explanation": "No weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Germany was divided in 1949.",
+     "correct": false,
+     "explanation": "A fact, not a judgement."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, economics caused everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B1-GERMAN-QUESTION-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the division of Germany by 1949 the result of economic rather than political disagreement?” Sort each plan point into ECONOMIC or POLITICAL.",
+   "categories": [
+    {
+     "id": "economic",
+     "label": "Economic"
+    },
+    {
+     "id": "political",
+     "label": "Political"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Clay suspended reparations deliveries in May 1946",
+     "answer": "economic",
+     "explanation": "A dispute over reparations."
+    },
+    {
+     "id": "s2",
+     "text": "The last Foreign Ministers' meeting broke up without agreement in December 1947",
+     "answer": "political",
+     "explanation": "Diplomatic deadlock."
+    },
+    {
+     "id": "s3",
+     "text": "Occupation cost Britain far more than it received in reparations",
+     "answer": "economic",
+     "explanation": "A financial burden driving policy change."
+    },
+    {
+     "id": "s4",
+     "text": "The introduction of the Deutsche Mark triggered the Berlin blockade",
+     "answer": "political",
+     "explanation": "Though rooted in currency reform, Stalin's response was a political confrontation."
+    },
+    {
+     "id": "s5",
+     "text": "The US and Britain gave Germans responsibility for domestic affairs to resist Communism",
+     "answer": "political",
+     "explanation": "A strategic, ideological choice."
     }
    ]
   }

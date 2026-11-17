@@ -1662,6 +1662,436 @@
      "explanation": "No: that happened in 1983."
     }
    ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Margaret Thatcher hope to do with President Mitterrand's help in 1989–90?",
+   "factIds": [
+    "F-WGER-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'Check the German juggernaut'",
+     "correct": true,
+     "explanation": "Correct: Britain had nothing to offer as an alternative and acquiesced; Mitterrand was harder to appease."
+    },
+    {
+     "id": "b",
+     "text": "Speed up reunification",
+     "correct": false,
+     "explanation": "The opposite: she was uneasy about it."
+    },
+    {
+     "id": "c",
+     "text": "Invade East Germany",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "Block the Basic Treaty",
+     "correct": false,
+     "explanation": "That treaty was ratified in 1973, long before."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What proportion of GDR dwellings had no central heating? (number, per cent)",
+   "factIds": [
+    "F-WGER-28"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 60,
+     "tolerance": 0,
+     "explanation": "Over 60 per cent; two in five predated 1914 and a quarter lacked a bath."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R23",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Two in five GDR dwellings predated 1914 and a quarter lacked a bath.” Which argument does it support best?",
+   "factIds": [
+    "F-WGER-28"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Unification's enormous costs reflected decades of East German neglect",
+     "correct": true,
+     "explanation": "Correct: part of why absorbing the GDR cost 1.2 trillion euros by 2003."
+    },
+    {
+     "id": "b",
+     "text": "The GDR had modern housing",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "West Germany refused to invest in the East",
+     "correct": false,
+     "explanation": "It did invest heavily, hence the cost."
+    },
+    {
+     "id": "d",
+     "text": "Housing was unrelated to the cost of unification",
+     "correct": false,
+     "explanation": "It was a major part of it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R24",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role.",
+   "pairs": [
+    {
+     "left": "Alexander and Margarete Mitscherlich",
+     "right": "Psychoanalysts who argued Germans had not accepted responsibility",
+     "explanation": "Their 1967 study shaped the generational revolt."
+    },
+    {
+     "left": "Gudrun Ensslin",
+     "right": "Co-founder of the Red Army Fraction, found dead in 1977",
+     "explanation": "Arrested with Baader in 1968 for arson."
+    },
+    {
+     "left": "Siegfried Buback",
+     "right": "Attorney General assassinated by the RAF in 1977",
+     "explanation": "Killed alongside Ponto and Schleyer that year."
+    },
+    {
+     "left": "Margaret Thatcher",
+     "right": "British leader uneasy about German reunification",
+     "explanation": "Hoped with Mitterrand to slow it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R25",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these stages of German reunification in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Kohl proposes a cautious five-year programme",
+     "year": 1989,
+     "month": 11,
+     "factId": "F-WGER-24"
+    },
+    {
+     "id": "b",
+     "text": "The Alliance for Germany wins the East German election",
+     "year": 1990,
+     "month": 3,
+     "factId": "F-WGER-24"
+    },
+    {
+     "id": "c",
+     "text": "Monetary union",
+     "year": 1990,
+     "month": 7,
+     "factId": "F-WGER-24"
+    },
+    {
+     "id": "d",
+     "text": "The GDR joins the Federal Republic",
+     "year": 1990,
+     "month": 10,
+     "factId": "F-WGER-24"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were true of the RAF's 1977 campaign? Choose all that apply.",
+   "factIds": [
+    "F-WGER-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It assassinated Attorney General Siegfried Buback",
+     "correct": true,
+     "explanation": "Yes: and banker Jürgen Ponto."
+    },
+    {
+     "id": "b",
+     "text": "It kidnapped and killed Hans Martin Schleyer",
+     "correct": true,
+     "explanation": "Yes: chairman of Daimler Benz."
+    },
+    {
+     "id": "c",
+     "text": "Baader and Ensslin were found dead in their cells that October",
+     "correct": true,
+     "explanation": "Yes: 18 October 1977."
+    },
+    {
+     "id": "d",
+     "text": "It won seats in the Bundestag",
+     "correct": false,
+     "explanation": "No: it was a terrorist group, not a party."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Gorbachev opposed German reunification and demanded nothing in return for his consent.”",
+   "factIds": [
+    "F-WGER-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev settled for about $8 billion plus $2 billion in credits",
+     "correct": true,
+     "explanation": "Correct: he consented in exchange for financial support."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was the leader of East Germany",
+     "correct": false,
+     "explanation": "He led the Soviet Union; Honecker led the GDR."
+    },
+    {
+     "id": "c",
+     "text": "Reunification happened without Soviet involvement",
+     "correct": false,
+     "explanation": "Soviet consent was essential."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Gorbachev's consent had a price."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about student protest and terrorism in West Germany between 1962 and 1977. Is the fall of the Berlin Wall in November 1989 inside or outside the timeframe?",
+   "factIds": [
+    "F-WGER-24"
+   ],
+   "timeframe": [
+    1962,
+    1977
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a much later outcome",
+     "correct": true,
+     "explanation": "Correct: 1989 is 12 years after the question's end-date."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1989 is after 1977."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it shows the Republic's eventual success",
+     "correct": false,
+     "explanation": "Relevance does not override the stated timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Mitscherlichs argue in their 1967 study?",
+   "factIds": [
+    "F-WGER-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "West Germans had never truly accepted personal responsibility for Nazism",
+     "correct": true,
+     "explanation": "Correct: this shaped the generational revolt of 1968."
+    },
+    {
+     "id": "b",
+     "text": "West Germany had fully confronted its past by 1967",
+     "correct": false,
+     "explanation": "The opposite was their claim."
+    },
+    {
+     "id": "c",
+     "text": "The RAF was justified",
+     "correct": false,
+     "explanation": "Not their argument; the RAF did not exist until 1970."
+    },
+    {
+     "id": "d",
+     "text": "Ostpolitik was a mistake",
+     "correct": false,
+     "explanation": "Unrelated to their study."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people were wounded by the RAF and its offshoots between 1970 and 1978? (number)",
+   "factIds": [
+    "F-WGER-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 93,
+     "tolerance": 0,
+     "explanation": "93, alongside 28 killed and 162 hostages."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many seats and what vote share did the Greens win in 1983?",
+   "factIds": [
+    "F-WGER-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "27 seats on 5.6 per cent of the vote",
+     "correct": true,
+     "explanation": "Correct: their first entry into the Bundestag."
+    },
+    {
+     "id": "b",
+     "text": "A parliamentary majority",
+     "correct": false,
+     "explanation": "Far from it."
+    },
+    {
+     "id": "c",
+     "text": "No seats at all",
+     "correct": false,
+     "explanation": "They won 27."
+    },
+    {
+     "id": "d",
+     "text": "The same share as the SPD",
+     "correct": false,
+     "explanation": "Much smaller."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In March 1990 the Alliance for Germany, standing for rapid unification, won 48 per cent of the vote in East Germany.” Which argument does it support best?",
+   "factIds": [
+    "F-WGER-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "East Germans themselves voted decisively for rapid union, not a cautious timetable",
+     "correct": true,
+     "explanation": "Correct: this pushed Kohl away from his original five-year plan."
+    },
+    {
+     "id": "b",
+     "text": "East Germans rejected reunification",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The vote changed nothing about the pace of unity",
+     "correct": false,
+     "explanation": "It accelerated the process."
+    },
+    {
+     "id": "d",
+     "text": "Honecker won the election",
+     "correct": false,
+     "explanation": "Honecker had already fallen from power by then."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Bundesbank do as a result of the costs of unification?",
+   "factIds": [
+    "F-WGER-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Raised interest rates from 1991, slowing growth across Europe",
+     "correct": true,
+     "explanation": "Correct: because Kohl chose deficit spending over tax rises."
+    },
+    {
+     "id": "b",
+     "text": "Cut interest rates to zero",
+     "correct": false,
+     "explanation": "The opposite happened."
+    },
+    {
+     "id": "c",
+     "text": "Abolished the Deutschmark immediately",
+     "correct": false,
+     "explanation": "Monetary union with the East came first, in 1990."
+    },
+    {
+     "id": "d",
+     "text": "Had no response at all",
+     "correct": false,
+     "explanation": "It raised rates in response to the fiscal strain."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2028,6 +2458,297 @@
      "text": "Parents' silence about the past",
      "answer": "causes",
      "explanation": "The generational divide."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the role of Kohl in the reunification of Germany between 1989 and 1990.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine the role",
+     "answer": "verb",
+     "explanation": "Set out his contribution."
+    },
+    {
+     "id": "s2",
+     "text": "of Kohl",
+     "answer": "factor",
+     "explanation": "The named leader."
+    },
+    {
+     "id": "s3",
+     "text": "in the reunification of Germany",
+     "answer": "scope",
+     "explanation": "What must be explained."
+    },
+    {
+     "id": "s4",
+     "text": "between 1989 and 1990",
+     "answer": "timeframe",
+     "explanation": "From the GDR's collapse to 3 October 1990."
+    },
+    {
+     "id": "s5",
+     "text": "role",
+     "answer": "judgement",
+     "explanation": "Decisive, or dependent on events and other powers?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the role of Kohl in the reunification of Germany between 1989 and 1990.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kohl's decisive contribution was to abandon his own cautious timetable once East Germans voted for rapid union and move to monetary union within months, though Gorbachev's consent and the Allies' acquiescence were just as necessary.",
+     "correct": true,
+     "explanation": "Correct: weighs Kohl's role against other causes."
+    },
+    {
+     "id": "b",
+     "text": "Kohl became Chancellor in 1982.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Kohl was responsible for everything that happened in 1990.",
+     "correct": false,
+     "explanation": "Overstated; ignores Gorbachev and the Allies."
+    },
+    {
+     "id": "d",
+     "text": "Reunification happened because the Berlin Wall fell.",
+     "correct": false,
+     "explanation": "Describes an event, not Kohl's role."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 11 April 1968 Rudi Dutschke was shot in Berlin.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the main parties governed together in the Grand Coalition, radical opposition was pushed out of parliament and into the streets.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 3 October 1990 the GDR joined the Federal Republic.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that unification extended an existing democracy rather than creating a new state.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Kiesinger, a Nazi Party member for twelve years, became Chancellor in 1966",
+     "right": "Radicals saw the Bonn Republic as unrepentant about Nazism",
+     "explanation": "Fuelled the generational revolt."
+    },
+    {
+     "left": "The RAF killed 28 people and took 162 hostages between 1970 and 1978",
+     "right": "Terrorism caused real violence",
+     "explanation": "Yet never came close to overthrowing the state."
+    },
+    {
+     "left": "Four out of five BMW workers laid off in 1974–75 were not German citizens",
+     "right": "Guest workers bore the costs of recession first",
+     "explanation": "They were treated as temporary labour."
+    },
+    {
+     "left": "2,000 East Germans a day were moving west in late 1989",
+     "right": "Kohl abandoned his cautious timetable for rapid unification",
+     "explanation": "He judged this the only way to keep people at home."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The RAF caused a lot of trouble in the 1970s.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Between 1970 and 1978 the RAF killed 28 people and took 162 hostages, peaking in 1977 with the murders of Buback, Ponto and Schleyer, yet Judt argues it 'clearly failed' because it never disrupted the Republic's institutions.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and historian's judgement."
+    },
+    {
+     "id": "b",
+     "text": "The RAF was very violent.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The RAF existed from 1970 to 1998.",
+     "correct": false,
+     "explanation": "A fact without analysis."
+    },
+    {
+     "id": "d",
+     "text": "The RAF nearly destroyed West Germany.",
+     "correct": false,
+     "explanation": "Overstated; Judt says the opposite."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Ostpolitik meant West Germany gave up on reunification.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Brandt insisted on 'one German nation, two German states', kept the claim to eventual unity alive, and his successors Schmidt and Kohl never abandoned that line, which Kohl used when the chance for unity came in 1989–90.",
+     "correct": true,
+     "explanation": "Correct: shows continuity of the underlying national claim."
+    },
+    {
+     "id": "b",
+     "text": "Brandt was popular.",
+     "correct": false,
+     "explanation": "True but not a counter-argument."
+    },
+    {
+     "id": "c",
+     "text": "Some historians disagree.",
+     "correct": false,
+     "explanation": "Name-dropping without an argument."
+    },
+    {
+     "id": "d",
+     "text": "Reunification happened in 1990.",
+     "correct": false,
+     "explanation": "A fact, not a counter-argument about Ostpolitik's aims."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that the Red Army Faction posed a serious threat to West German democracy.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether it could disrupt the Republic's institutions, the RAF failed: Judt notes it had no defined goals, and the state's firmest response, the Berufsverbot, stayed within the law rather than tipping into dictatorship.",
+     "correct": true,
+     "explanation": "Correct: a stated criterion and a weighed judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the RAF was a terrorist group.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, there was violence in the 1970s.",
+     "correct": false,
+     "explanation": "No criterion, no judgement."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, West Germany became a police state.",
+     "correct": false,
+     "explanation": "Inaccurate: Judt rejects this."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B3-WEST-GERMANY-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the role of Kohl in the reunification of Germany between 1989 and 1990.” Sort each plan point into KOHL'S OWN ROLE or EXTERNAL FACTORS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Kohl's own role"
+    },
+    {
+     "id": "effects",
+     "label": "External factors"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Abandoning his cautious five-year plan for rapid union",
+     "answer": "causes",
+     "explanation": "A decision Kohl made himself."
+    },
+    {
+     "id": "s2",
+     "text": "Choosing monetary union on 1 July 1990 to keep East Germans at home",
+     "answer": "causes",
+     "explanation": "Kohl's own strategy."
+    },
+    {
+     "id": "s3",
+     "text": "2,000 East Germans a day moving west",
+     "answer": "effects",
+     "explanation": "The pressure Kohl was responding to."
+    },
+    {
+     "id": "s4",
+     "text": "Gorbachev's consent in exchange for about $8 billion",
+     "answer": "effects",
+     "explanation": "Outside Kohl's control."
+    },
+    {
+     "id": "s5",
+     "text": "Britain and France's eventual acquiescence",
+     "answer": "effects",
+     "explanation": "Thatcher and Mitterrand's unease had to be overcome."
     }
    ]
   }

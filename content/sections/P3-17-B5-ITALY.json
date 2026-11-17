@@ -889,6 +889,18 @@
      "tangentopoli",
      "Berlusconi"
     ]
+   },
+   {
+    "factId": "F-ITALY-24",
+    "year": 1973,
+    "text": "1973: Berlinguer commits the PCI to the 'historic compromise', defending democracy rather than opposing the DC outright.",
+    "supports": [
+     "The historic compromise tied the PCI to the Republic's defence"
+    ],
+    "lexicon": [
+     "historic compromise",
+     "Berlinguer"
+    ]
    }
   ],
   "historiography": [
@@ -1624,6 +1636,416 @@
      "explanation": "The fact shows large inequality."
     }
    ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what month and year did the Red Brigades first come to public attention? (month and year)",
+   "factIds": [
+    "F-ITALY-19"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "October 1970",
+     "accept": [
+      "Oct 1970",
+      "1970"
+     ],
+     "explanation": "October 1970; leader Renato Curcio was 29."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to the leaders of Autonomia Operaia, including Toni Negri, in April 1979?",
+   "factIds": [
+    "F-ITALY-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They were arrested",
+     "correct": true,
+     "explanation": "Correct: part of the price extracted after the Moro affair."
+    },
+    {
+     "id": "b",
+     "text": "They joined the government",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "They were elected to parliament",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "They fled to the Soviet Union",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R23",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the campaign to legalise abortion involve? Choose all that apply.",
+   "factIds": [
+    "F-ITALY-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A petition of 800,000 signatures",
+     "correct": true,
+     "explanation": "Yes: organised by feminists and the Radical Party."
+    },
+    {
+     "id": "b",
+     "text": "A march of 50,000 women on Rome in April 1976",
+     "correct": true,
+     "explanation": "Yes: public pressure built for two years before the law passed."
+    },
+    {
+     "id": "c",
+     "text": "Legalisation on 29 May 1978",
+     "correct": true,
+     "explanation": "Yes: three weeks after Moro's body was found."
+    },
+    {
+     "id": "d",
+     "text": "Support from the Vatican",
+     "correct": false,
+     "explanation": "The Church opposed the change."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R24",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of the 1970s social reforms and their context in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Berlinguer commits the PCI to the historic compromise",
+     "year": 1973,
+     "factId": "F-ITALY-24"
+    },
+    {
+     "id": "b",
+     "text": "New family code replaces the Fascist one",
+     "year": 1975,
+     "factId": "F-ITALY-27"
+    },
+    {
+     "id": "c",
+     "text": "March of 50,000 women on Rome",
+     "year": 1976,
+     "month": 4,
+     "factId": "F-ITALY-27"
+    },
+    {
+     "id": "d",
+     "text": "Abortion legalised",
+     "year": 1978,
+     "month": 5,
+     "factId": "F-ITALY-27"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R25",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many dollars did Soviet agencies give the PCI between 1971 and 1990, according to Judt? (number, in millions)",
+   "factIds": [
+    "F-ITALY-24"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 47,
+     "tolerance": 0,
+     "explanation": "$47 million, even as the PCI publicly criticised the invasion of Czechoslovakia."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R26",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why was Italy brought into NATO, according to Judt, partly for a domestic reason?",
+   "factIds": [
+    "F-ITALY-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "To shore up De Gasperi's support against Communist critics",
+     "correct": true,
+     "explanation": "Correct: a foreign-policy choice with a domestic political purpose."
+    },
+    {
+     "id": "b",
+     "text": "To prepare for war with Yugoslavia",
+     "correct": false,
+     "explanation": "Not Judt's explanation."
+    },
+    {
+     "id": "c",
+     "text": "Because the PCI requested it",
+     "correct": false,
+     "explanation": "The PCI was NATO's domestic target, not its sponsor."
+    },
+    {
+     "id": "d",
+     "text": "To fund the Cassa per il Mezzogiorno",
+     "correct": false,
+     "explanation": "Not connected."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R27",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Unlike the German terrorists, the Italian ultra-Left had a small popular following in some northern industrial towns.” Which argument does it support best?",
+   "factIds": [
+    "F-ITALY-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Italian left-wing terrorism had a broader social base than West Germany's",
+     "correct": true,
+     "explanation": "Correct: a genuine difference between the two countries' 'years of lead'."
+    },
+    {
+     "id": "b",
+     "text": "Italian terrorism had no popular support anywhere",
+     "correct": false,
+     "explanation": "The fact says the opposite, for some towns."
+    },
+    {
+     "id": "c",
+     "text": "German terrorism was more popular than Italy's",
+     "correct": false,
+     "explanation": "The comparison runs the other way."
+    },
+    {
+     "id": "d",
+     "text": "The Red Brigades controlled Milan's government",
+     "correct": false,
+     "explanation": "Not what the fact shows."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R28",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The PCI secretly supported the Red Brigades' kidnapping of Aldo Moro in 1978.”",
+   "factIds": [
+    "F-ITALY-21",
+    "F-ITALY-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The PCI backed Andreotti's refusal to negotiate and later threw its weight behind the Republic's institutions",
+     "correct": true,
+     "explanation": "Correct: the PCI treated the terrorists as criminals."
+    },
+    {
+     "id": "b",
+     "text": "Moro was a Christian Democrat",
+     "correct": false,
+     "explanation": "That part is accurate."
+    },
+    {
+     "id": "c",
+     "text": "Moro's body was found in Rome",
+     "correct": false,
+     "explanation": "That part is accurate."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the PCI opposed, not supported, the kidnapping."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R29",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each institution or agency to its role in Italian politics.",
+   "pairs": [
+    {
+     "left": "IRI",
+     "right": "State holding agency employing 216,000 people in the early 1950s",
+     "explanation": "A source of DC-controlled jobs."
+    },
+    {
+     "left": "Cassa per il Mezzogiorno",
+     "right": "Southern Fund set up in 1950, backed by a World Bank loan",
+     "explanation": "Inefficient but raised southern living standards."
+    },
+    {
+     "left": "Autonomia Operaia",
+     "right": "Far-left movement whose leaders, including Toni Negri, were arrested in 1979",
+     "explanation": "Part of the ultra-Left's overlapping networks."
+    },
+    {
+     "left": "Northern League",
+     "right": "Party founded by Umberto Bossi claiming the South lived off the North",
+     "explanation": "Grew in the 1980s and 1990s."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R30",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of new state investment were state-owned firms directed to place in the South after 1950?",
+   "factIds": [
+    "F-ITALY-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Up to 60 per cent",
+     "correct": true,
+     "explanation": "Correct: later supplemented by twelve 'growth areas' and thirty 'growth nuclei' after 1957."
+    },
+    {
+     "id": "b",
+     "text": "100 per cent",
+     "correct": false,
+     "explanation": "Not the figure Judt gives."
+    },
+    {
+     "id": "c",
+     "text": "None: investment stayed in the North",
+     "correct": false,
+     "explanation": "The opposite was intended."
+    },
+    {
+     "id": "d",
+     "text": "10 per cent",
+     "correct": false,
+     "explanation": "Too low: the actual directed share was far higher."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R31",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which decade did the Lombard League, under Umberto Bossi, grow into the Northern League on the belief that the South lived off northern wealth? (decade, as a year ending in 0)",
+   "factIds": [
+    "F-ITALY-29"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1980,
+     "tolerance": 5,
+     "explanation": "The 1980s."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Even with the Northern League in government alongside Forza Italia and the National Alliance, there was never any serious question of Italy breaking apart.” Which argument does it support best?",
+   "factIds": [
+    "F-ITALY-29"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Republic's unity survived even the collapse of its founding parties",
+     "correct": true,
+     "explanation": "Correct: regionalist politics did not threaten the state itself."
+    },
+    {
+     "id": "b",
+     "text": "Italy split into two states in the 1990s",
+     "correct": false,
+     "explanation": "It did not."
+    },
+    {
+     "id": "c",
+     "text": "The Northern League opposed Berlusconi",
+     "correct": false,
+     "explanation": "It governed alongside him."
+    },
+    {
+     "id": "d",
+     "text": "The South seceded",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What, according to Judt, did whole industries and jobs in the press, radio and television have in common under DC rule?",
+   "factIds": [
+    "F-ITALY-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They were 'colonised' and shared out among the parties",
+     "correct": true,
+     "explanation": "Correct: a grossly wasteful system, in Judt's judgement."
+    },
+    {
+     "id": "b",
+     "text": "They were nationalised by the PCI",
+     "correct": false,
+     "explanation": "The PCI never governed nationally."
+    },
+    {
+     "id": "c",
+     "text": "They were run entirely by the Church",
+     "correct": false,
+     "explanation": "The Church's role, Judt says, was smaller than claimed."
+    },
+    {
+     "id": "d",
+     "text": "They were privatised in the 1950s",
+     "correct": false,
+     "explanation": "The opposite direction."
+    }
+   ]
   }
  ],
  "drills": [
@@ -1990,6 +2412,263 @@
      "text": "Berlusconi's rise",
      "answer": "effects",
      "explanation": "The only lasting beneficiary."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the causes of political violence in Italy between 1969 and 1981.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine",
+     "answer": "verb",
+     "explanation": "Break the issue into causes and show how they connect."
+    },
+    {
+     "id": "s2",
+     "text": "the causes of political violence",
+     "answer": "factor",
+     "explanation": "The thing to be explained."
+    },
+    {
+     "id": "s3",
+     "text": "political violence in Italy",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1969 and 1981",
+     "answer": "timeframe",
+     "explanation": "From the hot autumn to the end of the lead years."
+    },
+    {
+     "id": "s5",
+     "text": "causes",
+     "answer": "judgement",
+     "explanation": "Which cause, from left, right or the system itself, mattered most."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes of political violence in Italy between 1969 and 1981.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Violence came from a political system that excluded the Communists and radical opposition, provoking a left that saw reform as impossible, while a right-wing 'strategy of tension', in places protected by parts of the state, made the crisis worse still.",
+     "correct": true,
+     "explanation": "Correct: weighs more than one cause and links them to the wider system."
+    },
+    {
+     "id": "b",
+     "text": "The Red Brigades existed from 1970.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Italy had terrorism.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Only the left used violence.",
+     "correct": false,
+     "explanation": "Inaccurate: the Bologna bombing came from the right."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1973 Berlinguer committed the PCI to the historic compromise.",
+     "answer": "narrative",
+     "explanation": "States what happened and when."
+    },
+    {
+     "id": "s2",
+     "text": "Because the Chilean coup suggested a Communist majority would never be allowed to govern, Berlinguer chose to defend the system rather than oppose it outright.",
+     "answer": "analysis",
+     "explanation": "Explains a cause-and-effect mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "The Cassa per il Mezzogiorno was founded in August 1950.",
+     "answer": "narrative",
+     "explanation": "A dated event."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that the state, not the market, drove southern development, which is why its benefits depended so heavily on which regions the DC favoured.",
+     "answer": "analysis",
+     "explanation": "Explains significance and links it to patronage."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "IRI employed 216,000 people in the early 1950s",
+     "right": "The DC used the state as a source of patronage jobs",
+     "explanation": "One of several state holding agencies."
+    },
+    {
+     "left": "The PCI's vote rose to 34.4 per cent in 1976",
+     "right": "The historic compromise brought the PCI its widest support",
+     "explanation": "Just four points behind the DC."
+    },
+    {
+     "left": "Italian left-wing terrorism had a popular base in some northern towns",
+     "right": "Italy's 'years of lead' differed from West Germany's terrorism",
+     "explanation": "Unlike the RAF, which stayed isolated."
+    },
+    {
+     "left": "All leading parties except the ex-Communists and ex-Fascists were wiped out in 1994",
+     "right": "Tangentopoli destroyed the post-war party system",
+     "explanation": "The Republic itself survived."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The DC stayed in power for a long time.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The DC governed continuously from 1948 by occupying state agencies such as IRI and ENI and distributing jobs and services in return for votes, which meant that each electoral victory financed the patronage that secured the next one.",
+     "correct": true,
+     "explanation": "Correct: specific evidence plus the self-renewing mechanism."
+    },
+    {
+     "id": "b",
+     "text": "The DC stayed in power for a very long time.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "There were elections in 1953 and 1958.",
+     "correct": false,
+     "explanation": "Narrative, no analysis."
+    },
+    {
+     "id": "d",
+     "text": "The DC controlled everything.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Tangentopoli proved that Italian democracy itself had failed.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "What collapsed in 1992–94 was a party system built on patronage, not the Republic's institutions: elections continued, power passed to new parties, and there was never any serious question of Italy breaking apart.",
+     "correct": true,
+     "explanation": "Correct: distinguishes the party system from the Republic itself, with evidence."
+    },
+    {
+     "id": "b",
+     "text": "Nothing changed in 1994.",
+     "correct": false,
+     "explanation": "Factually wrong: the old parties were virtually wiped out."
+    },
+    {
+     "id": "c",
+     "text": "Italy is a small country.",
+     "correct": false,
+     "explanation": "Not relevant to the claim."
+    },
+    {
+     "id": "d",
+     "text": "Berlusconi was popular.",
+     "correct": false,
+     "explanation": "Not a counter-argument about democracy's survival."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-17-B5-ITALY-D17",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the response of the Italian state and parties to terrorism between 1970 and 1981.” Sort each plan point into RESPONSE or LIMIT OF THE RESPONSE.",
+   "categories": [
+    {
+     "id": "response",
+     "label": "Response"
+    },
+    {
+     "id": "limit",
+     "label": "Limit of the response"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Andreotti refused to negotiate for Moro's life",
+     "answer": "response",
+     "explanation": "Backed by the Communists and most of his own party."
+    },
+    {
+     "id": "s2",
+     "text": "The PCI threw its weight behind the Republic's institutions",
+     "answer": "response",
+     "explanation": "Treated the terrorists as criminals."
+    },
+    {
+     "id": "s3",
+     "text": "Autonomia Operaia's leaders were arrested in 1979",
+     "answer": "response",
+     "explanation": "Part of the price extracted from the far left."
+    },
+    {
+     "id": "s4",
+     "text": "The Interior Minister resigned after Moro's death",
+     "answer": "limit",
+     "explanation": "Exposed the state's incompetence."
+    },
+    {
+     "id": "s5",
+     "text": "Right-wing networks inside the police, banking and the DC authorised murders",
+     "answer": "limit",
+     "explanation": "The state was partly penetrated by those it should have stopped."
     }
    ]
   }

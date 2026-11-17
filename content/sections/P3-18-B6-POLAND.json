@@ -1673,6 +1673,420 @@
      "explanation": "Romania kept much industry in state hands."
     }
    ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Polish inflation average per year through the 1980s? (per cent, one decimal place)",
+   "factIds": [
+    "F-POLAND-23"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 54.3,
+     "tolerance": 0,
+     "explanation": "54.3 per cent a year."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was Poland's total hard-currency debt by 1991? (billion dollars, one decimal place)",
+   "factIds": [
+    "F-POLAND-23"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 52.5,
+     "tolerance": 0,
+     "explanation": "$52.5 billion."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R23",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was turnout in the November 1987 referendum on economic reform? (per cent)",
+   "factIds": [
+    "F-POLAND-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 67,
+     "tolerance": 0,
+     "explanation": "67 per cent, kept down by a Solidarity-inspired boycott."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to the Polish government in autumn 1988?",
+   "factIds": [
+    "F-POLAND-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The whole government resigned after strikes paralysed the country",
+     "correct": true,
+     "explanation": "Correct: this opened the way to the Round Table."
+    },
+    {
+     "id": "b",
+     "text": "It won a referendum on economic reform",
+     "correct": false,
+     "explanation": "The referendum failed in November 1987."
+    },
+    {
+     "id": "c",
+     "text": "It banned Solidarity",
+     "correct": false,
+     "explanation": "Solidarity was legalised in the Round Table talks."
+    },
+    {
+     "id": "d",
+     "text": "It launched shock therapy",
+     "correct": false,
+     "explanation": "That began on 1 January 1990."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R25",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By the end of the century agriculture produced only 3 per cent of Polish GDP but employed a fifth of the workforce.” Which argument does it support best?",
+   "factIds": [
+    "F-POLAND-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rural Poland shared least in the transition's gains",
+     "correct": true,
+     "explanation": "Correct: pensioners and laid-off workers saw an ambiguous benefit at best."
+    },
+    {
+     "id": "b",
+     "text": "Agriculture led Polish growth",
+     "correct": false,
+     "explanation": "The opposite: it was the weakest sector."
+    },
+    {
+     "id": "c",
+     "text": "Most Poles worked in agriculture by 2000",
+     "correct": false,
+     "explanation": "Only a fifth did."
+    },
+    {
+     "id": "d",
+     "text": "Farmers benefited most from shock therapy",
+     "correct": false,
+     "explanation": "They were among its clearest losers."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R26",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to Kwaśniewski in the 2000 presidential election?",
+   "factIds": [
+    "F-POLAND-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He was re-elected president",
+     "correct": true,
+     "explanation": "Correct: having first won in 1995."
+    },
+    {
+     "id": "b",
+     "text": "He lost to Wałęsa",
+     "correct": false,
+     "explanation": "Wałęsa won only 1 per cent in 2000."
+    },
+    {
+     "id": "c",
+     "text": "He retired from politics",
+     "correct": false,
+     "explanation": "He stood again and won."
+    },
+    {
+     "id": "d",
+     "text": "He joined Solidarity Electoral Action",
+     "correct": false,
+     "explanation": "He led the ex-Communist SLD."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R27",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, why did Balcerowicz want to move fast with shock therapy? Choose all that apply.",
+   "factIds": [
+    "F-POLAND-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Poland needed international aid, which required credible structures",
+     "correct": true,
+     "explanation": "Yes: reassuring Western lenders."
+    },
+    {
+     "id": "b",
+     "text": "Anticipating IMF demands would earn help sooner",
+     "correct": true,
+     "explanation": "Yes: rather than waiting to be forced."
+    },
+    {
+     "id": "c",
+     "text": "Acting before people realised how painful the process would be",
+     "correct": true,
+     "explanation": "Yes: the 'post-Communist honeymoon'."
+    },
+    {
+     "id": "d",
+     "text": "The Communist Party demanded it",
+     "correct": false,
+     "explanation": "The Communist government had already resigned."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R28",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Judt placed Poland among the worst-performing post-Communist states by the late 1990s.”",
+   "factIds": [
+    "F-POLAND-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Judt placed Poland in the 'first tier' of post-Communist states, able to attract Western investors",
+     "correct": true,
+     "explanation": "Correct: though at some cost to older and poorer citizens."
+    },
+    {
+     "id": "b",
+     "text": "Poland had no foreign investment by the late 1990s",
+     "correct": false,
+     "explanation": "It attracted large foreign investment."
+    },
+    {
+     "id": "c",
+     "text": "Judt did not discuss Poland",
+     "correct": false,
+     "explanation": "Judt discusses Poland at length."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Judt rates Poland among the more successful cases."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R29",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1989–1990 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Round Table talks open",
+     "year": 1989,
+     "month": 2,
+     "factId": "F-POLAND-02"
+    },
+    {
+     "id": "b",
+     "text": "Semi-free elections",
+     "year": 1989,
+     "month": 6,
+     "factId": "F-POLAND-03"
+    },
+    {
+     "id": "c",
+     "text": "Balcerowicz Plan begins",
+     "year": 1990,
+     "month": 1,
+     "factId": "F-POLAND-05"
+    },
+    {
+     "id": "d",
+     "text": "Jaruzelski resigns as president",
+     "year": 1990,
+     "month": 9,
+     "factId": "F-POLAND-09"
+    },
+    {
+     "id": "e",
+     "text": "Wałęsa elected President",
+     "year": 1990,
+     "month": 12,
+     "factId": "F-POLAND-09"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R30",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each judgement to the source it comes from.",
+   "pairs": [
+    {
+     "left": "Tony Judt",
+     "right": "Poland joined the 'first tier' of post-Communist states, but the transition was 'at best an ambiguous benefit' for many",
+     "explanation": "A balanced academic judgement."
+    },
+    {
+     "left": "John Radzilowski (Encyclopedia of Modern Europe)",
+     "right": "Wałęsa's presidency established the rule of law and restored a market economy, but divided Solidarity",
+     "explanation": "On Wałęsa specifically."
+    },
+    {
+     "left": "Worldmark Encyclopedia of Nations",
+     "right": "The 1993 result reflected a rejection of shock therapy, nostalgia for the past, and a reaction against the Church's agenda",
+     "explanation": "On the 1993 election."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Radzilowski, what did Wałęsa's presidency establish, alongside dividing Solidarity?",
+   "factIds": [
+    "F-POLAND-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The rule of law and a restored market economy",
+     "correct": true,
+     "explanation": "Correct: and began Poland's move back to the West."
+    },
+    {
+     "id": "b",
+     "text": "A return to central planning",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "A one-party state",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "Membership of the European Union",
+     "correct": false,
+     "explanation": "That came in 2004."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R32",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Poland's transition between 1989 and 2000. Is Poland's 2004 entry into the European Union inside or outside the timeframe?",
+   "factIds": [
+    "F-POLAND-20"
+   ],
+   "timeframe": [
+    1989,
+    2000
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later outcome of the path begun in this period",
+     "correct": true,
+     "explanation": "Correct: the question ends in 2000."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 2004 is after 2000."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because NATO membership in 1999 guaranteed it",
+     "correct": false,
+     "explanation": "NATO and EU membership are separate, and EU entry came later."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-R33",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By 1997 Poland attracted large foreign investment and had the highest growth rates in Europe, but not everyone shared the prosperity and political discord grew.” Which argument does it support best?",
+   "factIds": [
+    "F-POLAND-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic success and political discontent grew together in the 1990s",
+     "correct": true,
+     "explanation": "Correct: growth did not remove discord."
+    },
+    {
+     "id": "b",
+     "text": "Prosperity was shared equally by all Poles",
+     "correct": false,
+     "explanation": "The opposite: not everyone shared it."
+    },
+    {
+     "id": "c",
+     "text": "Poland attracted no foreign investment",
+     "correct": false,
+     "explanation": "It attracted large foreign investment."
+    },
+    {
+     "id": "d",
+     "text": "Political discord ended once growth returned",
+     "correct": false,
+     "explanation": "Discord grew alongside growth."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2039,6 +2453,297 @@
      "text": "NATO membership in 1999",
      "answer": "successes",
      "explanation": "Integration with the West."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the reasons why the former Communists won the Polish elections of 1993.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine",
+     "answer": "verb",
+     "explanation": "Break the issue into parts and consider how they connect."
+    },
+    {
+     "id": "s2",
+     "text": "the former Communists won",
+     "answer": "factor",
+     "explanation": "The result to explain."
+    },
+    {
+     "id": "s3",
+     "text": "the reasons why",
+     "answer": "scope",
+     "explanation": "Causes, not consequences."
+    },
+    {
+     "id": "s4",
+     "text": "1993",
+     "answer": "timeframe",
+     "explanation": "With background from the 1990 reforms."
+    },
+    {
+     "id": "s5",
+     "text": "reasons",
+     "answer": "judgement",
+     "explanation": "Which reason mattered most?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Poland's transition between 1989 and 2000 a success?” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Poland's transition was largely successful: it built working democratic institutions and the fastest-growing economy in Europe by 1997, but the costs of reform fell unevenly on farmers, pensioners and the unemployed.",
+     "correct": true,
+     "explanation": "Correct: a judgement with a stated limit."
+    },
+    {
+     "id": "b",
+     "text": "Poland had elections in the 1990s.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Poland's transition was good.",
+     "correct": false,
+     "explanation": "No criterion or evidence."
+    },
+    {
+     "id": "d",
+     "text": "Poland's transition was a complete failure.",
+     "correct": false,
+     "explanation": "Contradicted by NATO membership and strong growth."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In November 1987 a referendum on economic reform failed after a Solidarity-inspired boycott.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "This mattered because it was the regime's first defeat at the polls, which showed voters that organised refusal could work.",
+     "answer": "analysis",
+     "explanation": "Explains why it mattered."
+    },
+    {
+     "id": "s3",
+     "text": "Balcerowicz moved fast because Poland needed foreign aid and had to act before the pain of reform became clear.",
+     "answer": "analysis",
+     "explanation": "Gives the reasoning, not just the event."
+    },
+    {
+     "id": "s4",
+     "text": "Kwaśniewski was re-elected president in 2000.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Inflation averaged 54.3 per cent a year in the 1980s and debt reached $52.5 billion by 1991",
+     "right": "The old regime's economy was in deep crisis before 1989",
+     "explanation": "The background to the Round Table."
+    },
+    {
+     "left": "Agriculture produced 3 per cent of GDP but employed a fifth of the workforce",
+     "right": "Rural Poland shared least in the transition's gains",
+     "explanation": "A clear loser of reform."
+    },
+    {
+     "left": "Judt placed Poland in the 'first tier' of post-Communist states",
+     "right": "Poland's transition compared favourably with other former Communist states",
+     "explanation": "A comparative academic judgement."
+    },
+    {
+     "left": "Radzilowski: Wałęsa's presidency established the rule of law and a market economy",
+     "right": "Wałęsa's record was not only about dividing Solidarity",
+     "explanation": "A balanced reading of his presidency."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Not everyone did well out of Poland's transition.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "By 2000 agriculture produced only 3 per cent of Polish GDP but still employed a fifth of the workforce, so farmers, pensioners and laid-off workers saw the transition as at best an ambiguous benefit.",
+     "correct": true,
+     "explanation": "Correct: precise evidence and a named group."
+    },
+    {
+     "id": "b",
+     "text": "Some people were not happy.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Poland had problems.",
+     "correct": false,
+     "explanation": "No evidence."
+    },
+    {
+     "id": "d",
+     "text": "The transition was unfair.",
+     "correct": false,
+     "explanation": "An assertion, not an analysis."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Poland's fast growth by 1997 proves shock therapy worked for everyone.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Growth coexisted with rising political discord: agriculture still employed a fifth of the workforce for 3 per cent of GDP, and unemployment reached 15 per cent by 2000, so prosperity was not shared equally.",
+     "correct": true,
+     "explanation": "Correct: specific evidence of uneven gains."
+    },
+    {
+     "id": "b",
+     "text": "Poland is a large country.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "c",
+     "text": "Growth is always good.",
+     "correct": false,
+     "explanation": "Not a counter-argument."
+    },
+    {
+     "id": "d",
+     "text": "Shock therapy was popular.",
+     "correct": false,
+     "explanation": "Unsupported and contradicted by the 1993 result."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Poland's transition between 1989 and 2000 a success?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether Poland built lasting democratic and market institutions, the transition succeeded, since NATO membership and sustained growth followed; judged by who shared the gains, it was incomplete, since farmers and the unemployed fell behind.",
+     "correct": true,
+     "explanation": "Correct: two criteria, two judgements, properly weighed."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Poland had a referendum, elections and NATO membership.",
+     "correct": false,
+     "explanation": "A list, not a judgement."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Poland succeeded.",
+     "correct": false,
+     "explanation": "No stated criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, nothing changed in Poland.",
+     "correct": false,
+     "explanation": "Contradicted by the evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B6-POLAND-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Poland's transition between 1989 and 2000 a success?” Sort each plan point into SUCCESSES or FAILURES.",
+   "categories": [
+    {
+     "id": "successes",
+     "label": "Successes"
+    },
+    {
+     "id": "failures",
+     "label": "Failures"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Poland reached the 'first tier' of post-Communist states, able to attract Western investors",
+     "answer": "successes",
+     "explanation": "Judt's comparative judgement."
+    },
+    {
+     "id": "s2",
+     "text": "Inflation of 54.3 per cent a year and $52.5 billion of debt by 1991",
+     "answer": "failures",
+     "explanation": "The scale of the inherited crisis, though this was the starting point, not the result."
+    },
+    {
+     "id": "s3",
+     "text": "Wałęsa's presidency established the rule of law and restored a market economy",
+     "answer": "successes",
+     "explanation": "Radzilowski's balanced judgement."
+    },
+    {
+     "id": "s4",
+     "text": "Agriculture still employed a fifth of the workforce for only 3 per cent of GDP by 2000",
+     "answer": "failures",
+     "explanation": "Rural Poland left behind."
+    },
+    {
+     "id": "s5",
+     "text": "Kwaśniewski's re-election in 2000 confirmed peaceful alternation in power",
+     "answer": "successes",
+     "explanation": "Democracy functioning as intended."
     }
    ]
   }
