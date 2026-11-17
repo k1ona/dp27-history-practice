@@ -1760,6 +1760,142 @@
      "explanation": "They were among those willing to join."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On top of the spring 1991 miners' strike demanding Gorbachev's resignation, what provoked further strikes on 2 April 1991?",
+   "factIds": ["F-COLLAPSE-27"],
+   "options": [
+    { "id": "a", "text": "Prime Minister Pavlov's price increases", "correct": true, "explanation": "Correct: economic hardship added to the political pressure on Gorbachev." },
+    { "id": "b", "text": "The announcement of the August coup", "correct": false, "explanation": "The coup came later, in August." },
+    { "id": "c", "text": "The Ukrainian independence referendum", "correct": false, "explanation": "That was in December 1991." },
+    { "id": "d", "text": "Yeltsin's election as President of Russia", "correct": false, "explanation": "That was in June 1991, a separate event." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Besides leading the resistance in person at the White House, what did Yeltsin do during the August 1991 coup?",
+   "factIds": ["F-COLLAPSE-29"],
+   "options": [
+    { "id": "a", "text": "Telephoned world leaders, while thousands of Muscovites surrounded the building to protect it", "correct": true, "explanation": "Correct: this built both popular and international pressure on the plotters." },
+    { "id": "b", "text": "Negotiated privately with Kryuchkov", "correct": false, "explanation": "He denounced the coup publicly, not through private negotiation." },
+    { "id": "c", "text": "Left Moscow for Yekaterinburg", "correct": false, "explanation": "He stayed and led the resistance from the White House." },
+    { "id": "d", "text": "Resigned as chairman of the Russian Supreme Soviet", "correct": false, "explanation": "He did the opposite: he used his position to resist." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R23",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: \"World leaders, all but one, offered Yeltsin public support and withheld recognition from the plotters; with every hour of stand-off the plotters lost their crucial asset, fear.\" Which argument does it support best?",
+   "factIds": ["F-COLLAPSE-30"],
+   "options": [
+    { "id": "a", "text": "International isolation added to the pressure that made the coup collapse quickly", "correct": true, "explanation": "Correct: time worked against the plotters once fear of them began to fade." },
+    { "id": "b", "text": "World leaders supported the coup", "correct": false, "explanation": "The opposite: nearly all withheld recognition from the plotters." },
+    { "id": "c", "text": "Gorbachev negotiated the coup's end personally", "correct": false, "explanation": "He was held at his villa throughout." },
+    { "id": "d", "text": "The coup lasted six months as planned", "correct": false, "explanation": "It collapsed within three days." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which historical event does Seventeen Moments compare the August 1991 coup to?",
+   "factIds": ["F-COLLAPSE-31"],
+   "options": [
+    { "id": "a", "text": "Kornilov's coup of 1917", "correct": true, "explanation": "Correct: in both cases the failed attempt benefited those who claimed credit for stopping it." },
+    { "id": "b", "text": "The Decembrist revolt of 1825", "correct": false, "explanation": "Not the comparison Seventeen Moments makes." },
+    { "id": "c", "text": "The Kronstadt rebellion of 1921", "correct": false, "explanation": "A different, unrelated event." },
+    { "id": "d", "text": "Khrushchev's removal in 1964", "correct": false, "explanation": "That was a successful internal party removal, not a failed coup." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R25",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On 27 November 1990, which region inside Russia itself declared sovereignty, alongside Chechnya?",
+   "factIds": ["F-COLLAPSE-33"],
+   "blanks": [ { "id": "1", "answer": "Tatarstan", "tolerance": 0, "explanation": "Tatarstan: sovereignty claims were not confined to the fifteen union republics." } ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R26",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In November 1990, what powers did Gorbachev obtain from the Supreme Soviet?",
+   "factIds": ["F-COLLAPSE-34"],
+   "options": [
+    { "id": "a", "text": "Sweeping powers to rule by decree for eighteen months", "correct": true, "explanation": "Correct: a sign of his turn towards the conservatives that winter." },
+    { "id": "b", "text": "The power to dissolve the Congress permanently", "correct": false, "explanation": "Not what he obtained." },
+    { "id": "c", "text": "Command of NATO forces", "correct": false, "explanation": "Unrelated and factually impossible." },
+    { "id": "d", "text": "The right to appoint regional governors directly", "correct": false, "explanation": "Not what the decree powers covered." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R27",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: \"By late November 1990 regions inside Russia itself, including Tatarstan and Chechnya, were declaring sovereignty.\" Which argument does it support best?",
+   "factIds": ["F-COLLAPSE-33"],
+   "options": [
+    { "id": "a", "text": "Russia's own internal fragmentation showed that sovereignty movements were not limited to the fifteen union republics", "correct": true, "explanation": "Correct: even Russia, the Union's core, faced its own centrifugal pressures." },
+    { "id": "b", "text": "Only the Baltic states sought sovereignty", "correct": false, "explanation": "The opposite: the pattern spread inside Russia itself." },
+    { "id": "c", "text": "Tatarstan and Chechnya supported Gorbachev's decree powers", "correct": false, "explanation": "Unrelated: these are separate issues." },
+    { "id": "d", "text": "Russia had no internal regional divisions", "correct": false, "explanation": "It did, by late 1990." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R28",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened during Gorbachev's turn towards the conservatives in the winter of 1990-91? Choose all that apply.",
+   "factIds": ["F-COLLAPSE-34", "F-COLLAPSE-05", "F-COLLAPSE-26"],
+   "options": [
+    { "id": "a", "text": "He took sweeping powers to rule by decree (November 1990)", "correct": true, "explanation": "Yes: a sign of the turn to the right." },
+    { "id": "b", "text": "Shevardnadze resigned, warning that dictatorship was coming (December 1990)", "correct": true, "explanation": "Yes: his long-time ally broke with him publicly." },
+    { "id": "c", "text": "Riot police attacked strategic points in the Baltic states (January 1991)", "correct": true, "explanation": "Yes: force used while he relied on the conservatives." },
+    { "id": "d", "text": "Yeltsin resigned from the Communist Party", "correct": false, "explanation": "No: that happened earlier, in July 1990." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R29",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: \"The spring 1991 miners' strikes demanded higher wages, and Gorbachev happily granted Pavlov's price increases to fund them.\"",
+   "factIds": ["F-COLLAPSE-27"],
+   "options": [
+    { "id": "a", "text": "The miners demanded Gorbachev's resignation, and Pavlov's price rises provoked further strikes rather than funding higher wages", "correct": true, "explanation": "Correct: the price rises were a cause of unrest, not a response to it." },
+    { "id": "b", "text": "The strikes took place in 1990", "correct": false, "explanation": "They began in spring 1991." },
+    { "id": "c", "text": "Pavlov was Gorbachev's Foreign Minister", "correct": false, "explanation": "Pavlov was Prime Minister; Shevardnadze had been Foreign Minister." },
+    { "id": "d", "text": "There is no error", "correct": false, "explanation": "There is: the miners wanted Gorbachev gone, not higher wages funded by price rises." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-R30",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the collapse of the Soviet Union between 1990 and 1991. Seventeen Moments compares the August 1991 coup to Kornilov's coup of 1917. Is the 1917 Kornilov affair itself inside or outside the timeframe?",
+   "factIds": ["F-COLLAPSE-31"],
+   "timeframe": [1990, 1991],
+   "options": [
+    { "id": "a", "text": "Outside: 1917 can only be used briefly as a historical comparison, not as primary evidence", "correct": true, "explanation": "Correct: 1917 is decades before the question's period begins." },
+    { "id": "b", "text": "Inside", "correct": false, "explanation": "No: 1917 comes long before 1990." },
+    { "id": "c", "text": "Inside, because it explains why the coup failed", "correct": false, "explanation": "Useful as a brief comparison, not as evidence from inside the period." },
+    { "id": "d", "text": "It depends on the command term", "correct": false, "explanation": "The command term does not change the timeframe." }
+   ]
   }
  ],
  "drills": [
@@ -2127,6 +2263,91 @@
      "answer": "causes",
      "explanation": "Judt's explanation of their weakness."
     }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Analyse the significance of international reactions between 19 and 21 August 1991 for the failure of the coup.”",
+   "segments": [
+    { "id": "s1", "text": "Analyse", "answer": "verb", "explanation": "Break the significance into parts and explain the links." },
+    { "id": "s2", "text": "international reactions", "answer": "factor", "explanation": "The named factor to analyse." },
+    { "id": "s3", "text": "the failure of the coup", "answer": "scope", "explanation": "What the factor's significance must be judged against." },
+    { "id": "s4", "text": "between 19 and 21 August 1991", "answer": "timeframe", "explanation": "The three days the coup lasted." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the significance of Gorbachev's decree powers of November 1990 for the events that followed.” Pick the best thesis.",
+   "options": [
+    { "id": "a", "text": "Gorbachev's decree powers of November 1990 signalled a turn towards the conservatives that cost him reformist allies such as Shevardnadze, and in this way helped set the stage for the hardliners who later launched the August coup.", "correct": true, "explanation": "Correct: names the factor, gives a mechanism and a judged significance." },
+    { "id": "b", "text": "Gorbachev obtained decree powers in November 1990 and Shevardnadze resigned in December.", "correct": false, "explanation": "Narrative: lists events without judging significance." },
+    { "id": "c", "text": "Gorbachev's decree powers were very significant for later events.", "correct": false, "explanation": "No mechanism or evidence." },
+    { "id": "d", "text": "The decree powers caused Yeltsin's election as President of Russia in June 1991.", "correct": false, "explanation": "No causal link exists between these two separate events." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    { "id": "s1", "text": "In November 1990 Gorbachev obtained sweeping powers to rule by decree for eighteen months.", "answer": "narrative", "explanation": "States what happened, with no link to a question." },
+    { "id": "s2", "text": "This meant that reformers such as Shevardnadze saw him aligning with the very conservatives who would later try to remove him.", "answer": "analysis", "explanation": "Explains the consequence of the fact just stated." },
+    { "id": "s3", "text": "Thousands of Muscovites surrounded the White House during the August coup.", "answer": "narrative", "explanation": "A statement of fact with no explanation of its effect." },
+    { "id": "s4", "text": "This mattered because it showed the plotters that their own capital, not only the distant republics, had turned against them.", "answer": "analysis", "explanation": "Explains why the fact mattered." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    { "left": "World leaders, all but one, withheld recognition from the plotters", "right": "International isolation added to the pressure that made the coup collapse within three days", "explanation": "Fear of the plotters faded with every hour of stand-off." },
+    { "left": "Pavlov's price rises of 2 April 1991 provoked further strikes", "right": "Economic hardship, not only politics, was turning opinion against the leadership", "explanation": "The miners were already striking for Gorbachev's resignation." },
+    { "left": "Tatarstan and Chechnya declared sovereignty inside Russia by November 1990", "right": "The sovereignty movement was not confined to the fifteen union republics", "explanation": "Even Russia's own regions were asserting themselves." },
+    { "left": "Seventeen Moments compares the 1991 coup to Kornilov's coup of 1917", "right": "A failed coup can end up strengthening the very people it was meant to stop", "explanation": "In both cases, those who defeated the coup gained the most from it." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D15",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The August coup collapsed purely by chance, with no deeper cause.” Pick the strongest counter-argument.",
+   "options": [
+    { "id": "a", "text": "The plotters' own appointees in the KGB and army refused to use force, and international leaders withheld recognition within hours: these were structural weaknesses, not chance.", "correct": true, "explanation": "Correct: it offers a causal account with specific evidence, not luck." },
+    { "id": "b", "text": "The plotters were simply unlucky.", "correct": false, "explanation": "Restates the claim rather than countering it." },
+    { "id": "c", "text": "Some historians think the coup was badly planned.", "correct": false, "explanation": "Name-dropping with no specific argument." },
+    { "id": "d", "text": "The coup lasted three days.", "correct": false, "explanation": "A fact, not an argument about cause." }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-COLLAPSE-D16",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the role of Gorbachev's own decisions, rather than Yeltsin's actions, in the collapse of the Soviet Union by December 1991.” Which conclusion weighs rather than recaps?",
+   "options": [
+    { "id": "a", "text": "Judged by which decisions most narrowed his own room to manoeuvre, Gorbachev's November 1990 turn to the right and his concessions in the Union Treaty both weakened his position, but it was Yeltsin's seizure of the initiative during the coup that converted that weakness into the Union's actual end.", "correct": true, "explanation": "Correct: a criterion, a judgement and a reasoned limit." },
+    { "id": "b", "text": "In conclusion, Gorbachev made decisions and Yeltsin took actions, and the Union ended.", "correct": false, "explanation": "A recap with no weighing of one against the other." },
+    { "id": "c", "text": "In conclusion, both men were equally responsible for everything that happened.", "correct": false, "explanation": "Avoids the judgement the question requires." },
+    { "id": "d", "text": "In conclusion, Gorbachev was entirely to blame for the Union's collapse.", "correct": false, "explanation": "An unsupported judgement with no criterion or weighing." }
    ]
   }
  ],

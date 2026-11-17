@@ -1676,6 +1676,401 @@
      "explanation": "No: the sources name Gorbachev as Andropov's protégé."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By what percentage had the population of the republics bordering Afghanistan grown between 1970 and 1979, according to the census Judt cites? (number)",
+   "factIds": [
+    "F-INHERITANCE-15"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 25,
+     "tolerance": 0,
+     "explanation": "Over 25 per cent: Judt links this growth to the fear behind the 1979 invasion."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By 1989 Soviet foreign debt had reached how many billion dollars, according to Judt? (number)",
+   "factIds": [
+    "F-INHERITANCE-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 54,
+     "tolerance": 0,
+     "explanation": "$54 billion by 1989, up from $30.7 billion in 1986."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the West German chancellor Helmut Schmidt call the Soviet Union, according to Judt?",
+   "factIds": [
+    "F-INHERITANCE-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'Upper Volta with missiles'",
+     "correct": true,
+     "explanation": "Correct: a jibe at a superpower with a weak economy."
+    },
+    {
+     "id": "b",
+     "text": "'A paper tiger'",
+     "correct": false,
+     "explanation": "Not Schmidt's phrase."
+    },
+    {
+     "id": "c",
+     "text": "'The sick man of Europe'",
+     "correct": false,
+     "explanation": "A phrase used of other states, not this one."
+    },
+    {
+     "id": "d",
+     "text": "'An evil empire'",
+     "correct": false,
+     "explanation": "That was Reagan's phrase, in March 1983."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Brown, what did Gorbachev call the problems the Soviet Union faced in the early 1980s?",
+   "factIds": [
+    "F-INHERITANCE-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "'Pre-crisis phenomena'",
+     "correct": true,
+     "explanation": "Correct: Brown argues these became a crisis only through the unintended consequences of reform."
+    },
+    {
+     "id": "b",
+     "text": "'A national catastrophe'",
+     "correct": false,
+     "explanation": "Too strong for Gorbachev's own phrase."
+    },
+    {
+     "id": "c",
+     "text": "'The era of stagnation'",
+     "correct": false,
+     "explanation": "That label is commonly used for Brezhnev's years, not Gorbachev's own phrase here."
+    },
+    {
+     "id": "d",
+     "text": "'An imminent collapse'",
+     "correct": false,
+     "explanation": "Brown says the system was far from collapse in 1985."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R25",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Brezhnev's failing health made him an ineffective head of a gerontocracy, and his own family was involved in wide-scale corruption.” Which argument does it support best?",
+   "factIds": [
+    "F-INHERITANCE-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The leadership itself, not only its policies, had become part of the problem",
+     "correct": true,
+     "explanation": "Correct: corruption reached the very top."
+    },
+    {
+     "id": "b",
+     "text": "Brezhnev's family supported Andropov's succession",
+     "correct": false,
+     "explanation": "Not what the fact shows."
+    },
+    {
+     "id": "c",
+     "text": "The Soviet economy was growing strongly under Brezhnev",
+     "correct": false,
+     "explanation": "The opposite: stagnation and corruption went together."
+    },
+    {
+     "id": "d",
+     "text": "The second economy was fully suppressed by 1982",
+     "correct": false,
+     "explanation": "Unrelated to Brezhnev's family."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Seventeen Moments argues the regime could not suppress the second economy without making the shortages it caused even worse.” Which argument does it support best?",
+   "factIds": [
+    "F-INHERITANCE-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Corruption and illegal trade were structurally necessary to the system, not an occasional abuse of it",
+     "correct": true,
+     "explanation": "Correct: the plan could not function without the second economy filling its gaps."
+    },
+    {
+     "id": "b",
+     "text": "The second economy was eliminated by Andropov's discipline campaign",
+     "correct": false,
+     "explanation": "The campaign targeted lateness and drinking, not the second economy itself."
+    },
+    {
+     "id": "c",
+     "text": "The second economy proves the planned economy was efficient",
+     "correct": false,
+     "explanation": "The opposite: it existed because the plan failed to meet demand."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev invented the second economy after 1985",
+     "correct": false,
+     "explanation": "Grossman named it in 1977, well before Gorbachev."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R27",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were true of the Soviet leadership by 1982? Choose all that apply.",
+   "factIds": [
+    "F-INHERITANCE-01",
+    "F-INHERITANCE-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was a gerontocracy headed by an ailing leader",
+     "correct": true,
+     "explanation": "Yes: Brezhnev's failing health, then Andropov already 68 and unwell."
+    },
+    {
+     "id": "b",
+     "text": "Brezhnev's own family was linked to wide-scale corruption",
+     "correct": true,
+     "explanation": "Yes: Seventeen Moments records this."
+    },
+    {
+     "id": "c",
+     "text": "The Politburo held open, competitive elections for General Secretary",
+     "correct": false,
+     "explanation": "No such mechanism existed."
+    },
+    {
+     "id": "d",
+     "text": "The economy was growing quickly",
+     "correct": false,
+     "explanation": "Judt says it had hardly grown through the 1970s."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R28",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these are true of the 'second economy', according to Seventeen Moments? Choose all that apply.",
+   "factIds": [
+    "F-INHERITANCE-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Gregory Grossman named it in 1977",
+     "correct": true,
+     "explanation": "Yes: the economist who coined the term 'second economy'."
+    },
+    {
+     "id": "b",
+     "text": "Treml estimated it at roughly 10–12 per cent of GDP",
+     "correct": true,
+     "explanation": "Yes: private and semi-legal labour."
+    },
+    {
+     "id": "c",
+     "text": "The regime suppressed it completely by 1985",
+     "correct": false,
+     "explanation": "No: suppressing it would have worsened shortages."
+    },
+    {
+     "id": "d",
+     "text": "It consisted mainly of legal state cooperatives",
+     "correct": false,
+     "explanation": "No: it was private and often illegal trade, not state cooperatives."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R29",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these Second Cold War events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "United States announces the MX missile",
+     "year": 1982,
+     "month": 11,
+     "factId": "F-INHERITANCE-11"
+    },
+    {
+     "id": "b",
+     "text": "Reagan calls the Soviet Union an 'evil empire'",
+     "year": 1983,
+     "month": 3,
+     "factId": "F-INHERITANCE-11"
+    },
+    {
+     "id": "c",
+     "text": "United States announces the Strategic Defense Initiative",
+     "year": 1983,
+     "month": 4,
+     "factId": "F-INHERITANCE-11"
+    },
+    {
+     "id": "d",
+     "text": "Soviet fighter shoots down Korean Airlines flight 007",
+     "year": 1983,
+     "month": 9,
+     "factId": "F-INHERITANCE-14"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R30",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their argument or remark.",
+   "pairs": [
+    {
+     "left": "Tony Judt",
+     "right": "The era of stagnation might have lasted indefinitely",
+     "explanation": "Only a Communist leader could bring it down."
+    },
+    {
+     "left": "Archie Brown",
+     "right": "The system was far from being on the point of collapse in 1985",
+     "explanation": "The crisis came from the unintended consequences of reform."
+    },
+    {
+     "left": "Marc Zlotnik",
+     "right": "Chernenko's thirteen months were 'a period of marking time'",
+     "explanation": "Andropov's changes halted."
+    },
+    {
+     "left": "Helmut Schmidt",
+     "right": "'Upper Volta with missiles'",
+     "explanation": "A jibe at Soviet economic weakness."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R31",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Gorbachev became General Secretary in 1984, immediately after Andropov's death.”",
+   "factIds": [
+    "F-INHERITANCE-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Chernenko, not Gorbachev, succeeded Andropov in 1984; Gorbachev became General Secretary only in March 1985",
+     "correct": true,
+     "explanation": "Correct: an extra leader is missing from the sentence."
+    },
+    {
+     "id": "b",
+     "text": "Andropov did not die in 1984",
+     "correct": false,
+     "explanation": "He did, in February 1984."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev was never General Secretary",
+     "correct": false,
+     "explanation": "He was, from 11 March 1985."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Chernenko came between them."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-R32",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Soviet Union between 1982 and 1985. Is Gorbachev's December 1984 speech calling for a 'perestroika of the forms and methods of running the economy' inside or outside the timeframe?",
+   "factIds": [
+    "F-INHERITANCE-23"
+   ],
+   "timeframe": [
+    1982,
+    1985
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside: December 1984 falls within 1982–1985",
+     "correct": true,
+     "explanation": "Correct: it shows his reforming ideas were visible before he took power."
+    },
+    {
+     "id": "b",
+     "text": "Outside",
+     "correct": false,
+     "explanation": "No: December 1984 is within the stated years."
+    },
+    {
+     "id": "c",
+     "text": "Outside, because perestroika is mainly associated with 1987",
+     "correct": false,
+     "explanation": "The term's later use does not move this 1984 speech outside the timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2042,6 +2437,247 @@
      "text": "Loss of confidence in using force in Eastern Europe",
      "answer": "effects",
      "explanation": "Ligachev's later admission."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Discuss the view that Chernenko's leadership, 1984 to 1985, was no more than a continuation of Brezhnev's methods.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss the view that",
+     "answer": "verb",
+     "explanation": "Test the claim with arguments for and against, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "Chernenko's leadership",
+     "answer": "factor",
+     "explanation": "The named factor: weigh it first."
+    },
+    {
+     "id": "s3",
+     "text": "no more than a continuation of Brezhnev's methods",
+     "answer": "scope",
+     "explanation": "The proposition to be tested."
+    },
+    {
+     "id": "s4",
+     "text": "1984 to 1985",
+     "answer": "timeframe",
+     "explanation": "Evidence from Andropov's year is only background."
+    },
+    {
+     "id": "s5",
+     "text": "no more than a continuation",
+     "answer": "judgement",
+     "explanation": "Decide how far the claim holds, given Chernenko's own aims and his thirteen months in office."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that Andropov's legacy was more important than his policies.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The view is largely right: Andropov's discipline campaign left central planning untouched, but his promotion of younger officials, above all Gorbachev, shaped the Soviet Union long after his policies were forgotten.",
+     "correct": true,
+     "explanation": "Correct: weighs policy against legacy and reaches a judgement."
+    },
+    {
+     "id": "b",
+     "text": "Andropov ran the KGB from 1967 to 1982.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Andropov was an important leader.",
+     "correct": false,
+     "explanation": "No judgement about policy versus legacy."
+    },
+    {
+     "id": "d",
+     "text": "Andropov's policies were more important because he launched perestroika.",
+     "correct": false,
+     "explanation": "Inaccurate: perestroika was Gorbachev's programme, after 1985."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 1 September 1983 a Soviet fighter shot down Korean Airlines flight 007, killing all 269 aboard.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the old leaders feared a pre-emptive American strike, the KAL 007 crisis made them less willing to compromise.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence of the event."
+    },
+    {
+     "id": "s3",
+     "text": "Soviet troops entered Afghanistan in December 1979.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This mattered because it tied up resources and, through Ligachev's later admission, weakened the credibility of Soviet force in Eastern Europe.",
+     "answer": "analysis",
+     "explanation": "Explains long-term significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "All 269 aboard Korean Airlines flight 007 died",
+     "right": "The Second Cold War hardened both sides",
+     "explanation": "A serious diplomatic crisis followed."
+    },
+    {
+     "left": "The 1979 census showed over 25 per cent growth in the population near Afghanistan",
+     "right": "The invasion of Afghanistan was driven by domestic anxiety",
+     "explanation": "Judt's interpretation of Soviet motives."
+    },
+    {
+     "left": "Soviet foreign debt reached $30.7 billion by 1986",
+     "right": "The official economy was failing by the mid-1980s",
+     "explanation": "Debt rose as the oil price fell."
+    },
+    {
+     "left": "Helmut Schmidt called the USSR 'Upper Volta with missiles'",
+     "right": "Outsiders saw a mismatch between Soviet military power and economic weakness",
+     "explanation": "A Western leader's verdict."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Chernenko was a weak leader who did not do much.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Chosen at 72 specifically to block Gorbachev, Chernenko halted Andropov's personnel changes during his thirteen months, so his 'marking time' was a deliberate holding operation by the Brezhnev generation, not simple weakness.",
+     "correct": true,
+     "explanation": "Correct: precise evidence, mechanism and judgement."
+    },
+    {
+     "id": "b",
+     "text": "Chernenko was quite old and not very active.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Chernenko became General Secretary in February 1984.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Chernenko failed because he was unpopular.",
+     "correct": false,
+     "explanation": "A judgement without evidence or mechanism."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-D16",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the reasons for Gorbachev's rise to the leadership of the Soviet Union between 1982 and 1985.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by which reason removed would have stopped his rise, Andropov's patronage mattered most: without the authority and experience it gave him, the deaths of three old leaders would not by themselves have made Gorbachev the obvious successor.",
+     "correct": true,
+     "explanation": "Correct: a clear criterion applied to rank the reasons."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Brezhnev, Andropov and Chernenko all died between 1982 and 1985.",
+     "correct": false,
+     "explanation": "A recap of events with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Gorbachev was clearly the best candidate.",
+     "correct": false,
+     "explanation": "No criterion given."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Gorbachev launched perestroika and glasnost.",
+     "correct": false,
+     "explanation": "Outside the timeframe: both followed 1985."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-INHERITANCE-D17",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Gorbachev's rise to power was simply the result of chance deaths among the older generation.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Andropov deliberately replaced many ministers and regional leaders with younger men and gave Gorbachev broad authority, so his rise was prepared patronage as much as chance timing.",
+     "correct": true,
+     "explanation": "Correct: shows a deliberate cause behind the apparent chance."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was young.",
+     "correct": false,
+     "explanation": "Relevant, but not developed into an argument."
+    },
+    {
+     "id": "c",
+     "text": "Three leaders did die in quick succession.",
+     "correct": false,
+     "explanation": "This is consistent with the claim, not a counter to it."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev later launched perestroika.",
+     "correct": false,
+     "explanation": "About his later record, not the cause of his rise."
     }
    ]
   }

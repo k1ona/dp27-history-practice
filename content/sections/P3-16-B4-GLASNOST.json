@@ -607,6 +607,130 @@
         { "id": "c", "text": "Alma-Ata, Kazakhstan", "correct": false, "explanation": "The Alma-Ata protests were in December 1986." },
         { "id": "d", "text": "Riga, Latvia", "correct": false, "explanation": "The violence in Riga came in January 1991." }
       ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R21", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "The word \"glasnost\" already appeared in Article ___ of the 1977 Soviet constitution, before it became policy. (number)",
+      "factIds": ["F-GLASNOST-32"],
+      "blanks": [ { "id": "1", "answer": 9, "tolerance": 0, "explanation": "Article 9: the word existed in Soviet law long before Gorbachev made it a real policy." } ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R22", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What happened to Moscow's economic boycott of Lithuania, imposed after its 1990 independence vote?",
+      "factIds": ["F-GLASNOST-26"],
+      "options": [
+        { "id": "a", "text": "It was abandoned in June 1990", "correct": true, "explanation": "Correct: pressure failed to reverse the declaration, and Moscow backed down." },
+        { "id": "b", "text": "It continued until the Soviet Union ended in 1991", "correct": false, "explanation": "No: it was lifted within months." },
+        { "id": "c", "text": "It was replaced by military occupation", "correct": false, "explanation": "Troops killed civilians in Vilnius later, in January 1991, but that is a separate event." },
+        { "id": "d", "text": "It succeeded in reversing the declaration of independence", "correct": false, "explanation": "No: Lithuania's declaration stood." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R23", "kind": "retrieval", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: \"The Soviet state itself had created national republics, capitals and local elites, who came to identify with 'their' peoples.\" Which argument does it support best?",
+      "factIds": ["F-GLASNOST-44"],
+      "options": [
+        { "id": "a", "text": "The structure of the Soviet state made national politics likely, whatever Gorbachev did", "correct": true, "explanation": "Correct: this is the strongest counter to a purely glasnost-caused account of nationalism." },
+        { "id": "b", "text": "Glasnost had no connection to nationalism", "correct": false, "explanation": "Too strong: glasnost supplied the missing permission to speak, even if the structure already existed." },
+        { "id": "c", "text": "The republics were created only after 1985", "correct": false, "explanation": "No: the republics, capitals and elites were much older Soviet creations." },
+        { "id": "d", "text": "Local elites always supported Moscow", "correct": false, "explanation": "The opposite: many came to identify with their own nation rather than the centre." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R24", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Besides Ukraine itself, where did radioactive fallout from Chernobyl reach?",
+      "factIds": ["F-GLASNOST-43"],
+      "options": [
+        { "id": "a", "text": "Western Europe and Scandinavia, including Sweden", "correct": true, "explanation": "Correct: this is why the cover-up could not hold — the damage crossed borders." },
+        { "id": "b", "text": "Only the immediate area around the plant", "correct": false, "explanation": "No: it spread across borders, which is why secrecy failed." },
+        { "id": "c", "text": "The Baltic republics only", "correct": false, "explanation": "The fallout reached western Europe and Scandinavia, not specifically the Baltic states." },
+        { "id": "d", "text": "The United States", "correct": false, "explanation": "Not stated; the fallout reached Europe." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R25", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "The Baltic states were forcibly incorporated into the USSR following a pact signed in which year? (number)",
+      "factIds": ["F-GLASNOST-45"],
+      "blanks": [ { "id": "1", "answer": 1939, "tolerance": 0, "explanation": "1939: the Nazi–Soviet Pact, whose anniversary the 1989 human chain marked." } ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R26", "kind": "retrieval", "type": "spot_error", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Find the error: \"In the 1989 elections to the Congress of People's Deputies, several legal opposition parties competed openly for seats.\"",
+      "factIds": ["F-GLASNOST-36"],
+      "options": [
+        { "id": "a", "text": "The elections were contested but not multi-party; opposition parties were not yet legal", "correct": true, "explanation": "Correct: candidates could be independent reformers, but no rival party stood." },
+        { "id": "b", "text": "The year should be 1991", "correct": false, "explanation": "No: the elections were held in March 1989." },
+        { "id": "c", "text": "The Congress had no seats reserved for the party", "correct": false, "explanation": "A third of seats were reserved; that is not the error in this sentence." },
+        { "id": "d", "text": "There is no error", "correct": false, "explanation": "There is: the elections were not multi-party." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R27", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Throughout the reform period, what was Gorbachev's attitude towards the Soviet Union's territorial integrity?",
+      "factIds": ["F-GLASNOST-34"],
+      "options": [
+        { "id": "a", "text": "He was unswervingly committed to preserving the Union", "correct": true, "explanation": "Correct: the break-up was an outcome he worked against, not one he sought." },
+        { "id": "b", "text": "He planned from the start to let the republics secede", "correct": false, "explanation": "No: this contradicts his consistent aim of preserving the Union." },
+        { "id": "c", "text": "He was indifferent to the question", "correct": false, "explanation": "He was actively committed, not indifferent — for example the March 1991 referendum was his attempt to keep the Union together." },
+        { "id": "d", "text": "He supported independence only for the Baltic states", "correct": false, "explanation": "Not stated; his aim was to preserve the whole Union." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R28", "kind": "retrieval", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Fact: \"Gorbachev was a 'reform Communist', reluctant to assault the core tenets of the system.\" Which argument does it support best?",
+      "factIds": ["F-GLASNOST-35"],
+      "options": [
+        { "id": "a", "text": "Gorbachev's reforms were always bounded by his own commitment to socialism, which helps explain why he tried to hold a centre ground", "correct": true, "explanation": "Correct: this is why he kept retreating towards conservatives even while pushing reform." },
+        { "id": "b", "text": "Gorbachev wanted to restore Stalinism", "correct": false, "explanation": "The opposite: he was a reformer, though a cautious one." },
+        { "id": "c", "text": "Gorbachev had no ideological commitments", "correct": false, "explanation": "He did: reform Communism, not the abandonment of socialism." },
+        { "id": "d", "text": "Gorbachev supported the August 1991 coup", "correct": false, "explanation": "Unrelated and factually wrong: the coup was against him." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R29", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "What was the Democratic Platform, announced in January 1990?",
+      "factIds": ["F-GLASNOST-38"],
+      "options": [
+        { "id": "a", "text": "A reformist faction inside the Communist Party itself", "correct": true, "explanation": "Correct: it shows the party splitting internally, not just losing power to outside rivals." },
+        { "id": "b", "text": "A Baltic independence movement", "correct": false, "explanation": "Sajudis was the Lithuanian movement; the Democratic Platform was a faction inside the CPSU." },
+        { "id": "c", "text": "The new constitutional court", "correct": false, "explanation": "Not what it was." },
+        { "id": "d", "text": "Yeltsin's 1991 presidential campaign organisation", "correct": false, "explanation": "A different thing entirely." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R30", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "The Memorial society, devoted to the victims of Stalinism, grew out of a 1987 group called Club ___.",
+      "factIds": ["F-GLASNOST-39"],
+      "blanks": [ { "id": "1", "answer": "Perestroika", "tolerance": 0, "explanation": "Club Perestroika (1987): glasnost reached even the memory of Stalin's terror." } ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R31", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "When did the Warsaw Pact's ministers meet to dissolve it?",
+      "factIds": ["F-GLASNOST-40"],
+      "options": [
+        { "id": "a", "text": "25 February 1991", "correct": true, "explanation": "Correct: a direct consequence of Gorbachev's December 1988 renunciation of force." },
+        { "id": "b", "text": "December 1991, alongside the Soviet Union itself", "correct": false, "explanation": "No: the Pact was dissolved separately, a few months before the Union ended." },
+        { "id": "c", "text": "1989, at the same time as the Berlin Wall fell", "correct": false, "explanation": "The Wall fell in November 1989; the Pact's formal dissolution came later." },
+        { "id": "d", "text": "1985, when Gorbachev took power", "correct": false, "explanation": "Far too early." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R32", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Gorbachev resigned and the Soviet Union ended in which month of 1991? (name the month)",
+      "factIds": ["F-GLASNOST-41"],
+      "blanks": [ { "id": "1", "answer": "December", "tolerance": 0, "explanation": "December 1991: the Belovezha declaration and Gorbachev's resignation on 25 December." } ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-R33", "kind": "retrieval", "type": "in_timeframe", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "A question asks about glasnost between 1985 and 1991. Brezhnev died in 1982 and was succeeded by Andropov. Is this event inside or outside the timeframe?",
+      "factIds": ["F-GLASNOST-42"],
+      "timeframe": [1985, 1991],
+      "options": [
+        { "id": "a", "text": "Outside: it can only be mentioned briefly as background to why reform was needed", "correct": true, "explanation": "Correct: 1982 is before the question's period begins in 1985." },
+        { "id": "b", "text": "Inside", "correct": false, "explanation": "No: 1982 comes before 1985." },
+        { "id": "c", "text": "Inside, because it explains the need for reform", "correct": false, "explanation": "Relevant as brief background, not as evidence inside the period itself." },
+        { "id": "d", "text": "It depends on the command term", "correct": false, "explanation": "The command term does not change the timeframe." }
+      ]
     }
   ],
   "drills": [
@@ -713,6 +837,89 @@
         { "id": "s3", "text": "Lithuania voted 124–0 to restore independence (1990)", "answer": "effects", "explanation": "A consequence of the movement's growth." },
         { "id": "s4", "text": "Six republics refused to take part in the March 1991 referendum", "answer": "effects", "explanation": "A consequence: the Union's authority had collapsed there." },
         { "id": "s5", "text": "Democratisation gave Sajudis 36 of 42 seats (1989)", "answer": "causes", "explanation": "A reason the movement gained strength (it also shows its growth)." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D11", "kind": "drill", "type": "decode", "skill": "S1", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Decode this question: tag each part.",
+      "sourceText": "\"Examine the significance of the dissolution of the Warsaw Pact for Gorbachev's foreign policy between 1988 and 1991.\"",
+      "segments": [
+        { "id": "s1", "text": "Examine", "answer": "verb", "explanation": "Consider the evidence for how significant this was, without a single fixed answer." },
+        { "id": "s2", "text": "the dissolution of the Warsaw Pact", "answer": "factor", "explanation": "The named event to examine." },
+        { "id": "s3", "text": "Gorbachev's foreign policy", "answer": "scope", "explanation": "What the event's significance must be judged against." },
+        { "id": "s4", "text": "between 1988 and 1991", "answer": "timeframe", "explanation": "From the UN speech of December 1988 to the Pact's formal end in February 1991." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D12", "kind": "drill", "type": "pick_thesis", "skill": "S11", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Question: \"Analyse the reasons for, and the significance of, the formation of the Democratic Platform within the Communist Party in January 1990.\" Pick the best thesis.",
+      "options": [
+        { "id": "a", "text": "The Democratic Platform formed because reformers judged that change could no longer come from outside the party alone, and its significance was to show that the party itself, not only Soviet society, was coming apart.", "correct": true, "explanation": "Correct: it gives a reason and a judged significance." },
+        { "id": "b", "text": "The Democratic Platform was announced in January 1990 by reformist party members.", "correct": false, "explanation": "Narrative: states what happened without judging its significance." },
+        { "id": "c", "text": "The Communist Party had many internal disagreements.", "correct": false, "explanation": "Too vague: no named event, no reason, no significance." },
+        { "id": "d", "text": "The Democratic Platform caused the August 1991 coup.", "correct": false, "explanation": "Factually wrong: the coup was led by hard-liners against Gorbachev, not caused by this reformist faction." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D13", "kind": "drill", "type": "narrative_or_analysis", "skill": "S2", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Sort each sentence: narrative or analysis?",
+      "segments": [
+        { "id": "s1", "text": "On 25 February 1991 the Warsaw Pact's ministers met and agreed to dissolve it.", "answer": "narrative", "explanation": "States what happened, with no link to a question." },
+        { "id": "s2", "text": "This showed that Gorbachev's 1988 renunciation of force had a lasting consequence, because an alliance that depended on that threat could not survive without it.", "answer": "analysis", "explanation": "Explains why the event mattered, with a causal link." },
+        { "id": "s3", "text": "Radioactive fallout from Chernobyl reached Sweden and other parts of western Europe.", "answer": "narrative", "explanation": "A statement of fact with no explanation of its effect." },
+        { "id": "s4", "text": "This meant the disaster could not be hidden, because the evidence of it had already crossed Soviet borders before Moscow spoke.", "answer": "analysis", "explanation": "Explains the consequence of the fact just stated." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D14", "kind": "drill", "type": "evidence_to_claim", "skill": "S3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Match each piece of evidence to the claim it supports.",
+      "pairs": [
+        { "left": "Moscow's economic boycott of Lithuania was abandoned by June 1990", "right": "Even coercive pressure could not reverse the republics' new assertiveness", "explanation": "The boycott failed to change Vilnius's course." },
+        { "left": "The Democratic Platform formed inside the CPSU in January 1990", "right": "The party's own members, not only outside critics, were abandoning its discipline", "explanation": "A split from within is a different kind of evidence from a split caused by outsiders." },
+        { "left": "The Warsaw Pact's ministers dissolved it on 25 February 1991", "right": "Gorbachev's renunciation of force had consequences beyond the Soviet Union itself", "explanation": "The alliance could not survive once the threat behind it was gone." },
+        { "left": "Memorial grew out of Club Perestroika, formed in 1987", "right": "Glasnost reached even into the memory of Stalin's terror", "explanation": "Openness was not only about current politics, but about the Soviet past." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D15", "kind": "drill", "type": "upgrade_sentence", "skill": "S4", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Vague sentence: \"Gorbachev's foreign policy changed a lot after 1988.\" Choose the best analytical upgrade.",
+      "options": [
+        { "id": "a", "text": "Gorbachev's December 1988 renunciation of force transformed Soviet foreign policy, because without the threat of intervention the Warsaw Pact itself dissolved by February 1991.", "correct": true, "explanation": "Correct: degree, precise evidence and the mechanism linking cause to effect." },
+        { "id": "b", "text": "Gorbachev's foreign policy changed enormously and very quickly after 1988.", "correct": false, "explanation": "Still vague: no evidence, no mechanism." },
+        { "id": "c", "text": "On 25 February 1991 the Warsaw Pact was dissolved.", "correct": false, "explanation": "Evidence without a claim or explanation: narrative." },
+        { "id": "d", "text": "Soviet foreign policy barely changed at all after 1988.", "correct": false, "explanation": "Factually wrong and gives no evidence." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D16", "kind": "drill", "type": "strongest_counter", "skill": "S12", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Claim: \"Gorbachev fully controlled the pace and direction of reform throughout 1985-1991.\" Pick the strongest counter-argument.",
+      "options": [
+        { "id": "a", "text": "The Democratic Platform's formation inside his own party in January 1990 shows that even the CPSU itself was dividing beyond his control.", "correct": true, "explanation": "Correct: it offers specific evidence of a loss of control from within his own institution." },
+        { "id": "b", "text": "Gorbachev was not a very good leader.", "correct": false, "explanation": "A general opinion, not an argument against the specific claim." },
+        { "id": "c", "text": "Many historians disagree with this claim.", "correct": false, "explanation": "Name-dropping with no argument." },
+        { "id": "d", "text": "The Soviet Union ended in December 1991.", "correct": false, "explanation": "A fact, not an argument about control over the pace of reform." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D17", "kind": "drill", "type": "judgement_criterion", "skill": "S13", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Question: \"Evaluate the extent to which nationalist movements, rather than divisions inside the Communist Party, explain the collapse of Soviet authority by 1991.\" Which conclusion weighs rather than recaps?",
+      "options": [
+        { "id": "a", "text": "Judged by which cause removed the party's ability to govern first, internal division (such as the Democratic Platform's split in January 1990) was the more fundamental cause, because a united party might still have contained nationalist movements by force.", "correct": true, "explanation": "Correct: a criterion, a judgement and a reasoned limit." },
+        { "id": "b", "text": "In conclusion, there were nationalist movements in the Baltic and divisions inside the party, and both were important.", "correct": false, "explanation": "A recap with no weighing of one against the other." },
+        { "id": "c", "text": "In conclusion, every factor mattered equally.", "correct": false, "explanation": "Avoids the judgement the command term requires." },
+        { "id": "d", "text": "In conclusion, nationalism was clearly the only cause that mattered.", "correct": false, "explanation": "An unsupported judgement with no criterion or weighing." }
+      ]
+    },
+    {
+      "itemId": "P3-16-B4-GLASNOST-D18", "kind": "drill", "type": "two_part_balance", "skill": "S1", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Question: \"Evaluate the reasons for, and the consequences of, the growing divisions inside the Communist Party itself between 1988 and 1991.\" Sort each plan point into REASONS or CONSEQUENCES.",
+      "categories": [ { "id": "causes", "label": "Reasons (causes)" }, { "id": "effects", "label": "Consequences (effects)" } ],
+      "segments": [
+        { "id": "s1", "text": "Gorbachev's democratisation created elected bodies that criticised the party", "answer": "causes", "explanation": "A reason divisions grew inside the party." },
+        { "id": "s2", "text": "Nina Andreyeva's 1988 letter showed hard-line resistance to reform", "answer": "causes", "explanation": "A reason: conservatives resisted change from within." },
+        { "id": "s3", "text": "The Democratic Platform formed as a reformist faction inside the CPSU in January 1990", "answer": "effects", "explanation": "A consequence of the growing split." },
+        { "id": "s4", "text": "The party could no longer present a single, disciplined voice to the public", "answer": "effects", "explanation": "A consequence: authority was weakened either way." },
+        { "id": "s5", "text": "Yakovlev and Yeltsin pushed for faster change than Gorbachev wanted", "answer": "causes", "explanation": "A reason the centre ground became harder to hold." }
       ]
     }
   ],

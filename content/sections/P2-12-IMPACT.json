@@ -1664,6 +1664,446 @@
      "explanation": "1987, in September."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did West Germany and the GDR sign through Ostpolitik, ratified by the Bundestag in 1973?",
+   "factIds": [
+    "F-IMP-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A Basic Treaty regulating relations between the two German states",
+     "correct": true,
+     "explanation": "Correct: part of Ostpolitik."
+    },
+    {
+     "id": "b",
+     "text": "A full reunification treaty",
+     "correct": false,
+     "explanation": "Reunification came only in 1990."
+    },
+    {
+     "id": "c",
+     "text": "A NATO membership treaty for the GDR",
+     "correct": false,
+     "explanation": "The GDR joined the Warsaw Pact, not NATO."
+    },
+    {
+     "id": "d",
+     "text": "A treaty dismantling the Berlin Wall",
+     "correct": false,
+     "explanation": "The Wall stood until 1989."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Gorbachev make clear to Eastern Europe's Communist regimes by 1989?",
+   "factIds": [
+    "F-IMP-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The USSR had abandoned the Brezhnev Doctrine of military intervention",
+     "correct": true,
+     "explanation": "Correct: they could no longer rely on Soviet tanks."
+    },
+    {
+     "id": "b",
+     "text": "Soviet troops would intervene to save them",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The Warsaw Pact would be strengthened",
+     "correct": false,
+     "explanation": "Not his message."
+    },
+    {
+     "id": "d",
+     "text": "He would restore Stalinist control",
+     "correct": false,
+     "explanation": "Not his policy."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R23",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many million dollars of food did the US distribute to East Germans after the June 1953 uprising? (number)",
+   "factIds": [
+    "F-IMP-06"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 15,
+     "tolerance": 0,
+     "explanation": "$15 million, in over 5 million packages."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R24",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in the German half of this section in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "West German state established, soon followed by East Germany",
+     "year": 1949,
+     "month": 5,
+     "factId": "F-IMP-01"
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev's Berlin ultimatum",
+     "year": 1958,
+     "month": 11,
+     "factId": "F-IMP-07"
+    },
+    {
+     "id": "c",
+     "text": "The Berlin Wall goes up",
+     "year": 1961,
+     "month": 8,
+     "factId": "F-IMP-08"
+    },
+    {
+     "id": "d",
+     "text": "The GDR joins the Federal Republic",
+     "year": 1990,
+     "month": 10,
+     "factId": "F-IMP-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were part of the June 1953 East German uprising? Choose all that apply.",
+   "factIds": [
+    "F-IMP-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "East Berlin workers protested against higher work norms",
+     "correct": true,
+     "explanation": "Yes: the spark on 16 June."
+    },
+    {
+     "id": "b",
+     "text": "Nearly a million East Germans joined protests across hundreds of towns",
+     "correct": true,
+     "explanation": "Yes: protests spread fast."
+    },
+    {
+     "id": "c",
+     "text": "Soviet forces declared martial law",
+     "correct": true,
+     "explanation": "Yes, using massive force."
+    },
+    {
+     "id": "d",
+     "text": "Ulbricht resigned as leader",
+     "correct": false,
+     "explanation": "He stayed in power, backed by Moscow."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Judt writes that Moscow devoted inordinate effort to shoring up 'a weak and unloved Communist regime' in Berlin.” Which argument does it support?",
+   "factIds": [
+    "F-IMP-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The GDR survived mainly because of Soviet backing, not its own legitimacy",
+     "correct": true,
+     "explanation": "Correct: Judt's judgement."
+    },
+    {
+     "id": "b",
+     "text": "The GDR was genuinely popular with its own people",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The USSR ignored East Germany after 1961",
+     "correct": false,
+     "explanation": "The Wall increased Soviet commitment to it."
+    },
+    {
+     "id": "d",
+     "text": "The Berlin Wall ended Soviet support for the GDR",
+     "correct": false,
+     "explanation": "Support continued into the 1980s."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “After 1958 the PRC and the ROC fought a full-scale war over the offshore islands.”",
+   "factIds": [
+    "F-IMP-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They shelled each other's garrisons on alternate days for twenty years, short of full-scale war",
+     "correct": true,
+     "explanation": "Correct: a ritualised, not total, conflict."
+    },
+    {
+     "id": "b",
+     "text": "The crises began in the 1970s",
+     "correct": false,
+     "explanation": "They began in 1954–55."
+    },
+    {
+     "id": "c",
+     "text": "The US sided with the PRC",
+     "correct": false,
+     "explanation": "The US backed Taiwan."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it was not full-scale war."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Sino-American tension between 1954 and 1964. Is Nixon's 1972 visit to China inside or outside the timeframe?",
+   "factIds": [
+    "F-IMP-22"
+   ],
+   "timeframe": [
+    1954,
+    1964
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later resolution",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1964."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1972 is after 1964."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it shows where the tension eventually led",
+     "correct": false,
+     "explanation": "Relevant later, not inside this timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to a 1966 US intelligence estimate, what accompanied China's internal quarrels?",
+   "factIds": [
+    "F-IMP-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mounting violence in polemics against the USSR",
+     "correct": true,
+     "explanation": "Correct: part of a campaign against 'revisionists'."
+    },
+    {
+     "id": "b",
+     "text": "A formal military alliance with Moscow",
+     "correct": false,
+     "explanation": "The opposite of what was happening."
+    },
+    {
+     "id": "c",
+     "text": "Peaceful cooperation with the Soviet Union",
+     "correct": false,
+     "explanation": "Not what analysts observed."
+    },
+    {
+     "id": "d",
+     "text": "China's total withdrawal from world affairs",
+     "correct": false,
+     "explanation": "Not the estimate's conclusion."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fill in the blank: a March 1969 US estimate said Mao's 'bizarre domestic ___' had cost China prestige and respect.",
+   "factIds": [
+    "F-IMP-20"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "programs",
+     "accept": [
+      "programmes"
+     ],
+     "tolerance": 0,
+     "explanation": "SNIE 13–69."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did US analysts conclude in August 1969, after the Ussuri border clashes?",
+   "factIds": [
+    "F-IMP-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "There was some chance the USSR would strike China's nuclear and missile facilities",
+     "correct": true,
+     "explanation": "Correct: NIE 11/13-69."
+    },
+    {
+     "id": "b",
+     "text": "China and the USSR had fully reconciled",
+     "correct": false,
+     "explanation": "The opposite: China now saw the USSR as its most immediate enemy."
+    },
+    {
+     "id": "c",
+     "text": "The US should intervene militarily on China's side",
+     "correct": false,
+     "explanation": "Not the analysts' conclusion."
+    },
+    {
+     "id": "d",
+     "text": "China no longer feared the Soviet Union",
+     "correct": false,
+     "explanation": "China feared it more than ever."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R32",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened as the US and China normalised relations in January 1979? Choose all that apply.",
+   "factIds": [
+    "F-IMP-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The US and PRC established diplomatic relations on 1 January",
+     "correct": true,
+     "explanation": "Yes: the formal date."
+    },
+    {
+     "id": "b",
+     "text": "Agreements on consular relations and academic exchanges were signed on 31 January",
+     "correct": true,
+     "explanation": "Yes: signed that day."
+    },
+    {
+     "id": "c",
+     "text": "Deng Xiaoping visited the United States",
+     "correct": true,
+     "explanation": "Yes, around the same time."
+    },
+    {
+     "id": "d",
+     "text": "China withdrew from the United Nations",
+     "correct": false,
+     "explanation": "China had been seated there since 1971."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-R33",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Honecker boasted in October 1989 that the GDR was a top-ten economic performer, but Judt says the regime was efficient mainly in producing 'bogus data'.” Which argument does it support?",
+   "factIds": [
+    "F-IMP-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The GDR's apparent economic strength concealed serious underlying weakness",
+     "correct": true,
+     "explanation": "Correct: Judt's judgement."
+    },
+    {
+     "id": "b",
+     "text": "The GDR genuinely was one of the world's ten strongest economies",
+     "correct": false,
+     "explanation": "The figures were false."
+    },
+    {
+     "id": "c",
+     "text": "Honecker admitted the GDR's economic failure",
+     "correct": false,
+     "explanation": "He boasted, he did not admit failure."
+    },
+    {
+     "id": "d",
+     "text": "Soviet statistics proved the GDR's success",
+     "correct": false,
+     "explanation": "The data was the GDR's own, and bogus."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2030,6 +2470,291 @@
      "text": "Fear of a Soviet strike in 1969",
      "answer": "effects",
      "explanation": "After the Ussuri clashes."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent did Cold War pressures shape political control in the GDR and China between 1949 and 1991?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Cold War pressures",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "shape political control in the GDR and China",
+     "answer": "scope",
+     "explanation": "What must be judged, across two states."
+    },
+    {
+     "id": "s4",
+     "text": "between 1949 and 1991",
+     "answer": "timeframe",
+     "explanation": "From the two states' founding to the Cold War's end."
+    },
+    {
+     "id": "s5",
+     "text": "extent",
+     "answer": "judgement",
+     "explanation": "Whether external pressure outweighed internal ideology."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'The Berlin Wall was built mainly to save the East German economy.' Discuss.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Wall mainly stopped the mass emigration draining the GDR's workforce, but, as Judt stresses, it also reassured East German Communists that Moscow would not abandon them, so political survival mattered as much as economic survival.",
+     "correct": true,
+     "explanation": "Correct: weighs two motives."
+    },
+    {
+     "id": "b",
+     "text": "The Wall was built on 13 August 1961.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Wall was a bad thing to build.",
+     "correct": false,
+     "explanation": "No historical judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Wall ended the Cold War.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 13 August 1961 a barbed-wire fence went up overnight between East and West Berlin.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because freedom of movement had let so many East Germans leave, the Wall was built to stop an exodus threatening the GDR's survival.",
+     "answer": "analysis",
+     "explanation": "Explains a cause."
+    },
+    {
+     "id": "s3",
+     "text": "In October 1971 the United Nations seated the People's Republic of China in place of Taiwan.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that Washington's recognition of Beijing could be used to pressure Moscow, so rapprochement reshaped the Cold War's triangle.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "The Stasi's 85,000 full-time employees and files on six million people",
+     "right": "The GDR relied on surveillance, not popularity, to survive",
+     "explanation": "One in three East Germans was monitored."
+    },
+    {
+     "left": "Honecker's 'top ten economy' boast of October 1989",
+     "right": "GDR statistics misrepresented a failing economy",
+     "explanation": "Judt: 'bogus data'."
+    },
+    {
+     "left": "The 1966 US estimate of mounting Sino-Soviet polemics",
+     "right": "The Sino-Soviet split was deepening by the mid-1960s",
+     "explanation": "Driven by Mao's domestic purges."
+    },
+    {
+     "left": "The 1969 Ussuri border clashes",
+     "right": "China came to see the USSR as its most immediate enemy",
+     "explanation": "More than the US, by 1969."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “China and the USSR fell out.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Although both were Communist states, Mao's 'bizarre domestic programs' and his polemics against Moscow widened a rift that, after the 1969 Ussuri clashes, led US analysts to judge the USSR might strike China's nuclear facilities.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and source."
+    },
+    {
+     "id": "b",
+     "text": "China and the USSR really fell out badly.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "China and the USSR were both Communist states.",
+     "correct": false,
+     "explanation": "Narrative, not analysis."
+    },
+    {
+     "id": "d",
+     "text": "China and the USSR never disagreed about anything.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The GDR collapsed purely because of West German pressure.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The GDR's own housing stock was decrepit, with two in five dwellings built before 1914, and its statistics were 'bogus', so internal decay, not only West German pressure, drove its 1989–90 collapse.",
+     "correct": true,
+     "explanation": "Correct: specific internal evidence."
+    },
+    {
+     "id": "b",
+     "text": "West Germany was richer than the GDR.",
+     "correct": false,
+     "explanation": "Too vague to counter the claim."
+    },
+    {
+     "id": "c",
+     "text": "The Berlin Wall fell in November 1989.",
+     "correct": false,
+     "explanation": "A fact, not a counter-argument."
+    },
+    {
+     "id": "d",
+     "text": "The GDR never had any economic problems.",
+     "correct": false,
+     "explanation": "False, and irrelevant to the claim."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'The Sino-Soviet split did more than US policy to end China's isolation.' Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by timing, US policy mattered most, since recognition came only in 1979; judged by cause, the Sino-Soviet split mattered more, since the 1969 Ussuri clashes were what made rapprochement with Washington attractive to Beijing in the first place.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, China was isolated and then was not.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the Cold War affected China.",
+     "correct": false,
+     "explanation": "Too vague, no criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, US policy alone explains everything.",
+     "correct": false,
+     "explanation": "Too general, and inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-IMPACT-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the construction of the Berlin Wall in 1961.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Reasons"
+    },
+    {
+     "id": "effects",
+     "label": "Results"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Mass emigration through the open sectors of Berlin by 1958",
+     "answer": "causes",
+     "explanation": "A exodus the regime could not sustain."
+    },
+    {
+     "id": "s2",
+     "text": "Khrushchev's Berlin ultimatum of November 1958",
+     "answer": "causes",
+     "explanation": "Sought to force the issue."
+    },
+    {
+     "id": "s3",
+     "text": "A fence, soon expanded into walls and guard towers, dividing families",
+     "answer": "effects",
+     "explanation": "Stood until 9 November 1989."
+    },
+    {
+     "id": "s4",
+     "text": "Reassurance for East German Communists that Moscow would not abandon them",
+     "answer": "effects",
+     "explanation": "Judt's point about regime survival."
     }
    ]
   }

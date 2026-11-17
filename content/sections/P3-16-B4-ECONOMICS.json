@@ -1749,6 +1749,400 @@
      "explanation": "Unrelated."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In 1979 the state took about how many billion rubles in indirect taxes on alcohol? (number)",
+   "factIds": [
+    "F-ECONOMICS-04"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 25.4,
+     "tolerance": 0,
+     "explanation": "25.4 billion rubles, more than the state raised in income tax."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By the end of 1987, about how many new cooperatives had been created? (number)",
+   "factIds": [
+    "F-ECONOMICS-07"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 13921,
+     "tolerance": 0,
+     "explanation": "13,921 cooperatives, employing about 150,000 people."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Campbell, what happened to the Five Hundred Days Plan after it was abandoned at the union level?",
+   "factIds": [
+    "F-ECONOMICS-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Its spirit and much of its content became the basis for reform in the Russian republic",
+     "correct": true,
+     "explanation": "Correct: it survived through Yeltsin's Russia rather than the Union."
+    },
+    {
+     "id": "b",
+     "text": "It was completely forgotten after October 1990",
+     "correct": false,
+     "explanation": "No: Campbell says its influence continued."
+    },
+    {
+     "id": "c",
+     "text": "It was adopted unchanged by the whole Soviet Union",
+     "correct": false,
+     "explanation": "The Union parliament instead gave Gorbachev decree powers."
+    },
+    {
+     "id": "d",
+     "text": "It became the basis of Gorbachev's August 1991 emergency measures",
+     "correct": false,
+     "explanation": "Not what Campbell argues."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "For how long did Ryzhkov chair the USSR Council of Ministers?",
+   "factIds": [
+    "F-ECONOMICS-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "September 1985 to December 1990",
+     "correct": true,
+     "explanation": "Correct: he suffered a heart attack on 25 December 1990."
+    },
+    {
+     "id": "b",
+     "text": "1985 to 1991",
+     "correct": false,
+     "explanation": "Too long: he left office in December 1990."
+    },
+    {
+     "id": "c",
+     "text": "Only during 1990",
+     "correct": false,
+     "explanation": "He chaired it from September 1985."
+    },
+    {
+     "id": "d",
+     "text": "1988 to 1991",
+     "correct": false,
+     "explanation": "Wrong start date."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R25",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The miners' strike of March–May 1991 was triggered by inflation that had wiped out wage gains, and strikers demanded Gorbachev's resignation.” Which argument does it support best?",
+   "factIds": [
+    "F-ECONOMICS-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic failure fed directly into political opposition to Gorbachev",
+     "correct": true,
+     "explanation": "Correct: workers' demands went beyond pay to his resignation."
+    },
+    {
+     "id": "b",
+     "text": "The miners supported Gorbachev's reforms",
+     "correct": false,
+     "explanation": "The opposite: they demanded his resignation."
+    },
+    {
+     "id": "c",
+     "text": "Inflation had been solved by 1991",
+     "correct": false,
+     "explanation": "Inflation caused the strike."
+    },
+    {
+     "id": "d",
+     "text": "The strike was unrelated to economic policy",
+     "correct": false,
+     "explanation": "It was triggered directly by inflation and wages."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Model enterprises created from above survived only on heavy subsidies, starving others, while unsure managers stockpiled whatever they could.” Which argument does it support best?",
+   "factIds": [
+    "F-ECONOMICS-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Partial reform created new distortions rather than removing the old ones",
+     "correct": true,
+     "explanation": "Correct: subsidy and stockpiling are not features of a market."
+    },
+    {
+     "id": "b",
+     "text": "Model enterprises proved the market reforms were working well",
+     "correct": false,
+     "explanation": "They survived only through subsidy, the opposite of market success."
+    },
+    {
+     "id": "c",
+     "text": "Managers were confident controls would never return",
+     "correct": false,
+     "explanation": "Judt says they were unsure, hence the stockpiling."
+    },
+    {
+     "id": "d",
+     "text": "The shortages ended once model enterprises were created",
+     "correct": false,
+     "explanation": "They starved other enterprises instead."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R27",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What followed the Law on State Enterprises of January 1988? Choose all that apply.",
+   "factIds": [
+    "F-ECONOMICS-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Workers demanded steep wage rises",
+     "correct": true,
+     "explanation": "Yes: enterprises could now set many wages themselves."
+    },
+    {
+     "id": "b",
+     "text": "The government printed money to meet wage demands",
+     "correct": true,
+     "explanation": "Yes, which fed inflation."
+    },
+    {
+     "id": "c",
+     "text": "Goods vanished from state shops",
+     "correct": true,
+     "explanation": "Yes: by September 1988 many staples could not be found even in Moscow."
+    },
+    {
+     "id": "d",
+     "text": "Central planning was fully restored",
+     "correct": false,
+     "explanation": "No: the law devolved price- and wage-setting to enterprises."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R28",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were consequences of the anti-alcohol campaign? Choose all that apply.",
+   "factIds": [
+    "F-ECONOMICS-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A rise in moonshine and organised crime",
+     "correct": true,
+     "explanation": "Yes, as Seventeen Moments records."
+    },
+    {
+     "id": "b",
+     "text": "A cut in state revenue",
+     "correct": true,
+     "explanation": "Yes: alcohol taxes had exceeded income tax."
+    },
+    {
+     "id": "c",
+     "text": "A fall in state income from printing money",
+     "correct": false,
+     "explanation": "The reverse: the state printed money to cover the gap, fuelling inflation."
+    },
+    {
+     "id": "d",
+     "text": "Continued without change until 1991",
+     "correct": false,
+     "explanation": "No: it was abandoned after 1987."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R29",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these 1990 economic reform events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Ryzhkov proposes a regulated market reached in stages",
+     "year": 1990,
+     "month": 5,
+     "factId": "F-ECONOMICS-14"
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev and Yeltsin jointly commission the Shatalin group",
+     "year": 1990,
+     "month": 7,
+     "factId": "F-ECONOMICS-15"
+    },
+    {
+     "id": "c",
+     "text": "The Russian Supreme Soviet adopts the Five Hundred Days Plan",
+     "year": 1990,
+     "month": 9,
+     "factId": "F-ECONOMICS-16"
+    },
+    {
+     "id": "d",
+     "text": "The 'Basic Guidelines' drop the plan's timetable",
+     "year": 1990,
+     "month": 10,
+     "factId": "F-ECONOMICS-16"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R30",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person to their role in the economic reforms.",
+   "pairs": [
+    {
+     "left": "Nikolai Ryzhkov",
+     "right": "Chaired the Council of Ministers, 1985–1990",
+     "explanation": "The chief administrator of the economy until his heart attack."
+    },
+    {
+     "left": "Valentin Pavlov",
+     "right": "Withdrew large banknotes at short notice in January 1991",
+     "explanation": "Caused panic and mistrust."
+    },
+    {
+     "left": "Stanislav Shatalin",
+     "right": "Led the group that wrote the Five Hundred Days Plan",
+     "explanation": "Commissioned jointly by Gorbachev and Yeltsin."
+    },
+    {
+     "left": "Grigory Yavlinsky",
+     "right": "Resigned after the plan's timetable was dropped",
+     "explanation": "Followed the October 1990 'Basic Guidelines'."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R31",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The whole Soviet Union adopted the Five Hundred Days Plan in September 1990 and it transformed the economy within weeks.”",
+   "factIds": [
+    "F-ECONOMICS-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Only the Russian Supreme Soviet adopted it; the Union parliament instead gave Gorbachev decree powers, and the October 'Basic Guidelines' dropped its timetable",
+     "correct": true,
+     "explanation": "Correct: the plan was never applied union-wide or on schedule."
+    },
+    {
+     "id": "b",
+     "text": "The plan was never written",
+     "correct": false,
+     "explanation": "The Shatalin group issued it on 1 September 1990."
+    },
+    {
+     "id": "c",
+     "text": "September 1990 is the wrong decade",
+     "correct": false,
+     "explanation": "The date is correct."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: adoption and the timetable."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-R32",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the economics of perestroika between 1985 and 1991. Is Gaidar's freeing of prices in January 1992 inside or outside the timeframe?",
+   "factIds": [
+    "F-ECONOMICS-25"
+   ],
+   "timeframe": [
+    1985,
+    1991
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later outcome",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1991."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: January 1992 is after 1991."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it completed perestroika's logic",
+     "correct": false,
+     "explanation": "Relevant as a later outcome, not inside this timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2115,6 +2509,247 @@
      "text": "Pavlov's banknote withdrawal destroyed trust",
      "answer": "failures",
      "explanation": "Confiscation, not reform."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Discuss the view that the Five Hundred Days Plan was doomed to fail from the start.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss the view that",
+     "answer": "verb",
+     "explanation": "Test the claim with arguments for and against, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "the Five Hundred Days Plan",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "doomed to fail",
+     "answer": "scope",
+     "explanation": "The proposition: inevitability, not just eventual failure."
+    },
+    {
+     "id": "s4",
+     "text": "from the start",
+     "answer": "timeframe",
+     "explanation": "Focus on 1990, when the plan was written and abandoned."
+    },
+    {
+     "id": "s5",
+     "text": "doomed",
+     "answer": "judgement",
+     "explanation": "Was failure inevitable, or did specific decisions cause it?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for the failure of Gorbachev's economic reforms between 1985 and 1991.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Reform failed mainly because each stage of decentralising without a market created new shortages and distortions, which political resistance and, after 1990, the republics' own demands for power then made impossible to reverse.",
+     "correct": true,
+     "explanation": "Correct: ranks causes and links them."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev became General Secretary in March 1985.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The economy was in trouble.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Reform failed because Yeltsin blocked every measure.",
+     "correct": false,
+     "explanation": "Overstated and inaccurate: Yeltsin co-commissioned the Shatalin plan."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In May 1985 Gorbachev launched the anti-alcohol campaign.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because alcohol taxes had exceeded income tax, the campaign's lost revenue had to be covered by printing money, which fuelled inflation.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism and its consequence."
+    },
+    {
+     "id": "s3",
+     "text": "The Law on State Enterprises came into effect in January 1988.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant enterprises could raise wages without matching price or output controls, so goods vanished from state shops within months.",
+     "answer": "analysis",
+     "explanation": "Explains why the law produced shortages."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Model enterprises survived only on heavy subsidies, starving others",
+     "right": "Partial reform created new distortions rather than removing old ones",
+     "explanation": "Judt's point about half-reform."
+    },
+    {
+     "left": "The miners' strike of 1991 demanded Gorbachev's resignation",
+     "right": "Economic failure became political opposition",
+     "explanation": "Wages and politics were now linked."
+    },
+    {
+     "left": "Pavlov withdrew large banknotes without warning in January 1991",
+     "right": "Late reforms destroyed public trust rather than rebuilding the economy",
+     "explanation": "Confiscation, not market-building."
+    },
+    {
+     "left": "Campbell: the Five Hundred Days Plan's spirit shaped later Russian reform",
+     "right": "Perestroika's economic ideas outlasted the Soviet Union itself",
+     "explanation": "A legacy beyond 1991."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The economy got worse and worse under Gorbachev.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Each reform removed one control without replacing it with a market mechanism, so the Law on State Enterprises of 1988 produced wage rises without matching output, which by September 1988 had emptied shops of staples even in Moscow.",
+     "correct": true,
+     "explanation": "Correct: precise evidence, mechanism and judgement."
+    },
+    {
+     "id": "b",
+     "text": "Things became quite bad under Gorbachev.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev became General Secretary in 1985.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The economy failed because Gorbachev was incompetent.",
+     "correct": false,
+     "explanation": "A judgement without evidence or mechanism."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D16",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the significance of the 1991 miners' strike for Gorbachev's economic reforms.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether it changed policy, the strike was significant: Gorbachev's own offer of higher wages was rejected, showing that by 1991 workers trusted the republics, not the centre, to deliver reform.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the miners went on strike from March to May 1991.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the strike was very disruptive.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, the strike ended the Soviet Union immediately.",
+     "correct": false,
+     "explanation": "Overstated: the Union lasted into December 1991."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B4-ECONOMICS-D17",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Gorbachev's economic reforms achieved nothing of lasting value.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Campbell argues that the Five Hundred Days Plan's spirit and much of its content became the basis for reform in the Russian republic, so its ideas outlasted the Union even though the plan itself was never fully applied.",
+     "correct": true,
+     "explanation": "Correct: a specific, sourced continuity into later reform."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev tried hard.",
+     "correct": false,
+     "explanation": "Not developed into an argument."
+    },
+    {
+     "id": "c",
+     "text": "Cooperatives existed.",
+     "correct": false,
+     "explanation": "Undeveloped; does not address 'lasting value'."
+    },
+    {
+     "id": "d",
+     "text": "The Soviet Union collapsed in 1991.",
+     "correct": false,
+     "explanation": "Consistent with the claim, not a counter to it."
     }
    ]
   }

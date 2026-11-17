@@ -149,7 +149,7 @@
     "chunkId": "K2",
     "angle": "causes",
     "title": "President against parliament: the crisis of 1993",
-    "body": "Russia began independence with the constitution of 1978, a Brezhnev-era document that gave authority to the Supreme Soviet. The parliament had granted Yeltsin emergency powers for the first year of reform. As shock therapy bit, a deep divide opened between the executive and the legislature, led by Speaker Ruslan Khasbulatov and Yeltsin's own Vice-President, Alexander Rutskoi. Yeltsin replaced Gaidar with an industrialist, Viktor Chernomyrdin, as a compromise, but on 12 March 1993 the Congress stripped him of his emergency powers. He narrowly survived an impeachment vote and called a referendum for 25 April, which showed, Peter Reddaway notes, that a small majority still trusted him.\n\nThe conflict ended in violence. On 21 September 1993 Yeltsin issued **decree 1400**, annulling the powers of the legislature and calling elections for a new parliament and a referendum on a new constitution, both on 12 December. The Supreme Soviet at once voted to impeach him and installed Rutskoi as acting president; on 23 September the congress confirmed the impeachment by 636 votes to 2. Deputies barricaded themselves in the parliament building, the White House, and the government cut off its electricity.\n\nOn 3 October a march by supporters of parliament broke through the cordon, and Rutskoi urged the crowd to storm the city hall, the Kremlin and the Ostankino television centre. The next day tanks bombarded the White House and the remaining deputies surrendered. According to the Kremlin, 143 people were killed; the human rights group Memorial estimated several hundred.\n\nFor the next three months, Reddaway writes, Yeltsin \"exercised virtually dictatorial powers\". He shut down the Constitutional Court, abolished regional and city legislatures and banned some nationalist and communist parties and publications. On 12 December voters approved a new constitution creating a strong presidential republic, with a two-chamber Federal Assembly and a president limited to two four-year terms. The vote was weaker than it looked: turnout was 54.8 per cent, and only about 31 per cent of all eligible voters supported the constitution. Yeltsin called the vote a \"plebiscite\", avoiding the 1990 law that required a majority of all registered voters for constitutional change. The same day, voters punished the reformers: Zhirinovsky's nationalist Liberal Democratic Party and the Communists beat Gaidar's liberals.\n\nThis mattered because Russia's new constitution was born from force, which meant that the presidency it created was strong but its legitimacy was contested from the start. Reddaway's verdict is that Yeltsin's resort to violence instead of compromise \"seriously undermined Russia's infant democracy\".",
+    "body": "Russia began independence with the constitution of 1978, a Brezhnev-era document that gave authority to the Supreme Soviet. The parliament had granted Yeltsin emergency powers for the first year of reform. As shock therapy bit, a deep divide opened between the executive and the legislature, led by Speaker Ruslan Khasbulatov and Yeltsin's own Vice-President, Alexander Rutskoi. Yeltsin replaced Gaidar with an industrialist, Viktor Chernomyrdin, as a compromise, but on 12 March 1993 the Congress stripped him of his emergency powers. He narrowly survived an impeachment vote and called a referendum for 25 April, which showed, Peter Reddaway notes, that a small majority still trusted him.\n\nThe conflict ended in violence. On 21 September 1993 Yeltsin issued **decree 1400**, annulling the powers of the legislature and calling elections for a new parliament and a referendum on a new constitution, both on 12 December. The Supreme Soviet at once voted to impeach him and installed Rutskoi as acting president; on 23 September the congress confirmed the impeachment by 636 votes to 2. Deputies barricaded themselves in the parliament building, the White House, and the government cut off its electricity.\n\nOn 3 October a march by supporters of parliament broke through the cordon, and Rutskoi urged the crowd to storm the city hall, the Kremlin and the Ostankino television centre. The next day tanks bombarded the White House and the remaining deputies surrendered. According to the Kremlin, 143 people were killed; the human rights group Memorial estimated several hundred.\n\nFor the next three months, Reddaway writes, Yeltsin \"exercised virtually dictatorial powers\". He shut down the Constitutional Court, abolished regional and city legislatures and banned some nationalist and communist parties and publications. On 12 December voters approved a new constitution creating a strong presidential republic, with a two-chamber Federal Assembly and a president limited to two four-year terms. The vote was weaker than it looked: turnout was 54.8 per cent, and only about 31 per cent of all eligible voters supported the constitution. Yeltsin called the vote a \"plebiscite\", avoiding the 1990 law that required a majority of all registered voters for constitutional change. Having just been betrayed by his own vice-president, Rutskoi, Yeltsin made sure the new constitution **eliminated the office of vice-president** altogether. The same day, voters punished the reformers: Zhirinovsky's nationalist Liberal Democratic Party and the Communists beat Gaidar's liberals.\n\nThis mattered because Russia's new constitution was born from force, which meant that the presidency it created was strong but its legitimacy was contested from the start. Reddaway's verdict is that Yeltsin's resort to violence instead of compromise \"seriously undermined Russia's infant democracy\".",
     "argumentsThatWork": [
      {
       "claim": "The root of the 1993 crisis was the clash over shock therapy between a reforming president and a parliament elected under Soviet rules.",
@@ -164,7 +164,8 @@
       "evidence": [
        "F-YELTSIN-12",
        "F-YELTSIN-13",
-       "F-YELTSIN-15"
+       "F-YELTSIN-15",
+       "F-YELTSIN-32"
       ],
       "strongestCounter": "Parliament's leaders also used violence on 3 October, and Rutskoi's side was no more democratic."
      },
@@ -1707,6 +1708,439 @@
      "explanation": "Putin was elected president in 2000 by the voters."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R21",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put Yeltsin's last prime ministers in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Sergei Kiriyenko appointed",
+     "year": 1998,
+     "month": 3,
+     "factId": "F-YELTSIN-23"
+    },
+    {
+     "id": "b",
+     "text": "Yevgeny Primakov appointed",
+     "year": 1998,
+     "month": 9,
+     "factId": "F-YELTSIN-23"
+    },
+    {
+     "id": "c",
+     "text": "Sergei Stepashin appointed",
+     "year": 1999,
+     "month": 5,
+     "factId": "F-YELTSIN-23"
+    },
+    {
+     "id": "d",
+     "text": "Vladimir Putin appointed",
+     "year": 1999,
+     "month": 8,
+     "factId": "F-YELTSIN-23"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date did Yeltsin issue decree 1400, annulling parliament's powers? (day month year)",
+   "factIds": [
+    "F-YELTSIN-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "21 September 1993",
+     "accept": [
+      "21 September 1993",
+      "September 21 1993"
+     ],
+     "explanation": "21 September 1993."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "When did a second war begin in Chechnya?",
+   "factIds": [
+    "F-YELTSIN-31"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Late 1999",
+     "correct": true,
+     "explanation": "Correct: shortly before Yeltsin's resignation."
+    },
+    {
+     "id": "b",
+     "text": "1994",
+     "correct": false,
+     "explanation": "That was the first Chechen war."
+    },
+    {
+     "id": "c",
+     "text": "1996",
+     "correct": false,
+     "explanation": "The first war ended in August 1996."
+    },
+    {
+     "id": "d",
+     "text": "2000, under Putin as president",
+     "correct": false,
+     "explanation": "It began under Yeltsin, before Putin's election."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened when Yeltsin declared emergency rule on 20 March 1993?",
+   "factIds": [
+    "F-YELTSIN-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Constitutional Court ruled it unconstitutional and he backed off",
+     "correct": true,
+     "explanation": "Correct: Reddaway's account."
+    },
+    {
+     "id": "b",
+     "text": "Parliament immediately approved it",
+     "correct": false,
+     "explanation": "The Court blocked it instead."
+    },
+    {
+     "id": "c",
+     "text": "The army seized the parliament building",
+     "correct": false,
+     "explanation": "That came later, in October."
+    },
+    {
+     "id": "d",
+     "text": "Rutskoi resigned as vice-president",
+     "correct": false,
+     "explanation": "Rutskoi was later installed as acting president by the Supreme Soviet."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of Yeltsin's 1996 re-election campaign? Choose all that apply.",
+   "factIds": [
+    "F-YELTSIN-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was bankrolled by the oligarchs",
+     "correct": true,
+     "explanation": "Yes: run by Chubais and Tatiana Dyachenko."
+    },
+    {
+     "id": "b",
+     "text": "The Kremlin admitted exceeding the legal spending cap",
+     "correct": true,
+     "explanation": "Yes: the spending limits were broken."
+    },
+    {
+     "id": "c",
+     "text": "Yeltsin suffered a heart attack between the two rounds, hidden from voters",
+     "correct": true,
+     "explanation": "Yes: kept secret until after the election."
+    },
+    {
+     "id": "d",
+     "text": "Yeltsin lost the run-off to Zyuganov",
+     "correct": false,
+     "explanation": "No: Yeltsin won the run-off."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Judt writes that privatisation under Yeltsin became 'kleptocracy', with Western aid flowing out into the pockets of his friends.” Which argument does it support best?",
+   "factIds": [
+    "F-YELTSIN-28"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Economic reform under Yeltsin mainly enriched a connected elite rather than the wider population",
+     "correct": true,
+     "explanation": "Correct: Judt's judgement."
+    },
+    {
+     "id": "b",
+     "text": "Western aid transformed the Russian economy for the better",
+     "correct": false,
+     "explanation": "Judt says the opposite."
+    },
+    {
+     "id": "c",
+     "text": "There was a Marshall Plan for Russia",
+     "correct": false,
+     "explanation": "Judt says there was no equivalent."
+    },
+    {
+     "id": "d",
+     "text": "Yeltsin refused all foreign aid",
+     "correct": false,
+     "explanation": "Aid did flow in, then out again."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Chechnya declared independence in 1994, which is why Yeltsin invaded that same year.”",
+   "factIds": [
+    "F-YELTSIN-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Chechnya declared independence in 1991, three years before the December 1994 invasion",
+     "correct": true,
+     "explanation": "Correct: the declaration and the invasion are three years apart."
+    },
+    {
+     "id": "b",
+     "text": "Yeltsin never invaded Chechnya",
+     "correct": false,
+     "explanation": "He did, in December 1994."
+    },
+    {
+     "id": "c",
+     "text": "Chechnya was never part of Russia",
+     "correct": false,
+     "explanation": "Not the error being tested here."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the dates are wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Yeltsin's Russia between 1992 and 2000. Is Chechnya's 1991 declaration of independence inside or outside the timeframe?",
+   "factIds": [
+    "F-YELTSIN-17"
+   ],
+   "timeframe": [
+    1992,
+    2000
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as background to the 1994 invasion",
+     "correct": true,
+     "explanation": "Correct: 1991 is before the section's timeframe begins."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1991 is outside 1992–2000."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Chechnya remained independent throughout",
+     "correct": false,
+     "explanation": "The date of the declaration itself is what matters here."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R29",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each prime minister to when they served.",
+   "pairs": [
+    {
+     "left": "Sergei Kiriyenko",
+     "right": "March–August 1998",
+     "explanation": "Dismissed after the rouble's collapse."
+    },
+    {
+     "left": "Yevgeny Primakov",
+     "right": "September 1998 – May 1999",
+     "explanation": "Appointed after the 1998 crisis."
+    },
+    {
+     "left": "Sergei Stepashin",
+     "right": "May–August 1999",
+     "explanation": "The shortest-serving of the group."
+    },
+    {
+     "left": "Vladimir Putin",
+     "right": "From 16 August 1999",
+     "explanation": "Named Yeltsin's successor."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R30",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did some of Yeltsin's associates float a third presidential term in 1999?",
+   "factIds": [
+    "F-YELTSIN-33"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They argued his 1991 election might not count as a first term",
+     "correct": true,
+     "explanation": "Correct, though Yeltsin chose a successor instead."
+    },
+    {
+     "id": "b",
+     "text": "The constitution allowed unlimited terms",
+     "correct": false,
+     "explanation": "It limited the president to two four-year terms."
+    },
+    {
+     "id": "c",
+     "text": "Putin asked him to stay on",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "The Duma demanded it",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Yeltsin do to his government shortly before the 1996 election?",
+   "factIds": [
+    "F-YELTSIN-34"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Fired his most liberal ministers, including Foreign Minister Kozyrev",
+     "correct": true,
+     "explanation": "Correct: alongside floating a new Chechnya peace plan."
+    },
+    {
+     "id": "b",
+     "text": "Appointed Chubais as prime minister",
+     "correct": false,
+     "explanation": "Chubais ran the campaign, not the government."
+    },
+    {
+     "id": "c",
+     "text": "Dissolved the Duma",
+     "correct": false,
+     "explanation": "Not what happened before 1996."
+    },
+    {
+     "id": "d",
+     "text": "Resigned in favour of Chernomyrdin",
+     "correct": false,
+     "explanation": "He ran for and won a second term."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R32",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many rubles of vouchers did every citizen receive under mass privatisation? (number)",
+   "factIds": [
+    "F-YELTSIN-06"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 10000,
+     "tolerance": 0,
+     "explanation": "10,000 rubles, then worth about 50 US dollars."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-R33",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Hedlund writes that the majority view blames shock therapy itself, not just its execution, for the failures of 1992.” Which argument does it support best?",
+   "factIds": [
+    "F-YELTSIN-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Shock therapy's design, not only how it was carried out, caused Russia's economic collapse",
+     "correct": true,
+     "explanation": "Correct: Hedlund's majority view."
+    },
+    {
+     "id": "b",
+     "text": "Shock therapy succeeded immediately",
+     "correct": false,
+     "explanation": "It failed by summer 1992."
+    },
+    {
+     "id": "c",
+     "text": "Only poor execution explains the failures",
+     "correct": false,
+     "explanation": "Hedlund says the majority blame the policy itself."
+    },
+    {
+     "id": "d",
+     "text": "There is no historical debate about shock therapy",
+     "correct": false,
+     "explanation": "There is, and Hedlund summarises it."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2073,6 +2507,297 @@
      "text": "Zhirinovsky and the Communists beat Gaidar's liberals",
      "answer": "effects",
      "explanation": "A consequence in the December elections."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the view that Yeltsin's record as president did more to damage than to build Russian democracy.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Evaluate the view that",
+     "answer": "verb",
+     "explanation": "Weigh the view, then judge it."
+    },
+    {
+     "id": "s2",
+     "text": "Yeltsin's record as president",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "did more to damage than to build Russian democracy",
+     "answer": "scope",
+     "explanation": "What must be judged and compared."
+    },
+    {
+     "id": "s4",
+     "text": "as president",
+     "answer": "timeframe",
+     "explanation": "1991 to 1999, mainly 1992–2000 here."
+    },
+    {
+     "id": "s5",
+     "text": "more to damage than to build",
+     "answer": "judgement",
+     "explanation": "A comparative judgement, not a simple yes or no."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the 1998 financial crisis a turning point for Yeltsin's Russia?” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The 1998 default and rouble collapse were a turning point because they discredited both shock therapy and the governments that followed it, opening the way for the search for a strong successor that ended with Putin.",
+     "correct": true,
+     "explanation": "Correct: a judgement that links cause to consequence."
+    },
+    {
+     "id": "b",
+     "text": "The rouble collapsed in August 1998.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "1998 was a bad year for Russia.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The crisis began in 1992 with shock therapy.",
+     "correct": false,
+     "explanation": "Confuses the 1992 and 1998 crises."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In August 1998 the rouble collapsed and the government defaulted on its debts.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the crash discredited the governments that had managed the economy since 1992, Yeltsin cycled through five prime ministers in under two years.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "Putin was appointed prime minister on 16 August 1999.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This mattered because it meant Yeltsin's chosen successor, not an election contest, decided who inherited a powerful, lightly-checked presidency.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Yeltsin eliminated the office of vice-president in the 1993 constitution",
+     "right": "The new constitution was shaped by Yeltsin's own experience of betrayal",
+     "explanation": "Rutskoi, his vice-president, had turned against him."
+    },
+    {
+     "left": "A second Chechen war began in late 1999",
+     "right": "Yeltsin's presidency ended as it had been troubled throughout, by an unresolved war in the Caucasus",
+     "explanation": "The first war had ended only in 1996."
+    },
+    {
+     "left": "Kozyrev, a liberal foreign minister, was fired before the 1996 election",
+     "right": "Yeltsin moved right to shore up support before a difficult election",
+     "explanation": "A tactical shift, not a change of conviction."
+    },
+    {
+     "left": "Some associates argued in 1999 that Yeltsin's 1991 election might not count as a first term",
+     "right": "There was real pressure to keep Yeltsin in power beyond two terms",
+     "explanation": "He chose a successor instead."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Privatisation was unfair.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Privatisation was unfair chiefly in its second phase, when a small group of insiders used their political connections to acquire major energy and raw-material firms at a fraction of their value, which Sakwa describes as 'massive insider dealing'.",
+     "correct": true,
+     "explanation": "Correct: specific mechanism, evidence and a historian."
+    },
+    {
+     "id": "b",
+     "text": "Privatisation was very unfair to ordinary Russians.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Vouchers were issued in October 1992.",
+     "correct": false,
+     "explanation": "Narrative, not analysis."
+    },
+    {
+     "id": "d",
+     "text": "Privatisation helped everyone equally.",
+     "correct": false,
+     "explanation": "Contradicted by the evidence on insider dealing."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The 1996 election proved Russian democracy was working normally.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Kremlin admitted exceeding the legal spending cap, state television favoured Yeltsin, and his life-threatening heart attack between rounds was concealed from voters, so the contest was neither fair nor fully informed.",
+     "correct": true,
+     "explanation": "Correct: specific, evidenced, and directly answers the claim."
+    },
+    {
+     "id": "b",
+     "text": "Yeltsin was unpopular before the campaign.",
+     "correct": false,
+     "explanation": "True, but does not counter the claim about the election itself."
+    },
+    {
+     "id": "c",
+     "text": "Zyuganov was a communist.",
+     "correct": false,
+     "explanation": "Not developed into an argument."
+    },
+    {
+     "id": "d",
+     "text": "The election took place in 1996.",
+     "correct": false,
+     "explanation": "A fact, not a counter-argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Assess the successes and failures of economic reform in Russia under Yeltsin.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether reform built a functioning, broadly shared market economy, it mostly failed: output and investment collapsed for most of the decade and the gains that followed after 1998 owed more to a weak rouble and oil prices than to the reforms themselves.",
+     "correct": true,
+     "explanation": "Correct: a criterion, a judgement, and a limit on it."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, prices were freed in 1992 and the economy grew again by 2000.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, economic reform had good and bad points.",
+     "correct": false,
+     "explanation": "No criterion and no judgement."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Yeltsin's reforms were a total success.",
+     "correct": false,
+     "explanation": "Contradicted by the evidence on GDP and investment."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-B5-YELTSIN-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the successes and failures of Yeltsin's presidency.” Sort each plan point into SUCCESSES or FAILURES.",
+   "categories": [
+    {
+     "id": "successes",
+     "label": "Successes"
+    },
+    {
+     "id": "failures",
+     "label": "Failures"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Accepted the post-Soviet borders and held competitive elections",
+     "answer": "successes",
+     "explanation": "Sakwa's point in Yeltsin's favour."
+    },
+    {
+     "id": "s2",
+     "text": "Left office voluntarily on his own terms in 1999",
+     "answer": "successes",
+     "explanation": "Unusual for a post-Soviet leader."
+    },
+    {
+     "id": "s3",
+     "text": "The economy lost around 40 per cent of GDP between 1991 and 1998",
+     "answer": "failures",
+     "explanation": "Judt's 'biggest peacetime setback' verdict."
+    },
+    {
+     "id": "s4",
+     "text": "The 1994 invasion of Chechnya, and a second war beginning in late 1999",
+     "answer": "failures",
+     "explanation": "Sakwa calls the first 'perhaps his greatest mistake'."
+    },
+    {
+     "id": "s5",
+     "text": "Democracy was left far from consolidated, resting on a president chosen by his predecessor",
+     "answer": "failures",
+     "explanation": "Sakwa's qualification of Yeltsin's democratic claim."
     }
    ]
   }
