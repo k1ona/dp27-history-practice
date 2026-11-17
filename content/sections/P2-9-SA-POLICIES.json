@@ -854,6 +854,18 @@
      "affirmative action",
      "BEE"
     ]
+   },
+   {
+    "factId": "F-SAP-08",
+    "year": 1998,
+    "text": "TRC's final report: blamed Botha's government for torture, arson, abduction and sabotage; criticised De Klerk over the 'Third Force' and criticised abuses in ANC camps and APLA attacks on civilians.",
+    "supports": [
+     "The TRC was even-handed and so controversial with every side"
+    ],
+    "lexicon": [
+     "Third Force",
+     "APLA"
+    ]
    }
   ],
   "historiography": [

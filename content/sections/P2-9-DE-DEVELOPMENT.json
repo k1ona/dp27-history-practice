@@ -14,7 +14,7 @@
     "chunkId": "K1",
     "angle": "role_of_leader",
     "title": "Chancellor democracy: the Adenauer era, 1949–1963",
-    "body": "Konrad Adenauer governed West Germany for fourteen years. The Basic Law helped him: because the Bundestag could remove a chancellor only by electing a successor, strong chancellors could govern for long periods. Adenauer used this position so forcefully that his rule was called **\"chancellor democracy\"**, a term, Geoff Layton notes, read positively or negatively depending on one's politics.\n\nHis foreign policy tied West Germany to the West. He secured membership of the Council of Europe in 1951 and helped create the European Coal and Steel Community in 1952. On **5 May 1955** West Germany regained its sovereignty and joined NATO, and a new army, the Bundeswehr, was created with conscription. Towards the East, Adenauer was unbending: under the **Hallstein Doctrine** of 1955, Bonn refused relations with any state that recognised East Germany, except the Soviet Union.\n\nAt home the **CDU** became a new kind of German party. It drew Catholics and Protestants, rural and urban voters, employers and workers. In Judt's phrase, the CDU \"colonized the issues\". Its vote almost doubled between 1949 and 1957, when it won more than half the votes cast. The opposition SPD, led by Kurt Schumacher, opposed Adenauer's Western policy and demanded a united, neutral Germany; its vote stagnated. The party system narrowed: from 1953 parties with less than 5 per cent of the vote were excluded from parliament, and in 1956 the Constitutional Court banned the Communist Party. Adenauer also courted the millions of expellees from the East, avoiding direct criticism of the German past.\n\nThe era ended badly. In the **Spiegel Affair** of 1962 the government, with Adenauer's authorisation, arrested the publisher of the news magazine *Der Spiegel* after it criticised defence policy. Even the conservative *Frankfurter Allgemeine Zeitung* called it \"an embarrassment to our democracy\". Adenauer stood down in 1963 and was succeeded by Ludwig Erhard.\n\nThis mattered because Adenauer's long rule gave the new democracy stability and Western security, which meant that West Germans came to associate democracy with prosperity and order, though at the cost of silence about the past.",
+    "body": "Konrad Adenauer governed West Germany for fourteen years. The Basic Law helped him: because the Bundestag could remove a chancellor only by electing a successor, strong chancellors could govern for long periods. Adenauer used this position so forcefully that his rule was called **\"chancellor democracy\"**, a term, Geoff Layton notes, read positively or negatively depending on one's politics; Layton adds that Adenauer's practical approach helped him integrate the new state's many competing interest groups.\n\nHis foreign policy tied West Germany to the West. He secured membership of the Council of Europe in 1951 and helped create the European Coal and Steel Community in 1952. On **5 May 1955** West Germany regained its sovereignty and joined NATO, and the Basic Law was amended to create a new army, the **Bundeswehr**, with conscription for men over eighteen. Towards the East, Adenauer was unbending: under the **Hallstein Doctrine** of 1955, Bonn refused relations with any state that recognised East Germany, except the Soviet Union, and in 1957 he broke off relations with Yugoslavia to prove the point.\n\nAt home the **CDU** became a new kind of German party. It drew Catholics and Protestants, rural and urban voters, employers and workers. In Judt's phrase, the CDU \"colonized the issues\". Its vote almost doubled between 1949, when it narrowly beat the SPD, and 1957, when it won more than half the votes cast. The opposition SPD, led by Kurt Schumacher, opposed Adenauer's Western policy and demanded a united, neutral Germany; it won 29.2 per cent in 1949, but its vote stagnated in 1953 and 1957. The party system narrowed around the centre: from 1953 any party winning less than 5 per cent of the vote was barred from parliament, tilting the system towards the larger parties (a rule some criticised as itself undemocratic), and the Communist vote fell from 5.7 per cent in 1947 to 2.2 per cent in 1953 before the Constitutional Court banned the party outright in 1956. A further pressure came from the Right: of roughly thirteen million German expellees from the East, nearly nine million settled in the western zones, and in 1949 forty-eight seats went to populist parties of the nationalist Right, whose 'Bloc' took 23 per cent of the vote in Schleswig-Holstein in 1950. Adenauer answered this threat less by confrontation than by courting the expellees directly and avoiding any direct criticism of the German past.\n\nThe era ended badly. In the **Spiegel Affair** of 1962, after the magazine hinted at shady dealings by the defence minister Franz-Josef Strauss, the government, with Adenauer's authorisation, arrested the publisher of *Der Spiegel* and searched its offices. Even the conservative *Frankfurter Allgemeine Zeitung* called it \"an embarrassment to our democracy\". Adenauer stood down in 1963, having won four elections, and was succeeded by Ludwig Erhard.\n\nThis mattered because Adenauer's long rule gave the new democracy stability and Western security while also containing both a nationalist Right and a neutralist Left, which meant that West Germans came to associate democracy with prosperity and order, though at the cost of silence about the past.",
     "argumentsThatWork": [
      {
       "claim": "Adenauer gave democracy stability.",
@@ -42,7 +42,8 @@
     ],
     "howItGetsAsked": [
      "Analyse the role of Konrad Adenauer in the development of West German democracy between 1949 and 1963.",
-     "To what extent was the Basic Law the main reason for the stability of West German democracy between 1949 and 1969?"
+     "To what extent was the Basic Law the main reason for the stability of West German democracy between 1949 and 1969?",
+     "Examine the ways in which the West German party system narrowed between 1949 and 1963."
     ],
     "useItInAnEssay": {
      "claim": "Adenauer stabilised West German democracy by giving it strong government and Western security.",
@@ -154,7 +155,8 @@
      {
       "claim": "Bad Godesberg made the SPD electable.",
       "evidence": [
-       "F-DED-08"
+       "F-DED-08",
+       "F-DED-07"
       ],
       "strongestCounter": "Many in the SPD remained unhappy with the EEC."
      },
@@ -176,7 +178,8 @@
     ],
     "howItGetsAsked": [
      "Examine the reasons for, and the results of, the SPD's Bad Godesberg programme between 1959 and 1969.",
-     "“The challenges of the years 1962 to 1977 showed the weakness of West German democracy.” Discuss."
+     "“The challenges of the years 1962 to 1977 showed the weakness of West German democracy.” Discuss.",
+     "To what extent did the Grand Coalition of 1966 to 1969 strengthen West German democracy?"
     ],
     "useItInAnEssay": {
      "claim": "Bad Godesberg was the turning point that made a peaceful change of government possible.",
@@ -283,7 +286,7 @@
     "chunkId": "K3",
     "angle": "success_failure",
     "title": "Ostpolitik and terrorism, 1969–1982",
-    "body": "Brandt's government changed West Germany's policy towards the East. With his adviser Egon Bahr, he pursued **Ostpolitik**, \"change through rapprochement\". Brandt dropped the claim that East Germany was illegitimate, speaking instead of \"one German nation, two German states\". Treaties with Moscow and Warsaw in 1970 accepted the post-war frontiers; a four-power agreement on Berlin followed in 1971, and a **Basic Treaty** with East Germany was ratified in 1973. In Warsaw Brandt knelt at the memorial to the Warsaw Ghetto, and he was awarded the Nobel Peace Prize. In 1972 the SPD became the largest party in parliament for the first time. Contacts across the border grew: phone calls from West to East rose from half a million in 1969 to some forty million twenty years later. But reunification faded as a political goal: from the mid-1970s, never more than 1 per cent of West Germans called it the most important question.\n\nAt home, democracy faced its most violent challenge. The **Red Army Fraction** (the Baader-Meinhof Group) set out to destroy the Federal Republic by force. Between 1970 and 1978 it killed 28 people and took 162 hostages, and in 1977 it murdered the industrialist Hans Martin Schleyer, the Attorney General Siegfried Buback and the banker Jürgen Ponto. The state responded firmly: in 1972 Brandt's government introduced the *Berufsverbot*, excluding people judged hostile to the constitution from public employment, which critics feared would lead to censorship. Judt concludes that the terrorists failed, as did the neo-Nazi Right, whose bomb at the 1980 Munich Oktoberfest killed 13 people: neither destabilised the Republic.\n\nBrandt resigned in 1974 after a spy scandal. His successor, **Helmut Schmidt**, kept to the line of Ostpolitik, as did the Christian Democrat **Helmut Kohl**, who became chancellor in 1982.\n\nThis mattered because West Germany both reduced tension with the East and withstood terrorism without abandoning democracy, which meant that the Federal Republic emerged from the 1970s more secure than its critics had feared.",
+    "body": "Brandt's government changed West Germany's policy towards the East. With his adviser Egon Bahr, he pursued **Ostpolitik**, \"change through rapprochement\". Brandt dropped the claim that East Germany was illegitimate, speaking instead of \"one German nation, two German states\". Treaties with Moscow and Warsaw in 1970 accepted the post-war frontiers; a four-power agreement on Berlin followed in 1971, and a **Basic Treaty** with East Germany was ratified in 1973; in September that year the United Nations admitted both German states as members. In Warsaw Brandt knelt at the memorial to the Warsaw Ghetto, and he was awarded the Nobel Peace Prize. In 1972 the SPD became the largest party in parliament for the first time. Contacts across the border grew: phone calls from West to East rose from half a million in 1969 to some forty million twenty years later. But reunification faded as a political goal: in the 1950s and 1960s up to 45 per cent of West Germans had called it the single most important question, yet from the mid-1970s the figure never again rose above 1 per cent — a measure of how completely Ostpolitik had reconciled West Germans to living with two German states.\n\nAt home, democracy faced its most violent challenge. The **Red Army Fraction** (the Baader-Meinhof Group) set out to destroy the Federal Republic by force. Between 1970 and 1978 it killed 28 people and took 162 hostages, and in 1977, during what became known as the \"German Autumn\", it murdered the industrialist Hans Martin Schleyer, the Attorney General Siegfried Buback and the banker Jürgen Ponto; the group's founder, Andreas Baader, was found dead in his cell on 18 October 1977. The state responded firmly: in 1972 Brandt's government introduced the *Berufsverbot*, excluding people judged hostile to the constitution from public employment, which critics feared would lead to censorship. Judt concludes that the terrorists failed, as did the neo-Nazi Right, whose bomb at the 1980 Munich Oktoberfest killed 13 people: neither destabilised the Republic.\n\nBrandt resigned in 1974 after a spy scandal in his own office. His successor, **Helmut Schmidt**, kept to the line of Ostpolitik, as did the Christian Democrat **Helmut Kohl**, who became chancellor in 1982.\n\nThis mattered because West Germany both reduced tension with the East and withstood terrorism without abandoning democracy, which meant that the Federal Republic emerged from the 1970s more secure than its critics had feared.",
     "argumentsThatWork": [
      {
       "claim": "Ostpolitik normalised relations with the East.",
@@ -304,14 +307,16 @@
      {
       "claim": "Ostpolitik outlasted its author.",
       "evidence": [
-       "F-DED-18"
+       "F-DED-18",
+       "F-DED-19"
       ],
       "strongestCounter": "Brandt fell in 1974."
      }
     ],
     "howItGetsAsked": [
      "Evaluate the success of Ostpolitik between 1969 and 1974.",
-     "“The challenges of the years 1962 to 1977 showed the weakness of West German democracy.” Discuss."
+     "“The challenges of the years 1962 to 1977 showed the weakness of West German democracy.” Discuss.",
+     "Examine the methods used by the West German state to counter terrorism between 1970 and 1980."
     ],
     "useItInAnEssay": {
      "claim": "Ostpolitik succeeded in normalising relations with the East, at the price of accepting division.",
@@ -444,7 +449,8 @@
     ],
     "howItGetsAsked": [
      "To what extent was Helmut Kohl responsible for German unification between 1989 and 1990?",
-     "To what extent was the Basic Law the main reason for the stability of West German democracy between 1949 and 1969?"
+     "To what extent was the Basic Law the main reason for the stability of West German democracy between 1949 and 1969?",
+     "Examine the significance of the Greens' entry into the Bundestag in 1983 for the West German party system."
     ],
     "useItInAnEssay": {
      "claim": "Kohl was responsible for the speed and form of unification, though not for the opportunity.",
@@ -879,6 +885,18 @@
     "lexicon": [
      "unification",
      "Article 23"
+    ]
+   },
+   {
+    "factId": "F-DED-20",
+    "year": 1975,
+    "text": "Up to 45 per cent of West Germans called unification the most important question in the 1950s–60s; from the mid-1970s, never more than 1 per cent.",
+    "supports": [
+     "Ostpolitik made division seem permanent"
+    ],
+    "lexicon": [
+     "Ostpolitik",
+     "unification"
     ]
    }
   ],

@@ -14,7 +14,7 @@
     "chunkId": "K1",
     "angle": "success_failure",
     "title": "The social market economy and the 'economic miracle'",
-    "body": "When the Federal Republic was founded in 1949, living standards in western Germany had fallen to pre-1914 levels, with food shortages and a black market. The new government's main economic aim was recovery, and its chosen instrument was Ludwig Erhard's **social market economy**. In Geoff Layton's words, it aimed to combine \"political and economic freedom with social justice and security\": private property and enterprise would be encouraged, but a strong state could intervene to protect the common interests of individuals. Erhard saw it as a \"third way\" between unrestrained capitalism and an over-regulated socialist economy.\n\nRecovery was uneven at first. In 1951 more than two million West Germans were unemployed, over 10 per cent of the workforce. But by the end of 1951 output had regained pre-war levels, and by 1955 unemployment had fallen to about one million and gross national product had doubled. By 1960 industrial production was more than twice the level of 1950, and West Germany was the world's third biggest trading power. This was the **Wirtschaftswunder**, the \"economic miracle\".\n\nThe \"social\" side mattered too. The **Co-determination Law** of 1951 put workers' representatives on the boards of iron, coal and steel companies, and the Works' Constitution Law of 1952 created works councils in large firms. Unions and employers worked as partners. Judt adds that the state itself owned or controlled large parts of industry and banking, and that conflict was rare because \"the economic cake grew fast enough\".\n\nHistorians debate the causes. Layton and Mary Fulbrook stress the help of the **Marshall Plan**, which gave Germany more than $1.5 billion. But economists estimate that Marshall aid contributed less than 5 per cent of West German national income, and Britain received twice as much. Erhard's reforms and good industrial relations are now seen as more important.\n\nThis mattered because rapid growth gave the new democracy jobs and goods, which meant that West Germans came to associate democracy with prosperity, unlike in the Weimar years.",
+    "body": "When the Federal Republic was founded in 1949, living standards in western Germany had fallen to pre-1914 levels, with food shortages and a black market. The new government's main economic aim was recovery, and its chosen instrument was Ludwig Erhard's **social market economy**. In Geoff Layton's words, it aimed to combine \"political and economic freedom with social justice and security\": private property and enterprise would be encouraged, but a strong state could intervene to protect the common interests of individuals. Erhard saw it as a \"third way\" between unrestrained capitalism and an over-regulated socialist economy.\n\nRecovery was uneven at first. In 1951 more than two million West Germans were unemployed, over 10 per cent of the workforce. But by the end of 1951 output had regained pre-war levels, and by 1955 unemployment had fallen to about one million and gross national product had doubled. By 1960 industrial production was more than twice the level of 1950, and West Germany was the world's third biggest trading power. This was the **Wirtschaftswunder**, the \"economic miracle\".\n\nThe \"social\" side mattered too. The **Co-determination Law** of 1951 put workers' representatives on the boards of iron, coal and steel companies, and the Works' Constitution Law of 1952 created works councils in firms with more than 500 workers. Unions and employers worked as partners. Judt adds that the state itself still owned or controlled **40 per cent of coal and iron production, two-thirds of electricity-generating plants and a majority of the banks**, so the \"free market\" was never as pure as the label suggested; conflict was rare, he writes, mainly because \"the economic cake grew fast enough\" to satisfy most demands.\n\nHistorians debate the causes. Layton and Mary Fulbrook stress the help of the **Marshall Plan**, which gave Germany more than $1.5 billion. But economists estimate that Marshall aid contributed less than 5 per cent of West German national income, and Britain received twice as much. Erhard's reforms and good industrial relations are now seen as more important.\n\nThis mattered because rapid growth gave the new democracy jobs and goods, which meant that West Germans came to associate democracy with prosperity, unlike in the Weimar years.",
     "argumentsThatWork": [
      {
       "claim": "The social market economy produced rapid growth.",
@@ -35,14 +35,16 @@
      {
       "claim": "Marshall aid was less decisive than once thought.",
       "evidence": [
-       "F-DEP-06"
+       "F-DEP-06",
+       "F-DEP-05"
       ],
       "strongestCounter": "Layton and Fulbrook stress its importance."
      }
     ],
     "howItGetsAsked": [
      "To what extent was the social market economy responsible for West Germany's economic recovery between 1949 and 1960?",
-     "To what extent did economic recovery lead to a more equal distribution of wealth in West Germany between 1949 and 1960?"
+     "To what extent did economic recovery lead to a more equal distribution of wealth in West Germany between 1949 and 1960?",
+     "Evaluate the significance of the Marshall Plan for West Germany's economic recovery after 1949."
     ],
     "useItInAnEssay": {
      "claim": "The social market economy was the main reason for West Germany's recovery.",
@@ -154,7 +156,8 @@
      {
       "claim": "Housing policy met an acute shortage.",
       "evidence": [
-       "F-DEP-08"
+       "F-DEP-08",
+       "F-DEP-01"
       ],
       "strongestCounter": "Shortages remained in the early 1950s."
      },
@@ -176,7 +179,8 @@
     ],
     "howItGetsAsked": [
      "Evaluate the success of West German social policies between 1949 and 1960.",
-     "To what extent did economic recovery lead to a more equal distribution of wealth in West Germany between 1949 and 1960?"
+     "To what extent did economic recovery lead to a more equal distribution of wealth in West Germany between 1949 and 1960?",
+     "Examine the reasons for, and the results of, the integration of refugees and expellees in West Germany after 1949."
     ],
     "useItInAnEssay": {
      "claim": "West German social policy succeeded because it was carried by economic growth.",
@@ -283,7 +287,7 @@
     "chunkId": "K3",
     "angle": "success_failure",
     "title": "Women and the victims of Nazism",
-    "body": "The Basic Law of 1949 declared that **men and women were equal**. Yet policy assumed a male breadwinner. Women could be dismissed from the civil service when they married, and an equality law of the late 1950s was needed before a wife could take a job without her husband's permission or keep control of her property. Women's average pay remained 40 per cent below men's. The share of women entering higher education rose from 19 per cent in 1949 to about a third by the late 1960s, and the 1954 Weisser Report presented working women as a positive model. But even in the 1980s women were only just over 10 per cent of Bundestag members. Mary Fulbrook notes that women remained concentrated in lower-status, less well-paid, part-time or temporary work.\n\nPolicy towards the **victims of Nazism** was selective. The Basic Law granted automatic citizenship to those persecuted by the Nazis. In September 1951 Adenauer acknowledged \"the immeasurable suffering endured by the Jews\", and under the **Luxembourg Agreement** of September 1952 West Germany agreed to pay Israel three billion marks and a further 450 million marks to Jewish organisations. Other victims were treated very differently. In 1950 judges in Baden-Württemberg were told that Sinti and Roma had been persecuted \"not for any racial reason\" but for an \"asocial and criminal record\", so most had little hope of compensation. The Federal Republic kept Paragraph 175, which criminalised sex between men in the form Hitler had broadened; about 100,000 men faced court cases between 1945 and 1969.\n\nThis mattered because the new democracy promised equal rights in law but applied them unevenly in practice, which meant that equality for women and recognition for some victims came only slowly.",
+    "body": "The Basic Law of 1949 declared that **men and women were equal**. Yet policy assumed a male breadwinner. Women could be dismissed from the civil service when they married, and an equality law of the late 1950s was needed before a wife could take a job without her husband's permission or keep control of her property. Women's average pay remained 40 per cent below men's. The share of women entering higher education rose from 19 per cent in 1949 to about a third by the late 1960s, and the 1954 Weisser Report presented working women as a positive model. But even in the 1980s women were only just over 10 per cent of Bundestag members. Mary Fulbrook notes that women remained concentrated in lower-status, less well-paid, part-time or temporary work.\n\nPolicy towards the **victims of Nazism** was selective. The Basic Law granted automatic citizenship to those persecuted by the Nazis. In September 1951 Adenauer acknowledged \"the immeasurable suffering endured by the Jews\", and under the **Luxembourg Agreement** of September 1952 West Germany agreed to pay Israel three billion marks and a further 450 million marks to Jewish organisations. Other victims were treated very differently. In 1950 judges in Baden-Württemberg were told that Sinti and Roma had been persecuted \"not for any racial reason\" but for an \"asocial and criminal record\", so most had little hope of compensation. The Federal Republic kept Paragraph 175, which criminalised sex between men in the form Hitler had broadened; about 100,000 men faced court cases between 1945 and 1969, and nearly half of them were convicted.\n\nThis mattered because the new democracy promised equal rights in law but applied them unevenly in practice, which meant that equality for women and recognition for some victims came only slowly.",
     "argumentsThatWork": [
      {
       "claim": "Legal equality for women was not matched in practice.",
@@ -311,7 +315,8 @@
     ],
     "howItGetsAsked": [
      "“West German governments did little to improve the position of women between 1949 and 1969.” Discuss.",
-     "Analyse the policies of the Federal Republic towards victims of Nazi persecution between 1949 and 1969."
+     "Analyse the policies of the Federal Republic towards victims of Nazi persecution between 1949 and 1969.",
+     "Compare and contrast the treatment of two different groups of victims of Nazism in West German policy."
     ],
     "useItInAnEssay": {
      "claim": "West German governments improved women's legal position but did little to change their economic position.",
@@ -418,7 +423,7 @@
     "chunkId": "K4",
     "angle": "impact_consequences",
     "title": "Wealth, guest workers and the costs of unity",
-    "body": "Did prosperity mean equality? Bottaro and Stanley suggest that wealth became more widely shared, not by narrowing the income gap, but by bringing more people into the middle class. In 1955 many still lived modestly: a third of Germans had never had a holiday, only 10 per cent owned a fridge and half lived in one-bedroom flats. And by 1959, 1.8 per cent of households controlled 35 per cent of private wealth.\n\nGrowth also created a demand for labour that West Germany met with **foreign workers**. By the peak year of 1973 there were 2.8 million, one in eight of the workforce, including 605,000 Turks. They had no permanent right of residence and were kept in entry-level jobs and wages. When recession came in 1974–75 they were the first to be laid off. In 1975 the Federal Republic closed its recruiting offices, and in 1977 a federal commission declared that \"Germany is not an immigrant country\".\n\nThe last great policy decision of the period came with unification. The **monetary, economic and social union** of 1 July 1990 allowed East Germans to exchange their marks, up to the equivalent of DM 40,000, at 1:1, and paid East German wages in Deutschmarks at parity. It kept East Germans from moving west, but Judt notes that it had grim long-term consequences for East German jobs and for the West German budget.\n\nThis mattered because West German prosperity rested partly on people who did not fully share in it, which meant that the limits of the social market economy showed most clearly at its edges: among guest workers, and in the East after 1990.",
+    "body": "Did prosperity mean equality? Bottaro and Stanley suggest that wealth became more widely shared, not by narrowing the income gap, but by bringing more people into the middle class. In 1955 many still lived modestly: a third of Germans had never had a holiday, only 10 per cent owned a fridge and half lived in one-bedroom flats. And by 1959, 1.8 per cent of households controlled 35 per cent of private wealth.\n\nGrowth also created a demand for labour that West Germany met with **foreign workers**. By the peak year of 1973 there were 2.8 million, one in eight of the workforce, including 605,000 Turks. They had no permanent right of residence and were kept in entry-level jobs and wages. When recession came in 1974–75 they were the first to be laid off. In 1975 the Federal Republic permanently closed its recruiting offices in North Africa, Portugal, Spain and Yugoslavia, and in 1977 a federal commission declared that \"Germany is not an immigrant country\".\n\nThe last great policy decision of the period came with unification. The **monetary, economic and social union** of 1 July 1990 allowed East Germans to exchange their marks, up to the equivalent of DM 40,000, at 1:1, and paid East German wages in Deutschmarks at parity. It kept East Germans from moving west, but Judt notes that it had grim long-term consequences for East German jobs and for the West German budget.\n\nThis mattered because West German prosperity rested partly on people who did not fully share in it, which meant that the limits of the social market economy showed most clearly at its edges: among guest workers, and in the East after 1990.",
     "argumentsThatWork": [
      {
       "claim": "Wealth remained unequally distributed.",
@@ -445,7 +450,8 @@
     ],
     "howItGetsAsked": [
      "To what extent did economic recovery lead to a more equal distribution of wealth in West Germany between 1949 and 1960?",
-     "Examine the reasons for, and the results of, the recruitment of foreign workers in West Germany between 1955 and 1977."
+     "Examine the reasons for, and the results of, the recruitment of foreign workers in West Germany between 1955 and 1977.",
+     "Evaluate the economic and social consequences of monetary union for East Germany in 1990."
     ],
     "useItInAnEssay": {
      "claim": "Guest workers were recruited to meet the demand for labour created by growth, but were never treated as permanent residents.",
@@ -860,6 +866,18 @@
     "lexicon": [
      "Gastarbeiter",
      "guest workers"
+    ]
+   },
+   {
+    "factId": "F-DEP-05",
+    "year": 1955,
+    "text": "The state still owned or controlled 40 per cent of coal and iron production, two-thirds of electricity generation and a majority of the banks.",
+    "supports": [
+     "The 'free market' was never fully free"
+    ],
+    "lexicon": [
+     "social market economy",
+     "state ownership"
     ]
    }
   ],

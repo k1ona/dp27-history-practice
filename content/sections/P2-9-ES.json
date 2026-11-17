@@ -14,13 +14,14 @@
     "chunkId": "K1",
     "angle": "nature_methods",
     "title": "Franco's Spain, 1939–1975",
-    "body": "General Francisco Franco staged a military coup in 1936 and, after victory in the Civil War, ruled Spain unchallenged from 1939 until his death in 1975. Independent political parties were banned, and until 1967 Spain had no constitution at all. The regime rested on the army, which was rewarded and celebrated, and on the Catholic Church, which under a 1953 concordat was freed from taxation and given the right to demand censorship. Everything distinctively Basque was repressed, and in 1958 the Basque separatist organisation **ETA** was formed to fight for independence; in December 1973 it assassinated Franco's prime minister, Admiral Carrero Blanco.\n\nYet Spain changed beneath the dictatorship. In 1959 a group of technocratic ministers abandoned two decades of economic self-sufficiency for a **Stabilization Plan**. Spain joined the IMF and the World Bank, and GNP rose steadily from 1961. One worker in two had been on the land in 1950; by 1971 it was one in five. Millions of tourists arrived: 34 million in the year before Franco's death. Judt warns against overstating this \"economic miracle\", much of which depended on emigrants' remittances and foreign holiday-makers. But by the late 1960s strikes and demonstrations were a fixture of Spanish life, and an unofficial labour movement had grown in Catalonia and the Basque country.\n\nAs Judt puts it, it was the political state, not Spanish society, that had fallen behind. Franco named the young **Juan Carlos**, grandson of Spain's last king, as his successor. A US intelligence assessment of May 1975 judged that the regime \"must change in order to survive but any real change carries threats to its existence\".\n\nThis mattered because society had modernised while politics had not, which meant that by 1975 there was a large gap between the regime and the people it ruled.",
+    "body": "General Francisco Franco staged a military coup against Spain's elected Republican government in July 1936 and, after victory in the Civil War, ruled unchallenged from 1939 until his death on 20 November 1975 — thirty-six years. Independent political parties were banned, and until 1967 Spain had no constitution at all; officially Franco held power as a 'regent' for the suspended monarchy, grooming the young **Juan Carlos**, grandson of Spain's last king, as his eventual successor. To a visitor in 1970 the country could look frozen in time: rigid censorship, strict laws on public dress and behaviour, an omnipresent police, and draconian penalties for political critics — as recently as 1963 Franco had executed a captured Communist, Julián Grimau, despite widespread international protest.\n\nThe regime rested on two pillars. The **Catholic Church** was freed from taxation under a 1953 concordat and given the right to demand censorship of anything it objected to; Franco needed Catholicism to preserve Spain's tenuous links to the West. The **army** was cosseted and celebrated — by the regime's last years it had 300 generals and an officer-to-men ratio of 1:11, the highest in Europe, and a 1967 law made it formally responsible for 'the institutional system'. Yet in practice the army was largely ceremonial: Franco kept it out of foreign wars, and its conservatism later helped, rather than hindered, the return of the monarchy. Everything distinctively Basque — language, customs, politics — was repressed; the separatist organisation **ETA**, formed in December 1958, assassinated Franco's prime minister, Admiral Carrero Blanco, on 20 December 1973, and by the early 1970s a quarter of Spain's armed police were stationed in the Basque provinces.\n\nYet Spain changed beneath the dictatorship. In 1959 technocratic ministers from Opus Dei abandoned two decades of economic self-sufficiency for a **Stabilization Plan**; GNP rose steadily from 1961, and one worker in two who had been on the land in 1950 had fallen to one in five by 1971. Tourism exploded, from a few thousand French visitors in 1955 to three million by 1962 and over 34 million foreign visitors in the year before Franco died. Judt warns against overstating this \"economic miracle\": much of the foreign currency came from emigrants' remittances and holidaymakers rather than genuine development, and income per head in 1973 was still lower than Ireland's. Even the Church loosened its grip — Franco conceded religious freedom in June 1968, and the number of seminarists fell from over 8,000 to under 2,000 within twelve years, while a third of Spain's Jesuits left the Order. By the late 1960s strikes and demonstrations were a fixture of Spanish life, and reforming ideas began to circulate even inside the regime's own circles of lawyers and civil servants, because formal opposition was banned everywhere else. A US intelligence assessment of May 1975 judged that the regime \"must change in order to survive but any real change carries threats to its existence\".\n\nThis mattered because, as Judt puts it, it was the political state, not Spanish society, that had fallen behind: daily life had modernised far more than outsiders supposed, which meant that by 1975 a wide gap had opened between the dictatorship and the people it still, nominally, controlled.",
     "argumentsThatWork": [
      {
       "claim": "Franco's regime rested on the army and the Church.",
       "evidence": [
        "F-ES-03",
-       "F-ES-06"
+       "F-ES-06",
+       "F-ES-04"
       ],
       "strongestCounter": "By the end it depended on passive acceptance."
      },
@@ -28,7 +29,8 @@
       "claim": "Economic change modernised society.",
       "evidence": [
        "F-ES-10",
-       "F-ES-11"
+       "F-ES-11",
+       "F-ES-13"
       ],
       "strongestCounter": "Judt warns against overstating the 'miracle'."
      },
@@ -36,14 +38,16 @@
       "claim": "Society had outgrown the regime by 1975.",
       "evidence": [
        "F-ES-14",
-       "F-ES-35"
+       "F-ES-35",
+       "F-ES-15"
       ],
       "strongestCounter": "Opposition parties were still banned."
      }
     ],
     "howItGetsAsked": [
      "Examine the reasons for, and the results of, the economic changes in Spain between 1959 and 1975.",
-     "“The transition to democracy in Spain was managed from above.” Discuss with reference to the period 1975 to 1978."
+     "“The transition to democracy in Spain was managed from above.” Discuss with reference to the period 1975 to 1978.",
+     "Examine the methods used by Franco's regime to maintain its political control between 1939 and 1975."
     ],
     "useItInAnEssay": {
      "claim": "Economic change under Franco prepared the ground for democracy without intending to.",
@@ -150,12 +154,13 @@
     "chunkId": "K2",
     "angle": "role_of_leader",
     "title": "Transition from above, 1975–1978",
-    "body": "Franco died on **20 November 1975**. Judt stresses that the transition was managed from inside the ranks of Franco's own ministers and appointees, which helps explain its speed and success. King **Juan Carlos** at first kept Franco's last prime minister to reassure the army, but in 1976 replaced him with **Adolfo Suárez**, a 44-year-old official who had headed Franco's own National Movement. Judt compares Suárez to Gorbachev: a product of the system he dismantled.\n\nSuárez moved fast. He persuaded the Francoist assembly to accept a referendum on political reform, introducing universal suffrage and a two-chamber parliament, which passed on **15 December 1976** with over 94 per cent in favour. In 1977 he legalised the Socialists (PSOE) of Felipe González, the trade unions and, a week after dismantling the National Movement, the Communist Party. The **June 1977 elections**, the first since 1936, gave Suárez's UCD 165 seats and the Socialists 121; without a majority, Suárez had to work with the left.\n\nThe parties also cooperated on the economy. Inflation had reached 26 per cent a year, and in October 1977 the **Moncloa Pacts** between politicians, unions and employers agreed devaluation, an incomes policy and spending controls. They \"worked no miracles\", Judt writes, but without them divisions would have been worse. The **Constitution** of December 1978, confirmed by referendum, made Spain a parliamentary monarchy with no official religion, lowered the voting age to eighteen, abolished the death penalty and gave the historic regions a right to autonomy.\n\nThis mattered because democracy was built through negotiation between reformers from the old regime and the former opposition, which meant that the transition avoided both revolution and a conservative backlash.",
+    "body": "Franco died on **20 November 1975**, aged 82, having outlived his usefulness even to many of his own supporters. Judt stresses that the transition was managed from inside the ranks of Franco's own ministers and appointees, which explains both its speed and its success; liberals, Socialists, Communists and the unions at first played only a subordinate role. **Juan Carlos** was crowned two days after Franco's death. He initially kept Franco's last prime minister, Carlos Arias Navarro, to reassure the army, but after Arias arrested the leaders of the opposition's Democratic Coordination in April 1976, the king replaced him within two months with **Adolfo Suárez** — a 44-year-old former Francoist official who had headed the regime's own National Movement for a year. Judt compares Suárez to Gorbachev: a product of the very system he went on to dismantle.\n\nSuárez moved with speed. He persuaded the Francoist assembly itself to accept a referendum on political reform — universal suffrage and a two-chamber parliament — which passed on **15 December 1976** with over 94 per cent in favour. In February 1977 he allowed the return of the Socialists (PSOE) under Felipe González and legalised the trade unions with the right to strike; on 1 April he dismantled the National Movement outright, and a week later legalised the Communist Party (PCE) of Santiago Carrillo, already committed to parliamentary methods. The **June 1977 elections**, the first since 1936, gave Suárez's UCD 165 seats and the Socialists 121; without a majority, Suárez now had to negotiate with the parties he had just legalised.\n\nEconomic crisis forced the same cooperation. The last Franco governments of 1970–76 had bought popularity with spending, and by June 1977 inflation had reached 26 per cent a year; Spain lost some 1.8 million jobs between 1973 and 1982. In October 1977 the **Moncloa Pacts**, the first in a series of agreements between politicians, unions and employers, brought devaluation, an incomes policy and spending controls; they \"worked no miracles\", Judt writes, but without them the divisions of the new democracy would almost certainly have been worse. Social liberalisation moved in step — Spain's first feminist demonstration took place in January 1976, and adultery was decriminalised and contraception legalised two years later. The **Constitution** of December 1978, confirmed by referendum, made Spain a parliamentary monarchy with no official religion, lowered the voting age to eighteen, abolished the death penalty, and gave the historic regions a right to autonomy.\n\nThis mattered because democracy was built through negotiation between reformers from the old regime and a former opposition it had only just legalised, which meant Spain's transition avoided both a revolutionary rupture and a conservative backlash.",
     "argumentsThatWork": [
      {
       "claim": "The transition was managed from within the regime.",
       "evidence": [
        "F-ES-17",
+       "F-ES-18",
        "F-ES-19"
       ],
       "strongestCounter": "The left soon played a central role."
@@ -164,7 +169,8 @@
       "claim": "Legalising all parties made democracy genuine.",
       "evidence": [
        "F-ES-20",
-       "F-ES-21"
+       "F-ES-21",
+       "F-ES-32"
       ],
       "strongestCounter": "The Communists' legalisation angered the army."
      },
@@ -172,14 +178,16 @@
       "claim": "Consensus produced the constitution.",
       "evidence": [
        "F-ES-22",
-       "F-ES-25"
+       "F-ES-25",
+       "F-ES-24"
       ],
       "strongestCounter": "Basque nationalists rejected the settlement."
      }
     ],
     "howItGetsAsked": [
      "“The transition to democracy in Spain was managed from above.” Discuss with reference to the period 1975 to 1978.",
-     "To what extent was King Juan Carlos responsible for Spain's transition to democracy between 1975 and 1982?"
+     "To what extent was King Juan Carlos responsible for Spain's transition to democracy between 1975 and 1982?",
+     "Compare and contrast the role of King Juan Carlos with that of Adolfo Suárez in Spain's transition to democracy."
     ],
     "useItInAnEssay": {
      "claim": "Spain's transition was managed from above, but it succeeded because the opposition joined it.",
@@ -286,34 +294,38 @@
     "chunkId": "K3",
     "angle": "success_failure",
     "title": "Threats to democracy, 1978–1982",
-    "body": "Democracy faced two serious threats. The first was **ETA**. A Basque Statute of Autonomy was approved by referendum in 1979, but ETA, demanding full independence, stepped up its campaign and killed 181 people in 1979–80. By 1982 Spain was on its way to becoming seventeen self-governing regions, while Madrid kept defence, justice and foreign affairs.\n\nThe second threat came from the army. In January 1981 Suárez resigned, forced out by his own party. On **23 February 1981** Lieutenant Colonel Antonio **Tejero** of the Civil Guard seized the Cortes at gunpoint, and General Milans del Bosch declared a state of emergency in Valencia, calling on the king to install a military government. **King Juan Carlos** refused and defended the Constitution in a televised speech. The coup collapsed. Those nostalgic for Franco turned instead to Manuel Fraga's Popular Alliance, within the law. Afterwards the Cortes cut the military budget and legalised divorce.\n\nIn **October 1982** the Socialists won an absolute majority, and Felipe González became prime minister. The UCD was reduced to two seats. Power had passed peacefully to a party that had been illegal six years earlier.\n\nThis mattered because the defeat of the coup discredited military intervention, which meant that the 1982 Socialist victory could take place without fear of the army.",
+    "body": "Spanish democracy faced two serious threats after 1978. The first was **ETA**. A Basque Statute of Autonomy was approved by referendum in 1979, and within four years Spain was divided into seventeen self-governing regions, with Madrid keeping only defence, justice and foreign affairs — a settlement Basque nationalists rejected outright. ETA, demanding full independence rather than autonomy, stepped up its campaign while the constitution was still being discussed, hoping to provoke a backlash, and killed 181 people in 1979–80 alone.\n\nThe second threat came from the army. On **29 January 1981** Suárez was forced to resign by his own party, resentful of his achievements and his autocratic style, even though the UCD had won again in 1979; before his successor Calvo Sotelo took over, a general strike broke out in the Basque provinces and democratic Spain briefly appeared leaderless to the political right. On **23 February 1981** Lieutenant Colonel Antonio **Tejero** of the Civil Guard seized the Cortes at gunpoint, while General Jaime Milans del Bosch, commander in Valencia, declared a state of emergency and called on the king to dissolve parliament and install a military government. **King Juan Carlos** rejected the conspirators outright and defended the Constitution in a televised address that night; the coup collapsed within hours. Those nostalgic for the old regime turned instead to Manuel Fraga's Popular Alliance, working within the law rather than against it. Afterwards the Cortes cut the military budget and legalised divorce — democracy, rather than retreating, pressed ahead.\n\nIn **October 1982** the Socialists won an outright majority and **Felipe González** became prime minister for what would be fourteen years; the UCD, which had governed since 1977, collapsed to just two seats, and the Communists' Santiago Carrillo resigned as leader after his party won only four. Power had passed peacefully to a party that had been illegal six years earlier.\n\nThis mattered because the coup's failure discredited military intervention as a political option, which meant the Socialist victory of October 1982 could take place without any realistic fear that the army would intervene again.",
     "argumentsThatWork": [
      {
       "claim": "The failed coup strengthened democracy.",
       "evidence": [
        "F-ES-28",
-       "F-ES-29"
+       "F-ES-29",
+       "F-ES-30"
       ],
       "strongestCounter": "It showed how fragile democracy still was."
      },
      {
       "claim": "ETA failed to win independence through terror.",
       "evidence": [
-       "F-ES-26"
+       "F-ES-26",
+       "F-ES-23"
       ],
       "strongestCounter": "It killed 181 people in 1979–80."
      },
      {
       "claim": "The 1982 election completed the transition.",
       "evidence": [
-       "F-ES-31"
+       "F-ES-31",
+       "F-ES-27"
       ],
       "strongestCounter": "The Socialists had been illegal until 1977."
      }
     ],
     "howItGetsAsked": [
      "Evaluate the significance of the failed coup of 23 February 1981 for Spanish democracy.",
-     "Analyse the ways in which the 1978 Constitution addressed Spain's regional problems between 1978 and 1982."
+     "Analyse the ways in which the 1978 Constitution addressed Spain's regional problems between 1978 and 1982.",
+     "“The 1981 coup attempt failed because it misjudged the strength of Spanish democracy.” Discuss."
     ],
     "useItInAnEssay": {
      "claim": "The failed coup of 23 February 1981 strengthened Spanish democracy by discrediting military intervention.",
@@ -420,13 +432,15 @@
     "chunkId": "K4",
     "angle": "impact_consequences",
     "title": "Consolidation and its costs, 1982–2000",
-    "body": "Felipe González governed Spain for fourteen years. The Socialists had promised to protect jobs and take Spain out of NATO. In power González did the opposite: he kept austerity, modernised and later privatised industry, and in **1986** won a referendum in favour of staying in NATO. In his view Spain's future lay \"not in socialism but in Europe\". On **1 January 1986** Spain joined the European Community, receiving regional subsidies and doing well out of membership.\n\nThere was a darker side. From 1983 to 1987 counter-terrorist squads, the **GAL**, operated illegally from France and killed twenty-six ETA operatives with the government's approval. When journalists revealed this \"dirty war\" in the mid-1990s, together with graft by Socialist ministers, the scandals ended González's career. Judt notes that they aroused anxiety about the moral condition of \"a Spanish democracy still in its infancy\".\n\nYet the system worked. On 3 March 1996, amid recession, high unemployment and the scandals, the Socialists lost a general election for the first time since 1979. José María Aznar's People's Party formed a minority government with the support of Catalan, Basque and Canarian nationalists, ending more than thirteen years of Socialist rule. Judt calls the democratic transitions of southern Europe \"quite the most remarkable and unexpected development of the age\".\n\nThis mattered because power passed peacefully between left and right and Spain was anchored in Europe, which meant that by 2000 democracy was consolidated even though its record contained abuses.",
+    "body": "Felipe González governed Spain for fourteen years, from 1982 to 1996. The Socialists had promised to protect jobs and take Spain out of NATO; in power González did the opposite on both fronts, keeping austerity, modernising and later privatising industry, and in **1986** winning a referendum in favour of staying in NATO after campaigning against it only years before. In his own view, as Judt records it, Spain's future lay \"not in socialism but in Europe\". On **1 January 1986** Spain and Portugal together joined the European Community; both received 'Integrated Mediterranean Programs' — in effect regional subsidies — and did well out of membership from the start.\n\nThere was a darker side to consolidation. From 1983 to 1987 illegal counter-terrorist squads, the **GAL**, operated from French soil with the government's approval and killed twenty-six ETA operatives. When investigative journalists revealed this \"dirty war\" in the mid-1990s, alongside separate revelations of graft and influence-peddling among Socialist colleagues, the scandals ended González's political career and, as Judt notes, aroused real anxiety about the moral condition of a Spanish democracy still in its infancy.\n\nYet the system itself worked. On 3 March 1996, amid recession, rising unemployment and the accumulated scandals, the Socialists lost a general election for the first time since 1979. José María Aznar's People's Party led by just 1.2 percentage points with 156 seats and formed a minority government with the support of Catalan, Basque and Canarian nationalists, ending more than thirteen years of Socialist rule — without a single soldier intervening. Judt calls the democratic transitions of Mediterranean Europe as a whole \"quite the most remarkable and unexpected development of the age\", and by the mid-1990s the once-clandestine Socialist parties of Spain, Portugal and Greece were all governing from the centre.\n\nThis mattered because power changed hands peacefully between left and right, and Spain remained anchored in Europe throughout, which meant that by 2000 Spanish democracy was fully consolidated even though its record, especially under González, contained real abuses of power.",
     "argumentsThatWork": [
      {
       "claim": "González anchored Spain in the West and Europe.",
       "evidence": [
        "F-ES-37",
-       "F-ES-34"
+       "F-ES-34",
+       "F-ES-38",
+       "F-ES-40"
       ],
       "strongestCounter": "He reversed his party's promises."
      },
@@ -441,14 +455,16 @@
      {
       "claim": "The 1996 election showed democracy was consolidated.",
       "evidence": [
-       "F-ES-42"
+       "F-ES-42",
+       "F-ES-41"
       ],
       "strongestCounter": "The PP needed nationalist support."
      }
     ],
     "howItGetsAsked": [
      "To what extent did Felipe González's governments consolidate democracy in Spain between 1982 and 1996?",
-     "Evaluate the significance of the failed coup of 23 February 1981 for Spanish democracy."
+     "Evaluate the significance of the failed coup of 23 February 1981 for Spanish democracy.",
+     "Compare and contrast the threat posed by the armed forces to democracy in Spain and Argentina between 1981 and 1990."
     ],
     "useItInAnEssay": {
      "claim": "González consolidated Spanish democracy by tying it to Europe, though his governments also abused power.",
@@ -808,6 +824,18 @@
   },
   "evidenceBank": [
    {
+    "factId": "F-ES-17",
+    "year": 1975,
+    "text": "20 November 1975: Franco dies; the transition is managed from within the ranks of his own ministers and appointees.",
+    "supports": [
+     "The transition was managed from above"
+    ],
+    "lexicon": [
+     "Juan Carlos",
+     "Arias Navarro"
+    ]
+   },
+   {
     "factId": "F-ES-11",
     "year": 1971,
     "text": "1950: one worker in two on the land; 1971: one in five.",
@@ -904,6 +932,12 @@
     "argument": "Democracy in Spain was made possible 'not by cultural or political radicals and innovators but by conservative statesmen from the old regime itself': Suárez, like Gorbachev, was a product of the system he dismantled, and his reassurance to his own side allowed him to dismantle it.",
     "useItLikeThis": "Judt's view supports the claim that the transition was made from above, which suggests that continuity of personnel was the price of a peaceful change of system.",
     "factId": "F-ES-17"
+   },
+   {
+    "historian": "Tony Judt",
+    "argument": "In Spain it was the political state, not Spanish society, that had fallen behind: the economic development and social mobility of Franco's last decade meant daily life had changed far more than outsiders supposed.",
+    "useItLikeThis": "Use this to explain why the regime looked so fragile by 1975: it was not that Franco's rule had suddenly weakened, but that Spanish society had already outgrown it.",
+    "factId": "F-ES-35"
    }
   ],
   "misconceptions": [

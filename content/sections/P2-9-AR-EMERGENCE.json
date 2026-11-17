@@ -14,7 +14,7 @@
     "chunkId": "K1",
     "angle": "causes",
     "title": "From Perón to the coup, 1946–1976",
-    "body": "Argentina had little experience of stable democracy. Between 1930 and 1983 it had numerous military coups, 25 presidents and 22 years of military rule. Its dominant political force was **Peronism**. Juan Perón built a mass following among trade unions from the 1940s, was overthrown by the military in 1955, and returned after eighteen years of exile to win the presidency again in 1973. He died a year later. His widow and successor, **Isabel Perón**, had little political experience. Economic and political chaos followed: political violence surged and Argentina suffered its first bout of hyperinflation.\n\nThe violence came from both sides. The *Nunca Más* report of 1984 describes a country \"torn by terror from both the extreme right and the far left\" in the 1970s. On **24 March 1976** the armed forces overthrew Isabel Perón. Congress was suspended, political parties were banned and civil rights were restricted. The junta called its regime the **Process of National Reorganization** (*el Proceso*).\n\nThe new government promised order and economic recovery. General **Jorge Videla** left the economy to José Alfredo Martínez de Hoz, who introduced free trade and deregulation. But the foreign debt increased fourfold during his tenure, and the gap between rich and poor grew much wider.\n\nThis mattered because many Argentines first accepted military rule as a response to chaos, which meant that the demand for democracy grew only when the regime itself was seen to have failed.",
+    "body": "Argentina had little experience of stable democracy. Between 1930 and 1983 it had numerous military coups, 25 presidents and 22 years of military rule. Its dominant political force was **Peronism**. Juan Perón built a mass following among trade unions from 1943, was overthrown by the military in 1955, and returned after eighteen years of exile to win the presidency again in 1973. He died a year later. His widow and successor, **Isabel Perón**, had little political experience. Economic and political chaos followed: political violence surged and Argentina suffered its first bout of hyperinflation.\n\nThe violence came from both sides. The *Nunca Más* report of 1984 describes a country \"torn by terror from both the extreme right and the far left\" in the 1970s. But CONADEP's own verdict on the state's response was blunt: the armed forces acted \"with a terrorism far worse than the one they were combating\", wielding \"the power and impunity of an absolute state\" once they overthrew Isabel Perón on **24 March 1976**. Congress was suspended, political parties were banned and civil rights were restricted. The junta called its regime the **Process of National Reorganization** (*el Proceso*).\n\nThe new government promised order and economic recovery. General **Jorge Videla** left the economy to José Alfredo Martínez de Hoz, who introduced free trade and deregulation. But the foreign debt increased fourfold during his tenure, and the gap between rich and poor grew much wider.\n\nThis mattered because many Argentines first accepted military rule as a response to chaos, which meant that the demand for democracy grew only when the regime itself was seen to have failed.",
     "argumentsThatWork": [
      {
       "claim": "Argentina had a long tradition of military intervention.",
@@ -41,7 +41,8 @@
     ],
     "howItGetsAsked": [
      "Analyse the methods used by the military government to control Argentina between 1976 and 1983.",
-     "To what extent did economic failure undermine the military government between 1976 and 1983?"
+     "To what extent did economic failure undermine the military government between 1976 and 1983?",
+     "Examine the reasons why the armed forces were able to seize power in Argentina in March 1976."
     ],
     "useItInAnEssay": {
      "claim": "The 1976 coup was made possible by the collapse of order under Isabel Perón.",
@@ -148,7 +149,7 @@
     "chunkId": "K2",
     "angle": "nature_methods",
     "title": "The Proceso: state terror, 1976–1981",
-    "body": "The junta claimed to be fighting a war against subversion. In practice, as CONADEP later found, it built a **planned system of repression**. The typical sequence was \"abduction - disappearance - torture\". People were seized by security forces who hid their identity and taken to one of some **340 secret detention centres**, run by senior officers. Many were murdered and their bodies destroyed so they could never be identified.\n\nThe victims were not only armed guerrillas. CONADEP found that thousands had no link with terrorism: trade unionists, students, journalists, intellectuals, priests and nuns, or simply relatives and friends of suspects. A US Embassy officer reported that the security forces were targeting people who, \"in Videla's definition\", were guilty of \"bad thoughts\". Women were among the disappeared, and 10 per cent of the women who disappeared were pregnant.\n\nThe regime also controlled public life. It closed the legislature, imposed severe censorship, and used the **1978 World Cup**, which Argentina hosted and won, as nationalist propaganda. Opposition came from victims' families. The **Mothers of the Plaza de Mayo** demanded to know where their children were. Between 8 and 10 December 1977, one of their founders, Azucena Villaflor de Vicenti, and eleven others, including two French nuns, were kidnapped by government forces and never seen again. Abroad, President Carter's administration secured a cutoff of US arms transfers in 1978.\n\nCONADEP listed **8,960** disappeared people, while stressing that the true figure was higher; Argentine human rights groups estimate up to 30,000.\n\nThis mattered because the junta relied on secret terror rather than open law, which meant that, once it fell, the demand for democracy became inseparable from the demand for truth about the disappeared.",
+    "body": "The junta claimed to be fighting a war against subversion. In practice, as CONADEP later found, it built a **planned system of repression**. The typical sequence was \"abduction - disappearance - torture\". People were seized by security forces who hid their identity and taken to one of some **340 secret detention centres**, run by senior officers. Many were murdered and their bodies destroyed so they could never be identified.\n\nThe victims were not only armed guerrillas. CONADEP found that thousands had no link with terrorism: trade unionists, students, journalists, intellectuals, priests and nuns, or simply relatives and friends of suspects. A US Embassy political officer, **Tex Harris**, reported that a later phase of repression targeted \"Marxists intellectuals subversives, people who in Videla's definition are guilty of 'bad thoughts'\". Women were among the disappeared, and 10 per cent of the women who disappeared were pregnant.\n\nThe regime also controlled public life. It closed the legislature, imposed severe censorship, and used the **1978 World Cup**, which Argentina hosted and won, as nationalist propaganda. Opposition came from victims' families. The **Mothers of the Plaza de Mayo** demanded to know where their children were. Between 8 and 10 December 1977, one of their founders, Azucena Villaflor de Vicenti, and eleven others, including two French nuns, were kidnapped by government forces, held at the Navy Mechanical School, and never seen again. Abroad, President Carter's administration secured a congressional cutoff of US arms transfers in 1978; relations warmed under President Reagan, only to sour again when Washington backed Britain in the Falklands War.\n\nCONADEP listed **8,960** disappeared people, while stressing that the true figure was higher; Argentine human rights groups estimate up to 30,000.\n\nThis mattered because the junta relied on secret terror rather than open law, which meant that, once it fell, the demand for democracy became inseparable from the demand for truth about the disappeared.",
     "argumentsThatWork": [
      {
       "claim": "Repression was planned and systematic.",
@@ -161,6 +162,7 @@
       "claim": "Most victims had no link to terrorism.",
       "evidence": [
        "F-ARE-07",
+       "F-ARE-09",
        "F-ARE-10"
       ],
       "strongestCounter": "Guerrilla groups did exist."
@@ -175,7 +177,8 @@
     ],
     "howItGetsAsked": [
      "Analyse the methods used by the military government to control Argentina between 1976 and 1983.",
-     "“Nunca Más was more important as a political act than as a historical record.” Discuss with reference to the period 1983 to 1984."
+     "“Nunca Más was more important as a political act than as a historical record.” Discuss with reference to the period 1983 to 1984.",
+     "Examine the nature of state repression in Argentina between 1976 and 1983."
     ],
     "useItInAnEssay": {
      "claim": "The junta controlled Argentina chiefly through secret terror.",
@@ -282,7 +285,7 @@
     "chunkId": "K3",
     "angle": "causes",
     "title": "Defeat and collapse, 1981–1983",
-    "body": "By the early 1980s the regime was in trouble. In 1981 General Viola was removed in a \"palace coup\" by General **Leopoldo Galtieri**. Facing military rivals and a failing economy, Galtieri planned a dramatic gamble: the invasion of the **Falkland Islands** (Islas Malvinas), long claimed by Argentina. The invasion in April 1982 gave the junta a huge boost in popularity. But a British naval task force retook the islands, and Argentina surrendered in June. The military, the US Congressional Research Service concludes, \"fell into disrepute\".\n\nThe economy was in deep crisis. Six years of intermittent wage freezes had left real wages around 40 per cent lower, and GDP per capita had fallen to its lowest level since 1968. When the new president, General **Reynaldo Bignone**, restored some freedoms, a wave of strikes followed, including two general strikes. On 16 December 1982 police repressed a mass demonstration in the Plaza de Mayo, killing one protester; Bignone's hope of postponing elections indefinitely was gone.\n\nThe junta prepared to protect itself. On 18 April 1983 it passed a **Self-Amnesty Law** and secretly ordered the destruction of records of its crimes. Elections were finally called for October 1983.\n\nThis mattered because military defeat destroyed the junta's claim to defend the nation, which meant that economic failure and public anger could no longer be held back by force.",
+    "body": "By the early 1980s the regime was in trouble. In 1981 General Viola was removed in a \"palace coup\" by General **Leopoldo Galtieri**. Facing military rivals and a failing economy, Galtieri planned a dramatic gamble: the invasion of the **Falkland Islands** (Islas Malvinas), long claimed by Argentina. The invasion in April 1982 gave the junta a huge boost in popularity. But a British naval task force retook the islands, and Argentina surrendered in June. The military, the US Congressional Research Service concludes, \"fell into disrepute\".\n\nThe economy was in deep crisis. Six years of intermittent wage freezes had left real wages around 40 per cent lower, and GDP per capita had fallen to its lowest level since 1968. When the new president, General **Reynaldo Bignone**, restored some freedoms, a wave of strikes followed, including two general strikes led by **Saúl Ubaldini** of the CGT trade union federation. On 16 December 1982 police repressed a mass demonstration in the Plaza de Mayo, killing one protester; Bignone's hope of postponing elections indefinitely was gone.\n\nThe junta prepared to protect itself. On 18 April 1983 it passed a **Self-Amnesty Law** and secretly ordered the destruction of records of its crimes. Elections were finally called for October 1983.\n\nThis mattered because military defeat destroyed the junta's claim to defend the nation, which meant that economic failure and public anger could no longer be held back by force.",
     "argumentsThatWork": [
      {
       "claim": "The Falklands defeat destroyed the junta's legitimacy.",
@@ -309,7 +312,8 @@
     ],
     "howItGetsAsked": [
      "To what extent was the Falklands defeat the main reason for the end of military rule in Argentina between 1976 and 1983?",
-     "To what extent did economic failure undermine the military government between 1976 and 1983?"
+     "To what extent did economic failure undermine the military government between 1976 and 1983?",
+     "Examine the reasons for the collapse of military rule in Argentina by 1983."
     ],
     "useItInAnEssay": {
      "claim": "The Falklands defeat was the decisive reason for the end of military rule.",
@@ -416,7 +420,7 @@
     "chunkId": "K4",
     "angle": "impact_consequences",
     "title": "Alfonsín, CONADEP and Nunca Más, 1983–1984",
-    "body": "On **30 October 1983** Argentines voted in free elections, with a turnout of 85.6 per cent. **Raúl Alfonsín** of the Radical Civic Union (UCR), who had been among the first to condemn the military's self-amnesty, won 51.75 per cent of the vote, defeating the Peronist Ítalo Luder. He was sworn in on **10 December 1983**.\n\nAlfonsín acted at once. On 13 December he ordered the prosecution of the nine officers of the first three juntas. Two days later he created the **National Commission on the Disappearance of Persons (CONADEP)**. Its members were chosen for their prestige and record of defending human rights, and the writer Ernesto Sabato was elected its president. CONADEP was not a court: its task was to establish the fate of the disappeared and pass evidence to the courts, not to judge guilt.\n\nThe commission worked against obstacles: records had been destroyed, and it was insulted and threatened by those it investigated. It prepared 7,380 files and gave the courts 1,086 dossiers on the main detention centres. On 20 September 1984 it presented its report, ***Nunca Más*** (\"Never Again\"). It concluded that the repression had been a deliberate plan, not a matter of \"excesses\", and recommended reparations for victims' families and compulsory human rights teaching. Sabato's prologue ended with a statement of democratic faith: \"it is only democracy which can save a people from horror on this scale\".\n\n*Nunca Más* can be read in two ways. It is evidence about the dictatorship, based on thousands of testimonies. It is also evidence about how the new democracy chose to account for its past: by establishing the truth and leaving justice to the courts.\n\nThis mattered because the new democracy founded its legitimacy on truth about the disappeared, which meant that its later handling of justice for the military would test that commitment.",
+    "body": "On **30 October 1983** Argentines voted in free elections, with a turnout of 85.6 per cent. **Raúl Alfonsín** of the Radical Civic Union (UCR), who had been among the first prominent figures to condemn the military's self-amnesty, won 51.75 per cent of the vote against 40.16 per cent for the Peronist Ítalo Luder. He was sworn in on **10 December 1983**.\n\nAlfonsín acted at once. On 13 December he signed **Decree No. 158**, ordering the prosecution of the nine officers of the first three juntas. Two days later he created the **National Commission on the Disappearance of Persons (CONADEP)**. Its members were chosen for their prestige and consistent record of defending human rights, and the writer **Ernesto Sabato** was elected its president on 29 December 1983. CONADEP was not a court: its task was to establish the fate of the disappeared and pass evidence to the courts, not to judge guilt.\n\nThe commission worked against obstacles: records had been destroyed or removed before the handover, and it was insulted and threatened by those it investigated. It prepared 7,380 files and gave the courts 1,086 dossiers on the main detention centres; by contrast, the military's own courts, set up alongside CONADEP, eventually sentenced only about 356 individuals. On **20 September 1984** CONADEP presented its report, ***Nunca Más*** (\"Never Again\"). It concluded that the repression had been a deliberate plan, not a matter of \"excesses\", and recommended speeding the transfer of evidence to the courts, economic assistance for victims' families, and compulsory human rights teaching in state schools. Sabato's prologue ended with a statement of democratic faith: \"it is only democracy which can save a people from horror on this scale\".\n\n*Nunca Más* can be read in two ways. It is evidence about the dictatorship, based on thousands of testimonies. It is also evidence about how the new democracy chose to account for its past: by establishing the truth and leaving justice to the courts. Decades later, in 2002, the United States declassified more than 4,600 documents on the dictatorship's human rights record; the National Security Archive's Carlos Osorio said they told the story of \"a massive and indiscriminate counterinsurgency campaign\", confirming from outside what CONADEP had already found from within.\n\nThis mattered because the new democracy founded its legitimacy on truth about the disappeared, which meant that its later handling of justice for the military would test that commitment.",
     "argumentsThatWork": [
      {
       "claim": "The 1983 election gave democracy a clear mandate.",
@@ -882,6 +886,18 @@
     "lexicon": [
      "Nunca Más",
      "CONADEP"
+    ]
+   },
+   {
+    "factId": "F-ARE-07",
+    "year": 1976,
+    "text": "Thousands of victims had no link to terrorism: trade unionists, students, journalists, intellectuals, priests and nuns.",
+    "supports": [
+     "Most victims had no link to terrorism"
+    ],
+    "lexicon": [
+     "desaparecidos",
+     "repression"
     ]
    }
   ],
