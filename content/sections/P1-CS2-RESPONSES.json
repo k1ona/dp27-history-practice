@@ -1724,6 +1724,403 @@
      "factId": "F-CS2R-34"
     }
    ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date did Italy invade Ethiopia?",
+   "factIds": [
+    "F-CS2R-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "3 October 1935",
+     "correct": true,
+     "explanation": "Correct: after months of open preparation."
+    },
+    {
+     "id": "b",
+     "text": "7 March 1936",
+     "correct": false,
+     "explanation": "That is the Rhineland reoccupation."
+    },
+    {
+     "id": "c",
+     "text": "7 April 1939",
+     "correct": false,
+     "explanation": "That is the invasion of Albania."
+    },
+    {
+     "id": "d",
+     "text": "1 September 1939",
+     "correct": false,
+     "explanation": "That is the invasion of Poland."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What name was given to the German-Italian treaty of friendship of 25 October 1936, after a Mussolini speech a week later?",
+   "factIds": [
+    "F-CS2R-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Rome-Berlin Axis",
+     "tolerance": 0,
+     "explanation": "The Rome-Berlin Axis.",
+     "accept": [
+      "rome berlin axis",
+      "rome-berlin axis",
+      "the axis",
+      "axis"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R23",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: on 7 March 1936 German troops marched unopposed into the Rhineland, in flagrant violation of the Locarno Pact. Which argument does it support?",
+   "factIds": [
+    "F-CS2R-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Germany broke a freely signed treaty and met no armed response",
+     "correct": true,
+     "explanation": "Correct: no power used force to reverse it."
+    },
+    {
+     "id": "b",
+     "text": "France occupied the Rhineland in 1936",
+     "correct": false,
+     "explanation": "The opposite: Germany moved in."
+    },
+    {
+     "id": "c",
+     "text": "The Locarno Pact permitted this move",
+     "correct": false,
+     "explanation": "It was in flagrant violation of Locarno."
+    },
+    {
+     "id": "d",
+     "text": "Italy opposed the move",
+     "correct": false,
+     "explanation": "Not stated by this fact."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date did Germany invade Poland?",
+   "factIds": [
+    "F-CS2R-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "1 September 1939",
+     "correct": true,
+     "explanation": "Correct: Britain and France declared war two days later."
+    },
+    {
+     "id": "b",
+     "text": "23 August 1939",
+     "correct": false,
+     "explanation": "That is the Nazi-Soviet Pact."
+    },
+    {
+     "id": "c",
+     "text": "3 September 1939",
+     "correct": false,
+     "explanation": "That is when Britain and France declared war."
+    },
+    {
+     "id": "d",
+     "text": "10 June 1940",
+     "correct": false,
+     "explanation": "That is when Italy declared war."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R25",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each photograph to what it shows.",
+   "pairs": [
+    {
+     "left": "Addis Ababa, May 1936",
+     "right": "A military parade of Italian troops, with Somali ascari in the background",
+     "explanation": "Taken after the city fell to Italian forces."
+    },
+    {
+     "left": "Paris, 14 June 1940",
+     "right": "German troops parading past their generals at the Arc de Triomphe",
+     "explanation": "Photographed the day German troops entered Paris."
+    },
+    {
+     "left": "Vienna, March 1938",
+     "right": "German armoured cars passing cheering crowds giving the Hitler salute",
+     "explanation": "One of the archival images used in this section."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened in 1935? Choose all that apply.",
+   "factIds": [
+    "F-CS2R-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Italy invaded Ethiopia",
+     "correct": true,
+     "explanation": "Yes: 3 October 1935."
+    },
+    {
+     "id": "b",
+     "text": "Germany reintroduced conscription",
+     "correct": true,
+     "explanation": "Yes: March 1935."
+    },
+    {
+     "id": "c",
+     "text": "Germany reoccupied the Rhineland",
+     "correct": false,
+     "explanation": "No: that was March 1936."
+    },
+    {
+     "id": "d",
+     "text": "Germany invaded Poland",
+     "correct": false,
+     "explanation": "No: that was September 1939."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: \"The Rome-Berlin Axis was signed before Italy's invasion of Ethiopia.\"",
+   "factIds": [
+    "F-CS2R-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Axis was signed in October 1936, after the invasion began in October 1935",
+     "correct": true,
+     "explanation": "Correct: the Axis followed the invasion and the League's sanctions."
+    },
+    {
+     "id": "b",
+     "text": "The Axis was a military alliance with Japan",
+     "correct": false,
+     "explanation": "That is not the error in this statement; the Axis was German-Italian."
+    },
+    {
+     "id": "c",
+     "text": "Italy did not invade Ethiopia",
+     "correct": false,
+     "explanation": "It did, in October 1935."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the order of events is reversed."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R28",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these responses in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Italy invades Ethiopia",
+     "year": 1935,
+     "month": 10,
+     "factId": "F-CS2R-02"
+    },
+    {
+     "id": "b",
+     "text": "Germany reoccupies the Rhineland",
+     "year": 1936,
+     "month": 3,
+     "factId": "F-CS2R-11"
+    },
+    {
+     "id": "c",
+     "text": "Rome-Berlin Axis signed",
+     "year": 1936,
+     "month": 10,
+     "factId": "F-CS2R-10"
+    },
+    {
+     "id": "d",
+     "text": "Germany invades Poland",
+     "year": 1939,
+     "month": 9,
+     "factId": "F-CS2R-23"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R29",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Case Study 2 runs from 1933 to 1940. Is the fall of Addis Ababa (5 May 1936) inside or outside the timeframe?",
+   "timeframe": [
+    1933,
+    1940
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside",
+     "correct": true,
+     "explanation": "Correct: 1936 falls within 1933-1940."
+    },
+    {
+     "id": "b",
+     "text": "Outside",
+     "correct": false,
+     "explanation": "No: 1936 is within the case study's years."
+    },
+    {
+     "id": "c",
+     "text": "Only background",
+     "correct": false,
+     "explanation": "It falls inside the timeframe and can be used directly."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The timeframe decides, not the command term."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date in June 1940 did German troops enter Paris?",
+   "factIds": [
+    "F-CS2R-36"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "14 June",
+     "tolerance": 0,
+     "explanation": "14 June 1940.",
+     "accept": [
+      "14 june",
+      "june 14",
+      "14/6"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which city's photograph from May 1936 shows a military parade of Italian troops with Somali ascari in the background?",
+   "factIds": [
+    "F-CS2R-35"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Addis Ababa",
+     "correct": true,
+     "explanation": "Correct: taken after the Ethiopian capital fell."
+    },
+    {
+     "id": "b",
+     "text": "Vienna",
+     "correct": false,
+     "explanation": "The Vienna photograph is from March 1938."
+    },
+    {
+     "id": "c",
+     "text": "Paris",
+     "correct": false,
+     "explanation": "The Paris photograph is from June 1940."
+    },
+    {
+     "id": "d",
+     "text": "Moscow",
+     "correct": false,
+     "explanation": "The Moscow photograph is from August 1939."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: a photograph from 14 June 1940 shows German troops parading past their generals at the Arc de Triomphe in Paris. Which argument does it support?",
+   "factIds": [
+    "F-CS2R-36"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "By mid-1940 German aggression had produced the military occupation of a major European capital",
+     "correct": true,
+     "explanation": "Correct: a symbolic and complete victory over France."
+    },
+    {
+     "id": "b",
+     "text": "France had already surrendered before Germany attacked",
+     "correct": false,
+     "explanation": "Germany attacked on 10 May; the armistice request came only on 17 June."
+    },
+    {
+     "id": "c",
+     "text": "Paris was never occupied",
+     "correct": false,
+     "explanation": "The photograph shows German troops in Paris."
+    },
+    {
+     "id": "d",
+     "text": "Italy occupied Paris",
+     "correct": false,
+     "explanation": "German troops are shown, not Italian."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2288,6 +2685,362 @@
      "text": "D: Our army is now cut into several parts",
      "answer": "italy",
      "explanation": "France's collapse."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D16",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct point about how Germany and Italy drew closer in 1936.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "League sanctions followed Italy's invasion of Ethiopia",
+     "answer": "point",
+     "explanation": "Point: the cause of Italy's isolation."
+    },
+    {
+     "id": "s2",
+     "text": "Italy's earlier alignment with Britain and France ended",
+     "answer": "point",
+     "explanation": "Point: a change in Italy's position."
+    },
+    {
+     "id": "s3",
+     "text": "a treaty of friendship was signed on 25 October 1936",
+     "answer": "point",
+     "explanation": "Point: the formal step."
+    },
+    {
+     "id": "s4",
+     "text": "it was called the Rome-Berlin Axis after a Mussolini speech",
+     "answer": "point",
+     "explanation": "Point: the name given to the new alignment."
+    },
+    {
+     "id": "s5",
+     "text": "Addis Ababa fell on 5 May 1936",
+     "answer": "not_point",
+     "explanation": "Context about the Ethiopian war, not the alignment itself."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D17",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct fact about the Rhineland reoccupation of 7 March 1936.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "German troops marched unopposed into the Rhineland",
+     "answer": "point",
+     "explanation": "Point: the move itself."
+    },
+    {
+     "id": "s2",
+     "text": "it was in flagrant violation of the Locarno Pact",
+     "answer": "point",
+     "explanation": "Point: the treaty broken."
+    },
+    {
+     "id": "s3",
+     "text": "no power used force to reverse it",
+     "answer": "point",
+     "explanation": "Point: the international response."
+    },
+    {
+     "id": "s4",
+     "text": "Germany had reintroduced conscription the year before",
+     "answer": "not_point",
+     "explanation": "Background from 1935, not a fact about the Rhineland move itself."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D18",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the photograph taken in Addis Ababa in May 1936? Choose SUBJECT + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To record the Italian military parade through the captured Ethiopian capital, shortly after the city fell",
+     "correct": true,
+     "explanation": "Correct: subject (Italian parade), action (record), moment (just after 5 May 1936)."
+    },
+    {
+     "id": "b",
+     "text": "To show the start of the Ethiopian war",
+     "correct": false,
+     "explanation": "The war had already ended with the city's fall."
+    },
+    {
+     "id": "c",
+     "text": "To record a German parade",
+     "correct": false,
+     "explanation": "The photograph shows Italian troops, not German."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is Ethiopia",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D19",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the photograph taken at the Arc de Triomphe on 14 June 1940? Choose SUBJECT + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To record German troops parading past their generals in Paris, on the day the city was entered",
+     "correct": true,
+     "explanation": "Correct: subject (German parade), action (record), moment (14 June 1940)."
+    },
+    {
+     "id": "b",
+     "text": "To record the French surrender being signed",
+     "correct": false,
+     "explanation": "The armistice request came three days later, on 17 June."
+    },
+    {
+     "id": "c",
+     "text": "To show Italian troops in France",
+     "correct": false,
+     "explanation": "German, not Italian, troops are shown."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is Paris",
+     "correct": false,
+     "explanation": "That is the location, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D20",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (photograph, Arc de Triomphe, 14 June 1940): which sentence moves from a feature to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the photograph was taken on the day German troops entered Paris, it is valuable as direct visual evidence of the scale and symbolism of the German victory over France.",
+     "correct": true,
+     "explanation": "Correct: feature (taken on the day) → consequence → value."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1940.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is useful because it is a photograph.",
+     "correct": false,
+     "explanation": "Generic: the type alone does not show value."
+    },
+    {
+     "id": "d",
+     "text": "It is about Paris.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D21",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (photograph, Addis Ababa, May 1936): which sentence moves from a feature to a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the photograph was taken by the occupying Italian forces, it shows the parade as Italy wanted it seen, but says nothing about Ethiopian resistance or suffering during the war.",
+     "correct": true,
+     "explanation": "Correct: feature (taken by the occupier) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1936.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is limited because it is old.",
+     "correct": false,
+     "explanation": "Generic: age alone is not a reasoned limitation."
+    },
+    {
+     "id": "d",
+     "text": "It is about Italy.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D22",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing the Rhineland reoccupation (7 March 1936) and the invasion of Poland (1 September 1939).",
+   "categories": [
+    {
+     "id": "method",
+     "label": "Issue 1: method used"
+    },
+    {
+     "id": "response",
+     "label": "Issue 2: international response"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Rhineland: troops marched in unopposed, breaking Locarno",
+     "answer": "method",
+     "explanation": "Describes the method: a fait accompli."
+    },
+    {
+     "id": "s2",
+     "text": "Poland: a full-scale invasion across the border",
+     "answer": "method",
+     "explanation": "Describes the method: open war."
+    },
+    {
+     "id": "s3",
+     "text": "Rhineland: no power used force to reverse it",
+     "answer": "response",
+     "explanation": "Describes the response: inaction."
+    },
+    {
+     "id": "s4",
+     "text": "Poland: Britain and France declared war two days later",
+     "answer": "response",
+     "explanation": "Describes the response: war."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D23",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct fact about the invasion of Poland on 1 September 1939.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Germany invaded Poland on 1 September 1939",
+     "answer": "point",
+     "explanation": "Point: the date and act."
+    },
+    {
+     "id": "s2",
+     "text": "Britain and France had warned that aggression against Poland meant war",
+     "answer": "point",
+     "explanation": "Point: the prior warning."
+    },
+    {
+     "id": "s3",
+     "text": "Britain and France declared war on 3 September 1939",
+     "answer": "point",
+     "explanation": "Point: the consequence."
+    },
+    {
+     "id": "s4",
+     "text": "the Nazi-Soviet Pact had been signed on 23 August 1939",
+     "answer": "not_point",
+     "explanation": "Background from the previous week, not itself a fact about the invasion."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D24",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the Rome-Berlin Axis treaty of 25 October 1936? Choose PARTIES + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To formalise closer ties between Germany and Italy, shortly after League sanctions had isolated Italy over Ethiopia",
+     "correct": true,
+     "explanation": "Correct: parties (Germany and Italy), action (formalise ties), moment (after sanctions)."
+    },
+    {
+     "id": "b",
+     "text": "To end Italy's war in Ethiopia",
+     "correct": false,
+     "explanation": "The war had already been won by this point."
+    },
+    {
+     "id": "c",
+     "text": "To bring Britain into an alliance",
+     "correct": false,
+     "explanation": "The treaty was between Germany and Italy, not Britain."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is Ethiopia",
+     "correct": false,
+     "explanation": "That is the earlier topic, not the purpose of this treaty."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-RESPONSES-D25",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Rome-Berlin Axis treaty, 25 October 1936): which sentence moves from a feature to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the treaty was signed only months after Italy's invasion of Ethiopia and the resulting sanctions, it is valuable for showing how the League's response pushed Italy towards Germany.",
+     "correct": true,
+     "explanation": "Correct: feature (timing after sanctions) → consequence → value."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1936.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is useful because it is a treaty.",
+     "correct": false,
+     "explanation": "Generic: the type alone does not show value."
+    },
+    {
+     "id": "d",
+     "text": "It is about Germany.",
+     "correct": false,
+     "explanation": "A topic label."
     }
    ]
   }

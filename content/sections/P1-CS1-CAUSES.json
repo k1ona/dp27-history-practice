@@ -1718,6 +1718,348 @@
      "factId": "F-CS1C-21"
     }
    ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Secretary Hull tell the House Foreign Affairs Committee on 15 January 1941?",
+   "factIds": [
+    "F-CS1C-30"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That Japan had been actuated by ambitious plans for a dominant position in the Western Pacific",
+     "correct": true,
+     "explanation": "Correct: Hull summarised a decade of Japanese policy in those terms."
+    },
+    {
+     "id": "b",
+     "text": "That Japan had abandoned its plans in China",
+     "correct": false,
+     "explanation": "No: Hull described ambitious, not abandoned, plans."
+    },
+    {
+     "id": "c",
+     "text": "That the United States would recognise Manchukuo",
+     "correct": false,
+     "explanation": "The US never recognised Manchukuo."
+    },
+    {
+     "id": "d",
+     "text": "That Japan had signed a neutrality pact with the United States",
+     "correct": false,
+     "explanation": "No such pact existed; the USSR signed one with Japan in 1941."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What does the photograph described in the source record show at the February 1936 rebellion in Tokyo?",
+   "factIds": [
+    "F-CS1C-32"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rebel soldiers led by Infantry Lieutenant Kurihara Yasuhide",
+     "correct": true,
+     "explanation": "Correct: the caption names Kurihara at the centre of the group."
+    },
+    {
+     "id": "b",
+     "text": "The assassination of Inukai",
+     "correct": false,
+     "explanation": "That event was in 1932, not photographed in this record."
+    },
+    {
+     "id": "c",
+     "text": "The Mukden explosion",
+     "correct": false,
+     "explanation": "That was in Manchuria in 1931."
+    },
+    {
+     "id": "d",
+     "text": "The Tripartite Pact signing",
+     "correct": false,
+     "explanation": "That took place in Berlin in 1940."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What does the 1938 pro-Japanese poster's slogan demand, as translated from the Chinese characters?",
+   "factIds": [
+    "F-CS1C-33"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Oppose communism, overthrow Chiang, end the war, save the nation",
+     "correct": true,
+     "explanation": "Correct: it shows Chiang and Stalin lying at the feet of a flag-bearer."
+    },
+    {
+     "id": "b",
+     "text": "Welcome the Communist Party to China",
+     "correct": false,
+     "explanation": "The poster opposes communism."
+    },
+    {
+     "id": "c",
+     "text": "Support the League of Nations",
+     "correct": false,
+     "explanation": "Not its message."
+    },
+    {
+     "id": "d",
+     "text": "Celebrate the Tripartite Pact",
+     "correct": false,
+     "explanation": "That pact came in 1940, two years later."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R24",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "The 1940 postcard 仲よし三國 (\"good friends, three countries\") shows children waving the flags of Japan, Germany and which other country? (name)",
+   "factIds": [
+    "F-CS1C-34"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Italy",
+     "tolerance": 0,
+     "explanation": "The postcard labels portraits of Hitler, Konoe and Mussolini.",
+     "accept": [
+      "italy",
+      "italian"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R25",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Hull told Congress in January 1941 that Japan's policy had long aimed at dominating the Western Pacific. Which argument does it support?",
+   "factIds": [
+    "F-CS1C-30"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "American officials saw Japanese expansion as a long-planned, ambitious policy, not an improvised response",
+     "correct": true,
+     "explanation": "Correct: Hull described broad and ambitious plans going back years."
+    },
+    {
+     "id": "b",
+     "text": "Japan only sought self-defence in the Western Pacific",
+     "correct": false,
+     "explanation": "Hull's wording rejects that framing."
+    },
+    {
+     "id": "c",
+     "text": "Hull believed Japan had abandoned expansion by 1941",
+     "correct": false,
+     "explanation": "The opposite: he saw continuity in Japanese ambitions."
+    },
+    {
+     "id": "d",
+     "text": "The United States had encouraged Japan's regional dominance",
+     "correct": false,
+     "explanation": "Hull's statement criticises, not endorses, Japanese policy."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R26",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: \"Konoe's 'new order' speech of 3 November 1938 offered Chiang Kai-shek a full partnership in governing China.\"",
+   "factIds": [
+    "F-CS1C-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The statement called the Kuomintang government a mere local régime, not a partner",
+     "correct": true,
+     "explanation": "Correct: it excluded Chiang's government rather than including it."
+    },
+    {
+     "id": "b",
+     "text": "The year should be 1931",
+     "correct": false,
+     "explanation": "1938 is the correct year for the new order statement."
+    },
+    {
+     "id": "c",
+     "text": "Konoe was not Prime Minister in 1938",
+     "correct": false,
+     "explanation": "He held the office from 1937 to 1939."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the statement excluded Chiang's government."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R27",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened in 1932? Choose all that apply.",
+   "factIds": [
+    "F-CS1C-22",
+    "F-CS1C-07",
+    "F-CS1C-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Manchukuo was formally established",
+     "correct": true,
+     "explanation": "Yes: on 1 March 1932."
+    },
+    {
+     "id": "b",
+     "text": "Inukai was assassinated",
+     "correct": true,
+     "explanation": "Yes: on 15 May 1932."
+    },
+    {
+     "id": "c",
+     "text": "Grew reported farmers in a very bad plight",
+     "correct": true,
+     "explanation": "Yes: in his August 1932 letter."
+    },
+    {
+     "id": "d",
+     "text": "The Tripartite Pact was signed",
+     "correct": false,
+     "explanation": "No: that was 1940."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R28",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Manchukuo formally established",
+     "year": 1932,
+     "month": 3,
+     "factId": "F-CS1C-22"
+    },
+    {
+     "id": "b",
+     "text": "Japan gives notice of withdrawal from the League",
+     "year": 1933,
+     "month": 3,
+     "factId": "F-CS1C-23"
+    },
+    {
+     "id": "c",
+     "text": "Japan gives notice to end the Washington Naval Treaty",
+     "year": 1934,
+     "month": 12,
+     "factId": "F-CS1C-24"
+    },
+    {
+     "id": "d",
+     "text": "Anti-Comintern Pact signed with Germany",
+     "year": 1936,
+     "month": 11,
+     "factId": "F-CS1C-18"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why, according to Konoe's own reasoning in July 1937, did Japan need to perfect its national defence and economic power?",
+   "factIds": [
+    "F-CS1C-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He called it a most urgent necessity, tied to the spirit of the Empire's polity",
+     "correct": true,
+     "explanation": "Correct: he framed defence and economic power as flowing from that principle."
+    },
+    {
+     "id": "b",
+     "text": "He said it was required by the League of Nations",
+     "correct": false,
+     "explanation": "Japan had already left the League by 1937."
+    },
+    {
+     "id": "c",
+     "text": "He said it was a temporary measure only for 1937",
+     "correct": false,
+     "explanation": "He presented it as an underlying, ongoing principle."
+    },
+    {
+     "id": "d",
+     "text": "He said it followed a direct order from Germany",
+     "correct": false,
+     "explanation": "Not what he said; the Anti-Comintern link came separately."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-R30",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each visual source to what it shows.",
+   "pairs": [
+    {
+     "left": "Photograph of the February 1936 rebellion",
+     "right": "Rebel soldiers led by Lieutenant Kurihara Yasuhide in Tokyo",
+     "explanation": "Taken during the failed coup of 26 February 1936."
+    },
+    {
+     "left": "1938 pro-Japanese poster",
+     "right": "Chiang and Stalin shown defeated, with an anti-communist slogan",
+     "explanation": "Propaganda for occupied Chinese territory."
+    },
+    {
+     "left": "1940 postcard 仲よし三国",
+     "right": "Children waving the flags of Japan, Germany and Italy",
+     "explanation": "Marks the Tripartite Pact alliance."
+    },
+    {
+     "left": "Manchuria emigration poster",
+     "right": "A government subsidy to encourage young farmers to settle in Manchuria",
+     "explanation": "Issued by the Manchuria Emigration Association, founded 1935."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2288,6 +2630,292 @@
      "text": "1931 is addressed to the Chinese Government; 1933 is a speech to the League Assembly.",
      "answer": "diff",
      "explanation": "Different audiences, different emphasis."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D16",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every part of this extract that gives a distinct reason stated by Hull for Japan's conduct (Hull to the House Foreign Affairs Committee, 15 January 1941).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Japan has for a number of years been actuated",
+     "answer": "not_point",
+     "explanation": "This introduces the claim; it is not itself a reason."
+    },
+    {
+     "id": "s2",
+     "text": "by broad and ambitious plans for the expansion of its military control",
+     "answer": "point",
+     "explanation": "Point 1: ambitious plans for military expansion."
+    },
+    {
+     "id": "s3",
+     "text": "over the whole of Greater East Asia and over the region of the Pacific Ocean",
+     "answer": "point",
+     "explanation": "Point 2: the specific goal of regional dominance."
+    },
+    {
+     "id": "s4",
+     "text": "Hull made this statement before a Congressional committee.",
+     "answer": "not_point",
+     "explanation": "This is context about the setting, not a reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D17",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every part of this extract that gives a distinct reason Nomura gave Welles for Japan's move into southern Indochina, July 1941.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Japan needed an uninterrupted supply of rice and raw materials",
+     "answer": "point",
+     "explanation": "Point 1: securing supplies."
+    },
+    {
+     "id": "s2",
+     "text": "and feared encirclement by hostile powers.",
+     "answer": "point",
+     "explanation": "Point 2: a security motive."
+    },
+    {
+     "id": "s3",
+     "text": "Nomura delivered this explanation in a conversation with Under Secretary Welles.",
+     "answer": "not_point",
+     "explanation": "Describes the setting, not a reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D18",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Hull's statement to the House Foreign Affairs Committee on 15 January 1941? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To warn Congress about the danger of continuing Japanese expansion, as US-Japan relations worsened in early 1941",
+     "correct": true,
+     "explanation": "Correct: audience (Congress), action (warn), moment (January 1941)."
+    },
+    {
+     "id": "b",
+     "text": "To describe Japan's economy",
+     "correct": false,
+     "explanation": "Too vague: no audience, action or moment named."
+    },
+    {
+     "id": "c",
+     "text": "The purpose is about foreign policy",
+     "correct": false,
+     "explanation": "A topic, not a purpose."
+    },
+    {
+     "id": "d",
+     "text": "To announce war with Japan",
+     "correct": false,
+     "explanation": "War came in December 1941, not January."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D19",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the 1938 pro-Japanese poster showing Chiang and Stalin defeated? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To persuade people in occupied Chinese territory to reject Chiang and communism, after Japan's 1938 advances",
+     "correct": true,
+     "explanation": "Correct: audience (occupied territory), action (persuade), moment (1938)."
+    },
+    {
+     "id": "b",
+     "text": "To record historical events accurately",
+     "correct": false,
+     "explanation": "Propaganda posters aim to persuade, not simply record."
+    },
+    {
+     "id": "c",
+     "text": "The purpose is about Chinese politics",
+     "correct": false,
+     "explanation": "A topic, not a purpose."
+    },
+    {
+     "id": "d",
+     "text": "To celebrate the Tripartite Pact",
+     "correct": false,
+     "explanation": "That pact was signed two years later, in 1940."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D20",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Hull's January 1941 statement): which sentence moves from a feature of the source to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Hull was Secretary of State addressing Congress, the statement is valuable for showing how the US government summarised a decade of Japanese policy at a critical moment.",
+     "correct": true,
+     "explanation": "Correct: feature (Secretary of State to Congress) → consequence → value."
+    },
+    {
+     "id": "b",
+     "text": "The origin is Hull in 1941.",
+     "correct": false,
+     "explanation": "A label: names the origin but gives no value."
+    },
+    {
+     "id": "c",
+     "text": "The source is useful because it is from the government.",
+     "correct": false,
+     "explanation": "Generic: being official does not by itself establish value."
+    },
+    {
+     "id": "d",
+     "text": "The content is about Japan.",
+     "correct": false,
+     "explanation": "A topic label, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D21",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (the 1938 pro-Japanese poster): which sentence moves from a feature of the source to a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the poster was produced as propaganda for occupied territory, it is limited as evidence of what ordinary Chinese people actually believed.",
+     "correct": true,
+     "explanation": "Correct: feature (propaganda for occupied territory) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "The poster is from 1938.",
+     "correct": false,
+     "explanation": "A label: a date is not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "The poster is limited because it is a picture.",
+     "correct": false,
+     "explanation": "Generic: being a picture does not by itself create a limitation."
+    },
+    {
+     "id": "d",
+     "text": "The poster shows Chiang and Stalin.",
+     "correct": false,
+     "explanation": "Describes content, not a limitation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D22",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: sort each statement into a similarity or a difference between Grew's 1932 and 1940 reports.",
+   "categories": [
+    {
+     "id": "same",
+     "label": "Similarity"
+    },
+    {
+     "id": "diff",
+     "label": "Difference"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Both link Japanese expansion to a wider context beyond Japan's own choice alone.",
+     "answer": "same",
+     "explanation": "1932 links it to economic crisis; 1940 links it to German victories."
+    },
+    {
+     "id": "s2",
+     "text": "1932 describes economic hardship at home; 1940 describes a foreign opportunity abroad.",
+     "answer": "diff",
+     "explanation": "Different kinds of pressure, domestic versus international."
+    },
+    {
+     "id": "s3",
+     "text": "Both come from Grew's own observation as US Ambassador in Tokyo.",
+     "answer": "same",
+     "explanation": "Same author and vantage point."
+    },
+    {
+     "id": "s4",
+     "text": "1932 is cautious about expansion's benefits; 1940 describes the military's excitement about expansion.",
+     "answer": "diff",
+     "explanation": "A shift from doubt to enthusiasm, as Grew reports it."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-CAUSES-D23",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: sort each statement into a similarity or a difference between Konoe's 1938 \"new order\" statement and Hull's January 1941 statement.",
+   "categories": [
+    {
+     "id": "same",
+     "label": "Similarity"
+    },
+    {
+     "id": "diff",
+     "label": "Difference"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Both describe Japan seeking a dominant position in a wider region.",
+     "answer": "same",
+     "explanation": "Konoe names East Asia; Hull names the Western Pacific."
+    },
+    {
+     "id": "s2",
+     "text": "Konoe presents this as a benign new order; Hull presents it as a dangerous, long-planned ambition.",
+     "answer": "diff",
+     "explanation": "Opposite judgements on the same underlying policy."
+    },
+    {
+     "id": "s3",
+     "text": "Both statements come from senior government figures.",
+     "answer": "same",
+     "explanation": "A Japanese Prime Minister and a US Secretary of State."
+    },
+    {
+     "id": "s4",
+     "text": "Konoe speaks in 1938; Hull speaks over two years later, in January 1941.",
+     "answer": "diff",
+     "explanation": "Different dates, showing the policy's continuity over time."
     }
    ]
   }

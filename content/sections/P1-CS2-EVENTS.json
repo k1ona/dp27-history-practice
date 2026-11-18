@@ -1708,6 +1708,400 @@
      "factId": "F-CS2E-28"
     }
    ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Did the United States ever recognise Italian sovereignty over Ethiopia?",
+   "factIds": [
+    "F-CS2E-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "No, the US never recognised it",
+     "correct": true,
+     "explanation": "Correct: non-recognition continued after the conquest."
+    },
+    {
+     "id": "b",
+     "text": "Yes, in 1936",
+     "correct": false,
+     "explanation": "The US withheld recognition."
+    },
+    {
+     "id": "c",
+     "text": "Yes, after the Pact of Steel",
+     "correct": false,
+     "explanation": "The Pact of Steel did not change US policy."
+    },
+    {
+     "id": "d",
+     "text": "The question never arose",
+     "correct": false,
+     "explanation": "It did arise, and the US withheld recognition."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what month and year did Germany occupy the dismantled Czech lands, in violation of the Munich agreement? (month year)",
+   "factIds": [
+    "F-CS2E-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "March 1939",
+     "tolerance": 0,
+     "explanation": "14-15 March 1939.",
+     "accept": [
+      "march 1939",
+      "14 march 1939",
+      "15 march 1939"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R23",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Hull said on 8 April 1939 that \"the forcible and violent invasion of Albania is unquestionably an additional threat to the peace of the world\". Which argument does it support?",
+   "factIds": [
+    "F-CS2E-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "American officials saw Italian aggression as part of a widening threat to peace",
+     "correct": true,
+     "explanation": "Correct: Hull linked Albania to a broader danger."
+    },
+    {
+     "id": "b",
+     "text": "Hull approved of the invasion",
+     "correct": false,
+     "explanation": "He called it a threat to peace."
+    },
+    {
+     "id": "c",
+     "text": "Albania resisted successfully",
+     "correct": false,
+     "explanation": "Not stated by this fact."
+    },
+    {
+     "id": "d",
+     "text": "The US took military action over Albania",
+     "correct": false,
+     "explanation": "The US made a statement, not a military response."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to the Hossbach record, what did Hitler argue Germany needed because autarky was untenable in food and the economy?",
+   "factIds": [
+    "F-CS2E-37"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Greater living space, to be found in Europe rather than colonies",
+     "correct": true,
+     "explanation": "Correct: space for a racial community of over 85 million."
+    },
+    {
+     "id": "b",
+     "text": "A return to free trade with the British Empire",
+     "correct": false,
+     "explanation": "Hitler argued the opposite: autarky could not solve the problem, but the answer was space, not trade."
+    },
+    {
+     "id": "c",
+     "text": "Colonies in Africa",
+     "correct": false,
+     "explanation": "He said space was to be sought in Europe, not colonies."
+    },
+    {
+     "id": "d",
+     "text": "A military alliance with the Soviet Union",
+     "correct": false,
+     "explanation": "Not what the record states."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to the Hossbach record, which of these did Hitler state? Choose all that apply.",
+   "factIds": [
+    "F-CS2E-37"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Germany's future was conditional on solving the need for space",
+     "correct": true,
+     "explanation": "Yes: this was the central argument."
+    },
+    {
+     "id": "b",
+     "text": "Expansion could only come by breaking resistance and taking risks",
+     "correct": true,
+     "explanation": "Yes: stated directly in the record."
+    },
+    {
+     "id": "c",
+     "text": "The unemployment problem had been solved",
+     "correct": true,
+     "explanation": "Yes: stated in the record."
+    },
+    {
+     "id": "d",
+     "text": "Germany should seek colonies in Africa first",
+     "correct": false,
+     "explanation": "No: space was to be sought in Europe, not colonies."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R26",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each photograph to what it shows.",
+   "pairs": [
+    {
+     "left": "Vienna, March 1938",
+     "right": "German armoured cars on the Mariahilfer Straße passing cheering crowds giving the Hitler salute",
+     "explanation": "Taken at the time of the Anschluss."
+    },
+    {
+     "left": "Moscow, 23 August 1939",
+     "right": "Stalin and Ribbentrop in conversation in the Kremlin after signing the non-aggression treaty",
+     "explanation": "Photographed by Helmut Laux."
+    },
+    {
+     "left": "Nuremberg, 1936",
+     "right": "A Wehrmacht rally staged at the Nazi Party's annual gathering",
+     "explanation": "One of the archival images used in this section."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: \"Germany reoccupied the Rhineland in flagrant violation of the Treaty of Versailles alone.\"",
+   "factIds": [
+    "F-CS2E-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Rhineland's demilitarised status came from the Locarno Treaty, not Versailles alone",
+     "correct": true,
+     "explanation": "Correct: Germany's own memorandum argued Locarno was void."
+    },
+    {
+     "id": "b",
+     "text": "The year should be 1938",
+     "correct": false,
+     "explanation": "That is not the error: it was 1936."
+    },
+    {
+     "id": "c",
+     "text": "German troops did not move at all",
+     "correct": false,
+     "explanation": "That is not the error: troops did move in."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Locarno, not Versailles alone, is what made the zone demilitarised."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R28",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these early steps in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Germany leaves the Disarmament Conference",
+     "year": 1933,
+     "month": 10,
+     "factId": "F-CS2E-02"
+    },
+    {
+     "id": "b",
+     "text": "Hull questions the German Ambassador about territorial aims",
+     "year": 1935,
+     "month": 3,
+     "factId": "F-CS2E-04"
+    },
+    {
+     "id": "c",
+     "text": "Italy invades Ethiopia",
+     "year": 1935,
+     "month": 10,
+     "factId": "F-CS2E-07"
+    },
+    {
+     "id": "d",
+     "text": "German–Italian treaty of friendship signed",
+     "year": 1936,
+     "month": 10,
+     "factId": "F-CS2E-12"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R29",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Case Study 2 runs from 1933 to 1940. Is the Hossbach meeting of 5 November 1937 inside or outside the timeframe?",
+   "factIds": [
+    "F-CS2E-37"
+   ],
+   "timeframe": [
+    1933,
+    1940
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside",
+     "correct": true,
+     "explanation": "Correct: 1937 falls within 1933-1940."
+    },
+    {
+     "id": "b",
+     "text": "Outside",
+     "correct": false,
+     "explanation": "No: 1937 is within the case study's years."
+    },
+    {
+     "id": "c",
+     "text": "Only background, not usable",
+     "correct": false,
+     "explanation": "It falls inside the timeframe and can be used directly."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The timeframe decides, not the command term."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R30",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What treaty did Germany and Italy sign on 22 May 1939?",
+   "factIds": [
+    "F-CS2E-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Pact of Steel, a military alliance",
+     "correct": true,
+     "explanation": "Correct: a formal military alliance."
+    },
+    {
+     "id": "b",
+     "text": "The Anti-Comintern Pact",
+     "correct": false,
+     "explanation": "That was signed with Japan in November 1936."
+    },
+    {
+     "id": "c",
+     "text": "The Nazi-Soviet Pact",
+     "correct": false,
+     "explanation": "That was signed with the Soviet Union in August 1939."
+    },
+    {
+     "id": "d",
+     "text": "The Munich agreement",
+     "correct": false,
+     "explanation": "That was signed in September 1938."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R31",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which month of 1939 did Germany and Italy sign the Pact of Steel?",
+   "factIds": [
+    "F-CS2E-22"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "May",
+     "tolerance": 0,
+     "explanation": "22 May 1939."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: Hitler told his commanders in November 1937 that the unemployment problem had been solved and that space had to be found by breaking resistance and taking risks. Which argument does it support?",
+   "factIds": [
+    "F-CS2E-37"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "By late 1937 Hitler was already planning expansion as a deliberate policy, not an improvised response",
+     "correct": true,
+     "explanation": "Correct: this predates the Anschluss, Munich and the invasions that followed."
+    },
+    {
+     "id": "b",
+     "text": "Hitler wanted to avoid any risk of war",
+     "correct": false,
+     "explanation": "He spoke of taking risks to gain space."
+    },
+    {
+     "id": "c",
+     "text": "Germany still faced high unemployment in 1937",
+     "correct": false,
+     "explanation": "He said the problem had been solved."
+    },
+    {
+     "id": "d",
+     "text": "Germany planned to seek colonies overseas",
+     "correct": false,
+     "explanation": "He said space was to be found in Europe, not colonies."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2272,6 +2666,374 @@
      "text": "German note: left nothing untried for the purpose of settling the dispute",
      "answer": "peace",
      "explanation": "Claims Germany sought peace."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D16",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct point in the Hossbach record about why Germany needed space.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "a racial community of over 85 million",
+     "answer": "point",
+     "explanation": "Point: the size of the population."
+    },
+    {
+     "id": "s2",
+     "text": "the right to greater living space",
+     "answer": "point",
+     "explanation": "Point: the claimed right."
+    },
+    {
+     "id": "s3",
+     "text": "autarky untenable in food and the economy",
+     "answer": "point",
+     "explanation": "Point: self-sufficiency would not work."
+    },
+    {
+     "id": "s4",
+     "text": "space to be sought in Europe, not colonies",
+     "answer": "point",
+     "explanation": "Point: where expansion should happen."
+    },
+    {
+     "id": "s5",
+     "text": "this record comes from a meeting on 5 November 1937",
+     "answer": "not_point",
+     "explanation": "Context, not a point about why space was needed."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D17",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct reason Long gave (10 September 1935) for expecting Italy to proceed with the invasion.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "more than 200,000 men already south of the Suez Canal",
+     "answer": "point",
+     "explanation": "Point: troop numbers already committed."
+    },
+    {
+     "id": "s2",
+     "text": "withdrawing them would be a defeat for the government",
+     "answer": "point",
+     "explanation": "Point: political cost of retreat."
+    },
+    {
+     "id": "s3",
+     "text": "a gradually approaching domestic economic crisis",
+     "answer": "point",
+     "explanation": "Point: economic pressure."
+    },
+    {
+     "id": "s4",
+     "text": "a carefully prepared, well-calculated, hard, cold, and cruel prosecution of preconceived plans",
+     "answer": "point",
+     "explanation": "Point: long-term planning."
+    },
+    {
+     "id": "s5",
+     "text": "Long was the US Ambassador in Rome",
+     "answer": "not_point",
+     "explanation": "Context about the source, not a reason for the invasion."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D18",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Hull's statement of 8 April 1939 on Albania? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To warn the American public and other governments that Italian aggression threatened wider peace, the day after the invasion of Albania",
+     "correct": true,
+     "explanation": "Correct: audience (public/governments), action (warn), moment (day after 7 April)."
+    },
+    {
+     "id": "b",
+     "text": "To declare war on Italy",
+     "correct": false,
+     "explanation": "The US did not declare war over Albania."
+    },
+    {
+     "id": "c",
+     "text": "To describe Albania's geography",
+     "correct": false,
+     "explanation": "Not the purpose of the statement."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is Albania",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D19",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the Hossbach record of 5 November 1937? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To record Hitler's own reasoning to his military and foreign-policy commanders, setting out the case for expansion before any invasion had taken place",
+     "correct": true,
+     "explanation": "Correct: audience (commanders), action (set out reasoning), moment (after the Rhineland, before the Anschluss)."
+    },
+    {
+     "id": "b",
+     "text": "To announce war on Poland",
+     "correct": false,
+     "explanation": "That came in 1939, not 1937."
+    },
+    {
+     "id": "c",
+     "text": "To inform Britain of German plans",
+     "correct": false,
+     "explanation": "It was an internal German record, not a statement to Britain."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is living space",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D20",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Hossbach record): which sentence moves from a feature to a specific value for a historian?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the record sets out Hitler's reasoning to his own commanders in private, it is valuable for showing his real aims before the invasions of 1938-39 rather than his public denials.",
+     "correct": true,
+     "explanation": "Correct: feature (private, internal) → consequence → value."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1937.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is useful because it is a record of a meeting.",
+     "correct": false,
+     "explanation": "Generic: the type alone does not show value."
+    },
+    {
+     "id": "d",
+     "text": "It is about living space.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D21",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Long's telegram, 10 September 1935): which sentence moves from a feature to a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Long was reporting from Rome rather than Addis Ababa, his telegram shows Italian preparations and official attitudes well, but says little about conditions inside Ethiopia itself.",
+     "correct": true,
+     "explanation": "Correct: feature (posted in Rome) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1935.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is limited because it is old.",
+     "correct": false,
+     "explanation": "Generic: age alone is not a reasoned limitation."
+    },
+    {
+     "id": "d",
+     "text": "It is about Italy.",
+     "correct": false,
+     "explanation": "A topic label."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D22",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Long's telegram (10 September 1935) and Hull's statement on Albania (8 April 1939).",
+   "categories": [
+    {
+     "id": "planning",
+     "label": "Issue 1: evidence of planning"
+    },
+    {
+     "id": "danger",
+     "label": "Issue 2: danger to peace"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Long: a carefully prepared, well-calculated, hard, cold, and cruel prosecution of preconceived plans",
+     "answer": "planning",
+     "explanation": "Describes long preparation."
+    },
+    {
+     "id": "s2",
+     "text": "Hull: the forcible and violent invasion of Albania",
+     "answer": "danger",
+     "explanation": "Describes the act itself, as a threat."
+    },
+    {
+     "id": "s3",
+     "text": "Long: more than 200,000 men already south of the Suez Canal",
+     "answer": "planning",
+     "explanation": "Evidence of military build-up."
+    },
+    {
+     "id": "s4",
+     "text": "Hull: unquestionably an additional threat to the peace of the world",
+     "answer": "danger",
+     "explanation": "States the wider danger directly."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D23",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct step Germany took to break the post-war settlements between 1933 and 1936.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "withdrew from the Disarmament Conference, October 1933",
+     "answer": "point",
+     "explanation": "Point: first open break."
+    },
+    {
+     "id": "s2",
+     "text": "announced an air force and the return of conscription, March 1935",
+     "answer": "point",
+     "explanation": "Point: rearmament."
+    },
+    {
+     "id": "s3",
+     "text": "sent troops into the demilitarised Rhineland, March 1936",
+     "answer": "point",
+     "explanation": "Point: breaking Locarno."
+    },
+    {
+     "id": "s4",
+     "text": "signed a treaty of friendship with Italy, October 1936",
+     "answer": "point",
+     "explanation": "Point: new alignment."
+    },
+    {
+     "id": "s5",
+     "text": "Hitler became Chancellor on 30 January 1933",
+     "answer": "not_point",
+     "explanation": "Background, not itself a breach of the settlements."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D24",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the German note delivered on 1 September 1939? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To justify the invasion of Poland to the US State Department by blaming the Polish government, on the afternoon the invasion had already begun",
+     "correct": true,
+     "explanation": "Correct: audience (US State Department), action (justify/blame), moment (same afternoon)."
+    },
+    {
+     "id": "b",
+     "text": "To request American mediation before any fighting started",
+     "correct": false,
+     "explanation": "The invasion had already begun when the note arrived."
+    },
+    {
+     "id": "c",
+     "text": "To announce an alliance with Poland",
+     "correct": false,
+     "explanation": "Germany had just invaded Poland."
+    },
+    {
+     "id": "d",
+     "text": "The purpose is Poland",
+     "correct": false,
+     "explanation": "That is the topic, not the purpose."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS2-EVENTS-D25",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (German note, 1 September 1939): which sentence moves from a feature to a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the note was written by the German government to justify its own invasion, it is valuable for showing how Germany presented the attack, but limited as evidence of what actually caused the war.",
+     "correct": true,
+     "explanation": "Correct: feature (author's own justification) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1939.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is limited because it is short.",
+     "correct": false,
+     "explanation": "Generic: length alone is not a reasoned limitation."
+    },
+    {
+     "id": "d",
+     "text": "It is about Poland.",
+     "correct": false,
+     "explanation": "A topic label."
     }
    ]
   }

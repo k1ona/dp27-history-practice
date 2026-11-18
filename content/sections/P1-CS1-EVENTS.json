@@ -1690,6 +1690,357 @@
      "explanation": "The fact says they were unable to retreat."
     }
    ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Japanese army planes do at Chinchow in October 1931?",
+   "factIds": [
+    "F-CS1E-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bombed barracks there, reported to Neville by the Foreign Minister on 10 October",
+     "correct": true,
+     "explanation": "Correct: by January 1932 this had destroyed the last Chinese authority in South Manchuria."
+    },
+    {
+     "id": "b",
+     "text": "Evacuated Japanese civilians from the city",
+     "correct": false,
+     "explanation": "No: the planes conducted a bombing raid."
+    },
+    {
+     "id": "c",
+     "text": "Dropped leaflets announcing a ceasefire",
+     "correct": false,
+     "explanation": "The opposite: operations there destroyed Chinese authority."
+    },
+    {
+     "id": "d",
+     "text": "Returned to base without engaging",
+     "correct": false,
+     "explanation": "They bombed barracks at Chinchow."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In his telegram of 2 September 1937, Hull told Grew that American opinion was outraged by Japanese military methods, which were \"destroying the good will of the\" what? (one word)",
+   "factIds": [
+    "F-CS1E-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "world",
+     "tolerance": 0,
+     "explanation": "\"Destroying the good will of the world.\"",
+     "accept": [
+      "world"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were the Battles of Khalkhin Gol (the Nomonhan incident) of 1939?",
+   "factIds": [
+    "F-CS1E-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Decisive engagements in the undeclared Soviet–Japanese border conflict, won by a Soviet–Mongolian offensive led by Zhukov",
+     "correct": true,
+     "explanation": "Correct: a serious military defeat for Japan's army on the Manchurian–Mongolian border."
+    },
+    {
+     "id": "b",
+     "text": "Naval battles in the South China Sea",
+     "correct": false,
+     "explanation": "No: these were land battles on the Mongolian border."
+    },
+    {
+     "id": "c",
+     "text": "A Japanese victory over Chinese Nationalist forces",
+     "correct": false,
+     "explanation": "The result was a Soviet–Mongolian victory over Japan."
+    },
+    {
+     "id": "d",
+     "text": "Negotiations that ended the war with China",
+     "correct": false,
+     "explanation": "The war with China continued after 1939."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R24",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: the Neutrality Pact made clear Japan's military would move into South-East Asia, and an agreement with Vichy France let Japanese forces enter Indochina. Which argument does it support?",
+   "factIds": [
+    "F-CS1E-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Diplomatic agreements cleared the way for Japan's southward advance",
+     "correct": true,
+     "explanation": "Correct: Vichy's agreement opened Indochina to Japanese forces."
+    },
+    {
+     "id": "b",
+     "text": "France resisted Japan's advance militarily",
+     "correct": false,
+     "explanation": "Vichy France agreed to let Japanese forces move in."
+    },
+    {
+     "id": "c",
+     "text": "The Neutrality Pact prevented Japanese expansion",
+     "correct": false,
+     "explanation": "It is described as making the southward move clear, not preventing it."
+    },
+    {
+     "id": "d",
+     "text": "Japan withdrew from Indochina in 1941",
+     "correct": false,
+     "explanation": "Japanese forces moved into Indochina, they did not withdraw."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R25",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What changed for the United States when Germany declared war on it in December 1941?",
+   "factIds": [
+    "F-CS1E-39"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The US now faced war in both Europe and Asia at once",
+     "correct": true,
+     "explanation": "Correct: this followed close on Pearl Harbor."
+    },
+    {
+     "id": "b",
+     "text": "The US left the war in the Pacific",
+     "correct": false,
+     "explanation": "No: the US fought on both fronts."
+    },
+    {
+     "id": "c",
+     "text": "Japan declared neutrality",
+     "correct": false,
+     "explanation": "Japan was already at war with the US after Pearl Harbor."
+    },
+    {
+     "id": "d",
+     "text": "The US signed an armistice with Germany",
+     "correct": false,
+     "explanation": "The opposite: Germany declared war on the US."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R26",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What does the photograph described in the source record show at the Little West Gate of Mukden, 19 September 1931?",
+   "factIds": [
+    "F-CS1E-40"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japanese soldiers of the 29th Regiment in an offensive posture, 8 a.m.",
+     "correct": true,
+     "explanation": "Correct: taken the morning after the Mukden explosion."
+    },
+    {
+     "id": "b",
+     "text": "Chinese troops retaking the city",
+     "correct": false,
+     "explanation": "The caption describes Japanese soldiers, not Chinese troops."
+    },
+    {
+     "id": "c",
+     "text": "A League of Nations inspection team",
+     "correct": false,
+     "explanation": "The Lytton Commission visited later, in 1932."
+    },
+    {
+     "id": "d",
+     "text": "The signing of a ceasefire",
+     "correct": false,
+     "explanation": "The photo shows soldiers in an offensive posture."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R27",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What does the 1938 postcard described in the source record show?",
+   "factIds": [
+    "F-CS1E-41"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Japanese Army entering a Chinese town while being welcomed, with banzai speech bubbles",
+     "correct": true,
+     "explanation": "Correct: it shows a banner reading “triumphant entry” into the town."
+    },
+    {
+     "id": "b",
+     "text": "A Chinese victory parade",
+     "correct": false,
+     "explanation": "The postcard presents a Japanese triumphant entry."
+    },
+    {
+     "id": "c",
+     "text": "The bombing of Chungking",
+     "correct": false,
+     "explanation": "Not what this postcard depicts."
+    },
+    {
+     "id": "d",
+     "text": "A League of Nations delegation",
+     "correct": false,
+     "explanation": "Not what this postcard depicts."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R28",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: a 1941 photograph shows Japanese troops entering Saigon. Which argument does it support?",
+   "factIds": [
+    "F-CS1E-42"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japan's forces had extended their reach into French Indochina by 1941",
+     "correct": true,
+     "explanation": "Correct: part of the southward advance into South-East Asia."
+    },
+    {
+     "id": "b",
+     "text": "Japan had been expelled from Indochina by 1941",
+     "correct": false,
+     "explanation": "The photograph shows Japanese troops entering, not leaving."
+    },
+    {
+     "id": "c",
+     "text": "Saigon was the site of Japan's first conquest, in 1931",
+     "correct": false,
+     "explanation": "Manchuria, not Saigon, was Japan's first major conquest, in 1931."
+    },
+    {
+     "id": "d",
+     "text": "French forces defeated the Japanese at Saigon",
+     "correct": false,
+     "explanation": "Vichy France had agreed to let Japanese forces enter."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What does photograph 80-G-19939, described in the source record, show at Pearl Harbor?",
+   "factIds": [
+    "F-CS1E-43"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "USS Shaw wrecked in a floating dry dock, her bow blown off, with USS California damaged in the distance",
+     "correct": true,
+     "explanation": "Correct: the explosion followed Japanese dive-bombing on 7 December 1941."
+    },
+    {
+     "id": "b",
+     "text": "A Japanese aircraft carrier under attack",
+     "correct": false,
+     "explanation": "The photograph shows US ships damaged at Pearl Harbor."
+    },
+    {
+     "id": "c",
+     "text": "The signing of the Japanese surrender",
+     "correct": false,
+     "explanation": "That took place in 1945, not 1941."
+    },
+    {
+     "id": "d",
+     "text": "A peacetime naval exercise",
+     "correct": false,
+     "explanation": "The photograph shows war damage from an attack."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-R30",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Japanese planes bomb barracks at Chinchow",
+     "year": 1931,
+     "month": 10,
+     "factId": "F-CS1E-05"
+    },
+    {
+     "id": "b",
+     "text": "Hull tells Grew Japan is destroying world good will",
+     "year": 1937,
+     "month": 9,
+     "factId": "F-CS1E-18"
+    },
+    {
+     "id": "c",
+     "text": "Battles of Khalkhin Gol",
+     "year": 1939,
+     "factId": "F-CS1E-20"
+    },
+    {
+     "id": "d",
+     "text": "Japanese troops enter Saigon",
+     "year": 1941,
+     "factId": "F-CS1E-42"
+    },
+    {
+     "id": "e",
+     "text": "Germany declares war on the United States",
+     "year": 1941,
+     "month": 12,
+     "factId": "F-CS1E-39"
+    }
+   ]
   }
  ],
  "drills": [
@@ -2254,6 +2605,292 @@
      "text": "D: does not … substantially alter a situation which has existed for several years",
      "answer": "change",
      "explanation": "Hull minimises the change."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D16",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every part of this extract that gives a distinct reason stated in Hull's telegram to Grew, 2 September 1937.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "American public opinion has been profoundly stirred",
+     "answer": "not_point",
+     "explanation": "Describes the effect, not a stated reason."
+    },
+    {
+     "id": "s2",
+     "text": "by the methods being employed by the belligerents",
+     "answer": "point",
+     "explanation": "Point 1: the methods of the combatants."
+    },
+    {
+     "id": "s3",
+     "text": "particularly those employed by Japanese armed forces",
+     "answer": "point",
+     "explanation": "Point 2: Japan is singled out specifically."
+    },
+    {
+     "id": "s4",
+     "text": "This telegram was sent to Ambassador Grew in Tokyo.",
+     "answer": "not_point",
+     "explanation": "Context about the recipient, not a reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D17",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every part of this extract that gives a distinct reason for Japan's southward advance, drawn from the Neutrality Pact and Vichy agreement.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The Neutrality Pact made clear that Japan's military would move into South-East Asia",
+     "answer": "point",
+     "explanation": "Point 1: a diplomatic signal of intent."
+    },
+    {
+     "id": "s2",
+     "text": "and an agreement with Vichy France let Japanese forces move into Indochina.",
+     "answer": "point",
+     "explanation": "Point 2: a specific enabling agreement."
+    },
+    {
+     "id": "s3",
+     "text": "These developments took place in 1941.",
+     "answer": "not_point",
+     "explanation": "States the date, not a reason."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D18",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Hull's telegram to Grew on 2 September 1937? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To instruct Ambassador Grew on US policy as the war in China intensified in late summer 1937",
+     "correct": true,
+     "explanation": "Correct: audience (Grew), action (instruct), moment (September 1937)."
+    },
+    {
+     "id": "b",
+     "text": "To describe Japanese culture",
+     "correct": false,
+     "explanation": "Too vague: no audience, action or moment named."
+    },
+    {
+     "id": "c",
+     "text": "The purpose is about China",
+     "correct": false,
+     "explanation": "A topic, not a purpose."
+    },
+    {
+     "id": "d",
+     "text": "To declare war on Japan",
+     "correct": false,
+     "explanation": "The US did not declare war until December 1941."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D19",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of the photograph of Japanese troops entering Saigon, 1941? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To record, for a Japanese military audience, the army's entry into Saigon as part of the 1941 southward advance",
+     "correct": true,
+     "explanation": "Correct: audience (Japanese military record), action (record), moment (1941)."
+    },
+    {
+     "id": "b",
+     "text": "To show tourism in French Indochina",
+     "correct": false,
+     "explanation": "Not its evident purpose; it documents a military entry."
+    },
+    {
+     "id": "c",
+     "text": "The purpose is Saigon",
+     "correct": false,
+     "explanation": "A place, not a purpose."
+    },
+    {
+     "id": "d",
+     "text": "To record the Pearl Harbor attack",
+     "correct": false,
+     "explanation": "Pearl Harbor is a separate event, also in 1941 but a different location."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D20",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Hull's telegram of 2 September 1937): which sentence moves from a feature of the source to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Hull was Secretary of State instructing his own ambassador, the telegram is valuable for showing the US government's real assessment, not a public statement meant to reassure.",
+     "correct": true,
+     "explanation": "Correct: feature (internal instruction to Grew) → consequence → value."
+    },
+    {
+     "id": "b",
+     "text": "The origin is Hull in 1937.",
+     "correct": false,
+     "explanation": "A label: names the origin but gives no value."
+    },
+    {
+     "id": "c",
+     "text": "The source is useful because it is a telegram.",
+     "correct": false,
+     "explanation": "Generic: the format alone does not establish value."
+    },
+    {
+     "id": "d",
+     "text": "The content is about Japan's military.",
+     "correct": false,
+     "explanation": "A topic label, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D21",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (the 1941 photograph of USS Shaw at Pearl Harbor): which sentence moves from a feature of the source to a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the photograph shows only the aftermath, it is limited as evidence of the attack's planning or of Japanese decision-making.",
+     "correct": true,
+     "explanation": "Correct: feature (shows aftermath only) → consequence → limitation."
+    },
+    {
+     "id": "b",
+     "text": "The photograph is numbered 80-G-19939.",
+     "correct": false,
+     "explanation": "A catalogue label, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "The photograph is limited because it is black and white",
+     "correct": false,
+     "explanation": "Generic: colour is not the relevant limitation here."
+    },
+    {
+     "id": "d",
+     "text": "The photograph shows USS Shaw and USS California",
+     "correct": false,
+     "explanation": "Describes content, not a limitation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D22",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: sort each statement into a similarity or a difference between the 1931 Chinchow bombing and the 1941 Pearl Harbor attack.",
+   "categories": [
+    {
+     "id": "same",
+     "label": "Similarity"
+    },
+    {
+     "id": "diff",
+     "label": "Difference"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Both involved Japanese military action without a prior declaration of war.",
+     "answer": "same",
+     "explanation": "Neither was preceded by a formal declaration."
+    },
+    {
+     "id": "s2",
+     "text": "Chinchow targeted Chinese forces in Manchuria; Pearl Harbor targeted the US Pacific Fleet.",
+     "answer": "diff",
+     "explanation": "Different targets, a decade apart."
+    },
+    {
+     "id": "s3",
+     "text": "Both were followed by major shifts in the wider war.",
+     "answer": "same",
+     "explanation": "Chinchow extended Japan's control of Manchuria; Pearl Harbor brought the US into the Pacific War."
+    },
+    {
+     "id": "s4",
+     "text": "Chinchow came early in the expansion of 1931–1932; Pearl Harbor came after a decade of escalation.",
+     "answer": "diff",
+     "explanation": "Different stages in the same long process."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-EVENTS-D23",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: sort each statement into a similarity or a difference between Hull's September 1937 telegram and his January 1941 statement to Congress.",
+   "categories": [
+    {
+     "id": "same",
+     "label": "Similarity"
+    },
+    {
+     "id": "diff",
+     "label": "Difference"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Both criticise Japanese conduct as harmful to international order.",
+     "answer": "same",
+     "explanation": "Consistent US disapproval across the period."
+    },
+    {
+     "id": "s2",
+     "text": "1937 is a private instruction to an ambassador; 1941 is a public statement to Congress.",
+     "answer": "diff",
+     "explanation": "Different audiences and degrees of publicity."
+    },
+    {
+     "id": "s3",
+     "text": "Both come from Secretary of State Hull.",
+     "answer": "same",
+     "explanation": "Same author across both years."
+    },
+    {
+     "id": "s4",
+     "text": "1937 focuses on wartime methods in China; 1941 focuses on Japan's broader regional ambitions.",
+     "answer": "diff",
+     "explanation": "A shift from immediate conduct to long-term strategy."
     }
    ]
   }

@@ -479,7 +479,76 @@
         { "id": "a", "text": "Appeasement was combined with rearmament, partly to buy time", "correct": true, "explanation": "Correct: negotiation and rearmament ran together." },
         { "id": "b", "text": "Chamberlain trusted Hitler completely", "correct": false, "explanation": "Rearmament suggests he did not." },
         { "id": "c", "text": "Britain was disarming in 1938", "correct": false, "explanation": "The fact says the opposite." },
-        { "id": "d", "text": "Munich was a military alliance", "correct": false, "explanation": "Munich was a settlement over the Sudeten territory." } ] }
+        { "id": "d", "text": "Munich was a military alliance", "correct": false, "explanation": "Munich was a settlement over the Sudeten territory." } ] },
+    { "itemId": "P1-CS2-CAUSES-R21", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "What position had George Messersmith held before he became US Minister to Austria in 1934?", "factIds": ["F-CS2C-30"],
+      "options": [
+        { "id": "a", "text": "US Consul General in Berlin", "correct": true, "explanation": "Correct: his earlier Berlin posting informed his 1935 warnings." },
+        { "id": "b", "text": "US Ambassador to Italy", "correct": false, "explanation": "That was Breckinridge Long." },
+        { "id": "c", "text": "British Prime Minister", "correct": false, "explanation": "That was Neville Chamberlain." },
+        { "id": "d", "text": "German Foreign Minister", "correct": false, "explanation": "Messersmith was an American diplomat." } ] },
+    { "itemId": "P1-CS2-CAUSES-R22", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "On what date did Italy declare war on France and Great Britain? (day and month, 1940)", "factIds": ["F-CS2C-31"],
+      "blanks": [ { "id": "1", "answer": "10 June", "tolerance": 0, "explanation": "10 June 1940, not in September 1939 when the war began.", "accept": ["10 jun", "june 10", "10th june", "10/6"] } ] },
+    { "itemId": "P1-CS2-CAUSES-R23", "kind": "retrieval", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Fact: Italy did not declare war on France and Britain until 10 June 1940, nine months after Germany invaded Poland. Which argument does it support?", "factIds": ["F-CS2C-31"],
+      "options": [
+        { "id": "a", "text": "Mussolini's own war preparations and commitment to the Axis were less complete than Hitler's in 1939", "correct": true, "explanation": "Correct: Italy waited until France's defeat looked certain." },
+        { "id": "b", "text": "Italy joined the war before Germany invaded Poland", "correct": false, "explanation": "Italy joined far later." },
+        { "id": "c", "text": "Italy never joined the Axis war effort", "correct": false, "explanation": "It declared war in June 1940." },
+        { "id": "d", "text": "Britain declared war on Italy first", "correct": false, "explanation": "Italy made the declaration." } ] },
+    { "itemId": "P1-CS2-CAUSES-R24", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Which constituency did Winston Churchill represent in the Commons debate on Munich?", "factIds": ["F-CS2C-32"],
+      "options": [
+        { "id": "a", "text": "Epping, which he had held since 1924", "correct": true, "explanation": "Correct: he had earlier been Home Secretary and First Lord of the Admiralty." },
+        { "id": "b", "text": "Limehouse (Stepney)", "correct": false, "explanation": "That was Attlee's constituency." },
+        { "id": "c", "text": "Birmingham", "correct": false, "explanation": "Not Churchill's constituency in this debate." },
+        { "id": "d", "text": "He was not a Member of Parliament", "correct": false, "explanation": "He spoke in the Commons as MP for Epping." } ] },
+    { "itemId": "P1-CS2-CAUSES-R25", "kind": "retrieval", "type": "in_timeframe", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Case Study 2 runs from 1933 to 1940. Is the attack on Pearl Harbor (7 December 1941) inside or outside the timeframe?", "factIds": ["F-CS2C-33"], "timeframe": [1933, 1940],
+      "options": [
+        { "id": "a", "text": "Outside: it falls a year after the timeframe ends", "correct": true, "explanation": "Correct: 1941 is after 1940." },
+        { "id": "b", "text": "Inside", "correct": false, "explanation": "No: 1941 is outside 1933–1940." },
+        { "id": "c", "text": "Inside, because it is about Japan", "correct": false, "explanation": "The topic does not change the timeframe." },
+        { "id": "d", "text": "It depends on the command term", "correct": false, "explanation": "The command term does not change the timeframe." } ] },
+    { "itemId": "P1-CS2-CAUSES-R26", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "According to Hugh Wilson's reports of November 1935 and January 1936, how did European states feel about Germany compared with Italy?", "factIds": ["F-CS2C-33"],
+      "options": [
+        { "id": "a", "text": "They had no real fear of Italy but were profoundly afraid of Germany", "correct": true, "explanation": "Correct: German rearmament worried them more than Italy's course in Ethiopia." },
+        { "id": "b", "text": "They feared Italy far more than Germany", "correct": false, "explanation": "The opposite was reported." },
+        { "id": "c", "text": "They feared neither power", "correct": false, "explanation": "Wilson reported real fear of Germany." },
+        { "id": "d", "text": "They feared only France", "correct": false, "explanation": "Wilson's reports concern Germany and Italy." } ] },
+    { "itemId": "P1-CS2-CAUSES-R27", "kind": "retrieval", "type": "spot_error", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Find the error: “Italy joined the Second World War on the same day Germany invaded Poland, in September 1939.”", "factIds": ["F-CS2C-31"],
+      "options": [
+        { "id": "a", "text": "Italy did not declare war until 10 June 1940, against France and Great Britain", "correct": true, "explanation": "Correct: Italy waited nine months." },
+        { "id": "b", "text": "Germany invaded Poland in September 1939", "correct": false, "explanation": "That is not the error." },
+        { "id": "c", "text": "The Second World War began in 1939", "correct": false, "explanation": "That is not the error." },
+        { "id": "d", "text": "There is no error", "correct": false, "explanation": "There is: Italy's declaration came later, in June 1940." } ] },
+    { "itemId": "P1-CS2-CAUSES-R28", "kind": "retrieval", "type": "cloze", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "What rank did George Messersmith hold before Minister: US ___ General in Berlin?", "factIds": ["F-CS2C-30"],
+      "blanks": [ { "id": "1", "answer": "Consul", "tolerance": 0, "explanation": "US Consul General in Berlin, before his 1934 appointment to Austria." } ] },
+    { "itemId": "P1-CS2-CAUSES-R29", "kind": "retrieval", "type": "multi_select", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Which of these were among the rumoured signs of Italian war preparations reported by Ambassador Long in his despatch of 28 September 1934? Choose all that apply.", "factIds": ["F-CS2C-23"],
+      "options": [
+        { "id": "a", "text": "Cooperation between the Ministries of War, Air, Marine, Finance and Colonies", "correct": true, "explanation": "Yes: reported as coordinated preparation." },
+        { "id": "b", "text": "An agreed expenditure of two billion lire", "correct": true, "explanation": "Yes: a specific figure reported." },
+        { "id": "c", "text": "Military reinforcements variously put at 100,000 to 250,000 men", "correct": true, "explanation": "Yes: estimates varied widely." },
+        { "id": "d", "text": "A formal declaration of war on Ethiopia", "correct": false, "explanation": "Long reports rumours and preparations, not yet a declaration." } ] },
+    { "itemId": "P1-CS2-CAUSES-R30", "kind": "retrieval", "type": "which_argument", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Fact: Attlee said in October 1938 that Britain had “nothing but an armistice in a state of war” after Munich. Which argument does it support?", "factIds": ["F-CS2C-26"],
+      "options": [
+        { "id": "a", "text": "Critics saw Munich as only a postponement of conflict, not a lasting peace", "correct": true, "explanation": "Correct: Attlee doubted the settlement would hold." },
+        { "id": "b", "text": "Attlee welcomed Munich as a final peace", "correct": false, "explanation": "He called it only an armistice." },
+        { "id": "c", "text": "Attlee supported German rearmament", "correct": false, "explanation": "He criticised the diplomatic defeat Munich represented." },
+        { "id": "d", "text": "Attlee believed war had been avoided permanently", "correct": false, "explanation": "He believed the opposite." } ] },
+    { "itemId": "P1-CS2-CAUSES-R31", "kind": "retrieval", "type": "chronology", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Put these steps towards the collapse of collective security in order.", "sequence": [
+        { "id": "a", "text": "Long reports rumours of Italian war preparations", "year": 1935, "month": 2, "factId": "F-CS2C-20" },
+        { "id": "b", "text": "Hossbach conference: Hitler sets out his aims to military chiefs", "year": 1937, "month": 11, "factId": "F-CS2C-10" },
+        { "id": "c", "text": "Italy invades Albania", "year": 1939, "month": 4, "factId": "F-CS2C-16" },
+        { "id": "d", "text": "Italy declares war on France and Great Britain", "year": 1940, "month": 6, "factId": "F-CS2C-31" } ] },
+    { "itemId": "P1-CS2-CAUSES-R32", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "What did Churchill call Munich in the Commons on 5 October 1938?", "factIds": ["F-CS2C-27"],
+      "options": [
+        { "id": "a", "text": "A total and unmitigated defeat, caused partly by gross neglect and deficiency in Britain's defences", "correct": true, "explanation": "Correct: he warned it was “only the beginning of the reckoning”." },
+        { "id": "b", "text": "A triumph for British diplomacy", "correct": false, "explanation": "Churchill condemned it." },
+        { "id": "c", "text": "A minor and unimportant agreement", "correct": false, "explanation": "He called it a total defeat." },
+        { "id": "d", "text": "A declaration of war on Germany", "correct": false, "explanation": "Munich was a settlement, not a declaration of war." } ] },
+    { "itemId": "P1-CS2-CAUSES-R33", "kind": "retrieval", "type": "mcq", "label": "Teacher-constructed practice material. Not an IB publication.", "prompt": "Who reported to Secretary Hull on the fear German rearmament caused in Europe, in late 1935 and January 1936?", "factIds": ["F-CS2C-33"],
+      "options": [
+        { "id": "a", "text": "Hugh Wilson, the US Minister to Switzerland", "correct": true, "explanation": "Correct: his reports said German rearmament was feared more than Italy's actions." },
+        { "id": "b", "text": "Neville Chamberlain", "correct": false, "explanation": "Chamberlain was the British Prime Minister." },
+        { "id": "c", "text": "George Messersmith", "correct": false, "explanation": "Messersmith reported on Austria and Germany separately." },
+        { "id": "d", "text": "Breckinridge Long", "correct": false, "explanation": "Long was the US Ambassador in Rome." } ] }
   ],
   "drills": [
     { "itemId": "P1-CS2-CAUSES-D01", "kind": "drill", "type": "p1_point_harvest", "skill": "S3", "label": "Teacher-constructed practice material. Not an IB publication.",
@@ -600,6 +669,70 @@
         { "id": "s2", "text": "C: autarchy was untenable in regard both to food and to the economy as a whole", "answer": "selfsuff", "explanation": "C says it cannot work: a contrast on the same issue." },
         { "id": "s3", "text": "A: a self-sustaining territorial block whose dependent nations in Central and Eastern Europe will look to Berlin", "answer": "remedy", "explanation": "A: a German-led bloc." },
         { "id": "s4", "text": "C: the only remedy lay in the acquisition of greater living space", "answer": "remedy", "explanation": "C: conquest of space, a harsher version of A's bloc." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D16", "kind": "drill", "type": "p1_point_harvest", "skill": "S3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q1 practice: tap every distinct rumour of Italian war preparation in Long's despatch of 28 September 1934.",
+      "segments": [
+        { "id": "s1", "text": "the Ministries of War, Air, Marine, Finance and Colonies were cooperating", "answer": "point", "explanation": "Point: coordinated inter-ministerial action." },
+        { "id": "s2", "text": "an expenditure of two billion lire had been agreed", "answer": "point", "explanation": "Point: a specific figure." },
+        { "id": "s3", "text": "military reinforcements of 100,000, 200,000 or 250,000 men had been allocated", "answer": "point", "explanation": "Point: estimates of troop numbers, though they varied." },
+        { "id": "s4", "text": "large and varying quantities of supplies and equipment were being sent", "answer": "point", "explanation": "Point: material preparations." },
+        { "id": "s5", "text": "rumours had been current in Italy for some time", "answer": "not_point", "explanation": "A comment on how long the rumours had circulated, not a preparation itself." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D17", "kind": "drill", "type": "p1_point_harvest", "skill": "S3", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q1 practice: tap every distinct point in Hugh Wilson's reports to Hull (November 1935 and January 1936).",
+      "segments": [
+        { "id": "s1", "text": "European states had no real fear of Italy", "answer": "point", "explanation": "Point: their attitude to Italy." },
+        { "id": "s2", "text": "they were profoundly afraid of Germany", "answer": "point", "explanation": "Point: the contrast with their fear of Germany." },
+        { "id": "s3", "text": "there was indisputable evidence of the magnitude and intensity of German military preparations", "answer": "point", "explanation": "Point: the scale of German rearmament." },
+        { "id": "s4", "text": "German rearmament on this scale and tempo could only be designed for aggression", "answer": "point", "explanation": "Point: the conclusion Wilson draws." },
+        { "id": "s5", "text": "Wilson was the US Minister to Switzerland", "answer": "not_point", "explanation": "A detail about the reporter's post, not a point about the danger he describes." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D18", "kind": "drill", "type": "p1_purpose", "skill": "S5", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Purpose practice: what was the purpose of Long's despatch of 28 September 1934?",
+      "options": [
+        { "id": "a", "text": "To alert Washington to persistent rumours of Italian war preparation well before any invasion, so the Department had early warning", "correct": true, "explanation": "Correct: audience (the Secretary of State), action (alert), moment (a year before the invasion of Ethiopia)." },
+        { "id": "b", "text": "To request Italian military aid", "correct": false, "explanation": "An ambassador's despatch to his own government would not request this." },
+        { "id": "c", "text": "To describe Rome's climate", "correct": false, "explanation": "Not the subject of the despatch." },
+        { "id": "d", "text": "To announce war had begun", "correct": false, "explanation": "The despatch reports rumours, not a declaration of war." } ] },
+    { "itemId": "P1-CS2-CAUSES-D19", "kind": "drill", "type": "p1_purpose", "skill": "S5", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Purpose practice: what was the purpose of Wilson's letter to Hull of January 1936?",
+      "options": [
+        { "id": "a", "text": "To warn the Secretary of State that German rearmament, not Italy's war in Ethiopia, was the deeper danger to Europe", "correct": true, "explanation": "Correct: audience (Hull), action (warn), moment (as the Ethiopian crisis dominated headlines)." },
+        { "id": "b", "text": "To praise German rearmament", "correct": false, "explanation": "Wilson calls it designed for aggression." },
+        { "id": "c", "text": "To request a transfer from Switzerland", "correct": false, "explanation": "Not the subject of the letter." },
+        { "id": "d", "text": "To give information", "correct": false, "explanation": "Too vague: no audience, action, or moment." } ] },
+    { "itemId": "P1-CS2-CAUSES-D20", "kind": "drill", "type": "p1_value_limitation", "skill": "S7", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q2 practice (Long's despatch, 28 September 1934): which sentence explains a specific limitation?",
+      "options": [
+        { "id": "a", "text": "Because the despatch explicitly reports “rumors” rather than confirmed facts, the precise figures it gives (two billion lire, 100,000 to 250,000 men) cannot be taken as established", "correct": true, "explanation": "Correct: feature (unconfirmed rumour) → limitation (figures are uncertain)." },
+        { "id": "b", "text": "It is dated 28 September 1934.", "correct": false, "explanation": "A date, not a limitation." },
+        { "id": "c", "text": "It is limited because it is a despatch.", "correct": false, "explanation": "Too generic: it does not explain why." },
+        { "id": "d", "text": "It mentions Italy.", "correct": false, "explanation": "A topic label, not an evaluation." } ] },
+    { "itemId": "P1-CS2-CAUSES-D21", "kind": "drill", "type": "p1_value_limitation", "skill": "S7", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q2 practice (Wilson's reports, November 1935 and January 1936): which sentence moves from a feature to a specific value?",
+      "options": [
+        { "id": "a", "text": "Because Wilson's post as Minister to Switzerland put him at the centre of diplomatic traffic from across Europe, his report captures a broad continental mood of fear towards Germany, not just one government's view", "correct": true, "explanation": "Correct: feature (Geneva posting, diplomatic hub) → value (a continent-wide impression, not a single source)." },
+        { "id": "b", "text": "It is from 1935 and 1936.", "correct": false, "explanation": "A date, not an evaluation." },
+        { "id": "c", "text": "It is useful because it is official.", "correct": false, "explanation": "Generic: it does not say why." },
+        { "id": "d", "text": "It mentions German rearmament.", "correct": false, "explanation": "A topic label, not an evaluation." } ] },
+    { "itemId": "P1-CS2-CAUSES-D22", "kind": "drill", "type": "p1_pair_statements", "skill": "S8", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Attlee (3 October 1938) and Churchill (5 October 1938) on Munich.",
+      "categories": [ { "id": "defeat", "label": "Issue 1: Munich as a defeat" }, { "id": "future", "label": "Issue 2: what comes next" } ],
+      "segments": [
+        { "id": "s1", "text": "Attlee: one of the greatest diplomatic defeats that this country and France have ever sustained", "answer": "defeat", "explanation": "Attlee: judges Munich a defeat." },
+        { "id": "s2", "text": "Churchill: we have sustained a total and unmitigated defeat, and France has suffered even more than we have", "answer": "defeat", "explanation": "Churchill: an even starker verdict of defeat." },
+        { "id": "s3", "text": "Attlee: we cannot feel that peace has been established, but that we have nothing but an armistice in a state of war", "answer": "future", "explanation": "Attlee: warns the danger is not over." },
+        { "id": "s4", "text": "Churchill: do not suppose that this is the end. This is only the beginning of the reckoning", "answer": "future", "explanation": "Churchill: the same warning, in sharper language." }
+      ] },
+    { "itemId": "P1-CS2-CAUSES-D23", "kind": "drill", "type": "p1_pair_statements", "skill": "S8", "label": "Teacher-constructed practice material. Not an IB publication.",
+      "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Long's telegram of 14 February 1935 and his despatch of 28 September 1934.",
+      "categories": [ { "id": "confirmed", "label": "Issue 1: reported as reasonably reliable" }, { "id": "rumour", "label": "Issue 2: reported as unconfirmed rumour" } ],
+      "segments": [
+        { "id": "s1", "text": "Feb 1935: I have been informed today from sources deemed to be reliable that 30,000 troops have left the port of Naples", "answer": "confirmed", "explanation": "Feb 1935: Long names his sources as reliable." },
+        { "id": "s2", "text": "Feb 1935: the movement now under way contemplates the use in Ethiopia of some 200,000 or 300,000 troops", "answer": "confirmed", "explanation": "Feb 1935: a specific, sourced estimate." },
+        { "id": "s3", "text": "Sept 1934: there have been current in Italy — in all parts of Italy — for some time rumors to the effect that Italy contemplated warlike activity", "answer": "rumour", "explanation": "Sept 1934: explicitly framed as rumour." },
+        { "id": "s4", "text": "Sept 1934: military reinforcements specifically and variously stated to amount to 100,000 men, 200,000 men, and 250,000 men", "answer": "rumour", "explanation": "Sept 1934: wildly varying figures, a sign of rumour rather than confirmed fact." }
       ] }
   ],
   "sourceSets": [

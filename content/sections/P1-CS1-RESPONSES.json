@@ -1738,6 +1738,439 @@
      "factId": "F-CS1R-40"
     }
    ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What triggered Japan's invasion of Manchuria in September 1931?",
+   "factIds": [
+    "F-CS1R-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "An explosion near Mukden on 18 September 1931",
+     "correct": true,
+     "explanation": "Correct: Japanese troops used it as a pretext to occupy Manchuria."
+    },
+    {
+     "id": "b",
+     "text": "The Xi'an incident",
+     "correct": false,
+     "explanation": "That came in December 1936."
+    },
+    {
+     "id": "c",
+     "text": "The sinking of the Panay",
+     "correct": false,
+     "explanation": "That was December 1937."
+    },
+    {
+     "id": "d",
+     "text": "A League of Nations resolution",
+     "correct": false,
+     "explanation": "The League responded afterwards; it did not trigger the invasion."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date in September 1931 did the explosion near Mukden occur? (day)",
+   "factIds": [
+    "F-CS1R-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "18",
+     "tolerance": 0,
+     "explanation": "18 September 1931."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R23",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: the Lytton report divided blame between Chinese nationalism and Japanese militarism, though it refused to recognise Manchukuo. Which argument does it support?",
+   "factIds": [
+    "F-CS1R-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The League's judgement was balanced rather than one-sided",
+     "correct": true,
+     "explanation": "Correct: the report criticised both sides while still rejecting Manchukuo."
+    },
+    {
+     "id": "b",
+     "text": "The League blamed only Japan",
+     "correct": false,
+     "explanation": "It also criticised Chinese nationalism."
+    },
+    {
+     "id": "c",
+     "text": "The League recognised Manchukuo",
+     "correct": false,
+     "explanation": "It refused to."
+    },
+    {
+     "id": "d",
+     "text": "The League sided entirely with Japan",
+     "correct": false,
+     "explanation": "It rejected Japan's claim of self-defence."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did reports in June 1937 say about the Red troops?",
+   "factIds": [
+    "F-CS1R-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They were being reorganised into the national forces",
+     "correct": true,
+     "explanation": "Correct: a sign negotiations with the National Government were progressing before full-scale war began."
+    },
+    {
+     "id": "b",
+     "text": "They had been disbanded",
+     "correct": false,
+     "explanation": "They were reorganised, not disbanded."
+    },
+    {
+     "id": "c",
+     "text": "They had defeated the Kuomintang",
+     "correct": false,
+     "explanation": "No such event occurred."
+    },
+    {
+     "id": "d",
+     "text": "They had allied with Japan",
+     "correct": false,
+     "explanation": "The opposite: they were joining the national resistance to Japan."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R25",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Hull's statement of principles on 16 July 1937 threatened Japan with an arms embargo.”",
+   "factIds": [
+    "F-CS1R-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It called for peace, self-restraint, non-use of force and observance of agreements, with no threat of an embargo",
+     "correct": true,
+     "explanation": "Correct: it was a statement of principles, not a sanction."
+    },
+    {
+     "id": "b",
+     "text": "The statement was made in 1937",
+     "correct": false,
+     "explanation": "That is not the error: it was."
+    },
+    {
+     "id": "c",
+     "text": "Hull was US Secretary of State",
+     "correct": false,
+     "explanation": "That is not the error: he was."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: no embargo was threatened."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which principles did Hull's statement of 16 July 1937 set out? Choose all that apply.",
+   "factIds": [
+    "F-CS1R-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Peace",
+     "correct": true,
+     "explanation": "Yes: one of the four principles."
+    },
+    {
+     "id": "b",
+     "text": "Self-restraint",
+     "correct": true,
+     "explanation": "Yes: another of the four."
+    },
+    {
+     "id": "c",
+     "text": "Observance of agreements",
+     "correct": true,
+     "explanation": "Yes: a third."
+    },
+    {
+     "id": "d",
+     "text": "A military alliance with China",
+     "correct": false,
+     "explanation": "No alliance was proposed."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R27",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people were killed when the Panay was bombed? (number)",
+   "factIds": [
+    "F-CS1R-26"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "3",
+     "tolerance": 0,
+     "explanation": "Three, as reported in the US press summary.",
+     "accept": [
+      "three"
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R28",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: the American people's endorsement of the Panay settlement was overwhelming, attesting to their desire to stay out of war. Which argument does it support?",
+   "factIds": [
+    "F-CS1R-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "US public opinion favoured a cautious, peaceful response even to an attack on its own ship",
+     "correct": true,
+     "explanation": "Correct: the public backed accepting an apology rather than confrontation."
+    },
+    {
+     "id": "b",
+     "text": "The American public wanted war with Japan",
+     "correct": false,
+     "explanation": "The opposite: they wanted to stay out of war."
+    },
+    {
+     "id": "c",
+     "text": "Congress declared war after the Panay incident",
+     "correct": false,
+     "explanation": "No declaration of war followed."
+    },
+    {
+     "id": "d",
+     "text": "The settlement was unpopular",
+     "correct": false,
+     "explanation": "It was overwhelmingly endorsed."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did most US officials believe before 1937 about American interests in China?",
+   "factIds": [
+    "F-CS1R-33"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That the US had no vital interests in China worth a war with Japan",
+     "correct": true,
+     "explanation": "Correct: this changed only gradually, through credits and later Lend-Lease."
+    },
+    {
+     "id": "b",
+     "text": "That the US should go to war immediately",
+     "correct": false,
+     "explanation": "The opposite was true before 1937."
+    },
+    {
+     "id": "c",
+     "text": "That China should be annexed",
+     "correct": false,
+     "explanation": "Not a view held by US officials."
+    },
+    {
+     "id": "d",
+     "text": "That Japan posed no threat at all",
+     "correct": false,
+     "explanation": "Too strong; the concern was about vital interests specifically."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R30",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Case Study 1 runs from 1931 to 1941. Is the explosion near Mukden on 18 September 1931 inside or outside the timeframe?",
+   "factIds": [
+    "F-CS1R-01"
+   ],
+   "timeframe": [
+    1931,
+    1941
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside: it is the opening event of the case study",
+     "correct": true,
+     "explanation": "Correct: 1931 is the first year of the timeframe."
+    },
+    {
+     "id": "b",
+     "text": "Outside",
+     "correct": false,
+     "explanation": "No: it falls exactly at the start of the timeframe."
+    },
+    {
+     "id": "c",
+     "text": "Outside, because it happened before the League responded",
+     "correct": false,
+     "explanation": "The League's response does not define the timeframe's start."
+    },
+    {
+     "id": "d",
+     "text": "Inside only as background",
+     "correct": false,
+     "explanation": "It is the opening event, not background."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R31",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each response to the power that made it.",
+   "pairs": [
+    {
+     "left": "Non-recognition of Manchukuo",
+     "right": "The League of Nations and the United States",
+     "explanation": "Both adopted the principle, separately."
+    },
+    {
+     "left": "The Second United Front",
+     "right": "China (Nationalists and Communists)",
+     "explanation": "Formed after the Xi'an incident."
+    },
+    {
+     "left": "The freeze of assets",
+     "right": "The United States",
+     "explanation": "Roosevelt's order of 26 July 1941."
+    },
+    {
+     "left": "The scrap iron and steel embargo",
+     "right": "The United States",
+     "explanation": "Took effect 16 October 1940."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R32",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these early steps of the crisis in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Explosion near Mukden; Japan invades Manchuria",
+     "year": 1931,
+     "month": 9,
+     "factId": "F-CS1R-01"
+    },
+    {
+     "id": "b",
+     "text": "Stimson's non-recognition note",
+     "year": 1932,
+     "month": 1,
+     "factId": "F-CS1R-04"
+    },
+    {
+     "id": "c",
+     "text": "Lytton Commission visits Tokyo",
+     "year": 1932,
+     "month": 2,
+     "factId": "F-CS1R-06"
+    },
+    {
+     "id": "d",
+     "text": "Lytton findings announced",
+     "year": 1932,
+     "month": 10,
+     "factId": "F-CS1R-07"
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why does the June 1937 report of Red troops reorganising matter for the Second United Front?",
+   "factIds": [
+    "F-CS1R-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It shows negotiations toward a united front were already progressing before full-scale war began in July 1937",
+     "correct": true,
+     "explanation": "Correct: the formal manifesto followed in September, after fighting had started."
+    },
+    {
+     "id": "b",
+     "text": "It shows the front was formed only in 1941",
+     "correct": false,
+     "explanation": "The front formed in 1937."
+    },
+    {
+     "id": "c",
+     "text": "It shows China surrendered to Japan",
+     "correct": false,
+     "explanation": "The opposite: resistance was being organised."
+    },
+    {
+     "id": "d",
+     "text": "It shows the League of Nations negotiated the front",
+     "correct": false,
+     "explanation": "The League played no part in Chinese internal politics."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2302,6 +2735,310 @@
      "text": "D: these countries have strengthened their military preparations perfecting an encirclement of Japan",
      "answer": "blame",
      "explanation": "D: the West is the threat."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D16",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct point about the Xi'an incident (Johnson's despatch, 12 January 1937).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Chang Hsueh-liang and Yang Hu-cheng revolted against Nanking and forcibly detained Chiang Kai-shek",
+     "answer": "point",
+     "explanation": "Point: the detention itself."
+    },
+    {
+     "id": "s2",
+     "text": "the rebels demanded a reorganization of the Government to include all factions",
+     "answer": "point",
+     "explanation": "Point: their political demand."
+    },
+    {
+     "id": "s3",
+     "text": "Shensi and Kansu responded to the plea, but the rest of the country condemned the revolt",
+     "answer": "point",
+     "explanation": "Point: the country was divided in its reaction."
+    },
+    {
+     "id": "s4",
+     "text": "the Generalissimo's release on Christmas day was greeted with enthusiasm",
+     "answer": "point",
+     "explanation": "Point: the resolution and public reaction."
+    },
+    {
+     "id": "s5",
+     "text": "the despatch was sent from Peiping",
+     "answer": "not_point",
+     "explanation": "A detail about where the despatch was written, not about the incident itself."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D17",
+   "kind": "drill",
+   "type": "p1_point_harvest",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q1 practice: tap every distinct reason Roosevelt gave Nomura for allowing oil exports to continue (Welles's memorandum, 24 July 1941).",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "oil had been exported to Japan for more than two years",
+     "answer": "point",
+     "explanation": "Point: the length of the policy."
+    },
+    {
+     "id": "s2",
+     "text": "cutting off oil would give Japan an incentive or pretext to move on the Netherlands East Indies",
+     "answer": "point",
+     "explanation": "Point: the feared consequence."
+    },
+    {
+     "id": "s3",
+     "text": "if Japan seized oil by force there, the Dutch would resist and the British would assist them",
+     "answer": "point",
+     "explanation": "Point: the chain of escalation."
+    },
+    {
+     "id": "s4",
+     "text": "given US policy of assisting Great Britain, a serious situation would immediately result",
+     "answer": "point",
+     "explanation": "Point: the risk to the US itself."
+    },
+    {
+     "id": "s5",
+     "text": "the President had spoken that morning to a home defense group under Mayor LaGuardia",
+     "answer": "not_point",
+     "explanation": "Background on the President's schedule, not a reason for the oil policy."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D18",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Hull's memorandum to the Senate Committee on Foreign Relations (17 May 1933)? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To persuade senators considering an arms-embargo resolution that an embargo against Japan alone would not help China, as the resolution was being debated",
+     "correct": true,
+     "explanation": "Correct: audience (the Senate committee), action (persuade against an embargo), moment (during the resolution's debate)."
+    },
+    {
+     "id": "b",
+     "text": "To declare war on Japan",
+     "correct": false,
+     "explanation": "The memorandum argues against an embargo, not for war."
+    },
+    {
+     "id": "c",
+     "text": "To inform the League of Nations",
+     "correct": false,
+     "explanation": "The audience was the US Senate, not the League."
+    },
+    {
+     "id": "d",
+     "text": "To give information",
+     "correct": false,
+     "explanation": "Too vague: no audience, action, or moment."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D19",
+   "kind": "drill",
+   "type": "p1_purpose",
+   "skill": "S5",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Purpose practice: what was the purpose of Japan's memorandum handed to Hull on 7 December 1941? Choose AUDIENCE + ACTION + MOMENT.",
+   "options": [
+    {
+     "id": "a",
+     "text": "To justify Japan's position to the US Government by blaming American and British economic pressure, delivered just after the attack on Pearl Harbor had begun",
+     "correct": true,
+     "explanation": "Correct: audience (the US Government), action (shift blame), moment (as war opened)."
+    },
+    {
+     "id": "b",
+     "text": "To apologise for Pearl Harbor",
+     "correct": false,
+     "explanation": "The memorandum blames the US and Britain, not apologise."
+    },
+    {
+     "id": "c",
+     "text": "To request a ceasefire",
+     "correct": false,
+     "explanation": "It makes no such request."
+    },
+    {
+     "id": "d",
+     "text": "To announce a new ambassador",
+     "correct": false,
+     "explanation": "It is a statement of grievances, not a diplomatic appointment."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D20",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Hull's memorandum of a conversation with Horinouchi, 8 October 1940): which sentence moves from a feature to a specific value?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because it is Hull's own record of what he said to the Japanese Ambassador, it reveals the US Government's blunt private assessment that Japan was “bent on the conquest by force” of the Pacific",
+     "correct": true,
+     "explanation": "Correct: feature (Hull's own record of a private exchange) → value (candid US assessment of Japan's aims)."
+    },
+    {
+     "id": "b",
+     "text": "It is dated 8 October 1940.",
+     "correct": false,
+     "explanation": "A date, not an evaluation."
+    },
+    {
+     "id": "c",
+     "text": "It is useful because it is about Japan.",
+     "correct": false,
+     "explanation": "Too generic: it does not say why it is useful."
+    },
+    {
+     "id": "d",
+     "text": "It mentions an embargo.",
+     "correct": false,
+     "explanation": "A topic label, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D21",
+   "kind": "drill",
+   "type": "p1_value_limitation",
+   "skill": "S7",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q2 practice (Welles's memorandum of the Roosevelt-Nomura meeting, 24 July 1941): which sentence explains a specific limitation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because it is Welles's own summary rather than a verbatim transcript, it may smooth over exactly how Roosevelt phrased his warning to Nomura",
+     "correct": true,
+     "explanation": "Correct: feature (a paraphrased memorandum, not a transcript) → limitation (wording may not be exact)."
+    },
+    {
+     "id": "b",
+     "text": "It is from 1941.",
+     "correct": false,
+     "explanation": "A date, not a limitation."
+    },
+    {
+     "id": "c",
+     "text": "It is limited because it is official.",
+     "correct": false,
+     "explanation": "Generic: it does not say why being official limits it."
+    },
+    {
+     "id": "d",
+     "text": "It mentions the Netherlands East Indies.",
+     "correct": false,
+     "explanation": "A topic label, not an evaluation."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D22",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Stimson's letter (25 February 1933) and Hull's memorandum (17 May 1933).",
+   "categories": [
+    {
+     "id": "agree",
+     "label": "Issue 1: agreement with the League's findings"
+    },
+    {
+     "id": "noaction",
+     "label": "Issue 2: refusal to back findings with force"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "C: the findings of fact arrived at by the League … are in substantial accord",
+     "answer": "agree",
+     "explanation": "C: the US agrees with the League's conclusions."
+    },
+    {
+     "id": "s2",
+     "text": "C: in their affirmations … of the principle of non-recognition … the League and the United States are on common ground",
+     "answer": "agree",
+     "explanation": "C: shared principle, stated directly."
+    },
+    {
+     "id": "s3",
+     "text": "D: an embargo on arms and munitions of war would not be an effective means of restoring peace in this case",
+     "answer": "noaction",
+     "explanation": "D: agreement with the judgement does not extend to action."
+    },
+    {
+     "id": "s4",
+     "text": "D: we would not under any circumstances agree to participate in an international embargo of this kind unless we had secured substantial guarantees",
+     "answer": "noaction",
+     "explanation": "D: a firm refusal to act without guarantees."
+    }
+   ]
+  },
+  {
+   "itemId": "P1-CS1-RESPONSES-D23",
+   "kind": "drill",
+   "type": "p1_pair_statements",
+   "skill": "S8",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Q3 practice: assign each statement to the issue it addresses, comparing Johnson's despatch on Xi'an (12 January 1937) and the Communist manifesto report (24 September 1937).",
+   "categories": [
+    {
+     "id": "crisis",
+     "label": "Issue 1: the Xi'an crisis itself"
+    },
+    {
+     "id": "concession",
+     "label": "Issue 2: the Communists' later concessions"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "A: Chang Hsueh-liang and Yang Hu-cheng … forcibly detained Chiang Kai-shek and other important Central Government officials",
+     "answer": "crisis",
+     "explanation": "A: the detention that began the crisis."
+    },
+    {
+     "id": "s2",
+     "text": "A: the rest of the country loudly proclaimed its adherence to the Generalissimo",
+     "answer": "crisis",
+     "explanation": "A: the national reaction to the crisis."
+    },
+    {
+     "id": "s3",
+     "text": "C: it has cancelled all movements for overthrowing political power of Kuomintang including forcible confiscation of land",
+     "answer": "concession",
+     "explanation": "C: a concrete policy concession made months later."
+    },
+    {
+     "id": "s4",
+     "text": "C: the Red Army is reorganized into National Revolutional Army under command of Military Council of the National Government",
+     "answer": "concession",
+     "explanation": "C: military subordination, another concession."
     }
    ]
   }
