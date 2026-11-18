@@ -1643,6 +1643,562 @@
      "explanation": "Not the recognition Judt describes."
     }
    ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who were Arkan's 'Tigers'?",
+   "factIds": [
+    "F-BALKAN-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Irregulars armed from Belgrade who did much of the killing in Bosnia",
+     "correct": true,
+     "explanation": "Correct: alongside Mladić's regular forces."
+    },
+    {
+     "id": "b",
+     "text": "The Dutch UN peacekeepers at Srebrenica",
+     "correct": false,
+     "explanation": "They were the UN force, not irregulars."
+    },
+    {
+     "id": "c",
+     "text": "A Kosovo Albanian guerrilla group",
+     "correct": false,
+     "explanation": "That was the KLA."
+    },
+    {
+     "id": "d",
+     "text": "NATO's rapid reaction force",
+     "correct": false,
+     "explanation": "Not what they were."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did Milošević become President of Serbia? (year)",
+   "factIds": [
+    "F-BALKAN-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1989,
+     "tolerance": 0,
+     "explanation": "May 1989, after rising through the League of Communists of Serbia."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R23",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In November 1993 Croat extremists expelled Muslims from western Mostar and destroyed its sixteenth-century Ottoman bridge.”",
+   "factIds": [
+    "F-BALKAN-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ethnic cleansing was not committed by Serb forces alone",
+     "correct": true,
+     "explanation": "Correct: Judt says no-one emerged with honour."
+    },
+    {
+     "id": "b",
+     "text": "Only Serb forces practised ethnic cleansing",
+     "correct": false,
+     "explanation": "Croat forces did too."
+    },
+    {
+     "id": "c",
+     "text": "Mostar was in Kosovo",
+     "correct": false,
+     "explanation": "Mostar is in Bosnia."
+    },
+    {
+     "id": "d",
+     "text": "The bridge survived the war undamaged",
+     "correct": false,
+     "explanation": "It was destroyed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the March 1994 Washington-brokered agreement create?",
+   "factIds": [
+    "F-BALKAN-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A Muslim–Croat Federation, ending their fighting within Bosnia",
+     "correct": true,
+     "explanation": "Correct: a plan then gave it 51 per cent of Bosnia and the Serbs 49."
+    },
+    {
+     "id": "b",
+     "text": "The Dayton Agreement",
+     "correct": false,
+     "explanation": "That came in 1995."
+    },
+    {
+     "id": "c",
+     "text": "Republika Srpska",
+     "correct": false,
+     "explanation": "Declared by Bosnian Serbs in April 1992."
+    },
+    {
+     "id": "d",
+     "text": "KFOR",
+     "correct": false,
+     "explanation": "That was the NATO-led force in Kosovo, 1999."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened in 1998? Choose all that apply.",
+   "factIds": [
+    "F-BALKAN-20",
+    "F-BALKAN-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Serb forces killed dozens of Albanians at Drenica",
+     "correct": true,
+     "explanation": "Yes: March 1998."
+    },
+    {
+     "id": "b",
+     "text": "The Hague Tribunal claimed jurisdiction over Kosovo",
+     "correct": true,
+     "explanation": "Yes: June 1998."
+    },
+    {
+     "id": "c",
+     "text": "The Contact Group ruled out Kosovo's independence",
+     "correct": true,
+     "explanation": "Yes: July 1998."
+    },
+    {
+     "id": "d",
+     "text": "NATO began bombing Yugoslavia",
+     "correct": false,
+     "explanation": "That was March 1999."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R26",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The March 1994 Federation agreement gave Bosnia's Serbs 51 per cent of the country's territory.”",
+   "factIds": [
+    "F-BALKAN-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The 51 per cent went to the Muslim–Croat Federation, not the Serbs",
+     "correct": true,
+     "explanation": "Correct: the Serbs were allotted 49 per cent."
+    },
+    {
+     "id": "b",
+     "text": "The agreement was signed in 1995",
+     "correct": false,
+     "explanation": "It was March 1994."
+    },
+    {
+     "id": "c",
+     "text": "Washington had no role in the agreement",
+     "correct": false,
+     "explanation": "Washington brokered it."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the percentages are reversed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Balkan conflicts between 1990 and 1999. Is Milošević's fall from power in October 2000 inside or outside the timeframe?",
+   "factIds": [
+    "F-BALKAN-23"
+   ],
+   "timeframe": [
+    1990,
+    1999
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: mention it only briefly as a later consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1999."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 2000 is after 1999."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it resulted from the wars",
+     "correct": false,
+     "explanation": "Relevant later, not within this timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R29",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each event to its year.",
+   "pairs": [
+    {
+     "left": "The Serbian Academy's nationalist Memorandum",
+     "right": "1986",
+     "explanation": "Milošević welcomed it."
+    },
+    {
+     "left": "Destruction of the Mostar bridge",
+     "right": "1993",
+     "explanation": "By Croat extremists in November."
+    },
+    {
+     "left": "The Dayton Agreement signed in Paris",
+     "right": "1995",
+     "explanation": "14 December."
+    },
+    {
+     "left": "The Racak massacre",
+     "right": "1999",
+     "explanation": "15 January, 45 Albanians killed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how many Serbs lived in Kosovo in 1991, according to Judt? (number)",
+   "factIds": [
+    "F-BALKAN-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 194000,
+     "tolerance": 2000,
+     "explanation": "About 194,000, though they had the better jobs."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why does Judt call Yugoslavia different from other Communist states that broke up?",
+   "factIds": [
+    "F-BALKAN-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was the last genuinely multi-national state in Europe",
+     "correct": true,
+     "explanation": "Correct: which let demagogues exploit intermingled peoples."
+    },
+    {
+     "id": "b",
+     "text": "It was the richest Communist state",
+     "correct": false,
+     "explanation": "Not Judt's point."
+    },
+    {
+     "id": "c",
+     "text": "It had no army",
+     "correct": false,
+     "explanation": "The federal army played a central role."
+    },
+    {
+     "id": "d",
+     "text": "It never had a Communist government",
+     "correct": false,
+     "explanation": "Milošević led the League of Communists of Serbia."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The US was slow to engage, but once it did, it drove every stage of intervention in Bosnia.”",
+   "factIds": [
+    "F-BALKAN-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Western failure in Bosnia was shared unevenly between allies",
+     "correct": true,
+     "explanation": "Correct: France, the Dutch and Britain also impeded action."
+    },
+    {
+     "id": "b",
+     "text": "The US refused to intervene at all",
+     "correct": false,
+     "explanation": "It eventually drove intervention."
+    },
+    {
+     "id": "c",
+     "text": "Only the UN was responsible for the delay",
+     "correct": false,
+     "explanation": "Judt spreads the blame more widely."
+    },
+    {
+     "id": "d",
+     "text": "NATO acted immediately in 1992",
+     "correct": false,
+     "explanation": "Sustained bombing came only in 1995."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R33",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Serbia seized half the federation's drawing rights in 1991, which triggered Slovenia's secession.”",
+   "factIds": [
+    "F-BALKAN-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The seizure happened in December 1990, before the June 1991 secessions",
+     "correct": true,
+     "explanation": "Correct: Slovenia and Croatia seceded six months later."
+    },
+    {
+     "id": "b",
+     "text": "Slovenia never proclaimed independence",
+     "correct": false,
+     "explanation": "It did, in 1991."
+    },
+    {
+     "id": "c",
+     "text": "Croatia did not follow Slovenia",
+     "correct": false,
+     "explanation": "It seceded the same month."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the date is wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R34",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What percentage of Yugoslavia's population were Albanian by 1991, according to Judt? (number)",
+   "factIds": [
+    "F-BALKAN-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 16.6,
+     "tolerance": 0.5,
+     "explanation": "About 16.6 per cent, roughly 1,728,000 people."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R35",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of Bosnia did the 1994 Federation plan allot to the Muslim–Croat Federation?",
+   "factIds": [
+    "F-BALKAN-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "51 per cent",
+     "correct": true,
+     "explanation": "Correct: the Serbs were allotted 49 per cent."
+    },
+    {
+     "id": "b",
+     "text": "100 per cent",
+     "correct": false,
+     "explanation": "Bosnia remained divided."
+    },
+    {
+     "id": "c",
+     "text": "25 per cent",
+     "correct": false,
+     "explanation": "Not the figure Judt gives."
+    },
+    {
+     "id": "d",
+     "text": "49 per cent",
+     "correct": false,
+     "explanation": "That was the Serb share."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R36",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were among Judt's five Yugoslav wars? Choose all that apply.",
+   "factIds": [
+    "F-BALKAN-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A Croat–Muslim war within Bosnia from January 1993",
+     "correct": true,
+     "explanation": "Yes: the fourth of the five."
+    },
+    {
+     "id": "b",
+     "text": "The war in Kosovo, 1999",
+     "correct": true,
+     "explanation": "Yes: the fifth and last."
+    },
+    {
+     "id": "c",
+     "text": "A war between Serbia and Macedonia",
+     "correct": false,
+     "explanation": "Macedonia did not fight a war in this period."
+    },
+    {
+     "id": "d",
+     "text": "The war in Slovenia, 1991",
+     "correct": true,
+     "explanation": "Yes: the first, lasting a few weeks."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R37",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Hasty German, then European Community, recognition of Slovenia and Croatia confirmed their independence.”",
+   "factIds": [
+    "F-BALKAN-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside recognition, though justified, fed Serb fears about further break-up",
+     "correct": true,
+     "explanation": "Correct: Belgrade's propaganda exploited this among Croatian Serbs."
+    },
+    {
+     "id": "b",
+     "text": "The European Community opposed Slovenia's independence",
+     "correct": false,
+     "explanation": "It recognised it."
+    },
+    {
+     "id": "c",
+     "text": "Recognition came before Slovenia declared independence",
+     "correct": false,
+     "explanation": "Recognition followed the 1991 secessions."
+    },
+    {
+     "id": "d",
+     "text": "The United States recognised Slovenia first",
+     "correct": false,
+     "explanation": "Germany acted first."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-R27",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What had Milošević done by 1987–1989, before the wars themselves began?",
+   "factIds": [
+    "F-BALKAN-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Welcomed a nationalist Memorandum and visited Kosovo, turning to nationalism as Communism lost legitimacy",
+     "correct": true,
+     "explanation": "Correct: he became President of Serbia in May 1989."
+    },
+    {
+     "id": "b",
+     "text": "Signed the Dayton Agreement",
+     "correct": false,
+     "explanation": "That was 1995."
+    },
+    {
+     "id": "c",
+     "text": "Recognised Slovenia's independence",
+     "correct": false,
+     "explanation": "The federal army moved against Slovenia instead."
+    },
+    {
+     "id": "d",
+     "text": "Retired from politics",
+     "correct": false,
+     "explanation": "He rose to the presidency."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2009,6 +2565,332 @@
      "text": "The lesson of Srebrenica",
      "answer": "causes",
      "explanation": "Bosnia changed Western attitudes."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the reasons for the West's slow response to the war in Bosnia before 1995.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine the reasons for",
+     "answer": "verb",
+     "explanation": "Set out and explain causes."
+    },
+    {
+     "id": "s2",
+     "text": "the West's slow response",
+     "answer": "factor",
+     "explanation": "What must be explained."
+    },
+    {
+     "id": "s3",
+     "text": "to the war in Bosnia",
+     "answer": "scope",
+     "explanation": "The conflict in question."
+    },
+    {
+     "id": "s4",
+     "text": "before 1995",
+     "answer": "timeframe",
+     "explanation": "Ends just before Srebrenica and Dayton."
+    },
+    {
+     "id": "s5",
+     "text": "reasons",
+     "answer": "judgement",
+     "explanation": "Which reason (Dutch caution, French resistance, US hesitation) mattered most?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for the West's slow response to the war in Bosnia before 1995.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The West responded slowly because its members disagreed over the use of force: France and the Dutch resisted air strikes while their troops served with the UN, and Britain restricted Bosnian refugees, so no single ally drove intervention until the US did after Srebrenica.",
+     "correct": true,
+     "explanation": "Correct: names the mechanism and several actors."
+    },
+    {
+     "id": "b",
+     "text": "The war in Bosnia began in 1992.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The West did not care about Bosnia.",
+     "correct": false,
+     "explanation": "Unsupported and too simple."
+    },
+    {
+     "id": "d",
+     "text": "NATO bombed Bosnia in 1993.",
+     "correct": false,
+     "explanation": "Sustained bombing came in 1995."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In March 1989 Milošević absorbed Kosovo and Vojvodina into Serbia.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "This gave Serbia four of the federation's eight votes, which stalemated decision-making and pushed the northern republics towards independence.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "On 28 August 1995 a second shell hit the Sarajevo marketplace.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "Because this came only seven weeks after Srebrenica, it finally persuaded Washington that warnings alone would not work.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Mostar's Ottoman bridge was destroyed by Croat forces in November 1993",
+     "right": "Ethnic cleansing was practised by more than one side",
+     "explanation": "Judt: no-one emerged with honour."
+    },
+    {
+     "left": "The Contact Group ruled out Kosovo's independence in July 1998",
+     "right": "The West hesitated over Kosovo even as Milošević's repression continued",
+     "explanation": "Fear of destabilising Macedonia."
+    },
+    {
+     "left": "A Muslim–Croat Federation was agreed in March 1994",
+     "right": "Washington could broker peace between some combatants before 1995",
+     "explanation": "But not yet with the Bosnian Serbs."
+    },
+    {
+     "left": "Yugoslavia was the last genuinely multi-national state in Europe",
+     "right": "Its break-up was unusually dangerous because of intermingled populations",
+     "explanation": "Unlike Czechoslovakia's peaceful split."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “There was a lot of ethnic cleansing in the Bosnian war.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ethnic cleansing was practised by all sides, but Judt identifies Serb forces as 'far and away the worst offenders', with about 300,000 killed and one in eight Yugoslavs driven from their homes by the end of the war.",
+     "correct": true,
+     "explanation": "Correct: precise, sourced and qualified."
+    },
+    {
+     "id": "b",
+     "text": "There was an enormous amount of ethnic cleansing in Bosnia.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The Bosnian war began in 1992.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Ethnic cleansing was very evil.",
+     "correct": false,
+     "explanation": "A value judgement without explanation."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The West acted quickly and decisively to stop the Bosnian war.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Bosnian war began in 1992, but sustained NATO bombing came only after Srebrenica and a second Sarajevo market shelling in August 1995; until then France, the Dutch and Britain each impeded stronger action.",
+     "correct": true,
+     "explanation": "Correct: dates the delay and names the obstacles."
+    },
+    {
+     "id": "b",
+     "text": "NATO is a military alliance.",
+     "correct": false,
+     "explanation": "Not an argument about speed."
+    },
+    {
+     "id": "c",
+     "text": "Some people disagree with Western policy.",
+     "correct": false,
+     "explanation": "Vague, no evidence."
+    },
+    {
+     "id": "d",
+     "text": "The war ended in 1995.",
+     "correct": false,
+     "explanation": "True but does not address 'quickly'."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did NATO's 1999 intervention in Kosovo achieve its aims?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged against its stated aim of stopping ethnic cleansing, the intervention succeeded only partly: it removed Serb forces and ended Milošević's control of Kosovo, but could not prevent 865,000 Albanians being driven out during the campaign itself.",
+     "correct": true,
+     "explanation": "Correct: states a criterion, judges against it, and uses evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, NATO bombed Yugoslavia for about three months.",
+     "correct": false,
+     "explanation": "A recap, no judgement."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, intervention was good.",
+     "correct": false,
+     "explanation": "No criterion or evidence."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Milošević was a dictator.",
+     "correct": false,
+     "explanation": "Does not answer the question."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the causes and consequences of the break-up of Yugoslavia, 1989–1992.” Sort each plan point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Economic inequality between the richer north and poorer south",
+     "answer": "causes",
+     "explanation": "A long-term cause."
+    },
+    {
+     "id": "s2",
+     "text": "Milošević's absorption of Kosovo and Vojvodina in March 1989",
+     "answer": "causes",
+     "explanation": "Broke the federal balance."
+    },
+    {
+     "id": "s3",
+     "text": "Slovenia and Croatia's secession in June 1991",
+     "answer": "effects",
+     "explanation": "The federation's collapse."
+    },
+    {
+     "id": "s4",
+     "text": "Minorities left stranded in Croatia and Bosnia",
+     "answer": "effects",
+     "explanation": "Set the stage for war."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B5-BALKANS-D19",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Discuss the causes and consequences of the break-up of Yugoslavia, 1989–1992.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss",
+     "answer": "verb",
+     "explanation": "Offer a considered, balanced review."
+    },
+    {
+     "id": "s2",
+     "text": "the break-up of Yugoslavia",
+     "answer": "factor",
+     "explanation": "The event at the centre."
+    },
+    {
+     "id": "s3",
+     "text": "causes and consequences",
+     "answer": "scope",
+     "explanation": "Both halves need equal attention."
+    },
+    {
+     "id": "s4",
+     "text": "1989–1992",
+     "answer": "timeframe",
+     "explanation": "From Milošević's rise to Bosnia's independence; the later wars are outside."
+    },
+    {
+     "id": "s5",
+     "text": "causes and consequences",
+     "answer": "judgement",
+     "explanation": "Which cause mattered most, and which consequence was most serious?"
     }
    ]
   }

@@ -1769,6 +1769,437 @@
      "explanation": "Not the reason Judt gives for Kohl's change of course."
     }
    ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Gierek try to keep Poland stable in the 1970s?",
+   "factIds": [
+    "F-EECOLL-29"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "By borrowing heavily abroad to supply consumer goods, like other Communist rulers",
+     "correct": true,
+     "explanation": "Correct: Poland's debt approached $40 billion by the 1980s."
+    },
+    {
+     "id": "b",
+     "text": "By holding free elections",
+     "correct": false,
+     "explanation": "No elections were held then."
+    },
+    {
+     "id": "c",
+     "text": "By legalising Solidarity",
+     "correct": false,
+     "explanation": "Solidarity formed later, in 1980."
+    },
+    {
+     "id": "d",
+     "text": "By cutting all foreign trade",
+     "correct": false,
+     "explanation": "He borrowed abroad, not cut trade."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Bulgaria's 1989 experience compare with Yugoslavia's?",
+   "factIds": [
+    "F-EECOLL-30"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bulgaria avoided the catastrophe awaiting Yugoslavia",
+     "correct": true,
+     "explanation": "Correct: Zhivkov's ouster was far less violent than Yugoslavia's break-up."
+    },
+    {
+     "id": "b",
+     "text": "Bulgaria suffered a civil war just like Yugoslavia",
+     "correct": false,
+     "explanation": "It did not."
+    },
+    {
+     "id": "c",
+     "text": "Bulgaria stayed Communist while Yugoslavia democratised",
+     "correct": false,
+     "explanation": "Both left Communist rule by the early 1990s."
+    },
+    {
+     "id": "d",
+     "text": "Bulgaria and Yugoslavia merged",
+     "correct": false,
+     "explanation": "They did not."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R23",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By how many votes did the Volkskammer remove the party's leading role on 1 December 1989 (for–against)? Give the number voting FOR removal.",
+   "factIds": [
+    "F-EECOLL-12"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 420,
+     "tolerance": 0,
+     "explanation": "420 to 0."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R24",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did Czechoslovakia split peacefully into the Czech Republic and Slovakia? (year)",
+   "factIds": [
+    "F-EECOLL-25"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1993,
+     "tolerance": 0,
+     "explanation": "1 January 1993: the 'velvet divorce'."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened in Hungary's exit from Communism? Choose all that apply.",
+   "factIds": [
+    "F-EECOLL-07",
+    "F-EECOLL-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Reform Communists removed Kádár in May 1988",
+     "correct": true,
+     "explanation": "Yes: after 76 years of age and over three decades in power."
+    },
+    {
+     "id": "b",
+     "text": "Imre Nagy was reburied as a national hero in June 1989",
+     "correct": true,
+     "explanation": "Yes: about 300,000 lined the streets."
+    },
+    {
+     "id": "c",
+     "text": "The country was renamed the Hungarian Republic in October 1989",
+     "correct": true,
+     "explanation": "Yes: on 23 October."
+    },
+    {
+     "id": "d",
+     "text": "Soviet tanks crushed a Hungarian uprising in 1989",
+     "correct": false,
+     "explanation": "No: Hungary's exit was effected entirely from within."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these are true of Ceaușescu's fall in December 1989? Choose all that apply.",
+   "factIds": [
+    "F-EECOLL-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Protests began after the Securitate tried to remove Pastor Tőkés in Timișoara",
+     "correct": true,
+     "explanation": "Yes: on 15 December 1989."
+    },
+    {
+     "id": "b",
+     "text": "He was heckled into silence at a public rally",
+     "correct": true,
+     "explanation": "Yes: on 21 December."
+    },
+    {
+     "id": "c",
+     "text": "The army switched sides under the National Salvation Front",
+     "correct": true,
+     "explanation": "Yes: after he fled on 22 December."
+    },
+    {
+     "id": "d",
+     "text": "He was allowed to retire abroad",
+     "correct": false,
+     "explanation": "No: he and his wife were executed on Christmas Day."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R27",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Gorbachev told Honecker on 7 October 1989 that 'life punishes those who delay'.” Which argument does it support best?",
+   "factIds": [
+    "F-EECOLL-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Moscow withdrew its backing from hardline regimes that refused reform",
+     "correct": true,
+     "explanation": "Correct: Krenz removed Honecker eleven days later."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev ordered the Berlin Wall built",
+     "correct": false,
+     "explanation": "The Wall fell in November 1989."
+    },
+    {
+     "id": "c",
+     "text": "The GDR's economy was thriving",
+     "correct": false,
+     "explanation": "Mass demonstrations show the opposite."
+    },
+    {
+     "id": "d",
+     "text": "Honecker welcomed reform",
+     "correct": false,
+     "explanation": "He was removed for resisting it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R28",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By early September 1989 some 60,000 East Germans had gone to Hungary, and Hungary let them cross to the West, citing the Helsinki Final Act.” Which argument does it support best?",
+   "factIds": [
+    "F-EECOLL-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hungary's own reforms created an exit route that destabilised the GDR before its own revolution began",
+     "correct": true,
+     "explanation": "Correct: one satellite's change triggered pressure on another."
+    },
+    {
+     "id": "b",
+     "text": "Hungary closed its border to stop East Germans",
+     "correct": false,
+     "explanation": "It removed the electrified fence in May 1989."
+    },
+    {
+     "id": "c",
+     "text": "The Berlin Wall had already fallen by September 1989",
+     "correct": false,
+     "explanation": "It fell on 9 November."
+    },
+    {
+     "id": "d",
+     "text": "The Helsinki Final Act had no relevance here",
+     "correct": false,
+     "explanation": "Hungary explicitly cited it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R29",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Zhivkov voluntarily retired from power in Bulgaria in 1989 after a peaceful referendum.”",
+   "factIds": [
+    "F-EECOLL-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Reformers ousted Zhivkov on 10 November 1989 after police violence against activists",
+     "correct": true,
+     "explanation": "Correct: Mladenov and other reformers led the move, after the 26 October beatings of Ecoglasnost activists."
+    },
+    {
+     "id": "b",
+     "text": "Zhivkov had led the party since 1954",
+     "correct": false,
+     "explanation": "That is correct."
+    },
+    {
+     "id": "c",
+     "text": "About 300,000 Turks left Bulgaria in summer 1989",
+     "correct": false,
+     "explanation": "That is correct, following his campaign against the Turkish minority."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: he was ousted, not voluntarily retired, and there was no referendum."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R30",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the collapse of Soviet control between 1989 and 1991. Is Wałęsa's release from detention in November 1982 inside or outside the timeframe?",
+   "timeframe": [
+    1989,
+    1991
+   ],
+   "factIds": [
+    "F-EECOLL-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be used briefly as earlier background",
+     "correct": true,
+     "explanation": "Correct: 1982 is before 1989."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: it predates the timeframe by seven years."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Wałęsa later became president",
+     "correct": false,
+     "explanation": "A later role does not move the event's date."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R31",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each country to the person or event that marked its exit from Communism.",
+   "pairs": [
+    {
+     "left": "Poland",
+     "right": "Round Table talks and the June 1989 elections",
+     "explanation": "Solidarity won 99 of 100 Senate seats."
+    },
+    {
+     "left": "Czechoslovakia",
+     "right": "Havel's Civic Forum and the Velvet Revolution",
+     "explanation": "November–December 1989."
+    },
+    {
+     "left": "Romania",
+     "right": "The violent overthrow and execution of Ceaușescu",
+     "explanation": "December 1989, the only violent transition."
+    },
+    {
+     "left": "Bulgaria",
+     "right": "Reformers ousted Zhivkov after decades in power",
+     "explanation": "10 November 1989."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R32",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these 1989 events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Hungary removes the electrified border fence",
+     "year": 1989,
+     "month": 5,
+     "factId": "F-EECOLL-09"
+    },
+    {
+     "id": "b",
+     "text": "Solidarity wins the June elections",
+     "year": 1989,
+     "month": 6,
+     "factId": "F-EECOLL-05"
+    },
+    {
+     "id": "c",
+     "text": "Schabowski announces free travel; the Wall opens",
+     "year": 1989,
+     "month": 11,
+     "factId": "F-EECOLL-11"
+    },
+    {
+     "id": "d",
+     "text": "Ceaușescu is executed",
+     "year": 1989,
+     "month": 12,
+     "factId": "F-EECOLL-17"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Soviet troops were still stationed in East Germany in 1989?",
+   "factIds": [
+    "F-EECOLL-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "About 360,000",
+     "correct": true,
+     "explanation": "Correct: a huge force Gorbachev chose not to use."
+    },
+    {
+     "id": "b",
+     "text": "None; they had all left by 1989",
+     "correct": false,
+     "explanation": "A large force remained."
+    },
+    {
+     "id": "c",
+     "text": "About 3,600",
+     "correct": false,
+     "explanation": "Far too low."
+    },
+    {
+     "id": "d",
+     "text": "About 3.6 million",
+     "correct": false,
+     "explanation": "Far too high."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2135,6 +2566,291 @@
      "text": "Gorbachev's warning to Honecker",
      "answer": "causes",
      "explanation": "Moscow would not save him."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the collapse of Communism in Romania with its collapse in Czechoslovakia.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Find similarities and differences, then weigh them."
+    },
+    {
+     "id": "s2",
+     "text": "Romania … Czechoslovakia",
+     "answer": "factor",
+     "explanation": "Two named cases."
+    },
+    {
+     "id": "s3",
+     "text": "the collapse of Communism",
+     "answer": "scope",
+     "explanation": "What must be compared."
+    },
+    {
+     "id": "s4",
+     "text": "1989",
+     "answer": "timeframe",
+     "explanation": "Both fell within weeks of each other."
+    },
+    {
+     "id": "s5",
+     "text": "Compare and contrast",
+     "answer": "judgement",
+     "explanation": "Was violence in Romania the exception, or a difference of degree?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Gorbachev responsible for the collapse of Soviet control in eastern Europe by 1991?” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev was decisive in removing the threat of force that had sustained control since 1968, but once it was gone, each country's own crises — Poland's debt, Hungary's internal reformers, Romania's repression — determined how collapse actually happened.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against local conditions."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev became Soviet leader in 1985.",
+     "correct": false,
+     "explanation": "A fact, not a judgement."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev wanted Communism to collapse.",
+     "correct": false,
+     "explanation": "He aimed to reform it, not destroy it."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev ordered the Berlin Wall to fall.",
+     "correct": false,
+     "explanation": "He did not order it; he withdrew the threat of force."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 21 December 1989 Ceaușescu was heckled into silence at a Bucharest rally.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the army then switched sides, Romania's transition turned violent where others had not.",
+     "answer": "analysis",
+     "explanation": "Explains why Romania differed."
+    },
+    {
+     "id": "s3",
+     "text": "On 10 November 1989 reformers ousted Zhivkov in Bulgaria.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that even a leader of thirty-five years could not survive once Moscow's backing was gone.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Poland's debt approached $40 billion by the late 1980s",
+     "right": "Economic failure forced the regime to negotiate with Solidarity",
+     "explanation": "Led to the 1989 Round Table talks."
+    },
+    {
+     "left": "Hungary's exit was effected entirely from within",
+     "right": "Not every 1989 transition needed a mass uprising",
+     "explanation": "Reform Communists removed Kádár themselves."
+    },
+    {
+     "left": "Ceaușescu crushed consumption to pay off foreign debt",
+     "right": "Extreme repression bought the regime time, not legitimacy",
+     "explanation": "40-watt bulbs and strict rationing."
+    },
+    {
+     "left": "Gorbachev settled for $8 billion plus $2 billion in credits over unification",
+     "right": "Moscow had no good options left by 1990",
+     "explanation": "Kohl accepted Germany's eastern borders in return."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The Berlin Wall falling was a big moment.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Wall's fall mattered because a measure meant to manage travel, announced by Schabowski on 9 November 1989, let 50,000 people cross within hours, making the border impossible to reinstate.",
+     "correct": true,
+     "explanation": "Correct: mechanism and precise evidence."
+    },
+    {
+     "id": "b",
+     "text": "The Wall falling was extremely significant for everyone.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The Wall fell on 9 November 1989.",
+     "correct": false,
+     "explanation": "Narrative, not analysis."
+    },
+    {
+     "id": "d",
+     "text": "The Wall falling caused the Soviet Union to collapse immediately.",
+     "correct": false,
+     "explanation": "The USSR did not dissolve until December 1991."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Every Communist regime in eastern Europe fell the same way in 1989: a peaceful, negotiated transition.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Romania's transition was violent: the army switched sides, street fighting followed, and Ceaușescu and his wife were executed on Christmas Day, unlike the negotiated Round Tables in Poland and Hungary.",
+     "correct": true,
+     "explanation": "Correct: a specific, evidenced exception."
+    },
+    {
+     "id": "b",
+     "text": "All these countries had been Communist.",
+     "correct": false,
+     "explanation": "True but not a counter-argument."
+    },
+    {
+     "id": "c",
+     "text": "The Soviet Union existed until 1991.",
+     "correct": false,
+     "explanation": "Irrelevant to how the satellites fell."
+    },
+    {
+     "id": "d",
+     "text": "1989 was an important year.",
+     "correct": false,
+     "explanation": "Too vague to be a counter-argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Gorbachev responsible for the collapse of Soviet control in eastern Europe by 1991?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether collapse could have happened without him, Gorbachev's withdrawal of the threat of force was necessary but not sufficient: each country's own economic crises and opposition movements then decided how fast and how violently change came.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and a limit."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Gorbachev led the Soviet Union and Communism later collapsed.",
+     "correct": false,
+     "explanation": "A recap, no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Gorbachev was important.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Gorbachev was a traitor to Communism.",
+     "correct": false,
+     "explanation": "A value judgement, not an analytical one."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B4-COLLAPSE-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the reasons for the collapse of Communist rule in Romania in 1989.” Sort each plan point into CAUSES or EFFECTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Effects"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Ceaușescu crushing consumption to pay off foreign debt",
+     "answer": "causes",
+     "explanation": "Built resentment before 1989."
+    },
+    {
+     "id": "s2",
+     "text": "The Securitate's attempt to remove Pastor Tőkés",
+     "answer": "causes",
+     "explanation": "The immediate trigger, 15 December."
+    },
+    {
+     "id": "s3",
+     "text": "Ceaușescu and his wife executed on Christmas Day",
+     "answer": "effects",
+     "explanation": "The violent end to the regime."
+    },
+    {
+     "id": "s4",
+     "text": "Iliescu, a former Communist, became President",
+     "answer": "effects",
+     "explanation": "The old apparatus stayed largely intact."
     }
    ]
   }

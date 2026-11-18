@@ -1707,6 +1707,400 @@
      "explanation": "Perhaps 4,000 Communists in 1945."
     }
    ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In Romania's election of March 1948, how many of the 414 seats did the government list win?",
+   "factIds": [
+    "F-SOVCTRL-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "405",
+     "correct": true,
+     "explanation": "Correct: an almost total sweep."
+    },
+    {
+     "id": "b",
+     "text": "214",
+     "correct": false,
+     "explanation": "Far too low for a rigged result."
+    },
+    {
+     "id": "c",
+     "text": "80",
+     "correct": false,
+     "explanation": "That is Poland's rigged percentage, not Romania's seats."
+    },
+    {
+     "id": "d",
+     "text": "All 414",
+     "correct": false,
+     "explanation": "Close but not exact: nine seats went elsewhere."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many seats out of 414 did Romania's government list win in March 1948? (number)",
+   "factIds": [
+    "F-SOVCTRL-12"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 405,
+     "tolerance": 0,
+     "explanation": "405 of 414: Communist leaders there depended entirely on Soviet forces."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R23",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Czechs had expelled the Sudeten Germans, which made them more dependent on Soviet protection against a German revival.” Which argument does it support?",
+   "factIds": [
+    "F-SOVCTRL-33"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Fear of Germany, not only force, helped the USSR present itself as a protector",
+     "correct": true,
+     "explanation": "Correct: security fears gave Moscow a genuine lever."
+    },
+    {
+     "id": "b",
+     "text": "Czechoslovakia welcomed German refugees",
+     "correct": false,
+     "explanation": "The opposite: it expelled them."
+    },
+    {
+     "id": "c",
+     "text": "The USSR protected Germany",
+     "correct": false,
+     "explanation": "It presented itself as protecting its neighbours from Germany."
+    },
+    {
+     "id": "d",
+     "text": "Czechoslovakia left the Soviet bloc",
+     "correct": false,
+     "explanation": "It stayed firmly inside it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "When Beneš's government-in-exile returned and was reconfigured in April 1945, how many Communists sat alongside how many ministers from other parties?",
+   "factIds": [
+    "F-SOVCTRL-34"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Seven Communists and eleven ministers from other parties",
+     "correct": true,
+     "explanation": "Correct: a coalition, not yet a monopoly."
+    },
+    {
+     "id": "b",
+     "text": "All eighteen ministers were Communists",
+     "correct": false,
+     "explanation": "Far from it in 1945."
+    },
+    {
+     "id": "c",
+     "text": "No Communists at all",
+     "correct": false,
+     "explanation": "Seven held posts from the start."
+    },
+    {
+     "id": "d",
+     "text": "Eleven Communists and seven others",
+     "correct": false,
+     "explanation": "The ratio is reversed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R25",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Communists sat in Beneš's reconfigured government of April 1945? (number)",
+   "factIds": [
+    "F-SOVCTRL-34"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 7,
+     "tolerance": 0,
+     "explanation": "Seven, against eleven ministers from other parties."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these let the USSR present itself as a protector rather than only an occupier? Choose all that apply.",
+   "factIds": [
+    "F-SOVCTRL-33"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Guaranteeing Poland's and Romania's new borders against German revanchism",
+     "correct": true,
+     "explanation": "Yes: a real security service to the new states."
+    },
+    {
+     "id": "b",
+     "text": "The Czechs' expulsion of the Sudeten Germans, which left them dependent on Soviet protection",
+     "correct": true,
+     "explanation": "Yes: it removed any other guarantor."
+    },
+    {
+     "id": "c",
+     "text": "Soviet guarantees against a German revival, useful to Polish Communists",
+     "correct": true,
+     "explanation": "Yes: fear of Germany, not only force, won some consent."
+    },
+    {
+     "id": "d",
+     "text": "Free elections supervised by the United Nations",
+     "correct": false,
+     "explanation": "No such elections took place."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Romania's Communists won the March 1948 election fairly, proving they had genuine mass support.”",
+   "factIds": [
+    "F-SOVCTRL-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The 405 of 414 seats were not a fair result: Romanian Communist leaders were seen as alien and depended entirely on Soviet forces",
+     "correct": true,
+     "explanation": "Correct: an imposed, not a popular, result."
+    },
+    {
+     "id": "b",
+     "text": "The election took place in 1955",
+     "correct": false,
+     "explanation": "It took place in March 1948."
+    },
+    {
+     "id": "c",
+     "text": "Romania had no Communist Party",
+     "correct": false,
+     "explanation": "It had one, though a tiny one before Soviet backing."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the result does not show genuine support."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R28",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these early steps towards Communist power in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Beneš's government-in-exile reconfigured with seven Communists",
+     "year": 1945,
+     "month": 4,
+     "factId": "F-SOVCTRL-34"
+    },
+    {
+     "id": "b",
+     "text": "Red Army withdraws from Czechoslovakia",
+     "year": 1945,
+     "month": 11,
+     "factId": "F-SOVCTRL-13"
+    },
+    {
+     "id": "c",
+     "text": "Socialist Unity Party formed in the Soviet zone of Germany",
+     "year": 1946,
+     "month": 4,
+     "factId": "F-SOVCTRL-08"
+    },
+    {
+     "id": "d",
+     "text": "Romania's government list wins 405 of 414 seats",
+     "year": 1948,
+     "month": 3,
+     "factId": "F-SOVCTRL-12"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R29",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each claim to the evidence that best supports it.",
+   "pairs": [
+    {
+     "left": "The USSR could claim to be a protector, not only an occupier",
+     "right": "Poland and Czechoslovakia feared a German revival after expelling their German populations",
+     "explanation": "Security fears, not only force, won some consent."
+    },
+    {
+     "left": "Communist rule in Romania rested on Soviet backing, not popularity",
+     "right": "Romanian Communist leaders were seen as alien and depended entirely on Soviet forces",
+     "explanation": "The party had almost no base of its own."
+    },
+    {
+     "left": "Coalition government did not mean Communists were a minority view in 1945 everywhere",
+     "right": "Beneš's government included seven Communist ministers among eighteen",
+     "explanation": "A real, if junior, share of power from the start."
+    },
+    {
+     "left": "Communists needed the Red Army to survive outside Yugoslavia",
+     "right": "Soviet troops stayed in Hungary until the mid-1950s and in the GDR throughout its life",
+     "explanation": "Occupation underwrote the satellites."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By summer 1946, how many of the twenty-two members of Bulgaria's Agrarian Union Praesidium were in prison? (number)",
+   "factIds": [
+    "F-SOVCTRL-07"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 7,
+     "tolerance": 0,
+     "explanation": "Seven of twenty-two: the leadership was being dismantled piece by piece."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R31",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "About how many people were imprisoned in Hungary's hunt for 'Titoists'? (number)",
+   "factIds": [
+    "F-SOVCTRL-32"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 150000,
+     "tolerance": 5000,
+     "explanation": "About 150,000, alongside roughly 2,000 executed cadres."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R32",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Soviet control of eastern Europe between 1945 and 1955. Is the Austrian State Treaty of May 1955 inside or outside the timeframe?",
+   "factIds": [
+    "F-SOVCTRL-29"
+   ],
+   "timeframe": [
+    1945,
+    1955
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside",
+     "correct": true,
+     "explanation": "Correct: it falls within 1945–1955 and followed the Warsaw Pact by a day."
+    },
+    {
+     "id": "b",
+     "text": "Outside: it happened after 1955",
+     "correct": false,
+     "explanation": "No: May 1955 is the last year of the timeframe."
+    },
+    {
+     "id": "c",
+     "text": "Outside: Austria was not in eastern Europe",
+     "correct": false,
+     "explanation": "Relevance, not the date, would be the issue; but the date itself is inside."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-R33",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Steel output in the Soviet zone of Germany rose from 120,000 tons in 1946 to over 2 million tons by 1953.” Which argument does it support?",
+   "factIds": [
+    "F-SOVCTRL-30"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet-style industrialisation delivered rapid growth in heavy industry at first",
+     "correct": true,
+     "explanation": "Correct: a real, if lopsided, achievement."
+    },
+    {
+     "id": "b",
+     "text": "The Soviet zone had no industry before 1946",
+     "correct": false,
+     "explanation": "It had industry; output simply rose fast."
+    },
+    {
+     "id": "c",
+     "text": "Comecon made every satellite richer by the 1950s",
+     "correct": false,
+     "explanation": "Czechoslovakia, for one, grew poorer relative to its 1930s level."
+    },
+    {
+     "id": "d",
+     "text": "Industrial growth proves the system was popular",
+     "correct": false,
+     "explanation": "Growth and popularity are not the same thing."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2073,6 +2467,297 @@
      "text": "Western aid to Yugoslavia",
      "answer": "effects",
      "explanation": "Tito turned to the West."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the methods used by Communist parties to establish control over Romania and Bulgaria between 1945 and 1948.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine",
+     "answer": "verb",
+     "explanation": "Set out methods with evidence, not just narrate."
+    },
+    {
+     "id": "s2",
+     "text": "Romania and Bulgaria",
+     "answer": "factor",
+     "explanation": "Two named states to compare, not the whole region."
+    },
+    {
+     "id": "s3",
+     "text": "methods used … to establish control",
+     "answer": "scope",
+     "explanation": "The mechanisms, not only the outcome."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1948",
+     "answer": "timeframe",
+     "explanation": "Stops before the Cominform split and Comecon."
+    },
+    {
+     "id": "s5",
+     "text": "establish control",
+     "answer": "judgement",
+     "explanation": "Which methods mattered most for these two states specifically."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did fear of Germany help the USSR control eastern Europe?” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Fear of a German revival gave the USSR real, if partial, legitimacy as a protector in Poland and Czechoslovakia, but in states such as Romania control rested almost entirely on Soviet force rather than shared fear.",
+     "correct": true,
+     "explanation": "Correct: weighs the factor against its limits, with named states."
+    },
+    {
+     "id": "b",
+     "text": "Germany was defeated in 1945.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Everyone in eastern Europe feared Germany equally.",
+     "correct": false,
+     "explanation": "Overstated and unsupported."
+    },
+    {
+     "id": "d",
+     "text": "Fear of Germany was unimportant.",
+     "correct": false,
+     "explanation": "Contradicted by the Sudeten German expulsions and Soviet guarantees."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In March 1948 Romania's government list won 405 of 414 seats.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "This result reflected Soviet backing rather than popular support, since the Romanian party had fewer than 1,000 members in 1945.",
+     "answer": "analysis",
+     "explanation": "Explains why the result is misleading."
+    },
+    {
+     "id": "s3",
+     "text": "Beneš's government was reconfigured in April 1945 with seven Communist ministers.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s4",
+     "text": "This gave Czechoslovak Communists a legitimate foothold that Romanian or Bulgarian Communists never had in 1945.",
+     "answer": "analysis",
+     "explanation": "Compares significance across states."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Romania's government list won 405 of 414 seats in March 1948",
+     "right": "Soviet-backed regimes could win elections with no genuine competition",
+     "explanation": "A sweep, not a contest."
+    },
+    {
+     "left": "Czechs had expelled the Sudeten Germans",
+     "right": "Fear of Germany gave the USSR a genuine claim to be a protector",
+     "explanation": "Self-interest, not only coercion."
+    },
+    {
+     "left": "Beneš's government included seven Communist ministers in April 1945",
+     "right": "Communists held real power in some states from the very start of the coalition period",
+     "explanation": "A head start before any takeover."
+    },
+    {
+     "left": "150,000 people imprisoned in Hungary's hunt for Titoists",
+     "right": "Terror after 1948 reached far beyond the party's own leadership",
+     "explanation": "Not only a handful of show trials."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Romania's Communists were not very popular.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Romanian Communist leaders were seen as alien figures who depended entirely on Soviet forces, which is why their 1948 election result of 405 of 414 seats reflected imposition rather than consent.",
+     "correct": true,
+     "explanation": "Correct: specific evidence and a clear mechanism."
+    },
+    {
+     "id": "b",
+     "text": "Romania's Communists were quite unpopular with voters.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "In 1948 Romania held an election.",
+     "correct": false,
+     "explanation": "Narrative, no analysis."
+    },
+    {
+     "id": "d",
+     "text": "Romania was a bad country to live in.",
+     "correct": false,
+     "explanation": "A value judgement without evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The USSR controlled eastern Europe purely through coercion, with no genuine basis for consent anywhere.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Fear of a German revival gave the USSR a real claim to be protecting Poland and Czechoslovakia, not only occupying them, since both states had just expelled their German populations.",
+     "correct": true,
+     "explanation": "Correct: a genuine, specific basis for some consent."
+    },
+    {
+     "id": "b",
+     "text": "The Red Army was popular everywhere.",
+     "correct": false,
+     "explanation": "Unsupported and contradicted by the evidence of lost elections."
+    },
+    {
+     "id": "c",
+     "text": "Stalin was a reasonable leader.",
+     "correct": false,
+     "explanation": "Not evidence of consent."
+    },
+    {
+     "id": "d",
+     "text": "People enjoyed collectivisation.",
+     "correct": false,
+     "explanation": "Contradicted by the 'kulak' repression."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the methods used by Communist parties to gain power in eastern Europe between 1945 and 1948.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by where real support existed versus where it did not, the methods varied: Czechoslovakia's Communists had some genuine backing, while Romania's, with fewer than 1,000 members in 1945, relied almost wholly on Soviet-backed coercion and a rigged 1948 result.",
+     "correct": true,
+     "explanation": "Correct: a criterion (genuine support versus coercion), a judgement, and comparative evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Communists used many methods to gain power.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, every state was controlled in exactly the same way.",
+     "correct": false,
+     "explanation": "Contradicted by the Czechoslovak and Romanian contrast."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, the Cold War began in 1947.",
+     "correct": false,
+     "explanation": "Off the question asked."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B1-SOVIET-CONTROL-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons why some states were easier for the USSR to control than others.” Sort each point into FORCE or CONSENT.",
+   "categories": [
+    {
+     "id": "force",
+     "label": "Force / coercion"
+    },
+    {
+     "id": "consent",
+     "label": "Genuine basis for consent"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Romania's Communists depended entirely on Soviet forces",
+     "answer": "force",
+     "explanation": "No independent base of support."
+    },
+    {
+     "id": "s2",
+     "text": "Czechoslovak Communists won 40.2 per cent of the Czech vote freely in 1946",
+     "answer": "consent",
+     "explanation": "Real, if partial, popularity."
+    },
+    {
+     "id": "s3",
+     "text": "Fear of a German revival after the Sudeten German expulsions",
+     "answer": "consent",
+     "explanation": "A genuine security interest Moscow could satisfy."
+    },
+    {
+     "id": "s4",
+     "text": "The Red Army stayed in Hungary until the mid-1950s",
+     "answer": "force",
+     "explanation": "Occupation, not persuasion."
+    },
+    {
+     "id": "s5",
+     "text": "Romania's 1948 election gave the government list 405 of 414 seats",
+     "answer": "force",
+     "explanation": "A result imposed, not won."
     }
    ]
   }

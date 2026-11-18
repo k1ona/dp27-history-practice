@@ -1712,6 +1712,431 @@
      "explanation": "Szeged is in Hungary (students, October 1956)."
     }
    ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "After the Hungarian Uprising broke out, how did Tito respond when briefed on 2 November 1956?",
+   "factIds": [
+    "F-PROTEST-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He was anxious but understanding, and later gave Nagy asylum",
+     "correct": true,
+     "explanation": "Correct: to Khrushchev's displeasure."
+    },
+    {
+     "id": "b",
+     "text": "He demanded Soviet troops withdraw from Hungary at once",
+     "correct": false,
+     "explanation": "Not his recorded response."
+    },
+    {
+     "id": "c",
+     "text": "He refused to discuss Hungary with Moscow",
+     "correct": false,
+     "explanation": "He was briefed and responded."
+    },
+    {
+     "id": "d",
+     "text": "He joined the Soviet invasion force",
+     "correct": false,
+     "explanation": "The opposite: he sheltered Nagy."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R22",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Tito gave Imre Nagy asylum after the Soviet invasion, to Khrushchev's displeasure.” Which argument does it support?",
+   "factIds": [
+    "F-PROTEST-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Even a loyal Communist state like Yugoslavia had limits on how far it would back Soviet repression",
+     "correct": true,
+     "explanation": "Correct: sympathy for Nagy strained relations with Moscow."
+    },
+    {
+     "id": "b",
+     "text": "Tito supported the Soviet invasion fully",
+     "correct": false,
+     "explanation": "He sheltered the man the Soviets wanted removed."
+    },
+    {
+     "id": "c",
+     "text": "Yugoslavia was not a Communist state",
+     "correct": false,
+     "explanation": "It was, under Tito since 1945."
+    },
+    {
+     "id": "d",
+     "text": "Nagy fled to the West",
+     "correct": false,
+     "explanation": "He sought refuge with Tito, not the West."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R23",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date was Tito briefed on the unfolding Hungarian crisis, according to Judt? (day, number)",
+   "factIds": [
+    "F-PROTEST-22"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 2,
+     "tolerance": 0,
+     "explanation": "2 November 1956, days before the second Soviet intervention."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Brecht's poem ask after the 1953 rising, according to Judt?",
+   "factIds": [
+    "F-PROTEST-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Whether it would be simpler for the government to 'dissolve the people and elect another one'",
+     "correct": true,
+     "explanation": "Correct: a famous ironic response to the regime blaming the workers."
+    },
+    {
+     "id": "b",
+     "text": "Whether the Soviet Union should apologise",
+     "correct": false,
+     "explanation": "Not the poem's point."
+    },
+    {
+     "id": "c",
+     "text": "Whether West Germany should intervene",
+     "correct": false,
+     "explanation": "Not mentioned by Brecht."
+    },
+    {
+     "id": "d",
+     "text": "Whether Ulbricht should resign",
+     "correct": false,
+     "explanation": "Not what the poem says."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R25",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Brecht's poem asked whether it would be simpler for the government to 'dissolve the people and elect another one'.” Which argument does it support?",
+   "factIds": [
+    "F-PROTEST-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Even sympathetic intellectuals mocked the regime's refusal to accept that workers themselves had revolted",
+     "correct": true,
+     "explanation": "Correct: irony aimed at the regime's own propaganda."
+    },
+    {
+     "id": "b",
+     "text": "Brecht supported the government's crackdown",
+     "correct": false,
+     "explanation": "The poem is ironic, not supportive."
+    },
+    {
+     "id": "c",
+     "text": "The workers asked for new elections",
+     "correct": false,
+     "explanation": "Misreads the poem's irony."
+    },
+    {
+     "id": "d",
+     "text": "West Germany organised the rising",
+     "correct": false,
+     "explanation": "Not Brecht's point."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were part of Khrushchev's strategy after Stalin's death? Choose all that apply.",
+   "factIds": [
+    "F-PROTEST-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stabilising relations with the West",
+     "correct": true,
+     "explanation": "Yes: part of the post-Stalin thaw."
+    },
+    {
+     "id": "b",
+     "text": "Building bridges to Yugoslavia, including a May 1955 visit",
+     "correct": true,
+     "explanation": "Yes: repairing the 1948 split."
+    },
+    {
+     "id": "c",
+     "text": "Encouraging reformers in the satellites and ending show trials",
+     "correct": true,
+     "explanation": "Yes: before breaking with Stalin's legacy himself."
+    },
+    {
+     "id": "d",
+     "text": "Reinstating Stalin's purges against 'Titoists'",
+     "correct": false,
+     "explanation": "The opposite: he was ending that era."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R27",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what month and year did Khrushchev visit Yugoslavia to repair relations with Tito? (month, as a number)",
+   "factIds": [
+    "F-PROTEST-08"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 5,
+     "tolerance": 0,
+     "explanation": "May 1955."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R28",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Khrushchev's post-Stalin strategy was to tighten relations with the West and crush all reform movements in the satellites.”",
+   "factIds": [
+    "F-PROTEST-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Khrushchev instead sought to stabilise relations with the West, repair ties with Yugoslavia, and encourage reformers before breaking with Stalin's own legacy",
+     "correct": true,
+     "explanation": "Correct: the opposite emphasis from the claim."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev visited Yugoslavia in 1956",
+     "correct": false,
+     "explanation": "The visit was in May 1955."
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev never denounced Stalin",
+     "correct": false,
+     "explanation": "He did, at the Twentieth Congress."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: his strategy was conciliatory, not repressive."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R29",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps in Khrushchev's post-Stalin strategy and its Hungarian consequences in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Khrushchev visits Yugoslavia to repair relations with Tito",
+     "year": 1955,
+     "month": 5,
+     "factId": "F-PROTEST-08"
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev denounces Stalin at the Twentieth Congress",
+     "year": 1956,
+     "month": 2,
+     "factId": "F-PROTEST-09"
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev flies to Warsaw and accepts Gomułka as a 'sound Party man'",
+     "year": 1956,
+     "month": 10,
+     "factId": "F-PROTEST-12"
+    },
+    {
+     "id": "d",
+     "text": "Tito briefed on the Hungarian crisis and gives Nagy asylum, angering Khrushchev",
+     "year": 1956,
+     "month": 11,
+     "factId": "F-PROTEST-22"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R30",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each figure or work to what it shows.",
+   "pairs": [
+    {
+     "left": "Brecht's poem after 1953",
+     "right": "Even a sympathetic voice mocked the regime's refusal to admit workers had revolted",
+     "explanation": "Irony, not loyalty."
+    },
+    {
+     "left": "Khrushchev's May 1955 Belgrade visit",
+     "right": "An attempt to repair the 1948 Tito–Stalin breach",
+     "explanation": "Part of the post-Stalin thaw."
+    },
+    {
+     "left": "Tito's asylum for Nagy",
+     "right": "A limit to how far a Communist ally would back Soviet repression",
+     "explanation": "Strained relations with Khrushchev."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R31",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Khrushchev encouraged reformers in the satellites and ended show trials before breaking with Stalin's own record.” Which argument does it support?",
+   "factIds": [
+    "F-PROTEST-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Khrushchev's early reforms raised hopes of change that the system then struggled to contain",
+     "correct": true,
+     "explanation": "Correct: a link to 1956's upheavals."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev changed nothing after Stalin's death",
+     "correct": false,
+     "explanation": "He actively sought reform, cautiously."
+    },
+    {
+     "id": "c",
+     "text": "The satellites were given full independence",
+     "correct": false,
+     "explanation": "Soviet control remained, as 1956 showed."
+    },
+    {
+     "id": "d",
+     "text": "Stalin and Khrushchev had identical policies",
+     "correct": false,
+     "explanation": "Khrushchev broke with several of Stalin's methods."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R32",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about protest, repression and support for Soviet control between 1945 and 1968. Is Tito's asylum for Nagy in November 1956 inside or outside the timeframe?",
+   "factIds": [
+    "F-PROTEST-22"
+   ],
+   "timeframe": [
+    1945,
+    1968
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside",
+     "correct": true,
+     "explanation": "Correct: 1956 falls well within 1945–1968."
+    },
+    {
+     "id": "b",
+     "text": "Outside: it happened after 1968",
+     "correct": false,
+     "explanation": "No: 1956 is well before 1968."
+    },
+    {
+     "id": "c",
+     "text": "Outside: Yugoslavia is not covered by this topic",
+     "correct": false,
+     "explanation": "Its reaction to Hungary is directly relevant here."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which Yugoslav leader's decision over Nagy's asylum angered Khrushchev in November 1956?",
+   "factIds": [
+    "F-PROTEST-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tito",
+     "correct": true,
+     "explanation": "Correct: he sheltered Nagy despite Soviet pressure."
+    },
+    {
+     "id": "b",
+     "text": "Gomułka",
+     "correct": false,
+     "explanation": "Gomułka led Poland, not Yugoslavia."
+    },
+    {
+     "id": "c",
+     "text": "Ulbricht",
+     "correct": false,
+     "explanation": "Ulbricht led East Germany."
+    },
+    {
+     "id": "d",
+     "text": "Rákosi",
+     "correct": false,
+     "explanation": "Rákosi had led Hungary before Nagy."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2078,6 +2503,291 @@
      "text": "Stalin's death in March 1953",
      "answer": "causes",
      "explanation": "The context in which protest became possible."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the extent to which Tito's reaction to the Hungarian Uprising strained relations within the Communist bloc between 1953 and 1956.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine the extent to which",
+     "answer": "verb",
+     "explanation": "Judge how far, with evidence."
+    },
+    {
+     "id": "s2",
+     "text": "Tito's reaction to the Hungarian Uprising",
+     "answer": "factor",
+     "explanation": "The named factor to weigh."
+    },
+    {
+     "id": "s3",
+     "text": "strained relations within the Communist bloc",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1953 and 1956",
+     "answer": "timeframe",
+     "explanation": "From Stalin's death to the Uprising."
+    },
+    {
+     "id": "s5",
+     "text": "strained",
+     "answer": "judgement",
+     "explanation": "How much damage Tito's asylum for Nagy actually did."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did Khrushchev's early reforms contribute to the crises of 1956?” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Khrushchev's bridge-building to Yugoslavia and encouragement of reformers raised hopes of change across the bloc, which fed directly into the upheavals in Poland and Hungary, even though he did not intend to lose control.",
+     "correct": true,
+     "explanation": "Correct: links cause to consequence with a judgement."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev became Soviet leader after Stalin died in 1953.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev caused 1956 on purpose.",
+     "correct": false,
+     "explanation": "Unsupported and overstated."
+    },
+    {
+     "id": "d",
+     "text": "1956 had nothing to do with Khrushchev.",
+     "correct": false,
+     "explanation": "Contradicted by his own reforms and the Secret Speech."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Tito was briefed on the Hungarian crisis on 2 November 1956 and later gave Nagy asylum.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "This showed that even a loyal Communist state would not fully endorse Soviet repression of a popular rising.",
+     "answer": "analysis",
+     "explanation": "Explains the significance."
+    },
+    {
+     "id": "s3",
+     "text": "Khrushchev visited Belgrade in May 1955 to repair relations with Tito.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s4",
+     "text": "Nagy's asylum therefore undid much of that diplomatic work within eighteen months.",
+     "answer": "analysis",
+     "explanation": "Links two events across time."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Tito gave Nagy asylum, angering Khrushchev",
+     "right": "Soviet control over its allies' responses to a crisis was not absolute",
+     "explanation": "Even a Communist ally acted independently."
+    },
+    {
+     "left": "Brecht's poem mocked the regime's claim the workers had been misled",
+     "right": "Sympathy for 1953's rising reached even loyal cultural figures",
+     "explanation": "Criticism from within, not only from the West."
+    },
+    {
+     "left": "Khrushchev's 1955 Belgrade visit repaired ties with Tito",
+     "right": "Post-Stalin diplomacy briefly eased tension in the bloc",
+     "explanation": "A thaw that 1956 then unsettled."
+    },
+    {
+     "left": "Khrushchev encouraged reformers before breaking with Stalin's own record",
+     "right": "Reform from above helped trigger unrest it did not intend",
+     "explanation": "An unintended consequence of a cautious opening."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Tito was annoyed about Hungary.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Tito's decision to give Imre Nagy asylum after the Soviet invasion strained Yugoslavia's relations with Khrushchev, showing that loyalty to Moscow had limits even among Communist states.",
+     "correct": true,
+     "explanation": "Correct: precise evidence and a clear significance."
+    },
+    {
+     "id": "b",
+     "text": "Tito was quite upset about what happened in Hungary.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "In 1956 there was a crisis in Hungary.",
+     "correct": false,
+     "explanation": "Narrative, no analysis."
+    },
+    {
+     "id": "d",
+     "text": "Tito was a difficult ally.",
+     "correct": false,
+     "explanation": "A vague judgement without evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Every Communist state backed the Soviet invasion of Hungary without reservation.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Tito, briefed on 2 November 1956, was anxious but understanding, and then gave Nagy asylum, straining relations with Khrushchev.",
+     "correct": true,
+     "explanation": "Correct: specific, sourced evidence of a dissenting ally."
+    },
+    {
+     "id": "b",
+     "text": "Some Communists privately disagreed.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "c",
+     "text": "Hungary was not really a Communist state.",
+     "correct": false,
+     "explanation": "It was, under Soviet domination since the late 1940s."
+    },
+    {
+     "id": "d",
+     "text": "The West also disagreed with the invasion.",
+     "correct": false,
+     "explanation": "True but irrelevant to Communist-bloc unity."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the impact of Khrushchev's early reforms on the Communist bloc between 1953 and 1956.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by intention against outcome, Khrushchev's reforms succeeded in repairing ties with Yugoslavia by 1955 but, by raising hopes of change, also helped trigger unrest in Poland and Hungary that he had not intended and then had to suppress.",
+     "correct": true,
+     "explanation": "Correct: a criterion, a judgement, and evidence of both success and failure."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Khrushchev made several reforms after Stalin's death.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, reform is always good.",
+     "correct": false,
+     "explanation": "A generic claim, not a judgement about this case."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, 1956 was a difficult year.",
+     "correct": false,
+     "explanation": "Too vague to count as a judgement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B2-PROTEST-TO-1968-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the causes and consequences of the diplomatic strain between Yugoslavia and the USSR in 1956.” Sort each point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Tito was briefed on the Hungarian crisis on 2 November 1956",
+     "answer": "causes",
+     "explanation": "The immediate trigger for his involvement."
+    },
+    {
+     "id": "s2",
+     "text": "Tito gave Nagy asylum",
+     "answer": "causes",
+     "explanation": "The decision that caused the strain."
+    },
+    {
+     "id": "s3",
+     "text": "Khrushchev's displeasure with Yugoslavia",
+     "answer": "effects",
+     "explanation": "The direct diplomatic consequence."
+    },
+    {
+     "id": "s4",
+     "text": "The 1955 Belgrade thaw was partly undone",
+     "answer": "effects",
+     "explanation": "Progress from the previous year was strained."
     }
    ]
   }

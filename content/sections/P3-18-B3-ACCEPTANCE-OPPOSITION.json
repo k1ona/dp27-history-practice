@@ -1752,6 +1752,436 @@
      "explanation": "It was a workers' movement."
     }
    ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did the Prague Spring end for Dubček personally after the invasion?",
+   "factIds": [
+    "F-ACCEPT-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He was flown to Moscow and made to sign away parts of his own programme",
+     "correct": true,
+     "explanation": "Correct: he was allowed back for a few months only because of public support."
+    },
+    {
+     "id": "b",
+     "text": "He was executed",
+     "correct": false,
+     "explanation": "Normalisation after 1968 avoided show trials."
+    },
+    {
+     "id": "c",
+     "text": "He kept full power until 1975",
+     "correct": false,
+     "explanation": "Husák replaced him in April 1969."
+    },
+    {
+     "id": "d",
+     "text": "He fled to the West",
+     "correct": false,
+     "explanation": "He remained in Czechoslovakia."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Czechoslovaks resist the August 1968 invasion itself?",
+   "factIds": [
+    "F-ACCEPT-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "With passive resistance and street protests, but no armed opposition",
+     "correct": true,
+     "explanation": "Correct: the government had asked people not to resist with arms."
+    },
+    {
+     "id": "b",
+     "text": "With a full-scale armed uprising",
+     "correct": false,
+     "explanation": "There was none."
+    },
+    {
+     "id": "c",
+     "text": "They welcomed the troops, as Moscow expected",
+     "correct": false,
+     "explanation": "Moscow was surprised there was no welcome."
+    },
+    {
+     "id": "d",
+     "text": "The army fought back",
+     "correct": false,
+     "explanation": "The government ordered no armed resistance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R23",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what month of 1968 did the Czechoslovak Central Committee replace Novotný with Dubček? (month, as a number)",
+   "factIds": [
+    "F-ACCEPT-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1,
+     "tolerance": 0,
+     "explanation": "January 1968, on the 5th."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R24",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did Jan Palach set fire to himself in Wenceslas Square? (year)",
+   "factIds": [
+    "F-ACCEPT-09"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1969,
+     "tolerance": 0,
+     "explanation": "19 January 1969, in protest at normalisation."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened to people in Czechoslovakia who refused to renounce 1968? Choose all that apply.",
+   "factIds": [
+    "F-ACCEPT-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They lost their jobs",
+     "correct": true,
+     "explanation": "Yes: signing a renunciation was the price of keeping work."
+    },
+    {
+     "id": "b",
+     "text": "Their children suffered too",
+     "correct": true,
+     "explanation": "Yes: the pressure extended to families."
+    },
+    {
+     "id": "c",
+     "text": "Some ended up cleaning boilers or washing windows",
+     "correct": true,
+     "explanation": "Yes: including poets and playwrights."
+    },
+    {
+     "id": "d",
+     "text": "They were put on public show trial",
+     "correct": false,
+     "explanation": "No: normalisation avoided great public trials."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these are among Judt's three illusions behind the Prague Spring? Choose all that apply.",
+   "factIds": [
+    "F-ACCEPT-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That freedom could be folded into Communism",
+     "correct": true,
+     "explanation": "Yes: the first illusion."
+    },
+    {
+     "id": "b",
+     "text": "That the party could allow free speech without losing control",
+     "correct": true,
+     "explanation": "Yes: the second illusion."
+    },
+    {
+     "id": "c",
+     "text": "That staying in the Warsaw Pact would keep Moscow at bay",
+     "correct": true,
+     "explanation": "Yes: the third and most dangerous illusion."
+    },
+    {
+     "id": "d",
+     "text": "That the United States would intervene militarily",
+     "correct": false,
+     "explanation": "Not one of Judt's three illusions."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R27",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Under Kádár's New Economic Mechanism, Hungary became known as 'the best barracks in the laager'.” Which argument does it support best?",
+   "factIds": [
+    "F-ACCEPT-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Consumer goods and limited freedoms bought conformity without threatening the party's monopoly",
+     "correct": true,
+     "explanation": "Correct: outward conformity in exchange for comfort."
+    },
+    {
+     "id": "b",
+     "text": "Hungary left the Warsaw Pact",
+     "correct": false,
+     "explanation": "It stayed a loyal ally."
+    },
+    {
+     "id": "c",
+     "text": "Hungary adopted multi-party elections",
+     "correct": false,
+     "explanation": "Political control stayed undiluted."
+    },
+    {
+     "id": "d",
+     "text": "Kádár was removed in 1968",
+     "correct": false,
+     "explanation": "He introduced the NEM that year."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R28",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Michnik and Kuroń believed Communism could be eroded but not overthrown, because power lay not in Warsaw but in Moscow.” Which argument does it support best?",
+   "factIds": [
+    "F-ACCEPT-25"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Even Solidarity's leaders accepted that change in the satellites depended on a change in Moscow",
+     "correct": true,
+     "explanation": "Correct: this is why martial law, not Soviet collapse, followed in 1981."
+    },
+    {
+     "id": "b",
+     "text": "Solidarity planned to seize the Polish state by force",
+     "correct": false,
+     "explanation": "It called itself a self-limiting revolution."
+    },
+    {
+     "id": "c",
+     "text": "Poland left the Warsaw Pact in 1980",
+     "correct": false,
+     "explanation": "It did not."
+    },
+    {
+     "id": "d",
+     "text": "Moscow supported Solidarity",
+     "correct": false,
+     "explanation": "Moscow saw Poland as adrift and a bad example."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R29",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Charter 77 was a mass movement that quickly gathered hundreds of thousands of signatures and toppled Husák.”",
+   "factIds": [
+    "F-ACCEPT-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Charter 77 began with only 243 signatories and never overthrew the regime",
+     "correct": true,
+     "explanation": "Correct: it gained 1,621 more over a decade, still a tiny fraction of 15 million."
+    },
+    {
+     "id": "b",
+     "text": "Charter 77 was founded in 1977",
+     "correct": false,
+     "explanation": "That date is correct."
+    },
+    {
+     "id": "c",
+     "text": "Havel was one of its spokesmen",
+     "correct": false,
+     "explanation": "That is correct."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: its size and effect are both wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R30",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about opposition in eastern Europe between 1975 and 1985. Is Jan Palach's death in January 1969 inside or outside the timeframe?",
+   "timeframe": [
+    1975,
+    1985
+   ],
+   "factIds": [
+    "F-ACCEPT-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be used briefly as earlier background",
+     "correct": true,
+     "explanation": "Correct: 1969 is before 1975."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: it predates the timeframe."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because normalisation was still continuing",
+     "correct": false,
+     "explanation": "Continuity of a policy does not move the event's date."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R31",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each country to how it kept Communist rule stable after 1968.",
+   "pairs": [
+    {
+     "left": "Hungary",
+     "right": "Limited market reforms and consumer goods under undiluted political control",
+     "explanation": "Kádár's New Economic Mechanism."
+    },
+    {
+     "left": "Romania",
+     "right": "Distance from Moscow combined with severe internal repression",
+     "explanation": "Ceauşescu's 'national Stalinism'."
+    },
+    {
+     "left": "Czechoslovakia",
+     "right": "Purges and pressure to renounce 1968, eased by consumer goods",
+     "explanation": "Husák's normalisation."
+    },
+    {
+     "left": "Poland",
+     "right": "Borrowing abroad to subsidise food, until the strategy failed",
+     "explanation": "Gierek's approach before 1980."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R32",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Dubček becomes First Secretary",
+     "year": 1968,
+     "month": 1,
+     "factId": "F-ACCEPT-01"
+    },
+    {
+     "id": "b",
+     "text": "Invasion of Czechoslovakia",
+     "year": 1968,
+     "month": 8,
+     "factId": "F-ACCEPT-07"
+    },
+    {
+     "id": "c",
+     "text": "Jan Palach dies",
+     "year": 1969,
+     "month": 1,
+     "factId": "F-ACCEPT-09"
+    },
+    {
+     "id": "d",
+     "text": "Husák replaces Dubček",
+     "year": 1969,
+     "month": 4,
+     "factId": "F-ACCEPT-10"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the Action Programme of spring 1968?",
+   "factIds": [
+    "F-ACCEPT-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A plan for Slovak autonomy, rehabilitation of purge victims and gradual democratisation over ten years",
+     "correct": true,
+     "explanation": "Correct: 'Socialism with a human face'."
+    },
+    {
+     "id": "b",
+     "text": "A plan to leave the Warsaw Pact",
+     "correct": false,
+     "explanation": "Dubček promised to stay in the Pact."
+    },
+    {
+     "id": "c",
+     "text": "A Soviet plan to invade Czechoslovakia",
+     "correct": false,
+     "explanation": "It was the Czechoslovak party's own reform plan."
+    },
+    {
+     "id": "d",
+     "text": "An economic austerity programme",
+     "correct": false,
+     "explanation": "It was political, not primarily economic."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2118,6 +2548,291 @@
      "text": "Collapse of industrial productivity in 1981",
      "answer": "effects",
      "explanation": "Strikes and protests continued."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Discuss the view that the Prague Spring failed because Dubček misjudged Moscow.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss the view that",
+     "answer": "verb",
+     "explanation": "Weigh the view, then judge it."
+    },
+    {
+     "id": "s2",
+     "text": "Dubček misjudged Moscow",
+     "answer": "factor",
+     "explanation": "The claim to test."
+    },
+    {
+     "id": "s3",
+     "text": "the Prague Spring failed",
+     "answer": "scope",
+     "explanation": "The outcome to explain."
+    },
+    {
+     "id": "s4",
+     "text": "1968",
+     "answer": "timeframe",
+     "explanation": "From January to August 1968."
+    },
+    {
+     "id": "s5",
+     "text": "Discuss",
+     "answer": "judgement",
+     "explanation": "Was misjudgement the main cause, or was invasion always likely?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the impact of the Helsinki Accords on opposition in eastern Europe between 1975 and 1981.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Helsinki gave dissidents like Charter 77 a legal language of rights that regimes could not simply dismiss as illegal, though their numbers stayed tiny before 1981.",
+     "correct": true,
+     "explanation": "Correct: impact and a limit, in one sentence."
+    },
+    {
+     "id": "b",
+     "text": "The Helsinki Final Act was signed in August 1975.",
+     "correct": false,
+     "explanation": "A fact, not a judgement of impact."
+    },
+    {
+     "id": "c",
+     "text": "Helsinki ended Communist rule in eastern Europe.",
+     "correct": false,
+     "explanation": "Communism lasted until 1989."
+    },
+    {
+     "id": "d",
+     "text": "Helsinki had no effect on opposition.",
+     "correct": false,
+     "explanation": "Charter 77 explicitly cited it."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In January 1977 Charter 77 was published, with 243 original signatories.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because it demanded rights the regime had already signed at Helsinki, the government could not dismiss it as simply illegal.",
+     "answer": "analysis",
+     "explanation": "Explains why it mattered."
+    },
+    {
+     "id": "s3",
+     "text": "On 17 April 1969 Husák replaced Dubček as party leader.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that a former victim of Stalinist purges, not an outsider, now led the purge of the reformers, which made it harder to resist as simple Stalinist revenge.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Dubček was flown to Moscow and made to sign away his programme",
+     "right": "The invasion's aftermath, not just the invasion itself, dismantled reform",
+     "explanation": "Normalisation followed at once."
+    },
+    {
+     "left": "Shelest reported that news from Prague affected young Ukrainians",
+     "right": "Moscow feared contagion, not just a military threat",
+     "explanation": "March 1968."
+    },
+    {
+     "left": "Charter 77 cited the regime's own Helsinki commitments",
+     "right": "Dissidents stopped trying to reform the party and appealed to law instead",
+     "explanation": "A new strategy after 1968."
+    },
+    {
+     "left": "Michnik and Kuroń said power lay in Moscow, not Warsaw",
+     "right": "Even Solidarity's leaders accepted the limits of change without Soviet change",
+     "explanation": "Explains why martial law, not revolution, followed in 1981."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Solidarity was a big deal in Poland.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Solidarity mattered because it showed, for the first time in a Communist state, that society could organise outside the party, registering about ten million members by November 1980.",
+     "correct": true,
+     "explanation": "Correct: specific mechanism and evidence."
+    },
+    {
+     "id": "b",
+     "text": "Solidarity was extremely important and significant.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Solidarity was registered on 10 November 1980.",
+     "correct": false,
+     "explanation": "Narrative, not analysis."
+    },
+    {
+     "id": "d",
+     "text": "Solidarity overthrew the Polish government in 1980.",
+     "correct": false,
+     "explanation": "It did not; martial law followed in 1981."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “After 1968 every regime in eastern Europe ruled in exactly the same way, through fear alone.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kádár's Hungary bought conformity with consumer goods and limited markets, while Ceauşescu's Romania combined distance from Moscow with severe internal repression — the methods differed sharply.",
+     "correct": true,
+     "explanation": "Correct: specific contrast with evidence."
+    },
+    {
+     "id": "b",
+     "text": "All the regimes were Communist.",
+     "correct": false,
+     "explanation": "True but not a counter-argument."
+    },
+    {
+     "id": "c",
+     "text": "The Soviet Union controlled everything.",
+     "correct": false,
+     "explanation": "Too vague, and ignores Romania's distance from Moscow."
+    },
+    {
+     "id": "d",
+     "text": "Poland was in eastern Europe.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons for, and the consequences of, the rise of Solidarity in Poland between 1980 and 1981.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whether Solidarity changed the balance of power, its rise mattered less for 1981 than for 1989: martial law restored control at once, but it could not erase the proof that society could organise without the party.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and a forward-looking limit."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Solidarity formed in 1980 and martial law followed in 1981.",
+     "correct": false,
+     "explanation": "A recap, no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Solidarity was a trade union.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Jaruzelski was wrong to act.",
+     "correct": false,
+     "explanation": "A value judgement, not an analytical one."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-18-B3-ACCEPTANCE-OPPOSITION-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the reasons for the Warsaw Pact invasion of Czechoslovakia in 1968.” Sort each plan point into CAUSES or EFFECTS.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Effects"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Abolition of censorship on 26 June 1968",
+     "answer": "causes",
+     "explanation": "Let pressure outrun the party."
+    },
+    {
+     "id": "s2",
+     "text": "Shelest's report of contagion among young Ukrainians",
+     "answer": "causes",
+     "explanation": "Fed Moscow's fear of spreading reform."
+    },
+    {
+     "id": "s3",
+     "text": "Husák's appointment and normalisation",
+     "answer": "effects",
+     "explanation": "The regime installed after the invasion."
+    },
+    {
+     "id": "s4",
+     "text": "The destruction of belief in reform Communism",
+     "answer": "effects",
+     "explanation": "Judt's long-term judgement."
     }
    ]
   }
