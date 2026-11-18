@@ -3,7 +3,7 @@ import { db } from "../db.js";
 import { content, findQuestion } from "../content.js";
 import { criteriaFor, score, improvementPoints, redraftInstruction, CHECK_NAMES } from "../checks/feedback.js";
 import { sentences } from "../checks/text.js";
-import { enqueue } from "../sync.js";
+import { enqueue, syncEnabled, requestInstantFeedback } from "../sync.js";
 import { modelBlock, sourcesBlock } from "./task.js";
 import { P1_PARTS } from "./section.js";
 import { teacherCard } from "./inbox.js";
@@ -114,6 +114,8 @@ async function feedbackView(root, a, found, criteria) {
   if (teacher) {
     root.insertBefore(teacherCard(teacher), root.children[2] || null);
     if (!teacher.readAt) { teacher.readAt = new Date().toISOString(); await db.put("feedback", teacher, a.submissionId); updateInboxBadge(); }
+  } else if (await syncEnabled()) {
+    root.insertBefore(instantCard(a), root.children[2] || null);
   }
   if (a.timedSessionId) {
     root.append(el("div", { class: "callout", "data-timed-paper": "" },
@@ -127,6 +129,38 @@ async function feedbackView(root, a, found, criteria) {
     el("a", { class: "btn secondary", id: "see-model", href: `#/attempt/${a.submissionId}/model` }, "See the model"),
     el("a", { class: "btn secondary", href: `#/s/${a.sectionId}` }, "Try another question")));
   return root;
+}
+
+const INSTANT_ERRORS = {
+  feedback_off: "Detailed feedback is not switched on yet. Your teacher's feedback will reach your inbox.",
+  feedback_limit: "You have asked for a lot of feedback in the last hour. Try again later; feedback will also reach your inbox.",
+  network: "This needs the internet. Connect, then try again.",
+  not_signed_in: "Sign in from Settings first.",
+  bad_credentials: "Sign in again from Settings first.",
+};
+
+function instantCard(a) {
+  const msg = el("p", { class: "small", id: "instant-status", "aria-live": "polite" });
+  const btn = el("button", { type: "button", id: "instant-feedback" }, "Get detailed feedback now");
+  const card = el("section", { class: "card", "data-instant": "" },
+    el("h2", { style: "margin-top:0" }, "Detailed feedback"),
+    el("p", { class: "small muted" }, "A full comment on this answer: where it sits in the markbands and what to fix first. Needs the internet; usually under a minute."),
+    el("div", { class: "row" }, btn), msg);
+  btn.addEventListener("click", async () => {
+    btn.disabled = true;
+    msg.className = "small";
+    msg.textContent = "Writing your feedback. Keep this page open…";
+    try {
+      const fb = await requestInstantFeedback(contractView(a));
+      if (fb) card.replaceWith(teacherCard(fb));
+      else msg.textContent = "Your teacher is looking at this answer first. The feedback will reach your inbox.";
+    } catch (e) {
+      msg.className = "small bad";
+      msg.textContent = INSTANT_ERRORS[e.message] || "The feedback could not be written just now. Try again in a few minutes; it will also reach your inbox.";
+      btn.disabled = false;
+    }
+  });
+  return card;
 }
 
 async function modelView(root, a, found) {

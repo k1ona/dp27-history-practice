@@ -375,6 +375,57 @@ def test_teacher_feedback_inbox_and_redraft(browser, site_url, content):
     ctx.close()
 
 
+def write_paragraph(page, site_url, content):
+    sec = content[GLASNOST]
+    q = sec["essayQuestions"][0]
+    seed_gate(page, sec)
+    page.goto(site_url + f"#/s/{GLASNOST}/task/{q['questionId']}/paragraph")
+    page.wait_for_selector("#answer")
+    submit_answer(page, WEAK_PARAGRAPH)
+    finish_selfcheck(page)
+
+
+def test_instant_feedback_button(browser, site_url, content):
+    server = FakeServer()
+    ctx, page = synced_page(browser, server)
+    sign_in(page, site_url)
+    write_paragraph(page, site_url, content)
+    page.click("#instant-feedback")
+    card = page.locator("[data-teacher-feedback]")
+    expect(card).to_contain_text("Instant feedback")
+    expect(card).to_contain_text("Written automatically")
+    expect(card).to_contain_text("Rewrite your last sentence as a judgement on glasnost.")
+    expect(page.locator("[data-instant]")).to_have_count(0)
+    call = next(c for c in server.calls if c.get("action") == "instantFeedback")
+    assert call["payload"]["studentId"] == "S99" and call["payload"]["responseText"] == WEAK_PARAGRAPH
+    stored = read_store(page, "feedback")
+    assert len(stored) == 1 and "markForPrediction" not in json.dumps(stored)
+    expect(page.locator("#inbox-count")).to_be_hidden()  # opened on screen, so not unread
+    page.reload()
+    expect(page.locator("[data-teacher-feedback]")).to_contain_text("Instant feedback")
+    expect(page.locator("#redraft")).to_have_text("Redraft after teacher feedback")
+    ctx.close()
+
+
+def test_instant_feedback_explains_failures(browser, site_url, content):
+    server = FakeServer(instant_error="feedback_limit")
+    ctx, page = synced_page(browser, server)
+    sign_in(page, site_url)
+    write_paragraph(page, site_url, content)
+    page.click("#instant-feedback")
+    expect(page.locator("#instant-status")).to_contain_text("a lot of feedback in the last hour")
+    expect(page.locator("#instant-feedback")).to_be_enabled()
+    assert read_store(page, "feedback") == []
+    ctx.close()
+
+
+def test_no_instant_feedback_button_without_class_server(page, site_url, content):
+    open_app(page, site_url)
+    write_paragraph(page, site_url, content)
+    expect(page.locator("[data-status]")).to_be_visible()
+    expect(page.locator("#instant-feedback")).to_have_count(0)
+
+
 def test_restore_on_a_new_device(browser, site_url):
     backup = {"schema": "dp27.export.v1", "stores": {
         "attempts": [{"k": "11111111-1111-4111-8111-111111111111", "v": {"submissionId": "11111111-1111-4111-8111-111111111111",

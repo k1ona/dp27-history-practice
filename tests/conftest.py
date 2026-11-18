@@ -145,12 +145,12 @@ ENDPOINT = "https://sync.example.test/exec"
 
 
 class FakeServer:
-    """Answers like apps_script/Code.gs: login, submit, progress, feedback, restore (same JSON protocol)."""
+    """Answers like apps_script/Code.gs: login, submit, progress, feedback, restore, instantFeedback (same JSON protocol)."""
 
-    def __init__(self, fail_submits=0, backup=None):
+    def __init__(self, fail_submits=0, backup=None, instant_error=None):
         self.pins = {"S99": "4821"}
         self.calls, self.submissions, self.progress, self.feedback = [], {}, [], []
-        self.fail_submits, self.backup = fail_submits, backup
+        self.fail_submits, self.backup, self.instant_error = fail_submits, backup, instant_error
 
     def token(self, sid):
         return f"{sid}.1.signed"
@@ -179,6 +179,19 @@ class FakeServer:
             return self.reply(route, {"ok": True, "feedback": [f for f in self.feedback if f["studentId"] == sid]})
         if a == "restore":
             return self.reply(route, {"ok": True, "backup": self.backup})
+        if a == "instantFeedback":
+            if self.instant_error:
+                return self.reply(route, {"ok": False, "error": self.instant_error})
+            p = body["payload"]
+            self.submissions.setdefault(p["submissionId"], p)
+            fb = {"schema": "dp27.feedback.v1", "submissionId": p["submissionId"], "studentId": sid, "instant": True,
+                  "placement": {"type": "band", "value": "4–6 quality", "outOf": 15},
+                  "points": [{"quote": "The party collapsed in the end.", "missing": "a judgement on glasnost",
+                              "action": "Say how far glasnost was responsible."}],
+                  "redraftInstruction": "Rewrite your last sentence as a judgement on glasnost.",
+                  "improved": None, "forwardTarget": None, "writtenAt": "2026-11-18T10:00:00Z", "markForPrediction": 5}
+            self.feedback.append(fb)
+            return self.reply(route, {"ok": True, "feedback": fb})
         return self.reply(route, {"ok": False, "error": "bad_action"})
 
     @staticmethod

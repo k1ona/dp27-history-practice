@@ -164,6 +164,8 @@ function handle_(action, body, size) {
   if (action === 'progress') return progress_(student, body.payload, size);
   if (action === 'feedback') return { ok: true, feedback: feedbackFor_(student.studentId) };
   if (action === 'restore') return restore_(student);
+  if (action === 'instantFeedback' && typeof instantFeedback_ === 'function') return instantFeedback_(student, body.payload, size);
+  if (action === 'instantFeedback') throw new Error('feedback_off');
   throw new Error('bad_action');
 }
 
@@ -514,7 +516,7 @@ function hex_(bytes) {
 
 function errorCode_(err) {
   var known = ['bad_student', 'bad_credentials', 'locked', 'bad_action', 'too_large', 'bad_schema', 'bad_submission_id',
-    'wrong_student', 'bad_task_type', 'rate_limited', 'not_set_up'];
+    'wrong_student', 'bad_task_type', 'rate_limited', 'not_set_up', 'feedback_off', 'feedback_limit', 'feedback_failed'];
   var m = String((err && err.message) || err);
   return known.indexOf(m) >= 0 ? m : 'server_error';
 }

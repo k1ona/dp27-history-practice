@@ -40,7 +40,8 @@ export function placementText(p) {
 /** The teacher's feedback, in the same shape as the written feedback the teacher gives in class. */
 export function teacherCard(fb) {
   return el("section", { class: "card", "data-teacher-feedback": fb.submissionId, style: "border-left: 4px solid var(--accent-2)" },
-    el("h2", { style: "margin-top:0" }, "Teacher feedback"),
+    el("h2", { style: "margin-top:0" }, fb.instant ? "Instant feedback" : "Teacher feedback"),
+    fb.instant ? el("p", { class: "small muted" }, "Written automatically, straight away, from your teacher's marking guide. Your teacher sees every answer.") : null,
     fb.placement ? el("p", {}, el("strong", {}, "Placement: "), placementText(fb.placement)) : null,
     fb.improved ? el("p", {}, el("strong", {}, "What improved: "), fb.improved) : null,
     ...(fb.points || []).map((p) => el("div", { class: "point" },

@@ -115,6 +115,24 @@ export async function fetchFeedback() {
   return fresh;
 }
 
+/** Asks the class server to mark one answer straight away. Returns the released feedback, or null if the teacher is holding it. */
+export async function requestInstantFeedback(payload) {
+  const cred = await credentials();
+  if (!cred || cred.profile.needsSignIn) throw new ApiError("not_signed_in");
+  if (!navigator.onLine) throw new ApiError("network");
+  const body = { ...payload, studentId: cred.profile.studentId, level: payload.level || cred.profile.level };
+  const reply = await api("instantFeedback", { ...cred.auth, payload: body });
+  const fb = reply.feedback;
+  if (!fb || !fb.submissionId) return null;
+  const clean = { ...fb };
+  delete clean.markForPrediction;
+  delete clean.markOutOf;
+  const now = new Date().toISOString();
+  await db.put("feedback", { ...clean, receivedAt: now, readAt: now }, fb.submissionId);
+  updateInboxBadge();
+  return clean;
+}
+
 /** A snapshot of progress plus a full backup. Only the newest snapshot waits in the queue. */
 export async function buildProgress() {
   const profile = (await db.get("profile", "me")) || {};
