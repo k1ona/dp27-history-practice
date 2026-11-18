@@ -1654,6 +1654,429 @@
      "explanation": "It ended in 1935."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the First Five-Year Plan begin? (year)",
+   "factIds": [
+    "F-SEC-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1928,
+     "tolerance": 0,
+     "explanation": "1928–32."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By how many tons was the coal target raised to under the 'optimal' variant? (millions, e.g. 75)",
+   "factIds": [
+    "F-SEC-02"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 75,
+     "tolerance": 20,
+     "explanation": "75 million tons, later raised to 95–105 million."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What two beliefs underpinned collectivisation?",
+   "factIds": [
+    "F-SEC-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Large mechanised farms would be more efficient, and kulaks were a 'class-alien' threat",
+     "correct": true,
+     "explanation": "Correct: efficiency and class struggle combined."
+    },
+    {
+     "id": "b",
+     "text": "Peasants wanted it and kulaks supported it",
+     "correct": false,
+     "explanation": "The opposite: peasants resisted and kulaks were targeted."
+    },
+    {
+     "id": "c",
+     "text": "It would raise consumer goods output immediately",
+     "correct": false,
+     "explanation": "Not the stated reasoning."
+    },
+    {
+     "id": "d",
+     "text": "It was required by a trade agreement",
+     "correct": false,
+     "explanation": "Not the stated reasoning."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Stalin mean by officials being 'dizzy with success' in 1930?",
+   "factIds": [
+    "F-SEC-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He blamed local officials for excessive coercion in collectivisation, after about 55 per cent had nominally joined",
+     "correct": true,
+     "explanation": "Correct: a tactical retreat that let over half withdraw."
+    },
+    {
+     "id": "b",
+     "text": "He praised officials for exceeding targets",
+     "correct": false,
+     "explanation": "It was a criticism, not praise."
+    },
+    {
+     "id": "c",
+     "text": "He was describing industrial output",
+     "correct": false,
+     "explanation": "It concerned collectivisation."
+    },
+    {
+     "id": "d",
+     "text": "He was announcing the end of collectivisation",
+     "correct": false,
+     "explanation": "Collectivisation continued; it rose again to 61.5 per cent by 1932."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R25",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "factIds": [
+    "F-SEC-04",
+    "F-SEC-05",
+    "F-SEC-06",
+    "F-SEC-11"
+   ],
+   "sequence": [
+    {
+     "id": "a",
+     "text": "One million peasant households join collectives",
+     "year": 1929,
+     "month": 6,
+     "factId": "F-SEC-04"
+    },
+    {
+     "id": "b",
+     "text": "Central Committee decree on mass collectivisation",
+     "year": 1930,
+     "month": 1,
+     "factId": "F-SEC-05"
+    },
+    {
+     "id": "c",
+     "text": "Famine in Ukraine and the North Caucasus",
+     "year": 1932,
+     "factId": "F-SEC-06"
+    },
+    {
+     "id": "d",
+     "text": "Stakhanov's record shift",
+     "year": 1935,
+     "month": 8,
+     "factId": "F-SEC-11"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Stephen Wheatcroft blames 'ill-conceived policies' for the famine and calls the regime's conduct criminal fraud and manslaughter, not genocide.” Which argument does it support best?",
+   "factIds": [
+    "F-SEC-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The famine resulted mainly from policy failure rather than a deliberate campaign to exterminate a people",
+     "correct": true,
+     "explanation": "Correct: Wheatcroft's distinction from genocide."
+    },
+    {
+     "id": "b",
+     "text": "The famine was entirely natural, with no state responsibility",
+     "correct": false,
+     "explanation": "Wheatcroft blames policy, not nature alone."
+    },
+    {
+     "id": "c",
+     "text": "Wheatcroft agrees the famine was genocide",
+     "correct": false,
+     "explanation": "He explicitly rejects that term."
+    },
+    {
+     "id": "d",
+     "text": "The famine did not happen",
+     "correct": false,
+     "explanation": "Not his argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Magnitogorsk was a small pilot steel town that never attracted many workers.”",
+   "factIds": [
+    "F-SEC-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "By autumn 1932 it had 250,000 people and became the world's largest steel plant",
+     "correct": true,
+     "explanation": "Correct: a huge flagship project, not a small pilot."
+    },
+    {
+     "id": "b",
+     "text": "It was founded in 1929",
+     "correct": false,
+     "explanation": "Correct as stated."
+    },
+    {
+     "id": "c",
+     "text": "It was modelled on Gary, Indiana",
+     "correct": false,
+     "explanation": "Correct as stated."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it grew enormous, not small."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Stalin's economic policies between 1928 and 1941. Is the June 1940 decree criminalising absenteeism inside or outside the timeframe?",
+   "factIds": [
+    "F-SEC-13"
+   ],
+   "timeframe": [
+    1928,
+    1941
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside: 1940 falls within 1928–1941",
+     "correct": true,
+     "explanation": "Correct: part of tightening labour discipline before the war."
+    },
+    {
+     "id": "b",
+     "text": "Outside: it is after the period",
+     "correct": false,
+     "explanation": "No: 1940 is before 1941."
+    },
+    {
+     "id": "c",
+     "text": "Outside: labour discipline is a different topic",
+     "correct": false,
+     "explanation": "It is squarely part of Stalin's economic policy."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R29",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the Stakhanovite movement? Choose all that apply.",
+   "factIds": [
+    "F-SEC-11",
+    "F-SEC-12",
+    "F-SEC-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Record-setters received higher piece-rates and consumer goods",
+     "correct": true,
+     "explanation": "Yes: a reward system."
+    },
+    {
+     "id": "b",
+     "text": "Output norms were raised in 1936 after records were set",
+     "correct": true,
+     "explanation": "Yes: this bred resentment."
+    },
+    {
+     "id": "c",
+     "text": "Engineers were sometimes scapegoated for 'recordmania' disrupting production",
+     "correct": true,
+     "explanation": "Yes: accused of sabotage."
+    },
+    {
+     "id": "d",
+     "text": "It was abandoned immediately after Stakhanov's 1935 shift",
+     "correct": false,
+     "explanation": "It became a sustained movement, not abandoned."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R30",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each historian to their argument on the 1932–33 famine.",
+   "factIds": [
+    "F-SEC-18",
+    "F-SEC-19"
+   ],
+   "pairs": [
+    {
+     "left": "Stephen Wheatcroft",
+     "right": "Criminal fraud and manslaughter, not genocide",
+     "explanation": "Blames 'ill-conceived policies'."
+    },
+    {
+     "left": "J. Arch Getty",
+     "right": "'Stalinist bungling and rigidity', not a genocidal plan",
+     "explanation": "Summarises the archival consensus."
+    },
+    {
+     "left": "Michael Ellman",
+     "right": "Criticises Davies and Wheatcroft's definition of intent as too narrow",
+     "explanation": "A critic within the debate."
+    },
+    {
+     "left": "Lewis Siegelbaum",
+     "right": "Collectivisation was 'a partial victory for the state'",
+     "explanation": "Agriculture became 'a net drain'."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the 1937 census reveal, and what happened as a result?",
+   "factIds": [
+    "F-SEC-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Population had grown by only 7.2 million since 1926, far below the projected 37.6 million; the result was suppressed and the statistics chief arrested",
+     "correct": true,
+     "explanation": "Correct: evidence of the famine's demographic toll, covered up."
+    },
+    {
+     "id": "b",
+     "text": "Population had grown exactly as projected",
+     "correct": false,
+     "explanation": "It fell far short of the projection."
+    },
+    {
+     "id": "c",
+     "text": "The census was published and praised",
+     "correct": false,
+     "explanation": "It was suppressed."
+    },
+    {
+     "id": "d",
+     "text": "The census covered only industrial workers",
+     "correct": false,
+     "explanation": "It was a national population census."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R32",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year was the Second Kolkhoz Charter issued, entrenching the collective-farm system? (year)",
+   "factIds": [
+    "F-SEC-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1935,
+     "tolerance": 0,
+     "explanation": "February 1935."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-R33",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Rationing was imposed from 1929 to 1935 and again from 1941 to 1947.” Which argument does it support best?",
+   "factIds": [
+    "F-SEC-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The First Five-Year Plan's rapid industrialisation came at a real cost to ordinary consumption, not just to the peasantry",
+     "correct": true,
+     "explanation": "Correct: urban shortages alongside rural famine."
+    },
+    {
+     "id": "b",
+     "text": "The Soviet economy had no shortages in the 1930s",
+     "correct": false,
+     "explanation": "Rationing shows the opposite."
+    },
+    {
+     "id": "c",
+     "text": "Rationing ended permanently in 1935",
+     "correct": false,
+     "explanation": "It returned in 1941."
+    },
+    {
+     "id": "d",
+     "text": "Rationing only affected Ukraine",
+     "correct": false,
+     "explanation": "It was a national measure."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2020,6 +2443,303 @@
      "text": "State control over the peasants",
      "answer": "effects",
      "explanation": "Through the MTS."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the economic and human costs of Stalin's First Five-Year Plan and collectivisation, 1928–1933.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Evaluate",
+     "answer": "verb",
+     "explanation": "Weigh strengths and costs, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "the First Five-Year Plan and collectivisation",
+     "answer": "factor",
+     "explanation": "The named policies."
+    },
+    {
+     "id": "s3",
+     "text": "economic and human costs",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "1928–1933",
+     "answer": "timeframe",
+     "explanation": "The Plan and the famine."
+    },
+    {
+     "id": "s5",
+     "text": "costs",
+     "answer": "judgement",
+     "explanation": "Did gains outweigh the human toll?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the economic and human costs of Stalin's First Five-Year Plan and collectivisation, 1928–1933.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Plan built Magnitogorsk and made the USSR a leading industrial power, but collectivisation's coercive methods caused a famine that killed at least five million, so the economic achievement came at an enormous and largely avoidable human cost.",
+     "correct": true,
+     "explanation": "Correct: weighs both sides with specific evidence."
+    },
+    {
+     "id": "b",
+     "text": "The Five-Year Plan began in 1928.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Stalin's policies were harsh.",
+     "correct": false,
+     "explanation": "No specific judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Plan had no costs at all.",
+     "correct": false,
+     "explanation": "Contradicted by the famine."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "A poor harvest in 1932 struck Ukraine, the Lower Volga and the North Caucasus.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "The famine that followed was worsened because the state prioritised grain for towns and the army over starving villages.",
+     "answer": "analysis",
+     "explanation": "Explains why the famine deepened."
+    },
+    {
+     "id": "s3",
+     "text": "Stakhanov cut 102 tons of coal in a single shift in August 1935.",
+     "answer": "narrative",
+     "explanation": "States a fact."
+    },
+    {
+     "id": "s4",
+     "text": "This record mattered because it let the party raise output norms, turning a propaganda triumph into a source of workers' resentment.",
+     "answer": "analysis",
+     "explanation": "Draws out the consequence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "factIds": [
+    "F-SEC-02",
+    "F-SEC-06",
+    "F-SEC-16",
+    "F-SEC-17"
+   ],
+   "pairs": [
+    {
+     "left": "Coal target raised to 95–105 million tons",
+     "right": "Targets were revised upward even as strain and waste grew",
+     "explanation": "'Optimal' variant pushed further."
+    },
+    {
+     "left": "At least five million famine deaths",
+     "right": "Collectivisation's human cost was severe",
+     "explanation": "Ukraine, Volga, North Caucasus."
+    },
+    {
+     "left": "1937 census result suppressed",
+     "right": "The regime concealed the famine's demographic toll",
+     "explanation": "Statistics chief arrested."
+    },
+    {
+     "left": "Rationing 1929–35 and 1941–47",
+     "right": "Rapid industrialisation strained ordinary consumption",
+     "explanation": "Urban shortages, not just rural famine."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Collectivisation was bad for peasants.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because collectivisation combined forced farm mergers with 'dekulakisation', peasants responded by slaughtering livestock and working slowly, which cut production just as procurement quotas rose, turning a poor 1932 harvest into a famine that killed at least five million.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence, consequence."
+    },
+    {
+     "id": "b",
+     "text": "Peasants suffered a lot.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Collectivisation began in 1929.",
+     "correct": false,
+     "explanation": "Narrative, no judgement."
+    },
+    {
+     "id": "d",
+     "text": "The government didn't care about peasants.",
+     "correct": false,
+     "explanation": "Unsupported claim about motive."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The famine of 1932–33 proves Stalin deliberately tried to exterminate the Ukrainian peasantry.” What is the strongest counter-argument?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Wheatcroft and Getty, working from the archives, attribute the famine mainly to 'ill-conceived policies' and 'bungling', calling it criminal fraud and manslaughter rather than a planned genocide",
+     "correct": true,
+     "explanation": "Correct: a genuine historiographical counter, not a dodge."
+    },
+    {
+     "id": "b",
+     "text": "The famine happened in 1932",
+     "correct": false,
+     "explanation": "A fact, not a counter-argument."
+    },
+    {
+     "id": "c",
+     "text": "Stalin was a harsh leader",
+     "correct": false,
+     "explanation": "Doesn't address intent."
+    },
+    {
+     "id": "d",
+     "text": "There is no counter-argument",
+     "correct": false,
+     "explanation": "There is: the Wheatcroft/Getty reading."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the economic and human costs of Stalin's economic policies.” What criterion should the judgement rest on?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Whether the industrial gains (output, Magnitogorsk, Stakhanovism) outweighed the scale of human loss (famine deaths, labour discipline, rationing)",
+     "correct": true,
+     "explanation": "Correct: a clear, weighable standard."
+    },
+    {
+     "id": "b",
+     "text": "Whether Stalin personally visited Magnitogorsk",
+     "correct": false,
+     "explanation": "Not a historical criterion."
+    },
+    {
+     "id": "c",
+     "text": "Whether other countries industrialised faster",
+     "correct": false,
+     "explanation": "Not what the question asks."
+    },
+    {
+     "id": "d",
+     "text": "Whether the Five-Year Plan had a catchy name",
+     "correct": false,
+     "explanation": "Not a historical criterion."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-ECONOMY-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the economic and human costs of Stalin's economic policies, 1928–1941.” Sort each point into ECONOMIC ACHIEVEMENTS or HUMAN COSTS.",
+   "categories": [
+    {
+     "id": "gains",
+     "label": "Economic achievements"
+    },
+    {
+     "id": "costs",
+     "label": "Human costs"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Magnitogorsk and the world's largest steel plant",
+     "answer": "gains",
+     "explanation": "A flagship industrial project."
+    },
+    {
+     "id": "s2",
+     "text": "The USSR became one of the world's leading industrial countries",
+     "answer": "gains",
+     "explanation": "The Plan's declared success."
+    },
+    {
+     "id": "s3",
+     "text": "Famine in Ukraine, the Lower Volga and the North Caucasus",
+     "answer": "costs",
+     "explanation": "At least five million deaths."
+    },
+    {
+     "id": "s4",
+     "text": "Peasants slaughtering livestock in protest",
+     "answer": "costs",
+     "explanation": "Resistance to collectivisation."
+    },
+    {
+     "id": "s5",
+     "text": "Rationing imposed from 1929 to 1935",
+     "answer": "costs",
+     "explanation": "Urban shortages alongside rural famine."
     }
    ]
   }

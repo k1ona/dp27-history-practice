@@ -1652,6 +1652,181 @@
      "explanation": "Housing was a priority."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Besides Poznań and Hungary, where did the Secret Speech provoke protest in 1956?",
+   "factIds": ["F-KHR-07"],
+   "options": [
+    {"id": "a", "text": "Tbilisi, where students protested the removal of a Stalin monument", "correct": true, "explanation": "Correct: shock waves reached Stalin's own region."},
+    {"id": "b", "text": "Leningrad, over housing shortages", "correct": false, "explanation": "Not the trigger described."},
+    {"id": "c", "text": "Moscow, over grain prices", "correct": false, "explanation": "That unrest came later, at Novocherkassk in 1962."},
+    {"id": "d", "text": "Kiev, over language policy", "correct": false, "explanation": "Not described in the sources."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Add the hectares ploughed in 1954 (19 million) and 1955 (14 million): how many million hectares had the Virgin Lands campaign ploughed in total by the end of 1955? (number)",
+   "factIds": ["F-KHR-10"],
+   "blanks": [
+    {"id": "1", "answer": 33, "tolerance": 0, "explanation": "19 + 14 = 33 million hectares."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R23",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {"id": "a", "text": "Secret Speech", "year": 1956, "month": 2, "factId": "F-KHR-05"},
+    {"id": "b", "text": "22nd Party Congress reveals the Sino-Soviet split", "year": 1961, "month": 10, "factId": "F-KHR-22"},
+    {"id": "c", "text": "Novocherkassk shootings", "year": 1962, "month": 6, "factId": "F-KHR-17"},
+    {"id": "d", "text": "Khrushchev removed from power", "year": 1964, "month": 10, "factId": "F-KHR-20"}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R24",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each body to what it did in the power struggles of 1953–1964.",
+   "pairs": [
+    {"left": "The Presidium", "right": "Tried and failed to remove Khrushchev in June 1957", "explanation": "His opponents held a majority there."},
+    {"left": "The Central Committee", "right": "Overruled the Presidium and saved Khrushchev", "explanation": "Flown in with Zhukov's help."},
+    {"left": "The Twentieth Party Congress", "right": "Heard the Secret Speech in closed session", "explanation": "February 1956."},
+    {"left": "The Twenty-Second Party Congress", "right": "Revealed the depth of the Sino-Soviet split", "explanation": "October 1961."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these are true of the 'anti-Party group' crisis of June 1957? Choose all that apply.",
+   "factIds": ["F-KHR-09"],
+   "options": [
+    {"id": "a", "text": "The Presidium at first voted to remove Khrushchev", "correct": true, "explanation": "Yes: his opponents had a majority there."},
+    {"id": "b", "text": "Zhukov helped fly in Khrushchev's supporters on the Central Committee", "correct": true, "explanation": "Yes, crucial to the outcome."},
+    {"id": "c", "text": "Molotov and Kaganovich were demoted, not executed", "correct": true, "explanation": "Yes: a break with Stalin's methods."},
+    {"id": "d", "text": "Zhukov was promoted for his help", "correct": false, "explanation": "No: he was retired that October."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Zhukov, who had helped save Khrushchev in June 1957, was himself retired that October.” Which argument does it support best?",
+   "factIds": ["F-KHR-09"],
+   "options": [
+    {"id": "a", "text": "Khrushchev removed potential rivals even among his own allies once secure", "correct": true, "explanation": "Correct: a wary, not a grateful, leader."},
+    {"id": "b", "text": "Zhukov led the anti-Party group", "correct": false, "explanation": "He helped defeat it."},
+    {"id": "c", "text": "The army took control of the party in 1957", "correct": false, "explanation": "The opposite: Zhukov was sidelined."},
+    {"id": "d", "text": "Khrushchev was removed in 1957", "correct": false, "explanation": "He was removed in 1964."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Khrushchev abolished private plots to force peasants onto collective farms.”",
+   "factIds": ["F-KHR-13"],
+   "options": [
+    {"id": "a", "text": "Private plots were never abolished; the 3 per cent of land in private hands produced over a third of output", "correct": true, "explanation": "Correct: the system depended on them."},
+    {"id": "b", "text": "Collective farms produced all Soviet food", "correct": false, "explanation": "Private plots were disproportionately productive."},
+    {"id": "c", "text": "Private plots were introduced only in 1964", "correct": false, "explanation": "They existed throughout."},
+    {"id": "d", "text": "There is no error", "correct": false, "explanation": "There is: plots were never abolished."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Khrushchev's rise to power between 1953 and 1957. Is the Nineteenth Party Congress of October 1952, Stalin's last, inside or outside the timeframe?",
+   "factIds": ["F-KHR-01"],
+   "timeframe": [1953, 1957],
+   "options": [
+    {"id": "a", "text": "Outside: it took place under Stalin, before the timeframe begins", "correct": true, "explanation": "Correct: 1952 is before 1953."},
+    {"id": "b", "text": "Inside", "correct": false, "explanation": "No: it predates Stalin's death."},
+    {"id": "c", "text": "Inside, because it set the stage for succession", "correct": false, "explanation": "Relevant background, not inside the dates."},
+    {"id": "d", "text": "It depends on the command term", "correct": false, "explanation": "The command term does not change the timeframe."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What were the cheap prefabricated housing blocks built under Khrushchev popularly nicknamed?",
+   "factIds": ["F-KHR-15"],
+   "options": [
+    {"id": "a", "text": "Khrushcheby", "correct": true, "explanation": "Correct: a mocking blend with the word for slums."},
+    {"id": "b", "text": "Stalinki", "correct": false, "explanation": "That nickname belongs to earlier, grander Stalin-era buildings."},
+    {"id": "c", "text": "Sovnarkhozy", "correct": false, "explanation": "That was the name for the 1957 regional economic councils."},
+    {"id": "d", "text": "Dachas", "correct": false, "explanation": "Those are country cottages, not these blocks."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By September 1961, what was the maximum number of Soviet intercontinental missiles US intelligence estimated? (number)",
+   "factIds": ["F-KHR-16"],
+   "blanks": [
+    {"id": "1", "answer": 25, "tolerance": 0, "explanation": "No more than twenty-five."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R31",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these are true of Lavrentii Beria in 1953? Choose all that apply.",
+   "factIds": ["F-KHR-02"],
+   "options": [
+    {"id": "a", "text": "He repudiated the Doctors' Plot and backed the release of prisoners", "correct": true, "explanation": "Yes: he moved fastest to change policy."},
+    {"id": "b", "text": "He was arrested on 26 June 1953", "correct": true, "explanation": "Yes, on Khrushchev's initiative."},
+    {"id": "c", "text": "He was secretly tried and executed in December 1953", "correct": true, "explanation": "Yes, on 24 December."},
+    {"id": "d", "text": "He became First Secretary after Stalin", "correct": false, "explanation": "No: Khrushchev took that post."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Malenkov's 'New Course' stressed consumer goods, yet he was forced to resign as prime minister on 8 February 1955.” Which argument does it support best?",
+   "factIds": ["F-KHR-03"],
+   "options": [
+    {"id": "a", "text": "Control of the party apparatus mattered more than a popular policy programme", "correct": true, "explanation": "Correct: Siegelbaum's point exactly."},
+    {"id": "b", "text": "Malenkov's programme was unpopular with ordinary people", "correct": false, "explanation": "It was Khrushchev who out-manoeuvred him, not public opinion."},
+    {"id": "c", "text": "Malenkov led the Soviet Union until 1964", "correct": false, "explanation": "He resigned in 1955."},
+    {"id": "d", "text": "Consumer goods production was abandoned entirely", "correct": false, "explanation": "Not what the fact shows."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By 1962, roughly how many million hectares had Khrushchev's corn campaign reached?",
+   "factIds": ["F-KHR-12"],
+   "options": [
+    {"id": "a", "text": "37 million hectares, much of it in unsuitable climates", "correct": true, "explanation": "Correct: most of the crop died that cool, wet year."},
+    {"id": "b", "text": "5 million hectares", "correct": false, "explanation": "The real figure was far larger."},
+    {"id": "c", "text": "100 million hectares", "correct": false, "explanation": "An overstatement."},
+    {"id": "d", "text": "None: the campaign never began", "correct": false, "explanation": "It did begin, and failed badly in 1962."}
+   ]
   }
  ],
  "drills": [
@@ -2019,6 +2194,125 @@
      "answer": "effects",
      "explanation": "June 1957."
     }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the significance of the 'anti-Party group' crisis of 1957 for Khrushchev's leadership.”",
+   "segments": [
+    {"id": "s1", "text": "Evaluate", "answer": "verb", "explanation": "Weigh strengths and limits, then judge."},
+    {"id": "s2", "text": "the 'anti-Party group' crisis of 1957", "answer": "factor", "explanation": "The event to evaluate."},
+    {"id": "s3", "text": "significance … for Khrushchev's leadership", "answer": "scope", "explanation": "What must be judged."},
+    {"id": "s4", "text": "1957", "answer": "timeframe", "explanation": "And its lasting effects after."},
+    {"id": "s5", "text": "significance", "answer": "judgement", "explanation": "Did it confirm his power, or expose its limits?"}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the significance of the 'anti-Party group' crisis of 1957 for Khrushchev's leadership.” Pick the thesis that answers it.",
+   "options": [
+    {"id": "a", "text": "The crisis was significant because defeating his rivals through the Central Committee confirmed Khrushchev's power and his break from Stalin's methods, though his dependence on Zhukov, soon retired, showed that power still rested on shifting alliances.", "correct": true, "explanation": "Correct: weighs significance against a limit."},
+    {"id": "b", "text": "Molotov opposed Khrushchev in 1957.", "correct": false, "explanation": "A fact, not a thesis."},
+    {"id": "c", "text": "The crisis was important.", "correct": false, "explanation": "No judgement."},
+    {"id": "d", "text": "Khrushchev lost all power in 1957.", "correct": false, "explanation": "Inaccurate: he won."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {"id": "s1", "text": "On 2 June 1962 troops fired on workers at Novocherkassk, killing twenty-four.", "answer": "narrative", "explanation": "States what happened."},
+    {"id": "s2", "text": "Because price rises followed years of agricultural failure, the protest turned violent in a way earlier unrest had not.", "answer": "analysis", "explanation": "Explains why this event differed."},
+    {"id": "s3", "text": "In 1956 the 1940 law criminalising leaving a job was abolished.", "answer": "narrative", "explanation": "A date-led statement."},
+    {"id": "s4", "text": "This meant ordinary workers gained real new freedoms, so Khrushchev's reforms went beyond mere rhetoric.", "answer": "analysis", "explanation": "Explains significance."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {"left": "Zhukov was retired in October 1957 after helping save Khrushchev", "right": "Khrushchev removed rivals even among his own allies", "explanation": "A wary, not a grateful, leader."},
+    {"left": "US intelligence estimated no more than 25 Soviet ICBMs by September 1961", "right": "Khrushchev's claims of missile strength were exaggerated", "explanation": "Space success masked military weakness."},
+    {"left": "The 3 per cent of land in private hands produced over a third of output", "right": "Collective agriculture was far less efficient than private plots", "explanation": "A persistent weakness of the system."},
+    {"left": "Malenkov's popular 'New Course' still ended in his resignation", "right": "Control of the party apparatus mattered more than policy popularity", "explanation": "Siegelbaum's argument."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Khrushchev's agriculture went wrong.” Choose the best analytical upgrade.",
+   "options": [
+    {"id": "a", "text": "Because single-crop farming on the Virgin Lands exhausted the soil and the corn campaign expanded into unsuitable climates, the record harvest of 1956 gave way to erosion and crop failure, so by January 1964 the Soviet Union had to import grain from the West it had promised to outproduce.", "correct": true, "explanation": "Correct: specific mechanism and outcome."},
+    {"id": "b", "text": "Khrushchev's agriculture was quite bad.", "correct": false, "explanation": "Still vague."},
+    {"id": "c", "text": "Khrushchev liked farming.", "correct": false, "explanation": "Irrelevant."},
+    {"id": "d", "text": "Agriculture failed everywhere in the USSR.", "correct": false, "explanation": "Overstated: private plots stayed productive."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Khrushchev's removal in 1964 proved he had never really held power.” Pick the strongest counter-argument.",
+   "options": [
+    {"id": "a", "text": "He ruled for eleven years, defeating Beria, Malenkov and the 'anti-Party group' in turn, and his own reform — replacing execution with demotion — was what let him be removed rather than killed in 1964.", "correct": true, "explanation": "Correct: specific counter-evidence."},
+    {"id": "b", "text": "Khrushchev was unpopular.", "correct": false, "explanation": "Not specific counter-evidence."},
+    {"id": "c", "text": "Power is hard to define.", "correct": false, "explanation": "Not an argument."},
+    {"id": "d", "text": "Some historians disagree.", "correct": false, "explanation": "Too vague to count as a counter."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'Khrushchev's agricultural policies were a failure.' Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {"id": "a", "text": "Judged against Khrushchev's own promises of plenty, his policies failed; judged against the system he inherited, they still briefly raised output and changed how peasants lived.", "correct": true, "explanation": "Correct: two criteria and a weighed judgement."},
+    {"id": "b", "text": "In conclusion, agriculture is important.", "correct": false, "explanation": "A recap with no weighing."},
+    {"id": "c", "text": "In conclusion, the Virgin Lands existed.", "correct": false, "explanation": "A fact, not a judgement."},
+    {"id": "d", "text": "In conclusion, farming is hard everywhere.", "correct": false, "explanation": "Too general to be a judgement."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-KHRUSHCHEV-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the reasons why Khrushchev was removed from power between 1962 and 1964.” Sort each plan point into REASONS or EFFECTS.",
+   "categories": [
+    {"id": "causes", "label": "Reasons"},
+    {"id": "effects", "label": "Effects"}
+   ],
+   "segments": [
+    {"id": "s1", "text": "Grain had to be imported from the West by January 1964", "answer": "causes", "explanation": "Evidence of agricultural failure."},
+    {"id": "s2", "text": "Troops fired on protesters at Novocherkassk in 1962", "answer": "causes", "explanation": "Unrest over prices."},
+    {"id": "s3", "text": "Khrushchev was removed in October 1964", "answer": "effects", "explanation": "The Kremlin coup's outcome."},
+    {"id": "s4", "text": "He lived under house arrest until his death in 1971", "answer": "effects", "explanation": "A result of the new, non-lethal norm."},
+    {"id": "s5", "text": "His inconsistent, autocratic style alarmed his colleagues", "answer": "causes", "explanation": "Judt's explanation."}
    ]
   }
  ],

@@ -1635,6 +1635,181 @@
      "explanation": "It covered collective farmers too."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did Brezhnev single out Czechoslovakia before the 1968 invasion?",
+   "factIds": ["F-BRZ-19"],
+   "options": [
+    {"id": "a", "text": "He had long regarded it as the least ideologically reliable member of the Warsaw Pact", "correct": true, "explanation": "Correct: a long-held suspicion, not a sudden fear."},
+    {"id": "b", "text": "It had just left the Warsaw Pact entirely", "correct": false, "explanation": "It had not formally left."},
+    {"id": "c", "text": "It was the only member with nuclear weapons", "correct": false, "explanation": "Not the reason given."},
+    {"id": "d", "text": "It had refused to attend any Warsaw Pact meetings", "correct": false, "explanation": "Not what the sources describe."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Brezhnev-era 'consensus model' combine, according to historians?",
+   "factIds": ["F-BRZ-17"],
+   "options": [
+    {"id": "a", "text": "Stability and a measure of control over citizens' lives, alongside wide-scale corruption within Brezhnev's own family", "correct": true, "explanation": "Correct: stability had a real cost."},
+    {"id": "b", "text": "Total transparency and no corruption at all", "correct": false, "explanation": "The opposite: corruption was significant."},
+    {"id": "c", "text": "Constant purges, as under Stalin", "correct": false, "explanation": "The consensus model avoided mercurial swings."},
+    {"id": "d", "text": "Free elections between rival parties", "correct": false, "explanation": "Not part of the system."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R23",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year was the Kosygin economic reform launched? (year)",
+   "factIds": ["F-BRZ-01"],
+   "blanks": [
+    {"id": "1", "answer": 1965, "tolerance": 0, "explanation": "1965."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R24",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {"id": "a", "text": "Kosygin reform launched", "year": 1965, "factId": "F-BRZ-01"},
+    {"id": "b", "text": "Sinyavsky and Daniel sentenced", "year": 1966, "factId": "F-BRZ-03"},
+    {"id": "c", "text": "Invasion of Czechoslovakia", "year": 1968, "month": 8, "factId": "F-BRZ-07"},
+    {"id": "d", "text": "SALT I signed", "year": 1972, "factId": "F-BRZ-08"}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R25",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each policy area to what happened under Brezhnev.",
+   "pairs": [
+    {"left": "Economic reform", "right": "The Kosygin reform of 1965, later abandoned", "explanation": "Managers never gained real price-setting power."},
+    {"left": "Dissent", "right": "Sinyavsky and Daniel imprisoned for their fiction in 1966", "explanation": "A chill after Khrushchev's Thaw."},
+    {"left": "Foreign policy", "right": "SALT I and the Helsinki Accords", "explanation": "1972 and 1975."},
+    {"left": "Consumer life", "right": "The 'Little Deal': consumption traded for political quiet", "explanation": "Millar's term."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the 'Little Deal'? Choose all that apply.",
+   "factIds": ["F-BRZ-12", "F-BRZ-14"],
+   "options": [
+    {"id": "a", "text": "Consumption traded for political quiescence", "correct": true, "explanation": "Yes: Millar's description."},
+    {"id": "b", "text": "By 1980, 86 per cent of urban families owned a fridge", "correct": true, "explanation": "Yes: rising ownership of durables."},
+    {"id": "c", "text": "By 1980, 85 per cent of urban families owned a television", "correct": true, "explanation": "Yes, alongside the fridge figure."},
+    {"id": "d", "text": "Free multi-party elections", "correct": false, "explanation": "No: the deal was consumer goods, not politics."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R27",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By 1980, 86 per cent of urban families owned a fridge and 85 per cent a television.” Which argument does it support best?",
+   "factIds": ["F-BRZ-14"],
+   "options": [
+    {"id": "a", "text": "The 'Little Deal' delivered real, visible gains in living standards", "correct": true, "explanation": "Correct: consumption for quiet had substance."},
+    {"id": "b", "text": "Consumer goods were unavailable under Brezhnev", "correct": false, "explanation": "The opposite."},
+    {"id": "c", "text": "Living standards fell after 1965", "correct": false, "explanation": "They rose for durables."},
+    {"id": "d", "text": "The Kosygin reform caused these gains directly", "correct": false, "explanation": "The reform itself was largely abandoned."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R28",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Brezhnev Doctrine of 1968 promised every Warsaw Pact state full independence from Soviet control.”",
+   "factIds": ["F-BRZ-07"],
+   "options": [
+    {"id": "a", "text": "It asserted the opposite: the USSR's right to intervene if socialism was threatened in any Warsaw Pact state", "correct": true, "explanation": "Correct: proclaimed after the invasion of Czechoslovakia."},
+    {"id": "b", "text": "It was proclaimed before 1968", "correct": false, "explanation": "It followed the August 1968 invasion."},
+    {"id": "c", "text": "It applied only to Czechoslovakia", "correct": false, "explanation": "It applied to the whole bloc."},
+    {"id": "d", "text": "There is no error", "correct": false, "explanation": "There is: it asserted control, not independence."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R29",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Brezhnev's Soviet Union between 1964 and 1982. Is Gorbachev's appointment as General Secretary in March 1985 inside or outside the timeframe?",
+   "factIds": ["F-BRZ-16"],
+   "timeframe": [1964, 1982],
+   "options": [
+    {"id": "a", "text": "Outside: Brezhnev died in 1982, three years before", "correct": true, "explanation": "Correct: 1985 is after 1982."},
+    {"id": "b", "text": "Inside", "correct": false, "explanation": "No: it falls after the timeframe ends."},
+    {"id": "c", "text": "Inside, because it resulted from his policies", "correct": false, "explanation": "Relevant context, not inside the dates."},
+    {"id": "d", "text": "It depends on the command term", "correct": false, "explanation": "The command term does not change the timeframe."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By 1980, what percentage of urban families owned a television? (per cent)",
+   "factIds": ["F-BRZ-14"],
+   "blanks": [
+    {"id": "1", "answer": 85, "tolerance": 0, "explanation": "85 per cent."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R31",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these are true of the Sinyavsky-Daniel trial of 1966? Choose all that apply.",
+   "factIds": ["F-BRZ-03"],
+   "options": [
+    {"id": "a", "text": "Both writers were imprisoned for their fiction", "correct": true, "explanation": "Yes: a sharp break from the late Thaw."},
+    {"id": "b", "text": "It signalled a tightening of cultural controls after Khrushchev", "correct": true, "explanation": "Yes, contemporaries read it that way."},
+    {"id": "c", "text": "It took place in 1966", "correct": true, "explanation": "Yes: the year of the trial itself."},
+    {"id": "d", "text": "The writers were acquitted", "correct": false, "explanation": "No: they were convicted and imprisoned."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The consensus model gave citizens a measure of control over their lives, though Brezhnev's own family was involved in wide-scale corruption.” Which argument does it support best?",
+   "factIds": ["F-BRZ-17"],
+   "options": [
+    {"id": "a", "text": "Stability under Brezhnev came at the price of entrenched corruption, even at the top", "correct": true, "explanation": "Correct: a double-edged stability."},
+    {"id": "b", "text": "Brezhnev eliminated corruption entirely", "correct": false, "explanation": "The opposite."},
+    {"id": "c", "text": "The regime collapsed into chaos after 1964", "correct": false, "explanation": "It was marked by stability, not chaos."},
+    {"id": "d", "text": "Citizens had no control over their lives at all", "correct": false, "explanation": "The fact says they had some."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did Brezhnev die, after failing health and the accumulation of honorific titles?",
+   "factIds": ["F-BRZ-16"],
+   "options": [
+    {"id": "a", "text": "1982", "correct": true, "explanation": "Correct: after years of declining health."},
+    {"id": "b", "text": "1975", "correct": false, "explanation": "Helsinki was signed that year; he lived on."},
+    {"id": "c", "text": "1968", "correct": false, "explanation": "That was the Czechoslovakia invasion."},
+    {"id": "d", "text": "1991", "correct": false, "explanation": "That was the USSR's collapse, under Gorbachev."}
+   ]
   }
  ],
  "drills": [
@@ -2002,6 +2177,125 @@
      "answer": "effects",
      "explanation": "A disillusioned white-collar class."
     }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the significance of the Brezhnev Doctrine for Soviet control of Eastern Europe between 1968 and 1982.”",
+   "segments": [
+    {"id": "s1", "text": "Evaluate", "answer": "verb", "explanation": "Weigh strengths and limits, then judge."},
+    {"id": "s2", "text": "the Brezhnev Doctrine", "answer": "factor", "explanation": "The named factor."},
+    {"id": "s3", "text": "significance … for Soviet control of Eastern Europe", "answer": "scope", "explanation": "What must be judged."},
+    {"id": "s4", "text": "between 1968 and 1982", "answer": "timeframe", "explanation": "From the invasion of Czechoslovakia to Brezhnev's death."},
+    {"id": "s5", "text": "significance", "answer": "judgement", "explanation": "Did it secure control, or just defer the problem?"}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the significance of the Brezhnev Doctrine for Soviet control of Eastern Europe between 1968 and 1982.” Pick the thesis that answers it.",
+   "options": [
+    {"id": "a", "text": "The Doctrine was significant because it openly asserted Moscow's right to intervene, deterring further Prague Springs in the short term, but it entrenched the stagnation and resentment that made 1989 a far larger rupture when control finally broke.", "correct": true, "explanation": "Correct: weighs short-term and long-term effects."},
+    {"id": "b", "text": "The USSR invaded Czechoslovakia in 1968.", "correct": false, "explanation": "A fact, not a thesis."},
+    {"id": "c", "text": "The Doctrine was significant.", "correct": false, "explanation": "No judgement."},
+    {"id": "d", "text": "The Doctrine ended all unrest in Eastern Europe forever.", "correct": false, "explanation": "Overstated."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {"id": "s1", "text": "On 21 August 1968 Warsaw Pact troops invaded Czechoslovakia.", "answer": "narrative", "explanation": "States what happened."},
+    {"id": "s2", "text": "Because Brezhnev had long seen Czechoslovakia as unreliable, the invasion was less a sudden panic than the execution of a standing concern.", "answer": "analysis", "explanation": "Explains motive."},
+    {"id": "s3", "text": "By 1980, 86 per cent of urban families owned a fridge.", "answer": "narrative", "explanation": "A statistic-led statement."},
+    {"id": "s4", "text": "This meant that rising consumption bought the regime a measure of quiet, so open dissent stayed limited despite economic stagnation.", "answer": "analysis", "explanation": "Explains significance."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {"left": "Brezhnev had long regarded Czechoslovakia as the least reliable Warsaw Pact member", "right": "The 1968 invasion followed a settled Soviet concern, not a sudden one", "explanation": "A long-held suspicion."},
+    {"left": "Brezhnev's own family was involved in wide-scale corruption", "right": "Stability under Brezhnev came at a real cost", "explanation": "The consensus model's downside."},
+    {"left": "86 per cent of urban families owned a fridge by 1980", "right": "The 'Little Deal' delivered visible material gains", "explanation": "Consumption for quiet had substance."},
+    {"left": "Sinyavsky and Daniel were imprisoned for their fiction in 1966", "right": "Cultural controls tightened sharply after Khrushchev's Thaw", "explanation": "An early sign of reversal."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Brezhnev's rule was stable but corrupt.” Choose the best analytical upgrade.",
+   "options": [
+    {"id": "a", "text": "Because the regime traded rising consumption — fridges, televisions, a measure of personal control — for political quiescence, it avoided the mercurial swings of Khrushchev's rule; but this same consensus model tolerated wide-scale corruption within Brezhnev's own family, showing that stability and accountability were in tension.", "correct": true, "explanation": "Correct: specific mechanism and tension."},
+    {"id": "b", "text": "Brezhnev's rule was pretty stable.", "correct": false, "explanation": "Still vague."},
+    {"id": "c", "text": "Brezhnev liked stability.", "correct": false, "explanation": "Irrelevant."},
+    {"id": "d", "text": "Everyone was corrupt under Brezhnev.", "correct": false, "explanation": "Overstated."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Détente under Brezhnev meant the end of Cold War confrontation.” Pick the strongest counter-argument.",
+   "options": [
+    {"id": "a", "text": "In the very years of SALT I and Helsinki, the Brezhnev Doctrine justified the ongoing occupation of Czechoslovakia and the USSR invaded Afghanistan in 1979, showing confrontation continued alongside negotiation.", "correct": true, "explanation": "Correct: specific counter-evidence."},
+    {"id": "b", "text": "Détente was a Western idea.", "correct": false, "explanation": "Not specific counter-evidence."},
+    {"id": "c", "text": "The Cold War is hard to define.", "correct": false, "explanation": "Not an argument."},
+    {"id": "d", "text": "Some historians disagree.", "correct": false, "explanation": "Too vague to count as a counter."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “'The Brezhnev era was one of stagnation, not stability.' Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {"id": "a", "text": "Judged by growth and reform, the era was stagnation: the Kosygin reform failed and the second economy grew; judged by daily life and political order, it was real stability, bought through rising consumption and the avoidance of Khrushchev's mercurial swings.", "correct": true, "explanation": "Correct: two criteria and a weighed judgement."},
+    {"id": "b", "text": "In conclusion, the Brezhnev era happened.", "correct": false, "explanation": "A recap with no weighing."},
+    {"id": "c", "text": "In conclusion, stagnation is bad.", "correct": false, "explanation": "An opinion, not a judgement."},
+    {"id": "d", "text": "In conclusion, every era has problems.", "correct": false, "explanation": "Too general."}
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-BREZHNEV-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for, and the results of, the invasion of Czechoslovakia in 1968.” Sort each plan point into REASONS or RESULTS.",
+   "categories": [
+    {"id": "causes", "label": "Reasons"},
+    {"id": "effects", "label": "Results"}
+   ],
+   "segments": [
+    {"id": "s1", "text": "Brezhnev had long seen Czechoslovakia as the least reliable Warsaw Pact member", "answer": "causes", "explanation": "A standing concern."},
+    {"id": "s2", "text": "Reform under Dubček threatened to loosen party control", "answer": "causes", "explanation": "The 'Prague Spring'."},
+    {"id": "s3", "text": "Warsaw Pact troops invaded on 21 August 1968", "answer": "effects", "explanation": "The immediate action."},
+    {"id": "s4", "text": "The Brezhnev Doctrine was proclaimed, asserting a right to intervene across the bloc", "answer": "effects", "explanation": "A new, open justification."},
+    {"id": "s5", "text": "Reform hopes elsewhere in Eastern Europe were discouraged for years", "answer": "effects", "explanation": "A chilling effect."}
    ]
   }
  ],

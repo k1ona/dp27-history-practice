@@ -1640,6 +1640,431 @@
      "explanation": "Not what it required."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many Soviet soldiers were captured at Kiev in September 1941? (number)",
+   "factIds": [
+    "F-GPW-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 750000,
+     "tolerance": 1000,
+     "explanation": "750,000, of whom only 22,000 survived the war."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what month and year was the Comintern dissolved? (year)",
+   "factIds": [
+    "F-GPW-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1943,
+     "tolerance": 0,
+     "explanation": "May 1943, taken by the West as a goodwill gesture."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did historian G. A. Kumanev conclude about the 1941 industrial evacuation?",
+   "factIds": [
+    "F-GPW-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Its main goal 'was achieved' despite the lack of pre-war planning",
+     "correct": true,
+     "explanation": "Correct: 1,523 enterprises relocated east."
+    },
+    {
+     "id": "b",
+     "text": "It was a total failure",
+     "correct": false,
+     "explanation": "Not Kumanev's judgement."
+    },
+    {
+     "id": "c",
+     "text": "It had been planned years in advance",
+     "correct": false,
+     "explanation": "Stalin had feared planning would encourage defeatism."
+    },
+    {
+     "id": "d",
+     "text": "It mainly moved people, not factories",
+     "correct": false,
+     "explanation": "1,523 large defence enterprises moved too."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to Soviet veterans after demobilisation?",
+   "factIds": [
+    "F-GPW-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Unemployment reached fifty per cent in many regions and many had nowhere to live",
+     "correct": true,
+     "explanation": "Correct: the regime also feared their independent spirit."
+    },
+    {
+     "id": "b",
+     "text": "All were guaranteed jobs and housing",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "They were kept in the army",
+     "correct": false,
+     "explanation": "8.5 million were demobilised."
+    },
+    {
+     "id": "d",
+     "text": "They were deported to Central Asia",
+     "correct": false,
+     "explanation": "That happened to deported nationalities, not veterans generally."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R25",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Siege of Leningrad begins",
+     "year": 1941,
+     "month": 9,
+     "factId": "F-GPW-05"
+    },
+    {
+     "id": "b",
+     "text": "Lend-Lease aid approved",
+     "year": 1941,
+     "month": 10,
+     "factId": "F-GPW-10"
+    },
+    {
+     "id": "c",
+     "text": "Battle of Stalingrad begins",
+     "year": 1942,
+     "month": 8,
+     "factId": "F-GPW-06"
+    },
+    {
+     "id": "d",
+     "text": "Tehran Conference",
+     "year": 1943,
+     "month": 11,
+     "factId": "F-GPW-10"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R26",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each deported group or event to its fact.",
+   "pairs": [
+    {
+     "left": "Chechens and Ingush",
+     "right": "Deported in a single night in February 1944",
+     "explanation": "Charged collectively with collaboration."
+    },
+    {
+     "left": "Volga Germans",
+     "right": "At least 400,000 deported in 1941",
+     "explanation": "The earliest of the wartime deportations."
+    },
+    {
+     "left": "Crimean Tatars and Meskhetian Turks",
+     "right": "Not allowed to return even after 1957",
+     "explanation": "Unlike most other deported nationalities."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R27",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these contributed to the famine of 1946–47? Choose all that apply.",
+   "factIds": [
+    "F-GPW-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The 1946 drought, which cut the grain harvest sharply",
+     "correct": true,
+     "explanation": "Yes: 39.6 million tons against 95.5 million in 1940."
+    },
+    {
+     "id": "b",
+     "text": "High procurement quotas kept in place",
+     "correct": true,
+     "explanation": "Yes: the state still took grain at pre-famine rates."
+    },
+    {
+     "id": "c",
+     "text": "The September 1946 decree taking back private plots",
+     "correct": true,
+     "explanation": "Yes: reduced peasants' own food supply."
+    },
+    {
+     "id": "d",
+     "text": "A fall in the urban population",
+     "correct": false,
+     "explanation": "Not a cause given in the record."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R28",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened immediately after Stalin's death in March 1953? Choose all that apply.",
+   "factIds": [
+    "F-GPW-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A looming purge from the 'Doctors' Plot' was cut short",
+     "correct": true,
+     "explanation": "Yes: foreshortened by his death on 5 March 1953."
+    },
+    {
+     "id": "b",
+     "text": "A 'collective leadership' of Malenkov, Beria and Khrushchev formed",
+     "correct": true,
+     "explanation": "Yes, under the Presidium."
+    },
+    {
+     "id": "c",
+     "text": "Genetic research was halted",
+     "correct": false,
+     "explanation": "That was Lysenko's 1948 victory, before Stalin's death."
+    },
+    {
+     "id": "d",
+     "text": "Rationing was abolished",
+     "correct": false,
+     "explanation": "That was December 1947."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R29",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Stalin used the language and images of traditional Russian nationalism to rally the population, as Churchill used history to stir his people.” Which argument does it support?",
+   "factIds": [
+    "F-GPW-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin drew on patriotism, not only ideology, to unite the country for war",
+     "correct": true,
+     "explanation": "Correct: a shift from pure Marxist-Leninist language."
+    },
+    {
+     "id": "b",
+     "text": "Stalin rejected all appeals to Russian history",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Only Churchill used historical appeals",
+     "correct": false,
+     "explanation": "The comparison is explicit both ways."
+    },
+    {
+     "id": "d",
+     "text": "Nationalism played no part in the war effort",
+     "correct": false,
+     "explanation": "It played a central part."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R30",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Khrushchev later accused Stalin of leaving the country unprepared for the Nazi invasion and of numerous wartime blunders.” Which argument does it support?",
+   "factIds": [
+    "F-GPW-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin's own leadership bears some responsibility for the catastrophe of 1941",
+     "correct": true,
+     "explanation": "Correct: a post-Stalin critique from within the leadership itself."
+    },
+    {
+     "id": "b",
+     "text": "Stalin had prepared the country perfectly",
+     "correct": false,
+     "explanation": "Khrushchev's charge is the opposite."
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev defended Stalin's wartime record",
+     "correct": false,
+     "explanation": "He attacked it."
+    },
+    {
+     "id": "d",
+     "text": "The invasion was expected and planned for",
+     "correct": false,
+     "explanation": "The charge is that it was not."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R31",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Food rationing was abolished as soon as the war ended in 1945.”",
+   "factIds": [
+    "F-GPW-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rationing was abolished on 14 December 1947, over two years after the war ended",
+     "correct": true,
+     "explanation": "Correct: alongside a currency reform that wiped out many rural savings."
+    },
+    {
+     "id": "b",
+     "text": "A currency reform accompanied the end of rationing",
+     "correct": false,
+     "explanation": "That part is correct."
+    },
+    {
+     "id": "c",
+     "text": "The war ended in 1945",
+     "correct": false,
+     "explanation": "That part is correct."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the date given is wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R32",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “All of the Soviet Union's war losses are precisely agreed upon by historians.”",
+   "factIds": [
+    "F-GPW-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Figures are disputed: 20 million was the Soviet-era official figure, while the post-Soviet Russian government gives 26.6 million",
+     "correct": true,
+     "explanation": "Correct: about 27 million is a commonly cited estimate, but it is contested."
+    },
+    {
+     "id": "b",
+     "text": "The Soviet Union suffered heavy civilian and military losses",
+     "correct": false,
+     "explanation": "That part is correct."
+    },
+    {
+     "id": "c",
+     "text": "Estimates come from both Soviet and post-Soviet sources",
+     "correct": false,
+     "explanation": "That part is correct."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the figures are disputed, not precisely agreed."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-R33",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Soviet Union's war effort between 1941 and 1943. Is the abolition of rationing in December 1947 inside or outside the timeframe?",
+   "factIds": [
+    "F-GPW-13"
+   ],
+   "timeframe": [
+    1941,
+    1943
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1943."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1947 is after 1943."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it resulted from the war",
+     "correct": false,
+     "explanation": "Relevant in theme but outside the dates."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2006,6 +2431,297 @@
      "text": "Return allowed for most only in 1957",
      "answer": "effects",
      "explanation": "Not the Crimean Tatars."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the political and economic condition of the Soviet Union in the years immediately after the Great Patriotic War, 1945 to 1953.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine",
+     "answer": "verb",
+     "explanation": "Explain the main features with supporting detail."
+    },
+    {
+     "id": "s2",
+     "text": "political and economic condition",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "of the Soviet Union in the years immediately after the Great Patriotic War",
+     "answer": "scope",
+     "explanation": "What must be covered."
+    },
+    {
+     "id": "s4",
+     "text": "1945 to 1953",
+     "answer": "timeframe",
+     "explanation": "From victory to Stalin's death."
+    },
+    {
+     "id": "s5",
+     "text": "condition",
+     "answer": "judgement",
+     "explanation": "Recovery, or continued hardship and control?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the political and economic condition of the Soviet Union, 1945 to 1953.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Victory brought no relaxation: a 1946–47 famine, continued rationing until December 1947 and renewed ideological control under Zhdanov show that hardship and repression, not recovery, defined the post-war years.",
+     "correct": true,
+     "explanation": "Correct: specific, judged thesis."
+    },
+    {
+     "id": "b",
+     "text": "The war ended in 1945.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Life got better after the war.",
+     "correct": false,
+     "explanation": "Too vague, and contradicted by the evidence."
+    },
+    {
+     "id": "d",
+     "text": "The Soviet Union recovered instantly.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The 1946 drought cut the grain harvest to 39.6 million tons.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because procurement quotas stayed high despite the shortfall, the state's demands for grain deepened the famine it might otherwise have eased.",
+     "answer": "analysis",
+     "explanation": "Explains a cause of worsening hardship."
+    },
+    {
+     "id": "s3",
+     "text": "On 14 December 1947 rationing was abolished alongside a currency reform.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that rural savers, who mostly lacked bank accounts, lost the most, so the reform fell unevenly on town and country.",
+     "answer": "analysis",
+     "explanation": "Explains an unequal impact."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "17 to 25 million people evacuated east in 1941",
+     "right": "The Soviet state mounted a huge logistical response to the invasion",
+     "explanation": "Alongside 1,523 defence enterprises."
+    },
+    {
+     "left": "Unemployment reaching fifty per cent among veterans",
+     "right": "Victory did not mean a return to a comfortable civilian life",
+     "explanation": "Many veterans had nowhere to live."
+    },
+    {
+     "left": "Comintern dissolved in May 1943",
+     "right": "Stalin made gestures to reassure his Western allies",
+     "explanation": "Taken as a sign of goodwill."
+    },
+    {
+     "left": "Lysenko's 1948 triumph",
+     "right": "Ideological loyalty was prized over scientific truth",
+     "explanation": "Genetics halted until the 1960s."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The war caused a lot of damage to the Soviet economy.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because collective farms had lost well over half their pre-war horses and working-age men by 1945, sown area and the grain harvest collapsed, so a drought in 1946 tipped an already weakened agricultural system into famine.",
+     "correct": true,
+     "explanation": "Correct: mechanism and precise figures."
+    },
+    {
+     "id": "b",
+     "text": "The economy suffered during the war.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The war lasted from 1941 to 1945.",
+     "correct": false,
+     "explanation": "Narrative, not analysis."
+    },
+    {
+     "id": "d",
+     "text": "Everything was destroyed.",
+     "correct": false,
+     "explanation": "Overstated and imprecise."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Soviet victory in 1945 was achieved through Stalin's leadership alone.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Allied Lend-Lease aid worth a billion dollars by late 1941, the Red Army's own commanders such as Zhukov at Stalingrad, and the sheer scale of civilian mobilisation and evacuation all contributed alongside Stalin's decisions.",
+     "correct": true,
+     "explanation": "Correct: names specific alternative factors."
+    },
+    {
+     "id": "b",
+     "text": "Stalin was not really in charge.",
+     "correct": false,
+     "explanation": "Contradicted by the evidence of his control."
+    },
+    {
+     "id": "c",
+     "text": "The war was won by luck.",
+     "correct": false,
+     "explanation": "Not a historical argument."
+    },
+    {
+     "id": "d",
+     "text": "Victory came quickly and easily.",
+     "correct": false,
+     "explanation": "Not supported; losses were immense."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the political and economic condition of the Soviet Union, 1945 to 1953.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by output and living standards, the post-war years brought hardship, as the 1946–47 famine and continued rationing show; judged by political control, the regime's grip was, if anything, tighter than before the war.",
+     "correct": true,
+     "explanation": "Correct: two criteria, weighed against each other."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, there was a famine and some repression.",
+     "correct": false,
+     "explanation": "A recap, no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the war was difficult.",
+     "correct": false,
+     "explanation": "Too vague and general."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Stalin died in 1953.",
+     "correct": false,
+     "explanation": "A fact, not a judgement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-GPW-POSTWAR-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was the Soviet victory in the Great Patriotic War due to Stalin's leadership between 1941 and 1945?” Sort each plan point into FOR STALIN or AGAINST STALIN.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "For Stalin"
+    },
+    {
+     "id": "effects",
+     "label": "Against Stalin"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Order No. 227, 'Not One Step Back!', held the line at Stalingrad",
+     "answer": "causes",
+     "explanation": "1942."
+    },
+    {
+     "id": "s2",
+     "text": "Appeals to Russian nationalism rallied the population",
+     "answer": "causes",
+     "explanation": "Alongside Marxist-Leninist ideology."
+    },
+    {
+     "id": "s3",
+     "text": "Khrushchev later blamed Stalin for leaving the country unprepared in 1941",
+     "answer": "effects",
+     "explanation": "A post-Stalin critique."
+    },
+    {
+     "id": "s4",
+     "text": "Lack of pre-war evacuation planning, for fear of encouraging defeatism",
+     "answer": "effects",
+     "explanation": "Hampered the 1941 evacuation."
+    },
+    {
+     "id": "s5",
+     "text": "Huge losses in the first months of the invasion",
+     "answer": "effects",
+     "explanation": "5.5 million soldiers captured, most in the first seven months."
     }
    ]
   }

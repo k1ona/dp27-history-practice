@@ -1613,6 +1613,428 @@
      "explanation": "Not his view."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did Lenin die? (year)",
+   "factIds": [
+    "F-SPW-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1924,
+     "tolerance": 0,
+     "explanation": "21 January 1924."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Petrograd was renamed after Lenin on 26 January 1924. What was it renamed? (one word)",
+   "factIds": [
+    "F-SPW-02"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Leningrad",
+     "tolerance": 0,
+     "explanation": "Leningrad."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Lenin's Testament say about Stalin?",
+   "factIds": [
+    "F-SPW-05"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That he was 'too rude' and should be removed as General Secretary",
+     "correct": true,
+     "explanation": "Correct: added in a postscript."
+    },
+    {
+     "id": "b",
+     "text": "That he was the best choice to succeed Lenin",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Nothing; Stalin was not mentioned",
+     "correct": false,
+     "explanation": "He was criticised directly."
+    },
+    {
+     "id": "d",
+     "text": "That he lacked ambition",
+     "correct": false,
+     "explanation": "Not the criticism made."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What post did Trotsky lose in January 1925?",
+   "factIds": [
+    "F-SPW-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The presidency of the Revolutionary Military Council",
+     "correct": true,
+     "explanation": "Correct: a major blow to his power base."
+    },
+    {
+     "id": "b",
+     "text": "His Politburo seat",
+     "correct": false,
+     "explanation": "He lost that only later, in 1926."
+    },
+    {
+     "id": "c",
+     "text": "His party membership",
+     "correct": false,
+     "explanation": "He was not expelled until 1927."
+    },
+    {
+     "id": "d",
+     "text": "The editorship of Pravda",
+     "correct": false,
+     "explanation": "Not his post."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R25",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "factIds": [
+    "F-SPW-11",
+    "F-SPW-13"
+   ],
+   "sequence": [
+    {
+     "id": "a",
+     "text": "United Opposition forms",
+     "year": 1926,
+     "factId": "F-SPW-11"
+    },
+    {
+     "id": "b",
+     "text": "Stalin's majority destroys the United Opposition",
+     "year": 1927,
+     "factId": "F-SPW-11"
+    },
+    {
+     "id": "c",
+     "text": "Trotsky and Zinoviev expelled from the party",
+     "year": 1927,
+     "month": 11,
+     "factId": "F-SPW-13"
+    },
+    {
+     "id": "d",
+     "text": "Trotsky expelled from the Soviet Union",
+     "year": 1929,
+     "month": 2,
+     "factId": "F-SPW-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Historian Vadim Rogovin argues the United Opposition's 1927 proposals would have developed workers' control over economic management.” Which argument does it support best?",
+   "factIds": [
+    "F-SPW-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Left Opposition's defeat closed off a genuine democratic alternative",
+     "correct": true,
+     "explanation": "Correct: Rogovin's sympathetic reading of the 1927 platform."
+    },
+    {
+     "id": "b",
+     "text": "The United Opposition wanted less industry",
+     "correct": false,
+     "explanation": "It wanted more heavy industry."
+    },
+    {
+     "id": "c",
+     "text": "Rogovin supports Stalin's record",
+     "correct": false,
+     "explanation": "He is sympathetic to the Opposition, not Stalin."
+    },
+    {
+     "id": "d",
+     "text": "The Opposition had no concrete programme",
+     "correct": false,
+     "explanation": "It had a detailed 1927 platform."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Zinoviev and Kamenev refused to recant after their November 1927 expulsion, and so were expelled from the Soviet Union like Trotsky.”",
+   "factIds": [
+    "F-SPW-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Zinoviev and Kamenev recanted and were readmitted to the party in 1928",
+     "correct": true,
+     "explanation": "Correct: only Trotsky refused and was exiled, then expelled from the USSR in 1929."
+    },
+    {
+     "id": "b",
+     "text": "The expulsions happened in November 1927",
+     "correct": false,
+     "explanation": "Correct as stated."
+    },
+    {
+     "id": "c",
+     "text": "Trotsky was expelled from the Soviet Union",
+     "correct": false,
+     "explanation": "Correct, in February 1929."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Zinoviev and Kamenev recanted."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Stalin's struggle for power between 1924 and 1929. Is Stalin's article 'A Year of Great Change' (November 1929) inside or outside the timeframe?",
+   "factIds": [
+    "F-SPW-16"
+   ],
+   "timeframe": [
+    1924,
+    1929
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside: November 1929 falls within 1924–1929",
+     "correct": true,
+     "explanation": "Correct: it is the last year of the period."
+    },
+    {
+     "id": "b",
+     "text": "Outside: it is after 1929",
+     "correct": false,
+     "explanation": "No: November 1929 is still within 1929."
+    },
+    {
+     "id": "c",
+     "text": "Outside: the article was published in 1930",
+     "correct": false,
+     "explanation": "It was published in Pravda in November 1929."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R29",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the triumvirate against Trotsky in 1924–1925? Choose all that apply.",
+   "factIds": [
+    "F-SPW-06",
+    "F-SPW-07",
+    "F-SPW-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin, Zinoviev and Kamenev formed it to sidetrack Lenin's Testament",
+     "correct": true,
+     "explanation": "Yes: formed by May 1924."
+    },
+    {
+     "id": "b",
+     "text": "It used Trotsky's late arrival to Bolshevism against him",
+     "correct": true,
+     "explanation": "Yes: he joined only in mid-1917."
+    },
+    {
+     "id": "c",
+     "text": "It included Bukharin from the start",
+     "correct": false,
+     "explanation": "Bukharin allied with Stalin only after the triumvirate collapsed."
+    },
+    {
+     "id": "d",
+     "text": "It collapsed by the end of 1925",
+     "correct": true,
+     "explanation": "Yes: as Stalin turned on Zinoviev and Kamenev."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R30",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each event to its date.",
+   "factIds": [
+    "F-SPW-04",
+    "F-SPW-12",
+    "F-SPW-11",
+    "F-SPW-16"
+   ],
+   "pairs": [
+    {
+     "left": "Stalin appointed General Secretary",
+     "right": "May 1922",
+     "explanation": "Two months before Lenin's first stroke."
+    },
+    {
+     "left": "Factions banned at the Tenth Congress",
+     "right": "1921",
+     "explanation": "Used later against the Left."
+    },
+    {
+     "left": "United Opposition formed",
+     "right": "Early 1926",
+     "explanation": "Trotsky, Zinoviev and Kamenev together."
+    },
+    {
+     "left": "'A Year of Great Change' published",
+     "right": "November 1929",
+     "explanation": "Justified the break with NEP."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By 1927, which four men were full Politburo members throughout 1927–1941?",
+   "factIds": [
+    "F-SPW-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Kaganovich, Kalinin, Molotov and Stalin",
+     "correct": true,
+     "explanation": "Correct: a Politburo of nine full members."
+    },
+    {
+     "id": "b",
+     "text": "Trotsky, Zinoviev, Kamenev and Bukharin",
+     "correct": false,
+     "explanation": "All four were removed from power by 1930."
+    },
+    {
+     "id": "c",
+     "text": "Lenin's original 1917 Politburo",
+     "correct": false,
+     "explanation": "That Politburo no longer existed by 1927."
+    },
+    {
+     "id": "d",
+     "text": "Only Stalin and Molotov",
+     "correct": false,
+     "explanation": "The Politburo had nine full members."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R32",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many full members did the Politburo have by 1927, after Trotsky's removal? (number)",
+   "factIds": [
+    "F-SPW-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 9,
+     "tolerance": 0,
+     "explanation": "Nine full members, eight candidate members."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-R33",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By 1927 the Politburo had nine full members, four of whom (Kaganovich, Kalinin, Molotov, Stalin) stayed in place throughout 1927–1941.” Which argument does it support best?",
+   "factIds": [
+    "F-SPW-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin's control of appointments created a durable, loyal majority, not just a temporary alliance",
+     "correct": true,
+     "explanation": "Correct: the same men stayed in power for over a decade."
+    },
+    {
+     "id": "b",
+     "text": "The Politburo remained open to opposition voices after 1927",
+     "correct": false,
+     "explanation": "The opposite: it was now a Stalin loyalist body."
+    },
+    {
+     "id": "c",
+     "text": "Stalin shared power equally with Trotsky",
+     "correct": false,
+     "explanation": "Trotsky had been expelled."
+    },
+    {
+     "id": "d",
+     "text": "The Politburo shrank after 1927",
+     "correct": false,
+     "explanation": "It had nine full members, not fewer."
+    }
+   ]
   }
  ],
  "drills": [
@@ -1979,6 +2401,303 @@
      "text": "Stalin free to turn on the Right",
      "answer": "effects",
      "explanation": "From 1928."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was Stalin's control of the party apparatus responsible for his victory in the power struggle, 1924–1929?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Stalin's control of the party apparatus",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "responsible for his victory in the power struggle",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "1924–1929",
+     "answer": "timeframe",
+     "explanation": "From Lenin's death to Bukharin's defeat."
+    },
+    {
+     "id": "s5",
+     "text": "responsible",
+     "answer": "judgement",
+     "explanation": "Did the apparatus outweigh rivals' own mistakes?"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Stalin's control of the party apparatus responsible for his victory in the power struggle, 1924–1929?” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin's control of appointments as General Secretary gave him a built-in majority at each congress, but this alone would not have worked without his rivals' own divisions and tactical errors, such as Trotsky's late conversion to Bolshevism and the Left and Right Oppositions' failure to unite until it was too late.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against others."
+    },
+    {
+     "id": "b",
+     "text": "Stalin became General Secretary in 1922.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Stalin was ruthless.",
+     "correct": false,
+     "explanation": "No judgement on the named factor."
+    },
+    {
+     "id": "d",
+     "text": "The apparatus explains everything.",
+     "correct": false,
+     "explanation": "Overstated, no limit."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In November 1927 Trotsky and Zinoviev were expelled from the party.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Their expulsion mattered because it showed that, once factions were banned, open opposition had become indistinguishable from indiscipline.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    },
+    {
+     "id": "s3",
+     "text": "Stalin's Politburo had nine full members by 1927.",
+     "answer": "narrative",
+     "explanation": "States a fact."
+    },
+    {
+     "id": "s4",
+     "text": "This consolidated bloc meant that no single rival could outvote Stalin even by allying with another former opponent.",
+     "answer": "analysis",
+     "explanation": "Draws out the consequence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "factIds": [
+    "F-SPW-05",
+    "F-SPW-13",
+    "F-SPW-14",
+    "F-SPW-18"
+   ],
+   "pairs": [
+    {
+     "left": "Lenin's postscript calling Stalin 'too rude'",
+     "right": "Stalin's position was initially vulnerable, not secure",
+     "explanation": "Lenin wanted him removed."
+    },
+    {
+     "left": "Zinoviev and Kamenev's 1928 readmission after recanting",
+     "right": "Stalin could be flexible when it served him",
+     "explanation": "Unlike Trotsky's permanent exile."
+    },
+    {
+     "left": "Bukharin, Rykov and Tomsky sidelined 1928–1930",
+     "right": "Stalin turned on allies once rivals were beaten",
+     "explanation": "The Right followed the Left."
+    },
+    {
+     "left": "Four men holding Politburo seats 1927–1941",
+     "right": "Stalin built a lasting, not temporary, majority",
+     "explanation": "Continuity over fourteen years."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Trotsky lost because people didn't like him.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Trotsky was disadvantaged because his late conversion to Bolshevism in 1917 let rivals question his loyalty to Lenin, while Stalin's control of provincial appointments as General Secretary ensured that congress delegates owed their position to him rather than to Trotsky.",
+     "correct": true,
+     "explanation": "Correct: specific mechanisms and evidence."
+    },
+    {
+     "id": "b",
+     "text": "Trotsky was unpopular.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Trotsky joined the Bolsheviks in 1917.",
+     "correct": false,
+     "explanation": "Narrative, no judgement."
+    },
+    {
+     "id": "d",
+     "text": "Nobody liked Trotsky's personality.",
+     "correct": false,
+     "explanation": "Unsupported and vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Stalin's control of the party apparatus alone explains his victory.” What is the strongest counter-argument?",
+   "options": [
+    {
+     "id": "a",
+     "text": "His rivals' own divisions mattered too: the United Opposition formed only in 1926, too late and too mistrustful of each other to combine effectively against Stalin",
+     "correct": true,
+     "explanation": "Correct: a genuine alternative cause, not just a restatement."
+    },
+    {
+     "id": "b",
+     "text": "Stalin became General Secretary in 1922",
+     "correct": false,
+     "explanation": "A fact, not a counter-argument."
+    },
+    {
+     "id": "c",
+     "text": "Stalin was clever",
+     "correct": false,
+     "explanation": "Vague, not a counter-argument."
+    },
+    {
+     "id": "d",
+     "text": "There is no counter-argument",
+     "correct": false,
+     "explanation": "There is: rivals' disunity."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Stalin's control of the party apparatus responsible for his victory?” What criterion should the judgement rest on?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Whether the apparatus alone could have won without his rivals' own tactical errors and divisions",
+     "correct": true,
+     "explanation": "Correct: a clear, weighable standard."
+    },
+    {
+     "id": "b",
+     "text": "Whether Stalin was a nice person",
+     "correct": false,
+     "explanation": "Not a historical criterion."
+    },
+    {
+     "id": "c",
+     "text": "Whether Trotsky wrote more books",
+     "correct": false,
+     "explanation": "Irrelevant to the question."
+    },
+    {
+     "id": "d",
+     "text": "Whether the event is well known today",
+     "correct": false,
+     "explanation": "Not a historical criterion."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-POWER-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Stalin's victory in the power struggle, 1924–1929, due to his own strengths rather than his rivals' weaknesses?” Sort each point into STALIN'S OWN ADVANTAGES or RIVALS' WEAKNESSES.",
+   "categories": [
+    {
+     "id": "strengths",
+     "label": "Stalin's own advantages"
+    },
+    {
+     "id": "weaknesses",
+     "label": "Rivals' weaknesses"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Control of appointments as General Secretary",
+     "answer": "strengths",
+     "explanation": "Built a loyal majority."
+    },
+    {
+     "id": "s2",
+     "text": "Promotion of 'socialism in one country'",
+     "answer": "strengths",
+     "explanation": "A popular, achievable-sounding policy."
+    },
+    {
+     "id": "s3",
+     "text": "Trotsky's late conversion to Bolshevism",
+     "answer": "weaknesses",
+     "explanation": "Let rivals question his loyalty."
+    },
+    {
+     "id": "s4",
+     "text": "The United Opposition forming only in 1926",
+     "answer": "weaknesses",
+     "explanation": "Too late to combine effectively."
+    },
+    {
+     "id": "s5",
+     "text": "Zinoviev and Kamenev's earlier opposition to the 1917 insurrection",
+     "answer": "weaknesses",
+     "explanation": "Used against them by Trotsky and Stalin alike."
     }
    ]
   }

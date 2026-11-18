@@ -1644,6 +1644,434 @@
      "explanation": "5.5 million were."
     }
    ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How many people were originally ordered shot under the July 1937 mass-operations quotas? (number)",
+   "factIds": [
+    "F-SCT-05"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 72950,
+     "tolerance": 100,
+     "explanation": "72,950, a figure the quotas then exceeded."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R22",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the zhdanovshchina campaign against writers begin? (year)",
+   "factIds": [
+    "F-SCT-15"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1946,
+     "tolerance": 0,
+     "explanation": "1946, with the attack on Zoshchenko and Akhmatova."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the 1947 law on marriage do?",
+   "factIds": [
+    "F-SCT-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Banned marriage between Soviet citizens and foreigners",
+     "correct": true,
+     "explanation": "Correct: part of tightening post-war isolation."
+    },
+    {
+     "id": "b",
+     "text": "Lowered the minimum age of marriage",
+     "correct": false,
+     "explanation": "Not what it did."
+    },
+    {
+     "id": "c",
+     "text": "Legalised divorce",
+     "correct": false,
+     "explanation": "Not what it did."
+    },
+    {
+     "id": "d",
+     "text": "Required party approval for all marriages",
+     "correct": false,
+     "explanation": "Not what it did."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the result of Lysenko's 1948 victory over his scientific rivals?",
+   "factIds": [
+    "F-SCT-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Genetic research in the USSR was halted",
+     "correct": true,
+     "explanation": "Correct: ideology overruled science."
+    },
+    {
+     "id": "b",
+     "text": "Soviet genetics became the world leader",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Lysenko was arrested",
+     "correct": false,
+     "explanation": "He triumphed, not his rivals."
+    },
+    {
+     "id": "d",
+     "text": "The Short Course was rewritten",
+     "correct": false,
+     "explanation": "Unrelated event."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R25",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Seventeenth Party Congress",
+     "year": 1934,
+     "month": 1,
+     "factId": "F-SCT-01"
+    },
+    {
+     "id": "b",
+     "text": "Stalin Constitution adopted",
+     "year": 1936,
+     "month": 12,
+     "factId": "F-SCT-12"
+    },
+    {
+     "id": "c",
+     "text": "Mass operations ordered",
+     "year": 1937,
+     "month": 7,
+     "factId": "F-SCT-05"
+    },
+    {
+     "id": "d",
+     "text": "Doctors' Plot announced",
+     "year": 1953,
+     "month": 1,
+     "factId": "F-SCT-18"
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R26",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each historian to their argument.",
+   "pairs": [
+    {
+     "left": "Oleg Khlevniuk",
+     "right": "Archives show Stalin's central, signed control of the Terror",
+     "explanation": "357 execution lists."
+    },
+    {
+     "left": "Robert W. Thurston",
+     "right": "The purge targeted elite opposition and Stalin reacted as much as planned",
+     "explanation": "Revisionist view."
+    },
+    {
+     "left": "J. Arch Getty",
+     "right": "The archives rule out the highest execution estimates",
+     "explanation": "With Naumov."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R27",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were part of the post-war zhdanovshchina and its aftermath? Choose all that apply.",
+   "factIds": [
+    "F-SCT-15",
+    "F-SCT-16",
+    "F-SCT-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The attack on Zoshchenko and Akhmatova",
+     "correct": true,
+     "explanation": "Yes: August 1946."
+    },
+    {
+     "id": "b",
+     "text": "The 1947 ban on marriage to foreigners",
+     "correct": true,
+     "explanation": "Yes: tightened isolation."
+    },
+    {
+     "id": "c",
+     "text": "Lysenko's 1948 victory over geneticists",
+     "correct": true,
+     "explanation": "Yes: ideology over science."
+    },
+    {
+     "id": "d",
+     "text": "The legalising of independent trade unions",
+     "correct": false,
+     "explanation": "No such thing happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R28",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these are true about the Doctors' Plot? Choose all that apply.",
+   "factIds": [
+    "F-SCT-18",
+    "F-SCT-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was announced in January 1953",
+     "correct": true,
+     "explanation": "Yes: just weeks before Stalin's death."
+    },
+    {
+     "id": "b",
+     "text": "It accused nine doctors, many of them Jewish",
+     "correct": true,
+     "explanation": "Yes: an antisemitic conspiracy charge."
+    },
+    {
+     "id": "c",
+     "text": "It ended after Stalin's death in March 1953",
+     "correct": true,
+     "explanation": "Yes: declared a fabrication."
+    },
+    {
+     "id": "d",
+     "text": "It was proven true by later investigation",
+     "correct": false,
+     "explanation": "The opposite: fabricated."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R29",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “NKVD reports on Kirov's murder show some people hoped Stalin would share his fate.” Which argument does it support?",
+   "factIds": [
+    "F-SCT-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Loyalty to Stalin was not universal, even among ordinary people",
+     "correct": true,
+     "explanation": "Correct: a counter to any simple picture of belief."
+    },
+    {
+     "id": "b",
+     "text": "Everyone supported Stalin completely",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The NKVD never monitored opinion",
+     "correct": false,
+     "explanation": "It clearly did."
+    },
+    {
+     "id": "d",
+     "text": "Kirov was unpopular",
+     "correct": false,
+     "explanation": "He was mourned as a martyr."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R30",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Of 5.5 million Soviet citizens repatriated by 1953, one in five was shot or sent to the Gulag.” Which argument does it support?",
+   "factIds": [
+    "F-SCT-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Post-war repression extended beyond the party elite to ordinary returning citizens",
+     "correct": true,
+     "explanation": "Correct: suspicion of contact with the West."
+    },
+    {
+     "id": "b",
+     "text": "Repatriated citizens were welcomed without suspicion",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Repatriation stopped after 1945",
+     "correct": false,
+     "explanation": "It continued to 1953."
+    },
+    {
+     "id": "d",
+     "text": "Only soldiers were repatriated",
+     "correct": false,
+     "explanation": "Not specified; the figure covers citizens broadly."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R31",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Stalin died in 1946, which ended the zhdanovshchina immediately.”",
+   "factIds": [
+    "F-SCT-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stalin died on 5 March 1953, after the zhdanovshchina and the Doctors' Plot",
+     "correct": true,
+     "explanation": "Correct: 1946 is the year the zhdanovshchina began, not his death."
+    },
+    {
+     "id": "b",
+     "text": "The zhdanovshchina began in 1946",
+     "correct": false,
+     "explanation": "That part is correct."
+    },
+    {
+     "id": "c",
+     "text": "Stalin ruled until the 1930s only",
+     "correct": false,
+     "explanation": "He ruled until 1953."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the death date is wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R32",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Short Course was a minor pamphlet that few people ever read.”",
+   "factIds": [
+    "F-SCT-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Short Course sold forty million copies and placed Stalin at the centre of party history",
+     "correct": true,
+     "explanation": "Correct: a mass-circulation propaganda text, not a minor pamphlet."
+    },
+    {
+     "id": "b",
+     "text": "The Short Course was published in 1938",
+     "correct": false,
+     "explanation": "That part is correct."
+    },
+    {
+     "id": "c",
+     "text": "The Short Course concerned party history",
+     "correct": false,
+     "explanation": "That part is correct."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: its reach was vast, not minor."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-R33",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about Stalin's methods of control between 1945 and 1953. Is the 1934 'Congress of Victors' inside or outside the timeframe?",
+   "factIds": [
+    "F-SCT-01"
+   ],
+   "timeframe": [
+    1945,
+    1953
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as earlier background",
+     "correct": true,
+     "explanation": "Correct: the question begins in 1945."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1934 is before 1945."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it shows Stalin's method of control",
+     "correct": false,
+     "explanation": "Relevant in theme but outside the dates."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2010,6 +2438,297 @@
      "text": "A new elite loyal to Stalin",
      "answer": "effects",
      "explanation": "Inner circle of Stalin, Molotov, Kaganovich."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the importance of propaganda and the cult of personality in maintaining Stalin's power between 1934 and 1953.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Evaluate",
+     "answer": "verb",
+     "explanation": "Weigh strengths and limits, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "propaganda and the cult of personality",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "importance … in maintaining Stalin's power",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "1934 and 1953",
+     "answer": "timeframe",
+     "explanation": "From the Congress of Victors to Stalin's death."
+    },
+    {
+     "id": "s5",
+     "text": "importance",
+     "answer": "judgement",
+     "explanation": "Weighed against terror as a method of control."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the importance of propaganda and the cult of personality in maintaining Stalin's power between 1934 and 1953.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Propaganda and the cult gave Stalin's rule a positive image of rights and wise leadership, but they worked alongside, not instead of, terror, which did the harder work of removing rivals.",
+     "correct": true,
+     "explanation": "Correct: weighs the named factor against terror."
+    },
+    {
+     "id": "b",
+     "text": "Stalin had a cult of personality.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Propaganda was everything.",
+     "correct": false,
+     "explanation": "Overstated, no weighing."
+    },
+    {
+     "id": "d",
+     "text": "Propaganda was irrelevant.",
+     "correct": false,
+     "explanation": "Contradicted by the evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In August 1946 Zhdanov attacked the journals Zvezda and Leningrad.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because almost all information became a state secret, ordinary citizens had little means of judging the regime's claims.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "In January 1953 nine doctors were accused of plotting to poison Soviet leaders.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This suggests that even at the end of his life Stalin relied on the same methods of fabricated conspiracy that had driven the Terror of the 1930s.",
+     "answer": "analysis",
+     "explanation": "Explains continuity and significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "5.5 million repatriated, one in five shot or sent to the Gulag",
+     "right": "Post-war repression reached ordinary citizens, not just the elite",
+     "explanation": "Suspicion of contact with the West."
+    },
+    {
+     "left": "1947 law banning marriage to foreigners",
+     "right": "The regime tightened isolation from the outside world",
+     "explanation": "Part of post-war control."
+    },
+    {
+     "left": "Lysenko's 1948 victory",
+     "right": "Ideology was allowed to override scientific evidence",
+     "explanation": "Genetics research halted."
+    },
+    {
+     "left": "Doctors' Plot dropped after Stalin's death",
+     "right": "The conspiracy had been fabricated, not real",
+     "explanation": "Declared false by the new leadership."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “After the war Stalin kept tight control over Soviet society.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the zhdanovshchina renewed ideological discipline over culture and the 1953 Doctors' Plot revived the language of conspiracy against enemies, post-war Stalinism applied the methods of the 1930s in a narrower, more selective form.",
+     "correct": true,
+     "explanation": "Correct: mechanism and precise evidence."
+    },
+    {
+     "id": "b",
+     "text": "Stalin was still powerful after the war.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The war ended in 1945.",
+     "correct": false,
+     "explanation": "Narrative, not analysis."
+    },
+    {
+     "id": "d",
+     "text": "Everything changed after the war.",
+     "correct": false,
+     "explanation": "Overstated and vague."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Terror effectively ended once Stalin secured total power by 1939.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Post-war Stalinism continued the same methods on a narrower scale: 1.1 million repatriated citizens were shot or sent to the Gulag, the zhdanovshchina targeted writers from 1946, and the Doctors' Plot of 1953 revived fabricated conspiracy right up to Stalin's death.",
+     "correct": true,
+     "explanation": "Correct: specific counter-evidence from after 1939."
+    },
+    {
+     "id": "b",
+     "text": "Stalin became kinder after the war.",
+     "correct": false,
+     "explanation": "Not supported by the evidence."
+    },
+    {
+     "id": "c",
+     "text": "The war changed nothing.",
+     "correct": false,
+     "explanation": "Too vague, not a counter."
+    },
+    {
+     "id": "d",
+     "text": "1939 is not a real date.",
+     "correct": false,
+     "explanation": "Not an argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the importance of propaganda and the cult of personality in maintaining Stalin's power.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what removed rivals, terror did the harder work; judged by what secured willing participation and a positive image abroad and at home, propaganda and the cult mattered more than is often allowed.",
+     "correct": true,
+     "explanation": "Correct: two criteria, explicitly weighed."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Stalin used propaganda a lot.",
+     "correct": false,
+     "explanation": "A recap, no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, propaganda is always important to dictators.",
+     "correct": false,
+     "explanation": "Too general, not specific to this case."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, there was a cult of personality.",
+     "correct": false,
+     "explanation": "A fact, not a judgement."
+    }
+   ]
+  },
+  {
+   "itemId": "P3-16-Y1-STALIN-CONTROL-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast Stalin's methods of control before and after the Second World War, between 1934 and 1953.” Sort each plan point into BEFORE 1941 or AFTER 1945.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Before 1941"
+    },
+    {
+     "id": "effects",
+     "label": "After 1945"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Show trials of Zinoviev, Kamenev and Bukharin",
+     "answer": "causes",
+     "explanation": "1936–38."
+    },
+    {
+     "id": "s2",
+     "text": "Mass operations with district quotas",
+     "answer": "causes",
+     "explanation": "July 1937."
+    },
+    {
+     "id": "s3",
+     "text": "Zhdanovshchina against writers",
+     "answer": "effects",
+     "explanation": "1946–48."
+    },
+    {
+     "id": "s4",
+     "text": "Repatriated citizens sent to the Gulag",
+     "answer": "effects",
+     "explanation": "By 1953."
+    },
+    {
+     "id": "s5",
+     "text": "The Doctors' Plot",
+     "answer": "effects",
+     "explanation": "January 1953."
     }
    ]
   }
