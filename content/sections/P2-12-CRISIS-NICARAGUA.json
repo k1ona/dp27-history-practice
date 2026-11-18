@@ -1707,6 +1707,439 @@
      "explanation": "An opposition publisher."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened in El Salvador in October 1979?",
+   "factIds": [
+    "F-NIC-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Young officers overthrew General Romero",
+     "correct": true,
+     "explanation": "Correct: the start of years of violence."
+    },
+    {
+     "id": "b",
+     "text": "The Sandinistas took power",
+     "correct": false,
+     "explanation": "That was Nicaragua, in July 1979."
+    },
+    {
+     "id": "c",
+     "text": "The US invaded",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "Somoza fled to El Salvador",
+     "correct": false,
+     "explanation": "He fled to the United States."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R22",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In January 1981 the leftist FMLN launched a major offensive in El Salvador, and the US gave military aid to the junta.” Which argument does it support best?",
+   "factIds": [
+    "F-NIC-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "US involvement in Central America extended beyond Nicaragua to neighbouring conflicts",
+     "correct": true,
+     "explanation": "Correct: the region as a whole was a Cold War front."
+    },
+    {
+     "id": "b",
+     "text": "The US refused to help any Central American government",
+     "correct": false,
+     "explanation": "The US armed the Salvadoran junta."
+    },
+    {
+     "id": "c",
+     "text": "El Salvador had no internal conflict",
+     "correct": false,
+     "explanation": "It had a civil war."
+    },
+    {
+     "id": "d",
+     "text": "The FMLN was a US-backed force",
+     "correct": false,
+     "explanation": "It was the leftist guerrilla movement fighting the junta."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R23",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Besides Central America, which other country received steadily increased US clandestine support under Reagan, according to Judt?",
+   "factIds": [
+    "F-NIC-18"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "Afghanistan",
+     "tolerance": 0,
+     "explanation": "Both fronts of Reagan's roll-back policy."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R24",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Official military aid and clandestine support to Afghanistan and Central America were steadily increased under Reagan.” Which argument does it support best?",
+   "factIds": [
+    "F-NIC-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Nicaragua was one part of a wider Reagan strategy of rolling back Communism",
+     "correct": true,
+     "explanation": "Correct: the same approach applied to Afghanistan."
+    },
+    {
+     "id": "b",
+     "text": "Reagan cut all foreign military aid",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "Reagan focused only on Nicaragua",
+     "correct": false,
+     "explanation": "Afghanistan received aid too."
+    },
+    {
+     "id": "d",
+     "text": "Congress increased aid without Reagan's support",
+     "correct": false,
+     "explanation": "It was Reagan's policy."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R25",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the FSLN named after?",
+   "factIds": [
+    "F-NIC-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Augusto Sandino, who had fought US Marines in the 1920s",
+     "correct": true,
+     "explanation": "Correct: hence 'Sandinista'."
+    },
+    {
+     "id": "b",
+     "text": "Fidel Castro",
+     "correct": false,
+     "explanation": "Castro advised them, but the name comes from Sandino."
+    },
+    {
+     "id": "c",
+     "text": "Anastasio Somoza",
+     "correct": false,
+     "explanation": "Somoza was the dictator they overthrew."
+    },
+    {
+     "id": "d",
+     "text": "Daniel Ortega",
+     "correct": false,
+     "explanation": "Ortega became a Sandinista leader, not the namesake."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R26",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what month and year did Sandinista forces enter Managua after Somoza fled? (month year)",
+   "factIds": [
+    "F-NIC-06"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "July 1979",
+     "accept": [
+      "19 July 1979"
+     ],
+     "tolerance": 0,
+     "explanation": "19 July 1979, two days after Somoza fled."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R27",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were features of the 1987 Esquipulas accord? Choose all that apply.",
+   "factIds": [
+    "F-NIC-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was shaped mainly by Costa Rican president Óscar Arias",
+     "correct": true,
+     "explanation": "Correct, built on the earlier Contadora talks."
+    },
+    {
+     "id": "b",
+     "text": "It focused on democratisation and regional security",
+     "correct": true,
+     "explanation": "Correct, with a system of verification."
+    },
+    {
+     "id": "c",
+     "text": "It led Ortega to open negotiations with the Contras",
+     "correct": true,
+     "explanation": "Correct, alongside a shift to humanitarian US aid."
+    },
+    {
+     "id": "d",
+     "text": "It ended all US involvement in Nicaragua immediately",
+     "correct": false,
+     "explanation": "Elections only followed in 1990."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R28",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who won Nicaragua's internationally supervised elections of 1990?",
+   "factIds": [
+    "F-NIC-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Violeta Chamorro",
+     "correct": true,
+     "explanation": "Correct: the Contras then disbanded."
+    },
+    {
+     "id": "b",
+     "text": "Daniel Ortega",
+     "correct": false,
+     "explanation": "Ortega lost the 1990 election."
+    },
+    {
+     "id": "c",
+     "text": "Anastasio Somoza",
+     "correct": false,
+     "explanation": "He had fled the country in 1979."
+    },
+    {
+     "id": "d",
+     "text": "Óscar Arias",
+     "correct": false,
+     "explanation": "Arias was Costa Rica's president, not a Nicaraguan candidate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R29",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Contadora and Esquipulas peace processes were both led by the United States.”",
+   "factIds": [
+    "F-NIC-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Both were regional initiatives by Latin American states, led at Esquipulas mainly by Costa Rica's Óscar Arias",
+     "correct": true,
+     "explanation": "Correct: Mexico, Venezuela, Colombia and Panama began Contadora; the US was not the convenor."
+    },
+    {
+     "id": "b",
+     "text": "The Esquipulas accord was signed in Guatemala",
+     "correct": false,
+     "explanation": "This detail is correct."
+    },
+    {
+     "id": "c",
+     "text": "The accord was signed in 1987",
+     "correct": false,
+     "explanation": "This date is correct."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the US did not lead these talks."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R30",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about US involvement in Nicaragua between 1979 and 1990. Is the El Salvador officers' coup of October 1979 inside or outside the timeframe?",
+   "factIds": [
+    "F-NIC-08"
+   ],
+   "timeframe": [
+    1979,
+    1990
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside, though it is about El Salvador and only relevant as regional background",
+     "correct": true,
+     "explanation": "Correct: October 1979 falls within the range, but stay focused on Nicaragua in the answer."
+    },
+    {
+     "id": "b",
+     "text": "Outside: it is before the timeframe begins",
+     "correct": false,
+     "explanation": "No, the timeframe starts in 1979."
+    },
+    {
+     "id": "c",
+     "text": "Outside: it is after the timeframe ends",
+     "correct": false,
+     "explanation": "No, 1979 is the start of the range."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R31",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each figure to their role.",
+   "pairs": [
+    {
+     "left": "Óscar Arias",
+     "right": "Costa Rican president who shaped the 1987 Esquipulas accord",
+     "explanation": "Later won the Nobel Peace Prize for this work."
+    },
+    {
+     "left": "Violeta Chamorro",
+     "right": "Won Nicaragua's 1990 supervised elections",
+     "explanation": "Widow of the murdered publisher Pedro Joaquín Chamorro."
+    },
+    {
+     "left": "Daniel Ortega",
+     "right": "Sandinista leader who became president in 1984",
+     "explanation": "Lost the presidency in the 1990 election."
+    },
+    {
+     "left": "Alexander Haig",
+     "right": "Reagan's Secretary of State who accused the Sandinistas of exporting terrorism",
+     "explanation": "Linked Nicaragua directly to the Salvadoran war."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R32",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "El Salvador: young officers overthrow General Romero",
+     "year": 1979,
+     "month": 10,
+     "factId": "F-NIC-08"
+    },
+    {
+     "id": "b",
+     "text": "FMLN launches a major offensive in El Salvador",
+     "year": 1981,
+     "month": 1,
+     "factId": "F-NIC-08"
+    },
+    {
+     "id": "c",
+     "text": "Boland legislation bans funds to overthrow the Sandinistas",
+     "year": 1982,
+     "month": 12,
+     "factId": "F-NIC-11"
+    },
+    {
+     "id": "d",
+     "text": "Esquipulas accord signed",
+     "year": 1987,
+     "month": 8,
+     "factId": "F-NIC-15"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What else, besides Central America, did Reagan steadily increase clandestine support for, according to Judt?",
+   "factIds": [
+    "F-NIC-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The mujahideen in Afghanistan",
+     "correct": true,
+     "explanation": "Correct: both fronts of his anti-Communist strategy."
+    },
+    {
+     "id": "b",
+     "text": "The African National Congress",
+     "correct": false,
+     "explanation": "Not mentioned here."
+    },
+    {
+     "id": "c",
+     "text": "The Polish government",
+     "correct": false,
+     "explanation": "Not mentioned here."
+    },
+    {
+     "id": "d",
+     "text": "The Chinese Communist Party",
+     "correct": false,
+     "explanation": "Not mentioned here."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2073,6 +2506,274 @@
      "text": "A Sandinista military build-up with Soviet-bloc help",
      "answer": "effects",
      "explanation": "A proxy war."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was fear of Soviet and Cuban influence the main reason for US involvement in Nicaragua between 1979 and 1990?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "fear of Soviet and Cuban influence",
+     "answer": "factor",
+     "explanation": "The named factor to weigh."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for US involvement in Nicaragua",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1979 and 1990",
+     "answer": "timeframe",
+     "explanation": "From the revolution to the 1990 election."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Weigh Cold War fear against other causes, like Carter's human-rights concerns."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the role of the US Congress in the Contra War between 1982 and 1986.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Congress repeatedly restrained Reagan's methods, through the Boland legislation and the 1984 funding cut, but never blocked his underlying aim, which Reagan then pursued illegally in the Iran-Contra affair.",
+     "correct": true,
+     "explanation": "Correct: judges Congress's real but limited influence."
+    },
+    {
+     "id": "b",
+     "text": "Congress passed the Boland legislation in 1982.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Congress opposed Reagan.",
+     "correct": false,
+     "explanation": "Too vague; no judgement on degree."
+    },
+    {
+     "id": "d",
+     "text": "Congress controlled every Contra operation directly.",
+     "correct": false,
+     "explanation": "Overstated; the White House evaded its limits."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In August 1987 the Esquipulas accord was signed in Guatemala.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the war had cost hundreds of thousands of lives with no military resolution, regional leaders took the initiative that Washington's own policy had failed to produce.",
+     "answer": "analysis",
+     "explanation": "Explains why the accord happened, not just that it did."
+    },
+    {
+     "id": "s3",
+     "text": "Violeta Chamorro won the 1990 election.",
+     "answer": "narrative",
+     "explanation": "States an event."
+    },
+    {
+     "id": "s4",
+     "text": "Her victory let both sides treat the war as settled by ballot rather than by the years of fighting that had failed to remove the Sandinistas.",
+     "answer": "analysis",
+     "explanation": "Links the election to the war's wider significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it best supports.",
+   "pairs": [
+    {
+     "left": "Reagan increased clandestine aid to both Afghanistan and Central America",
+     "right": "Nicaragua was one theatre in a broader Reagan strategy of rolling back Communism",
+     "explanation": "Shows the policy was not unique to Nicaragua."
+    },
+    {
+     "left": "The Esquipulas accord was led by Costa Rica's Óscar Arias, not Washington",
+     "right": "Regional actors, not the superpowers, eventually ended the war",
+     "explanation": "Supports a claim about limits on US control of the outcome."
+    },
+    {
+     "left": "The Tower Commission found arms-sale funds had secretly armed the Contras",
+     "right": "Reagan's administration evaded the restrictions Congress had imposed",
+     "explanation": "Direct evidence of circumventing Boland."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Congress and Reagan disagreed about Nicaragua.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "When Congress discovered in October 1984 that Nicaraguan harbours had been mined, it cut Contra funding, forcing the White House to turn to arms sales to Iran, which produced the Iran-Contra scandal of November 1986.",
+     "correct": true,
+     "explanation": "Correct: names a precise trigger and traces its consequence."
+    },
+    {
+     "id": "b",
+     "text": "Congress and Reagan disagreed a lot about Nicaragua policy.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Congress passed laws about Nicaragua.",
+     "correct": false,
+     "explanation": "Narrative, no analysis."
+    },
+    {
+     "id": "d",
+     "text": "Congress always opposed Reagan on everything.",
+     "correct": false,
+     "explanation": "Overstated and inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The United States alone decided the outcome of the Nicaraguan conflict.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The war was ultimately ended by the 1987 Esquipulas accord, a regional peace process led by Costa Rica's Óscar Arias rather than by Washington.",
+     "correct": true,
+     "explanation": "Correct: shows regional agency limiting US control of the outcome."
+    },
+    {
+     "id": "b",
+     "text": "Reagan called the Contras 'freedom-fighters'.",
+     "correct": false,
+     "explanation": "Supports US involvement rather than countering it."
+    },
+    {
+     "id": "c",
+     "text": "The Contras were based in Honduras.",
+     "correct": false,
+     "explanation": "A detail, not a counter-argument."
+    },
+    {
+     "id": "d",
+     "text": "The Sandinistas had Soviet-bloc weapons.",
+     "correct": false,
+     "explanation": "Shows superpower involvement, not a counter to US control."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that Reagan's support for the Contras achieved its aims with reference to the period 1981 to 1990.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by the outcome, the aim was met, since the Sandinistas left power after the 1990 election; judged by the method, the policy failed on its own terms, since it required illegal funding once Congress cut it off.",
+     "correct": true,
+     "explanation": "Correct: two criteria, weighed against each other."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the Contras fought for many years.",
+     "correct": false,
+     "explanation": "A recap, not a weighed judgement."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, war is costly.",
+     "correct": false,
+     "explanation": "Too general, no criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Reagan achieved everything he wanted.",
+     "correct": false,
+     "explanation": "Asserts a conclusion without weighing it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-NICARAGUA-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Balance both halves of this judgement using named evidence.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On one hand, years of Contra war and economic devastation pressured the Sandinistas into accepting internationally supervised elections.",
+     "answer": "causes",
+     "explanation": "The long-term pressure building toward 1990."
+    },
+    {
+     "id": "s2",
+     "text": "On the other hand, it was the regional Esquipulas accord of 1987, led by Óscar Arias rather than Washington, that actually produced the 1990 vote.",
+     "answer": "effects",
+     "explanation": "The immediate mechanism that ended the conflict."
+    }
+   ],
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Effects"
     }
    ]
   }

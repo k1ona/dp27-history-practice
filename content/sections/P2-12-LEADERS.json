@@ -1719,6 +1719,456 @@
      "explanation": "He advised Gorbachev."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "With which party did the SPD form a coalition in 1969, bringing Brandt to power? (initials)",
+   "factIds": [
+    "F-LEAD-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "FDP",
+     "accept": [
+      "fdp"
+     ],
+     "explanation": "The Free Democratic Party."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which two countries did Bonn establish relations with in 1967-68, the first breach in Adenauer's refusal to deal with the Soviet bloc?",
+   "factIds": [
+    "F-LEAD-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Romania (1967) and Yugoslavia (1968)",
+     "correct": true,
+     "explanation": "Correct: at Brandt's encouragement, as foreign minister."
+    },
+    {
+     "id": "b",
+     "text": "Poland and the GDR",
+     "correct": false,
+     "explanation": "Those treaties came later, 1970-73."
+    },
+    {
+     "id": "c",
+     "text": "Hungary and Bulgaria",
+     "correct": false,
+     "explanation": "Not the countries named."
+    },
+    {
+     "id": "d",
+     "text": "The USSR and the GDR",
+     "correct": false,
+     "explanation": "West Germany already had relations with the USSR."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R23",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps towards the Helsinki Accords in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "NATO ministers agree to a European Security Conference",
+     "year": 1971,
+     "month": 12,
+     "factId": "F-LEAD-09"
+    },
+    {
+     "id": "b",
+     "text": "The conference opens in Helsinki",
+     "year": 1973,
+     "month": 7,
+     "factId": "F-LEAD-09"
+    },
+    {
+     "id": "c",
+     "text": "Brandt is forced out by a spy scandal",
+     "year": 1974,
+     "month": 5,
+     "factId": "F-LEAD-07"
+    },
+    {
+     "id": "d",
+     "text": "The Helsinki Accords are signed by 35 countries",
+     "year": 1975,
+     "month": 8,
+     "factId": "F-LEAD-09"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R24",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each figure to their view on arms control, inside Reagan's own administration.",
+   "pairs": [
+    {
+     "left": "Caspar Weinberger",
+     "right": "Sceptical that arms control would help US security",
+     "explanation": "Defence Secretary."
+    },
+    {
+     "left": "George Shultz",
+     "right": "Believed agreements would enhance US security",
+     "explanation": "Secretary of State."
+    },
+    {
+     "left": "Ronald Reagan",
+     "right": "Shared Shultz's wish to centre human rights in negotiations",
+     "explanation": "Sided with Shultz."
+    },
+    {
+     "left": "Aleksandr Yakovlev",
+     "right": "Advised Gorbachev that concessions gave more control than confrontation",
+     "explanation": "The Soviet equivalent debate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these did Gorbachev do from the autumn of 1986? Choose all that apply.",
+   "factIds": [
+    "F-LEAD-26"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Released Sakharov from internal exile",
+     "correct": true,
+     "explanation": "Yes: a sign of glasnost."
+    },
+    {
+     "id": "b",
+     "text": "Relaxed censorship",
+     "correct": true,
+     "explanation": "Yes: part of glasnost."
+    },
+    {
+     "id": "c",
+     "text": "Stopped the jamming of foreign radio",
+     "correct": true,
+     "explanation": "Yes: also from autumn 1986."
+    },
+    {
+     "id": "d",
+     "text": "Banned all elections",
+     "correct": false,
+     "explanation": "No: 1989 brought the first more or less free vote since 1918."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Judt: from the human rights principles of the Helsinki Final Act 'was born the Helsinki Rights movement', whose demands made repression self-defeating.” Which argument does it support best?",
+   "factIds": [
+    "F-LEAD-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Brandt's Ostpolitik had consequences beyond Germany, feeding dissent across the Soviet bloc",
+     "correct": true,
+     "explanation": "Correct: Helsinki grew out of the European détente Brandt helped build."
+    },
+    {
+     "id": "b",
+     "text": "The Helsinki Accords strengthened Communist control",
+     "correct": false,
+     "explanation": "Judt argues the opposite."
+    },
+    {
+     "id": "c",
+     "text": "Brandt opposed the Helsinki Accords",
+     "correct": false,
+     "explanation": "Ostpolitik helped prepare the ground for them."
+    },
+    {
+     "id": "d",
+     "text": "The Helsinki Rights movement had no lasting effect",
+     "correct": false,
+     "explanation": "Judt credits it with making repression self-defeating."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The US actively contested the building of the Berlin Wall in 1961, convincing Brandt that Washington would fight for West Berlin.”",
+   "factIds": [
+    "F-LEAD-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The US did not contest the Wall, which taught Brandt that West Germans must deal with the East themselves",
+     "correct": true,
+     "explanation": "Correct: the opposite lesson."
+    },
+    {
+     "id": "b",
+     "text": "The Berlin Wall was built in 1971",
+     "correct": false,
+     "explanation": "It was built in 1961."
+    },
+    {
+     "id": "c",
+     "text": "Brandt was not Mayor of West Berlin in 1961",
+     "correct": false,
+     "explanation": "He was Mayor at the time."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the US did not contest the Wall."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the impact of leaders on the Cold War between 1981 and 1991. Is Brandt's Ostpolitik of the early 1970s inside or outside the timeframe?",
+   "factIds": [
+    "F-LEAD-05"
+   ],
+   "timeframe": [
+    1981,
+    1991
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: use it briefly as background to the détente Reagan inherited",
+     "correct": true,
+     "explanation": "Correct: the question begins in 1981."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: Ostpolitik's treaties date from 1970-74."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Brandt remained influential",
+     "correct": false,
+     "explanation": "The treaties themselves are outside the timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to the Office of the Historian, how did the Cold War end?",
+   "factIds": [
+    "F-LEAD-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Swiftly, nearly entirely peacefully, and 'on U.S. terms'",
+     "correct": true,
+     "explanation": "Correct: a verdict that favours Reagan's role."
+    },
+    {
+     "id": "b",
+     "text": "Slowly, after years of open warfare",
+     "correct": false,
+     "explanation": "It ended nearly entirely peacefully."
+    },
+    {
+     "id": "c",
+     "text": "On Soviet terms",
+     "correct": false,
+     "explanation": "Not the Office of the Historian's verdict."
+    },
+    {
+     "id": "d",
+     "text": "Through a United Nations resolution",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R30",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did President Johnson confirm to Brandt in October 1966?",
+   "factIds": [
+    "F-LEAD-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That US policy would not be held hostage to German reunification",
+     "correct": true,
+     "explanation": "Correct: a key lesson behind Ostpolitik."
+    },
+    {
+     "id": "b",
+     "text": "That the US would fight for reunification",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "That NATO would leave West Germany",
+     "correct": false,
+     "explanation": "Not what he said."
+    },
+    {
+     "id": "d",
+     "text": "That the Berlin Wall would come down",
+     "correct": false,
+     "explanation": "That came in 1989."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R31",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Reagan modernised US nuclear and conventional forces and tried to roll back Communism in South America, Africa and South Asia.” Which argument does it support best?",
+   "factIds": [
+    "F-LEAD-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Reagan's confrontation went beyond rhetoric into a global, comprehensive policy",
+     "correct": true,
+     "explanation": "Correct: rearmament plus a global rollback strategy."
+    },
+    {
+     "id": "b",
+     "text": "Reagan confined his policy to Europe",
+     "correct": false,
+     "explanation": "It extended to three other continents."
+    },
+    {
+     "id": "c",
+     "text": "Reagan reduced US forces",
+     "correct": false,
+     "explanation": "He modernised and expanded them."
+    },
+    {
+     "id": "d",
+     "text": "Reagan ignored Communism outside the USSR",
+     "correct": false,
+     "explanation": "He tried to roll it back on three continents."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R32",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Brandt drop in his approach to the GDR, compared with Adenauer's policy?",
+   "factIds": [
+    "F-LEAD-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The refusal to deal with states that recognised the GDR",
+     "correct": true,
+     "explanation": "Correct: starting with Romania in 1967."
+    },
+    {
+     "id": "b",
+     "text": "All contact with the Soviet Union",
+     "correct": false,
+     "explanation": "West Germany already had relations with the USSR."
+    },
+    {
+     "id": "c",
+     "text": "Membership of NATO",
+     "correct": false,
+     "explanation": "Not what changed."
+    },
+    {
+     "id": "d",
+     "text": "The goal of German unity in the long term",
+     "correct": false,
+     "explanation": "He kept 'one German nation'."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-R33",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were true of the debate inside Reagan's own administration? Choose all that apply.",
+   "factIds": [
+    "F-LEAD-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Weinberger was sceptical that arms control would help US security",
+     "correct": true,
+     "explanation": "Yes: the Defence Secretary's view."
+    },
+    {
+     "id": "b",
+     "text": "Shultz believed agreements would enhance US security",
+     "correct": true,
+     "explanation": "Yes: the Secretary of State's view."
+    },
+    {
+     "id": "c",
+     "text": "Reagan sided with Shultz on human rights",
+     "correct": true,
+     "explanation": "Yes: he shared Shultz's wish for this focus."
+    },
+    {
+     "id": "d",
+     "text": "The whole administration agreed on arms control from the start",
+     "correct": false,
+     "explanation": "No: Weinberger and Shultz disagreed."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2085,6 +2535,288 @@
      "text": "The Nobel Peace Prize",
      "answer": "effects",
      "explanation": "International recognition."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the aims and achievements of Brandt's Ostpolitik between 1969 and 1974.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine",
+     "answer": "verb",
+     "explanation": "Break the issue into parts and consider their interrelationship."
+    },
+    {
+     "id": "s2",
+     "text": "the aims and achievements of Brandt's Ostpolitik",
+     "answer": "factor",
+     "explanation": "Two tasks: aims AND achievements."
+    },
+    {
+     "id": "s3",
+     "text": "aims and achievements",
+     "answer": "scope",
+     "explanation": "What must be covered."
+    },
+    {
+     "id": "s4",
+     "text": "between 1969 and 1974",
+     "answer": "timeframe",
+     "explanation": "From Brandt's election to his resignation."
+    },
+    {
+     "id": "s5",
+     "text": "achievements",
+     "answer": "judgement",
+     "explanation": "Whether the aims were actually met."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D12",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was Gorbachev the main reason for the end of the Cold War between 1985 and 1991?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Gorbachev",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main reason for the end of the Cold War",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1985 and 1991",
+     "answer": "timeframe",
+     "explanation": "From his accession to the Soviet collapse."
+    },
+    {
+     "id": "s5",
+     "text": "main reason",
+     "answer": "judgement",
+     "explanation": "Whether Gorbachev outweighed Reagan, Brandt and economic strain."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D13",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that Brandt's Ostpolitik did more to reduce Cold War tension in Europe than any superpower agreement with reference to the period 1969 to 1975.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ostpolitik eased tension in Central Europe over a decade before Gorbachev and helped prepare the Helsinki framework, but it worked alongside, not instead of, superpower arms control.",
+     "correct": true,
+     "explanation": "Correct: weighs Brandt against superpower agreements."
+    },
+    {
+     "id": "b",
+     "text": "Brandt was Chancellor from 1969.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Ostpolitik was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "Brandt did more than everyone else combined.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D14",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "In 1970 West Germany signed treaties with Moscow and Warsaw accepting the post-war frontiers.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because these treaties removed the USSR's main grievance in Europe, Judt sees them as part of the price Moscow extracted for détente.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    },
+    {
+     "id": "s3",
+     "text": "Gorbachev became General Secretary in March 1985.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that Soviet foreign policy was now in the hands of someone who saw confrontation as too costly to continue, so change could begin at once.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D15",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Bonn's 1967-68 relations with Romania and Yugoslavia",
+     "right": "Brandt began breaking with Adenauer's policy before becoming Chancellor",
+     "explanation": "As foreign minister."
+    },
+    {
+     "left": "Johnson's 1966 statement on reunification",
+     "right": "The US would not fight for German unity",
+     "explanation": "Shaped Brandt's thinking."
+    },
+    {
+     "left": "The Helsinki Rights movement growing from the 1975 Accords",
+     "right": "Ostpolitik had consequences reaching into the 1980s",
+     "explanation": "Judt's argument."
+    },
+    {
+     "left": "Weinberger and Shultz's disagreement",
+     "right": "Reagan's administration was divided over arms control",
+     "explanation": "Not a single, unified view."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D16",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Brandt changed West Germany's foreign policy.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Brandt judged that Adenauer's refusal to deal with the East had failed, he and Bahr devised Ostpolitik, so that by 1974 West Germany had signed treaties with Moscow, Warsaw, Prague and the GDR, accepting the post-war frontiers in return for eased contacts.",
+     "correct": true,
+     "explanation": "Correct: motive, mechanism and evidence."
+    },
+    {
+     "id": "b",
+     "text": "Brandt really changed things.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Brandt became Chancellor in 1969.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Brandt reunified Germany.",
+     "correct": false,
+     "explanation": "Inaccurate: that came in 1990."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D17",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Reagan's confrontation in his first term achieved nothing.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Reagan's rearmament and SDI raised the long-term cost of the arms race for a Soviet system already spending 30-40 per cent of its resources on the military, which later gave Gorbachev strong reasons to negotiate.",
+     "correct": true,
+     "explanation": "Correct: a delayed but real effect."
+    },
+    {
+     "id": "b",
+     "text": "Reagan was popular at home.",
+     "correct": false,
+     "explanation": "Not a counter to the claim."
+    },
+    {
+     "id": "c",
+     "text": "Reagan was a former actor.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "The USSR was a dictatorship.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-LEADERS-D18",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was Gorbachev the main reason for the end of the Cold War between 1985 and 1991?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by whose single decision made the 1989 revolutions possible, Gorbachev was decisive, since only he could abandon the Brezhnev Doctrine; but judged by what made that decision necessary, Reagan's pressure and Soviet economic strain mattered too.",
+     "correct": true,
+     "explanation": "Correct: two criteria and a weighed judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Gorbachev was a reformer.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Gorbachev was the best Soviet leader.",
+     "correct": false,
+     "explanation": "No judgement criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, leaders matter in history.",
+     "correct": false,
+     "explanation": "Too general."
     }
    ]
   }

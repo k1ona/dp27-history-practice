@@ -1721,6 +1721,436 @@
      "explanation": "He had rejected it."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did Kennan publish the anonymous 'X-Article'? (year)",
+   "factIds": [
+    "F-CONT-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1947,
+     "tolerance": 0,
+     "explanation": "1947, in Foreign Affairs."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did NSC-68 describe the Soviet Union?",
+   "factIds": [
+    "F-CONT-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "As a state 'animated by a new fanatic faith'",
+     "correct": true,
+     "explanation": "Correct: justifying a massive arms build-up."
+    },
+    {
+     "id": "b",
+     "text": "As a declining power no longer worth containing",
+     "correct": false,
+     "explanation": "The opposite judgement."
+    },
+    {
+     "id": "c",
+     "text": "As a natural ally against China",
+     "correct": false,
+     "explanation": "Not NSC-68's view."
+    },
+    {
+     "id": "d",
+     "text": "As militarily weaker than Britain",
+     "correct": false,
+     "explanation": "Not a claim NSC-68 made."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R23",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these Middle Eastern and Asian events of the later 1950s in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Eisenhower Doctrine announced",
+     "year": 1957,
+     "month": 1,
+     "factId": "F-CONT-16"
+    },
+    {
+     "id": "b",
+     "text": "Sputnik launched",
+     "year": 1957,
+     "month": 10,
+     "factId": "F-CONT-12"
+    },
+    {
+     "id": "c",
+     "text": "US troops land in Lebanon; Jinmen and Mazu bombarded again",
+     "year": 1958,
+     "factId": "F-CONT-15"
+    },
+    {
+     "id": "d",
+     "text": "U-2 shot down over the USSR",
+     "year": 1960,
+     "month": 5,
+     "factId": "F-CONT-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R24",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each figure to their action.",
+   "pairs": [
+    {
+     "left": "Georgi Malenkov",
+     "right": "Launched the first Soviet 'peace offensive' after Stalin's death",
+     "explanation": "1953."
+    },
+    {
+     "left": "John Foster Dulles",
+     "right": "Called for 'rollback' and 'liberation' of Eastern Europe in 1952",
+     "explanation": "Never acted on by any administration."
+    },
+    {
+     "left": "Walter Lippmann",
+     "right": "Argued the X-Article failed to separate vital from peripheral interests",
+     "explanation": "1947."
+    },
+    {
+     "left": "Paul Nitze",
+     "right": "Directed the Policy Planning Staff that drafted NSC-68",
+     "explanation": "1950."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these describe NATO's 'massive retaliation' doctrine? Choose all that apply.",
+   "factIds": [
+    "F-CONT-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A large-scale US nuclear response to an attack on any NATO member",
+     "correct": true,
+     "explanation": "Yes: the 'nuclear umbrella'."
+    },
+    {
+     "id": "b",
+     "text": "Adopted in the 1950s",
+     "correct": true,
+     "explanation": "Yes: under Eisenhower."
+    },
+    {
+     "id": "c",
+     "text": "A promise to use only conventional forces",
+     "correct": false,
+     "explanation": "No: it relied on nuclear threat."
+    },
+    {
+     "id": "d",
+     "text": "A Soviet doctrine",
+     "correct": false,
+     "explanation": "No: it was NATO's."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “NSC-68 declared that defence spending must rise to meet a worldwide Soviet threat.” Which argument does it support best?",
+   "factIds": [
+    "F-CONT-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "NSC-68 turned containment into a permanent, global commitment",
+     "correct": true,
+     "explanation": "Correct: no longer limited to key centres."
+    },
+    {
+     "id": "b",
+     "text": "NSC-68 reduced US military spending",
+     "correct": false,
+     "explanation": "Spending almost tripled."
+    },
+    {
+     "id": "c",
+     "text": "NSC-68 was never adopted",
+     "correct": false,
+     "explanation": "Korea made it policy."
+    },
+    {
+     "id": "d",
+     "text": "NSC-68 focused only on Asia",
+     "correct": false,
+     "explanation": "It was a global document."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Khrushchev accepted Eisenhower's 'open skies' proposal at Geneva in 1955.”",
+   "factIds": [
+    "F-CONT-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Khrushchev refused the proposal, continuing the Soviet rejection of inspection",
+     "correct": true,
+     "explanation": "Correct: mutual aerial inspection was never agreed."
+    },
+    {
+     "id": "b",
+     "text": "The proposal was made in 1965",
+     "correct": false,
+     "explanation": "It was made at Geneva in 1955."
+    },
+    {
+     "id": "c",
+     "text": "Eisenhower made no such proposal",
+     "correct": false,
+     "explanation": "He did, at the Geneva summit."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Khrushchev refused it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the militarisation of containment between 1947 and 1953. Is the Eisenhower Doctrine of 1957 inside or outside the timeframe?",
+   "factIds": [
+    "F-CONT-16"
+   ],
+   "timeframe": [
+    1947,
+    1953
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later development",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1953."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1957 is after 1953."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it followed the same logic as NSC-68",
+     "correct": false,
+     "explanation": "Relevance does not override the dates."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the Kennedy administration find on taking office about the 'missile gap'?",
+   "factIds": [
+    "F-CONT-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The balance of nuclear power still favoured the US",
+     "correct": true,
+     "explanation": "Correct: the 'gap' had been largely a campaign claim."
+    },
+    {
+     "id": "b",
+     "text": "The USSR had an overwhelming lead",
+     "correct": false,
+     "explanation": "Not what was found."
+    },
+    {
+     "id": "c",
+     "text": "Nuclear weapons had become obsolete",
+     "correct": false,
+     "explanation": "Not the finding."
+    },
+    {
+     "id": "d",
+     "text": "The arms race had already ended",
+     "correct": false,
+     "explanation": "It continued."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year was the Limited Test Ban Treaty signed? (year)",
+   "factIds": [
+    "F-CONT-21"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1963,
+     "tolerance": 0,
+     "explanation": "1963, after the Cuban Missile Crisis."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Who directed the Policy Planning Staff that drafted NSC-68?",
+   "factIds": [
+    "F-CONT-03"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Paul Nitze",
+     "correct": true,
+     "explanation": "Correct: Kennan's successor, who saw the threat in military terms."
+    },
+    {
+     "id": "b",
+     "text": "George Kennan",
+     "correct": false,
+     "explanation": "Kennan opposed NSC-68 at first."
+    },
+    {
+     "id": "c",
+     "text": "John Foster Dulles",
+     "correct": false,
+     "explanation": "Dulles called for 'rollback' later, under Eisenhower."
+    },
+    {
+     "id": "d",
+     "text": "Dean Acheson",
+     "correct": false,
+     "explanation": "He was Secretary of State, not the drafter."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By the mid-1960s the superpowers had reached nuclear parity, so a first strike by either side risked certain retaliation.” Which argument does it support best?",
+   "factIds": [
+    "F-CONT-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Nuclear threats as a tool of diplomacy lost their credibility",
+     "correct": true,
+     "explanation": "Correct: 'mutually assured destruction'."
+    },
+    {
+     "id": "b",
+     "text": "The US abandoned its nuclear arsenal",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "Nuclear weapons became irrelevant to the Cold War",
+     "correct": false,
+     "explanation": "They still shaped strategy."
+    },
+    {
+     "id": "d",
+     "text": "The US kept a large lead throughout the 1960s",
+     "correct": false,
+     "explanation": "The fact says parity was reached."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-R33",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these took place in 1958? Choose all that apply.",
+   "factIds": [
+    "F-CONT-15",
+    "F-CONT-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The PRC resumed bombarding Jinmen and Mazu",
+     "correct": true,
+     "explanation": "Yes: the second Taiwan Strait crisis."
+    },
+    {
+     "id": "b",
+     "text": "US troops landed in Lebanon",
+     "correct": true,
+     "explanation": "Yes: under the Eisenhower Doctrine."
+    },
+    {
+     "id": "c",
+     "text": "Sputnik was launched",
+     "correct": false,
+     "explanation": "That was 1957."
+    },
+    {
+     "id": "d",
+     "text": "The U-2 was shot down",
+     "correct": false,
+     "explanation": "That was 1960."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2087,6 +2517,297 @@
      "text": "The Limited Test Ban Treaty",
      "answer": "effects",
      "explanation": "1963, after Cuba."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the reasons for the Eisenhower Doctrine of 1957.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine",
+     "answer": "verb",
+     "explanation": "Break the issue into its parts."
+    },
+    {
+     "id": "s2",
+     "text": "the reasons for",
+     "answer": "factor",
+     "explanation": "The causes to identify."
+    },
+    {
+     "id": "s3",
+     "text": "the Eisenhower Doctrine",
+     "answer": "scope",
+     "explanation": "What must be explained."
+    },
+    {
+     "id": "s4",
+     "text": "1957",
+     "answer": "timeframe",
+     "explanation": "The year it was announced."
+    },
+    {
+     "id": "s5",
+     "text": "reasons",
+     "answer": "judgement",
+     "explanation": "Which cause mattered most: Suez, or fear of a Soviet vacuum."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for the Eisenhower Doctrine of 1957.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Eisenhower Doctrine was announced chiefly because the decline of British and French prestige after Suez left a power vacuum Eisenhower feared the Soviets would fill, as the 1958 Lebanon landing showed.",
+     "correct": true,
+     "explanation": "Correct: a judged cause with evidence."
+    },
+    {
+     "id": "b",
+     "text": "The Eisenhower Doctrine was announced in 1957.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The Eisenhower Doctrine was important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The Eisenhower Doctrine ended the Cold War in the Middle East.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 4 October 1957 the USSR launched Sputnik.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s2",
+     "text": "Because Sputnik showed Soviet rockets could reach America, it convinced Washington that the arms race could not be left to slow progress.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "Congress passed the Gulf of Tonkin Resolution on 7 August 1964.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that Johnson had the legal authority he needed to escalate without a formal declaration of war, so bombing began within months.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Khrushchev's rejection of 'open skies' in 1955",
+     "right": "The Soviets kept their rejection of inspection even while offering co-existence",
+     "explanation": "Continued Stalin-era secrecy."
+    },
+    {
+     "left": "Sputnik's launch in October 1957",
+     "right": "The arms and space races accelerated after 1957",
+     "explanation": "Fed fears of a 'missile gap'."
+    },
+    {
+     "left": "The Eisenhower Doctrine of 1957",
+     "right": "Containment was extended to the Middle East after Suez",
+     "explanation": "Lebanon, 1958."
+    },
+    {
+     "left": "Nuclear parity by the mid-1960s",
+     "right": "Atomic threats lost their diplomatic value",
+     "explanation": "Mutually assured destruction."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The US got more and more involved in Vietnam.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "After reported attacks on US destroyers in August 1964, the Gulf of Tonkin Resolution gave Johnson the authority to escalate, so Operation Rolling Thunder and ground troops followed within a year.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and consequence."
+    },
+    {
+     "id": "b",
+     "text": "The US got much more involved in Vietnam over time.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The Gulf of Tonkin Resolution was passed in 1964.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The US took over all of Vietnam.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Containment succeeded everywhere it was applied.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "In Vietnam the US backed Diem's refusal of the Geneva elections against a popular Communist-nationalist movement, and despite escalation from 1965 Saigon fell to North Vietnamese forces on 30 April 1975.",
+     "correct": true,
+     "explanation": "Correct: a specific, well-evidenced failure."
+    },
+    {
+     "id": "b",
+     "text": "Containment was a good idea.",
+     "correct": false,
+     "explanation": "Not a counter-argument."
+    },
+    {
+     "id": "c",
+     "text": "The Cold War was long.",
+     "correct": false,
+     "explanation": "Too general."
+    },
+    {
+     "id": "d",
+     "text": "The USSR also had allies.",
+     "correct": false,
+     "explanation": "Does not address the claim."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons for the Eisenhower Doctrine of 1957.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged against the alternative of inaction, the Doctrine mattered most as a response to the vacuum Suez left, since without it the US had no legal basis for the 1958 Lebanon landing.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the Eisenhower Doctrine was announced in 1957.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the Middle East was unstable.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, doctrines are always useful.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CONTAINMENT-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the impact of the Vietnam War on United States containment policy between 1964 and 1975.” Sort each plan point into CAUSES or CONSEQUENCES of that impact.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The Gulf of Tonkin Resolution of August 1964",
+     "answer": "causes",
+     "explanation": "Gave legal authority to escalate."
+    },
+    {
+     "id": "s2",
+     "text": "The scale and cost of the war under Johnson",
+     "answer": "causes",
+     "explanation": "Made continued ground war unpopular."
+    },
+    {
+     "id": "s3",
+     "text": "Nixon's turn to Vietnamization from 1969",
+     "answer": "effects",
+     "explanation": "Withdrawal while building up the South."
+    },
+    {
+     "id": "s4",
+     "text": "Improved relations with Moscow and Beijing",
+     "answer": "effects",
+     "explanation": "Giving them 'bigger fish to fry'."
+    },
+    {
+     "id": "s5",
+     "text": "The fall of Saigon on 30 April 1975",
+     "answer": "effects",
+     "explanation": "Showed the limits of military containment."
     }
    ]
   }

@@ -1717,6 +1717,436 @@
      "explanation": "Moscow had already refused."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the Tehran Conference take place? (year)",
+   "factIds": [
+    "F-GRAND-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1943,
+     "tolerance": 0,
+     "explanation": "1943: the first meeting of the 'Big Three'."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What phrase did Churchill use for Soviet domination of Eastern Europe in his March 1946 speech at Fulton, Missouri?",
+   "factIds": [
+    "F-GRAND-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "An 'iron curtain' had descended across the continent",
+     "correct": true,
+     "explanation": "Correct: widely seen as an early declaration of Cold War."
+    },
+    {
+     "id": "b",
+     "text": "A 'wall of silence'",
+     "correct": false,
+     "explanation": "Not Churchill's phrase."
+    },
+    {
+     "id": "c",
+     "text": "An 'empire of fear'",
+     "correct": false,
+     "explanation": "Not his phrase."
+    },
+    {
+     "id": "d",
+     "text": "A 'red curtain'",
+     "correct": false,
+     "explanation": "Not his phrase."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R23",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these conferences and declarations in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Yalta Conference",
+     "year": 1945,
+     "month": 2,
+     "factId": "F-GRAND-03"
+    },
+    {
+     "id": "b",
+     "text": "Potsdam Conference",
+     "year": 1945,
+     "month": 7,
+     "factId": "F-GRAND-05"
+    },
+    {
+     "id": "c",
+     "text": "Truman Doctrine announced",
+     "year": 1947,
+     "month": 3,
+     "factId": "F-GRAND-13"
+    },
+    {
+     "id": "d",
+     "text": "Marshall's speech proposing European recovery aid",
+     "year": 1947,
+     "month": 6,
+     "factId": "F-GRAND-15"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R24",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each figure or body to their action.",
+   "pairs": [
+    {
+     "left": "Molotov",
+     "right": "Walked out of the Paris talks on Marshall aid, 2 July 1947",
+     "explanation": "Sixteen European states went on without the USSR."
+    },
+    {
+     "left": "Zhdanov",
+     "right": "Set out the 'two camps' doctrine at the Cominform's founding",
+     "explanation": "Szklarska Poręba, September 1947."
+    },
+    {
+     "left": "Mao Zedong",
+     "right": "Proclaimed the People's Republic of China",
+     "explanation": "1 October 1949."
+    },
+    {
+     "left": "George Kennan",
+     "right": "Called for 'containment' in the 1947 X-Article",
+     "explanation": "Published anonymously."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were among the setbacks of 1946 that ended hopes of a lasting rapprochement? Choose all that apply.",
+   "factIds": [
+    "F-GRAND-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet troops remained in northern Iran beyond the agreed withdrawal",
+     "correct": true,
+     "explanation": "Yes: a crisis at the United Nations followed."
+    },
+    {
+     "id": "b",
+     "text": "Churchill's 'iron curtain' speech",
+     "correct": true,
+     "explanation": "Yes: March 1946."
+    },
+    {
+     "id": "c",
+     "text": "The Prague coup",
+     "correct": false,
+     "explanation": "No: that was February 1948."
+    },
+    {
+     "id": "d",
+     "text": "The founding of NATO",
+     "correct": false,
+     "explanation": "No: that was 1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Judt argues there is 'little to be gained from asking who started the Cold War', since the Americans, like Stalin, were improvising.” Which argument does it support best?",
+   "factIds": [
+    "F-GRAND-24"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Responsibility for the breakdown was shared, not one-sided",
+     "correct": true,
+     "explanation": "Correct: a historiographical balance against blaming either side alone."
+    },
+    {
+     "id": "b",
+     "text": "The United States alone caused the Cold War",
+     "correct": false,
+     "explanation": "Judt rejects a one-sided verdict."
+    },
+    {
+     "id": "c",
+     "text": "The Soviet Union alone caused the Cold War",
+     "correct": false,
+     "explanation": "Judt rejects a one-sided verdict."
+    },
+    {
+     "id": "d",
+     "text": "Neither side made any policy mistakes",
+     "correct": false,
+     "explanation": "Judt's point is that both were improvising, not error-free."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “Truman threatened Stalin with the atomic bomb at Potsdam to force Soviet concessions.”",
+   "factIds": [
+    "F-GRAND-29"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Truman told Stalin about the bomb but did not threaten him with it, and the US nuclear monopoly did not change Soviet policy",
+     "correct": true,
+     "explanation": "Correct: Stalin was already informed by Soviet intelligence."
+    },
+    {
+     "id": "b",
+     "text": "Potsdam took place in 1955",
+     "correct": false,
+     "explanation": "It took place in 1945."
+    },
+    {
+     "id": "c",
+     "text": "Stalin was unaware of the US bomb programme",
+     "correct": false,
+     "explanation": "Soviet intelligence had already informed him."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: no threat was made."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the breakdown of the Grand Alliance between 1943 and 1949. Is the Soviet Union's first atomic bomb test, also in 1949, inside or outside the timeframe?",
+   "factIds": [
+    "F-GRAND-08"
+   ],
+   "timeframe": [
+    1943,
+    1949
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside: 1949 falls within the question's dates",
+     "correct": true,
+     "explanation": "Correct: it can be used as a closing point of the answer."
+    },
+    {
+     "id": "b",
+     "text": "Outside",
+     "correct": false,
+     "explanation": "No: 1949 is the question's final year."
+    },
+    {
+     "id": "c",
+     "text": "Inside, but only if the essay is about nuclear weapons",
+     "correct": false,
+     "explanation": "The date alone places it inside."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was significant about NATO, founded in 1949?",
+   "factIds": [
+    "F-GRAND-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It was the first peacetime military alliance the US had entered outside the Western Hemisphere",
+     "correct": true,
+     "explanation": "Correct: a major break from earlier US practice."
+    },
+    {
+     "id": "b",
+     "text": "It included the Soviet Union",
+     "correct": false,
+     "explanation": "It was formed against the USSR."
+    },
+    {
+     "id": "c",
+     "text": "It was purely economic",
+     "correct": false,
+     "explanation": "It was a military alliance."
+    },
+    {
+     "id": "d",
+     "text": "It was founded before the Truman Doctrine",
+     "correct": false,
+     "explanation": "NATO came two years later, in 1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the USSR test its first atomic bomb? (year)",
+   "factIds": [
+    "F-GRAND-08"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1949,
+     "tolerance": 0,
+     "explanation": "1949: ending the brief US nuclear monopoly."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Roosevelt hope would prevent a future breakdown with the USSR?",
+   "factIds": [
+    "F-GRAND-28"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Satisfying what he saw as legitimate Soviet security needs in Eastern Europe and Northeast Asia",
+     "correct": true,
+     "explanation": "Correct: a conciliatory approach that Truman did not fully continue."
+    },
+    {
+     "id": "b",
+     "text": "Sharing the atomic bomb with Stalin immediately",
+     "correct": false,
+     "explanation": "Not Roosevelt's policy."
+    },
+    {
+     "id": "c",
+     "text": "Excluding the USSR from the United Nations",
+     "correct": false,
+     "explanation": "The USSR was a founding member."
+    },
+    {
+     "id": "d",
+     "text": "Refusing any further conferences with Stalin",
+     "correct": false,
+     "explanation": "He sought continued negotiation."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Judt argues that the immediate cause of the division of Germany and Europe lay in Stalin's own errors.” Which argument does it support best?",
+   "factIds": [
+    "F-GRAND-23"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet policy bears significant responsibility for the breakdown of the Grand Alliance",
+     "correct": true,
+     "explanation": "Correct: one historian's weighting of responsibility."
+    },
+    {
+     "id": "b",
+     "text": "The United States alone was responsible",
+     "correct": false,
+     "explanation": "Judt points to Stalin's errors specifically."
+    },
+    {
+     "id": "c",
+     "text": "No one was responsible for the division of Germany",
+     "correct": false,
+     "explanation": "Judt identifies a cause."
+    },
+    {
+     "id": "d",
+     "text": "The division of Germany was accidental and had no identifiable cause",
+     "correct": false,
+     "explanation": "Judt names a specific cause."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-R33",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were strains inside the wartime alliance before 1945? Choose all that apply.",
+   "factIds": [
+    "F-GRAND-27"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet refusal to aid the Warsaw Uprising of August 1944",
+     "correct": true,
+     "explanation": "Yes: Soviet forces halted outside the city."
+    },
+    {
+     "id": "b",
+     "text": "Western delay over opening a second front in France",
+     "correct": true,
+     "explanation": "Yes: a long-standing Soviet grievance."
+    },
+    {
+     "id": "c",
+     "text": "The founding of NATO",
+     "correct": false,
+     "explanation": "No: that came in 1949, after the war."
+    },
+    {
+     "id": "d",
+     "text": "The Berlin blockade",
+     "correct": false,
+     "explanation": "No: that began in 1948."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2083,6 +2513,297 @@
      "text": "Two separate German states",
      "answer": "effects",
      "explanation": "Formed in 1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Examine the reasons why superpower rivalry spread to Asia between 1945 and 1949.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Examine",
+     "answer": "verb",
+     "explanation": "Break the issue into its parts."
+    },
+    {
+     "id": "s2",
+     "text": "the reasons why",
+     "answer": "factor",
+     "explanation": "The causes to identify."
+    },
+    {
+     "id": "s3",
+     "text": "superpower rivalry spread to Asia",
+     "answer": "scope",
+     "explanation": "What must be explained."
+    },
+    {
+     "id": "s4",
+     "text": "between 1945 and 1949",
+     "answer": "timeframe",
+     "explanation": "From Japan's surrender to the PRC's founding."
+    },
+    {
+     "id": "s5",
+     "text": "reasons",
+     "answer": "judgement",
+     "explanation": "Which cause mattered most: Japan's surrender, China's civil war, or European precedent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons why superpower rivalry spread to Asia between 1945 and 1949.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rivalry spread to Asia chiefly because Japan's surrender left a power vacuum that both superpowers moved into, which the Chinese Communist victory of 1949 then confirmed as a Cold War front in its own right.",
+     "correct": true,
+     "explanation": "Correct: identifies and weighs causes."
+    },
+    {
+     "id": "b",
+     "text": "Mao proclaimed the PRC in 1949.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Asia became important.",
+     "correct": false,
+     "explanation": "No judgement."
+    },
+    {
+     "id": "d",
+     "text": "The US controlled all of Asia by 1949.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 1 October 1949 Mao Zedong proclaimed the People's Republic of China.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the US refused to recognise the new government, the Cold War gained a second major front in Asia alongside Europe.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    },
+    {
+     "id": "s3",
+     "text": "Churchill gave his 'iron curtain' speech at Fulton in March 1946.",
+     "answer": "narrative",
+     "explanation": "A date-led statement."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that a senior Western statesman had publicly named Soviet domination of Eastern Europe, so the speech sharpened the sense of two opposed blocs even before NATO existed.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Molotov's walkout from the Paris talks on Marshall aid",
+     "right": "The USSR rejected economic cooperation with the West",
+     "explanation": "July 1947."
+    },
+    {
+     "left": "The Cominform's 'two camps' doctrine",
+     "right": "Soviet policy now treated the world as divided into two hostile blocs",
+     "explanation": "September 1947."
+    },
+    {
+     "left": "Truman's decision not to threaten Stalin with the bomb at Potsdam",
+     "right": "Nuclear weapons did not immediately become a tool of coercive diplomacy",
+     "explanation": "Despite the US monopoly."
+    },
+    {
+     "left": "Judt's comment that 'little is to be gained from asking who started the Cold War'",
+     "right": "Responsibility for the breakdown should be seen as shared",
+     "explanation": "A historiographical balance."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Relations between the US and USSR got worse in the late 1940s.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "After Molotov rejected Marshall aid in July 1947 and the Cominform set out a 'two camps' doctrine that September, each side increasingly treated the other's actions as proof of hostile intent.",
+     "correct": true,
+     "explanation": "Correct: evidence, mechanism and consequence."
+    },
+    {
+     "id": "b",
+     "text": "The US and USSR disagreed a lot by 1949.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The Cominform was founded in 1947.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "The US and USSR went to war in 1948.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Soviet Union alone was responsible for the breakdown of the Grand Alliance.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judt argues that the Americans, like Stalin, were improvising in these years, and that little is to be gained from asking who started the Cold War, since both sides' policies interacted to produce the breakdown.",
+     "correct": true,
+     "explanation": "Correct: a historiographical counter with a precise citation."
+    },
+    {
+     "id": "b",
+     "text": "Stalin was a dictator.",
+     "correct": false,
+     "explanation": "Does not counter the claim."
+    },
+    {
+     "id": "c",
+     "text": "The Cold War lasted a long time.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "d",
+     "text": "The USSR had a large army.",
+     "correct": false,
+     "explanation": "Not an argument about responsibility."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the reasons why superpower rivalry spread to Asia between 1945 and 1949.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged against the alternative explanation of simple Communist expansion, the Chinese Civil War mattered most because its outcome in 1949, not superpower design, decided which bloc Asia's largest state joined.",
+     "correct": true,
+     "explanation": "Correct: criterion, judgement and evidence."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Asia became important to the Cold War.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, China was large.",
+     "correct": false,
+     "explanation": "No criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, wars have causes.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-GRAND-ALLIANCE-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent was ideology the main cause of the breakdown of the Grand Alliance between 1943 and 1949?” Sort each plan point into FOR IDEOLOGY or AGAINST IDEOLOGY as the main cause.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "For ideology"
+    },
+    {
+     "id": "effects",
+     "label": "Against ideology"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The Cominform's 'two camps' doctrine framed the rivalry in ideological terms",
+     "answer": "causes",
+     "explanation": "September 1947."
+    },
+    {
+     "id": "s2",
+     "text": "Communists in Eastern Europe could not win power through the ballot box, so used Soviet-backed coups",
+     "answer": "causes",
+     "explanation": "1946–47."
+    },
+    {
+     "id": "s3",
+     "text": "Disputes over reparations and occupation zones at Potsdam were practical, not ideological",
+     "answer": "effects",
+     "explanation": "A dispute over resources."
+    },
+    {
+     "id": "s4",
+     "text": "Judt argues both sides were simply improvising rather than following fixed doctrine",
+     "answer": "effects",
+     "explanation": "Against a purely ideological reading."
+    },
+    {
+     "id": "s5",
+     "text": "Stalin's demand for security on the Soviet border, agreed in principle at Tehran",
+     "answer": "effects",
+     "explanation": "A security concern, not an ideological one."
     }
    ]
   }

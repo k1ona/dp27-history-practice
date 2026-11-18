@@ -1710,6 +1710,419 @@
      "explanation": "Inchon was where MacArthur landed."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to the Office of the Historian, US defence spending rose from 5 per cent of GDP in 1950 to what share by 1953? (per cent, one decimal place)",
+   "factIds": [
+    "F-KOR-13"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 14.2,
+     "tolerance": 0,
+     "explanation": "14.2 per cent, after NSC-68 was adopted as policy."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to the Eisenhower Library's assessment, what did the Korean War demonstrate?",
+   "factIds": [
+    "F-KOR-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "US willingness to combat aggression, and it strengthened Eisenhower's hand organising NATO's defence",
+     "correct": true,
+     "explanation": "Correct: it also ensured the NSC-68 build-up went ahead."
+    },
+    {
+     "id": "b",
+     "text": "That the US would not defend its allies",
+     "correct": false,
+     "explanation": "The opposite: the US fought for three years."
+    },
+    {
+     "id": "c",
+     "text": "That containment had failed completely",
+     "correct": false,
+     "explanation": "Not the library's assessment."
+    },
+    {
+     "id": "d",
+     "text": "That NSC-68 should be abandoned",
+     "correct": false,
+     "explanation": "NSC-68 was pursued, not dropped."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R23",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What treaty with Japan was signed alongside the US-Japan Security Treaty on 8 September 1951?",
+   "factIds": [
+    "F-KOR-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Treaty of San Francisco",
+     "correct": true,
+     "explanation": "Correct: it formally ended the occupation."
+    },
+    {
+     "id": "b",
+     "text": "The Treaty of Versailles",
+     "correct": false,
+     "explanation": "That followed the First World War."
+    },
+    {
+     "id": "c",
+     "text": "The Lisbon Treaty",
+     "correct": false,
+     "explanation": "Not a real 1951 treaty."
+    },
+    {
+     "id": "d",
+     "text": "The mutual security treaty with South Korea",
+     "correct": false,
+     "explanation": "That was signed separately, in 1953."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R24",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How much military assistance did the 1951 Mutual Security Act provide by the end of 1951, according to Judt? (billion dollars, nearest whole number)",
+   "factIds": [
+    "F-KOR-15"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 5,
+     "tolerance": 0,
+     "explanation": "Nearly $5 billion, turning the Marshall Plan into military aid."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R25",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, what “sent the West German industrial machine into high gear”?",
+   "factIds": [
+    "F-KOR-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Korea, not the Schuman Plan",
+     "correct": true,
+     "explanation": "Correct: wartime demand, not European integration, drove it."
+    },
+    {
+     "id": "b",
+     "text": "The Schuman Plan alone",
+     "correct": false,
+     "explanation": "Judt credits Korea instead."
+    },
+    {
+     "id": "c",
+     "text": "Marshall Plan grants of the late 1940s",
+     "correct": false,
+     "explanation": "Those came earlier."
+    },
+    {
+     "id": "d",
+     "text": "West German rearmament after 1955",
+     "correct": false,
+     "explanation": "That came later still."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R26",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Why did NATO integrate its forces under a central headquarters after the North Korean attack?",
+   "factIds": [
+    "F-KOR-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The attack was widely seen as Communist aggression directed by Moscow",
+     "correct": true,
+     "explanation": "Correct: the US also raised its own troop commitments to Europe."
+    },
+    {
+     "id": "b",
+     "text": "France demanded a single command",
+     "correct": false,
+     "explanation": "Not the stated reason."
+    },
+    {
+     "id": "c",
+     "text": "The USSR requested it",
+     "correct": false,
+     "explanation": "NATO was formed against the USSR."
+    },
+    {
+     "id": "d",
+     "text": "Korea had just joined NATO",
+     "correct": false,
+     "explanation": "Korea was never a NATO member."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R27",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Stalin had contemplated an attack on Yugoslavia but abandoned it in the face of Western rearmament.” Which argument does it support best?",
+   "factIds": [
+    "F-KOR-19"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Western rearmament after Korea deterred further Soviet aggression",
+     "correct": true,
+     "explanation": "Correct: both sides' fears fed a cycle of rearmament."
+    },
+    {
+     "id": "b",
+     "text": "Stalin successfully invaded Yugoslavia",
+     "correct": false,
+     "explanation": "He abandoned the plan."
+    },
+    {
+     "id": "c",
+     "text": "Yugoslavia joined NATO in 1950",
+     "correct": false,
+     "explanation": "Not what the fact says."
+    },
+    {
+     "id": "d",
+     "text": "The USSR ignored Western rearmament entirely",
+     "correct": false,
+     "explanation": "The opposite: it shaped Stalin's decision."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R28",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were consequences of the Korean War outside Korea itself? Choose all that apply.",
+   "factIds": [
+    "F-KOR-09",
+    "F-KOR-12",
+    "F-KOR-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japan's restoration was accelerated through the Treaty of San Francisco",
+     "correct": true,
+     "explanation": "Yes: signed 8 September 1951."
+    },
+    {
+     "id": "b",
+     "text": "NATO integrated its forces under a central headquarters",
+     "correct": true,
+     "explanation": "Yes: seen as a response to Moscow-directed aggression."
+    },
+    {
+     "id": "c",
+     "text": "The US build-up strengthened Eisenhower's hand in organising NATO's defence",
+     "correct": true,
+     "explanation": "Yes, per the Eisenhower Library's assessment."
+    },
+    {
+     "id": "d",
+     "text": "Japan was excluded from America's containment system",
+     "correct": false,
+     "explanation": "The opposite: Japan was brought into it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R29",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each term to what it refers to.",
+   "pairs": [
+    {
+     "left": "Reverse Course",
+     "right": "The US halt to reforms in occupied Japan before Korea",
+     "explanation": "The war then accelerated Japan's restoration instead."
+    },
+    {
+     "left": "Mutual Security Act",
+     "right": "The 1951 law turning the Marshall Plan into military assistance",
+     "explanation": "Nearly $5 billion by the end of 1951."
+    },
+    {
+     "left": "NSC-68",
+     "right": "The 1950 document calling for a massive US military build-up",
+     "explanation": "Korea ensured its budget increases were approved."
+    },
+    {
+     "left": "Lisbon target",
+     "right": "NATO's February 1952 goal of ninety-six new divisions",
+     "explanation": "It required West German rearmament to meet."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R30",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “At Lisbon in 1952 NATO decided against rearming West Germany, to reassure France.”",
+   "factIds": [
+    "F-KOR-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "NATO's target of ninety-six divisions could only be met through West German rearmament",
+     "correct": true,
+     "explanation": "Correct: this made rearmament more, not less, likely."
+    },
+    {
+     "id": "b",
+     "text": "Lisbon took place in 1948",
+     "correct": false,
+     "explanation": "It took place in February 1952."
+    },
+    {
+     "id": "c",
+     "text": "NATO disbanded at Lisbon",
+     "correct": false,
+     "explanation": "The opposite: it became 'unambiguously, an alliance'."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Lisbon pushed rearmament forward, not back."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R31",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Korean War (1950–1953). Is the 8 September 1951 signing of the Treaty of San Francisco inside or outside the timeframe?",
+   "factIds": [
+    "F-KOR-12"
+   ],
+   "timeframe": [
+    1950,
+    1953
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside: 1951 falls within 1950 to 1953",
+     "correct": true,
+     "explanation": "Correct: it can be used as a full consequence, not just a later one."
+    },
+    {
+     "id": "b",
+     "text": "Outside: it happened after the war",
+     "correct": false,
+     "explanation": "The war did not end until 1953."
+    },
+    {
+     "id": "c",
+     "text": "Outside: it only concerned Japan",
+     "correct": false,
+     "explanation": "Relevance, not the actor, decides the timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R32",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What share of US GNP did defence spending take in 1949, before the Korean War, according to Judt? (per cent, one decimal place)",
+   "factIds": [
+    "F-KOR-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 4.7,
+     "tolerance": 0,
+     "explanation": "4.7 per cent, rising to 17.8 per cent by 1952–53."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the 'Reverse Course', and how did the Korean War affect it?",
+   "factIds": [
+    "F-KOR-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A halt to US reforms in occupied Japan; Korea then accelerated Japan's restoration",
+     "correct": true,
+     "explanation": "Correct: the peace treaty followed in September 1951."
+    },
+    {
+     "id": "b",
+     "text": "A Japanese plan to rearm; Korea delayed it",
+     "correct": false,
+     "explanation": "Not what the term refers to."
+    },
+    {
+     "id": "c",
+     "text": "A Soviet policy in Korea; it ended the war",
+     "correct": false,
+     "explanation": "Not a Soviet policy."
+    },
+    {
+     "id": "d",
+     "text": "A US plan to leave Asia; Korea reversed it entirely",
+     "correct": false,
+     "explanation": "Too strong; it specifically concerned Japan's reforms."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2076,6 +2489,286 @@
      "text": "West German rearmament proposed",
      "answer": "effects",
      "explanation": "September 1950."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Analyse the impact of the Korean War on the Cold War in Europe between 1950 and 1953.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Analyse",
+     "answer": "verb",
+     "explanation": "Break down causes and effects."
+    },
+    {
+     "id": "s2",
+     "text": "the impact of the Korean War",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "on the Cold War in Europe",
+     "answer": "scope",
+     "explanation": "What must be analysed."
+    },
+    {
+     "id": "s4",
+     "text": "between 1950 and 1953",
+     "answer": "timeframe",
+     "explanation": "The war's own dates."
+    },
+    {
+     "id": "s5",
+     "text": "impact",
+     "answer": "judgement",
+     "explanation": "Rearmament, NATO, German rearmament: how far-reaching?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the impact of the Korean War on the Cold War in Europe between 1950 and 1953.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Korea militarised the Cold War in Europe by turning NATO into a real alliance and triggering West German rearmament, even though no fighting took place there.",
+     "correct": true,
+     "explanation": "Correct: names the impact and judges its scale."
+    },
+    {
+     "id": "b",
+     "text": "The Korean War began in 1950.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Europe was affected by Korea.",
+     "correct": false,
+     "explanation": "No judgement of how or how much."
+    },
+    {
+     "id": "d",
+     "text": "Korea had no impact on Europe.",
+     "correct": false,
+     "explanation": "Inaccurate: NATO and rearmament followed directly."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Judt writes that it was Korea, not the Schuman Plan, that revived West German industry.",
+     "answer": "narrative",
+     "explanation": "States what a historian wrote."
+    },
+    {
+     "id": "s2",
+     "text": "This shows that wartime demand, not peacetime integration, drove West Germany's recovery.",
+     "answer": "analysis",
+     "explanation": "Draws out the significance."
+    },
+    {
+     "id": "s3",
+     "text": "NATO integrated its forces under a central headquarters after June 1950.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s4",
+     "text": "This mattered because it turned a political alliance into a standing military command.",
+     "answer": "analysis",
+     "explanation": "Explains why it mattered."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "The Treaty of San Francisco was signed on 8 September 1951",
+     "right": "Korea accelerated Japan's restoration into the US camp",
+     "explanation": "Alongside the US-Japan Security Treaty."
+    },
+    {
+     "left": "The Mutual Security Act provided nearly $5 billion in aid by the end of 1951",
+     "right": "Korea turned economic aid into military assistance",
+     "explanation": "The Marshall Plan's purpose shifted."
+    },
+    {
+     "left": "Stalin abandoned a planned attack on Yugoslavia",
+     "right": "Western rearmament deterred further Soviet moves",
+     "explanation": "Each side's fears fed the other's build-up."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Korea changed Japan.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Korean War accelerated Japan's restoration, ending the Reverse Course and bringing the Treaty of San Francisco and the US-Japan Security Treaty on 8 September 1951.",
+     "correct": true,
+     "explanation": "Correct: specific, dated, and explains the mechanism."
+    },
+    {
+     "id": "b",
+     "text": "Korea changed Japan a lot.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Japan fought in the Korean War.",
+     "correct": false,
+     "explanation": "Inaccurate and off the point."
+    },
+    {
+     "id": "d",
+     "text": "Korea changed Japan for the worse.",
+     "correct": false,
+     "explanation": "Unsupported judgement, no evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Korean War proved NATO was purely a defensive planning body.” Pick the strongest counter.",
+   "options": [
+    {
+     "id": "a",
+     "text": "After Korea, NATO became 'unambiguously, an alliance' with Eisenhower as Supreme Allied Commander and forces under a central headquarters",
+     "correct": true,
+     "explanation": "Correct: integrated command went well beyond planning."
+    },
+    {
+     "id": "b",
+     "text": "NATO was founded in 1949",
+     "correct": false,
+     "explanation": "True but not a counter to the claim."
+    },
+    {
+     "id": "c",
+     "text": "Korea is in Asia, not Europe",
+     "correct": false,
+     "explanation": "Geography does not address NATO's nature."
+    },
+    {
+     "id": "d",
+     "text": "The Lisbon meeting took place in February",
+     "correct": false,
+     "explanation": "A date, not an argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The Korean War's greatest impact was on Europe rather than Asia.’ Discuss.” Which conclusion best shows judgement?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Europe saw the deeper structural change, with NATO integrated and German rearmament under way, while Asia saw a fixed but less transformed Cold War divide",
+     "correct": true,
+     "explanation": "Correct: weighs both regions and reaches a reasoned verdict."
+    },
+    {
+     "id": "b",
+     "text": "Europe mattered more because it is closer to the United States.",
+     "correct": false,
+     "explanation": "Not a historical reason."
+    },
+    {
+     "id": "c",
+     "text": "Asia and Europe were both affected.",
+     "correct": false,
+     "explanation": "No comparison or judgement."
+    },
+    {
+     "id": "d",
+     "text": "The war only affected Korea itself.",
+     "correct": false,
+     "explanation": "Ignores the wider consequences."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-KOREA-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Discuss the view that the Korean War was a success for the United States with reference to the period 1950 to 1953.” Sort each point into SUCCESS or LIMITATION.",
+   "categories": [
+    {
+     "id": "success",
+     "label": "Success"
+    },
+    {
+     "id": "limit",
+     "label": "Limitation"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "North Korea was prevented from imposing Communist rule on the South",
+     "answer": "success",
+     "explanation": "The Eisenhower Library's own assessment."
+    },
+    {
+     "id": "s2",
+     "text": "Japan was restored and anchored in the US containment system",
+     "answer": "success",
+     "explanation": "Via the Treaty of San Francisco, September 1951."
+    },
+    {
+     "id": "s3",
+     "text": "The war ended any chance of US-China accommodation for two decades",
+     "answer": "limit",
+     "explanation": "A lasting diplomatic cost."
+    },
+    {
+     "id": "s4",
+     "text": "Korea itself remained divided, exactly as it had been before the war",
+     "answer": "limit",
+     "explanation": "No territorial gain after three years of fighting."
     }
    ]
   }

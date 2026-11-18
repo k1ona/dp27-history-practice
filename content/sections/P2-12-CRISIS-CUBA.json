@@ -1715,6 +1715,436 @@
      "explanation": "It was a CIA operation."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R21",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How does the Office of the Historian describe the Cuban Missile Crisis?",
+   "factIds": [
+    "F-CUB-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "“The moment when the two superpowers came closest to nuclear conflict”",
+     "correct": true,
+     "explanation": "Correct: played out mainly between the White House and the Kremlin."
+    },
+    {
+     "id": "b",
+     "text": "A minor diplomatic disagreement",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "A war fought mainly in Cuba itself",
+     "correct": false,
+     "explanation": "No fighting took place."
+    },
+    {
+     "id": "d",
+     "text": "A crisis resolved entirely by the United Nations",
+     "correct": false,
+     "explanation": "It was resolved by direct superpower diplomacy."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What happened to Operation Mongoose in October 1962?",
+   "factIds": [
+    "F-CUB-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Kennedy administration suspended it in the face of a 'far more serious threat'",
+     "correct": true,
+     "explanation": "Correct: the missile crisis itself."
+    },
+    {
+     "id": "b",
+     "text": "It succeeded in removing Castro",
+     "correct": false,
+     "explanation": "It never did."
+    },
+    {
+     "id": "c",
+     "text": "It was expanded into a full invasion",
+     "correct": false,
+     "explanation": "No invasion occurred."
+    },
+    {
+     "id": "d",
+     "text": "It was renamed the Bay of Pigs",
+     "correct": false,
+     "explanation": "The Bay of Pigs came earlier, in 1961."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R23",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "To what DEFCON level did US forces go when Kennedy addressed the nation on television on 22 October 1962? (number)",
+   "factIds": [
+    "F-CUB-10"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 3,
+     "tolerance": 0,
+     "explanation": "DEFCON 3; it rose to DEFCON 2 on 24–25 October."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Kennedy say on television any missile launched from Cuba would be regarded as?",
+   "factIds": [
+    "F-CUB-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "“An attack by the Soviet Union on the United States, requiring a full retaliatory response”",
+     "correct": true,
+     "explanation": "Correct: a direct nuclear warning."
+    },
+    {
+     "id": "b",
+     "text": "A matter for the United Nations alone",
+     "correct": false,
+     "explanation": "Kennedy treated it as a direct US-Soviet matter."
+    },
+    {
+     "id": "c",
+     "text": "An accident, not deliberate policy",
+     "correct": false,
+     "explanation": "Not what he said."
+    },
+    {
+     "id": "d",
+     "text": "A Cuban, not a Soviet, decision",
+     "correct": false,
+     "explanation": "He held Moscow responsible."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R25",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Bay of Pigs was a significant US foreign policy failure and embarrassment.” Which argument does it support best?",
+   "factIds": [
+    "F-CUB-06"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The failed invasion damaged US prestige and pushed policy towards covert action instead",
+     "correct": true,
+     "explanation": "Correct: Operation Mongoose followed in November 1961."
+    },
+    {
+     "id": "b",
+     "text": "The invasion succeeded in removing Castro",
+     "correct": false,
+     "explanation": "It failed within two days."
+    },
+    {
+     "id": "c",
+     "text": "The US avoided any involvement in Cuba after 1961",
+     "correct": false,
+     "explanation": "Mongoose and the missile crisis followed."
+    },
+    {
+     "id": "d",
+     "text": "Castro was weakened by the invasion",
+     "correct": false,
+     "explanation": "It strengthened him."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were true of the lead-up to the missile crisis in 1962? Choose all that apply.",
+   "factIds": [
+    "F-CUB-06",
+    "F-CUB-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "US intelligence reported expanded Soviet arms shipments to Cuba through spring and summer",
+     "correct": true,
+     "explanation": "Yes: this preceded the discovery of the missile sites."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev and Castro reached a secret agreement in July 1962 to place missiles in Cuba",
+     "correct": true,
+     "explanation": "Yes, to deter any future US invasion."
+    },
+    {
+     "id": "c",
+     "text": "Kennedy publicly welcomed Soviet weapons in Cuba",
+     "correct": false,
+     "explanation": "He warned against them on 4 September."
+    },
+    {
+     "id": "d",
+     "text": "The missile sites were discovered in 1961",
+     "correct": false,
+     "explanation": "They were photographed on 14 October 1962."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R27",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps in the build-up to the crisis in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Eisenhower directs the CIA to plan an invasion of Cuba",
+     "year": 1960,
+     "month": 3,
+     "factId": "F-CUB-02"
+    },
+    {
+     "id": "b",
+     "text": "The US decides on the covert Operation Mongoose",
+     "year": 1961,
+     "month": 11,
+     "factId": "F-CUB-05"
+    },
+    {
+     "id": "c",
+     "text": "US intelligence reports expanded Soviet arms shipments to Cuba",
+     "year": 1962,
+     "factId": "F-CUB-06"
+    },
+    {
+     "id": "d",
+     "text": "The Kennedy administration suspends Mongoose, facing a greater threat",
+     "year": 1962,
+     "month": 10,
+     "factId": "F-CUB-06"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R28",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the failed Bay of Pigs invasion do to Castro's position?",
+   "factIds": [
+    "F-CUB-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Strengthened him, and he openly proclaimed socialism and closer ties with the USSR",
+     "correct": true,
+     "explanation": "Correct: the failed invasion backfired on Washington."
+    },
+    {
+     "id": "b",
+     "text": "Forced him from power",
+     "correct": false,
+     "explanation": "The opposite: he remained in power for decades."
+    },
+    {
+     "id": "c",
+     "text": "Made him distance Cuba from the Soviet Union",
+     "correct": false,
+     "explanation": "He moved closer to Moscow."
+    },
+    {
+     "id": "d",
+     "text": "Had no effect on his position",
+     "correct": false,
+     "explanation": "It strengthened him considerably."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R29",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each term to what it refers to.",
+   "pairs": [
+    {
+     "left": "Brigade 2506",
+     "right": "CIA-trained exiled Cubans who landed at the Bay of Pigs",
+     "explanation": "Defeated within two days, April 1961."
+    },
+    {
+     "left": "Operation Mongoose",
+     "right": "The covert programme to remove Castro launched in November 1961",
+     "explanation": "Suspended in October 1962 facing the missile crisis."
+    },
+    {
+     "left": "DEFCON 3",
+     "right": "The US alert level reached after Kennedy's television address",
+     "explanation": "It rose to DEFCON 2 by 24–25 October."
+    },
+    {
+     "left": "Quarantine",
+     "right": "Kennedy's naval blockade of Cuba, legally distinguished from an act of war",
+     "explanation": "Ordered 22 October 1962."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R30",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “US forces reached their highest alert level, DEFCON 1, when Kennedy addressed the nation on 22 October 1962.”",
+   "factIds": [
+    "F-CUB-10"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "US forces went to DEFCON 3 on 22 October, rising to DEFCON 2 by 24–25 October",
+     "correct": true,
+     "explanation": "Correct: DEFCON 1 was never reached."
+    },
+    {
+     "id": "b",
+     "text": "Kennedy did not address the nation",
+     "correct": false,
+     "explanation": "He did, on television."
+    },
+    {
+     "id": "c",
+     "text": "The address took place in November 1962",
+     "correct": false,
+     "explanation": "It took place on 22 October."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the DEFCON level is wrong."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R31",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Cuban Missile Crisis and its context (1959–1962). Is the Limited Test-Ban Treaty, in force from 10 October 1963, inside or outside the timeframe?",
+   "factIds": [
+    "F-CUB-18"
+   ],
+   "timeframe": [
+    1959,
+    1962
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: it can only be mentioned briefly as a later consequence",
+     "correct": true,
+     "explanation": "Correct: the question ends in 1962."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1963 is after 1962."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it resulted from the crisis",
+     "correct": false,
+     "explanation": "Causation does not change the timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R32",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what date did Kennedy say “Our problem is not merely Cuba but it is also Berlin”, according to Judt? (day of October)",
+   "factIds": [
+    "F-CUB-17"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 19,
+     "tolerance": 0,
+     "explanation": "19 October 1962, before the crisis became public."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, what did Khrushchev write to Kennedy on 26 October if war broke out?",
+   "factIds": [
+    "F-CUB-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "That it would not be in either side's power to stop it, 'for such is the logic of war'",
+     "correct": true,
+     "explanation": "Correct: Judt sees his aversion to war as genuine."
+    },
+    {
+     "id": "b",
+     "text": "That the USSR would strike first",
+     "correct": false,
+     "explanation": "Not what he wrote."
+    },
+    {
+     "id": "c",
+     "text": "That Cuba alone would fight",
+     "correct": false,
+     "explanation": "Not what he wrote."
+    },
+    {
+     "id": "d",
+     "text": "That the crisis was already over",
+     "correct": false,
+     "explanation": "It was not resolved until 28 October."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2081,6 +2511,286 @@
      "text": "The Limited Test Ban Treaty",
      "answer": "effects",
      "explanation": "October 1963."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent did the Bay of Pigs invasion of 1961 shape US policy towards Cuba in the period leading to the missile crisis?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "the Bay of Pigs invasion of 1961",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "shape US policy towards Cuba",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "leading to the missile crisis",
+     "answer": "timeframe",
+     "explanation": "1961 to October 1962."
+    },
+    {
+     "id": "s5",
+     "text": "shape",
+     "answer": "judgement",
+     "explanation": "Did it cause Mongoose, or was covert action already likely?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent did the Bay of Pigs invasion shape US policy towards Cuba before the missile crisis?” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Bay of Pigs' failure discredited open invasion and pushed Washington towards covert action through Operation Mongoose, which was itself overtaken by the far greater threat of Soviet missiles in October 1962.",
+     "correct": true,
+     "explanation": "Correct: traces a clear line of policy change."
+    },
+    {
+     "id": "b",
+     "text": "The Bay of Pigs took place in April 1961.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The invasion was embarrassing.",
+     "correct": false,
+     "explanation": "No judgement of its effect on policy."
+    },
+    {
+     "id": "d",
+     "text": "The Bay of Pigs caused the missile crisis directly.",
+     "correct": false,
+     "explanation": "Overstated; Khrushchev's own decision in July 1962 mattered more directly."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The Kennedy administration suspended Operation Mongoose in October 1962.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "This shows that the missile crisis was judged a far more serious threat than removing Castro.",
+     "answer": "analysis",
+     "explanation": "Explains the significance."
+    },
+    {
+     "id": "s3",
+     "text": "US forces went to DEFCON 3 on 22 October and DEFCON 2 by 24–25 October.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s4",
+     "text": "This mattered because it signalled to Moscow how close the crisis had come to war.",
+     "answer": "analysis",
+     "explanation": "Explains why it mattered."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "The Office of the Historian calls it 'the moment the two superpowers came closest to nuclear conflict'",
+     "right": "The crisis was the most dangerous moment of the Cold War",
+     "explanation": "A direct historian's judgement."
+    },
+    {
+     "left": "US intelligence reported expanded Soviet arms shipments through spring and summer 1962",
+     "right": "Washington had warning signs before the missile sites were confirmed",
+     "explanation": "Yet the sites were only photographed on 14 October."
+    },
+    {
+     "left": "Kennedy declared any missile launch would be treated as a Soviet attack on the US",
+     "right": "Kennedy raised the stakes to deter any Soviet use of the missiles",
+     "explanation": "A direct nuclear threat in response."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “The crisis was very dangerous.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Office of the Historian calls the crisis the moment the superpowers came closest to nuclear war, as DEFCON levels rose from 3 to 2 between 22 and 25 October 1962.",
+     "correct": true,
+     "explanation": "Correct: specific, cited, and explains the danger."
+    },
+    {
+     "id": "b",
+     "text": "The crisis was scary for everyone involved.",
+     "correct": false,
+     "explanation": "Still vague, no evidence."
+    },
+    {
+     "id": "c",
+     "text": "Nobody knew what would happen.",
+     "correct": false,
+     "explanation": "Not analytical."
+    },
+    {
+     "id": "d",
+     "text": "The crisis lasted thirteen days.",
+     "correct": false,
+     "explanation": "A fact, not an analytical claim."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Bay of Pigs invasion was a total failure with no lasting consequences.” Pick the strongest counter.",
+   "options": [
+    {
+     "id": "a",
+     "text": "It strengthened Castro, who then openly sought closer ties with the USSR, setting the stage for the missile deployment",
+     "correct": true,
+     "explanation": "Correct: traces a direct chain of consequences."
+    },
+    {
+     "id": "b",
+     "text": "The invasion was launched from Guatemala",
+     "correct": false,
+     "explanation": "A fact about the operation, not a counter."
+    },
+    {
+     "id": "c",
+     "text": "Brigade 2506 was defeated within two days",
+     "correct": false,
+     "explanation": "Supports the claim rather than countering it."
+    },
+    {
+     "id": "d",
+     "text": "Castro came to power in 1959",
+     "correct": false,
+     "explanation": "Predates the invasion; not a counter."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The resolution of the Cuban Missile Crisis was a clear victory for the United States.’ Discuss.” Which conclusion best shows judgement?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The public Soviet climbdown strengthened Kennedy's image, but the secret removal of US Jupiter missiles from Turkey shows the outcome was a negotiated compromise rather than a one-sided victory",
+     "correct": true,
+     "explanation": "Correct: weighs the public and the secret terms together."
+    },
+    {
+     "id": "b",
+     "text": "The US won because the missiles were removed.",
+     "correct": false,
+     "explanation": "Ignores the secret Jupiter trade-off."
+    },
+    {
+     "id": "c",
+     "text": "Both sides gained something.",
+     "correct": false,
+     "explanation": "True but unspecific; no evidence given."
+    },
+    {
+     "id": "d",
+     "text": "Khrushchev was humiliated and lost all influence.",
+     "correct": false,
+     "explanation": "Overstated; he remained in power for two more years."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-CUBA-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Examine the causes and consequences of the Cuban Missile Crisis of 1962.” Sort each point into CAUSES or CONSEQUENCES.",
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Consequences"
+    }
+   ],
+   "segments": [
+    {
+     "id": "s1",
+     "text": "The failed Bay of Pigs invasion of April 1961 strengthened Castro's ties to the USSR",
+     "answer": "causes",
+     "explanation": "Part of the build-up to the crisis."
+    },
+    {
+     "id": "s2",
+     "text": "Khrushchev and Castro's secret July 1962 agreement to place missiles in Cuba",
+     "answer": "causes",
+     "explanation": "The immediate trigger."
+    },
+    {
+     "id": "s3",
+     "text": "A direct 'Hotline' was set up between the White House and the Kremlin",
+     "answer": "effects",
+     "explanation": "A result of the crisis."
+    },
+    {
+     "id": "s4",
+     "text": "Both superpowers took the first steps towards a test ban treaty",
+     "answer": "effects",
+     "explanation": "A longer-term result."
     }
    ]
   }

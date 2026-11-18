@@ -1681,6 +1681,418 @@
      "explanation": "It stayed divided."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did the US and Britain merge their zones to form 'Bizonia'? (year)",
+   "factIds": [
+    "F-BLK-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1947,
+     "tolerance": 0,
+     "explanation": "1 January 1947."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What broke down in March 1947, prompting Truman to announce his doctrine?",
+   "factIds": [
+    "F-BLK-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A foreign ministers' conference in Moscow",
+     "correct": true,
+     "explanation": "Correct: it broke down before the Marshall Plan was offered."
+    },
+    {
+     "id": "b",
+     "text": "The Potsdam conference",
+     "correct": false,
+     "explanation": "That was in 1945."
+    },
+    {
+     "id": "c",
+     "text": "The Yalta conference",
+     "correct": false,
+     "explanation": "That was in 1945."
+    },
+    {
+     "id": "d",
+     "text": "The Berlin airlift",
+     "correct": false,
+     "explanation": "That came later, in 1948."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R23",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these states signed the Brussels Pact in March 1948? Choose all that apply.",
+   "factIds": [
+    "F-BLK-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Britain",
+     "correct": true,
+     "explanation": "Yes, a founding member."
+    },
+    {
+     "id": "b",
+     "text": "France",
+     "correct": true,
+     "explanation": "Yes, a founding member."
+    },
+    {
+     "id": "c",
+     "text": "The Benelux states",
+     "correct": true,
+     "explanation": "Yes: Belgium, the Netherlands and Luxembourg."
+    },
+    {
+     "id": "d",
+     "text": "The Soviet Union",
+     "correct": false,
+     "explanation": "No: the Pact answered Soviet pressure."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R24",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which month of 1948 did Soviet authorities begin to interfere with traffic to Berlin, after Sokolovsky's walk-out? (number, 1-12)",
+   "factIds": [
+    "F-BLK-02"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 4,
+     "tolerance": 0,
+     "explanation": "From 1 April 1948."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R25",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these steps of 1948 towards the blockade in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Prague coup",
+     "year": 1948,
+     "month": 2,
+     "factId": "F-BLK-04"
+    },
+    {
+     "id": "b",
+     "text": "Brussels Pact signed",
+     "year": 1948,
+     "month": 3,
+     "factId": "F-BLK-04"
+    },
+    {
+     "id": "c",
+     "text": "Deutsche Mark announced",
+     "year": 1948,
+     "month": 6,
+     "factId": "F-BLK-05"
+    },
+    {
+     "id": "d",
+     "text": "France joins the Bizone",
+     "year": 1949,
+     "month": 4,
+     "factId": "F-BLK-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R26",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each event to what it led to.",
+   "pairs": [
+    {
+     "left": "The Prague coup, February 1948",
+     "right": "Convinced the West that Stalin had chosen confrontation",
+     "explanation": "It prompted the Brussels Pact the next month."
+    },
+    {
+     "left": "The Vandenberg Resolution, May 1948",
+     "right": "Opened the way to negotiations for NATO",
+     "explanation": "A peacetime alliance outside the Western Hemisphere."
+    },
+    {
+     "left": "The Marshall Plan, June 1947",
+     "right": "Offered aid that drew Western Europe into the American economic orbit",
+     "explanation": "Office of the Historian."
+    },
+    {
+     "left": "The London Conference, early 1948",
+     "right": "Agreed to plan a West German government",
+     "explanation": "An explicit departure from Potsdam, Judt argues."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R27",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Vandenberg Resolution of May 1948 opened the way to negotiations for the North Atlantic Treaty.” Which argument does it support best?",
+   "factIds": [
+    "F-BLK-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Berlin crisis built on a Western alliance already taking shape",
+     "correct": true,
+     "explanation": "Correct: NATO's path began before the blockade ended."
+    },
+    {
+     "id": "b",
+     "text": "NATO was founded only after the blockade began",
+     "correct": false,
+     "explanation": "The groundwork started in May 1948, before the worst of the crisis."
+    },
+    {
+     "id": "c",
+     "text": "The US Senate opposed any European alliance",
+     "correct": false,
+     "explanation": "The Resolution supported one."
+    },
+    {
+     "id": "d",
+     "text": "The Soviet Union joined NATO's negotiations",
+     "correct": false,
+     "explanation": "Not possible."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R28",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Soviets offered to lift the blockade only if NATO was dissolved.”",
+   "factIds": [
+    "F-BLK-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They offered to lift it if the West withdrew the Deutschmark from West Berlin",
+     "correct": true,
+     "explanation": "Correct: the Allies refused."
+    },
+    {
+     "id": "b",
+     "text": "The offer came in 1950",
+     "correct": false,
+     "explanation": "It came in 1948, during the blockade."
+    },
+    {
+     "id": "c",
+     "text": "The Soviets made no offer at all",
+     "correct": false,
+     "explanation": "They did make one."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: NATO was not mentioned."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R29",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Berlin Blockade (1948–1949). Is the Marshall Plan of June 1947 inside or outside the timeframe?",
+   "factIds": [
+    "F-BLK-01"
+   ],
+   "timeframe": [
+    1948,
+    1949
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: mention it briefly only as background to the crisis",
+     "correct": true,
+     "explanation": "Correct: it is a cause from before the question's own dates."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1947 is before 1948."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it caused the blockade",
+     "correct": false,
+     "explanation": "Causation does not widen the timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R30",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did the SED, the East German Communist party, do to the Berlin city council in September 1948?",
+   "factIds": [
+    "F-BLK-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Forced it to adjourn",
+     "correct": true,
+     "explanation": "Correct: part of the pressure that provoked the Reichstag rally."
+    },
+    {
+     "id": "b",
+     "text": "Dissolved it permanently",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "c",
+     "text": "Merged it with the Western councils",
+     "correct": false,
+     "explanation": "The opposite direction."
+    },
+    {
+     "id": "d",
+     "text": "Gave it control of the airlift",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to the 1945 agreements, what access route to Berlin was guaranteed in writing?",
+   "factIds": [
+    "F-BLK-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The air corridors",
+     "correct": true,
+     "explanation": "Correct: no written guarantee covered road or rail access."
+    },
+    {
+     "id": "b",
+     "text": "The road routes",
+     "correct": false,
+     "explanation": "Not guaranteed in writing."
+    },
+    {
+     "id": "c",
+     "text": "The rail routes",
+     "correct": false,
+     "explanation": "Not guaranteed in writing."
+    },
+    {
+     "id": "d",
+     "text": "The canal routes",
+     "correct": false,
+     "explanation": "Not guaranteed in writing."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R32",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In which month of 1949 did Stalin first publicly offer to lift the blockade, before actually ending it in May? (number, 1-12)",
+   "factIds": [
+    "F-BLK-14"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1,
+     "tolerance": 0,
+     "explanation": "31 January 1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-R33",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “The Prague coup of February 1948 convinced the West that Stalin had chosen confrontation.” Which argument does it support best?",
+   "factIds": [
+    "F-BLK-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Events outside Germany hardened Western attitudes before the blockade began",
+     "correct": true,
+     "explanation": "Correct: it helped produce the Brussels Pact the same month."
+    },
+    {
+     "id": "b",
+     "text": "Czechoslovakia caused the currency reform directly",
+     "correct": false,
+     "explanation": "Overstated; it was one hardening factor among several."
+    },
+    {
+     "id": "c",
+     "text": "The coup reassured the West about Soviet intentions",
+     "correct": false,
+     "explanation": "The opposite: it alarmed the West."
+    },
+    {
+     "id": "d",
+     "text": "The coup took place in Berlin",
+     "correct": false,
+     "explanation": "It took place in Czechoslovakia."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2047,6 +2459,288 @@
      "text": "NATO and a US commitment to Europe",
      "answer": "effects",
      "explanation": "1949."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the aims of Stalin and the Western powers in the Berlin crisis of 1948–1949.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Give similarities and differences."
+    },
+    {
+     "id": "s2",
+     "text": "the aims of Stalin and the Western powers",
+     "answer": "factor",
+     "explanation": "The two sides to compare."
+    },
+    {
+     "id": "s3",
+     "text": "in the Berlin crisis",
+     "answer": "scope",
+     "explanation": "What is being compared."
+    },
+    {
+     "id": "s4",
+     "text": "1948–1949",
+     "answer": "timeframe",
+     "explanation": "The blockade and airlift."
+    },
+    {
+     "id": "s5",
+     "text": "aims",
+     "answer": "judgement",
+     "explanation": "Which side's aims mattered more, and why."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-D12",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Discuss the view that the Berlin Blockade was a victory for the West with reference to the period 1948 to 1949.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss the view that",
+     "answer": "verb",
+     "explanation": "Offer a considered review, for and against."
+    },
+    {
+     "id": "s2",
+     "text": "the Berlin Blockade",
+     "answer": "factor",
+     "explanation": "The event to assess."
+    },
+    {
+     "id": "s3",
+     "text": "was a victory for the West",
+     "answer": "scope",
+     "explanation": "The claim being tested."
+    },
+    {
+     "id": "s4",
+     "text": "1948 to 1949",
+     "answer": "timeframe",
+     "explanation": "From the currency reform to the end of the blockade."
+    },
+    {
+     "id": "s5",
+     "text": "victory",
+     "answer": "judgement",
+     "explanation": "A complete victory, a limited one, or a shared outcome?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-D13",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons why the Berlin airlift succeeded between 1948 and 1949.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The airlift succeeded because it used the one access route the Soviets could not legally block without starting a war, because West Berliners' own resistance kept the Allies committed, and because its growing efficiency proved it could be sustained indefinitely.",
+     "correct": true,
+     "explanation": "Correct: several weighed reasons, not just one."
+    },
+    {
+     "id": "b",
+     "text": "The airlift began in June 1948.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The airlift was impressive.",
+     "correct": false,
+     "explanation": "No reasoning."
+    },
+    {
+     "id": "d",
+     "text": "The airlift succeeded because Stalin wanted it to.",
+     "correct": false,
+     "explanation": "Inaccurate: Stalin opposed it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-D14",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 18 June 1948 the Western powers announced the Deutsche Mark.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because the currency reform threatened Soviet economic control of Berlin, Stalin answered with a blockade rather than negotiation.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "300,000 West Berliners rallied at the Reichstag in September 1948.",
+     "answer": "narrative",
+     "explanation": "A dated event."
+    },
+    {
+     "id": "s4",
+     "text": "This mattered because it showed the Allies that abandoning West Berlin would also mean abandoning its people, which kept them committed to the airlift.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-D15",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "The Vandenberg Resolution of May 1948",
+     "right": "A Western alliance was already taking shape before the worst of the crisis",
+     "explanation": "It opened the way to NATO."
+    },
+    {
+     "left": "The Brussels Pact of March 1948",
+     "right": "European defence cooperation began before the blockade",
+     "explanation": "Britain, France and the Benelux states."
+    },
+    {
+     "left": "56 US atomic bombs with no settled policy on their use",
+     "right": "American nuclear superiority was real but its use was uncertain",
+     "explanation": "Judt's qualification."
+    },
+    {
+     "left": "The SED forcing the city council to adjourn, September 1948",
+     "right": "Soviet pressure on Berlin's own institutions, not just its supply lines",
+     "explanation": "Part of the wider pressure campaign."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-D16",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Stalin lost.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because he was not prepared to risk war over Berlin, Stalin could not stop the airlift once it proved sustainable, so on 12 May 1949 he ended the blockade in return for nothing more than a foreign ministers' conference.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and consequence."
+    },
+    {
+     "id": "b",
+     "text": "Stalin lost badly.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "The blockade ended in May 1949.",
+     "correct": false,
+     "explanation": "Narrative only."
+    },
+    {
+     "id": "d",
+     "text": "Stalin never recovered from the defeat.",
+     "correct": false,
+     "explanation": "Unsupported overstatement."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-D17",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Berlin Blockade was caused only by the Western currency reform.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet interference with traffic to Berlin had already begun on 1 April 1948, more than two months before the Deutsche Mark was announced, after the London Conference's plans for a West German state and the Soviet walk-out from the Allied Control Council.",
+     "correct": true,
+     "explanation": "Correct: a deeper, earlier cause with evidence."
+    },
+    {
+     "id": "b",
+     "text": "The currency reform was unpopular.",
+     "correct": false,
+     "explanation": "Not a counter to causation."
+    },
+    {
+     "id": "c",
+     "text": "Stalin disliked the Deutsche Mark.",
+     "correct": false,
+     "explanation": "Restates the claim rather than countering it."
+    },
+    {
+     "id": "d",
+     "text": "Currency reforms are always controversial.",
+     "correct": false,
+     "explanation": "Too general, no Berlin evidence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-BLOCKADE-D18",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘Stalin's handling of the Berlin crisis was a serious misjudgement.’ Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by what Stalin achieved, the blockade was a misjudgement: he secured neither Western withdrawal nor the end of a West German state, and instead hastened both; judged by the risk he took, it was cautious, since he avoided war throughout.",
+     "correct": true,
+     "explanation": "Correct: two criteria, genuinely weighed."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, Stalin blockaded Berlin in 1948.",
+     "correct": false,
+     "explanation": "A recap, not a judgement."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Stalin was wrong.",
+     "correct": false,
+     "explanation": "No criterion given."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, crises are unpredictable.",
+     "correct": false,
+     "explanation": "Too general."
     }
    ]
   }

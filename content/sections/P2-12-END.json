@@ -1705,6 +1705,439 @@
      "explanation": "That was Gorbachev on Afghanistan."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-END-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "In what year did Reagan take office as President, the start of a shift from détente to confrontation? (year)",
+   "factIds": [
+    "F-END-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 1981,
+     "tolerance": 0,
+     "explanation": "January 1981."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was Korean Airlines Flight 007, one of the three events of autumn 1983?",
+   "factIds": [
+    "F-END-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A civilian airliner shot down by the Soviets",
+     "correct": true,
+     "explanation": "Correct: alongside the missile deployments and the Geneva walk-out."
+    },
+    {
+     "id": "b",
+     "text": "A US spy plane",
+     "correct": false,
+     "explanation": "It was a civilian airliner."
+    },
+    {
+     "id": "c",
+     "text": "A Soviet satellite",
+     "correct": false,
+     "explanation": "Not what it was."
+    },
+    {
+     "id": "d",
+     "text": "A NATO military exercise",
+     "correct": false,
+     "explanation": "Not what it was."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R23",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these stages of the Polish transition in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Solidarity formed",
+     "year": 1980,
+     "month": 8,
+     "factId": "F-END-13"
+    },
+    {
+     "id": "b",
+     "text": "Round Table talks open",
+     "year": 1989,
+     "month": 2,
+     "factId": "F-END-13"
+    },
+    {
+     "id": "c",
+     "text": "Agreement allows free elections for 35% of the Sejm",
+     "year": 1989,
+     "month": 4,
+     "factId": "F-END-13"
+    },
+    {
+     "id": "d",
+     "text": "Solidarity wins a crushing election victory",
+     "year": 1989,
+     "month": 6,
+     "factId": "F-END-13"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R24",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each verdict to who gave it.",
+   "pairs": [
+    {
+     "left": "Office of the Historian",
+     "right": "The Cold War ended 'nearly entirely peacefully, and on U.S. terms'",
+     "explanation": "Favours Reagan's role."
+    },
+    {
+     "left": "Tony Judt",
+     "right": "The US played 'a remarkably small part in the dramas of 1989'",
+     "explanation": "Favours Gorbachev's role."
+    },
+    {
+     "left": "Yegor Ligachev",
+     "right": "Admitted Afghanistan ruled out force in Eastern Europe",
+     "explanation": "A Politburo member's verdict."
+    },
+    {
+     "left": "James Baker",
+     "right": "Called 1990 'the world turned upside down'",
+     "explanation": "On superpower cooperation over Kuwait."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened in December 1989? Choose all that apply.",
+   "factIds": [
+    "F-END-15",
+    "F-END-16"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bush and Gorbachev met at Malta",
+     "correct": true,
+     "explanation": "Yes: 2 December."
+    },
+    {
+     "id": "b",
+     "text": "Havel was elected President of Czechoslovakia",
+     "correct": true,
+     "explanation": "Yes: 29 December."
+    },
+    {
+     "id": "c",
+     "text": "Ceauşescu was executed",
+     "correct": true,
+     "explanation": "Yes: 25 December."
+    },
+    {
+     "id": "d",
+     "text": "The Berlin Wall came down",
+     "correct": false,
+     "explanation": "No: that was 9 November."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R26",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Reagan agreed to abide by SALT II until its expiry in December 1985 while pursuing deeper cuts through START.” Which argument does it support best?",
+   "factIds": [
+    "F-END-20"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Reagan combined continuity in arms control with a push for new, deeper reductions",
+     "correct": true,
+     "explanation": "Correct: not pure confrontation."
+    },
+    {
+     "id": "b",
+     "text": "Reagan tore up every existing arms treaty at once",
+     "correct": false,
+     "explanation": "He kept within SALT II's limits."
+    },
+    {
+     "id": "c",
+     "text": "Reagan refused any negotiation on arms control",
+     "correct": false,
+     "explanation": "He pursued START."
+    },
+    {
+     "id": "d",
+     "text": "SALT II was abandoned in his first week in office",
+     "correct": false,
+     "explanation": "He abided by it until its expiry."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R27",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “In the autumn of 1983 Reagan and Gorbachev signed the INF Treaty.”",
+   "factIds": [
+    "F-END-04",
+    "F-END-09"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "1983 was the Cold War's nadir (KAL 007, missile deployments, the Geneva walk-out); the INF Treaty followed in December 1987",
+     "correct": true,
+     "explanation": "Correct: four years apart, and Gorbachev was not yet in power in 1983."
+    },
+    {
+     "id": "b",
+     "text": "The INF Treaty was never signed",
+     "correct": false,
+     "explanation": "It was signed, in December 1987."
+    },
+    {
+     "id": "c",
+     "text": "1983 was a year of reconciliation",
+     "correct": false,
+     "explanation": "It was the lowest point of the decade."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: Gorbachev only came to power in 1985."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R28",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the end of the Cold War between 1985 and 1991. Is the founding of Solidarity in August 1980 inside or outside the timeframe?",
+   "factIds": [
+    "F-END-13"
+   ],
+   "timeframe": [
+    1985,
+    1991
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: use it briefly as background to Solidarity's 1989 election victory",
+     "correct": true,
+     "explanation": "Correct: the question begins in 1985."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1980 is before 1985."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because Solidarity later won in 1989",
+     "correct": false,
+     "explanation": "The founding date itself is outside."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R29",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the Krefeld Appeal of November 1980?",
+   "factIds": [
+    "F-END-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A petition against new NATO missiles that gathered 2.7 million signatures",
+     "correct": true,
+     "explanation": "Correct: part of the revived peace movement."
+    },
+    {
+     "id": "b",
+     "text": "A Soviet arms-control proposal",
+     "correct": false,
+     "explanation": "It was a Western European petition."
+    },
+    {
+     "id": "c",
+     "text": "A treaty between NATO and the Warsaw Pact",
+     "correct": false,
+     "explanation": "Not a treaty."
+    },
+    {
+     "id": "d",
+     "text": "A speech by Reagan",
+     "correct": false,
+     "explanation": "It was a popular petition."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R30",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what day of December 1989 did Bush and Gorbachev meet at Malta? (number)",
+   "factIds": [
+    "F-END-16"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 2,
+     "tolerance": 0,
+     "explanation": "2 December 1989."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What tested the new US-Soviet relationship in August 1990?",
+   "factIds": [
+    "F-END-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Iraq's invasion of Kuwait, which Gorbachev did not obstruct",
+     "correct": true,
+     "explanation": "Correct: James Baker called it 'the world turned upside down'."
+    },
+    {
+     "id": "b",
+     "text": "A new Soviet invasion of Afghanistan",
+     "correct": false,
+     "explanation": "Soviet troops had already left by 1989."
+    },
+    {
+     "id": "c",
+     "text": "A second Berlin blockade",
+     "correct": false,
+     "explanation": "Not what happened."
+    },
+    {
+     "id": "d",
+     "text": "The reimposition of the Brezhnev Doctrine",
+     "correct": false,
+     "explanation": "Gorbachev had abandoned it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R32",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Judt calls the Afghan war 'a catastrophe for the Soviet Union': a decade-long war of attrition and an international humiliation.” Which argument does it support best?",
+   "factIds": [
+    "F-END-08"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The war weakened Soviet prestige as well as its military and finances",
+     "correct": true,
+     "explanation": "Correct: a humiliation, not only a cost."
+    },
+    {
+     "id": "b",
+     "text": "The war strengthened Soviet standing abroad",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The war was a quick victory",
+     "correct": false,
+     "explanation": "It was a decade-long war of attrition."
+    },
+    {
+     "id": "d",
+     "text": "The war had no effect on Soviet policy",
+     "correct": false,
+     "explanation": "It ruled out force in Eastern Europe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-R33",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, which of these are true of Reagan's arms build-up? Choose all that apply.",
+   "factIds": [
+    "F-END-06",
+    "F-END-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It raised the cost of the arms race for the USSR",
+     "correct": true,
+     "explanation": "Yes: a real pressure."
+    },
+    {
+     "id": "b",
+     "text": "It made the old Soviet leadership less disposed to compromise in the short run",
+     "correct": true,
+     "explanation": "Yes: Judt's view of SDI's effect."
+    },
+    {
+     "id": "c",
+     "text": "It alone bankrupted and broke the Soviet system",
+     "correct": false,
+     "explanation": "Judt calls this 'not quite accurate'."
+    },
+    {
+     "id": "d",
+     "text": "It directly caused the 1989 revolutions",
+     "correct": false,
+     "explanation": "Judt gives the US 'a remarkably small part' in 1989."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2071,6 +2504,288 @@
      "text": "Improved relations with the West",
      "answer": "effects",
      "explanation": "From the INF Treaty to Malta."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the roles of the United States and the Soviet Union in ending the Cold War between 1985 and 1991.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Similarities and differences, explicitly linked."
+    },
+    {
+     "id": "s2",
+     "text": "the United States and the Soviet Union",
+     "answer": "factor",
+     "explanation": "The two actors to compare."
+    },
+    {
+     "id": "s3",
+     "text": "the roles … in ending the Cold War",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1985 and 1991",
+     "answer": "timeframe",
+     "explanation": "From Gorbachev's accession to the Soviet collapse."
+    },
+    {
+     "id": "s5",
+     "text": "roles",
+     "answer": "judgement",
+     "explanation": "Which side's choices mattered more, and why."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-D12",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Evaluate the role of arms control agreements in ending the Cold War between 1985 and 1991.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Evaluate",
+     "answer": "verb",
+     "explanation": "Weigh strengths and limits, then judge."
+    },
+    {
+     "id": "s2",
+     "text": "arms control agreements",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the role … in ending the Cold War",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "between 1985 and 1991",
+     "answer": "timeframe",
+     "explanation": "From the INF Treaty to the Soviet collapse."
+    },
+    {
+     "id": "s5",
+     "text": "role",
+     "answer": "judgement",
+     "explanation": "Whether treaties caused the end or only reflected it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-D13",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Analyse the reasons for the collapse of Communist regimes in Eastern Europe in 1989.” Pick the thesis that answers it.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The regimes collapsed because Gorbachev removed the guarantee of Soviet intervention, which allowed long-standing popular opposition and economic failure to bring them down.",
+     "correct": true,
+     "explanation": "Correct: connects Soviet restraint to popular causes."
+    },
+    {
+     "id": "b",
+     "text": "The Berlin Wall fell on 9 November 1989.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The regimes were disliked.",
+     "correct": false,
+     "explanation": "Too vague."
+    },
+    {
+     "id": "d",
+     "text": "NATO invaded Eastern Europe.",
+     "correct": false,
+     "explanation": "Inaccurate."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-D14",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "At Malta on 2 December 1989, Bush and Gorbachev met aboard ship.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because Gorbachev no longer treated the Cold War as an ideological struggle, the two leaders could treat Malta as a turning point rather than another round of bargaining.",
+     "answer": "analysis",
+     "explanation": "Explains significance."
+    },
+    {
+     "id": "s3",
+     "text": "Gorbachev made clear that the Brezhnev Doctrine had been abandoned.",
+     "answer": "narrative",
+     "explanation": "A statement of fact."
+    },
+    {
+     "id": "s4",
+     "text": "This meant that Eastern European regimes lost their final guarantee, so their survival now depended on their own, rapidly weakening, popularity.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-D15",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "The Krefeld Appeal gathered 2.7 million signatures",
+     "right": "NATO's missile deployments revived the Western European peace movement",
+     "explanation": "November 1980."
+    },
+    {
+     "left": "KAL 007, the missile deployments and the Geneva walk-out all in autumn 1983",
+     "right": "1983 was the nadir of US-Soviet relations",
+     "explanation": "Three crises at once."
+    },
+    {
+     "left": "Reagan kept within SALT II's limits while pursuing START",
+     "right": "Reagan combined pressure with continuity in arms control",
+     "explanation": "Not pure confrontation."
+    },
+    {
+     "left": "Gorbachev did not stand in Washington's way over Kuwait",
+     "right": "By 1990 the superpowers were cooperating, not competing",
+     "explanation": "'The world turned upside down' (Baker)."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-D16",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Reagan was tough on the Soviet Union.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because Reagan wanted to restore American strength, he modernised US forces, called the USSR an 'evil empire' and announced SDI in 1983, which raised the cost of the arms race for a Soviet system already spending 30-40 per cent of its resources on the military.",
+     "correct": true,
+     "explanation": "Correct: motive, evidence and effect."
+    },
+    {
+     "id": "b",
+     "text": "Reagan was really tough.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Reagan became President in 1981.",
+     "correct": false,
+     "explanation": "Narrative."
+    },
+    {
+     "id": "d",
+     "text": "Reagan hated the Soviet Union.",
+     "correct": false,
+     "explanation": "Unsupported and overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-D17",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Gorbachev alone ended the Cold War; Reagan's policies made no real difference.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "At their peak 30-40 per cent of Soviet resources went to the military, four to five times the American share, so Reagan's rearmament raised the cost of the arms race that Gorbachev inherited and had to address.",
+     "correct": true,
+     "explanation": "Correct: structural pressure predated Gorbachev's choices."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was young.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    },
+    {
+     "id": "c",
+     "text": "Reagan was a former actor.",
+     "correct": false,
+     "explanation": "Not a counter-argument."
+    },
+    {
+     "id": "d",
+     "text": "The USSR was a large country.",
+     "correct": false,
+     "explanation": "Too general."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-END-D18",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Compare and contrast the roles of the United States and the Soviet Union in ending the Cold War between 1985 and 1991.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by who could stop the arms race, both sides contributed through the INF Treaty; but judged by who could let Eastern Europe go, only the Soviet Union held that power, which makes its restraint the more decisive difference.",
+     "correct": true,
+     "explanation": "Correct: two criteria, a weighed judgement."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, both countries played a role.",
+     "correct": false,
+     "explanation": "A recap with no weighing."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, the US was more important.",
+     "correct": false,
+     "explanation": "No criterion given."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, the Cold War ended in 1991.",
+     "correct": false,
+     "explanation": "A fact, not a judgement."
     }
    ]
   }

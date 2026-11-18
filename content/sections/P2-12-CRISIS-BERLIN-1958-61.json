@@ -1663,6 +1663,435 @@
      "explanation": "Not what he said."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what day of November 1958 did Khrushchev first demand that Western forces leave Berlin? (number)",
+   "factIds": [
+    "F-B61-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 10,
+     "tolerance": 0,
+     "explanation": "10 November 1958."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "According to Judt, why could West Berlin no longer be supplied by a 1948-style airlift by 1958?",
+   "factIds": [
+    "F-B61-02"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It had become too populous and prosperous",
+     "correct": true,
+     "explanation": "Correct: the city had grown since 1949."
+    },
+    {
+     "id": "b",
+     "text": "The Soviets had banned all flights permanently",
+     "correct": false,
+     "explanation": "Not the reason given."
+    },
+    {
+     "id": "c",
+     "text": "Tempelhof airport had closed",
+     "correct": false,
+     "explanation": "Not the reason given."
+    },
+    {
+     "id": "d",
+     "text": "West Berlin had been evacuated",
+     "correct": false,
+     "explanation": "It had not."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R23",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of the Berlin crisis in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Khrushchev and Eisenhower meet at Camp David",
+     "year": 1959,
+     "factId": "F-B61-05"
+    },
+    {
+     "id": "b",
+     "text": "The U-2 spy plane is shot down",
+     "year": 1960,
+     "factId": "F-B61-05"
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev threatens to 'liquidate' Western rights at the Vienna summit",
+     "year": 1961,
+     "month": 6,
+     "factId": "F-B61-06"
+    },
+    {
+     "id": "d",
+     "text": "The Berlin Wall goes up",
+     "year": 1961,
+     "month": 8,
+     "factId": "F-B61-10"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R24",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "How did Kennedy respond to Khrushchev's Vienna ultimatum of June 1961?",
+   "factIds": [
+    "F-B61-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He activated 150,000 reservists and increased defence spending",
+     "correct": true,
+     "explanation": "Correct: a show of resolve."
+    },
+    {
+     "id": "b",
+     "text": "He withdrew US forces from Berlin",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "He declared war on the Soviet Union",
+     "correct": false,
+     "explanation": "No war followed."
+    },
+    {
+     "id": "d",
+     "text": "He agreed to make Berlin a free city",
+     "correct": false,
+     "explanation": "He rejected that demand."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R25",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these happened after the Wall went up in August 1961? Choose all that apply.",
+   "factIds": [
+    "F-B61-09",
+    "F-B61-12"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "US and Soviet tanks faced off at a checkpoint",
+     "correct": true,
+     "explanation": "Yes: over checking diplomats' documents."
+    },
+    {
+     "id": "b",
+     "text": "Kennedy publicly reasserted the Western commitment to West Berlin",
+     "correct": true,
+     "explanation": "Yes, once East Germany began restricting travel."
+    },
+    {
+     "id": "c",
+     "text": "War broke out between the superpowers",
+     "correct": false,
+     "explanation": "No: the standoff ended without fighting."
+    },
+    {
+     "id": "d",
+     "text": "The Wall was removed within weeks",
+     "correct": false,
+     "explanation": "It stood until 1989."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R26",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each person or group to their role in the crisis.",
+   "pairs": [
+    {
+     "left": "Khrushchev",
+     "right": "Threatened to 'liquidate' Western rights in Berlin at Vienna, June 1961",
+     "explanation": "Judt."
+    },
+    {
+     "left": "Kennedy",
+     "right": "Activated 150,000 reservists after the Vienna ultimatum",
+     "explanation": "A show of resolve."
+    },
+    {
+     "left": "Ulbricht",
+     "right": "Ordered the barbed-wire fence put up overnight on 13 August 1961",
+     "explanation": "The East German leader."
+    },
+    {
+     "left": "Western leaders, privately",
+     "right": "Secretly relieved, since the Wall was 'a far better outcome than a war'",
+     "explanation": "Judt's assessment."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R27",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “After Sputnik in 1957 Khrushchev boasted of Soviet technological superiority and growing ICBM stockpiles.” Which argument does it support best?",
+   "factIds": [
+    "F-B61-18"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Khrushchev pressed his Berlin ultimatum from a position of apparent strength",
+     "correct": true,
+     "explanation": "Correct: Sputnik shaped his confidence."
+    },
+    {
+     "id": "b",
+     "text": "The USSR had fallen behind the US in missile technology",
+     "correct": false,
+     "explanation": "Khrushchev claimed the opposite."
+    },
+    {
+     "id": "c",
+     "text": "Sputnik had no connection to the Berlin crisis",
+     "correct": false,
+     "explanation": "It shaped Khrushchev's confidence."
+    },
+    {
+     "id": "d",
+     "text": "The US launched Sputnik",
+     "correct": false,
+     "explanation": "The USSR did, in 1957."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R28",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The Berlin Wall was torn down the same year it was built, in 1961.”",
+   "factIds": [
+    "F-B61-17"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Wall remained in place until 9 November 1989",
+     "correct": true,
+     "explanation": "Correct: it stood for 28 years."
+    },
+    {
+     "id": "b",
+     "text": "The Wall was built in 1958",
+     "correct": false,
+     "explanation": "It went up in August 1961."
+    },
+    {
+     "id": "c",
+     "text": "The Wall was never completed",
+     "correct": false,
+     "explanation": "It was completed and reinforced over time."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: it stood for 28 years."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R29",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the Berlin Wall crisis (1958–1961). Is the Wall's fall on 9 November 1989 inside or outside the timeframe?",
+   "factIds": [
+    "F-B61-17"
+   ],
+   "timeframe": [
+    1958,
+    1961
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Outside: mention it only briefly as a later outcome",
+     "correct": true,
+     "explanation": "Correct: 1989 is well after 1961."
+    },
+    {
+     "id": "b",
+     "text": "Inside",
+     "correct": false,
+     "explanation": "No: 1989 is outside the given dates."
+    },
+    {
+     "id": "c",
+     "text": "Inside, because it concerns the same Wall",
+     "correct": false,
+     "explanation": "Topic does not widen the timeframe."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R30",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did many Western leaders privately feel when the Wall went up, according to Judt?",
+   "factIds": [
+    "F-B61-13"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Relief, since it was a far better outcome than a war",
+     "correct": true,
+     "explanation": "Correct: it resolved the crisis without fighting."
+    },
+    {
+     "id": "b",
+     "text": "Fury, and a demand for immediate retaliation",
+     "correct": false,
+     "explanation": "Not Judt's account."
+    },
+    {
+     "id": "c",
+     "text": "Total indifference",
+     "correct": false,
+     "explanation": "They were closely engaged with the crisis."
+    },
+    {
+     "id": "d",
+     "text": "Plans to tear the Wall down at once",
+     "correct": false,
+     "explanation": "No such plans followed."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R31",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What was the West's counter-argument to Khrushchev's claim that West Berlin violated the Potsdam agreements?",
+   "factIds": [
+    "F-B61-04"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The USSR had itself broken Potsdam by integrating East Berlin into the GDR",
+     "correct": true,
+     "explanation": "Correct: both sides accused the other of violation."
+    },
+    {
+     "id": "b",
+     "text": "Berlin was never covered by the Potsdam agreements",
+     "correct": false,
+     "explanation": "Not the argument made."
+    },
+    {
+     "id": "c",
+     "text": "The West had no counter-argument",
+     "correct": false,
+     "explanation": "It did have one, cited above."
+    },
+    {
+     "id": "d",
+     "text": "The West agreed to leave Berlin",
+     "correct": false,
+     "explanation": "It refused."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R32",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "On what day of August 1961 did the Allied foreign ministers meet in Paris and reject another Soviet note, directly before Moscow authorised the Wall? (number)",
+   "factIds": [
+    "F-B61-11"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 6,
+     "tolerance": 0,
+     "explanation": "6 August 1961."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-R33",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “Judt: the outcome showed the superpowers had more in common than they realised; both were tired of their German allies' demands.” Which argument does it support best?",
+   "factIds": [
+    "F-B61-14"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The Wall reflected a shared superpower interest in stability over their own allies' wishes",
+     "correct": true,
+     "explanation": "Correct: Judt's wider point about the crisis."
+    },
+    {
+     "id": "b",
+     "text": "The crisis proved the superpowers had nothing in common",
+     "correct": false,
+     "explanation": "The opposite of Judt's argument."
+    },
+    {
+     "id": "c",
+     "text": "East and West Germany controlled the outcome",
+     "correct": false,
+     "explanation": "Judt argues the superpowers, not their allies, decided it."
+    },
+    {
+     "id": "d",
+     "text": "The crisis ended in open war",
+     "correct": false,
+     "explanation": "It ended without fighting."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2029,6 +2458,288 @@
      "text": "Berlin ceased to be the main flashpoint",
      "answer": "effects",
      "explanation": "Judt."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“To what extent was Khrushchev's 1958 ultimatum the main cause of the Berlin Wall?”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "To what extent",
+     "answer": "verb",
+     "explanation": "Judge how far."
+    },
+    {
+     "id": "s2",
+     "text": "Khrushchev's 1958 ultimatum",
+     "answer": "factor",
+     "explanation": "The named factor."
+    },
+    {
+     "id": "s3",
+     "text": "the main cause of the Berlin Wall",
+     "answer": "scope",
+     "explanation": "What must be judged."
+    },
+    {
+     "id": "s4",
+     "text": "1958",
+     "answer": "timeframe",
+     "explanation": "Through to the Wall of 1961."
+    },
+    {
+     "id": "s5",
+     "text": "main cause",
+     "answer": "judgement",
+     "explanation": "Weigh the ultimatum against the U-2 incident, Vienna and East German travel restrictions."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D12",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Discuss the view that the Berlin Wall crisis was a victory for Khrushchev with reference to the period 1958 to 1961.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Discuss the view that",
+     "answer": "verb",
+     "explanation": "Offer a considered review, for and against."
+    },
+    {
+     "id": "s2",
+     "text": "the Berlin Wall crisis",
+     "answer": "factor",
+     "explanation": "The event to assess."
+    },
+    {
+     "id": "s3",
+     "text": "was a victory for Khrushchev",
+     "answer": "scope",
+     "explanation": "The claim being tested."
+    },
+    {
+     "id": "s4",
+     "text": "1958 to 1961",
+     "answer": "timeframe",
+     "explanation": "From the first ultimatum to the Wall."
+    },
+    {
+     "id": "s5",
+     "text": "victory",
+     "answer": "judgement",
+     "explanation": "A full victory, or one that also cost him his original aims?"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D13",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the reasons why Khrushchev's Berlin ultimatum failed to remove the Western powers from the city.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The ultimatum failed because the West refused to retreat under threat, because Kennedy matched Soviet pressure with reservists and defence spending, and because building a wall around West Berlin, not removing the Allies, proved the only outcome Khrushchev could actually enforce.",
+     "correct": true,
+     "explanation": "Correct: several weighed reasons."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev made an ultimatum in 1958.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "The ultimatum was aggressive.",
+     "correct": false,
+     "explanation": "No reasoning."
+    },
+    {
+     "id": "d",
+     "text": "The West had no response at all.",
+     "correct": false,
+     "explanation": "Inaccurate: Kennedy responded firmly."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D14",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 10 November 1958 Khrushchev demanded Western forces leave Berlin.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Because West Berlin was too populous to be supplied by a second airlift, Khrushchev calculated that economic pressure alone might force a Western withdrawal.",
+     "answer": "analysis",
+     "explanation": "Explains a mechanism."
+    },
+    {
+     "id": "s3",
+     "text": "On 13 August 1961 a barbed-wire fence went up overnight.",
+     "answer": "narrative",
+     "explanation": "A dated event."
+    },
+    {
+     "id": "s4",
+     "text": "This mattered because it let Khrushchev stop the exodus of East Germans without having to force the Western powers out of the city, so it solved his most urgent problem while abandoning his original aim.",
+     "answer": "analysis",
+     "explanation": "Explains a consequence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D15",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it supports.",
+   "pairs": [
+    {
+     "left": "Sputnik (1957) and Khrushchev's boasts of ICBM superiority",
+     "right": "Khrushchev pressed Berlin from a position of apparent strength",
+     "explanation": "Confidence after the satellite launch."
+    },
+    {
+     "left": "Kennedy's activation of 150,000 reservists",
+     "right": "The US matched Soviet pressure rather than retreating",
+     "explanation": "After the Vienna ultimatum, June 1961."
+    },
+    {
+     "left": "Judt's view that Western leaders were privately relieved by the Wall",
+     "right": "A wall was preferable to all sides than open war",
+     "explanation": "'A far better outcome than a war'."
+    },
+    {
+     "left": "The Wall standing until 9 November 1989",
+     "right": "The 1961 settlement proved durable for decades",
+     "explanation": "It outlasted the crisis that created it."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D16",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Khrushchev got what he wanted.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because East Germany was losing population to the West through Berlin, Khrushchev accepted a wall that solved this immediate problem, even though it meant abandoning his original 1958 demand that the Western powers leave the city entirely.",
+     "correct": true,
+     "explanation": "Correct: mechanism, evidence and a qualified judgement."
+    },
+    {
+     "id": "b",
+     "text": "Khrushchev got everything he wanted.",
+     "correct": false,
+     "explanation": "Still vague, and overstated."
+    },
+    {
+     "id": "c",
+     "text": "The Wall went up in August 1961.",
+     "correct": false,
+     "explanation": "Narrative only."
+    },
+    {
+     "id": "d",
+     "text": "Khrushchev won the Cold War.",
+     "correct": false,
+     "explanation": "Unsupported overstatement."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D17",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “The Berlin Wall crisis was a clear-cut Western victory.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judt argues the Wall also reassured the East German Communists and ended Berlin's role as the Cold War's main flashpoint, which suited both superpowers; the West kept its sectors, but it also had to accept the permanent loss of free movement into East Berlin.",
+     "correct": true,
+     "explanation": "Correct: a specific, evidenced limit on 'victory'."
+    },
+    {
+     "id": "b",
+     "text": "The Wall was ugly.",
+     "correct": false,
+     "explanation": "Not a historical argument."
+    },
+    {
+     "id": "c",
+     "text": "Khrushchev was angry about the outcome.",
+     "correct": false,
+     "explanation": "Too vague, no evidence."
+    },
+    {
+     "id": "d",
+     "text": "Berlin is a large city.",
+     "correct": false,
+     "explanation": "Irrelevant."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-BERLIN-1958-61-D18",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “‘The Berlin Wall crisis of 1958–1961 ended in a shared superpower interest rather than a clear victory for either side.’ Discuss.” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged by Khrushchev's original 1958 demand, the outcome was a defeat, since Western forces stayed in Berlin; judged by both superpowers' interest in stability over their own allies' wishes, Judt's reading holds, since the Wall ended the crisis without war for either side.",
+     "correct": true,
+     "explanation": "Correct: two criteria, genuinely weighed."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the Wall went up in 1961.",
+     "correct": false,
+     "explanation": "A recap, not a judgement."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Khrushchev was right.",
+     "correct": false,
+     "explanation": "No criterion given."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, walls are controversial.",
+     "correct": false,
+     "explanation": "Too general."
     }
    ]
   }

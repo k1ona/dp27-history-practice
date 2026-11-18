@@ -1695,6 +1695,445 @@
      "explanation": "It opened its border."
     }
    ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R21",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "By how many times did Czechoslovakia's hard-currency debt rise in the 1970s, according to Judt? (number, e.g. 'twelve' as a digit)",
+   "factIds": [
+    "F-EEU-01"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": 12,
+     "tolerance": 0,
+     "explanation": "Twelve-fold, while Poland's rose by some 3,000 per cent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R22",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What did Gierek do with the Western credit Poland borrowed in the 1970s, according to Judt?",
+   "factIds": [
+    "F-EEU-01"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Imported subsidised Western goods and froze food prices at 1965 levels",
+     "correct": true,
+     "explanation": "Correct: postponing the political cost of real prices."
+    },
+    {
+     "id": "b",
+     "text": "Invested it entirely in heavy industry",
+     "correct": false,
+     "explanation": "Not what Judt describes."
+    },
+    {
+     "id": "c",
+     "text": "Repaid Poland's earlier debts in full",
+     "correct": false,
+     "explanation": "Debt kept rising instead."
+    },
+    {
+     "id": "d",
+     "text": "Returned it to Western banks",
+     "correct": false,
+     "explanation": "Not what happened."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R23",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “In 1981 industrial productivity collapsed; seen from Warsaw and especially Moscow, the Polish regime was losing control and setting a bad example to its neighbours.” Which argument does it support best?",
+   "factIds": [
+    "F-EEU-07"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "By 1981 the crisis in Poland alarmed the Soviet leadership",
+     "correct": true,
+     "explanation": "Correct: a bad example to the rest of the bloc."
+    },
+    {
+     "id": "b",
+     "text": "Productivity rose sharply in 1981",
+     "correct": false,
+     "explanation": "It collapsed."
+    },
+    {
+     "id": "c",
+     "text": "Moscow was unconcerned by events in Poland",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "d",
+     "text": "The crisis was confined to Poland alone",
+     "correct": false,
+     "explanation": "It worried Moscow precisely because it might spread."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R24",
+   "kind": "retrieval",
+   "type": "cloze",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What fraction of a 1987 West German loan to Hungary went on interest alone, according to Judt? (e.g. 'half', 'a third', 'two-thirds')",
+   "factIds": [
+    "F-EEU-03"
+   ],
+   "blanks": [
+    {
+     "id": "1",
+     "answer": "two-thirds",
+     "accept": [
+      "two thirds",
+      "2/3"
+     ],
+     "tolerance": 0,
+     "explanation": "Two-thirds of the loan went straight to interest."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R25",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the USSR and Eastern Europe between 1981 and 1989. Is Schmidt's representative visiting Warsaw in February 1982 inside or outside the timeframe?",
+   "factIds": [
+    "F-EEU-11"
+   ],
+   "timeframe": [
+    1981,
+    1989
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside",
+     "correct": true,
+     "explanation": "Correct: February 1982 falls within 1981–1989."
+    },
+    {
+     "id": "b",
+     "text": "Outside: it is before the timeframe begins",
+     "correct": false,
+     "explanation": "No, the timeframe starts in 1981."
+    },
+    {
+     "id": "c",
+     "text": "Outside: it is after the timeframe ends",
+     "correct": false,
+     "explanation": "No, 1982 is well before 1989."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R26",
+   "kind": "retrieval",
+   "type": "multi_select",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Which of these were part of the West's divided response to martial law in Poland? Choose all that apply.",
+   "factIds": [
+    "F-EEU-10",
+    "F-EEU-11"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Reagan imposed further economic sanctions on Moscow",
+     "correct": true,
+     "explanation": "Yes, and curtailed academic exchanges."
+    },
+    {
+     "id": "b",
+     "text": "Schmidt sent a representative to Warsaw to ease Poland's isolation",
+     "correct": true,
+     "explanation": "Yes, in February 1982."
+    },
+    {
+     "id": "c",
+     "text": "Western European opinion was more troubled by Washington's rhetoric than by Warsaw's repression",
+     "correct": true,
+     "explanation": "Yes, per Judt."
+    },
+    {
+     "id": "d",
+     "text": "NATO sent troops into Poland",
+     "correct": false,
+     "explanation": "No troops were sent."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R27",
+   "kind": "retrieval",
+   "type": "match",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each figure to what they did in 1989.",
+   "pairs": [
+    {
+     "left": "Erich Honecker",
+     "right": "East German leader forced to resign after Gorbachev's October visit",
+     "explanation": "Weeks before the Wall fell."
+    },
+    {
+     "left": "Imre Nagy",
+     "right": "1956 Hungarian reformer, ceremonially reburied on 16 June 1989",
+     "explanation": "A symbol of rehabilitated reform."
+    },
+    {
+     "left": "Todor Zhivkov",
+     "right": "Long-time Bulgarian leader removed from power",
+     "explanation": "Replaced by a reformist Communist."
+    },
+    {
+     "left": "Yegor Ligachev",
+     "right": "Politburo member who admitted Afghanistan ruled out force in Eastern Europe",
+     "explanation": "Quoted by Judt."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R28",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "What role had the Warsaw Pact played in the Soviet bloc before the late 1980s?",
+   "factIds": [
+    "F-EEU-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The USSR used it to control most decisions and contain dissent, including in Poland in 1981",
+     "correct": true,
+     "explanation": "Correct: it was Moscow's main instrument of control."
+    },
+    {
+     "id": "b",
+     "text": "It was a purely economic organisation",
+     "correct": false,
+     "explanation": "It was a military alliance."
+    },
+    {
+     "id": "c",
+     "text": "It operated independently of Soviet influence",
+     "correct": false,
+     "explanation": "The USSR controlled most of its decisions."
+    },
+    {
+     "id": "d",
+     "text": "It excluded Poland",
+     "correct": false,
+     "explanation": "Poland was a member."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R29",
+   "kind": "retrieval",
+   "type": "which_argument",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Fact: “By the 1980s the Warsaw Pact was beset by economic slowdown, and by the late 1980s it was virtually ineffectual.” Which argument does it support best?",
+   "factIds": [
+    "F-EEU-21"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The instrument of Soviet control over the bloc had weakened well before 1989",
+     "correct": true,
+     "explanation": "Correct: economic decline hollowed it out."
+    },
+    {
+     "id": "b",
+     "text": "The Warsaw Pact grew stronger in the 1980s",
+     "correct": false,
+     "explanation": "The opposite."
+    },
+    {
+     "id": "c",
+     "text": "The Warsaw Pact invaded Poland in 1981",
+     "correct": false,
+     "explanation": "Polish forces, not the Pact, imposed martial law."
+    },
+    {
+     "id": "d",
+     "text": "The Warsaw Pact was founded in the 1980s",
+     "correct": false,
+     "explanation": "It long predated this period."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R30",
+   "kind": "retrieval",
+   "type": "spot_error",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Find the error: “The US financed, armed and directed the revolutions of 1989 throughout Eastern Europe.”",
+   "factIds": [
+    "F-EEU-22"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Judt says the US played 'a remarkably small part' in 1989, though Solidarity had been largely financed from the US",
+     "correct": true,
+     "explanation": "Correct: the US role was limited and mostly indirect."
+    },
+    {
+     "id": "b",
+     "text": "The US refused all contact with Solidarity",
+     "correct": false,
+     "explanation": "The US financed Solidarity."
+    },
+    {
+     "id": "c",
+     "text": "The revolutions happened in the 1950s",
+     "correct": false,
+     "explanation": "They happened in 1989."
+    },
+    {
+     "id": "d",
+     "text": "There is no error",
+     "correct": false,
+     "explanation": "There is: the US role was small, not directing."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R31",
+   "kind": "retrieval",
+   "type": "in_timeframe",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "A question asks about the USSR and Eastern Europe between 1981 and 1989. Is Honecker's forced resignation in October 1989 inside or outside the timeframe?",
+   "factIds": [
+    "F-EEU-19"
+   ],
+   "timeframe": [
+    1981,
+    1989
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Inside",
+     "correct": true,
+     "explanation": "Correct: October 1989 falls within 1981–1989."
+    },
+    {
+     "id": "b",
+     "text": "Outside: it is before the timeframe begins",
+     "correct": false,
+     "explanation": "No, 1989 is within the range."
+    },
+    {
+     "id": "c",
+     "text": "Outside: it is after the timeframe ends",
+     "correct": false,
+     "explanation": "No, the timeframe runs to the end of 1989."
+    },
+    {
+     "id": "d",
+     "text": "It depends on the command term",
+     "correct": false,
+     "explanation": "The command term does not change the timeframe."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R32",
+   "kind": "retrieval",
+   "type": "chronology",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Put these events of 1989 in order.",
+   "sequence": [
+    {
+     "id": "a",
+     "text": "Imre Nagy ceremonially reburied",
+     "year": 1989,
+     "month": 6,
+     "factId": "F-EEU-19"
+    },
+    {
+     "id": "b",
+     "text": "Hungary adopts a multi-party constitution",
+     "year": 1989,
+     "month": 10,
+     "factId": "F-EEU-19"
+    },
+    {
+     "id": "c",
+     "text": "Czechoslovakia gains a non-Communist government",
+     "year": 1989,
+     "month": 12,
+     "factId": "F-EEU-20"
+    },
+    {
+     "id": "d",
+     "text": "The Berlin Wall falls",
+     "year": 1989,
+     "month": 11,
+     "factId": "F-EEU-19"
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-R33",
+   "kind": "retrieval",
+   "type": "mcq",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Where had Soviet tanks crushed protest before 1981?",
+   "factIds": [
+    "F-EEU-15"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "East Berlin (1953), Hungary (1956) and Czechoslovakia (1968)",
+     "correct": true,
+     "explanation": "Correct: the precedents Solidarity's advisers feared repeating."
+    },
+    {
+     "id": "b",
+     "text": "Poland (1970) and Romania (1975)",
+     "correct": false,
+     "explanation": "Not the precedents named here."
+    },
+    {
+     "id": "c",
+     "text": "Nowhere before 1981",
+     "correct": false,
+     "explanation": "There was a clear history of intervention."
+    },
+    {
+     "id": "d",
+     "text": "Only inside the Soviet Union itself",
+     "correct": false,
+     "explanation": "These were satellite states, not the USSR."
+    }
+   ]
   }
  ],
  "drills": [
@@ -2061,6 +2500,274 @@
      "text": "A stand-off between state and society",
      "answer": "effects",
      "explanation": "Popiełuszko's funeral, 1984."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D11",
+   "kind": "drill",
+   "type": "decode",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Decode this question: tag each part.",
+   "sourceText": "“Compare and contrast the Soviet response to the Polish crisis of 1981 and to the revolutions of 1989.”",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "Compare and contrast",
+     "answer": "verb",
+     "explanation": "Find similarities and differences."
+    },
+    {
+     "id": "s2",
+     "text": "the Soviet response",
+     "answer": "factor",
+     "explanation": "The thing being compared."
+    },
+    {
+     "id": "s3",
+     "text": "to the Polish crisis of 1981 and to the revolutions of 1989",
+     "answer": "scope",
+     "explanation": "Two moments being set against each other."
+    },
+    {
+     "id": "s4",
+     "text": "1981 ... 1989",
+     "answer": "timeframe",
+     "explanation": "Both years named explicitly."
+    },
+    {
+     "id": "s5",
+     "text": "contrast",
+     "answer": "judgement",
+     "explanation": "Requires weighing what changed, not just listing events."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D12",
+   "kind": "drill",
+   "type": "pick_thesis",
+   "skill": "S11",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “Evaluate the role of Gorbachev in the collapse of Soviet control over Eastern Europe between 1985 and 1989.” Pick the best thesis.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gorbachev's abandonment of the Brezhnev Doctrine was decisive in removing the regimes' final guarantee, though Afghanistan and the bloc's economic collapse had already narrowed his choices.",
+     "correct": true,
+     "explanation": "Correct: weighs Gorbachev against prior constraints."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev became Soviet leader in 1985.",
+     "correct": false,
+     "explanation": "A fact, not a thesis."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev was a reformer.",
+     "correct": false,
+     "explanation": "No judgement on the question asked."
+    },
+    {
+     "id": "d",
+     "text": "Gorbachev caused nothing; the satellites acted alone.",
+     "correct": false,
+     "explanation": "Ignores his renunciation of force."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D13",
+   "kind": "drill",
+   "type": "narrative_or_analysis",
+   "skill": "S2",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Sort each sentence: narrative or analysis?",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On 13 December 1981 Jaruzelski declared martial law.",
+     "answer": "narrative",
+     "explanation": "States what happened."
+    },
+    {
+     "id": "s2",
+     "text": "Martial law suppressed Solidarity but could not solve the debt crisis that had caused the unrest, so it only postponed the regime's problem.",
+     "answer": "analysis",
+     "explanation": "Explains a causal limit, not just an event."
+    },
+    {
+     "id": "s3",
+     "text": "Gorbachev told the UN that freedom of choice was a universal principle.",
+     "answer": "narrative",
+     "explanation": "States what was said."
+    },
+    {
+     "id": "s4",
+     "text": "Because Moscow had removed the threat of force, the satellite regimes had to negotiate or collapse rather than repress opposition as before.",
+     "answer": "analysis",
+     "explanation": "Links cause to consequence."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D14",
+   "kind": "drill",
+   "type": "evidence_to_claim",
+   "skill": "S3",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Match each piece of evidence to the claim it best supports.",
+   "pairs": [
+    {
+     "left": "Eastern Europe's debt reached $95.6 billion by 1988",
+     "right": "The bloc's economies were unsustainable by the late 1980s",
+     "explanation": "Direct evidence of economic collapse."
+    },
+    {
+     "left": "Only Romania saw bloodshed in 1989",
+     "right": "Most of the 1989 revolutions were negotiated or peaceful",
+     "explanation": "Supports a claim about the character of the transitions."
+    },
+    {
+     "left": "Ligachev said Afghanistan ruled out force in Eastern Europe",
+     "right": "Soviet military constraints predated Gorbachev's own policy choices",
+     "explanation": "Shows a cause beyond Gorbachev's personal decision."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D15",
+   "kind": "drill",
+   "type": "upgrade_sentence",
+   "skill": "S4",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Vague sentence: “Poland had a lot of debt, which was bad.” Choose the best analytical upgrade.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Poland's hard-currency debt rose from $1 billion to $20.5 billion between 1971 and 1980, forcing the regime to raise prices, which provoked the 1980 strikes that created Solidarity.",
+     "correct": true,
+     "explanation": "Correct: named figures and a traced consequence."
+    },
+    {
+     "id": "b",
+     "text": "Poland had a lot of debt, which was bad for the economy.",
+     "correct": false,
+     "explanation": "Still vague."
+    },
+    {
+     "id": "c",
+     "text": "Poland borrowed money in the 1970s.",
+     "correct": false,
+     "explanation": "Narrative, no analysis."
+    },
+    {
+     "id": "d",
+     "text": "Debt caused everything that happened in Poland.",
+     "correct": false,
+     "explanation": "Overstated."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D16",
+   "kind": "drill",
+   "type": "strongest_counter",
+   "skill": "S12",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Claim: “Gorbachev single-handedly ended Soviet control of Eastern Europe.” Pick the strongest counter-argument.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The war in Afghanistan had already made further Soviet military deployment in Eastern Europe unthinkable before Gorbachev acted, as Ligachev later admitted.",
+     "correct": true,
+     "explanation": "Correct: a specific, named constraint that pre-dated his choice."
+    },
+    {
+     "id": "b",
+     "text": "Gorbachev was unpopular at home.",
+     "correct": false,
+     "explanation": "Not directly relevant to this claim."
+    },
+    {
+     "id": "c",
+     "text": "Gorbachev visited Berlin in October 1989.",
+     "correct": false,
+     "explanation": "Supports his role rather than countering it."
+    },
+    {
+     "id": "d",
+     "text": "The Berlin Wall fell on 9 November 1989.",
+     "correct": false,
+     "explanation": "An event, not a counter-argument."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D17",
+   "kind": "drill",
+   "type": "judgement_criterion",
+   "skill": "S13",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Question: “To what extent were economic problems the main cause of the crisis in Soviet control of Eastern Europe between 1981 and 1989?” Which conclusion weighs rather than recaps?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Judged against debt and living standards, economic failure explains both 1981 and 1989; judged against timing, it was Soviet policy under Gorbachev that decided when and how the crisis ended.",
+     "correct": true,
+     "explanation": "Correct: two criteria, weighed against each other."
+    },
+    {
+     "id": "b",
+     "text": "In conclusion, the economy was bad and then the regimes fell.",
+     "correct": false,
+     "explanation": "A recap, not a weighed judgement."
+    },
+    {
+     "id": "c",
+     "text": "In conclusion, Communism was always doomed to fail.",
+     "correct": false,
+     "explanation": "Too general, no criterion."
+    },
+    {
+     "id": "d",
+     "text": "In conclusion, Gorbachev was a good leader.",
+     "correct": false,
+     "explanation": "No criterion tied to the question."
+    }
+   ]
+  },
+  {
+   "itemId": "P2-12-CRISIS-EASTERN-EUROPE-D18",
+   "kind": "drill",
+   "type": "two_part_balance",
+   "skill": "S1",
+   "label": "Teacher-constructed practice material. Not an IB publication.",
+   "prompt": "Balance both halves of this judgement using named evidence.",
+   "segments": [
+    {
+     "id": "s1",
+     "text": "On one hand, economic failure (debt reaching $95.6 billion by 1988) created the opposition regimes could not satisfy.",
+     "answer": "causes",
+     "explanation": "The underlying, long-term cause."
+    },
+    {
+     "id": "s2",
+     "text": "On the other hand, it was Gorbachev's December 1988 renunciation of the Brezhnev Doctrine that removed the final barrier to change.",
+     "answer": "effects",
+     "explanation": "The immediate trigger that let the crisis become a collapse."
+    }
+   ],
+   "categories": [
+    {
+     "id": "causes",
+     "label": "Causes"
+    },
+    {
+     "id": "effects",
+     "label": "Effects"
     }
    ]
   }
