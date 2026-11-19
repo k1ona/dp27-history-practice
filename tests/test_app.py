@@ -419,6 +419,38 @@ def test_instant_feedback_explains_failures(browser, site_url, content):
     ctx.close()
 
 
+CONTRAST = """(el) => {
+  const rgb = (s) => (s.match(/[\\d.]+/g) || []).map(Number);
+  const lum = ([r, g, b]) => [r, g, b].map((v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; })
+    .reduce((a, v, i) => a + v * [0.2126, 0.7152, 0.0722][i], 0);
+  let bg = el, c;
+  while (bg) { c = rgb(getComputedStyle(bg).backgroundColor); if (c.length === 3 || c[3] > 0) break; bg = bg.parentElement; }
+  const [a, b] = [lum(rgb(getComputedStyle(el).color)), lum(c || [255, 255, 255])];
+  return (Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05);
+}"""
+
+
+def test_dark_mode_buttons_are_readable(browser, site_url, content):
+    """Regression: a dark-mode rule once gave every button dark text, hiding outline buttons and tappable sentences."""
+    ctx = browser.new_context(color_scheme="dark", service_workers="block")
+    page = ctx.new_page()
+    open_app(page, site_url)
+    sec = content[GLASNOST]
+    seed_gate(page, sec)
+    page.goto(site_url + f"#/s/{GLASNOST}/task/{sec['essayQuestions'][0]['questionId']}/paragraph")
+    page.wait_for_selector("#answer")
+    submit_answer(page, WEAK_PARAGRAPH)
+    checks = {".sentence-pick": None, "button.link": None}
+    for sel in checks:
+        checks[sel] = page.locator(sel).first.evaluate(CONTRAST)
+    finish_selfcheck(page)
+    for sel in ("#redraft", "#see-model"):
+        checks[sel] = page.locator(sel).evaluate(CONTRAST)
+    low = {k: round(v, 2) for k, v in checks.items() if v < 4.5}
+    assert not low, f"text contrast below 4.5:1 in dark mode: {low}"
+    ctx.close()
+
+
 def test_no_instant_feedback_button_without_class_server(page, site_url, content):
     open_app(page, site_url)
     write_paragraph(page, site_url, content)
@@ -497,7 +529,7 @@ def test_checkpoint_by_keyboard(page, site_url, content):
     expect(box.locator(".result")).to_contain_text("Correct")
 
 
-@pytest.mark.parametrize("size", [(768, 1024), (1024, 768), (1280, 800)], ids=["ipad-portrait", "ipad-landscape", "laptop-13"])
+@pytest.mark.parametrize("size", [(390, 844), (768, 1024), (1024, 768), (1280, 800)], ids=["phone", "ipad-portrait", "ipad-landscape", "laptop-13"])
 def test_no_horizontal_scroll(page, site_url, content, size):
     page.set_viewport_size({"width": size[0], "height": size[1]})
     open_app(page, site_url)
